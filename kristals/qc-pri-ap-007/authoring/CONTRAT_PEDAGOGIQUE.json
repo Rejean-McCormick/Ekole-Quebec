@@ -1,0 +1,99 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ap-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire l’organisation et les moyens expressifs d’une œuvre visuelle.",
+  "concepts": [
+    "composition",
+    "procédé",
+    "intention",
+    "contexte"
+  ],
+  "preuve_attendue": "Analyser une œuvre avec preuves visuelles spécifiques.",
+  "prerequis_bloquants": [
+    "qc-pri-ap-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ap-007-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Analyser une œuvre avec preuves visuelles spécifiques.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Scènes entièrement fixes; changer seulement le mode de présentation accessible (couleurs+lettres, coordonnées, tactile), jamais les grilles ni les indices attendus.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_scenarios": "Catalogue explicite M0–M5, A et B; pas de tirage ni de génération IA libre."
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-ap-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "grille visuelle codée 5×5",
+        "transcription spatiale et coordonnées",
+        "analyse orale, écrite, tactile ou assistée"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "catalogue_ferme": [
+          "M0",
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "A",
+          "B"
+        ],
+        "scenarios_maitrise": [
+          "A",
+          "B"
+        ],
+        "tirage_aleatoire": false
+      },
+      "contraintes": [
+        "description vérifiable de deux indices situés",
+        "organisation démontrée par relation entre indices",
+        "interprétation formulée comme hypothèse sans cartel d’intention",
+        "procédé physique inconnu si la fiche ne le décrit pas",
+        "séparation observation, contexte et interprétation",
+        "deux analyses autonomes sur deux œuvres distinctes",
+        "aucun jugement esthétique de goût",
+        "supports d’accès non directifs"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "V1_indices_visuels",
+          "V2_organisation",
+          "V3_interpretation_et_preuve",
+          "V4_procede_contexte_et_incertitude",
+          "V5_autonomie"
+        ],
+        "echelle": "0 absent, 1 partiel, 2 acquis",
+        "regle": "preuves A et B indépendamment avec tous les critères essentiels à 2"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

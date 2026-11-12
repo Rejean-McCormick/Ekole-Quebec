@@ -1,0 +1,96 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Segmenter, fusionner et transformer des syllabes et sons de mots entendus.",
+  "concepts": [
+    "syllabe",
+    "phonème",
+    "rime",
+    "attaque et finale"
+  ],
+  "preuve_attendue": "Segmenter puis recomposer oralement cinq mots nouveaux.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-001-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Segmenter puis recomposer oralement cinq mots nouveaux.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_effectif": "fixe",
+        "corpus_variantes_autorisees": [],
+        "plan_evaluation": "evaluation/PLAN_EVALUATION.md",
+        "banque_items": "evaluation/BANQUE_ITEMS.json",
+        "maitrise_deux_contextes": [
+          "qc-pri-fr-001-q-011",
+          "qc-pri-fr-001-q-012"
+        ]
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-fr-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Segmenter puis recomposer oralement cinq mots nouveaux.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "stimulus_oral_en_fr_CA",
+        "reponse_orale_observee",
+        "jetons_sans_lettres_hors_preuve"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "banque_fermee": "evaluation/BANQUE_ITEMS.json",
+        "variation_de_mots": "aucune sans revue et versionnement",
+        "oral": "stimulus entier prononce par un adulte; prosodie naturelle"
+      },
+      "contraintes": [
+        "Aucune lecture ni orthographe requise",
+        "Ne pas utiliser les mots du modelage dans les épreuves q-011 et q-012",
+        "Deux contextes et dix mots distincts",
+        "Pas de génération aléatoire de corrigés",
+        "Variantes québécoises non pertinentes pour le découpage acceptées après contrôle humain",
+        "Preuve autonome: aucun indice de contenu"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "unite": "mot entier segmenté et recomposé correctement",
+        "seuil_local": "5/5 dans chacun des deux contextes distincts, en autonomie; aucune moyenne de remplacement",
+        "dimensions": [
+          "segmentation_orale",
+          "fusion_orale",
+          "autonomie",
+          "stabilite_intercontextes",
+          "manipulation_phonologique_formative"
+        ]
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md",
+        "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2",
+  "progression_redaction": {
+    "etat": "contenu_et_items_prepares_a_revoir",
+    "revision_contenu": "0.3.0",
+    "revue_humaine": false,
+    "qualification_kristal": false
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ccq-006",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Décrire une réalité culturelle à partir d’éléments observables et contextualisés.",
+    "concepts": [
+      "fait culturel",
+      "contexte",
+      "description",
+      "diversité"
+    ]
+  },
+  "titre_source": "Observer et décrire des réalités culturelles",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "fait culturel, contexte, description",
+      "prompt_conceptuel": "Concept d'image pour le cours « Observer et décrire des réalités culturelles ». Représenter une situation de vie collective faisant apparaître plusieurs points de vue possibles. Mettre en évidence les notions : fait culturel, contexte, description, diversité. L'image doit aider à comprendre l'objectif « Décrire une réalité culturelle à partir d’éléments observables et contextualisés. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Observer et décrire des réalités culturelles : fait culturel, contexte, description.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "fait culturel, contexte, description",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Observer et décrire des réalités culturelles » : montrer une rencontre ou décision collective permettant de s’interroger sur le respect et la diversité. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter fait culturel, contexte, description, diversité. Cette image sert de point de départ à une activité liée à l'objectif « Décrire une réalité culturelle à partir d’éléments observables et contextualisés. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « affiche de bibliothèque (dossier fictif A) »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Observer et décrire des réalités culturelles.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "affiche de bibliothèque (dossier fictif A)",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

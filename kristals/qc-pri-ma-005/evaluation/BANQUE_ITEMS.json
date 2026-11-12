@@ -1,0 +1,994 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-005",
+  "family_id": "qc-pri-ma-005-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-005-q-001",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Dans le contexte « Étiquettes dans une boîte », arrondis n à un rang indiqué, puis vérifie l’écart par rapport au nombre exact. Indique le rang et justifie le sens de la différence.",
+      "stimulus": "n = 375 objets; rang = 10. Cas 2/6 déterminé par seed 40501.",
+      "reponse_attendue": "R(375,10)=380; exact=375; E−T=5; écart=5. Justification : le rang est explicite, le symbole ≈ distingue l’estimation; un écart positif est une surestimation et un écart négatif une sous-estimation (ici la différence signée donne la direction).",
+      "criteres": [
+        "obj-1/crit-1 : stratégie d’arrondi et rang explicités",
+        "obj-1/crit-1 : chaque arrondi correct selon la convention 5 vers le haut",
+        "obj-1/crit-1 : estimation et calcul exact corrects avec unité",
+        "obj-1/crit-1 : différence signée E−T et écart absolu |E−T| corrects et interprétés"
+      ],
+      "feedback": "Si le rang est faux, repérer la position des chiffres; si un chiffre 5 est arrondi vers le bas, rappeler la convention; si exact et estimé sont confondus, séparer E et T; si le signe est trompeur, recalculer E−T puis |E−T|.",
+      "difficulte": "initial",
+      "seed": 40501,
+      "parametres": {
+        "variables": {
+          "valeurs": "entiers non négatifs du catalogue cas_finis",
+          "rang": [
+            10,
+            100,
+            1000
+          ],
+          "operation": "quantity"
+        },
+        "domaines": {
+          "cas_finis": [
+            {
+              "n": 374,
+              "rang": 10,
+              "estimation": 370,
+              "exact": 374,
+              "difference_signee": -4,
+              "ecart_absolu": 4
+            },
+            {
+              "n": 375,
+              "rang": 10,
+              "estimation": 380,
+              "exact": 375,
+              "difference_signee": 5,
+              "ecart_absolu": 5
+            },
+            {
+              "n": 346,
+              "rang": 100,
+              "estimation": 300,
+              "exact": 346,
+              "difference_signee": -46,
+              "ecart_absolu": 46
+            },
+            {
+              "n": 350,
+              "rang": 100,
+              "estimation": 400,
+              "exact": 350,
+              "difference_signee": 50,
+              "ecart_absolu": 50
+            },
+            {
+              "n": 748,
+              "rang": 100,
+              "estimation": 700,
+              "exact": 748,
+              "difference_signee": -48,
+              "ecart_absolu": 48
+            },
+            {
+              "n": 995,
+              "rang": 10,
+              "estimation": 1000,
+              "exact": 995,
+              "difference_signee": 5,
+              "ecart_absolu": 5
+            }
+          ],
+          "index_autorises": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "contraintes": [
+          "pour soustraction a>=b et estimation >=0",
+          "toutes les valeurs de cas_finis sont non négatives",
+          "r dans {10,100,1000}",
+          "reponse comprise comme estimation, exact, différence signée, écart absolu avec unité"
+        ],
+        "selection": "index = seed % len(cas_finis); aucun tirage aléatoire ni génération libre",
+        "algorithme": "Pour n entier non négatif, R(n,r)=r*floor((2*n+r)/(2*r)); pour quantity E=R(n,r), T=n; pour add E=R(a,r)+R(b,r), T=a+b; pour sub E=R(a,r)-R(b,r), T=a-b; difference_signee=E-T; ecart_absolu=abs(E-T).",
+        "exemples_verifies": [
+          {
+            "n": 374,
+            "rang": 10,
+            "estimation": 370,
+            "exact": 374,
+            "difference_signee": -4,
+            "ecart_absolu": 4
+          },
+          {
+            "n": 375,
+            "rang": 10,
+            "estimation": 380,
+            "exact": 375,
+            "difference_signee": 5,
+            "ecart_absolu": 5
+          },
+          {
+            "n": 346,
+            "rang": 100,
+            "estimation": 300,
+            "exact": 346,
+            "difference_signee": -46,
+            "ecart_absolu": 46
+          }
+        ],
+        "solution_du_seed": {
+          "n": 375,
+          "rang": 10,
+          "estimation": 380,
+          "exact": 375,
+          "difference_signee": 5,
+          "ecart_absolu": 5
+        },
+        "validation": "Cas finis vérifiés par programme avec oracle Decimal ROUND_HALF_UP et égalités calculées; détails dans VALIDATION.md"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-002",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Dans le contexte « Billets comptés à l’entrée », arrondis n à un rang indiqué, puis vérifie l’écart par rapport au nombre exact. Indique le rang et justifie le sens de la différence.",
+      "stimulus": "n = 365 objets; rang = 10. Cas 3/6 déterminé par seed 40502.",
+      "reponse_attendue": "R(365,10)=370; exact=365; E−T=5; écart=5. Justification : le rang est explicite, le symbole ≈ distingue l’estimation; un écart positif est une surestimation et un écart négatif une sous-estimation (ici la différence signée donne la direction).",
+      "criteres": [
+        "obj-1/crit-1 : stratégie d’arrondi et rang explicités",
+        "obj-1/crit-1 : chaque arrondi correct selon la convention 5 vers le haut",
+        "obj-1/crit-1 : estimation et calcul exact corrects avec unité",
+        "obj-1/crit-1 : différence signée E−T et écart absolu |E−T| corrects et interprétés"
+      ],
+      "feedback": "Si le rang est faux, repérer la position des chiffres; si un chiffre 5 est arrondi vers le bas, rappeler la convention; si exact et estimé sont confondus, séparer E et T; si le signe est trompeur, recalculer E−T puis |E−T|.",
+      "difficulte": "initial",
+      "seed": 40502,
+      "parametres": {
+        "variables": {
+          "valeurs": "entiers non négatifs du catalogue cas_finis",
+          "rang": [
+            10,
+            100,
+            1000
+          ],
+          "operation": "quantity"
+        },
+        "domaines": {
+          "cas_finis": [
+            {
+              "n": 462,
+              "rang": 100,
+              "estimation": 500,
+              "exact": 462,
+              "difference_signee": 38,
+              "ecart_absolu": 38
+            },
+            {
+              "n": 275,
+              "rang": 10,
+              "estimation": 280,
+              "exact": 275,
+              "difference_signee": 5,
+              "ecart_absolu": 5
+            },
+            {
+              "n": 365,
+              "rang": 10,
+              "estimation": 370,
+              "exact": 365,
+              "difference_signee": 5,
+              "ecart_absolu": 5
+            },
+            {
+              "n": 185,
+              "rang": 10,
+              "estimation": 190,
+              "exact": 185,
+              "difference_signee": 5,
+              "ecart_absolu": 5
+            },
+            {
+              "n": 615,
+              "rang": 100,
+              "estimation": 600,
+              "exact": 615,
+              "difference_signee": -15,
+              "ecart_absolu": 15
+            },
+            {
+              "n": 1250,
+              "rang": 100,
+              "estimation": 1300,
+              "exact": 1250,
+              "difference_signee": 50,
+              "ecart_absolu": 50
+            }
+          ],
+          "index_autorises": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "contraintes": [
+          "pour soustraction a>=b et estimation >=0",
+          "toutes les valeurs de cas_finis sont non négatives",
+          "r dans {10,100,1000}",
+          "reponse comprise comme estimation, exact, différence signée, écart absolu avec unité"
+        ],
+        "selection": "index = seed % len(cas_finis); aucun tirage aléatoire ni génération libre",
+        "algorithme": "Pour n entier non négatif, R(n,r)=r*floor((2*n+r)/(2*r)); pour quantity E=R(n,r), T=n; pour add E=R(a,r)+R(b,r), T=a+b; pour sub E=R(a,r)-R(b,r), T=a-b; difference_signee=E-T; ecart_absolu=abs(E-T).",
+        "exemples_verifies": [
+          {
+            "n": 462,
+            "rang": 100,
+            "estimation": 500,
+            "exact": 462,
+            "difference_signee": 38,
+            "ecart_absolu": 38
+          },
+          {
+            "n": 275,
+            "rang": 10,
+            "estimation": 280,
+            "exact": 275,
+            "difference_signee": 5,
+            "ecart_absolu": 5
+          },
+          {
+            "n": 365,
+            "rang": 10,
+            "estimation": 370,
+            "exact": 365,
+            "difference_signee": 5,
+            "ecart_absolu": 5
+          }
+        ],
+        "solution_du_seed": {
+          "n": 365,
+          "rang": 10,
+          "estimation": 370,
+          "exact": 365,
+          "difference_signee": 5,
+          "ecart_absolu": 5
+        },
+        "validation": "Cas finis vérifiés par programme avec oracle Decimal ROUND_HALF_UP et égalités calculées; détails dans VALIDATION.md"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-003",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Dans le contexte « Crayons de deux classes », estime une addition en arrondissant chaque terme au rang annoncé; puis calcule la valeur exacte et l’écart. Indique le rang et justifie le sens de la différence.",
+      "stimulus": "a=44; b=58; opération=addition; rang=10. Cas 4/5 déterminé par seed 40503.",
+      "reponse_attendue": "a→40, b→60; E=100; exact T=102; E−T=-2; écart=2. Justification : le rang est explicite, le symbole ≈ distingue l’estimation; un écart positif est une surestimation et un écart négatif une sous-estimation (ici la différence signée donne la direction).",
+      "criteres": [
+        "obj-1/crit-1 : stratégie d’arrondi et rang explicités",
+        "obj-1/crit-1 : chaque arrondi correct selon la convention 5 vers le haut",
+        "obj-1/crit-1 : estimation et calcul exact corrects avec unité",
+        "obj-1/crit-1 : différence signée E−T et écart absolu |E−T| corrects et interprétés"
+      ],
+      "feedback": "Si le rang est faux, repérer la position des chiffres; si un chiffre 5 est arrondi vers le bas, rappeler la convention; si exact et estimé sont confondus, séparer E et T; si le signe est trompeur, recalculer E−T puis |E−T|.",
+      "difficulte": "intermediaire",
+      "seed": 40503,
+      "parametres": {
+        "variables": {
+          "valeurs": "entiers non négatifs du catalogue cas_finis",
+          "rang": [
+            10,
+            100,
+            1000
+          ],
+          "operation": "add"
+        },
+        "domaines": {
+          "cas_finis": [
+            {
+              "a": 248,
+              "b": 163,
+              "rang": 10,
+              "a_arrondi": 250,
+              "b_arrondi": 160,
+              "estimation": 410,
+              "exact": 411,
+              "difference_signee": -1,
+              "ecart_absolu": 1
+            },
+            {
+              "a": 246,
+              "b": 138,
+              "rang": 10,
+              "a_arrondi": 250,
+              "b_arrondi": 140,
+              "estimation": 390,
+              "exact": 384,
+              "difference_signee": 6,
+              "ecart_absolu": 6
+            },
+            {
+              "a": 328,
+              "b": 146,
+              "rang": 10,
+              "a_arrondi": 330,
+              "b_arrondi": 150,
+              "estimation": 480,
+              "exact": 474,
+              "difference_signee": 6,
+              "ecart_absolu": 6
+            },
+            {
+              "a": 44,
+              "b": 58,
+              "rang": 10,
+              "a_arrondi": 40,
+              "b_arrondi": 60,
+              "estimation": 100,
+              "exact": 102,
+              "difference_signee": -2,
+              "ecart_absolu": 2
+            },
+            {
+              "a": 267,
+              "b": 184,
+              "rang": 10,
+              "a_arrondi": 270,
+              "b_arrondi": 180,
+              "estimation": 450,
+              "exact": 451,
+              "difference_signee": -1,
+              "ecart_absolu": 1
+            }
+          ],
+          "index_autorises": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "pour soustraction a>=b et estimation >=0",
+          "toutes les valeurs de cas_finis sont non négatives",
+          "r dans {10,100,1000}",
+          "reponse comprise comme estimation, exact, différence signée, écart absolu avec unité"
+        ],
+        "selection": "index = seed % len(cas_finis); aucun tirage aléatoire ni génération libre",
+        "algorithme": "Pour n entier non négatif, R(n,r)=r*floor((2*n+r)/(2*r)); pour quantity E=R(n,r), T=n; pour add E=R(a,r)+R(b,r), T=a+b; pour sub E=R(a,r)-R(b,r), T=a-b; difference_signee=E-T; ecart_absolu=abs(E-T).",
+        "exemples_verifies": [
+          {
+            "a": 248,
+            "b": 163,
+            "rang": 10,
+            "a_arrondi": 250,
+            "b_arrondi": 160,
+            "estimation": 410,
+            "exact": 411,
+            "difference_signee": -1,
+            "ecart_absolu": 1
+          },
+          {
+            "a": 246,
+            "b": 138,
+            "rang": 10,
+            "a_arrondi": 250,
+            "b_arrondi": 140,
+            "estimation": 390,
+            "exact": 384,
+            "difference_signee": 6,
+            "ecart_absolu": 6
+          },
+          {
+            "a": 328,
+            "b": 146,
+            "rang": 10,
+            "a_arrondi": 330,
+            "b_arrondi": 150,
+            "estimation": 480,
+            "exact": 474,
+            "difference_signee": 6,
+            "ecart_absolu": 6
+          }
+        ],
+        "solution_du_seed": {
+          "a": 44,
+          "b": 58,
+          "rang": 10,
+          "a_arrondi": 40,
+          "b_arrondi": 60,
+          "estimation": 100,
+          "exact": 102,
+          "difference_signee": -2,
+          "ecart_absolu": 2
+        },
+        "validation": "Cas finis vérifiés par programme avec oracle Decimal ROUND_HALF_UP et égalités calculées; détails dans VALIDATION.md"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-004",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Dans le contexte « Réserve après distribution », estime une soustraction en arrondissant chaque terme au rang annoncé; puis calcule la valeur exacte et l’écart. Indique le rang et justifie le sens de la différence.",
+      "stimulus": "a=825; b=276; opération=soustraction; rang=10. Cas 5/5 déterminé par seed 40504.",
+      "reponse_attendue": "a→830, b→280; E=550; exact T=549; E−T=1; écart=1. Justification : le rang est explicite, le symbole ≈ distingue l’estimation; un écart positif est une surestimation et un écart négatif une sous-estimation (ici la différence signée donne la direction).",
+      "criteres": [
+        "obj-1/crit-1 : stratégie d’arrondi et rang explicités",
+        "obj-1/crit-1 : chaque arrondi correct selon la convention 5 vers le haut",
+        "obj-1/crit-1 : estimation et calcul exact corrects avec unité",
+        "obj-1/crit-1 : différence signée E−T et écart absolu |E−T| corrects et interprétés"
+      ],
+      "feedback": "Si le rang est faux, repérer la position des chiffres; si un chiffre 5 est arrondi vers le bas, rappeler la convention; si exact et estimé sont confondus, séparer E et T; si le signe est trompeur, recalculer E−T puis |E−T|.",
+      "difficulte": "intermediaire",
+      "seed": 40504,
+      "parametres": {
+        "variables": {
+          "valeurs": "entiers non négatifs du catalogue cas_finis",
+          "rang": [
+            10,
+            100,
+            1000
+          ],
+          "operation": "sub"
+        },
+        "domaines": {
+          "cas_finis": [
+            {
+              "a": 692,
+              "b": 257,
+              "rang": 10,
+              "a_arrondi": 690,
+              "b_arrondi": 260,
+              "estimation": 430,
+              "exact": 435,
+              "difference_signee": -5,
+              "ecart_absolu": 5
+            },
+            {
+              "a": 584,
+              "b": 237,
+              "rang": 10,
+              "a_arrondi": 580,
+              "b_arrondi": 240,
+              "estimation": 340,
+              "exact": 347,
+              "difference_signee": -7,
+              "ecart_absolu": 7
+            },
+            {
+              "a": 731,
+              "b": 286,
+              "rang": 10,
+              "a_arrondi": 730,
+              "b_arrondi": 290,
+              "estimation": 440,
+              "exact": 445,
+              "difference_signee": -5,
+              "ecart_absolu": 5
+            },
+            {
+              "a": 463,
+              "b": 118,
+              "rang": 10,
+              "a_arrondi": 460,
+              "b_arrondi": 120,
+              "estimation": 340,
+              "exact": 345,
+              "difference_signee": -5,
+              "ecart_absolu": 5
+            },
+            {
+              "a": 825,
+              "b": 276,
+              "rang": 10,
+              "a_arrondi": 830,
+              "b_arrondi": 280,
+              "estimation": 550,
+              "exact": 549,
+              "difference_signee": 1,
+              "ecart_absolu": 1
+            }
+          ],
+          "index_autorises": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "pour soustraction a>=b et estimation >=0",
+          "toutes les valeurs de cas_finis sont non négatives",
+          "r dans {10,100,1000}",
+          "reponse comprise comme estimation, exact, différence signée, écart absolu avec unité"
+        ],
+        "selection": "index = seed % len(cas_finis); aucun tirage aléatoire ni génération libre",
+        "algorithme": "Pour n entier non négatif, R(n,r)=r*floor((2*n+r)/(2*r)); pour quantity E=R(n,r), T=n; pour add E=R(a,r)+R(b,r), T=a+b; pour sub E=R(a,r)-R(b,r), T=a-b; difference_signee=E-T; ecart_absolu=abs(E-T).",
+        "exemples_verifies": [
+          {
+            "a": 692,
+            "b": 257,
+            "rang": 10,
+            "a_arrondi": 690,
+            "b_arrondi": 260,
+            "estimation": 430,
+            "exact": 435,
+            "difference_signee": -5,
+            "ecart_absolu": 5
+          },
+          {
+            "a": 584,
+            "b": 237,
+            "rang": 10,
+            "a_arrondi": 580,
+            "b_arrondi": 240,
+            "estimation": 340,
+            "exact": 347,
+            "difference_signee": -7,
+            "ecart_absolu": 7
+          },
+          {
+            "a": 731,
+            "b": 286,
+            "rang": 10,
+            "a_arrondi": 730,
+            "b_arrondi": 290,
+            "estimation": 440,
+            "exact": 445,
+            "difference_signee": -5,
+            "ecart_absolu": 5
+          }
+        ],
+        "solution_du_seed": {
+          "a": 825,
+          "b": 276,
+          "rang": 10,
+          "a_arrondi": 830,
+          "b_arrondi": 280,
+          "estimation": 550,
+          "exact": 549,
+          "difference_signee": 1,
+          "ecart_absolu": 1
+        },
+        "validation": "Cas finis vérifiés par programme avec oracle Decimal ROUND_HALF_UP et égalités calculées; détails dans VALIDATION.md"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-005",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Dans le contexte « Livraisons de livres », estime une addition en arrondissant chaque terme au rang annoncé; puis calcule la valeur exacte et l’écart. Indique le rang et justifie le sens de la différence.",
+      "stimulus": "a=187; b=226; opération=addition; rang=10. Cas 1/5 déterminé par seed 40505.",
+      "reponse_attendue": "a→190, b→230; E=420; exact T=413; E−T=7; écart=7. Justification : le rang est explicite, le symbole ≈ distingue l’estimation; un écart positif est une surestimation et un écart négatif une sous-estimation (ici la différence signée donne la direction).",
+      "criteres": [
+        "obj-1/crit-1 : stratégie d’arrondi et rang explicités",
+        "obj-1/crit-1 : chaque arrondi correct selon la convention 5 vers le haut",
+        "obj-1/crit-1 : estimation et calcul exact corrects avec unité",
+        "obj-1/crit-1 : différence signée E−T et écart absolu |E−T| corrects et interprétés"
+      ],
+      "feedback": "Si le rang est faux, repérer la position des chiffres; si un chiffre 5 est arrondi vers le bas, rappeler la convention; si exact et estimé sont confondus, séparer E et T; si le signe est trompeur, recalculer E−T puis |E−T|.",
+      "difficulte": "intermediaire",
+      "seed": 40505,
+      "parametres": {
+        "variables": {
+          "valeurs": "entiers non négatifs du catalogue cas_finis",
+          "rang": [
+            10,
+            100,
+            1000
+          ],
+          "operation": "add"
+        },
+        "domaines": {
+          "cas_finis": [
+            {
+              "a": 187,
+              "b": 226,
+              "rang": 10,
+              "a_arrondi": 190,
+              "b_arrondi": 230,
+              "estimation": 420,
+              "exact": 413,
+              "difference_signee": 7,
+              "ecart_absolu": 7
+            },
+            {
+              "a": 359,
+              "b": 175,
+              "rang": 10,
+              "a_arrondi": 360,
+              "b_arrondi": 180,
+              "estimation": 540,
+              "exact": 534,
+              "difference_signee": 6,
+              "ecart_absolu": 6
+            },
+            {
+              "a": 428,
+              "b": 307,
+              "rang": 10,
+              "a_arrondi": 430,
+              "b_arrondi": 310,
+              "estimation": 740,
+              "exact": 735,
+              "difference_signee": 5,
+              "ecart_absolu": 5
+            },
+            {
+              "a": 284,
+              "b": 169,
+              "rang": 10,
+              "a_arrondi": 280,
+              "b_arrondi": 170,
+              "estimation": 450,
+              "exact": 453,
+              "difference_signee": -3,
+              "ecart_absolu": 3
+            },
+            {
+              "a": 618,
+              "b": 245,
+              "rang": 10,
+              "a_arrondi": 620,
+              "b_arrondi": 250,
+              "estimation": 870,
+              "exact": 863,
+              "difference_signee": 7,
+              "ecart_absolu": 7
+            }
+          ],
+          "index_autorises": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "pour soustraction a>=b et estimation >=0",
+          "toutes les valeurs de cas_finis sont non négatives",
+          "r dans {10,100,1000}",
+          "reponse comprise comme estimation, exact, différence signée, écart absolu avec unité"
+        ],
+        "selection": "index = seed % len(cas_finis); aucun tirage aléatoire ni génération libre",
+        "algorithme": "Pour n entier non négatif, R(n,r)=r*floor((2*n+r)/(2*r)); pour quantity E=R(n,r), T=n; pour add E=R(a,r)+R(b,r), T=a+b; pour sub E=R(a,r)-R(b,r), T=a-b; difference_signee=E-T; ecart_absolu=abs(E-T).",
+        "exemples_verifies": [
+          {
+            "a": 187,
+            "b": 226,
+            "rang": 10,
+            "a_arrondi": 190,
+            "b_arrondi": 230,
+            "estimation": 420,
+            "exact": 413,
+            "difference_signee": 7,
+            "ecart_absolu": 7
+          },
+          {
+            "a": 359,
+            "b": 175,
+            "rang": 10,
+            "a_arrondi": 360,
+            "b_arrondi": 180,
+            "estimation": 540,
+            "exact": 534,
+            "difference_signee": 6,
+            "ecart_absolu": 6
+          },
+          {
+            "a": 428,
+            "b": 307,
+            "rang": 10,
+            "a_arrondi": 430,
+            "b_arrondi": 310,
+            "estimation": 740,
+            "exact": 735,
+            "difference_signee": 5,
+            "ecart_absolu": 5
+          }
+        ],
+        "solution_du_seed": {
+          "a": 187,
+          "b": 226,
+          "rang": 10,
+          "a_arrondi": 190,
+          "b_arrondi": 230,
+          "estimation": 420,
+          "exact": 413,
+          "difference_signee": 7,
+          "ecart_absolu": 7
+        },
+        "validation": "Cas finis vérifiés par programme avec oracle Decimal ROUND_HALF_UP et égalités calculées; détails dans VALIDATION.md"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-006",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Dans le contexte « Affiches comptées », arrondis n à un rang indiqué, puis vérifie l’écart par rapport au nombre exact. Indique le rang et justifie le sens de la différence.",
+      "stimulus": "n = 150 objets; rang = 100. Cas 2/5 déterminé par seed 40506.",
+      "reponse_attendue": "R(150,100)=200; exact=150; E−T=50; écart=50. Justification : le rang est explicite, le symbole ≈ distingue l’estimation; un écart positif est une surestimation et un écart négatif une sous-estimation (ici la différence signée donne la direction).",
+      "criteres": [
+        "obj-1/crit-1 : stratégie d’arrondi et rang explicités",
+        "obj-1/crit-1 : chaque arrondi correct selon la convention 5 vers le haut",
+        "obj-1/crit-1 : estimation et calcul exact corrects avec unité",
+        "obj-1/crit-1 : différence signée E−T et écart absolu |E−T| corrects et interprétés"
+      ],
+      "feedback": "Si le rang est faux, repérer la position des chiffres; si un chiffre 5 est arrondi vers le bas, rappeler la convention; si exact et estimé sont confondus, séparer E et T; si le signe est trompeur, recalculer E−T puis |E−T|.",
+      "difficulte": "intermediaire",
+      "seed": 40506,
+      "parametres": {
+        "variables": {
+          "valeurs": "entiers non négatifs du catalogue cas_finis",
+          "rang": [
+            10,
+            100,
+            1000
+          ],
+          "operation": "quantity"
+        },
+        "domaines": {
+          "cas_finis": [
+            {
+              "n": 149,
+              "rang": 10,
+              "estimation": 150,
+              "exact": 149,
+              "difference_signee": 1,
+              "ecart_absolu": 1
+            },
+            {
+              "n": 150,
+              "rang": 100,
+              "estimation": 200,
+              "exact": 150,
+              "difference_signee": 50,
+              "ecart_absolu": 50
+            },
+            {
+              "n": 850,
+              "rang": 100,
+              "estimation": 900,
+              "exact": 850,
+              "difference_signee": 50,
+              "ecart_absolu": 50
+            },
+            {
+              "n": 999,
+              "rang": 100,
+              "estimation": 1000,
+              "exact": 999,
+              "difference_signee": 1,
+              "ecart_absolu": 1
+            },
+            {
+              "n": 2045,
+              "rang": 10,
+              "estimation": 2050,
+              "exact": 2045,
+              "difference_signee": 5,
+              "ecart_absolu": 5
+            }
+          ],
+          "index_autorises": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "pour soustraction a>=b et estimation >=0",
+          "toutes les valeurs de cas_finis sont non négatives",
+          "r dans {10,100,1000}",
+          "reponse comprise comme estimation, exact, différence signée, écart absolu avec unité"
+        ],
+        "selection": "index = seed % len(cas_finis); aucun tirage aléatoire ni génération libre",
+        "algorithme": "Pour n entier non négatif, R(n,r)=r*floor((2*n+r)/(2*r)); pour quantity E=R(n,r), T=n; pour add E=R(a,r)+R(b,r), T=a+b; pour sub E=R(a,r)-R(b,r), T=a-b; difference_signee=E-T; ecart_absolu=abs(E-T).",
+        "exemples_verifies": [
+          {
+            "n": 149,
+            "rang": 10,
+            "estimation": 150,
+            "exact": 149,
+            "difference_signee": 1,
+            "ecart_absolu": 1
+          },
+          {
+            "n": 150,
+            "rang": 100,
+            "estimation": 200,
+            "exact": 150,
+            "difference_signee": 50,
+            "ecart_absolu": 50
+          },
+          {
+            "n": 850,
+            "rang": 100,
+            "estimation": 900,
+            "exact": 850,
+            "difference_signee": 50,
+            "ecart_absolu": 50
+          }
+        ],
+        "solution_du_seed": {
+          "n": 150,
+          "rang": 100,
+          "estimation": 200,
+          "exact": 150,
+          "difference_signee": 50,
+          "ecart_absolu": 50
+        },
+        "validation": "Cas finis vérifiés par programme avec oracle Decimal ROUND_HALF_UP et égalités calculées; détails dans VALIDATION.md"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Une boîte contient 748 livres. Arrondis cette quantité à la centaine, calcule la différence et l’écart.",
+      "stimulus": "748 livres; rang = centaine.",
+      "reponse_attendue": "E=700 livres, T=748 livres, E−T=−48 livres, écart absolu 48 livres; sous-estimation. Calculer la différence signée et dire si elle signale une surestimation ou sous-estimation; comparer avec la stratégie annoncée.",
+      "criteres": [
+        "obj-1/crit-1 : rang explicite et arrondis des termes corrects",
+        "obj-1/crit-1 : estimation plausible et unité conservée",
+        "obj-1/crit-1 : valeur exacte correcte",
+        "obj-1/crit-1 : E−T, |E−T| et signification justes",
+        "obj-1/crit-1 : justification compréhensible"
+      ],
+      "feedback": "Vérifie quel rang était annoncé; contrôle chaque chiffre d’arrondi et le calcul exact; recalcule E−T puis |E−T|. Si tu inverses surestimation et sous-estimation, compare les valeurs sur la droite.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1",
+      "preuve_de_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-008",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Une classe a 328 cahiers et une autre 146. Estime le total par arrondi de chaque terme à la dizaine, puis vérifie.",
+      "stimulus": "328 + 146 cahiers; rang des dizaines pour chaque terme.",
+      "reponse_attendue": "330+150=480 cahiers estimés; T=474; E−T=+6; écart 6 cahiers, surestimation. Calculer la différence signée et dire si elle signale une surestimation ou sous-estimation; comparer avec la stratégie annoncée.",
+      "criteres": [
+        "obj-1/crit-1 : rang explicite et arrondis des termes corrects",
+        "obj-1/crit-1 : estimation plausible et unité conservée",
+        "obj-1/crit-1 : valeur exacte correcte",
+        "obj-1/crit-1 : E−T, |E−T| et signification justes",
+        "obj-1/crit-1 : justification compréhensible"
+      ],
+      "feedback": "Vérifie quel rang était annoncé; contrôle chaque chiffre d’arrondi et le calcul exact; recalcule E−T puis |E−T|. Si tu inverses surestimation et sous-estimation, compare les valeurs sur la droite.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1",
+      "preuve_de_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-009",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Une réserve a 692 feuilles et en utilise 257. Estime le reste par arrondi des termes à la dizaine; calcule exact et écart.",
+      "stimulus": "692 − 257 feuilles; rang des dizaines pour chaque terme.",
+      "reponse_attendue": "690−260=430 estimées; T=435; E−T=−5; écart 5 feuilles, sous-estimation. Calculer la différence signée et dire si elle signale une surestimation ou sous-estimation; comparer avec la stratégie annoncée.",
+      "criteres": [
+        "obj-1/crit-1 : rang explicite et arrondis des termes corrects",
+        "obj-1/crit-1 : estimation plausible et unité conservée",
+        "obj-1/crit-1 : valeur exacte correcte",
+        "obj-1/crit-1 : E−T, |E−T| et signification justes",
+        "obj-1/crit-1 : justification compréhensible"
+      ],
+      "feedback": "Vérifie quel rang était annoncé; contrôle chaque chiffre d’arrondi et le calcul exact; recalcule E−T puis |E−T|. Si tu inverses surestimation et sous-estimation, compare les valeurs sur la droite.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1",
+      "preuve_de_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-010",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Une bibliothèque reçoit 187 livres puis 226 livres. Estime le total à partir des termes arrondis à la dizaine, puis vérifie.",
+      "stimulus": "Une bibliothèque reçoit 187 puis 226 livres.",
+      "reponse_attendue": "190+230=420 estimés; T=413; E−T=+7; écart 7 livres, surestimation. Calculer la différence signée et dire si elle signale une surestimation ou sous-estimation; comparer avec la stratégie annoncée.",
+      "criteres": [
+        "obj-1/crit-1 : rang explicite et arrondis des termes corrects",
+        "obj-1/crit-1 : estimation plausible et unité conservée",
+        "obj-1/crit-1 : valeur exacte correcte",
+        "obj-1/crit-1 : E−T, |E−T| et signification justes",
+        "obj-1/crit-1 : justification compréhensible"
+      ],
+      "feedback": "Vérifie quel rang était annoncé; contrôle chaque chiffre d’arrondi et le calcul exact; recalcule E−T puis |E−T|. Si tu inverses surestimation et sous-estimation, compare les valeurs sur la droite.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1",
+      "preuve_de_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-011",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "PREUVE M-A — Inventaire : 267 boîtes bleues et 184 rouges. Estime le total en arrondissant chaque terme à la dizaine; calcule exact et écart sans indice.",
+      "stimulus": "267 + 184 boîtes, inventaire de deux couleurs.",
+      "reponse_attendue": "270+180=450 boîtes estimées; T=451; E−T=−1; écart absolu 1 boîte; sous-estimation. Calculer la différence signée et dire si elle signale une surestimation ou sous-estimation; comparer avec la stratégie annoncée.",
+      "criteres": [
+        "obj-1/crit-1 : rang explicite et arrondis des termes corrects",
+        "obj-1/crit-1 : estimation plausible et unité conservée",
+        "obj-1/crit-1 : valeur exacte correcte",
+        "obj-1/crit-1 : E−T, |E−T| et signification justes",
+        "obj-1/crit-1 : autonomie sans aide pour preuves M-A/M-B"
+      ],
+      "feedback": "Vérifie quel rang était annoncé; contrôle chaque chiffre d’arrondi et le calcul exact; recalcule E−T puis |E−T|. Si tu inverses surestimation et sous-estimation, compare les valeurs sur la droite.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1",
+      "preuve_de_maitrise": "M-A : inventaire deux couleurs"
+    },
+    {
+      "item_id": "qc-pri-ma-005-q-012",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "PREUVE M-B — Distribution : 584 trousses dans une réserve, 237 distribuées. Estime le reste en arrondissant chaque terme à la dizaine; calcule exact et écart sans indice.",
+      "stimulus": "Réserve de 584 trousses dont 237 sont distribuées.",
+      "reponse_attendue": "580−240=340 trousses estimées; T=347; E−T=−7; écart absolu 7 trousses; sous-estimation. Calculer la différence signée et dire si elle signale une surestimation ou sous-estimation; comparer avec la stratégie annoncée.",
+      "criteres": [
+        "obj-1/crit-1 : rang explicite et arrondis des termes corrects",
+        "obj-1/crit-1 : estimation plausible et unité conservée",
+        "obj-1/crit-1 : valeur exacte correcte",
+        "obj-1/crit-1 : E−T, |E−T| et signification justes",
+        "obj-1/crit-1 : autonomie sans aide pour preuves M-A/M-B"
+      ],
+      "feedback": "Vérifie quel rang était annoncé; contrôle chaque chiffre d’arrondi et le calcul exact; recalcule E−T puis |E−T|. Si tu inverses surestimation et sous-estimation, compare les valeurs sur la droite.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-005-ev-01",
+      "critere_id": "crit-1",
+      "preuve_de_maitrise": "M-B : distribution de trousses"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Modéliser la soustraction comme retrait, différence ou complément.",
+  "concepts": [
+    "retrait",
+    "comparaison",
+    "relation inverse"
+  ],
+  "preuve_attendue": "Résoudre un problème de différence et vérifier par addition.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ma-006"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-007-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Résoudre un problème de différence et vérifier par addition.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "exemples_arithmetiques_testes_revue_humaine_requise",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme": "Chaque item paramétrique porte sa seed et son algorithme LCG 32 bits décrit dans BANQUE_ITEMS.json; contrôle par calcul et addition indépendants."
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ma-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Résoudre un problème de différence et vérifier par addition.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "matériel/manipulable décrit",
+        "bandes comparées",
+        "équation avec addition de vérification",
+        "énoncé verbal et unité"
+      ],
+      "variables": {
+        "a": "entier naturel, quantité totale ou la plus grande, de 15 à 50 inclus",
+        "b": "entier naturel, quantité retirée ou la plus petite, de 5 à 20 inclus",
+        "d": "a-b, entier naturel non négatif",
+        "schema": "retirer, comparer ou compléter, fixé par l’item",
+        "unite": "objets, livres, m ou cm selon scénario approuvé; jamais substituée librement"
+      },
+      "contraintes": [
+        "0 ≤ b ≤ a ≤ 100",
+        "comparaison: quantités de même nature et même unité",
+        "aucun résultat négatif ni conversion d’unité cachée",
+        "résultat d=a−b; vérifier obligatoirement b+d=a",
+        "toutes les variantes contextuelles doivent appartenir au corpus figé de BANQUE_ITEMS.json",
+        "génération algorithmique uniquement pour les items paramétriques spécifiés, sans tirage IA libre"
+      ],
+      "barreme_ou_rubrique": {
+        "dimension_sens": "reconnaître grandeur recherchée (écart, reste ou complément) et ses unités",
+        "dimension_modele": "faire correspondre représentation, nombres et opération",
+        "dimension_calcul": "obtenir d=a−b exactement",
+        "dimension_controle": "écrire et valider b+d=a par addition",
+        "regle_maitrise": "deux manifestations satisfaisantes en contextes différents, dont une sans indices; aucune note unique suffisante",
+        "detail": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": "kristals/qc-pri-ma-007/evaluation/BANQUE_ITEMS.json; kristals/qc-pri-ma-007/contenu/01_NOTIONS_ET_EXEMPLES.md",
+      "seed": 7007,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

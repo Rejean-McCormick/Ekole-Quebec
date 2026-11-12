@@ -1,0 +1,447 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ccq-008",
+  "family_id": "qc-pri-ccq-008-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ccq-008-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Indique ce qui est observé et ce qui n’est qu’une interprétation. Ajoute une question respectueuse adressée à Maël.",
+      "stimulus": "Dans une réunion imaginaire, Maël ne répond pas tout de suite. Jade dit : « Maël me trouve ennuyeuse. »",
+      "reponse_attendue": "Observable : Maël ne répond pas tout de suite. « Il trouve Jade ennuyeuse » est une interprétation non établie. Relance acceptable : « Maël, qu’est-ce que tu penses de la proposition? » ou « Aimerais-tu préciser un point? ».",
+      "criteres": [
+        "Distingue sans erreur fait du récit et supposition",
+        "Question neutre sans attribuer d’intention",
+        "Respect de Maël et Jade"
+      ],
+      "feedback": "Si tu as écrit que le silence prouve le rejet, retourne aux seuls faits racontés. Une question ouverte permet de vérifier sans deviner.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre": "Deux façons de décrire un silence",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Réponses ouvertes acceptées seulement si les critères observables sont satisfaits; aucune préférence, croyance ou expérience personnelle n’est évaluée.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles."
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Reformule fidèlement l’idée d’Adèle, sans supposer un autre motif, puis pose une question ouverte sur l’organisation.",
+      "stimulus": "Adèle : « Je préfère répartir les crayons en deux pots, car ils seront plus faciles à trouver. »",
+      "reponse_attendue": "Exemple : « Adèle aimerait deux pots afin de retrouver facilement les crayons. Comment organiser les pots pour que chacun les voie? ». Ne pas écrire « Adèle déteste le pot unique » : non dit.",
+      "criteres": [
+        "Reprend deux pots et motif pratique sans altérer",
+        "Question ouverte sur l’organisation",
+        "Aucune intention inventée"
+      ],
+      "feedback": "Si la reformulation devient « elle refuse de partager », retire cette interprétation : elle souhaite rendre les crayons faciles à trouver.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre": "Reformuler une préférence",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Réponses ouvertes acceptées seulement si les critères observables sont satisfaits; aucune préférence, croyance ou expérience personnelle n’est évaluée.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles."
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Transforme « Tu veux des étiquettes, oui ou non? » en question ouverte qui tient compte de la raison de Bastien.",
+      "stimulus": "Bastien : « Je veux mettre des étiquettes près des boîtes pour qu’on trouve le matériel plus vite. »",
+      "reponse_attendue": "Exemples : « Comment organiserais-tu les étiquettes pour retrouver le matériel rapidement? » ou « Quelles informations mettrais-tu sur chaque étiquette? ».",
+      "criteres": [
+        "Question non limitée à oui/non",
+        "Référence aux étiquettes ou au repérage",
+        "N’impose pas une réponse de fond"
+      ],
+      "feedback": "Une question fermée peut vérifier un détail, mais la relance demandée doit inviter Bastien à expliquer ou préciser son idée.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre": "Question qui aide à approfondir",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Réponses ouvertes acceptées seulement si les critères observables sont satisfaits; aucune préférence, croyance ou expérience personnelle n’est évaluée.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles."
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Remplace l’attaque par un désaccord sur l’organisation, donne une raison et invite Camille à répondre.",
+      "stimulus": "Camille : « Faisons une seule grande affiche pour tous les groupes. » Réponse proposée : « Ton idée est idiote! »",
+      "reponse_attendue": "Exemple : « Je choisirais deux affiches, parce qu’une seule pourrait manquer de place. Comment vois-tu la répartition? ». Une seule affiche reste aussi un choix défendable.",
+      "criteres": [
+        "Désaccord porte sur la solution, non la personne",
+        "Donne une raison compréhensible",
+        "Pose une relance ouverte et courtoise"
+      ],
+      "feedback": "Il est permis de préférer deux affiches, mais la réponse ne doit pas rabaisser Camille.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre": "Désaccord sur une proposition",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Réponses ouvertes acceptées seulement si les critères observables sont satisfaits; aucune préférence, croyance ou expérience personnelle n’est évaluée.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles."
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Joue Nori après sa maladresse : rends la parole, reformule la raison que Jules vient de terminer et pose une question ouverte.",
+      "stimulus": "Jules : « Je préfère finir les décorations avant de déplacer les tables parce que… » Nori l’interrompt : « Non, c’est faux! ». Jules ajoute ensuite : « ...on risque de renverser la peinture. »",
+      "reponse_attendue": "Exemple : « Excuse-moi de t’avoir interrompu. Tu veux éviter que la peinture se renverse. Comment organiser le déplacement sans renverser les pots? »",
+      "criteres": [
+        "Répare l’interruption par une reprise du tour",
+        "Reprend exactement le risque lié à la peinture",
+        "Question ouverte portant sur la sécurité du matériel"
+      ],
+      "feedback": "Dire « excuse-moi » sans écouter la suite ne suffit pas; relie ta question à la peinture mentionnée par Jules.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre": "Réparer une interruption",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Réponses ouvertes acceptées seulement si les critères observables sont satisfaits; aucune préférence, croyance ou expérience personnelle n’est évaluée.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles."
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Continue le dialogue avec une reformulation exacte et une question ouverte qui se sert de la nouvelle information.",
+      "stimulus": "Milo : « Je veux ranger les livres par thème. » Tu demandes « Pour quelle raison? ». Milo répond : « Pour retrouver rapidement les histoires d’animaux. »",
+      "reponse_attendue": "Exemple : « Tu veux retrouver plus vite les histoires d’animaux. Comment identifierais-tu les sections? »",
+      "criteres": [
+        "Reprend le but de retrouver les histoires d’animaux",
+        "Question ouverte sur une prochaine étape liée",
+        "Ne répète pas simplement la question précédente"
+      ],
+      "feedback": "Après la réponse, utilise l’information nouvelle *histoires d’animaux*; ne répète pas « pourquoi? » sans adaptation.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre": "Relance construite après une précision",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Réponses ouvertes acceptées seulement si les critères observables sont satisfaits; aucune préférence, croyance ou expérience personnelle n’est évaluée.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles."
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Reformule les deux raisons; propose une question ouverte que les deux personnages peuvent discuter, puis un désaccord respectueux sur l’une des options si tu le souhaites.",
+      "stimulus": "Kenza : « Utilisons de petits cartons, ils prennent peu de place. » Hugo : « Utilisons de grands cartons, on pourra dessiner plus gros. »",
+      "reponse_attendue": "Exemple : « Kenza veut économiser l’espace, Hugo veut de la place pour dessiner. Comment choisir une taille qui reste pratique? Je préférerais un format moyen parce que… ». Aucun format imposé.",
+      "criteres": [
+        "N’attribue pas une intention cachée à Kenza ni Hugo",
+        "Met les deux motifs en relation",
+        "Pose une question ouverte et respecte les deux personnes"
+      ],
+      "feedback": "Le désaccord est compatible avec le respect; n’invente pas qu’une personne refuse d’écouter l’autre.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre": "Accueillir deux options",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Réponses ouvertes acceptées seulement si les critères observables sont satisfaits; aucune préférence, croyance ou expérience personnelle n’est évaluée.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles."
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique le contresens, reformule Soraya et pose une question qui peut guider la présentation.",
+      "stimulus": "Soraya : « Je préférerais présenter les photos près des textes, pour que les visiteurs comprennent les explications. » Réponse fausse : « Tu refuses les photos. »",
+      "reponse_attendue": "Le contresens transforme une demande de rapprochement en refus. Exemple : « Soraya veut rapprocher les photos des textes pour faciliter la compréhension. Comment les disposer pour que chaque texte soit facile à associer à une photo? »",
+      "criteres": [
+        "Identifie précisément la déformation de sens",
+        "Reformule la proximité et la raison",
+        "Relance ouverte ancrée dans les explications"
+      ],
+      "feedback": "Elle n’a pas rejeté les photos, elle a expliqué où les placer. Répare d’abord ce point.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre": "Corriger une fausse reformulation",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Réponses ouvertes acceptées seulement si les critères observables sont satisfaits; aucune préférence, croyance ou expérience personnelle n’est évaluée.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles."
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Le partenaire lit le scénario sélectionné (A/B). Réponds à sa première proposition par une reformulation et une question ouverte. Après sa réplique, rebondis sur la nouvelle préoccupation et, si nécessaire, propose une autre solution respectueuse.",
+      "stimulus": {
+        "A": "Élise : « Mettons les feutres dans un seul bac, afin de les compter après l’activité. » Partenaire après la réponse : « J’ai peur qu’un seul bac soit difficile à atteindre. »",
+        "B": "Élise : « Mettons les feuilles dans un seul tiroir, afin d’éviter qu’elles se perdent. » Partenaire après la réponse : « J’ai peur que tout le monde attende pour ouvrir le tiroir. »"
+      },
+      "reponse_attendue": {
+        "A": "Exemple : « Tu veux regrouper les feutres pour les compter. Comment les placer pour que chacun puisse les prendre? … Tu t’inquiètes de l’accès au bac; comment le rendre plus accessible? »",
+        "B": "Exemple : « Tu veux centraliser les feuilles pour qu’elles ne se perdent pas. Comment éviter une attente au tiroir? … Tu crains une file; que pourrait-on organiser pour la limiter? »"
+      },
+      "criteres": [
+        "Reformulation fidèle de l’objet et de son motif selon A ou B",
+        "Question ouverte liée à la situation",
+        "Deuxième réponse adaptée à la préoccupation révélée",
+        "Réponses respectueuses sans jugement des personnes"
+      ],
+      "feedback": "Le second tour doit reprendre la nouvelle contrainte (accès au bac ou attente au tiroir), pas répéter une première question générique.",
+      "difficulte": "intermediaire",
+      "seed": 2026009,
+      "parametres": {
+        "variables": {
+          "variante": [
+            "A",
+            "B"
+          ]
+        },
+        "domaine": {
+          "variante": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "Utiliser uniquement le texte intégral de la variante retenue dans stimulus et son corrigé dans reponse_attendue.",
+          "Rester dans le contexte fictif; aucune génération libre ni substitution imprévue."
+        ],
+        "algorithme": "variante = \"A\" si seed % 2 == 0, sinon \"B\"; montrer seulement cette variante au participant; le correcteur utilise la même clé.",
+        "verification_exemples": [
+          {
+            "seed": 2026009,
+            "variante": "B"
+          },
+          {
+            "seed": 2026010,
+            "variante": "A"
+          }
+        ],
+        "source_corpus": "Items A/B originaux du présent fichier; aucun appel à une IA."
+      },
+      "validation_status": "a_revoir",
+      "titre": "Mettre en discussion une suggestion pratique",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Seulement A/B, sans recombiner ni réécrire les répliques; clé calculée par parité de la seed. Réponse évaluée sur les mêmes gestes.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles."
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Le partenaire joue les deux personnages selon la variante retenue. Reformule les propositions et leurs motifs, demande comment tenir compte des deux besoins, puis réponds au nouveau détail de Paolo avec une relance respectueuse.",
+      "stimulus": {
+        "A": "Iris : « J’aimerais installer les jeux de table près de la fenêtre pour mieux voir les pièces. » Paolo : « Moi, je souhaite garder cet espace pour exposer les dessins. » Réplique suivante de Paolo : « Les dessins ont besoin d’un endroit où on ne les touche pas. »",
+        "B": "Iris : « J’aimerais mettre la maquette près de la porte pour que tout le monde la voie. » Paolo : « Moi, je souhaite laisser ce passage libre. » Réplique suivante de Paolo : « Il faudra transporter de grands cartons par cette porte. »"
+      },
+      "reponse_attendue": {
+        "A": "Exemple : « Iris veut bien voir les jeux; Paolo veut une place pour les dessins. Comment répartir l’espace? … Tu veux éviter qu’on touche aux dessins. Où les exposer sans les abîmer? »",
+        "B": "Exemple : « Iris veut rendre la maquette visible; Paolo veut un passage libre. Comment faire les deux? … Tu mentionnes les gros cartons à transporter. Où mettre la maquette sans gêner la porte? »"
+      },
+      "criteres": [
+        "Deux motifs restitués sans caricature",
+        "Question ouverte permettant d’envisager deux besoins",
+        "Adaptation à la nouvelle information de Paolo",
+        "Désaccord éventuel sur l’option et non la personne"
+      ],
+      "feedback": "Ne privilégie aucune option esthétique; le critère est la prise en compte des deux propositions et la relance après la précision.",
+      "difficulte": "transfert",
+      "seed": 2026010,
+      "parametres": {
+        "variables": {
+          "variante": [
+            "A",
+            "B"
+          ]
+        },
+        "domaine": {
+          "variante": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "Utiliser uniquement le texte intégral de la variante retenue dans stimulus et son corrigé dans reponse_attendue.",
+          "Rester dans le contexte fictif; aucune génération libre ni substitution imprévue."
+        ],
+        "algorithme": "variante = \"A\" si seed % 2 == 0, sinon \"B\"; montrer seulement cette variante au participant; le correcteur utilise la même clé.",
+        "verification_exemples": [
+          {
+            "seed": 2026010,
+            "variante": "A"
+          },
+          {
+            "seed": 2026011,
+            "variante": "B"
+          }
+        ],
+        "source_corpus": "Items A/B originaux du présent fichier; aucun appel à une IA."
+      },
+      "validation_status": "a_revoir",
+      "titre": "Concilier deux usages d’une même salle",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Seulement A/B, sans recombiner ni réécrire les répliques; clé calculée par parité de la seed. Réponse évaluée sur les mêmes gestes.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles."
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "fixe",
+      "consigne": "**SANS INDICES.** Dialogue 3 interventions de ta part minimum, alternées avec le partenaire qui lit les répliques. Après l’énoncé des préférences : (1) reformule les besoins et pose une première question ouverte; (2) réagis à la première réponse d’Émile par une relance contextualisée; (3) réagis à la deuxième réponse d’Émile par une nouvelle question ou proposition argumentée et respectueuse. Aucune méthode de classement imposée.",
+      "stimulus": "Personnages fictifs. Nour : « Je voudrais classer les livres par couleur, on verrait vite les différentes sections. » Émile : « Je préfère les classer par genre, ainsi on retrouverait les histoires qu’on cherche. » Après la première intervention de l’élève, le partenaire Émile dit : « Je pense surtout aux personnes qui cherchent un type d’histoire précis. » Après sa deuxième intervention, Émile ajoute : « Les étiquettes seraient utiles, mais certains livres appartiennent à plusieurs genres. »",
+      "reponse_attendue": "Preuve-type possible : « Nour voudrait un classement visible par couleur et Émile un rangement qui permette de retrouver les genres. Comment faire pour retrouver facilement un livre? » Après la réplique d’Émile : « Tu penses donc aux personnes qui cherchent un genre précis; comment identifier chaque genre? Je proposerais des étiquettes, parce que cela pourrait aider. » Après la deuxième réponse : « Tu soulignes que certains livres peuvent avoir plusieurs genres; comment indiquer deux genres sur une même étiquette? ». Ne pas exiger ces phrases à l’identique. La preuve est le dialogue effectif et son observation, selon cinq dimensions 0–2 dans GRILLE_MAITRISE.md.",
+      "criteres": [
+        "Reformulation fidèle d’au moins une proposition et prise en compte de l’autre",
+        "Question ouverte liée au classement/repérage",
+        "Absence d’attaque ou de jugement personnel, désaccord respectueux si exprimé",
+        "Attente et gestion du tour du partenaire",
+        "Relances successivement liées à « genre précis » et « plusieurs genres »"
+      ],
+      "feedback": "Si l’élève n’utilise pas les informations « type d’histoire précis » ou « plusieurs genres », proposer plus tard un nouvel essai sur un AUTRE scénario. Ne pas sauver ce même essai par des indices.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre": "M1 — Coin lecture (preuve autonome 1)",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Réponses ouvertes acceptées seulement si les critères observables sont satisfaits; aucune préférence, croyance ou expérience personnelle n’est évaluée.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles.",
+      "role_dans_maitrise": "preuve_1_coin_lecture",
+      "conditions_preuve": {
+        "autonomie": "sans_amorce_ni_feedback_pendant_la_tache",
+        "nombre_tours_apprenant_min": 3,
+        "partenaire": "deux réponses successives du personnage scriptées; pas d’indices sur la formulation",
+        "trace": "fiche d’observation critériée; aucun enregistrement exigé",
+        "decision": "Requiert aussi l’autre preuve et la grille globale; pas de score unique."
+      }
+    },
+    {
+      "item_id": "qc-pri-ccq-008-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "mode": "fixe",
+      "consigne": "**SANS REPRODUIRE LE MODELE.** Dialogue 3 interventions de ta part minimum, alternées avec le partenaire : reprends les deux préférences et pose une question ouverte; réponds à la première précision de Sami par une relance; après sa seconde réplique, propose une nouvelle question ou une solution argumentée sur le partage du matériel. Le partenaire ne soufflera aucun mot; parole, CAA ou messages alternés acceptés. On juge l’écoute, pas la préférence personnelle.",
+      "stimulus": "Personnages fictifs; aucun élève ne raconte ses propres habitudes. Zoé : « J’aimerais une activité où toutes les équipes construisent ensemble quelque chose avec des blocs. » Sami : « Je préférerais un jeu de parcours, car les équipes auraient de petites étapes à réaliser. » Après la première intervention de l’élève, le partenaire Sami répond : « Ce qui m’importe, c’est que chacun ait un rôle à jouer. » Après la deuxième intervention, Sami ajoute : « Il faudrait aussi que le matériel soit facile à partager entre les équipes. »",
+      "reponse_attendue": "Preuve-type possible : « Zoé veut une construction collective et Sami un parcours par étapes. Comment faire pour que tous participent? » Après la réplique de Sami : « Tu souhaites que chacun ait un rôle. Comment partager les tâches dans l’activité choisie? Moi, j’essaierais une activité avec plusieurs postes parce que chaque personne pourrait contribuer. » Après la seconde précision : « Tu ajoutes le partage du matériel. Comment organiser les blocs pour que chaque équipe y ait accès? ». Choix final libre. Observation critériée en cinq dimensions 0–2; pas de correction lexicale mot à mot.",
+      "criteres": [
+        "Reformulation fidèle des besoins construction/étapes",
+        "Question ouverte reliée à l’activité",
+        "Respect du partenaire même si désaccord",
+        "Alternance et réponse sans interruption imposée",
+        "Relances reliées successivement aux détails « rôle à jouer » et « matériel facile à partager »"
+      ],
+      "feedback": "Après la preuve, si nécessaire, entraîner la relance sur les rôles puis le partage du matériel lors d’un AUTRE essai, jamais comme aide dans la preuve autonome.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre": "M2 — Activité à l’extérieur (preuve autonome 2)",
+      "representation": "texte_accessible_et_echange_oral_ou_communication_alternative",
+      "limites_variation": "Réponses ouvertes acceptées seulement si les critères observables sont satisfaits; aucune préférence, croyance ou expérience personnelle n’est évaluée.",
+      "rubrique": {
+        "0": "geste absent ou contresens observable",
+        "1": "geste partiel ou imprécis",
+        "2": "geste fidèle, pertinent et autonome"
+      },
+      "administration": "Cas fictif; partenaire/adulte suit le texte, sans induire une réponse. Lecture facilitée, CAA et temps supplémentaire possibles.",
+      "role_dans_maitrise": "preuve_2_activite_exterieure",
+      "conditions_preuve": {
+        "autonomie": "sans_amorce_ni_feedback_pendant_la_tache",
+        "nombre_tours_apprenant_min": 3,
+        "partenaire": "deux réponses successives du personnage scriptées; pas d’indices sur la formulation",
+        "trace": "fiche d’observation critériée; aucun enregistrement exigé",
+        "decision": "Requiert aussi l’autre preuve et la grille globale; pas de score unique."
+      }
+    }
+  ]
+}

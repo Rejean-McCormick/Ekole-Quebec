@@ -1,0 +1,391 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ccq-011",
+  "family_id": "qc-pri-ccq-011-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ccq-011-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Deux programmes du FPCC : indique un élément qu’ils partagent sur les langues, une nuance entre leurs pages et une limite de leur portée.",
+      "stimulus": "DOSSIER 1\nFPCC-L — First Peoples’ Cultural Council (organisme dirigé par des Premières Nations). Nature : présentation institutionnelle de programme. Portée : Colombie-Britannique. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://fpcc.ca/programs/about-our-language-programs/\nRésumé pédagogique original, et NON citation ou témoignage : Le First Peoples’ Cultural Council présente des soutiens à la revitalisation de langues des Premières Nations de la Colombie-Britannique. Il décrit notamment l’immersion, la création de ressources linguistiques et la planification à long terme avec les communautés. Les initiatives sont portées avec les communautés concernées.\n\nDOSSIER 2\nFPCC-V — First Peoples’ Cultural Council. Nature : description d’un programme de soutien. Portée : Colombie-Britannique. Repère temporel : page de programme consultée le 8 octobre 2026; échéance affichée pour 2026. Lien : https://fpcc.ca/program/language-vitality-program/\nRésumé pédagogique original, et NON citation ou témoignage : Le programme Language Vitality soutient des projets de revitalisation linguistique dirigés par les communautés des Premières Nations en Colombie-Britannique. Il indique que chaque communauté peut concevoir des initiatives répondant à ses besoins propres, comme l’immersion et la planification linguistique.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "Le FPCC présente dans FPCC-L plusieurs voies, dont immersion, ressources et planification, pour soutenir des langues des Premières Nations en Colombie-Britannique. FPCC-V précise que les communautés peuvent concevoir des projets adaptés à leurs besoins. Les deux parlent de revitalisation; FPCC-V insiste sur la diversité des choix. Ni l’un ni l’autre ne décrit les pratiques de toutes les communautés.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "Tu as bien nommé la langue comme thème; veille aussi à distinguer un programme précis d’une affirmation sur tous les peuples. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": {
+        "selection": "FPCC-L + FPCC-V",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "FPCC-L",
+          "FPCC-V"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "conditions_passation": "Tâche documentée, avec documents et consigne; aucune auto-divulgation"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare la page linguistique et la charte de l’APN : nomme les genres des deux documents, un point commun, une différence et une limite.",
+      "stimulus": "DOSSIER 1\nAPN-L — Assemblée des Premières Nations. Nature : page institutionnelle sur les langues. Portée : Canada (organisation de représentation de Premières Nations). Repère temporel : page consultée le 8 octobre 2026; date de publication non indiquée. Lien : https://afn.ca/community-services/languages/\nRésumé pédagogique original, et NON citation ou témoignage : L’Assemblée des Premières Nations présente la protection et la revitalisation des langues des Premières Nations comme des priorités liées aux droits linguistiques et culturels. Elle défend la capacité des Premières Nations de déterminer leurs propres priorités en matière de langue.\n\nDOSSIER 2\nAPN-C — Assemblée des Premières Nations. Nature : charte de l’organisation. Portée : Canada (organisation de représentation de Premières Nations). Repère temporel : charte comprenant des modifications jusqu’en 2021; page consultée le 8 octobre 2026. Lien : https://afn.ca/about-us/charter/\nRésumé pédagogique original, et NON citation ou témoignage : Dans sa charte, l’Assemblée des Premières Nations parle à la fois d’objectifs partagés entre Premières Nations et du respect de la diversité et de l’autodétermination de chaque Nation. Ce document expose des principes de son organisation, pas les croyances de chaque personne.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "APN-L est une page thématique qui parle de soutien aux langues et des priorités des Premières Nations; APN-C est une charte exprimant diversité et autodétermination. Elles convergent sur l’importance de choisir ses priorités; l’une traite concrètement de langues, l’autre de principes organisationnels. Cela n’attribue pas ces principes comme conviction privée de chaque personne.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "Une charte et une page de secteur n’ont pas la même fonction : précise leurs genres pour éclairer ta comparaison. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": {
+        "selection": "APN-L + APN-C",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "APN-L",
+          "APN-C"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "conditions_passation": "Tâche documentée, avec documents et consigne; aucune auto-divulgation"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Compare les deux pages d’ITK : quel thème de continuité actuelle se voit dans chacune, et que ne peut-on déduire sur toutes les personnes inuit?",
+      "stimulus": "DOSSIER 1\nITK-T — Inuit Tapiriit Kanatami (organisation inuit). Nature : présentation institutionnelle des Inuit du Canada. Portée : Inuit Nunangat, dont le Nunavik au Québec. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://itk.ca/about-canadian-inuit/\nRésumé pédagogique original, et NON citation ou témoignage : Inuit Tapiriit Kanatami décrit Inuit Nunangat comme le territoire inuit du Canada, constitué de quatre régions. La présentation souligne les liens entre terre, eau et glace, ainsi que la présence de communautés contemporaines et de personnes inuit vivant aussi en milieu urbain.\n\nDOSSIER 2\nITK-R — Inuit Tapiriit Kanatami. Nature : présentation d’une stratégie de recherche. Portée : Inuit Nunangat. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://itk.ca/projects/national-inuit-strategy-on-research/\nRésumé pédagogique original, et NON citation ou témoignage : La Stratégie nationale inuite sur la recherche, présentée par Inuit Tapiriit Kanatami, demande que les Inuit participent réellement aux décisions et aux retombées des recherches réalisées dans leurs régions et communautés. Le texte souligne les limites d’une recherche menée sans leur participation.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "ITK-T situe Inuit Nunangat, ses régions et des communautés présentes, y compris la vie urbaine. ITK-R réclame une participation réelle des Inuit aux décisions de recherche. Ces deux sources montrent une vie et une action contemporaines; leurs sujets diffèrent, territoire et recherche. Elles ne décrivent pas l’opinion de chaque Inuit.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "Tu distingues correctement présent et passé si tu donnes un fait contemporain de chaque texte, pas un portrait imaginaire. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": {
+        "selection": "ITK-T + ITK-R",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "ITK-T",
+          "ITK-R"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "conditions_passation": "Tâche documentée, avec documents et consigne; aucune auto-divulgation"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Deux organisations distinctes présentent leurs contextes : relève un fait de chaque page et explique ce qui interdit de fusionner les deux histoires.",
+      "stimulus": "DOSSIER 1\nITK-T — Inuit Tapiriit Kanatami (organisation inuit). Nature : présentation institutionnelle des Inuit du Canada. Portée : Inuit Nunangat, dont le Nunavik au Québec. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://itk.ca/about-canadian-inuit/\nRésumé pédagogique original, et NON citation ou témoignage : Inuit Tapiriit Kanatami décrit Inuit Nunangat comme le territoire inuit du Canada, constitué de quatre régions. La présentation souligne les liens entre terre, eau et glace, ainsi que la présence de communautés contemporaines et de personnes inuit vivant aussi en milieu urbain.\n\nDOSSIER 2\nCNM-H — Métis National Council (organisation métisse). Nature : présentation institutionnelle de la culture et de l’histoire. Portée : territoire historique de la Nation métisse, notamment l’Ouest canadien. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://www.metisnation.ca/what-we-do/culture-heritage-and-language/culture-heritage/\nRésumé pédagogique original, et NON citation ou témoignage : Le Métis National Council présente la Nation métisse comme un peuple autochtone distinct, ayant une histoire collective, des formes d’organisation et un patrimoine culturel particuliers, notamment la langue michif. Cette présentation ne signifie pas que toutes les personnes métisses ont le même parcours.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "ITK situe les Inuit par rapport à Inuit Nunangat et à des réalités contemporaines. Le CNM présente l’histoire spécifique de la Nation métisse et la langue michif. Les deux textes traitent de peuples autochtones ayant une présence actuelle, mais pas du même territoire ou du même récit historique. Ils ne décrivent pas une identité collective unique.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "N’emploie pas Inuit et Métis comme synonymes : relis les auteurs, leurs thèmes et les limites des notices. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": {
+        "selection": "ITK-T + CNM-H",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "ITK-T",
+          "CNM-H"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "conditions_passation": "Tâche documentée, avec documents et consigne; aucune auto-divulgation"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Compare les présentations de la revitalisation linguistique dans ces deux organisations, en donnant une preuve par fiche puis une différence de portée.",
+      "stimulus": "DOSSIER 1\nFPCC-L — First Peoples’ Cultural Council (organisme dirigé par des Premières Nations). Nature : présentation institutionnelle de programme. Portée : Colombie-Britannique. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://fpcc.ca/programs/about-our-language-programs/\nRésumé pédagogique original, et NON citation ou témoignage : Le First Peoples’ Cultural Council présente des soutiens à la revitalisation de langues des Premières Nations de la Colombie-Britannique. Il décrit notamment l’immersion, la création de ressources linguistiques et la planification à long terme avec les communautés. Les initiatives sont portées avec les communautés concernées.\n\nDOSSIER 2\nAPN-L — Assemblée des Premières Nations. Nature : page institutionnelle sur les langues. Portée : Canada (organisation de représentation de Premières Nations). Repère temporel : page consultée le 8 octobre 2026; date de publication non indiquée. Lien : https://afn.ca/community-services/languages/\nRésumé pédagogique original, et NON citation ou témoignage : L’Assemblée des Premières Nations présente la protection et la revitalisation des langues des Premières Nations comme des priorités liées aux droits linguistiques et culturels. Elle défend la capacité des Premières Nations de déterminer leurs propres priorités en matière de langue.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "FPCC-L énumère des modes de soutien communautaire aux langues des Premières Nations de C.-B., dont immersion et ressources. APN-L met en avant les droits linguistiques et les priorités de Premières Nations dans un cadre plus large. Le thème commun est la revitalisation; les angles et les territoires d’intervention diffèrent. Aucune méthode commune à toutes les Premières Nations n’est prouvée.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "Une phrase comme « tous font de l’immersion » dépasse la source; indique plutôt les possibilités décrites par FPCC. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": {
+        "selection": "FPCC-L + APN-L",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "FPCC-L",
+          "APN-L"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "conditions_passation": "Tâche documentée, avec documents et consigne; aucune auto-divulgation"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Compare une initiative linguistique de Premières Nations et une présentation de la Nation métisse. Présente un lien plausible, une différence et une limite.",
+      "stimulus": "DOSSIER 1\nFPCC-V — First Peoples’ Cultural Council. Nature : description d’un programme de soutien. Portée : Colombie-Britannique. Repère temporel : page de programme consultée le 8 octobre 2026; échéance affichée pour 2026. Lien : https://fpcc.ca/program/language-vitality-program/\nRésumé pédagogique original, et NON citation ou témoignage : Le programme Language Vitality soutient des projets de revitalisation linguistique dirigés par les communautés des Premières Nations en Colombie-Britannique. Il indique que chaque communauté peut concevoir des initiatives répondant à ses besoins propres, comme l’immersion et la planification linguistique.\n\nDOSSIER 2\nCNM-H — Métis National Council (organisation métisse). Nature : présentation institutionnelle de la culture et de l’histoire. Portée : territoire historique de la Nation métisse, notamment l’Ouest canadien. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://www.metisnation.ca/what-we-do/culture-heritage-and-language/culture-heritage/\nRésumé pédagogique original, et NON citation ou témoignage : Le Métis National Council présente la Nation métisse comme un peuple autochtone distinct, ayant une histoire collective, des formes d’organisation et un patrimoine culturel particuliers, notamment la langue michif. Cette présentation ne signifie pas que toutes les personnes métisses ont le même parcours.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "FPCC-V décrit des projets linguistiques choisis par des communautés de Premières Nations en C.-B.; CNM-H présente un patrimoine historique de la Nation métisse, notamment le michif. Un rapprochement possible est la continuité culturelle et linguistique; les portées et buts des pages restent différents. Rien ne permet de généraliser un seul mode de vie autochtone.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "Le lien « langue et continuité » est défendable; un folklore commun inventé ne le serait pas. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": {
+        "selection": "FPCC-V + CNM-H",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "FPCC-V",
+          "CNM-H"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "conditions_passation": "Tâche documentée, avec documents et consigne; aucune auto-divulgation"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Une page sur les droits linguistiques des Premières Nations et une stratégie de recherche inuit : explique un principe commun justifié et deux sujets différents.",
+      "stimulus": "DOSSIER 1\nAPN-L — Assemblée des Premières Nations. Nature : page institutionnelle sur les langues. Portée : Canada (organisation de représentation de Premières Nations). Repère temporel : page consultée le 8 octobre 2026; date de publication non indiquée. Lien : https://afn.ca/community-services/languages/\nRésumé pédagogique original, et NON citation ou témoignage : L’Assemblée des Premières Nations présente la protection et la revitalisation des langues des Premières Nations comme des priorités liées aux droits linguistiques et culturels. Elle défend la capacité des Premières Nations de déterminer leurs propres priorités en matière de langue.\n\nDOSSIER 2\nITK-R — Inuit Tapiriit Kanatami. Nature : présentation d’une stratégie de recherche. Portée : Inuit Nunangat. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://itk.ca/projects/national-inuit-strategy-on-research/\nRésumé pédagogique original, et NON citation ou témoignage : La Stratégie nationale inuite sur la recherche, présentée par Inuit Tapiriit Kanatami, demande que les Inuit participent réellement aux décisions et aux retombées des recherches réalisées dans leurs régions et communautés. Le texte souligne les limites d’une recherche menée sans leur participation.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "APN-L soutient la détermination de priorités et la protection des langues des Premières Nations. ITK-R demande la participation inuit aux recherches menées dans leurs régions. On peut comparer des demandes d’autodétermination et d’implication dans les décisions, tout en distinguant droits linguistiques et recherche. La comparaison n’affirme pas que les organisations, peuples ou personnes sont identiques.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "Précise que « décisions » est le rapprochement; ce n’est pas une preuve qu’ils traitent tous deux de la même activité. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": {
+        "selection": "APN-L + ITK-R",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "APN-L",
+          "ITK-R"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "conditions_passation": "Tâche documentée, avec documents et consigne; aucune auto-divulgation"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Compare la façon dont une charte de Premières Nations et une page de l’organisme métis décrivent le respect de réalités collectives distinctes.",
+      "stimulus": "DOSSIER 1\nAPN-C — Assemblée des Premières Nations. Nature : charte de l’organisation. Portée : Canada (organisation de représentation de Premières Nations). Repère temporel : charte comprenant des modifications jusqu’en 2021; page consultée le 8 octobre 2026. Lien : https://afn.ca/about-us/charter/\nRésumé pédagogique original, et NON citation ou témoignage : Dans sa charte, l’Assemblée des Premières Nations parle à la fois d’objectifs partagés entre Premières Nations et du respect de la diversité et de l’autodétermination de chaque Nation. Ce document expose des principes de son organisation, pas les croyances de chaque personne.\n\nDOSSIER 2\nCNM-H — Métis National Council (organisation métisse). Nature : présentation institutionnelle de la culture et de l’histoire. Portée : territoire historique de la Nation métisse, notamment l’Ouest canadien. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://www.metisnation.ca/what-we-do/culture-heritage-and-language/culture-heritage/\nRésumé pédagogique original, et NON citation ou témoignage : Le Métis National Council présente la Nation métisse comme un peuple autochtone distinct, ayant une histoire collective, des formes d’organisation et un patrimoine culturel particuliers, notamment la langue michif. Cette présentation ne signifie pas que toutes les personnes métisses ont le même parcours.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "APN-C affirme le respect de la diversité et de l’autodétermination des Premières Nations. CNM-H présente la Nation métisse comme distincte, avec une histoire et un patrimoine propres. Les deux sources invitent à reconnaître des collectivités autochtones, mais les documents parlent d’organisations et de peuples différents. On ne peut pas remplacer l’un par l’autre ni prétendre connaître chaque personne.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "Ne présente pas la Nation métisse comme une « Première Nation parmi d’autres »; nomme les deux cadres correctement. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": {
+        "selection": "APN-C + CNM-H",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "APN-C",
+          "CNM-H"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "conditions_passation": "Tâche documentée, avec documents et consigne; aucune auto-divulgation"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Une page décrit des projets de langue des Premières Nations en C.-B., l’autre le territoire inuit : identifie une réalité contemporaine commune et deux particularités.",
+      "stimulus": "DOSSIER 1\nFPCC-V — First Peoples’ Cultural Council. Nature : description d’un programme de soutien. Portée : Colombie-Britannique. Repère temporel : page de programme consultée le 8 octobre 2026; échéance affichée pour 2026. Lien : https://fpcc.ca/program/language-vitality-program/\nRésumé pédagogique original, et NON citation ou témoignage : Le programme Language Vitality soutient des projets de revitalisation linguistique dirigés par les communautés des Premières Nations en Colombie-Britannique. Il indique que chaque communauté peut concevoir des initiatives répondant à ses besoins propres, comme l’immersion et la planification linguistique.\n\nDOSSIER 2\nITK-T — Inuit Tapiriit Kanatami (organisation inuit). Nature : présentation institutionnelle des Inuit du Canada. Portée : Inuit Nunangat, dont le Nunavik au Québec. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://itk.ca/about-canadian-inuit/\nRésumé pédagogique original, et NON citation ou témoignage : Inuit Tapiriit Kanatami décrit Inuit Nunangat comme le territoire inuit du Canada, constitué de quatre régions. La présentation souligne les liens entre terre, eau et glace, ainsi que la présence de communautés contemporaines et de personnes inuit vivant aussi en milieu urbain.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "FPCC-V présente des projets linguistiques contemporains conçus par des communautés des Premières Nations de C.-B. ITK-T situe les régions d’Inuit Nunangat et présente les communautés inuit actuelles. Les deux montrent des collectivités vivantes et actives, mais l’une porte sur des initiatives linguistiques en C.-B. et l’autre sur la géographie et la présence inuit. Aucune culture unique ni méthode partagée n’en résulte.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "La similarité doit rester au niveau de la continuité contemporaine; ne suppose pas que les Inuit participent aux programmes de FPCC. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "selection": "FPCC-V + ITK-T",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "FPCC-V",
+          "ITK-T"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "conditions_passation": "Tâche documentée, avec documents et consigne; aucune auto-divulgation"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Présente comment deux organisations parlent de langues et de continuités, puis précise une différence d’histoire et de territoire.",
+      "stimulus": "DOSSIER 1\nFPCC-L — First Peoples’ Cultural Council (organisme dirigé par des Premières Nations). Nature : présentation institutionnelle de programme. Portée : Colombie-Britannique. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://fpcc.ca/programs/about-our-language-programs/\nRésumé pédagogique original, et NON citation ou témoignage : Le First Peoples’ Cultural Council présente des soutiens à la revitalisation de langues des Premières Nations de la Colombie-Britannique. Il décrit notamment l’immersion, la création de ressources linguistiques et la planification à long terme avec les communautés. Les initiatives sont portées avec les communautés concernées.\n\nDOSSIER 2\nCNM-H — Métis National Council (organisation métisse). Nature : présentation institutionnelle de la culture et de l’histoire. Portée : territoire historique de la Nation métisse, notamment l’Ouest canadien. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://www.metisnation.ca/what-we-do/culture-heritage-and-language/culture-heritage/\nRésumé pédagogique original, et NON citation ou témoignage : Le Métis National Council présente la Nation métisse comme un peuple autochtone distinct, ayant une histoire collective, des formes d’organisation et un patrimoine culturel particuliers, notamment la langue michif. Cette présentation ne signifie pas que toutes les personnes métisses ont le même parcours.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "FPCC-L traite du soutien à la transmission de langues des Premières Nations en C.-B. CNM-H présente une histoire collective métisse distincte et mentionne le michif. Les deux sources évoquent des langues liées à des continuités collectives, mais leurs peuples et leurs périmètres diffèrent. On n’en déduit aucune identité ou tradition identique.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "Bonne comparaison si tu donnes bien un fait par source; « tous parlent michif » serait une extrapolation erronée. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "selection": "FPCC-L + CNM-H",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "FPCC-L",
+          "CNM-H"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "conditions_passation": "Tâche documentée, avec documents et consigne; aucune auto-divulgation"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME 1 — Compare les deux documents remis sur les initiatives linguistiques des Premières Nations et les principes de diversité/autodétermination. Présente leurs auteurs, au moins une information juste de chacun, une convergence, une différence et une limite. Aucun indice ne sera fourni.",
+      "stimulus": "DOSSIER 1\nFPCC-V — First Peoples’ Cultural Council. Nature : description d’un programme de soutien. Portée : Colombie-Britannique. Repère temporel : page de programme consultée le 8 octobre 2026; échéance affichée pour 2026. Lien : https://fpcc.ca/program/language-vitality-program/\nRésumé pédagogique original, et NON citation ou témoignage : Le programme Language Vitality soutient des projets de revitalisation linguistique dirigés par les communautés des Premières Nations en Colombie-Britannique. Il indique que chaque communauté peut concevoir des initiatives répondant à ses besoins propres, comme l’immersion et la planification linguistique.\n\nDOSSIER 2\nAPN-C — Assemblée des Premières Nations. Nature : charte de l’organisation. Portée : Canada (organisation de représentation de Premières Nations). Repère temporel : charte comprenant des modifications jusqu’en 2021; page consultée le 8 octobre 2026. Lien : https://afn.ca/about-us/charter/\nRésumé pédagogique original, et NON citation ou témoignage : Dans sa charte, l’Assemblée des Premières Nations parle à la fois d’objectifs partagés entre Premières Nations et du respect de la diversité et de l’autodétermination de chaque Nation. Ce document expose des principes de son organisation, pas les croyances de chaque personne.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "Dans FPCC-V, le First Peoples’ Cultural Council décrit, pour la Colombie-Britannique, des initiatives linguistiques conçues par les communautés selon leurs besoins. Dans APN-C, l’Assemblée des Premières Nations expose dans une charte des principes de diversité et d’autodétermination. La convergence est l’importance de démarches décidées par les collectivités; le premier décrit un programme, le second des principes de gouvernance. On ne peut pas déduire que toutes les Premières Nations mènent les mêmes projets ou que chaque personne adhère à une déclaration.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "À cette preuve autonome, il faut deux sources clairement nommées, deux faits vérifiables, une vraie comparaison et une limite explicite; l’adhésion personnelle n’est jamais notée. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "selection": "FPCC-V + APN-C",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "FPCC-V",
+          "APN-C"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": true,
+      "conditions_passation": "Sans indice ni grille visible; réponses orales/écrites comparables"
+    },
+    {
+      "item_id": "qc-pri-ccq-011-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME 2 — Compare les documents remis sur la participation des Inuit à la recherche et le respect des Nations dans une charte de Premières Nations. Présente auteurs et contextes; démontre une ressemblance justifiable, une différence, la continuité actuelle et une limite. Aucun indice ne sera fourni.",
+      "stimulus": "DOSSIER 1\nITK-R — Inuit Tapiriit Kanatami. Nature : présentation d’une stratégie de recherche. Portée : Inuit Nunangat. Repère temporel : date de publication non indiquée; consulté le 8 octobre 2026. Lien : https://itk.ca/projects/national-inuit-strategy-on-research/\nRésumé pédagogique original, et NON citation ou témoignage : La Stratégie nationale inuite sur la recherche, présentée par Inuit Tapiriit Kanatami, demande que les Inuit participent réellement aux décisions et aux retombées des recherches réalisées dans leurs régions et communautés. Le texte souligne les limites d’une recherche menée sans leur participation.\n\nDOSSIER 2\nAPN-C — Assemblée des Premières Nations. Nature : charte de l’organisation. Portée : Canada (organisation de représentation de Premières Nations). Repère temporel : charte comprenant des modifications jusqu’en 2021; page consultée le 8 octobre 2026. Lien : https://afn.ca/about-us/charter/\nRésumé pédagogique original, et NON citation ou témoignage : Dans sa charte, l’Assemblée des Premières Nations parle à la fois d’objectifs partagés entre Premières Nations et du respect de la diversité et de l’autodétermination de chaque Nation. Ce document expose des principes de son organisation, pas les croyances de chaque personne.\n\nImportant : ces résumés pédagogiques originaux ne sont pas des citations; ils reprennent des thèmes publics attribués. Aucune personne n'est invitée à parler au nom d'un peuple.",
+      "reponse_attendue": "ITK-R est une présentation par Inuit Tapiriit Kanatami d’une stratégie défendant la participation effective des Inuit aux recherches dans Inuit Nunangat. APN-C est une charte de l’Assemblée des Premières Nations affirmant diversité et autodétermination des Premières Nations. On peut rapprocher le principe d’une participation ou prise de décision collective; les objets, peuples, genres et territoires diffèrent. La stratégie et la charte concernent des questions contemporaines; elles ne représentent pas les opinions privées de chaque Inuit ou membre d’une Première Nation.",
+      "criteres": [
+        "C1 — identifier exactement les deux organisations, le type/territoire de leurs pages, et toute date absente comme inconnue",
+        "C2 — énoncer au moins un fait juste et attribué provenant de chacun des deux documents",
+        "C3 — proposer un rapprochement et une différence justifiés sans fabriquer de fait ou de position",
+        "C4 — rendre compte de la pluralité et/ou de la continuité contemporaine sans confondre peuples ou organisations",
+        "C5 — formuler une limite explicite, sans stéréotype, sans appropriation ou dévoilement personnel"
+      ],
+      "feedback": "Pour la deuxième preuve, vérifie que tu ne confonds ni les Nations ni les objectifs des textes et que tu relies une limite au statut institutionnel de chaque source. Retour correctif : si un fait manque, surligner la phrase correspondante dans la fiche; si l’attribution manque, réintroduire le nom de la source; si la limite manque, expliquer ce que la fiche ne prouve pas. Reprendre ensuite sur une autre paire.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "selection": "ITK-R + APN-C",
+        "corpus_verrouille": true,
+        "variations_permise": "Aucune variation en passation; nouvelle paire soumise à vérification humaine des sources, du corrigé, des droits et de la rubrique.",
+        "source_ids": [
+          "ITK-R",
+          "APN-C"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": true,
+      "conditions_passation": "Sans indice ni grille visible; réponses orales/écrites comparables"
+    }
+  ]
+}

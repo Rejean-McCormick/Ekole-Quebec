@@ -1,0 +1,21 @@
+{
+  "format": "ekole.kristal-interactions/1.0",
+  "kristal_id": "qc-pri-ma-026",
+  "cours_annee_proposee": 2,
+  "annee_statut": "proposition_non_validee",
+  "etat": "proposition_non_validee",
+  "activites": [
+    {
+      "id": "duree-bibliobus",
+      "type": "duree",
+      "competence_ciblee": "Calculer une durée entre deux heures",
+      "usage": "entrainement_non_certifiant"
+    },
+    {
+      "id": "duree-atelier",
+      "type": "duree",
+      "competence_ciblee": "Comparer des durées",
+      "usage": "entrainement_non_certifiant"
+    }
+  ]
+}

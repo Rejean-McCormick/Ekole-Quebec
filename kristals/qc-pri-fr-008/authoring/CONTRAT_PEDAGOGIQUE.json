@@ -1,0 +1,89 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Reconstituer les éléments d’un récit et leurs liens de cause à effet.",
+  "concepts": [
+    "situation initiale",
+    "personnages",
+    "événements",
+    "dénouement"
+  ],
+  "preuve_attendue": "Produire un schéma narratif et justifier l’ordre des événements.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-005"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-008-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Produire un schéma narratif et justifier l’ordre des événements.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Mode fixe dans cette livraison : seul le support de lecture/réponse varie. Tout changement de récit ou de corrigé exige relecture humaine; aucun générateur IA non contrôlé.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-fr-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Produire un schéma narratif et justifier l’ordre des événements.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "récit court autonome en texte",
+        "schéma narratif en cinq cases",
+        "flèches causales légendées avec indices",
+        "production orale transcrite ou écrite"
+      ],
+      "variables": {
+        "mode": "corpus_fixe_controle",
+        "banque": "evaluation/BANQUE_ITEMS.json",
+        "items_disponibles": 10,
+        "scenarios_de_maitrise": [
+          "q-009 : affiche de la bibliothèque",
+          "q-010 : sentier du belvédère"
+        ],
+        "tirage_libre": false
+      },
+      "contraintes": [
+        "texte fictif original complet par item",
+        "ne modifier aucune cause ou solution sans nouvelle révision humaine",
+        "initiale/événement déclencheur/actions/dénouement/état final identifiables",
+        "deux liens causaux appuyés sur le récit pour les deux preuves",
+        "différencier temps et causalité",
+        "aucune pénalité d’orthographe ou vitesse de lecture",
+        "deux contextes de maîtrise indépendants"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "faits_et_personnages",
+          "schema_et_ordre",
+          "liens_causaux_justifies",
+          "denouement_et_autonomie"
+        ],
+        "niveaux": "0 insuffisant;1 partiel;2 satisfait",
+        "decision": "deux preuves q-009 et q-010 : dimensions 1,2,3,4 toutes à 2 et au moins deux justifications causales par récit; échec = remédiation, pas moyenne"
+      },
+      "source": [
+        "archive maître v1.2 et ses fichiers v1.2 locaux consultés",
+        "sources/REFERENCES_CONTENU.md",
+        "récits originaux de la banque contrôlée"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

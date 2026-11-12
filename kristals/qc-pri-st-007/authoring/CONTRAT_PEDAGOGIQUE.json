@@ -1,0 +1,100 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire l’effet d’une force sur le mouvement ou la forme d’un objet.",
+  "concepts": [
+    "poussée",
+    "traction",
+    "friction",
+    "mouvement"
+  ],
+  "preuve_attendue": "Prédire puis observer les effets de forces différentes sur un objet.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-st-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-007-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Prédire puis observer les effets de forces différentes sur un objet.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "methode": "scenario_controle : corpus fini verrouillé, indice = seed modulo 2; couple stimulus/corrige indissociable. Aucune génération IA libre.",
+        "grille_observation": "Processus pour les tâches réelles sans résultat physique imposé; observation avant/après + repère + explicitation de limites.",
+        "controle_requis": "Revérifier chaque couple de scénarios et les rubriques lors de la revue humaine; appliquer la procédure de test technique du manifeste avant fusion."
+      },
+      "review_status": "items_rediges_revue_humaine_requise",
+      "kristal_id": "qc-pri-st-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "critere": "Prédire puis observer les effets de forces différentes sur un objet.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "trace_textuelle",
+        "schema_annote_avec_repere",
+        "tableau_prediction_observation",
+        "investigation_sure_avec_observateur",
+        "comparaison_de_situations"
+      ],
+      "variables": {
+        "schema": "catalogue_fini_de_scenarios_approuves_avant_diffusion",
+        "emplacements_controles": [
+          "type_de_geste",
+          "objet_leger",
+          "repere_depart_et_arrivee",
+          "trace_apres",
+          "observation_de_forme"
+        ],
+        "restriction": "Aucune variation générative libre; 8 couples textes-corrigés comportant chacun 2 scénarios verrouillés; les 4 items fixes demeurent invariants."
+      },
+      "contraintes": [
+        "Les stimuli et corrigés des scénarios sont sélectionnés ensemble dans une liste finie de deux paires par item; une seed stable contrôle uniquement le choix de l’indice.",
+        "Aucune invention de résultat de manipulation : les traces fictives sont annoncées comme fournies; les manipulations réelles sont évaluées avec une grille de processus.",
+        "Toujours distinguer prédiction, observation, explication et limite; nommer le repère ou le contour observé.",
+        "Même objet et conditions de départ précisées pour comparer; ne jamais inférer une intensité, une accélération ou une causalité univoque non mesurées.",
+        "Manipulations sous supervision avec objets légers/souples, table stable, faible effort, aucun projectile, aucune corde ni matière dangereuse.",
+        "Deux preuves en contextes distincts, dont chacune demande de prédire et observer des forces différentes sur un même objet; pas de score unique."
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "prediction_avant_action",
+          "observation_fidele_et_reperee",
+          "distinction_effet_mouvement_ou_forme",
+          "explication_et_limites",
+          "autonomie_et_securite"
+        ],
+        "niveaux": [
+          "non_demontre",
+          "en_developpement",
+          "satisfaisant",
+          "solide"
+        ],
+        "decision": "Maîtrise seulement si les deux preuves contextualisées q-011 et q-012 atteignent au moins satisfaisant sur les critères essentiels, sont produites sans indice cognitif, et si les gestes sont sûrs. Un score isolé ou une seule bonne réponse ne suffit pas.",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "governance/Norme_Pedagogique_Autonome_v1.2/CONTRAT_PEDAGOGIQUE_V1.2.md",
+        "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": 7007,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

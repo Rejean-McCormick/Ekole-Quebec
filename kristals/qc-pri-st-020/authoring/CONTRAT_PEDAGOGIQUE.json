@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-020",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Représenter des interactions alimentaires et environnementales d’un habitat.",
+  "concepts": [
+    "habitat",
+    "ressource",
+    "chaîne alimentaire",
+    "impact"
+  ],
+  "preuve_attendue": "Construire un réseau simple et prédire l’effet d’un changement de ressource.",
+  "prerequis_bloquants": [
+    "qc-pri-st-017"
+  ],
+  "ordre_conseille": [
+    "qc-pri-st-019"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-020-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Construire un réseau simple et prédire l’effet d’un changement de ressource.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Corpus approuvé verrouillé : q-009 prairie_A et q-010 mare_B; variations d’accès non directives seulement. Aucune substitution automatique des espèces ou prédictions.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "catalogue_scenarios": "evaluation/BANQUE_ITEMS.json#catalogue_scenarios"
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-st-020",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "cartes de ressources et d’organismes",
+        "graphe dirigé avec flèche consommé vers consommateur",
+        "tableau d’arêtes",
+        "prédiction causale conditionnelle écrite ou orale"
+      ],
+      "variables": {
+        "methode": "selection_deterministe_dans_corpus_ferme",
+        "catalogue_scenarios": [
+          "prairie_A",
+          "mare_B"
+        ],
+        "items_fixes": "q-001 a q-008",
+        "epreuves": "q-009 prairie_A; q-010 mare_B",
+        "tirage_aleatoire": false
+      },
+      "contraintes": [
+        "arêtes autorisées uniquement par les cartes",
+        "flèche de l’organisme consommé vers son consommateur",
+        "au moins deux chaînes connectées dans chaque preuve",
+        "effet direct et effet indirect formulés comme possibilités conditionnelles",
+        "une limite explicite par prédiction",
+        "aucune garantie empirique sur une baisse de population",
+        "deux habitats distincts",
+        "aucune génération IA libre de contenu ou de corrigé"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "M1 liens autorisés et sens",
+          "M2 réseau interconnecté",
+          "M3 impact conditionnel et chemin causal",
+          "M4 preuve et incertitude",
+          "M5 autonomie"
+        ],
+        "decision": "cinq critères essentiels observés séparément sur q-009 et q-010, aucune note unique"
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "cours_redige_evaluation_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

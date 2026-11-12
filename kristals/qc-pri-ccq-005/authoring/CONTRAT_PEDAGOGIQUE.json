@@ -1,0 +1,82 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ccq-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Distinguer informations, opinions et influences dans des contenus médiatiques.",
+  "concepts": [
+    "média",
+    "source",
+    "publicité",
+    "réputation"
+  ],
+  "preuve_attendue": "Analyser un message fictif et expliciter deux mécanismes d’influence.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ccq-005-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Analyser un message fictif et expliciter deux mécanismes d’influence.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "corpus fermé de dix items fixes; présentation accessible identique et reformulation de réponse évaluée par grille; aucun tirage de données ni scénario libre",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "a_revoir",
+      "kristal_id": "qc-pri-ccq-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Analyser un message fictif et expliciter deux mécanismes d’influence.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "journal et carte fictifs",
+        "affiche papier fictive",
+        "publication numérique fictive",
+        "billet commandité fictif",
+        "transcription audio fictive",
+        "production orale ou écrite"
+      ],
+      "variables": {
+        "mode": "corpus_ferme_fixe",
+        "items_disponibles": [
+          "qc-pri-ccq-005-q-001",
+          "qc-pri-ccq-005-q-002",
+          "qc-pri-ccq-005-q-003",
+          "qc-pri-ccq-005-q-004",
+          "qc-pri-ccq-005-q-005",
+          "qc-pri-ccq-005-q-006",
+          "qc-pri-ccq-005-q-007",
+          "qc-pri-ccq-005-q-008",
+          "qc-pri-ccq-005-q-009",
+          "qc-pri-ccq-005-q-010"
+        ],
+        "substitutions_automatiques": false,
+        "aucune_generation_ia_libre": true,
+        "formulations_de_reponse": "paraphrases étayées acceptées, mais faits du stimulus non modifiables"
+      },
+      "contraintes": [
+        "Un seul objectif immuable obj-1 et un seul critère immuable crit-1.",
+        "Deux mécanismes distincts exigés pour les deux preuves q-009 et q-010.",
+        "Aucun contenu réel, aucune identité réelle, aucun témoignage intime.",
+        "Les phrases de marketing ne démontrent ni efficacité ni véracité indépendante.",
+        "Ne pas inférer croyances, adhésion, origine ou réputation réelle.",
+        "Tous les textes de la banque sont fixes; relecture à voix haute fidèle seule variation sans réédition."
+      ],
+      "bareme_ou_rubrique": "4 dimensions D1 information/opinion/intention; D2 source, fiabilité et réputation; D3 deux leviers distincts avec citations et effets; D4 prudence/respect/limites. Chaque dimension 0–3; seuils dimensionnels D1/D2/D4 ≥ 2 et D3 ≥ 2 pour q-009 ET q-010, sans assistance, jamais sur une moyenne; voir evaluation/GRILLE_MAITRISE.md.",
+      "source": "sources/REFERENCES_CONTENU.md — gouvernance et frame v1.2, synthèses attribuées à sources vérifiées, stimuli et rubriques originaux.",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_rediges_evaluations_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

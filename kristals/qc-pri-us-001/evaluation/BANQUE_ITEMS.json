@@ -1,0 +1,1258 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-001",
+  "family_id": "qc-pri-us-001-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-us-001-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Construis une ligne du temps graduée (une case par année), puis explique pourquoi les distances ne sont pas choisies au hasard.",
+      "stimulus": "FICHES FICTIVES (scénario créé pour l’exercice). [récolte du potager de classe : 2021]; [plan du potager : 2015]; [semis : 2017]. Axe de 2015 à 2022; 1 graduation = 1 an(s).",
+      "reponse_attendue": "Origine 2015; pas constant 1 an(s)/graduation. Ordre/positions : 2015 — plan du potager → case 0; 2017 — semis → case 2; 2021 — récolte du potager de classe → case 6. Écarts entre les millésimes successifs : 2, 4 an(s). Limite documentaire : Fiches à précision annuelle : les jours des événements ne sont pas connus.",
+      "criteres": [
+        "Relever les années du fait et distinguer celles de la publication si besoin.",
+        "Classer les événements dans l’ordre croissant; signaler un ordre indéterminable si années identiques.",
+        "Indiquer une origine et des graduations de durée constante, avec positions correspondantes.",
+        "Justifier l’ordre par la date de chaque fiche, et nommer au moins une limite pertinente pour la compétence chronologique."
+      ],
+      "feedback": "Si l’ordre est erroné, retrouver l’année sur la fiche; si le placement est faux, recalculer (année−origine)/pas; si un fait est surinterprété, citer ce que les fiches indiquent réellement. Corrigé de cette variante : Origine 2015; pas constant 1 an(s)/graduation. Ordre/positions : 2015 — plan du potager → case 0; 2017 — semis → case 2; 2021 — récolte du potager de classe → case 6. Écarts entre les millésimes successifs : 2, 4 an(s). Limite documentaire : Fiches à précision annuelle : les jours des événements ne sont pas connus.",
+      "difficulte": "initial",
+      "representation": [
+        "fiches_datees",
+        "ligne_du_temps_graduee",
+        "equivalent_textuel_accessible"
+      ],
+      "contexte_maitrise": null,
+      "source_statut": "original_fictif",
+      "seed": 4100,
+      "parametres": {
+        "modele": "corpus ferme de deux variantes A et B, rédigées et corrigées; aucune génération textuelle libre",
+        "variables": {
+          "scenario_index": [
+            0,
+            1
+          ],
+          "unite": "annee",
+          "origine": "fixee dans chaque variante",
+          "pas_annees_par_graduation": "entier positif fixé dans chaque variante"
+        },
+        "contraintes": [
+          "choisir exclusivement une variante décrite",
+          "limites temporelles et labels inchangés",
+          "année avec precision annuelle pour la position; ne pas extrapoler les dates manquantes",
+          "toutes les positions entières et comprises dans l’axe",
+          "les distances sont proportionnelles aux écarts"
+        ],
+        "algorithme_selection": "index = seed modulo 2 (0 correspond à A, 1 à B)",
+        "algorithme_solution": "trier les événements par année croissante; positions = (année−origine)/pas; écarts = différence entre années consécutives; dates identiques = ordre mutuel indéterminable; limiter les inférences aux fiches",
+        "variante_selectionnee": "A",
+        "variantes": [
+          {
+            "id": "A",
+            "fictif": true,
+            "origin": 2015,
+            "end": 2022,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "récolte du potager de classe",
+                "annee": 2021
+              },
+              {
+                "evenement": "plan du potager",
+                "annee": 2015
+              },
+              {
+                "evenement": "semis",
+                "annee": 2017
+              }
+            ],
+            "expected_positions": [
+              0,
+              2,
+              6
+            ],
+            "limite": "Fiches à précision annuelle : les jours des événements ne sont pas connus.",
+            "theme": "jalons école, ordre et échelle",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [récolte du potager de classe : 2021]; [plan du potager : 2015]; [semis : 2017]. Axe de 2015 à 2022; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2015; pas constant 1 an(s)/graduation. Ordre/positions : 2015 — plan du potager → case 0; 2017 — semis → case 2; 2021 — récolte du potager de classe → case 6. Écarts entre les millésimes successifs : 2, 4 an(s). Limite documentaire : Fiches à précision annuelle : les jours des événements ne sont pas connus."
+          },
+          {
+            "id": "B",
+            "fictif": true,
+            "origin": 2014,
+            "end": 2021,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "concert final",
+                "annee": 2020
+              },
+              {
+                "evenement": "création du club de musique",
+                "annee": 2014
+              },
+              {
+                "evenement": "première répétition",
+                "annee": 2018
+              }
+            ],
+            "expected_positions": [
+              0,
+              4,
+              6
+            ],
+            "limite": "Le mois et le jour de chaque événement ne sont pas fournis.",
+            "theme": "jalons école, ordre et échelle",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [concert final : 2020]; [création du club de musique : 2014]; [première répétition : 2018]. Axe de 2014 à 2021; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2014; pas constant 1 an(s)/graduation. Ordre/positions : 2014 — création du club de musique → case 0; 2018 — première répétition → case 4; 2020 — concert final → case 6. Écarts entre les millésimes successifs : 4, 2 an(s). Limite documentaire : Le mois et le jour de chaque événement ne sont pas fournis."
+          }
+        ],
+        "examples_controles": [
+          {
+            "variante": "A",
+            "annees_triees": [
+              2015,
+              2017,
+              2021
+            ],
+            "positions_attendues": [
+              0,
+              2,
+              6
+            ]
+          },
+          {
+            "variante": "B",
+            "annees_triees": [
+              2014,
+              2018,
+              2020
+            ],
+            "positions_attendues": [
+              0,
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Lis attentivement les fiches. Trace l’axe des ÉVÉNEMENTS, pas celui des publications, avec une case par année; explique la distinction.",
+      "stimulus": "FICHES FICTIVES (scénario créé pour l’exercice). [fête racontée par une brochure publiée en 2025 : 2017]; [installation de lampes : 2020]; [inauguration du jardin : 2023]. Axe de 2017 à 2025; 1 graduation = 1 an(s).",
+      "reponse_attendue": "Origine 2017; pas constant 1 an(s)/graduation. Ordre/positions : 2017 — fête racontée par une brochure publiée en 2025 → case 0; 2020 — installation de lampes → case 3; 2023 — inauguration du jardin → case 6. Écarts entre les millésimes successifs : 3, 3 an(s). Limite documentaire : L’année 2025 est celle de la brochure, et non celle de la fête (2017).",
+      "criteres": [
+        "Relever les années du fait et distinguer celles de la publication si besoin.",
+        "Classer les événements dans l’ordre croissant; signaler un ordre indéterminable si années identiques.",
+        "Indiquer une origine et des graduations de durée constante, avec positions correspondantes.",
+        "Justifier l’ordre par la date de chaque fiche, et nommer au moins une limite pertinente pour la compétence chronologique."
+      ],
+      "feedback": "Si l’ordre est erroné, retrouver l’année sur la fiche; si le placement est faux, recalculer (année−origine)/pas; si un fait est surinterprété, citer ce que les fiches indiquent réellement. Corrigé de cette variante : Origine 2017; pas constant 1 an(s)/graduation. Ordre/positions : 2017 — fête racontée par une brochure publiée en 2025 → case 0; 2020 — installation de lampes → case 3; 2023 — inauguration du jardin → case 6. Écarts entre les millésimes successifs : 3, 3 an(s). Limite documentaire : L’année 2025 est celle de la brochure, et non celle de la fête (2017).",
+      "difficulte": "initial",
+      "representation": [
+        "fiches_datees",
+        "ligne_du_temps_graduee",
+        "equivalent_textuel_accessible"
+      ],
+      "contexte_maitrise": null,
+      "source_statut": "original_fictif",
+      "seed": 4103,
+      "parametres": {
+        "modele": "corpus ferme de deux variantes A et B, rédigées et corrigées; aucune génération textuelle libre",
+        "variables": {
+          "scenario_index": [
+            0,
+            1
+          ],
+          "unite": "annee",
+          "origine": "fixee dans chaque variante",
+          "pas_annees_par_graduation": "entier positif fixé dans chaque variante"
+        },
+        "contraintes": [
+          "choisir exclusivement une variante décrite",
+          "limites temporelles et labels inchangés",
+          "année avec precision annuelle pour la position; ne pas extrapoler les dates manquantes",
+          "toutes les positions entières et comprises dans l’axe",
+          "les distances sont proportionnelles aux écarts"
+        ],
+        "algorithme_selection": "index = seed modulo 2 (0 correspond à A, 1 à B)",
+        "algorithme_solution": "trier les événements par année croissante; positions = (année−origine)/pas; écarts = différence entre années consécutives; dates identiques = ordre mutuel indéterminable; limiter les inférences aux fiches",
+        "variante_selectionnee": "B",
+        "variantes": [
+          {
+            "id": "A",
+            "fictif": true,
+            "origin": 2016,
+            "end": 2022,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "atelier raconté par une chronique publiée en 2022",
+                "annee": 2016
+              },
+              {
+                "evenement": "plantation au parc",
+                "annee": 2019
+              },
+              {
+                "evenement": "exposition de photos",
+                "annee": 2021
+              }
+            ],
+            "expected_positions": [
+              0,
+              3,
+              5
+            ],
+            "limite": "L’année 2022 est la publication de la chronique; la date de l’atelier y est 2016.",
+            "theme": "date du fait vs date du document",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [atelier raconté par une chronique publiée en 2022 : 2016]; [plantation au parc : 2019]; [exposition de photos : 2021]. Axe de 2016 à 2022; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2016; pas constant 1 an(s)/graduation. Ordre/positions : 2016 — atelier raconté par une chronique publiée en 2022 → case 0; 2019 — plantation au parc → case 3; 2021 — exposition de photos → case 5. Écarts entre les millésimes successifs : 3, 2 an(s). Limite documentaire : L’année 2022 est la publication de la chronique; la date de l’atelier y est 2016."
+          },
+          {
+            "id": "B",
+            "fictif": true,
+            "origin": 2017,
+            "end": 2025,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "fête racontée par une brochure publiée en 2025",
+                "annee": 2017
+              },
+              {
+                "evenement": "installation de lampes",
+                "annee": 2020
+              },
+              {
+                "evenement": "inauguration du jardin",
+                "annee": 2023
+              }
+            ],
+            "expected_positions": [
+              0,
+              3,
+              6
+            ],
+            "limite": "L’année 2025 est celle de la brochure, et non celle de la fête (2017).",
+            "theme": "date du fait vs date du document",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [fête racontée par une brochure publiée en 2025 : 2017]; [installation de lampes : 2020]; [inauguration du jardin : 2023]. Axe de 2017 à 2025; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2017; pas constant 1 an(s)/graduation. Ordre/positions : 2017 — fête racontée par une brochure publiée en 2025 → case 0; 2020 — installation de lampes → case 3; 2023 — inauguration du jardin → case 6. Écarts entre les millésimes successifs : 3, 3 an(s). Limite documentaire : L’année 2025 est celle de la brochure, et non celle de la fête (2017)."
+          }
+        ],
+        "examples_controles": [
+          {
+            "variante": "A",
+            "annees_triees": [
+              2016,
+              2019,
+              2021
+            ],
+            "positions_attendues": [
+              0,
+              3,
+              5
+            ]
+          },
+          {
+            "variante": "B",
+            "annees_triees": [
+              2017,
+              2020,
+              2023
+            ],
+            "positions_attendues": [
+              0,
+              3,
+              6
+            ]
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Place les quatre faits, écris les graduations intermédiaires, calcule chaque écart entre millésimes et justifie ton ordre.",
+      "stimulus": "FICHES FICTIVES (scénario créé pour l’exercice). [jardin terminé : 2020]; [dessin du jardin : 2011]; [choix des plantes : 2014]; [installation des bacs : 2018]. Axe de 2011 à 2021; 1 graduation = 1 an(s).",
+      "reponse_attendue": "Origine 2011; pas constant 1 an(s)/graduation. Ordre/positions : 2011 — dessin du jardin → case 0; 2014 — choix des plantes → case 3; 2018 — installation des bacs → case 7; 2020 — jardin terminé → case 9. Écarts entre les millésimes successifs : 3, 4, 2 an(s). Limite documentaire : Les événements sont inventés et ne décrivent aucun jardin réel.",
+      "criteres": [
+        "Relever les années du fait et distinguer celles de la publication si besoin.",
+        "Classer les événements dans l’ordre croissant; signaler un ordre indéterminable si années identiques.",
+        "Indiquer une origine et des graduations de durée constante, avec positions correspondantes.",
+        "Justifier l’ordre par la date de chaque fiche, et nommer au moins une limite pertinente pour la compétence chronologique."
+      ],
+      "feedback": "Si l’ordre est erroné, retrouver l’année sur la fiche; si le placement est faux, recalculer (année−origine)/pas; si un fait est surinterprété, citer ce que les fiches indiquent réellement. Corrigé de cette variante : Origine 2011; pas constant 1 an(s)/graduation. Ordre/positions : 2011 — dessin du jardin → case 0; 2014 — choix des plantes → case 3; 2018 — installation des bacs → case 7; 2020 — jardin terminé → case 9. Écarts entre les millésimes successifs : 3, 4, 2 an(s). Limite documentaire : Les événements sont inventés et ne décrivent aucun jardin réel.",
+      "difficulte": "intermediaire",
+      "representation": [
+        "fiches_datees",
+        "ligne_du_temps_graduee",
+        "equivalent_textuel_accessible"
+      ],
+      "contexte_maitrise": null,
+      "source_statut": "original_fictif",
+      "seed": 4104,
+      "parametres": {
+        "modele": "corpus ferme de deux variantes A et B, rédigées et corrigées; aucune génération textuelle libre",
+        "variables": {
+          "scenario_index": [
+            0,
+            1
+          ],
+          "unite": "annee",
+          "origine": "fixee dans chaque variante",
+          "pas_annees_par_graduation": "entier positif fixé dans chaque variante"
+        },
+        "contraintes": [
+          "choisir exclusivement une variante décrite",
+          "limites temporelles et labels inchangés",
+          "année avec precision annuelle pour la position; ne pas extrapoler les dates manquantes",
+          "toutes les positions entières et comprises dans l’axe",
+          "les distances sont proportionnelles aux écarts"
+        ],
+        "algorithme_selection": "index = seed modulo 2 (0 correspond à A, 1 à B)",
+        "algorithme_solution": "trier les événements par année croissante; positions = (année−origine)/pas; écarts = différence entre années consécutives; dates identiques = ordre mutuel indéterminable; limiter les inférences aux fiches",
+        "variante_selectionnee": "A",
+        "variantes": [
+          {
+            "id": "A",
+            "fictif": true,
+            "origin": 2011,
+            "end": 2021,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "jardin terminé",
+                "annee": 2020
+              },
+              {
+                "evenement": "dessin du jardin",
+                "annee": 2011
+              },
+              {
+                "evenement": "choix des plantes",
+                "annee": 2014
+              },
+              {
+                "evenement": "installation des bacs",
+                "annee": 2018
+              }
+            ],
+            "expected_positions": [
+              0,
+              3,
+              7,
+              9
+            ],
+            "limite": "Les événements sont inventés et ne décrivent aucun jardin réel.",
+            "theme": "ordre de quatre jalons",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [jardin terminé : 2020]; [dessin du jardin : 2011]; [choix des plantes : 2014]; [installation des bacs : 2018]. Axe de 2011 à 2021; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2011; pas constant 1 an(s)/graduation. Ordre/positions : 2011 — dessin du jardin → case 0; 2014 — choix des plantes → case 3; 2018 — installation des bacs → case 7; 2020 — jardin terminé → case 9. Écarts entre les millésimes successifs : 3, 4, 2 an(s). Limite documentaire : Les événements sont inventés et ne décrivent aucun jardin réel."
+          },
+          {
+            "id": "B",
+            "fictif": true,
+            "origin": 2008,
+            "end": 2020,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "nouvelle salle ouverte",
+                "annee": 2019
+              },
+              {
+                "evenement": "esquisse du projet",
+                "annee": 2008
+              },
+              {
+                "evenement": "premier achat de matériel",
+                "annee": 2010
+              },
+              {
+                "evenement": "formation des bénévoles",
+                "annee": 2015
+              }
+            ],
+            "expected_positions": [
+              0,
+              2,
+              7,
+              11
+            ],
+            "limite": "Les événements sont inventés et ne décrivent aucun organisme réel.",
+            "theme": "ordre de quatre jalons",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [nouvelle salle ouverte : 2019]; [esquisse du projet : 2008]; [premier achat de matériel : 2010]; [formation des bénévoles : 2015]. Axe de 2008 à 2020; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2008; pas constant 1 an(s)/graduation. Ordre/positions : 2008 — esquisse du projet → case 0; 2010 — premier achat de matériel → case 2; 2015 — formation des bénévoles → case 7; 2019 — nouvelle salle ouverte → case 11. Écarts entre les millésimes successifs : 2, 5, 4 an(s). Limite documentaire : Les événements sont inventés et ne décrivent aucun organisme réel."
+          }
+        ],
+        "examples_controles": [
+          {
+            "variante": "A",
+            "annees_triees": [
+              2011,
+              2014,
+              2018,
+              2020
+            ],
+            "positions_attendues": [
+              0,
+              3,
+              7,
+              9
+            ]
+          },
+          {
+            "variante": "B",
+            "annees_triees": [
+              2008,
+              2010,
+              2015,
+              2019
+            ],
+            "positions_attendues": [
+              0,
+              2,
+              7,
+              11
+            ]
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Construis l’axe. Quel écart sépare les deux premières dates? Les écarts sont-ils identiques? Justifie avec des positions.",
+      "stimulus": "FICHES FICTIVES (scénario créé pour l’exercice). [livret final : 2020]; [premier récit : 2010]; [mise en page : 2014]. Axe de 2010 à 2021; 1 graduation = 1 an(s).",
+      "reponse_attendue": "Origine 2010; pas constant 1 an(s)/graduation. Ordre/positions : 2010 — premier récit → case 0; 2014 — mise en page → case 4; 2020 — livret final → case 10. Écarts entre les millésimes successifs : 4, 6 an(s). Limite documentaire : Les millésimes déterminent 4 puis 6 années d’écart, sans date précise en mois.",
+      "criteres": [
+        "Relever les années du fait et distinguer celles de la publication si besoin.",
+        "Classer les événements dans l’ordre croissant; signaler un ordre indéterminable si années identiques.",
+        "Indiquer une origine et des graduations de durée constante, avec positions correspondantes.",
+        "Justifier l’ordre par la date de chaque fiche, et nommer au moins une limite pertinente pour la compétence chronologique."
+      ],
+      "feedback": "Si l’ordre est erroné, retrouver l’année sur la fiche; si le placement est faux, recalculer (année−origine)/pas; si un fait est surinterprété, citer ce que les fiches indiquent réellement. Corrigé de cette variante : Origine 2010; pas constant 1 an(s)/graduation. Ordre/positions : 2010 — premier récit → case 0; 2014 — mise en page → case 4; 2020 — livret final → case 10. Écarts entre les millésimes successifs : 4, 6 an(s). Limite documentaire : Les millésimes déterminent 4 puis 6 années d’écart, sans date précise en mois.",
+      "difficulte": "intermediaire",
+      "representation": [
+        "fiches_datees",
+        "ligne_du_temps_graduee",
+        "equivalent_textuel_accessible"
+      ],
+      "contexte_maitrise": null,
+      "source_statut": "original_fictif",
+      "seed": 4107,
+      "parametres": {
+        "modele": "corpus ferme de deux variantes A et B, rédigées et corrigées; aucune génération textuelle libre",
+        "variables": {
+          "scenario_index": [
+            0,
+            1
+          ],
+          "unite": "annee",
+          "origine": "fixee dans chaque variante",
+          "pas_annees_par_graduation": "entier positif fixé dans chaque variante"
+        },
+        "contraintes": [
+          "choisir exclusivement une variante décrite",
+          "limites temporelles et labels inchangés",
+          "année avec precision annuelle pour la position; ne pas extrapoler les dates manquantes",
+          "toutes les positions entières et comprises dans l’axe",
+          "les distances sont proportionnelles aux écarts"
+        ],
+        "algorithme_selection": "index = seed modulo 2 (0 correspond à A, 1 à B)",
+        "algorithme_solution": "trier les événements par année croissante; positions = (année−origine)/pas; écarts = différence entre années consécutives; dates identiques = ordre mutuel indéterminable; limiter les inférences aux fiches",
+        "variante_selectionnee": "B",
+        "variantes": [
+          {
+            "id": "A",
+            "fictif": true,
+            "origin": 2012,
+            "end": 2019,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "fresque achevée",
+                "annee": 2018
+              },
+              {
+                "evenement": "proposition de fresque",
+                "annee": 2012
+              },
+              {
+                "evenement": "couleurs choisies",
+                "annee": 2015
+              }
+            ],
+            "expected_positions": [
+              0,
+              3,
+              6
+            ],
+            "limite": "Égalité des écarts entre millésimes, pas une preuve des durées exactes en jours.",
+            "theme": "écarts inégaux et événement médian",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [fresque achevée : 2018]; [proposition de fresque : 2012]; [couleurs choisies : 2015]. Axe de 2012 à 2019; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2012; pas constant 1 an(s)/graduation. Ordre/positions : 2012 — proposition de fresque → case 0; 2015 — couleurs choisies → case 3; 2018 — fresque achevée → case 6. Écarts entre les millésimes successifs : 3, 3 an(s). Limite documentaire : Égalité des écarts entre millésimes, pas une preuve des durées exactes en jours."
+          },
+          {
+            "id": "B",
+            "fictif": true,
+            "origin": 2010,
+            "end": 2021,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "livret final",
+                "annee": 2020
+              },
+              {
+                "evenement": "premier récit",
+                "annee": 2010
+              },
+              {
+                "evenement": "mise en page",
+                "annee": 2014
+              }
+            ],
+            "expected_positions": [
+              0,
+              4,
+              10
+            ],
+            "limite": "Les millésimes déterminent 4 puis 6 années d’écart, sans date précise en mois.",
+            "theme": "écarts inégaux et événement médian",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [livret final : 2020]; [premier récit : 2010]; [mise en page : 2014]. Axe de 2010 à 2021; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2010; pas constant 1 an(s)/graduation. Ordre/positions : 2010 — premier récit → case 0; 2014 — mise en page → case 4; 2020 — livret final → case 10. Écarts entre les millésimes successifs : 4, 6 an(s). Limite documentaire : Les millésimes déterminent 4 puis 6 années d’écart, sans date précise en mois."
+          }
+        ],
+        "examples_controles": [
+          {
+            "variante": "A",
+            "annees_triees": [
+              2012,
+              2015,
+              2018
+            ],
+            "positions_attendues": [
+              0,
+              3,
+              6
+            ]
+          },
+          {
+            "variante": "B",
+            "annees_triees": [
+              2010,
+              2014,
+              2020
+            ],
+            "positions_attendues": [
+              0,
+              4,
+              10
+            ]
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Place toutes les fiches sur le même axe. Peut-on conclure quel fait de la même année a eu lieu en premier? Justifie.",
+      "stimulus": "FICHES FICTIVES (scénario créé pour l’exercice). [choix des livres : 2020]; [ouverture de l’espace : 2024]; [choix des affiches : 2020]. Axe de 2020 à 2025; 1 graduation = 1 an(s).",
+      "reponse_attendue": "Origine 2020; pas constant 1 an(s)/graduation. Ordre/positions : 2020 — choix des affiches → case 0; 2020 — choix des livres → case 0; 2024 — ouverture de l’espace → case 4. Deux faits d’une même année ne peuvent pas être départagés sans date plus précise. Limite documentaire : Les deux choix de 2020 sont au même repère; l’ordre mutuel est indéterminable.",
+      "criteres": [
+        "Relever les années du fait et distinguer celles de la publication si besoin.",
+        "Classer les événements dans l’ordre croissant; signaler un ordre indéterminable si années identiques.",
+        "Indiquer une origine et des graduations de durée constante, avec positions correspondantes.",
+        "Justifier l’ordre par la date de chaque fiche, et nommer au moins une limite pertinente pour la compétence chronologique."
+      ],
+      "feedback": "Si l’ordre est erroné, retrouver l’année sur la fiche; si le placement est faux, recalculer (année−origine)/pas; si un fait est surinterprété, citer ce que les fiches indiquent réellement. Corrigé de cette variante : Origine 2020; pas constant 1 an(s)/graduation. Ordre/positions : 2020 — choix des affiches → case 0; 2020 — choix des livres → case 0; 2024 — ouverture de l’espace → case 4. Deux faits d’une même année ne peuvent pas être départagés sans date plus précise. Limite documentaire : Les deux choix de 2020 sont au même repère; l’ordre mutuel est indéterminable.",
+      "difficulte": "intermediaire",
+      "representation": [
+        "fiches_datees",
+        "ligne_du_temps_graduee",
+        "equivalent_textuel_accessible"
+      ],
+      "contexte_maitrise": null,
+      "source_statut": "original_fictif",
+      "seed": 4111,
+      "parametres": {
+        "modele": "corpus ferme de deux variantes A et B, rédigées et corrigées; aucune génération textuelle libre",
+        "variables": {
+          "scenario_index": [
+            0,
+            1
+          ],
+          "unite": "annee",
+          "origine": "fixee dans chaque variante",
+          "pas_annees_par_graduation": "entier positif fixé dans chaque variante"
+        },
+        "contraintes": [
+          "choisir exclusivement une variante décrite",
+          "limites temporelles et labels inchangés",
+          "année avec precision annuelle pour la position; ne pas extrapoler les dates manquantes",
+          "toutes les positions entières et comprises dans l’axe",
+          "les distances sont proportionnelles aux écarts"
+        ],
+        "algorithme_selection": "index = seed modulo 2 (0 correspond à A, 1 à B)",
+        "algorithme_solution": "trier les événements par année croissante; positions = (année−origine)/pas; écarts = différence entre années consécutives; dates identiques = ordre mutuel indéterminable; limiter les inférences aux fiches",
+        "variante_selectionnee": "B",
+        "variantes": [
+          {
+            "id": "A",
+            "fictif": true,
+            "origin": 2018,
+            "end": 2022,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "réception des affiches",
+                "annee": 2018
+              },
+              {
+                "evenement": "pose d’étagères",
+                "annee": 2021
+              },
+              {
+                "evenement": "réception de cartons",
+                "annee": 2018
+              }
+            ],
+            "expected_positions": [
+              0,
+              0,
+              3
+            ],
+            "limite": "Les deux réceptions de 2018 sont au même repère; leur ordre mutuel est indéterminable.",
+            "theme": "deux faits la même année",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [réception des affiches : 2018]; [pose d’étagères : 2021]; [réception de cartons : 2018]. Axe de 2018 à 2022; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2018; pas constant 1 an(s)/graduation. Ordre/positions : 2018 — réception de cartons → case 0; 2018 — réception des affiches → case 0; 2021 — pose d’étagères → case 3. Deux faits d’une même année ne peuvent pas être départagés sans date plus précise. Limite documentaire : Les deux réceptions de 2018 sont au même repère; leur ordre mutuel est indéterminable."
+          },
+          {
+            "id": "B",
+            "fictif": true,
+            "origin": 2020,
+            "end": 2025,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "choix des livres",
+                "annee": 2020
+              },
+              {
+                "evenement": "ouverture de l’espace",
+                "annee": 2024
+              },
+              {
+                "evenement": "choix des affiches",
+                "annee": 2020
+              }
+            ],
+            "expected_positions": [
+              0,
+              0,
+              4
+            ],
+            "limite": "Les deux choix de 2020 sont au même repère; l’ordre mutuel est indéterminable.",
+            "theme": "deux faits la même année",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [choix des livres : 2020]; [ouverture de l’espace : 2024]; [choix des affiches : 2020]. Axe de 2020 à 2025; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2020; pas constant 1 an(s)/graduation. Ordre/positions : 2020 — choix des affiches → case 0; 2020 — choix des livres → case 0; 2024 — ouverture de l’espace → case 4. Deux faits d’une même année ne peuvent pas être départagés sans date plus précise. Limite documentaire : Les deux choix de 2020 sont au même repère; l’ordre mutuel est indéterminable."
+          }
+        ],
+        "examples_controles": [
+          {
+            "variante": "A",
+            "annees_triees": [
+              2018,
+              2018,
+              2021
+            ],
+            "positions_attendues": [
+              0,
+              0,
+              3
+            ]
+          },
+          {
+            "variante": "B",
+            "annees_triees": [
+              2020,
+              2020,
+              2024
+            ],
+            "positions_attendues": [
+              0,
+              0,
+              4
+            ]
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Trace les points et nomme la décennie commune. Écris les bornes exactes de cette décennie et justifie.",
+      "stimulus": "FICHES FICTIVES (scénario créé pour l’exercice). [récit fictif A : 1969]; [récit fictif B : 1962]; [récit fictif C : 1966]. Axe de 1960 à 1970; 1 graduation = 1 an(s).",
+      "reponse_attendue": "Origine 1960; pas constant 1 an(s)/graduation. Ordre/positions : 1962 — récit fictif B → case 2; 1966 — récit fictif C → case 6; 1969 — récit fictif A → case 9. Écarts entre les millésimes successifs : 4, 3 an(s). Décennie : années 1960, de 1960 à 1969. Limite documentaire : Les récits sont fictifs; les années 1960 comprennent 1960 à 1969.",
+      "criteres": [
+        "Relever les années du fait et distinguer celles de la publication si besoin.",
+        "Classer les événements dans l’ordre croissant; signaler un ordre indéterminable si années identiques.",
+        "Indiquer une origine et des graduations de durée constante, avec positions correspondantes.",
+        "Justifier l’ordre par la date de chaque fiche, et nommer au moins une limite pertinente pour la compétence chronologique."
+      ],
+      "feedback": "Si l’ordre est erroné, retrouver l’année sur la fiche; si le placement est faux, recalculer (année−origine)/pas; si un fait est surinterprété, citer ce que les fiches indiquent réellement. Corrigé de cette variante : Origine 1960; pas constant 1 an(s)/graduation. Ordre/positions : 1962 — récit fictif B → case 2; 1966 — récit fictif C → case 6; 1969 — récit fictif A → case 9. Écarts entre les millésimes successifs : 4, 3 an(s). Décennie : années 1960, de 1960 à 1969. Limite documentaire : Les récits sont fictifs; les années 1960 comprennent 1960 à 1969.",
+      "difficulte": "intermediaire",
+      "representation": [
+        "fiches_datees",
+        "ligne_du_temps_graduee",
+        "equivalent_textuel_accessible"
+      ],
+      "contexte_maitrise": null,
+      "source_statut": "original_fictif",
+      "seed": 4114,
+      "parametres": {
+        "modele": "corpus ferme de deux variantes A et B, rédigées et corrigées; aucune génération textuelle libre",
+        "variables": {
+          "scenario_index": [
+            0,
+            1
+          ],
+          "unite": "annee",
+          "origine": "fixee dans chaque variante",
+          "pas_annees_par_graduation": "entier positif fixé dans chaque variante"
+        },
+        "contraintes": [
+          "choisir exclusivement une variante décrite",
+          "limites temporelles et labels inchangés",
+          "année avec precision annuelle pour la position; ne pas extrapoler les dates manquantes",
+          "toutes les positions entières et comprises dans l’axe",
+          "les distances sont proportionnelles aux écarts"
+        ],
+        "algorithme_selection": "index = seed modulo 2 (0 correspond à A, 1 à B)",
+        "algorithme_solution": "trier les événements par année croissante; positions = (année−origine)/pas; écarts = différence entre années consécutives; dates identiques = ordre mutuel indéterminable; limiter les inférences aux fiches",
+        "variante_selectionnee": "A",
+        "variantes": [
+          {
+            "id": "A",
+            "fictif": true,
+            "origin": 1960,
+            "end": 1970,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "récit fictif A",
+                "annee": 1969
+              },
+              {
+                "evenement": "récit fictif B",
+                "annee": 1962
+              },
+              {
+                "evenement": "récit fictif C",
+                "annee": 1966
+              }
+            ],
+            "expected_positions": [
+              2,
+              6,
+              9
+            ],
+            "limite": "Les récits sont fictifs; les années 1960 comprennent 1960 à 1969.",
+            "theme": "situer une décennie",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [récit fictif A : 1969]; [récit fictif B : 1962]; [récit fictif C : 1966]. Axe de 1960 à 1970; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 1960; pas constant 1 an(s)/graduation. Ordre/positions : 1962 — récit fictif B → case 2; 1966 — récit fictif C → case 6; 1969 — récit fictif A → case 9. Écarts entre les millésimes successifs : 4, 3 an(s). Décennie : années 1960, de 1960 à 1969. Limite documentaire : Les récits sont fictifs; les années 1960 comprennent 1960 à 1969."
+          },
+          {
+            "id": "B",
+            "fictif": true,
+            "origin": 1970,
+            "end": 1980,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "récit fictif D",
+                "annee": 1978
+              },
+              {
+                "evenement": "récit fictif E",
+                "annee": 1971
+              },
+              {
+                "evenement": "récit fictif F",
+                "annee": 1974
+              }
+            ],
+            "expected_positions": [
+              1,
+              4,
+              8
+            ],
+            "limite": "Les récits sont fictifs; les années 1970 comprennent 1970 à 1979.",
+            "theme": "situer une décennie",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [récit fictif D : 1978]; [récit fictif E : 1971]; [récit fictif F : 1974]. Axe de 1970 à 1980; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 1970; pas constant 1 an(s)/graduation. Ordre/positions : 1971 — récit fictif E → case 1; 1974 — récit fictif F → case 4; 1978 — récit fictif D → case 8. Écarts entre les millésimes successifs : 3, 4 an(s). Décennie : années 1970, de 1970 à 1979. Limite documentaire : Les récits sont fictifs; les années 1970 comprennent 1970 à 1979."
+          }
+        ],
+        "examples_controles": [
+          {
+            "variante": "A",
+            "annees_triees": [
+              1962,
+              1966,
+              1969
+            ],
+            "positions_attendues": [
+              2,
+              6,
+              9
+            ]
+          },
+          {
+            "variante": "B",
+            "annees_triees": [
+              1971,
+              1974,
+              1978
+            ],
+            "positions_attendues": [
+              1,
+              4,
+              8
+            ]
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "SANS INDICE, crée une ligne du temps, annonce l’origine et l’échelle, légende quatre jalons d’un projet de jardin FICTIF et explique l’ordre et les espacements. Ne déduis pas les mois ou jours.",
+      "stimulus": "FICHES FICTIVES (scénario créé pour l’exercice). [projet de jardin proposé : 2012]; [bacs posés : 2015]; [premières récoltes : 2019]; [panneau installé : 2022]. Axe de 2012 à 2023; 1 graduation = 1 an(s).",
+      "reponse_attendue": "Origine 2012; pas constant 1 an(s)/graduation. Ordre/positions : 2012 — projet de jardin proposé → case 0; 2015 — bacs posés → case 3; 2019 — premières récoltes → case 7; 2022 — panneau installé → case 10. Écarts entre les millésimes successifs : 3, 4, 3 an(s). Limite documentaire : Quatre fiches fictives annuelles; ne pas prétendre connaître dates précises ou détails non fournis.",
+      "criteres": [
+        "Relever les années du fait et distinguer celles de la publication si besoin.",
+        "Classer les événements dans l’ordre croissant; signaler un ordre indéterminable si années identiques.",
+        "Indiquer une origine et des graduations de durée constante, avec positions correspondantes.",
+        "Justifier l’ordre par la date de chaque fiche, et nommer au moins une limite pertinente pour la preuve de maîtrise."
+      ],
+      "feedback": "Si l’ordre est erroné, retrouver l’année sur la fiche; si le placement est faux, recalculer (année−origine)/pas; si un fait est surinterprété, citer ce que les fiches indiquent réellement. Corrigé de cette variante : Origine 2012; pas constant 1 an(s)/graduation. Ordre/positions : 2012 — projet de jardin proposé → case 0; 2015 — bacs posés → case 3; 2019 — premières récoltes → case 7; 2022 — panneau installé → case 10. Écarts entre les millésimes successifs : 3, 4, 3 an(s). Limite documentaire : Quatre fiches fictives annuelles; ne pas prétendre connaître dates précises ou détails non fournis.",
+      "difficulte": "transfert",
+      "representation": [
+        "fiches_datees",
+        "ligne_du_temps_graduee",
+        "equivalent_textuel_accessible"
+      ],
+      "contexte_maitrise": "scolaire_fictif",
+      "source_statut": "original_fictif",
+      "seed": 4122,
+      "parametres": {
+        "modele": "corpus ferme de deux variantes A et B, rédigées et corrigées; aucune génération textuelle libre",
+        "variables": {
+          "scenario_index": [
+            0,
+            1
+          ],
+          "unite": "annee",
+          "origine": "fixee dans chaque variante",
+          "pas_annees_par_graduation": "entier positif fixé dans chaque variante"
+        },
+        "contraintes": [
+          "choisir exclusivement une variante décrite",
+          "limites temporelles et labels inchangés",
+          "année avec precision annuelle pour la position; ne pas extrapoler les dates manquantes",
+          "toutes les positions entières et comprises dans l’axe",
+          "les distances sont proportionnelles aux écarts"
+        ],
+        "algorithme_selection": "index = seed modulo 2 (0 correspond à A, 1 à B)",
+        "algorithme_solution": "trier les événements par année croissante; positions = (année−origine)/pas; écarts = différence entre années consécutives; dates identiques = ordre mutuel indéterminable; limiter les inférences aux fiches",
+        "variante_selectionnee": "A",
+        "variantes": [
+          {
+            "id": "A",
+            "fictif": true,
+            "origin": 2012,
+            "end": 2023,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "projet de jardin proposé",
+                "annee": 2012
+              },
+              {
+                "evenement": "bacs posés",
+                "annee": 2015
+              },
+              {
+                "evenement": "premières récoltes",
+                "annee": 2019
+              },
+              {
+                "evenement": "panneau installé",
+                "annee": 2022
+              }
+            ],
+            "expected_positions": [
+              0,
+              3,
+              7,
+              10
+            ],
+            "limite": "Quatre fiches fictives annuelles; ne pas prétendre connaître dates précises ou détails non fournis.",
+            "theme": "preuve autonome A, jardin scolaire",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [projet de jardin proposé : 2012]; [bacs posés : 2015]; [premières récoltes : 2019]; [panneau installé : 2022]. Axe de 2012 à 2023; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2012; pas constant 1 an(s)/graduation. Ordre/positions : 2012 — projet de jardin proposé → case 0; 2015 — bacs posés → case 3; 2019 — premières récoltes → case 7; 2022 — panneau installé → case 10. Écarts entre les millésimes successifs : 3, 4, 3 an(s). Limite documentaire : Quatre fiches fictives annuelles; ne pas prétendre connaître dates précises ou détails non fournis."
+          },
+          {
+            "id": "B",
+            "fictif": true,
+            "origin": 2013,
+            "end": 2025,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "plan du jardin",
+                "annee": 2013
+              },
+              {
+                "evenement": "semences choisies",
+                "annee": 2017
+              },
+              {
+                "evenement": "compost installé",
+                "annee": 2020
+              },
+              {
+                "evenement": "visite de groupe",
+                "annee": 2024
+              }
+            ],
+            "expected_positions": [
+              0,
+              4,
+              7,
+              11
+            ],
+            "limite": "Quatre fiches fictives annuelles; les journées exactes demeurent inconnues.",
+            "theme": "preuve autonome A, jardin scolaire",
+            "stimulus_controle": "FICHES FICTIVES (scénario créé pour l’exercice). [plan du jardin : 2013]; [semences choisies : 2017]; [compost installé : 2020]; [visite de groupe : 2024]. Axe de 2013 à 2025; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 2013; pas constant 1 an(s)/graduation. Ordre/positions : 2013 — plan du jardin → case 0; 2017 — semences choisies → case 4; 2020 — compost installé → case 7; 2024 — visite de groupe → case 11. Écarts entre les millésimes successifs : 4, 3, 4 an(s). Limite documentaire : Quatre fiches fictives annuelles; les journées exactes demeurent inconnues."
+          }
+        ],
+        "examples_controles": [
+          {
+            "variante": "A",
+            "annees_triees": [
+              2012,
+              2015,
+              2019,
+              2022
+            ],
+            "positions_attendues": [
+              0,
+              3,
+              7,
+              10
+            ]
+          },
+          {
+            "variante": "B",
+            "annees_triees": [
+              2013,
+              2017,
+              2020,
+              2024
+            ],
+            "positions_attendues": [
+              0,
+              4,
+              7,
+              11
+            ]
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "SANS INDICE, réalise une ligne du temps des jalons historiques ci-dessous (une case par année), cite la source BAnQ et explique pourquoi l’axe ne décrit pas toutes les étapes possibles.",
+      "stimulus": "FICHES HISTORIQUES (dates issues de BAnQ, résumé original). [ouverture d’Expo 67, 28 avril : 1967]; [remise du site, 30 juin : 1964]; [attribution de l’exposition à Montréal, 13 novembre : 1962]; [inauguration des travaux, 12 août : 1963]. Axe de 1962 à 1968; 1 graduation = 1 an(s).",
+      "reponse_attendue": "Origine 1962; pas constant 1 an(s)/graduation. Ordre/positions : 1962 — attribution de l’exposition à Montréal, 13 novembre → case 0; 1963 — inauguration des travaux, 12 août → case 1; 1964 — remise du site, 30 juin → case 2; 1967 — ouverture d’Expo 67, 28 avril → case 5. Écarts entre les millésimes successifs : 1, 1, 3 an(s). Limite documentaire : Ces jalons sont établis par les trois pages BAnQ citées; les cartes ne décrivent pas la totalité des préparatifs.",
+      "criteres": [
+        "Relever les années du fait et distinguer celles de la publication si besoin.",
+        "Classer les événements dans l’ordre croissant; signaler un ordre indéterminable si années identiques.",
+        "Indiquer une origine et des graduations de durée constante, avec positions correspondantes.",
+        "Justifier l’ordre par la date de chaque fiche, et nommer au moins une limite pertinente pour la preuve de maîtrise."
+      ],
+      "feedback": "Si l’ordre est erroné, retrouver l’année sur la fiche; si le placement est faux, recalculer (année−origine)/pas; si un fait est surinterprété, citer ce que les fiches indiquent réellement. Corrigé de cette variante : Origine 1962; pas constant 1 an(s)/graduation. Ordre/positions : 1962 — attribution de l’exposition à Montréal, 13 novembre → case 0; 1963 — inauguration des travaux, 12 août → case 1; 1964 — remise du site, 30 juin → case 2; 1967 — ouverture d’Expo 67, 28 avril → case 5. Écarts entre les millésimes successifs : 1, 1, 3 an(s). Limite documentaire : Ces jalons sont établis par les trois pages BAnQ citées; les cartes ne décrivent pas la totalité des préparatifs.",
+      "difficulte": "transfert",
+      "representation": [
+        "fiches_datees",
+        "ligne_du_temps_graduee",
+        "equivalent_textuel_accessible"
+      ],
+      "contexte_maitrise": "historique_documente",
+      "source_statut": "BAnQ, trois pages historiques vérifiées (voir REFERENCES_CONTENU.md)",
+      "seed": 4128,
+      "parametres": {
+        "modele": "corpus ferme de deux variantes A et B, rédigées et corrigées; aucune génération textuelle libre",
+        "variables": {
+          "scenario_index": [
+            0,
+            1
+          ],
+          "unite": "annee",
+          "origine": "fixee dans chaque variante",
+          "pas_annees_par_graduation": "entier positif fixé dans chaque variante"
+        },
+        "contraintes": [
+          "choisir exclusivement une variante décrite",
+          "limites temporelles et labels inchangés",
+          "année avec precision annuelle pour la position; ne pas extrapoler les dates manquantes",
+          "toutes les positions entières et comprises dans l’axe",
+          "les distances sont proportionnelles aux écarts"
+        ],
+        "algorithme_selection": "index = seed modulo 2 (0 correspond à A, 1 à B)",
+        "algorithme_solution": "trier les événements par année croissante; positions = (année−origine)/pas; écarts = différence entre années consécutives; dates identiques = ordre mutuel indéterminable; limiter les inférences aux fiches",
+        "variante_selectionnee": "A",
+        "variantes": [
+          {
+            "id": "A",
+            "fictif": false,
+            "origin": 1962,
+            "end": 1968,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "ouverture d’Expo 67, 28 avril",
+                "annee": 1967
+              },
+              {
+                "evenement": "remise du site, 30 juin",
+                "annee": 1964
+              },
+              {
+                "evenement": "attribution de l’exposition à Montréal, 13 novembre",
+                "annee": 1962
+              },
+              {
+                "evenement": "inauguration des travaux, 12 août",
+                "annee": 1963
+              }
+            ],
+            "expected_positions": [
+              0,
+              1,
+              2,
+              5
+            ],
+            "limite": "Ces jalons sont établis par les trois pages BAnQ citées; les cartes ne décrivent pas la totalité des préparatifs.",
+            "theme": "preuve autonome B, Expo 67 documentée",
+            "stimulus_controle": "FICHES HISTORIQUES (dates issues de BAnQ, résumé original). [ouverture d’Expo 67, 28 avril : 1967]; [remise du site, 30 juin : 1964]; [attribution de l’exposition à Montréal, 13 novembre : 1962]; [inauguration des travaux, 12 août : 1963]. Axe de 1962 à 1968; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 1962; pas constant 1 an(s)/graduation. Ordre/positions : 1962 — attribution de l’exposition à Montréal, 13 novembre → case 0; 1963 — inauguration des travaux, 12 août → case 1; 1964 — remise du site, 30 juin → case 2; 1967 — ouverture d’Expo 67, 28 avril → case 5. Écarts entre les millésimes successifs : 1, 1, 3 an(s). Limite documentaire : Ces jalons sont établis par les trois pages BAnQ citées; les cartes ne décrivent pas la totalité des préparatifs."
+          },
+          {
+            "id": "B",
+            "fictif": false,
+            "origin": 1962,
+            "end": 1968,
+            "pas": 1,
+            "events": [
+              {
+                "evenement": "remise du site, 30 juin",
+                "annee": 1964
+              },
+              {
+                "evenement": "attribution de l’exposition à Montréal, 13 novembre",
+                "annee": 1962
+              },
+              {
+                "evenement": "ouverture d’Expo 67, 28 avril",
+                "annee": 1967
+              }
+            ],
+            "expected_positions": [
+              0,
+              2,
+              5
+            ],
+            "limite": "Ces trois jalons vérifiés par BAnQ sont un sous-ensemble, pas une liste exhaustive des préparatifs.",
+            "theme": "preuve autonome B, Expo 67 documentée",
+            "stimulus_controle": "FICHES HISTORIQUES (dates issues de BAnQ, résumé original). [remise du site, 30 juin : 1964]; [attribution de l’exposition à Montréal, 13 novembre : 1962]; [ouverture d’Expo 67, 28 avril : 1967]. Axe de 1962 à 1968; 1 graduation = 1 an(s).",
+            "corrige_controle": "Origine 1962; pas constant 1 an(s)/graduation. Ordre/positions : 1962 — attribution de l’exposition à Montréal, 13 novembre → case 0; 1964 — remise du site, 30 juin → case 2; 1967 — ouverture d’Expo 67, 28 avril → case 5. Écarts entre les millésimes successifs : 2, 3 an(s). Limite documentaire : Ces trois jalons vérifiés par BAnQ sont un sous-ensemble, pas une liste exhaustive des préparatifs."
+          }
+        ],
+        "examples_controles": [
+          {
+            "variante": "A",
+            "annees_triees": [
+              1962,
+              1963,
+              1964,
+              1967
+            ],
+            "positions_attendues": [
+              0,
+              1,
+              2,
+              5
+            ]
+          },
+          {
+            "variante": "B",
+            "annees_triees": [
+              1962,
+              1964,
+              1967
+            ],
+            "positions_attendues": [
+              0,
+              2,
+              5
+            ]
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "fixe",
+      "difficulte": "initial",
+      "consigne": "Une chronique fictive imprimée en 2024 raconte une fête tenue en 2018. Une note fictive indique un concert en 2021. Construis la ligne du temps des FAITS (origine 2018; 1 case/an) et explique pourquoi 2024 ne marque pas la fête.",
+      "stimulus": "Chronique (rédacteur fictif, 2024) : « Une fête a eu lieu en 2018. » Note (comité fictif, 2021) : « Un concert a eu lieu en 2021. »",
+      "reponse_attendue": "2018 fête = 0; 2021 concert = 3; écart de trois années entre millésimes. 2024 date la chronique, pas la fête; on ne déduit ni jour ni mois.",
+      "feedback": "Cherche « a eu lieu en » plutôt que la date de rédaction, puis compte un intervalle par an.",
+      "representation": [
+        "document_texte",
+        "axe_annuel"
+      ],
+      "criteres": [
+        "Dates des faits transcrites exactement (sans confondre date de publication).",
+        "Ordre chronologique correct, ou absence de classement non justifié pour une même année.",
+        "Échelle uniforme indiquée, positions justes au pas spécifié.",
+        "Justification explicite, limite documentaire pertinente."
+      ],
+      "source_statut": "scenario_original_fictif",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "fixe",
+      "difficulte": "intermediaire",
+      "consigne": "Dans ce scénario fictif, une affiche existe en 2010, des travaux ont lieu en 2012, une ouverture en 2016 et une visite en 2018. Trace un axe de 2010 à 2018 : UN intervalle représente DEUX ans. Place chaque fait et explique son placement.",
+      "stimulus": "Affiche 2010; travaux 2012; ouverture 2016; visite 2018 (fictions). Graduations : 2010 | 2012 | 2014 | 2016 | 2018.",
+      "reponse_attendue": "2010 affiche = case 0; 2012 travaux = 1; 2016 ouverture = 3; 2018 visite = 4. Différences d’années 2, 4, 2 et écarts dessinés 1, 2, 1 cases.",
+      "feedback": "Il faut diviser chaque différence avec 2010 par 2; l’écart 2012→2016 correspond à deux cases, pas une.",
+      "representation": [
+        "schema_graduation_2_ans",
+        "texte"
+      ],
+      "criteres": [
+        "Dates des faits transcrites exactement (sans confondre date de publication).",
+        "Ordre chronologique correct, ou absence de classement non justifié pour une même année.",
+        "Échelle uniforme indiquée, positions justes au pas spécifié.",
+        "Justification explicite, limite documentaire pertinente."
+      ],
+      "source_statut": "scenario_original_fictif",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "fixe",
+      "difficulte": "intermediaire",
+      "consigne": "Deux documents fictifs rapportent des faits la même année. Trace la ligne du temps 2017–2022 (1 case/an), puis dis si l’un précède l’autre. Explique ce qui manque.",
+      "stimulus": "Fiche 1 : « en 2019, un panneau a été installé ». Fiche 2 : « en 2019, une fête a été préparée ». Fiche 3 : « en 2021, le local a été ouvert ».",
+      "reponse_attendue": "Panneau 2019 = case 2; fête préparée 2019 = case 2; ouverture 2021 = case 4; ordre des deux faits de 2019 indéterminable sans mois ou jour.",
+      "feedback": "Même année ne signifie pas premier, ni simultanéité exacte; seule la position annuelle est établie.",
+      "representation": [
+        "cartes",
+        "axe_annuel"
+      ],
+      "criteres": [
+        "Dates des faits transcrites exactement (sans confondre date de publication).",
+        "Ordre chronologique correct, ou absence de classement non justifié pour une même année.",
+        "Échelle uniforme indiquée, positions justes au pas spécifié.",
+        "Justification explicite, limite documentaire pertinente."
+      ],
+      "source_statut": "scenario_original_fictif",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-001-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-001-ev-01",
+      "mode": "fixe",
+      "difficulte": "transfert",
+      "consigne": "Quatre événements fictifs décrivent un centre communautaire. Trace un axe 1998–2013 avec une graduation = CINQ ans; ordonne et place chaque événement. Quelle est la différence entre 1998 et 2013?",
+      "stimulus": "Rénovation 2008; esquisse 1998; fête 2013; première ouverture 2003. Repères : 1998 | 2003 | 2008 | 2013.",
+      "reponse_attendue": "1998 esquisse = 0; 2003 ouverture = 1; 2008 rénovation = 2; 2013 fête = 3; 15 années d’écart entre millésimes 1998 et 2013, soit trois intervalles de 5 ans.",
+      "feedback": "Le pas de 5 ans exige de calculer (année−1998)/5; ne remplace pas les 15 années d’écart par 3 années.",
+      "representation": [
+        "axe_cinq_ans",
+        "tableau_dates_positions"
+      ],
+      "criteres": [
+        "Dates des faits transcrites exactement (sans confondre date de publication).",
+        "Ordre chronologique correct, ou absence de classement non justifié pour une même année.",
+        "Échelle uniforme indiquée, positions justes au pas spécifié.",
+        "Justification explicite, limite documentaire pertinente."
+      ],
+      "source_statut": "scenario_original_fictif",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

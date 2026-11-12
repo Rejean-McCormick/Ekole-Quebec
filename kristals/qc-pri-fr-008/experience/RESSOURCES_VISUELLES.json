@@ -1,0 +1,89 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-fr-008",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Reconstituer les éléments d’un récit et leurs liens de cause à effet.",
+    "concepts": [
+      "situation initiale",
+      "personnages",
+      "événements",
+      "dénouement"
+    ]
+  },
+  "titre_source": "Lire un récit",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": [
+      {
+        "id": "recit-atelier-cartes",
+        "statut": "illustration_candidate_non_validee"
+      }
+    ]
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "Un atelier de quartier avec un objet manquant et un espace pour chercher des indices de l’histoire, sans dévoiler le dénouement.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Lire un récit » : Reconstituer les éléments d’un récit et leurs liens de cause à effet. Un atelier de quartier avec un objet manquant et un espace pour chercher des indices de l’histoire, sans dévoiler le dénouement. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Construire le fil d’une histoire : Un atelier de quartier avec un objet manquant et un espace pour chercher des indices de l’histoire, sans dévoiler le dénouement.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "Une scène narrative représentant un personnage face à un imprévu identifiable, avec des indices pertinents pour imaginer la suite.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Lire un récit » : Reconstituer les éléments d’un récit et leurs liens de cause à effet. Une scène narrative représentant un personnage face à un imprévu identifiable, avec des indices pertinents pour imaginer la suite. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Construire le fil d’une histoire : Une scène narrative représentant un personnage face à un imprévu identifiable, avec des indices pertinents pour imaginer la suite.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "« La clé de l'atelier » (fiction originale)",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

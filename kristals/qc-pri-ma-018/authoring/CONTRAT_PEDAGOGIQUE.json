@@ -1,0 +1,94 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-018",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Établir et expliquer des égalités ou relations numériques correctes.",
+  "concepts": [
+    "égalité",
+    "inconnue",
+    "compensation",
+    "relation"
+  ],
+  "preuve_attendue": "Compléter des égalités ouvertes en explicitant la relation choisie.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-018-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Compléter des égalités ouvertes en explicitant la relation choisie.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_revue_humaine_requise",
+      "kristal_id": "qc-pri-ma-018",
+      "objectif_id": "obj-1",
+      "critere": {
+        "id": "crit-1",
+        "libelle": "Compléter des égalités ouvertes en explicitant la relation choisie."
+      },
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "materiel",
+        "schema_en_barres",
+        "notation_symbolique",
+        "situation_textuelle"
+      ],
+      "variables": {
+        "domaines": [
+          "entiers_non_negatifs",
+          "une_inconnue_unique"
+        ],
+        "templates": [
+          "q-002",
+          "q-004",
+          "q-006",
+          "q-009",
+          "q-010"
+        ],
+        "strategie_selection": "application déterministe de seed et de quotients/reste (voir BANQUE_ITEMS.json)"
+      },
+      "contraintes": [
+        "égalité vraie après substitution",
+        "solution entière et unique",
+        "aucune soustraction hors entiers non négatifs",
+        "domaine borné et calcul exact",
+        "justification explicite et contrôle des deux membres",
+        "pas de tirage libre IA"
+      ],
+      "bareme_ou_rubrique": {
+        "points_par_preuve": 3,
+        "critere_1": "case exacte (1)",
+        "critere_2": "relation mathématique valide explicitée (1)",
+        "critere_3": "substitution et deux membres vérifiés (1)",
+        "decision": "deux manifestations distinctes satisfaisantes, pas une seule note"
+      },
+      "source": "contenu original qc-pri-ma-018; fondements gouvernance v1.2 et raisonnements élémentaires",
+      "seed": {
+        "strategie": "stable_par_item",
+        "seeds": [
+          18002,
+          18004,
+          18006,
+          18009,
+          18010
+        ]
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

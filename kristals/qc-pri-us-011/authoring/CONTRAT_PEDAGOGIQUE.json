@@ -1,0 +1,103 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-011",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Expliquer des conséquences de l’industrialisation sur la vie quotidienne.",
+  "concepts": [
+    "industrialisation",
+    "migration",
+    "ville",
+    "travail"
+  ],
+  "preuve_attendue": "Relier une transformation technique à deux effets sociaux documentés.",
+  "prerequis_bloquants": [
+    "qc-pri-us-001"
+  ],
+  "ordre_conseille": [
+    "qc-pri-us-010"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-011-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Relier une transformation technique à deux effets sociaux documentés.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Uniquement sélection d’un contexte parmi les fiches S1–S4 approuvées et corrigées; changement de consigne/dates/effets interdit sans révision.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_reproductible": "IDs fixes q-001 à q-010; aucune sélection pseudo-aléatoire réalisée dans cette livraison."
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-us-011",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "analyse de synthèses historiques datées",
+        "chaîne causes-effets sourcée",
+        "frise chronologique",
+        "réponse orale ou écrite argumentée"
+      ],
+      "variables": {
+        "strategie": "corpus_fixe_approuve",
+        "corpus_autorise": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "contexts_maitrise": {
+          "q-009": [
+            "S1",
+            "S2"
+          ],
+          "q-010": [
+            "S3"
+          ]
+        },
+        "generation_aleatoire_active": false
+      },
+      "contraintes": [
+        "Ne changer ni dates ni populations des sources sans nouvelle vérification",
+        "Ne jamais inventer d’archives ni de citation",
+        "Séparer fait documenté et inférence",
+        "Exiger une transformation et deux effets distincts, chacun ancré dans une source",
+        "Conserver requires qc-pri-us-001 et recommends_before qc-pri-us-010 non bloquant",
+        "Ne pas attribuer tous les effets à une seule cause",
+        "Ne pas noter orthographe ou opinion personnelle en lieu du raisonnement"
+      ],
+      "barreme_ou_rubrique": {
+        "grille": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "transformation_contextualisee",
+          "deux_effets_distincts",
+          "justification_documentaire",
+          "nuance_et_autonomie"
+        ],
+        "echelle": "0_absent/1_partiel/2_suffisant",
+        "regle": "deux_evidences_separees_q009_et_q010_non_compensatoires"
+      },
+      "source": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,854 @@
+{
+  "format": "ekole.personnages/1",
+  "version": 1,
+  "compagnons": [
+    {
+      "id": "mila",
+      "nom": "Mila",
+      "univers_id": "quotidien",
+      "univers": "Le quotidien",
+      "sigle": "M",
+      "annees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "poses": [
+        "saluer",
+        "apprendre",
+        "aider",
+        "celebrer"
+      ]
+    },
+    {
+      "id": "leo",
+      "nom": "Léo",
+      "univers_id": "quotidien",
+      "univers": "Le quotidien",
+      "sigle": "L",
+      "annees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "poses": [
+        "saluer",
+        "apprendre",
+        "aider",
+        "celebrer"
+      ]
+    },
+    {
+      "id": "alex",
+      "nom": "Alex",
+      "univers_id": "quotidien",
+      "univers": "Le quotidien",
+      "sigle": "A",
+      "annees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "poses": [
+        "saluer",
+        "apprendre",
+        "aider",
+        "celebrer"
+      ]
+    },
+    {
+      "id": "fermier",
+      "nom": "Fermier",
+      "univers_id": "ferme",
+      "univers": "La ferme",
+      "sigle": "F",
+      "annees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "poses": [],
+      "role_id": "fermier"
+    },
+    {
+      "id": "extraterrestre",
+      "nom": "Extraterrestre",
+      "univers_id": "cosmos",
+      "univers": "Le cosmos",
+      "sigle": "E",
+      "annees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "poses": [],
+      "role_id": "extraterrestre"
+    }
+  ],
+  "anciens_choix": {
+    "quotidien": "mila",
+    "ferme": "fermier",
+    "cosmos": "extraterrestre"
+  },
+  "gabarits": {
+    "roles": {
+      "colonnes": 4,
+      "lignes": 2,
+      "case_px": 512,
+      "marge_securite_px": 32
+    },
+    "annees": {
+      "colonnes": 3,
+      "lignes": 2,
+      "case_px": 512,
+      "marge_securite_px": 32
+    },
+    "poses": {
+      "colonnes": 2,
+      "lignes": 2,
+      "case_px": 512,
+      "marge_securite_px": 32
+    }
+  },
+  "assets": [
+    {
+      "id": "compagnon-mila-annee-01",
+      "type": "compagnon",
+      "personnage": "mila",
+      "annee": 1,
+      "pose": "debout",
+      "fichier": "images/compagnons/mila/annee-01.png",
+      "alt": "Mila, compagnon de 1re année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mila-annee-02",
+      "type": "compagnon",
+      "personnage": "mila",
+      "annee": 2,
+      "pose": "debout",
+      "fichier": "images/compagnons/mila/annee-02.png",
+      "alt": "Mila, compagnon de 2e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mila-annee-03",
+      "type": "compagnon",
+      "personnage": "mila",
+      "annee": 3,
+      "pose": "debout",
+      "fichier": "images/compagnons/mila/annee-03.png",
+      "alt": "Mila, compagnon de 3e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mila-annee-04",
+      "type": "compagnon",
+      "personnage": "mila",
+      "annee": 4,
+      "pose": "debout",
+      "fichier": "images/compagnons/mila/annee-04.png",
+      "alt": "Mila, compagnon de 4e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mila-annee-05",
+      "type": "compagnon",
+      "personnage": "mila",
+      "annee": 5,
+      "pose": "debout",
+      "fichier": "images/compagnons/mila/annee-05.png",
+      "alt": "Mila, compagnon de 5e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mila-annee-06",
+      "type": "compagnon",
+      "personnage": "mila",
+      "annee": 6,
+      "pose": "debout",
+      "fichier": "images/compagnons/mila/annee-06.png",
+      "alt": "Mila, compagnon de 6e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mila-pose-saluer",
+      "type": "compagnon",
+      "personnage": "mila",
+      "annee": null,
+      "pose": "saluer",
+      "fichier": "images/compagnons/mila/pose-saluer.png",
+      "alt": "Mila — saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mila-pose-apprendre",
+      "type": "compagnon",
+      "personnage": "mila",
+      "annee": null,
+      "pose": "apprendre",
+      "fichier": "images/compagnons/mila/pose-apprendre.png",
+      "alt": "Mila — apprendre",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mila-pose-aider",
+      "type": "compagnon",
+      "personnage": "mila",
+      "annee": null,
+      "pose": "aider",
+      "fichier": "images/compagnons/mila/pose-aider.png",
+      "alt": "Mila — aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mila-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "mila",
+      "annee": null,
+      "pose": "celebrer",
+      "fichier": "images/compagnons/mila/pose-celebrer.png",
+      "alt": "Mila — celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-leo-annee-01",
+      "type": "compagnon",
+      "personnage": "leo",
+      "annee": 1,
+      "pose": "debout",
+      "fichier": "images/compagnons/leo/annee-01.png",
+      "alt": "Léo, compagnon de 1re année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-leo-annee-02",
+      "type": "compagnon",
+      "personnage": "leo",
+      "annee": 2,
+      "pose": "debout",
+      "fichier": "images/compagnons/leo/annee-02.png",
+      "alt": "Léo, compagnon de 2e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-leo-annee-03",
+      "type": "compagnon",
+      "personnage": "leo",
+      "annee": 3,
+      "pose": "debout",
+      "fichier": "images/compagnons/leo/annee-03.png",
+      "alt": "Léo, compagnon de 3e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-leo-annee-04",
+      "type": "compagnon",
+      "personnage": "leo",
+      "annee": 4,
+      "pose": "debout",
+      "fichier": "images/compagnons/leo/annee-04.png",
+      "alt": "Léo, compagnon de 4e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-leo-annee-05",
+      "type": "compagnon",
+      "personnage": "leo",
+      "annee": 5,
+      "pose": "debout",
+      "fichier": "images/compagnons/leo/annee-05.png",
+      "alt": "Léo, compagnon de 5e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-leo-annee-06",
+      "type": "compagnon",
+      "personnage": "leo",
+      "annee": 6,
+      "pose": "debout",
+      "fichier": "images/compagnons/leo/annee-06.png",
+      "alt": "Léo, compagnon de 6e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-leo-pose-saluer",
+      "type": "compagnon",
+      "personnage": "leo",
+      "annee": null,
+      "pose": "saluer",
+      "fichier": "images/compagnons/leo/pose-saluer.png",
+      "alt": "Léo — saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-leo-pose-apprendre",
+      "type": "compagnon",
+      "personnage": "leo",
+      "annee": null,
+      "pose": "apprendre",
+      "fichier": "images/compagnons/leo/pose-apprendre.png",
+      "alt": "Léo — apprendre",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-leo-pose-aider",
+      "type": "compagnon",
+      "personnage": "leo",
+      "annee": null,
+      "pose": "aider",
+      "fichier": "images/compagnons/leo/pose-aider.png",
+      "alt": "Léo — aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-leo-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "leo",
+      "annee": null,
+      "pose": "celebrer",
+      "fichier": "images/compagnons/leo/pose-celebrer.png",
+      "alt": "Léo — celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-alex-annee-01",
+      "type": "compagnon",
+      "personnage": "alex",
+      "annee": 1,
+      "pose": "debout",
+      "fichier": "images/compagnons/alex/annee-01.png",
+      "alt": "Alex, compagnon de 1re année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-alex-annee-02",
+      "type": "compagnon",
+      "personnage": "alex",
+      "annee": 2,
+      "pose": "debout",
+      "fichier": "images/compagnons/alex/annee-02.png",
+      "alt": "Alex, compagnon de 2e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-alex-annee-03",
+      "type": "compagnon",
+      "personnage": "alex",
+      "annee": 3,
+      "pose": "debout",
+      "fichier": "images/compagnons/alex/annee-03.png",
+      "alt": "Alex, compagnon de 3e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-alex-annee-04",
+      "type": "compagnon",
+      "personnage": "alex",
+      "annee": 4,
+      "pose": "debout",
+      "fichier": "images/compagnons/alex/annee-04.png",
+      "alt": "Alex, compagnon de 4e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-alex-annee-05",
+      "type": "compagnon",
+      "personnage": "alex",
+      "annee": 5,
+      "pose": "debout",
+      "fichier": "images/compagnons/alex/annee-05.png",
+      "alt": "Alex, compagnon de 5e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-alex-annee-06",
+      "type": "compagnon",
+      "personnage": "alex",
+      "annee": 6,
+      "pose": "debout",
+      "fichier": "images/compagnons/alex/annee-06.png",
+      "alt": "Alex, compagnon de 6e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-alex-pose-saluer",
+      "type": "compagnon",
+      "personnage": "alex",
+      "annee": null,
+      "pose": "saluer",
+      "fichier": "images/compagnons/alex/pose-saluer.png",
+      "alt": "Alex — saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-alex-pose-apprendre",
+      "type": "compagnon",
+      "personnage": "alex",
+      "annee": null,
+      "pose": "apprendre",
+      "fichier": "images/compagnons/alex/pose-apprendre.png",
+      "alt": "Alex — apprendre",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-alex-pose-aider",
+      "type": "compagnon",
+      "personnage": "alex",
+      "annee": null,
+      "pose": "aider",
+      "fichier": "images/compagnons/alex/pose-aider.png",
+      "alt": "Alex — aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-alex-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "alex",
+      "annee": null,
+      "pose": "celebrer",
+      "fichier": "images/compagnons/alex/pose-celebrer.png",
+      "alt": "Alex — celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-annee-01",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "annee": 1,
+      "pose": "debout",
+      "fichier": "images/compagnons/fermier/annee-01.png",
+      "alt": "Fermier, compagnon de 1re année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-annee-02",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "annee": 2,
+      "pose": "debout",
+      "fichier": "images/compagnons/fermier/annee-02.png",
+      "alt": "Fermier, compagnon de 2e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-annee-03",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "annee": 3,
+      "pose": "debout",
+      "fichier": "images/compagnons/fermier/annee-03.png",
+      "alt": "Fermier, compagnon de 3e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-annee-04",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "annee": 4,
+      "pose": "debout",
+      "fichier": "images/compagnons/fermier/annee-04.png",
+      "alt": "Fermier, compagnon de 4e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-annee-05",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "annee": 5,
+      "pose": "debout",
+      "fichier": "images/compagnons/fermier/annee-05.png",
+      "alt": "Fermier, compagnon de 5e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-annee-06",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "annee": 6,
+      "pose": "debout",
+      "fichier": "images/compagnons/fermier/annee-06.png",
+      "alt": "Fermier, compagnon de 6e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-annee-01",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "annee": 1,
+      "pose": "debout",
+      "fichier": "images/compagnons/extraterrestre/annee-01.png",
+      "alt": "Extraterrestre, compagnon de 1re année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-annee-02",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "annee": 2,
+      "pose": "debout",
+      "fichier": "images/compagnons/extraterrestre/annee-02.png",
+      "alt": "Extraterrestre, compagnon de 2e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-annee-03",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "annee": 3,
+      "pose": "debout",
+      "fichier": "images/compagnons/extraterrestre/annee-03.png",
+      "alt": "Extraterrestre, compagnon de 3e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-annee-04",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "annee": 4,
+      "pose": "debout",
+      "fichier": "images/compagnons/extraterrestre/annee-04.png",
+      "alt": "Extraterrestre, compagnon de 4e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-annee-05",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "annee": 5,
+      "pose": "debout",
+      "fichier": "images/compagnons/extraterrestre/annee-05.png",
+      "alt": "Extraterrestre, compagnon de 5e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-annee-06",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "annee": 6,
+      "pose": "debout",
+      "fichier": "images/compagnons/extraterrestre/annee-06.png",
+      "alt": "Extraterrestre, compagnon de 6e année",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-architecte",
+      "type": "role",
+      "role_id": "architecte",
+      "fichier": "images/roles/architecte.png",
+      "alt": "Personnage du rôle : Architecte",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-astronaute",
+      "type": "role",
+      "role_id": "astronaute",
+      "fichier": "images/roles/astronaute.png",
+      "alt": "Personnage du rôle : Astronaute",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-boulanger",
+      "type": "role",
+      "role_id": "boulanger",
+      "fichier": "images/roles/boulanger.png",
+      "alt": "Personnage du rôle : Boulanger",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-bucheron",
+      "type": "role",
+      "role_id": "bucheron",
+      "fichier": "images/roles/bucheron.png",
+      "alt": "Personnage du rôle : Bûcheron",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-chevalier",
+      "type": "role",
+      "role_id": "chevalier",
+      "fichier": "images/roles/chevalier.png",
+      "alt": "Personnage du rôle : Chevalier",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-clown",
+      "type": "role",
+      "role_id": "clown",
+      "fichier": "images/roles/clown.png",
+      "alt": "Personnage du rôle : Clown",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-coiffeuse",
+      "type": "role",
+      "role_id": "coiffeuse",
+      "fichier": "images/roles/coiffeuse.png",
+      "alt": "Personnage du rôle : Coiffeuse",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-comptable",
+      "type": "role",
+      "role_id": "comptable",
+      "fichier": "images/roles/comptable.png",
+      "alt": "Personnage du rôle : Comptable",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-createur-jeux",
+      "type": "role",
+      "role_id": "createur-jeux",
+      "fichier": "images/roles/createur-jeux.png",
+      "alt": "Personnage du rôle : Créateur de jeux vidéo",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-cuisinier",
+      "type": "role",
+      "role_id": "cuisinier",
+      "fichier": "images/roles/cuisinier.png",
+      "alt": "Personnage du rôle : Cuisinier",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-danseur",
+      "type": "role",
+      "role_id": "danseur",
+      "fichier": "images/roles/danseur.png",
+      "alt": "Personnage du rôle : Danseur",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-dresseur-animaux",
+      "type": "role",
+      "role_id": "dresseur-animaux",
+      "fichier": "images/roles/dresseur-animaux.png",
+      "alt": "Personnage du rôle : Éducateur animalier",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-ecrivain",
+      "type": "role",
+      "role_id": "ecrivain",
+      "fichier": "images/roles/ecrivain.png",
+      "alt": "Personnage du rôle : Écrivain",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-explorateur",
+      "type": "role",
+      "role_id": "explorateur",
+      "fichier": "images/roles/explorateur.png",
+      "alt": "Personnage du rôle : Explorateur",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-extraterrestre",
+      "type": "role",
+      "role_id": "extraterrestre",
+      "fichier": "images/roles/extraterrestre.png",
+      "alt": "Personnage du rôle : Extraterrestre",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-fermier",
+      "type": "role",
+      "role_id": "fermier",
+      "fichier": "images/roles/fermier.png",
+      "alt": "Personnage du rôle : Fermier",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-forgeron",
+      "type": "role",
+      "role_id": "forgeron",
+      "fichier": "images/roles/forgeron.png",
+      "alt": "Personnage du rôle : Forgeron",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-inventeur",
+      "type": "role",
+      "role_id": "inventeur",
+      "fichier": "images/roles/inventeur.png",
+      "alt": "Personnage du rôle : Inventeur",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-jardinier",
+      "type": "role",
+      "role_id": "jardinier",
+      "fichier": "images/roles/jardinier.png",
+      "alt": "Personnage du rôle : Jardinier",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-lecteur",
+      "type": "role",
+      "role_id": "lecteur",
+      "fichier": "images/roles/lecteur.png",
+      "alt": "Personnage du rôle : Lecteur",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-mecanicien",
+      "type": "role",
+      "role_id": "mecanicien",
+      "fichier": "images/roles/mecanicien.png",
+      "alt": "Personnage du rôle : Mécanicien",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-menuisier",
+      "type": "role",
+      "role_id": "menuisier",
+      "fichier": "images/roles/menuisier.png",
+      "alt": "Personnage du rôle : Menuisier",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-messager",
+      "type": "role",
+      "role_id": "messager",
+      "fichier": "images/roles/messager.png",
+      "alt": "Personnage du rôle : Messager",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-metteur-en-scene",
+      "type": "role",
+      "role_id": "metteur-en-scene",
+      "fichier": "images/roles/metteur-en-scene.png",
+      "alt": "Personnage du rôle : Metteur en scène",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-mineur",
+      "type": "role",
+      "role_id": "mineur",
+      "fichier": "images/roles/mineur.png",
+      "alt": "Personnage du rôle : Mineur",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-musicien",
+      "type": "role",
+      "role_id": "musicien",
+      "fichier": "images/roles/musicien.png",
+      "alt": "Personnage du rôle : Musicien",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-mystique",
+      "type": "role",
+      "role_id": "mystique",
+      "fichier": "images/roles/mystique.png",
+      "alt": "Personnage du rôle : Mystique",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-origamiste",
+      "type": "role",
+      "role_id": "origamiste",
+      "fichier": "images/roles/origamiste.png",
+      "alt": "Personnage du rôle : Maître de l’origami",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-pecheur",
+      "type": "role",
+      "role_id": "pecheur",
+      "fichier": "images/roles/pecheur.png",
+      "alt": "Personnage du rôle : Pêcheur",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-peintre",
+      "type": "role",
+      "role_id": "peintre",
+      "fichier": "images/roles/peintre.png",
+      "alt": "Personnage du rôle : Peintre",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-photographe",
+      "type": "role",
+      "role_id": "photographe",
+      "fichier": "images/roles/photographe.png",
+      "alt": "Personnage du rôle : Photographe",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-politicien",
+      "type": "role",
+      "role_id": "politicien",
+      "fichier": "images/roles/politicien.png",
+      "alt": "Personnage du rôle : Politicien",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-redacteur",
+      "type": "role",
+      "role_id": "redacteur",
+      "fichier": "images/roles/redacteur.png",
+      "alt": "Personnage du rôle : Rédacteur",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-regisseur",
+      "type": "role",
+      "role_id": "regisseur",
+      "fichier": "images/roles/regisseur.png",
+      "alt": "Personnage du rôle : Régisseur",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-scientifique",
+      "type": "role",
+      "role_id": "scientifique",
+      "fichier": "images/roles/scientifique.png",
+      "alt": "Personnage du rôle : Scientifique",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-sorciere",
+      "type": "role",
+      "role_id": "sorciere",
+      "fichier": "images/roles/sorciere.png",
+      "alt": "Personnage du rôle : Sorcière",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-traducteur",
+      "type": "role",
+      "role_id": "traducteur",
+      "fichier": "images/roles/traducteur.png",
+      "alt": "Personnage du rôle : Traducteur",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-veterinaire",
+      "type": "role",
+      "role_id": "veterinaire",
+      "fichier": "images/roles/veterinaire.png",
+      "alt": "Personnage du rôle : Vétérinaire",
+      "statut": "a_generer"
+    }
+  ]
+}

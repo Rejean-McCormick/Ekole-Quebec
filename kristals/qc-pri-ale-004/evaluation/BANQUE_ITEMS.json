@@ -1,0 +1,407 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ale-004",
+  "family_id": "qc-pri-ale-004-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ale-004-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Identify the main character and an important event. Then write a one- or two-sentence summary with one detail that supports it.",
+      "stimulus": "The Spilled Poster\n\nMaya was painting a poster for the school garden sale. Her water cup tipped over and soaked the corner of the paper. Maya dried the table, took a fresh sheet and painted the poster again. She moved the water cup to another desk. In the afternoon, her new poster was ready for the sale.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Maya. Chronological major events: A cup spills on Maya’s poster. → Maya cleans up, starts again and moves the cup. → Her new poster is ready for the sale.. Model summary: Maya accidentally gets water on her garden-sale poster, so she makes a new one and moves the cup. The replacement poster is ready that afternoon. Supporting source quotation: “She moved the water cup to another desk.” Relevance: This detail shows Maya changed where she kept the water cup to avoid another spill. Reject unsupported claim: “Maya cancelled the sale.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Maya cancelled the sale.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “She moved the water cup to another desk.” — This detail shows Maya changed where she kept the water cup to avoid another spill.",
+      "difficulte": "initial",
+      "representation": "short_print_narrative",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Name the character, explain the change, and give a concise summary with one supporting detail.",
+      "stimulus": "The Library Bell\n\nEvery day, Leo rang a small bell when reading time ended. One morning the bell made no sound. Leo showed it to the librarian, who found that a tiny piece inside had come loose. The librarian repaired the bell while Leo wrote a sign to tell the class when reading time was over. The next day the bell rang again.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Leo (and the librarian). Chronological major events: The bell makes no sound. → Leo asks the librarian and writes a temporary sign. → The librarian repairs the bell and it rings again.. Model summary: When the library bell stops working, Leo helps by telling the librarian and making a temporary sign. The librarian repairs the bell for the next day. Supporting source quotation: “Leo wrote a sign to tell the class when reading time was over.” Relevance: This shows how Leo temporarily communicated the end of reading time. Reject unsupported claim: “Leo buys a new bell.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Leo buys a new bell.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “Leo wrote a sign to tell the class when reading time was over.” — This shows how Leo temporarily communicated the end of reading time.",
+      "difficulte": "initial",
+      "representation": "short_print_narrative",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Put the main events in order, summarize the change, and cite a phrase that proves the final result. No external ferry knowledge is needed.",
+      "stimulus": "The Ferry Drawing\n\nNora wanted to draw the ferry that passed her street each morning. On Monday she arrived late and saw only the back of the boat. On Tuesday she set an alarm and reached the pier early. She sketched the ferry as it crossed the water. At school, Nora showed her teacher a drawing of the whole boat.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Nora. Chronological major events: Nora misses most of the ferry on Monday. → She sets an alarm and arrives early on Tuesday. → She sketches the boat and shows the complete drawing.. Model summary: After arriving too late to see most of the ferry, Nora plans ahead and comes earlier the next day. She draws the whole boat and shows her teacher. Supporting source quotation: “At school, Nora showed her teacher a drawing of the whole boat.” Relevance: This is direct evidence that the later drawing includes the whole boat. Reject unsupported claim: “Nora sails on the ferry.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Nora sails on the ferry.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “At school, Nora showed her teacher a drawing of the whole boat.” — This is direct evidence that the later drawing includes the whole boat.",
+      "difficulte": "initial",
+      "representation": "illustrated_story_map_optional_text_only",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Describe who solves the problem and what they do. Cite one textual action supporting your summary.",
+      "stimulus": "The Foggy Greenhouse\n\nAt the class greenhouse, Amir could not see through the wet glass to count the small plants. He wiped one pane with a soft cloth, but it quickly fogged again. He asked the teacher to open the top vent. When the air moved through the greenhouse, the glass cleared. Amir counted twelve seedlings and recorded the number.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Amir. Chronological major events: Wet glass prevents Amir from seeing plants. → Wiping fails; he asks for the top vent to be opened. → The glass clears and he counts seedlings.. Model summary: Amir cannot count greenhouse seedlings through fogged glass. When wiping fails, he asks for ventilation, the glass clears and he counts the plants. Supporting source quotation: “When the air moved through the greenhouse, the glass cleared.” Relevance: This sentence supports the result of opening the vent. Reject unsupported claim: “Amir plants twelve new seeds.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Amir plants twelve new seeds.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “When the air moved through the greenhouse, the glass cleared.” — This sentence supports the result of opening the vent.",
+      "difficulte": "initial",
+      "representation": "short_print_narrative",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Summarize the central problem, response and outcome, and explain how your chosen evidence supports one claim in your summary.",
+      "stimulus": "The Mural Squares\n\nThe art club painted a mural made of small squares. Tessa noticed that the last row did not line up with the others. Two students wanted to paint over the entire wall. Tessa checked the paper plan and found that one square had been painted too wide. The club repainted that square instead. When the paint dried, the rows lined up, and the students could finish the border.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Tessa and the art club. Chronological major events: The mural row is misaligned. → Tessa checks the plan and finds one oversized square. → They repaint one square and finish the border.. Model summary: When an art club’s mural rows do not line up, Tessa checks the plan and finds one square is too wide. Repainting only that square fixes the alignment. Supporting source quotation: “The club repainted that square instead.” Relevance: The words show the targeted action chosen after Tessa checked the plan. Reject unsupported claim: “The club painted over the entire wall.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'The club painted over the entire wall.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “The club repainted that square instead.” — The words show the targeted action chosen after Tessa checked the plan.",
+      "difficulte": "intermediaire",
+      "representation": "paragraph_narrative",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Identify the turning point and provide a short accurate plot summary. Link a detail to the change in the story.",
+      "stimulus": "The Robot Key\n\nDrew built a toy robot for a science display. He pressed the start button, but the robot did not move. Drew checked the wheels and the wires without finding a problem. Then he noticed a small plastic safety key still attached to the back. He removed the key and pressed the button again. The robot rolled across the table, stopping before the edge as Drew had programmed it to do.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Drew. Chronological major events: Drew’s robot does not start. → He checks parts and notices the attached safety key. → He removes it and the robot performs its programmed movement.. Model summary: Drew’s toy robot fails to start until he notices and removes a plastic safety key. Afterward, it moves as he programmed. Supporting source quotation: “He removed the key and pressed the button again.” Relevance: This sentence identifies the action immediately before the successful test. Reject unsupported claim: “Drew replaces the robot’s wheels.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Drew replaces the robot’s wheels.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “He removed the key and pressed the button again.” — This sentence identifies the action immediately before the successful test.",
+      "difficulte": "intermediaire",
+      "representation": "multi_action_narrative",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Distinguish the main character from helpers, reconstruct the response to an unexpected event, and cite evidence of the final arrangement.",
+      "stimulus": "The Picnic Forecast\n\nOn picnic day, dark clouds covered the park. Ana had invited three friends to eat beneath a tree. Just as they unfolded the blanket, rain began to fall. Ana called the community center to ask whether its covered porch was free. A staff member said yes, so the friends carried their food there. They finished their picnic while watching the rain from the dry porch.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Ana and her friends. Chronological major events: Rain interrupts their outdoor picnic. → Ana asks the community center about a porch. → They eat under cover.. Model summary: When rain interrupts Ana’s picnic, she asks to use a covered porch at the community center, and the friends finish eating there. Supporting source quotation: “They finished their picnic while watching the rain from the dry porch.” Relevance: This proves that the picnic continued under shelter. Reject unsupported claim: “Ana waits until the following week for a picnic.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Ana waits until the following week for a picnic.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “They finished their picnic while watching the rain from the dry porch.” — This proves that the picnic continued under shelter.",
+      "difficulte": "intermediaire",
+      "representation": "multi_character_narrative",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Write a summary that avoids irrelevant details and identify a phrase that supports the outcome.",
+      "stimulus": "The Paper Telescope\n\nFor a classroom play, Kim made a paper telescope. The first one was so narrow that it hid part of the actor’s face. Kim tested a second version with a wider tube and a shorter handle. During rehearsal, the actor held the new telescope in front of one eye and spoke clearly to the audience. Kim placed the old telescope in the recycling bin.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Kim. Chronological major events: The first prop hides the actor’s face. → Kim makes a wider, shorter version. → The actor uses the improved prop while speaking clearly.. Model summary: Kim redesigns a paper telescope for a play after the first version blocks the actor’s face. The new prop works during rehearsal. Supporting source quotation: “During rehearsal, the actor held the new telescope in front of one eye and spoke clearly to the audience.” Relevance: This detail supports the claim that the revised prop was usable on stage. Reject unsupported claim: “Kim buys a metal telescope.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Kim buys a metal telescope.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “During rehearsal, the actor held the new telescope in front of one eye and spoke clearly to the audience.” — This detail supports the claim that the revised prop was usable on stage.",
+      "difficulte": "intermediaire",
+      "representation": "narrative_with_sequence",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Explain the main sequence, contrast a claim with text evidence, and write a supported two-sentence summary.",
+      "stimulus": "The Station Clock\n\nThe clock above the little train station stopped at nine. Rui noticed because the clock still showed nine when the afternoon train arrived. Rui told the station worker. The worker put a handwritten notice beside the clock and called a repair service. While the clock was being fixed, passengers used the time shown on the station’s electronic sign.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Rui and the station worker. Chronological major events: The clock stops. → Rui alerts a worker, who posts a notice and calls for repair. → Passengers use an electronic sign while waiting.. Model summary: Rui notices that the station clock has stopped and tells a worker. The worker posts a notice and arranges a repair, while passengers use another time display. Supporting source quotation: “While the clock was being fixed, passengers used the time shown on the station’s electronic sign.” Relevance: This shows how travelers found the time during the repair. Reject unsupported claim: “Rui fixes the clock himself.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Rui fixes the clock himself.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “While the clock was being fixed, passengers used the time shown on the station’s electronic sign.” — This shows how travelers found the time during the repair.",
+      "difficulte": "intermediaire",
+      "representation": "mixed_action_narrative",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Choose two key events and the result, summarize faithfully, and cite evidence of the response rather than repeating the title.",
+      "stimulus": "The Music Folder\n\nBefore choir practice, Fatima found that the singers’ music sheets were in the wrong order. Some students were already waiting to rehearse. Fatima collected the sheets, sorted them by song title and clipped each set together. She gave the sets back to the group. At rehearsal, everyone could find the next song quickly, and the choir began on time.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Fatima. Chronological major events: The sheets are disordered. → Fatima sorts and clips sheets by title. → The singers find music quickly and begin on time.. Model summary: Fatima organizes the choir’s mixed-up music sheets so the singers can find each song, allowing rehearsal to begin on time. Supporting source quotation: “Fatima collected the sheets, sorted them by song title and clipped each set together.” Relevance: This is the action that solves the disordered-sheet problem. Reject unsupported claim: “Fatima rewrites all of the songs.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Fatima rewrites all of the songs.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “Fatima collected the sheets, sorted them by song title and clipped each set together.” — This is the action that solves the disordered-sheet problem.",
+      "difficulte": "intermediaire",
+      "representation": "cause_effect_narrative",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Mastery context A — Read independently. Without hints, summarize this story in 2–3 English sentences and cite or faithfully identify one *specific* text detail supporting a claim. Do not invent motives or facts.",
+      "stimulus": "The Roof Garden\n\nA class grew herbs in boxes on a school rooftop. During a hot week, the leaves on one box began to droop. Hazel checked the soil and found that it was dry, even though the class had watered the other boxes. She asked the teacher to help set a reminder for every watering group. The students followed the new schedule. A few days later, the leaves stood up again and the plants produced fresh shoots.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Hazel and her class. Chronological major events: One box of herbs droops because its soil is dry. → Hazel helps organize a reminder so all boxes are watered. → The leaves recover and new shoots grow.. Model summary: When a rooftop herb box starts to droop, Hazel discovers that its soil is dry and helps set a group watering reminder. After the class follows the schedule, the herbs recover and grow new shoots. Supporting source quotation: “A few days later, the leaves stood up again and the plants produced fresh shoots.” Relevance: This text supports the summary’s claim that the plants recovered after the watering change. Reject unsupported claim: “Hazel replaces all the plants with new herbs.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Hazel replaces all the plants with new herbs.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “A few days later, the leaves stood up again and the plants produced fresh shoots.” — This text supports the summary’s claim that the plants recovered after the watering change.",
+      "difficulte": "transfert",
+      "representation": "unseen_environmental_narrative_cold_read",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "manifestation_1",
+      "conditions_autonomie": "New text cold-read independently without oral reading, hint, organizer or model answer; equivalent access adjustments allowed and logged; summary may be spoken/typed/verbatim-scribed without content support."
+    },
+    {
+      "item_id": "qc-pri-ale-004-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Mastery context B — Read independently, without graphic organizer or teacher prompts. Summarize the story in 2–3 English sentences and cite or faithfully identify a specific supporting detail. Describe characters, actions and the outcome.",
+      "stimulus": "The Rolling Library\n\nOnce a week, a small book cart visited three apartment buildings. One Tuesday, the cart’s wheel came loose outside the first building, and the books could not be moved safely. Tariq, the volunteer, told the visitors that the cart would stay in the lobby. He placed the books on nearby tables and made a sign showing the hours. Families from the building came down to choose books. That evening, a repair worker fixed the wheel, and the cart was ready for its next visit.",
+      "reponse_attendue": "Accept faithful English equivalents. Key character(s): Tariq (volunteer), visitors and a repair worker. Chronological major events: The book cart loses a wheel and cannot travel safely. → Tariq sets up a temporary book area in the first building’s lobby. → Families borrow books; the cart is repaired for the next visit.. Model summary: When a book cart’s wheel comes loose, volunteer Tariq keeps the library service running by setting books on tables in the building lobby. Families choose books there, and the wheel is repaired later. Supporting source quotation: “He placed the books on nearby tables and made a sign showing the hours.” Relevance: This detail supports the claim that Tariq set up a temporary way for families to access the books. Reject unsupported claim: “Tariq carries the cart to all three buildings that day.”",
+      "criteres": [
+        "Correctly identifies relevant acting character(s), separating setting and objects.",
+        "Reconstructs the important event(s) and their causal or chronological order without inventing actions.",
+        "Expresses a concise accurate English main-idea summary retaining challenge, response and outcome.",
+        "Provides one precise text detail, exactly quoted or faithfully located/paraphrased, and explains its connection to a summary claim."
+      ],
+      "rubrique": {
+        "echelle": "0 absent/contradictory; 1 partly inaccurate or prompted; 2 accurate, independent and supported; 3 accurate with purposeful causal clarity and well-linked evidence",
+        "dimensions": [
+          "character",
+          "event_order",
+          "central_idea_summary",
+          "evidence_support"
+        ],
+        "note": "English must communicate meaning; nonessential spelling and accent variants do not determine story-comprehension success. See GRILLE_MAITRISE.md."
+      },
+      "feedback": "If the learner claims 'Tariq carries the cart to all three buildings that day.', ask them to identify the exact passage line; no line supports it. If the sequence is confused, list the key events in text order. If the proof is irrelevant, ask which sentence of the summary the chosen detail establishes. One valid model detail: “He placed the books on nearby tables and made a sign showing the hours.” — This detail supports the claim that Tariq set up a temporary way for families to access the books.",
+      "difficulte": "transfert",
+      "representation": "unseen_community_narrative_cold_read",
+      "seed": null,
+      "parametres": null,
+      "variabilite_permise": "Fixed story text and event key, no unsupervised substitutions; accept semantically equivalent accurate English summary and specific linked text evidence. Response may be spoken/typed/scribed verbatim with reading modality recorded.",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "manifestation_2",
+      "conditions_autonomie": "New text cold-read independently without oral reading, hint, organizer or model answer; equivalent access adjustments allowed and logged; summary may be spoken/typed/verbatim-scribed without content support."
+    }
+  ]
+}

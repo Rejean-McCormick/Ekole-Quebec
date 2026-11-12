@@ -1,0 +1,534 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-002",
+  "family_id": "qc-pri-us-002-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-us-002-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-002-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Lis le titre et la légende. Nomme le lieu désigné et localise-le par colonne et ligne. Décode également la case interdite.",
+      "stimulus": "**Plan fictif du parc des Érables** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  .  B  .\n2  E  .  X  .\n3  .  .  .  P\n4  .  M  .  .\n```\nLégende : `E` = école; `B` = bibliothèque; `P` = parc; `M` = musée; `X` = bassin infranchissable; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 100 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Nomme la signification de B en C1 et de X en C2.",
+      "reponse_attendue": "Titre : Plan fictif du parc des Érables; B en C1 = bibliothèque; X en C2 = bassin infranchissable.",
+      "criteres": [
+        "Titre lu exactement",
+        "Lieu placé dans la bonne case",
+        "Deux symboles justifiés par la légende"
+      ],
+      "feedback": "Si tu as deviné le symbole, relis la légende; si tu as inversé la case, lis d’abord la colonne puis la ligne.",
+      "difficulte": "initial",
+      "representation": "carte à quadrillage + légende",
+      "seed": 202602,
+      "parametres": {
+        "catalogue_ferme": [
+          {
+            "variante_id": "v1",
+            "carte_id": "A",
+            "stimulus": "**Plan fictif du parc des Érables** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  .  B  .\n2  E  .  X  .\n3  .  .  .  P\n4  .  M  .  .\n```\nLégende : `E` = école; `B` = bibliothèque; `P` = parc; `M` = musée; `X` = bassin infranchissable; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 100 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Nomme la signification de B en C1 et de X en C2.",
+            "consigne_specifique": "Nomme la signification de B en C1 et de X en C2.",
+            "reponse_attendue": "Titre : Plan fictif du parc des Érables; B en C1 = bibliothèque; X en C2 = bassin infranchissable."
+          },
+          {
+            "variante_id": "v2",
+            "carte_id": "B",
+            "stimulus": "**Plan fictif du quartier des Pins** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  H  .  .\n2  .  X  X  .\n3  S  .  .  B\n4  .  .  .  .\n```\nLégende : `S` = station; `H` = hôpital; `B` = bibliothèque; `X` = zone fermée; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 150 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Nomme la signification de H en B1 et de X en B2.",
+            "consigne_specifique": "Nomme la signification de H en B1 et de X en B2.",
+            "reponse_attendue": "Titre : Plan fictif du quartier des Pins; H en B1 = hôpital; X en B2 = zone fermée."
+          }
+        ],
+        "algorithme_selection": "indice = seed % 2 (0 donne v1, 1 donne v2); utiliser exactement stimulus et reponse_attendue de cette entree, sans reformulation automatique",
+        "domaine": {
+          "seed": "entier naturel stable",
+          "indice": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "2 variantes approuvées seulement",
+          "aucune modification du plan, de la légende, de l’échelle ni du corrigé",
+          "ordre des cases et orientation identiques à la fiche"
+        ],
+        "validation_exemples": [
+          {
+            "seed": 202602,
+            "variante": "v1"
+          },
+          {
+            "seed": 202603,
+            "variante": "v2"
+          }
+        ],
+        "controle_independant": "positions, continuité, obstacles et distances recalculés par un vérificateur de quadrillage local"
+      },
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Changer uniquement de v1 à v2 dans le catalogue contrôlé."
+    },
+    {
+      "item_id": "qc-pri-us-002-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-002-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "À l’aide de la flèche N ↑, indique la direction générale du second lieu depuis le premier et donne leurs cases.",
+      "stimulus": "**Plan fictif du quartier des Pins** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  H  .  .\n2  .  X  X  .\n3  S  .  .  B\n4  .  .  .  .\n```\nLégende : `S` = station; `H` = hôpital; `B` = bibliothèque; `X` = zone fermée; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 150 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Quelle direction prendre de la station S à la bibliothèque B ?",
+      "reponse_attendue": "S en A3; B en D3; déplacement vers l’est (→), car la ligne 3 reste la même et la colonne augmente.",
+      "criteres": [
+        "Départ et arrivée correctement localisés",
+        "Est déduit de la flèche du nord et de la disposition des cases",
+        "Explication reliée à la ligne et aux colonnes"
+      ],
+      "feedback": "Le nord n’est pas une supposition : retrouve N ↑ puis déduis l’est à droite.",
+      "difficulte": "initial",
+      "representation": "carte + flèche nord",
+      "seed": 202604,
+      "parametres": {
+        "catalogue_ferme": [
+          {
+            "variante_id": "v1",
+            "carte_id": "B",
+            "stimulus": "**Plan fictif du quartier des Pins** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  H  .  .\n2  .  X  X  .\n3  S  .  .  B\n4  .  .  .  .\n```\nLégende : `S` = station; `H` = hôpital; `B` = bibliothèque; `X` = zone fermée; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 150 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Quelle direction prendre de la station S à la bibliothèque B ?",
+            "consigne_specifique": "Quelle direction prendre de la station S à la bibliothèque B ?",
+            "reponse_attendue": "S en A3; B en D3; déplacement vers l’est (→), car la ligne 3 reste la même et la colonne augmente."
+          },
+          {
+            "variante_id": "v2",
+            "carte_id": "C",
+            "stimulus": "**Plan fictif du camp des Saules** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D, E de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D  E\n1  .  .  A  .  .\n2  .  X  X  .  .\n3  D  .  .  .  V\n4  .  .  X  .  .\n```\nLégende : `A` = accueil; `D` = départ; `V` = belvédère; `X` = secteur interdit; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 200 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Quelle direction prendre du départ D au belvédère V ?",
+            "consigne_specifique": "Quelle direction prendre du départ D au belvédère V ?",
+            "reponse_attendue": "D en A3; V en E3; déplacement vers l’est (→), car les deux lieux sont sur la ligne 3."
+          }
+        ],
+        "algorithme_selection": "indice = seed % 2 (0 donne v1, 1 donne v2); utiliser exactement stimulus et reponse_attendue de cette entree, sans reformulation automatique",
+        "domaine": {
+          "seed": "entier naturel stable",
+          "indice": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "2 variantes approuvées seulement",
+          "aucune modification du plan, de la légende, de l’échelle ni du corrigé",
+          "ordre des cases et orientation identiques à la fiche"
+        ],
+        "validation_exemples": [
+          {
+            "seed": 202604,
+            "variante": "v1"
+          },
+          {
+            "seed": 202605,
+            "variante": "v2"
+          }
+        ],
+        "controle_independant": "positions, continuité, obstacles et distances recalculés par un vérificateur de quadrillage local"
+      },
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Deux variantes préécrites seulement."
+    },
+    {
+      "item_id": "qc-pri-us-002-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-002-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Calcule la longueur du parcours indiqué, en multipliant les déplacements entre cases par la distance par déplacement de la légende.",
+      "stimulus": "**Plan fictif du parc des Érables** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  .  B  .\n2  E  .  X  .\n3  .  .  .  P\n4  .  M  .  .\n```\nLégende : `E` = école; `B` = bibliothèque; `P` = parc; `M` = musée; `X` = bassin infranchissable; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 100 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Itinéraire proposé : A2 → B2 → B1 → C1. Combien de mètres ?",
+      "reponse_attendue": "3 déplacements × 100 m = 300 m; pas de diagonale et aucune case X empruntée.",
+      "criteres": [
+        "Nombre d’arêtes correctement dénombré",
+        "Échelle appliquée avec l’unité m",
+        "Parcours valide contrôlé"
+      ],
+      "feedback": "On compte les déplacements, pas les cases visitées : n cases successives correspondent à n − 1 déplacements.",
+      "difficulte": "intermediaire",
+      "representation": "échelle simple + parcours",
+      "seed": 202606,
+      "parametres": {
+        "catalogue_ferme": [
+          {
+            "variante_id": "v1",
+            "carte_id": "A",
+            "stimulus": "**Plan fictif du parc des Érables** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  .  B  .\n2  E  .  X  .\n3  .  .  .  P\n4  .  M  .  .\n```\nLégende : `E` = école; `B` = bibliothèque; `P` = parc; `M` = musée; `X` = bassin infranchissable; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 100 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Itinéraire proposé : A2 → B2 → B1 → C1. Combien de mètres ?",
+            "consigne_specifique": "Itinéraire proposé : A2 → B2 → B1 → C1. Combien de mètres ?",
+            "reponse_attendue": "3 déplacements × 100 m = 300 m; pas de diagonale et aucune case X empruntée.",
+            "itineraire_justificatif": [
+              "A2",
+              "B2",
+              "B1",
+              "C1"
+            ],
+            "distance_m": 300
+          },
+          {
+            "variante_id": "v2",
+            "carte_id": "C",
+            "stimulus": "**Plan fictif du camp des Saules** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D, E de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D  E\n1  .  .  A  .  .\n2  .  X  X  .  .\n3  D  .  .  .  V\n4  .  .  X  .  .\n```\nLégende : `A` = accueil; `D` = départ; `V` = belvédère; `X` = secteur interdit; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 200 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Itinéraire proposé : A3 → B3 → C3 → D3 → E3. Combien de mètres ?",
+            "consigne_specifique": "Itinéraire proposé : A3 → B3 → C3 → D3 → E3. Combien de mètres ?",
+            "reponse_attendue": "4 déplacements × 200 m = 800 m; tous les segments et cases sont autorisés.",
+            "itineraire_justificatif": [
+              "A3",
+              "B3",
+              "C3",
+              "D3",
+              "E3"
+            ],
+            "distance_m": 800
+          }
+        ],
+        "algorithme_selection": "indice = seed % 2 (0 donne v1, 1 donne v2); utiliser exactement stimulus et reponse_attendue de cette entree, sans reformulation automatique",
+        "domaine": {
+          "seed": "entier naturel stable",
+          "indice": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "2 variantes approuvées seulement",
+          "aucune modification du plan, de la légende, de l’échelle ni du corrigé",
+          "ordre des cases et orientation identiques à la fiche"
+        ],
+        "validation_exemples": [
+          {
+            "seed": 202606,
+            "variante": "v1"
+          },
+          {
+            "seed": 202607,
+            "variante": "v2"
+          }
+        ],
+        "controle_independant": "positions, continuité, obstacles et distances recalculés par un vérificateur de quadrillage local"
+      },
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Interdiction de changer les distances sans recalculer le corrigé."
+    },
+    {
+      "item_id": "qc-pri-us-002-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-002-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Compare les deux parcours annoncés. Lequel respecte les règles du plan ? Montre la case qui invalide l’autre parcours.",
+      "stimulus": "**Plan fictif du parc des Érables** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  .  B  .\n2  E  .  X  .\n3  .  .  .  P\n4  .  M  .  .\n```\nLégende : `E` = école; `B` = bibliothèque; `P` = parc; `M` = musée; `X` = bassin infranchissable; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 100 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** De l’école A2 à la bibliothèque C1 : trajet 1 A2–B2–B1–C1; trajet 2 A2–B2–C2–C1.",
+      "reponse_attendue": "Trajet 1 valide : A2, B2, B1, C1 (3 déplacements). Trajet 2 invalide : C2 porte X, bassin infranchissable.",
+      "criteres": [
+        "Trajet permis identifié",
+        "Obstacle localisé avec précision",
+        "Justification vérifiable sur la légende"
+      ],
+      "feedback": "Une suite de cases n’est pas suffisante : chacune doit être accessible et jointe à la précédente par un côté.",
+      "difficulte": "intermediaire",
+      "representation": "carte + comparaison de deux trajets",
+      "seed": 202608,
+      "parametres": {
+        "catalogue_ferme": [
+          {
+            "variante_id": "v1",
+            "carte_id": "A",
+            "stimulus": "**Plan fictif du parc des Érables** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  .  B  .\n2  E  .  X  .\n3  .  .  .  P\n4  .  M  .  .\n```\nLégende : `E` = école; `B` = bibliothèque; `P` = parc; `M` = musée; `X` = bassin infranchissable; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 100 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** De l’école A2 à la bibliothèque C1 : trajet 1 A2–B2–B1–C1; trajet 2 A2–B2–C2–C1.",
+            "consigne_specifique": "De l’école A2 à la bibliothèque C1 : trajet 1 A2–B2–B1–C1; trajet 2 A2–B2–C2–C1.",
+            "reponse_attendue": "Trajet 1 valide : A2, B2, B1, C1 (3 déplacements). Trajet 2 invalide : C2 porte X, bassin infranchissable.",
+            "itineraire_justificatif": [
+              "A2",
+              "B2",
+              "B1",
+              "C1"
+            ],
+            "distance_m": 300
+          },
+          {
+            "variante_id": "v2",
+            "carte_id": "B",
+            "stimulus": "**Plan fictif du quartier des Pins** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  H  .  .\n2  .  X  X  .\n3  S  .  .  B\n4  .  .  .  .\n```\nLégende : `S` = station; `H` = hôpital; `B` = bibliothèque; `X` = zone fermée; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 150 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** De la station A3 à l’hôpital B1 : trajet 1 A3–A2–A1–B1; trajet 2 A3–B3–B2–B1.",
+            "consigne_specifique": "De la station A3 à l’hôpital B1 : trajet 1 A3–A2–A1–B1; trajet 2 A3–B3–B2–B1.",
+            "reponse_attendue": "Trajet 1 valide : A3, A2, A1, B1 (3 déplacements). Trajet 2 invalide : B2 porte X, zone fermée.",
+            "itineraire_justificatif": [
+              "A3",
+              "A2",
+              "A1",
+              "B1"
+            ],
+            "distance_m": 450
+          }
+        ],
+        "algorithme_selection": "indice = seed % 2 (0 donne v1, 1 donne v2); utiliser exactement stimulus et reponse_attendue de cette entree, sans reformulation automatique",
+        "domaine": {
+          "seed": "entier naturel stable",
+          "indice": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "2 variantes approuvées seulement",
+          "aucune modification du plan, de la légende, de l’échelle ni du corrigé",
+          "ordre des cases et orientation identiques à la fiche"
+        ],
+        "validation_exemples": [
+          {
+            "seed": 202608,
+            "variante": "v1"
+          },
+          {
+            "seed": 202609,
+            "variante": "v2"
+          }
+        ],
+        "controle_independant": "positions, continuité, obstacles et distances recalculés par un vérificateur de quadrillage local"
+      },
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Seules les suites fixes du catalogue sont admises."
+    },
+    {
+      "item_id": "qc-pri-us-002-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique comment la flèche nord change l’interprétation du trajet, puis précise une information qu’on NE peut PAS déduire du plan.",
+      "stimulus": "**Plan fictif du parc des Érables** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  .  B  .\n2  E  .  X  .\n3  .  .  .  P\n4  .  M  .  .\n```\nLégende : `E` = école; `B` = bibliothèque; `P` = parc; `M` = musée; `X` = bassin infranchissable; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 100 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\nLa flèche N ↑ figure au-dessus du quadrillage.",
+      "reponse_attendue": "N ↑ signifie que le nord est vers le haut de cette carte; l’est vers la droite, le sud vers le bas et l’ouest vers la gauche. On ne peut pas déduire la durée du trajet, ni si un vrai sentier est accessible, car ces données ne sont pas indiquées.",
+      "criteres": [
+        "Orientation justifiée par la flèche",
+        "Limite d’information explicite et plausible"
+      ],
+      "feedback": "N’assume pas que le nord est toujours en haut : c’est la flèche sur ce plan qui permet de le dire. Une carte ne montre que les données prévues par son auteur.",
+      "difficulte": "initial",
+      "representation": "carte + texte argumenté",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucune variation sans revue du corrigé."
+    },
+    {
+      "item_id": "qc-pri-us-002-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-002-ev-01",
+      "mode": "fixe",
+      "consigne": "En suivant les cases indiquées, donne la distance et explique pourquoi le calcul représente une distance de parcours, non une distance à vol d’oiseau.",
+      "stimulus": "**Plan fictif du quartier des Pins** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  H  .  .\n2  .  X  X  .\n3  S  .  .  B\n4  .  .  .  .\n```\nLégende : `S` = station; `H` = hôpital; `B` = bibliothèque; `X` = zone fermée; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 150 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\nParcours station S en A3 → B3 → C3 → D3 (bibliothèque).",
+      "reponse_attendue": "Trois déplacements horizontaux de 150 m, donc 3 × 150 = 450 m. La mesure concerne le trajet le long des déplacements permis sur le quadrillage, pas une distance directe hors des cases.",
+      "criteres": [
+        "Trois déplacements reconnus",
+        "450 m correct",
+        "Explication sur le type de distance"
+      ],
+      "feedback": "Même sur une carte schématique, il faut définir ce qu’on mesure : ici on suit les côtés de cases.",
+      "difficulte": "intermediaire",
+      "representation": "schéma de parcours + échelle",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Parcours fixé."
+    },
+    {
+      "item_id": "qc-pri-us-002-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-002-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Trouve un parcours le plus court entre les lieux demandés. Écris toutes les cases, la distance et une justification fondée sur les obstacles et l’échelle.",
+      "stimulus": "**Plan fictif du parc des Érables** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  .  B  .\n2  E  .  X  .\n3  .  .  .  P\n4  .  M  .  .\n```\nLégende : `E` = école; `B` = bibliothèque; `P` = parc; `M` = musée; `X` = bassin infranchissable; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 100 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** École E en A2 → bibliothèque B en C1.",
+      "reponse_attendue": "Un plus court parcours : A2 → B2 → B1 → C1, 3 déplacements, 300 m. Minimum : deux colonnes vers l’est et une ligne vers le nord, donc au moins 3; ce trajet évite X en C2.",
+      "criteres": [
+        "Départ et arrivée exacts",
+        "Parcours continu sans obstacle et de longueur minimale",
+        "Distance correcte",
+        "Justification utilisant coordonnées et légende"
+      ],
+      "feedback": "Pour prouver « le plus court », compare le nombre minimum de déplacements horizontaux et verticaux requis aux étapes du trajet choisi.",
+      "difficulte": "intermediaire",
+      "representation": "carte + argumentation de trajet",
+      "seed": 202614,
+      "parametres": {
+        "catalogue_ferme": [
+          {
+            "variante_id": "v1",
+            "carte_id": "A",
+            "stimulus": "**Plan fictif du parc des Érables** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  .  B  .\n2  E  .  X  .\n3  .  .  .  P\n4  .  M  .  .\n```\nLégende : `E` = école; `B` = bibliothèque; `P` = parc; `M` = musée; `X` = bassin infranchissable; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 100 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** École E en A2 → bibliothèque B en C1.",
+            "consigne_specifique": "École E en A2 → bibliothèque B en C1.",
+            "reponse_attendue": "Un plus court parcours : A2 → B2 → B1 → C1, 3 déplacements, 300 m. Minimum : deux colonnes vers l’est et une ligne vers le nord, donc au moins 3; ce trajet évite X en C2.",
+            "itineraire_justificatif": [
+              "A2",
+              "B2",
+              "B1",
+              "C1"
+            ],
+            "distance_m": 300
+          },
+          {
+            "variante_id": "v2",
+            "carte_id": "B",
+            "stimulus": "**Plan fictif du quartier des Pins** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D\n1  .  H  .  .\n2  .  X  X  .\n3  S  .  .  B\n4  .  .  .  .\n```\nLégende : `S` = station; `H` = hôpital; `B` = bibliothèque; `X` = zone fermée; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 150 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Station S en A3 → hôpital H en B1.",
+            "consigne_specifique": "Station S en A3 → hôpital H en B1.",
+            "reponse_attendue": "Plus court parcours : A3 → A2 → A1 → B1, 3 déplacements, 450 m. Minimum : une colonne vers l’est et deux lignes vers le nord = 3; le trajet évite les X en B2 et C2.",
+            "itineraire_justificatif": [
+              "A3",
+              "A2",
+              "A1",
+              "B1"
+            ],
+            "distance_m": 450
+          }
+        ],
+        "algorithme_selection": "indice = seed % 2 (0 donne v1, 1 donne v2); utiliser exactement stimulus et reponse_attendue de cette entree, sans reformulation automatique",
+        "domaine": {
+          "seed": "entier naturel stable",
+          "indice": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "2 variantes approuvées seulement",
+          "aucune modification du plan, de la légende, de l’échelle ni du corrigé",
+          "ordre des cases et orientation identiques à la fiche"
+        ],
+        "validation_exemples": [
+          {
+            "seed": 202614,
+            "variante": "v1"
+          },
+          {
+            "seed": 202615,
+            "variante": "v2"
+          }
+        ],
+        "controle_independant": "positions, continuité, obstacles et distances recalculés par un vérificateur de quadrillage local"
+      },
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Accepter tout autre trajet autorisé de même longueur si démontré."
+    },
+    {
+      "item_id": "qc-pri-us-002-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-002-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Compare les deux itinéraires autorisés, calcule les distances et défends le plus court avec les données de la carte.",
+      "stimulus": "**Plan fictif du centre des Découvertes** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D, E de gauche à droite; lignes 1 à 5 de haut en bas.\n```text\n   A  B  C  D  E\n1  .  .  L  .  .\n2  .  #  #  .  .\n3  P  .  .  .  .\n4  .  .  #  .  .\n5  .  .  .  .  .\n```\nLégende : `L` = bibliothèque; `P` = parc; `#` = terrain fermé; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 50 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Parc A3 → bibliothèque C1 : trajet 1 A3–A2–A1–B1–C1; trajet 2 A3–B3–C3–D3–D2–D1–C1.",
+      "reponse_attendue": "Trajet 1 : 4 déplacements × 50 = 200 m; trajet 2 : 6 × 50 = 300 m. Les deux sont valides, trajet 1 plus court de 100 m.",
+      "criteres": [
+        "Deux parcours vérifiés",
+        "Deux distances correctes",
+        "Choix comparatif justifié avec unité et obstacle éventuel"
+      ],
+      "feedback": "Ne confonds pas le nombre de cases et le nombre de déplacements; vérifie chaque case avant de comparer.",
+      "difficulte": "transfert",
+      "representation": "comparaison chiffrée + carte",
+      "seed": 202616,
+      "parametres": {
+        "catalogue_ferme": [
+          {
+            "variante_id": "v1",
+            "carte_id": "D",
+            "stimulus": "**Plan fictif du centre des Découvertes** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D, E de gauche à droite; lignes 1 à 5 de haut en bas.\n```text\n   A  B  C  D  E\n1  .  .  L  .  .\n2  .  #  #  .  .\n3  P  .  .  .  .\n4  .  .  #  .  .\n5  .  .  .  .  .\n```\nLégende : `L` = bibliothèque; `P` = parc; `#` = terrain fermé; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 50 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Parc A3 → bibliothèque C1 : trajet 1 A3–A2–A1–B1–C1; trajet 2 A3–B3–C3–D3–D2–D1–C1.",
+            "consigne_specifique": "Parc A3 → bibliothèque C1 : trajet 1 A3–A2–A1–B1–C1; trajet 2 A3–B3–C3–D3–D2–D1–C1.",
+            "reponse_attendue": "Trajet 1 : 4 déplacements × 50 = 200 m; trajet 2 : 6 × 50 = 300 m. Les deux sont valides, trajet 1 plus court de 100 m.",
+            "itineraire_justificatif": [
+              "A3",
+              "A2",
+              "A1",
+              "B1",
+              "C1"
+            ],
+            "distance_m": 200
+          },
+          {
+            "variante_id": "v2",
+            "carte_id": "C",
+            "stimulus": "**Plan fictif du camp des Saules** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D, E de gauche à droite; lignes 1 à 4 de haut en bas.\n```text\n   A  B  C  D  E\n1  .  .  A  .  .\n2  .  X  X  .  .\n3  D  .  .  .  V\n4  .  .  X  .  .\n```\nLégende : `A` = accueil; `D` = départ; `V` = belvédère; `X` = secteur interdit; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 200 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.\n\n**Question de cette variante :** Départ A3 → belvédère E3 : trajet 1 A3–B3–C3–D3–E3; trajet 2 A3–B3–C3–D3–D2–E2–E3.",
+            "consigne_specifique": "Départ A3 → belvédère E3 : trajet 1 A3–B3–C3–D3–E3; trajet 2 A3–B3–C3–D3–D2–E2–E3.",
+            "reponse_attendue": "Trajet 1 : 4 déplacements × 200 = 800 m; trajet 2 : 6 × 200 = 1 200 m. Les deux sont valides, trajet 1 plus court de 400 m.",
+            "itineraire_justificatif": [
+              "A3",
+              "B3",
+              "C3",
+              "D3",
+              "E3"
+            ],
+            "distance_m": 800
+          }
+        ],
+        "algorithme_selection": "indice = seed % 2 (0 donne v1, 1 donne v2); utiliser exactement stimulus et reponse_attendue de cette entree, sans reformulation automatique",
+        "domaine": {
+          "seed": "entier naturel stable",
+          "indice": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "2 variantes approuvées seulement",
+          "aucune modification du plan, de la légende, de l’échelle ni du corrigé",
+          "ordre des cases et orientation identiques à la fiche"
+        ],
+        "validation_exemples": [
+          {
+            "seed": 202616,
+            "variante": "v1"
+          },
+          {
+            "seed": 202617,
+            "variante": "v2"
+          }
+        ],
+        "controle_independant": "positions, continuité, obstacles et distances recalculés par un vérificateur de quadrillage local"
+      },
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Deux couples de trajets figés avec résultat recalculé."
+    },
+    {
+      "item_id": "qc-pri-us-002-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-002-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 1 (centre scientifique) : sans indice, cite le titre, décode la légende pour les lieux et les zones interdites, localise la table d’accueil et l’atelier, puis écris un trajet valide le plus court avec direction(s), distance et justification. Indique une limite du plan.",
+      "stimulus": "**Plan fictif du centre des Sciences** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D, E de gauche à droite; lignes 1 à 5 de haut en bas.\n```text\n   A  B  C  D  E\n1  .  .  .  A  .\n2  .  #  .  #  .\n3  T  .  .  .  .\n4  .  .  #  .  .\n5  .  .  .  .  .\n```\nLégende : `T` = table d’accueil; `A` = atelier; `#` = espace fermé; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 75 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.",
+      "reponse_attendue": "Titre : Plan fictif du centre des Sciences. Table d’accueil T en A3, atelier A en D1, # = espace fermé. Un trajet le plus court : A3 → A2 → A1 → B1 → C1 → D1 (nord, nord, est, est, est). Cinq déplacements × 75 m = 375 m. Les coordonnées imposent au moins deux déplacements nord et trois est; le trajet y parvient sans traverser #. Le plan ne précise ni durée réelle ni accessibilité des passages.",
+      "criteres": [
+        "Titre/légende/lieux exacts",
+        "Itinéraire continu sans espace fermé et minimal (5 déplacements)",
+        "Directions et distance 375 m justifiées",
+        "Argument sur la limite de la carte"
+      ],
+      "feedback": "Relis la légende et les cases depuis T; le calcul porte sur les déplacements, non sur les cases.",
+      "difficulte": "transfert",
+      "representation": "plan scientifique fictif + solution écrite ou orale transcrite",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucun indice pendant la preuve, accepter parcours alternatifs minimaux exacts."
+    },
+    {
+      "item_id": "qc-pri-us-002-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-002-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 2 (centre sportif) : sans indice, cite le titre, décode R, G et #, localise les lieux; justifie un itinéraire le plus court de la réception au gymnase, directions et distance comprises. Signale une limite de ce plan.",
+      "stimulus": "**Plan fictif du centre sportif du Ruisseau** (carte schématique *inventée*, non géographique).\nFlèche N ↑ : le nord est vers le haut; l’est se trouve à droite (→). Colonnes A, B, C, D, E de gauche à droite; lignes 1 à 5 de haut en bas.\n```text\n   A  B  C  D  E\n1  .  .  G  .  .\n2  .  .  #  .  .\n3  .  .  .  #  .\n4  .  .  .  .  R\n5  .  .  .  .  .\n```\nLégende : `R` = réception; `G` = gymnase; `#` = zone interdite; `.` = passage libre. Échelle du plan : **un déplacement entre deux cases voisines par un côté = 120 m**.\nRègle de parcours : partir de la première case citée, passer uniquement entre cases voisines horizontalement ou verticalement; diagonales interdites; symbole de lieu traversable; case interdite non traversable. Les noms et distances ne décrivent aucun lieu réel.",
+      "reponse_attendue": "Titre : Plan fictif du centre sportif du Ruisseau. Réception R en E4, gymnase G en C1, # = zone interdite. Un trajet minimal : E4 → E3 → E2 → E1 → D1 → C1 (nord × 3, ouest × 2). Cinq déplacements × 120 m = 600 m. Minimum requis par les coordonnées : trois lignes et deux colonnes, sans # franchi. Le plan ne donne ni l’heure d’ouverture du gymnase, ni durée ni accessibilité réelle.",
+      "criteres": [
+        "Titre, symboles et positions exacts",
+        "Itinéraire continu minimal de 5 déplacements sans #",
+        "Directions, 600 m et minimum justifiés",
+        "Limite de représentation identifiée"
+      ],
+      "feedback": "Contrôle chaque passage de case par un côté; ne franchis pas #. Vérifie le nombre de pas avant la multiplication.",
+      "difficulte": "transfert",
+      "representation": "plan sportif fictif + parcours justifié",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucun indice, variantes non autorisées sans nouvelle revue."
+    }
+  ]
+}

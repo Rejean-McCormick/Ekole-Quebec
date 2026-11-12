@@ -1,0 +1,80 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-023",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Améliorer un texte en révisant sens, structure puis orthographe et grammaire.",
+  "concepts": [
+    "relecture",
+    "correction",
+    "priorisation"
+  ],
+  "preuve_attendue": "Annoter puis produire une version révisée avec justification de trois changements.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-021"
+  ],
+  "ordre_conseille": [
+    "qc-pri-fr-012",
+    "qc-pri-fr-019"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-023-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Annoter puis produire une version révisée avec justification de trois changements.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Aucune substitution automatique dans la banque livrée : 8 stimuli fixes; toute nouvelle variante exige une nouvelle fiche de faits, une rubrique relue et un nouvel item_id.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": false
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-fr-023",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Annoter puis produire une version révisée avec justification de trois changements.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": "fiche_d_intention_et_brouillon_ecrit_annotable",
+      "variables": {
+        "mode": "corpus_fixe",
+        "substitutions_automatiques": []
+      },
+      "contraintes": [
+        "respecter les faits de la fiche",
+        "corriger d’abord le sens, ensuite la structure, enfin la langue",
+        "conserver trois interventions annotées et justifiées",
+        "ne pas ajouter de faits non fournis",
+        "retenir deux contextes distincts pour la maîtrise",
+        "aucune génération IA libre ni correcteur automatique comme autorité"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "../evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "fidelite_sens",
+          "organisation",
+          "correction_langue",
+          "annotations",
+          "justifications"
+        ],
+        "echelle_par_dimension": [
+          "non_demontre",
+          "en_developpement",
+          "satisfaisant"
+        ],
+        "regle": "deux productions en contextes différents satisfaisantes dans chaque dimension, dont au moins une sans indices ni correction automatique; jamais une note unique"
+      },
+      "source": "Exemples et stimuli originaux créés pour qc-pri-fr-023; voir ../sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

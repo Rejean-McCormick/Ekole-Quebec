@@ -1,0 +1,85 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-018",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Employer les formes verbales étudiées selon la personne et la valeur temporelle.",
+  "concepts": [
+    "radical",
+    "terminaison",
+    "temps",
+    "personne"
+  ],
+  "preuve_attendue": "Compléter puis produire de courtes phrases aux temps ciblés.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-013"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-018-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Compléter puis produire de courtes phrases aux temps ciblés.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Aucune génération automatique utilisée pour cette livraison. Les variantes futures requièrent un nouveau stimulus, un corrigé vérifié et une revue humaine.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-fr-018",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Compléter puis produire de courtes phrases aux temps ciblés.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "phrase écrite à compléter",
+        "justification écrite ou dictée fidèle",
+        "production de phrases contextualisées"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "temps_cibles": [
+          "present_indicatif",
+          "imparfait_indicatif",
+          "futur_simple_indicatif"
+        ],
+        "verbes_eligibles": [
+          "parler",
+          "chanter",
+          "jouer",
+          "marcher",
+          "regarder",
+          "dessiner",
+          "planter",
+          "aider",
+          "écouter",
+          "préparer",
+          "observer",
+          "travailler"
+        ],
+        "parametrage_automatique": false
+      },
+      "contraintes": [
+        "Sujets et valeurs temporelles explicites dans chaque stimulus.",
+        "Seuls des verbes réguliers en -er sans modification de radical dans les items.",
+        "Aucune permutation automatique : chaque stimulus et corrigé sont verrouillés.",
+        "Éviter les confusions entre temps verbaux sans contexte explicite; deux contextes autonomes indépendants.",
+        "Orthographe écrite choisie par l’élève, même si réponse dictée à un scripteur."
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md : vérifier séparément formes écrites, personnes/temps, justifications et autonomie dans les deux épreuves.",
+      "source": "sources/REFERENCES_CONTENU.md (règles OQLF vérifiées; phrases et tâches originales)",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_evaluation_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

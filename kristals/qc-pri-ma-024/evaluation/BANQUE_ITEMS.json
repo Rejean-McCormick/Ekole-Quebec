@@ -1,0 +1,890 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-024",
+  "family_id": "qc-pri-ma-024-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-024-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-024-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir de deux demi-droites de sommet O, indique la mesure de leur angle et son type, puis explique.",
+      "stimulus": "O(3;3); une demi-droite va de O vers A(6;3), une autre de O vers B(3;6).",
+      "reponse_attendue": "Angle AOB = 90°, angle droit. OA est horizontale vers la droite; OB est verticale vers le haut; elles sont perpendiculaires.",
+      "criteres": [
+        "Sommet O reconnu.",
+        "Mesure ou classification exacte : 90° et droit.",
+        "Justification par horizontalité et verticalité / gabarit."
+      ],
+      "feedback": "Si l’angle est dit aigu, comparer l’ouverture au coin d’un carré; la longueur des segments n’affecte pas les 90°.",
+      "difficulte": "initial",
+      "representation": "quadrillage 0..12, coordonnées, angle et/ou tracé schématique; justification écrite, dictée ou orale",
+      "variations_permises": "Support de rendu uniquement : quadrillage agrandi, tactile, saisie numérique ou scribe non directif; valeurs fixes.",
+      "limites_variation": "Énoncé, nombres, axes et corrigé verrouillés. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-024-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Indique quelles paires de droites sont parallèles, lesquelles sont perpendiculaires, et justifie sans juger seulement les segments visibles.",
+      "stimulus": "D1 : x=2; D2 : x=8; D3 : y=4, sur le même plan quadrillé.",
+      "reponse_attendue": "D1 ∥ D2 : deux verticales distinctes. D1 ⟂ D3 et D2 ⟂ D3 : une verticale et une horizontale forment 90°. D1 et D2 ne sont pas perpendiculaires.",
+      "criteres": [
+        "Parallélisme D1/D2 exact.",
+        "Perpendicularités D1/D3 et D2/D3 exactes.",
+        "Justification fondée sur les droites porteuses et 90°."
+      ],
+      "feedback": "Si D1 et D2 sont classées perpendiculaires, prolonger mentalement les deux verticales : elles ne se rencontrent pas.",
+      "difficulte": "initial",
+      "representation": "quadrillage 0..12, coordonnées, angle et/ou tracé schématique; justification écrite, dictée ou orale",
+      "variations_permises": "Support de rendu uniquement : quadrillage agrandi, tactile, saisie numérique ou scribe non directif; valeurs fixes.",
+      "limites_variation": "Énoncé, nombres, axes et corrigé verrouillés. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-024-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les trois angles décrits par les rayons issus de O comme aigu, droit ou obtus; indique les ouvertures idéales.",
+      "stimulus": "O(4;4); un rayon horizontal va de O à R(7;4). Trois autres rayons vont vers S(6;6), T(4;7) et U(2;6). Compare ∠ROS, ∠ROT, ∠ROU.",
+      "reponse_attendue": "∠ROS = 45° aigu : OS est à 45° au-dessus de OR. ∠ROT = 90° droit : OT est vertical. ∠ROU = 135° obtus : OU va vers le haut-gauche. Les distances aux extrémités ne changent pas ces ouvertures.",
+      "criteres": [
+        "Aigu 45° pour ROS.",
+        "Droit 90° pour ROT.",
+        "Obtus 135° pour ROU.",
+        "Justification par directions des rayons plutôt que leur longueur."
+      ],
+      "feedback": "En cas de confusion, dessiner les directions horizontal, diagonal à 45° et vertical; comparer à 90° avant de nommer les angles.",
+      "difficulte": "initial",
+      "representation": "quadrillage 0..12, coordonnées, angle et/ou tracé schématique; justification écrite, dictée ou orale",
+      "variations_permises": "Support de rendu uniquement : quadrillage agrandi, tactile, saisie numérique ou scribe non directif; valeurs fixes.",
+      "limites_variation": "Énoncé, nombres, axes et corrigé verrouillés. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-024-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour l’axe vertical x=6, donne les images de R et T. L’un des deux points reste-t-il fixe? Explique pourquoi.",
+      "stimulus": "R(6;5) est sur l’axe; T(4;5) est à gauche de l’axe.",
+      "reponse_attendue": "R′(6;5) = R car il est déjà sur l’axe; T′(8;5), car 6−4=2=8−6. Le segment TT′ est horizontal et perpendiculaire à x=6.",
+      "criteres": [
+        "Point R correctement reconnu fixe.",
+        "T′(8;5) exactement.",
+        "Distance égale et perpendicularité expliquées."
+      ],
+      "feedback": "Si R est déplacé, rappeler qu’un point de l’axe est sa propre image : sa distance à l’axe est zéro.",
+      "difficulte": "intermediaire",
+      "representation": "quadrillage 0..12, coordonnées, angle et/ou tracé schématique; justification écrite, dictée ou orale",
+      "variations_permises": "Support de rendu uniquement : quadrillage agrandi, tactile, saisie numérique ou scribe non directif; valeurs fixes.",
+      "limites_variation": "Énoncé, nombres, axes et corrigé verrouillés. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-024-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-024-ev-01",
+      "mode": "parametrique",
+      "consigne": "Construis l’image du point P par rapport à la droite verticale x=6; justifie la distance égale et la direction perpendiculaire.",
+      "stimulus": "Quadrillage unité 1 de 0 à 12 dans les deux directions; axe x=6; P(1;5). Les sommets originaux sont donnés; tracer les images ou les consigner numériquement. Instance produite par seed=31415; les coordonnées sont inscrites pour que l’item soit utilisable sans moteur de génération.",
+      "reponse_attendue": "P′(11;5). Distances perpendiculaires à x=6 : P 5 carreau(x), identiques pour le point et son image; chaque paire a une somme de coordonnées réfléchies égale à 12 et la coordonnée parallèle à l’axe ne change pas. Milieu de chaque paire sur x=6; segments image perpendiculaires à l’axe. Le point P′ est unique.",
+      "criteres": [
+        "Chaque point-image est placé exactement sur les coordonnées attendues (tolérance 0 carreau sur les valeurs de grille).",
+        "La relation point-image est expliquée par égalité des distances perpendiculaires à l’axe et conservation de la coordonnée parallèle.",
+        "La construction respecte les étiquettes et la direction de l’axe."
+      ],
+      "feedback": "Si y change, rappeler que la réflexion par x=6 conserve la hauteur; comparer les deux distances horizontales et recommencer avec un autre point.",
+      "difficulte": "intermediaire",
+      "representation": "tracé des coordonnées et de la figure sur grille / points étiquetés / justification par égalité des distances et perpendicularité",
+      "variations_permises": "uniquement seed entier dans le domaine déclaré et substitutions calculées par la même formule avec contrôle complet; adaptation de la taille de grille, du mode de saisie et du temps sans changer les mathématiques",
+      "limites_variation": "Aucune génération libre par IA, aucune variation de l’axe ni de la structure de l’item, ne pas présenter une autre instance sans validation arithmétique indépendante.",
+      "seed": 31415,
+      "parametres": {
+        "seed_regle": "entier positif stocké dans item.seed; arithmétique entière mod et division euclidienne // (aucune fonction aléatoire externe)",
+        "domaine_seed": "0..2147483647",
+        "domaine_coordonnees": "x et y entiers 0..12, cases unité 1",
+        "axe": "x=6",
+        "variables": {
+          "seed": 31415,
+          "points_originaux": [
+            [
+              1,
+              5
+            ]
+          ],
+          "coordonnees_images": [
+            [
+              11,
+              5
+            ]
+          ],
+          "nombre_points": 1
+        },
+        "domaines_et_contraintes": "x ∈ {1,2,3,4,5}, y ∈ {2,3,4,5,6,7,8,9}; image de l’autre côté de x=6",
+        "algorithme_generation": "P = (1 + seed mod 5; 2 + (seed // 5) mod 8)",
+        "algorithme_correction": "pour chaque (x;y), image (12−x;y), connecter les sommets dans l’ordre initial",
+        "filtres": [
+          "coordonnées entières dans 0..12",
+          "aucun point sur axe sauf item fixe q-004",
+          "points originaux distincts",
+          "images distinctes",
+          "ordre des sommets conservé",
+          "géométrie simple non dégénérée"
+        ],
+        "exemples_validation": [
+          {
+            "seed": 31415,
+            "entree_points": [
+              [
+                1,
+                5
+              ]
+            ],
+            "sortie_points": [
+              [
+                11,
+                5
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          },
+          {
+            "seed": 31416,
+            "entree_points": [
+              [
+                2,
+                5
+              ]
+            ],
+            "sortie_points": [
+              [
+                10,
+                5
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          }
+        ],
+        "statut_validation_examples": "résultats recalculables, tests arithmétiques réalisés par script de livraison"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-024-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-024-ev-01",
+      "mode": "parametrique",
+      "consigne": "Construis l’image du point P par rapport à la droite horizontale y=6; justifie la distance égale et la direction perpendiculaire.",
+      "stimulus": "Quadrillage unité 1 de 0 à 12 dans les deux directions; axe y=6; P(3;4). Les sommets originaux sont donnés; tracer les images ou les consigner numériquement. Instance produite par seed=27182; les coordonnées sont inscrites pour que l’item soit utilisable sans moteur de génération.",
+      "reponse_attendue": "P′(3;8). Distances perpendiculaires à y=6 : P 2 carreau(x), identiques pour le point et son image; chaque paire a une somme de coordonnées réfléchies égale à 12 et la coordonnée parallèle à l’axe ne change pas. Milieu de chaque paire sur y=6; segments image perpendiculaires à l’axe. Le point P′ est unique.",
+      "criteres": [
+        "Chaque point-image est placé exactement sur les coordonnées attendues (tolérance 0 carreau sur les valeurs de grille).",
+        "La relation point-image est expliquée par égalité des distances perpendiculaires à l’axe et conservation de la coordonnée parallèle.",
+        "La construction respecte les étiquettes et la direction de l’axe."
+      ],
+      "feedback": "Si x change, rappeler que le segment point-image doit être vertical; reporter le même nombre de carreaux sous ou au-dessus de y=6.",
+      "difficulte": "intermediaire",
+      "representation": "tracé des coordonnées et de la figure sur grille / points étiquetés / justification par égalité des distances et perpendicularité",
+      "variations_permises": "uniquement seed entier dans le domaine déclaré et substitutions calculées par la même formule avec contrôle complet; adaptation de la taille de grille, du mode de saisie et du temps sans changer les mathématiques",
+      "limites_variation": "Aucune génération libre par IA, aucune variation de l’axe ni de la structure de l’item, ne pas présenter une autre instance sans validation arithmétique indépendante.",
+      "seed": 27182,
+      "parametres": {
+        "seed_regle": "entier positif stocké dans item.seed; arithmétique entière mod et division euclidienne // (aucune fonction aléatoire externe)",
+        "domaine_seed": "0..2147483647",
+        "domaine_coordonnees": "x et y entiers 0..12, cases unité 1",
+        "axe": "y=6",
+        "variables": {
+          "seed": 27182,
+          "points_originaux": [
+            [
+              3,
+              4
+            ]
+          ],
+          "coordonnees_images": [
+            [
+              3,
+              8
+            ]
+          ],
+          "nombre_points": 1
+        },
+        "domaines_et_contraintes": "x ∈ {1,…,10}, y ∈ {1,2,3,4,5}; image de l’autre côté de y=6",
+        "algorithme_generation": "P = (1 + seed mod 10; 1 + (seed // 10) mod 5)",
+        "algorithme_correction": "pour chaque (x;y), image (x;12−y), connecter les sommets dans l’ordre initial",
+        "filtres": [
+          "coordonnées entières dans 0..12",
+          "aucun point sur axe sauf item fixe q-004",
+          "points originaux distincts",
+          "images distinctes",
+          "ordre des sommets conservé",
+          "géométrie simple non dégénérée"
+        ],
+        "exemples_validation": [
+          {
+            "seed": 27182,
+            "entree_points": [
+              [
+                3,
+                4
+              ]
+            ],
+            "sortie_points": [
+              [
+                3,
+                8
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          },
+          {
+            "seed": 27183,
+            "entree_points": [
+              [
+                4,
+                4
+              ]
+            ],
+            "sortie_points": [
+              [
+                4,
+                8
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          }
+        ],
+        "statut_validation_examples": "résultats recalculables, tests arithmétiques réalisés par script de livraison"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-024-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-024-ev-01",
+      "mode": "parametrique",
+      "consigne": "Construis l’image du triangle ABC par rapport à l’axe vertical x=6; relie A′B′C′A′ et justifie les trois correspondances.",
+      "stimulus": "Quadrillage unité 1 de 0 à 12 dans les deux directions; axe x=6; A(3;3), B(5;3), C(4;6). Les sommets originaux sont donnés; tracer les images ou les consigner numériquement. Instance produite par seed=1007; les coordonnées sont inscrites pour que l’item soit utilisable sans moteur de génération.",
+      "reponse_attendue": "A′(9;3), B′(7;3), C′(8;6). Distances perpendiculaires à x=6 : A 3 carreau(x), B 1 carreau(x), C 2 carreau(x), identiques pour le point et son image; chaque paire a une somme de coordonnées réfléchies égale à 12 et la coordonnée parallèle à l’axe ne change pas. Milieu de chaque paire sur x=6; segments image perpendiculaires à l’axe. Relier A′→B′→C′→A′.",
+      "criteres": [
+        "Chaque point-image est placé exactement sur les coordonnées attendues (tolérance 0 carreau sur les valeurs de grille).",
+        "La relation point-image est expliquée par égalité des distances perpendiculaires à l’axe et conservation de la coordonnée parallèle.",
+        "La construction respecte les étiquettes et la direction de l’axe.",
+        "Les sommets images sont reliés dans le bon ordre, avec les côtés ou segments correspondants."
+      ],
+      "feedback": "Si un sommet est à une mauvaise distance, examiner sa propre perpendiculaire à l’axe et rectifier avant de relier; conserver la correspondance des lettres.",
+      "difficulte": "intermediaire",
+      "representation": "tracé des coordonnées et de la figure sur grille / points étiquetés / justification par égalité des distances et perpendicularité",
+      "variations_permises": "uniquement seed entier dans le domaine déclaré et substitutions calculées par la même formule avec contrôle complet; adaptation de la taille de grille, du mode de saisie et du temps sans changer les mathématiques",
+      "limites_variation": "Aucune génération libre par IA, aucune variation de l’axe ni de la structure de l’item, ne pas présenter une autre instance sans validation arithmétique indépendante.",
+      "seed": 1007,
+      "parametres": {
+        "seed_regle": "entier positif stocké dans item.seed; arithmétique entière mod et division euclidienne // (aucune fonction aléatoire externe)",
+        "domaine_seed": "0..2147483647",
+        "domaine_coordonnees": "x et y entiers 0..12, cases unité 1",
+        "axe": "x=6",
+        "variables": {
+          "seed": 1007,
+          "points_originaux": [
+            [
+              3,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "coordonnees_images": [
+            [
+              9,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              6
+            ]
+          ],
+          "nombre_points": 3
+        },
+        "domaines_et_contraintes": "dx,dy ∈ {0,1}; triangle non dégénéré situé strictement à gauche de x=6",
+        "algorithme_generation": "dx = seed mod 2; dy = (seed // 2) mod 2; A(2+dx;2+dy), B(4+dx;2+dy), C(3+dx;5+dy)",
+        "algorithme_correction": "pour chaque (x;y), image (12−x;y), connecter les sommets dans l’ordre initial",
+        "filtres": [
+          "coordonnées entières dans 0..12",
+          "aucun point sur axe sauf item fixe q-004",
+          "points originaux distincts",
+          "images distinctes",
+          "ordre des sommets conservé",
+          "géométrie simple non dégénérée"
+        ],
+        "exemples_validation": [
+          {
+            "seed": 1007,
+            "entree_points": [
+              [
+                3,
+                3
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                4,
+                6
+              ]
+            ],
+            "sortie_points": [
+              [
+                9,
+                3
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                8,
+                6
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          },
+          {
+            "seed": 1008,
+            "entree_points": [
+              [
+                2,
+                2
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "sortie_points": [
+              [
+                10,
+                2
+              ],
+              [
+                8,
+                2
+              ],
+              [
+                9,
+                5
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          }
+        ],
+        "statut_validation_examples": "résultats recalculables, tests arithmétiques réalisés par script de livraison"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-024-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-024-ev-01",
+      "mode": "parametrique",
+      "consigne": "Construis l’image du rectangle ABCD par rapport à l’axe horizontal y=6; relie A′B′C′D′A′ et justifie.",
+      "stimulus": "Quadrillage unité 1 de 0 à 12 dans les deux directions; axe y=6; A(4;1), B(7;1), C(7;3), D(4;3). Les sommets originaux sont donnés; tracer les images ou les consigner numériquement. Instance produite par seed=4208; les coordonnées sont inscrites pour que l’item soit utilisable sans moteur de génération.",
+      "reponse_attendue": "A′(4;11), B′(7;11), C′(7;9), D′(4;9). Distances perpendiculaires à y=6 : A 5 carreau(x), B 5 carreau(x), C 3 carreau(x), D 3 carreau(x), identiques pour le point et son image; chaque paire a une somme de coordonnées réfléchies égale à 12 et la coordonnée parallèle à l’axe ne change pas. Milieu de chaque paire sur y=6; segments image perpendiculaires à l’axe. Relier A′→B′→C′→D′→A′.",
+      "criteres": [
+        "Chaque point-image est placé exactement sur les coordonnées attendues (tolérance 0 carreau sur les valeurs de grille).",
+        "La relation point-image est expliquée par égalité des distances perpendiculaires à l’axe et conservation de la coordonnée parallèle.",
+        "La construction respecte les étiquettes et la direction de l’axe.",
+        "Les sommets images sont reliés dans le bon ordre, avec les côtés ou segments correspondants."
+      ],
+      "feedback": "Si le dessin perd sa forme rectangulaire, vérifier les quatre images l’une après l’autre puis reconstruire les côtés dans l’ordre A–B–C–D.",
+      "difficulte": "transfert",
+      "representation": "tracé des coordonnées et de la figure sur grille / points étiquetés / justification par égalité des distances et perpendicularité",
+      "variations_permises": "uniquement seed entier dans le domaine déclaré et substitutions calculées par la même formule avec contrôle complet; adaptation de la taille de grille, du mode de saisie et du temps sans changer les mathématiques",
+      "limites_variation": "Aucune génération libre par IA, aucune variation de l’axe ni de la structure de l’item, ne pas présenter une autre instance sans validation arithmétique indépendante.",
+      "seed": 4208,
+      "parametres": {
+        "seed_regle": "entier positif stocké dans item.seed; arithmétique entière mod et division euclidienne // (aucune fonction aléatoire externe)",
+        "domaine_seed": "0..2147483647",
+        "domaine_coordonnees": "x et y entiers 0..12, cases unité 1",
+        "axe": "y=6",
+        "variables": {
+          "seed": 4208,
+          "points_originaux": [
+            [
+              4,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "coordonnees_images": [
+            [
+              4,
+              11
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              4,
+              9
+            ]
+          ],
+          "nombre_points": 4
+        },
+        "domaines_et_contraintes": "dx ∈ {0,1,2}, dy ∈ {0,1}; rectangle non dégénéré strictement au-dessus de y=6",
+        "algorithme_generation": "dx = seed mod 3; dy = (seed // 3) mod 2; A(2+dx;1+dy), B(5+dx;1+dy), C(5+dx;3+dy), D(2+dx;3+dy)",
+        "algorithme_correction": "pour chaque (x;y), image (x;12−y), connecter les sommets dans l’ordre initial",
+        "filtres": [
+          "coordonnées entières dans 0..12",
+          "aucun point sur axe sauf item fixe q-004",
+          "points originaux distincts",
+          "images distinctes",
+          "ordre des sommets conservé",
+          "géométrie simple non dégénérée"
+        ],
+        "exemples_validation": [
+          {
+            "seed": 4208,
+            "entree_points": [
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                4,
+                3
+              ]
+            ],
+            "sortie_points": [
+              [
+                4,
+                11
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                7,
+                9
+              ],
+              [
+                4,
+                9
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          },
+          {
+            "seed": 4209,
+            "entree_points": [
+              [
+                2,
+                2
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "sortie_points": [
+              [
+                2,
+                10
+              ],
+              [
+                5,
+                10
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                2,
+                8
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          }
+        ],
+        "statut_validation_examples": "résultats recalculables, tests arithmétiques réalisés par script de livraison"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-024-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-024-ev-01",
+      "mode": "parametrique",
+      "consigne": "ÉPREUVE AUTONOME A — Panneau de terrain : une moitié triangulaire du panneau est tracée à gauche de x=6. Complète le panneau en construisant le triangle symétrique A′B′C′, relie ses sommets et justifie chacun des trois points; aucun indice sur les coordonnées pendant la preuve.",
+      "stimulus": "Quadrillage unité 1 de 0 à 12 dans les deux directions; axe x=6; A(2;1), B(5;1), C(4;4). Les sommets originaux sont donnés; tracer les images ou les consigner numériquement. Instance produite par seed=202409; les coordonnées sont inscrites pour que l’item soit utilisable sans moteur de génération.",
+      "reponse_attendue": "A′(10;1), B′(7;1), C′(8;4). Distances perpendiculaires à x=6 : A 4 carreau(x), B 1 carreau(x), C 2 carreau(x), identiques pour le point et son image; chaque paire a une somme de coordonnées réfléchies égale à 12 et la coordonnée parallèle à l’axe ne change pas. Milieu de chaque paire sur x=6; segments image perpendiculaires à l’axe. Relier A′→B′→C′→A′.",
+      "criteres": [
+        "Chaque point-image est placé exactement sur les coordonnées attendues (tolérance 0 carreau sur les valeurs de grille).",
+        "La relation point-image est expliquée par égalité des distances perpendiculaires à l’axe et conservation de la coordonnée parallèle.",
+        "La construction respecte les étiquettes et la direction de l’axe.",
+        "Les sommets images sont reliés dans le bon ordre, avec les côtés ou segments correspondants.",
+        "L’élève exécute et justifie sans aide directive pendant la preuve; les outils et aides de saisie non directifs restent autorisés.",
+        "La réussite est vérifiée séparément de l’autre contexte de maîtrise, sans moyenne compensatoire."
+      ],
+      "feedback": "Après l’épreuve, relever d’abord la paire incorrecte : distance à l’axe, ordonnée inchangée ou ordre des sommets; réentraîner avec un autre triangle, puis réévaluer sur une nouvelle instance.",
+      "difficulte": "transfert",
+      "representation": "tracé des coordonnées et de la figure sur grille / points étiquetés / justification par égalité des distances et perpendicularité",
+      "variations_permises": "uniquement seed entier dans le domaine déclaré et substitutions calculées par la même formule avec contrôle complet; adaptation de la taille de grille, du mode de saisie et du temps sans changer les mathématiques",
+      "limites_variation": "Aucune génération libre par IA, aucune variation de l’axe ni de la structure de l’item, ne pas présenter une autre instance sans validation arithmétique indépendante.",
+      "seed": 202409,
+      "parametres": {
+        "seed_regle": "entier positif stocké dans item.seed; arithmétique entière mod et division euclidienne // (aucune fonction aléatoire externe)",
+        "domaine_seed": "0..2147483647",
+        "domaine_coordonnees": "x et y entiers 0..12, cases unité 1",
+        "axe": "x=6",
+        "variables": {
+          "seed": 202409,
+          "points_originaux": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "coordonnees_images": [
+            [
+              10,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              4
+            ]
+          ],
+          "nombre_points": 3
+        },
+        "domaines_et_contraintes": "dx,dy ∈ {0,1}; triangle non dégénéré, tous x<6 ; contexte panneau",
+        "algorithme_generation": "dx = seed mod 2; dy = (seed // 2) mod 2; A(1+dx;1+dy), B(4+dx;1+dy), C(3+dx;4+dy)",
+        "algorithme_correction": "pour chaque (x;y), image (12−x;y), connecter les sommets dans l’ordre initial",
+        "filtres": [
+          "coordonnées entières dans 0..12",
+          "aucun point sur axe sauf item fixe q-004",
+          "points originaux distincts",
+          "images distinctes",
+          "ordre des sommets conservé",
+          "géométrie simple non dégénérée"
+        ],
+        "exemples_validation": [
+          {
+            "seed": 202409,
+            "entree_points": [
+              [
+                2,
+                1
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            "sortie_points": [
+              [
+                10,
+                1
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                8,
+                4
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          },
+          {
+            "seed": 202410,
+            "entree_points": [
+              [
+                1,
+                2
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "sortie_points": [
+              [
+                11,
+                2
+              ],
+              [
+                8,
+                2
+              ],
+              [
+                9,
+                5
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          }
+        ],
+        "statut_validation_examples": "résultats recalculables, tests arithmétiques réalisés par script de livraison"
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A — panneau de terrain; réflexion d’un triangle à travers une verticale; exiger construction et justification sur trois sommets."
+    },
+    {
+      "item_id": "qc-pri-ma-024-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-024-ev-01",
+      "mode": "parametrique",
+      "consigne": "ÉPREUVE AUTONOME B — Frise décorative : un motif en ligne brisée à quatre sommets est tracé au-dessus de y=6. Complète indépendamment son reflet A′B′C′D′ sous cet axe en reliant les points dans l’ordre et justifie; aucun modèle ni indice sur les coordonnées pendant la preuve.",
+      "stimulus": "Quadrillage unité 1 de 0 à 12 dans les deux directions; axe y=6; A(1;2), B(3;2), C(4;4), D(5;3). Les sommets originaux sont donnés; tracer les images ou les consigner numériquement. Instance produite par seed=202410; les coordonnées sont inscrites pour que l’item soit utilisable sans moteur de génération.",
+      "reponse_attendue": "A′(1;10), B′(3;10), C′(4;8), D′(5;9). Distances perpendiculaires à y=6 : A 4 carreau(x), B 4 carreau(x), C 2 carreau(x), D 3 carreau(x), identiques pour le point et son image; chaque paire a une somme de coordonnées réfléchies égale à 12 et la coordonnée parallèle à l’axe ne change pas. Milieu de chaque paire sur y=6; segments image perpendiculaires à l’axe. Relier A′→B′→C′→D′.",
+      "criteres": [
+        "Chaque point-image est placé exactement sur les coordonnées attendues (tolérance 0 carreau sur les valeurs de grille).",
+        "La relation point-image est expliquée par égalité des distances perpendiculaires à l’axe et conservation de la coordonnée parallèle.",
+        "La construction respecte les étiquettes et la direction de l’axe.",
+        "Les sommets images sont reliés dans le bon ordre, avec les côtés ou segments correspondants.",
+        "L’élève exécute et justifie sans aide directive pendant la preuve; les outils et aides de saisie non directifs restent autorisés.",
+        "La réussite est vérifiée séparément de l’autre contexte de maîtrise, sans moyenne compensatoire."
+      ],
+      "feedback": "Après l’épreuve, vérifier d’abord que l’ordonnée a été réfléchie et l’abscisse gardée; si la justification est seulement visuelle, exercer la preuve par milieux et perpendiculaires sur un autre motif.",
+      "difficulte": "transfert",
+      "representation": "tracé des coordonnées et de la figure sur grille / points étiquetés / justification par égalité des distances et perpendicularité",
+      "variations_permises": "uniquement seed entier dans le domaine déclaré et substitutions calculées par la même formule avec contrôle complet; adaptation de la taille de grille, du mode de saisie et du temps sans changer les mathématiques",
+      "limites_variation": "Aucune génération libre par IA, aucune variation de l’axe ni de la structure de l’item, ne pas présenter une autre instance sans validation arithmétique indépendante.",
+      "seed": 202410,
+      "parametres": {
+        "seed_regle": "entier positif stocké dans item.seed; arithmétique entière mod et division euclidienne // (aucune fonction aléatoire externe)",
+        "domaine_seed": "0..2147483647",
+        "domaine_coordonnees": "x et y entiers 0..12, cases unité 1",
+        "axe": "y=6",
+        "variables": {
+          "seed": 202410,
+          "points_originaux": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "coordonnees_images": [
+            [
+              1,
+              10
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          "nombre_points": 4
+        },
+        "domaines_et_contraintes": "dx ∈ {0,1,2}, dy ∈ {0,1}; ligne brisée simple, tous y<6 ; contexte frise",
+        "algorithme_generation": "dx = seed mod 3; dy = (seed // 3) mod 2; A(1+dx;2+dy), B(3+dx;2+dy), C(4+dx;4+dy), D(5+dx;3+dy)",
+        "algorithme_correction": "pour chaque (x;y), image (x;12−y), connecter les sommets dans l’ordre initial",
+        "filtres": [
+          "coordonnées entières dans 0..12",
+          "aucun point sur axe sauf item fixe q-004",
+          "points originaux distincts",
+          "images distinctes",
+          "ordre des sommets conservé",
+          "géométrie simple non dégénérée"
+        ],
+        "exemples_validation": [
+          {
+            "seed": 202410,
+            "entree_points": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                3
+              ]
+            ],
+            "sortie_points": [
+              [
+                1,
+                10
+              ],
+              [
+                3,
+                10
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                9
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          },
+          {
+            "seed": 202411,
+            "entree_points": [
+              [
+                2,
+                2
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                6,
+                3
+              ]
+            ],
+            "sortie_points": [
+              [
+                2,
+                10
+              ],
+              [
+                4,
+                10
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                6,
+                9
+              ]
+            ],
+            "controle": "Pour chaque sommet, distance point-axe = distance image-axe; segment point-image ⟂ axe; milieu sur axe."
+          }
+        ],
+        "statut_validation_examples": "résultats recalculables, tests arithmétiques réalisés par script de livraison"
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B — frise décorative; réflexion d’une ligne brisée à travers une horizontale; exiger construction et justification sur quatre sommets."
+    }
+  ]
+}

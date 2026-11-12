@@ -1,0 +1,99 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-010",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier des transformations sociales et politiques sous le régime britannique.",
+  "concepts": [
+    "institutions",
+    "territoires",
+    "économie",
+    "continuité"
+  ],
+  "preuve_attendue": "Produire une comparaison avant-après sur un aspect précis.",
+  "prerequis_bloquants": [
+    "qc-pri-us-001"
+  ],
+  "ordre_conseille": [
+    "qc-pri-us-008"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-010-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Produire une comparaison avant-après sur un aspect précis.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Corpus fermé H1–H6; les cartes et questions sont fixes, seules modalité/longueur/ordre de lecture peuvent être adaptés sans changer les faits ni les critères.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": false,
+        "selection": "scenarios fixes, pas de génération probabiliste ou de prompt IA non contrôlé"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-us-010",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte des cartes H1–H6",
+        "ligne de temps datée",
+        "tableau avant/après avec codes de source",
+        "réponse orale enregistrée en notes ou dictée non directive"
+      ],
+      "variables": {
+        "mode": "scenario_controle",
+        "corpus_source": [
+          "H1",
+          "H2",
+          "H3",
+          "H4",
+          "H5",
+          "H6"
+        ],
+        "scenarios_fixes": [
+          "institutions_1774_1792",
+          "continuite_civile_1774_1791",
+          "division_coloniale_1763_1791"
+        ],
+        "tirage_libre": false
+      },
+      "contraintes": [
+        "comparaison avant/après sur le même aspect",
+        "deux dates et espaces explicites",
+        "documents H1–H6 contrôlés",
+        "conclusion sans anachronisme",
+        "citations de fiches H et limites de preuve",
+        "deux évaluations indépendantes q-009/q-010",
+        "interdiction d’affirmer une disparition des Premiers Peuples d’après une carte coloniale"
+      ],
+      "barreme_ou_rubrique": {
+        "fichier": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "C1_aspect_dates",
+          "C2_deux_etats_exacts",
+          "C3_comparaison_valide",
+          "C4_preuves_limites",
+          "C5_autonomie_transfer"
+        ],
+        "echelle": "0_absent / 1_partiel / 2_etabli",
+        "decision": "preuves 009 et 010 toutes deux satisfaisantes; aucune moyenne unique"
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

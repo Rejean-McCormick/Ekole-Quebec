@@ -1,0 +1,166 @@
+{
+  "format": "ekole.activity/1",
+  "id": "experience-en-anglais",
+  "revision": 1,
+  "status": "local_demo",
+  "model": "questions",
+  "course": {
+    "id": "qc-pri-als-006",
+    "objective": "obj-1",
+    "sha256": "sha256:316d45d0ecb3180b52f8d72a4e58c8d81bb43b1ed51816e69a67319e9f7cb54b"
+  },
+  "scenario": {
+    "id": "experience-en-anglais",
+    "version": "1.0.0",
+    "step": "essai",
+    "sha256": "sha256:7a1487480eeb7955503f76c9f8d934082b326a9c0c542390acde985c95896c9c"
+  },
+  "trame": "invitation-multilingue",
+  "tasks": {
+    "pratique": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "a"
+          ]
+        }
+      ]
+    },
+    "bilan": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "b"
+          ]
+        },
+        {
+          "id": "expliquer",
+          "kind": "rubric",
+          "criteria": {
+            "preuve": 1
+          }
+        }
+      ]
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "review": "La justification sera lue par une personne.",
+      "title": "Une expérience à raconter en anglais",
+      "objective": "Décris une expérience familière en phrases anglaises simples.",
+      "prerequisite": "Reconnaître des mots anglais sur les activités quotidiennes.",
+      "context": "Mila a joué à un jeu avec son amie samedi. Elle veut raconter cette expérience en anglais.",
+      "group": "Repère qui a participé et ce qui s’est passé.",
+      "compare": "Choisis une phrase anglaise qui raconte l’action.",
+      "reflection": "Quel détail peux-tu ajouter pour aider ton lecteur ?",
+      "transfer": "Raconte en anglais une activité simple faite avec une autre personne. Tu peux inventer une courte situation.",
+      "subtitle": "Activité de découverte",
+      "heading": "Une expérience à raconter en anglais",
+      "correct": "Ta réponse correspond à la situation.",
+      "incorrect": "Relis les données de la situation et compare les possibilités.",
+      "next": "Choisis une phrase anglaise qui raconte l’action.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Quelle phrase décrit l’expérience de Mila ?",
+            "options": {
+              "a": "I played a game with my friend.",
+              "b": "Can I play tomorrow?",
+              "c": "I am going to bed now."
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Quelle phrase ajoute un détail sur le moment ?",
+            "options": {
+              "a": "What is your name?",
+              "b": "We played on Saturday.",
+              "c": "Please open the window."
+            }
+          },
+          "expliquer": {
+            "prompt": "Écris deux phrases simples en anglais pour raconter ton expérience.",
+            "criteria": {
+              "preuve": "Deux phrases anglaises compréhensibles décrivent l’activité et donnent un détail."
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "limits": "Local demonstration activity for review before classroom use.",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "review": "Someone will review your explanation.",
+      "title": "Tell a story in English",
+      "objective": "Describe a familiar experience in simple English sentences.",
+      "prerequisite": "Recognise English words for everyday activities.",
+      "context": "Mila played a game with her friend on Saturday. She wants to tell someone about it in English.",
+      "group": "Identify who took part and what happened.",
+      "compare": "Choose an English sentence that tells what happened.",
+      "reflection": "What detail could help your reader?",
+      "transfer": "Tell someone in English about a simple activity you did with another person. You can invent a short situation.",
+      "subtitle": "Discovery activity",
+      "heading": "Tell a story in English",
+      "correct": "Your answer fits the situation.",
+      "incorrect": "Read the situation again and compare the options.",
+      "next": "Choose an English sentence that tells what happened.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Which sentence describes Mila’s experience?",
+            "options": {
+              "a": "I played a game with my friend.",
+              "b": "Can I play tomorrow?",
+              "c": "I am going to bed now."
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Which sentence adds a detail about when it happened?",
+            "options": {
+              "a": "What is your name?",
+              "b": "We played on Saturday.",
+              "c": "Please open the window."
+            }
+          },
+          "expliquer": {
+            "prompt": "Write two simple English sentences to describe your experience.",
+            "criteria": {
+              "preuve": "Two understandable English sentences describe the activity and give a detail."
+            }
+          }
+        }
+      }
+    }
+  }
+}

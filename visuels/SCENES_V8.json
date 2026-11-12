@@ -1,0 +1,280 @@
+{
+  "format": "ekole.visual-storyboard/0.2",
+  "count": 17,
+  "brand": "#1e6864",
+  "policy": "ne jamais demander à DALL-E de compter ou dessiner des proportions exactes",
+  "scenes": [
+    {
+      "visual_id": "v8-accueil-tableau",
+      "role": "decor",
+      "placement_humain": "Accueil, arrière-plan calme",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Icône de carnet, feuille et boussole sur papier crème, compositions simples, espace vide pour les titres HTML. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 16:9. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "16:9",
+      "alt_fr_CA": "Accueil, arrière-plan calme",
+      "asset_path_future": "site/eleve/assets/images/v8-accueil-tableau.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-ecran-decouvrir",
+      "role": "illustration",
+      "placement_humain": "Étape Découvrir",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Une enfant imaginaire regarde un livre ouvert et un petit objet de curiosité, expression sereine, sans écran, sans texte. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 3:2. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "3:2",
+      "alt_fr_CA": "Étape Découvrir",
+      "asset_path_future": "site/eleve/assets/images/v8-ecran-decouvrir.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-ecran-essayer",
+      "role": "illustration",
+      "placement_humain": "Étape Essayer",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Mains stylisées manipulant cinq formes colorées différentes non numériques, jeu d’exploration sans solution fournie. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 3:2. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "3:2",
+      "alt_fr_CA": "Étape Essayer",
+      "asset_path_future": "site/eleve/assets/images/v8-ecran-essayer.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-ecran-expliquer",
+      "role": "illustration",
+      "placement_humain": "Étape Expliquer",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Personnage stylisé qui pointe un dessin simple dans une bulle de réflexion vide, pas de mots. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 3:2. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "3:2",
+      "alt_fr_CA": "Étape Expliquer",
+      "asset_path_future": "site/eleve/assets/images/v8-ecran-expliquer.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-ecran-explorer",
+      "role": "illustration",
+      "placement_humain": "Étape Explorer",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Chemin de petites îles connectées, chacune avec un pictogramme distinct, aucune flèche de maîtrise. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 3:2. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "3:2",
+      "alt_fr_CA": "Étape Explorer",
+      "asset_path_future": "site/eleve/assets/images/v8-ecran-explorer.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-badge-carnet",
+      "role": "symbole",
+      "placement_humain": "Carnet de découvertes",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Petit carnet avec étoile discrète, pas de trophée ou médaille de réussite. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 1:1. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "1:1",
+      "alt_fr_CA": "Carnet de découvertes",
+      "asset_path_future": "site/eleve/assets/images/v8-badge-carnet.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-atelier-compter",
+      "role": "illustration",
+      "placement_humain": "Découverte du comptage",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Petits jetons sans nombre imposé autour d’un tapis de jeu; l’activité dynamique affichera le compte exact. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 4:3. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "4:3",
+      "alt_fr_CA": "Découverte du comptage",
+      "asset_path_future": "site/eleve/assets/images/v8-atelier-compter.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-atelier-fractions",
+      "role": "illustration",
+      "placement_humain": "Découverte des fractions",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Un rectangle vide et des petits crayons de couleur; aucune proportion numérique dessinée par IA. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 4:3. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "4:3",
+      "alt_fr_CA": "Découverte des fractions",
+      "asset_path_future": "site/eleve/assets/images/v8-atelier-fractions.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-atelier-groupements",
+      "role": "illustration",
+      "placement_humain": "Groupements",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Boîtes ouvertes vides, jetons stylisés non chiffrés; pas de partages faux dessinés. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 4:3. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "4:3",
+      "alt_fr_CA": "Groupements",
+      "asset_path_future": "site/eleve/assets/images/v8-atelier-groupements.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-atelier-estimer",
+      "role": "illustration",
+      "placement_humain": "Estimation",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Pot transparent contenant des silhouettes de perles de densité décorative, sans quantité exacte ni nombres. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 4:3. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "4:3",
+      "alt_fr_CA": "Estimation",
+      "asset_path_future": "site/eleve/assets/images/v8-atelier-estimer.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-atelier-lecture",
+      "role": "illustration",
+      "placement_humain": "Lecture expressive",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Petit livre ouvert, bulles de dialogue sans texte, repères de respiration non numériques. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 4:3. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "4:3",
+      "alt_fr_CA": "Lecture expressive",
+      "asset_path_future": "site/eleve/assets/images/v8-atelier-lecture.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-atelier-theatre",
+      "role": "illustration",
+      "placement_humain": "Expression dramatique",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Scène de théâtre scolaire vide, deux rideaux minimalistes et un cercle de lumière sans public reconnaissable. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 4:3. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "4:3",
+      "alt_fr_CA": "Expression dramatique",
+      "asset_path_future": "site/eleve/assets/images/v8-atelier-theatre.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-carte-lien",
+      "role": "symbole",
+      "placement_humain": "Relier deux notions",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Deux tuiles de couleur reliées par une ligne courbe, pas de flèche qui prétend une dépendance. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 1:1. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "1:1",
+      "alt_fr_CA": "Relier deux notions",
+      "asset_path_future": "site/eleve/assets/images/v8-carte-lien.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-enseignant-plan",
+      "role": "illustration",
+      "placement_humain": "Planification pédagogique",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Table de travail claire avec fiches vierges et crayons, sans texte, ni élève reconnaissable. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 3:2. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "3:2",
+      "alt_fr_CA": "Planification pédagogique",
+      "asset_path_future": "site/eleve/assets/images/v8-enseignant-plan.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-enseignant-medias",
+      "role": "illustration",
+      "placement_humain": "Revue des visuels",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Grille de cadres vides avec une loupe, un bouclier des droits et pictogramme alt visuel. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 3:2. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "3:2",
+      "alt_fr_CA": "Revue des visuels",
+      "asset_path_future": "site/eleve/assets/images/v8-enseignant-medias.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-niveau-automne",
+      "role": "decor",
+      "placement_humain": "Automne",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Feuilles d’automne stylisées sans saison météorologique définissant le Québec entier. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 3:2. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "3:2",
+      "alt_fr_CA": "Automne",
+      "asset_path_future": "site/eleve/assets/images/v8-niveau-automne.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    },
+    {
+      "visual_id": "v8-niveau-hiver",
+      "role": "decor",
+      "placement_humain": "Hiver",
+      "prompt_image": "Illustration éditoriale pour enfants de 7 à 12 ans, style vectoriel doux / papier découpé, contours lisibles, diversité respectueuse, palette #1e6864, #cae6e3, #f1c66e, fond crème. Scène : Motifs de neige stylisés sans imposer une activité extérieure. Composition équilibrée, visuel immédiatement identifiable à 160 px, large espace négatif, silhouette nette. Rendu 3:2. Sans texte, sans chiffres, sans logo, sans filigrane, sans enfants photographiques, sans marque.",
+      "ratio": "3:2",
+      "alt_fr_CA": "Hiver",
+      "asset_path_future": "site/eleve/assets/images/v8-niveau-hiver.webp",
+      "status": "non_generee",
+      "review": [
+        "pedagogie",
+        "accessibilite",
+        "droits",
+        "exactitude_si_concerne"
+      ]
+    }
+  ]
+}

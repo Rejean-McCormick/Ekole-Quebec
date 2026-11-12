@@ -1,0 +1,319 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-als-004",
+  "family_id": "qc-pri-als-004-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-als-004-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Après un modèle, enregistre un salut qui peut être compris. Ne lis pas une ligne phonétique.",
+      "stimulus": "Un nouveau camarade arrive. L’enseignant a dit « Hi! » une fois puis se tait.",
+      "reponse_attendue": "Production orale « Hi! ». L’auditeur reconnaît une salutation; /h/ peut être perceptible mais un accent régional n’est pas écarté si le salut est clairement compris.",
+      "criteres": [
+        "L’auditeur comprend le salut sans texte.",
+        "Attaque de hi suffisamment claire pour distinguer le salut d’un autre mot dans la situation.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si le salut est mal entendu, réécoute hi puis eye et réessaie dans une phrase; s’il est clair, ajoute une phrase courte.",
+      "difficulte": "initial",
+      "representation": "situation_orale_et_image_decrite",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-004-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Après les deux exemples oraux, enregistre « I see her. She is here. » comme tu l’expliquerais à une personne qui ne voit pas l’image.",
+      "stimulus": "Image décrite : une fille est près d’une porte; un enfant la voit. Modèles isolés : see /siː/, she /ʃiː/.",
+      "reponse_attendue": "« I see her. She is here. »; l’auditeur distingue l’action de voir (see) et le pronom féminin (she); une réalisation régionale intelligible est admise.",
+      "criteres": [
+        "Contraste en contexte see/she assez net pour préserver qui voit qui.",
+        "Deux groupes compréhensibles, sans imposer le débit de l’enseignant.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si le contraste brouille le sens, regarde les deux cartes voir/elle, écoute see/she puis refais deux phrases différentes.",
+      "difficulte": "initial",
+      "representation": "modele_oral_contraste_et_description",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-004-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Enregistre « Hello, Sam! » en plaçant un relief naturel sur hello.",
+      "stimulus": "Un camarade fictif nommé Sam est devant toi. Modèle « HEL-lo, Sam! » (●○).",
+      "reponse_attendue": "« Hello, Sam! » avec syllabe initiale de hello plus saillante; salutation compréhensible; la hauteur ou durée peuvent servir au relief.",
+      "criteres": [
+        "Syllabe initiale de hello saillante par rapport à la finale, sans exagération obligatoire.",
+        "L’auditeur identifie une salutation à Sam.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si la deuxième syllabe prend tout le relief et brouille le mot, utilise deux pastilles ●○ puis redis hello naturellement.",
+      "difficulte": "initial",
+      "representation": "situation_orale_et_image_decrite",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-004-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Enregistre « I need a pencil. » comme une demande claire.",
+      "stimulus": "Il manque un crayon. L’enseignant a accentué les mots NEED et PENcil puis retire l’aide.",
+      "reponse_attendue": "Message « I need a pencil. »; l’auditeur rapporte besoin + crayon; les mots need et pencil peuvent ressortir naturellement.",
+      "criteres": [
+        "Besoin et objet reconnus avant affichage du texte.",
+        "Au moins un relief perceptible sur l’information utile et pause finale naturelle.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si on ne sait pas ce que tu demandes, fais ressortir need et pencil, sans séparer need de a par une longue pause.",
+      "difficulte": "intermediaire",
+      "representation": "situation_orale_et_image_decrite",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-004-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Enregistre « Hi! I have a hat. » en communiquant le sens à un auditeur.",
+      "stimulus": "Une personne montre un chapeau. Modèle entendu au début de l’activité, puis non rediffusé.",
+      "reponse_attendue": "« Hi! I have a hat. »; destinataire comprend salutation + possession du chapeau; au moins un /h/ utile est suffisamment identifiable.",
+      "criteres": [
+        "Salut et chapeau repérés par le destinataire.",
+        "Souffle /h/ de hi, have ou hat ne provoque pas une confusion du message.",
+        "Courte pause possible après hi.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "En cas de perte du salut, essaie doucement hi avant have a hat; si tout est compris, garde ton accent personnel.",
+      "difficulte": "intermediaire",
+      "representation": "situation_orale_et_image_decrite",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-004-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Enregistre « Hello! Can you help me, please? » après modelage de la demande, sans recevoir d’aide au moment de parler.",
+      "stimulus": "Situation : demander à une personne d’ouvrir une boîte imaginaire.",
+      "reponse_attendue": "« Hello! Can you help me, please? » ou « Hello! Please help me. »; l’auditeur comprend salutation + demande d’aide.",
+      "criteres": [
+        "Une demande d’aide est identifiable, avec help clair.",
+        "La pause après hello et le groupement help me soutiennent l’écoute.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si les mots de la demande se coupent, reprends can you help me comme un groupe; ne force pas une intonation native.",
+      "difficulte": "intermediaire",
+      "representation": "situation_orale_et_image_decrite",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-004-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Présente l’objet décrit dans un court enregistrement original.",
+      "stimulus": "Dessin ou description accessible : un sac bleu que l’enfant possède.",
+      "reponse_attendue": "« Hi! I have a blue bag. » ou « I have a blue bag. »; l’auditeur identifie possession + sac bleu.",
+      "criteres": [
+        "L’auditeur comprend une possession et les mots blue bag.",
+        "La syllabe utile de blue et le groupe blue bag restent nets et liés.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si blue bag se perd, donne du relief à blue et bag dans la même unité; aucune obligation de répéter mot pour mot.",
+      "difficulte": "intermediaire",
+      "representation": "situation_orale_et_image_decrite",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-004-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Enregistre « Banana! » puis « Hello! » comme deux mots compris par une personne.",
+      "stimulus": "L’enseignant a dit oralement ba-NA-na et HEL-lo, puis retire les pastilles ○●○ et ●○.",
+      "reponse_attendue": "« Banana! Hello! » avec accent principal de banana sur la syllabe médiane et de hello sur l’initiale; ces mots doivent être identifiables.",
+      "criteres": [
+        "Accent lexical relatif sur la syllabe médiane de banana et la première de hello.",
+        "Un auditeur identifie les deux mots malgré l’accent régional.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si les reliefs ne sont pas distinguables, rappelle ○●○ pour banana et ●○ pour hello, puis reproduis sans pastilles.",
+      "difficulte": "intermediaire",
+      "representation": "modele_oral_et_points_visuels",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-004-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Enregistre une correction simple : un stylo bleu et non rouge.",
+      "stimulus": "Un enfant demande un crayon rouge, mais le crayon voulu est bleu. Modèle oral « I need a BLUE pen. »",
+      "reponse_attendue": "« I need a BLUE pen. » ou « I need a blue pen, please. » avec blue suffisamment mis en relief pour signaler la correction; besoin et couleur compris.",
+      "criteres": [
+        "L’auditeur comprend qu’il s’agit d’un stylo bleu.",
+        "Relief sur blue lorsque l’intention est de corriger la couleur.",
+        "Le groupe a blue pen reste compréhensible.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si la couleur n’est pas comprise, relève légèrement blue sans crier ni imposer une mélodie fixe.",
+      "difficulte": "transfert",
+      "representation": "situation_orale_et_image_decrite",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-004-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Enregistre une invitation très courte à jouer après l’école.",
+      "stimulus": "Contexte : une activité fictive après l’école. Modèle entendu : « Hi! Let’s play after school. »",
+      "reponse_attendue": "« Hi! Let’s play after school. »; l’auditeur comprend salutation + invitation à jouer après l’école. Relief naturel possible sur play/school.",
+      "criteres": [
+        "Invitation et moment reconnus; pas de variante qui change after school en at school.",
+        "Rythme regroupé [Hi!] [Let’s play after school.] et relief souple sur play/school.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si on ne perçoit pas le moment, reprends after school dans le même groupe que play; ton accent n’est pas noté.",
+      "difficulte": "transfert",
+      "representation": "situation_orale_et_image_decrite",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-004-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Preuve de maîtrise A : enregistre seul un message pour demander du matériel en classe et signaler le livre que tu as. Après le modèle général étudié, aucun soufflage pendant cette prise.",
+      "stimulus": "Contexte classe. Cartes/description : besoin d’un crayon (variante A) ou d’une gomme (B), possession d’un livre bleu; dire bonjour puis le message à une personne qui ne voit pas tes cartes.",
+      "reponse_attendue": "A : « Hello! I need a pencil, please. I have a blue book. Thank you. »; B : « Hello! I need an eraser, please. I have a blue book. Thank you. ». Deux informations obligatoires identifiables SANS transcription : demande correcte (crayon ou gomme) + livre bleu possédé. Autre paraphrase anglaise simple recevable si les deux informations et les trois traits prosodiques restent observables.",
+      "criteres": [
+        "Après écoute sans texte, le destinataire note les deux informations-clés de la variante choisie.",
+        "Phonèmes suffisamment nets pour le message; /h/ de hello/have disponible comme cible, sans accent natif requis.",
+        "Accentuation utile, par exemple need et pencil/eraser, relief de hello si prononcé.",
+        "Rythme par groupes [Hello!] [I need ...] [I have ...] [Thank you!] sans pauses empêchant la compréhension.",
+        "Enregistrement autonome après modèle antérieur; sans feed-back ni appui oral pendant la prise.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si l’auditeur n’identifie pas l’objet ou le livre bleu, cibler les mots non reconnus, pratiquer hors examen puis enregistrer une nouvelle version autonome; ne pas compenser par des points prosodiques.",
+      "difficulte": "transfert",
+      "representation": "enregistrement_oral_et_description_classe",
+      "seed": null,
+      "parametres": {
+        "version_de_reference": "Hello! I need a pencil, please. I have a blue book. Thank you.",
+        "variantes_approuvees": {
+          "A": "Hello! I need a pencil, please. I have a blue book. Thank you.",
+          "B": "Hello! I need an eraser, please. I have a blue book. Thank you."
+        },
+        "regle_de_selection": "Choisir explicitement A ou B avant la passation; noter l’identifiant; aucune génération libre ou aléatoire.",
+        "informations_essentielles_par_variante": {
+          "A": [
+            "demande de crayon",
+            "possession d’un livre bleu"
+          ],
+          "B": [
+            "demande de gomme",
+            "possession d’un livre bleu"
+          ]
+        },
+        "consignes_gelées": "L’examinateur indique matériel souhaité et livre bleu; ne récite ni syllabes ni mots pendant la prise.",
+        "securite_et_equitabilite": "Modèle générique donné auparavant; une nouvelle prise autonome entière permise si incident technique."
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A_classe",
+      "rubrique_detaillee": [
+        "Intelligibilité: interlocuteur capable de reformuler les informations essentielles du message sans lire le script (0–2).",
+        "Phonèmes cibles: attaque /h/ et/ou contraste /s/–/ʃ/ suffisamment distinct pour préserver le sens; pas de comparaison à un accent natif (0–2).",
+        "Accentuation: relief lexical ou phrastique identifiable sur les unités informatives, sans obligation de prosodie identique au modèle (0–2).",
+        "Rythme: groupes de sens et pauses qui facilitent la compréhension, débit naturel variable admis (0–2)."
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-004-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-004-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Preuve de maîtrise B : enregistre seul un message invitant une personne à jouer au parc et annonçant ton objet; nouveau contexte, sans modèle réécouté pendant la prise.",
+      "stimulus": "Contexte parc. Carte/description : tu invites une personne au parc; tu apportes un ballon (A) ou un cerf-volant (B). Personne réelle non identifiable, noms fictifs uniquement.",
+      "reponse_attendue": "A : « Hi! Let’s play at the park. I have a ball. See you! »; B : « Hi! Let’s play at the park. I have a kite. See you! ». Deux informations obligatoires reconnues SANS texte : invitation à jouer au parc + objet apporté (ballon ou cerf-volant). Une autre formulation orale courte équivalente est acceptée si compréhensible et vérifiable.",
+      "criteres": [
+        "Après écoute sans texte, le destinataire rapporte les deux informations : l’invitation au parc et l’objet correct.",
+        "Attaque de hi/have et contraste sonore en contexte suffisamment clairs pour préserver le message.",
+        "Accent de phrase sur play/park et ball/kite selon l’intention; aucune courbe mélodique exacte prescrite.",
+        "Groupes rythmiques [Hi!] [Let’s play at the park.] [I have a ball/kite.] [See you!] avec pauses utiles.",
+        "Enregistrement réalisé sans indice ni correction; contexte indépendant de la classe.",
+        "Accent régional et variations naturelles admis si le message demeure compréhensible."
+      ],
+      "feedback": "Si invitation et objet ne sont pas compris, isoler les mots play/park et ball/kite et refaire plus tard une prise complète sans aide; accent natif jamais exigé.",
+      "difficulte": "transfert",
+      "representation": "enregistrement_oral_et_description_parc",
+      "seed": null,
+      "parametres": {
+        "version_de_reference": "Hi! Let’s play at the park. I have a ball. See you!",
+        "variantes_approuvees": {
+          "A": "Hi! Let’s play at the park. I have a ball. See you!",
+          "B": "Hi! Let’s play at the park. I have a kite. See you!"
+        },
+        "regle_de_selection": "Choisir explicitement A ou B avant la passation; noter l’identifiant; aucune génération libre ou aléatoire.",
+        "informations_essentielles_par_variante": {
+          "A": [
+            "invitation à jouer au parc",
+            "possession d’un ballon"
+          ],
+          "B": [
+            "invitation à jouer au parc",
+            "possession d’un cerf-volant"
+          ]
+        },
+        "consignes_gelées": "L’examinateur décrit invitation au parc et objet apporté; ne donne pas le texte pendant la capture.",
+        "securite_et_equitabilite": "Modèle générique entendu avant; pas de correction/lecture soufflée pendant la capture."
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B_parc",
+      "rubrique_detaillee": [
+        "Intelligibilité: interlocuteur capable de reformuler les informations essentielles du message sans lire le script (0–2).",
+        "Phonèmes cibles: attaque /h/ et/ou contraste /s/–/ʃ/ suffisamment distinct pour préserver le sens; pas de comparaison à un accent natif (0–2).",
+        "Accentuation: relief lexical ou phrastique identifiable sur les unités informatives, sans obligation de prosodie identique au modèle (0–2).",
+        "Rythme: groupes de sens et pauses qui facilitent la compréhension, débit naturel variable admis (0–2)."
+      ]
+    }
+  ]
+}

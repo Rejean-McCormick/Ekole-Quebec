@@ -1,0 +1,104 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ccq-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Conduire un échange avec écoute active, questions ouvertes et respect.",
+  "concepts": [
+    "dialogue",
+    "reformulation",
+    "désaccord",
+    "écoute"
+  ],
+  "preuve_attendue": "Participer à un dialogue sur un cas fictif avec des relances pertinentes.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ccq-008-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Participer à un dialogue sur un cas fictif avec des relances pertinentes.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ccq-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "jeu_de_roles_fictif",
+        "dialogue_transcrit",
+        "echange_oral_ou_CAA"
+      ],
+      "variables": {
+        "mode": "scenarios_fixes_ou_variantes_dans_corpus_ferme",
+        "domaines": {
+          "contexte": [
+            "coin_lecture",
+            "activite_exterieure",
+            "atelier_creatif",
+            "materiel_exposition",
+            "club_jardinage"
+          ],
+          "role_partenaire": [
+            "personnage_A",
+            "personnage_B"
+          ]
+        },
+        "graines_scenario": {
+          "q-009": 2026009,
+          "q-010": 2026010
+        },
+        "algorithme": "Pour q-009 et q-010 seulement, choisir variante A si seed modulo 2 = 0; sinon B. Aucun texte non révisé n’est créé."
+      },
+      "contraintes": [
+        "Cas inventés non sensibles; aucun récit réel/intime",
+        "Évaluer les gestes d’écoute, pas le contenu des opinions ni l’aisance vocale",
+        "Variantes exclusivement A/B publiées dans la banque pour q-009 et q-010",
+        "Comparer deux dialogues complets en contextes différents, dont un sans indice",
+        "Une aide technique/CAA n’est pas une aide de contenu"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "reformulation_fidele",
+          "question_ouverte_pertinente",
+          "respect_desaccord",
+          "ecoute_alternance",
+          "adaptation_relance"
+        ],
+        "echelle": {
+          "0": "non_observable_ou_inexact",
+          "1": "partiel_ou_irregulier",
+          "2": "explicite_et_pertinent"
+        },
+        "maitrise": "Deux preuves distinctes; chaque preuve >=3 dimensions au niveau 2 et toutes les autres >=1; reformulation, question ouverte et respect >=1, respect au niveau 2 dans chaque preuve; une preuve sans indices; aucun verdict basé sur une note seule."
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/BANQUE_ITEMS.json",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": {
+        "q-009": 2026009,
+        "q-010": 2026010,
+        "autres_items": null
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ilss-004",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Comprendre des messages et documents fonctionnels du quotidien.",
+    "concepts": [
+      "pictogramme",
+      "formulaire",
+      "horaire",
+      "message"
+    ]
+  },
+  "titre_source": "Comprendre des échanges et documents de la vie quotidienne",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "pictogramme, formulaire, horaire",
+      "prompt_conceptuel": "Concept d'image pour le cours « Comprendre des échanges et documents de la vie quotidienne ». Représenter une situation de classe ou de vie scolaire qui favorise la communication et la participation. Mettre en évidence les notions : pictogramme, formulaire, horaire, message. L'image doit aider à comprendre l'objectif « Comprendre des messages et documents fonctionnels du quotidien. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Comprendre des échanges et documents de la vie quotidienne : pictogramme, formulaire, horaire.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "pictogramme, formulaire, horaire",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Comprendre des échanges et documents de la vie quotidienne » : montrer une interaction scolaire accessible mettant en scène entraide et compréhension réciproque. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter pictogramme, formulaire, horaire, message. Cette image sert de point de départ à une activité liée à l'objectif « Comprendre des messages et documents fonctionnels du quotidien. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Avis de bibliothèque (inventé) »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Comprendre des échanges et documents de la vie quotidienne.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Avis de bibliothèque (inventé)",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

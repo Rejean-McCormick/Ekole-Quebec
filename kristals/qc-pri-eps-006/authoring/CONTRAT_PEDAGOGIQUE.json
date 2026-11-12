@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Jouer selon des règles partagées en coopérant et en gérant l’opposition.",
+  "concepts": [
+    "coopération",
+    "règle",
+    "opposition",
+    "fair-play"
+  ],
+  "preuve_attendue": "Participer à un jeu en montrant respect des règles et décisions adaptées.",
+  "prerequis_bloquants": [
+    "qc-pri-eps-008"
+  ],
+  "ordre_conseille": [
+    "qc-pri-eps-002",
+    "qc-pri-eps-004"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-006-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Participer à un jeu en montrant respect des règles et décisions adaptées.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Seulement adaptations d’accès et contraintes matérielles supervisées, avant l’essai; les scénarios des items sont fixes, sans tirage libre.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-eps-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "rondes de jeu observées en équipes",
+        "cartes de voie/canal réservé",
+        "décision expliquée à voix ou en communication accessible"
+      ],
+      "variables": {
+        "mode_variation": "fixe uniquement pour q-001 à q-010",
+        "positions_autorisees": [
+          "debout",
+          "assis",
+          "plateau accessible"
+        ],
+        "parametrage_aleatoire": false
+      },
+      "contraintes": [
+        "supervision adulte constante",
+        "aire et matériel sûrs",
+        "STOP systématique",
+        "absence de contact/élimination/course/interception",
+        "opposition symbolique sur plateau",
+        "alternance des rôles",
+        "décisions communes et ajustement observables",
+        "deux contextes de preuve",
+        "aucun jugement de morphologie, puissance ou vitesse"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "R1 règles/sécurité",
+          "R2 coopération",
+          "R3 décisions en opposition",
+          "R4 fair-play",
+          "R5 autonomie/transfert"
+        ],
+        "echelle": "0 non observé; 1 partiel; 2 confirmé",
+        "regle": "deux preuves distinctes satisfaisant chaque critère essentiel; pas de compensation par total"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

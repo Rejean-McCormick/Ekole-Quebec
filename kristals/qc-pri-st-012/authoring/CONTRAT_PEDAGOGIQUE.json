@@ -1,0 +1,99 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-012",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Prototyper un objet répondant à un besoin avec tests et améliorations.",
+  "concepts": [
+    "critères",
+    "matériau",
+    "prototype",
+    "itération"
+  ],
+  "preuve_attendue": "Fabriquer un prototype et documenter une amélioration issue des essais.",
+  "prerequis_bloquants": [
+    "qc-pri-st-011"
+  ],
+  "ordre_conseille": [
+    "qc-pri-st-002",
+    "qc-pri-st-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-012-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Fabriquer un prototype et documenter une amélioration issue des essais.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Jeu fixe de scénarios revus; seuls accès, taille des cartes ou modalités de consignation sont aménagés sous décision humaine sans altérer les critères; aucun tirage en production.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "validation_du_correcteur": "Critères, observations P1/P2 et rubriques révisés par humain avant usage; résultats non inventés."
+      },
+      "review_status": "items_rediges_revue_humaine_requise",
+      "kristal_id": "qc-pri-st-012",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "prototype physique observé",
+        "croquis légendé",
+        "tableau P1/P2 de 3 essais",
+        "explication observation-hypothèse-modification-résultat"
+      ],
+      "variables": {
+        "politique": "banque de cas fixes contrôlés uniquement, aucun tirage aléatoire en production",
+        "cas_maitrise": [
+          {
+            "item_id": "qc-pri-st-012-q-009",
+            "scenario": "presentoir_carte",
+            "test": "carte verticale pendant 10 s, trois essais par version"
+          },
+          {
+            "item_id": "qc-pri-st-012-q-010",
+            "scenario": "pont_10cm",
+            "test": "jeton-carton de 5x5 cm pendant 5 s, trois essais par version"
+          }
+        ],
+        "parametrisation_active": false
+      },
+      "contraintes": [
+        "L’élève choisit la conception et sa modification.",
+        "Essais P1 et P2 reproductibles avec charge, surface, durée constantes.",
+        "Papier/carton, ruban scolaire préparé; pas d’outil coupant, chaleur, électricité ou charge lourde.",
+        "Trois essais avant et après; observation notée sans invention de résultat.",
+        "Amélioration mesurée sur critère ou optimisation de ressource à succès constant.",
+        "Deux preuves dans des contextes techniques distincts; aucun score unique."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "besoin_et_criteres",
+          "prototype_et_securite",
+          "essais_comparables_et_traces",
+          "iteration_documentee",
+          "autonomie_et_transfert"
+        ],
+        "niveaux": "0_non_observe;1_partiel;2_satisfaisant",
+        "decision": "toutes dimensions essentielles au niveau 2 dans les 2 épreuves, sans compensation"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/BANQUE_ITEMS.json",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

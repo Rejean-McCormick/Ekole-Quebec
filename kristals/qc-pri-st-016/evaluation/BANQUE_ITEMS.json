@@ -1,0 +1,450 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-016",
+  "family_id": "qc-pri-st-016-ev-01",
+  "note_usage": "Stimuli et corrigés fermés; aucune génération IA libre; corrigés critériés qualitatifs; items non révisés. La sélection Unicode pour scénarios 005 et 006 est déterministe.",
+  "items": [
+    {
+      "item_id": "qc-pri-st-016-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Décris un modèle des deux positions de P, indique le jour/la nuit à chacune et explique le **mouvement causal**. Sépare l’observation de l’explication et nomme une limite du modèle.",
+      "stimulus": "Schéma textuel intégral, vue extérieure : une lampe fixe dite « Soleil » est à gauche d’un globe Terre. Le point P sur la moitié gauche du globe reçoit directement la lumière. Une flèche autour de l’axe montre que le globe pivote; à la fin P est sur la moitié droite, non éclairée. La lampe reste immobile. Illustration qualitative, non à l’échelle.",
+      "reponse_attendue": "Observation : P est éclairé d’abord (jour), puis sombre (nuit). Modèle : lampe fixe = lumière du Soleil; globe = Terre, point P = lieu d’observation; flèche = rotation sur l’axe terrestre. Inférence : la rotation modifie l’orientation de P par rapport au Soleil. Conclusion : alternance jour/nuit locale due à la rotation terrestre. Limite : globe et lampe non à l’échelle (et pas de crépuscule).",
+      "criteres": [
+        "Identifie lampe, globe, point P et direction lumineuse.",
+        "Relève correctement P éclairé puis sombre sans en inverser les positions.",
+        "Attribue le changement à la rotation **sur l’axe** du globe.",
+        "Distingue observation et conclusion causale.",
+        "Cite une limite réaliste du modèle."
+      ],
+      "feedback": "Si tu as écrit « le Soleil tourne autour de Terre », garde la lampe fixe et fais pivoter seulement le globe. Si tu as seulement nommé le jour, ajoute **comment** la position lumineuse change.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "jour_nuit",
+      "representation": "diagramme décrit + texte annoté",
+      "preuve_role": "entrainement",
+      "variabilite": {
+        "autorisee": false,
+        "limite": "stimulus, géométrie et corrigé verrouillés; réponses équivalentes sur le fond acceptées"
+      },
+      "limite_du_modele_attendue": "modèle simplifié non à l’échelle; ne reproduit ni tailles ni distances"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Pour A et B, nomme le mouvement et précise lequel peut expliquer le jour/nuit d’un lieu quand la lumière reste fixe. Trace ou décris le trajet de la lumière et donne une limite des maquettes.",
+      "stimulus": "Deux maquettes décrites : A, une boule représentant Terre pivote autour de sa propre tige fixe; B, une boule représentant Terre se déplace autour d’une lampe-Soleil sur une grande trajectoire fermée. Dans B, aucun pivot sur l’axe n’est montré. Les flèches sont toutes étiquetées en mots.",
+      "reponse_attendue": "A : rotation de la Terre sur son axe; c’est ce mouvement qui fait changer l’orientation d’un point et donc son côté éclairé ou sombre. B : révolution/orbite de Terre autour du Soleil, durée approximative d’une année; elle ne représente pas à elle seule le cycle quotidien. Le Soleil éclaire la moitié du globe tournée vers lui dans ce modèle. Limite : dimensions et trajectoires très simplifiées.",
+      "criteres": [
+        "Distingue A rotation et B orbite.",
+        "Associe le Soleil à la source d’éclairage et situe côté éclairé/sombre.",
+        "Utilise A et non B seul pour expliquer jour/nuit local.",
+        "Formule une explication liée à un lieu du globe.",
+        "Annonce la simplification de la maquette."
+      ],
+      "feedback": "Reprends la flèche qui fait le tour : si elle entoure **l’axe du même objet**, c’est rotation; si elle représente le trajet autour **d’un autre corps**, c’est une orbite.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "rotation_orbite",
+      "representation": "deux descriptions de maquettes",
+      "preuve_role": "entrainement",
+      "variabilite": {
+        "autorisee": false,
+        "limite": "stimulus, géométrie et corrigé verrouillés; réponses équivalentes sur le fond acceptées"
+      },
+      "limite_du_modele_attendue": "modèle simplifié non à l’échelle; ne reproduit ni tailles ni distances"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Propose un modèle Soleil–Terre–Lune qui explique la différence A/B. Indique ce qui est observé, ce qui change dans le modèle, si une éclipse est nécessaire et une limite du schéma.",
+      "stimulus": "Deux observations depuis Terre : image A = disque lunaire presque entièrement lumineux; image B = disque lunaire dont seule une mince portion est lumineuse. Dans les deux cas une source Soleil illumine le côté de la Lune dirigé vers elle; la Terre n’intercepte pas ce faisceau. On ne connaît ni les dates ni l’orientation du croissant.",
+      "reponse_attendue": "A est proche de la pleine Lune et B d’un croissant (sans préciser croissant ou décroissant). La Lune est illuminée par le Soleil sur environ une moitié; quand sa position orbitale autour de la Terre change, la fraction de sa partie éclairée visible depuis Terre change. Une éclipse/ombre terrestre n’est pas nécessaire et n’est pas présente ici. Limite : angle orbital ou distances non reproduits à l’échelle.",
+      "criteres": [
+        "Énonce correctement les observations des deux disques.",
+        "Identifie Soleil comme source et Terre comme point de vue.",
+        "Associe changement à l’orbite de Lune et la portion visible éclairée.",
+        "Écarte l’ombre terrestre comme cause ordinaire.",
+        "Cite une limite et n’invente ni date ni sens du croissant."
+      ],
+      "feedback": "La Lune ne « perd » pas de matière : imagine toujours la même balle éclairée d’un côté et regarde-la depuis Terre à plusieurs positions.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "phase_lunaire",
+      "representation": "deux descriptions de disques lunaires",
+      "preuve_role": "entrainement",
+      "variabilite": {
+        "autorisee": false,
+        "limite": "stimulus, géométrie et corrigé verrouillés; réponses équivalentes sur le fond acceptées"
+      },
+      "limite_du_modele_attendue": "modèle simplifié non à l’échelle; ne reproduit ni tailles ni distances"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-004",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Identifie S, T et L; explique les trois flèches (deux orbites, une rotation) et utilise la rotation de T pour expliquer comment un point passe du jour à la nuit. Indique une limite du diagramme.",
+      "stimulus": "Diagramme textuel annoté : un grand cercle central S représente le Soleil. Un globe T suit une grande trajectoire orbitale autour de S et porte une flèche sur son propre axe. Une petite boule L suit une trajectoire orbitale autour de T. Des rayons partent de S. Toutes les tailles et trajectoires sont schématiques.",
+      "reponse_attendue": "S = Soleil (étoile/source de lumière), T = Terre (planète), L = Lune (satellite naturel). Terre tourne sur son axe et orbite autour du Soleil; la Lune orbite autour de Terre. Le lieu qui, sur Terre, tourne du côté éclairé au côté opposé passe du jour à la nuit. Limite : distances, tailles et orbites non à l’échelle. Ne pas affirmer que la Lune orbite principalement autour de Soleil **dans ce schéma pédagogique** en remplacement de son orbite autour de Terre.",
+      "criteres": [
+        "Attribue correctement les rôles S/T/L.",
+        "Distingue rotation Terre et orbites Terre–Soleil / Lune–Terre.",
+        "Montre direction des rayons et côté éclairé.",
+        "Explique le phénomène jour/nuit local plutôt que citer seulement des noms.",
+        "Signale le caractère non à l’échelle."
+      ],
+      "feedback": "Une flèche collée au globe n’a pas le même sens qu’une grande trajectoire qui fait le tour d’un autre astre. Conserve le Soleil comme source lumineuse.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "systeme_solaire",
+      "representation": "diagramme annoté verbalement",
+      "preuve_role": "entrainement",
+      "variabilite": {
+        "autorisee": false,
+        "limite": "stimulus, géométrie et corrigé verrouillés; réponses équivalentes sur le fond acceptées"
+      },
+      "limite_du_modele_attendue": "modèle simplifié non à l’échelle; ne reproduit ni tailles ni distances"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-005",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir du scénario choisi, représente les corps et le sens de la lumière; explique le changement d'éclairage du lieu indiqué en distinguant observation, inférence, conclusion et limite.",
+      "stimulus": "Station d'observation A : lampe-Soleil fixe à droite; le point M du globe-Terre est d'abord à droite et reçoit la lumière. Après une rotation du globe sur son axe, M est à gauche, dans l'ombre propre de Terre. Aucun autre corps ne bloque le faisceau. Modèle simplifié.",
+      "reponse_attendue": "M : jour d'abord, nuit ensuite. La lampe fixe représente Soleil à droite; Terre pivote sur son axe et M ne fait plus face à la lumière. Le jour/nuit local vient de la rotation, pas d'un déplacement du Soleil. Modèle non à l'échelle.",
+      "criteres": [
+        "Identifie la direction lumineuse et le point nommé de la variante.",
+        "Donne le bon état jour puis nuit.",
+        "Attribue la causalité à la rotation du globe-Terre.",
+        "Distingue constat et mécanisme.",
+        "Cite une limite du modèle."
+      ],
+      "feedback": "Pour corriger, fais tourner uniquement le globe dans le sens de la flèche sans déplacer la lampe. C'est **l'orientation du lieu** qui change.",
+      "difficulte": "intermediaire",
+      "seed": "st016-v12-item-005-seed",
+      "parametres": {
+        "modele": "corpus_ferme_non_generatif",
+        "algorithme": "index = somme des valeurs Unicode de chaque caractère de (seed + \"|\" + item_id), modulo 2; sélection index 0 ou 1",
+        "valeurs_possibles": [
+          0,
+          1
+        ],
+        "index_selectionne": 0,
+        "variante_selectionnee": "A",
+        "corpus_verrouille": [
+          {
+            "code": "A",
+            "stimulus": "Station d'observation A : lampe-Soleil fixe à droite; le point M du globe-Terre est d'abord à droite et reçoit la lumière. Après une rotation du globe sur son axe, M est à gauche, dans l'ombre propre de Terre. Aucun autre corps ne bloque le faisceau. Modèle simplifié.",
+            "reponse": "M : jour d'abord, nuit ensuite. La lampe fixe représente Soleil à droite; Terre pivote sur son axe et M ne fait plus face à la lumière. Le jour/nuit local vient de la rotation, pas d'un déplacement du Soleil. Modèle non à l'échelle."
+          },
+          {
+            "code": "B",
+            "stimulus": "Station d'observation B : lampe-Soleil fixe à gauche; le point N du globe-Terre est d'abord à gauche et reçoit la lumière. Après une rotation du globe sur son axe, N est à droite, dans l'ombre propre de Terre. Aucun autre corps ne bloque le faisceau. Modèle simplifié.",
+            "reponse": "N : jour d'abord, nuit ensuite. La lampe fixe représente Soleil à gauche; Terre pivote sur son axe et N ne fait plus face à la lumière. Le jour/nuit local vient de la rotation, pas d'un déplacement du Soleil. Modèle non à l'échelle."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "index": 0,
+            "code": "A",
+            "attendu": "M : jour d'abord, nuit ensuite. La lampe fixe représente Soleil à droite; Terre pivote sur son axe et M ne fait plus face à la lumière. Le jour/nuit local vient de la rotation, pas d'un déplacement du Soleil. Modèle non à l'échelle."
+          },
+          {
+            "index": 1,
+            "code": "B",
+            "attendu": "N : jour d'abord, nuit ensuite. La lampe fixe représente Soleil à gauche; Terre pivote sur son axe et N ne fait plus face à la lumière. Le jour/nuit local vient de la rotation, pas d'un déplacement du Soleil. Modèle non à l'échelle."
+          }
+        ],
+        "contraintes": [
+          "positions et source cohérentes",
+          "une solution qualitative explicite par variante",
+          "pas de générateur libre",
+          "nouvel item/seed exige nouvelle validation humaine"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "jour_nuit",
+      "representation": "scénario textuel / modèle décrit",
+      "preuve_role": "entrainement",
+      "variabilite": {
+        "autorisee": true,
+        "domaine": "exactement les deux scénarios du corpus verrouillé",
+        "algorithme": "index = somme des valeurs Unicode de chaque caractère de (seed + \"|\" + item_id), modulo 2; sélection index 0 ou 1",
+        "validation": "corrigé et contexte propres à chaque variante, explicités dans parametres"
+      },
+      "limite_du_modele_attendue": "positions non à l’échelle; ne permet pas de déterminer grandeurs ou dates exactes"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-006",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Sur le scénario retenu, explique les deux apparences de Lune au moyen d'un modèle Soleil–Terre–Lune; cite la source lumineuse, le mouvement pertinent, la différence phase/éclipse et une limite; ne déduis pas de dates ou orientations absentes.",
+      "stimulus": "Observatoire lunaire A : au temps 1, depuis Terre, environ la moitié du disque de Lune est illuminée (un quartier); au temps 2, presque tout le disque visible est illuminé (proche de pleine Lune). La Lune se déplace autour de Terre; le Soleil éclaire toujours sa moitié dirigée vers lui. Aucun objet ne projette une ombre sur Lune. Dates et orientation non fournies.",
+      "reponse_attendue": "Quartier (environ une moitié du disque apparent éclairée), puis phase proche de pleine Lune (presque tout le disque éclairé visible); la position de la Lune sur son orbite autour de Terre modifie la portion lumineuse visible depuis Terre. Aucune éclipse nécessaire. Modèle non à l'échelle; on ne peut inférer un nombre exact de jours.",
+      "criteres": [
+        "Identifie les deux apparences présentées pour la variante.",
+        "Soleil source, vue depuis Terre spécifiée.",
+        "Relie orbite lunaire à variation de portion lumineuse visible.",
+        "Ne confond pas phases ordinaires et éclipses.",
+        "N’invente ni date ni orientation et indique une limite."
+      ],
+      "feedback": "La portion éclairée **visible depuis Terre** change avec l'orbite; l'ombre de Terre n'est pas requise. Pour un quartier on voit environ une demi-face apparente lumineuse.",
+      "difficulte": "intermediaire",
+      "seed": "st016-v12-item-006-seed",
+      "parametres": {
+        "modele": "corpus_ferme_non_generatif",
+        "algorithme": "index = somme des valeurs Unicode de chaque caractère de (seed + \"|\" + item_id), modulo 2; sélection index 0 ou 1",
+        "valeurs_possibles": [
+          0,
+          1
+        ],
+        "index_selectionne": 0,
+        "variante_selectionnee": "A",
+        "corpus_verrouille": [
+          {
+            "code": "A",
+            "stimulus": "Observatoire lunaire A : au temps 1, depuis Terre, environ la moitié du disque de Lune est illuminée (un quartier); au temps 2, presque tout le disque visible est illuminé (proche de pleine Lune). La Lune se déplace autour de Terre; le Soleil éclaire toujours sa moitié dirigée vers lui. Aucun objet ne projette une ombre sur Lune. Dates et orientation non fournies.",
+            "reponse": "Quartier (environ une moitié du disque apparent éclairée), puis phase proche de pleine Lune (presque tout le disque éclairé visible); la position de la Lune sur son orbite autour de Terre modifie la portion lumineuse visible depuis Terre. Aucune éclipse nécessaire. Modèle non à l'échelle; on ne peut inférer un nombre exact de jours."
+          },
+          {
+            "code": "B",
+            "stimulus": "Observatoire lunaire B : au temps 1, depuis Terre, une mince bande du disque de Lune est illuminée (croissant); au temps 2, environ la moitié du disque visible est illuminée (quartier). La Lune se déplace autour de Terre; le Soleil éclaire toujours sa moitié dirigée vers lui. Aucun objet ne projette une ombre sur Lune. Dates et orientation non fournies.",
+            "reponse": "Croissant puis quartier; la Lune se déplace sur son orbite autour de Terre, changeant la portion de sa moitié ensoleillée visible. Aucune éclipse nécessaire. Modèle non à l'échelle; pas assez d'information pour nommer le premier ou le dernier quartier."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "index": 0,
+            "code": "A",
+            "attendu": "Quartier (environ une moitié du disque apparent éclairée), puis phase proche de pleine Lune (presque tout le disque éclairé visible); la position de la Lune sur son orbite autour de Terre modifie la portion lumineuse visible depuis Terre. Aucune éclipse nécessaire. Modèle non à l'échelle; on ne peut inférer un nombre exact de jours."
+          },
+          {
+            "index": 1,
+            "code": "B",
+            "attendu": "Croissant puis quartier; la Lune se déplace sur son orbite autour de Terre, changeant la portion de sa moitié ensoleillée visible. Aucune éclipse nécessaire. Modèle non à l'échelle; pas assez d'information pour nommer le premier ou le dernier quartier."
+          }
+        ],
+        "contraintes": [
+          "positions et source cohérentes",
+          "une solution qualitative explicite par variante",
+          "pas de générateur libre",
+          "nouvel item/seed exige nouvelle validation humaine"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "phase_lunaire",
+      "representation": "scénario textuel / modèle décrit",
+      "preuve_role": "entrainement",
+      "variabilite": {
+        "autorisee": true,
+        "domaine": "exactement les deux scénarios du corpus verrouillé",
+        "algorithme": "index = somme des valeurs Unicode de chaque caractère de (seed + \"|\" + item_id), modulo 2; sélection index 0 ou 1",
+        "validation": "corrigé et contexte propres à chaque variante, explicités dans parametres"
+      },
+      "limite_du_modele_attendue": "positions non à l’échelle; ne permet pas de déterminer grandeurs ou dates exactes"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Corrige les deux affirmations en t'appuyant sur le modèle. Montre ce qui est observé lors d'une pleine Lune ordinaire, quel phénomène particulier exige l'ombre terrestre et pourquoi le modèle est limité.",
+      "stimulus": "Énoncé fictif d'un musée : « Les phases sont dues à l'ombre de Terre sur Lune. Lors de chaque pleine Lune, la Terre se situe exactement entre le Soleil et la Lune; c'est une éclipse lunaire. » Sur un modèle séparé, une boule-Lune fait le tour de la Terre avec la moitié tournée vers le Soleil éclairée; l'orbite de Lune est inclinée et l'alignement parfait n'a pas lieu dans tous les cas.",
+      "reponse_attendue": "Les phases ordinaires viennent de la variation de la part de la moitié solaire de Lune visible depuis Terre, au fil de l'orbite. Une pleine Lune signifie que l'observateur voit presque toute la partie éclairée, mais pas nécessairement un alignement parfait : la Lune peut passer au-dessus ou au-dessous du plan Terre–Soleil. L'ombre terrestre sur Lune produit une **éclipse lunaire** lors d'un alignement particulier; ce n'est pas chaque pleine Lune. Limite : modèle très réduit, orbite incliné simplifiée.",
+      "criteres": [
+        "Signale explicitement les deux erreurs.",
+        "Modélise Soleil éclairant Lune et vue depuis Terre.",
+        "Relie les phases à l’orbite et la portion visible éclairée.",
+        "Distingue l’éclipse (ombre terrestre, alignement particulier).",
+        "Énonce une limite sans affirmer une éclipse mensuelle."
+      ],
+      "feedback": "Une pleine Lune ordinaire n'est pas synonyme d'éclipse. Dessine l'orbite lunaire légèrement inclinée plutôt qu'un alignement parfait systématique.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "contre_exemple",
+      "representation": "texte à réviser et schéma verbal",
+      "preuve_role": "entrainement",
+      "variabilite": {
+        "autorisee": false,
+        "limite": "stimulus, géométrie et corrigé verrouillés; réponses équivalentes sur le fond acceptées"
+      },
+      "limite_du_modele_attendue": "modèle simplifié non à l’échelle; ne reproduit ni tailles ni distances"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-008",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Classe (a)–(d) en observation, inférence causale, conclusion et limite. Décris rapidement les objets et flèches nécessaires au modèle et donne une prédiction si la rotation cesse sur cette maquette.",
+      "stimulus": "Extraits d'un carnet : (a) « Au modèle, P passe de la moitié éclairée à la moitié sombre du globe. » (b) « La rotation de Terre explique ce passage. » (c) « Donc la rotation terrestre explique l'alternance locale du jour et de la nuit. » (d) « Dans ce modèle la lampe est fixe et les tailles sont arbitraires. »",
+      "reponse_attendue": "(a) observation du modèle; (b) inférence/mécanisme; (c) conclusion scientifique locale; (d) limite de représentation. Modèle : lampe = Soleil, globe = Terre, rayons dirigés vers la moitié proche, flèche autour de l'axe = rotation. Si la rotation du **globe modèle** cesse, la position fixe P ne passe pas alternativement de clair à sombre (dans les conditions imposées). Cela ne prouve pas que Terre réelle pourrait s'arrêter sans autres effets.",
+      "criteres": [
+        "Classe correctement les quatre rôles.",
+        "Nomme source, globe et flèche de rotation.",
+        "Prédit correctement l’état fixe de P sans rotation du modèle.",
+        "Relie observation à explication sans confusion.",
+        "Signale que le test concerne une maquette simplifiée."
+      ],
+      "feedback": "Ce qui est vu appartient à l'**observation**, ce qui explique le pourquoi est une **inférence**, et ce que l'on peut affirmer à la fin est une **conclusion**.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "observation_inference",
+      "representation": "carnet de données + description",
+      "preuve_role": "entrainement",
+      "variabilite": {
+        "autorisee": false,
+        "limite": "stimulus, géométrie et corrigé verrouillés; réponses équivalentes sur le fond acceptées"
+      },
+      "limite_du_modele_attendue": "modèle simplifié non à l’échelle; ne reproduit ni tailles ni distances"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-009",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Adapte le modèle Terre–Soleil–Lune à E, R et S : explique le jour/nuit de P **et** les changements de l'aspect de S, puis une limite. Ne donne pas de périodes numériques.",
+      "stimulus": "Mini-planétarium fictif : une étoile E éclaire une planète R. La planète R tourne sur son axe et suit aussi une orbite autour de E. Une lune S orbite autour de R et reçoit la lumière de E sur un de ses hémisphères; aucun écran ne cache la lumière. Un habitant fictif P vit sur R et voit S sous des aspects lumineux différents à différents moments.",
+      "reponse_attendue": "E = étoile/source; R = planète et lieu de l'observateur; S = satellite. La rotation de R sur son axe fait changer l'éclairage local de P (jour/nuit). La lune S change de position orbitale autour de R; la proportion de sa face éclairée visible depuis R change, donnant des phases. L'ombre de la planète n'est pas nécessaire. Limite : modèle ne fixe ni dimensions ni périodes; les deux mécanismes sont distincts.",
+      "criteres": [
+        "Établit analogie E/R/S correcte.",
+        "Associe éclairage local à rotation sur l’axe de R.",
+        "Associe phases de S à orbite et point de vue depuis R.",
+        "Sépare deux conclusions scientifiques et écarte une éclipse ordinaire.",
+        "N’invente ni durée ni dimension et donne une limite."
+      ],
+      "feedback": "Cherche **deux mouvements différents** : R sur son axe pour le jour/nuit, S autour de R pour les phases.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "transfert_orbite",
+      "representation": "scénario nouveau sans connaissances astronomiques externes",
+      "preuve_role": "entrainement",
+      "variabilite": {
+        "autorisee": false,
+        "limite": "stimulus, géométrie et corrigé verrouillés; réponses équivalentes sur le fond acceptées"
+      },
+      "limite_du_modele_attendue": "modèle simplifié non à l’échelle; ne reproduit ni tailles ni distances"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-010",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Explique avec les objets un phénomène Terre–Soleil–Lune au choix. Sépare les résultats démontrés par la maquette des deux affirmations non justifiées et propose une amélioration du modèle sans observation solaire directe.",
+      "stimulus": "Un stand d'exposition possède une lampe DEL froide, deux boules de tailles identiques (« Terre » et « Lune ») et un ruban dessiné en cercle parfait (« orbite »). Un groupe obtient correctement avec les boules le jour/nuit et deux phases lunaires, puis affirme : « Dans l'espace, Terre et Lune ont forcément la même taille et toutes les orbites sont des cercles parfaits. »",
+      "reponse_attendue": "Maquette valide qualitativement l'alternance jour/nuit (rotation d'une boule-Terre dans la lumière de la lampe) ou les phases (déplacement de boule-Lune et portion illuminée visible depuis Terre). Elle ne mesure pas les tailles réelles ni la forme précise des orbites; tailles égales et cercles parfaits sont des simplifications injustifiées. Amélioration : choisir des balles de tailles relatives différentes ou marquer « non à l'échelle » et dessiner une ellipse qualitative, tout en notant que les distances restent non reproduites. Sécurité : lampe DEL froide, ne pas regarder le Soleil réel.",
+      "criteres": [
+        "Choisit et explique un mécanisme exact (rotation ou orbite/phase).",
+        "Identifie source lumineuse, corps et sens du mouvement.",
+        "Distingue ce que le modèle illustre de la taille réelle.",
+        "Réfute la circularité parfaite universelle et formule une limite.",
+        "Propose une amélioration sûre sans prétendre obtenir l’échelle réelle."
+      ],
+      "feedback": "Une maquette peut **expliquer** un mécanisme sans **mesurer** les tailles ni distances du système solaire; ne confonds pas représentation et réalité.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "transfert_limites",
+      "representation": "description de stand de musée",
+      "preuve_role": "entrainement",
+      "variabilite": {
+        "autorisee": false,
+        "limite": "stimulus, géométrie et corrigé verrouillés; réponses équivalentes sur le fond acceptées"
+      },
+      "limite_du_modele_attendue": "modèle simplifié non à l’échelle; ne reproduit ni tailles ni distances"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-011",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Sans indice sur la solution, réalise ou décris un modèle avec source de lumière, Terre, axe/rotation et K. Explique pourquoi K passe du jour à la nuit et L de la nuit au jour. Distingue une observation, une inférence et une conclusion, puis énonce une limite de ton modèle. Tu peux utiliser un schéma légendé, des objets ou une description dictée.",
+      "stimulus": "PREUVE AUTONOME 1 — bulletin de la station météo scolaire. Le personnel compare deux dessins pris à différents moments d'une maquette. Lampe « Soleil » immobile à droite. Premier dessin : l'étiquette K sur Terre est du côté droit, éclairé; son opposé L est sombre. Second dessin : après un pivot sur l'axe de Terre, K est du côté gauche sombre et L du côté droit éclairé. Seule la Terre pivote dans la maquette; dessin non à l'échelle.",
+      "reponse_attendue": "Modèle recevable : Soleil/lampe fixe à droite, globe Terre avec K et L opposés, axe et flèche **de rotation**. Observation 1 : K éclairé/jour et L non éclairé/nuit; observation 2 : K sombre/nuit et L éclairé/jour. Inférence : en tournant sur son axe, Terre change quel côté reçoit la lumière. Conclusion : le jour/nuit en un lieu est expliqué par la rotation terrestre face au Soleil, pas par la révolution quotidienne du Soleil autour de Terre. Limite : modèle non à l'échelle et sans crépuscule/complexité de l'axe. Accepter formulations équivalentes correctes; pas de direction est/ouest requise.",
+      "criteres": [
+        "P1 : identifie correctement lampe, globe, K/L, lumière et flèche.",
+        "P2 : prédit les deux états opposés aux deux instants.",
+        "P3 : justifie la relation cause-effet par rotation sur l’axe.",
+        "P4 : distingue observation, inférence et conclusion en lien avec le modèle.",
+        "P5 : nomme au moins une limite physique réelle."
+      ],
+      "feedback": "Après remise : si le passage de K est inversé, relève le côté éclairé de chaque dessin. Si l'orbite est invoquée, distingue trajectoire autour du Soleil et rotation sur l'axe.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "maitrise_jour_nuit",
+      "representation": "croquis annoté OU maquette sécuritaire OU description accessible",
+      "preuve_role": "preuve_maitrise_1",
+      "variabilite": {
+        "autorisee": false,
+        "limite": "stimulus, géométrie et corrigé verrouillés; réponses équivalentes sur le fond acceptées"
+      },
+      "limite_du_modele_attendue": "tailles, distances et crépuscule non reproduits; lumière du Soleil modélisée comme source fixe"
+    },
+    {
+      "item_id": "qc-pri-st-016-q-012",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Sans indice sur la solution, produis un modèle décrit/annoté qui explique la différence des images A et B. Indique source, observateur et orbite; distingue observation, mécanisme inféré et conclusion; précise pourquoi ce n'est pas nécessairement une éclipse; donne une limite. Tu peux montrer avec des objets sécuritaires ou par une description explicite.",
+      "stimulus": "PREUVE AUTONOME 2 — atelier mobile d'un centre de découverte. Soleil : lampe fixe à gauche. Terre : observateur au centre d'un cercle. Lune : petite balle opaque qui se déplace sur une orbite schématique autour du centre, sans jamais entrer dans l'ombre de Terre. Image A vue depuis Terre : disque lunaire presque entièrement lumineux. Image B vue depuis Terre : disque lunaire dont environ une moitié est lumineuse. La moitié de la balle dirigée vers le Soleil est toujours éclairée; ni dates ni sens du quartier ne sont donnés.",
+      "reponse_attendue": "Modèle recevable : source Soleil fixe, Terre comme point de vue, balle-Lune qui change de position autour de Terre tout en ayant la moitié tournée vers le Soleil éclairée. Observation : A = presque plein disque lumineux (proche pleine Lune), B = environ moitié du disque visible éclairée (quartier, sans choix premier/dernier). Inférence : l'angle depuis lequel la Terre voit la moitié éclairée change lorsque Lune orbite. Conclusion : les phases ordinaires dépendent de la portion éclairée visible, non d'ombres de Terre; une éclipse lunaire exige une configuration exceptionnelle où Terre masque la lumière. Limite : dessin/boules non à l'échelle et inclinaison orbitale non reproduite. Ne pas inférer une date, un sens de phase, un intervalle exact ou l'orientation droite/gauche.",
+      "criteres": [
+        "P1 : source Soleil, Terre-observateur, Lune et orbite correctement identifiés.",
+        "P2 : décrit A presque pleine et B quartier sans précision inventée.",
+        "P3 : relie orbitalement l’angle de vue à la partie illuminée visible.",
+        "P4 : distingue observation, inférence, conclusion et phase ordinaire/éclipse.",
+        "P5 : explicite une limite du modèle et les données absentes."
+      ],
+      "feedback": "Après remise : replacer l'observateur sur Terre. La Lune reste éclairée du côté Soleil; c'est la **portion visible** qui change. L'ombre terrestre correspond à une situation d'éclipse distincte.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-016-ev-01",
+      "critere_id": "crit-1",
+      "theme": "maitrise_phase_lunaire",
+      "representation": "schéma explicité OU maquette sécuritaire OU description accessible",
+      "preuve_role": "preuve_maitrise_2",
+      "variabilite": {
+        "autorisee": false,
+        "limite": "stimulus, géométrie et corrigé verrouillés; réponses équivalentes sur le fond acceptées"
+      },
+      "limite_du_modele_attendue": "modèle non à l’échelle, orbite inclinée simplifiée, aucune chronologie ni droite/gauche inférable"
+    }
+  ]
+}

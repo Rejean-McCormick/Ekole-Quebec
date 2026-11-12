@@ -1,0 +1,85 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comparer des situations de rencontre et d’échange entre populations.",
+  "concepts": [
+    "échange",
+    "alliance",
+    "conflit",
+    "perspective"
+  ],
+  "preuve_attendue": "Analyser une situation à partir de deux points de vue documentés.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-us-006",
+    "qc-pri-us-008"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-009-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Analyser une situation à partir de deux points de vue documentés.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-us-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiches_de_sources_contextualisees",
+        "tableau_comparatif",
+        "chronologie_simple"
+      ],
+      "variables": {
+        "mode": "corpus_ferme",
+        "dossiers_autorises": [
+          "simulations_pedagogiques_explicitement_fictives",
+          "syntheses_historiques_documentees_1701",
+          "syntheses_historiques_documentees_1975"
+        ],
+        "selection": "identifiant_item_stable, pas de génération textuelle libre",
+        "permutations_autorisees": "ordre des fiches A et B uniquement avec inversion correspondante de la rubrique"
+      },
+      "contraintes": [
+        "Deux documents entièrement visibles, attribution, dates, type, provenance",
+        "Éviter de simuler des témoignages historiques; nommer les synthèses et reconstructions",
+        "Aucune affirmation historique non vérifiée; aucune extrapolation aux peuples entiers",
+        "Conserver la distinction fait / interprétation / incertitude",
+        "Toute nouvelle variante demande revue humaine des sources et corrigés"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "identification_et_contexte",
+          "fidélité_des_deux_perspectives",
+          "comparaison_argumentee",
+          "nuance_et_limites"
+        ],
+        "echelle": "0-2 par dimension; atteindre 2 dans fidélité et comparaison, au moins 1 dans identification et nuance, dans chacune des deux preuves distinctes",
+        "decision": "Deux preuves autonomes sur contextes distincts; aucune moyenne compensatoire"
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

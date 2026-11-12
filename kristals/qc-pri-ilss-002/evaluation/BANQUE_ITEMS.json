@@ -1,0 +1,199 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ilss-002",
+  "family_id": "qc-pri-ilss-002-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ilss-002-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Devant deux bacs dessinés, demande au partenaire dans quel bac ranger les cartes; puis accuse réception et annonce ton action. Cet essai est diagnostique : note les relances.",
+      "stimulus": "Deux bacs fictifs, « bleu » et « rouge ». Carte RÉPONSE réservée au partenaire : « Les cartes vont dans le bac rouge. » Après une question, lire exactement cette réponse; après vérification, dire « Oui, le rouge ». Pas de phrase soufflée à l’élève.",
+      "reponse_attendue": "Exemple observable : « Quel bac pour les cartes? » — « Le rouge. » — « Le rouge, c’est bien ça? » — « Oui. » — « Je les mets dans le rouge. » Un mot interrogatif et un pointage partagé peuvent constituer une demande compréhensible.",
+      "criteres": [
+        "Demande le bac utile (D), même en français émergent.",
+        "Conserve la couleur rouge et annonce le rangement (I).",
+        "Vérifie ou redit la couleur au partenaire (R).",
+        "Prend au moins deux tours; trois tours visés, aides notées (T)."
+      ],
+      "feedback": "Si la couleur est correcte sans demande, valider la compréhension et proposer « quel bac? »; si confusion des couleurs, opposer visuellement rouge et bleu dans un nouvel essai.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-002-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Le cahier est dans l’un des deux casiers A/B. Demande le numéro, vérifie ce que tu as compris et dis où tu iras; une relance unique de diagnostic est permise et doit être notée.",
+      "stimulus": "Casiers fictifs A et B. Fiche partenaire : « Le cahier est dans le casier B. » Après « B, c’est cela? », répondre « Oui ». Si aucune reprise, une seule relance neutre « As-tu l’information? », consignée comme aide.",
+      "reponse_attendue": "Exemple : « Où est le cahier? » — « En B. » — « Casier B, pas A? » — « Oui. » — « Je vais en B. » Alternative : pictogramme B choisi puis confirmation interactive.",
+      "criteres": [
+        "Identifie le casier B (I).",
+        "Adresse une demande de lieu (D).",
+        "Vérifie B plutôt que de simplement répéter un son (R).",
+        "Participe à un aller-retour; indique si la relance a été nécessaire (T)."
+      ],
+      "feedback": "La démonstration d’un bon choix de casier vaut compréhension; si la vérification manque, inviter au prochain tour à confirmer explicitement.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-002-q-003",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Pour un dessin collectif, demande la quantité de crayons et dans quelle boîte ils se trouvent. Reformule puis annonce ce que tu vas chercher. Cartes ? ↻ ✓ et amorces permises : exercice accompagné.",
+      "stimulus": "Deux boîtes, orange et verte. Fiche partenaire : « Il faut cinq crayons dans la boîte orange. » Après reformulation, répondre « Cinq, dans l’orange, oui ». Amorces possibles « Combien? », « Tu veux dire...? »; ne pas les garder pour les preuves.",
+      "reponse_attendue": "Échange possible : « Combien de crayons et quelle boîte? » — « Cinq dans l’orange. » — « Donc cinq crayons dans l’orange? » — « Oui. » — « Je prends cinq crayons orange/les cinq crayons dans la boîte orange. » L’objet action est la quantité et le contenant, non la couleur des crayons.",
+      "criteres": [
+        "Demande quantité/contenant (D).",
+        "Conserve 5 et boîte orange (I).",
+        "Vérifie les deux détails (R).",
+        "Alterne trois interventions, avec aides d’enseignement consignées (T)."
+      ],
+      "feedback": "Si « cinq crayons orange » laisse croire à une couleur non donnée, réexpliquer boîte orange versus crayons de couleur non précisée; faire vérifier le contenant.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-002-q-004",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Pour planifier la classe, demande à quelle heure débute la lecture, vérifie que ce n’est pas l’heure du rangement et annonce la préparation. Icônes ? ↻ disponibles, pas de phrase amorcée.",
+      "stimulus": "Fiche partenaire avec « lecture 10 h 15; rangement 10 h 40 ». Réponse initiale après question : « La lecture commence à 10 h 15. » À la question de clarification : « Oui, le rangement est à 10 h 40. »",
+      "reponse_attendue": "Exemple : « C’est quand la lecture? » — « À 10 h 15. » — « 10 h 15 pour lire, pas pour ranger? » — « Oui. » — « Je suis prêt pour 10 h 15. »",
+      "criteres": [
+        "Demande l’heure de lecture (D).",
+        "Conserve 10 h 15 pour la lecture et ne confond pas 10 h 40 (I).",
+        "Reformule en opposant les deux activités (R).",
+        "Maintient un échange réciproque de trois tours, avec icônes notées (T)."
+      ],
+      "feedback": "Si les heures sont confondues, mettre les deux horloges écrites côte à côte puis donner un nouveau scénario avec d’autres moments après l’explication.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-002-q-005",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Un atelier de papier n’a pas lieu au coin dessin. Demande le nouveau lieu, vérifie que tu as bien compris et conclus l’action. Aucun indice de formulation pendant l’essai; feedback seulement après.",
+      "stimulus": "Fiche partenaire : « Aux tables près de la fenêtre. » À vérification, « Oui, aux tables près de la fenêtre, pas au coin dessin. » Deux lieux neutres dessinés, fiche réponse cachée.",
+      "reponse_attendue": "Exemple : « Où prépare-t-on le papier? » — « Aux tables près de la fenêtre. » — « Pas au coin dessin, près de la fenêtre? » — « Oui. » — « Je vais préparer le papier aux tables. »",
+      "criteres": [
+        "Demande un lieu précis (D).",
+        "Identifie les tables près de la fenêtre (I).",
+        "Vérifie le changement de lieu (R).",
+        "Au moins trois contributions alternées sans indice de contenu (T)."
+      ],
+      "feedback": "Si la demande est vague, enseigner à ajouter l’activité visée et administrer une nouvelle scène de rangement après feedback.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-002-q-006",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Tu dois participer à un jeu de classe. Demande l’heure du début, vérifie que tu ne confonds pas avec la fin de l’activité puis annonce ton action. Le partenaire ne lit les données qu’en réponse.",
+      "stimulus": "Fiche partenaire : « Le jeu commence à 13 h 20; le rangement commence à 13 h 45. » Après question initiale, révéler l’heure de début seulement; à clarification, révéler la différence avec le rangement.",
+      "reponse_attendue": "Exemple : « Le jeu commence quand? » — « À 13 h 20. » — « 13 h 20, pas 13 h 45? » — « Oui, on range plus tard. » — « Je vais être prêt à 13 h 20. »",
+      "criteres": [
+        "Demande le bon événement et l’heure (D).",
+        "Conserve l’heure 13 h 20 (I).",
+        "Distingue début et rangement (R).",
+        "Trois interventions pertinentes de l’élève, alternées (T)."
+      ],
+      "feedback": "Si début et rangement sont confondus, revenir à une représentation à deux colonnes et réessayer un contexte non mémorisé.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-002-q-007",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Pour finir une affiche, demande quel pot de colle et combien de bouteilles prendre, confirme les deux détails et annonce une action.",
+      "stimulus": "Deux pots illustrés, un bleu et un vert. Fiche partenaire : « Prends une bouteille de colle bleue. » Si clarification utile, « Oui, une seule bouteille, bleue, pas verte. »",
+      "reponse_attendue": "Exemple : « Quelle colle et combien? » — « Une bleue. » — « Une bouteille bleue, pas deux ni la verte? » — « Exact. » — « Je prends la bouteille bleue. »",
+      "criteres": [
+        "Demande couleur et quantité (D).",
+        "Identifie une bouteille bleue (I).",
+        "Vérifie une information possiblement ambiguë (R).",
+        "Trois interventions alternées sans amorce (T)."
+      ],
+      "feedback": "Si la réponse ne contient qu’une couleur, valoriser l’information reçue puis exercer le mot « combien » dans une nouvelle scène.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-002-q-008",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Tu cherches le cahier commun. Demande son lieu exact; vérifie à la fois le numéro de casier et le niveau de la tablette, puis annonce où le prendre.",
+      "stimulus": "Deux casiers 1/2, tablettes haut/bas. Fiche partenaire : « Casier 2, tablette du haut. » Confirmation : « Oui, en haut du casier 2. » Le partenaire ne pointe pas.",
+      "reponse_attendue": "Exemple : « Il est où, le cahier? » — « Casier 2, en haut. » — « Donc en haut du casier 2? » — « Oui. » — « Je vais au casier 2, en haut. »",
+      "criteres": [
+        "Formule une demande de localisation (D).",
+        "Conserve les deux détails 2 et haut (I).",
+        "Reformule les informations utiles (R).",
+        "Échange au moins trois interventions sans indice (T)."
+      ],
+      "feedback": "Si seul « 2 » est retenu, modeler « sur quelle tablette? » puis réévaluer sur une localisation différente.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-002-q-009",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "**Preuve autonome A.** Avec un partenaire qui connaît les informations, organise la préparation d’une affiche collective : demande le matériel et/ou la responsabilité, vérifie une réponse, puis annonce ce que ton équipe fera. Trois interventions pertinentes minimum, alternées. Aucun indice de contenu.",
+      "stimulus": "CONTEXTE A — affiche d’équipe, inédit dans la leçon. Fiche réservée au partenaire : « Il faut deux feuilles vertes. L’équipe B découpe; l’équipe A colle. » Attendre la question de l’élève; donner seulement les données pertinentes demandées (« Deux feuilles vertes »; « L’équipe B découpe »; etc.). À vérification correcte, « Oui, c’est bien ça ». Ne pas amorcer la demande ou reformulation. Les étiquettes équipe A/B sont fictives et distribuées sans donnée personnelle.",
+      "reponse_attendue": "Production possible : Élève « Quelles feuilles faut-il pour l’affiche? » — partenaire « Deux feuilles vertes. » — élève « Donc deux vertes, c’est ça? » — partenaire « Oui. » — élève « Je vais chercher les deux feuilles vertes pour l’affiche. » Variante valide : demander qui découpe, confirmer « équipe B », annoncer prévenir l’équipe. L’élève obtient une information pertinente, la vérifie et conclut une action. Exiger la grille I/D/R/T, ≥2 partout, trois tours élèves, sans soufflage.",
+      "criteres": [
+        "I : identifie exactement « deux feuilles vertes » OU « équipe B découpe » et conclut l’action correspondante.",
+        "D : pose une question exploitable sur matériel ou rôles.",
+        "R : reprend correctement au moins un détail essentiel et obtient confirmation.",
+        "T : au moins 3 interventions pertinentes de l’élève alternées avec le partenaire sans indice de contenu; aides d’accès admises.",
+        "Preuve A indépendante; ne pas remplacer par la répétition d’une phrase donnée."
+      ],
+      "feedback": "Si quantité ou équipe erronée, montrer le détail manquant après l’essai, enseigner une reformulation puis administrer un autre scénario de coordination revu; ne pas transformer cet item en pointage guidé.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-002-q-010",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "**Preuve autonome B.** Une activité de classe change de lieu et d’heure. Demande les nouvelles informations, vérifie ce qui a changé et annonce où/quand tu iras. Au moins trois interventions pertinentes alternées; aucun indice de contenu.",
+      "stimulus": "CONTEXTE B — modification de routine, distincte de l’affiche. Fiche partenaire réservée : « La lecture de groupe est déplacée à 10 h 30 dans la salle polyvalente; elle n’a plus lieu à 10 h dans le local habituel. » Répondre à la demande du lieu ou du moment en donnant les informations nécessaires. Confirmer les vérifications adéquates (« Oui, 10 h 30, salle polyvalente »). Ne pas afficher cette fiche à l’élève, ne pas souffler une question ou la décision.",
+      "reponse_attendue": "Production possible : « Où et quand sera la lecture? » — « À 10 h 30, dans la salle polyvalente. » — « Donc plus à 10 h dans notre local; c’est à 10 h 30 dans la salle polyvalente? » — « Exact. » — « J’irai à la salle polyvalente pour 10 h 30. » Toute expression équivalente (y compris AAC) conservant l’information, la vérification et l’accord est admissible. Grille I/D/R/T, ≥2 partout et trois tours élèves.",
+      "criteres": [
+        "I : retient « 10 h 30 » et « salle polyvalente », puis agit en conséquence.",
+        "D : demande les nouvelles informations de temps et de lieu.",
+        "R : vérifie au moins un élément du changement, sans confondre ancien et nouveau.",
+        "T : au moins 3 interventions pertinentes de l’élève alternées avec le partenaire, sans amorce ou correction de contenu; aides d’accès autorisées.",
+        "Preuve B indépendante de la préparation d’affiche; ne pas déduire la maîtrise de la seule preuve A."
+      ],
+      "feedback": "Si ancien et nouveau lieu sont confondus, enseigner l’opposition « avant / maintenant », puis réessayer une autre situation d’horaire revue et consigner la seconde manifestation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

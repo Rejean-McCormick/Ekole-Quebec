@@ -1,0 +1,120 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Reconnaître une situation à risque et appliquer les consignes de prévention.",
+  "concepts": [
+    "zone sécuritaire",
+    "échauffement",
+    "protection",
+    "aide"
+  ],
+  "preuve_attendue": "Repérer des risques dans un scénario et proposer une action sûre.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-008-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Repérer des risques dans un scénario et proposer une action sûre.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-eps-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "critere_libelle": "Repérer des risques dans un scénario et proposer une action sûre.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "carte_textuelle_plan",
+        "carte_textuelle_schema",
+        "carte_textuelle_timeline",
+        "carte_textuelle_objet",
+        "carte_textuelle_incident",
+        "carte_textuelle_surface",
+        "carte_textuelle_accessibilite",
+        "plan_gymnase",
+        "carte_cour_ecole",
+        "carte_textuelle_signal",
+        "carte_textuelle_choc_tete"
+      ],
+      "variables": {
+        "item_id": {
+          "type": "enum",
+          "valeurs": [
+            "qc-pri-eps-008-q-001",
+            "qc-pri-eps-008-q-002",
+            "qc-pri-eps-008-q-003",
+            "qc-pri-eps-008-q-004",
+            "qc-pri-eps-008-q-005",
+            "qc-pri-eps-008-q-006",
+            "qc-pri-eps-008-q-007",
+            "qc-pri-eps-008-q-008",
+            "qc-pri-eps-008-q-009",
+            "qc-pri-eps-008-q-010",
+            "qc-pri-eps-008-q-011",
+            "qc-pri-eps-008-q-012"
+          ],
+          "regle": "choisir exclusivement une carte fixe dans BANQUE_ITEMS.json"
+        },
+        "modalite_reponse": {
+          "type": "enum",
+          "valeurs": [
+            "oral",
+            "ecrit",
+            "pointage",
+            "dessin_annote",
+            "communication_assistee"
+          ],
+          "regle": "préserver la preuve et tous les indices de la scène"
+        }
+      },
+      "contraintes": [
+        "Corpus fermé de 12 items fixes ; pas de génération aléatoire de situations ou de corrigés.",
+        "Objectif obj-1, critère crit-1, famille qc-pri-eps-008-ev-01 invariants.",
+        "Aucune tâche réelle dangereuse; adulte responsable présent pour toute activité; arrêt et alerte prioritaires.",
+        "Au moins 2 preuves autonomes distinctes : q-009 (gymnase), q-010 (cour); risques importants et solutions sûres.",
+        "Aucune évaluation fondée sur morphologie, vitesse, force ou capacité physique brute.",
+        "Si risque de douleur/blessure/choc à la tête : arrêt et alerte, pas de diagnostic ni décision de reprise par l’enfant.",
+        "Aucune reprise libre d’un item ou changement de contexte sans revue humaine."
+      ],
+      "barreme_ou_rubrique": {
+        "reperage_R": {
+          "0": "ne repère pas un danger essentiel",
+          "1": "repérage partiel",
+          "2": "repérage complet des dangers exigés"
+        },
+        "securite_S": {
+          "0": "action dangereuse",
+          "1": "action incomplète",
+          "2": "arrêt + mesure concrète sûre"
+        },
+        "aide_A": {
+          "0": "aucune aide requise sollicitée ou geste non autorisé",
+          "1": "aide ou justification partielle",
+          "2": "adulte et raison explicités"
+        },
+        "conditions_maitrise": "q-009 ET q-010 sans indice de solution, chacune R=2 S=2 A≥1, 2 risques importants, aucune action gravement dangereuse",
+        "non_compensation": "une proposition gravement dangereuse interdit la conclusion de maîtrise même avec scores élevés"
+      },
+      "source": "sources/REFERENCES_CONTENU.md; evaluation/BANQUE_ITEMS.json (scénarios originaux); énoncés du workspace v1.2",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

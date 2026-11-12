@@ -1,0 +1,105 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Produire de manière intelligible des sons, accents et rythmes élémentaires.",
+  "concepts": [
+    "phonèmes fréquents",
+    "accentuation",
+    "rythme"
+  ],
+  "preuve_attendue": "Enregistrer un court message compréhensible après modelage.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-004-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Enregistrer un court message compréhensible après modelage.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-als-004",
+      "objectif_id": "obj-1",
+      "critere": {
+        "id": "crit-1",
+        "preuve": "Enregistrer un court message compréhensible après modelage."
+      },
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "enonce_oral",
+        "image_description_accessible",
+        "court_enregistrement"
+      ],
+      "variables": {
+        "mode": "banque_fermee",
+        "contextes": [
+          "demande_de_materiel_en_classe",
+          "invitation_au_parc"
+        ],
+        "variantes_admissibles": {
+          "classe": [
+            "pencil",
+            "eraser"
+          ],
+          "parc": [
+            "ball",
+            "kite"
+          ]
+        },
+        "selection": "choix_documente_par_enseignant_sans_tirage_libre"
+      },
+      "contraintes": [
+        "Anglais simple et authentique; pas de traduction énoncée comme réponse finale",
+        "Liaison aux objectifs obj-1 et crit-1",
+        "Au moins deux informations-clés identifiables",
+        "Après modelage initial; sans indice ni correction pendant les preuves",
+        "Deux contextes de maîtrise non identiques",
+        "Évaluation humaine du message audible sans exigence d’accent natif",
+        "Stockage autorisé seulement; consentement et accès contrôlé"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "intelligibilite_du_message",
+          "phonemes_cibles_en_contexte",
+          "accentuation_signifiante",
+          "rythme_et_groupes_de_sens"
+        ],
+        "echelle": {
+          "0": "non_observable_ou_interfere_fortement",
+          "1": "partiel_mais_recuperable",
+          "2": "satisfaisant_et_observable"
+        },
+        "seuil_par_contexte": {
+          "intelligibilite_du_message": 2,
+          "autres_dimensions_minimum": 1
+        },
+        "decision": "deux_messages_autonomes_satisfaisants_dans_deux_contextes_distincts; aucun score global suffisant",
+        "listener_protocol": "un auditeur note les deux informations essentielles avant de consulter la transcription du correcteur"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/GRILLE_MAITRISE.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

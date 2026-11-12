@@ -1,0 +1,84 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ccq-011",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Présenter de manière respectueuse différentes perspectives de Premiers Peuples.",
+  "concepts": [
+    "perspective autochtone",
+    "pluralité",
+    "continuité",
+    "respect"
+  ],
+  "preuve_attendue": "Comparer deux documents contextualisés sans généralisation ni appropriation.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-ccq-006"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ccq-011-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Comparer deux documents contextualisés sans généralisation ni appropriation.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Seulement dossiers fermés FPCC-L, FPCC-V, APN-L, APN-C, ITK-T, ITK-R, CNM-H, nouveaux couples uniquement après validation humaine; pas de génération libre.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": false
+      },
+      "review_status": "items_produits_a_revoir",
+      "kristal_id": "qc-pri-ccq-011",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Comparer deux documents contextualisés sans généralisation ni appropriation.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "deux_fiches_documentaires_contextualisees",
+        "carte_de_comparaison",
+        "production_orale_ou_ecrite"
+      ],
+      "variables": {
+        "type": "selection_corpus_controle",
+        "valeurs_admises": [
+          "FPCC-L",
+          "FPCC-V",
+          "APN-L",
+          "APN-C",
+          "ITK-T",
+          "ITK-R",
+          "CNM-H"
+        ],
+        "generation": "selection manuelle approuvée; aucune permutation automatique active"
+      },
+      "contraintes": [
+        "Deux documents issus d’organisations identifiées, datés si date disponible; source et portée visibles",
+        "Les textes paraphrasés doivent conserver l’attribution et une URL vérifiable",
+        "Ne pas parler au nom de personnes, de peuples ou de communautés non consultés",
+        "Aucune demande d’identité, de croyance privée, d’histoire familiale ou de rituel",
+        "Comparaison reposant sur deux informations vérifiables et une limite explicite",
+        "Toute nouvelle paire nécessite relecture humaine des faits, des nuances, de la lisibilité et des droits"
+      ],
+      "barreme_ou_rubrique": "GRILLE_MAITRISE.md : 5 dimensions (contextualisation, faits, comparaison, nuances et continuité, respect/limites), niveaux 0–2; deux preuves autonomes toutes >=2",
+      "source": [
+        "https://fpcc.ca/programs/about-our-language-programs/",
+        "https://fpcc.ca/program/language-vitality-program/",
+        "https://afn.ca/community-services/languages/",
+        "https://afn.ca/about-us/charter/",
+        "https://itk.ca/about-canadian-inuit/",
+        "https://itk.ca/projects/national-inuit-strategy-on-research/",
+        "https://www.metisnation.ca/what-we-do/culture-heritage-and-language/culture-heritage/"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_produit_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

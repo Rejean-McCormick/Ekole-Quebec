@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ma-033",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Communiquer un raisonnement mathématique vérifiable, au-delà du résultat.",
+    "concepts": [
+      "justification",
+      "représentation",
+      "contrôle",
+      "conclusion"
+    ]
+  },
+  "titre_source": "Justifier et communiquer une démarche mathématique",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "justification, représentation, contrôle",
+      "prompt_conceptuel": "Concept d'image pour le cours « Justifier et communiquer une démarche mathématique ». Représenter des objets et supports manipulables permettant de raisonner sur la notion mathématique. Mettre en évidence les notions : justification, représentation, contrôle, conclusion. L'image doit aider à comprendre l'objectif « Communiquer un raisonnement mathématique vérifiable, au-delà du résultat. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Justifier et communiquer une démarche mathématique : justification, représentation, contrôle.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "justification, représentation, contrôle",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Justifier et communiquer une démarche mathématique » : montrer une situation quotidienne où les objets peuvent être comparés, groupés ou organisés. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter justification, représentation, contrôle, conclusion. Cette image sert de point de départ à une activité liée à l'objectif « Communiquer un raisonnement mathématique vérifiable, au-delà du résultat. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Groupes puis retrait »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Justifier et communiquer une démarche mathématique.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Groupes puis retrait",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

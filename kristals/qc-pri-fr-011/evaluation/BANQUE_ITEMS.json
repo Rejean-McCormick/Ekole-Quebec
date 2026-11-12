@@ -1,0 +1,417 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-011",
+  "family_id": "qc-pri-fr-011-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-011-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases A et B. Explique le sens de « glace » dans chaque phrase. Cite une expression exacte de A et de B qui justifie chacun de tes choix. Invente ensuite une troisième phrase, différente de A et B, où « glace » signifie « miroir » et où ce sens est clair.",
+      "stimulus": "A. En janvier, une couche de glace recouvre la flaque gelée.\nB. Devant la glace de l’entrée, Malik arrange son foulard.",
+      "reponse_attendue": "A : eau solidifiée ou gelée (indice acceptable : « en janvier »). B : miroir (indice acceptable : « devant la glace »). Réemploi au sens demandé : « J’aperçois mon reflet dans la glace de la salle de bain. » Autres phrases originales de même sens, explicites et naturelles, recevables après examen humain. À rejeter : « Je mange une glace » : autre sens; « J’ai une glace » : ambigu.",
+      "criteres": [
+        "S : donner A = eau solidifiée ou gelée et B = miroir, dans cet ordre, sans confusion.",
+        "I : justifier A par une expression telle que « en janvier » et B par une expression telle que « devant la glace », en expliquant les liens au sens.",
+        "R : créer une phrase inédite au sens « miroir », non ambiguë et qui ne recopie aucun énoncé.",
+        "AUT : réponse autonome, sans indice lexical fourni; modalité et aide consignées."
+      ],
+      "feedback": "Le groupe « flaque gelée » renvoie à l’eau solidifiée; arranger son foulard devant la glace signifie se regarder dans un miroir. Si le réemploi demeure ambigu, ajoute un élément de contexte sans recopier la phrase source.",
+      "difficulte": "initial",
+      "representation": "texte_deux_phrases_avec_lecture_audio_fidele_possible",
+      "contexte": "météo / miroir",
+      "indices_attendus": {
+        "A": [
+          "en janvier",
+          "flaque gelée"
+        ],
+        "B": [
+          "devant la glace",
+          "arrange son foulard"
+        ]
+      },
+      "sens_attendus": {
+        "A": "eau solidifiée ou gelée",
+        "B": "miroir"
+      },
+      "sens_impose_reemploi": "miroir",
+      "variation_permises": "Texte, sens et réponse-cible FIXES; seule une lecture audio verbatim, la mise en forme accessible ou une réponse orale transcrite fidèlement sont permises. Toute substitution lexicale nécessite nouvelle revue humaine.",
+      "preuve_maitrise": null,
+      "source": "production_originale_qc-pri-fr-011_revue_requise",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-011-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases A et B. Explique le sens de « banc » dans chaque phrase. Cite une expression exacte de A et de B qui justifie chacun de tes choix. Invente ensuite une troisième phrase, différente de A et B, où « banc » signifie « groupe de poissons » et où ce sens est clair.",
+      "stimulus": "A. Nous nous asseyons sur un banc près de l’arrêt d’autobus.\nB. Sous l’eau, un banc de poissons passe près des rochers.",
+      "reponse_attendue": "A : siège sur lequel plusieurs personnes peuvent s’asseoir (indice acceptable : « nous nous asseyons »). B : groupe de poissons nageant ensemble (indice acceptable : « de poissons »). Réemploi au sens demandé : « Un banc de sardines traverse la baie. » Autres phrases originales de même sens, explicites et naturelles, recevables après examen humain. À rejeter : « Le banc est en bois » désigne un siège, pas des poissons.",
+      "criteres": [
+        "S : donner A = siège sur lequel plusieurs personnes peuvent s’asseoir et B = groupe de poissons nageant ensemble, dans cet ordre, sans confusion.",
+        "I : justifier A par une expression telle que « nous nous asseyons » et B par une expression telle que « de poissons », en expliquant les liens au sens.",
+        "R : créer une phrase inédite au sens « groupe de poissons », non ambiguë et qui ne recopie aucun énoncé.",
+        "AUT : réponse autonome, sans indice lexical fourni; modalité et aide consignées."
+      ],
+      "feedback": "Le verbe « s’asseyons » signale un siège; « de poissons » identifie un groupe d’animaux aquatiques. Si le réemploi demeure ambigu, ajoute un élément de contexte sans recopier la phrase source.",
+      "difficulte": "initial",
+      "representation": "texte_deux_phrases_avec_lecture_audio_fidele_possible",
+      "contexte": "transport / vie marine",
+      "indices_attendus": {
+        "A": [
+          "nous nous asseyons",
+          "arrêt d’autobus"
+        ],
+        "B": [
+          "de poissons",
+          "sous l’eau"
+        ]
+      },
+      "sens_attendus": {
+        "A": "siège sur lequel plusieurs personnes peuvent s’asseoir",
+        "B": "groupe de poissons nageant ensemble"
+      },
+      "sens_impose_reemploi": "groupe de poissons",
+      "variation_permises": "Texte, sens et réponse-cible FIXES; seule une lecture audio verbatim, la mise en forme accessible ou une réponse orale transcrite fidèlement sont permises. Toute substitution lexicale nécessite nouvelle revue humaine.",
+      "preuve_maitrise": null,
+      "source": "production_originale_qc-pri-fr-011_revue_requise",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-011-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases A et B. Explique le sens de « mousse » dans chaque phrase. Cite une expression exacte de A et de B qui justifie chacun de tes choix. Invente ensuite une troisième phrase, différente de A et B, où « mousse » signifie « substance faite de bulles » et où ce sens est clair.",
+      "stimulus": "A. Après avoir lavé ses mains, Zoé rince la mousse de savon.\nB. Une mousse verte pousse sur la pierre humide de la forêt.",
+      "reponse_attendue": "A : substance légère faite de bulles (indice acceptable : « rince »). B : petite plante qui pousse souvent sur des surfaces humides (indice acceptable : « pousse »). Réemploi au sens demandé : « La mousse du shampoing remplit le lavabo de bulles. » Autres phrases originales de même sens, explicites et naturelles, recevables après examen humain. À rejeter : « La mousse couvre la roche en forêt » peut désigner une plante, pas des bulles.",
+      "criteres": [
+        "S : donner A = substance légère faite de bulles et B = petite plante qui pousse souvent sur des surfaces humides, dans cet ordre, sans confusion.",
+        "I : justifier A par une expression telle que « rince » et B par une expression telle que « pousse », en expliquant les liens au sens.",
+        "R : créer une phrase inédite au sens « substance faite de bulles », non ambiguë et qui ne recopie aucun énoncé.",
+        "AUT : réponse autonome, sans indice lexical fourni; modalité et aide consignées."
+      ],
+      "feedback": "« Rince » et « savon » orientent vers les bulles; « pousse sur la pierre humide » indique un végétal. Si le réemploi demeure ambigu, ajoute un élément de contexte sans recopier la phrase source.",
+      "difficulte": "intermediaire",
+      "representation": "texte_deux_phrases_avec_lecture_audio_fidele_possible",
+      "contexte": "hygiène / végétation",
+      "indices_attendus": {
+        "A": [
+          "rince",
+          "de savon"
+        ],
+        "B": [
+          "pousse",
+          "pierre humide de la forêt"
+        ]
+      },
+      "sens_attendus": {
+        "A": "substance légère faite de bulles",
+        "B": "petite plante qui pousse souvent sur des surfaces humides"
+      },
+      "sens_impose_reemploi": "substance faite de bulles",
+      "variation_permises": "Texte, sens et réponse-cible FIXES; seule une lecture audio verbatim, la mise en forme accessible ou une réponse orale transcrite fidèlement sont permises. Toute substitution lexicale nécessite nouvelle revue humaine.",
+      "preuve_maitrise": null,
+      "source": "production_originale_qc-pri-fr-011_revue_requise",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-011-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases A et B. Explique le sens de « pièce » dans chaque phrase. Cite une expression exacte de A et de B qui justifie chacun de tes choix. Invente ensuite une troisième phrase, différente de A et B, où « pièce » signifie « monnaie métallique » et où ce sens est clair.",
+      "stimulus": "A. La pièce où nous mangeons donne sur la cour.\nB. Nora glisse une pièce de deux dollars dans sa tirelire.",
+      "reponse_attendue": "A : salle ou espace délimité d’un logement (indice acceptable : « où nous mangeons »). B : monnaie métallique (indice acceptable : « de deux dollars »). Réemploi au sens demandé : « J’ai trouvé une pièce de vingt-cinq cents dans ma poche. » Autres phrases originales de même sens, explicites et naturelles, recevables après examen humain. À rejeter : « Nous avons peint une pièce » décrit une salle, pas de la monnaie.",
+      "criteres": [
+        "S : donner A = salle ou espace délimité d’un logement et B = monnaie métallique, dans cet ordre, sans confusion.",
+        "I : justifier A par une expression telle que « où nous mangeons » et B par une expression telle que « de deux dollars », en expliquant les liens au sens.",
+        "R : créer une phrase inédite au sens « monnaie métallique », non ambiguë et qui ne recopie aucun énoncé.",
+        "AUT : réponse autonome, sans indice lexical fourni; modalité et aide consignées."
+      ],
+      "feedback": "Une « pièce où nous mangeons » est une salle; « deux dollars » et « tirelire » indiquent une pièce de monnaie. Si le réemploi demeure ambigu, ajoute un élément de contexte sans recopier la phrase source.",
+      "difficulte": "intermediaire",
+      "representation": "texte_deux_phrases_avec_lecture_audio_fidele_possible",
+      "contexte": "maison / argent",
+      "indices_attendus": {
+        "A": [
+          "où nous mangeons",
+          "donne sur la cour"
+        ],
+        "B": [
+          "de deux dollars",
+          "tirelire"
+        ]
+      },
+      "sens_attendus": {
+        "A": "salle ou espace délimité d’un logement",
+        "B": "monnaie métallique"
+      },
+      "sens_impose_reemploi": "monnaie métallique",
+      "variation_permises": "Texte, sens et réponse-cible FIXES; seule une lecture audio verbatim, la mise en forme accessible ou une réponse orale transcrite fidèlement sont permises. Toute substitution lexicale nécessite nouvelle revue humaine.",
+      "preuve_maitrise": null,
+      "source": "production_originale_qc-pri-fr-011_revue_requise",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-011-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases A et B. Explique le sens de « clair » dans chaque phrase. Cite une expression exacte de A et de B qui justifie chacun de tes choix. Invente ensuite une troisième phrase, différente de A et B, où « clair » signifie « transparent » et où ce sens est clair.",
+      "stimulus": "A. Ce message est clair : chacun sait quand jouer.\nB. Ce ruisseau est clair : on voit les cailloux au fond.",
+      "reponse_attendue": "A : faciles à comprendre, sans ambiguïté (indice acceptable : « ce message »). B : transparente, laissant voir au travers (indice acceptable : « on voit les cailloux »). Réemploi au sens demandé : « Ce lac est clair : je vois les pierres tout au fond. » Autres phrases originales de même sens, explicites et naturelles, recevables après examen humain. À rejeter : « Mon explication est claire » renvoie à l’intelligibilité, non à la transparence.",
+      "criteres": [
+        "S : donner A = faciles à comprendre, sans ambiguïté et B = transparente, laissant voir au travers, dans cet ordre, sans confusion.",
+        "I : justifier A par une expression telle que « ce message » et B par une expression telle que « on voit les cailloux », en expliquant les liens au sens.",
+        "R : créer une phrase inédite au sens « transparent », non ambiguë et qui ne recopie aucun énoncé.",
+        "AUT : réponse autonome, sans indice lexical fourni; modalité et aide consignées."
+      ],
+      "feedback": "« Chacun sait quand jouer » renvoie à la compréhension; « on voit les cailloux au fond » indique la transparence de l’eau. Si le réemploi demeure ambigu, ajoute un élément de contexte sans recopier la phrase source.",
+      "difficulte": "intermediaire",
+      "representation": "texte_deux_phrases_avec_lecture_audio_fidele_possible",
+      "contexte": "consignes / eau",
+      "indices_attendus": {
+        "A": [
+          "ce message",
+          "chacun sait quand jouer"
+        ],
+        "B": [
+          "on voit les cailloux",
+          "au fond"
+        ]
+      },
+      "sens_attendus": {
+        "A": "faciles à comprendre, sans ambiguïté",
+        "B": "transparente, laissant voir au travers"
+      },
+      "sens_impose_reemploi": "transparent",
+      "variation_permises": "Texte, sens et réponse-cible FIXES; seule une lecture audio verbatim, la mise en forme accessible ou une réponse orale transcrite fidèlement sont permises. Toute substitution lexicale nécessite nouvelle revue humaine.",
+      "preuve_maitrise": null,
+      "source": "production_originale_qc-pri-fr-011_revue_requise",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-011-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases A et B. Explique le sens de « note » dans chaque phrase. Cite une expression exacte de A et de B qui justifie chacun de tes choix. Invente ensuite une troisième phrase, différente de A et B, où « note » signifie « résultat d’évaluation » et où ce sens est clair.",
+      "stimulus": "A. La musicienne joue une note aiguë sur la flûte.\nB. Amir a obtenu une bonne note à son examen.",
+      "reponse_attendue": "A : son musical d’une certaine hauteur (indice acceptable : « musicienne »). B : résultat chiffré ou appréciation d’un travail évalué (indice acceptable : « à son examen »). Réemploi au sens demandé : « Sur son bulletin, Lina a reçu une note élevée en lecture. » Autres phrases originales de même sens, explicites et naturelles, recevables après examen humain. À rejeter : « La flûte produit une note » est musical, pas une évaluation scolaire.",
+      "criteres": [
+        "S : donner A = son musical d’une certaine hauteur et B = résultat chiffré ou appréciation d’un travail évalué, dans cet ordre, sans confusion.",
+        "I : justifier A par une expression telle que « musicienne » et B par une expression telle que « à son examen », en expliquant les liens au sens.",
+        "R : créer une phrase inédite au sens « résultat d’évaluation », non ambiguë et qui ne recopie aucun énoncé.",
+        "AUT : réponse autonome, sans indice lexical fourni; modalité et aide consignées."
+      ],
+      "feedback": "La flûte produit un son musical; un examen peut donner une note qui indique un résultat. Si le réemploi demeure ambigu, ajoute un élément de contexte sans recopier la phrase source.",
+      "difficulte": "intermediaire",
+      "representation": "texte_deux_phrases_avec_lecture_audio_fidele_possible",
+      "contexte": "musique / école",
+      "indices_attendus": {
+        "A": [
+          "musicienne",
+          "flûte"
+        ],
+        "B": [
+          "à son examen",
+          "obtenu une bonne note"
+        ]
+      },
+      "sens_attendus": {
+        "A": "son musical d’une certaine hauteur",
+        "B": "résultat chiffré ou appréciation d’un travail évalué"
+      },
+      "sens_impose_reemploi": "résultat d’évaluation",
+      "variation_permises": "Texte, sens et réponse-cible FIXES; seule une lecture audio verbatim, la mise en forme accessible ou une réponse orale transcrite fidèlement sont permises. Toute substitution lexicale nécessite nouvelle revue humaine.",
+      "preuve_maitrise": null,
+      "source": "production_originale_qc-pri-fr-011_revue_requise",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-011-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases A et B. Explique le sens de « carte » dans chaque phrase. Cite une expression exacte de A et de B qui justifie chacun de tes choix. Invente ensuite une troisième phrase, différente de A et B, où « carte » signifie « carte de souhaits » et où ce sens est clair.",
+      "stimulus": "A. En randonnée, Jade consulte une carte des sentiers pour trouver le lac.\nB. Pour sa fête, Noé reçoit une carte avec un message gentil.",
+      "reponse_attendue": "A : représentation graphique d’un territoire ou d’un itinéraire (indice acceptable : « en randonnée »). B : carte de souhaits portant un message (indice acceptable : « pour sa fête »). Réemploi au sens demandé : « J’ai écrit « Bonne fête ! » dans une carte pour ma cousine. » Autres phrases originales de même sens, explicites et naturelles, recevables après examen humain. À rejeter : « Je regarde une carte » est ambigu; « une carte des sentiers » est une carte d’orientation.",
+      "criteres": [
+        "S : donner A = représentation graphique d’un territoire ou d’un itinéraire et B = carte de souhaits portant un message, dans cet ordre, sans confusion.",
+        "I : justifier A par une expression telle que « en randonnée » et B par une expression telle que « pour sa fête », en expliquant les liens au sens.",
+        "R : créer une phrase inédite au sens « carte de souhaits », non ambiguë et qui ne recopie aucun énoncé.",
+        "AUT : réponse autonome, sans indice lexical fourni; modalité et aide consignées."
+      ],
+      "feedback": "« Sentiers » renvoie à une carte de lieu; « fête » et « message gentil » renvoient à une carte de souhaits. Si le réemploi demeure ambigu, ajoute un élément de contexte sans recopier la phrase source.",
+      "difficulte": "transfert",
+      "representation": "texte_deux_phrases_avec_lecture_audio_fidele_possible",
+      "contexte": "orientation / célébration",
+      "indices_attendus": {
+        "A": [
+          "en randonnée",
+          "des sentiers"
+        ],
+        "B": [
+          "pour sa fête",
+          "message gentil"
+        ]
+      },
+      "sens_attendus": {
+        "A": "représentation graphique d’un territoire ou d’un itinéraire",
+        "B": "carte de souhaits portant un message"
+      },
+      "sens_impose_reemploi": "carte de souhaits",
+      "variation_permises": "Texte, sens et réponse-cible FIXES; seule une lecture audio verbatim, la mise en forme accessible ou une réponse orale transcrite fidèlement sont permises. Toute substitution lexicale nécessite nouvelle revue humaine.",
+      "preuve_maitrise": "A",
+      "source": "production_originale_qc-pri-fr-011_revue_requise",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-011-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases A et B. Explique le sens de « courant » dans chaque phrase. Cite une expression exacte de A et de B qui justifie chacun de tes choix. Invente ensuite une troisième phrase, différente de A et B, où « courant » signifie « électricité » et où ce sens est clair.",
+      "stimulus": "A. Le courant de la rivière entraîne quelques feuilles vers l’aval.\nB. Le courant fait fonctionner la lampe du bureau.",
+      "reponse_attendue": "A : mouvement de l’eau dans une direction (indice acceptable : « de la rivière »). B : circulation d’électricité qui alimente un appareil (indice acceptable : « fait fonctionner la lampe »). Réemploi au sens demandé : « Le courant alimente le ventilateur dans la salle. » Autres phrases originales de même sens, explicites et naturelles, recevables après examen humain. À rejeter : « Le courant emporte les feuilles » parle de l’eau et ne prouve pas le sens électrique.",
+      "criteres": [
+        "S : donner A = mouvement de l’eau dans une direction et B = circulation d’électricité qui alimente un appareil, dans cet ordre, sans confusion.",
+        "I : justifier A par une expression telle que « de la rivière » et B par une expression telle que « fait fonctionner la lampe », en expliquant les liens au sens.",
+        "R : créer une phrase inédite au sens « électricité », non ambiguë et qui ne recopie aucun énoncé.",
+        "AUT : réponse autonome, sans indice lexical fourni; modalité et aide consignées."
+      ],
+      "feedback": "« Rivière » et « vers l’aval » indiquent l’eau en mouvement; « fait fonctionner la lampe » indique l’alimentation électrique. Si le réemploi demeure ambigu, ajoute un élément de contexte sans recopier la phrase source.",
+      "difficulte": "transfert",
+      "representation": "texte_deux_phrases_avec_lecture_audio_fidele_possible",
+      "contexte": "rivière / énergie",
+      "indices_attendus": {
+        "A": [
+          "de la rivière",
+          "entraîne quelques feuilles"
+        ],
+        "B": [
+          "fait fonctionner la lampe",
+          "du bureau"
+        ]
+      },
+      "sens_attendus": {
+        "A": "mouvement de l’eau dans une direction",
+        "B": "circulation d’électricité qui alimente un appareil"
+      },
+      "sens_impose_reemploi": "électricité",
+      "variation_permises": "Texte, sens et réponse-cible FIXES; seule une lecture audio verbatim, la mise en forme accessible ou une réponse orale transcrite fidèlement sont permises. Toute substitution lexicale nécessite nouvelle revue humaine.",
+      "preuve_maitrise": "B",
+      "source": "production_originale_qc-pri-fr-011_revue_requise",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-011-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases A et B. Explique le sens de « volume » dans chaque phrase. Cite une expression exacte de A et de B qui justifie chacun de tes choix. Invente ensuite une troisième phrase, différente de A et B, où « volume » signifie « niveau sonore » et où ce sens est clair.",
+      "stimulus": "A. À la bibliothèque, j’ai emprunté le deuxième volume de la série.\nB. Dans la salle de lecture, on baisse le volume de la tablette pour ne pas déranger.",
+      "reponse_attendue": "A : tome ou ouvrage constituant une partie de la série (indice acceptable : « deuxième »). B : intensité ou niveau du son (indice acceptable : « on baisse »). Réemploi au sens demandé : « J’ai diminué le volume de la radio pendant la lecture. » Autres phrases originales de même sens, explicites et naturelles, recevables après examen humain. À rejeter : « Un gros volume » ne suffit pas à distinguer livre et intensité; « deuxième volume de la série » désigne un tome.",
+      "criteres": [
+        "S : donner A = tome ou ouvrage constituant une partie de la série et B = intensité ou niveau du son, dans cet ordre, sans confusion.",
+        "I : justifier A par une expression telle que « deuxième » et B par une expression telle que « on baisse », en expliquant les liens au sens.",
+        "R : créer une phrase inédite au sens « niveau sonore », non ambiguë et qui ne recopie aucun énoncé.",
+        "AUT : réponse autonome, sans indice lexical fourni; modalité et aide consignées."
+      ],
+      "feedback": "Un tome peut être le « deuxième volume » d’une série; baisser le volume d’une tablette concerne le niveau du son. Si le réemploi demeure ambigu, ajoute un élément de contexte sans recopier la phrase source.",
+      "difficulte": "transfert",
+      "representation": "texte_deux_phrases_avec_lecture_audio_fidele_possible",
+      "contexte": "bibliothèque / sons",
+      "indices_attendus": {
+        "A": [
+          "deuxième",
+          "de la série"
+        ],
+        "B": [
+          "on baisse",
+          "ne pas déranger"
+        ]
+      },
+      "sens_attendus": {
+        "A": "tome ou ouvrage constituant une partie de la série",
+        "B": "intensité ou niveau du son"
+      },
+      "sens_impose_reemploi": "niveau sonore",
+      "variation_permises": "Texte, sens et réponse-cible FIXES; seule une lecture audio verbatim, la mise en forme accessible ou une réponse orale transcrite fidèlement sont permises. Toute substitution lexicale nécessite nouvelle revue humaine.",
+      "preuve_maitrise": null,
+      "source": "production_originale_qc-pri-fr-011_revue_requise",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-011-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases A et B. Explique le sens de « pile » dans chaque phrase. Cite une expression exacte de A et de B qui justifie chacun de tes choix. Invente ensuite une troisième phrase, différente de A et B, où « pile » signifie « source d’énergie électrique » et où ce sens est clair.",
+      "stimulus": "A. Une pile de cahiers est posée au milieu de la table de l’atelier.\nB. La pile fournit l’énergie nécessaire à la petite lampe de poche.",
+      "reponse_attendue": "A : ensemble d’objets superposés (indice acceptable : « de cahiers »). B : élément qui fournit de l’énergie électrique à un appareil (indice acceptable : « fournit l’énergie »). Réemploi au sens demandé : « La pile de ma télécommande est usée et doit être changée. » Autres phrases originales de même sens, explicites et naturelles, recevables après examen humain. À rejeter : « Une pile de jouets » est un tas; elle ne désigne pas une source électrique.",
+      "criteres": [
+        "S : donner A = ensemble d’objets superposés et B = élément qui fournit de l’énergie électrique à un appareil, dans cet ordre, sans confusion.",
+        "I : justifier A par une expression telle que « de cahiers » et B par une expression telle que « fournit l’énergie », en expliquant les liens au sens.",
+        "R : créer une phrase inédite au sens « source d’énergie électrique », non ambiguë et qui ne recopie aucun énoncé.",
+        "AUT : réponse autonome, sans indice lexical fourni; modalité et aide consignées."
+      ],
+      "feedback": "« De cahiers » indique une pile d’objets; « fournit l’énergie » à une lampe indique un élément électrique. Si le réemploi demeure ambigu, ajoute un élément de contexte sans recopier la phrase source.",
+      "difficulte": "transfert",
+      "representation": "texte_deux_phrases_avec_lecture_audio_fidele_possible",
+      "contexte": "atelier / lampe",
+      "indices_attendus": {
+        "A": [
+          "de cahiers",
+          "posée au milieu de la table"
+        ],
+        "B": [
+          "fournit l’énergie",
+          "lampe de poche"
+        ]
+      },
+      "sens_attendus": {
+        "A": "ensemble d’objets superposés",
+        "B": "élément qui fournit de l’énergie électrique à un appareil"
+      },
+      "sens_impose_reemploi": "source d’énergie électrique",
+      "variation_permises": "Texte, sens et réponse-cible FIXES; seule une lecture audio verbatim, la mise en forme accessible ou une réponse orale transcrite fidèlement sont permises. Toute substitution lexicale nécessite nouvelle revue humaine.",
+      "preuve_maitrise": null,
+      "source": "production_originale_qc-pri-fr-011_revue_requise",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

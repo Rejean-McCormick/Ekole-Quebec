@@ -1,0 +1,102 @@
+{
+  "format": "ekole.kristal-atelier-v12/1.0",
+  "kristal_id": "qc-pri-ma-012",
+  "source_immutable": {
+    "file": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Représenter une fraction comme partie d’un tout ou d’une collection.",
+    "preuve_attendue": "Produire trois représentations correctes d’une même fraction simple."
+  },
+  "statut": "prototype_revue_pedagogique_requise",
+  "micro_mondes": [
+    {
+      "id": "fractions-2-5-multisupport",
+      "kristal_id": "qc-pri-ma-012",
+      "type": "representations",
+      "title": "La même fraction, trois supports",
+      "instruction": "Montre 2 parts sur 5 sur une surface, une bande et une collection en groupes égaux.",
+      "parameters": {
+        "parts": 5,
+        "chosen": 2,
+        "group_size": 2
+      },
+      "objective_id": "obj-1",
+      "representation": "surface_bande_collection",
+      "diagnostics": [
+        "nombre_de_parts",
+        "tout_non_identifie",
+        "support_manquant"
+      ],
+      "visual_slot": "decouvrir",
+      "format": "ekole.micro-monde/1.0",
+      "evaluation": "entrainement_non_certifiant",
+      "source_review": "revue_requise",
+      "premisse": "Scénario d’entraînement original aligné sur un objectif source; ne constitue pas une évaluation officielle.",
+      "prompt_visuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « La même fraction, trois supports ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif.",
+      "image_path": "experience/images/fractions-2-5-multisupport.webp"
+    },
+    {
+      "id": "fractions-3-4-multisupport",
+      "kristal_id": "qc-pri-ma-012",
+      "type": "representations",
+      "title": "Trois quarts autrement",
+      "instruction": "Représente trois quarts sur trois supports différents.",
+      "parameters": {
+        "parts": 4,
+        "chosen": 3,
+        "group_size": 3
+      },
+      "objective_id": "obj-1",
+      "representation": "surface_bande_collection",
+      "diagnostics": [
+        "nombre_de_parts",
+        "support_manquant"
+      ],
+      "visual_slot": "essayer",
+      "format": "ekole.micro-monde/1.0",
+      "evaluation": "entrainement_non_certifiant",
+      "source_review": "revue_requise",
+      "premisse": "Scénario d’entraînement original aligné sur un objectif source; ne constitue pas une évaluation officielle.",
+      "prompt_visuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Trois quarts autrement ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif.",
+      "image_path": "experience/images/fractions-3-4-multisupport.webp"
+    }
+  ],
+  "evaluation_et_decision": {
+    "entrainement_ne_certifie_jamais": true,
+    "preuver_source_requise": true,
+    "validation_ouverte": "revue_humaine",
+    "aide_consigne_apres_erreur": "indices_degressifs"
+  },
+  "teacher_review": {
+    "puiser_dans_modules": [
+      "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "experience/SCENARIO_APPRENTISSAGE.json"
+    ],
+    "axes": [
+      "exactitude_du_concept",
+      "qualite_des_erreurs",
+      "pertinence_de_la_retroaction",
+      "accessibilite_des_actions",
+      "transfert_de_contexte"
+    ],
+    "etat": "non_effectue",
+    "observations": ""
+  },
+  "visuels": {
+    "regle": "Concept sans style. Prompt toujours visible si fichier absent.",
+    "etats_evalues": "dessin_deterministe",
+    "assets": [
+      {
+        "scenario_id": "fractions-2-5-multisupport",
+        "fichier_attendu": "experience/images/fractions-2-5-multisupport.webp",
+        "prompt_conceptuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « La même fraction, trois supports ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif."
+      },
+      {
+        "scenario_id": "fractions-3-4-multisupport",
+        "fichier_attendu": "experience/images/fractions-3-4-multisupport.webp",
+        "prompt_conceptuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Trois quarts autrement ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif."
+      }
+    ]
+  },
+  "source_curation": "Atelier nouveau; aucune réécriture non validée des items et preuves d’origine."
+}

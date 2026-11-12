@@ -1,0 +1,99 @@
+{
+  "format": "ekole.kristal-atelier-v12/1.0",
+  "kristal_id": "qc-pri-ma-009",
+  "source_immutable": {
+    "file": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Représenter le partage et le groupement pour résoudre des divisions.",
+    "preuve_attendue": "Effectuer un partage justifié et vérifier quotient et reste."
+  },
+  "statut": "prototype_revue_pedagogique_requise",
+  "micro_mondes": [
+    {
+      "id": "division-partage-14-3",
+      "kristal_id": "qc-pri-ma-009",
+      "type": "repartition",
+      "title": "Le partage avec un reste",
+      "instruction": "Partage 14 jetons entre 3 boîtes. Chaque boîte doit en avoir autant; certains jetons peuvent rester.",
+      "parameters": {
+        "total": 14,
+        "bins": 3
+      },
+      "objective_id": "obj-1",
+      "representation": "repartition_avec_reste",
+      "diagnostics": [
+        "partage_inegal",
+        "reste_incorrect"
+      ],
+      "visual_slot": "essayer",
+      "format": "ekole.micro-monde/1.0",
+      "evaluation": "entrainement_non_certifiant",
+      "source_review": "revue_requise",
+      "premisse": "Scénario d’entraînement original aligné sur un objectif source; ne constitue pas une évaluation officielle.",
+      "prompt_visuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Le partage avec un reste ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif.",
+      "image_path": "experience/images/division-partage-14-3.webp"
+    },
+    {
+      "id": "division-groupement-12-4",
+      "kristal_id": "qc-pri-ma-009",
+      "type": "repartition",
+      "title": "Partager et vérifier",
+      "instruction": "Répartis 12 jetons dans 4 groupes équitables. Vérifie qu’il ne reste rien.",
+      "parameters": {
+        "total": 12,
+        "bins": 4
+      },
+      "objective_id": "obj-1",
+      "representation": "repartition_sans_reste",
+      "diagnostics": [
+        "partage_inegal",
+        "reste_incorrect"
+      ],
+      "visual_slot": "explorer",
+      "format": "ekole.micro-monde/1.0",
+      "evaluation": "entrainement_non_certifiant",
+      "source_review": "revue_requise",
+      "premisse": "Scénario d’entraînement original aligné sur un objectif source; ne constitue pas une évaluation officielle.",
+      "prompt_visuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Partager et vérifier ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif.",
+      "image_path": "experience/images/division-groupement-12-4.webp"
+    }
+  ],
+  "evaluation_et_decision": {
+    "entrainement_ne_certifie_jamais": true,
+    "preuver_source_requise": true,
+    "validation_ouverte": "revue_humaine",
+    "aide_consigne_apres_erreur": "indices_degressifs"
+  },
+  "teacher_review": {
+    "puiser_dans_modules": [
+      "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "experience/SCENARIO_APPRENTISSAGE.json"
+    ],
+    "axes": [
+      "exactitude_du_concept",
+      "qualite_des_erreurs",
+      "pertinence_de_la_retroaction",
+      "accessibilite_des_actions",
+      "transfert_de_contexte"
+    ],
+    "etat": "non_effectue",
+    "observations": ""
+  },
+  "visuels": {
+    "regle": "Concept sans style. Prompt toujours visible si fichier absent.",
+    "etats_evalues": "dessin_deterministe",
+    "assets": [
+      {
+        "scenario_id": "division-partage-14-3",
+        "fichier_attendu": "experience/images/division-partage-14-3.webp",
+        "prompt_conceptuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Le partage avec un reste ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif."
+      },
+      {
+        "scenario_id": "division-groupement-12-4",
+        "fichier_attendu": "experience/images/division-groupement-12-4.webp",
+        "prompt_conceptuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Partager et vérifier ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif."
+      }
+    ]
+  },
+  "source_curation": "Atelier nouveau; aucune réécriture non validée des items et preuves d’origine."
+}

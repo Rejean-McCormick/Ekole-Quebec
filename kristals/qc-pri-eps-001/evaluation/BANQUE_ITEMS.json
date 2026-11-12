@@ -1,0 +1,426 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-eps-001",
+  "family_id": "qc-pri-eps-001-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-eps-001-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Désigne le coude et la main sur la silhouette, puis sur ton propre corps si tu le souhaites. Explique lequel est un segment de l’extrémité du bras et lequel sert de repère d’articulation.",
+      "stimulus": "Silhouette originale de face : épaule, coude et main identifiés par les lettres A (épaule), B (coude), C (main).",
+      "reponse_attendue": "Montrer B comme coude, C comme main; expliquer « le coude sert de repère entre bras et avant-bras; la main est à son extrémité ». Pictogrammes/pointage acceptés.",
+      "criteres": [
+        "Localise le coude B et la main C sans confusion.",
+        "Distingue articulation de segment; une description ou un pointage interprétable suffit.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Si la main est prise pour le coude, demander où le bras plie sur la silhouette; reprendre ensuite une autre silhouette non identique.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "fixe",
+      "consigne": "À l’aide de deux images successives, indique quel segment a changé de place et nomme un départ et une arrivée. Fais un petit geste volontaire équivalent si possible en sécurité.",
+      "stimulus": "Image 1 : avant-bras près de la table; image 2 : main un peu plus près de la fiche. Aucune autre partie décrite comme changeante.",
+      "reponse_attendue": "Le déplacement implique l’avant-bras et la main; départ près de la table, arrivée près de la fiche; petit mouvement volontaire accessible si l’on veut juger la coordination.",
+      "criteres": [
+        "Identifie le segment actif cohérent avec les deux images.",
+        "Repère correctement le début et la fin; coordination motrice observée séparément.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Si l’élève ne décrit que « ça bouge », fournir après l’essai deux cartes « avant » et « après » puis recommencer avec une image neuve.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Choisis assis avec soutien ou debout avec appui si cela convient; nomme un appui et explique comment tu peux être stable avant un mouvement doux de la main.",
+      "stimulus": "Deux postures illustrées sans jugement : tronc soutenu dans une chaise, personne avec appui sur un support immobile.",
+      "reponse_attendue": "Choisir une posture accessible, nommer le support ou l’appui, et effectuer un geste court sans perte de contrôle; plusieurs postures sont également valides.",
+      "criteres": [
+        "Posture et appui cohérents avec la sécurité de la personne.",
+        "Choix décrit sans classer une silhouette corporelle comme « meilleure ».",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Si le choix est imposé par mimétisme, demander de montrer le repère de stabilité plutôt que de reproduire l’adulte.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "fixe",
+      "consigne": "L’adulte est face à toi. Identifie ton côté gauche à toi, puis explique pourquoi il ne se trouve pas forcément du même côté de l’image que le sien.",
+      "stimulus": "Deux silhouettes face à face, chacune étiquetée « mon corps »; autoriser deux étiquettes de côté sur soi.",
+      "reponse_attendue": "L’élève localise son propre côté gauche (ou son repère corporel équivalent si aménagement documenté) et signale l’inversion de perspective lorsqu’on regarde l’autre de face.",
+      "criteres": [
+        "Repère le côté sur son corps sans déduire une main dominante.",
+        "Explique ou illustre l’effet miroir sans critère de vitesse.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "En cas de confusion miroir, placer les deux silhouettes côte à côte, puis réessayer sur un nouveau dessin.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Exécute à ton rythme un petit trajet entre les repères « nuage » et « étoile », puis indique quel segment a bougé et où il s’est arrêté.",
+      "stimulus": "Planche stable avec nuage et étoile proches et accessibles; option avant-bras soutenu ou segment accessible équivalent.",
+      "reponse_attendue": "Mouvement volontaire ciblé, court et contrôlé de nuage à étoile, segment précisé (p. ex. avant-bras guidant la main) et arrivée étoile indiquée.",
+      "criteres": [
+        "Segment pertinent choisi et identifié de façon autonome.",
+        "Départ nuage et arrivée étoile décrits ou désignés.",
+        "Mouvement volontaire sûr observé et non forcé.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Si l’arrivée est correcte mais le segment non reconnu, afficher la silhouette des parties après l’essai et recommencer sur d’autres symboles.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Observe deux déplacements : un geste très ample sans description et un petit geste avec trajet décrit. Explique lequel atteste l’objectif, puis réalise une version courte adaptée.",
+      "stimulus": "Fiche originale : scénario A « très grand geste mais aucun segment ni trajet identifié »; scénario B « geste confortable, segment et début/fin identifiés ».",
+      "reponse_attendue": "Choisir B et justifier : contrôle et deux repères explicites valent mieux que taille ou rapidité du geste; exécuter et décrire sa propre version sûre.",
+      "criteres": [
+        "Justifie B par critères pédagogiques observables, pas par aptitude brute.",
+        "Démontre un petit mouvement ciblé et le décrit.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Si « le plus grand » est choisi, faire reformuler le critère d’apprentissage, puis comparer un nouvel exemple.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans copie du modèle, choisis un segment accessible et un repère de départ, puis déplace doucement ce segment vers le repère « maison ». Décris deux points de repère.",
+      "stimulus": "Point « maison » sur tablette ou support stable; point de départ libre mais visible; adulte aide seulement à placer le matériel.",
+      "reponse_attendue": "Un segment volontairement mobilisé (main/avant-bras ou équivalent), repère de départ choisi et arrivée près de « maison », côté ou articulation expliqué si possible.",
+      "criteres": [
+        "Initiative dans le choix du segment et du départ.",
+        "Départ et arrivée localisables par un observateur.",
+        "Action coordonnée et sécuritaire sans indice de réponse.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Si deux repères manquent, réutiliser le gabarit « d’où → vers où » en remédiation, puis changer de symbole pour l’essai suivant.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Sur une silhouette, dessine ou pointe une articulation et une direction de petit mouvement qui permettrait de rapprocher la main d’un livre. Réalise une version possible pour toi.",
+      "stimulus": "Silhouette assise, livre dessiné près de la main; surface plane et accessible; aucun objet à saisir.",
+      "reponse_attendue": "Désigner un repère plausible (coude/épaule selon geste), indiquer le déplacement de la main vers le livre; accomplir un mouvement volontaire accessible et décrire le changement.",
+      "criteres": [
+        "Articulation choisie cohérente avec le mouvement suggéré.",
+        "Direction vers le livre et repère du départ expliqués.",
+        "Choix d’un geste accessible et contrôlé sans forcer.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Si l’élève propose de tirer le livre sans localiser son corps, recentrer la consigne sur le segment et le trajet, puis nouvel essai.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Choisis ton segment mobile et effectue un geste volontaire de la première marque à la seconde, puis explique le départ, l’arrivée et ton repère corporel. Les aides techniques restent possibles.",
+      "stimulus": "Planche A : spirale et triangle sont deux repères proches sur un pupitre stable. On peut utiliser main/avant-bras soutenu ou un segment accessible.",
+      "reponse_attendue": "Un segment choisi se déplace volontairement de la spirale vers le triangle; l’élève identifie segment, position initiale près de spirale et fin près du triangle, avec un appui sûr.",
+      "criteres": [
+        "Partie du corps identifiée.",
+        "Deux repères situés correctement sans aide décisionnelle.",
+        "Déplacement observable sûr avec posture adaptée.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Si la description du segment est vague, demander une désignation explicite après l’observation, puis refaire une autre variante sans indices.",
+      "difficulte": "transfert",
+      "seed": 2026018,
+      "parametres": {
+        "type_variation": "corpus_ferme",
+        "variables": {
+          "variante_index": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          },
+          "segment_choisi": {
+            "domaine": "segment moteur volontaire accessible à la personne; choix non aléatoire, préalablement approuvé selon les adaptations"
+          }
+        },
+        "algorithme": "i = seed % len(variantes); la consigne et les critères généraux restent fixes; substituer exactement stimulus et reponse_attendue depuis variantes[i].",
+        "contraintes": [
+          "Choix dans cette liste fermée seulement.",
+          "Aucune substitution d une situation non vérifiée ou mise en danger.",
+          "Modalité motrice accessible et aide technique documentées; jamais d indice de réponse."
+        ],
+        "variantes": [
+          {
+            "stimulus": "Planche A : spirale et triangle sont deux repères proches sur un pupitre stable. On peut utiliser main/avant-bras soutenu ou un segment accessible.",
+            "reponse_attendue": "Un segment choisi se déplace volontairement de la spirale vers le triangle; l’élève identifie segment, position initiale près de spirale et fin près du triangle, avec un appui sûr."
+          },
+          {
+            "stimulus": "Planche B : soleil et lune sont deux repères proches sur un support accessible. Aucun contact avec autrui ni vitesse imposée.",
+            "reponse_attendue": "Un segment choisi se déplace volontairement du soleil vers la lune; segment, départ soleil et arrivée lune sont explicités de manière vérifiable."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "seed": 2026018,
+            "index_attendu": 0,
+            "stimulus_attendu": "Planche A : spirale et triangle sont deux repères proches sur un pupitre stable. On peut utiliser main/avant-bras soutenu ou un segment accessible."
+          },
+          {
+            "seed": 2026019,
+            "index_attendu": 1,
+            "stimulus_attendu": "Planche B : soleil et lune sont deux repères proches sur un support accessible. Aucun contact avec autrui ni vitesse imposée."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Analyse le changement de position de la carte, réalise une version accessible à petite amplitude et dis quel segment ou repère d’articulation a été utile.",
+      "stimulus": "Carte « fenêtre » : image montrant le bras près du tronc puis un avant-bras légèrement orienté vers une feuille à portée.",
+      "reponse_attendue": "Nommer/désigner avant-bras et, selon la posture, coude ou épaule comme repère; expliquer départ près du tronc et arrivée orientée vers la feuille; petite version volontaire adaptée.",
+      "criteres": [
+        "Description cohérente de la partie qui bouge.",
+        "Départ et changement de direction identifiés.",
+        "Version volontaire et sûre, sans reproduction mécanique forcée.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Si l’image et le geste ne correspondent pas, revenir à « avant/après » puis transférer sur un nouveau dessin.",
+      "difficulte": "transfert",
+      "seed": 2026020,
+      "parametres": {
+        "type_variation": "corpus_ferme",
+        "variables": {
+          "variante_index": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          },
+          "segment_choisi": {
+            "domaine": "segment moteur volontaire accessible à la personne; choix non aléatoire, préalablement approuvé selon les adaptations"
+          }
+        },
+        "algorithme": "i = seed % len(variantes); la consigne et les critères généraux restent fixes; substituer exactement stimulus et reponse_attendue depuis variantes[i].",
+        "contraintes": [
+          "Choix dans cette liste fermée seulement.",
+          "Aucune substitution d une situation non vérifiée ou mise en danger.",
+          "Modalité motrice accessible et aide technique documentées; jamais d indice de réponse."
+        ],
+        "variantes": [
+          {
+            "stimulus": "Carte « fenêtre » : image montrant le bras près du tronc puis un avant-bras légèrement orienté vers une feuille à portée.",
+            "reponse_attendue": "Nommer/désigner avant-bras et, selon la posture, coude ou épaule comme repère; expliquer départ près du tronc et arrivée orientée vers la feuille; petite version volontaire adaptée."
+          },
+          {
+            "stimulus": "Carte « porte » : image montrant le pied d’une personne assise initialement droit devant puis tourné doucement vers une flèche à portée, uniquement si accessible.",
+            "reponse_attendue": "Nommer/désigner le pied comme segment orienté, montrer le départ devant soi et la direction vers la flèche; si mouvement du pied inaccessible, transposer sur une main/avant-bras sans perte de critères."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "seed": 2026020,
+            "index_attendu": 0,
+            "stimulus_attendu": "Carte « fenêtre » : image montrant le bras près du tronc puis un avant-bras légèrement orienté vers une feuille à portée."
+          },
+          {
+            "seed": 2026021,
+            "index_attendu": 1,
+            "stimulus_attendu": "Carte « porte » : image montrant le pied d’une personne assise initialement droit devant puis tourné doucement vers une flèche à portée, uniquement si accessible."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME A. Réalise un mouvement ciblé entre les deux marques; explique quel segment, d’où et vers où, et un repère de ton corps. Choisis ta posture et ton aide technique habituelles; aucune indication sur la solution.",
+      "stimulus": "PREUVE A — Atelier de repères colorés INÉDIT : deux cartes *orange* et *turquoise*, posées sur une surface accessible et stable, écartées d’une distance choisie comme confortable. Aucun modèle ni carte de l’enseignement n’est montré.",
+      "reponse_attendue": "L’élève choisit et désigne un segment mobilisable, réalise volontairement un mouvement ciblé de la zone orange vers la zone turquoise, indique le début orange et la fin turquoise ainsi qu’un repère corporel (côté ou articulation). Une autre amplitude/partie convenue est acceptable; l’adulte ne souffle pas la réponse.",
+      "criteres": [
+        "C1 segment et repère corporel corrects (côté/articulation) observables ou désignables.",
+        "C2 mouvement volontaire ciblé, contrôlé et sûr, avec adaptation stable autorisée.",
+        "C3 deux positions distinctes et correctes décrites.",
+        "C4 autonomie de décision : aucun modelage ni indice sur segment/trajet après début.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Décrire précisément l’élément manquant; si preuve incomplète, remédier hors situation de certification interne et utiliser plus tard la variante non déjà vue.",
+      "difficulte": "transfert",
+      "seed": 2026022,
+      "parametres": {
+        "type_variation": "corpus_ferme",
+        "variables": {
+          "variante_index": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          },
+          "segment_choisi": {
+            "domaine": "segment moteur volontaire accessible à la personne; choix non aléatoire, préalablement approuvé selon les adaptations"
+          }
+        },
+        "algorithme": "i = seed % len(variantes); la consigne et les critères généraux restent fixes; substituer exactement stimulus et reponse_attendue depuis variantes[i].",
+        "contraintes": [
+          "Choix dans cette liste fermée seulement.",
+          "Aucune substitution d une situation non vérifiée ou mise en danger.",
+          "Modalité motrice accessible et aide technique documentées; jamais d indice de réponse."
+        ],
+        "variantes": [
+          {
+            "stimulus": "PREUVE A — Atelier de repères colorés INÉDIT : deux cartes *orange* et *turquoise*, posées sur une surface accessible et stable, écartées d’une distance choisie comme confortable. Aucun modèle ni carte de l’enseignement n’est montré.",
+            "reponse_attendue": "L’élève choisit et désigne un segment mobilisable, réalise volontairement un mouvement ciblé de la zone orange vers la zone turquoise, indique le début orange et la fin turquoise ainsi qu’un repère corporel (côté ou articulation). Une autre amplitude/partie convenue est acceptable; l’adulte ne souffle pas la réponse."
+          },
+          {
+            "stimulus": "PREUVE A — Atelier de repères colorés INÉDIT : deux cartes *violet* et *beige*, disposées à faible distance, sur support stable avec adaptation identique.",
+            "reponse_attendue": "L’élève choisit et désigne un segment mobilisable, effectue volontairement un geste de violet vers beige, précise départ violet, arrivée beige et côté/articulation du segment choisi; aide seulement à l’installation."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "seed": 2026022,
+            "index_attendu": 0,
+            "stimulus_attendu": "PREUVE A — Atelier de repères colorés INÉDIT : deux cartes *orange* et *turquoise*, posées sur une surface accessible et stable, écartées d’une distance choisie comme confortable. Aucun modèle ni carte de l’enseignement n’est montré."
+          },
+          {
+            "seed": 2026023,
+            "index_attendu": 1,
+            "stimulus_attendu": "PREUVE A — Atelier de repères colorés INÉDIT : deux cartes *violet* et *beige*, disposées à faible distance, sur support stable avec adaptation identique."
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "preuve-A-atelier-reperes"
+    },
+    {
+      "item_id": "qc-pri-eps-001-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME B, lors d’un autre moment ou après changement complet de poste. Lis/écoute la carte, choisis un segment accessible, réalise une action courte suivant les deux symboles et explique ton choix de segment et deux repères.",
+      "stimulus": "PREUVE B — Poste de cartographie gestuelle INÉDIT : une carte originale montre un symbole *pont* puis une icône *rive*, et une flèche courte entre eux. Support de communication accessible, aucune pastille colorée du poste A.",
+      "reponse_attendue": "À partir du nouveau schéma, l’élève désigne un segment choisi et réalise un petit mouvement correspondant au trajet pont → rive; décrit les deux positions et un repère corporel, en utilisant une posture sûre et sans aide décisionnelle.",
+      "criteres": [
+        "C1 partie du corps ciblée et repère corporel justes.",
+        "C2 mouvement volontaire coordonné et sûr, non performance de force ou vitesse.",
+        "C3 deux repères de la carte correctement transposés au mouvement.",
+        "C4 autonomie décisionnelle maintenue avec outils de communication et soutien logistique autorisés.",
+        "Sécurité observée : espace stable et dégagé, posture et amplitude confortables, arrêt en cas de douleur; aucune comparaison corporelle."
+      ],
+      "feedback": "Si la carte est interprétée mais le geste non observé, documenter « preuve motrice non recueillie » et rechercher une modalité motrice accessible; retester sur scénario non enseigné.",
+      "difficulte": "transfert",
+      "seed": 2026024,
+      "parametres": {
+        "type_variation": "corpus_ferme",
+        "variables": {
+          "variante_index": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          },
+          "segment_choisi": {
+            "domaine": "segment moteur volontaire accessible à la personne; choix non aléatoire, préalablement approuvé selon les adaptations"
+          }
+        },
+        "algorithme": "i = seed % len(variantes); la consigne et les critères généraux restent fixes; substituer exactement stimulus et reponse_attendue depuis variantes[i].",
+        "contraintes": [
+          "Choix dans cette liste fermée seulement.",
+          "Aucune substitution d une situation non vérifiée ou mise en danger.",
+          "Modalité motrice accessible et aide technique documentées; jamais d indice de réponse."
+        ],
+        "variantes": [
+          {
+            "stimulus": "PREUVE B — Poste de cartographie gestuelle INÉDIT : une carte originale montre un symbole *pont* puis une icône *rive*, et une flèche courte entre eux. Support de communication accessible, aucune pastille colorée du poste A.",
+            "reponse_attendue": "À partir du nouveau schéma, l’élève désigne un segment choisi et réalise un petit mouvement correspondant au trajet pont → rive; décrit les deux positions et un repère corporel, en utilisant une posture sûre et sans aide décisionnelle."
+          },
+          {
+            "stimulus": "PREUVE B — Poste de cartographie gestuelle INÉDIT : une carte originale montre un symbole *colline* puis *sentier* et une flèche courte; aucun geste n’est démontré.",
+            "reponse_attendue": "L’élève effectue avec son segment choisi un mouvement volontaire correspondant à colline → sentier, identifie le segment, le départ et l’arrivée, ajoute côté ou articulation et explique la posture adaptée."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "seed": 2026024,
+            "index_attendu": 0,
+            "stimulus_attendu": "PREUVE B — Poste de cartographie gestuelle INÉDIT : une carte originale montre un symbole *pont* puis une icône *rive*, et une flèche courte entre eux. Support de communication accessible, aucune pastille colorée du poste A."
+          },
+          {
+            "seed": 2026025,
+            "index_attendu": 1,
+            "stimulus_attendu": "PREUVE B — Poste de cartographie gestuelle INÉDIT : une carte originale montre un symbole *colline* puis *sentier* et une flèche courte; aucun geste n’est démontré."
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "preuve-B-carte-gestuelle"
+    }
+  ]
+}

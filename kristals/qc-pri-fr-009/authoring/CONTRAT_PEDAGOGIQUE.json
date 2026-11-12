@@ -1,0 +1,83 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Extraire, organiser et reformuler les informations principales d’un texte documentaire.",
+  "concepts": [
+    "titre",
+    "sous-titres",
+    "idées principales",
+    "faits"
+  ],
+  "preuve_attendue": "Créer une synthèse courte distinguant informations principales et secondaires.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-005"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-009-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Créer une synthèse courte distinguant informations principales et secondaires.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Textes et corrigés entièrement fixés dans BANQUE_ITEMS.json; aucune substitution libre. Ajuster seulement la présentation accessible sans modifier les faits.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-fr-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Créer une synthèse courte distinguant informations principales et secondaires.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte documentaire court avec titre/sous-titres",
+        "tableau d’idées et de faits",
+        "synthèse écrite ou dictée avec justification"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "catalogue": "10 textes originaux contrôlés dans evaluation/BANQUE_ITEMS.json",
+        "generation_automatique": false
+      },
+      "contraintes": [
+        "thème et informations présents explicitement dans le stimulus",
+        "un titre et au moins deux sections dans les preuves de maîtrise",
+        "synthèse originale de 3 à 5 phrases",
+        "distinguer informations principales/secondaires et citer indices du document",
+        "aucune connaissance externe nécessaire",
+        "aides à l’écriture non directives permises et notées",
+        "deux contextes différents et autonomie sans indices de fond"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "axes": [
+          "idees_principales_exactes",
+          "tri_secondaire_justifie",
+          "faits_attribues_au_texte",
+          "reformulation_structuree",
+          "autonomie"
+        ],
+        "seuil": "sur chacune des deux preuves, axes fondamentaux 1 à 4 au niveau 2 et autonomie sans indice de contenu; pas une note unique"
+      },
+      "source": [
+        "archive maître v1.2 : contrats, graphe et authoring originaux",
+        "sources/REFERENCES_CONTENU.md",
+        "corpus original de cette livraison"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

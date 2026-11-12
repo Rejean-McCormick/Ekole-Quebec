@@ -1,0 +1,84 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Caractériser un territoire par ses ressources et les usages humains observables.",
+  "concepts": [
+    "relief",
+    "climat",
+    "ressources",
+    "occupation"
+  ],
+  "preuve_attendue": "Produire une carte annotée reliant ressources et activités.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-us-002"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-003-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Produire une carte annotée reliant ressources et activités.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "variations_effectives": "Sélection figée par item de fiches fictives intégrales et corrigés correspondants; aucune génération IA libre et aucun tirage pseudoaléatoire. seed=1203003 conservée comme identifiant de version, pas comme hasard."
+      },
+      "review_status": "redige_a_revoir",
+      "kristal_id": "qc-pri-us-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "grille_cartographique_3x3",
+        "fiche_de_sources_datee",
+        "legende",
+        "annotation_ressource_activite_preuve",
+        "description_orale_equivalente"
+      ],
+      "variables": {
+        "modele": "catalogue_ferme_de_scenarios_fictifs",
+        "catalogue_ids": [
+          "sources-fixes-01",
+          "cartographie-01",
+          "maitrise-val-des-saules",
+          "maitrise-port-aux-roches"
+        ],
+        "selection": "q-007 -> maitrise-val-des-saules; q-008 -> maitrise-port-aux-roches; autres stimuli fixes inscrits dans chaque item; aucune génération aléatoire",
+        "variations": [
+          "taille_de_police",
+          "oralisation_de_fiche",
+          "support_tactile",
+          "synonymes_usuels_des_justifications_sans_modifier_faits"
+        ]
+      },
+      "contraintes": [
+        "sources fictives identifiées comme telles",
+        "valider la case et l’activité par une source fournie",
+        "deux preuves distinctes non enseignées",
+        "aucune inférence d’usage sur la présence seule d’une ressource",
+        "cartes avec nord, cases, légende, preuve",
+        "interdire la création libre de faits, coordonnées ou corrigés",
+        "accessibilité sans couleur seule",
+        "aucune donnée personnelle ou stéréotype culturel"
+      ],
+      "barreme_ou_rubrique": "Grille critériée 4 dimensions × 0–3; chacune au moins 2/3 par contexte, avec deux performances autonomes et aucune invention factuelle persistante; voir evaluation/GRILLE_MAITRISE.md",
+      "source": "Matériel pédagogique original fictif, dossiers datés dans evaluation/BANQUE_ITEMS.json; fondements documentés sources/REFERENCES_CONTENU.md",
+      "seed": 1203003,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

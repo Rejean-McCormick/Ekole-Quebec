@@ -1,0 +1,168 @@
+{
+  "format": "ekole.activity/1",
+  "id": "semis-a-comparer",
+  "revision": 1,
+  "status": "local_demo",
+  "model": "questions",
+  "course": {
+    "id": "qc-pri-st-001",
+    "objective": "obj-1",
+    "sha256": "sha256:352ce61352c9c9689448aa75f04f152ba1896a2c8a4416af29378e4991ab0783"
+  },
+  "scenario": {
+    "id": "semis-a-comparer",
+    "version": "1.0.0",
+    "step": "essai",
+    "sha256": "sha256:a16dd2ca605caf7186f11fa73767c2f32a421eddeb2611f544a72d5ec3c377fd"
+  },
+  "trame": "semis-compare",
+  "tasks": {
+    "pratique": {
+      "items": [
+        {
+          "id": "choisir",
+          "kind": "multiple_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "a",
+            "b"
+          ]
+        }
+      ]
+    },
+    "bilan": {
+      "items": [
+        {
+          "id": "choisir",
+          "kind": "multiple_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": "justifier",
+          "kind": "rubric",
+          "criteria": {
+            "raison": 1
+          }
+        }
+      ]
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "correct": "Tes choix correspondent à la question.",
+      "incorrect": "Relis la consigne et distingue ce qu’on mesure de ce qu’on suppose.",
+      "next": "Nomme la mesure que tu utiliserais.",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "review": "La justification sera lue par une personne.",
+      "subtitle": "Sciences · observation et question testable",
+      "heading": "Préparer une comparaison",
+      "objective": "Distingue un constat d’une explication et formule une question testable.",
+      "prerequisite": "Décrire une chose visible ou mesurable.",
+      "context": "Deux pots ont été arrosés de la même façon. Après cinq jours, le semis A mesure 4 cm et le semis B mesure 7 cm.",
+      "group": "Relève les mesures avant de proposer une explication.",
+      "compare": "Cherche une question à laquelle des mesures permettraient de répondre.",
+      "reflection": "Que garderais-tu pareil si tu voulais comparer deux quantités de lumière ?",
+      "transfer": "Tu veux savoir si la quantité de lumière change la croissance des semis. Tu as deux pots semblables et une règle.",
+      "title": "Les semis à comparer",
+      "questions": {
+        "pratique": {
+          "choisir": {
+            "prompt": "Coche toutes les observations.",
+            "options": {
+              "a": "Le semis A mesure 4 cm.",
+              "b": "Le semis B mesure 7 cm.",
+              "c": "Le semis B a grandi grâce à la lumière."
+            }
+          }
+        },
+        "bilan": {
+          "choisir": {
+            "prompt": "Coche les décisions utiles pour tester l’effet de la lumière.",
+            "options": {
+              "a": "Donner la même quantité d’eau aux deux pots.",
+              "b": "Mesurer les deux semis aux mêmes moments.",
+              "c": "Changer aussi la quantité d’eau entre les deux pots."
+            }
+          },
+          "justifier": {
+            "prompt": "Écris une question testable avec ces pots.",
+            "criteria": {
+              "raison": "La question indique ce qu’on compare et une mesure observable, comme la hauteur."
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "limits": "Local demonstration activity for review before classroom use.",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "correct": "Your choices match the question.",
+      "incorrect": "Read the question again and distinguish measurements from explanations.",
+      "next": "Name the measurement you would use.",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "review": "Someone will review your explanation.",
+      "subtitle": "Science · observations and testable questions",
+      "heading": "Plan a comparison",
+      "objective": "Distinguish an observation from an explanation and ask a testable question.",
+      "prerequisite": "Describe something you can see or measure.",
+      "context": "Two pots received the same amount of water. After five days, seedling A is 4 cm tall and seedling B is 7 cm tall.",
+      "group": "Record the measurements before offering an explanation.",
+      "compare": "Find a question that measurements could answer.",
+      "reflection": "What would you keep the same when comparing two amounts of light?",
+      "transfer": "You want to know if the amount of light affects seedling growth. You have two similar pots and a ruler.",
+      "title": "Comparing seedlings",
+      "questions": {
+        "pratique": {
+          "choisir": {
+            "prompt": "Select all the observations.",
+            "options": {
+              "a": "Seedling A is 4 cm tall.",
+              "b": "Seedling B is 7 cm tall.",
+              "c": "Seedling B grew because of the light."
+            }
+          }
+        },
+        "bilan": {
+          "choisir": {
+            "prompt": "Select the useful choices for testing the effect of light.",
+            "options": {
+              "a": "Give both pots the same amount of water.",
+              "b": "Measure both seedlings at the same times.",
+              "c": "Also change the amount of water between the pots."
+            }
+          },
+          "justifier": {
+            "prompt": "Write a testable question using the pots.",
+            "criteria": {
+              "raison": "The question names the comparison and an observable measurement such as height."
+            }
+          }
+        }
+      }
+    }
+  }
+}

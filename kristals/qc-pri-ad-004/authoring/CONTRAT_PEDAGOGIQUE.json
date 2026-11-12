@@ -1,0 +1,147 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ad-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Construire une brève séquence dramatique comportant une évolution.",
+  "concepts": [
+    "début",
+    "enjeu",
+    "action",
+    "fin"
+  ],
+  "preuve_attendue": "Jouer une séquence originale avec progression intelligible.",
+  "prerequis_bloquants": [
+    "qc-pri-ad-003"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ad-004-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Jouer une séquence originale avec progression intelligible.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ad-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Jouer une séquence originale avec progression intelligible.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "jeu_corporel_sans_contact",
+        "jeu_de_table",
+        "marionnette",
+        "voix_et_objets",
+        "plan_en_quatre_cases_preparatoire"
+      ],
+      "variables": {
+        "mode_variation": "corpus_ferme_controle",
+        "axes": [
+          "support_de_jeu",
+          "role_fictif",
+          "accessoire_carton"
+        ],
+        "valeurs_admissibles": {
+          "support_de_jeu": [
+            "figurines de carton",
+            "jeu gestuel assis",
+            "théâtre de table avec objets",
+            "marionnettes en papier"
+          ],
+          "role_fictif": [
+            "gardien fictif",
+            "explorateur fictif",
+            "présentateur fictif"
+          ],
+          "accessoire_carton": [
+            "étiquette",
+            "boîte",
+            "panneau"
+          ]
+        },
+        "tirage_aleatoire": false
+      },
+      "contraintes": [
+        "Conserver un début, un enjeu, une action causale et une fin évolutive joués et intelligibles.",
+        "Scénarios fictifs non violents et sans devoir raconter la vie privée.",
+        "Aucun contact physique imposé, aucune vitesse/force/aisance sociale notée.",
+        "Les changements d’accessoire et de modalité ne modifient pas l’enjeu du stimulus verrouillé dans la banque.",
+        "Deux preuves autonomes en contextes distincts, sans aide narrative, avec possibilité d’aide d’accès non créative.",
+        "La substitution contextuelle doit rester dans le corpus explicitement fixé par un item; aucune génération libre."
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          {
+            "code": "D1",
+            "nom": "debut_et_enjeu",
+            "niveaux": {
+              "0": "non identifiable",
+              "1": "partiellement identifiable sans que le lien soit stable",
+              "2": "situation et enjeu identifiables sans explication préalable"
+            }
+          },
+          {
+            "code": "D2",
+            "nom": "action_causale",
+            "niveaux": {
+              "0": "aucune action pertinente",
+              "1": "tentative liée mais effet peu marqué",
+              "2": "action visible qui agit sur l’enjeu"
+            }
+          },
+          {
+            "code": "D3",
+            "nom": "fin_evolutive",
+            "niveaux": {
+              "0": "fin absente ou sans lien",
+              "1": "changement partiel ou peu net",
+              "2": "nouvel état/choix clairement montré et relié"
+            }
+          },
+          {
+            "code": "D4",
+            "nom": "intelligibilite",
+            "niveaux": {
+              "0": "public ne peut suivre",
+              "1": "progression partiellement reformulée",
+              "2": "public reformule avant/obstacle/essai/après sans explication préalable"
+            }
+          }
+        ],
+        "seuil_par_preuve": "Chaque dimension >=1, au moins trois dimensions à 2, plus justification d’un choix après le jeu et autonomie de la construction.",
+        "preuves_minimum": 2,
+        "contextes_distincts": [
+          "station_meteorologique_fictive",
+          "musee_de_fossiles_imaginaires"
+        ],
+        "exclusions": "Aucun point pour goût esthétique, volume de voix, spontanéité, apparence, personality ou vécu."
+      },
+      "source": "Rédaction originale qc-pri-ad-004, contenu/01_NOTIONS_ET_EXEMPLES.md, contenu/05_PRATIQUE_AUTONOME.md et evaluation/GRILLE_MAITRISE.md; métadonnées v1.2 de la frame conservées.",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2",
+  "extension_livraison": {
+    "etat": "contenu_et_items_rediges_a_revoir",
+    "nombre_items": 10,
+    "items_de_preuve": [
+      "qc-pri-ad-004-q-009",
+      "qc-pri-ad-004-q-010"
+    ],
+    "commentaire": "Révision humaine et qualification LMS non réalisées; statut de départ conservé."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-014",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Effectuer des opérations élémentaires sur les fractions en conservant leur sens.",
+  "concepts": [
+    "fraction unitaire",
+    "addition compatible",
+    "décomposition"
+  ],
+  "preuve_attendue": "Résoudre une situation illustrée sur des fractions et vérifier le résultat.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-013"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-014-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Résoudre une situation illustrée sur des fractions et vérifier le résultat.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme_reproductible": "Chaque item paramétrique contient exactement trois triplets candidats validés, ordonnés et non interchangeables; indice = seed modulo 3; numérateur somme a+b, différence a−b ou décomposition b+(a−b); fraction simplifiée par pgcd.",
+        "controle_correcteur": "calcul exact Fraction (entiers), identité inverse ou recomposition; validation automatisée des trois triplets autorisés par item à la livraison",
+        "banque_ref": "evaluation/BANQUE_ITEMS.json"
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ma-014",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "bandes/rectangles en parts égales (texte, matériel, tactile)",
+        "notation fractionnaire",
+        "parterre quadrillé de même aire",
+        "parcours en segments égaux"
+      ],
+      "variables": {
+        "d": "nombre de parts égales du tout",
+        "a": "nombre initial de parts marquées",
+        "b": "nombre de parts à ajouter, enlever ou isoler",
+        "domaines_exacts_par_item": "evaluation/BANQUE_ITEMS.json#items[*].parametres.candidats",
+        "tirage": "ordre figé des trois candidats; indice = seed modulo 3"
+      },
+      "contraintes": [
+        "d dans {2,3,4,5,6,8,10}; pour chaque item, liste blanche plus restrictive dans BANQUE_ITEMS.json",
+        "même tout; parts égales; numérateurs entiers",
+        "addition : 1≤a,1≤b,a+b≤d; retrait : 1≤b≤a≤d; décomposition : 1≤b<a≤d",
+        "aucune génération libre, aucune permutation hors triplets approuvés"
+      ],
+      "barreme_ou_rubrique": {
+        "critere_ref": "crit-1",
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "unité_et_parts_égales",
+          "opération_exacte",
+          "correspondance_représentation",
+          "verification_interpretee"
+        ],
+        "niveaux_par_dimension": [
+          0,
+          1,
+          2
+        ],
+        "decision": "deux preuves autonomes distinctes q-011 et q-012, niveau 2 pour chacune des quatre dimensions sur chaque preuve; jamais une note unique"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "contenu/06_REMEDIATION_ET_TRANSFERT.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": 140140014,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

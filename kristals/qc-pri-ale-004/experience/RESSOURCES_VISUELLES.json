@@ -1,0 +1,79 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ale-004",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Reconstituer actions, personnages et idées d’un récit en anglais.",
+    "concepts": [
+      "plot",
+      "character",
+      "event",
+      "evidence"
+    ]
+  },
+  "titre_source": "Comprendre des textes narratifs",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "plot, character, event",
+      "prompt_conceptuel": "Concept d'image pour le cours « Comprendre des textes narratifs ». Représenter une situation d’écoute, de lecture ou de communication en anglais. Mettre en évidence les notions : plot, character, event, evidence. L'image doit aider à comprendre l'objectif « Reconstituer actions, personnages et idées d’un récit en anglais. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Comprendre des textes narratifs : plot, character, event.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "plot, character, event",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Comprendre des textes narratifs » : montrer une situation d’usage concret de l’anglais où des interlocuteurs cherchent à se comprendre. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter plot, character, event, evidence. Cette image sert de point de départ à une activité liée à l'objectif « Reconstituer actions, personnages et idées d’un récit en anglais. ». Ne pas représenter une réponse évaluée comme déjà résolue.",
+      "texte_alternatif": "Situation d’exploration pour Comprendre des textes narratifs.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    }
+  ]
+}

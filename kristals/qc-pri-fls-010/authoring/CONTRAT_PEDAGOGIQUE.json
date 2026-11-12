@@ -1,0 +1,85 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-010",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Améliorer un texte en français grâce à une relecture guidée par critères.",
+  "concepts": [
+    "sens",
+    "grammaire prioritaire",
+    "orthographe"
+  ],
+  "preuve_attendue": "Corriger un texte court et justifier les modifications.",
+  "prerequis_bloquants": [
+    "qc-pri-fls-009"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-010-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Corriger un texte court et justifier les modifications.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "modes_instrumentes": [
+          "fixe"
+        ],
+        "variation_actuelle": "aucune : seed null, parametres null, reprise manuelle et versionnee requise"
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-fls-010",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "phrase",
+        "groupe_nominal",
+        "fiche_plus_message",
+        "avis_de_bibliotheque",
+        "consigne_coin_de_tri"
+      ],
+      "variables": {},
+      "contraintes": [
+        "Corpus fixe uniquement; aucune substitution automatique du stimulus",
+        "Conserver deux preuves distinctes q-009 et q-010 avec données de référence",
+        "Évaluer S (faits), G (accords), O (graphies) et J (justification) sans sanctionner un accent oral",
+        "Toute variation contextuelle nouvelle exige revue humaine et versionnement",
+        "N’employer aucun correcteur IA libre comme oracle de vérité"
+      ],
+      "barreme_ou_rubrique": {
+        "type": "grille_analytique",
+        "dimensions": [
+          "S1",
+          "S2",
+          "G1",
+          "G2",
+          "O",
+          "J"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2
+        ],
+        "decision": "deux preuves individuellement satisfaisantes q-009 et q-010 sans aide corrective; chaque dimension au niveau 2; pas de score global unique",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": "production_originale_pour_qc-pri-fls-010; normes v1.2; exemples fictifs",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "items_rediges_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

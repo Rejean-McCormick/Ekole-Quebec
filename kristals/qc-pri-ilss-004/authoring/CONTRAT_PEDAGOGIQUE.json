@@ -1,0 +1,91 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ilss-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comprendre des messages et documents fonctionnels du quotidien.",
+  "concepts": [
+    "pictogramme",
+    "formulaire",
+    "horaire",
+    "message"
+  ],
+  "preuve_attendue": "Extraire l’information utile d’un document scolaire adapté.",
+  "prerequis_bloquants": [
+    "qc-pri-ilss-001"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ilss-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ilss-004-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Extraire l’information utile d’un document scolaire adapté.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Corpus et corrigés fixes uniquement; adaptations de présentation non directives, jamais changement libre des heures/lieux/documents.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": false
+      },
+      "review_status": "items_rediges_revue_humaine_requise",
+      "kristal_id": "qc-pri-ilss-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "message écrit court",
+        "horaire tabulaire",
+        "formulaire à cases",
+        "pictogramme décrit et légendé",
+        "pointage/oral/texte/communication assistée"
+      ],
+      "variables": {
+        "mode": "corpus_fixe_controle",
+        "corpus_ids": [
+          "DOC-A-BIBLIOTHEQUE",
+          "DOC-B-ATELIER-SCIENCES"
+        ],
+        "generation_ia_libre": false,
+        "valeurs_de_reponse": "verrouillees dans chaque stimulus"
+      },
+      "contraintes": [
+        "documents exclusivement fictifs et autoportants",
+        "aucun renseignement personnel réel",
+        "réponse vérifiable littéralement dans le document",
+        "pictogramme toujours légendé",
+        "pas d’hypothèse sur l’identité ou le vécu",
+        "aides d’accès possibles, pas d’indice sur le champ-réponse pendant la preuve",
+        "deux manifestations de maîtrise dans des contextes distincts"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "exactitude",
+          "localisation_de_preuves",
+          "choix_information_utile",
+          "autonomie_et_transfert"
+        ],
+        "echelle": "0-1-2 par critère et par contexte",
+        "decision": "2 preuves séparées, sans moyenne compensatoire"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/BANQUE_ITEMS.json",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_evaluation_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

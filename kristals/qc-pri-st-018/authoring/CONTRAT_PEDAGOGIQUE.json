@@ -1,0 +1,102 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-018",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Relier besoins vitaux et fonctions d’organes ou systèmes étudiés.",
+  "concepts": [
+    "respiration",
+    "alimentation",
+    "mouvement",
+    "besoin"
+  ],
+  "preuve_attendue": "Construire un schéma fonctionnel simplifié d’un besoin vital.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-st-017"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-018-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Construire un schéma fonctionnel simplifié d’un besoin vital.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_operationnel": "scenarios_corpus_ferme_selection_modulo",
+        "autorite_corriges": "rubriques_et_reponses_figees_par_item",
+        "deux_contextes_maitrise": [
+          "q-011",
+          "q-012"
+        ]
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-st-018",
+      "objectif_id": "obj-1",
+      "critere": {
+        "id": "crit-1",
+        "preuve_attendue": "Construire un schéma fonctionnel simplifié d’un besoin vital."
+      },
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte",
+        "cartes_aordonner",
+        "schema_fonctionnel",
+        "description_orale_equivalente"
+      ],
+      "variables": {
+        "contextes_autorises": "corpus_fixes_par_item_q-007_a_q-010",
+        "index_contexte": "seed % taille_corpus",
+        "items_de_maitrise": "q-011 et q-012 fixes, sans variation de contenu"
+      },
+      "contraintes": [
+        "exactitude scientifique issue de sources vérifiées",
+        "observation distincte du modèle et de l’inférence",
+        "aucune génération ouverte de faits ou de corrigés",
+        "deux preuves autonomes dans des contextes distincts",
+        "aucune mesure physiologique ni divulgation personnelle"
+      ],
+      "bareme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "besoin_reconnu",
+          "fonctions_des_organes",
+          "sens_et_etiquetage_des_fleches",
+          "deux_justifications",
+          "autonomie_et_transfert"
+        ],
+        "decision": "deux preuves cohérentes et autonomes, jamais une note isolée"
+      },
+      "source": [
+        "source_interne:authoring/PARCOURS.md",
+        "source_interne:authoring/CONTRAT_PEDAGOGIQUE.json",
+        "NHLBI/NIH:How_the_Lungs_Work",
+        "NIDDK/NIH:Your_Digestive_System_and_How_it_Works",
+        "NIAMS/NIH:Learning_About_Muscles"
+      ],
+      "seed": {
+        "regle": "entier positif fixe, index = seed % taille(corpus)",
+        "graine_items_scenarios": [
+          1807,
+          1808,
+          1809,
+          1810
+        ],
+        "items_fixes": null
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,311 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-006",
+  "family_id": "qc-pri-ma-006-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-006-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Réunis les deux groupes sans compter le même jeton deux fois. Écris une addition et une courte explication.",
+      "stimulus": "Groupe A : 4 jetons. Groupe B : 3 autres jetons, distincts.",
+      "reponse_attendue": "4 + 3 = 7 jetons. Deux groupes disjoints donnent sept jetons en tout.",
+      "criteres": [
+        "L’élève repère une réunion sans double compte",
+        "Écrit 4 + 3 = 7",
+        "Justifie le total par comptage ou réunion des groupes"
+      ],
+      "feedback": "Si 3 ou 4 est donné comme total, faire rapprocher les deux groupes; si 8, vérifier qu’un jeton n’a pas été compté deux fois.",
+      "difficulte": "initial",
+      "representation": "matériel, description textuelle, notation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "usage": "diagnostic_ajout",
+      "variation_admissible": "Aucune variation libre. Revue humaine requise pour modifier les données ou le contexte."
+    },
+    {
+      "item_id": "qc-pri-ma-006-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Modélise la quantité finale avec une égalité; réponds en bâtons et explique pourquoi tu additionnes.",
+      "stimulus": "Une rangée possède 12 bâtons; on ajoute 5 bâtons, sans en retirer.",
+      "reponse_attendue": "12 + 5 = 17 bâtons. C’est une augmentation : douze au départ et cinq ajoutés.",
+      "criteres": [
+        "Identifie l’augmentation",
+        "Calcule 17 exactement",
+        "Donne une explication qui relie état initial et ajout"
+      ],
+      "feedback": "Une réponse 7 traduit probablement un retrait; faire nommer ce que signifie « ajouter »; pour 12, vérifier que les cinq nouveaux bâtons ont été comptés.",
+      "difficulte": "initial",
+      "representation": "narration, schéma linéaire ou jetons, notation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "usage": "diagnostic_ajout",
+      "variation_admissible": "Aucune variation libre. Revue humaine requise pour modifier les données ou le contexte."
+    },
+    {
+      "item_id": "qc-pri-ma-006-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Réunis six gommes carrées et cinq gommes rondes distinctes; calcule et explique une méthode.",
+      "stimulus": "6 gommes carrées + 5 gommes rondes; tous les objets sont différents.",
+      "reponse_attendue": "6 + 5 = 11 gommes; exemple : 5 = 4 + 1, donc 6 + 4 + 1 = 11.",
+      "criteres": [
+        "Addition exacte 11",
+        "Deux groupes sans doublons",
+        "Stratégie décrite sans perte d’unités"
+      ],
+      "feedback": "Si 10, il manque une gomme; remettre les cinq gommes dans les deux parts quatre et une.",
+      "difficulte": "initial",
+      "representation": "jetons, barres verbalisées, symboles",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "usage": "pratique_guidee_G1",
+      "variation_admissible": "Aucune variation libre. Revue humaine requise pour modifier les données ou le contexte."
+    },
+    {
+      "item_id": "qc-pri-ma-006-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Une ligne a 28 cases. On en ajoute 7. Combien y en a-t-il ? Explique le passage à la dizaine.",
+      "stimulus": "28 cases initiales, 7 cases nouvelles.",
+      "reponse_attendue": "28 + 7 = 35 cases; 7 = 2 + 5, donc 28 + 2 + 5 = 30 + 5 = 35.",
+      "criteres": [
+        "Modèle d’augmentation",
+        "Résultat 35",
+        "Décomposition de 7 conservée et expliquée"
+      ],
+      "feedback": "Si la réponse est 30, demander ce que deviennent les 5 unités restantes dans les 7 ajoutées.",
+      "difficulte": "intermediaire",
+      "representation": "ligne numérique décrite, nombres",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "usage": "pratique_guidee_G2",
+      "variation_admissible": "Aucune variation libre. Revue humaine requise pour modifier les données ou le contexte."
+    },
+    {
+      "item_id": "qc-pri-ma-006-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Calcule 37 + 26. Utilise une décomposition en dizaines et unités ou une stratégie aussi valable. Justifie le regroupement.",
+      "stimulus": "Écriture symbolique : 37 + 26.",
+      "reponse_attendue": "37 + 26 = (30 + 20) + (7 + 6) = 50 + 13 = 63. Variante 37 + 3 + 23 = 63.",
+      "criteres": [
+        "Somme exacte 63",
+        "Regroupement cohérent et expliqué",
+        "La dizaine issue de 7 + 6 = 13 est conservée"
+      ],
+      "feedback": "Si 53, vérifier que 7 + 6 donne 13 unités et non 3; reconstruire une dizaine avec dix jetons.",
+      "difficulte": "intermediaire",
+      "representation": "dizaines/unités, notation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "usage": "pratique_guidee_G3",
+      "variation_admissible": "Aucune variation libre. Revue humaine requise pour modifier les données ou le contexte."
+    },
+    {
+      "item_id": "qc-pri-ma-006-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-006-ev-01",
+      "mode": "parametrique",
+      "consigne": "Une collection a 37 éléments. On lui ajoute 6 éléments distincts. Combien en a-t-elle maintenant ? Décompose l’ajout pour compléter la dizaine et explique.",
+      "stimulus": "Instance figée seed=6006 : a=37, b=6 (ajout; tous les éléments nouveaux sont distincts).",
+      "reponse_attendue": "37 + 6 = 43; 6 = 3 + 3, d’où 37 + 3 + 3 = 40 + 3 = 43.",
+      "criteres": [
+        "Modélise une augmentation",
+        "Somme exacte par addition directe",
+        "Décomposition intégrale de b et explication de la dizaine"
+      ],
+      "feedback": "Si le résultat s’arrête à la prochaine dizaine, faire identifier la partie restante de b; si la somme directe et le schéma divergent, refaire le regroupement.",
+      "difficulte": "intermediaire",
+      "representation": "texte, dizaine-unités, symboles",
+      "seed": 6006,
+      "parametres": {
+        "variables": {
+          "a": {
+            "type": "entier",
+            "min": 12,
+            "max": 39,
+            "pas": 1
+          },
+          "b": {
+            "type": "entier",
+            "min": 2,
+            "max": 9,
+            "pas": 1
+          }
+        },
+        "contraintes": [
+          "a % 10 + b >= 10",
+          "a + b <= 59",
+          "a et b positifs",
+          "chaque paire (a,b) est unique; aucun autre tirage"
+        ],
+        "algorithme_generation": "Parcourir a = 12..39 croissant, puis b = 2..9 croissant; conserver exactement les paires respectant les contraintes; choisir la paire à l’index (seed % N), indexation à partir de zéro. Aucune source aléatoire. Pour une nouvelle variante, utiliser seed+1 puis revérifier.",
+        "algorithme_resolution": "k = 10 - (a mod 10); b >= k car franchissement de dizaine; décomposer b = k + (b-k). Calculer a+b = (a+k)+(b-k). Vérifier indépendamment somme directe a+b.",
+        "seed_modulus": 131,
+        "index_reproductible": 111,
+        "instance_validee": {
+          "a": 37,
+          "b": 6,
+          "k": 3,
+          "part_restante": 3,
+          "somme": 43,
+          "egalite": "37 + 6 = 37 + 3 + 3 = 40 + 3 = 43",
+          "verification_directe": "37+6=43"
+        },
+        "gabarit_consigne": "Une collection a {a} éléments. On lui ajoute {b} éléments distincts. Calcule {a}+{b} et explique une décomposition qui complète la dizaine.",
+        "comparaison_variantes": "Ne pas réutiliser une paire (a,b) identique dans les deux preuves de maîtrise; filtrer les doublons si plusieurs variantes sont administrées."
+      },
+      "validation_status": "a_revoir",
+      "usage": "pratique_autonome_variable",
+      "variation_admissible": "a et b peuvent varier exclusivement par énumération contrôlée et seed stable; ne pas remplacer le contexte ni élargir les bornes sans revue."
+    },
+    {
+      "item_id": "qc-pri-ma-006-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Calcule le nombre total de livres et explique librement la stratégie choisie. Aucun indice de calcul ne sera fourni.",
+      "stimulus": "Une bibliothèque possède 24 livres sur une tablette et 18 livres différents sur une autre. Aucun livre n’est sur les deux.",
+      "reponse_attendue": "24 + 18 = 42 livres; exemple 18 = 6 + 12, puis 24 + 6 + 12 = 42. Comptage, doubles/dizaines ou autre méthode exacte expliqué accepté.",
+      "criteres": [
+        "Correspondance explicite entre réunion et addition",
+        "42 livres, résultat exact",
+        "Stratégie autonome cohérente et justifiée",
+        "Ne compte aucun livre deux fois"
+      ],
+      "feedback": "Si le total égale 24 ou 18, rappeler la question « sur les deux tablettes » après collecte de preuve; si 32, travailler les 12 unités issues de 4 + 8 lors de la remédiation.",
+      "difficulte": "transfert",
+      "representation": "texte; schéma ou oral possible",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "usage": "maitrise_preuve_A_reunion",
+      "variation_admissible": "Situation de bibliothèque fixe; ne substituer que par un scénario revu avec une réunion disjointe et nombres nouveaux."
+    },
+    {
+      "item_id": "qc-pri-ma-006-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Calcule l’effectif final de semis et explique librement la stratégie choisie. Aucun indice de calcul ne sera fourni.",
+      "stimulus": "Dans un potager, 37 semis sont déjà en terre. On en plante 25 nouveaux. Aucun semis n’est retiré.",
+      "reponse_attendue": "37 + 25 = 62 semis; exemple 25 = 3 + 22, puis 37 + 3 + 22 = 62. Toute autre décomposition exacte, expliquée, est recevable.",
+      "criteres": [
+        "Correspondance explicite entre augmentation et addition",
+        "62 semis, résultat exact",
+        "Conserve tous les 25 semis ajoutés",
+        "Stratégie autonome cohérente et justifiée"
+      ],
+      "feedback": "Si la réponse est 60, examiner la conservation des deux semis restants; si 12, examiner la confusion avec un retrait après collecte de preuve.",
+      "difficulte": "transfert",
+      "representation": "texte; jetons neutres et oral possibles",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "usage": "maitrise_preuve_B_augmentation",
+      "variation_admissible": "Situation de potager fixe; ne substituer que par un scénario revu avec une augmentation et nombres nouveaux."
+    },
+    {
+      "item_id": "qc-pri-ma-006-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-006-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule 48 + 26 par dizaines et unités; explique ce qui arrive lorsque les unités sont au moins dix.",
+      "stimulus": "Instance figée seed=9006 : a=48, b=26.",
+      "reponse_attendue": "48 + 26 = 60 + 14 = 74. Convertir dix unités en une dizaine; vérifier par somme directe 74.",
+      "criteres": [
+        "Somme entière exacte",
+        "Dizaines et unités correctement dissociées puis recombinées",
+        "Report d’une dizaine expliqué, sans perte des unités"
+      ],
+      "feedback": "Une somme qui omet dix révèle un échange de dix unités non enregistré : matérialiser le paquet de dix puis refaire une addition indépendante.",
+      "difficulte": "intermediaire",
+      "representation": "dizaines-unités, notation",
+      "seed": 9006,
+      "parametres": {
+        "variables": {
+          "a": {
+            "type": "entier",
+            "min": 21,
+            "max": 59,
+            "pas": 1
+          },
+          "b": {
+            "type": "entier",
+            "min": 11,
+            "max": 39,
+            "pas": 1
+          }
+        },
+        "contraintes": [
+          "a % 10 >= 1",
+          "b % 10 >= 1",
+          "a % 10 + b % 10 >= 10",
+          "a + b <= 99"
+        ],
+        "algorithme_generation": "Parcourir a = 21..59 croissant puis b = 11..39 croissant. Filtrer exactement toutes les contraintes. Mettre les paires en liste dans cet ordre; choisir (seed % N), indexation zéro. Aucun tirage libre.",
+        "algorithme_resolution": "Écrire a=10*floor(a/10)+(a%10) et b=10*floor(b/10)+(b%10). Regrouper dizaines et unités; si unités >= 10, convertir dix unités en une dizaine. Contrôler indépendamment via somme entière directe.",
+        "seed_modulus": 540,
+        "index_reproductible": 366,
+        "instance_validee": {
+          "a": 48,
+          "b": 26,
+          "dizaines_total": 60,
+          "unites_total": 14,
+          "somme": 74,
+          "egalite": "48 + 26 = 60 + 14 = 74",
+          "verification_directe": "48+26=74"
+        },
+        "gabarit_consigne": "Calcule {a}+{b} en regroupant dizaines et unités. Explique pourquoi les unités peuvent produire une dizaine.",
+        "comparaison_variantes": "Pour deux variantes dans une évaluation, assurer des paires distinctes et vérifier le niveau de complexité."
+      },
+      "validation_status": "a_revoir",
+      "usage": "pratique_autonome_variable",
+      "variation_admissible": "a et b ne varient que par énumération lexicographique filtrée et seed contrôlée."
+    },
+    {
+      "item_id": "qc-pri-ma-006-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Une autre personne écrit « 48 + 15 = 53 ». Explique précisément son erreur, propose un calcul correct et décris une façon de vérifier.",
+      "stimulus": "Erreur affichée : 48 + 15 = 53.",
+      "reponse_attendue": "Erreur : 8 + 5 = 13 et non 3; une dizaine a disparu. 48 + 15 = (40 + 10) + (8 + 5) = 50 + 13 = 63. Vérification : 48 + 2 + 13 = 50 + 13 = 63, car 15 = 2 + 13.",
+      "criteres": [
+        "Identifie la perte d’une dizaine",
+        "Corrige en 63",
+        "Donne un raisonnement de vérification indépendant ou suffisamment distinct"
+      ],
+      "feedback": "Si 53 est maintenu, représenter treize unités avec une barre de dix et trois unités; questionner où va la dizaine.",
+      "difficulte": "transfert",
+      "representation": "écrit et échange oral possible",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "usage": "diagnostic_erreur_transfert",
+      "variation_admissible": "Aucune variation libre. Revue humaine requise pour modifier les données ou le contexte."
+    }
+  ]
+}

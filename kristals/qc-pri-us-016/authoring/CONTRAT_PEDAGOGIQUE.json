@@ -1,0 +1,97 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-016",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Expliquer la pluralité des héritages culturels dans les sociétés étudiées.",
+  "concepts": [
+    "langue",
+    "pratiques",
+    "héritage",
+    "diversité"
+  ],
+  "preuve_attendue": "Présenter deux héritages sans les réduire à des stéréotypes.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-us-005",
+    "qc-pri-us-006",
+    "qc-pri-us-007"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-016-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Présenter deux héritages sans les réduire à des stéréotypes.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-us-016",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "notice_institutionnelle_paraphrasee",
+        "tableau_compare",
+        "frise_commentee",
+        "argumentation_ecrite_ou_orale"
+      ],
+      "variables": {
+        "mode": "selection_corpus_ferme",
+        "scenario_ids": [
+          "US016-S01",
+          "US016-S02",
+          "US016-S03",
+          "US016-S04",
+          "US016-S05",
+          "US016-S06",
+          "US016-S07",
+          "US016-S08",
+          "US016-S09",
+          "US016-S10",
+          "US016-S11",
+          "US016-S12"
+        ],
+        "generation_aleatoire": false
+      },
+      "contraintes": [
+        "Deux héritages distincts et attribuables à des sources",
+        "Situations et extraits pédagogiques verrouillés par item",
+        "Conserver auteurs, époques et limitations",
+        "Ne jamais inférer la culture entière depuis une notice",
+        "Aucune production libre de faits par IA",
+        "Respecter différences entre source, interprétation et limite"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "deux_heritages_documentes",
+          "contextualisation_et_explication",
+          "preuve_et_attribution",
+          "nuance_sans_stereotype"
+        ],
+        "echelle": "0 à 3 par dimension",
+        "decision": "Deux preuves indépendantes (q-011 et q-012), chacune ≥ 2 dans chaque dimension, sans stéréotype non corrigé"
+      },
+      "source": {
+        "contrat": "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "corpus": "sources/REFERENCES_CONTENU.md",
+        "items": "evaluation/BANQUE_ITEMS.json"
+      },
+      "seed": "US016-CORPUS-LOCK-v1.2-20261008",
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

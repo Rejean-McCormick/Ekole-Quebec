@@ -1,0 +1,408 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fls-007",
+  "family_id": "qc-pri-fls-007-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fls-007-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-007-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir des deux messages, dis ou écris une consigne très courte pour une élève qui vient pour la première fois. Indique d’où proviennent le lieu et le matériel.",
+      "stimulus": "Contexte fictif : atelier de badges\nMESSAGE A (écrit à afficher) : « L’atelier de badges commence lundi à 10 h au local 2. »\nMESSAGE B (oral, script lu exactement deux fois au maximum par le responsable) : « Apporte une feuille. »",
+      "message_A_ecrit": "« L’atelier de badges commence lundi à 10 h au local 2. »",
+      "message_B_script_oral": "« Apporte une feuille. »",
+      "reponse_attendue": "Exemple de production recevable, non modèle obligatoire : « Lundi à 10 h, va au local 2 pour l’atelier de badges. Apporte une feuille. » Vérifier les faits invariants par source plutôt que l’identité de la formulation. Ne pas accepter des renseignements inventés.",
+      "faits_attendus": {
+        "source_A": [
+          "lundi",
+          "10 h",
+          "local 2",
+          "atelier de badges"
+        ],
+        "source_B": [
+          "apporter une feuille"
+        ]
+      },
+      "erreurs_a_eviter": "Ne pas remplacer le local 2 par le local 3 ou inventer des ciseaux.",
+      "criteres": [
+        "Le message final réemploie de manière exacte au moins une information de A et au moins une de B.",
+        "Tous les faits retenus sont retrouvables directement dans les messages et aucune contrainte de temps ou de lieu n’est déformée.",
+        "La formulation est intelligible en français et adaptée au destinataire mentionné sans imposer un accent ou registre unique."
+      ],
+      "feedback": "Si un fait manque, demander après l’essai quelle source contient ce fait, puis faire un entraînement sur une autre paire. Si un fait est modifié, nommer sa valeur correcte en montrant la source sans sanctionner l’accent. Vigilance propre à cet item : Ne pas remplacer le local 2 par le local 3 ou inventer des ciseaux.",
+      "difficulte": "initial",
+      "representation": "affiche écrite + oral lu + consigne de deux phrases",
+      "conditions_evaluation": "A est écrit, B est lu à l’oral à débit clair identique, sans paraphrase; jusqu’à deux lectures strictement identiques. Réponse orale, écrite, dictée ou assistée selon le besoin; supports d’accès non directifs admis. La transcription de B est une accommodation décidée avant passation et consignée.",
+      "variations_permises": "La production peut varier dans ses mots et son ordre si les faits et la tâche demeurent fidèles. Accessibilité : agrandissement, temps, lecture répétée à l’identique, oral/écrit/CAA; aucun fait du corpus n’est substituable automatiquement.",
+      "limites_variation": "Aucune génération IA libre ni changement de scripts, dates, quantités, lieux, destinataire ou preuve attendue. La rubrique et les informations invariantes restent fixes.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-fls-007-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Prépare une annonce courte pour un groupe qui ne connaît pas le rendez-vous. Distingue le fait qui vient de A et celui qui vient de B.",
+      "stimulus": "Contexte fictif : visite de bibliothèque\nMESSAGE A (écrit à afficher) : « La visite de la bibliothèque a lieu jeudi à 9 h. »\nMESSAGE B (oral, script lu exactement deux fois au maximum par le responsable) : « Le groupe se retrouve près de la porte ouest. »",
+      "message_A_ecrit": "« La visite de la bibliothèque a lieu jeudi à 9 h. »",
+      "message_B_script_oral": "« Le groupe se retrouve près de la porte ouest. »",
+      "reponse_attendue": "Exemple de production recevable, non modèle obligatoire : « Jeudi à 9 h, viens pour la visite de la bibliothèque. Retrouve le groupe près de la porte ouest. » Vérifier les faits invariants par source plutôt que l’identité de la formulation. Ne pas accepter des renseignements inventés.",
+      "faits_attendus": {
+        "source_A": [
+          "jeudi",
+          "9 h",
+          "visite de bibliothèque"
+        ],
+        "source_B": [
+          "porte ouest",
+          "rassemblement du groupe"
+        ]
+      },
+      "erreurs_a_eviter": "Ne pas déplacer la visite à vendredi ni inverser ouest et est.",
+      "criteres": [
+        "Le message final réemploie de manière exacte au moins une information de A et au moins une de B.",
+        "Tous les faits retenus sont retrouvables directement dans les messages et aucune contrainte de temps ou de lieu n’est déformée.",
+        "La formulation est intelligible en français et adaptée au destinataire mentionné sans imposer un accent ou registre unique."
+      ],
+      "feedback": "Si un fait manque, demander après l’essai quelle source contient ce fait, puis faire un entraînement sur une autre paire. Si un fait est modifié, nommer sa valeur correcte en montrant la source sans sanctionner l’accent. Vigilance propre à cet item : Ne pas déplacer la visite à vendredi ni inverser ouest et est.",
+      "difficulte": "initial",
+      "representation": "texte d’horaire et indication orale de localisation",
+      "conditions_evaluation": "A est écrit, B est lu à l’oral à débit clair identique, sans paraphrase; jusqu’à deux lectures strictement identiques. Réponse orale, écrite, dictée ou assistée selon le besoin; supports d’accès non directifs admis. La transcription de B est une accommodation décidée avant passation et consignée.",
+      "variations_permises": "La production peut varier dans ses mots et son ordre si les faits et la tâche demeurent fidèles. Accessibilité : agrandissement, temps, lecture répétée à l’identique, oral/écrit/CAA; aucun fait du corpus n’est substituable automatiquement.",
+      "limites_variation": "Aucune génération IA libre ni changement de scripts, dates, quantités, lieux, destinataire ou preuve attendue. La rubrique et les informations invariantes restent fixes.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-fls-007-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Reformule les deux messages comme si tu aidais une personne à participer à cette exposition. Supprime les informations inutiles plutôt que d’en inventer.",
+      "stimulus": "Contexte fictif : activité de dessin\nMESSAGE A (écrit à afficher) : « Les dessins seront exposés vendredi dans la classe 5. »\nMESSAGE B (oral, script lu exactement deux fois au maximum par le responsable) : « Chaque personne apporte son dessin dans une chemise. »",
+      "message_A_ecrit": "« Les dessins seront exposés vendredi dans la classe 5. »",
+      "message_B_script_oral": "« Chaque personne apporte son dessin dans une chemise. »",
+      "reponse_attendue": "Exemple de production recevable, non modèle obligatoire : « Vendredi, apporte ton dessin dans une chemise pour l’exposition dans la classe 5. » Vérifier les faits invariants par source plutôt que l’identité de la formulation. Ne pas accepter des renseignements inventés.",
+      "faits_attendus": {
+        "source_A": [
+          "vendredi",
+          "classe 5",
+          "dessins exposés"
+        ],
+        "source_B": [
+          "apporter son dessin",
+          "dans une chemise"
+        ]
+      },
+      "erreurs_a_eviter": "Ne pas écrire jeudi, classe 6 ni ajouter une heure absente des sources.",
+      "criteres": [
+        "Le message final réemploie de manière exacte au moins une information de A et au moins une de B.",
+        "Tous les faits retenus sont retrouvables directement dans les messages et aucune contrainte de temps ou de lieu n’est déformée.",
+        "La formulation est intelligible en français et adaptée au destinataire mentionné sans imposer un accent ou registre unique."
+      ],
+      "feedback": "Si un fait manque, demander après l’essai quelle source contient ce fait, puis faire un entraînement sur une autre paire. Si un fait est modifié, nommer sa valeur correcte en montrant la source sans sanctionner l’accent. Vigilance propre à cet item : Ne pas écrire jeudi, classe 6 ni ajouter une heure absente des sources.",
+      "difficulte": "initial",
+      "representation": "annonce écrite + consigne orale transformées en instruction",
+      "conditions_evaluation": "A est écrit, B est lu à l’oral à débit clair identique, sans paraphrase; jusqu’à deux lectures strictement identiques. Réponse orale, écrite, dictée ou assistée selon le besoin; supports d’accès non directifs admis. La transcription de B est une accommodation décidée avant passation et consignée.",
+      "variations_permises": "La production peut varier dans ses mots et son ordre si les faits et la tâche demeurent fidèles. Accessibilité : agrandissement, temps, lecture répétée à l’identique, oral/écrit/CAA; aucun fait du corpus n’est substituable automatiquement.",
+      "limites_variation": "Aucune génération IA libre ni changement de scripts, dates, quantités, lieux, destinataire ou preuve attendue. La rubrique et les informations invariantes restent fixes.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-fls-007-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Présente en deux ou trois phrases le fonctionnement de l’accueil à un camarade absent. N’oublie pas d’expliquer la première action à faire.",
+      "stimulus": "Contexte fictif : accueil au club d’échecs fictif\nMESSAGE A (écrit à afficher) : « Le club d’échecs se rencontre mardi à 15 h dans le local 7. »\nMESSAGE B (oral, script lu exactement deux fois au maximum par le responsable) : « Commence par choisir un échiquier sur la table d’entrée. »",
+      "message_A_ecrit": "« Le club d’échecs se rencontre mardi à 15 h dans le local 7. »",
+      "message_B_script_oral": "« Commence par choisir un échiquier sur la table d’entrée. »",
+      "reponse_attendue": "Exemple de production recevable, non modèle obligatoire : « Mardi à 15 h, viens au club d’échecs dans le local 7. À ton arrivée, choisis un échiquier sur la table d’entrée. » Vérifier les faits invariants par source plutôt que l’identité de la formulation. Ne pas accepter des renseignements inventés.",
+      "faits_attendus": {
+        "source_A": [
+          "mardi",
+          "15 h",
+          "local 7",
+          "club d’échecs"
+        ],
+        "source_B": [
+          "choisir un échiquier",
+          "table d’entrée"
+        ]
+      },
+      "erreurs_a_eviter": "Ne pas confondre la table d’entrée avec le local 7 ni inventer un tournoi.",
+      "criteres": [
+        "Le message final réemploie de manière exacte au moins une information de A et au moins une de B.",
+        "Tous les faits retenus sont retrouvables directement dans les messages et aucune contrainte de temps ou de lieu n’est déformée.",
+        "La formulation est intelligible en français et adaptée au destinataire mentionné sans imposer un accent ou registre unique."
+      ],
+      "feedback": "Si un fait manque, demander après l’essai quelle source contient ce fait, puis faire un entraînement sur une autre paire. Si un fait est modifié, nommer sa valeur correcte en montrant la source sans sanctionner l’accent. Vigilance propre à cet item : Ne pas confondre la table d’entrée avec le local 7 ni inventer un tournoi.",
+      "difficulte": "intermediaire",
+      "representation": "deux messages complémentaires + présentation de l’accueil",
+      "conditions_evaluation": "A est écrit, B est lu à l’oral à débit clair identique, sans paraphrase; jusqu’à deux lectures strictement identiques. Réponse orale, écrite, dictée ou assistée selon le besoin; supports d’accès non directifs admis. La transcription de B est une accommodation décidée avant passation et consignée.",
+      "variations_permises": "La production peut varier dans ses mots et son ordre si les faits et la tâche demeurent fidèles. Accessibilité : agrandissement, temps, lecture répétée à l’identique, oral/écrit/CAA; aucun fait du corpus n’est substituable automatiquement.",
+      "limites_variation": "Aucune génération IA libre ni changement de scripts, dates, quantités, lieux, destinataire ou preuve attendue. La rubrique et les informations invariantes restent fixes.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-fls-007-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne au nouveau responsable une consigne pratique utilisant les deux messages. Indique quels mots doivent garder leur sens précis.",
+      "stimulus": "Contexte fictif : rangement de jeux\nMESSAGE A (écrit à afficher) : « Le rangement du matériel commence mercredi à 14 h dans la salle 3. »\nMESSAGE B (oral, script lu exactement deux fois au maximum par le responsable) : « Les boîtes rouges vont sur l’étagère du haut. »",
+      "message_A_ecrit": "« Le rangement du matériel commence mercredi à 14 h dans la salle 3. »",
+      "message_B_script_oral": "« Les boîtes rouges vont sur l’étagère du haut. »",
+      "reponse_attendue": "Exemple de production recevable, non modèle obligatoire : « Mercredi à 14 h, commence le rangement dans la salle 3. Place les boîtes rouges sur l’étagère du haut. » Vérifier les faits invariants par source plutôt que l’identité de la formulation. Ne pas accepter des renseignements inventés.",
+      "faits_attendus": {
+        "source_A": [
+          "mercredi",
+          "14 h",
+          "salle 3",
+          "rangement"
+        ],
+        "source_B": [
+          "boîtes rouges",
+          "étagère du haut"
+        ]
+      },
+      "erreurs_a_eviter": "Ne pas transformer étagère du haut en étagère du bas ou changer la couleur.",
+      "criteres": [
+        "Le message final réemploie de manière exacte au moins une information de A et au moins une de B.",
+        "Tous les faits retenus sont retrouvables directement dans les messages et aucune contrainte de temps ou de lieu n’est déformée.",
+        "La formulation est intelligible en français et adaptée au destinataire mentionné sans imposer un accent ou registre unique."
+      ],
+      "feedback": "Si un fait manque, demander après l’essai quelle source contient ce fait, puis faire un entraînement sur une autre paire. Si un fait est modifié, nommer sa valeur correcte en montrant la source sans sanctionner l’accent. Vigilance propre à cet item : Ne pas transformer étagère du haut en étagère du bas ou changer la couleur.",
+      "difficulte": "intermediaire",
+      "representation": "horaire de rangement écrit + tri oral + consigne opératoire",
+      "conditions_evaluation": "A est écrit, B est lu à l’oral à débit clair identique, sans paraphrase; jusqu’à deux lectures strictement identiques. Réponse orale, écrite, dictée ou assistée selon le besoin; supports d’accès non directifs admis. La transcription de B est une accommodation décidée avant passation et consignée.",
+      "variations_permises": "La production peut varier dans ses mots et son ordre si les faits et la tâche demeurent fidèles. Accessibilité : agrandissement, temps, lecture répétée à l’identique, oral/écrit/CAA; aucun fait du corpus n’est substituable automatiquement.",
+      "limites_variation": "Aucune génération IA libre ni changement de scripts, dates, quantités, lieux, destinataire ou preuve attendue. La rubrique et les informations invariantes restent fixes.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-fls-007-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Prépare une présentation pour une équipe nouvelle; associe dans ta réponse le lieu/heure et la préparation du matériel.",
+      "stimulus": "Contexte fictif : jeu de pistes sur papier\nMESSAGE A (écrit à afficher) : « Le jeu de pistes commence samedi à 11 h près du grand arbre du parc. »\nMESSAGE B (oral, script lu exactement deux fois au maximum par le responsable) : « Chaque équipe reçoit une enveloppe bleue avant le départ. »",
+      "message_A_ecrit": "« Le jeu de pistes commence samedi à 11 h près du grand arbre du parc. »",
+      "message_B_script_oral": "« Chaque équipe reçoit une enveloppe bleue avant le départ. »",
+      "reponse_attendue": "Exemple de production recevable, non modèle obligatoire : « Samedi à 11 h, retrouve ton équipe près du grand arbre du parc. Avant le départ, prends l’enveloppe bleue remise à ton équipe. » Vérifier les faits invariants par source plutôt que l’identité de la formulation. Ne pas accepter des renseignements inventés.",
+      "faits_attendus": {
+        "source_A": [
+          "samedi",
+          "11 h",
+          "grand arbre du parc"
+        ],
+        "source_B": [
+          "enveloppe bleue",
+          "avant le départ",
+          "chaque équipe"
+        ]
+      },
+      "erreurs_a_eviter": "Ne pas inventer qu’il faut ouvrir l’enveloppe ou qu’elle est rouge.",
+      "criteres": [
+        "Le message final réemploie de manière exacte au moins une information de A et au moins une de B.",
+        "Tous les faits retenus sont retrouvables directement dans les messages et aucune contrainte de temps ou de lieu n’est déformée.",
+        "La formulation est intelligible en français et adaptée au destinataire mentionné sans imposer un accent ou registre unique."
+      ],
+      "feedback": "Si un fait manque, demander après l’essai quelle source contient ce fait, puis faire un entraînement sur une autre paire. Si un fait est modifié, nommer sa valeur correcte en montrant la source sans sanctionner l’accent. Vigilance propre à cet item : Ne pas inventer qu’il faut ouvrir l’enveloppe ou qu’elle est rouge.",
+      "difficulte": "intermediaire",
+      "representation": "localisation écrite + consigne de préparation entendue",
+      "conditions_evaluation": "A est écrit, B est lu à l’oral à débit clair identique, sans paraphrase; jusqu’à deux lectures strictement identiques. Réponse orale, écrite, dictée ou assistée selon le besoin; supports d’accès non directifs admis. La transcription de B est une accommodation décidée avant passation et consignée.",
+      "variations_permises": "La production peut varier dans ses mots et son ordre si les faits et la tâche demeurent fidèles. Accessibilité : agrandissement, temps, lecture répétée à l’identique, oral/écrit/CAA; aucun fait du corpus n’est substituable automatiquement.",
+      "limites_variation": "Aucune génération IA libre ni changement de scripts, dates, quantités, lieux, destinataire ou preuve attendue. La rubrique et les informations invariantes restent fixes.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-fls-007-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige ou présente une annonce aux nouveaux spectateurs en distinguant la salle de spectacle de l’accès à la salle.",
+      "stimulus": "Contexte fictif : petite pièce de théâtre fictive\nMESSAGE A (écrit à afficher) : « La présentation commence lundi à 13 h dans la salle polyvalente. »\nMESSAGE B (oral, script lu exactement deux fois au maximum par le responsable) : « Les spectateurs entrent par la porte près du préau. »",
+      "message_A_ecrit": "« La présentation commence lundi à 13 h dans la salle polyvalente. »",
+      "message_B_script_oral": "« Les spectateurs entrent par la porte près du préau. »",
+      "reponse_attendue": "Exemple de production recevable, non modèle obligatoire : « Lundi à 13 h, la présentation se déroule dans la salle polyvalente. Entre par la porte près du préau. » Vérifier les faits invariants par source plutôt que l’identité de la formulation. Ne pas accepter des renseignements inventés.",
+      "faits_attendus": {
+        "source_A": [
+          "lundi",
+          "13 h",
+          "salle polyvalente",
+          "présentation"
+        ],
+        "source_B": [
+          "entrée des spectateurs",
+          "porte près du préau"
+        ]
+      },
+      "erreurs_a_eviter": "Ne pas déduire que le préau est le lieu de la présentation.",
+      "criteres": [
+        "Le message final réemploie de manière exacte au moins une information de A et au moins une de B.",
+        "Tous les faits retenus sont retrouvables directement dans les messages et aucune contrainte de temps ou de lieu n’est déformée.",
+        "La formulation est intelligible en français et adaptée au destinataire mentionné sans imposer un accent ou registre unique."
+      ],
+      "feedback": "Si un fait manque, demander après l’essai quelle source contient ce fait, puis faire un entraînement sur une autre paire. Si un fait est modifié, nommer sa valeur correcte en montrant la source sans sanctionner l’accent. Vigilance propre à cet item : Ne pas déduire que le préau est le lieu de la présentation.",
+      "difficulte": "intermediaire",
+      "representation": "présentation orale ou écrite d’un événement à partir de deux sources",
+      "conditions_evaluation": "A est écrit, B est lu à l’oral à débit clair identique, sans paraphrase; jusqu’à deux lectures strictement identiques. Réponse orale, écrite, dictée ou assistée selon le besoin; supports d’accès non directifs admis. La transcription de B est une accommodation décidée avant passation et consignée.",
+      "variations_permises": "La production peut varier dans ses mots et son ordre si les faits et la tâche demeurent fidèles. Accessibilité : agrandissement, temps, lecture répétée à l’identique, oral/écrit/CAA; aucun fait du corpus n’est substituable automatiquement.",
+      "limites_variation": "Aucune génération IA libre ni changement de scripts, dates, quantités, lieux, destinataire ou preuve attendue. La rubrique et les informations invariantes restent fixes.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-fls-007-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Tu es responsable d’expliquer l’activité à une personne absente. Donne une consigne en français clair qui dit où aller et ce qu’il faut faire en premier.",
+      "stimulus": "Contexte fictif : réunion de lecteurs fictive\nMESSAGE A (écrit à afficher) : « Vendredi à 10 h 30, les lecteurs se réunissent au coin lecture de la classe. »\nMESSAGE B (oral, script lu exactement deux fois au maximum par le responsable) : « Chacun montre d’abord la couverture du livre choisi. »",
+      "message_A_ecrit": "« Vendredi à 10 h 30, les lecteurs se réunissent au coin lecture de la classe. »",
+      "message_B_script_oral": "« Chacun montre d’abord la couverture du livre choisi. »",
+      "reponse_attendue": "Exemple de production recevable, non modèle obligatoire : « Vendredi à 10 h 30, viens au coin lecture de la classe. Commence par montrer la couverture du livre que tu as choisi. » Vérifier les faits invariants par source plutôt que l’identité de la formulation. Ne pas accepter des renseignements inventés.",
+      "faits_attendus": {
+        "source_A": [
+          "vendredi",
+          "10 h 30",
+          "coin lecture de la classe"
+        ],
+        "source_B": [
+          "montrer la couverture en premier",
+          "livre choisi"
+        ]
+      },
+      "erreurs_a_eviter": "Ne pas confondre montrer la couverture et lire tout le livre, ni modifier 10 h 30.",
+      "criteres": [
+        "Le message final réemploie de manière exacte au moins une information de A et au moins une de B.",
+        "Tous les faits retenus sont retrouvables directement dans les messages et aucune contrainte de temps ou de lieu n’est déformée.",
+        "La formulation est intelligible en français et adaptée au destinataire mentionné sans imposer un accent ou registre unique."
+      ],
+      "feedback": "Si un fait manque, demander après l’essai quelle source contient ce fait, puis faire un entraînement sur une autre paire. Si un fait est modifié, nommer sa valeur correcte en montrant la source sans sanctionner l’accent. Vigilance propre à cet item : Ne pas confondre montrer la couverture et lire tout le livre, ni modifier 10 h 30.",
+      "difficulte": "transfert",
+      "representation": "consigne pour absent combinant horaire et action séquentielle",
+      "conditions_evaluation": "A est écrit, B est lu à l’oral à débit clair identique, sans paraphrase; jusqu’à deux lectures strictement identiques. Réponse orale, écrite, dictée ou assistée selon le besoin; supports d’accès non directifs admis. La transcription de B est une accommodation décidée avant passation et consignée.",
+      "variations_permises": "La production peut varier dans ses mots et son ordre si les faits et la tâche demeurent fidèles. Accessibilité : agrandissement, temps, lecture répétée à l’identique, oral/écrit/CAA; aucun fait du corpus n’est substituable automatiquement.",
+      "limites_variation": "Aucune génération IA libre ni changement de scripts, dates, quantités, lieux, destinataire ou preuve attendue. La rubrique et les informations invariantes restent fixes.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": null
+    },
+    {
+      "item_id": "qc-pri-fls-007-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-007-ev-01",
+      "mode": "fixe",
+      "consigne": "ÉPREUVE A, sans modèle : prépare une présentation ou consigne pour une famille fictive qui visite la fête pour la première fois. Utilise des informations utiles tirées des deux messages, préserve la distinction accueil/ateliers, puis montre ou explique au correcteur d’où viennent deux faits. La formulation est libre et peut être orale, écrite ou assistée.",
+      "stimulus": "Contexte fictif : FÊTE DES SCIENCES IMAGINAIRE; preuve autonome 1; visiteurs nouveaux\nMESSAGE A (écrit à afficher) : « Samedi, la fête des sciences a lieu dans la salle polyvalente. L’accueil ouvre à 10 h. »\nMESSAGE B (oral, script lu exactement deux fois au maximum par le responsable) : « Les ateliers commencent à 10 h 30. À l’accueil, les visiteurs reçoivent un programme. Apportez un crayon. »",
+      "message_A_ecrit": "« Samedi, la fête des sciences a lieu dans la salle polyvalente. L’accueil ouvre à 10 h. »",
+      "message_B_script_oral": "« Les ateliers commencent à 10 h 30. À l’accueil, les visiteurs reçoivent un programme. Apportez un crayon. »",
+      "reponse_attendue": "Exemple de production recevable, non modèle obligatoire : « Samedi, rejoignez la fête des sciences dans la salle polyvalente. L’accueil ouvre à 10 h et donne un programme aux visiteurs. Les ateliers commencent à 10 h 30; apportez un crayon. » Vérifier les faits invariants par source plutôt que l’identité de la formulation. Ne pas accepter des renseignements inventés.",
+      "faits_attendus": {
+        "source_A": [
+          "samedi",
+          "fête des sciences",
+          "salle polyvalente",
+          "accueil à 10 h"
+        ],
+        "source_B": [
+          "ateliers à 10 h 30",
+          "programme donné à l’accueil",
+          "apporter un crayon"
+        ]
+      },
+      "erreurs_a_eviter": "Ne pas écrire que les ateliers commencent à 10 h : c’est l’accueil; ne pas inventer une inscription payante.",
+      "criteres": [
+        "M1. Au moins deux faits exacts et pertinents issus du texte A sont présents.",
+        "M2. Au moins deux faits exacts et pertinents issus du message oral B sont présents.",
+        "M3. Aucune valeur, lieu, obligation ou relation de chronologie n’est déformée et aucun ajout non attesté n’est présenté comme un fait.",
+        "M4. La production est une consigne ou présentation personnelle intelligible, adaptée au destinataire et différente d’une simple juxtaposition copiée.",
+        "M5. La sélection et la reformulation sont autonomes; la provenance d’au moins un fait de chaque message est explicitée sans indice directif."
+      ],
+      "feedback": "Si un fait manque, demander après l’essai quelle source contient ce fait, puis faire un entraînement sur une autre paire. Si un fait est modifié, nommer sa valeur correcte en montrant la source sans sanctionner l’accent. Vigilance propre à cet item : Ne pas écrire que les ateliers commencent à 10 h : c’est l’accueil; ne pas inventer une inscription payante.",
+      "difficulte": "transfert",
+      "representation": "preuve complète A : texte A + oral B + annonce adressée à des visiteurs + justification de provenance",
+      "conditions_evaluation": "A est écrit, B est lu à l’oral à débit clair identique, sans paraphrase; jusqu’à deux lectures strictement identiques. Réponse orale, écrite, dictée ou assistée selon le besoin; supports d’accès non directifs admis. La transcription de B est une accommodation décidée avant passation et consignée.",
+      "variations_permises": "La production peut varier dans ses mots et son ordre si les faits et la tâche demeurent fidèles. Accessibilité : agrandissement, temps, lecture répétée à l’identique, oral/écrit/CAA; aucun fait du corpus n’est substituable automatiquement.",
+      "limites_variation": "Aucune génération IA libre ni changement de scripts, dates, quantités, lieux, destinataire ou preuve attendue. La rubrique et les informations invariantes restent fixes.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A — Présentation d’une fête fictive aux visiteurs, première manifestation complète"
+    },
+    {
+      "item_id": "qc-pri-fls-007-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-007-ev-01",
+      "mode": "fixe",
+      "consigne": "ÉPREUVE B, sans reprise de l’annonce de la fête : prépare une consigne ou présentation à une personne bénévole qui rejoint le jardin collectif pour la première fois. Combine les deux messages avec une formulation personnelle, explique une information de chaque source et ne suppose aucun autre matériel.",
+      "stimulus": "Contexte fictif : JARDIN COLLECTIF IMAGINAIRE; preuve autonome 2; nouveaux bénévoles\nMESSAGE A (écrit à afficher) : « Mercredi à 9 h, les bénévoles se retrouvent près du cabanon du jardin collectif. Porte des chaussures fermées. »\nMESSAGE B (oral, script lu exactement deux fois au maximum par le responsable) : « On commence par arroser les jeunes plants. L’animateur distribue les outils. »",
+      "message_A_ecrit": "« Mercredi à 9 h, les bénévoles se retrouvent près du cabanon du jardin collectif. Porte des chaussures fermées. »",
+      "message_B_script_oral": "« On commence par arroser les jeunes plants. L’animateur distribue les outils. »",
+      "reponse_attendue": "Exemple de production recevable, non modèle obligatoire : « Mercredi à 9 h, retrouve le groupe près du cabanon du jardin collectif. Porte des chaussures fermées. Pour commencer, arrose les jeunes plants; l’animateur distribue les outils. » Vérifier les faits invariants par source plutôt que l’identité de la formulation. Ne pas accepter des renseignements inventés.",
+      "faits_attendus": {
+        "source_A": [
+          "mercredi",
+          "9 h",
+          "près du cabanon",
+          "chaussures fermées"
+        ],
+        "source_B": [
+          "commencer par arroser les jeunes plants",
+          "outils distribués par l’animateur"
+        ]
+      },
+      "erreurs_a_eviter": "Ne pas changer mercredi en jeudi, ne pas demander d’apporter ses propres outils, ne pas inverser distribution et arrosage en imposant une nouvelle règle.",
+      "criteres": [
+        "M1. Au moins deux faits exacts et pertinents issus du texte A sont présents.",
+        "M2. Au moins deux faits exacts et pertinents issus du message oral B sont présents.",
+        "M3. Aucune valeur, lieu, obligation ou relation de chronologie n’est déformée et aucun ajout non attesté n’est présenté comme un fait.",
+        "M4. La production est une consigne ou présentation personnelle intelligible, adaptée au destinataire et différente d’une simple juxtaposition copiée.",
+        "M5. La sélection et la reformulation sont autonomes; la provenance d’au moins un fait de chaque message est explicitée sans indice directif."
+      ],
+      "feedback": "Si un fait manque, demander après l’essai quelle source contient ce fait, puis faire un entraînement sur une autre paire. Si un fait est modifié, nommer sa valeur correcte en montrant la source sans sanctionner l’accent. Vigilance propre à cet item : Ne pas changer mercredi en jeudi, ne pas demander d’apporter ses propres outils, ne pas inverser distribution et arrosage en imposant une nouvelle règle.",
+      "difficulte": "transfert",
+      "representation": "preuve complète B : consigne de bénévolat issue de deux sources distinctes + justification de provenance",
+      "conditions_evaluation": "A est écrit, B est lu à l’oral à débit clair identique, sans paraphrase; jusqu’à deux lectures strictement identiques. Réponse orale, écrite, dictée ou assistée selon le besoin; supports d’accès non directifs admis. La transcription de B est une accommodation décidée avant passation et consignée.",
+      "variations_permises": "La production peut varier dans ses mots et son ordre si les faits et la tâche demeurent fidèles. Accessibilité : agrandissement, temps, lecture répétée à l’identique, oral/écrit/CAA; aucun fait du corpus n’est substituable automatiquement.",
+      "limites_variation": "Aucune génération IA libre ni changement de scripts, dates, quantités, lieux, destinataire ou preuve attendue. La rubrique et les informations invariantes restent fixes.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B — Consigne à de nouveaux bénévoles du jardin fictif, deuxième manifestation indépendante"
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-014",
+  "family_id": "qc-pri-fr-014-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-014-q-001",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-fr-014-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Segmente la phrase en GN sujet et GV prédicat; relève le GN complément direct intérieur au GV et indique le verbe conjugué.",
+      "stimulus": "Contexte : Repérer la structure de base.\n1. Le chat attrape une souris.",
+      "reponse_attendue": "1. Le chat attrape une souris. → GN sujet {Le chat} | GV prédicat {attrape GN CD {une souris}}. Sujet : « Il attrape une souris. »; CD : « Le chat l’attrape. ».\nFonctions : chaque GN sujet occupe la fonction sujet; chaque GV occupe la fonction prédicat; son GN CD y demeure inclus. La nature « GN » ne signifie pas automatiquement « sujet ». ",
+      "criteres": [
+        "Délimiter intégralement le GN sujet et le GV prédicat sans séparer le complément direct du GV.",
+        "Identifier nature GN/GV et fonction sujet/prédicat/CD, sans les confondre.",
+        "Justifier les fonctions par les substitutions grammaticales explicitement attendues (il/elle/ils/elles, le/la/les ou élision).",
+        "Maintenir les frontières et les justifications sur la totalité des phrases présentées; pas d’indice de fond pour une preuve autonome."
+      ],
+      "feedback": "Le GV contient le verbe conjugué et son complément direct : « attrape une souris », pas seulement « attrape ». Si une fonction reste non justifiée, vérifier un remplacement exact et refaire une phrase nouvelle.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases écrites; accolades GN sujet / GV prédicat / GN CD enchâssé; justification écrite, orale ou étiquettes avec transcription neutre",
+      "variabilite_permise": "Stimulus, ordre des phrases et analyse fixés; seulement taille de police, lecture neutre, découpage visuel et mode de réponse peuvent varier. Aucun générateur ou correcteur IA libre.",
+      "analyse_controlee": [
+        {
+          "phrase": "Le chat attrape une souris.",
+          "complement_phrase": null,
+          "gn_sujet": "Le chat",
+          "gv_predicat": "attrape une souris",
+          "gn_cd": "une souris",
+          "verbe_conjugue": "attrape",
+          "substitution_sujet": "Il attrape une souris.",
+          "substitution_cd": "Le chat l’attrape."
+        }
+      ],
+      "securite_accessibilite": "Pas de données personnelles. Lecture orale/synthèse et étiquettes manipulables permises; distinguer analyse syntaxique du décodage et de l’orthographe. Corrigé fixé, évaluation humaine.",
+      "couverture": "GN sujet, GV prédicat et inclusion du GN CD"
+    },
+    {
+      "item_id": "qc-pri-fr-014-q-002",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-fr-014-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Segmente la phrase, puis justifie pourquoi l’adjectif fait partie du GN sujet. Donne le rôle du second GN.",
+      "stimulus": "Contexte : Conserver les adjectifs dans le GN.\n1. Les grandes fenêtres éclairent la salle.",
+      "reponse_attendue": "1. Les grandes fenêtres éclairent la salle. → GN sujet {Les grandes fenêtres} | GV prédicat {éclairent GN CD {la salle}}. Sujet : « Elles éclairent la salle. »; CD : « Les grandes fenêtres l’éclairent. ».\nFonctions : chaque GN sujet occupe la fonction sujet; chaque GV occupe la fonction prédicat; son GN CD y demeure inclus. La nature « GN » ne signifie pas automatiquement « sujet ». ",
+      "criteres": [
+        "Délimiter intégralement le GN sujet et le GV prédicat sans séparer le complément direct du GV.",
+        "Identifier nature GN/GV et fonction sujet/prédicat/CD, sans les confondre.",
+        "Justifier les fonctions par les substitutions grammaticales explicitement attendues (il/elle/ils/elles, le/la/les ou élision).",
+        "Maintenir les frontières et les justifications sur la totalité des phrases présentées; pas d’indice de fond pour une preuve autonome."
+      ],
+      "feedback": "Ne sépare pas « grandes » de « Les fenêtres » : le GN complet « Les grandes fenêtres » peut devenir « Elles ». Si une fonction reste non justifiée, vérifier un remplacement exact et refaire une phrase nouvelle.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases écrites; accolades GN sujet / GV prédicat / GN CD enchâssé; justification écrite, orale ou étiquettes avec transcription neutre",
+      "variabilite_permise": "Stimulus, ordre des phrases et analyse fixés; seulement taille de police, lecture neutre, découpage visuel et mode de réponse peuvent varier. Aucun générateur ou correcteur IA libre.",
+      "analyse_controlee": [
+        {
+          "phrase": "Les grandes fenêtres éclairent la salle.",
+          "complement_phrase": null,
+          "gn_sujet": "Les grandes fenêtres",
+          "gv_predicat": "éclairent la salle",
+          "gn_cd": "la salle",
+          "verbe_conjugue": "éclairent",
+          "substitution_sujet": "Elles éclairent la salle.",
+          "substitution_cd": "Les grandes fenêtres l’éclairent."
+        }
+      ],
+      "securite_accessibilite": "Pas de données personnelles. Lecture orale/synthèse et étiquettes manipulables permises; distinguer analyse syntaxique du décodage et de l’orthographe. Corrigé fixé, évaluation humaine.",
+      "couverture": "frontière entière du GN contenant un adjectif"
+    },
+    {
+      "item_id": "qc-pri-fr-014-q-003",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-fr-014-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Désigne les deux GN, indique leurs noms noyaux et compare leurs fonctions. Donne une substitution de chaque GN.",
+      "stimulus": "Contexte : Un GN dans deux fonctions.\n1. La gardienne ouvre la porte.",
+      "reponse_attendue": "1. La gardienne ouvre la porte. → GN sujet {La gardienne} | GV prédicat {ouvre GN CD {la porte}}. Sujet : « Elle ouvre la porte. »; CD : « La gardienne l’ouvre. ».\nFonctions : chaque GN sujet occupe la fonction sujet; chaque GV occupe la fonction prédicat; son GN CD y demeure inclus. La nature « GN » ne signifie pas automatiquement « sujet ». ",
+      "criteres": [
+        "Délimiter intégralement le GN sujet et le GV prédicat sans séparer le complément direct du GV.",
+        "Identifier nature GN/GV et fonction sujet/prédicat/CD, sans les confondre.",
+        "Justifier les fonctions par les substitutions grammaticales explicitement attendues (il/elle/ils/elles, le/la/les ou élision).",
+        "Maintenir les frontières et les justifications sur la totalité des phrases présentées; pas d’indice de fond pour une preuve autonome."
+      ],
+      "feedback": "Les deux groupes sont GN par nature; le premier est sujet et le deuxième, complément direct du verbe. Si une fonction reste non justifiée, vérifier un remplacement exact et refaire une phrase nouvelle.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases écrites; accolades GN sujet / GV prédicat / GN CD enchâssé; justification écrite, orale ou étiquettes avec transcription neutre",
+      "variabilite_permise": "Stimulus, ordre des phrases et analyse fixés; seulement taille de police, lecture neutre, découpage visuel et mode de réponse peuvent varier. Aucun générateur ou correcteur IA libre.",
+      "analyse_controlee": [
+        {
+          "phrase": "La gardienne ouvre la porte.",
+          "complement_phrase": null,
+          "gn_sujet": "La gardienne",
+          "gv_predicat": "ouvre la porte",
+          "gn_cd": "la porte",
+          "verbe_conjugue": "ouvre",
+          "substitution_sujet": "Elle ouvre la porte.",
+          "substitution_cd": "La gardienne l’ouvre."
+        }
+      ],
+      "securite_accessibilite": "Pas de données personnelles. Lecture orale/synthèse et étiquettes manipulables permises; distinguer analyse syntaxique du décodage et de l’orthographe. Corrigé fixé, évaluation humaine.",
+      "couverture": "nature GN et fonctions distinctes"
+    },
+    {
+      "item_id": "qc-pri-fr-014-q-004",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-fr-014-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Un élève dit : « Le GV est seulement remplissent; les gourdes est hors du GV. » Corrige l’analyse et justifie le rôle de chaque groupe.",
+      "stimulus": "Contexte : Rectifier une fausse coupure.\n1. Les jeunes sportifs remplissent les gourdes.",
+      "reponse_attendue": "1. Les jeunes sportifs remplissent les gourdes. → GN sujet {Les jeunes sportifs} | GV prédicat {remplissent GN CD {les gourdes}}. Sujet : « Ils remplissent les gourdes. »; CD : « Les jeunes sportifs les remplissent. ».\nFonctions : chaque GN sujet occupe la fonction sujet; chaque GV occupe la fonction prédicat; son GN CD y demeure inclus. La nature « GN » ne signifie pas automatiquement « sujet ». ",
+      "criteres": [
+        "Délimiter intégralement le GN sujet et le GV prédicat sans séparer le complément direct du GV.",
+        "Identifier nature GN/GV et fonction sujet/prédicat/CD, sans les confondre.",
+        "Justifier les fonctions par les substitutions grammaticales explicitement attendues (il/elle/ils/elles, le/la/les ou élision).",
+        "Maintenir les frontières et les justifications sur la totalité des phrases présentées; pas d’indice de fond pour une preuve autonome."
+      ],
+      "feedback": "Dans ce cas, « les gourdes » est un GN CD lié au verbe « remplissent » et se trouve dans le GV prédicat. Si une fonction reste non justifiée, vérifier un remplacement exact et refaire une phrase nouvelle.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases écrites; accolades GN sujet / GV prédicat / GN CD enchâssé; justification écrite, orale ou étiquettes avec transcription neutre",
+      "variabilite_permise": "Stimulus, ordre des phrases et analyse fixés; seulement taille de police, lecture neutre, découpage visuel et mode de réponse peuvent varier. Aucun générateur ou correcteur IA libre.",
+      "analyse_controlee": [
+        {
+          "phrase": "Les jeunes sportifs remplissent les gourdes.",
+          "complement_phrase": null,
+          "gn_sujet": "Les jeunes sportifs",
+          "gv_predicat": "remplissent les gourdes",
+          "gn_cd": "les gourdes",
+          "verbe_conjugue": "remplissent",
+          "substitution_sujet": "Ils remplissent les gourdes.",
+          "substitution_cd": "Les jeunes sportifs les remplissent."
+        }
+      ],
+      "securite_accessibilite": "Pas de données personnelles. Lecture orale/synthèse et étiquettes manipulables permises; distinguer analyse syntaxique du décodage et de l’orthographe. Corrigé fixé, évaluation humaine.",
+      "couverture": "corriger une segmentation de GV tronquée"
+    },
+    {
+      "item_id": "qc-pri-fr-014-q-005",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-fr-014-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Analyse la phrase au premier puis au deuxième niveau. Écris « nature » et « fonction » pour chaque GN et justifie par remplacement.",
+      "stimulus": "Contexte : Comparer nature et fonction.\n1. Ce cuisinier prépare la soupe.",
+      "reponse_attendue": "1. Ce cuisinier prépare la soupe. → GN sujet {Ce cuisinier} | GV prédicat {prépare GN CD {la soupe}}. Sujet : « Il prépare la soupe. »; CD : « Ce cuisinier la prépare. ».\nFonctions : chaque GN sujet occupe la fonction sujet; chaque GV occupe la fonction prédicat; son GN CD y demeure inclus. La nature « GN » ne signifie pas automatiquement « sujet ». ",
+      "criteres": [
+        "Délimiter intégralement le GN sujet et le GV prédicat sans séparer le complément direct du GV.",
+        "Identifier nature GN/GV et fonction sujet/prédicat/CD, sans les confondre.",
+        "Justifier les fonctions par les substitutions grammaticales explicitement attendues (il/elle/ils/elles, le/la/les ou élision).",
+        "Maintenir les frontières et les justifications sur la totalité des phrases présentées; pas d’indice de fond pour une preuve autonome."
+      ],
+      "feedback": "« la soupe » reste un GN par nature même s’il n’est pas le sujet; il complète directement le verbe. Si une fonction reste non justifiée, vérifier un remplacement exact et refaire une phrase nouvelle.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases écrites; accolades GN sujet / GV prédicat / GN CD enchâssé; justification écrite, orale ou étiquettes avec transcription neutre",
+      "variabilite_permise": "Stimulus, ordre des phrases et analyse fixés; seulement taille de police, lecture neutre, découpage visuel et mode de réponse peuvent varier. Aucun générateur ou correcteur IA libre.",
+      "analyse_controlee": [
+        {
+          "phrase": "Ce cuisinier prépare la soupe.",
+          "complement_phrase": null,
+          "gn_sujet": "Ce cuisinier",
+          "gv_predicat": "prépare la soupe",
+          "gn_cd": "la soupe",
+          "verbe_conjugue": "prépare",
+          "substitution_sujet": "Il prépare la soupe.",
+          "substitution_cd": "Ce cuisinier la prépare."
+        }
+      ],
+      "securite_accessibilite": "Pas de données personnelles. Lecture orale/synthèse et étiquettes manipulables permises; distinguer analyse syntaxique du décodage et de l’orthographe. Corrigé fixé, évaluation humaine.",
+      "couverture": "justification argumentée et hiérarchie"
+    },
+    {
+      "item_id": "qc-pri-fr-014-q-006",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-fr-014-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Isole le complément de phrase, puis segmente le GN sujet et le GV; délimite le GN CD. Prouve que le premier groupe peut se déplacer.",
+      "stimulus": "Contexte : Distinguer un complément de phrase.\n1. Avant le spectacle, les artistes installent les décors.",
+      "reponse_attendue": "1. Avant le spectacle, les artistes installent les décors. → GPrép complément de phrase {Avant le spectacle} | GN sujet {les artistes} | GV prédicat {installent GN CD {les décors}}. Sujet : « Avant le spectacle, ils installent les décors. »; CD : « Avant le spectacle, les artistes les installent. ».\nFonctions : chaque GN sujet occupe la fonction sujet; chaque GV occupe la fonction prédicat; son GN CD y demeure inclus. La nature « GN » ne signifie pas automatiquement « sujet ». ",
+      "criteres": [
+        "Délimiter intégralement le GN sujet et le GV prédicat sans séparer le complément direct du GV.",
+        "Identifier nature GN/GV et fonction sujet/prédicat/CD, sans les confondre.",
+        "Justifier les fonctions par les substitutions grammaticales explicitement attendues (il/elle/ils/elles, le/la/les ou élision).",
+        "Maintenir les frontières et les justifications sur la totalité des phrases présentées; pas d’indice de fond pour une preuve autonome."
+      ],
+      "feedback": "« Avant le spectacle » est ici un complément de phrase mobile; il n’appartient pas au GV « installent les décors ». Si une fonction reste non justifiée, vérifier un remplacement exact et refaire une phrase nouvelle.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases écrites; accolades GN sujet / GV prédicat / GN CD enchâssé; justification écrite, orale ou étiquettes avec transcription neutre",
+      "variabilite_permise": "Stimulus, ordre des phrases et analyse fixés; seulement taille de police, lecture neutre, découpage visuel et mode de réponse peuvent varier. Aucun générateur ou correcteur IA libre.",
+      "analyse_controlee": [
+        {
+          "phrase": "Avant le spectacle, les artistes installent les décors.",
+          "complement_phrase": "Avant le spectacle",
+          "gn_sujet": "les artistes",
+          "gv_predicat": "installent les décors",
+          "gn_cd": "les décors",
+          "verbe_conjugue": "installent",
+          "substitution_sujet": "Avant le spectacle, ils installent les décors.",
+          "substitution_cd": "Avant le spectacle, les artistes les installent."
+        }
+      ],
+      "securite_accessibilite": "Pas de données personnelles. Lecture orale/synthèse et étiquettes manipulables permises; distinguer analyse syntaxique du décodage et de l’orthographe. Corrigé fixé, évaluation humaine.",
+      "couverture": "complément de phrase distinct du CD et du prédicat"
+    },
+    {
+      "item_id": "qc-pri-fr-014-q-007",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-fr-014-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Dans cette phrase, montre la frontière complète du GN sujet et explique la place du groupe « du quartier ». Trouve le GN CD dans le GV.",
+      "stimulus": "Contexte : Conserver une expansion dans le sujet.\n1. Les voisins du quartier plantent un érable.",
+      "reponse_attendue": "1. Les voisins du quartier plantent un érable. → GN sujet {Les voisins du quartier} | GV prédicat {plantent GN CD {un érable}}. Sujet : « Ils plantent un érable. »; CD : « Les voisins du quartier le plantent. ».\nFonctions : chaque GN sujet occupe la fonction sujet; chaque GV occupe la fonction prédicat; son GN CD y demeure inclus. La nature « GN » ne signifie pas automatiquement « sujet ». ",
+      "criteres": [
+        "Délimiter intégralement le GN sujet et le GV prédicat sans séparer le complément direct du GV.",
+        "Identifier nature GN/GV et fonction sujet/prédicat/CD, sans les confondre.",
+        "Justifier les fonctions par les substitutions grammaticales explicitement attendues (il/elle/ils/elles, le/la/les ou élision).",
+        "Maintenir les frontières et les justifications sur la totalité des phrases présentées; pas d’indice de fond pour une preuve autonome."
+      ],
+      "feedback": "Le sujet est « Les voisins du quartier » en entier. « du quartier » complète le nom « voisins », pas le verbe « plantent ». Si une fonction reste non justifiée, vérifier un remplacement exact et refaire une phrase nouvelle.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases écrites; accolades GN sujet / GV prédicat / GN CD enchâssé; justification écrite, orale ou étiquettes avec transcription neutre",
+      "variabilite_permise": "Stimulus, ordre des phrases et analyse fixés; seulement taille de police, lecture neutre, découpage visuel et mode de réponse peuvent varier. Aucun générateur ou correcteur IA libre.",
+      "analyse_controlee": [
+        {
+          "phrase": "Les voisins du quartier plantent un érable.",
+          "complement_phrase": null,
+          "gn_sujet": "Les voisins du quartier",
+          "gv_predicat": "plantent un érable",
+          "gn_cd": "un érable",
+          "verbe_conjugue": "plantent",
+          "substitution_sujet": "Ils plantent un érable.",
+          "substitution_cd": "Les voisins du quartier le plantent."
+        }
+      ],
+      "securite_accessibilite": "Pas de données personnelles. Lecture orale/synthèse et étiquettes manipulables permises; distinguer analyse syntaxique du décodage et de l’orthographe. Corrigé fixé, évaluation humaine.",
+      "couverture": "GN sujet avec expansion prépositionnelle et GV"
+    },
+    {
+      "item_id": "qc-pri-fr-014-q-008",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-fr-014-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Segmente la phrase et écris deux manipulations différentes : une pour reconnaître le sujet et l’autre pour reconnaître le complément direct; explique pourquoi le CD est dans le GV.",
+      "stimulus": "Contexte : Justifier deux fonctions indépendamment.\n1. Ce mécanicien répare le vélo.",
+      "reponse_attendue": "1. Ce mécanicien répare le vélo. → GN sujet {Ce mécanicien} | GV prédicat {répare GN CD {le vélo}}. Sujet : « Il répare le vélo. »; CD : « Ce mécanicien le répare. ».\nFonctions : chaque GN sujet occupe la fonction sujet; chaque GV occupe la fonction prédicat; son GN CD y demeure inclus. La nature « GN » ne signifie pas automatiquement « sujet ». ",
+      "criteres": [
+        "Délimiter intégralement le GN sujet et le GV prédicat sans séparer le complément direct du GV.",
+        "Identifier nature GN/GV et fonction sujet/prédicat/CD, sans les confondre.",
+        "Justifier les fonctions par les substitutions grammaticales explicitement attendues (il/elle/ils/elles, le/la/les ou élision).",
+        "Maintenir les frontières et les justifications sur la totalité des phrases présentées; pas d’indice de fond pour une preuve autonome."
+      ],
+      "feedback": "« Il répare le vélo » justifie le sujet; « Ce mécanicien le répare » justifie le CD; le GV complet est « répare le vélo ». Si une fonction reste non justifiée, vérifier un remplacement exact et refaire une phrase nouvelle.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases écrites; accolades GN sujet / GV prédicat / GN CD enchâssé; justification écrite, orale ou étiquettes avec transcription neutre",
+      "variabilite_permise": "Stimulus, ordre des phrases et analyse fixés; seulement taille de police, lecture neutre, découpage visuel et mode de réponse peuvent varier. Aucun générateur ou correcteur IA libre.",
+      "analyse_controlee": [
+        {
+          "phrase": "Ce mécanicien répare le vélo.",
+          "complement_phrase": null,
+          "gn_sujet": "Ce mécanicien",
+          "gv_predicat": "répare le vélo",
+          "gn_cd": "le vélo",
+          "verbe_conjugue": "répare",
+          "substitution_sujet": "Il répare le vélo.",
+          "substitution_cd": "Ce mécanicien le répare."
+        }
+      ],
+      "securite_accessibilite": "Pas de données personnelles. Lecture orale/synthèse et étiquettes manipulables permises; distinguer analyse syntaxique du décodage et de l’orthographe. Corrigé fixé, évaluation humaine.",
+      "couverture": "argumentation sans indication de frontière"
+    },
+    {
+      "item_id": "qc-pri-fr-014-q-009",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-fr-014-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Sans aide grammaticale, analyse ces TROIS phrases du projet d’école. Pour chacune : délimite le GN sujet et le GV prédicat, indique le GN complément direct imbriqué, distingue nature et fonction, puis écris une manipulation valide du sujet et une du CD. Explique en une phrase pourquoi le CD appartient au GV.",
+      "stimulus": "Contexte : PREUVE 1 — Projets à l’école.\n1. Les jeunes élèves rangent les cahiers.\n2. La bibliothécaire prépare une affiche.\n3. Les deux groupes décorent la salle.",
+      "reponse_attendue": "1. Les jeunes élèves rangent les cahiers. → GN sujet {Les jeunes élèves} | GV prédicat {rangent GN CD {les cahiers}}. Sujet : « Ils rangent les cahiers. »; CD : « Les jeunes élèves les rangent. ».\n2. La bibliothécaire prépare une affiche. → GN sujet {La bibliothécaire} | GV prédicat {prépare GN CD {une affiche}}. Sujet : « Elle prépare une affiche. »; CD : « La bibliothécaire la prépare. ».\n3. Les deux groupes décorent la salle. → GN sujet {Les deux groupes} | GV prédicat {décorent GN CD {la salle}}. Sujet : « Ils décorent la salle. »; CD : « Les deux groupes la décorent. ».\nFonctions : chaque GN sujet occupe la fonction sujet; chaque GV occupe la fonction prédicat; son GN CD y demeure inclus. La nature « GN » ne signifie pas automatiquement « sujet ». La maîtrise est attestée par une analyse autonome de toutes les trois phrases et les substitutions, pas par une préférence de formulation.",
+      "criteres": [
+        "Délimiter intégralement le GN sujet et le GV prédicat sans séparer le complément direct du GV.",
+        "Identifier nature GN/GV et fonction sujet/prédicat/CD, sans les confondre.",
+        "Justifier les fonctions par les substitutions grammaticales explicitement attendues (il/elle/ils/elles, le/la/les ou élision).",
+        "Maintenir les frontières et les justifications sur la totalité des phrases présentées; pas d’indice de fond pour une preuve autonome."
+      ],
+      "feedback": "Pour les trois phrases, le complément direct nominal reste dans le GV. Une simple liste de noms sans fonctions ni manipulation est insuffisante pour la maîtrise. Si une fonction reste non justifiée, vérifier un remplacement exact et refaire une phrase nouvelle.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases écrites; accolades GN sujet / GV prédicat / GN CD enchâssé; justification écrite, orale ou étiquettes avec transcription neutre",
+      "variabilite_permise": "Stimulus, ordre des phrases et analyse fixés; seulement taille de police, lecture neutre, découpage visuel et mode de réponse peuvent varier. Aucun générateur ou correcteur IA libre.",
+      "analyse_controlee": [
+        {
+          "phrase": "Les jeunes élèves rangent les cahiers.",
+          "complement_phrase": null,
+          "gn_sujet": "Les jeunes élèves",
+          "gv_predicat": "rangent les cahiers",
+          "gn_cd": "les cahiers",
+          "verbe_conjugue": "rangent",
+          "substitution_sujet": "Ils rangent les cahiers.",
+          "substitution_cd": "Les jeunes élèves les rangent."
+        },
+        {
+          "phrase": "La bibliothécaire prépare une affiche.",
+          "complement_phrase": null,
+          "gn_sujet": "La bibliothécaire",
+          "gv_predicat": "prépare une affiche",
+          "gn_cd": "une affiche",
+          "verbe_conjugue": "prépare",
+          "substitution_sujet": "Elle prépare une affiche.",
+          "substitution_cd": "La bibliothécaire la prépare."
+        },
+        {
+          "phrase": "Les deux groupes décorent la salle.",
+          "complement_phrase": null,
+          "gn_sujet": "Les deux groupes",
+          "gv_predicat": "décorent la salle",
+          "gn_cd": "la salle",
+          "verbe_conjugue": "décorent",
+          "substitution_sujet": "Ils décorent la salle.",
+          "substitution_cd": "Les deux groupes la décorent."
+        }
+      ],
+      "securite_accessibilite": "Pas de données personnelles. Lecture orale/synthèse et étiquettes manipulables permises; distinguer analyse syntaxique du décodage et de l’orthographe. Corrigé fixé, évaluation humaine.",
+      "couverture": "PREUVE AUTONOME A : trois phrases du contexte scolaire, frontières et fonctions justifiées",
+      "preuve_maitrise": "A",
+      "conditions_autonomie": "Deuxième lecture neutre possible, aucun indice sur les frontières/fonctions, aucune correction donnée durant l’essai; toutes les trois phrases analysées séparément."
+    },
+    {
+      "item_id": "qc-pri-fr-014-q-010",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-fr-014-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Sans modèle ni indice de contenu, analyse ces TROIS phrases sur le jardin collectif. Pour chacune : délimite le GN sujet et le GV prédicat, montre le GN complément direct intérieur, et justifie les fonctions à l’aide d’une substitution du sujet et d’une du CD. Termine en distinguant la nature GN/GV de la fonction sujet/prédicat/CD.",
+      "stimulus": "Contexte : PREUVE 2 — Jardin collectif.\n1. Les jardiniers plantent des tulipes.\n2. La voisine apporte une pelle.\n3. Les bénévoles remplissent les arrosoirs.",
+      "reponse_attendue": "1. Les jardiniers plantent des tulipes. → GN sujet {Les jardiniers} | GV prédicat {plantent GN CD {des tulipes}}. Sujet : « Ils plantent des tulipes. »; CD : « Les jardiniers les plantent. ».\n2. La voisine apporte une pelle. → GN sujet {La voisine} | GV prédicat {apporte GN CD {une pelle}}. Sujet : « Elle apporte une pelle. »; CD : « La voisine l’apporte. ».\n3. Les bénévoles remplissent les arrosoirs. → GN sujet {Les bénévoles} | GV prédicat {remplissent GN CD {les arrosoirs}}. Sujet : « Ils remplissent les arrosoirs. »; CD : « Les bénévoles les remplissent. ».\nFonctions : chaque GN sujet occupe la fonction sujet; chaque GV occupe la fonction prédicat; son GN CD y demeure inclus. La nature « GN » ne signifie pas automatiquement « sujet ». La maîtrise est attestée par une analyse autonome de toutes les trois phrases et les substitutions, pas par une préférence de formulation.",
+      "criteres": [
+        "Délimiter intégralement le GN sujet et le GV prédicat sans séparer le complément direct du GV.",
+        "Identifier nature GN/GV et fonction sujet/prédicat/CD, sans les confondre.",
+        "Justifier les fonctions par les substitutions grammaticales explicitement attendues (il/elle/ils/elles, le/la/les ou élision).",
+        "Maintenir les frontières et les justifications sur la totalité des phrases présentées; pas d’indice de fond pour une preuve autonome."
+      ],
+      "feedback": "Dans ce nouveau contexte, chacune des trois phrases doit être structurée au complet et justifiée. Une bonne note globale ne peut remplacer une seconde preuve autonome. Si une fonction reste non justifiée, vérifier un remplacement exact et refaire une phrase nouvelle.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases écrites; accolades GN sujet / GV prédicat / GN CD enchâssé; justification écrite, orale ou étiquettes avec transcription neutre",
+      "variabilite_permise": "Stimulus, ordre des phrases et analyse fixés; seulement taille de police, lecture neutre, découpage visuel et mode de réponse peuvent varier. Aucun générateur ou correcteur IA libre.",
+      "analyse_controlee": [
+        {
+          "phrase": "Les jardiniers plantent des tulipes.",
+          "complement_phrase": null,
+          "gn_sujet": "Les jardiniers",
+          "gv_predicat": "plantent des tulipes",
+          "gn_cd": "des tulipes",
+          "verbe_conjugue": "plantent",
+          "substitution_sujet": "Ils plantent des tulipes.",
+          "substitution_cd": "Les jardiniers les plantent."
+        },
+        {
+          "phrase": "La voisine apporte une pelle.",
+          "complement_phrase": null,
+          "gn_sujet": "La voisine",
+          "gv_predicat": "apporte une pelle",
+          "gn_cd": "une pelle",
+          "verbe_conjugue": "apporte",
+          "substitution_sujet": "Elle apporte une pelle.",
+          "substitution_cd": "La voisine l’apporte."
+        },
+        {
+          "phrase": "Les bénévoles remplissent les arrosoirs.",
+          "complement_phrase": null,
+          "gn_sujet": "Les bénévoles",
+          "gv_predicat": "remplissent les arrosoirs",
+          "gn_cd": "les arrosoirs",
+          "verbe_conjugue": "remplissent",
+          "substitution_sujet": "Ils remplissent les arrosoirs.",
+          "substitution_cd": "Les bénévoles les remplissent."
+        }
+      ],
+      "securite_accessibilite": "Pas de données personnelles. Lecture orale/synthèse et étiquettes manipulables permises; distinguer analyse syntaxique du décodage et de l’orthographe. Corrigé fixé, évaluation humaine.",
+      "couverture": "PREUVE AUTONOME B : trois phrases du jardin, autres noms/verbes et fonctions justifiées",
+      "preuve_maitrise": "B",
+      "conditions_autonomie": "Deuxième lecture neutre possible, aucun indice sur les frontières/fonctions, aucune correction donnée durant l’essai; toutes les trois phrases analysées séparément."
+    }
+  ]
+}

@@ -1,0 +1,845 @@
+{
+  "format": "ekole.parcours-roles/1",
+  "themes": {
+    "jardinage": {
+      "fermier": {
+        "course": "qc-pri-ma-009",
+        "bank": [
+          "qc-pri-ma-009-q-002",
+          "qc-pri-ma-009-q-004"
+        ],
+        "title": "Répartir les semences",
+        "scene": "Tu as 17 semences et des sachets de 4. Tu veux remplir le plus de sachets possible avant de compter les graines qui restent.",
+        "practice": {
+          "kind": "numeric",
+          "answer": "4",
+          "prompt": "Combien de sachets complets peux-tu préparer ?",
+          "hint": "Représente les quantités et vérifie ton résultat avec les données du défi."
+        },
+        "transfer": "Écris une égalité qui permet de vérifier les sachets pleins et le reste."
+      },
+      "jardinier": {
+        "course": "qc-pri-ma-027",
+        "bank": [
+          "qc-pri-ma-027-q-001",
+          "qc-pri-ma-027-q-002"
+        ],
+        "title": "Border une plate-bande",
+        "scene": "Le plan du jardin montre une plate-bande rectangulaire de 4 m sur 2 m. Tu dois prévoir la longueur de la bordure.",
+        "practice": {
+          "kind": "numeric",
+          "answer": "12",
+          "prompt": "Combien de mètres de bordure faut-il pour faire le tour ?",
+          "hint": "Représente les quantités et vérifie ton résultat avec les données du défi."
+        },
+        "transfer": "Suis les quatre côtés du plan et explique ce que tu as additionné."
+      },
+      "scientifique": {
+        "course": "qc-pri-st-001",
+        "bank": [
+          "qc-pri-st-001-q-002",
+          "qc-pri-st-001-q-004"
+        ],
+        "title": "Comparer les semis",
+        "scene": "Deux bacs ont été arrosés de la même manière. Après une semaine, le premier plant mesure 5 cm et le second 8 cm.",
+        "practice": {
+          "kind": "multiple_choice",
+          "options": [
+            "Le premier plant mesure 5 cm.",
+            "Le soleil a certainement causé la différence.",
+            "Le second plant mesure 8 cm."
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "prompt": "Quelles phrases décrivent des observations ?",
+          "hint": "Relève les mesures disponibles et sépare-les de la cause supposée."
+        },
+        "transfer": "Propose une question testable sur la différence de lumière."
+      }
+    },
+    "jazz": {
+      "photographe": {
+        "course": "qc-pri-fr-021",
+        "bank": [
+          "qc-pri-fr-021-q-001",
+          "qc-pri-fr-021-q-003"
+        ],
+        "title": "Rédiger la légende du reportage",
+        "scene": "Ta photo montre trois musiciens qui répètent sous un abri. Ton reportage doit expliquer comment le groupe se prépare avant le concert.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Le banc près de l’entrée est bleu.",
+            "Les musiciens préparent leur concert en répétant ensemble.",
+            "Hier, j’ai oublié mon sac à la maison."
+          ],
+          "answer": [
+            1
+          ],
+          "prompt": "Quelle phrase pourrait donner l’idée principale du paragraphe ?",
+          "hint": "Cherche la phrase qui annonce de quoi les détails du paragraphe vont parler."
+        },
+        "transfer": "Écris deux détails que la photo ou une observation de la répétition pourraient confirmer."
+      },
+      "musicien": {
+        "course": "qc-pri-mu-002",
+        "bank": [
+          "qc-pri-mu-002-q-001",
+          "qc-pri-mu-002-q-002"
+        ],
+        "title": "Préparer la réponse rythmique",
+        "scene": "Tu prépares quatre pulsations régulières. Le modèle fait un son au temps 1, un son au temps 2, une pause au temps 3 et un son au temps 4.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Son, pause, son, son.",
+            "Son, son, son, pause.",
+            "Son, son, pause, son."
+          ],
+          "answer": [
+            2
+          ],
+          "prompt": "Quelle suite respecte ce modèle ?",
+          "hint": "La pulsation continue pendant le silence. Garde la pause au troisième temps."
+        },
+        "transfer": "Frappe quatre pulsations en gardant le silence au bon moment, puis invente une réponse."
+      },
+      "regisseur": {
+        "course": "qc-pri-ma-026",
+        "bank": [
+          "qc-pri-ma-026-q-001",
+          "qc-pri-ma-026-q-002"
+        ],
+        "title": "Préparer l’horaire de scène",
+        "scene": "Une répétition commence à 14 h 35 et dure 40 minutes. Le groupe suivant doit connaître l’heure à laquelle la scène se libère.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "15 h 15",
+            "14 h 75",
+            "15 h 05"
+          ],
+          "answer": [
+            0
+          ],
+          "prompt": "À quelle heure se termine la répétition ?",
+          "hint": "Passe d’abord par 15 h, puis ajoute le temps restant."
+        },
+        "transfer": "Dessine une ligne du temps montrant le passage d’une heure à l’autre."
+      },
+      "metteur-en-scene": {
+        "course": "qc-pri-ad-005",
+        "bank": [
+          "qc-pri-ad-005-q-001",
+          "qc-pri-ad-005-q-002"
+        ],
+        "title": "Organiser l’entrée des musiciens",
+        "scene": "Deux groupes jouent tour à tour. Le second arrive pendant que le premier range ses instruments.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Les deux groupes entrent ensemble au milieu du passage.",
+            "Le second groupe entre quand il pense que c’est son tour.",
+            "Le second groupe attend le signal convenu au bord de la scène."
+          ],
+          "answer": [
+            2
+          ],
+          "prompt": "Quelle consigne de scène donne un repère clair aux deux groupes ?",
+          "hint": "Le plan doit préciser où attendre et quel signal déclenche l’entrée."
+        },
+        "transfer": "Dessine les entrées, les sorties et le signal sur un plan simple."
+      }
+    },
+    "camping": {
+      "explorateur": {
+        "course": "qc-pri-us-002",
+        "bank": [
+          "qc-pri-us-002-q-001",
+          "qc-pri-us-002-q-002"
+        ],
+        "title": "Lire le plan du campement",
+        "scene": "Sur la carte, l’abri est au nord des tentes. Le point de rendez-vous est à l’est de l’abri.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Vers l’ouest.",
+            "Vers l’est.",
+            "Vers le sud."
+          ],
+          "answer": [
+            1
+          ],
+          "prompt": "Depuis l’abri, dans quelle direction vas-tu vers le rendez-vous ?",
+          "hint": "Pars du point de référence demandé et vérifie la direction sur la carte."
+        },
+        "transfer": "Explique le trajet complet des tentes jusqu’au rendez-vous."
+      },
+      "messager": {
+        "course": "qc-pri-fr-025",
+        "bank": [
+          "qc-pri-fr-025-q-001",
+          "qc-pri-fr-025-q-002"
+        ],
+        "title": "Relayer une consigne",
+        "scene": "Une amie te dit que l’activité commence à 10 h à l’abri et qu’il faut apporter une carte. Tu veux vérifier le message avant de le transmettre.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "D’accord, je vais dire qu’on part bientôt.",
+            "Donc, rendez-vous à 10 h à l’abri, avec une carte, c’est bien ça ?",
+            "Je pense qu’on se retrouve près des tentes."
+          ],
+          "answer": [
+            1
+          ],
+          "prompt": "Quelle réponse vérifie le mieux que tu as compris ?",
+          "hint": "Reformule les éléments utiles, puis demande si tu as bien compris."
+        },
+        "transfer": "Prépare un message court pour une personne qui n’a rien entendu."
+      },
+      "dresseur-animaux": {
+        "course": "qc-pri-st-017",
+        "bank": [
+          "qc-pri-st-017-q-001",
+          "qc-pri-st-017-q-002"
+        ],
+        "title": "Observer les indices sur le sentier",
+        "scene": "Tu classes des cartes d’animaux pour expliquer les indices qu’une équipe a dessinés. Deux cartes montrent des pattes palmées.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Les pattes palmées.",
+            "Les animaux sont sûrement de la même famille.",
+            "Ils vivent tous près de ce campement."
+          ],
+          "answer": [
+            0
+          ],
+          "prompt": "Quel critère observable permet de regrouper les deux cartes ?",
+          "hint": "Le critère doit pouvoir être vérifié en regardant les cartes."
+        },
+        "transfer": "Propose un autre critère visible pour classer les cartes."
+      }
+    },
+    "velo": {
+      "mecanicien": {
+        "course": "qc-pri-st-011",
+        "bank": [
+          "qc-pri-st-011-q-001",
+          "qc-pri-st-011-q-002"
+        ],
+        "title": "Nommer la fonction des pièces",
+        "scene": "Sur une maquette de vélo, la chaîne est placée sur les roues dentées. Quand on tourne les pédales, la roue arrière tourne.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Elle amortit les bosses de la route.",
+            "Elle garde le guidon droit.",
+            "Elle transmet le mouvement des pédales."
+          ],
+          "answer": [
+            2
+          ],
+          "prompt": "Quelle fonction observes-tu pour la chaîne ?",
+          "hint": "Relie la pièce à ce que la maquette fait lorsque tu tournes les pédales."
+        },
+        "transfer": "Dessine les pièces et trace une flèche pour indiquer le mouvement transmis."
+      },
+      "forgeron": {
+        "course": "qc-pri-st-005",
+        "bank": [
+          "qc-pri-st-005-q-001",
+          "qc-pri-st-005-q-002"
+        ],
+        "title": "Choisir un matériau pour un support",
+        "scene": "Trois morceaux de même taille servent à faire un support de maquette. Le carton mince plie sous le poids, le plastique rigide et la tôle gardent leur forme.",
+        "practice": {
+          "kind": "multiple_choice",
+          "options": [
+            "Le carton mince.",
+            "Le plastique rigide.",
+            "La tôle."
+          ],
+          "answer": [
+            1,
+            2
+          ],
+          "prompt": "Quels morceaux ont gardé leur forme dans cet essai ?",
+          "hint": "Choisis selon ce qui a été observé pendant l’essai."
+        },
+        "transfer": "Propose un deuxième critère à mesurer avant de choisir un matériau."
+      },
+      "inventeur": {
+        "course": "qc-pri-st-012",
+        "bank": [
+          "qc-pri-st-012-q-001",
+          "qc-pri-st-012-q-002"
+        ],
+        "title": "Améliorer le support de maquette",
+        "scene": "Le premier support fait basculer le vélo miniature lorsqu’on le touche. L’équipe élargit seulement la base du deuxième support.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Poser le même vélo sur les deux supports et appliquer le même petit mouvement.",
+            "Utiliser deux vélos différents et déplacer le support le plus léger.",
+            "Peindre le nouveau support et décider s’il est plus joli."
+          ],
+          "answer": [
+            0
+          ],
+          "prompt": "Quel essai permettra de comparer les deux supports ?",
+          "hint": "Garde les conditions semblables pour observer l’effet de la base."
+        },
+        "transfer": "Décris ce que tu vas noter pour comparer la stabilité."
+      }
+    },
+    "cuisine": {
+      "cuisinier": {
+        "course": "qc-pri-ma-012",
+        "bank": [
+          "qc-pri-ma-012-q-001",
+          "qc-pri-ma-012-q-002"
+        ],
+        "title": "Préparer des portions égales",
+        "scene": "Une galette est partagée en huit parts de même taille. Tu mets trois parts de côté pour la table des bénévoles.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "8/3",
+            "3/5",
+            "3/8"
+          ],
+          "answer": [
+            2
+          ],
+          "prompt": "Quelle fraction de la galette as-tu mise de côté ?",
+          "hint": "Le nombre du bas représente toutes les parts égales de la galette."
+        },
+        "transfer": "Dessine les huit parts et montre celles mises de côté."
+      },
+      "boulanger": {
+        "course": "qc-pri-ma-008",
+        "bank": [
+          "qc-pri-ma-008-q-001",
+          "qc-pri-ma-008-q-002"
+        ],
+        "title": "Compter les fournées",
+        "scene": "Quatre plateaux contiennent chacun six petits pains. Tu veux connaître le total avant la livraison.",
+        "practice": {
+          "kind": "numeric",
+          "answer": "24",
+          "prompt": "Combien de petits pains as-tu en tout ?",
+          "hint": "Représente les quantités et vérifie ton résultat avec les données du défi."
+        },
+        "transfer": "Montre les quatre groupes et écris une multiplication qui les représente."
+      },
+      "comptable": {
+        "course": "qc-pri-ma-006",
+        "bank": [
+          "qc-pri-ma-006-q-001",
+          "qc-pri-ma-006-q-002"
+        ],
+        "title": "Additionner les achats",
+        "scene": "L’équipe achète 27 unités de farine et 18 unités de fruits dans une simulation de commande.",
+        "practice": {
+          "kind": "numeric",
+          "answer": "45",
+          "prompt": "Combien d’unités la commande compte-t-elle ?",
+          "hint": "Représente les quantités et vérifie ton résultat avec les données du défi."
+        },
+        "transfer": "Explique comment tu peux passer par une dizaine pour vérifier le total."
+      }
+    },
+    "grenier": {
+      "ecrivain": {
+        "course": "qc-pri-fr-008",
+        "bank": [
+          "qc-pri-fr-008-q-001",
+          "qc-pri-fr-008-q-002"
+        ],
+        "title": "Raconter la découverte d’un objet",
+        "scene": "Lina retrouve une clé dans un tiroir. Elle ouvre une boîte avec cette clé. Dans la boîte, elle découvre un carnet.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Elle regarde le tiroir une deuxième fois.",
+            "Elle ouvre la boîte avec la clé.",
+            "Elle referme le tiroir."
+          ],
+          "answer": [
+            1
+          ],
+          "prompt": "Quelle action permet à Lina de découvrir le carnet ?",
+          "hint": "Cherche l’action qui rend la découverte possible, en plus de l’ordre des événements."
+        },
+        "transfer": "Dessine trois cases et relie la cause à la découverte."
+      },
+      "lecteur": {
+        "course": "qc-pri-fr-005",
+        "bank": [
+          "qc-pri-fr-005-q-001",
+          "qc-pri-fr-005-q-002"
+        ],
+        "title": "Retrouver une information sur une étiquette",
+        "scene": "Une étiquette dit « Boîte de tissus. À ranger sur l’étagère près de la fenêtre. À garder au sec. »",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Sur l’étagère près de la fenêtre.",
+            "Sur la table au centre de la pièce.",
+            "Dans un tiroir près de la porte."
+          ],
+          "answer": [
+            0
+          ],
+          "prompt": "Où doit-on ranger la boîte ?",
+          "hint": "La réponse est écrite dans l’étiquette. Relis la phrase sur le rangement."
+        },
+        "transfer": "Repère le passage exact qui permet de vérifier ta réponse."
+      },
+      "origamiste": {
+        "course": "qc-pri-ma-024",
+        "bank": [
+          "qc-pri-ma-024-q-001",
+          "qc-pri-ma-024-q-002"
+        ],
+        "title": "Repérer un axe de symétrie",
+        "scene": "On replie une feuille rectangulaire exactement au milieu. Les deux moitiés se superposent.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Un côté du rectangle qui a disparu.",
+            "Un axe de symétrie.",
+            "La mesure du périmètre."
+          ],
+          "answer": [
+            1
+          ],
+          "prompt": "Que représente la ligne de pli dans cet essai ?",
+          "hint": "Un axe de symétrie sépare deux parties qui se superposent au pliage."
+        },
+        "transfer": "Dessine un autre pli qui pourrait aussi partager ce rectangle en deux parties symétriques."
+      },
+      "sorciere": {
+        "course": "qc-pri-ad-002",
+        "bank": [
+          "qc-pri-ad-002-q-001",
+          "qc-pri-ad-002-q-002"
+        ],
+        "title": "Montrer l’intention du personnage",
+        "scene": "Dans une petite scène, une sorcière de fiction cache un objet fragile pour le protéger avant l’arrivée des visiteurs.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Elle enveloppe l’objet et le pose doucement dans un coffre.",
+            "Elle laisse tomber l’objet au milieu du passage.",
+            "Elle pousse l’objet du pied sans le regarder."
+          ],
+          "answer": [
+            0
+          ],
+          "prompt": "Quel geste montre le mieux son intention ?",
+          "hint": "Cherche le geste qui donne au public un indice sur l’intention du personnage."
+        },
+        "transfer": "Joue la même intention avec un autre geste, sans parler."
+      },
+      "mystique": {
+        "course": "qc-pri-fr-006",
+        "bank": [
+          "qc-pri-fr-006-q-001",
+          "qc-pri-fr-006-q-002"
+        ],
+        "title": "Déduire ce qu’un personnage a compris",
+        "scene": "Dans une histoire inventée, Noé pointe une marque ronde dans la poussière et dit « La boîte n’était pas ici hier ». La marque est plus claire que le reste de l’étagère.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Noé sait exactement qui a déplacé la boîte.",
+            "La boîte a été fabriquée hier.",
+            "Un objet rond a probablement occupé cet endroit."
+          ],
+          "answer": [
+            2
+          ],
+          "prompt": "Quelle déduction est la mieux appuyée par ces indices ?",
+          "hint": "Une déduction doit s’appuyer sur les indices et garder les incertitudes."
+        },
+        "transfer": "Distingue un indice écrit et une chose que le texte ne permet pas d’affirmer."
+      }
+    },
+    "riviere": {
+      "pecheur": {
+        "course": "qc-pri-ccq-004",
+        "bank": [
+          "qc-pri-ccq-004-q-001",
+          "qc-pri-ccq-004-q-002"
+        ],
+        "title": "Partager la berge",
+        "scene": "Des gens viennent marcher et d’autres observer les oiseaux. Les groupes veulent passer près d’une zone où les plantes ont été piétinées.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Utiliser le chemin déjà tracé et observer les oiseaux depuis un endroit dégagé.",
+            "Ouvrir un nouveau passage à travers les plantes chaque fois qu’il y a du monde.",
+            "Fermer le chemin sans expliquer pourquoi ni proposer d’autre accès."
+          ],
+          "answer": [
+            0
+          ],
+          "prompt": "Quelle proposition tient compte des personnes et du milieu ?",
+          "hint": "Considère à la fois les besoins du groupe et l’effet du choix sur la berge."
+        },
+        "transfer": "Explique comment ton choix aide deux groupes qui utilisent cet endroit."
+      },
+      "veterinaire": {
+        "course": "qc-pri-st-020",
+        "bank": [
+          "qc-pri-st-020-q-001",
+          "qc-pri-st-020-q-002"
+        ],
+        "title": "Lire les relations dans un habitat",
+        "scene": "Ton carnet montre des plantes aquatiques, des insectes qui s’y abritent et des poissons qui mangent ces insectes.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "La taille des cailloux fixe la couleur des plantes.",
+            "Les poissons se nourrissent de ces insectes.",
+            "Toutes les plantes deviennent des insectes."
+          ],
+          "answer": [
+            1
+          ],
+          "prompt": "Si le nombre d’insectes baisse, quel lien du carnet permet de prévoir un effet possible ?",
+          "hint": "Utilise un lien alimentaire indiqué dans le carnet, sans prédire un résultat certain."
+        },
+        "transfer": "Dessine une chaîne de relations et indique ce que les flèches veulent dire."
+      },
+      "politicien": {
+        "course": "qc-pri-ccq-008",
+        "bank": [
+          "qc-pri-ccq-008-q-001",
+          "qc-pri-ccq-008-q-002"
+        ],
+        "title": "Animer une discussion sur l’accès",
+        "scene": "Au conseil fictif, un groupe demande plus de place pour marcher et un autre souhaite une zone tranquille pour observer les oiseaux.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Interrompre le deuxième groupe dès qu’il commence à parler.",
+            "Décider avant d’entendre les besoins des groupes.",
+            "Reformuler les deux besoins et demander à chacun de préciser son idée."
+          ],
+          "answer": [
+            2
+          ],
+          "prompt": "Quelle intervention aide les groupes à se comprendre ?",
+          "hint": "Une discussion utile commence par écouter et vérifier ce qu’on a compris."
+        },
+        "transfer": "Écris une question ouverte qui aide à comparer les deux besoins."
+      }
+    },
+    "espace": {
+      "extraterrestre": {
+        "course": "qc-pri-als-002",
+        "bank": [
+          "qc-pri-als-002-q-001",
+          "qc-pri-als-002-q-002"
+        ],
+        "title": "Associer des mots aux objets de la station",
+        "scene": "Dans cette station de fiction, une étiquette en anglais doit indiquer l’objet utilisé pour lire un trajet.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "map",
+            "chair",
+            "window"
+          ],
+          "answer": [
+            0
+          ],
+          "prompt": "Quel mot anglais indique une carte ?",
+          "hint": "Pense à l’objet qui représente le trajet et les repères."
+        },
+        "transfer": "Invente une autre étiquette en anglais et indique où la placer dans la station."
+      },
+      "astronaute": {
+        "course": "qc-pri-st-016",
+        "bank": [
+          "qc-pri-st-016-q-001",
+          "qc-pri-st-016-q-002"
+        ],
+        "title": "Comprendre le jour et la nuit",
+        "scene": "Pour expliquer le jour et la nuit sur Terre, l’équipage éclaire un globe avec une lampe qui reste en place.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Approcher et éloigner le globe sans le tourner.",
+            "Faire tourner le globe sur son axe.",
+            "Éteindre la lampe chaque fois qu’il fait nuit."
+          ],
+          "answer": [
+            1
+          ],
+          "prompt": "Quel mouvement du globe permet de montrer l’alternance du jour et de la nuit en un lieu ?",
+          "hint": "Regarde comment un point du globe entre dans la lumière, puis en sort."
+        },
+        "transfer": "Choisis un point et décris son trajet dans le modèle."
+      },
+      "createur-jeux": {
+        "course": "qc-pri-ma-021",
+        "bank": [
+          "qc-pri-ma-021-q-001",
+          "qc-pri-ma-021-q-002"
+        ],
+        "title": "Programmer le trajet du robot",
+        "scene": "Le robot est en B2 sur une grille. Les colonnes A à D vont de gauche à droite et les lignes 1 à 4 augmentent vers le haut. Il avance d’une case à droite, puis de deux cases vers le haut.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "B4",
+            "D3",
+            "C4"
+          ],
+          "answer": [
+            2
+          ],
+          "prompt": "Dans quelle case arrive-t-il ?",
+          "hint": "Change la lettre pour le déplacement à droite, puis le nombre pour le déplacement vers le haut."
+        },
+        "transfer": "Invente un autre trajet qui mène de B2 à la même case."
+      },
+      "mineur": {
+        "course": "qc-pri-st-013",
+        "bank": [
+          "qc-pri-st-013-q-001",
+          "qc-pri-st-013-q-002"
+        ],
+        "title": "Comparer les échantillons de roche",
+        "scene": "Dans une maquette d’exploration, la fiche du premier échantillon indique « grains visibles » et celle du second « surface lisse, aucun grain visible ».",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Ils ont certainement le même âge.",
+            "Les grains sont visibles sur un seul des deux.",
+            "Ils proviennent forcément du même endroit."
+          ],
+          "answer": [
+            1
+          ],
+          "prompt": "Quelle différence peut-on utiliser pour comparer les échantillons ?",
+          "hint": "Le classement s’appuie sur des indices observables décrits dans les fiches."
+        },
+        "transfer": "Propose un deuxième critère visible à ajouter aux fiches."
+      }
+    },
+    "marche": {
+      "architecte": {
+        "course": "qc-pri-ma-028",
+        "bank": [
+          "qc-pri-ma-028-q-001",
+          "qc-pri-ma-028-q-002"
+        ],
+        "title": "Calculer l’aire du kiosque",
+        "scene": "Le plan du kiosque est un rectangle couvert de carreaux d’un mètre carré. Il compte trois rangées de cinq carreaux.",
+        "practice": {
+          "kind": "numeric",
+          "answer": "15",
+          "prompt": "Quelle est l’aire couverte en mètres carrés ?",
+          "hint": "Représente les quantités et vérifie ton résultat avec les données du défi."
+        },
+        "transfer": "Dessine le rectangle et montre les carreaux que ton calcul compte."
+      },
+      "menuisier": {
+        "course": "qc-pri-ma-025",
+        "bank": [
+          "qc-pri-ma-025-q-001",
+          "qc-pri-ma-025-q-002"
+        ],
+        "title": "Mesurer une tablette",
+        "scene": "Le bout gauche d’une tablette est placé au repère 2 cm de la règle et le bout droit au repère 11 cm.",
+        "practice": {
+          "kind": "numeric",
+          "answer": "9",
+          "prompt": "Quelle est la longueur de la tablette en centimètres ?",
+          "hint": "Représente les quantités et vérifie ton résultat avec les données du défi."
+        },
+        "transfer": "Explique pourquoi lire seulement le repère de droite ne suffit pas ici."
+      },
+      "peintre": {
+        "course": "qc-pri-ap-003",
+        "bank": [
+          "qc-pri-ap-003-q-001",
+          "qc-pri-ap-003-q-002"
+        ],
+        "title": "Composer une affiche lisible",
+        "scene": "Ton affiche doit aider les visiteurs à trouver le kiosque. Elle contient un titre, une petite flèche et plusieurs motifs.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Agrandir la flèche et la placer sur un fond dégagé.",
+            "Répéter les motifs par-dessus la flèche.",
+            "Écrire le titre derrière la flèche dans la même couleur."
+          ],
+          "answer": [
+            0
+          ],
+          "prompt": "Quel changement aide le plus à repérer la direction ?",
+          "hint": "La composition peut guider le regard par le contraste et la place d’un élément."
+        },
+        "transfer": "Fais deux croquis et demande quelle direction on comprend le plus vite."
+      },
+      "coiffeuse": {
+        "course": "qc-pri-ma-030",
+        "bank": [
+          "qc-pri-ma-030-q-001",
+          "qc-pri-ma-030-q-002"
+        ],
+        "title": "Organiser les votes sur les accessoires",
+        "scene": "Au kiosque des accessoires, les visiteurs ont choisi ruban, chapeau, ruban, foulard, ruban et chapeau.",
+        "practice": {
+          "kind": "numeric",
+          "answer": "3",
+          "prompt": "Combien de votes faut-il inscrire à la ligne ruban ?",
+          "hint": "Représente les quantités et vérifie ton résultat avec les données du défi."
+        },
+        "transfer": "Prépare un tableau complet et vérifie que la somme correspond au nombre de votes."
+      },
+      "redacteur": {
+        "course": "qc-pri-fr-023",
+        "bank": [
+          "qc-pri-fr-023-q-001",
+          "qc-pri-fr-023-q-002"
+        ],
+        "title": "Réviser une affiche",
+        "scene": "L’affiche dit « les kiosques ouvrent à dix heures venez découvrir nos créations ». Tu veux séparer les deux idées clairement.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Les kiosques ouvrent. à dix heures venez découvrir nos créations.",
+            "les kiosques ouvrent à dix heures venez découvrir. Nos créations.",
+            "Les kiosques ouvrent à dix heures. Venez découvrir nos créations."
+          ],
+          "answer": [
+            2
+          ],
+          "prompt": "Quelle version a une ponctuation claire ?",
+          "hint": "Repère la fin de la première idée et commence la seconde avec une majuscule."
+        },
+        "transfer": "Explique quel changement aide le plus une personne qui lit l’affiche."
+      },
+      "traducteur": {
+        "course": "qc-pri-als-007",
+        "bank": [
+          "qc-pri-als-007-q-001",
+          "qc-pri-als-007-q-002"
+        ],
+        "title": "Interpréter un panneau en anglais",
+        "scene": "Le panneau indique « The market opens at ten. Bring a bag. » Tu veux expliquer la consigne à un visiteur.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Un livre.",
+            "Un sac.",
+            "Une chaise."
+          ],
+          "answer": [
+            1
+          ],
+          "prompt": "Que doit apporter le visiteur ?",
+          "hint": "Repère le mot après Bring pour trouver l’objet demandé."
+        },
+        "transfer": "Repère aussi l’information qui donne l’heure d’ouverture."
+      }
+    },
+    "neige": {
+      "bucheron": {
+        "course": "qc-pri-ma-007",
+        "bank": [
+          "qc-pri-ma-007-q-001",
+          "qc-pri-ma-007-q-002"
+        ],
+        "title": "Faire l’inventaire du bois de maquette",
+        "scene": "Pour un décor d’hiver, le groupe a 43 bâtonnets et en utilise 18 pour un premier chalet miniature.",
+        "practice": {
+          "kind": "numeric",
+          "answer": "25",
+          "prompt": "Combien de bâtonnets restent ?",
+          "hint": "Représente les quantités et vérifie ton résultat avec les données du défi."
+        },
+        "transfer": "Présente ton calcul et vérifie-le avec une addition."
+      },
+      "chevalier": {
+        "course": "qc-pri-eps-006",
+        "bank": [
+          "qc-pri-eps-006-q-001",
+          "qc-pri-eps-006-q-002"
+        ],
+        "title": "Coopérer dans un relais imaginaire",
+        "scene": "Dans un jeu en gymnase, les équipes doivent transporter un fanion à deux et franchir une ligne ensemble.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Choisir un signal et ajuster leur rythme pour rester côte à côte.",
+            "Partir chacun de son côté sans se parler.",
+            "Laisser une seule personne faire toute la traversée."
+          ],
+          "answer": [
+            0
+          ],
+          "prompt": "Quelle stratégie aide les deux partenaires à réussir le relais ?",
+          "hint": "Cherche une stratégie qui fait coopérer les deux personnes."
+        },
+        "transfer": "Avec un partenaire, invente un signal et explique à quel moment l’utiliser."
+      },
+      "clown": {
+        "course": "qc-pri-ad-001",
+        "bank": [
+          "qc-pri-ad-001-q-001",
+          "qc-pri-ad-001-q-002"
+        ],
+        "title": "Montrer le froid dans une scène",
+        "scene": "Dans une courte scène, ton personnage sort d’un abri et ressent soudain le froid. Le public doit comprendre sans décor ni paroles.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Rester immobile avec les bras détendus.",
+            "Faire semblant d’écrire une lettre.",
+            "Rapprocher les épaules et frotter les mains en frissonnant."
+          ],
+          "answer": [
+            2
+          ],
+          "prompt": "Quel choix du corps rend le froid le plus lisible ?",
+          "hint": "Choisis des gestes que le public peut associer à la sensation jouée."
+        },
+        "transfer": "Essaie deux intensités du même geste et demande ce qui est compris."
+      },
+      "danseur": {
+        "course": "qc-pri-da-001",
+        "bank": [
+          "qc-pri-da-001-q-001",
+          "qc-pri-da-001-q-002"
+        ],
+        "title": "Inventer une traversée en mouvement",
+        "scene": "Ta danse représente une trace qui avance puis change de niveau. Tu veux passer d’un mouvement haut à un mouvement bas.",
+        "practice": {
+          "kind": "single_choice",
+          "options": [
+            "Deux gestes bras tendus au-dessus de la tête.",
+            "Un geste bras levés, puis un geste près du sol.",
+            "Deux gestes près du sol à la même hauteur."
+          ],
+          "answer": [
+            1
+          ],
+          "prompt": "Quelle suite montre le changement de niveau ?",
+          "hint": "Le niveau correspond à la hauteur du mouvement dans l’espace."
+        },
+        "transfer": "Invente une autre suite de deux mouvements qui change de niveau."
+      }
+    }
+  }
+}

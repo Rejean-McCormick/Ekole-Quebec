@@ -1,0 +1,86 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ad-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Improviser une interaction en respectant les propositions des partenaires.",
+  "concepts": [
+    "écoute",
+    "relance",
+    "action",
+    "imprévu"
+  ],
+  "preuve_attendue": "Soutenir une improvisation avec cohérence et prise en compte d’autrui.",
+  "prerequis_bloquants": [
+    "qc-pri-ad-001",
+    "qc-pri-ad-002"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ad-003-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Soutenir une improvisation avec cohérence et prise en compte d’autrui.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Items fixes uniquement; posture, rythme de communication et modalités accessibles modifiables avant passation; aucun tirage aléatoire ni improvisation du partenaire évaluateur hors ses répliques fixes.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "redige_a_revoir",
+      "kristal_id": "qc-pri-ad-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "improvisation à deux observée",
+        "paroles / gestes / signes / communication assistée",
+        "fiche factuelle de tours de parole"
+      ],
+      "variables": {
+        "mode": "fixe_sans_generation_automatique",
+        "corpus_scenarios": [
+          "atelier_affiches_fictives",
+          "gare_voyages_imaginaires"
+        ],
+        "parametres_numeriques": null
+      },
+      "contraintes": [
+        "scènes neutres et fictives",
+        "proposition du partenaire prise en compte",
+        "relance/action laissant un choix à autrui",
+        "imprévu préétabli dans le scénario",
+        "aucune divulgation personnelle ou contact imposé",
+        "partenaire non directif",
+        "deux preuves indépendantes, nouvelle situation"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "écoute_et_prise_en_compte",
+          "action_et_relance",
+          "coherence_et_imprevu",
+          "autonomie_respect_et_securite"
+        ],
+        "notation": "0=absent;1=partiel;2=établi; deux observations chacune de niveau 2 sur les 4 dimensions; pas de moyenne"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

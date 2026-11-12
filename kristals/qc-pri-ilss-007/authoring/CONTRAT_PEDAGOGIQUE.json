@@ -1,0 +1,87 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ilss-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Écrire un message fonctionnel compréhensible pour un destinataire.",
+  "concepts": [
+    "intention",
+    "formule",
+    "information",
+    "lisibilité"
+  ],
+  "preuve_attendue": "Rédiger une demande ou une réponse scolaire utilisable.",
+  "prerequis_bloquants": [
+    "qc-pri-ilss-003"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ilss-005"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ilss-007-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Rédiger une demande ou une réponse scolaire utilisable.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Aucune variation algorithmique: seuls outils de composition, temps, taille, présentation et modalités de lecture peuvent varier sans dicter le contenu. Corpus fixe de dix scénarios.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_effectif": "fixe_controle; aucune génération libre ni tirage aléatoire"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-ilss-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "messages courts écrits",
+        "fiche de contenu qui/pourquoi/quoi/quand",
+        "révision d’une réponse écrite"
+      ],
+      "variables": {
+        "mode": "tâches_fixes",
+        "variations_automatiques": false,
+        "corpus_scenarios": "10 scénarios verrouillés dans evaluation/BANQUE_ITEMS.json"
+      },
+      "contraintes": [
+        "message scolaire fictif",
+        "aucune donnée personnelle réelle",
+        "destinataire et intention explicitables",
+        "faits de chaque consigne conservés",
+        "évaluation de la compréhension sans discrimination linguistique",
+        "adaptation motrice non directive",
+        "deux preuves autonomes dans deux contextes"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "intention",
+          "informations_essentielles",
+          "destinataire_et_formule",
+          "lisibilite",
+          "autonomie"
+        ],
+        "echelle": "0=absent,1=partiel,2=atteint",
+        "decision": "deux preuves distinctes, critères essentiels réussis chacune; aucun score global compensatoire"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/BANQUE_ITEMS.json",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

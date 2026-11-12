@@ -1,0 +1,102 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Employer un lexique français usuel dans des phrases contextualisées.",
+  "concepts": [
+    "mots fréquents",
+    "expressions",
+    "collocations"
+  ],
+  "preuve_attendue": "Utiliser des expressions ciblées dans un dialogue nouveau.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-002-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Utiliser des expressions ciblées dans un dialogue nouveau.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-fls-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Utiliser des expressions ciblées dans un dialogue nouveau.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "dialogue_oral",
+        "dialogue_ecrit",
+        "communication_assistee"
+      ],
+      "variables": {
+        "mode": "corpus_ferme",
+        "schema": "choix de 2 scénarios fixes par item q-009 à q-012",
+        "domaines": {
+          "index_variant": [
+            0,
+            1
+          ]
+        },
+        "algorithme": "index = seed % 2; stimulus, consigne et exemple de réponse proviennent du même index; tous les autres items sont fixes",
+        "items_scenarios": [
+          "qc-pri-fls-002-q-009",
+          "qc-pri-fls-002-q-010",
+          "qc-pri-fls-002-q-011",
+          "qc-pri-fls-002-q-012"
+        ]
+      },
+      "contraintes": {
+        "nb_tours": "2 à 5 selon la tâche",
+        "prestation": "production propre de l’élève, pas de banque de formules pendant les preuves",
+        "criteres_validite": "intention compréhensible; expressions ciblées adaptées; réponse à l’autre; autonomie",
+        "equite": "ne pas noter accent, identité, origine, données personnelles ou rapidité; supports neutres possibles",
+        "variation": "uniquement les variantes textuelles explicitement inscrites dans la banque; aucune génération libre"
+      },
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "intention_et_contexte",
+          "expressions_ciblees",
+          "adaptation_aux_tours",
+          "autonomie_et_transfert"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "decision": "deux productions indépendantes dans des contextes différents, chacune à niveau >=2 sur chaque dimension; pas de décision sur note unique"
+      },
+      "source": {
+        "source_interne": "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "provenance_items": "scenarios originaux de ce Kristal; voir sources/REFERENCES_CONTENU.md"
+      },
+      "seed": {
+        "strategie": "seed entière stable par item scénarisé; index=seed%2",
+        "par_item": {
+          "qc-pri-fls-002-q-009": 3009,
+          "qc-pri-fls-002-q-010": 3010,
+          "qc-pri-fls-002-q-011": 3011,
+          "qc-pri-fls-002-q-012": 3012
+        }
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,101 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-020",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Organiser les idées d’un texte en fonction d’un destinataire et d’un but explicites.",
+  "concepts": [
+    "intention",
+    "destinataire",
+    "plan",
+    "idées"
+  ],
+  "preuve_attendue": "Produire un plan logique à partir d’une consigne d’écriture nouvelle.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-020-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Produire un plan logique à partir d’une consigne d’écriture nouvelle.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_revue_humaine_requise",
+      "kristal_id": "qc-pri-fr-020",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "consigne textuelle",
+        "consigne lue fidelement",
+        "plan en liste ordonnee",
+        "tableau de plan",
+        "cartes ordonnees par l’apprenant"
+      ],
+      "variables": {
+        "mode_implante": "fixe",
+        "champs_variables": [],
+        "scenarios_autorises": "uniquement les 12 consignes verrouillees de evaluation/BANQUE_ITEMS.json; toute nouvelle variation exige redaction et revue humaine"
+      },
+      "contraintes": [
+        "objectif et critere immuables",
+        "consigne identifiant but et destinataire explicites",
+        "plan de deux a quatre parties ordonnees",
+        "justification portant sur un choix",
+        "pas de faits locaux inventes",
+        "pas de donnees personnelles",
+        "pas de generation IA libre comme correcteur",
+        "deux manifestations autonomes en contextes distincts"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": {
+          "A_intention_destinataire": [
+            0,
+            1,
+            2
+          ],
+          "B_pertinence_idees": [
+            0,
+            1,
+            2
+          ],
+          "C_ordre_et_regroupement": [
+            0,
+            1,
+            2
+          ],
+          "D_justification": [
+            0,
+            1,
+            2
+          ]
+        },
+        "manifestation_satisfaisante": "A=2, B=2, C=2, D>=1; au moins 7/8",
+        "decision_maitrise": "q-007 et q-010 satisfaisants chacun; deux contextes distincts, dont au moins un sans indice"
+      },
+      "source": {
+        "cadre": "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "matrices": "evaluation/PLAN_EVALUATION.md",
+        "items": "evaluation/BANQUE_ITEMS.json",
+        "type": "production_redactionnelle_originale_sous_revue_humaine"
+      },
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

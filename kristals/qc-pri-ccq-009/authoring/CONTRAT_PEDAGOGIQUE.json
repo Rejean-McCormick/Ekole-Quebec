@@ -1,0 +1,88 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ccq-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Examiner un choix et argumenter à partir de conséquences et de principes.",
+  "concepts": [
+    "dilemme",
+    "critères",
+    "raison",
+    "conséquence"
+  ],
+  "preuve_attendue": "Justifier une décision possible et reconnaître une objection valable.",
+  "prerequis_bloquants": [
+    "qc-pri-ccq-008"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ccq-007"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Justifier une décision possible et reconnaître une objection valable.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ccq-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "grille de cinq cases sur dossier fictif écrit",
+        "argumentation orale ou écrite",
+        "communication assistée équivalente"
+      ],
+      "variables": {
+        "mode_generation": "fixe_controle_uniquement",
+        "cas_fermes": [
+          "répartition de six places",
+          "résultats de maquettes en attente de vérification"
+        ],
+        "selection_aleatoire": false
+      },
+      "contraintes": [
+        "situations fictives et données explicitement fermées",
+        "objectif obj-1 et critère crit-1 invariants",
+        "choix possiblement pluriels; aucune conviction ou identité privée évaluée",
+        "évaluation de la cohérence fait–principe–conséquence–objection",
+        "deux épreuves différentes q-009 et q-010",
+        "aucune variation IA libre; variantes d’accès non directives seulement",
+        "absence d’affirmation factuelle sur personnes réelles"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "E1_faits_et_options",
+          "E2_raison_et_principe",
+          "E3_consequence",
+          "E4_objection_et_reponse",
+          "E5_autonomie_et_respect"
+        ],
+        "echelle": "0 absent; 1 partiel; 2 satisfaisant",
+        "regle": "deux contextes indépendants, tous critères essentiels présents; pas de moyenne ni note aux opinions"
+      },
+      "source": [
+        "kristals/qc-pri-ccq-009/authoring/PARCOURS.md",
+        "kristals/qc-pri-ccq-009/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

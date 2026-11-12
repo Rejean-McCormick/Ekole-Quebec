@@ -1,0 +1,86 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-027",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Calculer et interpréter le périmètre d’une figure comme longueur du contour.",
+  "concepts": [
+    "contour",
+    "longueur",
+    "addition",
+    "unité"
+  ],
+  "preuve_attendue": "Trouver le périmètre de deux figures et expliquer l’effet d’une modification.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-023",
+    "qc-pri-ma-025"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-027-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Trouver le périmètre de deux figures et expliquer l’effet d’une modification.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "catalogues de trois variantes par item paramétrique, entiers bornés; index seed modulo 3, aucun aléa libre; correction indépendante sur tous les cas",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "catalogue_ref": "evaluation/BANQUE_ITEMS.json"
+      },
+      "review_status": "items_rediges_calculs_controles_revue_humaine_requise",
+      "kristal_id": "qc-pri-ma-027",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "contour de matériel manipulable",
+        "schéma à segments cotés",
+        "addition de longueurs",
+        "comparaison de deux figures et justification"
+      ],
+      "variables": {
+        "mode": "catalogue_deterministe_trois_variantes_par_item",
+        "famille": "rectangles et figures en L orthogonales",
+        "regle_selection": "index = seed % 3; valeurs cataloguées seulement",
+        "banque_ref": "evaluation/BANQUE_ITEMS.json"
+      },
+      "contraintes": [
+        "côtés extérieurs seulement",
+        "unité de longueur unique par item",
+        "entiers strictement positifs",
+        "dimensions de l’encoche en L strictement inférieures aux dimensions extérieures",
+        "aucun schéma non coté",
+        "deux manifestations autonomes dans des contextes différents",
+        "pas de tirage IA non vérifié"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "tracage_contour",
+          "calculs_exacts_et_unites",
+          "explication_effet",
+          "autonomie_et_transfert"
+        ],
+        "echelle": "0 / 1 / 2 par dimension",
+        "decision": "chacune des deux preuves satisfait les quatre dimensions sans note compensatoire"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": 27027,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_evaluations_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

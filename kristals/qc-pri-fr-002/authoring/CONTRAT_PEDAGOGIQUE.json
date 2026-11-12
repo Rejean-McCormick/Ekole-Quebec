@@ -1,0 +1,91 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Associer les graphèmes courants aux phonèmes et effectuer la conversion dans les deux sens.",
+  "concepts": [
+    "lettres et groupes de lettres",
+    "sons",
+    "correspondances régulières"
+  ],
+  "preuve_attendue": "Lire et écrire une série de syllabes et de mots réguliers nouveaux.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-002-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Lire et écrire une série de syllabes et de mots réguliers nouveaux.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Listes de stimuli et corrigés fixes, scripts oraux contrôlés; toute adaptation doit préserver la tâche phonémique; aucune variation libre.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-fr-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Lire et écrire une série de syllabes et de mots réguliers nouveaux.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "lecture orale de stimuli écrits",
+        "dictée orale vers graphèmes écrits",
+        "pointage de graphèmes et explication courte"
+      ],
+      "variables": {
+        "type": "items_fixes_seulement",
+        "corpus_autorise": "listes strictement inscrites dans BANQUE_ITEMS.json",
+        "syllabes_par_preuve": {
+          "lecture": 3,
+          "ecriture": 3
+        },
+        "mots_par_preuve": {
+          "lecture": 3,
+          "ecriture": 3
+        },
+        "script_oral_humain": true,
+        "generateur_ia_libre": false
+      },
+      "contraintes": [
+        "ne pas exposer les graphies dictées à l’élève",
+        "limiter les dictées au lexique cible annoncé et au répertoire enseigné",
+        "ne pas traiter accent comme erreur phonologique",
+        "séparer lecture et encodage dans le relevé",
+        "deux preuves dans contextes différents sans indice",
+        "mots réguliers et absence de lettres muettes non enseignées dans le corpus évalué"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "decodage_syllabes",
+          "decodage_mots",
+          "encodage_syllabes",
+          "encodage_mots",
+          "processus",
+          "autonomie"
+        ],
+        "regle": "deux preuves indépendantes avec lecture et encodage réussis séparément; aucun score global unique"
+      },
+      "source": [
+        "archive v1.2: authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

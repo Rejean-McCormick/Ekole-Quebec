@@ -1,0 +1,31 @@
+{
+  "format": "ekole.proposition-reference-documentaire/1.0",
+  "statut": "proposition_non_appliquee",
+  "cours": "qc-pri-us-009",
+  "kristal_source": "societes-autochtones-quebec",
+  "artefact_ref": "urn:kristal:societes-autochtones-quebec:encyclopedie-v4",
+  "engagement_logique_candidat_v4": "sha256:59b6c37949e944065f29fdab3e0827a14ab66e5587966a04b7d15da43ce5d704",
+  "source_de_verite": "kristals/societes-autochtones-quebec/canon/domain/encyclopedie-v4.json",
+  "mode": "lecture_seule_apres_approbation",
+  "selection_documentaire_proposee": [
+    "ens-v4:diversite",
+    "ens-v4:avant-colonies",
+    "ens-v4:saint-laurent",
+    "ens-v4:maisons-longues",
+    "ens-v4:palissades",
+    "ens-v4:riviere-route",
+    "ens-v4:trois-soeurs",
+    "ens-v4:deplacements-innus",
+    "ens-v4:mere-clan",
+    "ens-v4:reseaux-avant",
+    "ens-v4:troc-equitable",
+    "ens-v4:aujourdhui",
+    "ens-v4:pas-un-vrai-faux"
+  ],
+  "interdictions": [
+    "ne_pas_copier_les_faits_dans_le_cours",
+    "ne_pas_modifier_les_references_v3_sans_approbation",
+    "ne_pas_publier_comme_approuve"
+  ],
+  "note": "La référence v3 déjà inscrite au cours demeure en place. Cette proposition v4 est une sélection supplémentaire nécessitant une revue du cours et des nations concernées."
+}

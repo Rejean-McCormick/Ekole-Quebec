@@ -1,0 +1,440 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ccq-003",
+  "family_id": "qc-pri-ccq-003-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "politique_revision": "Tous les items a_revoir : banque non certifiée; cas fictifs originaux; pas de données personnelles collectées.",
+  "mode_de_correction": "Rubriques d’arguments observables; aucun modèle libre ou score de conviction, identité ou adhésion.",
+  "items": [
+    {
+      "item_id": "qc-pri-ccq-003-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Distingue la phrase décrivant un élément visible de la phrase qui lui donne une signification. Explique pourquoi la deuxième ne prouve pas un sentiment du personnage.",
+      "stimulus": "Dans un atelier fictif, quatre petits drapeaux sont fixés sur un tableau. A : « Quatre drapeaux sont fixés au tableau. » B : « Le groupe est fier de son exposition. »",
+      "reponse_attendue": "A = observation décrite dans la vignette; B = interprétation non démontrée. Un tableau portant quatre drapeaux ne permet pas à lui seul de connaître le sentiment du groupe. On peut dire « la fierté est possible, mais non établie ».",
+      "criteres": [
+        "A identifié comme observation",
+        "B identifié comme interprétation",
+        "différence justifiée sans inventer un sentiment"
+      ],
+      "feedback": "Si tu conclus que le groupe est fier, demande-toi ce que la vignette montre réellement; les sentiments ne sont pas écrits.",
+      "difficulte": "initial",
+      "representation": "vignette_deux_enonces",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "Fiction et rubrique originales; rédaction interne v1.2."
+    },
+    {
+      "item_id": "qc-pri-ccq-003-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour chaque personnage, indique une raison exprimée et une valeur qu’on peut prudemment inférer. Écris « pourrait valoriser » lorsque la valeur n’est pas nommée.",
+      "stimulus": "Question : « Pourquoi préparer une exposition de dessins? » Elsa : « Pour montrer nos techniques aux visiteurs. » Rémi : « Pour remercier toutes les personnes qui ont contribué à la création. »",
+      "reponse_attendue": "Elsa : montrer les techniques (raison explicite), pourrait valoriser le partage des savoir-faire. Rémi : remercier les contributeurs (raison explicite), pourrait valoriser la reconnaissance. Les valeurs sont des interprétations étayées, pas des faits sur la personnalité.",
+      "criteres": [
+        "raison correcte et attribuée pour Elsa",
+        "raison correcte et attribuée pour Rémi",
+        "au moins deux valeurs interprétées avec prudence sans certitude psychologique"
+      ],
+      "feedback": "Une valeur n’est pas forcément écrite; pars de « pour montrer » ou « pour remercier » et précise que tu l’interprètes.",
+      "difficulte": "initial",
+      "representation": "deux_cartes_personnages",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "Fiction et rubrique originales; rédaction interne v1.2."
+    },
+    {
+      "item_id": "qc-pri-ccq-003-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère la phrase qui constitue un véritable argument et montre son lien avec la réponse de son personnage. Explique pourquoi l’autre formule est insuffisante.",
+      "stimulus": "Question : « Pourquoi garder un carnet de projet? » Lia : « Car il permet de reprendre nos essais plus tard. » Tao : « Parce que c’est évident et que j’ai raison. »",
+      "reponse_attendue": "Lia fournit une raison pertinente : le carnet permet de reprendre les essais. Tao répète une certitude personnelle sans justifier le rôle du carnet. On peut lui demander : « Quelle utilité du carnet peux-tu citer? » Il ne faut pas le juger comme personne.",
+      "criteres": [
+        "identifie Lia comme fournissant une raison",
+        "relie la raison au carnet",
+        "identifie le caractère circulaire du propos de Tao sans dévaloriser la personne"
+      ],
+      "feedback": "Un bon argument ajoute une raison liée à la question; « c’est évident » ne dit pas pourquoi.",
+      "difficulte": "initial",
+      "representation": "dialogue_fictif",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "Fiction et rubrique originales; rédaction interne v1.2."
+    },
+    {
+      "item_id": "qc-pri-ccq-003-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Produis deux phrases : l’une donne un point commun, l’autre une différence entre les réponses de ces personnages. Ne choisis pas qui a raison.",
+      "stimulus": "Question : « Que signifie un cahier de découvertes? » Nora : « Il permet au groupe de se rappeler ce qu’il a essayé. » Vian : « Il permet à d’autres groupes d’apprendre de nos idées. »",
+      "reponse_attendue": "Point commun recevable : les deux jugent le cahier utile pour conserver et partager des traces d’apprentissage. Différence : Nora met en avant la mémoire du groupe, Vian la transmission à d’autres groupes. Toute paraphrase fidèle et neutre convient.",
+      "criteres": [
+        "un point commun réel",
+        "une différence réelle entre mémoire et transmission",
+        "absence de préférence obligatoire ou de caractérisation péjorative"
+      ],
+      "feedback": "Parler du même objet ne signifie pas donner exactement la même raison. Compare ses deux usages.",
+      "difficulte": "initial",
+      "representation": "production_deux_phrases",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "Fiction et rubrique originales; rédaction interne v1.2."
+    },
+    {
+      "item_id": "qc-pri-ccq-003-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Compare les deux sens proposés pour cette action. Pour chacun, écris l’avis et la raison. Nomme un point commun et une différence.",
+      "stimulus": "Jardin imaginaire en papier. Question : « Pourquoi dessiner un plan? » Pénélope : « Pour que tout le groupe sache où mettre les éléments. » Victor : « Pour montrer aux visiteurs ce que nous avons imaginé. »",
+      "reponse_attendue": "Pénélope : coordination du travail grâce au plan; Victor : présentation de l’idée aux visiteurs. Commun : le plan rend un projet compréhensible; différence : organiser l’action des participants vs communiquer le projet au public.",
+      "criteres": [
+        "deux points de vue fidèles",
+        "une raison attribuée à chacun",
+        "point commun pertinent",
+        "différence pertinente",
+        "comparaison neutre"
+      ],
+      "feedback": "Distingue le rôle de l’objet pour les personnes qui travaillent et pour celles qui le découvrent.",
+      "difficulte": "intermediaire",
+      "representation": "vignette_illustrable_ou_texte",
+      "seed": 205,
+      "parametres": {
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "domaines": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "sélection dans le catalogue fermé",
+          "conserver texte et correction de la même variante",
+          "aucune création de dialogue ni de corrigé par IA libre"
+        ],
+        "algorithme_selection": "index = seed % len(variantes), indices dans l’ordre du tableau variantes, sans mélange",
+        "variante_selectionnee": "B",
+        "exemples_valides": [
+          {
+            "seed": 205,
+            "index": 1,
+            "variante_id": "B"
+          },
+          {
+            "seed": 206,
+            "index": 0,
+            "variante_id": "A"
+          }
+        ],
+        "catalogue": [
+          {
+            "id": "A",
+            "stimulus": "Atelier imaginaire de marionnettes. Question : « Pourquoi présenter une maquette? » Adèle : « Pour expliquer aux visiteurs les étapes de fabrication. » Karim : « Pour donner aux membres de l’équipe le goût de recommencer. »",
+            "reponse_attendue": "Adèle : expliquer les étapes au public (transmission); Karim : susciter un nouvel élan dans l’équipe (motivation). Commun : la maquette prolonge le travail; différence : compréhension des visiteurs vs mobilisation du groupe."
+          },
+          {
+            "id": "B",
+            "stimulus": "Jardin imaginaire en papier. Question : « Pourquoi dessiner un plan? » Pénélope : « Pour que tout le groupe sache où mettre les éléments. » Victor : « Pour montrer aux visiteurs ce que nous avons imaginé. »",
+            "reponse_attendue": "Pénélope : coordination du travail grâce au plan; Victor : présentation de l’idée aux visiteurs. Commun : le plan rend un projet compréhensible; différence : organiser l’action des participants vs communiquer le projet au public."
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "source": "Fiction et rubrique originales; rédaction interne v1.2.",
+      "variabilite_permises": "Uniquement les variantes du catalogue préécrit; ne pas remplacer ou permuter les raisons.",
+      "validation_variantes": "a_revoir_humainement"
+    },
+    {
+      "item_id": "qc-pri-ccq-003-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Distingue ce que les personnages disent des valeurs que l’on peut en déduire. Choisis une interprétation de valeur par personnage et justifie-la par ses mots.",
+      "stimulus": "Question : « Pourquoi écrire la suite d’un conte? » Léo : « Pour essayer des idées auxquelles personne n’avait encore pensé. » Lila : « Pour que nos personnages continuent à vivre dans les jeux du groupe. »",
+      "reponse_attendue": "Léo : exploration de nouvelles idées; pourrait valoriser la créativité, car il veut essayer des idées nouvelles. Lila : prolonger le jeu partagé; pourrait valoriser la continuité de l’imaginaire collectif. Ne pas prétendre connaître leurs convictions cachées.",
+      "criteres": [
+        "reformulation fidèle de chaque motivation",
+        "valeur possible appuyée pour chacun",
+        "sépare propos explicite et interprétation",
+        "n’infère aucune identité intime"
+      ],
+      "feedback": "La valeur est une hypothèse argumentée : cite le morceau de phrase qui la soutient.",
+      "difficulte": "intermediaire",
+      "representation": "cartes_deux_voix",
+      "seed": 206,
+      "parametres": {
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "domaines": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "sélection dans le catalogue fermé",
+          "conserver texte et correction de la même variante",
+          "aucune création de dialogue ni de corrigé par IA libre"
+        ],
+        "algorithme_selection": "index = seed % len(variantes), indices dans l’ordre du tableau variantes, sans mélange",
+        "variante_selectionnee": "A",
+        "exemples_valides": [
+          {
+            "seed": 206,
+            "index": 0,
+            "variante_id": "A"
+          },
+          {
+            "seed": 207,
+            "index": 1,
+            "variante_id": "B"
+          }
+        ],
+        "catalogue": [
+          {
+            "id": "A",
+            "stimulus": "Question : « Pourquoi écrire la suite d’un conte? » Léo : « Pour essayer des idées auxquelles personne n’avait encore pensé. » Lila : « Pour que nos personnages continuent à vivre dans les jeux du groupe. »",
+            "reponse_attendue": "Léo : exploration de nouvelles idées; pourrait valoriser la créativité, car il veut essayer des idées nouvelles. Lila : prolonger le jeu partagé; pourrait valoriser la continuité de l’imaginaire collectif. Ne pas prétendre connaître leurs convictions cachées."
+          },
+          {
+            "id": "B",
+            "stimulus": "Question : « Pourquoi préparer une petite carte-guide? » Inès : « Pour que les visiteurs n’aient pas besoin de demander chaque étape. » Max : « Pour que les volontaires se rappellent les meilleures explications. »",
+            "reponse_attendue": "Inès : faciliter l’autonomie des visiteurs; pourrait valoriser l’accessibilité ou l’autonomie. Max : mémoire des explications pour les volontaires; pourrait valoriser l’organisation ou la transmission. Valeurs présentées comme interprétations et appuyées par les phrases."
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "source": "Fiction et rubrique originales; rédaction interne v1.2.",
+      "variabilite_permises": "Uniquement les variantes du catalogue préécrit; ne pas remplacer ou permuter les raisons.",
+      "validation_variantes": "a_revoir_humainement"
+    },
+    {
+      "item_id": "qc-pri-ccq-003-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Remplis un tableau à deux colonnes (ou dicte l’équivalent) : réponse de chaque personnage et argument; ajoute une similitude et une différence. Évite de les faire paraître d’accord sur tout.",
+      "stimulus": "Question : « Pourquoi imaginer une ville en carton? » Anis : « Pour tester comment des lieux pourraient être aménagés. » Joy : « Pour raconter une histoire avec des espaces inventés. »",
+      "reponse_attendue": "Anis : explorer des aménagements possibles; Joy : soutenir un récit imaginé. Commun : la ville en carton sert à explorer des idées; différence : réfléchir à l’organisation de lieux vs raconter une histoire.",
+      "criteres": [
+        "tableau ou reformulation couvre les deux réponses",
+        "raisons attribuées correctement",
+        "similitude distincte d’une identité totale",
+        "différence précise",
+        "ton neutre"
+      ],
+      "feedback": "Une même activité peut avoir plusieurs significations. Indique ce qui se ressemble sans effacer la différence.",
+      "difficulte": "intermediaire",
+      "representation": "tableau_ou_dictee",
+      "seed": 207,
+      "parametres": {
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "domaines": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "sélection dans le catalogue fermé",
+          "conserver texte et correction de la même variante",
+          "aucune création de dialogue ni de corrigé par IA libre"
+        ],
+        "algorithme_selection": "index = seed % len(variantes), indices dans l’ordre du tableau variantes, sans mélange",
+        "variante_selectionnee": "B",
+        "exemples_valides": [
+          {
+            "seed": 207,
+            "index": 1,
+            "variante_id": "B"
+          },
+          {
+            "seed": 208,
+            "index": 0,
+            "variante_id": "A"
+          }
+        ],
+        "catalogue": [
+          {
+            "id": "A",
+            "stimulus": "Question : « Pourquoi laisser une place vide dans une exposition? » Alice : « Pour permettre aux visiteurs d’ajouter leurs propres créations. » Joël : « Pour rappeler que le projet continuera et n’est pas terminé. »",
+            "reponse_attendue": "Alice : inviter les visiteurs à participer; Joël : signifier que le projet reste ouvert. Commun : la place vide indique une possibilité nouvelle; différence : participation immédiate du public vs message sur le projet qui évolue."
+          },
+          {
+            "id": "B",
+            "stimulus": "Question : « Pourquoi imaginer une ville en carton? » Anis : « Pour tester comment des lieux pourraient être aménagés. » Joy : « Pour raconter une histoire avec des espaces inventés. »",
+            "reponse_attendue": "Anis : explorer des aménagements possibles; Joy : soutenir un récit imaginé. Commun : la ville en carton sert à explorer des idées; différence : réfléchir à l’organisation de lieux vs raconter une histoire."
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "source": "Fiction et rubrique originales; rédaction interne v1.2.",
+      "variabilite_permises": "Uniquement les variantes du catalogue préécrit; ne pas remplacer ou permuter les raisons.",
+      "validation_variantes": "a_revoir_humainement"
+    },
+    {
+      "item_id": "qc-pri-ccq-003-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Repère les deux erreurs de la comparaison proposée (jugement sur une personne et/ou effacement d’une différence), puis réécris une comparaison fidèle et respectueuse.",
+      "stimulus": "Question : « Pourquoi présenter une affiche? » Eve : « Pour transmettre une information clairement. » Milo : « Pour souligner le travail de ceux qui l’ont créée. » Copie fautive : « Milo est prétentieux; les deux personnages veulent exactement la même chose. »",
+      "reponse_attendue": "Erreurs : qualifier Milo de prétentieux sans indice et confondre le sujet commun avec un motif identique. Correction : tous deux veulent présenter l’affiche, mais Eve vise l’information du public, tandis que Milo vise la reconnaissance du travail.",
+      "criteres": [
+        "identifie un jugement/inférence sans indice",
+        "identifie la confusion de deux motifs",
+        "produit une reformulation attribuée correcte",
+        "formule un point commun ET une différence",
+        "ne juge pas les personnes"
+      ],
+      "feedback": "Une correction compare les idées et leurs arguments; elle ne transforme pas une personne en étiquette.",
+      "difficulte": "intermediaire",
+      "representation": "revision_d_une_reponse",
+      "seed": 208,
+      "parametres": {
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "domaines": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "sélection dans le catalogue fermé",
+          "conserver texte et correction de la même variante",
+          "aucune création de dialogue ni de corrigé par IA libre"
+        ],
+        "algorithme_selection": "index = seed % len(variantes), indices dans l’ordre du tableau variantes, sans mélange",
+        "variante_selectionnee": "A",
+        "exemples_valides": [
+          {
+            "seed": 208,
+            "index": 0,
+            "variante_id": "A"
+          },
+          {
+            "seed": 209,
+            "index": 1,
+            "variante_id": "B"
+          }
+        ],
+        "catalogue": [
+          {
+            "id": "A",
+            "stimulus": "Question : « Pourquoi présenter une affiche? » Eve : « Pour transmettre une information clairement. » Milo : « Pour souligner le travail de ceux qui l’ont créée. » Copie fautive : « Milo est prétentieux; les deux personnages veulent exactement la même chose. »",
+            "reponse_attendue": "Erreurs : qualifier Milo de prétentieux sans indice et confondre le sujet commun avec un motif identique. Correction : tous deux veulent présenter l’affiche, mais Eve vise l’information du public, tandis que Milo vise la reconnaissance du travail."
+          },
+          {
+            "id": "B",
+            "stimulus": "Question : « Pourquoi montrer une expérience fictive? » Sara : « Pour expliquer ce qui s’est passé à chaque étape. » Luc : « Pour donner envie de poser de nouvelles questions. » Copie fautive : « Luc n’aime pas les réponses; ils ont exactement la même idée. »",
+            "reponse_attendue": "Erreurs : inventer que Luc n’aime pas les réponses et effacer la divergence des buts. Correction : les deux voient un intérêt à montrer l’expérience; Sara souhaite expliquer les étapes, Luc souhaite ouvrir d’autres questions."
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "source": "Fiction et rubrique originales; rédaction interne v1.2.",
+      "variabilite_permises": "Uniquement les variantes du catalogue préécrit; ne pas remplacer ou permuter les raisons.",
+      "validation_variantes": "a_revoir_humainement"
+    },
+    {
+      "item_id": "qc-pri-ccq-003-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A. Dans ce musée entièrement imaginaire, présente les réponses de DEUX personnages à la question de sens, associe une raison à chacun, donne un point commun et une différence et indique, si tu nommes une valeur, qu’il s’agit d’une interprétation. Conclus sans dévoiler tes convictions ni choisir un camp. Réponse possible : texte, tableau ou explication orale documentée.",
+      "stimulus": "Musée fictif des objets ordinaires, sans lien avec une culture réelle : une petite boîte d’outils en carton est présentée. Question : « Pourquoi montrer un objet très simple dans un musée imaginaire? » **Yara** : « Même les objets simples racontent les gestes que des personnes ont imaginés pour accomplir une tâche. » **Basile** : « Cet objet peut donner aux visiteurs l’envie d’inventer une nouvelle manière de réaliser cette tâche. »",
+      "reponse_attendue": "Exemple recevable : Yara voit l’objet comme un moyen de raconter des gestes et des façons de faire; l’argument est qu’il montre comment une tâche a été pensée. Basile y voit une source d’idées nouvelles; l’argument est qu’il peut inspirer une autre manière d’agir. Commun : l’objet peut faire réfléchir au travail et aux idées. Différence : expliquer des pratiques représentées dans le musée vs stimuler une invention future. Valeurs possibles, non affirmées comme faits : mémoire des savoir-faire / créativité. Conclusion neutre : les deux attribuent un sens à un objet simple pour des raisons différentes. D’autres formulations fidèles, même sans vocabulaire abstrait, sont acceptées.",
+      "criteres": [
+        "C1 deux positions fidèles et distinctes",
+        "C2 une raison pertinente liée à chacune",
+        "C3 un point commun et une différence réels",
+        "C4 une valeur éventuelle présentée comme interprétation et sans ajout factuel",
+        "C5 formulation neutre, sans adhésion personnelle ni jugement sur l’identité"
+      ],
+      "feedback": "Si le sens du musée est expliqué pour un seul personnage, reprends l’autre raison; si tu dois choisir, reformule les deux sans préférence. La correction porte sur les arguments, pas sur l’opinion.",
+      "difficulte": "transfert",
+      "representation": "vignette_musee_fictif_et_tableau_ou_oral",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "Fiction et rubrique originales; rédaction interne v1.2.",
+      "preuve_maitrise": {
+        "preuve_id": "preuve-A",
+        "contexte": "musée imaginaire d’objets ordinaires",
+        "autonomie": "sans indices sur les arguments et sans retour correctif durant la production",
+        "critere_decision": "chacune des dimensions C1–C5 au moins niveau 2 dans GRILLE_MAITRISE.md; à coupler obligatoirement à q-010, contexte indépendant"
+      },
+      "duree_suggeree_minutes": 12
+    },
+    {
+      "item_id": "qc-pri-ccq-003-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-003-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B. Compare les réponses de deux personnages à une question de sens dans un atelier de recherche fictif. Pour chacune : que signifie l’action et pourquoi? Donne un point commun et une différence, distingue ce que le texte dit de ce que tu interprètes, puis conclus sans demander d’adhésion personnelle. Texte, tableau ou explication orale documentée acceptés.",
+      "stimulus": "Station fictive de questions, sans prétention scientifique factuelle. Un groupe conserve un panneau de questions sans réponse immédiate. Question : « Pourquoi garder des questions auxquelles personne n’a encore répondu? » **Ophélie** : « Ces questions nous aideront à préparer une prochaine exploration en précisant ce qu’il reste à comprendre. » **Rayan** : « Ces questions peuvent inviter des personnes différentes à proposer de nouvelles idées ensemble. »",
+      "reponse_attendue": "Exemple recevable : Ophélie voit le panneau comme une préparation à la recherche future; son argument est qu’il précise ce qu’il faut encore comprendre. Rayan y voit un point de départ pour imaginer collectivement; son argument est qu’il invite plusieurs personnes à créer des idées. Commun : les questions gardent une utilité sans réponse immédiate. Différence : organiser une recherche à venir vs susciter une collaboration inventive. Valeurs interprétables avec prudence : rigueur de recherche / coopération et créativité. Conclusion neutre : les personnages reconnaissent l’intérêt des questions ouvertes de façons distinctes. Toute autre reformulation fidèle aux répliques est recevable.",
+      "criteres": [
+        "C1 deux positions fidèles et distinctes",
+        "C2 deux arguments appuyés par les propos exacts",
+        "C3 point commun et différence pertinents",
+        "C4 distingue raison citée et valeur éventuellement inférée",
+        "C5 neutralité et absence de demande de conviction"
+      ],
+      "feedback": "Relis « préparer une prochaine exploration » et « proposer des idées ensemble » pour distinguer les deux raisons. Ton accord avec l’un n’entre pas en ligne de compte.",
+      "difficulte": "transfert",
+      "representation": "vignette_station_fictive_questions_et_tableau_ou_oral",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "Fiction et rubrique originales; rédaction interne v1.2.",
+      "preuve_maitrise": {
+        "preuve_id": "preuve-B",
+        "contexte": "station imaginaire de questions ouvertes",
+        "autonomie": "sans indices sur les arguments et sans retour correctif durant la production",
+        "critere_decision": "chacune des dimensions C1–C5 au moins niveau 2 dans GRILLE_MAITRISE.md; à coupler obligatoirement à q-009"
+      },
+      "duree_suggeree_minutes": 12
+    }
+  ]
+}

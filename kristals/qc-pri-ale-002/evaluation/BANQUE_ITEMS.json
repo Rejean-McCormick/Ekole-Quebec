@@ -1,0 +1,306 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ale-002",
+  "family_id": "qc-pri-ale-002-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ale-002-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the printed word. Tell or show one letter–sound clue that helped you.",
+      "stimulus": "Word: `map`. No picture and no spoken model.",
+      "reponse_attendue": "Correct reading: **map** /mæp/. Graphemes `m|a|p`; acceptable clue `a` spells /æ/, or `m` /m/, or `p` /p/. Letter-name recital alone is insufficient.",
+      "criteres": [
+        "Reads printed map recognizably with the target short vowel.",
+        "Shows at least one actual grapheme–phoneme link.",
+        "Does not merely name letters or guess from a picture."
+      ],
+      "feedback": "If only letter names are supplied, contrast a letter name with its sound; ask the learner to blend, then retry on a DIFFERENT practice word.",
+      "difficulte": "initial",
+      "representation": "printed CVC + oral decoding + pointed grapheme; actual word pronunciation (or approved sequential phoneme-output) plus observed grapheme clue",
+      "variations_permises": "Font and accessible spoken/phoneme-output modality; word unchanged.",
+      "limites_variation": "Ne modifier ni mots imprimés, ni graphèmes ciblés, ni corrigé; pas d’image-indice, de modèle oral ni de génération IA libre. Les adaptations de lecture ne doivent pas fournir le son ou le mot.",
+      "condition_autonomie": "Mots vus sans modèle vocal ni audio, répondant à son rythme; transcription de prononciation, indice pointé ou énoncé. Documenter les aménagements et les aides.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-002-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the word. Identify the middle grapheme and its short vowel sound.",
+      "stimulus": "Word: `bed`. A single clear printed card on a neutral background; no picture, example word, contextual hint or spoken model.",
+      "reponse_attendue": "Correct: **bed** /bɛd/. Middle `e` spells /ɛ/. Not *bad* /bæd/; the pupil’s evidence must refer to the printed `e`.",
+      "criteres": [
+        "Correct recognizable pronunciation of bed.",
+        "Accurately points to e and links it to /ɛ/.",
+        "Can demonstrate sound joining without a letter-name substitution."
+      ],
+      "feedback": "If the response is bad, point to the grapheme actually printed in the middle and compare it with the short e sound; do not say the whole target word before a later fresh attempt.",
+      "difficulte": "initial",
+      "representation": "short-vowel evidence, single word; actual word pronunciation (or approved sequential phoneme-output) plus observed grapheme clue",
+      "variations_permises": "Large-print e, oral/pointer cue after pronunciation only.",
+      "limites_variation": "Ne modifier ni mots imprimés, ni graphèmes ciblés, ni corrigé; pas d’image-indice, de modèle oral ni de génération IA libre. Les adaptations de lecture ne doivent pas fournir le son ou le mot.",
+      "condition_autonomie": "Mots vus sans modèle vocal ni audio, répondant à son rythme; transcription de prononciation, indice pointé ou énoncé. Documenter les aménagements et les aides.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-002-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Read this word by sound blending. Show how many graphemes it contains and explain the final one.",
+      "stimulus": "Word: `cash`. Analyse with letter tiles after initial read.",
+      "reponse_attendue": "Correct **cash** /kæʃ/; `c|a|sh` are three graphemes; `sh` (two letters) represents the single phoneme /ʃ/. Four letters do not imply four phonemes.",
+      "criteres": [
+        "Reads cash with the final /ʃ/ sound.",
+        "Segments into three graphèmes c|a|sh.",
+        "Correctly links sh to /ʃ/."
+      ],
+      "feedback": "If the learner separates s and h, place them in one tile as a remedial hint only after the attempt, and have them read another word.",
+      "difficulte": "initial",
+      "representation": "word print and 3 phoneme boxes; actual word pronunciation (or approved sequential phoneme-output) plus observed grapheme clue",
+      "variations_permises": "Only size/placement of tiles may vary; do not supply sh pronunciation.",
+      "limites_variation": "Ne modifier ni mots imprimés, ni graphèmes ciblés, ni corrigé; pas d’image-indice, de modèle oral ni de génération IA libre. Les adaptations de lecture ne doivent pas fournir le son ou le mot.",
+      "condition_autonomie": "Mots vus sans modèle vocal ni audio, répondant à son rythme; transcription de prononciation, indice pointé ou énoncé. Documenter les aménagements et les aides.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-002-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the word and identify the two-letter grapheme giving its first speech sound.",
+      "stimulus": "Word: `chin`. No picture or actor demonstration.",
+      "reponse_attendue": "Correct **chin** /tʃɪn/; `ch|i|n` = /tʃ/ /ɪ/ /n/. `ch` spells one /tʃ/, not /k/ plus /h/.",
+      "criteres": [
+        "Reads chin recognizably with /tʃ/.",
+        "Points to ch as a two-letter grapheme.",
+        "States or demonstrates one /tʃ/ sound for ch."
+      ],
+      "feedback": "If the pupil says /k/ at the start, contrast ch with a single c on a practice strip after the attempt, then recheck a new ch word.",
+      "difficulte": "intermediaire",
+      "representation": "initial digraph and oral blend; actual word pronunciation (or approved sequential phoneme-output) plus observed grapheme clue",
+      "variations_permises": "High contrast printing, no soundtrack delivering the full word.",
+      "limites_variation": "Ne modifier ni mots imprimés, ni graphèmes ciblés, ni corrigé; pas d’image-indice, de modèle oral ni de génération IA libre. Les adaptations de lecture ne doivent pas fournir le son ou le mot.",
+      "condition_autonomie": "Mots vus sans modèle vocal ni audio, répondant à son rythme; transcription de prononciation, indice pointé ou énoncé. Documenter les aménagements et les aides.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-002-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Read both words, compare the middle grapheme and say why the words differ.",
+      "stimulus": "Printed pair: `sit` / `set`, mixed order, no context picture.",
+      "reponse_attendue": "Correct **sit** /sɪt/ (`i` → /ɪ/) versus **set** /sɛt/ (`e` → /ɛ/). Both have s and t, but different short middle vowel graphèmes. Do not use letter names alone.",
+      "criteres": [
+        "Both words decoded correctly.",
+        "Identifies the changed grapheme i/e.",
+        "Links each vowel with its sound in these words."
+      ],
+      "feedback": "If the learner pronounces both alike, isolate i and e and review each correspondence with separate words before comparing again.",
+      "difficulte": "intermediaire",
+      "representation": "minimal pair CVC + vowel comparison; actual word pronunciation (or approved sequential phoneme-output) plus observed grapheme clue",
+      "variations_permises": "Presentation order can vary, but both spellings and vowel mappings fixed.",
+      "limites_variation": "Ne modifier ni mots imprimés, ni graphèmes ciblés, ni corrigé; pas d’image-indice, de modèle oral ni de génération IA libre. Les adaptations de lecture ne doivent pas fournir le son ou le mot.",
+      "condition_autonomie": "Mots vus sans modèle vocal ni audio, répondant à son rythme; transcription de prononciation, indice pointé ou énoncé. Documenter les aménagements et les aides.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-002-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the word, then explain whether the first two letters represent one speech sound or two.",
+      "stimulus": "Word: `slip` on a card. Optional blank boxes for sounds after reading.",
+      "reponse_attendue": "Correct **slip** /slɪp/; `s` /s/ and `l` /l/ are two phonemes, so `sl` is a consonant blend, unlike `sh` /ʃ/ as a digraph. `i` spells short /ɪ/.",
+      "criteres": [
+        "Reads slip recognizably with /s/ and /l/.",
+        "Explains or shows s and l as two separate sounds.",
+        "Distinguishes a consonant cluster from the one-sound sh digraph."
+      ],
+      "feedback": "If sl is mistakenly treated as /ʃ/, let the learner feel two sequential speech sounds; compare one letter tile per sound after the first attempt.",
+      "difficulte": "intermediaire",
+      "representation": "consonant cluster compared with digraph; actual word pronunciation (or approved sequential phoneme-output) plus observed grapheme clue",
+      "variations_permises": "Word print unchanged; no evaluation of formal terminology if the phoneme mapping is clear.",
+      "limites_variation": "Ne modifier ni mots imprimés, ni graphèmes ciblés, ni corrigé; pas d’image-indice, de modèle oral ni de génération IA libre. Les adaptations de lecture ne doivent pas fournir le son ou le mot.",
+      "condition_autonomie": "Mots vus sans modèle vocal ni audio, répondant à son rythme; transcription de prononciation, indice pointé ou énoncé. Documenter les aménagements et les aides.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-002-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Read both labels without an image. Give a vowel clue in the first and a digraph clue in the second.",
+      "stimulus": "Printed labels `pet` and `fish`, no model.",
+      "reponse_attendue": "Correct **pet** /pɛt/, middle `e` = /ɛ/; **fish** /fɪʃ/, ending `sh` = /ʃ/; fish has 3 graphemes f|i|sh and 3 phonemes.",
+      "criteres": [
+        "Both words decoded from print.",
+        "Gives e→/ɛ/ for pet.",
+        "Gives sh→/ʃ/ for fish.",
+        "No inference from illustration."
+      ],
+      "feedback": "If fish is said with two sounds for sh, box the digraph AFTER the first attempt and have the student retry with a different practice word.",
+      "difficulte": "intermediaire",
+      "representation": "two written labels with distinct clues; actual word pronunciation (or approved sequential phoneme-output) plus observed grapheme clue",
+      "variations_permises": "One label at a time for access; text and answers unchanged.",
+      "limites_variation": "Ne modifier ni mots imprimés, ni graphèmes ciblés, ni corrigé; pas d’image-indice, de modèle oral ni de génération IA libre. Les adaptations de lecture ne doivent pas fournir le son ou le mot.",
+      "condition_autonomie": "Mots vus sans modèle vocal ni audio, répondant à son rythme; transcription de prononciation, indice pointé ou énoncé. Documenter les aménagements et les aides.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-002-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-002-ev-01",
+      "mode": "fixe",
+      "consigne": "These two pretend story tags have no pictures. Read both and give at least one grapheme–sound clue per word.",
+      "stimulus": "Two short fictional notebook tags: `mud`, `chat`.",
+      "reponse_attendue": "Correct **mud** /mʌd/ with u→/ʌ/; **chat** /tʃæt/ with ch→/tʃ/ (or a→/æ/), joined left-to-right. The scene label provides context, not a word hint.",
+      "criteres": [
+        "Two accurate readings without adult model.",
+        "A sound-spelling clue is correct for each word.",
+        "At least one process indicator (pointing and joining or blending) is observable."
+      ],
+      "feedback": "For a missed vowel, inspect the written middle letter and practise the short vowel separately; for ch, group it as one grapheme on a different remedial card.",
+      "difficulte": "transfert",
+      "representation": "story-label text and argued code evidence; actual word pronunciation (or approved sequential phoneme-output) plus observed grapheme clue",
+      "variations_permises": "Caption medium and response modality accessible; target words fixed.",
+      "limites_variation": "Ne modifier ni mots imprimés, ni graphèmes ciblés, ni corrigé; pas d’image-indice, de modèle oral ni de génération IA libre. Les adaptations de lecture ne doivent pas fournir le son ou le mot.",
+      "condition_autonomie": "Mots vus sans modèle vocal ni audio, répondant à son rythme; transcription de prononciation, indice pointé ou énoncé. Documenter les aménagements et les aides.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-002-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Independent proof A — Discovery journal. Read each NEW printed label aloud in English (or by pre-approved phoneme-output modality), then point to a grapheme and state its sound for EACH word. Work without adult hints. You may take an independent moment to sound out a word.",
+      "stimulus": "Four picture-free labels in a fictional discovery journal: `hen`, `pin`, `rug`, `shed`. All four spellings are held out from demonstrations and practice; sh must be treated as a digraph.",
+      "reponse_attendue": "Context A — discovery journal: four independently decoded English print labels, with documented grapheme–sound evidence.\n`hen` = /h/ /ɛ/ /n/ → **hen**; units `h | e | n`; expected clue `e` spells /ɛ/. Other correct single-grapheme sound links are acceptable if accurately shown.\n`pin` = /p/ /ɪ/ /n/ → **pin**; units `p | i | n`; expected clue `i` spells /ɪ/. Other correct single-grapheme sound links are acceptable if accurately shown.\n`rug` = /r/ /ʌ/ /g/ → **rug**; units `r | u | g`; expected clue `u` spells /ʌ/. Other correct single-grapheme sound links are acceptable if accurately shown.\n`shed` = /ʃ/ /ɛ/ /d/ → **shed**; units `sh | e | d`; expected clue `sh` spells /ʃ/. Other correct single-grapheme sound links are acceptable if accurately shown.\nTeacher accepts English pronunciation variants preserving taught contrasts. Pupil may self-correct without a cue. A picture, memory, automatic word-reader or adult prompt does not count as independent code evidence.",
+      "criteres": [
+        "M1 — At least 3 of the 4 new printed words are decoded recognizably using sound–grapheme correspondences, without word prompts.",
+        "M2 — At least 3 of the 4 words have a specific correct grapheme–phoneme clue pointed out, said or produced with approved access tools.",
+        "M3 — The target digraph (sh in A, ch in B) is read with its one correct consonant sound AND is justified by the two-letter grapheme.",
+        "M4 — Blending from left to right is observed for new words; letter names alone or contextual guessing are not accepted.",
+        "M5 — All four words are attempted autonomously; no adult model, external word-reader or corrective code cue during the proof."
+      ],
+      "feedback": "If a short vowel is wrong, practise that vowel on other regular words; if shed is read without the sh sound, retrain a digraph in one box. Schedule a later unseen assessment, not a coached redo scored as first attempt.",
+      "difficulte": "transfert",
+      "representation": "four new English word labels, audible decoding or equivalent phoneme-output, one grounded printed clue per label; actual word pronunciation (or approved sequential phoneme-output) plus observed grapheme clue",
+      "variations_permises": "Only typography, reading time, access device, and order of label presentation may vary without changing spellings. No pictures or verbal cues may predict the answer.",
+      "limites_variation": "Ne modifier ni mots imprimés, ni graphèmes ciblés, ni corrigé; pas d’image-indice, de modèle oral ni de génération IA libre. Les adaptations de lecture ne doivent pas fournir le son ou le mot.",
+      "condition_autonomie": "Mots vus sans modèle vocal ni audio, répondant à son rythme; transcription de prononciation, indice pointé ou énoncé. Documenter les aménagements et les aides.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A — discovery journal (4 novel words); score separately from B",
+      "corrige_verifie": {
+        "hen": {
+          "graphèmes": "h | e | n",
+          "phonèmes": "/h/ /ɛ/ /n/",
+          "indice_attendu": "e",
+          "son": "/ɛ/"
+        },
+        "pin": {
+          "graphèmes": "p | i | n",
+          "phonèmes": "/p/ /ɪ/ /n/",
+          "indice_attendu": "i",
+          "son": "/ɪ/"
+        },
+        "rug": {
+          "graphèmes": "r | u | g",
+          "phonèmes": "/r/ /ʌ/ /g/",
+          "indice_attendu": "u",
+          "son": "/ʌ/"
+        },
+        "shed": {
+          "graphèmes": "sh | e | d",
+          "phonèmes": "/ʃ/ /ɛ/ /d/",
+          "indice_attendu": "sh",
+          "son": "/ʃ/"
+        }
+      }
+    },
+    {
+      "item_id": "qc-pri-ale-002-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Independent proof B — Makers’ workshop. Read each NEW printed equipment label (no pictures) from English spelling, then identify one grapheme and its sound for EACH label. No model or answer-revealing aid; do not reuse journal labels.",
+      "stimulus": "Four picture-free labels in a fictional workshop: `web`, `fin`, `mug`, `chip`. Each is unseen during teaching and distinct from proof A; ch is a digraph.",
+      "reponse_attendue": "Context B — makers’ workshop: four independently decoded English print labels, with documented grapheme–sound evidence.\n`web` = /w/ /ɛ/ /b/ → **web**; units `w | e | b`; expected clue `e` spells /ɛ/. Other correct single-grapheme sound links are acceptable if accurately shown.\n`fin` = /f/ /ɪ/ /n/ → **fin**; units `f | i | n`; expected clue `i` spells /ɪ/. Other correct single-grapheme sound links are acceptable if accurately shown.\n`mug` = /m/ /ʌ/ /g/ → **mug**; units `m | u | g`; expected clue `u` spells /ʌ/. Other correct single-grapheme sound links are acceptable if accurately shown.\n`chip` = /tʃ/ /ɪ/ /p/ → **chip**; units `ch | i | p`; expected clue `ch` spells /tʃ/. Other correct single-grapheme sound links are acceptable if accurately shown.\nTeacher accepts English pronunciation variants preserving taught contrasts. Pupil may self-correct without a cue. A picture, memory, automatic word-reader or adult prompt does not count as independent code evidence.",
+      "criteres": [
+        "M1 — At least 3 of the 4 new printed words are decoded recognizably using sound–grapheme correspondences, without word prompts.",
+        "M2 — At least 3 of the 4 words have a specific correct grapheme–phoneme clue pointed out, said or produced with approved access tools.",
+        "M3 — The target digraph (sh in A, ch in B) is read with its one correct consonant sound AND is justified by the two-letter grapheme.",
+        "M4 — Blending from left to right is observed for new words; letter names alone or contextual guessing are not accepted.",
+        "M5 — All four words are attempted autonomously; no adult model, external word-reader or corrective code cue during the proof."
+      ],
+      "feedback": "If chip begins with /k/ rather than /tʃ/, practise the ch digraph on other novel practice cards and reassess in a third context. If an accent issue is suspected, verify printed clue before classifying a decoding error.",
+      "difficulte": "transfert",
+      "representation": "four new English word labels, actual spoken decoding or sound-output equivalent, printed clue for each; actual word pronunciation (or approved sequential phoneme-output) plus observed grapheme clue",
+      "variations_permises": "Only accessibility and label presentation order may change; words, phoneme evidence and criteria stay fixed. No audio that reads a word for the learner.",
+      "limites_variation": "Ne modifier ni mots imprimés, ni graphèmes ciblés, ni corrigé; pas d’image-indice, de modèle oral ni de génération IA libre. Les adaptations de lecture ne doivent pas fournir le son ou le mot.",
+      "condition_autonomie": "Mots vus sans modèle vocal ni audio, répondant à son rythme; transcription de prononciation, indice pointé ou énoncé. Documenter les aménagements et les aides.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B — makers’ workshop (4 novel words); independent of A",
+      "corrige_verifie": {
+        "web": {
+          "graphèmes": "w | e | b",
+          "phonèmes": "/w/ /ɛ/ /b/",
+          "indice_attendu": "e",
+          "son": "/ɛ/"
+        },
+        "fin": {
+          "graphèmes": "f | i | n",
+          "phonèmes": "/f/ /ɪ/ /n/",
+          "indice_attendu": "i",
+          "son": "/ɪ/"
+        },
+        "mug": {
+          "graphèmes": "m | u | g",
+          "phonèmes": "/m/ /ʌ/ /g/",
+          "indice_attendu": "u",
+          "son": "/ʌ/"
+        },
+        "chip": {
+          "graphèmes": "ch | i | p",
+          "phonèmes": "/tʃ/ /ɪ/ /p/",
+          "indice_attendu": "ch",
+          "son": "/tʃ/"
+        }
+      }
+    }
+  ]
+}

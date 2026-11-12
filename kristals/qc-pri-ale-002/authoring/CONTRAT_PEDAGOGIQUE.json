@@ -1,0 +1,95 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Appliquer des correspondances lettres-sons anglaises au décodage.",
+  "concepts": [
+    "phonics",
+    "grapheme",
+    "sound blend"
+  ],
+  "preuve_attendue": "Lire de nouveaux mots réguliers et indiquer l’indice utilisé.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-002-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Lire de nouveaux mots réguliers et indiquer l’indice utilisé.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Choix d’accessibilité, typographie, tempo, ordre de lecture; les listes de mots et corrigés des items 009/010 restent fixés sans tirage.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_scenarios": "fixe_sans_hasard; seed non applicable"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-ale-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "mot imprimé isolé",
+        "lecture des phonèmes puis fusion en mot",
+        "indice graphème–phonème exprimé ou pointé"
+      ],
+      "variables": {
+        "regime": "items fixes, sans tirage",
+        "ensembles_de_maitrise": {
+          "A": [
+            "hen",
+            "pin",
+            "rug",
+            "shed"
+          ],
+          "B": [
+            "web",
+            "fin",
+            "mug",
+            "chip"
+          ]
+        },
+        "modification_de_mots_interdite": true
+      },
+      "contraintes": [
+        "corpus anglais régulier CVC ou digrammes consonantiques sh/ch avec voyelle courte",
+        "items 009/010 et corrigés verrouillés",
+        "mots des preuves tenus hors de l’enseignement",
+        "décodeur sans modèle ni synthèse vocale automatique",
+        "variantes accentuelles équitables",
+        "deux manifestations indépendantes",
+        "indice explicite de graphème–son"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "mesures": [
+          "decodage_correct_minimum_3_sur_4",
+          "indices_corrects_minimum_3_sur_4",
+          "digramme_de_cible_correct",
+          "autonomie_sans_modele"
+        ],
+        "regle": "seuils atteints séparément dans A et B sans compensation"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/PLAN_EVALUATION.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

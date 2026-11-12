@@ -1,0 +1,95 @@
+{
+  "format": "ekole.kristal-experience/2.0-proposition",
+  "kristal_id": "qc-pri-fr-008",
+  "statut": "prototype_revue_pedagogique_requise",
+  "alias_enfant": "Construire le fil d’une histoire",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Reconstituer les éléments d’un récit et leurs liens de cause à effet.",
+    "preuve_attendue": "Produire un schéma narratif et justifier l’ordre des événements.",
+    "concepts": [
+      "situation initiale",
+      "personnages",
+      "événements",
+      "dénouement"
+    ],
+    "modules": [
+      "contenu/01_NOTIONS_ET_EXEMPLES.md",
+      "contenu/03_ENSEIGNEMENT_GUIDE.md",
+      "contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+      "contenu/05_PRATIQUE_AUTONOME.md",
+      "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    ]
+  },
+  "modalite_evaluation": "interpretation_textuelle",
+  "progression_enfant": {
+    "decouvrir": {
+      "titre_enfant": "Que se passe-t-il ?",
+      "consigne_enfant": "Dans une courte histoire, repère le personnage, ce qui change, puis comment la situation se résout.",
+      "statut_validation": "Repérage en lecture ou écoute",
+      "source_pedagogique": "contenu/03_ENSEIGNEMENT_GUIDE.md"
+    },
+    "essayer": {
+      "titre_enfant": "Replace les cartes de l’histoire",
+      "consigne_enfant": "Mets les événements dans un ordre cohérent. Tu peux ensuite expliquer ce qui provoque l’événement suivant.",
+      "statut_validation": "Ordre contrôlé sur une histoire originale; causalité non prouvée",
+      "source_pedagogique": "contenu/03_ENSEIGNEMENT_GUIDE.md"
+    },
+    "expliquer": {
+      "titre_enfant": "Parce que… donc…",
+      "consigne_enfant": "Choisis deux événements successifs et explique le lien de cause à effet en te référant aux indices du récit.",
+      "statut_validation": "Justification observée humainement",
+      "source_pedagogique": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    },
+    "explorer": {
+      "titre_enfant": "Une autre fin est-elle possible ?",
+      "consigne_enfant": "Propose un autre dénouement cohérent avec le problème et justifie ce qui devrait changer.",
+      "statut_validation": "Création ouverte, sans note automatique",
+      "source_pedagogique": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    }
+  },
+  "outils_interactifs": [
+    {
+      "id": "recit-atelier-cartes",
+      "statut": "entrainement_candidat_non_certifie",
+      "usage": "pratique_non_notée"
+    }
+  ],
+  "preuves_de_maitrise": {
+    "source": "evaluation/BANQUE_ITEMS.json",
+    "remplacee_par_atelier": false,
+    "decision": "revue_humaine_requise",
+    "commentaire": "Les mini-environnements ne remplacent pas les preuves source."
+  },
+  "difficultes_a_observer": [
+    "Range les événements sans pouvoir justifier leur ordre",
+    "Confond la cause avec une simple succession",
+    "Ignore le dénouement ou le problème du récit"
+  ],
+  "consignes_enseignant": [
+    "Lire ou faire entendre un court récit en retirant les solutions de l’écran élève.",
+    "Interroger : « Quel indice te fait penser que ceci est la cause ? »",
+    "Comparer une succession chronologique à un lien causal justifié."
+  ],
+  "erreurs_et_relances": [
+    {
+      "observation": "Chronologie sans cause",
+      "relance": "Faire compléter « parce que » avec un indice précis du récit"
+    },
+    {
+      "observation": "Personnage et événement mêlés",
+      "relance": "Utiliser deux catégories de cartes : personnes / actions"
+    },
+    {
+      "observation": "Dénouement absent",
+      "relance": "Demander ce qui a changé entre le problème et la fin"
+    }
+  ],
+  "limitations": [
+    "Un ordre de cartes correct ne prouve pas un raisonnement causal.",
+    "Ne jamais imposer une interprétation du récit comme unique si le texte soutient une variante."
+  ],
+  "politique_visuelle": "Description de concept seulement; aucun style imposé; un fichier absent affiche son prompt.",
+  "provenance": "Projet de refonte fondé sur les modules source du Kristal; pas une approbation institutionnelle."
+}

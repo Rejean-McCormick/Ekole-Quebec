@@ -1,0 +1,63 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-012",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Écrire correctement un ensemble ciblé de mots et expliquer une stratégie de mémorisation.",
+  "concepts": [
+    "régularités orthographiques",
+    "morphologie",
+    "mots fréquents"
+  ],
+  "preuve_attendue": "Produire des mots en contexte puis corriger ses erreurs avec justification.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-fr-002"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-012-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Produire des mots en contexte puis corriger ses erreurs avec justification.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-fr-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "critere": "Produire des mots en contexte puis corriger ses erreurs avec justification.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "mot_en_phrase_dictee",
+        "phrase_a_corriger",
+        "texte_court_a_justifier"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Corpus lexical fermé de 15 graphies, sans substitutions non validées.",
+        "Consigne et corrigé fixes, aucune génération libre de questions.",
+        "Graphies initiales sans modèle et sans correcteur; correction différée séparée.",
+        "Critères obj-1 et crit-1 pour chaque item; deux preuves autonomes dans des contextes distincts.",
+        "Ne pas confondre orthographe d’usage, orthographe grammaticale, prononciation et écriture manuscrite."
+      ],
+      "barreme_ou_rubrique": "Rubrique critériée dans evaluation/GRILLE_MAITRISE.md; preuve A: 5/6 mots, 4/5 corrections et 2/2 justifications; preuve B: 4/5 mots, 4/5 corrections et 2/2 justifications; deux preuves nécessaires, pas de moyenne compensatoire.",
+      "source": "Matériel original rédigé pour qc-pri-fr-012 d’après le PARCOURS.md et le contrat v1.2 du workspace; références détaillées dans sources/REFERENCES_CONTENU.md.",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

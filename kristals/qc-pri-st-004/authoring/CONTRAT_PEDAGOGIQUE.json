@@ -1,0 +1,106 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Relier des observations à une conclusion en distinguant constat et interprétation.",
+  "concepts": [
+    "preuve",
+    "résultat",
+    "explication",
+    "limite"
+  ],
+  "preuve_attendue": "Présenter un résultat, son indice et une limite de la conclusion.",
+  "prerequis_bloquants": [
+    "qc-pri-st-003"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-004-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Présenter un résultat, son indice et une limite de la conclusion.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-st-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Présenter un résultat, son indice et une limite de la conclusion.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte_lineaire",
+        "tableau_de_donnees",
+        "liste_chronologique",
+        "compte_rendu_oral_transcrit"
+      ],
+      "variables": {
+        "scenario_id": {
+          "domaine": [
+            "ST004-C001",
+            "ST004-C002",
+            "ST004-C003",
+            "ST004-C004",
+            "ST004-C005",
+            "ST004-C006",
+            "ST004-C007",
+            "ST004-C008",
+            "ST004-C009",
+            "ST004-C010",
+            "ST004-C011",
+            "ST004-C012",
+            "ST004-C013"
+          ],
+          "selection": "corpus_fixe_ferme"
+        },
+        "format_de_presentation": {
+          "domaine": [
+            "texte_lineaire",
+            "tableau_ou_liste_fidele"
+          ],
+          "regle": "equivalence_numerique_et_semantique_verifiee_avant_usage"
+        }
+      },
+      "contraintes": [
+        "Raisonner uniquement sur les chiffres, unités et conditions du corpus rédigé et vérifié.",
+        "Ne pas inventer ni modifier des observations, des causes, des répétitions ou des protocoles.",
+        "Éviter les expériences risquées; seules des fiches fictives sont utilisées.",
+        "Conserver la réponse ouverte : interprétation fondée sur indice et limite; examen humain de la rubrique.",
+        "Les contextes de maîtrise q-009 (vivant) et q-010 (technologie) sont différents et évalués sans indices.",
+        "Variations uniquement de présentation fidèle; toute nouvelle situation doit avoir son propre corrigé et une validation humaine avant inclusion."
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+          "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+          "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+          "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+          "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+        ],
+        "echelle": "0 / 1 / 2 par dimension, observation du niveau 2 dans chacun des deux contextes de maîtrise, autonomie requise; jamais un score seul"
+      },
+      "source": "sources/REFERENCES_CONTENU.md (situations et données originales fictives)",
+      "seed": null,
+      "validation_status": "a_revoir",
+      "banque_items_ref": "evaluation/BANQUE_ITEMS.json",
+      "procedure_selection": "corpus_scenarios_ferme; items fixes ou scénarios à seul changement de représentation; pas de génération automatique activée",
+      "variantes_verifiees": [
+        "versions_sources_uniquement; pas_de_variante_synthetisee_testee"
+      ]
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,115 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-mu-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Interpréter une pièce avec écoute mutuelle et cohérence collective.",
+  "concepts": [
+    "mise en place",
+    "rythme",
+    "nuance",
+    "coopération"
+  ],
+  "preuve_attendue": "Exécuter une pièce courte puis corriger un passage problématique.",
+  "prerequis_bloquants": [
+    "qc-pri-mu-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-mu-003",
+    "qc-pri-mu-005"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-mu-007-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Exécuter une pièce courte puis corriger un passage problématique.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-mu-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Exécuter une pièce courte puis corriger un passage problématique.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "grille_4_pulsations",
+        "jeu_duo_sonore",
+        "jeu_duo_gestuel",
+        "duo_parole_et_percussion",
+        "observation_datee"
+      ],
+      "variables": {
+        "version_item": {
+          "domaine": [
+            "qc-pri-mu-007-q-001",
+            "qc-pri-mu-007-q-002",
+            "qc-pri-mu-007-q-003",
+            "qc-pri-mu-007-q-004",
+            "qc-pri-mu-007-q-005",
+            "qc-pri-mu-007-q-006",
+            "qc-pri-mu-007-q-007",
+            "qc-pri-mu-007-q-008",
+            "qc-pri-mu-007-q-009",
+            "qc-pri-mu-007-q-010",
+            "qc-pri-mu-007-q-011",
+            "qc-pri-mu-007-q-012"
+          ],
+          "selection": "corpus_fixe_verrouille"
+        },
+        "modalite_accessible": {
+          "domaine": [
+            "son_doux",
+            "geste_visible",
+            "geste_tactile_accessible"
+          ],
+          "selection": "autorisee_si_evenements_et_echange_mutuel_observables"
+        },
+        "tempo": {
+          "domaine": "modere_et_stable_convenu_avant_la_prestation",
+          "contrainte": "tous_les_battements_de_duree_egale"
+        }
+      },
+      "contraintes": [
+        "Rôle A et rôle B interdépendants joués en temps réel par deux personnes, élève et partenaire (adulte possible).",
+        "Chaque X signifie événement au début du temps et chaque · silence pendant un temps de même durée.",
+        "Maintenir quatre temps par mesure, signal préparatoire de quatre temps hors partition et l’emplacement exact de l’écart prévu.",
+        "Deux manifestations de maîtrise sur q-009 et q-010, contextes/occasions différents, rôles inversés, sans indice correctif; chaque dimension de la grille atteinte.",
+        "Aucune œuvre protégée, extrait externe ou génération IA libre; motifs originaux et variantes limitées.",
+        "Sons toujours confortables; alternatives de production ou perception conservant les relations musicales évaluées."
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "Mise en place/départ commun",
+          "Rythme et silences aux bonnes pulsations",
+          "Contraste de nuance sans accélération ni volume excessif",
+          "Écoute mutuelle, signaux et coopération en temps réel",
+          "Localisation factuelle et reprise réussie du passage problématique"
+        ],
+        "echelle": "0 = non observé; 1 = partiel ou avec aide corrective; 2 = autonome et conforme; cinq dimensions au niveau 2 sur q-009 et q-010 distincts; aucune compensation par moyenne",
+        "traces": "grille datée + première version/écart + plan de reprise + exécution corrigée"
+      },
+      "source": "sources/REFERENCES_CONTENU.md — motifs, consignes et rubriques de création originale; sources de sécurité et terminologie distinguées",
+      "seed": null,
+      "validation_status": "a_revoir",
+      "banque_items_ref": "evaluation/BANQUE_ITEMS.json",
+      "procedure_selection": "items_fixes_controles; aucune génération automatique activée; variantes autres que modalité/tempo validées par revue humaine",
+      "variantes_verifiees": [
+        "12_énoncés_fixes; les adaptations de modalité sont décrites mais non essayées auprès d’apprenants"
+      ]
+    }
+  ],
+  "statut": "items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

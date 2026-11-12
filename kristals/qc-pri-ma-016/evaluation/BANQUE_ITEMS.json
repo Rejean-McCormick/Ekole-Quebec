@@ -1,0 +1,657 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-016",
+  "family_id": "qc-pri-ma-016-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-016-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare 2,5 et 2,50 : écris =, < ou > et justifie avec la valeur de position.",
+      "stimulus": "2,5  ...  2,50",
+      "reponse_attendue": "2,5 = 2,50 car 5 dixièmes = 50 centièmes; 250/100 des deux côtés.",
+      "criteres": [
+        "relation exacte =",
+        "montre ou explique l’équivalence des dixièmes et centièmes"
+      ],
+      "feedback": "Si les graphies semblent différentes, écrire les deux en centièmes : 250 = 250.",
+      "difficulte": "initial",
+      "representation": "tableau unités-dixièmes-centièmes",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare 6,08 et 6,8 en nommant le premier rang différent.",
+      "stimulus": "6,08 m et 6,8 m",
+      "reponse_attendue": "6,08 < 6,80; unités égales, zéro dixième < huit dixièmes; différence 0,72 m.",
+      "criteres": [
+        "symbole < exact",
+        "distingue dixièmes et centièmes",
+        "même unité conservée"
+      ],
+      "feedback": "Ne compare pas « 08 » à « 8 » comme deux entiers; écris 6,80 avant de conclure.",
+      "difficulte": "initial",
+      "representation": "tableau et droite graduée",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Une affiche affirme « 5,12 > 5,9 parce que 12 > 9 ». Dis si elle a raison et donne un contre-raisonnement.",
+      "stimulus": "Affiche fictive : 5,12 > 5,9 (12 > 9).",
+      "reponse_attendue": "Faux; 5,12 < 5,90, car 1 dixième < 9 dixièmes. Exemple sur droite : 5,12 est proche de 5,1, tandis que 5,9 est proche de 6.",
+      "criteres": [
+        "rejette la comparaison incorrecte",
+        "corrige par 5,12 < 5,90",
+        "justifie par les rangs"
+      ],
+      "feedback": "La longueur du groupe de chiffres après la virgule ne donne pas l’ordre des nombres.",
+      "difficulte": "initial",
+      "representation": "justification de contre-exemple",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "parametrique",
+      "consigne": "Additionne les deux nombres décimaux en alignant les rangs. Montre une estimation numérique de la somme.",
+      "stimulus": "Opération : 4,91 + 1,66.",
+      "reponse_attendue": "4,91 + 1,66 = 6,57. En centièmes : 491 + 166 = 657. Plausibilité : le résultat est strictement supérieur à chacun des deux termes et inférieur à 7,00.",
+      "criteres": [
+        "deux décimaux alignés par rang",
+        "somme exacte",
+        "estimation ou borne numérique pertinente"
+      ],
+      "feedback": "Une somme de deux quantités positives doit être supérieure à chacune; réécris les deux termes avec deux chiffres après la virgule.",
+      "difficulte": "intermediaire",
+      "representation": "calcul en colonnes",
+      "seed": 16041,
+      "parametres": {
+        "famille_algorithme": "add",
+        "variables": {
+          "a": "centièmes du premier terme",
+          "b": "centièmes du second terme"
+        },
+        "domaines": {
+          "a": "110..649",
+          "b": "125..499"
+        },
+        "contraintes": [
+          "a,b entiers positifs, centièmes; somme <=1148",
+          "même unité arbitraire; deux rangs décimaux maximum"
+        ],
+        "algorithme_deterministe": "a=110+(seed%540); b=125+((seed//7)%375); somme=a+b",
+        "format_affichage": "c centièmes entiers → c//100, (c%100) sur 2 chiffres avec virgule; résultat calculé sans flottant",
+        "solution_algorithmique": "La fonction déterministe solve(kind, instance_verrouillee) calcule les sommes/différences/relations en centièmes; contrôle indépendant Decimal exact.",
+        "instance_verrouillee": {
+          "a_centiemes": 491,
+          "b_centiemes": 166
+        },
+        "reponses_verrouillees": {
+          "somme_centiemes": 657
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "seed": 16042,
+            "variables": {
+              "a_centiemes": 492,
+              "b_centiemes": 166
+            },
+            "reponses": {
+              "somme_centiemes": 658
+            }
+          },
+          {
+            "seed": 16070,
+            "variables": {
+              "a_centiemes": 520,
+              "b_centiemes": 170
+            },
+            "reponses": {
+              "somme_centiemes": 690
+            }
+          },
+          {
+            "seed": 16252,
+            "variables": {
+              "a_centiemes": 162,
+              "b_centiemes": 196
+            },
+            "reponses": {
+              "somme_centiemes": 358
+            }
+          }
+        ],
+        "variation_contextuelle": "interdite; remplacer les valeurs seulement par les règles seed explicites ci-dessus",
+        "controle": "centièmes entiers versus Decimal exact; domaines balayés dans le rapport local"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "parametrique",
+      "consigne": "Soustrais les deux nombres en montrant la mise en rangs; vérifie par addition inverse.",
+      "stimulus": "Opération : 6,82 − 3,07.",
+      "reponse_attendue": "6,82 − 3,07 = 3,75; contrôle : 3,75 + 3,07 = 6,82. En centièmes : 682−307=375.",
+      "criteres": [
+        "soustraction cohérente par rang",
+        "différence exacte",
+        "inverse exact écrit"
+      ],
+      "feedback": "Si la soustraction donne un nombre négatif, vérifie l’ordre des deux données; la génération garantit a≥b.",
+      "difficulte": "intermediaire",
+      "representation": "soustraction en colonnes",
+      "seed": 16052,
+      "parametres": {
+        "famille_algorithme": "sub",
+        "variables": {
+          "b": "valeur soustraite en centièmes",
+          "ecart": "résultat en centièmes",
+          "a": "b+ecart"
+        },
+        "domaines": {
+          "b": "125..469",
+          "ecart": "90..414",
+          "a": "215..883"
+        },
+        "contraintes": [
+          "a=b+ecart > b >=0; résultat non négatif",
+          "affichage en centièmes"
+        ],
+        "algorithme_deterministe": "b=125+seed%345; ecart=90+(seed//5)%325; a=b+ecart; difference=a−b",
+        "format_affichage": "c centièmes entiers → c//100, (c%100) sur 2 chiffres avec virgule; résultat calculé sans flottant",
+        "solution_algorithmique": "La fonction déterministe solve(kind, instance_verrouillee) calcule les sommes/différences/relations en centièmes; contrôle indépendant Decimal exact.",
+        "instance_verrouillee": {
+          "a_centiemes": 682,
+          "b_centiemes": 307
+        },
+        "reponses_verrouillees": {
+          "difference_centiemes": 375
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "seed": 16053,
+            "variables": {
+              "a_centiemes": 683,
+              "b_centiemes": 308
+            },
+            "reponses": {
+              "difference_centiemes": 375
+            }
+          },
+          {
+            "seed": 16081,
+            "variables": {
+              "a_centiemes": 717,
+              "b_centiemes": 336
+            },
+            "reponses": {
+              "difference_centiemes": 381
+            }
+          },
+          {
+            "seed": 16263,
+            "variables": {
+              "a_centiemes": 265,
+              "b_centiemes": 173
+            },
+            "reponses": {
+              "difference_centiemes": 92
+            }
+          }
+        ],
+        "variation_contextuelle": "interdite; remplacer les valeurs seulement par les règles seed explicites ci-dessus",
+        "controle": "centièmes entiers versus Decimal exact; domaines balayés dans le rapport local"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Trouve l’erreur dans l’opération écrite « 2,5 + 0,35 = 0,60 ». Calcule la vraie somme et explique pourquoi.",
+      "stimulus": "2,5 + 0,35 = 0,60 (calcul erroné affiché).",
+      "reponse_attendue": "2,50 + 0,35 = 2,85. Les unités du premier terme ne peuvent disparaître; 2,85 > 2,50. Les chiffres doivent être alignés par rang, pas seulement collés au bord droit.",
+      "criteres": [
+        "repère une incohérence d’alignement",
+        "corrige en 2,85",
+        "justifie que 2,85 > 2,5"
+      ],
+      "feedback": "Commence par placer les unités sous unités et les dixièmes sous dixièmes; ajoute zéro final à 2,5.",
+      "difficulte": "intermediaire",
+      "representation": "analyse d’erreur et calcul posé",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compare les deux valeurs en justifiant par les rangs; indique la différence en centièmes.",
+      "stimulus": "Mesures fictives : 6,13 m et 6,35 m.",
+      "reponse_attendue": "6,13 m < 6,35 m; écart = 22 centièmes de m = 0,22 m; comparer les entiers 613 et 635 centièmes donne le même ordre.",
+      "criteres": [
+        "relation exacte",
+        "rangs correctement comparés",
+        "écart en centièmes juste"
+      ],
+      "feedback": "Les deux nombres ont la même unité; compare le rang de gauche le plus élevé où les chiffres diffèrent.",
+      "difficulte": "intermediaire",
+      "representation": "tableau de rangs",
+      "seed": 16073,
+      "parametres": {
+        "famille_algorithme": "compare",
+        "variables": {
+          "a": "première mesure en centièmes",
+          "b": "deuxième mesure en centièmes"
+        },
+        "domaines": {
+          "a": "215..689",
+          "b": "216..749"
+        },
+        "contraintes": [
+          "b=a+d avec d=1..60; donc a<b",
+          "ne pas changer l’unité m"
+        ],
+        "algorithme_deterministe": "a=215+seed%475; b=a+1+((seed//11)%60); relation a<b; ecart=b−a",
+        "format_affichage": "c centièmes entiers → c//100, (c%100) sur 2 chiffres avec virgule; résultat calculé sans flottant",
+        "solution_algorithmique": "La fonction déterministe solve(kind, instance_verrouillee) calcule les sommes/différences/relations en centièmes; contrôle indépendant Decimal exact.",
+        "instance_verrouillee": {
+          "a_centiemes": 613,
+          "b_centiemes": 635
+        },
+        "reponses_verrouillees": {
+          "relation": "<"
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "seed": 16074,
+            "variables": {
+              "a_centiemes": 614,
+              "b_centiemes": 636
+            },
+            "reponses": {
+              "relation": "<"
+            }
+          },
+          {
+            "seed": 16102,
+            "variables": {
+              "a_centiemes": 642,
+              "b_centiemes": 666
+            },
+            "reponses": {
+              "relation": "<"
+            }
+          },
+          {
+            "seed": 16284,
+            "variables": {
+              "a_centiemes": 349,
+              "b_centiemes": 390
+            },
+            "reponses": {
+              "relation": "<"
+            }
+          }
+        ],
+        "variation_contextuelle": "interdite; remplacer les valeurs seulement par les règles seed explicites ci-dessus",
+        "controle": "centièmes entiers versus Decimal exact; domaines balayés dans le rapport local"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Une boîte fictive contenait 5,00 L; on retire 1,76 L puis on ajoute 0,45 L. Calcule les deux étapes et contrôle.",
+      "stimulus": "5,00 L → retrait de 1,76 L → ajout de 0,45 L.",
+      "reponse_attendue": "5,00 − 1,76 = 3,24 L; 3,24 + 0,45 = 3,69 L. Contrôle : 3,69 − 0,45 = 3,24; le résultat final reste inférieur à 5,00 L.",
+      "criteres": [
+        "choisit soustraction puis addition",
+        "résultats 3,24 L et 3,69 L exacts",
+        "justification cohérente du résultat final"
+      ],
+      "feedback": "Ne confonds pas le retrait avec l’ajout; représente le changement par une flèche descendante puis montante.",
+      "difficulte": "intermediaire",
+      "representation": "chronologie et calcul en centièmes",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "parametrique",
+      "consigne": "**Preuve P1, sans indice**. Au marché imaginaire, calcule le prix total de deux objets puis la monnaie rendue sur 10,00 $. Présente les deux opérations décimales et justifie la plausibilité de chaque résultat.",
+      "stimulus": "Carnet : 3,09 $; crayon : 2,74 $; somme remise : 10,00 $ (transaction fictive).",
+      "reponse_attendue": "Calcul 1 : 3,09 + 2,74 = 5,83 $. Calcul 2 : 10,00 − 5,83 = 4,17 $. Plausibilité 1 : total positif, supérieur à chaque prix et inférieur à 10,00 $. Plausibilité 2 : monnaie positive inférieure à 10,00 $; inverse 4,17 + 5,83 = 10,00 $. Traces exigées : calculs alignés ou en centièmes et deux vérifications numériques ou inverses expliquées.",
+      "criteres": [
+        "identifie addition puis soustraction et aligne les rangs",
+        "deux résultats exacts avec $",
+        "plausibilité vérifiable séparément pour les deux résultats",
+        "réponse autonome sans indice ni correction"
+      ],
+      "feedback": "Revoir les rangs pour la somme; la monnaie rendue doit satisfaire « monnaie + prix total = 10,00 $ ». Évaluer après remise, sans guider cette preuve.",
+      "difficulte": "transfert",
+      "representation": "prix fictifs et deux calculs",
+      "seed": 16099,
+      "parametres": {
+        "famille_algorithme": "market",
+        "variables": {
+          "p": "prix du carnet en centièmes",
+          "q": "prix du crayon en centièmes",
+          "payer": "1000 centièmes fixes"
+        },
+        "domaines": {
+          "p": "120..489",
+          "q": "135..494",
+          "payer": "1000",
+          "total": "255..983",
+          "monnaie": "17..745"
+        },
+        "contraintes": [
+          "p,q >0; p+q<1000 pour un rendu non négatif",
+          "prix et monnaie à deux décimales; contexte stable"
+        ],
+        "algorithme_deterministe": "p=120+seed%370; q=135+((seed//7)%360); total=p+q; monnaie=1000−total",
+        "format_affichage": "c centièmes entiers → c//100, (c%100) sur 2 chiffres avec virgule; résultat calculé sans flottant",
+        "solution_algorithmique": "La fonction déterministe solve(kind, instance_verrouillee) calcule les sommes/différences/relations en centièmes; contrôle indépendant Decimal exact.",
+        "instance_verrouillee": {
+          "prix_carnet_centiemes": 309,
+          "prix_crayon_centiemes": 274,
+          "somme_remise_centiemes": 1000
+        },
+        "reponses_verrouillees": {
+          "cout_total_centiemes": 583,
+          "monnaie_centiemes": 417
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "seed": 16100,
+            "variables": {
+              "prix_carnet_centiemes": 310,
+              "prix_crayon_centiemes": 275,
+              "somme_remise_centiemes": 1000
+            },
+            "reponses": {
+              "cout_total_centiemes": 585,
+              "monnaie_centiemes": 415
+            }
+          },
+          {
+            "seed": 16128,
+            "variables": {
+              "prix_carnet_centiemes": 338,
+              "prix_crayon_centiemes": 279,
+              "somme_remise_centiemes": 1000
+            },
+            "reponses": {
+              "cout_total_centiemes": 617,
+              "monnaie_centiemes": 383
+            }
+          },
+          {
+            "seed": 16310,
+            "variables": {
+              "prix_carnet_centiemes": 150,
+              "prix_crayon_centiemes": 305,
+              "somme_remise_centiemes": 1000
+            },
+            "reponses": {
+              "cout_total_centiemes": 455,
+              "monnaie_centiemes": 545
+            }
+          }
+        ],
+        "variation_contextuelle": "interdite; remplacer les valeurs seulement par les règles seed explicites ci-dessus",
+        "controle": "centièmes entiers versus Decimal exact; domaines balayés dans le rapport local"
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": {
+        "preuve": "P1",
+        "contexte": "marche_fictif",
+        "aide_de_fond_autorisee": false,
+        "nombre_de_calculs": 2
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "parametrique",
+      "consigne": "**Preuve P2, sans indice et à un autre moment**. Pour une marche entièrement fictive, calcule la distance des deux étapes puis ce qu’il reste sur 8,00 km. Montre les deux opérations décimales et justifie chaque résultat.",
+      "stimulus": "Étape 1 : 1,75 km; étape 2 : 1,26 km; parcours total prévu : 8,00 km. Aucun déplacement réel demandé.",
+      "reponse_attendue": "Calcul 1 : 1,75 + 1,26 = 3,01 km parcourus. Calcul 2 : 8,00 − 3,01 = 4,99 km restants. Plausibilité 1 : les deux étapes positives totalisent moins de 8,00 km et plus que chacune. Plausibilité 2 : reste positif et 3,01 + 4,99 = 8,00 km. Deux résultats, deux vérifications chiffrées ou inverses expliquées.",
+      "criteres": [
+        "addition puis soustraction choisies et rangs respectés",
+        "distance parcourue et restante exactes avec km",
+        "plausibilité justifiée pour les deux réponses",
+        "travail autonome sans aide conceptuelle"
+      ],
+      "feedback": "Vérifie que la distance restante additionnée à la parcourue redonne 8,00 km; l’estimation doit avoir du sens en kilomètres. Pas de rétroaction pendant la preuve.",
+      "difficulte": "transfert",
+      "representation": "distance fictive, deux opérations",
+      "seed": 16110,
+      "parametres": {
+        "famille_algorithme": "walk",
+        "variables": {
+          "d1": "première étape en centièmes de km",
+          "d2": "deuxième étape en centièmes de km",
+          "parcours": "800 centièmes de km fixes"
+        },
+        "domaines": {
+          "d1": "125..344",
+          "d2": "105..294",
+          "parcours": "800",
+          "parcouru": "230..638",
+          "reste": "162..570"
+        },
+        "contraintes": [
+          "d1,d2>0; d1+d2<800",
+          "distance positive; km partout, aucune conversion de temps"
+        ],
+        "algorithme_deterministe": "d1=125+seed%220; d2=105+((seed//7)%190); parcouru=d1+d2; reste=800−parcouru",
+        "format_affichage": "c centièmes entiers → c//100, (c%100) sur 2 chiffres avec virgule; résultat calculé sans flottant",
+        "solution_algorithmique": "La fonction déterministe solve(kind, instance_verrouillee) calcule les sommes/différences/relations en centièmes; contrôle indépendant Decimal exact.",
+        "instance_verrouillee": {
+          "etape_1_centiemes": 175,
+          "etape_2_centiemes": 126,
+          "parcours_total_centiemes": 800
+        },
+        "reponses_verrouillees": {
+          "distance_parcourue_centiemes": 301,
+          "distance_restante_centiemes": 499
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "seed": 16111,
+            "variables": {
+              "etape_1_centiemes": 176,
+              "etape_2_centiemes": 126,
+              "parcours_total_centiemes": 800
+            },
+            "reponses": {
+              "distance_parcourue_centiemes": 302,
+              "distance_restante_centiemes": 498
+            }
+          },
+          {
+            "seed": 16139,
+            "variables": {
+              "etape_1_centiemes": 204,
+              "etape_2_centiemes": 130,
+              "parcours_total_centiemes": 800
+            },
+            "reponses": {
+              "distance_parcourue_centiemes": 334,
+              "distance_restante_centiemes": 466
+            }
+          },
+          {
+            "seed": 16321,
+            "variables": {
+              "etape_1_centiemes": 166,
+              "etape_2_centiemes": 156,
+              "parcours_total_centiemes": 800
+            },
+            "reponses": {
+              "distance_parcourue_centiemes": 322,
+              "distance_restante_centiemes": 478
+            }
+          }
+        ],
+        "variation_contextuelle": "interdite; remplacer les valeurs seulement par les règles seed explicites ci-dessus",
+        "controle": "centièmes entiers versus Decimal exact; domaines balayés dans le rapport local"
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": {
+        "preuve": "P2",
+        "contexte": "parcours_marche_fictif",
+        "aide_de_fond_autorisee": false,
+        "nombre_de_calculs": 2
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "parametrique",
+      "consigne": "Deux bandes mises bout à bout dépassent-elles la limite de 5,00 m? Additionne, compare au seuil et explique ton estimation.",
+      "stimulus": "Bandes fictives : 2,51 m et 3,11 m. Seuil : 5,00 m.",
+      "reponse_attendue": "2,51 + 3,11 = 5,62 m; 5,62 > 5,00 m. Justification en centièmes : 562 > 500. Le total se situe entre 5,00 m et 6,00 m; cette borne donne la bonne grandeur.",
+      "criteres": [
+        "somme exacte",
+        "comparaison exacte au seuil",
+        "borne ou estimation chiffrée plausible avec m"
+      ],
+      "feedback": "Avant de dire « dépasse », calcule la somme et compare des mètres avec des mètres; une erreur de rang peut changer la décision.",
+      "difficulte": "transfert",
+      "representation": "longueurs et seuil",
+      "seed": 16121,
+      "parametres": {
+        "famille_algorithme": "decision",
+        "variables": {
+          "m1": "première longueur en centièmes",
+          "m2": "deuxième longueur en centièmes",
+          "seuil": "500 centièmes fixes"
+        },
+        "domaines": {
+          "m1": "230..689",
+          "m2": "130..359",
+          "seuil": "500",
+          "total": "360..1048"
+        },
+        "contraintes": [
+          "mesures positives; relation <, = ou > calculée sur entiers centièmes",
+          "même unité m"
+        ],
+        "algorithme_deterministe": "m1=230+seed%460; m2=130+((seed//9)%230); total=m1+m2; comparer total à 500",
+        "format_affichage": "c centièmes entiers → c//100, (c%100) sur 2 chiffres avec virgule; résultat calculé sans flottant",
+        "solution_algorithmique": "La fonction déterministe solve(kind, instance_verrouillee) calcule les sommes/différences/relations en centièmes; contrôle indépendant Decimal exact.",
+        "instance_verrouillee": {
+          "mesure_1_centiemes": 251,
+          "mesure_2_centiemes": 311,
+          "limite_centiemes": 500
+        },
+        "reponses_verrouillees": {
+          "total_centiemes": 562,
+          "relation_a_limite": ">"
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "seed": 16122,
+            "variables": {
+              "mesure_1_centiemes": 252,
+              "mesure_2_centiemes": 311,
+              "limite_centiemes": 500
+            },
+            "reponses": {
+              "total_centiemes": 563,
+              "relation_a_limite": ">"
+            }
+          },
+          {
+            "seed": 16150,
+            "variables": {
+              "mesure_1_centiemes": 280,
+              "mesure_2_centiemes": 314,
+              "limite_centiemes": 500
+            },
+            "reponses": {
+              "total_centiemes": 594,
+              "relation_a_limite": ">"
+            }
+          },
+          {
+            "seed": 16332,
+            "variables": {
+              "mesure_1_centiemes": 462,
+              "mesure_2_centiemes": 334,
+              "limite_centiemes": 500
+            },
+            "reponses": {
+              "total_centiemes": 796,
+              "relation_a_limite": ">"
+            }
+          }
+        ],
+        "variation_contextuelle": "interdite; remplacer les valeurs seulement par les règles seed explicites ci-dessus",
+        "controle": "centièmes entiers versus Decimal exact; domaines balayés dans le rapport local"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-016-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Un élève écrit « 4,09 + 0,81 = 4,90, mais ce n’est pas plausible parce que 9+81=90 ». Analyse séparément l’exactitude et la justification. Propose un vrai contrôle.",
+      "stimulus": "Calcul affiché : 4,09 + 0,81 = 4,90; justification affichée : 9+81=90.",
+      "reponse_attendue": "Le résultat 4,90 est exact car 409+81=490 centièmes, mais la justification 9+81=90 ne prouve pas le rôle des unités et des rangs (elle oublie 4 unités). Contrôle solide : 4,90 − 0,81 = 4,09, ou estimation 4,1 + 0,8 ≈ 4,9.",
+      "criteres": [
+        "distingue résultat exact et justification insuffisante",
+        "montre 409+81=490 centièmes ou inverse correct",
+        "produit une estimation numérique valide"
+      ],
+      "feedback": "Une réponse juste peut être accompagnée d’un raisonnement incomplet; nomme unités, dixièmes et centièmes.",
+      "difficulte": "transfert",
+      "representation": "critique et vérification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ccq-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire une réalité culturelle à partir d’éléments observables et contextualisés.",
+  "concepts": [
+    "fait culturel",
+    "contexte",
+    "description",
+    "diversité"
+  ],
+  "preuve_attendue": "Produire une description neutre d’une situation documentée.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Produire une description neutre d’une situation documentée.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "corpus fermé et variantes intégralement corrigées; q-007 seed stable 6006; autres items fixes",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "a_revoir",
+      "kristal_id": "qc-pri-ccq-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Produire une description neutre d’une situation documentée.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "notice fictive",
+        "affiche fictive",
+        "programme fictif",
+        "tableau contextuel",
+        "description orale ou écrite"
+      ],
+      "variables": {
+        "mode": "corpus_ferme",
+        "options": "q-001 à q-012 ; q-007 comporte deux variantes entièrement rédigées",
+        "aucune_generation_ia_libre": true
+      },
+      "contraintes": [
+        "documents uniquement fictifs, intégralement fournis",
+        "aucun jugement des croyances/identités et aucune divulgation privée",
+        "justification par éléments documentés et limites du dossier",
+        "deux preuves autonomes distinctes : q-011 et q-012",
+        "ne pas transformer absence de donnée en fait"
+      ],
+      "bareme_ou_rubrique": "4 dimensions 0–2 : fidélité, contextualisation, neutralité/diversité, traces/limites; voir evaluation/GRILLE_MAITRISE.md",
+      "source": "sources/REFERENCES_CONTENU.md ; sources premières : gouvernance et PARCOURS v1.2, scénarios originaux",
+      "seed": 6006,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_rediges_evaluations_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

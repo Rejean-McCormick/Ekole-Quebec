@@ -1,0 +1,106 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-da-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Présenter et expliquer les étapes de sa création dansée.",
+  "concepts": [
+    "intention",
+    "choix",
+    "collaboration",
+    "révision"
+  ],
+  "preuve_attendue": "Raconter sa démarche à partir d’une trace ou d’une vidéo de répétition.",
+  "prerequis_bloquants": [
+    "qc-pri-da-004"
+  ],
+  "ordre_conseille": [
+    "qc-pri-da-006"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-da-009-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Raconter sa démarche à partir d’une trace ou d’une vidéo de répétition.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-da-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "trace_ecrite_A_B",
+        "storyboard_pictogrammes",
+        "journal_de_creation",
+        "presentation_orale_ou_ecrite",
+        "observation_production_demarche"
+      ],
+      "variables": {
+        "selection": "corpus_ferme_de_12_items_fixes",
+        "item_id_autorises": [
+          "qc-pri-da-009-q-001",
+          "qc-pri-da-009-q-002",
+          "qc-pri-da-009-q-003",
+          "qc-pri-da-009-q-004",
+          "qc-pri-da-009-q-005",
+          "qc-pri-da-009-q-006",
+          "qc-pri-da-009-q-007",
+          "qc-pri-da-009-q-008",
+          "qc-pri-da-009-q-009",
+          "qc-pri-da-009-q-010",
+          "qc-pri-da-009-q-011",
+          "qc-pri-da-009-q-012"
+        ],
+        "modalites_equivalentes": [
+          "oral",
+          "texte",
+          "pictogrammes",
+          "dictée fidèle",
+          "communication assistée"
+        ],
+        "generation_aleatoire": "interdite"
+      },
+      "contraintes": [
+        "12 tâches fixes verrouillées, aucune génération paramétrique ni essai libre de la correction.",
+        "Toutes tâches évaluent obj-1, crit-1; familles v1.2 conservées.",
+        "Deux preuves personnelles indépendantes q-011 (solo horloge) et q-012 (coopération chemin), sans indice de contenu.",
+        "Trace personnelle ordonnée A/B obligatoire; vidéo jamais obligatoire.",
+        "Aucun contact corporel forcé, saut imposé ou enregistrement non consenti; supervision adaptée.",
+        "Aucune note sur morphologie, virtuosité, aisance orale ou préférence esthétique.",
+        "Colaboration réelle ou médiée avec propositions traçables; ne pas inventer l’accord d’autrui.",
+        "Un seul essai réussi ou un total de points ne suffit pas pour la maîtrise."
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "axes": [
+          "I_intention",
+          "C_choix",
+          "T_traces",
+          "R_revision",
+          "P_participation",
+          "S_securite_autonomie"
+        ],
+        "echelle": "0 = absent/inadéquat; 1 = partiel/avec indice; 2 = autonome/étayé",
+        "maitrise": "q-011 ET q-012, chaque axe = 2, sans indice de contenu; pas de compensation par moyenne; consentement et sécurité requis"
+      },
+      "source": "authoring/PARCOURS.md (frontmatter v1.2); evaluation/BANQUE_ITEMS.json et sources/REFERENCES_CONTENU.md (productions originales du delta)",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,75 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ap-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier et décrire des éléments visuels dans des images et objets.",
+  "concepts": [
+    "ligne",
+    "forme",
+    "couleur",
+    "texture"
+  ],
+  "preuve_attendue": "Annoter une image en justifiant plusieurs éléments observés.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ap-001-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Annoter une image en justifiant plusieurs éléments observés.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ap-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "svg_origine",
+        "description_textuelle",
+        "annotation_positionnee",
+        "objet_reel_accessible"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "corpus_autorise": "supports-svg-originaux-01-a-12",
+        "substitution": "aucune substitution automatique avant nouvelle revue humaine"
+      },
+      "contraintes": [
+        "images et descriptions concordantes",
+        "pas de jugement sur le goût",
+        "justification appuyée sur des indices localisables",
+        "deux contextes différents pour la maîtrise",
+        "modalités accessibles équivalentes et documentées"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "localisation",
+          "categorisation",
+          "preuve_visuelle",
+          "autonomie_et_transfert"
+        ],
+        "decision": "deux preuves distinctes, chacune selon quatre conditions; au moins une couvre les 4 catégories"
+      },
+      "source": "supports originaux décrits dans sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

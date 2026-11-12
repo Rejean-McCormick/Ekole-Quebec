@@ -1,0 +1,328 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-mu-005",
+  "family_id": "qc-pri-mu-005-ev-01",
+  "notes_application": "10 items fixes; aucun générateur libre, aucune seed utile; les 2 preuves de maîtrise autonomes exigent chacune une production vocale dans deux contextes différents. Les hauteurs 1 et 2 sont relatives et transposables pour préserver le confort.",
+  "items": [
+    {
+      "item_id": "qc-pri-mu-005-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le professeur produire deux sons courts, 1 puis 2, à volume doux. Dis ou indique lequel est le plus aigu et si cela oblige à chanter plus fort.",
+      "stimulus": "Deux sons doux : niveau relatif 1 à hauteur confortable puis niveau relatif 2 voisin plus aigu, sans variation volontaire d’intensité. L’adulte doit réaliser le stimulus; aucune audio tierce requise.",
+      "reponse_attendue": "Le son 2 est plus aigu; il n’a pas nécessairement un volume plus fort. Une réponse pointée sur carte 1/2 est recevable. Cette tâche documente l’écoute, sans remplacer une future prestation vocale.",
+      "criteres": [
+        "Repère le second son comme relativement plus aigu.",
+        "Distingue hauteur et volume sans exiger de mesure en hertz.",
+        "Répond par un mode de communication accessible."
+      ],
+      "feedback": "Si le son 2 est seulement qualifié de fort, rejouer les deux sons à intensité voisine et distinguer « aigu » de « fort » sans pousser la voix.",
+      "difficulte": "initial",
+      "representation": "écoute comparative, carte 1/2, justification accessible; observation d’une réalisation vocale à hauteur choisie, avec trace descriptive de l’enseignant et possibilité de communiquer ses choix",
+      "variations_permises": "Transposition simultanée des deux sons et présentation visuelle du contraste sans modifier l’ordre ni les hauteurs relatives.",
+      "contraintes_invariantes": [
+        "volume doux et voix confortable",
+        "aucun cri, chuchotement forcé ni apnée",
+        "sécurité prioritaire et arrêt si gêne",
+        "observation et non préférence esthétique"
+      ],
+      "limites_variation": "Les mots et contours du stimulus demeurent fixes pour le correcteur; aucune génération de paroles, de notes ni de réponses par IA libre. Le registre peut être transposé librement. Aucune mesure de tessiture ou de capacité physiologique.",
+      "conditions_accessibilite": "Texte agrandi ou autre présentation accessible, registre personnel, posture et débit adaptés. Réponse sur intention par parole, geste ou communication assistée; voix chantée requise si possible pour démontrer l’objectif, sinon décision humaine et preuve non concluante.",
+      "role_dans_evaluation": "formative",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-005-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans le chant original « Le matin », désigne le point où tu placerais une respiration confortable, puis explique pourquoi tu ne dois pas prolonger une phrase jusqu’au manque d’air.",
+      "stimulus": "Le / vent / va / tout / doux | Le / jour / est / à / nous. La barre verticale est une pause indicative, non une obligation d’inspirer exactement ici si un besoin de sécurité impose d’autres pauses.",
+      "reponse_attendue": "La pause naturelle entre « doux » et « Le » permet de recommencer une phrase sans pousser; l’apprenant peut signaler des pauses supplémentaires confortables. Ne pas retenir sa respiration.",
+      "criteres": [
+        "Place une pause entre les deux lignes.",
+        "Justifie que la respiration sert à maintenir un chant aisé.",
+        "Refuse de pousser le souffle ou de transformer la durée en concours."
+      ],
+      "feedback": "Si la personne propose une apnée ou une phrase forcée, substituer une pause libre, puis demander de localiser celle-ci par un symbole.",
+      "difficulte": "initial",
+      "representation": "paroles segmentées et barre de phrasé; observation d’une réalisation vocale à hauteur choisie, avec trace descriptive de l’enseignant et possibilité de communiquer ses choix",
+      "variations_permises": "Signal visuel, tactile ou verbal pour localiser la pause; aucune durée imposée.",
+      "contraintes_invariantes": [
+        "volume doux et voix confortable",
+        "aucun cri, chuchotement forcé ni apnée",
+        "sécurité prioritaire et arrêt si gêne",
+        "observation et non préférence esthétique"
+      ],
+      "limites_variation": "Les mots et contours du stimulus demeurent fixes pour le correcteur; aucune génération de paroles, de notes ni de réponses par IA libre. Le registre peut être transposé librement. Aucune mesure de tessiture ou de capacité physiologique.",
+      "conditions_accessibilite": "Texte agrandi ou autre présentation accessible, registre personnel, posture et débit adaptés. Réponse sur intention par parole, geste ou communication assistée; voix chantée requise si possible pour démontrer l’objectif, sinon décision humaine et preuve non concluante.",
+      "role_dans_evaluation": "formative",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-005-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-005-ev-01",
+      "mode": "fixe",
+      "consigne": "À une hauteur confortable, dis puis chante « Le / vent / va / tout / doux » doucement, en veillant à ce que les mots soient reconnaissables.",
+      "stimulus": "Phrase originale à cinq unités, modèle de contour 1–1–2–2–1, sans note étalon. L’élève peut regarder les mots et les cinq repères pendant la tentative.",
+      "reponse_attendue": "Production recevable : cinq mots/unités reconnaissables dans l’ordre, chant court plutôt que simple lecture monotone, contour voisin ou variation relative intelligible, aucun signe de forçage. La variété de prononciation n’est pas sanctionnée.",
+      "criteres": [
+        "Chante une phrase reconnaissable plutôt que seulement la réciter.",
+        "Rend les cinq unités lexicales reconnaissables.",
+        "Maintient un registre et volume confortables.",
+        "Identifie si un mot a besoin d’être repris."
+      ],
+      "feedback": "Si les mots deviennent confus, dire la phrase plus lentement puis revenir au motif; ne jamais résoudre par un volume plus élevé.",
+      "difficulte": "initial",
+      "representation": "phrase courte originale, paroles et contour relatifs; observation d’une réalisation vocale à hauteur choisie, avec trace descriptive de l’enseignant et possibilité de communiquer ses choix",
+      "variations_permises": "Choix de hauteur initiale, posture, vitesse lente et pictogrammes de texte, sans supprimer la diction observée.",
+      "contraintes_invariantes": [
+        "volume doux et voix confortable",
+        "aucun cri, chuchotement forcé ni apnée",
+        "sécurité prioritaire et arrêt si gêne",
+        "observation et non préférence esthétique"
+      ],
+      "limites_variation": "Les mots et contours du stimulus demeurent fixes pour le correcteur; aucune génération de paroles, de notes ni de réponses par IA libre. Le registre peut être transposé librement. Aucune mesure de tessiture ou de capacité physiologique.",
+      "conditions_accessibilite": "Texte agrandi ou autre présentation accessible, registre personnel, posture et débit adaptés. Réponse sur intention par parole, geste ou communication assistée; voix chantée requise si possible pour démontrer l’objectif, sinon décision humaine et preuve non concluante.",
+      "role_dans_evaluation": "formative",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-005-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Interprète doucement les deux phrases de « Le matin », fais une pause naturelle entre elles puis désigne le moment où tu as repris ton souffle.",
+      "stimulus": "Le / vent / va / tout / doux (1–1–2–2–1) | Le / jour / est / à / nous (1–2–2–1–1). La pause est un repère de sécurité sans durée fixée.",
+      "reponse_attendue": "Deux phrases vocales distinctes dans l’ordre; la personne utilise la pause interphrastique et ne prolonge pas un souffle difficile. Les mots sont reconnaissables, les hauteurs relatives abordées sans tension.",
+      "criteres": [
+        "Deux lignes réellement chantées dans l’ordre.",
+        "Une gestion de respiration confortable est observable.",
+        "Diction globalement intelligible sans accent normatif.",
+        "Aucune injonction ou manifestation de forçage."
+      ],
+      "feedback": "Si la fin se précipite, pratiquer une phrase isolée, marquer la pause puis reprendre les deux phrases sur une nouvelle tentative non directive.",
+      "difficulte": "intermediaire",
+      "representation": "chant original à deux phrases, trace de pause; observation d’une réalisation vocale à hauteur choisie, avec trace descriptive de l’enseignant et possibilité de communiquer ses choix",
+      "variations_permises": "Transpose la mélodie, ralentis le débit et ajoute des pauses si sécurité exige, sans exiger un nombre de secondes.",
+      "contraintes_invariantes": [
+        "volume doux et voix confortable",
+        "aucun cri, chuchotement forcé ni apnée",
+        "sécurité prioritaire et arrêt si gêne",
+        "observation et non préférence esthétique"
+      ],
+      "limites_variation": "Les mots et contours du stimulus demeurent fixes pour le correcteur; aucune génération de paroles, de notes ni de réponses par IA libre. Le registre peut être transposé librement. Aucune mesure de tessiture ou de capacité physiologique.",
+      "conditions_accessibilite": "Texte agrandi ou autre présentation accessible, registre personnel, posture et débit adaptés. Réponse sur intention par parole, geste ou communication assistée; voix chantée requise si possible pour démontrer l’objectif, sinon décision humaine et preuve non concluante.",
+      "role_dans_evaluation": "formative",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-005-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Chante une même courte ligne « Le jour est à nous » de manière calme puis accueillante. Identifie une nuance réellement audible sans chanter plus fort.",
+      "stimulus": "Phrase originale « Le / jour / est / à / nous »; contour relatif 1–2–2–1–1. Choix de nuances possibles : temps légèrement plus long sur « nous » ou attaque plus détachée, toujours doux.",
+      "reponse_attendue": "Deux interprétations du même texte, avec une différence audible de tempo, d’articulation ou de pause. L’élève explique le choix; le correcteur ne pénalise pas la différence de goût esthétique.",
+      "criteres": [
+        "Maintient les mots et une ligne chantée courte.",
+        "Rend une variation de nuance observable sans hausse forcée du volume.",
+        "Relie la variation à une intention explicitée.",
+        "Conserve les conditions vocales sûres."
+      ],
+      "feedback": "Si rien ne change, demander après le premier essai de choisir une nuance simple et refaire; ne pas prescrire une voix plus puissante.",
+      "difficulte": "intermediaire",
+      "representation": "deux interprétations d’une phrase et justification; observation d’une réalisation vocale à hauteur choisie, avec trace descriptive de l’enseignant et possibilité de communiquer ses choix",
+      "variations_permises": "Choix libre d’une nuance modérée et mode de justification accessible; pas de changement obligatoire de hauteur.",
+      "contraintes_invariantes": [
+        "volume doux et voix confortable",
+        "aucun cri, chuchotement forcé ni apnée",
+        "sécurité prioritaire et arrêt si gêne",
+        "observation et non préférence esthétique"
+      ],
+      "limites_variation": "Les mots et contours du stimulus demeurent fixes pour le correcteur; aucune génération de paroles, de notes ni de réponses par IA libre. Le registre peut être transposé librement. Aucune mesure de tessiture ou de capacité physiologique.",
+      "conditions_accessibilite": "Texte agrandi ou autre présentation accessible, registre personnel, posture et débit adaptés. Réponse sur intention par parole, geste ou communication assistée; voix chantée requise si possible pour démontrer l’objectif, sinon décision humaine et preuve non concluante.",
+      "role_dans_evaluation": "formative",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-005-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Chante « Les / mains / font / un / rond » sur les deux niveaux confortables 1 et 2 en suivant le contour donné; montre ou dis comment tu passes de 1 à 2.",
+      "stimulus": "Première ligne originale du chant B, contour 1–2–1–2–1; aucune fréquence ni piano n’est fourni. L’élève peut consulter la carte visuelle.",
+      "reponse_attendue": "Mots reconnaissables dans l’ordre et alternance relative perceptible entre des hauteurs voisines, sans substituer un cri aux notes plus hautes. L’explication peut montrer simplement « 2 un peu plus aigu ».",
+      "criteres": [
+        "Au moins un contraste de hauteur relatif est audible et sûr.",
+        "Les cinq mots/unités demeurent intelligibles.",
+        "La différence hauteur/volume n’est pas confondue.",
+        "L’élève montre ou indique un changement entre 1 et 2."
+      ],
+      "feedback": "Si 2 est seulement plus fort, rejouer un couple de notes voisines douces, puis laisser l’élève retrouver le contraste dans son registre.",
+      "difficulte": "intermediaire",
+      "representation": "chant de cinq unités et contour relatif; observation d’une réalisation vocale à hauteur choisie, avec trace descriptive de l’enseignant et possibilité de communiquer ses choix",
+      "variations_permises": "Transposition complète autorisée, tempo lent et amplitude de hauteur minimale accessible; pas de note absolue imposée.",
+      "contraintes_invariantes": [
+        "volume doux et voix confortable",
+        "aucun cri, chuchotement forcé ni apnée",
+        "sécurité prioritaire et arrêt si gêne",
+        "observation et non préférence esthétique"
+      ],
+      "limites_variation": "Les mots et contours du stimulus demeurent fixes pour le correcteur; aucune génération de paroles, de notes ni de réponses par IA libre. Le registre peut être transposé librement. Aucune mesure de tessiture ou de capacité physiologique.",
+      "conditions_accessibilite": "Texte agrandi ou autre présentation accessible, registre personnel, posture et débit adaptés. Réponse sur intention par parole, geste ou communication assistée; voix chantée requise si possible pour démontrer l’objectif, sinon décision humaine et preuve non concluante.",
+      "role_dans_evaluation": "formative",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-005-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Chante les deux lignes du chant B et explique comment tu conserves des mots distincts tout en laissant ton souffle se reprendre librement.",
+      "stimulus": "Les / mains / font / un / rond (1–2–1–2–1) | Nos / voix / font / un / son (2–2–1–1–1). Chant original B avec pause naturelle entre lignes.",
+      "reponse_attendue": "Deux lignes chantées, mots reconnaissables, reprise d’une inspiration sans forçage, choix de hauteur confortable; explication d’une décision de diction ou de phrasé.",
+      "criteres": [
+        "Deux lignes chantées dans l’ordre.",
+        "Diction utile à la compréhension des mots.",
+        "Pause interphrastique ou autre respiration sûre identifiée.",
+        "Processus expliqué sans pression sur le volume."
+      ],
+      "feedback": "Si la diction s’efface, parler lentement le vers B2 puis revenir au chant; si le souffle manque, interrompre et raccourcir le débit.",
+      "difficulte": "intermediaire",
+      "representation": "chant B, écoute et choix de phrasé; observation d’une réalisation vocale à hauteur choisie, avec trace descriptive de l’enseignant et possibilité de communiquer ses choix",
+      "variations_permises": "Toute transposition, position ou pause supplémentaires permettant une réalisation sûre; texte inchangé.",
+      "contraintes_invariantes": [
+        "volume doux et voix confortable",
+        "aucun cri, chuchotement forcé ni apnée",
+        "sécurité prioritaire et arrêt si gêne",
+        "observation et non préférence esthétique"
+      ],
+      "limites_variation": "Les mots et contours du stimulus demeurent fixes pour le correcteur; aucune génération de paroles, de notes ni de réponses par IA libre. Le registre peut être transposé librement. Aucune mesure de tessiture ou de capacité physiologique.",
+      "conditions_accessibilite": "Texte agrandi ou autre présentation accessible, registre personnel, posture et débit adaptés. Réponse sur intention par parole, geste ou communication assistée; voix chantée requise si possible pour démontrer l’objectif, sinon décision humaine et preuve non concluante.",
+      "role_dans_evaluation": "formative",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-005-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans le contexte d’un accueil à la bibliothèque, interprète le vers original « Le / livre / est / pour / toi » à voix douce avec deux hauteurs proches, puis justifie un choix de nuance.",
+      "stimulus": "Phrase originale à cinq unités, exemple de contour 1–1–2–2–1. Aucune chanson du répertoire ni enregistrement tiers; le contexte est fictif et neutre.",
+      "reponse_attendue": "Production vocale courte avec mots repérables, hauteur confortable, contraste 1/2 ou variante sûre, pause possible, nuance lente ou détachée en accord avec une intention d’accueil. Une justification personnelle basée sur une propriété entendue est acceptée.",
+      "criteres": [
+        "Production chantée authentique et douce.",
+        "Texte reconnaissable et contour simple organisé.",
+        "Respiration libre et non forcée.",
+        "Nuance décrite en termes observables plutôt que jugement de goût."
+      ],
+      "feedback": "Si l’intention reste seulement déclarée, proposer lors d’un nouvel essai de modifier une pause ou l’articulation sans changer de force.",
+      "difficulte": "transfert",
+      "representation": "transfert contextuel, texte neuf et nuance; observation d’une réalisation vocale à hauteur choisie, avec trace descriptive de l’enseignant et possibilité de communiquer ses choix",
+      "variations_permises": "Transposition, tempo et nuance choisis sans modifier les cinq mots obligatoires.",
+      "contraintes_invariantes": [
+        "volume doux et voix confortable",
+        "aucun cri, chuchotement forcé ni apnée",
+        "sécurité prioritaire et arrêt si gêne",
+        "observation et non préférence esthétique"
+      ],
+      "limites_variation": "Les mots et contours du stimulus demeurent fixes pour le correcteur; aucune génération de paroles, de notes ni de réponses par IA libre. Le registre peut être transposé librement. Aucune mesure de tessiture ou de capacité physiologique.",
+      "conditions_accessibilite": "Texte agrandi ou autre présentation accessible, registre personnel, posture et débit adaptés. Réponse sur intention par parole, geste ou communication assistée; voix chantée requise si possible pour démontrer l’objectif, sinon décision humaine et preuve non concluante.",
+      "role_dans_evaluation": "formative",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-005-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-005-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A — Dans un contexte calme de début de journée, interprète les deux phrases du chant original « Le matin » à une hauteur confortable. Les mots doivent être reconnaissables; choisis librement ton souffle entre les phrases et une nuance qui exprime ton intention. Après, indique ce choix. Aucun modèle chanté ni correction directive pendant la performance.",
+      "stimulus": "CHANT A COMPLET ET FIXE : Le / vent / va / tout / doux → 1–1–2–2–1 ; pause naturelle | Le / jour / est / à / nous → 1–2–2–1–1. Chaque note relative correspond à une unité indiquée. La note 1 est choisie par l’élève, 2 est une note voisine plus aiguë mais confortable. Préparation indépendante, maximum une lecture de la consigne avant l’essai; durée adaptée au besoin.",
+      "reponse_attendue": "PREUVE OBSERVABLE A : chanter les deux phrases avec mots identifiables en ordre; prévoir/faire une pause respiratoire confortable sans apnée ni surcharge, montrer un contour 1/2 accessible ou un contraste voisin réel; rendre audible une nuance choisie (p. ex. doux/lent) puis l’expliquer. Aucun jugement sur timbre, tessiture, accent ou beauté. Si une contrainte vocale empêche d’observer le chant, la preuve est non concluante, à revoir humainement.",
+      "criteres": [
+        "M1 — Diction : les mots des deux phrases sont reconnaissables dans l’ordre, sans normalisation de l’accent.",
+        "M2 — Souffle : phrasé court, pause(s) libre(s) et absence de forçage vocal observables.",
+        "M3 — Organisation musicale : deux niveaux/contour relatifs perceptibles ou adaptation documentée et jugée recevable, sans tonalité imposée.",
+        "M4 — Expression : au moins une nuance audible est reliée à l’intention personnelle déclarée.",
+        "M5 — Autonomie et sécurité : l’élève chante sans indices ni modèle simultanés et s’arrête en cas de gêne."
+      ],
+      "feedback": "Si A manque de diction, reprendre des groupes de mots; si souffle inconfortable, arrêter et reconfigurer la tâche; si nuance non reliée, travailler un indice musical simple. La remédiation se fait hors de l’épreuve et un nouvel essai documenté est nécessaire.",
+      "difficulte": "transfert",
+      "representation": "chant autonome A, observation humaine, texte en cinq unités × deux lignes; observation d’une réalisation vocale à hauteur choisie, avec trace descriptive de l’enseignant et possibilité de communiquer ses choix",
+      "variations_permises": "Transposition libre, posture, débit lent, présence du texte accessible; aucune substitution du chant par une lecture seule et aucune modification libre du stimulus.",
+      "contraintes_invariantes": [
+        "volume doux et voix confortable",
+        "aucun cri, chuchotement forcé ni apnée",
+        "sécurité prioritaire et arrêt si gêne",
+        "observation et non préférence esthétique"
+      ],
+      "limites_variation": "Les mots et contours du stimulus demeurent fixes pour le correcteur; aucune génération de paroles, de notes ni de réponses par IA libre. Le registre peut être transposé librement. Aucune mesure de tessiture ou de capacité physiologique.",
+      "conditions_accessibilite": "Texte agrandi ou autre présentation accessible, registre personnel, posture et débit adaptés. Réponse sur intention par parole, geste ou communication assistée; voix chantée requise si possible pour démontrer l’objectif, sinon décision humaine et preuve non concluante.",
+      "role_dans_evaluation": "preuve_A_matin",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-005-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-005-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B — Dans le contexte distinct d’une ronde imaginaire, interprète les deux phrases du chant original « La ronde des voix » à une hauteur confortable, en articulant les mots et en organisant une pause naturelle. Fais entendre une intention d’accueil ou une autre nuance choisie et indique ton procédé. Aucun modèle chanté ni rappel pendant la prestation.",
+      "stimulus": "CHANT B COMPLET ET FIXE : Les / mains / font / un / rond → 1–2–1–2–1 ; pause naturelle | Nos / voix / font / un / son → 2–2–1–1–1. Deux hauteurs relatives voisines, transposition libre, texte différent du chant A. La présence d’un vrai groupe de personnes ou de gestes de ronde n’est pas requise.",
+      "reponse_attendue": "PREUVE OBSERVABLE B : les deux vers du chant B sont véritablement chantés avec diction reconnaissable, respiration libre, gestion du souffle et un contraste de hauteur relatif non forcé; une nuance expressive audible est expliquée, sans modèle pendant le chant. Un autre rythme sûr est permis si le motif reste reconnaissable. Cette observation ne peut pas être remplacée par une réécoute/recopie du chant A.",
+      "criteres": [
+        "M1 — Diction : mots du chant B reconnaissables et placés dans le bon ordre, sans sanction sur l’accent.",
+        "M2 — Souffle : respiration entre les phrases ou pauses supplémentaires confortables, sans effort imposé.",
+        "M3 — Organisation musicale : le nouveau contour 1/2 est présenté dans le registre choisi de manière reconnaissable.",
+        "M4 — Expression : une décision de nuance audible est justifiée par l’interprète.",
+        "M5 — Autonomie et sécurité : nouvelle performance sans imitation, ni pression de puissance, avec respect de l’arrêt pour gêne."
+      ],
+      "feedback": "Si B ne satisfait pas tous les critères, établir une remédiation ciblée et une nouvelle preuve indépendante; ne pas compenser avec une meilleure prestation en A ou une voix plus puissante.",
+      "difficulte": "transfert",
+      "representation": "chant autonome B, autre texte et contour, observation humaine; observation d’une réalisation vocale à hauteur choisie, avec trace descriptive de l’enseignant et possibilité de communiquer ses choix",
+      "variations_permises": "Transposition, durée, posture et support de texte convenus avant; texte et contour de B fixes, sans génération libre.",
+      "contraintes_invariantes": [
+        "volume doux et voix confortable",
+        "aucun cri, chuchotement forcé ni apnée",
+        "sécurité prioritaire et arrêt si gêne",
+        "observation et non préférence esthétique"
+      ],
+      "limites_variation": "Les mots et contours du stimulus demeurent fixes pour le correcteur; aucune génération de paroles, de notes ni de réponses par IA libre. Le registre peut être transposé librement. Aucune mesure de tessiture ou de capacité physiologique.",
+      "conditions_accessibilite": "Texte agrandi ou autre présentation accessible, registre personnel, posture et débit adaptés. Réponse sur intention par parole, geste ou communication assistée; voix chantée requise si possible pour démontrer l’objectif, sinon décision humaine et preuve non concluante.",
+      "role_dans_evaluation": "preuve_B_ronde",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

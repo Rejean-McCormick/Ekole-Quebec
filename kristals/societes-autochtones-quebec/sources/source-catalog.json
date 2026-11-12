@@ -1,0 +1,565 @@
+{
+  "format": "kristal.source-catalog/2.0.0",
+  "sources": [
+    {
+      "id": "src:nametau-cycle-2026",
+      "title": "Nametau innu — Territoire et cycle de vie traditionnels, point de vue scientifique",
+      "kind": "ressource_innue_point_de_vue_scientifique",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/outil/cycle.html",
+      "authority_scope": "cycle historique selon la description scientifique publiée dans le projet Nametau innu",
+      "limitations": "Point de vue scientifique dans un projet innu, non règle propre à toutes les familles ou à toutes les époques."
+    },
+    {
+      "id": "src:nametau-temoignage",
+      "title": "Nametau innu — Grand-mère : contexte social (paroles et témoignages)",
+      "kind": "indigenous_voices_transcript",
+      "locator": "https://www.nametauinnu.ca/fr/culture/ouverture/detail/58/152.html",
+      "authority_scope": "témoignage situé sur la transmission de la langue et la vie culturelle aujourd’hui",
+      "limitations": "Ce témoignage individuel ne remplace pas l’ensemble des perspectives innues. Les mots ne sont pas reproduits dans ce Kristal."
+    },
+    {
+      "id": "src:nametau-territoire",
+      "title": "Nametau innu — Territoire et cycle de vie traditionnels (point de vue scientifique)",
+      "kind": "indigenous_heritage_resource",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/outil/cycle.html",
+      "authority_scope": "exemple contextualisé de cycles saisonniers et ressources innues",
+      "limitations": "Source de vulgarisation historique, non norme identique à toutes les communautés et époques."
+    },
+    {
+      "id": "src:pac-texte-1701",
+      "title": "Pointe-à-Callière — Transcription du traité de la Grande Paix de Montréal",
+      "kind": "document_colonial_historique_transcrit",
+      "locator": "https://pacmusee.qc.ca/fr/traite-grande-paix-montreal/",
+      "authority_scope": "les propos consignés dans le document; ne pas confondre attribution du rédacteur et adhésion de toutes les nations",
+      "limitations": "Texte transcrit d’un document colonial; ses catégories, ses formulations et sa voix demandent une lecture critique."
+    },
+    {
+      "id": "src:pc-champlain",
+      "title": "Parcs Canada — Samuel de Champlain, premier Français à Chambly",
+      "kind": "institutional_web",
+      "locator": "https://parcs.canada.ca/lhn-nhs/qc/fortchambly/culture/histoire-history/site/samuel-de-champlain",
+      "authority_scope": "1608, commerces et relations avec des interlocuteurs autochtones; récit institutionnel",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:quebec-nations",
+      "title": "Gouvernement du Québec — Les 11 nations autochtones du Québec",
+      "kind": "institutional_web",
+      "locator": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/a-propos-nations",
+      "authority_scope": "diversité et existence contemporaine des nations; source institutionnelle provinciale",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:v3-nametau-intro",
+      "title": "Nametau innu — Mémoire et connaissance du Nitassinan",
+      "locator": "https://www.nametauinnu.ca/fr/accueil.html",
+      "voix": "Production à participation innue / transmission culturelle",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:v3-nametau-materiel",
+      "title": "Nametau innu — La culture matérielle",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/outil.html",
+      "voix": "Point de vue scientifique présenté sur Nametau innu",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:v3-nametau-visite",
+      "title": "Nametau innu — Visite guidée",
+      "locator": "https://www.nametauinnu.ca/fr/visite.html",
+      "voix": "Production à participation innue / mémoire et enseignement",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:v3-wendat-histoire",
+      "title": "Nation Wendat — Histoire & culture",
+      "locator": "https://www.wendake.ca/histoire-et-culture",
+      "voix": "Nation Wendat / expression contemporaine de la Nation",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:wendat-conseil-2026",
+      "title": "Nation Wendat — Grand Chef et Chefs (mandat, élus, redevabilité)",
+      "kind": "source_nation_publiee",
+      "locator": "https://www.wendake.ca/grand-chef-et-chefs-familiaux",
+      "authority_scope": "gouvernance actuelle décrite par la Nation",
+      "limitations": "Ne décrit pas le fonctionnement de la confédération historique."
+    },
+    {
+      "id": "src:wendat-gouvernance",
+      "title": "Conseil de la Nation Wendat — Grand Chef et Chefs familiaux",
+      "kind": "nation_authored_web",
+      "locator": "https://www.wendake.ca/grand-chef-et-chefs-familiaux",
+      "authority_scope": "gouvernance contemporaine documentée et rôles des représentants",
+      "limitations": "Gouvernance actuelle, non celle de 1701 ou de toutes les nations."
+    },
+    {
+      "id": "src:wendat-histoire",
+      "title": "Conseil de la Nation Wendat — Histoire et culture",
+      "kind": "nation_authored_web",
+      "locator": "https://www.wendake.ca/histoire-et-culture",
+      "authority_scope": "autoprésentation de la Nation Wendat : traditions, maisons longues, clans, liens de parenté, présence aujourd’hui",
+      "limitations": "Présentation contemporaine par la Nation : ne pas extrapoler sans nuance une organisation unique à toutes les époques."
+    },
+    {
+      "id": "src:wendat-histoire-2026",
+      "title": "Nation Wendat — Histoire et culture (rôles, langue, maison longue, famille)",
+      "kind": "source_nation_publiee",
+      "locator": "https://www.wendake.ca/histoire-et-culture",
+      "authority_scope": "autodescription de la Nation Wendat; distinguer contemporain et histoire racontée",
+      "limitations": "L’autodescription n’autorise pas la transposition de règles d’aujourd’hui à 1701; confirmer la datation historique auprès de la Nation."
+    },
+    {
+      "id": "src:extension:recit-village",
+      "title": "RÉCIT — Un mode de vie sédentaire",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/un-mode-de-vie-sedentaire",
+      "authority_scope": "Vie villageoise, choix de site et déplacements",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-maison",
+      "title": "RÉCIT — La vie dans une maison longue",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/la-vie-dans-une-maison-longue",
+      "authority_scope": "Maison longue, foyers, organisation, capacité",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-femmes",
+      "title": "RÉCIT — Les femmes",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/les-femmes",
+      "authority_scope": "Répartition des tâches décrite dans une ressource scolaire",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-hommes",
+      "title": "RÉCIT — Les hommes",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/changement/comparaison/iroquoiens-1500-et-iroquoiens-1745/A/content/les-hommes",
+      "authority_scope": "Pêche, chasse, défrichement, diplomatie",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-clan",
+      "title": "RÉCIT — L’importance du clan",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/l-importance-du-clan",
+      "authority_scope": "Clans, symboles, décisions",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-vetements",
+      "title": "RÉCIT — Des vêtements pour toutes les saisons",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/des-vetements-pour-toutes-les-saisons",
+      "authority_scope": "Peaux, vêtements, décoration",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-objets",
+      "title": "RÉCIT — Des objets pour répondre à leurs besoins",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/des-objects-pour-repondre-a-leurs-besoins?gpc=2",
+      "authority_scope": "Matériaux et objets",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-cultures",
+      "title": "RÉCIT — Cueillir, chasser, pêcher et cultiver",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/cueillir-chasser-pecher-et-cultiver",
+      "authority_scope": "Agriculture et subsistance",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-troc",
+      "title": "RÉCIT — Le troc : échanges entre nations",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/changement/comparaison/algonquiens-1500-et-iroquoiens-1500/B/content/le-troc-des-echanges-entre-nations",
+      "authority_scope": "Réseaux précoloniaux",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-jeux",
+      "title": "RÉCIT — Jouer et se divertir",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/jouer-et-se-divertir",
+      "authority_scope": "Jeux et festivités",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-oral",
+      "title": "RÉCIT — La tradition orale",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/changement/comparaison/iroquoiens-1500-et-incas-1500/A/content/la-tradition-orale-la-parole-est-reine",
+      "authority_scope": "Transmission orale (vocabulaire historique d’une ressource scolaire)",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-transport",
+      "title": "RÉCIT — Un territoire riche en ressources",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/ressources-naturelles",
+      "authority_scope": "Basses terres, canot, agriculture",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-1745",
+      "title": "RÉCIT — Le rôle des femmes et des hommes vers 1745",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1745/content/le-role-des-femmes-et-des-hommes",
+      "authority_scope": "Changements liés à la traite et aux guerres",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:nametau-cycle",
+      "title": "Nametau innu — Territoire et cycle de vie traditionnels",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/outil/cycle.html",
+      "authority_scope": "Cycles historiques, territoires et vie innue",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:nametau-printemps",
+      "title": "Nametau innu — Saison : Printemps",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/visite/detail/79.html",
+      "authority_scope": "Récit et transmission autour des saisons",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:nametau-saumon",
+      "title": "Nametau innu — Pêche aux saumons",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/nomade/P.html",
+      "authority_scope": "Pêche et droits",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:nametau-ressources",
+      "title": "Nametau innu — Ressources naturelles",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/territoire/ressource.html",
+      "authority_scope": "Diversité des milieux nord-côtiers",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:nametau-natashquan",
+      "title": "Nametau innu — Innucadie et échanges avec les Acadiens",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/culture/nation/detail/68/86.html",
+      "authority_scope": "Récit d’échanges culturels",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:nametau-europeens",
+      "title": "Nametau innu — L’occupation allochtone du territoire",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/histoire/anglais.html",
+      "authority_scope": "Présences et concessions coloniales sur la Côte-Nord",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:wendat-nation",
+      "title": "Conseil de la Nation Wendat — Histoire et culture",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.wendake.ca/histoire-et-culture",
+      "authority_scope": "Autoreprésentation historique et institutionnelle",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:wendat-conseil",
+      "title": "Conseil de la Nation Wendat — Grand Chef et Chefs familiaux",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.wendake.ca/grand-chef-et-chefs-familiaux",
+      "authority_scope": "Gouvernance contemporaine",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:qc-nations",
+      "title": "Gouvernement du Québec — Les 11 nations autochtones",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/a-propos-nations",
+      "authority_scope": "Classification administrative contemporaine",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:qc-innus",
+      "title": "Gouvernement du Québec — Innus",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/innus",
+      "authority_scope": "Langue, histoire, communautés",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:qc-inuit",
+      "title": "Gouvernement du Québec — Inuit",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/inuit",
+      "authority_scope": "Nunavik, langue et vie contemporaine",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:qc-anish",
+      "title": "Gouvernement du Québec — Anichinabés",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/algonquins",
+      "authority_scope": "Territoires, déplacements et langue",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:qc-eeyou",
+      "title": "Gouvernement du Québec — Cris (Eeyou)",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/cris",
+      "authority_scope": "Relations territoriales et présent",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:museum-iroquoian",
+      "title": "Musée canadien de l’histoire — Description des Iroquoiens",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.historymuseum.ca/cmc/vmnf/premieres_nations/fr/iroquoiens/description.html",
+      "authority_scope": "Distinction entre groupes de langues iroquoiennes",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-canot-prep",
+      "title": "Nametau innu — Canot : matériaux et préparation",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/culture/outil/detail/27/51.html",
+      "authority_scope": "Paroles de Jean-Baptiste Bellefleur de Unaman-shipu; démonstration d’une variante régionale et souvenir de canots d’écorce.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-canot-assemblage",
+      "title": "Nametau innu — Canot : assemblage",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/culture/outil/detail/27/52",
+      "authority_scope": "Canot de toile montré; distinction explicite d’avec le canot d’écorce et ses attaches de racines.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-canot-importance",
+      "title": "Nametau innu — Canot : importance",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/culture/outil/detail/27/53.html",
+      "authority_scope": "Description du voyage, de la subsistance et de la taille selon la famille.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-peau-tannage",
+      "title": "Nametau innu — Peau de caribou : tannage",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/nomade/detail/47/34.html",
+      "authority_scope": "Témoignage de Philomène Mckenzie; caribou et famille innue, non recette universelle.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-peau-fumee",
+      "title": "Nametau innu — Peau de caribou : boucanage",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/nomade/detail/47/35.html",
+      "authority_scope": "Boucher les trous, préparer le foyer et suspendre la peau; témoignage situé.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-peau-grattage",
+      "title": "Nametau innu — Peau de caribou : dégraissage et épilage",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/nomade/detail/47/32.html",
+      "authority_scope": "Grattage et préparation mécanique de la peau.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-peau-babiche",
+      "title": "Nametau innu — Peau de caribou : babiche",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/nomade/detail/47/33.html",
+      "authority_scope": "Méthode de préparation de lanières; témoignage situé.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-culture-materielle",
+      "title": "Nametau innu — La culture matérielle",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/outil.html",
+      "authority_scope": "Synthèse documentant raquettes, babiche, canots, tentes et cuir.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-tambour",
+      "title": "Nametau innu — Tambour : matériaux",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/culture/outil/detail/43/43.html",
+      "authority_scope": "Jean-Baptiste Bellefleur explique le bouleau, la peau jeune et l’assouplissement.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-particularites",
+      "title": "Nametau innu — Tambour : particularités",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/culture/outil/detail/43/46.html",
+      "authority_scope": "Signification et usages de décorations; tradition rapportée par les participants.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-transmission",
+      "title": "Nametau innu — Culture matérielle et transmission",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/culture/outil.html",
+      "authority_scope": "Savoirs partagés par les aînés et les membres des familles.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-organisation",
+      "title": "Nametau innu — Remontée dans le territoire : organisation",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/nomade/detail/40/10.html",
+      "authority_scope": "Récit local d’organisation et de transmission intergénérationnelle, non règle de toutes les familles.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-hiver",
+      "title": "Nametau innu — Campement d’automne : organisation",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/nomade/detail/35/13.html",
+      "authority_scope": "Lexique sur le séchage/fumage de la viande et du poisson, caches et préparatifs.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-meteo",
+      "title": "Nametau innu — Connaissances sur la température",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/culture/outil/detail/44.html",
+      "authority_scope": "Observation des signes météorologiques par des chasseurs; savoir empirique local.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-caribou",
+      "title": "Nametau innu — Culture et caribou",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/culture.html",
+      "authority_scope": "Rapport matériel, social et spirituel au caribou tel que présenté par le projet.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:n-raquette",
+      "title": "Nametau innu — Chasseur : raquette et transmission",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.nametauinnu.ca/fr/visite/detail/78.html",
+      "authority_scope": "Récit intergénérationnel innu autour du premier équipement de raquette.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-cuisine",
+      "title": "RÉCIT — De la bouillie de maïs au menu",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/changement/comparaison/iroquoiens-1500-et-iroquoiens-1745/A/content/de-la-bouillie-de-mais-au-menu",
+      "authority_scope": "Synthèse pédagogique des plantes, préparations, techniques de conservation; non recettes à mesures précises.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-ressources",
+      "title": "RÉCIT — Un territoire riche en ressources naturelles",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/changement/comparaison/iroquoiens-1500-et-iroquoiens-1745/A/content/ressources-naturelles",
+      "authority_scope": "Synthèse pédagogique du milieu, animaux, plantes et transports.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-troc-details",
+      "title": "RÉCIT — Le troc entre nations",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/changement/comparaison/iroquoiens-1500-et-iroquoiens-1745/A/content/le-troc-des-echanges-entre-nations",
+      "authority_scope": "Réseaux de commerce; préciser que wampums ont des significations diplomatiques.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-algonquiens-troc",
+      "title": "RÉCIT — Faire du troc chez les Algonquiens",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/algonquiens-1500/content/faire-du-troc",
+      "authority_scope": "Exemples de biens échangés et rencontres estivales.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-clan-details",
+      "title": "RÉCIT — L’importance du clan chez les Iroquoiens",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/l-importance-du-clan",
+      "authority_scope": "Synthèse primaire sur filiation, clans, conseils et chefs vers 1500.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-femmes-details",
+      "title": "RÉCIT — Les femmes chez les Iroquoiens",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/les-femmes",
+      "authority_scope": "Vision pédagogique générale; les prescriptions genrées trop absolues doivent être nuancées.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-changements",
+      "title": "RÉCIT — Le rôle des femmes et hommes vers 1745",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/changement/comparaison/iroquoiens-1500-et-iroquoiens-1745/B/content/le-role-des-femmes-et-des-hommes",
+      "authority_scope": "Effets de la traite et de la guerre sur les activités et décisions.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-objets-details",
+      "title": "RÉCIT — Des objets pour répondre à leurs besoins",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/des-objects-pour-repondre-a-leurs-besoins",
+      "authority_scope": "Matériaux, poterie, paniers, colle de poisson et outillage.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:wendat-comportement",
+      "title": "Nation Wendat — Histoire et culture",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.wendake.ca/histoire-et-culture",
+      "authority_scope": "Autoreprésentation wendat des familles, du partage, du rôle des femmes et de la diplomatie.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:wendat-politique",
+      "title": "Nation Wendat — Grand Chef et Chefs familiaux",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.wendake.ca/grand-chef-et-chefs-familiaux",
+      "authority_scope": "Autodescription de la gouvernance contemporaine et du code de représentation.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:museum-canot",
+      "title": "Musée canadien de l’histoire — Le canot d’écorce en 1603",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://www.historymuseum.ca/cmc/vmnf/champlain/expl3_fr.html",
+      "authority_scope": "Texte de Champlain: description située d’un canot, portage et membrures de cèdre.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:pac-paix-comportement",
+      "title": "Pointe-à-Callière — La Grande Paix de Montréal",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://pacmusee.qc.ca/fr/histoires-de-montreal/article/la-grande-paix-de-montreal/",
+      "authority_scope": "Synthèse muséale de négociations en 1701, des délégués et de Kondiaronk.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    },
+    {
+      "id": "src:extension:recit-premiers",
+      "title": "RÉCIT — Premiers occupants : échanges et villages",
+      "kind": "reseignement_documentaire_web_localise",
+      "locator": "https://histoire.recitus.qc.ca/periode/explorer/des-origines-a-1608/page/les-premiers-occupants-de-lamerique-du-nord",
+      "authority_scope": "Synthèse longue durée des réseaux commerciaux, poterie et agriculture.",
+      "limitations": "Source citée par une fiche ; paraphrase originale ; validation culturelle par la nation concernée non réalisée. Ne pas inférer que les autres nations partagent le procédé."
+    }
+  ]
+}

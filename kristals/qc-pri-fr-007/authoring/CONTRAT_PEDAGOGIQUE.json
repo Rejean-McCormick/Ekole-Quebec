@@ -1,0 +1,65 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Choisir une stratégie de compréhension et en vérifier les effets sur un texte.",
+  "concepts": [
+    "anticipation",
+    "clarification",
+    "questionnement",
+    "résumé"
+  ],
+  "preuve_attendue": "Identifier une incompréhension, appliquer une stratégie et expliquer le résultat.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-fr-005"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-007-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Identifier une incompréhension, appliquer une stratégie et expliquer le résultat.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_actif": "fixe",
+        "seed_note": "champ seed_reproductible de la frame conservé; les items fixes fournis n utilisent ni seed ni génération aléatoire"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-fr-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte_informatif",
+        "texte_narratif",
+        "avis_et_consigne",
+        "reponse_ecrite_ou_orale_transcrite"
+      ],
+      "variables": [],
+      "contraintes": [
+        "mode fixe : un texte original contrôlé par item, sans tirage ni substitution automatique",
+        "réponse ouverte argumentée; accepter une autre stratégie seulement si le geste est tracé et l'effet prouvé par le stimulus",
+        "aucun indice sémantique en passation autonome; modalité de lecture et de réponse adaptée sans changer le texte",
+        "pas de correction automatique libre par IA : revue humaine des justifications"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md — dimensions I, S, E, T de 0 à 2; deux preuves autonomes indépendantes exigées",
+      "source": "evaluation/BANQUE_ITEMS.json et sources/REFERENCES_CONTENU.md (stimuli originaux)",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

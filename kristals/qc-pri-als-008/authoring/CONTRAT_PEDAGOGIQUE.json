@@ -1,0 +1,88 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Choisir une stratégie adaptée pour comprendre un message anglais.",
+  "concepts": [
+    "anticipation",
+    "indices",
+    "reformulation"
+  ],
+  "preuve_attendue": "Décrire l’indice ayant permis de comprendre un passage nouveau.",
+  "prerequis_bloquants": [
+    "qc-pri-als-001"
+  ],
+  "ordre_conseille": [
+    "qc-pri-als-007"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-008-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Décrire l’indice ayant permis de comprendre un passage nouveau.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Items fixes : seuls formats d’accès et conditions non directives peuvent changer; pas de substitution de texte ou de script sans révision humaine.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": false
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-als-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "avis écrit anglais inédit",
+        "script oral anglais lu par l’adulte, non montré à l’élève",
+        "justification en français ou anglais simple avec extrait exact"
+      ],
+      "variables": {
+        "mode": "fixe_controle",
+        "tirage": false,
+        "corpus_de_variation": null
+      },
+      "contraintes": [
+        "scénarios 001–010 et corrigés verrouillés",
+        "pour toute réponse, indice présent dans le stimulus",
+        "deux preuves autonomes: écrit 009 et oral 010",
+        "ne pas confondre accent et compréhension",
+        "aide d’accès non directive permise",
+        "transcription non montrée dans la preuve orale sans décision humaine documentée"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "axes": [
+          "sens_compris",
+          "indice_exact",
+          "strategie_appropriee",
+          "reformulation_fidele",
+          "autonomie"
+        ],
+        "echelle": [
+          0,
+          1,
+          2
+        ],
+        "decision": "deux preuves indépendantes satisfaisant tous les axes essentiels; pas de moyenne compensatoire"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/BANQUE_ITEMS.json",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "lecons_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

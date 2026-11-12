@@ -1,0 +1,88 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-mu-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comparer des motifs mélodiques selon les mouvements de hauteur.",
+  "concepts": [
+    "aigu",
+    "grave",
+    "intervalle",
+    "phrase"
+  ],
+  "preuve_attendue": "Chanter ou jouer un motif et décrire ses variations de hauteur.",
+  "prerequis_bloquants": [
+    "qc-pri-mu-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-mu-003-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Chanter ou jouer un motif et décrire ses variations de hauteur.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Seules tessiture, transposition globale exacte, modalité chant/instrument, support accessible, tempo confortable; motifs fixes du corpus.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": false
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-mu-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "écoute comparative ou hauteurs représentées par instrument réel",
+        "notation do4 à sol4, quatre cases, flèches ↑ ↓ →",
+        "interprétation vocale ou instrumentale suivie de description"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "variation_autorisee": "transposition intégrale préapprouvée en tessiture confortable, sans changer le contour ni les écarts; support de jeu et mode de communication adaptés",
+        "valeurs_reference_midi": {
+          "do4": 60,
+          "ré4": 62,
+          "mi4": 64,
+          "fa4": 65,
+          "sol4": 67
+        }
+      },
+      "contraintes": [
+        "hauteurs successives et non accords",
+        "motifs de 3 à 4 sons explicitement notés",
+        "volume confortable et voix jamais forcée",
+        "aucun extrait musical tiers",
+        "aucune IA libre comme correcteur",
+        "transposition intégrale uniquement",
+        "deux preuves autonomes distinctes q-009 et q-010"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "P1_contour_et_comparaison",
+          "P2_production_fidele",
+          "P3_description_des_variations",
+          "P4_autonomie_et_acces_surs"
+        ],
+        "echelle": "0_non_observe;1_partiel;2_suffisant",
+        "maitrise": "P1=P2=P3=P4=2 séparément pour q-009 et q-010"
+      },
+      "source": [
+        "kristals/qc-pri-mu-003/authoring/PARCOURS.md",
+        "kristals/qc-pri-mu-003/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_banque_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,558 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-016",
+  "family_id": "qc-pri-us-016-ev-01",
+  "generation": {
+    "type": "selection_dans_corpus_ferme",
+    "algorithme": "Identifier un scenario_id US016-S01..S12; récupérer l’item homonyme sans modifier stimulus ou réponse; aucune génération libre, aucun tirage aléatoire. Une variante n’est admise qu’après revue humaine de la source, de la grille et des limites.",
+    "seed_famille": "US016-CORPUS-LOCK-v1.2-20261008",
+    "corpus_source": "sources/REFERENCES_CONTENU.md",
+    "statut": "a_revoir"
+  },
+  "items": [
+    {
+      "item_id": "qc-pri-us-016-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Deux langues et une limite",
+      "consigne": "Présente deux héritages linguistiques distincts visibles dans la notice. Dis ce qui est documenté et ce qu'il est interdit de conclure sur les personnes.",
+      "stimulus": "Notice source S2 — Musée canadien de l'histoire, page actuelle « Langues autochtones ». Le Musée offre un guide en anishinabemowin, un en inuktitut et un en michif cri. La notice décrit l'offre de guides du Musée et non les langues parlées par chaque personne.",
+      "reponse_attendue": "Ex. : deux patrimoines linguistiques visibles sont l'anishinabemowin et l'inuktitut; le fait attesté est l'offre de guides dans ces langues par le Musée. Les sources ne prouvent pas que toutes les personnes autochtones parlent ces langues ni partagent les mêmes coutumes.",
+      "criteres": [
+        "Relever deux langues distinctes et limiter la généralisation; ne pas attribuer de langue à tous les individus.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "Si tu as écrit « tous les Autochtones », remplace par « le Musée propose des guides en… »; le document parle des guides, pas de chacun des locuteurs.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S01",
+        "corpus_ids": [
+          "S2"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S2"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-016-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Des expressions de patrimoine différentes",
+      "consigne": "Explique pourquoi la présence de plusieurs guides linguistiques peut montrer une diversité d'expressions. Décris deux exemples et indique comment les pratiques peuvent changer dans le temps.",
+      "stimulus": "Notice source S2 — Le Musée canadien de l'histoire offre des guides en inuktitut et en michif cri. Notice source S1 — L'UNESCO décrit le patrimoine culturel immatériel comme des pratiques, savoirs et expressions reconnus par des communautés, transmis et susceptibles d'évoluer.",
+      "reponse_attendue": "Le guide en inuktitut et celui en michif cri rendent visibles deux expressions linguistiques distinctes. Leur présence témoigne d'une pluralité, pas d'un classement de valeur. Comme l'explique S1, les patrimoines culturels immatériels peuvent être transmis et réinventés; ces notices ne disent pas qui parle les langues à la maison.",
+      "criteres": [
+        "Deux expressions distinctes, lien exact avec transmission non figée, limite sur les individus.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "Si tu dis « les langues sont identiques depuis toujours », relis S1 : les expressions patrimoniales peuvent évoluer.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S02",
+        "corpus_ids": [
+          "S1",
+          "S2"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-016-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Deux lieux, deux mémoires",
+      "consigne": "Identifie deux héritages de mémoire situés dans des lieux différents. Pour chacun, indique qui publie la notice, la période pertinente et ce qu'on ne peut pas déduire sur tous les membres de la société.",
+      "stimulus": "S3 — Parcs Canada : Grosse-Île, au Québec, est un lieu de mémoire de l'immigration et une ancienne station de quarantaine active de 1832 à 1937; les événements vécus par des immigrants irlandais y sont commémorés. S4 — Parcs Canada : le Monument-Lefebvre, au Nouveau-Brunswick, commémore la renaissance culturelle acadienne et l'histoire d'un établissement d'enseignement supérieur francophone fondé en 1864.",
+      "reponse_attendue": "Héritage 1 : mémoire de l'immigration et de la quarantaine à Grosse-Île (1832–1937), notamment le souvenir de parcours irlandais; S3, Parcs Canada. Héritage 2 : mémoire de la renaissance culturelle acadienne et de l'enseignement francophone évoquée par le Monument-Lefebvre, dont l'institution fondée en 1864; S4, Parcs Canada. Ces lieux ne racontent pas tous les parcours d'immigrants ou d'Acadiens.",
+      "criteres": [
+        "Deux mémoires et lieux correctement distincts, dates exactes, prudence.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "Si tu attribues la fondation de 1864 à Grosse-Île, replace cette date au Monument-Lefebvre (S4); les deux notices ne portent pas sur le même lieu.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S03",
+        "corpus_ids": [
+          "S3",
+          "S4"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-016-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Réparer des généralités",
+      "consigne": "Souligne deux généralisations non justifiées, puis réécris le texte sous la forme de deux constats exacts reliés aux notices; présente les deux héritages évoqués.",
+      "stimulus": "Brochure pédagogique entièrement fictive, écrite pour l'exercice et volontairement fautive : « Comme le Musée publie un guide en inuktitut, tous les Autochtones parlent l'inuktitut. Puisque Grosse-Île commémore l'immigration irlandaise, seuls les Irlandais ont immigré par Québec. » Notices de contrôle : S2 cite plusieurs langues de guides du Musée; S3 commémore notamment l'histoire de l'immigration irlandaise et le rôle de la station de quarantaine de 1832 à 1937.",
+      "reponse_attendue": "Rectification 1 : le Musée publie notamment un guide en inuktitut, une expression linguistique mise en valeur; cela ne prouve aucune langue commune à toutes les personnes autochtones. Rectification 2 : Grosse-Île conserve notamment une mémoire de l'immigration irlandaise et de la quarantaine; cette commémoration ne signifie pas que tous les immigrants étaient irlandais.",
+      "criteres": [
+        "Détecter deux « tous / seuls », réviser deux phrases avec attribution, deux héritages distincts.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "Cherche dans chaque phrase l'expression qui transforme « certains faits dans un document » en « tout un peuple ». Remplace-la par une attribution limitée.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S04",
+        "corpus_ids": [
+          "S2",
+          "S3"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-016-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Langue et lieu de mémoire",
+      "consigne": "Explique la diversité des types d'héritage en présentant un héritage linguistique et un héritage historique distincts. Ajoute un indice de source et une limite pour chacun.",
+      "stimulus": "S2 — Le Musée canadien de l'histoire publie des guides notamment en anishinabemowin et en inuktitut. S4 — Le Monument-Lefebvre au Nouveau-Brunswick est consacré à la mémoire de la renaissance de la culture acadienne et à des aspects de l'histoire de l'enseignement francophone dans les provinces atlantiques.",
+      "reponse_attendue": "Le guide en anishinabemowin met en valeur une expression linguistique [S2]; les notices ne révèlent pas quelles langues tous les visiteurs ou membres d'une communauté parlent. Le Monument-Lefebvre fait connaître un héritage historique acadien [S4]; il ne représente pas toutes les histoires des Acadiens. Langue et lieu de mémoire montrent des types d'héritage différents.",
+      "criteres": [
+        "Une langue exacte + une mémoire historique, deux sources distinctes, explication de diversité et limites.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "N'attribue pas au Monument-Lefebvre la création des guides du Musée : chaque héritage doit garder sa source.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S05",
+        "corpus_ids": [
+          "S2",
+          "S4"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-016-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Chronologie et patrimoine évolutif",
+      "consigne": "Présente les deux héritages historiques sans confondre l'époque des événements avec leur commémoration actuelle. Montre en quoi un héritage peut changer de forme dans le temps.",
+      "stimulus": "S3 — Grosse-Île, au Québec : station de quarantaine de 1832 à 1937, aujourd'hui lieu de mémoire. S4 — Monument-Lefebvre, au Nouveau-Brunswick : lieu contemporain de commémoration de l'histoire culturelle acadienne, notamment d'un établissement francophone fondé en 1864. S1 — Un patrimoine culturel peut se transmettre et évoluer avec le temps.",
+      "reponse_attendue": "Première mémoire : histoire de l'immigration et de la quarantaine à Grosse-Île de 1832 à 1937, racontée aujourd'hui par un lieu patrimonial. Seconde mémoire : histoire de la culture acadienne et d'une institution de 1864, racontée aujourd'hui au Monument-Lefebvre. Les façons de transmettre une mémoire peuvent changer; aucune exposition actuelle ne signifie que tout le monde vivait de façon uniforme à l'époque.",
+      "criteres": [
+        "2 héritages, 2 périodes correctement associées, séparation entre passé et présentation actuelle, limite.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "Si tu présentes un musée actuel comme une scène de 1864, dessine deux colonnes : événement passé / commémoration présente.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S06",
+        "corpus_ids": [
+          "S1",
+          "S3",
+          "S4"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-016-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Deux formes de pluralité en Acadie et au musée",
+      "consigne": "Explique la pluralité de deux héritages culturellement différents en gardant les sources à leur place : une expression linguistique visible aujourd'hui et une mémoire historique acadienne. Rédige un avertissement contre la généralisation.",
+      "stimulus": "S2 — Des guides du Musée canadien de l'histoire existent en inuktitut et en michif cri. S5 — Parcs Canada explique que Grand-Pré, en Nouvelle-Écosse, est un site de mémoire de la Déportation des Acadiens, située entre 1755 et 1763.",
+      "reponse_attendue": "Le Musée valorise entre autres une expression linguistique en inuktitut via un guide [S2]. Grand-Pré conserve une mémoire historique liée à la Déportation des Acadiens de 1755 à 1763 [S5]. Les deux héritages ont des temporalités et supports distincts; le site et le musée ne décrivent pas toutes les expériences ou pratiques individuelles.",
+      "criteres": [
+        "Source et époque de Grand-Pré exactes, langue précise de S2, types d'héritage expliqués, prudence.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "La Déportation n'est pas un événement récent : utilise 1755–1763 pour l'histoire commémorée à Grand-Pré.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S07",
+        "corpus_ids": [
+          "S2",
+          "S5"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S2",
+        "S5"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-016-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Comparer deux notices historiques",
+      "consigne": "Construis deux phrases « lieu – héritage – période », puis une explication de la diversité et deux limites de ce que ces sites permettent de connaître.",
+      "stimulus": "Source S3 : Parcs Canada présente la Grosse-Île comme lieu de mémoire de l'immigration, en particulier de tragédies liées à l'immigration irlandaise, et comme station de quarantaine 1832–1937. Source S4 : Parcs Canada présente le Monument-Lefebvre comme lieu de mémoire de la renaissance culturelle acadienne et de l'histoire d'une institution francophone fondée en 1864.",
+      "reponse_attendue": "Grosse-Île (Québec) évoque une mémoire migratoire et sanitaire du XIXe siècle, avec une station active de 1832 à 1937 [S3]. Monument-Lefebvre (Nouveau-Brunswick) évoque une autre mémoire culturelle, liée notamment à l'enseignement supérieur francophone fondé en 1864 [S4]. La pluralité se voit dans les histoires et les pratiques commémorées; chaque notice sélectionne un thème et ne couvre pas tous les individus.",
+      "criteres": [
+        "2 notices exactes, 2 limites et un raisonnement sur la pluralité.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "Si tu écris seulement « deux monuments », précise *quelles* mémoires chacun conserve et une période.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S08",
+        "corpus_ids": [
+          "S3",
+          "S4"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-016-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Notices inventées, méthode transférable",
+      "consigne": "À partir de deux documents entièrement fictifs, explique deux héritages culturels, identifie ce qui est directement indiqué et distingue-le de ton interprétation. Ne transforme pas la fiction en fait sur le Québec.",
+      "stimulus": "Exercice fictif (aucun groupe réel) : notice inventée P, signée « Collectif des Voix », datée 2022 : un atelier local réunit des volontaires pour numériser leurs chansons. Notice inventée Q, signée « Archives du Quai », datée 2019 : une exposition locale présente des carnets de navigation reçus de certaines familles. Ces institutions et documents sont inventés pour l'exercice. S1 fournit seulement l'idée générale de transmission et d'évolution des patrimoines.",
+      "reponse_attendue": "Dans la fiction, des chants sont transmis sous forme numérique par un collectif (P, 2022), et des carnets de navigation sont montrés en exposition par des archives (Q, 2019). Ce sont deux héritages possibles de types différents; la numérisation peut être un mode de transmission nouveau [S1]. Rien ne prouve que tous les habitants y participent. Ce ne sont pas des faits historiques réels.",
+      "criteres": [
+        "Fiction identifiée, 2 objets patrimoniaux séparés, 2 auteurs et dates, prudence.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "Attention : « Collectif des Voix » et « Archives du Quai » sont fictifs. La bonne méthode historique consiste aussi à signaler qu'un exercice n'est pas une archive.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S09",
+        "corpus_ids": [
+          "S1"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S1"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-016-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Distinguer affirmation et interprétation",
+      "consigne": "Présente deux héritages de nature différente. Pour chacun, sépare un fait de la source, ton interprétation argumentée et une information absente; explique pourquoi les deux ne se réduisent pas à un seul récit de la société.",
+      "stimulus": "Fiche 1, S2 : le Musée canadien de l'histoire offre des guides notamment en michif cri. Fiche 2, S3 : Grosse-Île est présentée par Parcs Canada comme lieu de commémoration de l'immigration et ancienne station de quarantaine 1832–1937. S1 : l'UNESCO distingue des expressions et pratiques culturelles vivantes et transmissibles.",
+      "reponse_attendue": "Fait 1 : il existe un guide du Musée en michif cri [S2]. Interprétation : cela peut contribuer à la visibilité d'un héritage linguistique. Information absente : la proportion de personnes qui le parlent. Fait 2 : Parcs Canada présente Grosse-Île comme station 1832–1937 et lieu de mémoire de l'immigration [S3]. Interprétation : ce lieu conserve une partie d'un héritage migratoire; information absente : tous les récits individuels. Ces patrimoines ont des formes différentes.",
+      "criteres": [
+        "Deux faits précisément attribués, deux inférences qualifiées, deux informations absentes, absence de stéréotype.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "Sépare tes verbes : « indique » pour un fait sourcé, « peut témoigner » pour une interprétation, « ne permet pas de savoir » pour une limite.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S10",
+        "corpus_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-016-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "PREUVE A — Patrimoines linguistiques",
+      "consigne": "SANS INDICE : prépare un texte de 5 à 8 phrases ou un exposé oral de contenu équivalent. À partir de la notice, présente DEUX héritages linguistiques DISTINCTS, explique comment leur présence dans ce musée montre une diversité culturelle et formule une limite de la source. Distingue fait établi et interprétation. Aucune expérience personnelle n'est demandée.",
+      "stimulus": "DOSSIER AUTONOME A — Contexte institution muséale aujourd'hui. Source S2, Musée canadien de l'histoire, page « Langues autochtones » : le musée propose des guides en anishinabemowin (algonquin), en inuktitut et en michif cri. Source S1, UNESCO : des expressions culturelles peuvent être transmises et transformées. Les notices montrent l'offre d'une institution; elles ne mesurent ni le nombre de locuteurs, ni la pratique de chaque communauté.",
+      "reponse_attendue": "Production acceptable : présenter explicitement **deux** langues distinctes parmi anishinabemowin, inuktitut, michif cri comme expressions linguistiques mises en valeur; citer le Musée (S2) pour l'existence des guides; expliquer pourquoi plusieurs expressions attestent une diversité visible dans cette institution; facultativement mobiliser l'UNESCO (S1) pour la transmission évolutive; préciser que la notice ne justifie aucun « tous les Autochtones parlent… ». Aucun énoncé sans preuve sur les pratiques des individus. Grille 4 dimensions, niveaux 0–3, voir GRILLE_MAITRISE.md.",
+      "criteres": [
+        "Preuve autonome A : deux héritages linguistiques, exactitude de la source, explication de diversité, limite contre stéréotype.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "Si une des deux langues n'est pas nommée, la pluralité n'est pas suffisamment attestée. Si tu dis « tous », reprends l'étendue du document : il présente les guides d'un musée, pas toute une population.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S11",
+        "corpus_ids": [
+          "S1",
+          "S2"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A — deux héritages linguistiques, contexte du musée, sans indice",
+      "conditions": "Sans aide de contenu ni exemple modèle; aménagement de modalité permis; deux séances indépendantes."
+    },
+    {
+      "item_id": "qc-pri-us-016-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-016-ev-01",
+      "mode": "scenario_controle",
+      "titre": "PREUVE B — Patrimoines de mémoire",
+      "consigne": "SANS INDICE : prépare un tableau ou une présentation orale de contenu équivalent. À partir de deux sites de mémoire liés à des événements historiques différents, présente DEUX héritages distincts, situe lieux et périodes, et explique pourquoi aucune notice ne décrit toutes les expériences individuelles.",
+      "stimulus": "DOSSIER AUTONOME B — Contexte carte historique sur la mobilité des populations. Source S3, Parcs Canada : Grosse-Île (Québec) commémore l'immigration, notamment irlandaise, et rappelle la station de quarantaine de 1832 à 1937. Source S5, Parcs Canada : Grand-Pré (Nouvelle-Écosse) est présenté comme un lieu commémorant la Déportation des Acadiens de 1755 à 1763. Ces deux documents portent sur des lieux et événements différents, et ne racontent pas tous les parcours individuels.",
+      "reponse_attendue": "Production acceptable : présenter **l'héritage migratoire et commémoratif de Grosse-Île** (Québec, quarantaine de 1832 à 1937, événements concernant notamment des immigrants irlandais) et **l'héritage mémoriel acadien de Grand-Pré** (Nouvelle-Écosse, Déportation de 1755 à 1763). Attribuer chaque notice à Parcs Canada (S3 et S5), expliquer la pluralité de mémoires d'époques distinctes; préciser que les mémoriaux ne prouvent pas l'expérience de tous les immigrants ou Acadiens. Grille 4 dimensions, niveaux 0–3.",
+      "criteres": [
+        "Preuve autonome B : deux héritages de mémoire, lieux Québec et Nouvelle-Écosse exacts, périodes distinctes, explication et limites sans stéréotype.",
+        "Citer correctement le document, son auteur et le temps lorsqu'ils sont pertinents.",
+        "Justifier la pluralité avec des traces et des distinctions explicites.",
+        "Ne pas affirmer une propriété de toutes les personnes depuis une seule notice; signaler au moins une limite."
+      ],
+      "feedback": "Si tu associes 1755–1763 à Grosse-Île, distingue les deux lignes de la carte. Si tu généralises à tous les migrants ou Acadiens, rappelle le sujet précis de chaque notice.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "US016-S12",
+        "corpus_ids": [
+          "S3",
+          "S5"
+        ],
+        "corpus_verrouille": true,
+        "variation_admissible": [
+          "ordre des phrases",
+          "langage clair ou soutenu",
+          "réponse écrite ou orale à contenu équivalent"
+        ],
+        "variation_interdite": [
+          "changer faits, noms, dates ou sources",
+          "générer des prétendus témoignages",
+          "changer les critères de maîtrise",
+          "attribuer des propriétés à toute une communauté"
+        ]
+      },
+      "sources": [
+        "S3",
+        "S5"
+      ],
+      "rubrique_analytique": "Grille 0–3 × 4 dimensions, avec niveaux et règle de décision dans evaluation/GRILLE_MAITRISE.md",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B — deux héritages mémoriels Grosse-Île / Grand-Pré, nouvelle paire sans indice",
+      "conditions": "Sans aide de contenu ni exemple modèle; aménagement de modalité permis; deux séances indépendantes."
+    }
+  ]
+}

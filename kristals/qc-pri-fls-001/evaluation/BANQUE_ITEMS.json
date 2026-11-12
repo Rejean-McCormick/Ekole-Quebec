@@ -1,0 +1,523 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fls-001",
+  "family_id": "qc-pri-fls-001-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "mode_privilegie": "observation_ou_production",
+  "statut": "a_revoir_humainement",
+  "protocole_commun": "Le texte des scripts est destiné à l'adulte; seule la VOIX est donnée à l'élève, sans transcription ni mime de la solution. Observation directe des actions et reformulation de l'intention. Accent non noté. Pas de générations libres.",
+  "items": [
+    {
+      "item_id": "qc-pri-fls-001-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute, réalise la demande, puis explique ce que tu as compris.",
+      "stimulus": "Voix: « Pose le cercle dans la boîte. » Matériel: cercle de carton et boîte vide.",
+      "reponse_attendue": "Cercle à l’intérieur de la boîte; reformulation fidèle « Je mets le cercle dans la boîte ».",
+      "criteres": [
+        "Sélection du cercle.",
+        "Placement à l’intérieur, et non à côté.",
+        "Reformulation conserve action et lieu."
+      ],
+      "feedback": "Si le cercle reste dehors, opposer dedans/dehors avec un autre objet, puis réessayer une consigne différente.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "objets manipulables",
+      "conditions_passation": "Voix adulte en français intelligible; script caché à l'élève; une écoute, répétition exacte selon protocole commun notée; aucune démonstration de solution."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute, fais ce qui est dit et redis le sens.",
+      "stimulus": "Voix: « Mets le carré à côté du livre. » Matériel: carré de carton, livre stable.",
+      "reponse_attendue": "Carré placé à proximité extérieure du livre, sans être dessus ni dessous; « Je le mets près du livre ».",
+      "criteres": [
+        "Carré identifié.",
+        "Position extérieure voisine.",
+        "Reformulation signifie « à côté »."
+      ],
+      "feedback": "Tu as peut-être reconnu le carré; écoute la relation « à côté », puis compare avec « sur ».",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "objet et repère spatial",
+      "conditions_passation": "Voix adulte en français intelligible; script caché à l'élève; une écoute, répétition exacte selon protocole commun notée; aucune démonstration de solution."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Exécute les deux parties dans le bon ordre puis reformule.",
+      "stimulus": "Voix: « Prends le jeton, puis touche le couvercle. » Matériel: jeton large, couvercle plat.",
+      "reponse_attendue": "Prendre le jeton d’abord, toucher le couvercle ensuite; « D’abord je prends le jeton, puis je touche le couvercle ».",
+      "criteres": [
+        "Objet exact.",
+        "Les deux gestes accomplis.",
+        "Ordre préservé.",
+        "Paraphrase mentionne la succession."
+      ],
+      "feedback": "Si tu as inversé, cherche le mot « puis »; refais avec un autre couple de gestes.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "séquence gestuelle",
+      "conditions_passation": "Voix adulte en français intelligible; script caché à l'élève; une écoute, répétition exacte selon protocole commun notée; aucune démonstration de solution."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute attentivement la couleur et place le bon objet; explique ton choix.",
+      "stimulus": "Voix: « Dépose la carte jaune sur le plateau. » Matériel: cartes jaune et bleue, plateau.",
+      "reponse_attendue": "Seulement la carte jaune sur le plateau; « Je choisis la jaune et je la mets sur le plateau ».",
+      "criteres": [
+        "Choix jaune, non bleue.",
+        "Relation « sur » respectée.",
+        "Reformulation contient la couleur et le lieu."
+      ],
+      "feedback": "Une couleur ou une position est-elle mal entendue? Faire discriminer sur une nouvelle paire.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "contraste visuel après écoute",
+      "conditions_passation": "Voix adulte en français intelligible; script caché à l'élève; une écoute, répétition exacte selon protocole commun notée; aucune démonstration de solution."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Réalise la demande sans déplacer l’objet qu’on te demande de laisser; reformule.",
+      "stimulus": "Voix: « Mets le cercle sur la feuille, mais laisse le carré dans le bol. » Matériel: cercle, feuille, carré déjà dans un bol.",
+      "reponse_attendue": "Cercle sur la feuille; carré demeure dans le bol; reformulation conserve le déplacement et l’absence de déplacement.",
+      "criteres": [
+        "Cercle déplacé vers la feuille.",
+        "Carré non déplacé.",
+        "Les deux conditions restent intactes dans la paraphrase."
+      ],
+      "feedback": "« Mais laisse » veut dire que le second objet ne doit pas changer de place.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "manipulation avec contrainte",
+      "conditions_passation": "Voix adulte en français intelligible; script caché à l'élève; une écoute, répétition exacte selon protocole commun notée; aucune démonstration de solution."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute, exécute et reformule la suite de deux actions.",
+      "stimulus": "Voix: « Ouvre la boîte, puis pose le couvercle à côté du livre. » Matériel: boîte facile à ouvrir, couvercle, livre.",
+      "reponse_attendue": "Boîte ouverte avant le dépôt du couvercle à côté du livre; « J’ouvre et ensuite je dépose le couvercle près du livre ».",
+      "criteres": [
+        "Boîte effectivement ouverte.",
+        "Couvercle posé près du livre.",
+        "Ordre respecté.",
+        "Reformulation fidèle à l’ordre et la relation."
+      ],
+      "feedback": "Si l’ordre est perdu, marquer mentalement les deux étapes, puis retirer cet indice.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "objets et chronologie",
+      "conditions_passation": "Voix adulte en français intelligible; script caché à l'élève; une écoute, répétition exacte selon protocole commun notée; aucune démonstration de solution."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Exécute le message reçu dans un petit atelier fictif et redis son sens.",
+      "stimulus": "Voix: « Pose le gros pion à côté du cahier. » Matériel: gros pion, cahier.",
+      "reponse_attendue": "Pion près du cahier, non dessus; paraphrase « Je le mets près du cahier ».",
+      "criteres": [
+        "Bonne sélection du pion.",
+        "Position voisine et extérieure.",
+        "Paraphrase fidèle."
+      ],
+      "feedback": "« À côté » ne signifie ni sur ni dans.",
+      "difficulte": "intermediaire",
+      "seed": 1007,
+      "parametres": {
+        "variables": {
+          "indice_session": {
+            "type": "entier",
+            "domaine": "0..999",
+            "valeur_exemple": 0
+          },
+          "variante": {
+            "domaine": [
+              0,
+              1
+            ],
+            "valeur_exemple": 1
+          }
+        },
+        "contraintes": [
+          "Choisir uniquement dans le catalogue ci-dessous; ne pas modifier script, action, relation ni corrigé.",
+          "Objets sûrs à portée, sans mime adulte de la solution.",
+          "Une version par passation, présentée oralement par l'adulte; reformulation demandée après exécution."
+        ],
+        "algorithme": "indice = (seed + indice_session) % 2; copier mot pour mot les quatre champs de catalogue_variantes[indice] ; valeur d'exemple indice_session=0.",
+        "catalogue_variantes": [
+          {
+            "stimulus": "Voix: « Place le bouchon large sous le carnet. » Matériel: gros bouchon, carnet.",
+            "reponse_attendue": "Bouchon sous le carnet; paraphrase « Je le mets en dessous du carnet ».",
+            "criteres": [
+              "Bonne sélection du bouchon.",
+              "Relation dessous correcte.",
+              "Paraphrase garde la position."
+            ],
+            "feedback": "La relation « sous » se trouve au-dessous du carnet."
+          },
+          {
+            "stimulus": "Voix: « Pose le gros pion à côté du cahier. » Matériel: gros pion, cahier.",
+            "reponse_attendue": "Pion près du cahier, non dessus; paraphrase « Je le mets près du cahier ».",
+            "criteres": [
+              "Bonne sélection du pion.",
+              "Position voisine et extérieure.",
+              "Paraphrase fidèle."
+            ],
+            "feedback": "« À côté » ne signifie ni sur ni dans."
+          }
+        ],
+        "validation_exemple": {
+          "indice_session": 0,
+          "indice_retenu": 1,
+          "stimulus_attendu": "Voix: « Pose le gros pion à côté du cahier. » Matériel: gros pion, cahier.",
+          "reponse_attendue": "Pion près du cahier, non dessus; paraphrase « Je le mets près du cahier »."
+        }
+      },
+      "validation_status": "a_revoir",
+      "representation": "mise en situation à variantes fermées",
+      "conditions_passation": "Voix seulement pour le script; aucune transcription visible; choix fermé, pas d'invention libre de messages ni de corrigés."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Comprends deux actions liées par « puis », exécute-les et explique.",
+      "stimulus": "Voix: « Prends l’étiquette verte, puis glisse-la sous la feuille. » Matériel: étiquette verte, feuille.",
+      "reponse_attendue": "Étiquette verte saisie puis placée sous la feuille; paraphrase fidèle avec ordre.",
+      "criteres": [
+        "Objet vert exact.",
+        "Ordre prendre puis glisser.",
+        "Relation sous.",
+        "Paraphrase garde les deux étapes."
+      ],
+      "feedback": "« Puis » relie deux actions successives; « sous » précise le lieu.",
+      "difficulte": "intermediaire",
+      "seed": 1008,
+      "parametres": {
+        "variables": {
+          "indice_session": {
+            "type": "entier",
+            "domaine": "0..999",
+            "valeur_exemple": 0
+          },
+          "variante": {
+            "domaine": [
+              0,
+              1
+            ],
+            "valeur_exemple": 0
+          }
+        },
+        "contraintes": [
+          "Choisir uniquement dans le catalogue ci-dessous; ne pas modifier script, action, relation ni corrigé.",
+          "Objets sûrs à portée, sans mime adulte de la solution.",
+          "Une version par passation, présentée oralement par l'adulte; reformulation demandée après exécution."
+        ],
+        "algorithme": "indice = (seed + indice_session) % 2; copier mot pour mot les quatre champs de catalogue_variantes[indice] ; valeur d'exemple indice_session=0.",
+        "catalogue_variantes": [
+          {
+            "stimulus": "Voix: « Prends l’étiquette verte, puis glisse-la sous la feuille. » Matériel: étiquette verte, feuille.",
+            "reponse_attendue": "Étiquette verte saisie puis placée sous la feuille; paraphrase fidèle avec ordre.",
+            "criteres": [
+              "Objet vert exact.",
+              "Ordre prendre puis glisser.",
+              "Relation sous.",
+              "Paraphrase garde les deux étapes."
+            ],
+            "feedback": "« Puis » relie deux actions successives; « sous » précise le lieu."
+          },
+          {
+            "stimulus": "Voix: « Soulève le carré, puis dépose-le dans le panier. » Matériel: carré de carton, panier.",
+            "reponse_attendue": "Carré soulevé d'abord puis déposé dans le panier; reformulation de la séquence.",
+            "criteres": [
+              "Carré exact.",
+              "Deux étapes en ordre.",
+              "Destination dans le panier.",
+              "Paraphrase conserve l'ordre."
+            ],
+            "feedback": "Commence par « soulève », puis fais le dépôt dans le panier."
+          }
+        ],
+        "validation_exemple": {
+          "indice_session": 0,
+          "indice_retenu": 0,
+          "stimulus_attendu": "Voix: « Prends l’étiquette verte, puis glisse-la sous la feuille. » Matériel: étiquette verte, feuille.",
+          "reponse_attendue": "Étiquette verte saisie puis placée sous la feuille; paraphrase fidèle avec ordre."
+        }
+      },
+      "validation_status": "a_revoir",
+      "representation": "mise en situation à variantes fermées",
+      "conditions_passation": "Voix seulement pour le script; aucune transcription visible; choix fermé, pas d'invention libre de messages ni de corrigés."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Traite une consigne avec un élément à laisser à sa place, puis reformule.",
+      "stimulus": "Voix: « Place la carte rouge à côté du bol, mais garde la carte jaune sur la table. » Matériel: cartes rouge et jaune, bol, table.",
+      "reponse_attendue": "Rouge à côté du bol; jaune reste sur la table; paraphrase des deux contraintes.",
+      "criteres": [
+        "Rouge voisine du bol.",
+        "Jaune reste sur table.",
+        "Reformulation conserve les objets et places."
+      ],
+      "feedback": "N’applique le déplacement qu’à la carte rouge.",
+      "difficulte": "transfert",
+      "seed": 1009,
+      "parametres": {
+        "variables": {
+          "indice_session": {
+            "type": "entier",
+            "domaine": "0..999",
+            "valeur_exemple": 0
+          },
+          "variante": {
+            "domaine": [
+              0,
+              1
+            ],
+            "valeur_exemple": 1
+          }
+        },
+        "contraintes": [
+          "Choisir uniquement dans le catalogue ci-dessous; ne pas modifier script, action, relation ni corrigé.",
+          "Objets sûrs à portée, sans mime adulte de la solution.",
+          "Une version par passation, présentée oralement par l'adulte; reformulation demandée après exécution."
+        ],
+        "algorithme": "indice = (seed + indice_session) % 2; copier mot pour mot les quatre champs de catalogue_variantes[indice] ; valeur d'exemple indice_session=0.",
+        "catalogue_variantes": [
+          {
+            "stimulus": "Voix: « Mets le disque bleu dans la boîte, mais laisse le disque vert sur le tapis. » Matériel: disques larges bleu et vert, boîte, tapis.",
+            "reponse_attendue": "Bleu dans la boîte, vert reste sur le tapis; reformulation des deux conditions.",
+            "criteres": [
+              "Bleu déplacé dans boîte.",
+              "Vert maintenu sur tapis.",
+              "Reformulation fidèle aux deux conditions."
+            ],
+            "feedback": "L’action « laisse » interdit de bouger le deuxième disque."
+          },
+          {
+            "stimulus": "Voix: « Place la carte rouge à côté du bol, mais garde la carte jaune sur la table. » Matériel: cartes rouge et jaune, bol, table.",
+            "reponse_attendue": "Rouge à côté du bol; jaune reste sur la table; paraphrase des deux contraintes.",
+            "criteres": [
+              "Rouge voisine du bol.",
+              "Jaune reste sur table.",
+              "Reformulation conserve les objets et places."
+            ],
+            "feedback": "N’applique le déplacement qu’à la carte rouge."
+          }
+        ],
+        "validation_exemple": {
+          "indice_session": 0,
+          "indice_retenu": 1,
+          "stimulus_attendu": "Voix: « Place la carte rouge à côté du bol, mais garde la carte jaune sur la table. » Matériel: cartes rouge et jaune, bol, table.",
+          "reponse_attendue": "Rouge à côté du bol; jaune reste sur la table; paraphrase des deux contraintes."
+        }
+      },
+      "validation_status": "a_revoir",
+      "representation": "mise en situation à variantes fermées",
+      "conditions_passation": "Voix seulement pour le script; aucune transcription visible; choix fermé, pas d'invention libre de messages ni de corrigés."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Agis selon le message puis explique l’ordre et le lieu.",
+      "stimulus": "Voix: « Prends le ruban large, puis pose-le sur le dossier bleu. » Matériel: ruban large, dossier bleu.",
+      "reponse_attendue": "Ruban saisi puis posé sur dossier bleu; reformulation des deux actions.",
+      "criteres": [
+        "Bon ruban.",
+        "Ordre prendre puis poser.",
+        "Emplacement sur dossier bleu.",
+        "Paraphrase complète."
+      ],
+      "feedback": "Vérifie le moment du placement et le mot « sur ».",
+      "difficulte": "transfert",
+      "seed": 1010,
+      "parametres": {
+        "variables": {
+          "indice_session": {
+            "type": "entier",
+            "domaine": "0..999",
+            "valeur_exemple": 0
+          },
+          "variante": {
+            "domaine": [
+              0,
+              1
+            ],
+            "valeur_exemple": 0
+          }
+        },
+        "contraintes": [
+          "Choisir uniquement dans le catalogue ci-dessous; ne pas modifier script, action, relation ni corrigé.",
+          "Objets sûrs à portée, sans mime adulte de la solution.",
+          "Une version par passation, présentée oralement par l'adulte; reformulation demandée après exécution."
+        ],
+        "algorithme": "indice = (seed + indice_session) % 2; copier mot pour mot les quatre champs de catalogue_variantes[indice] ; valeur d'exemple indice_session=0.",
+        "catalogue_variantes": [
+          {
+            "stimulus": "Voix: « Prends le ruban large, puis pose-le sur le dossier bleu. » Matériel: ruban large, dossier bleu.",
+            "reponse_attendue": "Ruban saisi puis posé sur dossier bleu; reformulation des deux actions.",
+            "criteres": [
+              "Bon ruban.",
+              "Ordre prendre puis poser.",
+              "Emplacement sur dossier bleu.",
+              "Paraphrase complète."
+            ],
+            "feedback": "Vérifie le moment du placement et le mot « sur »."
+          },
+          {
+            "stimulus": "Voix: « Touche la pochette verte, puis déplace la feuille jaune sous le classeur. » Matériel: pochette verte, feuille jaune, classeur.",
+            "reponse_attendue": "Toucher la pochette verte avant de placer la feuille jaune sous classeur; reformulation du lieu et de la succession.",
+            "criteres": [
+              "Pochette touchée d’abord.",
+              "Feuille jaune ensuite déplacée sous classeur.",
+              "Paraphrase claire sur les deux gestes et la relation."
+            ],
+            "feedback": "Ne permute pas les objets : la pochette est touchée, la feuille est déplacée."
+          }
+        ],
+        "validation_exemple": {
+          "indice_session": 0,
+          "indice_retenu": 0,
+          "stimulus_attendu": "Voix: « Prends le ruban large, puis pose-le sur le dossier bleu. » Matériel: ruban large, dossier bleu.",
+          "reponse_attendue": "Ruban saisi puis posé sur dossier bleu; reformulation des deux actions."
+        }
+      },
+      "validation_status": "a_revoir",
+      "representation": "mise en situation à variantes fermées",
+      "conditions_passation": "Voix seulement pour le script; aucune transcription visible; choix fermé, pas d'invention libre de messages ni de corrigés."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME — Kiosque postal fictif. L’adulte énonce séparément trois messages inédits, sans geste-réponse; après chaque exécution, demander une reformulation libre. Ne pas enseigner ce corpus au préalable.",
+      "stimulus": "Contexte: Kiosque postal fictif. Matériel: carte blanche, enveloppe bleue, enveloppe jaune, timbre cartonné, bac, ruban rouge large. Voix (dans cet ordre, séparément):\n(1) « Glisse la carte blanche dans l’enveloppe bleue. »\n(2) « Pose le timbre en carton sur l’enveloppe jaune, puis place cette enveloppe dans le bac. »\n(3) « Prends le ruban rouge et laisse-le à côté du bac. »",
+      "reponse_attendue": "(1) Seule la carte blanche insérée dans l’enveloppe bleue. Reformulation équivalente : « Je mets la carte blanche à l’intérieur de l’enveloppe bleue. » | (2) Timbre de carton posé sur enveloppe jaune AVANT dépôt de cette enveloppe dans le bac. Reformulation équivalente : « Je mets le timbre sur l’enveloppe jaune et ensuite je range cette enveloppe dans le bac. » | (3) Ruban rouge pris puis déposé tout près du bac à l’extérieur de celui-ci. Reformulation équivalente : « Je prends le ruban rouge et je le dépose près du bac, pas dedans. »",
+      "criteres": [
+        "Pour chacun des trois messages : choix des objets exact.",
+        "Pour chacun : action et emplacement conformes; ordre respecté lorsque présent.",
+        "Après chacun : reformulation intelligible et fidèle (mots-clés, parole ou aide à la communication).",
+        "Aucun mime, traduction ou indice sémantique pendant l’épreuve; une répétition strictement identique peut être consignée.",
+        "Au moins deux des trois couples exécution + paraphrase complets dans ce contexte; l’autre épreuve distincte est aussi exigée."
+      ],
+      "feedback": "Si un message est mal compris, relever le mot, l’ordre ou la relation responsable et prévoir une nouvelle tâche parallèle après remédiation, sans fournir le corrigé pendant la preuve.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "mise en situation avec trois messages oraux inédits",
+      "conditions_passation": "Voix adulte en français intelligible; script caché à l'élève; une écoute, répétition exacte selon protocole commun notée; aucune démonstration de solution.",
+      "preuve_maitrise": true,
+      "contexte_maitrise": "Kiosque postal fictif",
+      "trois_messages_corriges": [
+        {
+          "script": "Glisse la carte blanche dans l’enveloppe bleue.",
+          "actions": "Seule la carte blanche insérée dans l’enveloppe bleue.",
+          "paraphrase": "Je mets la carte blanche à l’intérieur de l’enveloppe bleue."
+        },
+        {
+          "script": "Pose le timbre en carton sur l’enveloppe jaune, puis place cette enveloppe dans le bac.",
+          "actions": "Timbre de carton posé sur enveloppe jaune AVANT dépôt de cette enveloppe dans le bac.",
+          "paraphrase": "Je mets le timbre sur l’enveloppe jaune et ensuite je range cette enveloppe dans le bac."
+        },
+        {
+          "script": "Prends le ruban rouge et laisse-le à côté du bac.",
+          "actions": "Ruban rouge pris puis déposé tout près du bac à l’extérieur de celui-ci.",
+          "paraphrase": "Je prends le ruban rouge et je le dépose près du bac, pas dedans."
+        }
+      ],
+      "criteres_resolution": "Ne pas inférer la compréhension à partir de la seule imitation ni d'une note brute; confirmer les 2 contextes et les erreurs récurrentes."
+    },
+    {
+      "item_id": "qc-pri-fls-001-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-001-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME — Atelier de jardinage fictif. L’adulte énonce séparément trois messages inédits, sans geste-réponse; après chaque exécution, demander une reformulation libre. Ne pas enseigner ce corpus au préalable.",
+      "stimulus": "Contexte: Atelier de jardinage fictif. Matériel: fleur en papier, pots vides vert et rouge, étiquette ronde, plateau, tapis. Voix (dans cet ordre, séparément):\n(1) « Place la fleur en papier dans le pot vert. »\n(2) « Prends l’étiquette ronde, puis pose-la sous le plateau. »\n(3) « Laisse le pot rouge sur le tapis, mais mets le pot vert à côté du plateau. »",
+      "reponse_attendue": "(1) Fleur de papier dans le pot vert, non dans le pot rouge. Reformulation équivalente : « Je mets la fleur en papier à l’intérieur du pot vert. » | (2) Étiquette ronde saisie avant d’être posée sous le plateau. Reformulation équivalente : « Je prends l’étiquette ronde et après je la mets en dessous du plateau. » | (3) Pot rouge reste sur tapis; pot vert est déplacé près du plateau et non dessus/dedans. Reformulation équivalente : « Je ne bouge pas le pot rouge et je mets le vert près du plateau. »",
+      "criteres": [
+        "Pour chacun des trois messages : choix des objets exact.",
+        "Pour chacun : action et emplacement conformes; ordre respecté lorsque présent.",
+        "Après chacun : reformulation intelligible et fidèle (mots-clés, parole ou aide à la communication).",
+        "Aucun mime, traduction ou indice sémantique pendant l’épreuve; une répétition strictement identique peut être consignée.",
+        "Au moins deux des trois couples exécution + paraphrase complets dans ce contexte; l’autre épreuve distincte est aussi exigée."
+      ],
+      "feedback": "Si un message est mal compris, relever le mot, l’ordre ou la relation responsable et prévoir une nouvelle tâche parallèle après remédiation, sans fournir le corrigé pendant la preuve.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "mise en situation avec trois messages oraux inédits",
+      "conditions_passation": "Voix adulte en français intelligible; script caché à l'élève; une écoute, répétition exacte selon protocole commun notée; aucune démonstration de solution.",
+      "preuve_maitrise": true,
+      "contexte_maitrise": "Atelier de jardinage fictif",
+      "trois_messages_corriges": [
+        {
+          "script": "Place la fleur en papier dans le pot vert.",
+          "actions": "Fleur de papier dans le pot vert, non dans le pot rouge.",
+          "paraphrase": "Je mets la fleur en papier à l’intérieur du pot vert."
+        },
+        {
+          "script": "Prends l’étiquette ronde, puis pose-la sous le plateau.",
+          "actions": "Étiquette ronde saisie avant d’être posée sous le plateau.",
+          "paraphrase": "Je prends l’étiquette ronde et après je la mets en dessous du plateau."
+        },
+        {
+          "script": "Laisse le pot rouge sur le tapis, mais mets le pot vert à côté du plateau.",
+          "actions": "Pot rouge reste sur tapis; pot vert est déplacé près du plateau et non dessus/dedans.",
+          "paraphrase": "Je ne bouge pas le pot rouge et je mets le vert près du plateau."
+        }
+      ],
+      "criteres_resolution": "Ne pas inférer la compréhension à partir de la seule imitation ni d'une note brute; confirmer les 2 contextes et les erreurs récurrentes."
+    }
+  ]
+}

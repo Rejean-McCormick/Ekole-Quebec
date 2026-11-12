@@ -1,0 +1,94 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Réemployer à l’oral ou à l’écrit des informations comprises dans un message.",
+  "concepts": [
+    "sélection d’informations",
+    "reformulation"
+  ],
+  "preuve_attendue": "Transformer un bref récit entendu ou lu en présentation personnelle.",
+  "prerequis_bloquants": [
+    "qc-pri-als-003"
+  ],
+  "ordre_conseille": [
+    "qc-pri-als-007"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-009-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Transformer un bref récit entendu ou lu en présentation personnelle.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Sources et scénarios du corpus fixe seulement; choix oral/écrit et accommodements non directifs admis, sans changer les faits ou les seuils.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_des_items": "Fixe, sans tirage aléatoire; q-009 et q-010 requis pour la maîtrise."
+      },
+      "review_status": "contenu_redige_revue_humaine_requise",
+      "kristal_id": "qc-pri-als-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "récit écrit en anglais",
+        "script anglais lu oralement",
+        "présentation personnelle orale en anglais",
+        "présentation personnelle écrite en anglais"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "choix_eleve": [
+          "oral",
+          "ecrit"
+        ],
+        "scenarios_maitrise": [
+          "community_garden_lu",
+          "bus_trip_entendu"
+        ],
+        "generation_aleatoire": false
+      },
+      "contraintes": [
+        "faits-source en anglais fixes",
+        "au moins trois informations essentielles exactes par preuve complète",
+        "personnalisation de la formulation sans invention",
+        "deux contextes distincts",
+        "consignes en français admises",
+        "accent natif non évalué",
+        "source et texte corrigé verrouillés",
+        "aucune donnée personnelle exigée"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "exactitude_des_faits",
+          "selection_pertinente",
+          "reformulation_personnelle",
+          "organisation_intelligibilite",
+          "autonomie_transfert"
+        ],
+        "niveaux": "0,1,2 par dimension",
+        "regle": "deux preuves séparées, noyaux de critères à 2 dans chacune, sans compensation par moyenne"
+      },
+      "source": [
+        "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

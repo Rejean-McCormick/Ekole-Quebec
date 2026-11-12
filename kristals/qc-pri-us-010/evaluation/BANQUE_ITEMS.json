@@ -1,0 +1,304 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-010",
+  "family_id": "qc-pri-us-010-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-us-010-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Remets en ordre 1774, 1792, 1763, 1791 et relie chaque date à une expression de la fiche.",
+      "stimulus": "H2 : 1763, Proclamation royale et Province de Québec; H3 : 1774, Acte de Québec; H4 : 1791, Acte constitutionnel; H4 : réunion de la Chambre en 1792.",
+      "reponse_attendue": "1763 — Proclamation et Province de Québec; 1774 — Acte de Québec; 1791 — Acte constitutionnel et division en deux provinces; 1792 — réunion de la Chambre d’assemblée du Bas-Canada.",
+      "criteres": [
+        "Quatre dates dans l’ordre croissant.",
+        "Événements correctement jumelés aux dates.",
+        "Deux faits au moins reliés à H2, H3 ou H4."
+      ],
+      "feedback": "Si 1791 et 1792 sont inversés, distinguer la date de la loi et la première réunion de la Chambre; reprendre la chronologie avec quatre étiquettes.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources_corpus": [
+        "H2",
+        "H3",
+        "H4"
+      ],
+      "representation": "tableau avant/après ou réponse argumentée orale/écrite avec renvoi à H1–H6",
+      "variations_permises": "Adaptation de la modalité (lecture à voix haute, réponse orale ou dictée) et du temps uniquement; faits, dates et exigences inchangés.",
+      "limites_variation": "Ne générer aucune nouvelle assertion historique. Corpus fermé et scénarios fixés; aucune réponse d’IA non revue comme corrigé. Ne pas supprimer l’obligation de preuve et de limite.",
+      "observations_correcteur": "Évaluer les faits et la justification, non la formulation stylistique ou l’identité; noter les omissions exactes avant remédiation."
+    },
+    {
+      "item_id": "qc-pri-us-010-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les expressions en « institution » ou « autre » et justifie une réponse : chambre d’assemblée, gouverneur, frontière administrative, intendant.",
+      "stimulus": "H1 parle du gouverneur et de l’intendant; H4 cite la chambre d’assemblée; H2 concerne la définition d’un territoire colonial.",
+      "reponse_attendue": "Institutions/charges institutionnelles : chambre d’assemblée, gouverneur, intendant. Autre : frontière administrative, une limite territoriale et non un organisme de gouvernement. Justification par fonction publique et H1/H2/H4.",
+      "criteres": [
+        "Trois rôles publics reconnus.",
+        "Frontière classée comme notion territoriale.",
+        "Justification distingue une fonction/institution d’un tracé géographique."
+      ],
+      "feedback": "Si l’élève classe frontière comme une institution, comparer « règle de délimitation » et « personnes ou organismes qui exercent le pouvoir ».",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources_corpus": [
+        "H1",
+        "H2",
+        "H4"
+      ],
+      "representation": "tableau avant/après ou réponse argumentée orale/écrite avec renvoi à H1–H6",
+      "variations_permises": "Adaptation de la modalité (lecture à voix haute, réponse orale ou dictée) et du temps uniquement; faits, dates et exigences inchangés.",
+      "limites_variation": "Ne générer aucune nouvelle assertion historique. Corpus fermé et scénarios fixés; aucune réponse d’IA non revue comme corrigé. Ne pas supprimer l’obligation de preuve et de limite.",
+      "observations_correcteur": "Évaluer les faits et la justification, non la formulation stylistique ou l’identité; noter les omissions exactes avant remédiation."
+    },
+    {
+      "item_id": "qc-pri-us-010-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-010-ev-01",
+      "mode": "fixe",
+      "consigne": "En une phrase, nomme une transformation politique entre H1 (vers 1750) et H2 (1763), puis une limite de ta conclusion.",
+      "stimulus": "H1 : pouvoir souverain du roi de France sur le Canada de la Nouvelle-France; H2 : cession à la Grande-Bretagne en 1763 et constitution de la Province de Québec.",
+      "reponse_attendue": "Transformation : passage de l’autorité coloniale française à l’autorité britannique après la cession de 1763; limite : cela ne prouve pas que toutes les pratiques sociales ou juridiques ont changé instantanément.",
+      "criteres": [
+        "Deux dates/époques situées.",
+        "Changement de souveraineté coloniale correctement nommé.",
+        "Limite évite le « tout change immédiatement »; fiches H1/H2 indiquées."
+      ],
+      "feedback": "Si la réponse affirme une transformation totale, faire distinguer changement d’autorité et continuités possibles; exiger une preuve pour chaque affirmation.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources_corpus": [
+        "H1",
+        "H2"
+      ],
+      "representation": "tableau avant/après ou réponse argumentée orale/écrite avec renvoi à H1–H6",
+      "variations_permises": "Adaptation de la modalité (lecture à voix haute, réponse orale ou dictée) et du temps uniquement; faits, dates et exigences inchangés.",
+      "limites_variation": "Ne générer aucune nouvelle assertion historique. Corpus fermé et scénarios fixés; aucune réponse d’IA non revue comme corrigé. Ne pas supprimer l’obligation de preuve et de limite.",
+      "observations_correcteur": "Évaluer les faits et la justification, non la formulation stylistique ou l’identité; noter les omissions exactes avant remédiation."
+    },
+    {
+      "item_id": "qc-pri-us-010-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Entre 1774 et 1791, construis une phrase avant-après sur la règle de droit civil qui demeure et nomme ce qu’elle ne permet pas de conclure.",
+      "stimulus": "H3 : l’Acte de Québec de 1774 rétablit des règles françaises en droit civil concernant propriété et droits civils; droit criminel anglais distinct. H5 : les garanties de 1774 sont maintenues par l’Acte de 1791.",
+      "reponse_attendue": "Avant 1791 : droit civil d’origine française en matière de propriété et droits civils rétabli par la loi de 1774; après 1791 : garanties maintenues; **continuité circonscrite**. Ne signifie pas que le droit criminel devient français. Codes H3/H5.",
+      "criteres": [
+        "Aspect unique de droit civil clairement choisi.",
+        "Dates 1774 et 1791 correctement situées.",
+        "Continuité argumentée avec H3/H5.",
+        "Limite sur le droit criminel indiquée."
+      ],
+      "feedback": "Si la réponse dit « mêmes lois partout », isoler droit civil et droit criminel; reprendre H3 et H5 sans étendre les conclusions.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources_corpus": [
+        "H3",
+        "H5"
+      ],
+      "representation": "tableau avant/après ou réponse argumentée orale/écrite avec renvoi à H1–H6",
+      "variations_permises": "Adaptation de la modalité (lecture à voix haute, réponse orale ou dictée) et du temps uniquement; faits, dates et exigences inchangés.",
+      "limites_variation": "Ne générer aucune nouvelle assertion historique. Corpus fermé et scénarios fixés; aucune réponse d’IA non revue comme corrigé. Ne pas supprimer l’obligation de preuve et de limite.",
+      "observations_correcteur": "Évaluer les faits et la justification, non la formulation stylistique ou l’identité; noter les omissions exactes avant remédiation."
+    },
+    {
+      "item_id": "qc-pri-us-010-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Corrige la phrase suivante et justifie le correctif : « En 1792, la nouvelle assemblée du Bas-Canada détient seule tout le pouvoir. »",
+      "stimulus": "H4 : assemblée élue après la loi de 1791; gouverneur nommé; conseil législatif nommé. S4 et S6 expliquent les pouvoirs conservés.",
+      "reponse_attendue": "Formulation recevable : « En 1792, une assemblée élue siège au Bas-Canada, mais elle partage l’activité législative avec un conseil nommé et le gouverneur dispose notamment de la sanction des lois. » La phrase initiale est incorrecte parce qu’elle confond élection de représentants et totalité du pouvoir.",
+      "criteres": [
+        "Présence d’une chambre élue reconnue.",
+        "Rôle du gouverneur et du conseil conservé.",
+        "Une justification issue de H4.",
+        "Absence d’anachronisme sur le gouvernement responsable ou vote universel."
+      ],
+      "feedback": "Si le mot « démocratie » remplace toute explication, poser « qui nomme le gouverneur ? qui sanctionne les lois ? » sans inférer la participation de tous.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources_corpus": [
+        "H4"
+      ],
+      "representation": "tableau avant/après ou réponse argumentée orale/écrite avec renvoi à H1–H6",
+      "variations_permises": "Adaptation de la modalité (lecture à voix haute, réponse orale ou dictée) et du temps uniquement; faits, dates et exigences inchangés.",
+      "limites_variation": "Ne générer aucune nouvelle assertion historique. Corpus fermé et scénarios fixés; aucune réponse d’IA non revue comme corrigé. Ne pas supprimer l’obligation de preuve et de limite.",
+      "observations_correcteur": "Évaluer les faits et la justification, non la formulation stylistique ou l’identité; noter les omissions exactes avant remédiation."
+    },
+    {
+      "item_id": "qc-pri-us-010-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare le nom et la division des juridictions coloniales en 1763 et en 1791, en indiquant une source et un risque de confusion.",
+      "stimulus": "H2 : la Proclamation de 1763 institue la Province de Québec. H4 : l’Acte constitutionnel de 1791 la divise en Bas-Canada et Haut-Canada.",
+      "reponse_attendue": "Avant (1763) : Province de Québec; après (1791) : Haut-Canada et Bas-Canada. Transformation d’organisation administrative coloniale. Risque de confusion : ne pas identifier ces limites à celles du Canada moderne ni inférer que les nations autochtones disparaissent (H6).",
+      "criteres": [
+        "Noms et deux dates justes.",
+        "Transformation administrative, pas surface chiffrée inventée.",
+        "H2/H4 mobilisées et limite reconnue."
+      ],
+      "feedback": "Si « Canada indépendant en 1791 », rappeler qu’il s’agit toujours de colonies sous la Couronne britannique; réécrire la conclusion sans présentisme.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources_corpus": [
+        "H2",
+        "H4",
+        "H6"
+      ],
+      "representation": "tableau avant/après ou réponse argumentée orale/écrite avec renvoi à H1–H6",
+      "variations_permises": "Adaptation de la modalité (lecture à voix haute, réponse orale ou dictée) et du temps uniquement; faits, dates et exigences inchangés.",
+      "limites_variation": "Ne générer aucune nouvelle assertion historique. Corpus fermé et scénarios fixés; aucune réponse d’IA non revue comme corrigé. Ne pas supprimer l’obligation de preuve et de limite.",
+      "observations_correcteur": "Évaluer les faits et la justification, non la formulation stylistique ou l’identité; noter les omissions exactes avant remédiation."
+    },
+    {
+      "item_id": "qc-pri-us-010-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Une fiche mentionne l’économie de 1792 mais aucune donnée de prix ni de production. Explique deux choses qu’on ne peut pas en conclure et propose le type de source nécessaire.",
+      "stimulus": "H1–H6 portent sur administration, droit, territoires et contexte. Aucune série de prix, tonnage d’exportation ou recensement commercial y figure.",
+      "reponse_attendue": "On ne peut déterminer à partir de ces fiches ni si les revenus moyens ont augmenté ni quel commerce domine quantitativement après 1791; il faudrait des registres, séries comparables de prix, données d’échange ou travaux d’historiens contextualisant ces sources. L’absence de chiffre n’est pas preuve de stabilité.",
+      "criteres": [
+        "Au moins deux inférences économiques non autorisées formulées.",
+        "Une source supplémentaire pertinente proposée.",
+        "Limitation de preuve exprimée et non inventée."
+      ],
+      "feedback": "Si un chiffre apparaît sans source, le retirer : la source utilisée ne contient pas la donnée; distinguer une hypothèse économique d’un fait établi.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources_corpus": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "representation": "tableau avant/après ou réponse argumentée orale/écrite avec renvoi à H1–H6",
+      "variations_permises": "Adaptation de la modalité (lecture à voix haute, réponse orale ou dictée) et du temps uniquement; faits, dates et exigences inchangés.",
+      "limites_variation": "Ne générer aucune nouvelle assertion historique. Corpus fermé et scénarios fixés; aucune réponse d’IA non revue comme corrigé. Ne pas supprimer l’obligation de preuve et de limite.",
+      "observations_correcteur": "Évaluer les faits et la justification, non la formulation stylistique ou l’identité; noter les omissions exactes avant remédiation."
+    },
+    {
+      "item_id": "qc-pri-us-010-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-010-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Un atlas fictif affiche deux cartes administratives avec les étiquettes « Province de Québec, 1763 » et « Haut-Canada et Bas-Canada, 1791 ». Rédige une légende comparative et une phrase sur les limites d’une carte coloniale.",
+      "stimulus": "H2 : institution de la Province de Québec en 1763; H4 : division de 1791; H6 : limites administratives coloniales distinctes des présences, droits et territoires des nations autochtones.",
+      "reponse_attendue": "En 1763, l’administration britannique crée la Province de Québec; en 1791, le même cadre colonial est divisé en deux provinces (Haut-Canada et Bas-Canada). Ce changement d’organisation n’établit pas à lui seul l’absence ou la cession des territoires des nations autochtones. Sources H2/H4/H6.",
+      "criteres": [
+        "Aspect constant de découpage colonial.",
+        "1763 et 1791 et noms exacts.",
+        "Conclusion administrative limitée par H6 et sourcée.",
+        "Aucune carte ancienne fabriquée ou citée comme preuve directe."
+      ],
+      "feedback": "Si la légende traite la carte comme preuve de « terre vide », comparer frontière de l’empire et peuples vivant sur les territoires; revoir H6.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources_corpus": [
+        "H2",
+        "H4",
+        "H6"
+      ],
+      "representation": "tableau avant/après ou réponse argumentée orale/écrite avec renvoi à H1–H6",
+      "variations_permises": "Adaptation de la modalité (lecture à voix haute, réponse orale ou dictée) et du temps uniquement; faits, dates et exigences inchangés.",
+      "limites_variation": "Ne générer aucune nouvelle assertion historique. Corpus fermé et scénarios fixés; aucune réponse d’IA non revue comme corrigé. Ne pas supprimer l’obligation de preuve et de limite.",
+      "observations_correcteur": "Évaluer les faits et la justification, non la formulation stylistique ou l’identité; noter les omissions exactes avant remédiation."
+    },
+    {
+      "item_id": "qc-pri-us-010-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-010-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME A — Panneau d’exposition : « Qui représente les habitants ? » Compare le Canada de la Nouvelle-France vers 1750 et le Bas-Canada en 1792 concernant l’existence d’une chambre élue. Rédige un court panneau avec avant, après, transformation, deux cartes preuves et une limite. Fais-le sans aide sur les faits ni les conclusions.",
+      "stimulus": "DOSSIER A (synthèses contrôlées, pas citations) : H1, vers 1750, le roi de France délègue au gouverneur et à l’intendant l’administration du Canada de la Nouvelle-France; aucune chambre élue comparable à celle de 1792. H4, Acte de 1791 : Haut et Bas-Canada, assemblées élues; première réunion de la Chambre du Bas-Canada le 17 décembre 1792. Gouverneur et Conseil législatif nommés conservent de forts pouvoirs. Références historiques S1, S4, S5, S6.",
+      "reponse_attendue": "Production recevable : « Pour l’aspect représentation, vers 1750 le Canada de la Nouvelle-France est administré au nom du roi de France, sans assemblée locale de députés élus comparable (H1). En 1792, la Chambre d’assemblée élue du Bas-Canada se réunit (H4). Une représentation élective apparaît, mais le gouverneur et le conseil nommés gardent des pouvoirs; ce n’est pas le suffrage universel. » D’autres phrases exactes et autonomes sont admises.",
+      "criteres": [
+        "C1 Même aspect politique clairement annoncé, dates vers 1750 et 1792 et espaces situés.",
+        "C2 Avant et après historiquement exacts, sans assemblée élue comparable avant, chambre élue après.",
+        "C3 Transformation correctement identifiée, sans assimiler l’institution à une démocratie universelle.",
+        "C4 H1/H4 cités à bon escient et limites du pouvoir élu indiquées.",
+        "C5 Production autonome, sans aide directive, dans le contexte d’un panneau public."
+      ],
+      "feedback": "Si absence de dates : travailler la chronologie; si anachronisme (« suffrage universel ») : revenir à H4; si l’élève n’argumente pas : compléter après l’épreuve une grille aspect/date/preuve puis proposer ultérieurement une preuve nouvelle.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources_corpus": [
+        "H1",
+        "H4"
+      ],
+      "representation": "tableau avant/après ou réponse argumentée orale/écrite avec renvoi à H1–H6",
+      "variations_permises": "Adaptation de la modalité (lecture à voix haute, réponse orale ou dictée) et du temps uniquement; faits, dates et exigences inchangés.",
+      "limites_variation": "Ne générer aucune nouvelle assertion historique. Corpus fermé et scénarios fixés; aucune réponse d’IA non revue comme corrigé. Ne pas supprimer l’obligation de preuve et de limite.",
+      "observations_correcteur": "Évaluer les faits et la justification, non la formulation stylistique ou l’identité; noter les omissions exactes avant remédiation.",
+      "preuve_maitrise": "A — panneau d’exposition (institutions et représentation), comparaison vers 1750 / 1792."
+    },
+    {
+      "item_id": "qc-pri-us-010-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-010-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME B — Notice de l’atlas des juridictions : compare la situation administrative de 1763 et celle de 1791, en nommant exactement les unités coloniales et en indiquant ce qu’une frontière ne permet pas d’affirmer sur les nations autochtones. Produit une comparaison indépendante du panneau de l’épreuve A, sans aide sur le contenu.",
+      "stimulus": "DOSSIER B (synthèses contrôlées, pas cartes historiques) : H2, en 1763 la Couronne britannique institue la Province de Québec après la cession française. H4, l’Acte de 1791 divise cette province en Haut-Canada et Bas-Canada. H6, les limites imposées par les autorités coloniales ne décrivent pas à elles seules la présence, les droits et les territoires des nations autochtones. Références S2, S4, S7, S8.",
+      "reponse_attendue": "Production recevable : « En 1763 la Province de Québec est créée sous la Couronne britannique (H2). En 1791, l’Acte constitutionnel établit deux provinces, Bas-Canada et Haut-Canada (H4) : il y a transformation de la division administrative. Une carte de l’administration coloniale ne prouve pas la disparition ni l’absence des nations autochtones (H6). » Autres formulations historiquement équivalentes recevables, aucune superficie ni possession réelle déduite.",
+      "criteres": [
+        "C1 Même aspect territorial administratif, deux dates 1763/1791 claires.",
+        "C2 Avant Province de Québec, après Bas-Canada et Haut-Canada, sans confusion avec Canada moderne.",
+        "C3 Transformation de la division coloniale énoncée sans déduire la propriété/occupation réelle.",
+        "C4 H2/H4 cités avec avertissement H6 sur la portée limitée de la source.",
+        "C5 Réponse autonome, indépendante de la preuve A, présentée comme notice d’atlas."
+      ],
+      "feedback": "Si des peuples sont déclarés « disparus », suspendre la conclusion et relire H6; si l’élève n’identifie pas les deux provinces, retravailler les dates 1763/1791, puis organiser une nouvelle épreuve après remédiation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources_corpus": [
+        "H2",
+        "H4",
+        "H6"
+      ],
+      "representation": "tableau avant/après ou réponse argumentée orale/écrite avec renvoi à H1–H6",
+      "variations_permises": "Adaptation de la modalité (lecture à voix haute, réponse orale ou dictée) et du temps uniquement; faits, dates et exigences inchangés.",
+      "limites_variation": "Ne générer aucune nouvelle assertion historique. Corpus fermé et scénarios fixés; aucune réponse d’IA non revue comme corrigé. Ne pas supprimer l’obligation de preuve et de limite.",
+      "observations_correcteur": "Évaluer les faits et la justification, non la formulation stylistique ou l’identité; noter les omissions exactes avant remédiation.",
+      "preuve_maitrise": "B — notice d’atlas (divisions administratives et lecture critique des cartes), comparaison 1763 / 1791."
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-024",
+  "family_id": "qc-pri-fr-024-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "mode_commun": "stimulus_fixe_non_parametrique",
+  "protocole": "Scripts non montrés aux élèves, oralisation à vitesse naturelle deux fois sans aide ni pause explicative; questions posées après restitution. La grille qualitative s’applique, pas de correction par génération IA libre.",
+  "preuves_maitrise": [
+    "qc-pri-fr-024-q-007",
+    "qc-pri-fr-024-q-008"
+  ],
+  "items": [
+    {
+      "item_id": "qc-pri-fr-024-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message deux fois, sans voir le texte. Puis reformule les points essentiels avec tes propres mots; réponds ensuite aux trois questions de vérification. Si tu ne sais pas, indique-le plutôt que d’inventer.",
+      "contexte": "Rangement de matériel",
+      "representation": "message oral joué ou lu deux fois; script conservé côté évaluateur; réponse orale ou moyen expressif accessible sans aide de contenu",
+      "stimulus": "À la bibliothèque de la classe, les bandes dessinées seront rangées sur l’étagère basse. [pause] Les albums illustrés resteront sur la table jusqu’à vendredi, pour que les groupes puissent les consulter. [pause] Ensuite, les élèves remettront les coussins à leur place.",
+      "questions_verification": [
+        "Où range-t-on les bandes dessinées?",
+        "Quels livres restent sur la table?",
+        "Jusqu’à quand y restent-ils?"
+      ],
+      "reponses_questions": [
+        "Sur l’étagère basse.",
+        "Les albums illustrés.",
+        "Jusqu’à vendredi."
+      ],
+      "reponse_attendue": "On réorganise le coin bibliothèque : les bandes dessinées vont sur l’étagère basse; les albums illustrés restent disponibles sur la table jusqu’à vendredi, puis on replace les coussins.",
+      "faits_essentiels_a_conserver": [
+        "BD sur l’étagère basse",
+        "albums illustrés sur la table jusqu’à vendredi",
+        "coussins remis ensuite"
+      ],
+      "relations_a_conserver": [
+        "distinction BD/albums",
+        "« jusqu’à vendredi » est une limite de temps"
+      ],
+      "criteres": [
+        "Sujet et action centrale correctement restitués",
+        "Informations essentielles du message conservées sans invention",
+        "Ordre, contraste, cause, condition ou négation respectés lorsque présents",
+        "Trois questions de vérification répondues en accord avec le stimulus",
+        "Reformulation dans ses mots et sans aide sémantique; l’accent/la prononciation ne sont pas notés"
+      ],
+      "feedback": "Si tu as placé tous les livres sur la même étagère, sépare les deux catégories et réécoute « resteront sur la table ».",
+      "difficulte": "initial",
+      "variations_permises": [
+        "Voix de lecture, avec débit naturel, volume adapté et pauses notées",
+        "Synonymes et constructions du français québécois qui préservent précisément le sens",
+        "Modalité d’expression adaptée sans indices ni réponses fournies"
+      ],
+      "variations_interdites": [
+        "Changer, omettre ou inventer un fait du script",
+        "Modifier nombres, horaires, lieu, ordre, opposition, cause, condition ou négation",
+        "Divulguer le texte ou le corrigé avant l’essai",
+        "Générer à la volée un autre stimulus sous le même item_id"
+      ],
+      "role": "entrainement_evaluable",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-024-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message deux fois, sans voir le texte. Puis reformule les points essentiels avec tes propres mots; réponds ensuite aux trois questions de vérification. Si tu ne sais pas, indique-le plutôt que d’inventer.",
+      "contexte": "Affiche d’équipe",
+      "representation": "message oral joué ou lu deux fois; script conservé côté évaluateur; réponse orale ou moyen expressif accessible sans aide de contenu",
+      "stimulus": "Pour préparer les affiches de la fête de l’école, chaque équipe recevra une grande feuille. [pause] D’abord, elle écrira le nom de son activité. Ensuite, elle ajoutera un dessin. [pause] Les affiches seront remises jeudi, pas mercredi.",
+      "questions_verification": [
+        "Qu’écrit-on en premier?",
+        "Qu’ajoute-t-on ensuite?",
+        "Quel jour remet-on les affiches?"
+      ],
+      "reponses_questions": [
+        "Le nom de l’activité.",
+        "Un dessin.",
+        "Jeudi."
+      ],
+      "reponse_attendue": "Chaque équipe crée une affiche pour la fête : elle inscrit d’abord le nom de son activité, puis dessine, et remet son affiche jeudi et non mercredi.",
+      "faits_essentiels_a_conserver": [
+        "affiches pour fête",
+        "nom avant dessin",
+        "remise jeudi"
+      ],
+      "relations_a_conserver": [
+        "ordre annoncé par d’abord/ensuite",
+        "correction de date jeudi et non mercredi"
+      ],
+      "criteres": [
+        "Sujet et action centrale correctement restitués",
+        "Informations essentielles du message conservées sans invention",
+        "Ordre, contraste, cause, condition ou négation respectés lorsque présents",
+        "Trois questions de vérification répondues en accord avec le stimulus",
+        "Reformulation dans ses mots et sans aide sémantique; l’accent/la prononciation ne sont pas notés"
+      ],
+      "feedback": "Tu as bien retenu le dessin, mais la remise est jeudi, pas mercredi : conserve la correction entendue.",
+      "difficulte": "initial",
+      "variations_permises": [
+        "Voix de lecture, avec débit naturel, volume adapté et pauses notées",
+        "Synonymes et constructions du français québécois qui préservent précisément le sens",
+        "Modalité d’expression adaptée sans indices ni réponses fournies"
+      ],
+      "variations_interdites": [
+        "Changer, omettre ou inventer un fait du script",
+        "Modifier nombres, horaires, lieu, ordre, opposition, cause, condition ou négation",
+        "Divulguer le texte ou le corrigé avant l’essai",
+        "Générer à la volée un autre stimulus sous le même item_id"
+      ],
+      "role": "entrainement_evaluable",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-024-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message deux fois, sans voir le texte. Puis reformule les points essentiels avec tes propres mots; réponds ensuite aux trois questions de vérification. Si tu ne sais pas, indique-le plutôt que d’inventer.",
+      "contexte": "Annonce au jardin",
+      "representation": "message oral joué ou lu deux fois; script conservé côté évaluateur; réponse orale ou moyen expressif accessible sans aide de contenu",
+      "stimulus": "L’activité de jardinage commencera à dix heures près du cabanon. [pause] Les équipes prépareront d’abord les petits pots avec de la terre, puis sèmeront les graines. [pause] Si la pluie est trop forte, l’activité se fera plutôt sous l’abri, mais l’heure ne changera pas.",
+      "questions_verification": [
+        "Où commence normalement l’activité?",
+        "Que prépare-t-on avant les graines?",
+        "Qu’est-ce qui change en cas de forte pluie?"
+      ],
+      "reponses_questions": [
+        "Près du cabanon.",
+        "Les petits pots avec de la terre.",
+        "Le lieu : sous l’abri, mais pas l’heure (10 h)."
+      ],
+      "reponse_attendue": "À 10 h, près du cabanon, les groupes commencent avec des pots de terre puis sèment des graines. En cas de grosse pluie, ils travailleront sous l’abri, toujours à 10 h.",
+      "faits_essentiels_a_conserver": [
+        "démarrage à 10 h près du cabanon",
+        "pots de terre puis semis",
+        "repli sous l’abri en cas de forte pluie"
+      ],
+      "relations_a_conserver": [
+        "si = condition",
+        "pluie change lieu mais non horaire",
+        "pots avant graines"
+      ],
+      "criteres": [
+        "Sujet et action centrale correctement restitués",
+        "Informations essentielles du message conservées sans invention",
+        "Ordre, contraste, cause, condition ou négation respectés lorsque présents",
+        "Trois questions de vérification répondues en accord avec le stimulus",
+        "Reformulation dans ses mots et sans aide sémantique; l’accent/la prononciation ne sont pas notés"
+      ],
+      "feedback": "Si tu changes l’heure avec le lieu, repère « mais l’heure ne changera pas » et corrige.",
+      "difficulte": "intermediaire",
+      "variations_permises": [
+        "Voix de lecture, avec débit naturel, volume adapté et pauses notées",
+        "Synonymes et constructions du français québécois qui préservent précisément le sens",
+        "Modalité d’expression adaptée sans indices ni réponses fournies"
+      ],
+      "variations_interdites": [
+        "Changer, omettre ou inventer un fait du script",
+        "Modifier nombres, horaires, lieu, ordre, opposition, cause, condition ou négation",
+        "Divulguer le texte ou le corrigé avant l’essai",
+        "Générer à la volée un autre stimulus sous le même item_id"
+      ],
+      "role": "entrainement_evaluable",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-024-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message deux fois, sans voir le texte. Puis reformule les points essentiels avec tes propres mots; réponds ensuite aux trois questions de vérification. Si tu ne sais pas, indique-le plutôt que d’inventer.",
+      "contexte": "Programme des ateliers",
+      "representation": "message oral joué ou lu deux fois; script conservé côté évaluateur; réponse orale ou moyen expressif accessible sans aide de contenu",
+      "stimulus": "Vendredi, la bibliothèque du quartier propose deux ateliers. [pause] Le bricolage commence à neuf heures et la découverte de bandes dessinées à onze heures. On peut participer aux deux. [pause] Toutefois, il faut s’inscrire d’avance au bricolage; l’autre atelier est ouvert sans inscription.",
+      "questions_verification": [
+        "Quel atelier commence à neuf heures?",
+        "À quelle heure débute la découverte des bandes dessinées?",
+        "Pour quel atelier faut-il s’inscrire?"
+      ],
+      "reponses_questions": [
+        "Le bricolage.",
+        "À onze heures.",
+        "Le bricolage uniquement."
+      ],
+      "reponse_attendue": "Vendredi, il y a un atelier de bricolage à 9 h et un atelier sur les bandes dessinées à 11 h. On peut faire les deux, mais seul le bricolage demande une inscription préalable.",
+      "faits_essentiels_a_conserver": [
+        "deux ateliers vendredi",
+        "9 h bricolage et 11 h BD",
+        "inscription requise seulement au bricolage"
+      ],
+      "relations_a_conserver": [
+        "opposition « toutefois »",
+        "pas de généralisation de l’inscription"
+      ],
+      "criteres": [
+        "Sujet et action centrale correctement restitués",
+        "Informations essentielles du message conservées sans invention",
+        "Ordre, contraste, cause, condition ou négation respectés lorsque présents",
+        "Trois questions de vérification répondues en accord avec le stimulus",
+        "Reformulation dans ses mots et sans aide sémantique; l’accent/la prononciation ne sont pas notés"
+      ],
+      "feedback": "Tu as confondu les exigences des deux ateliers : « toutefois » introduit la règle spéciale du bricolage.",
+      "difficulte": "intermediaire",
+      "variations_permises": [
+        "Voix de lecture, avec débit naturel, volume adapté et pauses notées",
+        "Synonymes et constructions du français québécois qui préservent précisément le sens",
+        "Modalité d’expression adaptée sans indices ni réponses fournies"
+      ],
+      "variations_interdites": [
+        "Changer, omettre ou inventer un fait du script",
+        "Modifier nombres, horaires, lieu, ordre, opposition, cause, condition ou négation",
+        "Divulguer le texte ou le corrigé avant l’essai",
+        "Générer à la volée un autre stimulus sous le même item_id"
+      ],
+      "role": "entrainement_evaluable",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-024-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message deux fois, sans voir le texte. Puis reformule les points essentiels avec tes propres mots; réponds ensuite aux trois questions de vérification. Si tu ne sais pas, indique-le plutôt que d’inventer.",
+      "contexte": "Préparation d’une rencontre d’équipe",
+      "representation": "message oral joué ou lu deux fois; script conservé côté évaluateur; réponse orale ou moyen expressif accessible sans aide de contenu",
+      "stimulus": "Pour la réunion du comité d’accueil, les élèves se rencontreront mardi à la salle polyvalente. [pause] Chaque équipe apportera une proposition d’activité. [pause] Si deux équipes présentent la même idée, elles discuteront ensemble pour préparer une proposition commune avant la rencontre suivante.",
+      "questions_verification": [
+        "Quel jour est prévue la réunion?",
+        "Qu’apporte chaque équipe?",
+        "Que feront deux équipes qui proposent la même idée?"
+      ],
+      "reponses_questions": [
+        "Mardi.",
+        "Une proposition d’activité.",
+        "Elles discuteront pour préparer une proposition commune avant la prochaine rencontre."
+      ],
+      "reponse_attendue": "Le comité d’accueil se réunit mardi dans la salle polyvalente. Chaque équipe arrive avec une idée d’activité; si deux idées se ressemblent, leurs équipes prépareront ensemble une proposition pour plus tard.",
+      "faits_essentiels_a_conserver": [
+        "réunion mardi à la salle polyvalente",
+        "une idée par équipe",
+        "regroupement des doublons avant la rencontre suivante"
+      ],
+      "relations_a_conserver": [
+        "si = situation conditionnelle",
+        "proposition commune seulement si doublon"
+      ],
+      "criteres": [
+        "Sujet et action centrale correctement restitués",
+        "Informations essentielles du message conservées sans invention",
+        "Ordre, contraste, cause, condition ou négation respectés lorsque présents",
+        "Trois questions de vérification répondues en accord avec le stimulus",
+        "Reformulation dans ses mots et sans aide sémantique; l’accent/la prononciation ne sont pas notés"
+      ],
+      "feedback": "La proposition commune n’est pas obligatoire pour tout le monde : elle ne s’applique que si deux équipes présentent la même idée.",
+      "difficulte": "intermediaire",
+      "variations_permises": [
+        "Voix de lecture, avec débit naturel, volume adapté et pauses notées",
+        "Synonymes et constructions du français québécois qui préservent précisément le sens",
+        "Modalité d’expression adaptée sans indices ni réponses fournies"
+      ],
+      "variations_interdites": [
+        "Changer, omettre ou inventer un fait du script",
+        "Modifier nombres, horaires, lieu, ordre, opposition, cause, condition ou négation",
+        "Divulguer le texte ou le corrigé avant l’essai",
+        "Générer à la volée un autre stimulus sous le même item_id"
+      ],
+      "role": "entrainement_evaluable",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-024-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message deux fois, sans voir le texte. Puis reformule les points essentiels avec tes propres mots; réponds ensuite aux trois questions de vérification. Si tu ne sais pas, indique-le plutôt que d’inventer.",
+      "contexte": "Changement d’horaire annoncé au haut-parleur",
+      "representation": "message oral joué ou lu deux fois; script conservé côté évaluateur; réponse orale ou moyen expressif accessible sans aide de contenu",
+      "stimulus": "La présentation des projets aura lieu cet après-midi. [pause] Les groupes de la première partie passent à treize heures, comme prévu. Les groupes de la deuxième partie passeront plutôt à quatorze heures trente, car le montage prend plus de temps. [pause] Les visiteurs entreront par la porte principale pour les deux parties.",
+      "questions_verification": [
+        "Quels groupes conservent leur heure?",
+        "À quelle heure passent les groupes de la deuxième partie?",
+        "Quelle entrée utiliseront les visiteurs?"
+      ],
+      "reponses_questions": [
+        "Les groupes de la première partie, à 13 h.",
+        "À 14 h 30.",
+        "La porte principale."
+      ],
+      "reponse_attendue": "Cet après-midi, les premiers groupes présentent à 13 h; les groupes suivants commencent à 14 h 30 à cause du montage. Les visiteurs entrent tous par la porte principale.",
+      "faits_essentiels_a_conserver": [
+        "première partie 13 h inchangée",
+        "deuxième partie décalée à 14 h 30 pour montage",
+        "même entrée principale pour tous"
+      ],
+      "relations_a_conserver": [
+        "plutôt = modification limitée à deuxième partie",
+        "car = cause"
+      ],
+      "criteres": [
+        "Sujet et action centrale correctement restitués",
+        "Informations essentielles du message conservées sans invention",
+        "Ordre, contraste, cause, condition ou négation respectés lorsque présents",
+        "Trois questions de vérification répondues en accord avec le stimulus",
+        "Reformulation dans ses mots et sans aide sémantique; l’accent/la prononciation ne sont pas notés"
+      ],
+      "feedback": "Évite de déplacer l’horaire de tous les groupes : seuls ceux de la deuxième partie passent plus tard.",
+      "difficulte": "intermediaire",
+      "variations_permises": [
+        "Voix de lecture, avec débit naturel, volume adapté et pauses notées",
+        "Synonymes et constructions du français québécois qui préservent précisément le sens",
+        "Modalité d’expression adaptée sans indices ni réponses fournies"
+      ],
+      "variations_interdites": [
+        "Changer, omettre ou inventer un fait du script",
+        "Modifier nombres, horaires, lieu, ordre, opposition, cause, condition ou négation",
+        "Divulguer le texte ou le corrigé avant l’essai",
+        "Générer à la volée un autre stimulus sous le même item_id"
+      ],
+      "role": "entrainement_evaluable",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-024-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message deux fois, sans voir le texte. Puis reformule les points essentiels avec tes propres mots; réponds ensuite aux trois questions de vérification. Si tu ne sais pas, indique-le plutôt que d’inventer.",
+      "contexte": "Preuve 1 — annonce d’un service collectif",
+      "representation": "message oral joué ou lu deux fois; script conservé côté évaluateur; réponse orale ou moyen expressif accessible sans aide de contenu",
+      "stimulus": "Voici le message du centre communautaire au sujet de la journée d’échange de livres. [pause] Samedi matin, les personnes participantes déposeront leurs livres en bon état à la table d’accueil, à partir de neuf heures. Ensuite, des bénévoles classeront les livres par catégorie. [pause] L’échange ouvrira aux visiteurs à dix heures. [insister légèrement sur « seulement »] Seuls les livres déposés avant dix heures pourront être échangés durant cette première séance. Les livres apportés plus tard seront gardés pour la séance suivante.",
+      "questions_verification": [
+        "À partir de quelle heure peut-on déposer les livres?",
+        "Qui classe les livres, et avant quelle heure ouvre l’échange?",
+        "Qu’arrive-t-il aux livres apportés après dix heures?"
+      ],
+      "reponses_questions": [
+        "À partir de 9 h.",
+        "Des bénévoles les classent; l’échange ouvre à 10 h.",
+        "Ils sont conservés pour la séance suivante."
+      ],
+      "reponse_attendue": "Samedi, on apporte ses livres en bon état à l’accueil du centre communautaire dès 9 h; les bénévoles les trient, puis l’échange débute à 10 h. Pour cette première séance, on ne peut échanger que les livres arrivés avant 10 h; les autres attendront la prochaine séance.",
+      "faits_essentiels_a_conserver": [
+        "samedi, centre communautaire et échange de livres",
+        "dépôt dès 9 h des livres en bon état à l’accueil",
+        "classement par bénévoles puis ouverture à 10 h",
+        "livres déposés après 10 h reportés à la séance suivante"
+      ],
+      "relations_a_conserver": [
+        "succession dépôt/classement/échange",
+        "condition « seuls les livres déposés avant 10 h »",
+        "pas de confusion entre dépôt et échange"
+      ],
+      "criteres": [
+        "Sujet et action centrale correctement restitués",
+        "Informations essentielles du message conservées sans invention",
+        "Ordre, contraste, cause, condition ou négation respectés lorsque présents",
+        "Trois questions de vérification répondues en accord avec le stimulus",
+        "Reformulation dans ses mots et sans aide sémantique; l’accent/la prononciation ne sont pas notés"
+      ],
+      "feedback": "Tu distingues bien le dépôt de l’échange. Si tu as oublié la condition de 10 h, reprends-la : les livres tardifs attendent la séance suivante.",
+      "difficulte": "transfert",
+      "variations_permises": [
+        "Voix de lecture, avec débit naturel, volume adapté et pauses notées",
+        "Synonymes et constructions du français québécois qui préservent précisément le sens",
+        "Modalité d’expression adaptée sans indices ni réponses fournies"
+      ],
+      "variations_interdites": [
+        "Changer, omettre ou inventer un fait du script",
+        "Modifier nombres, horaires, lieu, ordre, opposition, cause, condition ou négation",
+        "Divulguer le texte ou le corrigé avant l’essai",
+        "Générer à la volée un autre stimulus sous le même item_id"
+      ],
+      "role": "preuve_maitrise_1",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-024-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message deux fois, sans voir le texte. Puis reformule les points essentiels avec tes propres mots; réponds ensuite aux trois questions de vérification. Si tu ne sais pas, indique-le plutôt que d’inventer.",
+      "contexte": "Preuve 2 — consignes d’un atelier de fabrication",
+      "representation": "message oral joué ou lu deux fois; script conservé côté évaluateur; réponse orale ou moyen expressif accessible sans aide de contenu",
+      "stimulus": "À l’atelier de construction de maquettes, les équipes réaliseront une petite maison en carton. [pause] D’abord, elles traceront les murs sur le carton avec un crayon. Ensuite, une personne adulte découpera les pièces avec l’outil prévu. [pause] Les élèves assembleront les morceaux avec du ruban adhésif. [insister légèrement sur « mais »] Mais ils ne doivent pas utiliser de colle liquide, parce qu’elle met trop de temps à sécher. À la fin, ils poseront la maquette sur la table de présentation.",
+      "questions_verification": [
+        "Que font les élèves avant le découpage?",
+        "Qui découpe les morceaux?",
+        "Pourquoi la colle liquide n’est-elle pas utilisée?"
+      ],
+      "reponses_questions": [
+        "Ils tracent les murs au crayon sur le carton.",
+        "Une personne adulte.",
+        "Parce qu’elle met trop de temps à sécher; on utilise le ruban adhésif à la place."
+      ],
+      "reponse_attendue": "Les équipes fabriqueront une maison en carton : elles dessinent d’abord les murs, puis une personne adulte découpe les pièces. Ensuite, les élèves assemblent au ruban, sans colle liquide, trop lente à sécher, et déposent la maquette sur la table de présentation.",
+      "faits_essentiels_a_conserver": [
+        "objectif = maison en carton",
+        "tracer les murs avant découpage par adulte",
+        "assembler au ruban sans colle liquide (séchage trop long)",
+        "déposer la maquette sur la table à la fin"
+      ],
+      "relations_a_conserver": [
+        "ordre tracer/découper/assembler/présenter",
+        "l’adulte découpe, pas les enfants",
+        "négation sur colle liquide avec cause"
+      ],
+      "criteres": [
+        "Sujet et action centrale correctement restitués",
+        "Informations essentielles du message conservées sans invention",
+        "Ordre, contraste, cause, condition ou négation respectés lorsque présents",
+        "Trois questions de vérification répondues en accord avec le stimulus",
+        "Reformulation dans ses mots et sans aide sémantique; l’accent/la prononciation ne sont pas notés"
+      ],
+      "feedback": "Tu as bien résumé la construction. Si tu as dit que les élèves découpent ou utilisent la colle liquide, corrige cette action et sa justification.",
+      "difficulte": "transfert",
+      "variations_permises": [
+        "Voix de lecture, avec débit naturel, volume adapté et pauses notées",
+        "Synonymes et constructions du français québécois qui préservent précisément le sens",
+        "Modalité d’expression adaptée sans indices ni réponses fournies"
+      ],
+      "variations_interdites": [
+        "Changer, omettre ou inventer un fait du script",
+        "Modifier nombres, horaires, lieu, ordre, opposition, cause, condition ou négation",
+        "Divulguer le texte ou le corrigé avant l’essai",
+        "Générer à la volée un autre stimulus sous le même item_id"
+      ],
+      "role": "preuve_maitrise_2",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-024-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message deux fois, sans voir le texte. Puis reformule les points essentiels avec tes propres mots; réponds ensuite aux trois questions de vérification. Si tu ne sais pas, indique-le plutôt que d’inventer.",
+      "contexte": "Message de rectification",
+      "representation": "message oral joué ou lu deux fois; script conservé côté évaluateur; réponse orale ou moyen expressif accessible sans aide de contenu",
+      "stimulus": "Ce matin, nous avions annoncé que le match amical commencerait à onze heures au terrain derrière l’école. [pause] Finalement, le match débutera à onze heures trente, au même terrain, parce que la préparation prendra un peu plus de temps. [pause] Les équipes doivent arriver dix minutes avant le nouveau début; les spectateurs peuvent venir à l’heure du match.",
+      "questions_verification": [
+        "Quelle est la nouvelle heure du match?",
+        "Le lieu change-t-il?",
+        "À quelle heure les équipes doivent-elles arriver?"
+      ],
+      "reponses_questions": [
+        "À 11 h 30.",
+        "Non, le terrain derrière l’école reste le même.",
+        "À 11 h 20 (dix minutes avant 11 h 30)."
+      ],
+      "reponse_attendue": "Le match amical se jouera toujours derrière l’école, mais commencera à 11 h 30 plutôt qu’à 11 h. Les équipes doivent être là à 11 h 20, alors que les spectateurs peuvent venir au début.",
+      "faits_essentiels_a_conserver": [
+        "match amical au même terrain",
+        "heure corrigée de 11 h à 11 h 30",
+        "équipes présentes dix minutes avant soit 11 h 20"
+      ],
+      "relations_a_conserver": [
+        "finalement = rectification",
+        "dix minutes avant 11 h 30 = 11 h 20"
+      ],
+      "criteres": [
+        "Sujet et action centrale correctement restitués",
+        "Informations essentielles du message conservées sans invention",
+        "Ordre, contraste, cause, condition ou négation respectés lorsque présents",
+        "Trois questions de vérification répondues en accord avec le stimulus",
+        "Reformulation dans ses mots et sans aide sémantique; l’accent/la prononciation ne sont pas notés"
+      ],
+      "feedback": "Si tu gardes onze heures, repère « finalement ». Si tu hésites sur l’arrivée des équipes, compte dix minutes avant 11 h 30.",
+      "difficulte": "transfert",
+      "variations_permises": [
+        "Voix de lecture, avec débit naturel, volume adapté et pauses notées",
+        "Synonymes et constructions du français québécois qui préservent précisément le sens",
+        "Modalité d’expression adaptée sans indices ni réponses fournies"
+      ],
+      "variations_interdites": [
+        "Changer, omettre ou inventer un fait du script",
+        "Modifier nombres, horaires, lieu, ordre, opposition, cause, condition ou négation",
+        "Divulguer le texte ou le corrigé avant l’essai",
+        "Générer à la volée un autre stimulus sous le même item_id"
+      ],
+      "role": "entrainement_evaluable",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-024-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-024-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message deux fois, sans voir le texte. Puis reformule les points essentiels avec tes propres mots; réponds ensuite aux trois questions de vérification. Si tu ne sais pas, indique-le plutôt que d’inventer.",
+      "contexte": "Message explicatif avec priorité",
+      "representation": "message oral joué ou lu deux fois; script conservé côté évaluateur; réponse orale ou moyen expressif accessible sans aide de contenu",
+      "stimulus": "La classe prépare une collecte de fournitures propres pour un atelier d’arts. [pause] On accepte les feuilles inutilisées et les crayons encore fonctionnels. En revanche, les pots de peinture ouverts ne seront pas recueillis, car ils risquent de couler. [pause] Les dons seront déposés près du local d’arts jusqu’à mercredi; jeudi, on les répartira entre les équipes.",
+      "questions_verification": [
+        "Quels types de fournitures peut-on donner?",
+        "Pourquoi les pots de peinture ouverts sont-ils exclus?",
+        "Que fait-on des dons jeudi?"
+      ],
+      "reponses_questions": [
+        "Les feuilles inutilisées et les crayons encore fonctionnels.",
+        "Ils pourraient couler.",
+        "On les répartit entre les équipes."
+      ],
+      "reponse_attendue": "On recueille jusqu’à mercredi des feuilles neuves et des crayons utilisables près du local d’arts; les pots de peinture ouverts sont refusés parce qu’ils pourraient couler. Jeudi, les équipes recevront le matériel recueilli.",
+      "faits_essentiels_a_conserver": [
+        "collecte de fournitures propres",
+        "feuilles inutilisées et crayons fonctionnels acceptés",
+        "pots ouverts refusés (risque de couler)",
+        "dépôt jusqu’à mercredi, répartition jeudi"
+      ],
+      "relations_a_conserver": [
+        "en revanche = opposition",
+        "raison de l’exclusion",
+        "ordre dépôt puis répartition"
+      ],
+      "criteres": [
+        "Sujet et action centrale correctement restitués",
+        "Informations essentielles du message conservées sans invention",
+        "Ordre, contraste, cause, condition ou négation respectés lorsque présents",
+        "Trois questions de vérification répondues en accord avec le stimulus",
+        "Reformulation dans ses mots et sans aide sémantique; l’accent/la prononciation ne sont pas notés"
+      ],
+      "feedback": "Tu as inversé ce qui est accepté? « En revanche » annonce l’exclusion des pots de peinture ouverts.",
+      "difficulte": "transfert",
+      "variations_permises": [
+        "Voix de lecture, avec débit naturel, volume adapté et pauses notées",
+        "Synonymes et constructions du français québécois qui préservent précisément le sens",
+        "Modalité d’expression adaptée sans indices ni réponses fournies"
+      ],
+      "variations_interdites": [
+        "Changer, omettre ou inventer un fait du script",
+        "Modifier nombres, horaires, lieu, ordre, opposition, cause, condition ou négation",
+        "Divulguer le texte ou le corrigé avant l’essai",
+        "Générer à la volée un autre stimulus sous le même item_id"
+      ],
+      "role": "entrainement_evaluable",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

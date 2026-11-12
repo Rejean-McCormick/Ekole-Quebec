@@ -1,0 +1,83 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-fls-002",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Employer un lexique français usuel dans des phrases contextualisées.",
+    "concepts": [
+      "mots fréquents",
+      "expressions",
+      "collocations"
+    ]
+  },
+  "titre_source": "Vocabulaire et expressions usuelles en français",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "mots fréquents, expressions, collocations",
+      "prompt_conceptuel": "Concept d'image pour le cours « Vocabulaire et expressions usuelles en français ». Représenter une situation d’échange en français liée au vocabulaire ou à la compréhension. Mettre en évidence les notions : mots fréquents, expressions, collocations. L'image doit aider à comprendre l'objectif « Employer un lexique français usuel dans des phrases contextualisées. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Vocabulaire et expressions usuelles en français : mots fréquents, expressions, collocations.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "mots fréquents, expressions, collocations",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Vocabulaire et expressions usuelles en français » : montrer une interaction quotidienne dans laquelle les personnes communiquent en français. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter mots fréquents, expressions, collocations. Cette image sert de point de départ à une activité liée à l'objectif « Employer un lexique français usuel dans des phrases contextualisées. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Une question à l’accueil »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Vocabulaire et expressions usuelles en français.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Une question à l’accueil",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

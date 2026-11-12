@@ -1,0 +1,39 @@
+{
+  "format": "ekole.portal-page/0.1",
+  "id": "ekole-page-direction",
+  "slug": "direction",
+  "titre": "Direction et gouvernance",
+  "public_cible": "direction",
+  "roles_visuels": [
+    "en_tete",
+    "description",
+    "actions",
+    "ressources",
+    "navigation"
+  ],
+  "utterances": [
+    {
+      "id": "direction-phrase-1",
+      "source": "original_edition_candidat",
+      "fr-CA": "Le catalogue contient 202 livraisons pédagogiques.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "direction-phrase-2",
+      "source": "original_edition_candidat",
+      "fr-CA": "La publication de ressources et l’activation de services demeurent des opérations séparées.",
+      "status": "a_revoir_semantik"
+    }
+  ],
+  "component_types": [
+    "utterance",
+    "label_value",
+    "list",
+    "card"
+  ],
+  "access": "information_publique_sans_donnees_personnelles",
+  "language_status": {
+    "fr-CA": "candidat",
+    "en": "non_genere"
+  }
+}

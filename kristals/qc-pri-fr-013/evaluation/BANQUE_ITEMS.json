@@ -1,0 +1,968 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-013",
+  "family_id": "qc-pri-fr-013-ev-01",
+  "statut": "banque_redigee_non_qualifiee",
+  "modalite_privilegiee": "réponse_argumentée",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-013-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les cinq mots repérés. Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "Cette cloche sonne. Elle est bruyante.",
+      "reperes_eleves": [
+        {
+          "repere": "1",
+          "mot": "Cette"
+        },
+        {
+          "repere": "2",
+          "mot": "cloche"
+        },
+        {
+          "repere": "3",
+          "mot": "sonne"
+        },
+        {
+          "repere": "4",
+          "mot": "Elle"
+        },
+        {
+          "repere": "5",
+          "mot": "bruyante"
+        }
+      ],
+      "reponse_attendue": "1 Cette = déterminant; 2 cloche = nom; 3 sonne = verbe; 4 Elle = pronom; 5 bruyante = adjectif; Justifications : 1 est déterminant car il introduit cloche; 4 est pronom car il reprend cette cloche.",
+      "corrige_structure": [
+        {
+          "repere": "1",
+          "mot": "Cette",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "2",
+          "mot": "cloche",
+          "classe": "nom"
+        },
+        {
+          "repere": "3",
+          "mot": "sonne",
+          "classe": "verbe"
+        },
+        {
+          "repere": "4",
+          "mot": "Elle",
+          "classe": "pronom"
+        },
+        {
+          "repere": "5",
+          "mot": "bruyante",
+          "classe": "adjectif"
+        }
+      ],
+      "justifications_attendues": [
+        "1 est déterminant car il introduit cloche; 4 est pronom car il reprend cette cloche."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "Ne pas appeler bruyante un verbe : est est le verbe, bruyante caractérise cloche.",
+      "difficulte": "initial",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les deux « les »; explique la différence. Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "Les lanternes brillent. Iris les admire.",
+      "reperes_eleves": [
+        {
+          "repere": "1",
+          "mot": "Les (avant lanternes)"
+        },
+        {
+          "repere": "2",
+          "mot": "les (avant admire)"
+        }
+      ],
+      "reponse_attendue": "1 Les (avant lanternes) = déterminant; 2 les (avant admire) = pronom; Justifications : 1 introduit le nom lanternes; 2 remplace le groupe les lanternes, qu’Iris admire.",
+      "corrige_structure": [
+        {
+          "repere": "1",
+          "mot": "Les (avant lanternes)",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "2",
+          "mot": "les (avant admire)",
+          "classe": "pronom"
+        }
+      ],
+      "justifications_attendues": [
+        "1 introduit le nom lanternes; 2 remplace le groupe les lanternes, qu’Iris admire."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "Le premier les appartient au groupe nominal; le second remplace ce groupe devant admire.",
+      "difficulte": "intermediaire",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les deux « marche »; justifie leur fonctionnement. Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "La marche débute. Félix marche près du parc.",
+      "reperes_eleves": [
+        {
+          "repere": "1",
+          "mot": "marche (dans La marche)"
+        },
+        {
+          "repere": "2",
+          "mot": "marche (après Félix)"
+        }
+      ],
+      "reponse_attendue": "1 marche (dans La marche) = nom; 2 marche (après Félix) = verbe; Justifications : 1 est noyau du groupe la marche; 2 peut changer de temps : Félix marchait.",
+      "corrige_structure": [
+        {
+          "repere": "1",
+          "mot": "marche (dans La marche)",
+          "classe": "nom"
+        },
+        {
+          "repere": "2",
+          "mot": "marche (après Félix)",
+          "classe": "verbe"
+        }
+      ],
+      "justifications_attendues": [
+        "1 est noyau du groupe la marche; 2 peut changer de temps : Félix marchait."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "Une activité désignée par un nom reste un nom : la marche. La forme marchait prouve le verbe dans la seconde phrase.",
+      "difficulte": "intermediaire",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les quatre mots repérés et justifie la différence déterminant/adjectif. Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "Mon vieux ballon roule dans la cour.",
+      "reperes_eleves": [
+        {
+          "repere": "1",
+          "mot": "Mon"
+        },
+        {
+          "repere": "2",
+          "mot": "vieux"
+        },
+        {
+          "repere": "3",
+          "mot": "ballon"
+        },
+        {
+          "repere": "4",
+          "mot": "roule"
+        }
+      ],
+      "reponse_attendue": "1 Mon = déterminant; 2 vieux = adjectif; 3 ballon = nom; 4 roule = verbe; Justifications : Mon introduit ballon; vieux caractérise ballon, entre le déterminant et le nom.",
+      "corrige_structure": [
+        {
+          "repere": "1",
+          "mot": "Mon",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "2",
+          "mot": "vieux",
+          "classe": "adjectif"
+        },
+        {
+          "repere": "3",
+          "mot": "ballon",
+          "classe": "nom"
+        },
+        {
+          "repere": "4",
+          "mot": "roule",
+          "classe": "verbe"
+        }
+      ],
+      "justifications_attendues": [
+        "Mon introduit ballon; vieux caractérise ballon, entre le déterminant et le nom."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "Mon est un déterminant possessif dans la grammaire employée ici; vieux est adjectif, pas déterminant.",
+      "difficulte": "initial",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les mots repérés et justifie les deux pronoms. Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "Mila lit un conte. Elle le raconte.",
+      "reperes_eleves": [
+        {
+          "repere": "1",
+          "mot": "Mila"
+        },
+        {
+          "repere": "2",
+          "mot": "lit"
+        },
+        {
+          "repere": "3",
+          "mot": "un"
+        },
+        {
+          "repere": "4",
+          "mot": "conte"
+        },
+        {
+          "repere": "5",
+          "mot": "Elle"
+        },
+        {
+          "repere": "6",
+          "mot": "le"
+        },
+        {
+          "repere": "7",
+          "mot": "raconte"
+        }
+      ],
+      "reponse_attendue": "1 Mila = nom; 2 lit = verbe; 3 un = déterminant; 4 conte = nom; 5 Elle = pronom; 6 le = pronom; 7 raconte = verbe; Justifications : Elle renvoie à Mila; le remplace un conte, complément du verbe raconte.",
+      "corrige_structure": [
+        {
+          "repere": "1",
+          "mot": "Mila",
+          "classe": "nom"
+        },
+        {
+          "repere": "2",
+          "mot": "lit",
+          "classe": "verbe"
+        },
+        {
+          "repere": "3",
+          "mot": "un",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "4",
+          "mot": "conte",
+          "classe": "nom"
+        },
+        {
+          "repere": "5",
+          "mot": "Elle",
+          "classe": "pronom"
+        },
+        {
+          "repere": "6",
+          "mot": "le",
+          "classe": "pronom"
+        },
+        {
+          "repere": "7",
+          "mot": "raconte",
+          "classe": "verbe"
+        }
+      ],
+      "justifications_attendues": [
+        "Elle renvoie à Mila; le remplace un conte, complément du verbe raconte."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "Un pronom peut être sujet (Elle) ou complément (le); aucun des deux n’introduit un nom.",
+      "difficulte": "intermediaire",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les quatre occurrences et distingue les emplois de « ferme » et « porte ». Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "La ferme ouvre. Zoé ferme la porte.",
+      "reperes_eleves": [
+        {
+          "repere": "1",
+          "mot": "ferme (après La)"
+        },
+        {
+          "repere": "2",
+          "mot": "ouvre"
+        },
+        {
+          "repere": "3",
+          "mot": "ferme (après Zoé)"
+        },
+        {
+          "repere": "4",
+          "mot": "porte (après la)"
+        }
+      ],
+      "reponse_attendue": "1 ferme (après La) = nom; 2 ouvre = verbe; 3 ferme (après Zoé) = verbe; 4 porte (après la) = nom; Justifications : 1 est le noyau de la ferme, nom de lieu; 3 est verbe car Zoé fermait la porte; 4 est nom précédé de la.",
+      "corrige_structure": [
+        {
+          "repere": "1",
+          "mot": "ferme (après La)",
+          "classe": "nom"
+        },
+        {
+          "repere": "2",
+          "mot": "ouvre",
+          "classe": "verbe"
+        },
+        {
+          "repere": "3",
+          "mot": "ferme (après Zoé)",
+          "classe": "verbe"
+        },
+        {
+          "repere": "4",
+          "mot": "porte (après la)",
+          "classe": "nom"
+        }
+      ],
+      "justifications_attendues": [
+        "1 est le noyau de la ferme, nom de lieu; 3 est verbe car Zoé fermait la porte; 4 est nom précédé de la."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "Ferme avec déterminant peut être nom; ferme après Zoé prend la marque du temps et est verbe.",
+      "difficulte": "intermediaire",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les six occurrences et justifie « Ce » et « joyeux ». Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "Ce jeune chien joyeux joue. Il aboie.",
+      "reperes_eleves": [
+        {
+          "repere": "1",
+          "mot": "Ce"
+        },
+        {
+          "repere": "2",
+          "mot": "jeune"
+        },
+        {
+          "repere": "3",
+          "mot": "chien"
+        },
+        {
+          "repere": "4",
+          "mot": "joyeux"
+        },
+        {
+          "repere": "5",
+          "mot": "joue"
+        },
+        {
+          "repere": "6",
+          "mot": "Il"
+        }
+      ],
+      "reponse_attendue": "1 Ce = déterminant; 2 jeune = adjectif; 3 chien = nom; 4 joyeux = adjectif; 5 joue = verbe; 6 Il = pronom; Justifications : Ce introduit chien; joyeux caractérise chien, comme jeune; Il reprend ce jeune chien joyeux.",
+      "corrige_structure": [
+        {
+          "repere": "1",
+          "mot": "Ce",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "2",
+          "mot": "jeune",
+          "classe": "adjectif"
+        },
+        {
+          "repere": "3",
+          "mot": "chien",
+          "classe": "nom"
+        },
+        {
+          "repere": "4",
+          "mot": "joyeux",
+          "classe": "adjectif"
+        },
+        {
+          "repere": "5",
+          "mot": "joue",
+          "classe": "verbe"
+        },
+        {
+          "repere": "6",
+          "mot": "Il",
+          "classe": "pronom"
+        }
+      ],
+      "justifications_attendues": [
+        "Ce introduit chien; joyeux caractérise chien, comme jeune; Il reprend ce jeune chien joyeux."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "Ce devant chien est déterminant, et les deux adjectifs caractérisent le même nom.",
+      "difficulte": "intermediaire",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "L’affirmation « dans ces phrases, porte est toujours un nom » est-elle exacte? Classe les deux occurrences, puis réfute-la avec un indice. Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "Cette porte grince. Adam porte un sac.",
+      "reperes_eleves": [
+        {
+          "repere": "1",
+          "mot": "porte (dans Cette porte)"
+        },
+        {
+          "repere": "2",
+          "mot": "porte (après Adam)"
+        }
+      ],
+      "reponse_attendue": "1 porte (dans Cette porte) = nom; 2 porte (après Adam) = verbe; Justifications : Faux : 1 est nom noyau de cette porte; 2 est verbe puisqu’Adam portait un sac est possible.",
+      "corrige_structure": [
+        {
+          "repere": "1",
+          "mot": "porte (dans Cette porte)",
+          "classe": "nom"
+        },
+        {
+          "repere": "2",
+          "mot": "porte (après Adam)",
+          "classe": "verbe"
+        }
+      ],
+      "justifications_attendues": [
+        "Faux : 1 est nom noyau de cette porte; 2 est verbe puisqu’Adam portait un sac est possible."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "Comparer explicitement un groupe nominal avec une phrase où la forme verbale peut varier.",
+      "difficulte": "intermediaire",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE A — Bibliothèque. Classe les douze occurrences repérées dans le texte; justifie les cas ambigus 7 « le » et 11 « marche »; compare avec un emploi possible différent de chaque mot. Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "Le jeune Malik ferme le livre. Il le range. Une affiche verte annonce la lecture. Léa marche vers la porte.",
+      "reperes_eleves": [
+        {
+          "repere": "A1",
+          "mot": "Le (au début)"
+        },
+        {
+          "repere": "A2",
+          "mot": "jeune"
+        },
+        {
+          "repere": "A3",
+          "mot": "Malik"
+        },
+        {
+          "repere": "A4",
+          "mot": "ferme (après Malik)"
+        },
+        {
+          "repere": "A5",
+          "mot": "livre"
+        },
+        {
+          "repere": "A6",
+          "mot": "Il"
+        },
+        {
+          "repere": "A7",
+          "mot": "le (dans Il le range)"
+        },
+        {
+          "repere": "A8",
+          "mot": "range"
+        },
+        {
+          "repere": "A9",
+          "mot": "Une"
+        },
+        {
+          "repere": "A10",
+          "mot": "verte"
+        },
+        {
+          "repere": "A11",
+          "mot": "marche (après Léa)"
+        },
+        {
+          "repere": "A12",
+          "mot": "porte (à la fin)"
+        }
+      ],
+      "reponse_attendue": "A1 Le (au début) = déterminant; A2 jeune = adjectif; A3 Malik = nom; A4 ferme (après Malik) = verbe; A5 livre = nom; A6 Il = pronom; A7 le (dans Il le range) = pronom; A8 range = verbe; A9 Une = déterminant; A10 verte = adjectif; A11 marche (après Léa) = verbe; A12 porte (à la fin) = nom; Justifications : A7 est pronom : il reprend le livre et ne présente aucun nom, contrairement à Le dans Le jeune Malik (déterminant). A11 est verbe : on peut dire Léa marchait; dans La marche commence, marche serait un nom.",
+      "corrige_structure": [
+        {
+          "repere": "A1",
+          "mot": "Le (au début)",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "A2",
+          "mot": "jeune",
+          "classe": "adjectif"
+        },
+        {
+          "repere": "A3",
+          "mot": "Malik",
+          "classe": "nom"
+        },
+        {
+          "repere": "A4",
+          "mot": "ferme (après Malik)",
+          "classe": "verbe"
+        },
+        {
+          "repere": "A5",
+          "mot": "livre",
+          "classe": "nom"
+        },
+        {
+          "repere": "A6",
+          "mot": "Il",
+          "classe": "pronom"
+        },
+        {
+          "repere": "A7",
+          "mot": "le (dans Il le range)",
+          "classe": "pronom"
+        },
+        {
+          "repere": "A8",
+          "mot": "range",
+          "classe": "verbe"
+        },
+        {
+          "repere": "A9",
+          "mot": "Une",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "A10",
+          "mot": "verte",
+          "classe": "adjectif"
+        },
+        {
+          "repere": "A11",
+          "mot": "marche (après Léa)",
+          "classe": "verbe"
+        },
+        {
+          "repere": "A12",
+          "mot": "porte (à la fin)",
+          "classe": "nom"
+        }
+      ],
+      "justifications_attendues": [
+        "A7 est pronom : il reprend le livre et ne présente aucun nom, contrairement à Le dans Le jeune Malik (déterminant).",
+        "A11 est verbe : on peut dire Léa marchait; dans La marche commence, marche serait un nom."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "Si A7 est appelé déterminant, demander quel nom il introduit : aucun. Si A11 est appelé nom, tester Léa marchait. Ne pas divulguer ces indices durant la passation.",
+      "difficulte": "transfert",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir",
+      "contexte_maitrise": "A_bibliotheque",
+      "passation": "individuelle_sans_indices",
+      "preuve_autonome": "cibles_et_2_justifications_ambigues"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE B — Randonnée. Classe les douze occurrences repérées; justifie les cas ambigus 2 « marche » et 9 « la » et compare chaque cas avec un autre emploi. Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "La marche commence près de la ferme. Nina porte une veste claire. Elle la ferme. Cette équipe courageuse avance.",
+      "reperes_eleves": [
+        {
+          "repere": "B1",
+          "mot": "La (au début)"
+        },
+        {
+          "repere": "B2",
+          "mot": "marche (après La)"
+        },
+        {
+          "repere": "B3",
+          "mot": "commence"
+        },
+        {
+          "repere": "B4",
+          "mot": "ferme (après de la)"
+        },
+        {
+          "repere": "B5",
+          "mot": "porte (après Nina)"
+        },
+        {
+          "repere": "B6",
+          "mot": "veste"
+        },
+        {
+          "repere": "B7",
+          "mot": "claire"
+        },
+        {
+          "repere": "B8",
+          "mot": "Elle"
+        },
+        {
+          "repere": "B9",
+          "mot": "la (dans Elle la ferme)"
+        },
+        {
+          "repere": "B10",
+          "mot": "ferme (dans Elle la ferme)"
+        },
+        {
+          "repere": "B11",
+          "mot": "Cette"
+        },
+        {
+          "repere": "B12",
+          "mot": "courageuse"
+        }
+      ],
+      "reponse_attendue": "B1 La (au début) = déterminant; B2 marche (après La) = nom; B3 commence = verbe; B4 ferme (après de la) = nom; B5 porte (après Nina) = verbe; B6 veste = nom; B7 claire = adjectif; B8 Elle = pronom; B9 la (dans Elle la ferme) = pronom; B10 ferme (dans Elle la ferme) = verbe; B11 Cette = déterminant; B12 courageuse = adjectif; Justifications : B2 est nom, noyau de La marche; dans Nina marche, marche serait verbe car on peut dire marchait. B9 est pronom : remplace une veste claire (Elle ferme la veste); La dans La marche introduit marche et est déterminant.",
+      "corrige_structure": [
+        {
+          "repere": "B1",
+          "mot": "La (au début)",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "B2",
+          "mot": "marche (après La)",
+          "classe": "nom"
+        },
+        {
+          "repere": "B3",
+          "mot": "commence",
+          "classe": "verbe"
+        },
+        {
+          "repere": "B4",
+          "mot": "ferme (après de la)",
+          "classe": "nom"
+        },
+        {
+          "repere": "B5",
+          "mot": "porte (après Nina)",
+          "classe": "verbe"
+        },
+        {
+          "repere": "B6",
+          "mot": "veste",
+          "classe": "nom"
+        },
+        {
+          "repere": "B7",
+          "mot": "claire",
+          "classe": "adjectif"
+        },
+        {
+          "repere": "B8",
+          "mot": "Elle",
+          "classe": "pronom"
+        },
+        {
+          "repere": "B9",
+          "mot": "la (dans Elle la ferme)",
+          "classe": "pronom"
+        },
+        {
+          "repere": "B10",
+          "mot": "ferme (dans Elle la ferme)",
+          "classe": "verbe"
+        },
+        {
+          "repere": "B11",
+          "mot": "Cette",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "B12",
+          "mot": "courageuse",
+          "classe": "adjectif"
+        }
+      ],
+      "justifications_attendues": [
+        "B2 est nom, noyau de La marche; dans Nina marche, marche serait verbe car on peut dire marchait.",
+        "B9 est pronom : remplace une veste claire (Elle ferme la veste); La dans La marche introduit marche et est déterminant."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "Si B2 est appelé verbe, faire observer La marche versus Nina marche; si B9 est déterminant, faire nommer le groupe repris une veste claire. Indices seulement après la production autonome.",
+      "difficulte": "transfert",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir",
+      "contexte_maitrise": "B_randonnee",
+      "passation": "individuelle_sans_indices",
+      "preuve_autonome": "cibles_et_2_justifications_ambigues"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans ce dialogue, classe les cinq occurrences et justifie « le ». Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "— Tu vois le cerf-volant rouge? — Oui, je le vois.",
+      "reperes_eleves": [
+        {
+          "repere": "1",
+          "mot": "le (devant cerf-volant)"
+        },
+        {
+          "repere": "2",
+          "mot": "cerf-volant"
+        },
+        {
+          "repere": "3",
+          "mot": "rouge"
+        },
+        {
+          "repere": "4",
+          "mot": "je"
+        },
+        {
+          "repere": "5",
+          "mot": "le (devant vois)"
+        }
+      ],
+      "reponse_attendue": "1 le (devant cerf-volant) = déterminant; 2 cerf-volant = nom; 3 rouge = adjectif; 4 je = pronom; 5 le (devant vois) = pronom; Justifications : Le premier le introduit cerf-volant; le second reprend le cerf-volant rouge et complète vois.",
+      "corrige_structure": [
+        {
+          "repere": "1",
+          "mot": "le (devant cerf-volant)",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "2",
+          "mot": "cerf-volant",
+          "classe": "nom"
+        },
+        {
+          "repere": "3",
+          "mot": "rouge",
+          "classe": "adjectif"
+        },
+        {
+          "repere": "4",
+          "mot": "je",
+          "classe": "pronom"
+        },
+        {
+          "repere": "5",
+          "mot": "le (devant vois)",
+          "classe": "pronom"
+        }
+      ],
+      "justifications_attendues": [
+        "Le premier le introduit cerf-volant; le second reprend le cerf-volant rouge et complète vois."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "La place de chaque le et sa relation avec le nom ou le verbe fondent le contraste.",
+      "difficulte": "transfert",
+      "representation": "texte_avec_reperes",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-013-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Au choix, formule ta réponse à voix haute ou à l’écrit; classe les six mots puis explique « Elles » et « fines ». Réponds en utilisant les repères indiqués et cite un indice syntaxique pour chaque justification demandée.",
+      "stimulus": "Nos plantes fines grandissent. Elles fleurissent.",
+      "reperes_eleves": [
+        {
+          "repere": "1",
+          "mot": "Nos"
+        },
+        {
+          "repere": "2",
+          "mot": "plantes"
+        },
+        {
+          "repere": "3",
+          "mot": "fines"
+        },
+        {
+          "repere": "4",
+          "mot": "grandissent"
+        },
+        {
+          "repere": "5",
+          "mot": "Elles"
+        },
+        {
+          "repere": "6",
+          "mot": "fleurissent"
+        }
+      ],
+      "reponse_attendue": "1 Nos = déterminant; 2 plantes = nom; 3 fines = adjectif; 4 grandissent = verbe; 5 Elles = pronom; 6 fleurissent = verbe; Justifications : Elles reprend nos plantes fines (pronom); fines caractérise plantes, s’accorde avec ce nom (adjectif).",
+      "corrige_structure": [
+        {
+          "repere": "1",
+          "mot": "Nos",
+          "classe": "déterminant"
+        },
+        {
+          "repere": "2",
+          "mot": "plantes",
+          "classe": "nom"
+        },
+        {
+          "repere": "3",
+          "mot": "fines",
+          "classe": "adjectif"
+        },
+        {
+          "repere": "4",
+          "mot": "grandissent",
+          "classe": "verbe"
+        },
+        {
+          "repere": "5",
+          "mot": "Elles",
+          "classe": "pronom"
+        },
+        {
+          "repere": "6",
+          "mot": "fleurissent",
+          "classe": "verbe"
+        }
+      ],
+      "justifications_attendues": [
+        "Elles reprend nos plantes fines (pronom); fines caractérise plantes, s’accorde avec ce nom (adjectif)."
+      ],
+      "criteres": [
+        "Chaque occurrence désignée reçoit la classe exacte parmi nom, déterminant, adjectif, verbe, pronom.",
+        "Les justifications demandées citent un rôle ou une manipulation vérifiable dans les phrases, et non seulement le sens ou la position isolée.",
+        "Les explications restent compatibles avec le contexte exact et identifient le mot/groupe concerné."
+      ],
+      "feedback": "La modalité choisie ne modifie ni les classes ni l’exigence de justification syntaxique.",
+      "difficulte": "transfert",
+      "representation": "texte_ou_lecture_neutre_reponse_orale_ou_ecrite",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune substitution automatique dans cette version fixe. Toute modification du texte, d’une occurrence ou du corrigé nécessite une nouvelle révision humaine et un contrôle des 5 classes.",
+      "validation_status": "a_revoir"
+    }
+  ]
+}

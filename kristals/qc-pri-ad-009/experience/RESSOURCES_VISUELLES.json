@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ad-009",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Analyser les étapes de sa démarche de création ou d’interprétation.",
+    "concepts": [
+      "essai",
+      "coopération",
+      "révision",
+      "présentation"
+    ]
+  },
+  "titre_source": "Présenter et analyser sa démarche dramatique",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "essai, coopération, révision",
+      "prompt_conceptuel": "Concept d'image pour le cours « Présenter et analyser sa démarche dramatique ». Représenter un espace de jeu dramatique où des personnes expérimentent les gestes, la posture et la voix. Mettre en évidence les notions : essai, coopération, révision, présentation. L'image doit aider à comprendre l'objectif « Analyser les étapes de sa démarche de création ou d’interprétation. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Présenter et analyser sa démarche dramatique : essai, coopération, révision.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "essai, coopération, révision",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Présenter et analyser sa démarche dramatique » : montrer une courte situation jouable impliquant des rôles, des intentions ou des relations. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter essai, coopération, révision, présentation. Cette image sert de point de départ à une activité liée à l'objectif « Analyser les étapes de sa démarche de création ou d’interprétation. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Le signal du phare (interprétation avec objet) »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Présenter et analyser sa démarche dramatique.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Le signal du phare (interprétation avec objet)",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

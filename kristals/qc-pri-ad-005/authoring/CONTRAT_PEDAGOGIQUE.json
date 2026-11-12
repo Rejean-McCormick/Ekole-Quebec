@@ -1,0 +1,98 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ad-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Organiser les éléments d’une mise en scène simple pour un public.",
+  "concepts": [
+    "espace",
+    "entrée",
+    "rôle",
+    "consigne"
+  ],
+  "preuve_attendue": "Présenter une mise en scène et justifier ses choix scéniques.",
+  "prerequis_bloquants": [
+    "qc-pri-ad-004"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ad-005-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Présenter une mise en scène et justifier ses choix scéniques.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "controle_variations": "scénarios fixes q-001 à q-012; les adaptations changent uniquement la modalité, non les critères; aucune génération automatique exécutée"
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ad-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "plan scénique schématique ou tactile",
+        "consignes textuelles ou audio",
+        "mise en scène jouée, manipulée ou mise en régie",
+        "justification orale, écrite ou dictée"
+      ],
+      "variables": {
+        "mode_production": [
+          "interprétation volontaire",
+          "marionnettes/figurines",
+          "régie de scène avec présentation des repères"
+        ],
+        "corpus_scenarios_approuves": [
+          "q-001",
+          "q-002",
+          "q-003",
+          "q-004",
+          "q-005",
+          "q-006",
+          "q-007",
+          "q-008",
+          "q-009",
+          "q-010",
+          "q-011",
+          "q-012"
+        ],
+        "substitution_interdite": "pas de texte ou de scène produit librement et non révisé par IA"
+      },
+      "contraintes": [
+        "préserver objectif et preuve; un espace et un parcours visibles depuis la position du public",
+        "une entrée signalée et associée à un rôle",
+        "consignes formulées en actions observables",
+        "situations fictives neutres, participation et rôles consentis",
+        "trajets sûrs et accessibles; aucune course, obscurité, prise de contact ou captation imposée",
+        "au moins deux présentations en contextes distincts pour la maîtrise",
+        "seuls les scénarios écrits et relus de la banque sont utilisés; aucune génération libre"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "espace_securite",
+          "entree_moment",
+          "roles_identifiables",
+          "consignes_executables",
+          "justifications_public"
+        ],
+        "niveaux": "0 non observable; 1 émergent; 2 satisfaisant; 3 transférable",
+        "maitrise": "2 ou 3 à chacune des 5 dimensions sur deux preuves distinctes, dont une autonome sans indices; sécurité obligatoire"
+      },
+      "source": "scénarios et grilles originaux du présent Kristal, contrôles documentés dans sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

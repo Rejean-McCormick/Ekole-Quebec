@@ -1,0 +1,74 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Exécuter et reformuler des consignes orales courantes en anglais.",
+  "concepts": [
+    "formules usuelles",
+    "consignes",
+    "contexte"
+  ],
+  "preuve_attendue": "Suivre trois instructions inédites puis indiquer leur sens.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-001-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Suivre trois instructions inédites puis indiquer leur sens.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_reviser",
+      "kristal_id": "qc-pri-als-001",
+      "objectif_id": "obj-1",
+      "critere": "Suivre trois instructions inédites puis indiquer leur sens.",
+      "critere_id": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "stimulus oral anglais, script stable lu par adulte ou enregistré",
+        "manipulation/pointage sans démonstration adulte",
+        "reformulation du sens en français, anglais simple ou CAA"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Corpus fermé de dix items fixes; seuls paramètres logistiques neutres (matériel équivalent et modalité motrice accessible) peuvent varier.",
+        "Proposer deux séries distinctes de trois instructions inédites q-009 et q-010; ne pas transmettre les scripts à l’élève avant la mesure.",
+        "Lecture orale identique, débit intelligible, une répétition littérale autorisée, aucun indice sémantique ni transcription en condition habituelle.",
+        "Évaluer indépendamment action juste et indication du sens; zéro pénalité pour accent non natif ou formulation française correcte.",
+        "Deux contextes maîtrisés sans guidage; révision humaine obligatoire avant épreuve sommative."
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "action_executée",
+          "sens_reformulé",
+          "autonomie"
+        ],
+        "ancrage": "q-009 et q-010 : pour chaque série de 3 consignes, 3 actions correctes ET 3 sens corrects sans indice sémantique",
+        "decision": "Deux séries de contextes distincts satisfaites; ne pas inférer la maîtrise d’un total unique."
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "evaluation/GRILLE_MAITRISE.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

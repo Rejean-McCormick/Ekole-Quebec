@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ap-001",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Identifier et décrire des éléments visuels dans des images et objets.",
+    "concepts": [
+      "ligne",
+      "forme",
+      "couleur",
+      "texture"
+    ]
+  },
+  "titre_source": "Observer formes, lignes, couleurs et textures",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "ligne, forme, couleur",
+      "prompt_conceptuel": "Concept d'image pour le cours « Observer formes, lignes, couleurs et textures ». Représenter un atelier de création présentant matériaux, outils ou éléments plastiques liés à la notion. Mettre en évidence les notions : ligne, forme, couleur, texture. L'image doit aider à comprendre l'objectif « Identifier et décrire des éléments visuels dans des images et objets. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Observer formes, lignes, couleurs et textures : ligne, forme, couleur.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "ligne, forme, couleur",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Observer formes, lignes, couleurs et textures » : montrer une situation où une personne observe, compare ou crée avec des matériaux. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter ligne, forme, couleur, texture. Cette image sert de point de départ à une activité liée à l'objectif « Identifier et décrire des éléments visuels dans des images et objets. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Une affiche du marché »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Observer formes, lignes, couleurs et textures.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Une affiche du marché",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

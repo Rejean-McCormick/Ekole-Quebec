@@ -1,0 +1,98 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-028",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Mesurer ou calculer une aire en unités carrées adaptées.",
+  "concepts": [
+    "surface",
+    "quadrillage",
+    "unité carrée"
+  ],
+  "preuve_attendue": "Déterminer l’aire de figures quadrillées et expliquer la méthode.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-023",
+    "qc-pri-ma-025"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-028-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Déterminer l’aire de figures quadrillées et expliquer la méthode.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Un ensemble fini de cas contrôlés, index (seed % N), paramètres entiers et unités cohérentes; exemples intégralement vérifiés; aucun tirage libre.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "correcteur": "Pour chaque instance, recompter les symboles # et calculer indépendamment par somme de rangées et/ou découpage; refuser une variante discordante."
+      },
+      "review_status": "items_rediges_revision_humaine_requise",
+      "kristal_id": "qc-pri-ma-028",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "quadrillage de cases entières #/.",
+        "pavage de carrés identiques",
+        "somme de rangées",
+        "rectangles disjoints",
+        "unité et notation carrée"
+      ],
+      "variables": {
+        "mode": "table_finie_indexee",
+        "index": "seed modulo nombre_instances",
+        "specification": "cases approuvées et solution recalculée pour chaque instance; aucune génération libre",
+        "items_parametriques": [
+          "q-004",
+          "q-007",
+          "q-009",
+          "q-010"
+        ]
+      },
+      "contraintes": [
+        "grille rectangulaire d’écriture, chaque # est une case carrée entière",
+        "cases uniformes, aucune superposition des bandes",
+        "pas de cm² si le côté de la case est inconnu",
+        "si côté en cm, aire_case = cote_cm²",
+        "une réponse vérifiable par dénombrement indépendant",
+        "deux contextes autonomes distincts pour maîtrise",
+        "aucune image externe ni tirage IA libre"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "observables": [
+          "aire exacte",
+          "bonne unité",
+          "justification par cases",
+          "autonomie",
+          "transfert en contextes distincts"
+        ],
+        "note_unique_suffisante": false
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/BANQUE_ITEMS.json",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": {
+        "q-004": 2028,
+        "q-007": 2030,
+        "q-009": 2027,
+        "q-010": 2029
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

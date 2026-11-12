@@ -1,0 +1,89 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ilss-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier les pratiques de classe et les ressources permettant d’obtenir de l’aide.",
+  "concepts": [
+    "règle",
+    "procédure",
+    "soutien",
+    "coopération"
+  ],
+  "preuve_attendue": "Expliquer quoi faire face à un scénario scolaire fictif.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Expliquer quoi faire face à un scénario scolaire fictif.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ilss-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Expliquer quoi faire face à un scénario scolaire fictif.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "scenario_texte_clair",
+        "affiche_locale_decrite",
+        "pictogrammes_decrits",
+        "oral",
+        "jeu_de_role"
+      ],
+      "variables": {
+        "mode": "scenarios_fermés_sans_génération_libre",
+        "selection": "pour les items q-011 et q-012 : variantes A et B annoncées, indice = seed % 2, 0 → A, 1 → B",
+        "domaine_seed": "entier positif 0..999999",
+        "autres_items": "fixes; aucune variable"
+      },
+      "contraintes": [
+        "observer uniquement les faits et règles donnés dans le scénario",
+        "aucune règle locale inconnue exigée",
+        "demander à un adulte pour une consigne inconnue",
+        "danger signalé immédiatement à un adulte",
+        "langue et modalité de réponse sans effet sur score cognitif",
+        "évaluer au moins deux contextes distincts et autonomie sans indice"
+      ],
+      "barreme_ou_rubrique": {
+        "R_regle_procedure": "0..2",
+        "S_soutien_pertinent": "0..2",
+        "A_action_justifiee_et_securite": "0..2",
+        "C_cooperation_si_pertinente": "0..2",
+        "decision": "R,S,A chacun >=1, et R+S+A >=5/6 pour chaque contexte de preuve; C descriptif si applicable; deux contextes dont un sans indices; décision humaine sur comportement observable"
+      },
+      "source": [
+        "gouvernance/Norme_Pedagogique_Autonome_v1.2/CONTRAT_PEDAGOGIQUE_V1.2.md",
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": {
+        "q-001_a_q-010": null,
+        "q-011": 31010,
+        "q-012": 31013
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "instances_maitrise": [
+        "qc-pri-ilss-009-q-011",
+        "qc-pri-ilss-009-q-012"
+      ]
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

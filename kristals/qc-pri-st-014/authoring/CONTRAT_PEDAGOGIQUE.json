@@ -1,0 +1,98 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-014",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Expliquer par un schéma les principaux changements d’état et déplacements de l’eau.",
+  "concepts": [
+    "évaporation",
+    "condensation",
+    "précipitation",
+    "circulation"
+  ],
+  "preuve_attendue": "Construire une représentation commentée du cycle de l’eau.",
+  "prerequis_bloquants": [
+    "qc-pri-st-005"
+  ],
+  "ordre_conseille": [
+    "qc-pri-st-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-014-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Construire une représentation commentée du cycle de l’eau.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Uniquement scénarios complets et corrigés de BANQUE_ITEMS.json; adaptations de support non sémantiques. Sélection stable par scenario_id et seed documentés.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection": "catalogue_ferme_non_aleatoire; les deux preuves de maîtrise sont toujours q-009 puis q-010 (ou séances distinctes)"
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-st-014",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "schéma annoté et flèches orientées",
+        "explication écrite/orale/assistée",
+        "cartes de flux et maquette tactile"
+      ],
+      "variables": {
+        "famille": "catalogue_de_scenarios_fermes",
+        "catalogue_ids": [
+          "pluie_sur_lac",
+          "brume_vitre_froide",
+          "cote_lac_riviere",
+          "montagne_nappe_neige"
+        ],
+        "regle_selection": "une tâche = un scénario fixé dans BANQUE_ITEMS.json; aucun texte scientifique inventé à la volée",
+        "variabilite": [
+          "support papier/tactile/numérique",
+          "ordre de présentation des cartes (non sémantique)",
+          "présentation texte/audio"
+        ]
+      },
+      "contraintes": [
+        "un schéma légendé avec flèches orientées",
+        "pas de processus physiquement faux",
+        "vapeur d’eau invisible",
+        "précipitation distincte de la condensation",
+        "rétroaction critériée et non impressionniste",
+        "deux contextes de maîtrise différents et autonomes",
+        "aucune expérimentation chauffée ou dangereuse",
+        "représentations accessibles"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "lieux/reservoirs",
+          "changements_detat",
+          "precipitation_et_circulation",
+          "commentaire_causal",
+          "autonomie"
+        ],
+        "echelle": "0 absent / 1 partiel / 2 exact et autonome",
+        "decision": "deux preuves indépendantes respectant les cinq critères essentiels, sans moyenne compensatoire"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": 14014,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

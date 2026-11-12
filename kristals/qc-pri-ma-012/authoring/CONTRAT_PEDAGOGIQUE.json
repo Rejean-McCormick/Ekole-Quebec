@@ -1,0 +1,89 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-012",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Représenter une fraction comme partie d’un tout ou d’une collection.",
+  "concepts": [
+    "tout",
+    "parts égales",
+    "numérateur",
+    "dénominateur"
+  ],
+  "preuve_attendue": "Produire trois représentations correctes d’une même fraction simple.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-012-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Produire trois représentations correctes d’une même fraction simple.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Catalogues fermés par item, index=seed % longueur; a/b propre et entier; N=b*m et K=a*m; ne changer que les variantes listées et validées.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme": "Pour une seed non négative s, index = s modulo longueur du catalogue ordonné; lire (a,b,m); construire surface et bande à b parts égales dont a choisies; pour la collection choisir K=a*m sur N=b*m. Vérifier Fraction(K,N)==Fraction(a,b), 0<a<b, N>=K."
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ma-012",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 : Produire trois représentations correctes d’une même fraction simple.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "surface_partition_aire_egale",
+        "bande_segments_egaux",
+        "collection_groupes_egaux"
+      ],
+      "variables": {
+        "a": "numérateur, entier 1 <= a < b",
+        "b": "dénominateur, valeur du catalogue fermé {2,3,4,5,6,8}",
+        "m": "nombre d’objets par groupe, entier 1..4",
+        "N": "b*m",
+        "K": "a*m"
+      },
+      "contraintes": [
+        "Tout annoncé pour chacun des modèles",
+        "Surface de b aires égales, a choisies",
+        "Bande de b longueurs égales, a choisies",
+        "Collection de N=b*m objets en b groupes égaux de m, K=a*m choisis",
+        "Toutes les variantes proviennent des catalogues de BANQUE_ITEMS.json; une seed indexe le catalogue",
+        "Aucune variation libre du corrigé ou des scénarios"
+      ],
+      "barreme_ou_rubrique": {
+        "controle": "grille_qualitative_sans_moyenne",
+        "dimensions": [
+          "unite_et_total",
+          "egalite_des_parts",
+          "fraction_et_concordance",
+          "diversite_des_trois_modeles",
+          "justification_et_autonomie"
+        ],
+        "maitrise": "deux_preuves_sans_indice_dans_deux_contextes_distincts_avec_toutes_dimensions_valides",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": {
+        "internes": [
+          "authoring/PARCOURS.md",
+          "authoring/ALIGNEMENT.md",
+          "governance/Norme_Pedagogique_Autonome_v1.2/CONTRAT_PEDAGOGIQUE_V1.2.md",
+          "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md"
+        ],
+        "production": "items et corrigés originaux de cette livraison",
+        "references": "sources/REFERENCES_CONTENU.md"
+      },
+      "seed": 12012,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "cours_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

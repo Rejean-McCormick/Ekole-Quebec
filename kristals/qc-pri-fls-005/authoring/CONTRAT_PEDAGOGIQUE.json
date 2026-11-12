@@ -1,0 +1,87 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Développer et relancer un échange oral en français au-delà des routines.",
+  "concepts": [
+    "tour de parole",
+    "clarification",
+    "précision"
+  ],
+  "preuve_attendue": "Soutenir une conversation brève et demander une précision utile.",
+  "prerequis_bloquants": [
+    "qc-pri-fls-004"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-005-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Soutenir une conversation brève et demander une précision utile.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_choisi": "fixe_controle",
+        "catalogue_scenarios": "evaluation/BANQUE_ITEMS.json",
+        "controle": "stimuli fixes, réponses du partenaire prescrites; la réponse humaine est observée avec grille, pas générée librement",
+        "seed_applique": null
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-fls-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "dialogue oral interactif avec cartes-rôles fixes",
+        "fiche d’observation T/C/R/P"
+      ],
+      "variables": [],
+      "contraintes": [
+        "10 stimuli et cartes-réponses fixés par item; pas de substitution libre",
+        "les formulations synonymes compréhensibles sont acceptées",
+        "pour deux preuves finales, aucune phrase-indice pendant la passation",
+        "les supports d’accessibilité ne doivent pas répondre à la place de l’apprenant",
+        "aucun jugement sur l’accent, le débit, l’identité ou les opinions"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "T: échange et tours liés",
+          "C: clarification utile",
+          "R: relance distincte",
+          "P: précision comprise et intégrée"
+        ],
+        "niveaux": [
+          "non_encore_demontre",
+          "avec_aide_ou_partiel",
+          "autonome"
+        ],
+        "decision": "2 preuves autonomes dans 2 contextes différents sur les quatre dimensions; aucune décision fondée sur une note unique"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "contenu/02_DIAGNOSTIC.md",
+        "contenu/03_ENSEIGNEMENT_GUIDE.md",
+        "contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+        "contenu/05_PRATIQUE_AUTONOME.md",
+        "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

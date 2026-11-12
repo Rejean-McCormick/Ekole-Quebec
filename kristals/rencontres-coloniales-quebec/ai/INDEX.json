@@ -1,0 +1,137 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:rencontres-coloniales-quebec",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:d7f0ba7fdcdc552d4a8c42d943373e8bf8b61b48b4b7a6f2e85628bea2e86c14"
+  },
+  "files": [
+    {
+      "path": "canon/domain/encyclopedie-comportement-v1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 61229,
+      "sha256": "sha256:5e01d018b5d030952a75ad6acb3267251ebd872b590e3212d17d82b3c95ead26",
+      "artifact_id": "urn:kristal:rencontres-coloniales-quebec:encyclopedie-comportement-v1",
+      "logical_contract": {
+        "id": "ekole.encyclopedie-comportement",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/domain/graphe-v3.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 46684,
+      "sha256": "sha256:a11090b236413eb8842d9e5ff5af82cef459c5809f748dd43332d13e5c705bc6",
+      "artifact_id": "urn:kristal:rencontres-coloniales-quebec:graphe-v3",
+      "logical_contract": {
+        "id": "ekole.societes-contextualisees",
+        "version": "3.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 1312,
+      "sha256": "sha256:4a268b09dcb512daf513defce0674c9db19404df3d3e0de96c46cb254b9b5e78"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 149,
+      "sha256": "sha256:ad92d86deb4d0874a0e4e8032cd34389d40be3ceed184dcd7ee3c98e49a4ce66"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 311,
+      "sha256": "sha256:e64f8d02ed78ec658d24e28f5b3350e1f9019cb3a76435db87c7f3e268af52cc"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 382,
+      "sha256": "sha256:d537d1aed326bca7a4b76651eecdb3ab983cdeaf9bd49ccbae1404bd96257b1b"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 356,
+      "sha256": "sha256:6418e38b6e54893d2a03bf702f754b192f48679ad89853b405e1b325260a53b7"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 311,
+      "sha256": "sha256:9ca1154b18ae0980a96e562cedbef1ce85a2912940cf52819dd0fd402e1b1345"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 287,
+      "sha256": "sha256:4ef452034359517fbbc8038117817fc8695d5c3effc12544e8b7437ac6323b77"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 546,
+      "sha256": "sha256:6e682d02844884e0e84511b8b71089bcbb0918170f0676e1a5843e2f1a8aad3d"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 795,
+      "sha256": "sha256:ae4e01c7a5ecdb94b4603452bdc78973771b000addd3ed83ebf2082db1d5022b"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 218,
+      "sha256": "sha256:1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01"
+    },
+    {
+      "path": "docs/09_CADRE_PEDAGOGIQUE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 706,
+      "sha256": "sha256:91c128ef7ff366a85de2134925eb8f5ac286effe58085cffc1208a3ee4baeb46"
+    },
+    {
+      "path": "docs/PROFILE_NOTES.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 180,
+      "sha256": "sha256:5f62161b993e08b75068058c91f55fb7e105775d86fcf52e38fdd2f6be7d7d44"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 15049,
+      "sha256": "sha256:d67274d8d3d4e1e09a79118da625542c6b705a27814cf1f000a5c9c4a951846d"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 1251,
+      "sha256": "sha256:a7aec3239aa031a5981ba3ce01b0cc72e6b1244a713447162bc92974db84befd",
+      "state_ref": "urn:kristal:state:rencontres-coloniales-quebec",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:d7f0ba7fdcdc552d4a8c42d943373e8bf8b61b48b4b7a6f2e85628bea2e86c14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ap-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Expliquer son processus de création et des ajustements apportés.",
+  "concepts": [
+    "intention",
+    "essai",
+    "choix",
+    "réflexion"
+  ],
+  "preuve_attendue": "Présenter un portfolio commenté de deux étapes de création.",
+  "prerequis_bloquants": [
+    "qc-pri-ap-005"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ap-009-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Présenter un portfolio commenté de deux étapes de création.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_effectif": [
+          "fixe",
+          "scenario_controle"
+        ],
+        "seed_utilisee": null,
+        "controle": "rubrique_humaine_requise; aucune génération IA libre ni correction automatique comme autorité"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-ap-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte_ou_audio_de_cas_fictif",
+        "comparaison_d_etats_A_B",
+        "production_graphique_A_B_et_commentaire_multimodal"
+      ],
+      "variables": [],
+      "contraintes": [
+        "10 items à stimuli fixes ou scénarios contrôlés; aucune génération libre par IA",
+        "Deux portfolios authentiques A/B, une affiche (M1 q-009) et un jardin imaginaire (M2 q-010), distincts et autonomes",
+        "Pas de jugement esthétique, ni de note sur la motricité, la diction ou l’identité",
+        "Papier, crayons, feutres lavables, formes prédécoupées; pas de lames/solvants/chaleur",
+        "Aides d’accès permises mais absence de suggestion cognitive pour les preuves finales",
+        "Seuls les médiums et choix plastiques varient à l’intérieur des contextes fixés"
+      ],
+      "barreme_ou_rubrique": {
+        "type": "grille_critériée_processus",
+        "dimensions": [
+          "D1_traces_A_B",
+          "D2_intention_et_essai",
+          "D3_choix_ajustement_justification",
+          "D4_reflexion_communication"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seuil_par_preuve": "chaque_dimension_au_moins_2",
+        "preuves_distinctes": 2,
+        "regle": "M1_et_M2_independantes_et_sans_aide_cognitive",
+        "document": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "archive_source:Frames_202_Kristals_Primaire_Qc_v1.2_Enrichis/kristals/qc-pri-ap-009/authoring/PARCOURS.md",
+        "archive_source:Frames_202_Kristals_Primaire_Qc_v1.2_Enrichis/governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "production_originale:qc-pri-ap-009/evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

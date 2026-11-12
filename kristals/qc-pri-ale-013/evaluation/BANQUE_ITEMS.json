@@ -1,0 +1,491 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ale-013",
+  "family_id": "qc-pri-ale-013-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ale-013-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Maya: Are we bringing our books to the book swap on Tuesday?\nNoah: Actually, it has moved to Thursday because the hall is busy on Tuesday.\nMaya: So we should bring one book on Thursday?\nNoah: Yes, one book each. The teacher will tell us which room to use.",
+      "reponse_attendue": "Model summary: The class book swap moved from Tuesday to Thursday; each student should bring one book. Supporting details (choose two): It was originally planned for Tuesday. Each student should bring one book. Model clarification: Which room will the book swap be in? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: Actually marks a correction; So signals a check of the updated plan. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Book swap change",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées; tâches et consignes écrites visibles, mais transcription gardée par la personne qui fait écouter.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "The class book swap moved from Tuesday to Thursday; each student should bring one book.",
+        "details": [
+          "It was originally planned for Tuesday.",
+          "Each student should bring one book."
+        ],
+        "clarification": "Which room will the book swap be in?",
+        "oral_cues": "Actually marks a correction; So signals a check of the updated plan."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": null,
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Elena: Shall we serve cookies at the class show?\nSam: We could, but the class voted for fruit cups instead.\nElena: Do we need to bring them from home?\nSam: Yes, please bring a fruit cup. I have not heard when to drop it off.",
+      "reponse_attendue": "Model summary: The class chose fruit cups instead of cookies for the show, and students should bring one. Supporting details (choose two): The original idea was cookies. Students must bring fruit cups from home. Model clarification: When should we drop off the fruit cups? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: But marks the change in choice; instead introduces the replacement. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Snack plan",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées; tâches et consignes écrites visibles, mais transcription gardée par la personne qui fait écouter.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "The class chose fruit cups instead of cookies for the show, and students should bring one.",
+        "details": [
+          "The original idea was cookies.",
+          "Students must bring fruit cups from home."
+        ],
+        "clarification": "When should we drop off the fruit cups?",
+        "oral_cues": "But marks the change in choice; instead introduces the replacement."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": null,
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Priya: I cannot find the astronomy book on the shelf.\nLiam: The librarian moved those books to a blue cart this morning.\nPriya: Oh, so I should look on the blue cart?\nLiam: Exactly. And remember, your library book is due on Friday.",
+      "reponse_attendue": "Model summary: Priya learns where to look for the astronomy book that has been moved. Supporting details (choose two): The astronomy books were moved to a blue cart. Priya has a library book due on Friday. Model clarification: Where is the blue cart? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: So restates the action; exactly confirms the listener understood. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Missing library book",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées; tâches et consignes écrites visibles, mais transcription gardée par la personne qui fait écouter.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "Priya learns where to look for the astronomy book that has been moved.",
+        "details": [
+          "The astronomy books were moved to a blue cart.",
+          "Priya has a library book due on Friday."
+        ],
+        "clarification": "Where is the blue cart?",
+        "oral_cues": "So restates the action; exactly confirms the listener understood."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": null,
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Jules: Does music club still begin at four today?\nRobin: No. Because the hall is in use, we will start at four thirty in Room Eight.\nJules: Four thirty in Room Eight. Thanks for telling me.\nRobin: You are welcome. I do not know how long rehearsal will last.",
+      "reponse_attendue": "Model summary: Music club starts at 4:30 in Room Eight instead of 4:00. Supporting details (choose two): The hall is in use. The updated start time is 4:30. Model clarification: How long will rehearsal last? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: No corrects the old time; because introduces the reason. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Music club",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées; tâches et consignes écrites visibles, mais transcription gardée par la personne qui fait écouter.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "Music club starts at 4:30 in Room Eight instead of 4:00.",
+        "details": [
+          "The hall is in use.",
+          "The updated start time is 4:30."
+        ],
+        "clarification": "How long will rehearsal last?",
+        "oral_cues": "No corrects the old time; because introduces the reason."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": null,
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Asha: Will games day be outside tomorrow?\nBen: The forecast says rain, so we are moving all activities indoors.\nAsha: Where should we meet?\nBen: At the gym entrance at nine in the morning. We have not chosen which games to play yet.",
+      "reponse_attendue": "Model summary: Games day will take place indoors because of the rain forecast. Supporting details (choose two): Students meet at the gym entrance. The meeting time is 9:00 a.m. Model clarification: Which games will we play inside? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: So introduces the decision based on the rain forecast. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Indoor games day",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées; tâches et consignes écrites visibles, mais transcription gardée par la personne qui fait écouter.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "Games day will take place indoors because of the rain forecast.",
+        "details": [
+          "Students meet at the gym entrance.",
+          "The meeting time is 9:00 a.m."
+        ],
+        "clarification": "Which games will we play inside?",
+        "oral_cues": "So introduces the decision based on the rain forecast."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": null,
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Nina: Our plant team has finished setting up the seedlings. What happens next?\nOwen: Starting tomorrow, we will check the leaves every day and note their colour.\nNina: Should we water the plants at each check?\nOwen: Not automatically. First we observe. The teacher has not said where we will store the notebooks.",
+      "reponse_attendue": "Model summary: The team will begin daily observations of the seedlings and record leaf colour. Supporting details (choose two): They begin tomorrow. They should observe before deciding whether to water. Model clarification: Where will we store our observation notebooks? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: Starting tomorrow marks the time; not automatically corrects an assumption. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Plant observations",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées; tâches et consignes écrites visibles, mais transcription gardée par la personne qui fait écouter.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "The team will begin daily observations of the seedlings and record leaf colour.",
+        "details": [
+          "They begin tomorrow.",
+          "They should observe before deciding whether to water."
+        ],
+        "clarification": "Where will we store our observation notebooks?",
+        "oral_cues": "Starting tomorrow marks the time; not automatically corrects an assumption."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": null,
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Nora: Should we eat near the river or in the park?\nEli: The path near the river is closed. Instead, we can use the shaded picnic area in the park.\nNora: That makes sense. Do we know when to leave school?\nEli: Not yet. We will get the departure time tomorrow.",
+      "reponse_attendue": "Model summary: The group will use the shaded park picnic area rather than the closed riverside path. Supporting details (choose two): The riverside path is closed. The park has a shaded picnic area. Model clarification: What time will we leave school? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: Instead replaces an unavailable choice with a possible one. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Picnic location",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées; tâches et consignes écrites visibles, mais transcription gardée par la personne qui fait écouter.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "The group will use the shaded park picnic area rather than the closed riverside path.",
+        "details": [
+          "The riverside path is closed.",
+          "The park has a shaded picnic area."
+        ],
+        "clarification": "What time will we leave school?",
+        "oral_cues": "Instead replaces an unavailable choice with a possible one."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": null,
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Drew: Can I still send my article for the school newsletter on Wednesday?\nKai: Actually, the deadline is now Monday because the editor needs more time.\nDrew: Then I will finish it this weekend. Do I email it?\nKai: Yes, but I need to check which address we should use.",
+      "reponse_attendue": "Model summary: The school newsletter deadline moved earlier, from Wednesday to Monday. Supporting details (choose two): The editor needs more time. Articles will be emailed. Model clarification: Which email address should I use? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: Actually announces a correction; then indicates the speaker’s plan. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "School newsletter",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées; tâches et consignes écrites visibles, mais transcription gardée par la personne qui fait écouter.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "The school newsletter deadline moved earlier, from Wednesday to Monday.",
+        "details": [
+          "The editor needs more time.",
+          "Articles will be emailed."
+        ],
+        "clarification": "Which email address should I use?",
+        "oral_cues": "Actually announces a correction; then indicates the speaker’s plan."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": null,
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Leah: Are we practising our scene in the courtyard?\nAmir: No, the wind is too strong, so we will use the main stage at school.\nLeah: Do we arrive at three?\nAmir: Please come at ten past three. Nobody has confirmed whether costumes are needed.",
+      "reponse_attendue": "Model summary: Drama rehearsal moved from the courtyard to the main stage because of wind. Supporting details (choose two): Students should arrive at 3:10. Strong wind prompted the change. Model clarification: Do we need to bring costumes? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: So connects the wind to the location change; no rejects the old location. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Drama rehearsal",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées; tâches et consignes écrites visibles, mais transcription gardée par la personne qui fait écouter.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "Drama rehearsal moved from the courtyard to the main stage because of wind.",
+        "details": [
+          "Students should arrive at 3:10.",
+          "Strong wind prompted the change."
+        ],
+        "clarification": "Do we need to bring costumes?",
+        "oral_cues": "So connects the wind to the location change; no rejects the old location."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": null,
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Zoe: Is the neighbourhood book drive still happening on Saturday?\nFinn: Yes. It opens at ten, and the donation box will be beside the community centre entrance.\nZoe: Great. Can I bring any kind of book?\nFinn: The notice does not say. We should ask the organizer first.",
+      "reponse_attendue": "Model summary: The Saturday book drive will collect donations at the community centre. Supporting details (choose two): It opens at 10:00 a.m. The donation box is near the entrance. Model clarification: Which kinds of books can we donate? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: Yes confirms the event; the notice does not say identifies missing information. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Neighbourhood book drive",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées; tâches et consignes écrites visibles, mais transcription gardée par la personne qui fait écouter.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "The Saturday book drive will collect donations at the community centre.",
+        "details": [
+          "It opens at 10:00 a.m.",
+          "The donation box is near the entrance."
+        ],
+        "clarification": "Which kinds of books can we donate?",
+        "oral_cues": "Yes confirms the event; the notice does not say identifies missing information."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": null,
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Tara: Are we starting the reading buddies program this week?\nMiles: Yes. On Wednesday at lunchtime, older students will read with younger students in the school library.\nTara: Should I bring a book from home?\nMiles: You may bring one, but there will also be books to choose from in the library.\nTara: Is there anything else we should know?\nMiles: The announcement has not explained how to sign up yet.",
+      "reponse_attendue": "Model summary: Reading buddies begins Wednesday at lunchtime in the school library, where older and younger students read together. Supporting details (choose two): Students may bring a book or choose one in the library. The session is at lunchtime on Wednesday. Model clarification: How do students sign up for reading buddies? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: But contrasts two options for obtaining a book; not explained marks a genuine information gap. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Reading buddies — autonomous proof A",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées, sans transcription affichée avant la réponse. Aucune aide sur la main idea ou la question de clarification.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "Reading buddies begins Wednesday at lunchtime in the school library, where older and younger students read together.",
+        "details": [
+          "Students may bring a book or choose one in the library.",
+          "The session is at lunchtime on Wednesday."
+        ],
+        "clarification": "How do students sign up for reading buddies?",
+        "oral_cues": "But contrasts two options for obtaining a book; not explained marks a genuine information gap."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": "A — school reading program",
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    },
+    {
+      "item_id": "qc-pri-ale-013-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-013-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Listen to the conversation twice. Give a one- or two-sentence summary of its main idea, include two accurate supporting details, and ask one useful clarification question about information the speakers have not provided.",
+      "stimulus": "Evan: Is our group still visiting the local nature exhibit on Friday?\nGrace: Yes. The museum guide will meet us at the main entrance at two thirty.\nEvan: Should I bring my sketchbook?\nGrace: Please do. We will draw one object we notice during the tour.\nEvan: Can we visit other exhibits afterward?\nGrace: Maybe. The guide has not announced when the tour finishes.",
+      "reponse_attendue": "Model summary: The group will tour a local nature exhibit at the museum on Friday and make a sketch. Supporting details (choose two): The guide meets the group at the main entrance at 2:30. Students should bring a sketchbook. Model clarification: What time will the tour finish? Other accurate paraphrases and relevant unanswered questions are acceptable; do not credit invented details.",
+      "criteres": [
+        "Main idea names the central decision, change or purpose without reversing facts (0–2).",
+        "At least two separate correct supporting details, 1 point each (0–2).",
+        "One relevant clarification question addresses a genuine missing detail, not something already stated (0–2).",
+        "Response faithfully distinguishes stated information from inference and respects the interaction (0–2)."
+      ],
+      "feedback": "Check the central message before focusing on small details. Cue check: Please do confirms the sketchbook request; I do not know states missing information. If the question asks about something already stated, ask what useful information remains unknown.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "titre_scenario": "Museum nature visit — autonomous proof B",
+      "passation": {
+        "modalite": "Échange lu à voix naturelle par deux voix distinctes, ou enregistrement créé localement à partir du script autorisé. La transcription est réservée à la personne qui administre pendant la tâche.",
+        "ecoutes": 2,
+        "conditions": "Deux écoutes intégrales autorisées, sans transcription affichée avant la réponse. Aucune aide sur la main idea ou la question de clarification.",
+        "rubrique_points_max": 8
+      },
+      "points_fixes": {
+        "main_idea": "The group will tour a local nature exhibit at the museum on Friday and make a sketch.",
+        "details": [
+          "The guide meets the group at the main entrance at 2:30.",
+          "Students should bring a sketchbook."
+        ],
+        "clarification": "What time will the tour finish?",
+        "oral_cues": "Please do confirms the sketchbook request; I do not know states missing information."
+      },
+      "variation_permise": "Ordre ou voix des lecteurs, vitesse raisonnable et reformulations de la réponse; aucun ajout/suppression de faits ou changement de script sans réviser le corrigé.",
+      "preuve_maitrise": "B — local museum visit",
+      "source": "dialogue original produit pour qc-pri-ale-013; scénario fictif, non témoignage réel."
+    }
+  ],
+  "passation_generale": "Faire entendre chaque dialogue anglais à deux voix deux fois; ne pas montrer le script avant la réponse, sauf adaptation documentée. Aucun audio inclus: les scripts intégralement reproductibles permettent une lecture en direct.",
+  "cle_correction": "Grille sur 8 points; correction humaine des paraphrases et des questions, pas validation automatisée par correspondance textuelle.",
+  "statut_global": "a_revoir",
+  "variations": "Corpus fermé; nouveaux scripts ou modifications factuelles exigent nouveaux corrigés et revue humaine."
+}

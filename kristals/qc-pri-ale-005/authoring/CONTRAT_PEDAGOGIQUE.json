@@ -1,0 +1,89 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Repérer et organiser les informations d’un texte informatif en anglais.",
+  "concepts": [
+    "main idea",
+    "detail",
+    "heading",
+    "evidence"
+  ],
+  "preuve_attendue": "Créer une fiche de synthèse d’un document nouveau.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-003"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-005-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Créer une fiche de synthèse d’un document nouveau.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ale-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Créer une fiche de synthèse d’un document nouveau.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "short informative passage with sentence numbering",
+        "heading/main-idea/detail/evidence organiser",
+        "independent fact sheet"
+      ],
+      "variables": {
+        "mode": "corpus_fixe_controle",
+        "ids_autorises": [
+          "qc-pri-ale-005-q-001",
+          "qc-pri-ale-005-q-002",
+          "qc-pri-ale-005-q-003",
+          "qc-pri-ale-005-q-004",
+          "qc-pri-ale-005-q-005",
+          "qc-pri-ale-005-q-006",
+          "qc-pri-ale-005-q-007",
+          "qc-pri-ale-005-q-008",
+          "qc-pri-ale-005-q-009",
+          "qc-pri-ale-005-q-010",
+          "qc-pri-ale-005-q-011",
+          "qc-pri-ale-005-q-012"
+        ],
+        "rotation": "aucune; textes verrouillés par item"
+      },
+      "contraintes": [
+        "Original English passages only; each response must cite locatable evidence.",
+        "No unsupported background assumptions or free text generation.",
+        "At least two new and distinct contexts with fully independent summary sheets.",
+        "Same analytic rubric under allowed access supports."
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "main_idea",
+          "supporting_details",
+          "located_evidence",
+          "organisation"
+        ],
+        "echelle": "0–2 par dimension",
+        "maitrise": "2 par dimension, sur deux contextes distincts, sans indice de contenu"
+      },
+      "source": "Sources fictionnelles originales consignées dans evaluation/BANQUE_ITEMS.json; sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

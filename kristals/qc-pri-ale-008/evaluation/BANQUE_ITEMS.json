@@ -1,0 +1,667 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ale-008",
+  "family_id": "qc-pri-ale-008-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ale-008-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Sports and reuse\nSentence 1: The referee gave one team extra points for no reason, so the other players said the decision was unfair.\nSentence 2: Instead of throwing away the paper bag, Mira folded it neatly to reuse it tomorrow.\nTarget words: unfair; reuse.",
+      "reponse_attendue": "Sentence 1 — unfair: not fair or not just. Word parts: un- + fair. Context quote: “gave one team extra points for no reason”. Justification: The prefix reverses the sense of fair.\nSentence 2 — reuse: use again. Word parts: re- + use. Context quote: “Instead of throwing away the paper bag”. Justification: The bag is being kept for another use.",
+      "criteres": [
+        "For unfair: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For reuse: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed unfair, check “gave one team extra points for no reason” and the structure un- + fair. If you missed reuse, check “Instead of throwing away the paper bag” and re- + use. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "initial",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "unfair",
+          "sens_attendu": "not fair or not just",
+          "analyse_morphologique": "un- + fair",
+          "indice_contextuel": "gave one team extra points for no reason",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "reuse",
+          "sens_attendu": "use again",
+          "analyse_morphologique": "re- + use",
+          "indice_contextuel": "Instead of throwing away the paper bag",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "entrainement_ou_evaluation_formative",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Conversation and plans\nSentence 1: Leo made a thoughtless joke without considering how his friend might feel.\nSentence 2: Even though rain was forecast, the hopeful hikers packed their bags because they believed the trip could still happen.\nTarget words: thoughtless; hopeful.",
+      "reponse_attendue": "Sentence 1 — thoughtless: not considerate; lacking thought for others. Word parts: thought + -less. Context quote: “without considering how his friend might feel”. Justification: Here the suffix expresses lack of consideration, not literal absence of thought.\nSentence 2 — hopeful: expecting something good; optimistic. Word parts: hope + -ful. Context quote: “believed the trip could still happen”. Justification: This is an attitude of hope, not certainty.",
+      "criteres": [
+        "For thoughtless: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For hopeful: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed thoughtless, check “without considering how his friend might feel” and the structure thought + -less. If you missed hopeful, check “believed the trip could still happen” and hope + -ful. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "initial",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "thoughtless",
+          "sens_attendu": "not considerate; lacking thought for others",
+          "analyse_morphologique": "thought + -less",
+          "indice_contextuel": "without considering how his friend might feel",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "hopeful",
+          "sens_attendu": "expecting something good; optimistic",
+          "analyse_morphologique": "hope + -ful",
+          "indice_contextuel": "believed the trip could still happen",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "entrainement_ou_evaluation_formative",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: School teamwork\nSentence 1: Jules and Ari disagree about the poster title: Jules wants “Oceans” but Ari wants “Forests.”\nSentence 2: The helpful librarian found the missing book and showed the children where to put it.\nTarget words: disagree; helpful.",
+      "reponse_attendue": "Sentence 1 — disagree: have different opinions; not agree. Word parts: dis- + agree. Context quote: “Jules wants “Oceans””. Justification: The contrast gives an explicit disagreement.\nSentence 2 — helpful: giving help; useful or supportive. Word parts: help + -ful. Context quote: “found the missing book and showed the children”. Justification: An action shows the help provided.",
+      "criteres": [
+        "For disagree: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For helpful: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed disagree, check “Jules wants “Oceans”” and the structure dis- + agree. If you missed helpful, check “found the missing book and showed the children” and help + -ful. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "initial",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "disagree",
+          "sens_attendu": "have different opinions; not agree",
+          "analyse_morphologique": "dis- + agree",
+          "indice_contextuel": "Jules wants “Oceans”",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "helpful",
+          "sens_attendu": "giving help; useful or supportive",
+          "analyse_morphologique": "help + -ful",
+          "indice_contextuel": "found the missing book and showed the children",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "entrainement_ou_evaluation_formative",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Home and drawing\nSentence 1: I misplaced my lunch box, putting it in the coat closet instead of in my backpack.\nSentence 2: The colorless sketch had only pencil outlines and no colored marks at all.\nTarget words: misplaced; colorless.",
+      "reponse_attendue": "Sentence 1 — misplaced: put in the wrong location. Word parts: mis- + place + -ed. Context quote: “in the coat closet instead of in my backpack”. Justification: Mis- here indicates a mistaken action.\nSentence 2 — colorless: without color. Word parts: color + -less. Context quote: “only pencil outlines and no colored marks”. Justification: The suffix marks absence of color.",
+      "criteres": [
+        "For misplaced: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For colorless: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed misplaced, check “in the coat closet instead of in my backpack” and the structure mis- + place + -ed. If you missed colorless, check “only pencil outlines and no colored marks” and color + -less. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "intermediaire",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "misplaced",
+          "sens_attendu": "put in the wrong location",
+          "analyse_morphologique": "mis- + place + -ed",
+          "indice_contextuel": "in the coat closet instead of in my backpack",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "colorless",
+          "sens_attendu": "without color",
+          "analyse_morphologique": "color + -less",
+          "indice_contextuel": "only pencil outlines and no colored marks",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "entrainement_ou_evaluation_formative",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Letters and repair\nSentence 1: The unkind message made Bo feel upset because it mocked his effort.\nSentence 2: After the wind knocked down the small wooden fence, the neighbours worked together to rebuild it.\nTarget words: unkind; rebuild.",
+      "reponse_attendue": "Sentence 1 — unkind: not kind; hurtful. Word parts: un- + kind. Context quote: “made Bo feel upset because it mocked his effort”. Justification: The sentence establishes hurtful behaviour.\nSentence 2 — rebuild: build again after damage. Word parts: re- + build. Context quote: “wind knocked down the small wooden fence”. Justification: The previous fence was damaged and must be built again.",
+      "criteres": [
+        "For unkind: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For rebuild: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed unkind, check “made Bo feel upset because it mocked his effort” and the structure un- + kind. If you missed rebuild, check “wind knocked down the small wooden fence” and re- + build. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "intermediaire",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "unkind",
+          "sens_attendu": "not kind; hurtful",
+          "analyse_morphologique": "un- + kind",
+          "indice_contextuel": "made Bo feel upset because it mocked his effort",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "rebuild",
+          "sens_attendu": "build again after damage",
+          "analyse_morphologique": "re- + build",
+          "indice_contextuel": "wind knocked down the small wooden fence",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "entrainement_ou_evaluation_formative",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Clinic and gallery\nSentence 1: The painless check took only a moment, and Arlo felt no discomfort at all.\nSentence 2: The class could preview the gallery online before visiting it the following week.\nTarget words: painless; preview.",
+      "reponse_attendue": "Sentence 1 — painless: not causing pain. Word parts: pain + -less. Context quote: “felt no discomfort at all”. Justification: This is not a promise that every examination is painless.\nSentence 2 — preview: see or look at in advance. Word parts: pre- + view. Context quote: “before visiting it the following week”. Justification: Pre- indicates before; view means see.",
+      "criteres": [
+        "For painless: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For preview: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed painless, check “felt no discomfort at all” and the structure pain + -less. If you missed preview, check “before visiting it the following week” and pre- + view. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "intermediaire",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "painless",
+          "sens_attendu": "not causing pain",
+          "analyse_morphologique": "pain + -less",
+          "indice_contextuel": "felt no discomfort at all",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "preview",
+          "sens_attendu": "see or look at in advance",
+          "analyse_morphologique": "pre- + view",
+          "indice_contextuel": "before visiting it the following week",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "entrainement_ou_evaluation_formative",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Birds and a long bus ride\nSentence 1: The unusual bird had bright orange feet, unlike the other birds the class had seen.\nSentence 2: After sitting on the bus for hours, Davi grew restless and kept shifting in his seat.\nTarget words: unusual; restless.",
+      "reponse_attendue": "Sentence 1 — unusual: not usual; uncommon. Word parts: un- + usual. Context quote: “unlike the other birds the class had seen”. Justification: The bird differs from what they usually see.\nSentence 2 — restless: unable to settle or relax. Word parts: rest + -less. Context quote: “kept shifting in his seat”. Justification: It means not at rest, not necessarily without any sleep ever.",
+      "criteres": [
+        "For unusual: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For restless: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed unusual, check “unlike the other birds the class had seen” and the structure un- + usual. If you missed restless, check “kept shifting in his seat” and rest + -less. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "intermediaire",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "unusual",
+          "sens_attendu": "not usual; uncommon",
+          "analyse_morphologique": "un- + usual",
+          "indice_contextuel": "unlike the other birds the class had seen",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "restless",
+          "sens_attendu": "unable to settle or relax",
+          "analyse_morphologique": "rest + -less",
+          "indice_contextuel": "kept shifting in his seat",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "entrainement_ou_evaluation_formative",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Gym and celebration\nSentence 1: Priya misjudged the distance to the basket, and her throw landed far short.\nSentence 2: The joyful crowd smiled and cheered when the school band finished playing.\nTarget words: misjudged; joyful.",
+      "reponse_attendue": "Sentence 1 — misjudged: estimated or judged incorrectly. Word parts: mis- + judge + -ed. Context quote: “throw landed far short”. Justification: A mistaken distance judgment explains the result.\nSentence 2 — joyful: full of joy; very happy. Word parts: joy + -ful. Context quote: “smiled and cheered”. Justification: Visible celebration confirms the emotion.",
+      "criteres": [
+        "For misjudged: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For joyful: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed misjudged, check “throw landed far short” and the structure mis- + judge + -ed. If you missed joyful, check “smiled and cheered” and joy + -ful. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "intermediaire",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "misjudged",
+          "sens_attendu": "estimated or judged incorrectly",
+          "analyse_morphologique": "mis- + judge + -ed",
+          "indice_contextuel": "throw landed far short",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "joyful",
+          "sens_attendu": "full of joy; very happy",
+          "analyse_morphologique": "joy + -ful",
+          "indice_contextuel": "smiled and cheered",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "entrainement_ou_evaluation_formative",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Arrival at camp\nSentence 1: When they reached the cabin, the campers unpacked their bags and put the supplies on shelves.\nSentence 2: Tala crossed the street safely at the marked crossing after checking traffic in both directions.\nTarget words: unpacked; safely.",
+      "reponse_attendue": "Sentence 1 — unpacked: took items out of a bag or package. Word parts: un- + pack + -ed. Context quote: “put the supplies on shelves”. Justification: Un- here reverses the action of packing.\nSentence 2 — safely: in a safe manner. Word parts: safe + -ly. Context quote: “marked crossing after checking traffic”. Justification: -ly forms an adverb indicating manner.",
+      "criteres": [
+        "For unpacked: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For safely: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed unpacked, check “put the supplies on shelves” and the structure un- + pack + -ed. If you missed safely, check “marked crossing after checking traffic” and safe + -ly. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "intermediaire",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "unpacked",
+          "sens_attendu": "took items out of a bag or package",
+          "analyse_morphologique": "un- + pack + -ed",
+          "indice_contextuel": "put the supplies on shelves",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "safely",
+          "sens_attendu": "in a safe manner",
+          "analyse_morphologique": "safe + -ly",
+          "indice_contextuel": "marked crossing after checking traffic",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "entrainement_ou_evaluation_formative",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Kitchen and friendship\nSentence 1: Do not overcook the muffins; leaving them in the oven too long makes them dry and dark.\nSentence 2: The two neighbours built a strong friendship by talking and helping each other every day.\nTarget words: overcook; friendship.",
+      "reponse_attendue": "Sentence 1 — overcook: cook too much or for too long. Word parts: over- + cook. Context quote: “leaving them in the oven too long”. Justification: Over- expresses excess here.\nSentence 2 — friendship: a relationship between friends. Word parts: friend + -ship. Context quote: “talking and helping each other every day”. Justification: -ship builds a relationship or state noun here.",
+      "criteres": [
+        "For overcook: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For friendship: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed overcook, check “leaving them in the oven too long” and the structure over- + cook. If you missed friendship, check “talking and helping each other every day” and friend + -ship. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "transfert",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "overcook",
+          "sens_attendu": "cook too much or for too long",
+          "analyse_morphologique": "over- + cook",
+          "indice_contextuel": "leaving them in the oven too long",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "friendship",
+          "sens_attendu": "a relationship between friends",
+          "analyse_morphologique": "friend + -ship",
+          "indice_contextuel": "talking and helping each other every day",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "entrainement_ou_evaluation_formative",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Community garden — independent evidence 1\nSentence 1: The young plants had been put too close together, so the volunteers decided to replant them in wider rows.\nSentence 2: The unprotected seedlings were damaged by the cold because nobody had put a cover over them.\nTarget words: replant; unprotected.",
+      "reponse_attendue": "Sentence 1 — replant: plant again or in another place. Word parts: re- + plant. Context quote: “in wider rows”. Justification: The plants are being planted again in a better arrangement.\nSentence 2 — unprotected: without protection or not kept safe. Word parts: un- + protect + -ed. Context quote: “nobody had put a cover over them”. Justification: Not having a cover makes the seedlings exposed to cold.",
+      "criteres": [
+        "For replant: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For unprotected: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed replant, check “in wider rows” and the structure re- + plant. If you missed unprotected, check “nobody had put a cover over them” and un- + protect + -ed. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "transfert",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "replant",
+          "sens_attendu": "plant again or in another place",
+          "analyse_morphologique": "re- + plant",
+          "indice_contextuel": "in wider rows",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "unprotected",
+          "sens_attendu": "without protection or not kept safe",
+          "analyse_morphologique": "un- + protect + -ed",
+          "indice_contextuel": "nobody had put a cover over them",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "preuve_autonome_1",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-008-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Read the TWO sentences. For EACH bold target named below, explain what the word means in THIS sentence, identify a meaningful prefix or suffix and base/root, and quote a clue from the sentence that confirms your meaning. Explain in English; do not use a dictionary.",
+      "stimulus": "Context: Weather science report — independent evidence 2\nSentence 1: The storm’s path was unpredictable; its direction kept changing, and no one could tell where it would travel next.\nSentence 2: The water on the path melted in sunlight but could refreeze overnight if the air became cold enough.\nTarget words: unpredictable; refreeze.",
+      "reponse_attendue": "Sentence 1 — unpredictable: not possible to predict reliably. Word parts: un- + predict + -able. Context quote: “direction kept changing, and no one could tell where”. Justification: Do not interpret as “never predictable in any circumstances”; here this storm is difficult to predict.\nSentence 2 — refreeze: freeze again after thawing or melting. Word parts: re- + freeze. Context quote: “melted in sunlight”. Justification: The water had melted, and might become ice again.",
+      "criteres": [
+        "For unpredictable: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "For refreeze: correct contextual sense (2), genuine word part and base (1), precise sentence evidence (1).",
+        "Explain the two words separately; neither an affix label alone nor an unsupported guess is sufficient.",
+        "8 points maximum; independent mastery requires two distinct final performances, not this score alone."
+      ],
+      "feedback": "If you missed unpredictable, check “direction kept changing, and no one could tell where” and the structure un- + predict + -able. If you missed refreeze, check “melted in sunlight” and re- + freeze. Revise BOTH the meaning and your cited context clue, then try a different pair.",
+      "difficulte": "transfert",
+      "representation": "deux_phrases_anglaises_et_justifications_morphologiques_contextuelles",
+      "seed": null,
+      "parametres": null,
+      "limites_de_variation": {
+        "enonce_et_cibles": "frozen: do not alter either English sentence, target word, or context clue without a reviewed new item version",
+        "reponse": "Accept semantically equivalent English formulations and other correct direct clues actually present in the fixed sentence, by human rubric judgment only.",
+        "support": "Enlarged font, alternate answer input or neutral scribe acceptable; no hints on affixes, words or meanings in an independent attempt."
+      },
+      "rubrique": [
+        {
+          "cible": "unpredictable",
+          "sens_attendu": "not possible to predict reliably",
+          "analyse_morphologique": "un- + predict + -able",
+          "indice_contextuel": "direction kept changing, and no one could tell where",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        },
+        {
+          "cible": "refreeze",
+          "sens_attendu": "freeze again after thawing or melting",
+          "analyse_morphologique": "re- + freeze",
+          "indice_contextuel": "melted in sunlight",
+          "points": {
+            "sens_exact_dans_ce_contexte": 2,
+            "morpheme_valide_et_pertinent": 1,
+            "indice_contextuel_exact_et_pertinent": 1
+          },
+          "variantes_recevables": "English synonyms genuinely equivalent to the expected sense; an accurately identified different contextual clue from the same sentence; equivalent explanation of the named genuine word part. No invented clue, arbitrary segmentation or opposite meaning."
+        }
+      ],
+      "source": "Original sentences for qc-pri-ale-008; grammar reference: sources/REFERENCES_CONTENU.md",
+      "usage": "preuve_autonome_2",
+      "validation_status": "a_revoir"
+    }
+  ]
+}

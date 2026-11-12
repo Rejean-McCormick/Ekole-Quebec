@@ -1,0 +1,33 @@
+# Python, éditeurs et fichiers locaux
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.venv/
+.dependances/
+*.backup-*
+*.tmp-*
+*.part
+
+# Archives et inventaires de capture, conservés hors du dépôt actif
+*.zip
+*.ZIP
+/archives/
+/historique-archive/
+/SMARTDUMP_INDEX.txt
+/SNAPSHOT_INDEX.txt
+
+# Essais et aperçus reproductibles; les images finales restent suivies via LFS
+/travail-medias/
+/exports/
+/apercus/
+/dist/
+
+
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif

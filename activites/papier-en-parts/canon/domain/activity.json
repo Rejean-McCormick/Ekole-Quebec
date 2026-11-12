@@ -1,0 +1,166 @@
+{
+  "format": "ekole.activity/1",
+  "id": "papier-en-parts",
+  "revision": 1,
+  "status": "local_demo",
+  "model": "questions",
+  "course": {
+    "id": "qc-pri-ma-012",
+    "objective": "obj-1",
+    "sha256": "sha256:ba2b91be3d3d5a7640fb6c4fc01bb72bab64dec8ce1f9d1127e6d170eed0ba99"
+  },
+  "scenario": {
+    "id": "papier-en-parts",
+    "version": "1.0.0",
+    "step": "essai",
+    "sha256": "sha256:8042a929c420de45cff639180c67cddc2f861003fa83b57b12eebbd9b8fc7e41"
+  },
+  "trame": "chapeau-de-papier",
+  "tasks": {
+    "pratique": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "a"
+          ]
+        }
+      ]
+    },
+    "bilan": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "b"
+          ]
+        },
+        {
+          "id": "expliquer",
+          "kind": "rubric",
+          "criteria": {
+            "preuve": 1
+          }
+        }
+      ]
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "review": "La justification sera lue par une personne.",
+      "title": "Le papier en parts égales",
+      "objective": "Représente une fraction d’un tout.",
+      "prerequisite": "Reconnaître des parts égales.",
+      "context": "Une bande de papier est pliée en quatre parties égales. Mila en colorie une.",
+      "group": "Dessine une bande et marque ses quatre parts.",
+      "compare": "Compare le nombre de parts coloriées avec le nombre total de parts égales.",
+      "reflection": "Pourquoi les parts doivent-elles être égales ?",
+      "transfer": "Un nouveau papier est plié en six parts égales. Deux parts sont coloriées.",
+      "subtitle": "Activité de découverte",
+      "heading": "Le papier en parts égales",
+      "correct": "Ta réponse correspond à la situation.",
+      "incorrect": "Relis les données de la situation et compare les possibilités.",
+      "next": "Compare le nombre de parts coloriées avec le nombre total de parts égales.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Quelle fraction de la bande est coloriée ?",
+            "options": {
+              "a": "1/4",
+              "b": "4/1",
+              "c": "3/4"
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Quel dessin représente la nouvelle feuille ?",
+            "options": {
+              "a": "Deux parts égales, six coloriées.",
+              "b": "Six parts égales, deux coloriées.",
+              "c": "Six parts inégales, deux coloriées."
+            }
+          },
+          "expliquer": {
+            "prompt": "Explique ce que comptent le 2 et le 6 dans 2/6.",
+            "criteria": {
+              "preuve": "La réponse distingue les deux parts coloriées des six parts égales du tout."
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "limits": "Local demonstration activity for review before classroom use.",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "review": "Someone will review your explanation.",
+      "title": "Paper in equal parts",
+      "objective": "Represent a fraction of a whole.",
+      "prerequisite": "Recognise equal parts.",
+      "context": "A paper strip is folded into four equal parts. Mila colours one part.",
+      "group": "Draw a strip and mark four equal parts.",
+      "compare": "Compare the number of coloured parts with the total number of equal parts.",
+      "reflection": "Why do the parts need to be equal?",
+      "transfer": "A new sheet is folded into six equal parts. Two parts are coloured.",
+      "subtitle": "Discovery activity",
+      "heading": "Paper in equal parts",
+      "correct": "Your answer fits the situation.",
+      "incorrect": "Read the situation again and compare the options.",
+      "next": "Compare the number of coloured parts with the total number of equal parts.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Which fraction of the strip is coloured?",
+            "options": {
+              "a": "1/4",
+              "b": "4/1",
+              "c": "3/4"
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Which drawing represents the new sheet?",
+            "options": {
+              "a": "Two equal parts, six coloured.",
+              "b": "Six equal parts, two coloured.",
+              "c": "Six unequal parts, two coloured."
+            }
+          },
+          "expliquer": {
+            "prompt": "Explain what the 2 and the 6 count in 2/6.",
+            "criteria": {
+              "preuve": "The response distinguishes two coloured parts from the six equal parts in the whole."
+            }
+          }
+        }
+      }
+    }
+  }
+}

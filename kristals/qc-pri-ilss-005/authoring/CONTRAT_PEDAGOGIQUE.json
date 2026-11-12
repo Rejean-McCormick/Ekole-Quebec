@@ -1,0 +1,93 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ilss-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Utiliser des stratégies de lecture adaptées à son palier de littératie.",
+  "concepts": [
+    "relation oral-écrit",
+    "décodage",
+    "sens"
+  ],
+  "preuve_attendue": "Lire un texte adapté et indiquer la stratégie utile.",
+  "prerequis_bloquants": [
+    "qc-pri-ilss-003"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Lire un texte adapté et indiquer la stratégie utile.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-ilss-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte écrit original de palier A ou B",
+        "traitement personnel de mots/segments",
+        "réponse de sens à partir d’indice écrit",
+        "stratégie choisie et montrée par l’élève"
+      ],
+      "variables": {
+        "type_variation": "catalogue_ferme",
+        "paliers_autorises": [
+          "A",
+          "B"
+        ],
+        "items_selection_paliers": [
+          "qc-pri-ilss-005-q-009",
+          "qc-pri-ilss-005-q-010"
+        ],
+        "generateur_aleatoire": false
+      },
+      "contraintes": [
+        "Un texte écrit adapté au palier observé, et non à la nationalité ou à l’âge",
+        "deux contextes de maîtrise distincts: coin lecture et jardin scolaire",
+        "même palier pour les deux preuves, sauf réévaluation humaine documentée",
+        "pas de réponse dévoilée ni de lecture du stimulus par un tiers pendant la preuve",
+        "ne pas assimiler compréhension orale et lecture",
+        "motifs linguistiques testés sans sanction de l’accent ou de la vitesse",
+        "10 items à relecture pédagogique humaine, aucune IA libre pour corriger"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "traitement_de_lecrit",
+          "sens_appuye",
+          "strategie_reellement_utilisee",
+          "autonomie_et_acces"
+        ],
+        "echelle": {
+          "0": "non observé",
+          "1": "partiel",
+          "2": "attesté"
+        },
+        "decision": "Chaque dimension 2 dans chacune des deux preuves (009 et 010); pas de total compensatoire"
+      },
+      "source": [
+        "kristals/qc-pri-ilss-005/authoring/PARCOURS.md",
+        "kristals/qc-pri-ilss-005/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_banque_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

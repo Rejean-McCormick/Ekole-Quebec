@@ -1,0 +1,462 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-003",
+  "family_id": "qc-pri-ma-003-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-003-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Décompose 243 de deux façons; défais une dizaine en dix unités, puis reconstitue-la et vérifie les deux sommes.",
+      "stimulus": "Nombre écrit 243; une plaque C vaut 100, une bande D vaut 10, un jeton U vaut 1.",
+      "reponse_attendue": "243 = 2 C + 4 D + 3 U = 2 C + 3 D + 13 U; sommes : 243 = 243; inverse 10 U → 1 D : retour à 2 C + 4 D + 3 U (= 243).",
+      "criteres": [
+        "Valeur totale correcte pour les deux écritures et interprétation exacte de C, D, U.",
+        "Deux décompositions différentes de même quantité : l’échange de 10 groupes du rang inférieur contre 1 du rang supérieur (ou l’inverse) est visible.",
+        "Regroupement inverse rétablit exactement le nombre de C, D et U de départ.",
+        "Justification intelligible de la conservation de la valeur, oralement, par écrit ou par schéma annoté."
+      ],
+      "feedback": "Si tu écris 2C+3D+4U, tu as ajouté seulement 1 U; rappelle-toi qu’une dizaine vaut 10 unités.",
+      "difficulte": "initial",
+      "representation": "notation avec matériel verbalement décrit",
+      "role": "entrainement",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-003-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris deux décompositions de 305 en défaisant une centaine en dix dizaines, puis effectue le retour.",
+      "stimulus": "Nombre 305; tableau C-D-U contenant une colonne D=0.",
+      "reponse_attendue": "305 = 3 C + 0 D + 5 U = 2 C + 10 D + 5 U; sommes : 305 = 305; inverse 10 D → 1 C : retour à 3 C + 0 D + 5 U (= 305).",
+      "criteres": [
+        "Valeur totale correcte pour les deux écritures et interprétation exacte de C, D, U.",
+        "Deux décompositions différentes de même quantité : l’échange de 10 groupes du rang inférieur contre 1 du rang supérieur (ou l’inverse) est visible.",
+        "Regroupement inverse rétablit exactement le nombre de C, D et U de départ.",
+        "Justification intelligible de la conservation de la valeur, oralement, par écrit ou par schéma annoté."
+      ],
+      "feedback": "Si tu obtiens 350, vérifie que D=0 au départ et que les 10 dizaines créées remplacent une centaine.",
+      "difficulte": "initial",
+      "representation": "tableau de valeur de position",
+      "role": "entrainement",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-003-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-003-ev-01",
+      "mode": "parametrique",
+      "consigne": "Pour le nombre 163, écris les groupements C-D-U, échange une dizaine contre dix unités, écris la seconde décomposition, puis effectue le regroupement inverse et justifie que le total reste 163.",
+      "stimulus": "Calcul de groupes de matériel de base dix; aucune image nécessaire. Instance verrouillée seed 3003; C=100, D=10, U=1.",
+      "reponse_attendue": "163 = 1 C + 6 D + 3 U = 1 C + 5 D + 13 U; sommes : 163 = 163; inverse 10 U → 1 D : retour à 1 C + 6 D + 3 U (= 163).",
+      "criteres": [
+        "Valeur totale correcte pour les deux écritures et interprétation exacte de C, D, U.",
+        "Deux décompositions différentes de même quantité : l’échange de 10 groupes du rang inférieur contre 1 du rang supérieur (ou l’inverse) est visible.",
+        "Regroupement inverse rétablit exactement le nombre de C, D et U de départ.",
+        "Justification intelligible de la conservation de la valeur, oralement, par écrit ou par schéma annoté."
+      ],
+      "feedback": "Recalcule 100H+10T+U avant et après. Si le total diffère, vérifie les dix unités/dizaines échangées et le groupe retiré. Si le retour manque, exécute l’opération inverse. ",
+      "difficulte": "intermediaire",
+      "representation": "notation et schéma C-D-U textuel",
+      "role": "entrainement",
+      "seed": 3003,
+      "parametres": {
+        "version_algorithme": "positions-ma003-1.0",
+        "seed_semantique": "entier non négatif fixé; aucune RNG et aucun appel IA; // est division entière, mod le reste euclidien",
+        "variables": {
+          "H": "centaines",
+          "T": "dizaines",
+          "U": "unités",
+          "N": "valeur totale"
+        },
+        "domaines": {
+          "H": [
+            1,
+            7
+          ],
+          "T": [
+            1,
+            8
+          ],
+          "U": [
+            0,
+            9
+          ],
+          "N": [
+            110,
+            789
+          ]
+        },
+        "contraintes": [
+          "H,T,U entiers dans les intervalles définis",
+          "conserver N=100H+10T+U et obtenir deux écritures différentes",
+          "échanger un groupe uniquement si présent (T>=1 pour D→U; H>=1 pour C→D)",
+          "aucun libellé, solution ou cas non calculé hors de ces formules"
+        ],
+        "algorithme_generation_et_resolution": "H=1+(seed mod 7); T=1+((seed div 7) mod 8); U=(seed div 56) mod 10; N=100H+10T+U; deuxième (H,T-1,U+10); inverse (H,T,U)",
+        "algorithme_verification_independant": "calculer séparément somme1=100H+10T+U et somme2=100H2+10T2+U2, imposer somme1=somme2=N; appliquer le regroupement inverse et comparer chaque composante H,T,U à l’initiale",
+        "instance": {
+          "H": 1,
+          "T": 6,
+          "U": 3,
+          "N": 163,
+          "operation": "DU"
+        },
+        "exemples_valides": [
+          {
+            "seed": 3003,
+            "H": 1,
+            "T": 6,
+            "U": 3,
+            "N": 163,
+            "decomposition_initiale": "1 C + 6 D + 3 U",
+            "decomposition_alternative": "1 C + 5 D + 13 U",
+            "retour": "1 C + 6 D + 3 U"
+          },
+          {
+            "seed": 3004,
+            "H": 2,
+            "T": 6,
+            "U": 3,
+            "N": 263,
+            "decomposition_initiale": "2 C + 6 D + 3 U",
+            "decomposition_alternative": "2 C + 5 D + 13 U",
+            "retour": "2 C + 6 D + 3 U"
+          },
+          {
+            "seed": 3020,
+            "H": 4,
+            "T": 8,
+            "U": 3,
+            "N": 483,
+            "decomposition_initiale": "4 C + 8 D + 3 U",
+            "decomposition_alternative": "4 C + 7 D + 13 U",
+            "retour": "4 C + 8 D + 3 U"
+          }
+        ],
+        "filtre_equivalence": "accepter une autre décomposition seulement si ses groupes sont entiers >=0, distincts de l’écriture initiale, total identique et inverse explicité; correction humaine des justifications"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-003-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Pars de la décomposition non canonique 3 C + 17 D + 1 U; trouve le nombre, réécris-le en chiffres C-D-U usuels, puis défais à nouveau une centaine pour retrouver le départ.",
+      "stimulus": "Groupes : 3 centaines, 17 dizaines, 1 unité. Aucun matériel imposé.",
+      "reponse_attendue": "471 = 3 C + 17 D + 1 U = 4 C + 7 D + 1 U; sommes : 300+170+1=471 et 400+70+1=471; inverse 1 C → 10 D : retour 3 C + 17 D + 1 U (=471).",
+      "criteres": [
+        "Valeur totale correcte pour les deux écritures et interprétation exacte de C, D, U.",
+        "Deux décompositions différentes de même quantité : l’échange de 10 groupes du rang inférieur contre 1 du rang supérieur (ou l’inverse) est visible.",
+        "Regroupement inverse rétablit exactement le nombre de C, D et U de départ.",
+        "Justification intelligible de la conservation de la valeur, oralement, par écrit ou par schéma annoté."
+      ],
+      "feedback": "Si tu trouves 371, tu as oublié que 17 dizaines valent 170. Pour inverser, décompose 1 des 4 centaines en 10 dizaines.",
+      "difficulte": "intermediaire",
+      "representation": "notation depuis groupement non canonique",
+      "role": "entrainement",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-003-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Une solution prétend « 4 C + 2 D = 402 ». Vérifie, corrige et écris 402 de deux façons en échangeant une centaine contre dix dizaines; fais l’inverse.",
+      "stimulus": "Énoncé erroné volontaire : 4 C + 2 D = 402.",
+      "reponse_attendue": "Proposition fausse : 4 C + 2 D = 420. Pour 402, 4 C + 0 D + 2 U = 402 et 3 C + 10 D + 2 U = 402. Inverse : 10 D → 1 C, retour 4 C + 0 D + 2 U.",
+      "criteres": [
+        "Valeur totale correcte pour les deux écritures et interprétation exacte de C, D, U.",
+        "Deux décompositions différentes de même quantité : l’échange de 10 groupes du rang inférieur contre 1 du rang supérieur (ou l’inverse) est visible.",
+        "Regroupement inverse rétablit exactement le nombre de C, D et U de départ.",
+        "Justification intelligible de la conservation de la valeur, oralement, par écrit ou par schéma annoté."
+      ],
+      "feedback": "Si tu dis 420=402, place les trois colonnes C-D-U; zéro dizaine est différent de deux dizaines. Vérifie 400+0+2.",
+      "difficulte": "intermediaire",
+      "representation": "analyse d’erreur et tableau C-D-U",
+      "role": "entrainement",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-003-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-003-ev-01",
+      "mode": "parametrique",
+      "consigne": "Pour le nombre 110, écris les groupements C-D-U, échange une centaine contre dix dizaines, écris la seconde décomposition, puis effectue le regroupement inverse et justifie que le total reste 110.",
+      "stimulus": "Représentation par plaques de 100, bandes de 10 et jetons isolés. Instance verrouillée seed 6006; C=100, D=10, U=1.",
+      "reponse_attendue": "110 = 1 C + 1 D + 0 U = 0 C + 11 D + 0 U; sommes : 110 = 110; inverse 10 D → 1 C : retour à 1 C + 1 D + 0 U (= 110).",
+      "criteres": [
+        "Valeur totale correcte pour les deux écritures et interprétation exacte de C, D, U.",
+        "Deux décompositions différentes de même quantité : l’échange de 10 groupes du rang inférieur contre 1 du rang supérieur (ou l’inverse) est visible.",
+        "Regroupement inverse rétablit exactement le nombre de C, D et U de départ.",
+        "Justification intelligible de la conservation de la valeur, oralement, par écrit ou par schéma annoté."
+      ],
+      "feedback": "Recalcule 100H+10T+U avant et après. Si le total diffère, vérifie les dix unités/dizaines échangées et le groupe retiré. Si le retour manque, exécute l’opération inverse. ",
+      "difficulte": "intermediaire",
+      "representation": "notation et schéma C-D-U textuel",
+      "role": "entrainement",
+      "seed": 6006,
+      "parametres": {
+        "version_algorithme": "positions-ma003-1.0",
+        "seed_semantique": "entier non négatif fixé; aucune RNG et aucun appel IA; // est division entière, mod le reste euclidien",
+        "variables": {
+          "H": "centaines",
+          "T": "dizaines",
+          "U": "unités",
+          "N": "valeur totale"
+        },
+        "domaines": {
+          "H": [
+            1,
+            6
+          ],
+          "T": [
+            0,
+            9
+          ],
+          "U": [
+            0,
+            9
+          ],
+          "N": [
+            100,
+            699
+          ]
+        },
+        "contraintes": [
+          "H,T,U entiers dans les intervalles définis",
+          "conserver N=100H+10T+U et obtenir deux écritures différentes",
+          "échanger un groupe uniquement si présent (T>=1 pour D→U; H>=1 pour C→D)",
+          "aucun libellé, solution ou cas non calculé hors de ces formules"
+        ],
+        "algorithme_generation_et_resolution": "H=1+(seed mod 6); T=(seed div 6) mod 10; U=(seed div 60) mod 10; N=100H+10T+U; deuxième (H-1,T+10,U); inverse (H,T,U)",
+        "algorithme_verification_independant": "calculer séparément somme1=100H+10T+U et somme2=100H2+10T2+U2, imposer somme1=somme2=N; appliquer le regroupement inverse et comparer chaque composante H,T,U à l’initiale",
+        "instance": {
+          "H": 1,
+          "T": 1,
+          "U": 0,
+          "N": 110,
+          "operation": "CD"
+        },
+        "exemples_valides": [
+          {
+            "seed": 6006,
+            "H": 1,
+            "T": 1,
+            "U": 0,
+            "N": 110,
+            "decomposition_initiale": "1 C + 1 D + 0 U",
+            "decomposition_alternative": "0 C + 11 D + 0 U",
+            "retour": "1 C + 1 D + 0 U"
+          },
+          {
+            "seed": 6007,
+            "H": 2,
+            "T": 1,
+            "U": 0,
+            "N": 210,
+            "decomposition_initiale": "2 C + 1 D + 0 U",
+            "decomposition_alternative": "1 C + 11 D + 0 U",
+            "retour": "2 C + 1 D + 0 U"
+          },
+          {
+            "seed": 6023,
+            "H": 6,
+            "T": 3,
+            "U": 0,
+            "N": 630,
+            "decomposition_initiale": "6 C + 3 D + 0 U",
+            "decomposition_alternative": "5 C + 13 D + 0 U",
+            "retour": "6 C + 3 D + 0 U"
+          }
+        ],
+        "filtre_equivalence": "accepter une autre décomposition seulement si ses groupes sont entiers >=0, distincts de l’écriture initiale, total identique et inverse explicité; correction humaine des justifications"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-003-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "À la bibliothèque, représente 486 livres de deux façons en échangeant 1 caisse de 100 contre 10 boîtes de 10. Reconstitue la caisse par l’inverse, puis explique pourquoi aucun livre ne disparaît.",
+      "stimulus": "Inventaire fictif : 4 caisses de 100 livres, 8 boîtes de 10 livres, 6 livres à l’unité. Tous les livres sont interchangeables pour le comptage.",
+      "reponse_attendue": "486 = 4 C + 8 D + 6 U = 3 C + 18 D + 6 U; sommes : 486 = 486; inverse 10 D → 1 C : retour à 4 C + 8 D + 6 U (= 486).",
+      "criteres": [
+        "Valeur totale correcte pour les deux écritures et interprétation exacte de C, D, U.",
+        "Deux décompositions différentes de même quantité : l’échange de 10 groupes du rang inférieur contre 1 du rang supérieur (ou l’inverse) est visible.",
+        "Regroupement inverse rétablit exactement le nombre de C, D et U de départ.",
+        "Justification intelligible de la conservation de la valeur, oralement, par écrit ou par schéma annoté."
+      ],
+      "feedback": "Si tu écris 4 caisses + 18 boîtes, tu as compté deux fois la caisse; une caisse a été retirée. Contrôle 400+80+6 et 300+180+6.",
+      "difficulte": "transfert",
+      "representation": "récit d’inventaire et notation",
+      "role": "maitrise_M1_bibliotheque",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-003-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "À l’atelier de mosaïque, représente 257 tesselles en deux groupements; transforme 1 bande de 10 en 10 tesselles isolées, puis recompose la bande et explique la conservation.",
+      "stimulus": "Inventaire fictif : 2 plaques de 100 tesselles, 5 bandes de 10, 7 tesselles isolées. Aucun critère artistique.",
+      "reponse_attendue": "257 = 2 C + 5 D + 7 U = 2 C + 4 D + 17 U; sommes : 257 = 257; inverse 10 U → 1 D : retour à 2 C + 5 D + 7 U (= 257).",
+      "criteres": [
+        "Valeur totale correcte pour les deux écritures et interprétation exacte de C, D, U.",
+        "Deux décompositions différentes de même quantité : l’échange de 10 groupes du rang inférieur contre 1 du rang supérieur (ou l’inverse) est visible.",
+        "Regroupement inverse rétablit exactement le nombre de C, D et U de départ.",
+        "Justification intelligible de la conservation de la valeur, oralement, par écrit ou par schéma annoté."
+      ],
+      "feedback": "Si les pièces isolées passent de 7 à 8, une bande n’a pas été remplacée par dix pièces. Vérifie 200+50+7 et 200+40+17.",
+      "difficulte": "transfert",
+      "representation": "mise en situation artistique et notation",
+      "role": "maitrise_M2_mosaique",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-003-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-003-ev-01",
+      "mode": "parametrique",
+      "consigne": "Pour le nombre 120, écris les groupements C-D-U, échange une centaine contre dix dizaines, écris la seconde décomposition, puis effectue le regroupement inverse et justifie que le total reste 120.",
+      "stimulus": "Une réserve fictive contient des lots de 100, des lots de 10 et des unités; calcule le nouveau groupement après échange. Instance verrouillée seed 9012; C=100, D=10, U=1.",
+      "reponse_attendue": "120 = 1 C + 2 D + 0 U = 0 C + 12 D + 0 U; sommes : 120 = 120; inverse 10 D → 1 C : retour à 1 C + 2 D + 0 U (= 120).",
+      "criteres": [
+        "Valeur totale correcte pour les deux écritures et interprétation exacte de C, D, U.",
+        "Deux décompositions différentes de même quantité : l’échange de 10 groupes du rang inférieur contre 1 du rang supérieur (ou l’inverse) est visible.",
+        "Regroupement inverse rétablit exactement le nombre de C, D et U de départ.",
+        "Justification intelligible de la conservation de la valeur, oralement, par écrit ou par schéma annoté."
+      ],
+      "feedback": "Recalcule 100H+10T+U avant et après. Si le total diffère, vérifie les dix unités/dizaines échangées et le groupe retiré. Si le retour manque, exécute l’opération inverse. ",
+      "difficulte": "transfert",
+      "representation": "notation et schéma C-D-U textuel",
+      "role": "entrainement",
+      "seed": 9012,
+      "parametres": {
+        "version_algorithme": "positions-ma003-1.0",
+        "seed_semantique": "entier non négatif fixé; aucune RNG et aucun appel IA; // est division entière, mod le reste euclidien",
+        "variables": {
+          "H": "centaines",
+          "T": "dizaines",
+          "U": "unités",
+          "N": "valeur totale"
+        },
+        "domaines": {
+          "H": [
+            1,
+            6
+          ],
+          "T": [
+            0,
+            9
+          ],
+          "U": [
+            0,
+            9
+          ],
+          "N": [
+            100,
+            699
+          ]
+        },
+        "contraintes": [
+          "H,T,U entiers dans les intervalles définis",
+          "conserver N=100H+10T+U et obtenir deux écritures différentes",
+          "échanger un groupe uniquement si présent (T>=1 pour D→U; H>=1 pour C→D)",
+          "aucun libellé, solution ou cas non calculé hors de ces formules"
+        ],
+        "algorithme_generation_et_resolution": "H=1+(seed mod 6); T=(seed div 6) mod 10; U=(seed div 60) mod 10; N=100H+10T+U; deuxième (H-1,T+10,U); inverse (H,T,U)",
+        "algorithme_verification_independant": "calculer séparément somme1=100H+10T+U et somme2=100H2+10T2+U2, imposer somme1=somme2=N; appliquer le regroupement inverse et comparer chaque composante H,T,U à l’initiale",
+        "instance": {
+          "H": 1,
+          "T": 2,
+          "U": 0,
+          "N": 120,
+          "operation": "CD"
+        },
+        "exemples_valides": [
+          {
+            "seed": 9012,
+            "H": 1,
+            "T": 2,
+            "U": 0,
+            "N": 120,
+            "decomposition_initiale": "1 C + 2 D + 0 U",
+            "decomposition_alternative": "0 C + 12 D + 0 U",
+            "retour": "1 C + 2 D + 0 U"
+          },
+          {
+            "seed": 9013,
+            "H": 2,
+            "T": 2,
+            "U": 0,
+            "N": 220,
+            "decomposition_initiale": "2 C + 2 D + 0 U",
+            "decomposition_alternative": "1 C + 12 D + 0 U",
+            "retour": "2 C + 2 D + 0 U"
+          },
+          {
+            "seed": 9029,
+            "H": 6,
+            "T": 4,
+            "U": 0,
+            "N": 640,
+            "decomposition_initiale": "6 C + 4 D + 0 U",
+            "decomposition_alternative": "5 C + 14 D + 0 U",
+            "retour": "6 C + 4 D + 0 U"
+          }
+        ],
+        "filtre_equivalence": "accepter une autre décomposition seulement si ses groupes sont entiers >=0, distincts de l’écriture initiale, total identique et inverse explicité; correction humaine des justifications"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-003-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Décompose 100 deux fois : d’abord dans la forme usuelle, puis sans aucune centaine en utilisant dix dizaines. Regroupe pour retrouver la première écriture.",
+      "stimulus": "Cas limite : exactement cent unités; chiffres 1, 0, 0.",
+      "reponse_attendue": "100 = 1 C + 0 D + 0 U = 0 C + 10 D + 0 U; sommes : 100 = 100; inverse 10 D → 1 C : retour à 1 C + 0 D + 0 U (= 100).",
+      "criteres": [
+        "Valeur totale correcte pour les deux écritures et interprétation exacte de C, D, U.",
+        "Deux décompositions différentes de même quantité : l’échange de 10 groupes du rang inférieur contre 1 du rang supérieur (ou l’inverse) est visible.",
+        "Regroupement inverse rétablit exactement le nombre de C, D et U de départ.",
+        "Justification intelligible de la conservation de la valeur, oralement, par écrit ou par schéma annoté."
+      ],
+      "feedback": "Pour le cas 100, 10 dizaines sont 100 unités; ne confonds pas 10 D et 10 U. Le retour doit rendre C=1, D=0, U=0.",
+      "difficulte": "transfert",
+      "representation": "notation et représentation tactile/verbale",
+      "role": "entrainement",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-007",
+  "family_id": "qc-pri-us-007-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-us-007-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Nomme les quatre régions comprises dans Inuit Nunangat et situe le Nunavik.",
+      "stimulus": "Fiche de référence (paraphrase de S1, ITK) : Le territoire d’Inuit Nunangat comprend la région désignée des Inuvialuit, le Nunavut, le Nunavik et le Nunatsiavut. Il comprend terre, eau et glace.",
+      "reponse_attendue": "Inuvialuit, Nunavut, Nunavik, Nunatsiavut; le Nunavik se situe dans le nord du Québec. [S1, Inuit Tapiriit Kanatami, page sans date affichée].",
+      "criteres": [
+        "Quatre noms distincts; Nunavut n’est pas Nunavik",
+        "Situation correcte du Nunavik",
+        "Identifie S1 comme source"
+      ],
+      "feedback": "Si Nunavik et Nunavut sont confondus, relire les deux entrées géographiques de S1; ne pas attribuer à ce relevé des chiffres démographiques non demandés.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S1"
+      ],
+      "representation": "fiche textuelle",
+      "limites_de_variation": "Item fixe; aucun changement factuel ou remplacement de sources sans révision humaine.",
+      "contexte_preuve": "entrainement",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans le document, repère deux activités liées au littoral et explique pourquoi le mot « toutes » serait abusif.",
+      "stimulus": "Résumé pédagogique de S2 (ITK, 2023) : Dans Inuit Nunangat, de nombreuses collectivités sont proches des côtes. Ces milieux facilitent déplacements et accès à des espèces marines.",
+      "reponse_attendue": "Déplacements et accès/récolte de ressources marines; « de nombreuses collectivités » n’implique pas toutes les collectivités ni chaque personne. Source ITK, 2023 [S2].",
+      "criteres": [
+        "Deux activités correctement reliées au milieu côtier",
+        "Limite explicite sur la portée",
+        "Source et année de S2"
+      ],
+      "feedback": "« Tous » dépasse le document; distinguer ce qui est décrit comme fréquent et ce qui serait universel.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S2"
+      ],
+      "representation": "fiche textuelle",
+      "limites_de_variation": "Item fixe; aucun changement factuel ou remplacement de sources sans révision humaine.",
+      "contexte_preuve": "entrainement",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Indique l’organisme, la date de publication et une limite de l’information avant de proposer une relation.",
+      "stimulus": "Fiche S2 : Article signé Lisa Gregoire, publié en 2023 sur le site d’Inuit Tapiriit Kanatami; il traite de l’espace côtier d’Inuit Nunangat.",
+      "reponse_attendue": "Organisme ITK, 2023 (auteure Lisa Gregoire). Relation admissible : littoral → déplacements dans de nombreuses collectivités. Limite : pas toutes les collectivités et aucune description individuelle.",
+      "criteres": [
+        "Attribution ITK et année 2023",
+        "Relation défendable à partir de S2",
+        "Limite identifiée"
+      ],
+      "feedback": "Ne pas transformer un article général sur des milieux côtiers en témoignage individuel.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S2"
+      ],
+      "representation": "fiche textuelle",
+      "limites_de_variation": "Item fixe; aucun changement factuel ou remplacement de sources sans révision humaine.",
+      "contexte_preuve": "entrainement",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Corrige cette généralisation sans effacer les pratiques de récolte.",
+      "stimulus": "Phrase à corriger : « Tous les Inuit du Canada ne pratiquent que la chasse et vivent à l’écart des institutions modernes ». S1 présente de nombreuses activités professionnelles, culturelles et institutions actuelles.",
+      "reponse_attendue": "« Dans certaines communautés inuites, les activités de récolte de nourriture occupent une place importante; les collectivités ont aussi des activités culturelles, professionnelles et institutionnelles diverses. » [ITK, S1].",
+      "criteres": [
+        "Élimine « tous », « ne…que », « à l’écart »",
+        "Conserve un fait localisé sur la récolte",
+        "Appuie la correction sur S1"
+      ],
+      "feedback": "Le but n’est pas de nier les pratiques sur le territoire mais de refuser leur exclusivité supposée.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S1"
+      ],
+      "representation": "fiche textuelle",
+      "limites_de_variation": "Item fixe; aucun changement factuel ou remplacement de sources sans révision humaine.",
+      "contexte_preuve": "entrainement",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique une relation entre un changement du milieu et l’accès à une activité, puis indique ce que le texte ne prouve pas.",
+      "stimulus": "Paraphrase S4, ITK (projet de Hopedale au Nunatsiavut) : Des résidents font état de changements de météo et de glace compliquant les sorties de récolte.",
+      "reponse_attendue": "Relation : météo et état des glaces changeants → accès plus difficile à certaines sorties de récolte, selon des personnes de Hopedale [S4]. Non prouvé : interdiction générale de circuler, situation identique partout.",
+      "criteres": [
+        "Lien entre condition environnementale et activité localisée",
+        "Source S4 identifiée",
+        "Refuse une causalité universelle"
+      ],
+      "feedback": "Si « plus personne ne sort », remplacer par « difficultés rapportées dans le cadre de ce projet ».",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S4"
+      ],
+      "representation": "fiche textuelle",
+      "limites_de_variation": "Item fixe; aucun changement factuel ou remplacement de sources sans révision humaine.",
+      "contexte_preuve": "entrainement",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Montre comment une pratique contemporaine peut contribuer à la transmission de savoirs liés au territoire.",
+      "stimulus": "Résumé S4 : À Hopedale, un programme a rapproché jeunes et aînés lors de sorties sur le territoire afin d’apprendre des pratiques de récolte et de préparation d’aliments.",
+      "reponse_attendue": "Des ressources du territoire et les savoirs pour les récolter suscitent des activités de transmission entre générations; continuité de savoirs dans une forme organisée contemporaine [S4], sans généraliser à chaque région.",
+      "criteres": [
+        "Identifie le milieu et une activité observable",
+        "Explique continuité avec adaptation contemporaine",
+        "Source S4 et limite géographique"
+      ],
+      "feedback": "La continuité n’exige pas que toutes les pratiques soient identiques à celles du passé.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S4"
+      ],
+      "representation": "fiche textuelle",
+      "limites_de_variation": "Item fixe; aucun changement factuel ou remplacement de sources sans révision humaine.",
+      "contexte_preuve": "entrainement",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Associe un fait de l’environnement au rôle des connaissances locales dans une institution contemporaine.",
+      "stimulus": "Fiche S3, Parcs Canada (2023) : À Auyuittuq, les connaissances inuites des milieux terrestres et marins font partie du modèle de gestion coopérative du parc.",
+      "reponse_attendue": "La connaissance de ces milieux contribue à la gestion et à la protection d’un territoire; S3 concerne Auyuittuq et un contexte de parc, pas tous les Inuit ou tous les parcs.",
+      "criteres": [
+        "Lien milieu/savoir/activité de gestion",
+        "Attribution Parcs Canada S3",
+        "Périmètre territorial indiqué"
+      ],
+      "feedback": "Le texte n’autorise pas « seules les connaissances inuites gèrent chaque parc » : rester dans la gestion coopérative décrite.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S3"
+      ],
+      "representation": "fiche textuelle",
+      "limites_de_variation": "Item fixe; aucun changement factuel ou remplacement de sources sans révision humaine.",
+      "contexte_preuve": "entrainement",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare les deux fiches et explique une différence de contexte sans classer les pratiques comme supérieures ou inférieures.",
+      "stimulus": "Fiche 1 : ITK (2023) relie le littoral aux déplacements et à l’accès à la faune marine dans de nombreuses collectivités [S2]. Fiche 2 : Parcs Canada (2023) décrit les savoirs écologiques inuits utiles à la gestion d’Auyuittuq [S3].",
+      "reponse_attendue": "S2 concerne les liens entre milieu côtier, transport et activités alimentaires; S3 concerne le savoir sur les milieux et une activité de gestion coopérative dans un parc précis. Ces contextes ne sont pas interchangeables.",
+      "criteres": [
+        "Distingue deux activités et lieux",
+        "Cite S2 et S3 sans fausse équivalence",
+        "Aucune hiérarchie culturelle ni généralisation"
+      ],
+      "feedback": "Nommer ce que chaque document démontre plutôt que fusionner deux échelles de description.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S2",
+        "S3"
+      ],
+      "representation": "fiche textuelle",
+      "limites_de_variation": "Item fixe; aucun changement factuel ou remplacement de sources sans révision humaine.",
+      "contexte_preuve": "entrainement",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Distingue témoignage rapporté, conclusion raisonnable et extrapolation excessive.",
+      "stimulus": "S4, fiche de projet ITK : des participants de Hopedale signalent les changements météo/glace parmi les problèmes d’accès aux aliments récoltés sur le territoire.",
+      "reponse_attendue": "Fait rapporté : des participants ont signalé ces difficultés. Inférence prudente : les conditions de glace peuvent amener à revoir des sorties. Extrapolation invalide : « la chasse est impossible dans toutes les communautés inuites ». [S4].",
+      "criteres": [
+        "Distingue fait/document et inférence",
+        "Rejette une proposition exagérée",
+        "Localise Hopedale et cite S4"
+      ],
+      "feedback": "Écrire « des participants rapportent » lorsque la preuve est un compte rendu d’évaluation communautaire.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S4"
+      ],
+      "representation": "fiche textuelle",
+      "limites_de_variation": "Item fixe; aucun changement factuel ou remplacement de sources sans révision humaine.",
+      "contexte_preuve": "entrainement",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige deux relations environnement–activité, une appuyée par chaque source, puis une limite commune.",
+      "stimulus": "Source S2 (ITK, 2023) : côtes, déplacements et ressources marines dans de nombreuses collectivités. Source S4 (ITK, fiche de Hopedale) : glaces et météo changeantes liées aux difficultés des sorties de récolte.",
+      "reponse_attendue": "1. Littoral → déplacements ou accès aux ressources marines [S2, ITK, 2023]. 2. Météo/glace qui changent → difficultés d’accès à des sorties de récolte à Hopedale [S4, ITK, dates de projet]. Limite : ni toutes les régions ni toutes les périodes.",
+      "criteres": [
+        "Deux liens distincts et pertinents",
+        "Chaque relation possède sa source",
+        "Lieux/temps et absence de généralisation"
+      ],
+      "feedback": "Si les deux liens viennent du même fait, diversifier les sources et préciser les deux environnements.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S2",
+        "S4"
+      ],
+      "representation": "fiche textuelle",
+      "limites_de_variation": "Item fixe; aucun changement factuel ou remplacement de sources sans révision humaine.",
+      "contexte_preuve": "entrainement",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME 1 — Sans indices, dégage exactement deux relations distinctes entre milieu côtier et activités humaines; justifie chacune par un indice du dossier avec une source, situe le territoire et indique au moins une limite.",
+      "stimulus": "DOSSIER A — Littoral dans Inuit Nunangat. Carte verbale [S1, ITK, page générale] : Inuit Nunangat regroupe Inuvialuit, Nunavut, Nunavik et Nunatsiavut; terre, eau et glace en font partie. Fiche [S2, article ITK de 2023] : de nombreuses collectivités sont près des côtes, utilisées pour des déplacements et l’accès aux ressources marines.",
+      "reponse_attendue": "Relation 1 : voies d’eau/littoral → déplacements possibles dans de nombreuses collectivités [S2, ITK, 2023]. Relation 2 : proximité des espèces marines → accès/récolte de ressources alimentaires [S2]. Contextualisation : Inuit Nunangat n’est pas une seule localité [S1] et les exemples ne représentent pas chaque personne ou chaque époque.",
+      "criteres": [
+        "Deux liens milieu→activité corrects et distincts",
+        "Chaque lien est justifié à partir de S1/S2 et attribué",
+        "Inuit Nunangat et portée régionale correctement situés",
+        "Une limite explicite sans stéréotype"
+      ],
+      "feedback": "Retour après remise seulement : repérer une relation absente, une attribution floue ou un « tous » non justifié; proposer une reprise sur autre variante après enseignement ciblé.",
+      "difficulte": "transfert",
+      "seed": 20010,
+      "parametres": {
+        "variables": {
+          "variante": {
+            "domaine": [
+              "A",
+              "B"
+            ],
+            "type": "valeur_categorielle"
+          }
+        },
+        "seed_initiale": 20010,
+        "algorithme": "index = seed % 2; index 0 retourne A, 1 retourne B. Aucun tirage IA; chaque dossier et corrigé sont fixes et enregistrés dans cette banque.",
+        "contraintes": [
+          "Sélection exclusivement parmi les deux fiches verrouillées ci-dessous",
+          "Aucun nom, date ou fait nouveau par substitution",
+          "Deux liens distincts environnement–activité avec preuve textuelle",
+          "Une limite de généralisation à expliciter",
+          "Aucun recours à informations personnelles"
+        ],
+        "dossiers_et_corriges": {
+          "A": {
+            "stimulus": "DOSSIER A — Littoral dans Inuit Nunangat. Carte verbale [S1, ITK, page générale] : Inuit Nunangat regroupe Inuvialuit, Nunavut, Nunavik et Nunatsiavut; terre, eau et glace en font partie. Fiche [S2, article ITK de 2023] : de nombreuses collectivités sont près des côtes, utilisées pour des déplacements et l’accès aux ressources marines.",
+            "reponse": "Relation 1 : voies d’eau/littoral → déplacements possibles dans de nombreuses collectivités [S2, ITK, 2023]. Relation 2 : proximité des espèces marines → accès/récolte de ressources alimentaires [S2]. Contextualisation : Inuit Nunangat n’est pas une seule localité [S1] et les exemples ne représentent pas chaque personne ou chaque époque."
+          },
+          "B": {
+            "stimulus": "DOSSIER B — Nunavik et littoral. Fiche [S1, ITK] : Nunavik est dans le nord du Québec et comporte des collectivités sur les rives de la baie et du détroit d’Hudson. Fiche transrégionale [S2, ITK, 2023] : pour de nombreuses collectivités côtières d’Inuit Nunangat, la côte permet déplacements et accès à la faune marine.",
+            "reponse": "Relation 1 : dans des collectivités côtières, proximité de la mer → déplacements liés aux voies d’eau, selon le principe régional décrit par S2; S1 situe le Nunavik sans prouver le mode de déplacement de chaque collectivité. Relation 2 : ressources marines du milieu littoral → possibilités d’activités de récolte [S2]; prudence de ne pas attribuer automatiquement cette pratique à chaque village du Nunavik [S1/S2]."
+          }
+        },
+        "exemples_valides": [
+          {
+            "seed": 20010,
+            "variante": "A",
+            "reponse_modele": "Relation 1 : voies d’eau/littoral → déplacements possibles dans de nombreuses collectivités [S2, ITK, 2023]. Relation 2 : proximité des espèces marines → accès/récolte de ressources alimentaires [S2]. Contextualisation : Inuit Nunangat n’est pas une seule localité [S1] et les exemples ne représentent pas chaque personne ou chaque époque."
+          },
+          {
+            "seed": 20011,
+            "variante": "B",
+            "reponse_modele": "Relation 1 : dans des collectivités côtières, proximité de la mer → déplacements liés aux voies d’eau, selon le principe régional décrit par S2; S1 situe le Nunavik sans prouver le mode de déplacement de chaque collectivité. Relation 2 : ressources marines du milieu littoral → possibilités d’activités de récolte [S2]; prudence de ne pas attribuer automatiquement cette pratique à chaque village du Nunavik [S1/S2]."
+          }
+        ],
+        "validation_algorithme": "Vérifier index et correspondance stimulus/réponse par script local; correction sémantique et culturelle nécessite un humain."
+      },
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "representation": "deux fiches originales + carte verbale",
+      "limites_de_variation": "Variante A/B exclusivement, déterminée par seed % 2; S1/S2 fixes, aucune substitution libre ni réponse générée sans révision.",
+      "contexte_preuve": "maitrise_A_littoral",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    },
+    {
+      "item_id": "qc-pri-us-007-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME 2 — Sans indices, explique deux relations environnement–activité tirées du dossier de Hopedale; distingue conditions du milieu et choix communautaires; appuie chaque lien sur la source avec une limite de portée.",
+      "stimulus": "DOSSIER B — Choix communautaires à Hopedale, Nunatsiavut. Fiche [S4, projet ITK] : des habitants ont noté que météo et glace changeantes peuvent gêner l’accès aux aliments sauvages; ils ont aussi développé des moyens communautaires de conservation et partage des aliments prélevés sur le territoire, dont un programme de congélateur.",
+      "reponse_attendue": "Relation 1 : état changeant de la glace/météo → accès plus difficile à certaines récoltes [S4, observations de participants à Hopedale]. Relation 2 : présence d’aliments issus des milieux terrestres/marins et besoins d’accès à ces produits → conservation et partage via congélateur communautaire, réponse humaine documentée [S4]. Limite : le texte ne montre pas que le congélateur est causé *uniquement* par le climat ni que toutes les communautés ont le même dispositif.",
+      "criteres": [
+        "Deux liens valides et spécifiques au cas Hopedale",
+        "Source S4 citée pour chaque lien",
+        "Localisation Nunatsiavut et époque du projet indiquées sans date inventée",
+        "Distingue difficulté environnementale et réponse humaine, sans généralisation"
+      ],
+      "feedback": "Après remise : si climat présenté comme cause unique, ajouter les décisions communautaires; si deux liens ne sont pas attestés, revenir au texte et reprendre plus tard sous autre variante contrôlée.",
+      "difficulte": "transfert",
+      "seed": 20021,
+      "parametres": {
+        "variables": {
+          "variante": {
+            "domaine": [
+              "A",
+              "B"
+            ],
+            "type": "valeur_categorielle"
+          }
+        },
+        "seed_initiale": 20021,
+        "algorithme": "index = seed % 2; index 0 retourne A, 1 retourne B. Aucun tirage IA; chaque dossier et corrigé sont fixes et enregistrés dans cette banque.",
+        "contraintes": [
+          "Sélection exclusivement parmi les deux fiches verrouillées ci-dessous",
+          "Aucun nom, date ou fait nouveau par substitution",
+          "Deux liens distincts environnement–activité avec preuve textuelle",
+          "Une limite de généralisation à expliciter",
+          "Aucun recours à informations personnelles"
+        ],
+        "dossiers_et_corriges": {
+          "A": {
+            "stimulus": "DOSSIER A — Hopedale, Nunatsiavut. Fiche de projet [S4, ITK] : des personnes mentionnent des variations météo et de glace comme obstacles à certaines sorties de récolte; le projet décrit un programme de rencontres entre jeunes et personnes expérimentées lors de sorties pour récolter des aliments et transmettre des savoirs.",
+            "reponse": "Relation 1 : variations météo/glace → sorties de récolte parfois plus difficiles, d’après les participants à Hopedale [S4]. Relation 2 : ressources sauvages du territoire et connaissances nécessaires → sorties d’apprentissage et transmission intergénérationnelle [S4]. Limite : fiche de projet local, sans généralisation à tous les Inuit."
+          },
+          "B": {
+            "stimulus": "DOSSIER B — Choix communautaires à Hopedale, Nunatsiavut. Fiche [S4, projet ITK] : des habitants ont noté que météo et glace changeantes peuvent gêner l’accès aux aliments sauvages; ils ont aussi développé des moyens communautaires de conservation et partage des aliments prélevés sur le territoire, dont un programme de congélateur.",
+            "reponse": "Relation 1 : état changeant de la glace/météo → accès plus difficile à certaines récoltes [S4, observations de participants à Hopedale]. Relation 2 : présence d’aliments issus des milieux terrestres/marins et besoins d’accès à ces produits → conservation et partage via congélateur communautaire, réponse humaine documentée [S4]. Limite : le texte ne montre pas que le congélateur est causé *uniquement* par le climat ni que toutes les communautés ont le même dispositif."
+          }
+        },
+        "exemples_valides": [
+          {
+            "seed": 20022,
+            "variante": "A",
+            "reponse_modele": "Relation 1 : variations météo/glace → sorties de récolte parfois plus difficiles, d’après les participants à Hopedale [S4]. Relation 2 : ressources sauvages du territoire et connaissances nécessaires → sorties d’apprentissage et transmission intergénérationnelle [S4]. Limite : fiche de projet local, sans généralisation à tous les Inuit."
+          },
+          {
+            "seed": 20021,
+            "variante": "B",
+            "reponse_modele": "Relation 1 : état changeant de la glace/météo → accès plus difficile à certaines récoltes [S4, observations de participants à Hopedale]. Relation 2 : présence d’aliments issus des milieux terrestres/marins et besoins d’accès à ces produits → conservation et partage via congélateur communautaire, réponse humaine documentée [S4]. Limite : le texte ne montre pas que le congélateur est causé *uniquement* par le climat ni que toutes les communautés ont le même dispositif."
+          }
+        ],
+        "validation_algorithme": "Vérifier index et correspondance stimulus/réponse par script local; correction sémantique et culturelle nécessite un humain."
+      },
+      "validation_status": "a_revoir",
+      "source_ids": [
+        "S4"
+      ],
+      "representation": "dossier communautaire contextualisé",
+      "limites_de_variation": "Variante A/B exclusivement, sélection seed % 2; éléments factuels source S4 gelés; révision humaine pour juger raisonnements.",
+      "contexte_preuve": "maitrise_B_hopedale",
+      "accommodements": "Réponse dictée, écrite ou enregistrée; lecture de la fiche et agrandissement possibles sans fournir les relations à inférer."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-mu-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Utiliser sa voix de façon sûre et expressive dans un motif simple.",
+  "concepts": [
+    "respiration",
+    "articulation",
+    "hauteur",
+    "expression"
+  ],
+  "preuve_attendue": "Interpréter un chant court avec diction et contrôle du souffle.",
+  "prerequis_bloquants": [
+    "qc-pri-mu-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-mu-005-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Interpréter un chant court avec diction et contrôle du souffle.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Uniquement transposition confortable, tempo lent, pauses adaptées et supports d’accès prévus; paroles et contours des deux épreuves sont fixes. Pas de génération IA libre.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-mu-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "production vocale observée",
+        "paroles originales segmentées",
+        "contour relatif à deux niveaux 1/2",
+        "repère visuel de pause",
+        "explication accessible de la nuance"
+      ],
+      "variables": {
+        "mode": "fixe_controle",
+        "scenarios": [
+          "Le matin",
+          "La ronde des voix"
+        ],
+        "generateur_aleatoire": false,
+        "parametrage_restreint": [
+          "hauteur absolue confortable",
+          "volume doux",
+          "tempo lent au choix",
+          "outil de communication non directif"
+        ]
+      },
+      "contraintes": [
+        "chant de deux phrases courtes d’unités indiquées",
+        "diction de mots reconnaissables sans norme d’accent",
+        "respiration naturelle entre les deux phrases",
+        "contour relatif de deux hauteurs si réalisable en sécurité",
+        "aucune contrainte de tessiture, force, genre ou timbre",
+        "aucun cri, chuchotement forcé ou apnée",
+        "deux preuves distinctes et autonomes",
+        "revue humaine avant décision"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "diction",
+          "phrasé_et_souffle",
+          "motif_et_hauteur_relative",
+          "intention_expressive",
+          "autonomie_et_sécurité"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2
+        ],
+        "condition": "M1-M5 = 2 sur chacune des deux prestations indépendantes; aucune compensation par total unique"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_evaluations_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

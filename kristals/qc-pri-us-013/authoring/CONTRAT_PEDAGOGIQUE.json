@@ -1,0 +1,96 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-013",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire un enjeu du Québec contemporain à partir d’informations croisées.",
+  "concepts": [
+    "territoire",
+    "diversité",
+    "institutions",
+    "enjeux"
+  ],
+  "preuve_attendue": "Synthétiser un enjeu avec faits, acteurs et limites des sources.",
+  "prerequis_bloquants": [
+    "qc-pri-us-001"
+  ],
+  "ordre_conseille": [
+    "qc-pri-us-012"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-013-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Synthétiser un enjeu avec faits, acteurs et limites des sources.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Corpus approuvé A1/A2/B1/B2 fixé par item et deux contextes de maîtrise A/B; seul format de présentation/communication non directif est adaptable.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-us-013",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "analyse de deux cartes documentaires datées",
+        "tableau source/fait/acteur/limite",
+        "synthèse rédigée ou orale justifiée"
+      ],
+      "variables": {
+        "mode": "corpus_ferme",
+        "source_ids": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "contextes": [
+          "logement",
+          "mobilite_collective"
+        ],
+        "substitutions_autorisees": [],
+        "generation_ia_libre": false
+      },
+      "contraintes": [
+        "sources factuelles explicitement datées et attribuées",
+        "au moins deux documents croisés",
+        "échelle territoriale et population respectées",
+        "distinguer objectifs politiques et effets mesurés",
+        "au moins deux acteurs/rôles par preuve",
+        "interdire inférence causale non établie",
+        "pas de variation libre du corpus ni du corrigé",
+        "deux contextes indépendants"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "faits_situes",
+          "croisement_des_sources",
+          "acteurs_et_territoire",
+          "limites_et_distinctions",
+          "autonomie_et_structure"
+        ],
+        "niveaux": "0 non_observe, 1 partiel, 2 suffisant",
+        "decision": "M1-M5 à 2 sur chacune des deux preuves q-009 et q-010"
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

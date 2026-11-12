@@ -1,0 +1,83 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-026",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Présenter une idée structurée et la défendre à l’aide de raisons audibles.",
+  "concepts": [
+    "organisation orale",
+    "argument",
+    "exemple"
+  ],
+  "preuve_attendue": "Donner un court exposé suivi de réponses pertinentes à deux questions.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-025"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-026-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Donner un court exposé suivi de réponses pertinentes à deux questions.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "modes_actifs": [
+          "fixe",
+          "scenario_controle"
+        ],
+        "mode_parametrique_actif": false,
+        "conditions_variation": "stimuli et questions fixes; substitutions seulement après revue humaine et essai local"
+      },
+      "review_status": "banque_redigee_a_reviser",
+      "kristal_id": "qc-pri-fr-026",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "expose_oral_avec_questions",
+        "sortie_vocale_accessible",
+        "consigne_ou_support_d_acces_oral_visuel"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Stimuli fictifs originaux sans collecte de données personnelles.",
+        "Tâche de maîtrise : exposé organisé, une raison et un exemple, réponses pertinentes aux deux questions fixées.",
+        "Deux manifestations autonomes distinctes M1 q-010 et M2 q-011, chacune satisfaisant la grille S/R/E/Q/A.",
+        "Questions sans indices de fond; accès par aide vocale et consignes adaptées admis.",
+        "Variations seulement par corpus contrôlé revu par un humain; pas de génération IA libre comme arbitre."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "../evaluation/GRILLE_MAITRISE.md",
+        "echelle_niveaux": [
+          0,
+          1,
+          2
+        ],
+        "dimensions": [
+          "S",
+          "R",
+          "E",
+          "Q",
+          "A"
+        ],
+        "condition": "Niveau 2 dans chaque dimension pour chacune de deux prestations autonomes en contextes distincts; Q exige deux réponses pertinentes; aucune moyenne unique."
+      },
+      "source": "production_originale_qc-pri-fr-026_v1.2_appuyee_sur_governance_et_frames",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_reviser",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

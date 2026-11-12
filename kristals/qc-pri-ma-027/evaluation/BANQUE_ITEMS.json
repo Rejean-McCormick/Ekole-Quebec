@@ -1,0 +1,1122 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-027",
+  "family_id": "qc-pri-ma-027-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-027-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-027-ev-01",
+      "mode": "fixe",
+      "seed": null,
+      "parametres": null,
+      "representation": "côtés de polygone étiquetés + somme vérifiable",
+      "variation_limites": "Énoncé et corrigé fixes; seules modalités d’accès (lecture, dictée, support tactile) adaptées",
+      "source": "énoncé et corrigé originaux, calcul arithmétique exact",
+      "validation_status": "a_revoir",
+      "consigne": "Pour un rectangle dont les côtés successifs mesurent 4 cm, 3 cm, 4 cm, 3 cm, indique uniquement les côtés du bord extérieur et calcule son périmètre. Explique pourquoi une diagonale dessinée sur la surface serait exclue.",
+      "stimulus": "Quatre côtés extérieurs décrits textuellement dans l’ordre 4–3–4–3 cm. On mentionne une diagonale hypothétique entièrement intérieure, sans longueur fournie.",
+      "reponse_attendue": "4+3+4+3=14 cm. La diagonale éventuelle ne fait pas partie du contour extérieur fermé.",
+      "criteres": [
+        "Sélectionne uniquement quatre segments extérieurs.",
+        "Calcule exactement 14 cm en additionnant les côtés.",
+        "Explique que la diagonale intérieure est exclue."
+      ],
+      "feedback": "Si un cinquième segment apparaît, demander s’il est sur le contour; si une surface est calculée, revenir au tracé linéaire.",
+      "difficulte": "initial"
+    },
+    {
+      "item_id": "qc-pri-ma-027-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-027-ev-01",
+      "mode": "parametrique",
+      "consigne": "Un rectangle mesure 5 cm de large et 7 cm de haut. Suis mentalement ses quatre côtés extérieurs; calcule son périmètre en montrant la somme et en indiquant l’unité.",
+      "stimulus": "Rectangle étiqueté de dimensions W et H; schéma non à l’échelle, longueurs écrites. Paramètres de cette instance : W=5, H=7 cm. Schéma descriptif coté; aucune longueur déduite de l’aspect graphique.",
+      "reponse_attendue": "Les côtés sont 5, 7, 5, 7 cm; P=5+7+5+7=24 cm. Le tour est une longueur et non une aire.",
+      "criteres": [
+        "Repère les quatre côtés extérieurs, chacun une fois.",
+        "Additionne correctement les longueurs données.",
+        "Écrit 24 cm et explique qu’il s’agit du contour."
+      ],
+      "feedback": "Si un produit largeur×hauteur apparaît, faire repasser le contour puis sommer les quatre côtés; si cm² est noté, rappeler la grandeur linéaire.",
+      "difficulte": "initial",
+      "representation": "rectangle coté + addition; segmentations cotées, addition numérique et explication vérifiable du contour",
+      "seed": 27002,
+      "parametres": {
+        "version_generateur": "qc-perimetre-catalogue/1.0",
+        "type": "catalogue_fixe_controle",
+        "index_selection": "seed % 3",
+        "index_instance": 2,
+        "variables": [
+          "W",
+          "H"
+        ],
+        "domaines_discrets": {
+          "W": [
+            5,
+            6,
+            8
+          ],
+          "H": [
+            3,
+            4,
+            7
+          ]
+        },
+        "contraintes": [
+          "entiers strictement positifs",
+          "W>0, H>0",
+          "0<w<W et 0<h<H lorsque figure en L",
+          "d>0 lorsque changement",
+          "unité unique dans une même variante",
+          "rectangle et encoche géométriquement définis sans dessin à l’échelle"
+        ],
+        "formule_solution": "P=2(W+H)",
+        "algorithme": "Choisir exactement variantes[seed % 3].variables; construire les côtés extérieurs suivant le type, calculer la somme, puis comparer les deux périmètres s’ils existent; aucune valeur aléatoire ni interprétation automatique d’un dessin.",
+        "validation": "Trois variantes calculées par addition explicite des côtés et vérifiées indépendamment par la formule; comparer toutes les valeurs attendues; voir livraison/VALIDATION.md.",
+        "variantes": [
+          {
+            "variables": {
+              "W": 6,
+              "H": 4
+            },
+            "consigne": "Un rectangle mesure 6 cm de large et 4 cm de haut. Suis mentalement ses quatre côtés extérieurs; calcule son périmètre en montrant la somme et en indiquant l’unité.",
+            "reponse_attendue": "Les côtés sont 6, 4, 6, 4 cm; P=6+4+6+4=20 cm. Le tour est une longueur et non une aire.",
+            "resultats": {
+              "P": 20
+            },
+            "verification_independante": {
+              "P": 20
+            }
+          },
+          {
+            "variables": {
+              "W": 8,
+              "H": 3
+            },
+            "consigne": "Un rectangle mesure 8 cm de large et 3 cm de haut. Suis mentalement ses quatre côtés extérieurs; calcule son périmètre en montrant la somme et en indiquant l’unité.",
+            "reponse_attendue": "Les côtés sont 8, 3, 8, 3 cm; P=8+3+8+3=22 cm. Le tour est une longueur et non une aire.",
+            "resultats": {
+              "P": 22
+            },
+            "verification_independante": {
+              "P": 22
+            }
+          },
+          {
+            "variables": {
+              "W": 5,
+              "H": 7
+            },
+            "consigne": "Un rectangle mesure 5 cm de large et 7 cm de haut. Suis mentalement ses quatre côtés extérieurs; calcule son périmètre en montrant la somme et en indiquant l’unité.",
+            "reponse_attendue": "Les côtés sont 5, 7, 5, 7 cm; P=5+7+5+7=24 cm. Le tour est une longueur et non une aire.",
+            "resultats": {
+              "P": 24
+            },
+            "verification_independante": {
+              "P": 24
+            }
+          }
+        ],
+        "unite": "cm"
+      },
+      "variation_limites": "Seulement le catalogue de trois variantes documentées; contextes, types de figure, unités et critères inchangés; adaptation d’accès non directive possible.",
+      "source": "contenu original et calcul exact, références dans sources/REFERENCES_CONTENU.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-027-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-027-ev-01",
+      "mode": "fixe",
+      "seed": null,
+      "parametres": null,
+      "representation": "côtés de polygone étiquetés + somme vérifiable",
+      "variation_limites": "Énoncé et corrigé fixes; seules modalités d’accès (lecture, dictée, support tactile) adaptées",
+      "source": "énoncé et corrigé originaux, calcul arithmétique exact",
+      "validation_status": "a_revoir",
+      "consigne": "Une figure carrée a quatre côtés mesurant chacun 5 cm. Calcule la longueur de son contour puis explique pourquoi 25 cm² n’est pas un périmètre.",
+      "stimulus": "Carré coté 5 cm de chaque côté; texte complet, sans schéma à mesurer.",
+      "reponse_attendue": "P=5+5+5+5=20 cm. 5×5=25 cm² mesure la surface du carré; la longueur du contour est différente.",
+      "criteres": [
+        "Repère quatre côtés de 5 cm.",
+        "Donne 20 cm comme périmètre.",
+        "Distingue longueur linéaire de surface en cm²."
+      ],
+      "feedback": "Une réponse 25 cm² montre la confusion aire-périmètre : vérifier le calcul par quatre côtés plutôt que par produit.",
+      "difficulte": "initial"
+    },
+    {
+      "item_id": "qc-pri-ma-027-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-027-ev-01",
+      "mode": "parametrique",
+      "consigne": "Un L est obtenu en retirant au coin supérieur droit d’un rectangle W=9 cm, H=7 cm une encoche de largeur w=4 cm et hauteur h=3 cm. Énumère les six côtés du contour, calcule P et vérifie.",
+      "stimulus": "Figure en L orthogonale décrite par W,H,w,h, encoche au coin supérieur droit. Paramètres de cette instance : W=9, H=7, w=4, h=3 cm. Schéma descriptif coté; aucune longueur déduite de l’aspect graphique.",
+      "reponse_attendue": "Six côtés extérieurs dans l’ordre (bas, droite inférieure, bord horizontal d’encoche, vertical d’encoche, haut restant, gauche): 9, 4, 4, 3, 5, 7 cm; P=32 cm. Pour cette figure, P=2(W+H)=32 cm.",
+      "criteres": [
+        "Donne les six côtés W, H−h, w, h, W−w, H sans segment intérieur.",
+        "Additionne les six longueurs et obtient 32 cm.",
+        "Justifie que le trajet suit seulement le contour de la figure en L."
+      ],
+      "feedback": "Si un bord enlevé est encore compté, retracer les six côtés actuels; si l’encoche s’ajoute au rectangle entier, rappeler les portions remplacées.",
+      "difficulte": "intermediaire",
+      "representation": "liste ordonnée de six segments + regroupement; segmentations cotées, addition numérique et explication vérifiable du contour",
+      "seed": 27004,
+      "parametres": {
+        "version_generateur": "qc-perimetre-catalogue/1.0",
+        "type": "catalogue_fixe_controle",
+        "index_selection": "seed % 3",
+        "index_instance": 1,
+        "variables": [
+          "W",
+          "H",
+          "w",
+          "h"
+        ],
+        "domaines_discrets": {
+          "W": [
+            9,
+            10,
+            12
+          ],
+          "H": [
+            6,
+            7,
+            8
+          ],
+          "w": [
+            3,
+            4,
+            5
+          ],
+          "h": [
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "entiers strictement positifs",
+          "W>0, H>0",
+          "0<w<W et 0<h<H lorsque figure en L",
+          "d>0 lorsque changement",
+          "unité unique dans une même variante",
+          "rectangle et encoche géométriquement définis sans dessin à l’échelle"
+        ],
+        "formule_solution": "P=W+(H-h)+w+h+(W-w)+H=2(W+H)",
+        "algorithme": "Choisir exactement variantes[seed % 3].variables; construire les côtés extérieurs suivant le type, calculer la somme, puis comparer les deux périmètres s’ils existent; aucune valeur aléatoire ni interprétation automatique d’un dessin.",
+        "validation": "Trois variantes calculées par addition explicite des côtés et vérifiées indépendamment par la formule; comparer toutes les valeurs attendues; voir livraison/VALIDATION.md.",
+        "variantes": [
+          {
+            "variables": {
+              "W": 10,
+              "H": 6,
+              "w": 3,
+              "h": 2
+            },
+            "consigne": "Un L est obtenu en retirant au coin supérieur droit d’un rectangle W=10 cm, H=6 cm une encoche de largeur w=3 cm et hauteur h=2 cm. Énumère les six côtés du contour, calcule P et vérifie.",
+            "reponse_attendue": "Six côtés extérieurs dans l’ordre (bas, droite inférieure, bord horizontal d’encoche, vertical d’encoche, haut restant, gauche): 10, 4, 3, 2, 7, 6 cm; P=32 cm. Pour cette figure, P=2(W+H)=32 cm.",
+            "resultats": {
+              "cotes": [
+                10,
+                4,
+                3,
+                2,
+                7,
+                6
+              ],
+              "P": 32
+            },
+            "verification_independante": {
+              "cotes": [
+                10,
+                4,
+                3,
+                2,
+                7,
+                6
+              ],
+              "P": 32
+            }
+          },
+          {
+            "variables": {
+              "W": 9,
+              "H": 7,
+              "w": 4,
+              "h": 3
+            },
+            "consigne": "Un L est obtenu en retirant au coin supérieur droit d’un rectangle W=9 cm, H=7 cm une encoche de largeur w=4 cm et hauteur h=3 cm. Énumère les six côtés du contour, calcule P et vérifie.",
+            "reponse_attendue": "Six côtés extérieurs dans l’ordre (bas, droite inférieure, bord horizontal d’encoche, vertical d’encoche, haut restant, gauche): 9, 4, 4, 3, 5, 7 cm; P=32 cm. Pour cette figure, P=2(W+H)=32 cm.",
+            "resultats": {
+              "cotes": [
+                9,
+                4,
+                4,
+                3,
+                5,
+                7
+              ],
+              "P": 32
+            },
+            "verification_independante": {
+              "cotes": [
+                9,
+                4,
+                4,
+                3,
+                5,
+                7
+              ],
+              "P": 32
+            }
+          },
+          {
+            "variables": {
+              "W": 12,
+              "H": 8,
+              "w": 5,
+              "h": 4
+            },
+            "consigne": "Un L est obtenu en retirant au coin supérieur droit d’un rectangle W=12 cm, H=8 cm une encoche de largeur w=5 cm et hauteur h=4 cm. Énumère les six côtés du contour, calcule P et vérifie.",
+            "reponse_attendue": "Six côtés extérieurs dans l’ordre (bas, droite inférieure, bord horizontal d’encoche, vertical d’encoche, haut restant, gauche): 12, 4, 5, 4, 7, 8 cm; P=40 cm. Pour cette figure, P=2(W+H)=40 cm.",
+            "resultats": {
+              "cotes": [
+                12,
+                4,
+                5,
+                4,
+                7,
+                8
+              ],
+              "P": 40
+            },
+            "verification_independante": {
+              "cotes": [
+                12,
+                4,
+                5,
+                4,
+                7,
+                8
+              ],
+              "P": 40
+            }
+          }
+        ],
+        "unite": "cm"
+      },
+      "variation_limites": "Seulement le catalogue de trois variantes documentées; contextes, types de figure, unités et critères inchangés; adaptation d’accès non directive possible.",
+      "source": "contenu original et calcul exact, références dans sources/REFERENCES_CONTENU.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-027-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-027-ev-01",
+      "mode": "fixe",
+      "seed": null,
+      "parametres": null,
+      "representation": "côtés de polygone étiquetés + somme vérifiable",
+      "variation_limites": "Énoncé et corrigé fixes; seules modalités d’accès (lecture, dictée, support tactile) adaptées",
+      "source": "énoncé et corrigé originaux, calcul arithmétique exact",
+      "validation_status": "a_revoir",
+      "consigne": "Le contour fermé d’un quadrilatère comporte quatre côtés successifs de 3 cm, 4 cm, 5 cm et une longueur inconnue x cm. Son périmètre TOTAL vaut 16 cm. Trouve x et justifie.",
+      "stimulus": "Quatre côtés extérieurs dans l’ordre 3,4,5,x cm; périmètre connu 16 cm; x est une longueur positive.",
+      "reponse_attendue": "3+4+5+x=16; 3+4+5=12; x=16−12=4 cm. Vérification : 3+4+5+4=16 cm. Quatre segments peuvent former le contour d’un quadrilatère non dégénéré ici.",
+      "criteres": [
+        "Identifie la somme des quatre côtés comme 16 cm.",
+        "Calcule x=4 cm par différence, sans mélanger les unités.",
+        "Vérifie en recombinant 3+4+5+4=16 cm."
+      ],
+      "feedback": "Si x vaut 16, rappeler que les trois longueurs connues doivent être retranchées; vérifier en recomposant la somme.",
+      "difficulte": "intermediaire"
+    },
+    {
+      "item_id": "qc-pri-ma-027-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-027-ev-01",
+      "mode": "parametrique",
+      "consigne": "Un rectangle mesure 6 cm × 4 cm. Sa largeur augmente de 2 cm, sa hauteur reste identique. Trouve les deux périmètres et explique l’effet en nommant les côtés modifiés.",
+      "stimulus": "Rectangle de largeur W, hauteur H, extension horizontale d positive. Paramètres de cette instance : W=6, H=4, d=2 cm. Schéma descriptif coté; aucune longueur déduite de l’aspect graphique.",
+      "reponse_attendue": "Avant: 2(6+4)=20 cm; après: 2(6+2+4)=24 cm. Écart=4 cm: les DEUX côtés de largeur gagnent chacun 2 cm.",
+      "criteres": [
+        "Calcule les deux périmètres 20 cm et 24 cm.",
+        "Donne la différence positive 4 cm avec son unité.",
+        "Identifie les deux bords opposés de largeur comme cause du changement."
+      ],
+      "feedback": "Si l’effet vaut seulement d, rechercher le second côté allongé; si les résultats sont en cm², distinguer mesure de contour et aire.",
+      "difficulte": "intermediaire",
+      "representation": "deux rectangles cotés + différence; segmentations cotées, addition numérique et explication vérifiable du contour",
+      "seed": 27006,
+      "parametres": {
+        "version_generateur": "qc-perimetre-catalogue/1.0",
+        "type": "catalogue_fixe_controle",
+        "index_selection": "seed % 3",
+        "index_instance": 0,
+        "variables": [
+          "W",
+          "H",
+          "d"
+        ],
+        "domaines_discrets": {
+          "W": [
+            6,
+            7,
+            8
+          ],
+          "H": [
+            3,
+            4,
+            5
+          ],
+          "d": [
+            1,
+            2,
+            3
+          ]
+        },
+        "contraintes": [
+          "entiers strictement positifs",
+          "W>0, H>0",
+          "0<w<W et 0<h<H lorsque figure en L",
+          "d>0 lorsque changement",
+          "unité unique dans une même variante",
+          "rectangle et encoche géométriquement définis sans dessin à l’échelle"
+        ],
+        "formule_solution": "P1=2(W+H); P2=2(W+d+H); variation=2d",
+        "algorithme": "Choisir exactement variantes[seed % 3].variables; construire les côtés extérieurs suivant le type, calculer la somme, puis comparer les deux périmètres s’ils existent; aucune valeur aléatoire ni interprétation automatique d’un dessin.",
+        "validation": "Trois variantes calculées par addition explicite des côtés et vérifiées indépendamment par la formule; comparer toutes les valeurs attendues; voir livraison/VALIDATION.md.",
+        "variantes": [
+          {
+            "variables": {
+              "W": 6,
+              "H": 4,
+              "d": 2
+            },
+            "consigne": "Un rectangle mesure 6 cm × 4 cm. Sa largeur augmente de 2 cm, sa hauteur reste identique. Trouve les deux périmètres et explique l’effet en nommant les côtés modifiés.",
+            "reponse_attendue": "Avant: 2(6+4)=20 cm; après: 2(6+2+4)=24 cm. Écart=4 cm: les DEUX côtés de largeur gagnent chacun 2 cm.",
+            "resultats": {
+              "avant": 20,
+              "apres": 24,
+              "effet": 4
+            },
+            "verification_independante": {
+              "avant": 20,
+              "apres": 24,
+              "effet": 4
+            }
+          },
+          {
+            "variables": {
+              "W": 8,
+              "H": 3,
+              "d": 3
+            },
+            "consigne": "Un rectangle mesure 8 cm × 3 cm. Sa largeur augmente de 3 cm, sa hauteur reste identique. Trouve les deux périmètres et explique l’effet en nommant les côtés modifiés.",
+            "reponse_attendue": "Avant: 2(8+3)=22 cm; après: 2(8+3+3)=28 cm. Écart=6 cm: les DEUX côtés de largeur gagnent chacun 3 cm.",
+            "resultats": {
+              "avant": 22,
+              "apres": 28,
+              "effet": 6
+            },
+            "verification_independante": {
+              "avant": 22,
+              "apres": 28,
+              "effet": 6
+            }
+          },
+          {
+            "variables": {
+              "W": 7,
+              "H": 5,
+              "d": 1
+            },
+            "consigne": "Un rectangle mesure 7 cm × 5 cm. Sa largeur augmente de 1 cm, sa hauteur reste identique. Trouve les deux périmètres et explique l’effet en nommant les côtés modifiés.",
+            "reponse_attendue": "Avant: 2(7+5)=24 cm; après: 2(7+1+5)=26 cm. Écart=2 cm: les DEUX côtés de largeur gagnent chacun 1 cm.",
+            "resultats": {
+              "avant": 24,
+              "apres": 26,
+              "effet": 2
+            },
+            "verification_independante": {
+              "avant": 24,
+              "apres": 26,
+              "effet": 2
+            }
+          }
+        ],
+        "unite": "cm"
+      },
+      "variation_limites": "Seulement le catalogue de trois variantes documentées; contextes, types de figure, unités et critères inchangés; adaptation d’accès non directive possible.",
+      "source": "contenu original et calcul exact, références dans sources/REFERENCES_CONTENU.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-027-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-027-ev-01",
+      "mode": "parametrique",
+      "consigne": "Un rectangle W=11 cm, H=7 cm perd un petit rectangle w=4 cm, h=3 cm à son coin supérieur droit. Compare le périmètre du rectangle entier et celui du L. Explique mathématiquement l’effet.",
+      "stimulus": "Comparaison d’un rectangle et de son coin supérieur droit ôté; aucune coupe intérieure. Paramètres de cette instance : W=11, H=7, w=4, h=3 cm. Schéma descriptif coté; aucune longueur déduite de l’aspect graphique.",
+      "reponse_attendue": "Contour du rectangle: 36 cm. Six côtés du L: 11, 4, 4, 3, 7, 7 cm; leur somme est 36 cm. Effet 0 cm: les segments de largeur w et de hauteur h qui disparaissent sont remplacés par des segments intérieurs de mêmes longueurs le long du nouveau contour.",
+      "criteres": [
+        "Calcule 36 cm pour le rectangle complet.",
+        "Reconstitue les six bords du L et calcule 36 cm.",
+        "Explique que l’encoche de coin donne une variation nulle ici, pas pour toute coupe."
+      ],
+      "feedback": "Si P(L) paraît plus grand, comparer les bords retirés aux bords ajoutés; vérifier le coin et ne pas généraliser à un trou intérieur.",
+      "difficulte": "transfert",
+      "representation": "rectangle puis L aux six côtés; segmentations cotées, addition numérique et explication vérifiable du contour",
+      "seed": 27007,
+      "parametres": {
+        "version_generateur": "qc-perimetre-catalogue/1.0",
+        "type": "catalogue_fixe_controle",
+        "index_selection": "seed % 3",
+        "index_instance": 1,
+        "variables": [
+          "W",
+          "H",
+          "w",
+          "h"
+        ],
+        "domaines_discrets": {
+          "W": [
+            8,
+            11,
+            12
+          ],
+          "H": [
+            5,
+            7,
+            9
+          ],
+          "w": [
+            2,
+            4,
+            5
+          ],
+          "h": [
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "entiers strictement positifs",
+          "W>0, H>0",
+          "0<w<W et 0<h<H lorsque figure en L",
+          "d>0 lorsque changement",
+          "unité unique dans une même variante",
+          "rectangle et encoche géométriquement définis sans dessin à l’échelle"
+        ],
+        "formule_solution": "P_rect=2(W+H); P_L=W+(H-h)+w+h+(W-w)+H; variation=0",
+        "algorithme": "Choisir exactement variantes[seed % 3].variables; construire les côtés extérieurs suivant le type, calculer la somme, puis comparer les deux périmètres s’ils existent; aucune valeur aléatoire ni interprétation automatique d’un dessin.",
+        "validation": "Trois variantes calculées par addition explicite des côtés et vérifiées indépendamment par la formule; comparer toutes les valeurs attendues; voir livraison/VALIDATION.md.",
+        "variantes": [
+          {
+            "variables": {
+              "W": 8,
+              "H": 5,
+              "w": 2,
+              "h": 2
+            },
+            "consigne": "Un rectangle W=8 cm, H=5 cm perd un petit rectangle w=2 cm, h=2 cm à son coin supérieur droit. Compare le périmètre du rectangle entier et celui du L. Explique mathématiquement l’effet.",
+            "reponse_attendue": "Contour du rectangle: 26 cm. Six côtés du L: 8, 3, 2, 2, 6, 5 cm; leur somme est 26 cm. Effet 0 cm: les segments de largeur w et de hauteur h qui disparaissent sont remplacés par des segments intérieurs de mêmes longueurs le long du nouveau contour.",
+            "resultats": {
+              "rectangle": 26,
+              "cotes_L": [
+                8,
+                3,
+                2,
+                2,
+                6,
+                5
+              ],
+              "L": 26,
+              "effet": 0
+            },
+            "verification_independante": {
+              "rectangle": 26,
+              "cotes_L": [
+                8,
+                3,
+                2,
+                2,
+                6,
+                5
+              ],
+              "L": 26,
+              "effet": 0
+            }
+          },
+          {
+            "variables": {
+              "W": 11,
+              "H": 7,
+              "w": 4,
+              "h": 3
+            },
+            "consigne": "Un rectangle W=11 cm, H=7 cm perd un petit rectangle w=4 cm, h=3 cm à son coin supérieur droit. Compare le périmètre du rectangle entier et celui du L. Explique mathématiquement l’effet.",
+            "reponse_attendue": "Contour du rectangle: 36 cm. Six côtés du L: 11, 4, 4, 3, 7, 7 cm; leur somme est 36 cm. Effet 0 cm: les segments de largeur w et de hauteur h qui disparaissent sont remplacés par des segments intérieurs de mêmes longueurs le long du nouveau contour.",
+            "resultats": {
+              "rectangle": 36,
+              "cotes_L": [
+                11,
+                4,
+                4,
+                3,
+                7,
+                7
+              ],
+              "L": 36,
+              "effet": 0
+            },
+            "verification_independante": {
+              "rectangle": 36,
+              "cotes_L": [
+                11,
+                4,
+                4,
+                3,
+                7,
+                7
+              ],
+              "L": 36,
+              "effet": 0
+            }
+          },
+          {
+            "variables": {
+              "W": 12,
+              "H": 9,
+              "w": 5,
+              "h": 4
+            },
+            "consigne": "Un rectangle W=12 cm, H=9 cm perd un petit rectangle w=5 cm, h=4 cm à son coin supérieur droit. Compare le périmètre du rectangle entier et celui du L. Explique mathématiquement l’effet.",
+            "reponse_attendue": "Contour du rectangle: 42 cm. Six côtés du L: 12, 5, 5, 4, 7, 9 cm; leur somme est 42 cm. Effet 0 cm: les segments de largeur w et de hauteur h qui disparaissent sont remplacés par des segments intérieurs de mêmes longueurs le long du nouveau contour.",
+            "resultats": {
+              "rectangle": 42,
+              "cotes_L": [
+                12,
+                5,
+                5,
+                4,
+                7,
+                9
+              ],
+              "L": 42,
+              "effet": 0
+            },
+            "verification_independante": {
+              "rectangle": 42,
+              "cotes_L": [
+                12,
+                5,
+                5,
+                4,
+                7,
+                9
+              ],
+              "L": 42,
+              "effet": 0
+            }
+          }
+        ],
+        "unite": "cm"
+      },
+      "variation_limites": "Seulement le catalogue de trois variantes documentées; contextes, types de figure, unités et critères inchangés; adaptation d’accès non directive possible.",
+      "source": "contenu original et calcul exact, références dans sources/REFERENCES_CONTENU.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-027-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-027-ev-01",
+      "mode": "parametrique",
+      "consigne": "Un rectangle W=6 m, H=2 m est remplacé par un autre de largeur 12 m et de hauteur 4 m (chacune doublée). Calcule leurs périmètres et explique le facteur de variation.",
+      "stimulus": "Deux plans de rectangles à échelle numérique; unités m. Paramètres de cette instance : W=6, H=2 m. Schéma descriptif coté; aucune longueur déduite de l’aspect graphique.",
+      "reponse_attendue": "Avant: 2(6+2)=16 m; après: 2(12+4)=32 m. L’écart vaut 16 m et le nouveau périmètre est DEUX fois l’ancien, car chacun des quatre côtés est doublé.",
+      "criteres": [
+        "Calcule 16 m pour la première figure.",
+        "Calcule 32 m pour la seconde et donne l’écart 16 m.",
+        "Explique correctement le facteur 2 appliqué à chaque longueur du contour."
+      ],
+      "feedback": "Si la réponse multiplie le périmètre par 4, elle confond la variation de l’aire avec celle du contour; énumérer les quatre bords.",
+      "difficulte": "transfert",
+      "representation": "deux contours à l’échelle numérique, sans mesure de dessin; segmentations cotées, addition numérique et explication vérifiable du contour",
+      "seed": 27008,
+      "parametres": {
+        "version_generateur": "qc-perimetre-catalogue/1.0",
+        "type": "catalogue_fixe_controle",
+        "index_selection": "seed % 3",
+        "index_instance": 2,
+        "variables": [
+          "W",
+          "H"
+        ],
+        "domaines_discrets": {
+          "W": [
+            5,
+            6,
+            7
+          ],
+          "H": [
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "entiers strictement positifs",
+          "W>0, H>0",
+          "0<w<W et 0<h<H lorsque figure en L",
+          "d>0 lorsque changement",
+          "unité unique dans une même variante",
+          "rectangle et encoche géométriquement définis sans dessin à l’échelle"
+        ],
+        "formule_solution": "P1=2(W+H); P2=2(2W+2H)=2P1; variation=P1",
+        "algorithme": "Choisir exactement variantes[seed % 3].variables; construire les côtés extérieurs suivant le type, calculer la somme, puis comparer les deux périmètres s’ils existent; aucune valeur aléatoire ni interprétation automatique d’un dessin.",
+        "validation": "Trois variantes calculées par addition explicite des côtés et vérifiées indépendamment par la formule; comparer toutes les valeurs attendues; voir livraison/VALIDATION.md.",
+        "variantes": [
+          {
+            "variables": {
+              "W": 5,
+              "H": 3
+            },
+            "consigne": "Un rectangle W=5 m, H=3 m est remplacé par un autre de largeur 10 m et de hauteur 6 m (chacune doublée). Calcule leurs périmètres et explique le facteur de variation.",
+            "reponse_attendue": "Avant: 2(5+3)=16 m; après: 2(10+6)=32 m. L’écart vaut 16 m et le nouveau périmètre est DEUX fois l’ancien, car chacun des quatre côtés est doublé.",
+            "resultats": {
+              "avant": 16,
+              "apres": 32,
+              "effet": 16
+            },
+            "verification_independante": {
+              "avant": 16,
+              "apres": 32,
+              "effet": 16
+            }
+          },
+          {
+            "variables": {
+              "W": 7,
+              "H": 4
+            },
+            "consigne": "Un rectangle W=7 m, H=4 m est remplacé par un autre de largeur 14 m et de hauteur 8 m (chacune doublée). Calcule leurs périmètres et explique le facteur de variation.",
+            "reponse_attendue": "Avant: 2(7+4)=22 m; après: 2(14+8)=44 m. L’écart vaut 22 m et le nouveau périmètre est DEUX fois l’ancien, car chacun des quatre côtés est doublé.",
+            "resultats": {
+              "avant": 22,
+              "apres": 44,
+              "effet": 22
+            },
+            "verification_independante": {
+              "avant": 22,
+              "apres": 44,
+              "effet": 22
+            }
+          },
+          {
+            "variables": {
+              "W": 6,
+              "H": 2
+            },
+            "consigne": "Un rectangle W=6 m, H=2 m est remplacé par un autre de largeur 12 m et de hauteur 4 m (chacune doublée). Calcule leurs périmètres et explique le facteur de variation.",
+            "reponse_attendue": "Avant: 2(6+2)=16 m; après: 2(12+4)=32 m. L’écart vaut 16 m et le nouveau périmètre est DEUX fois l’ancien, car chacun des quatre côtés est doublé.",
+            "resultats": {
+              "avant": 16,
+              "apres": 32,
+              "effet": 16
+            },
+            "verification_independante": {
+              "avant": 16,
+              "apres": 32,
+              "effet": 16
+            }
+          }
+        ],
+        "unite": "m"
+      },
+      "variation_limites": "Seulement le catalogue de trois variantes documentées; contextes, types de figure, unités et critères inchangés; adaptation d’accès non directive possible.",
+      "source": "contenu original et calcul exact, références dans sources/REFERENCES_CONTENU.md",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-027-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-027-ev-01",
+      "mode": "parametrique",
+      "consigne": "ÉPREUVE AUTONOME A — On prévoit le ruban bordant un potager rectangulaire de largeur 7 m et de hauteur 4 m. Un second potager garde la même hauteur mais élargit la largeur de 2 m. Produis les périmètres des DEUX figures, une addition de côtés pour chacune et une phrase justifiant l’effet de la modification.",
+      "stimulus": "Preuve A indépendante, ruban de deux potagers rectangulaires. Paramètres de cette instance : W=7, H=4, d=2 m. Schéma descriptif coté; aucune longueur déduite de l’aspect graphique.",
+      "reponse_attendue": "Potager 1 : 7+4+7+4=22 m. Potager 2 : 9+4+9+4=26 m. Effet : 4 m, car deux côtés horizontaux augmentent chacun de 2 m; le contour, et non la surface, est mesuré.",
+      "criteres": [
+        "M1 Identifie les quatre côtés de chaque contour, sans segment intérieur.",
+        "M2 Donne 22 m et 26 m, avec sommes valides et unités.",
+        "M3 Énonce l’effet +4 m et explique les DEUX côtés touchés.",
+        "M4 Réalise le schéma/raisonnement sans indices de calcul après la consigne initiale."
+      ],
+      "feedback": "Si l’un des deux périmètres manque, différer la décision de maîtrise et retravailler la procédure; si la hausse vaut d, faire tracer les deux longueurs modifiées dans un nouveau cas.",
+      "difficulte": "transfert",
+      "representation": "plans de jardin avec quatre côtés étiquetés chacun; segmentations cotées, addition numérique et explication vérifiable du contour",
+      "seed": 27009,
+      "parametres": {
+        "version_generateur": "qc-perimetre-catalogue/1.0",
+        "type": "catalogue_fixe_controle",
+        "index_selection": "seed % 3",
+        "index_instance": 0,
+        "variables": [
+          "W",
+          "H",
+          "d"
+        ],
+        "domaines_discrets": {
+          "W": [
+            7,
+            8,
+            9
+          ],
+          "H": [
+            4,
+            5,
+            6
+          ],
+          "d": [
+            1,
+            2,
+            3
+          ]
+        },
+        "contraintes": [
+          "entiers strictement positifs",
+          "W>0, H>0",
+          "0<w<W et 0<h<H lorsque figure en L",
+          "d>0 lorsque changement",
+          "unité unique dans une même variante",
+          "rectangle et encoche géométriquement définis sans dessin à l’échelle"
+        ],
+        "formule_solution": "P1=2(W+H); P2=2(W+d+H); variation=2d",
+        "algorithme": "Choisir exactement variantes[seed % 3].variables; construire les côtés extérieurs suivant le type, calculer la somme, puis comparer les deux périmètres s’ils existent; aucune valeur aléatoire ni interprétation automatique d’un dessin.",
+        "validation": "Trois variantes calculées par addition explicite des côtés et vérifiées indépendamment par la formule; comparer toutes les valeurs attendues; voir livraison/VALIDATION.md.",
+        "variantes": [
+          {
+            "variables": {
+              "W": 7,
+              "H": 4,
+              "d": 2
+            },
+            "consigne": "ÉPREUVE AUTONOME A — On prévoit le ruban bordant un potager rectangulaire de largeur 7 m et de hauteur 4 m. Un second potager garde la même hauteur mais élargit la largeur de 2 m. Produis les périmètres des DEUX figures, une addition de côtés pour chacune et une phrase justifiant l’effet de la modification.",
+            "reponse_attendue": "Potager 1 : 7+4+7+4=22 m. Potager 2 : 9+4+9+4=26 m. Effet : 4 m, car deux côtés horizontaux augmentent chacun de 2 m; le contour, et non la surface, est mesuré.",
+            "resultats": {
+              "avant": 22,
+              "apres": 26,
+              "effet": 4
+            },
+            "verification_independante": {
+              "avant": 22,
+              "apres": 26,
+              "effet": 4
+            }
+          },
+          {
+            "variables": {
+              "W": 9,
+              "H": 5,
+              "d": 1
+            },
+            "consigne": "ÉPREUVE AUTONOME A — On prévoit le ruban bordant un potager rectangulaire de largeur 9 m et de hauteur 5 m. Un second potager garde la même hauteur mais élargit la largeur de 1 m. Produis les périmètres des DEUX figures, une addition de côtés pour chacune et une phrase justifiant l’effet de la modification.",
+            "reponse_attendue": "Potager 1 : 9+5+9+5=28 m. Potager 2 : 10+5+10+5=30 m. Effet : 2 m, car deux côtés horizontaux augmentent chacun de 1 m; le contour, et non la surface, est mesuré.",
+            "resultats": {
+              "avant": 28,
+              "apres": 30,
+              "effet": 2
+            },
+            "verification_independante": {
+              "avant": 28,
+              "apres": 30,
+              "effet": 2
+            }
+          },
+          {
+            "variables": {
+              "W": 8,
+              "H": 6,
+              "d": 3
+            },
+            "consigne": "ÉPREUVE AUTONOME A — On prévoit le ruban bordant un potager rectangulaire de largeur 8 m et de hauteur 6 m. Un second potager garde la même hauteur mais élargit la largeur de 3 m. Produis les périmètres des DEUX figures, une addition de côtés pour chacune et une phrase justifiant l’effet de la modification.",
+            "reponse_attendue": "Potager 1 : 8+6+8+6=28 m. Potager 2 : 11+6+11+6=34 m. Effet : 6 m, car deux côtés horizontaux augmentent chacun de 3 m; le contour, et non la surface, est mesuré.",
+            "resultats": {
+              "avant": 28,
+              "apres": 34,
+              "effet": 6
+            },
+            "verification_independante": {
+              "avant": 28,
+              "apres": 34,
+              "effet": 6
+            }
+          }
+        ],
+        "unite": "m"
+      },
+      "variation_limites": "Seulement le catalogue de trois variantes documentées; contextes, types de figure, unités et critères inchangés; adaptation d’accès non directive possible.",
+      "source": "contenu original et calcul exact, références dans sources/REFERENCES_CONTENU.md",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": {
+        "numero": "A",
+        "contexte": "potagers rectangulaires",
+        "condition": "deux figures, deux sommes, unité, explication de modification, autonomie non directive",
+        "enregistrement": "décrire séparément les calculs et la justification"
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-027-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-027-ev-01",
+      "mode": "parametrique",
+      "consigne": "ÉPREUVE AUTONOME B — Deux plateformes fictives ont une forme en L (coin supérieur droit retiré). La première a dimensions extérieures W=12 m, H=8 m et encoche w=4 m, h=3 m. La seconde élargit la largeur extérieure de 3 m; H, w et h ne changent pas. Donne les SIX longueurs du contour de chaque forme, trouve les DEUX périmètres et justifie précisément l’effet.",
+      "stimulus": "Preuve B indépendante, deux plateformes en L avec encoche fixe. Paramètres de cette instance : W=12, H=8, w=4, h=3, d=3 m. Schéma descriptif coté; aucune longueur déduite de l’aspect graphique.",
+      "reponse_attendue": "Plateforme 1, six côtés: 12, 5, 4, 3, 8, 8 m; P1=40 m. Plateforme 2 (W augmenté à 15), six côtés: 15, 5, 4, 3, 11, 8 m; P2=46 m. Variation +6 m. Explication: W et W−w augmentent chacun de 3, les autres côtés restent identiques.",
+      "criteres": [
+        "M1 Reconstitue les six côtés extérieurs de chacune des deux figures en L.",
+        "M2 Somme correctement pour obtenir 40 m puis 46 m, avec unités.",
+        "M3 Déduit +6 m et le justifie par les deux segments de longueur modifiée.",
+        "M4 Effectue deux calculs et l’argumentation sans modèle ni indices sur la solution."
+      ],
+      "feedback": "Si l’élève ajoute les segments retirés, reprendre un L inédit, repérer les six segments actuels, puis reprogrammer une preuve autonome équivalente; si l’argument manque, demander explicitement quels deux segments ont augmenté.",
+      "difficulte": "transfert",
+      "representation": "six côtés de chaque empreinte en L + schéma annoté; segmentations cotées, addition numérique et explication vérifiable du contour",
+      "seed": 27010,
+      "parametres": {
+        "version_generateur": "qc-perimetre-catalogue/1.0",
+        "type": "catalogue_fixe_controle",
+        "index_selection": "seed % 3",
+        "index_instance": 1,
+        "variables": [
+          "W",
+          "H",
+          "w",
+          "h",
+          "d"
+        ],
+        "domaines_discrets": {
+          "W": [
+            9,
+            10,
+            12
+          ],
+          "H": [
+            6,
+            7,
+            8
+          ],
+          "w": [
+            2,
+            3,
+            4
+          ],
+          "h": [
+            2,
+            3
+          ],
+          "d": [
+            1,
+            2,
+            3
+          ]
+        },
+        "contraintes": [
+          "entiers strictement positifs",
+          "W>0, H>0",
+          "0<w<W et 0<h<H lorsque figure en L",
+          "d>0 lorsque changement",
+          "unité unique dans une même variante",
+          "rectangle et encoche géométriquement définis sans dessin à l’échelle"
+        ],
+        "formule_solution": "P1=W+(H-h)+w+h+(W-w)+H; P2=(W+d)+(H-h)+w+h+(W+d-w)+H; variation=2d",
+        "algorithme": "Choisir exactement variantes[seed % 3].variables; construire les côtés extérieurs suivant le type, calculer la somme, puis comparer les deux périmètres s’ils existent; aucune valeur aléatoire ni interprétation automatique d’un dessin.",
+        "validation": "Trois variantes calculées par addition explicite des côtés et vérifiées indépendamment par la formule; comparer toutes les valeurs attendues; voir livraison/VALIDATION.md.",
+        "variantes": [
+          {
+            "variables": {
+              "W": 10,
+              "H": 7,
+              "w": 3,
+              "h": 2,
+              "d": 2
+            },
+            "consigne": "ÉPREUVE AUTONOME B — Deux plateformes fictives ont une forme en L (coin supérieur droit retiré). La première a dimensions extérieures W=10 m, H=7 m et encoche w=3 m, h=2 m. La seconde élargit la largeur extérieure de 2 m; H, w et h ne changent pas. Donne les SIX longueurs du contour de chaque forme, trouve les DEUX périmètres et justifie précisément l’effet.",
+            "reponse_attendue": "Plateforme 1, six côtés: 10, 5, 3, 2, 7, 7 m; P1=34 m. Plateforme 2 (W augmenté à 12), six côtés: 12, 5, 3, 2, 9, 7 m; P2=38 m. Variation +4 m. Explication: W et W−w augmentent chacun de 2, les autres côtés restent identiques.",
+            "resultats": {
+              "cotes_A": [
+                10,
+                5,
+                3,
+                2,
+                7,
+                7
+              ],
+              "cotes_B": [
+                12,
+                5,
+                3,
+                2,
+                9,
+                7
+              ],
+              "avant": 34,
+              "apres": 38,
+              "effet": 4
+            },
+            "verification_independante": {
+              "cotes_A": [
+                10,
+                5,
+                3,
+                2,
+                7,
+                7
+              ],
+              "cotes_B": [
+                12,
+                5,
+                3,
+                2,
+                9,
+                7
+              ],
+              "avant": 34,
+              "apres": 38,
+              "effet": 4
+            }
+          },
+          {
+            "variables": {
+              "W": 12,
+              "H": 8,
+              "w": 4,
+              "h": 3,
+              "d": 3
+            },
+            "consigne": "ÉPREUVE AUTONOME B — Deux plateformes fictives ont une forme en L (coin supérieur droit retiré). La première a dimensions extérieures W=12 m, H=8 m et encoche w=4 m, h=3 m. La seconde élargit la largeur extérieure de 3 m; H, w et h ne changent pas. Donne les SIX longueurs du contour de chaque forme, trouve les DEUX périmètres et justifie précisément l’effet.",
+            "reponse_attendue": "Plateforme 1, six côtés: 12, 5, 4, 3, 8, 8 m; P1=40 m. Plateforme 2 (W augmenté à 15), six côtés: 15, 5, 4, 3, 11, 8 m; P2=46 m. Variation +6 m. Explication: W et W−w augmentent chacun de 3, les autres côtés restent identiques.",
+            "resultats": {
+              "cotes_A": [
+                12,
+                5,
+                4,
+                3,
+                8,
+                8
+              ],
+              "cotes_B": [
+                15,
+                5,
+                4,
+                3,
+                11,
+                8
+              ],
+              "avant": 40,
+              "apres": 46,
+              "effet": 6
+            },
+            "verification_independante": {
+              "cotes_A": [
+                12,
+                5,
+                4,
+                3,
+                8,
+                8
+              ],
+              "cotes_B": [
+                15,
+                5,
+                4,
+                3,
+                11,
+                8
+              ],
+              "avant": 40,
+              "apres": 46,
+              "effet": 6
+            }
+          },
+          {
+            "variables": {
+              "W": 9,
+              "H": 6,
+              "w": 2,
+              "h": 2,
+              "d": 1
+            },
+            "consigne": "ÉPREUVE AUTONOME B — Deux plateformes fictives ont une forme en L (coin supérieur droit retiré). La première a dimensions extérieures W=9 m, H=6 m et encoche w=2 m, h=2 m. La seconde élargit la largeur extérieure de 1 m; H, w et h ne changent pas. Donne les SIX longueurs du contour de chaque forme, trouve les DEUX périmètres et justifie précisément l’effet.",
+            "reponse_attendue": "Plateforme 1, six côtés: 9, 4, 2, 2, 7, 6 m; P1=30 m. Plateforme 2 (W augmenté à 10), six côtés: 10, 4, 2, 2, 8, 6 m; P2=32 m. Variation +2 m. Explication: W et W−w augmentent chacun de 1, les autres côtés restent identiques.",
+            "resultats": {
+              "cotes_A": [
+                9,
+                4,
+                2,
+                2,
+                7,
+                6
+              ],
+              "cotes_B": [
+                10,
+                4,
+                2,
+                2,
+                8,
+                6
+              ],
+              "avant": 30,
+              "apres": 32,
+              "effet": 2
+            },
+            "verification_independante": {
+              "cotes_A": [
+                9,
+                4,
+                2,
+                2,
+                7,
+                6
+              ],
+              "cotes_B": [
+                10,
+                4,
+                2,
+                2,
+                8,
+                6
+              ],
+              "avant": 30,
+              "apres": 32,
+              "effet": 2
+            }
+          }
+        ],
+        "unite": "m"
+      },
+      "variation_limites": "Seulement le catalogue de trois variantes documentées; contextes, types de figure, unités et critères inchangés; adaptation d’accès non directive possible.",
+      "source": "contenu original et calcul exact, références dans sources/REFERENCES_CONTENU.md",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": {
+        "numero": "B",
+        "contexte": "plateformes en L",
+        "condition": "deux figures, deux sommes, unité, explication de modification, autonomie non directive",
+        "enregistrement": "décrire séparément les calculs et la justification"
+      }
+    }
+  ]
+}

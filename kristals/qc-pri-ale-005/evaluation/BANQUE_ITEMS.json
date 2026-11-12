@@ -1,0 +1,583 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ale-005",
+  "family_id": "qc-pri-ale-005-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ale-005-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "fixe",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "Read the notice. Write a suitable heading and a main idea; add two supporting facts and cite a numbered evidence sentence in a short fact sheet.",
+      "stimulus": "Lost-and-found box — original fictional notice\n[1] The class keeps a lost-and-found box beside the coat hooks.\n[2] Students put found pencils and gloves in separate marked spaces.\n[3] A helper writes the date on a small card for each new item.\n[4] Students look through the spaces when something is missing.\n[5] The box and labels help the class keep track of found things.",
+      "reponse_attendue": "Heading: Keeping Found Items Organized\nMain idea: The class uses a labelled box to organize and find lost items.\nSupporting details: Students separate pencils and gloves (sentence 2); A helper records the date for each new item (sentence 3).\nEvidence: Sentence 5 says “keep track of found things”.",
+      "corrige_structure": {
+        "heading": "Keeping Found Items Organized",
+        "main_idea": "The class uses a labelled box to organize and find lost items.",
+        "supporting_details": [
+          {
+            "detail": "Students separate pencils and gloves",
+            "sentence": 2,
+            "verbatim_support": "separate marked spaces"
+          },
+          {
+            "detail": "A helper records the date for each new item",
+            "sentence": 3,
+            "verbatim_support": "writes the date"
+          }
+        ],
+        "evidence": {
+          "sentence": 5,
+          "short_quote": "keep track of found things"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "initial",
+      "representation": "notice; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": false,
+      "contexte_preuve": null
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "fixe",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "Create a fact sheet about how the map works. Explain in your own English why your main idea covers more than one line and cite evidence.",
+      "stimulus": "Club picture map — original fictional information card\n[1] A fictional school has a picture map for its clubs.\n[2] A book symbol marks the reading club room.\n[3] A music note marks the room for a music club.\n[4] Students compare the symbols with a key below the map.\n[5] The map helps students find the club rooms they need.",
+      "reponse_attendue": "Heading: Finding Clubs with a Picture Map\nMain idea: The school picture map uses symbols and a key to help students locate clubs.\nSupporting details: The book symbol shows the reading club (sentence 2); Students use a key to understand the map symbols (sentence 4).\nEvidence: Sentence 5 says “helps students find the club rooms”.",
+      "corrige_structure": {
+        "heading": "Finding Clubs with a Picture Map",
+        "main_idea": "The school picture map uses symbols and a key to help students locate clubs.",
+        "supporting_details": [
+          {
+            "detail": "The book symbol shows the reading club",
+            "sentence": 2,
+            "verbatim_support": "A book symbol"
+          },
+          {
+            "detail": "Students use a key to understand the map symbols",
+            "sentence": 4,
+            "verbatim_support": "a key below the map"
+          }
+        ],
+        "evidence": {
+          "sentence": 5,
+          "short_quote": "helps students find the club rooms"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "initial",
+      "representation": "information card; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": false,
+      "contexte_preuve": null
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "fixe",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "Summarize the timetable in a four-part fact sheet. Explain why one day of the week is a detail, not the central idea.",
+      "stimulus": "Classroom timetable — original fictional information notice\n[1] A class uses a timetable for its window reading table.\n[2] Monday is marked for the first reading group.\n[3] Tuesday is marked for the second group.\n[4] The timetable hangs beside the table so readers can check it.\n[5] This plan lets the groups take turns using the same space.",
+      "reponse_attendue": "Heading: Taking Turns at the Window Table\nMain idea: The class timetable organizes turns for reading groups at a shared table.\nSupporting details: The first group is scheduled for Monday (sentence 2); The second group is scheduled for Tuesday (sentence 3).\nEvidence: Sentence 5 says “groups take turns”.",
+      "corrige_structure": {
+        "heading": "Taking Turns at the Window Table",
+        "main_idea": "The class timetable organizes turns for reading groups at a shared table.",
+        "supporting_details": [
+          {
+            "detail": "The first group is scheduled for Monday",
+            "sentence": 2,
+            "verbatim_support": "Monday is marked"
+          },
+          {
+            "detail": "The second group is scheduled for Tuesday",
+            "sentence": 3,
+            "verbatim_support": "Tuesday is marked"
+          }
+        ],
+        "evidence": {
+          "sentence": 5,
+          "short_quote": "groups take turns"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "initial",
+      "representation": "information notice; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": false,
+      "contexte_preuve": null
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "fixe",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "Create a fact sheet showing the sequence of the mural project. Support the overall message with specific numbered lines.",
+      "stimulus": "Mural-making steps — original fictional instructional information\n[1] A class is building a paper mural for a fictional hallway.\n[2] First, students sketch a plan on one large sheet.\n[3] Next, each team adds paper shapes to its section.\n[4] Last, the class writes short labels explaining the shapes.\n[5] These steps help the class work together on one labelled mural.",
+      "reponse_attendue": "Heading: How a Class Makes a Paper Mural\nMain idea: Students follow a planned sequence to create and label a shared paper mural.\nSupporting details: Students sketch a plan before decorating (sentence 2); Students add explanatory labels at the end (sentence 4).\nEvidence: Sentence 5 says “work together on one labelled mural”.",
+      "corrige_structure": {
+        "heading": "How a Class Makes a Paper Mural",
+        "main_idea": "Students follow a planned sequence to create and label a shared paper mural.",
+        "supporting_details": [
+          {
+            "detail": "Students sketch a plan before decorating",
+            "sentence": 2,
+            "verbatim_support": "sketch a plan"
+          },
+          {
+            "detail": "Students add explanatory labels at the end",
+            "sentence": 4,
+            "verbatim_support": "writes short labels"
+          }
+        ],
+        "evidence": {
+          "sentence": 5,
+          "short_quote": "work together on one labelled mural"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "initial",
+      "representation": "instructional information; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": false,
+      "contexte_preuve": null
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "fixe",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "Organize the report into a heading, central idea, two relevant details and a numbered quotation showing the purpose of the display.",
+      "stimulus": "Sound card collection — original fictional explanatory report\n[1] A classroom display uses cards to show invented sound patterns.\n[2] Each card has a drawing of a pretend sound and a short name.\n[3] Students sort cards into groups by the patterns in the drawings.\n[4] They place a label above each group so viewers can compare the designs.\n[5] The labelled groups help visitors understand how the sound cards are organized.",
+      "reponse_attendue": "Heading: Organizing Made-up Sound Cards\nMain idea: Students sort and label imaginary sound cards to make patterns easy to compare.\nSupporting details: Every card has a pattern drawing and a name (sentence 2); Group labels support comparisons (sentence 4).\nEvidence: Sentence 5 says “help visitors understand”.",
+      "corrige_structure": {
+        "heading": "Organizing Made-up Sound Cards",
+        "main_idea": "Students sort and label imaginary sound cards to make patterns easy to compare.",
+        "supporting_details": [
+          {
+            "detail": "Every card has a pattern drawing and a name",
+            "sentence": 2,
+            "verbatim_support": "a short name"
+          },
+          {
+            "detail": "Group labels support comparisons",
+            "sentence": 4,
+            "verbatim_support": "a label above each group"
+          }
+        ],
+        "evidence": {
+          "sentence": 5,
+          "short_quote": "help visitors understand"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "intermediaire",
+      "representation": "explanatory report; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": false,
+      "contexte_preuve": null
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "fixe",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "Write a fact sheet explaining the entire model-garden display. Do not write about real plants; cite a source sentence.",
+      "stimulus": "Indoor model garden — original fictional display report\n[1] Students made a pretend garden from folded paper plants.\n[2] They put tall paper plants in one tray and short ones in another.\n[3] A key lists each plant's invented name and the tray holding it.\n[4] Visitors use the key to locate the models and compare their heights.\n[5] The display organizes the paper plants so their features are easy to notice.",
+      "reponse_attendue": "Heading: Explaining a Model Garden\nMain idea: The model-garden display sorts paper plants and gives visitors a key for comparisons.\nSupporting details: Tall and short models are placed in separate trays (sentence 2); A key names models and their trays (sentence 3).\nEvidence: Sentence 5 says “organizes the paper plants”.",
+      "corrige_structure": {
+        "heading": "Explaining a Model Garden",
+        "main_idea": "The model-garden display sorts paper plants and gives visitors a key for comparisons.",
+        "supporting_details": [
+          {
+            "detail": "Tall and short models are placed in separate trays",
+            "sentence": 2,
+            "verbatim_support": "one tray and short ones in another"
+          },
+          {
+            "detail": "A key names models and their trays",
+            "sentence": 3,
+            "verbatim_support": "A key lists"
+          }
+        ],
+        "evidence": {
+          "sentence": 5,
+          "short_quote": "organizes the paper plants"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "intermediaire",
+      "representation": "display report; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": false,
+      "contexte_preuve": null
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "fixe",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "Summarize how the class records tower tests. Give two factual details and a numbered evidence quotation.",
+      "stimulus": "Paper tower project — original fictional project explanation\n[1] A class builds small towers using identical pieces of paper.\n[2] Students place each tower on a flat board before testing it.\n[3] They record whether each tower stands for a count of ten.\n[4] A chart shows the test result beside each tower's name.\n[5] The class uses the chart to compare what happened in its paper-tower tests.",
+      "reponse_attendue": "Heading: Recording Paper Tower Tests\nMain idea: Students test paper towers and record results so they can compare them.\nSupporting details: The test records whether towers remain standing for ten counts (sentence 3); The chart pairs each tower name with a result (sentence 4).\nEvidence: Sentence 5 says “compare what happened”.",
+      "corrige_structure": {
+        "heading": "Recording Paper Tower Tests",
+        "main_idea": "Students test paper towers and record results so they can compare them.",
+        "supporting_details": [
+          {
+            "detail": "The test records whether towers remain standing for ten counts",
+            "sentence": 3,
+            "verbatim_support": "stands for a count of ten"
+          },
+          {
+            "detail": "The chart pairs each tower name with a result",
+            "sentence": 4,
+            "verbatim_support": "test result beside"
+          }
+        ],
+        "evidence": {
+          "sentence": 5,
+          "short_quote": "compare what happened"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "intermediaire",
+      "representation": "project explanation; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": false,
+      "contexte_preuve": null
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "fixe",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "Write a fact sheet about the reusable-paper station: main idea, relevant details, heading and supporting numbered evidence.",
+      "stimulus": "Reusable paper station — original fictional procedural notice\n[1] A fictional classroom has a station for paper that can be used again.\n[2] Sheets with a blank back go into the blue tray.\n[3] Sheets covered on both sides go into a separate collection box.\n[4] A sign above the station shows where to put each kind of sheet.\n[5] The system helps students choose the right place for leftover paper.",
+      "reponse_attendue": "Heading: How the Reusable Paper Station Works\nMain idea: The classroom station uses trays and a sign to sort leftover paper by how much space is blank.\nSupporting details: Sheets with blank backs go to the blue tray (sentence 2); Fully covered sheets use another box (sentence 3).\nEvidence: Sentence 5 says “choose the right place”.",
+      "corrige_structure": {
+        "heading": "How the Reusable Paper Station Works",
+        "main_idea": "The classroom station uses trays and a sign to sort leftover paper by how much space is blank.",
+        "supporting_details": [
+          {
+            "detail": "Sheets with blank backs go to the blue tray",
+            "sentence": 2,
+            "verbatim_support": "blank back go into the blue tray"
+          },
+          {
+            "detail": "Fully covered sheets use another box",
+            "sentence": 3,
+            "verbatim_support": "covered on both sides"
+          }
+        ],
+        "evidence": {
+          "sentence": 5,
+          "short_quote": "choose the right place"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "intermediaire",
+      "representation": "procedural notice; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": false,
+      "contexte_preuve": null
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "fixe",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "Make a fact sheet for a new visitor describing the main purpose of the model-town leaflet; support the summary with source references.",
+      "stimulus": "Visitor information leaflet — original fictional visitor leaflet\n[1] A fictional town display invites visitors to explore paper buildings.\n[2] A small leaflet numbers the buildings from one to six.\n[3] Each number matches a label explaining the model's imagined purpose.\n[4] Arrows on the leaflet suggest an order for viewing the models.\n[5] Visitors can read the labels and compare the different designs.\n[6] The leaflet organizes information about the display for visitors.",
+      "reponse_attendue": "Heading: Using the Model Town Display\nMain idea: A visitor leaflet guides people through a model town and explains its imagined buildings.\nSupporting details: Buildings are numbered in the leaflet (sentence 2); Numbers match explanation labels (sentence 3).\nEvidence: Sentence 6 says “organizes information about the display”.",
+      "corrige_structure": {
+        "heading": "Using the Model Town Display",
+        "main_idea": "A visitor leaflet guides people through a model town and explains its imagined buildings.",
+        "supporting_details": [
+          {
+            "detail": "Buildings are numbered in the leaflet",
+            "sentence": 2,
+            "verbatim_support": "numbers the buildings"
+          },
+          {
+            "detail": "Numbers match explanation labels",
+            "sentence": 3,
+            "verbatim_support": "Each number matches a label"
+          }
+        ],
+        "evidence": {
+          "sentence": 6,
+          "short_quote": "organizes information about the display"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "transfert",
+      "representation": "visitor leaflet; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": false,
+      "contexte_preuve": null
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "fixe",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "Summarize the fictional community event guide without inventing a session or location; include a numbered source quotation.",
+      "stimulus": "Invented community event guide — original fictional event guide\n[1] A made-up community centre has a guide for a storytelling afternoon.\n[2] The guide lists the start time beside each story title.\n[3] Small icons show which room hosts each reading.\n[4] A key at the bottom explains what the room icons mean.\n[5] Visitors check the guide to choose a story and find the correct room.\n[6] The guide brings the event's times and locations into one place.",
+      "reponse_attendue": "Heading: Reading a Fictional Event Guide\nMain idea: The guide helps visitors choose story sessions using times and room symbols.\nSupporting details: The guide lists times for stories (sentence 2); A key explains the room symbols (sentence 4).\nEvidence: Sentence 6 says “times and locations into one place”.",
+      "corrige_structure": {
+        "heading": "Reading a Fictional Event Guide",
+        "main_idea": "The guide helps visitors choose story sessions using times and room symbols.",
+        "supporting_details": [
+          {
+            "detail": "The guide lists times for stories",
+            "sentence": 2,
+            "verbatim_support": "start time beside each story title"
+          },
+          {
+            "detail": "A key explains the room symbols",
+            "sentence": 4,
+            "verbatim_support": "key at the bottom"
+          }
+        ],
+        "evidence": {
+          "sentence": 6,
+          "short_quote": "times and locations into one place"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "transfert",
+      "representation": "event guide; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": false,
+      "contexte_preuve": null
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "scenario_controle",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "INDEPENDENT MASTERY PROOF A. Without content-specific hints, create a complete fact sheet for this previously unseen museum-workshop report. State the main idea, two details, an informative heading and precise numbered evidence. Do not add facts about real museums.",
+      "stimulus": "Museum label workshop — original fictional museum workshop report\n[1] A fictional class is creating a model museum of imaginary machines.\n[2] Before making labels, each team chooses a short name for its model.\n[3] The team then writes one sentence explaining what the machine is designed to do in its imaginary world.\n[4] A small drawing on the label shows which model the words describe.\n[5] Students place finished labels next to their models rather than in a separate pile.\n[6] During a practice tour, visitors match the names, drawings and explanations with the models.\n[7] These labels help visitors understand the made-up machines without asking a team member each time.",
+      "reponse_attendue": "Heading: Making Labels for a Model Museum\nMain idea: Students create and position informative labels so visitors can understand imaginary machines in a model museum.\nSupporting details: Teams describe the imagined function of each model (sentence 3); Students put labels next to their corresponding models (sentence 5).\nEvidence: Sentence 7 says “help visitors understand the made-up machines”.",
+      "corrige_structure": {
+        "heading": "Making Labels for a Model Museum",
+        "main_idea": "Students create and position informative labels so visitors can understand imaginary machines in a model museum.",
+        "supporting_details": [
+          {
+            "detail": "Teams describe the imagined function of each model",
+            "sentence": 3,
+            "verbatim_support": "what the machine is designed to do"
+          },
+          {
+            "detail": "Students put labels next to their corresponding models",
+            "sentence": 5,
+            "verbatim_support": "next to their models"
+          }
+        ],
+        "evidence": {
+          "sentence": 7,
+          "short_quote": "help visitors understand the made-up machines"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "transfert",
+      "representation": "museum workshop report; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": "ALE005-MASTERY-011-LOCKED-20261009",
+      "parametres": {
+        "scenario_id": "qc-pri-ale-005-q-011",
+        "sources_autorisees": [
+          "qc-pri-ale-005-q-011"
+        ],
+        "regle_selection": "source unique verrouillée; aucune variation aléatoire"
+      },
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": true,
+      "contexte_preuve": "fictional museum label workshop"
+    },
+    {
+      "item_id": "qc-pri-ale-005-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-005-ev-01",
+      "mode": "scenario_controle",
+      "type_reponse": "réponse_argumentée",
+      "consigne": "INDEPENDENT MASTERY PROOF B. On a separate occasion, without content-specific hints, create a complete fact sheet for this previously unseen trail notice. State the main idea, two details, an informative heading and precise numbered evidence. Distinguish the fictional story from a history report.",
+      "stimulus": "Trail-information notice — original fictional public information notice\n[1] A fictional park has a short story trail with numbered stops.\n[2] At the start, an information board shows a simple map of the stops.\n[3] Each stop has a number and a panel with one part of an invented story.\n[4] Visitors can follow the numbers to read the panels in story order.\n[5] A small symbol on the map marks a bench beside stop four.\n[6] The notice reminds readers that the trail panels tell a fictional story, not a local history report.\n[7] The board helps visitors find their way through the numbered story panels.",
+      "reponse_attendue": "Heading: Understanding the Story Trail Notice\nMain idea: The park information board explains how to follow and read a fictional numbered story trail.\nSupporting details: The board contains a map of the stops (sentence 2); Visitors follow stop numbers to read in order (sentence 4).\nEvidence: Sentence 7 says “find their way through the numbered story panels”.",
+      "corrige_structure": {
+        "heading": "Understanding the Story Trail Notice",
+        "main_idea": "The park information board explains how to follow and read a fictional numbered story trail.",
+        "supporting_details": [
+          {
+            "detail": "The board contains a map of the stops",
+            "sentence": 2,
+            "verbatim_support": "simple map of the stops"
+          },
+          {
+            "detail": "Visitors follow stop numbers to read in order",
+            "sentence": 4,
+            "verbatim_support": "follow the numbers"
+          }
+        ],
+        "evidence": {
+          "sentence": 7,
+          "short_quote": "find their way through the numbered story panels"
+        },
+        "acceptance": "Any accurate English paraphrase supported by the numbered source is acceptable; exclude unsupported claims."
+      },
+      "criteres": [
+        "States the central idea of the whole passage accurately and without adding facts.",
+        "Selects at least two distinct details supported by the source.",
+        "Cites a numbered source sentence accurately and links it to the claim.",
+        "Uses an informative heading and organized English that remains intelligible; accepts equivalent accurate paraphrases."
+      ],
+      "feedback": "If your main idea names only an object, reread two lines explaining the whole process. For an unsupported fact, look for its exact source line and replace the claim if there is none. For missing evidence, add a sentence number and a faithful phrase. Compare all parts to the source, then revise without copying the model.",
+      "difficulte": "transfert",
+      "representation": "public information notice; sentence-numbered English text plus independent four-box fact sheet",
+      "variabilite_permises": "Aucune substitution automatique du texte, des faits, des chiffres ni du corrigé; reformulation anglaise fidèle acceptée à la correction.",
+      "seed": "ALE005-MASTERY-012-LOCKED-20261009",
+      "parametres": {
+        "scenario_id": "qc-pri-ale-005-q-012",
+        "sources_autorisees": [
+          "qc-pri-ale-005-q-012"
+        ],
+        "regle_selection": "source unique verrouillée; aucune variation aléatoire"
+      },
+      "validation_status": "a_revoir",
+      "est_preuve_maitrise": true,
+      "contexte_preuve": "fictional story trail information board"
+    }
+  ]
+}

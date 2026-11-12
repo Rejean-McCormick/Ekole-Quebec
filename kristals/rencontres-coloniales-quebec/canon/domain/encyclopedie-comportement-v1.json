@@ -1,0 +1,1523 @@
+{
+  "format": "ekole.encyclopedie-comportement/1.0.0",
+  "slug": "rencontres-coloniales-quebec",
+  "titre": "Rencontres coloniales — Comportement, commerce, famille, politique et culture matérielle",
+  "propriete_semantique": "canon_independant_du_graphe_v3",
+  "statut": "sources_localisees_revue_culturelle_par_nation_a_faire",
+  "politique": {
+    "exactitude": "Distinguer points de vue autochtones, pédagogiques et coloniaux; contextualiser par époque et nation.",
+    "absence": "Une recette ou une coutume non attestée reste inconnue.",
+    "publication": "Candidat uniquement; pas de publication ni activation automatique.",
+    "articles": "Fiches accessibles par questions, sans généraliser."
+  },
+  "themes": [
+    {
+      "id": "comportement",
+      "titre": "Comportement",
+      "sous_categories": [
+        "moeurs_et_coutumes",
+        "commerce",
+        "relations_familiales",
+        "politique",
+        "diplomatie",
+        "changements_coloniaux",
+        "cooperation_et_conflits",
+        "transmission"
+      ]
+    },
+    {
+      "id": "fabrications",
+      "titre": "Techniques, matériaux et adaptations coloniales"
+    }
+  ],
+  "sources": [
+    {
+      "id": "recit-1745-europeens",
+      "titre": "RÉCIT — Les Européens vers 1745",
+      "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1745/content/les-europeens",
+      "ancrage": "Contacts, commerce, missionnaires; interprétation pédagogique à nuancer",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "recit-1745-changements",
+      "titre": "RÉCIT — Le rôle des femmes et des hommes vers 1745",
+      "url": "https://primaire.recitus.qc.ca/changement/comparaison/iroquoiens-1500-et-iroquoiens-1745/B/content/le-role-des-femmes-et-des-hommes",
+      "ancrage": "Transformations des rôles autour de la traite et des voyages",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "recit-1745-produits",
+      "titre": "RÉCIT — Un quotidien changé par les produits européens",
+      "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1745/content/un-quotidien-facilite-par-les-produits-europeens",
+      "ancrage": "Marchandises échangées, outils et produits transformant certaines pratiques",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "recit-1745-intermediaires",
+      "titre": "RÉCIT — Un rôle d’intermédiaire économique",
+      "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1745/content/un-role-d-intermediaire-economique",
+      "ancrage": "Rôles économiques de voyageurs, commerçants et trappeurs",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "recit-1745-politique",
+      "titre": "RÉCIT — Une même organisation, de nouvelles relations",
+      "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1745/content/une-meme-organisation-de-nouvelles-relations",
+      "ancrage": "Persistance de conseils et clans, compromis avec colonies",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "recit-1745-territoire",
+      "titre": "RÉCIT — Les Iroquoiens vers 1745",
+      "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1745",
+      "ancrage": "Missions, territoires et noms de nations à l’époque coloniale",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "pac-paix-1701-v5",
+      "titre": "Pointe-à-Callière — La Grande Paix de Montréal",
+      "url": "https://pacmusee.qc.ca/fr/histoires-de-montreal/article/la-grande-paix-de-montreal/",
+      "ancrage": "Événement diplomatique, déroulement des négociations et conséquences",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "pac-commemoration-2026",
+      "titre": "Pointe-à-Callière — 325e anniversaire de la Grande Paix",
+      "url": "https://pacmusee.qc.ca/fr/medias/communiques-de-presse/communique-presse-grande-paix-montreal-1701/",
+      "ancrage": "Commémoration, nombre approximatif de participants différent selon les communications",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "recit-algonquiens-troc",
+      "titre": "RÉCIT — Faire du troc chez les Algonquiens",
+      "url": "https://primaire.recitus.qc.ca/sujet/organisation/algonquiens-1500/content/faire-du-troc",
+      "ancrage": "Réseaux antérieurs à la traite française",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "wendat-nation-v5",
+      "titre": "Nation Wendat — Histoire et culture",
+      "url": "https://www.wendake.ca/histoire-et-culture",
+      "ancrage": "Autodescription contemporaine de la filiation et de la diplomatie",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "wendat-gouvernement-v5",
+      "titre": "Nation Wendat — Grand Chef et Chefs familiaux",
+      "url": "https://www.wendake.ca/grand-chef-et-chefs-familiaux",
+      "ancrage": "Autodescription des institutions politiques actuelles",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    },
+    {
+      "id": "museum-canot-colonial",
+      "titre": "Musée canadien de l’histoire — Canot d’écorce de 1603",
+      "url": "https://www.historymuseum.ca/cmc/vmnf/champlain/expl3_fr.html",
+      "ancrage": "Descriptions coloniales du canot et de son adoption par les Français",
+      "provenance": "source_nationale_museale_institutionnelle_pedagogique",
+      "consultation": "2026-10-10",
+      "licence_reproduction": "lien_et_paraphrase_sans_reproduction_in_extenso"
+    }
+  ],
+  "articles": [
+    {
+      "id": "col-v1:marches-preexistants",
+      "theme": "comportement",
+      "sous_categorie": "commerce",
+      "societe": "ensemble:nations-autochtones",
+      "epoque": "avant:1600",
+      "question": "Le troc a-t-il commencé avec la Nouvelle-France ?",
+      "reponse_courte": "Non : plusieurs peuples échangeaient déjà leurs récoltes, peaux et autres biens avant la colonisation.",
+      "explication_detaillee": "Les foires et réseaux précoloniaux liaient divers peuples. L’arrivée de commerçants européens a transformé des échanges existants; elle ne les a pas créés.",
+      "sources": [
+        {
+          "id": "recit-algonquiens-troc",
+          "section": "Réseaux antérieurs à la traite française"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:nations-autochtones",
+          "predicat": "documente_marches_preexistants",
+          "objet": "Non : plusieurs peuples échangeaient déjà leurs récoltes, peaux et autres biens avant la colonisation.",
+          "epoque": "avant:1600"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "troc",
+        "commencé",
+        "avec",
+        "nouvelle",
+        "france"
+      ]
+    },
+    {
+      "id": "col-v1:produits-commerce",
+      "theme": "comportement",
+      "sous_categorie": "commerce",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "xviie_xviiie",
+      "question": "Que pouvait-on échanger contre les fourrures au temps colonial ?",
+      "reponse_courte": "Des textiles, des outils métalliques et divers objets européens pouvaient circuler dans les échanges.",
+      "explication_detaillee": "Le RÉCIT mentionne entre autres tissus, haches, couteaux, chaudrons de cuivre et mousquets. Les objets n’avaient pas tous le même usage ni la même valeur selon les circonstances.",
+      "sources": [
+        {
+          "id": "recit-1745-produits",
+          "section": "Marchandises échangées, outils et produits transformant certaines pratiques"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_produits_commerce",
+          "objet": "Des textiles, des outils métalliques et divers objets européens pouvaient circuler dans les échanges.",
+          "epoque": "xviie_xviiie"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "pouvait",
+        "échanger",
+        "contre",
+        "fourrures",
+        "temps",
+        "colonial"
+      ]
+    },
+    {
+      "id": "col-v1:outils-metal",
+      "theme": "fabrications",
+      "sous_categorie": "fabrications_et_adaptations",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "vers:1745",
+      "question": "Pourquoi des outils de métal changeaient-ils certaines fabrications ?",
+      "reponse_courte": "Ils pouvaient faciliter des opérations de coupe, de préparation et de cuisson.",
+      "explication_detaillee": "L’adoption de haches, de couteaux et de chaudrons n’a pas fait disparaître d’un coup les savoir-faire locaux. Les matériaux et techniques furent combinés, modifiés et choisis selon les besoins.",
+      "sources": [
+        {
+          "id": "recit-1745-produits",
+          "section": "Marchandises échangées, outils et produits transformant certaines pratiques"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_outils_metal",
+          "objet": "Ils pouvaient faciliter des opérations de coupe, de préparation et de cuisson.",
+          "epoque": "vers:1745"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "pourquoi",
+        "outils",
+        "métal",
+        "changeaient",
+        "certaines",
+        "fabrications"
+      ]
+    },
+    {
+      "id": "col-v1:chaudrons-cuivre",
+      "theme": "fabrications",
+      "sous_categorie": "fabrications_et_adaptations",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "vers:1745",
+      "question": "Que changeait un chaudron de cuivre pour la cuisine ?",
+      "reponse_courte": "Il constituait un nouveau type de récipient apprécié pour préparer des repas.",
+      "explication_detaillee": "Le RÉCIT indique que de nouveaux contenants métalliques facilitaient la cuisson et circulaient dans la traite des fourrures; cela ne signifie pas que toute poterie disparaissait partout.",
+      "sources": [
+        {
+          "id": "recit-1745-produits",
+          "section": "Marchandises échangées, outils et produits transformant certaines pratiques"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_chaudrons_cuivre",
+          "objet": "Il constituait un nouveau type de récipient apprécié pour préparer des repas.",
+          "epoque": "vers:1745"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "changeait",
+        "chaudron",
+        "cuivre",
+        "pour",
+        "cuisine"
+      ]
+    },
+    {
+      "id": "col-v1:textiles-europeens",
+      "theme": "fabrications",
+      "sous_categorie": "fabrications_et_adaptations",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "vers:1745",
+      "question": "Pourquoi certains textiles européens étaient-ils recherchés ?",
+      "reponse_courte": "Ils apportaient de nouvelles possibilités pour les vêtements et les couvertures.",
+      "explication_detaillee": "Le RÉCIT indique que les textiles comptaient parmi les produits échangés. Les artisans pouvaient adopter de nouveaux matériaux tout en conservant des coupes, savoir-faire ou préférences locales.",
+      "sources": [
+        {
+          "id": "recit-1745-produits",
+          "section": "Marchandises échangées, outils et produits transformant certaines pratiques"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_textiles_europeens",
+          "objet": "Ils apportaient de nouvelles possibilités pour les vêtements et les couvertures.",
+          "epoque": "vers:1745"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "pourquoi",
+        "certains",
+        "textiles",
+        "européens",
+        "étaient",
+        "recherchés"
+      ]
+    },
+    {
+      "id": "col-v1:commerce-intermediaires",
+      "theme": "comportement",
+      "sous_categorie": "commerce",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "vers:1745",
+      "question": "Les Autochtones agissaient-ils seulement comme vendeurs de fourrures ?",
+      "reponse_courte": "Non. Ils pouvaient être aussi intermédiaires, voyageurs, trappeurs et commerçants.",
+      "explication_detaillee": "Le RÉCIT souligne les différents rôles économiques autochtones dans les réseaux français ou anglais. Ce rôle montre une agentivité économique, sans masquer les rapports de force.",
+      "sources": [
+        {
+          "id": "recit-1745-intermediaires",
+          "section": "Rôles économiques de voyageurs, commerçants et trappeurs"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_commerce_intermediaires",
+          "objet": "Non. Ils pouvaient être aussi intermédiaires, voyageurs, trappeurs et commerçants.",
+          "epoque": "vers:1745"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "autochtones",
+        "agissaient",
+        "seulement",
+        "comme",
+        "vendeurs",
+        "fourrures"
+      ]
+    },
+    {
+      "id": "col-v1:commerce-europeens-divers",
+      "theme": "comportement",
+      "sous_categorie": "commerce",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "vers:1745",
+      "question": "Tous les peuples autochtones commerçaient-ils avec les mêmes Européens ?",
+      "reponse_courte": "Non. Les alliances, lieux et interlocuteurs différaient.",
+      "explication_detaillee": "Le RÉCIT note que certaines nations commerçaient davantage avec des marchands anglais, d’autres avec des Français. Cela ne décrit ni une loyauté automatique ni tous les individus d’une nation.",
+      "sources": [
+        {
+          "id": "recit-1745-intermediaires",
+          "section": "Rôles économiques de voyageurs, commerçants et trappeurs"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_commerce_europeens_divers",
+          "objet": "Non. Les alliances, lieux et interlocuteurs différaient.",
+          "epoque": "vers:1745"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "tous",
+        "peuples",
+        "autochtones",
+        "commerçaient",
+        "avec",
+        "mêmes",
+        "européens"
+      ]
+    },
+    {
+      "id": "col-v1:commerce-famille",
+      "theme": "comportement",
+      "sous_categorie": "relations_familiales",
+      "societe": "ensemble:iroquoiens",
+      "epoque": "vers:1745",
+      "question": "La traite avait-elle des conséquences dans la vie familiale ?",
+      "reponse_courte": "Oui. Des absences prolongées et un travail accru des peaux pouvaient changer la répartition des responsabilités.",
+      "explication_detaillee": "Le RÉCIT décrit des voyages plus longs pour le commerce et les guerres ainsi qu’une prise de décision accrue de femmes dans certains villages. Ne pas traiter ces effets comme homogènes.",
+      "sources": [
+        {
+          "id": "recit-1745-changements",
+          "section": "Transformations des rôles autour de la traite et des voyages"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:iroquoiens",
+          "predicat": "documente_commerce_famille",
+          "objet": "Oui. Des absences prolongées et un travail accru des peaux pouvaient changer la répartition des responsabilités.",
+          "epoque": "vers:1745"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "traite",
+        "avait",
+        "elle",
+        "conséquences",
+        "dans",
+        "familiale"
+      ]
+    },
+    {
+      "id": "col-v1:femmes-comptoir",
+      "theme": "comportement",
+      "sous_categorie": "commerce",
+      "societe": "ensemble:iroquoiens",
+      "epoque": "vers:1745",
+      "question": "Pourquoi la préparation des peaux devenait-elle parfois un travail plus important ?",
+      "reponse_courte": "La demande de fourrures du commerce colonial pouvait augmenter la quantité de peaux à préparer.",
+      "explication_detaillee": "Le RÉCIT décrit l’accroissement de ce travail chez les femmes au XVIIIe siècle. Les gestes techniques restent variables; ne pas inférer la méthode de tannage précise.",
+      "sources": [
+        {
+          "id": "recit-1745-changements",
+          "section": "Transformations des rôles autour de la traite et des voyages"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:iroquoiens",
+          "predicat": "documente_femmes_comptoir",
+          "objet": "La demande de fourrures du commerce colonial pouvait augmenter la quantité de peaux à préparer.",
+          "epoque": "vers:1745"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "pourquoi",
+        "préparation",
+        "peaux",
+        "devenait",
+        "elle",
+        "parfois",
+        "travail",
+        "plus",
+        "important"
+      ]
+    },
+    {
+      "id": "col-v1:politique-continuites",
+      "theme": "comportement",
+      "sous_categorie": "politique",
+      "societe": "soc:wendat",
+      "epoque": "vers:1745",
+      "question": "Les villages wendat ont-ils cessé toute organisation politique pendant la colonisation ?",
+      "reponse_courte": "Non. Des conseils, des chefs et des liens de clan ont persisté malgré les changements.",
+      "explication_detaillee": "Le RÉCIT explique les continuités du conseil et du clan vers 1745. Cela n’annule ni les pressions missionnaires ni les transformations des rapports politiques.",
+      "sources": [
+        {
+          "id": "recit-1745-politique",
+          "section": "Persistance de conseils et clans, compromis avec colonies"
+        },
+        {
+          "id": "wendat-nation-v5",
+          "section": "Autodescription contemporaine de la filiation et de la diplomatie"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "soc:wendat",
+          "predicat": "documente_politique_continuites",
+          "objet": "Non. Des conseils, des chefs et des liens de clan ont persisté malgré les changements.",
+          "epoque": "vers:1745"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "villages",
+        "wendat",
+        "cessé",
+        "toute",
+        "organisation",
+        "politique",
+        "pendant",
+        "colonisation"
+      ]
+    },
+    {
+      "id": "col-v1:conseils-compromis",
+      "theme": "comportement",
+      "sous_categorie": "politique",
+      "societe": "ensemble:iroquoiens",
+      "epoque": "vers:1745",
+      "question": "Pourquoi parler de compromis politiques avec les autorités françaises ?",
+      "reponse_courte": "Des nations conservaient leurs conseils tout en négociant avec les autorités coloniales.",
+      "explication_detaillee": "Les gouvernements autochtones et français ne fonctionnaient pas de la même façon; les rencontres supposaient des négociations, des adaptations et parfois des conflits.",
+      "sources": [
+        {
+          "id": "recit-1745-politique",
+          "section": "Persistance de conseils et clans, compromis avec colonies"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:iroquoiens",
+          "predicat": "documente_conseils_compromis",
+          "objet": "Des nations conservaient leurs conseils tout en négociant avec les autorités coloniales.",
+          "epoque": "vers:1745"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "pourquoi",
+        "parler",
+        "compromis",
+        "politiques",
+        "avec",
+        "autorités",
+        "françaises"
+      ]
+    },
+    {
+      "id": "col-v1:missions-effets",
+      "theme": "comportement",
+      "sous_categorie": "changements_coloniaux",
+      "societe": "ensemble:iroquoiens",
+      "epoque": "xviie_xviiie",
+      "question": "Qu’est-ce qu’une mission coloniale pouvait changer ?",
+      "reponse_courte": "La proximité des établissements français et des missionnaires pouvait influencer la religion, les déplacements et l’organisation quotidienne.",
+      "explication_detaillee": "Le RÉCIT décrit des missions et villages près de Québec et Montréal. Les familles n’y vivaient pas toutes de la même manière; il faut distinguer installation, adhésion religieuse et pressions coloniales.",
+      "sources": [
+        {
+          "id": "recit-1745-territoire",
+          "section": "Missions, territoires et noms de nations à l’époque coloniale"
+        },
+        {
+          "id": "recit-1745-europeens",
+          "section": "Contacts, commerce, missionnaires; interprétation pédagogique à nuancer"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:iroquoiens",
+          "predicat": "documente_missions_effets",
+          "objet": "La proximité des établissements français et des missionnaires pouvait influencer la religion, les déplacements et l’organisation quotidienne.",
+          "epoque": "xviie_xviiie"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "mission",
+        "coloniale",
+        "pouvait",
+        "changer"
+      ]
+    },
+    {
+      "id": "col-v1:convertir-non-uniforme",
+      "theme": "comportement",
+      "sous_categorie": "moeurs_et_coutumes",
+      "societe": "ensemble:iroquoiens",
+      "epoque": "xviie_xviiie",
+      "question": "Tous les habitants des missions ont-ils abandonné leurs traditions ?",
+      "reponse_courte": "Non : il faut éviter de supposer une transformation identique chez tous.",
+      "explication_detaillee": "Le récit scolaire évoque des conversions et des changements, mais aussi la persistance des conseils et des clans. On peut adopter certains objets ou croyances et conserver d’autres éléments de sa culture.",
+      "sources": [
+        {
+          "id": "recit-1745-europeens",
+          "section": "Contacts, commerce, missionnaires; interprétation pédagogique à nuancer"
+        },
+        {
+          "id": "recit-1745-politique",
+          "section": "Persistance de conseils et clans, compromis avec colonies"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:iroquoiens",
+          "predicat": "documente_convertir_non_uniforme",
+          "objet": "Non : il faut éviter de supposer une transformation identique chez tous.",
+          "epoque": "xviie_xviiie"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "tous",
+        "habitants",
+        "missions",
+        "abandonné",
+        "leurs",
+        "traditions"
+      ]
+    },
+    {
+      "id": "col-v1:circulation-canots",
+      "theme": "fabrications",
+      "sous_categorie": "fabrications_et_adaptations",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "debut_xviie",
+      "question": "Que les Français ont-ils appris de certaines techniques de déplacement autochtones ?",
+      "reponse_courte": "Ils ont adopté les canots d’écorce et les savoir-faire de navigation et de portage.",
+      "explication_detaillee": "Une présentation du Musée canadien de l’histoire rapporte que Champlain reconnaît en 1603 l’efficacité de certains canots de bouleau sur les rivières peu profondes. Le savoir de navigation provient de populations déjà présentes sur le territoire.",
+      "sources": [
+        {
+          "id": "museum-canot-colonial",
+          "section": "Descriptions coloniales du canot et de son adoption par les Français"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_circulation_canots",
+          "objet": "Ils ont adopté les canots d’écorce et les savoir-faire de navigation et de portage.",
+          "epoque": "debut_xviie"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "français",
+        "appris",
+        "certaines",
+        "techniques",
+        "déplacement",
+        "autochtones"
+      ]
+    },
+    {
+      "id": "col-v1:diplomatie-acteurs",
+      "theme": "comportement",
+      "sous_categorie": "diplomatie",
+      "societe": "ensemble:delegations-1701",
+      "epoque": "1701",
+      "question": "Qui participe à la Grande Paix de Montréal de 1701 ?",
+      "reponse_courte": "De nombreuses délégations autochtones et des représentants français se rencontrent à Montréal.",
+      "explication_detaillee": "Le musée Pointe-à-Callière décrit un grand rassemblement diplomatique. Les publications varient dans leur dénombrement exact des nations; ne pas imposer un chiffre unique comme certitude absolue.",
+      "sources": [
+        {
+          "id": "pac-paix-1701-v5",
+          "section": "Événement diplomatique, déroulement des négociations et conséquences"
+        },
+        {
+          "id": "pac-commemoration-2026",
+          "section": "Commémoration, nombre approximatif de participants différent selon les communications"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:delegations-1701",
+          "predicat": "documente_diplomatie_acteurs",
+          "objet": "De nombreuses délégations autochtones et des représentants français se rencontrent à Montréal.",
+          "epoque": "1701"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "participe",
+        "grande",
+        "paix",
+        "montréal"
+      ]
+    },
+    {
+      "id": "col-v1:diplomatie-kondiaronk",
+      "theme": "comportement",
+      "sous_categorie": "diplomatie",
+      "societe": "soc:wendat",
+      "epoque": "1701",
+      "question": "Pourquoi Kondiaronk est-il une figure importante de 1701 ?",
+      "reponse_courte": "Ce diplomate wendat joue un rôle dans les négociations et les discours qui mènent à l’accord.",
+      "explication_detaillee": "Les sources muséales attribuent une influence au talent diplomatique de Kondiaronk. Il n’a cependant pas signé à lui seul la paix pour toutes les nations.",
+      "sources": [
+        {
+          "id": "pac-paix-1701-v5",
+          "section": "Événement diplomatique, déroulement des négociations et conséquences"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "soc:wendat",
+          "predicat": "documente_diplomatie_kondiaronk",
+          "objet": "Ce diplomate wendat joue un rôle dans les négociations et les discours qui mènent à l’accord.",
+          "epoque": "1701"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "pourquoi",
+        "kondiaronk",
+        "figure",
+        "importante"
+      ]
+    },
+    {
+      "id": "col-v1:diplomatie-discours",
+      "theme": "comportement",
+      "sous_categorie": "diplomatie",
+      "societe": "ensemble:delegations-1701",
+      "epoque": "1701",
+      "question": "Comment cherchait-on une entente pendant la Grande Paix ?",
+      "reponse_courte": "Au moyen de discussions, de discours, d’engagements et de négociations entre des délégations.",
+      "explication_detaillee": "La rencontre s’est déroulée pendant plusieurs jours; les prises de parole montrent le caractère politique des représentants autochtones plutôt qu’un simple accord imposé par une autorité coloniale.",
+      "sources": [
+        {
+          "id": "pac-paix-1701-v5",
+          "section": "Événement diplomatique, déroulement des négociations et conséquences"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:delegations-1701",
+          "predicat": "documente_diplomatie_discours",
+          "objet": "Au moyen de discussions, de discours, d’engagements et de négociations entre des délégations.",
+          "epoque": "1701"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "comment",
+        "cherchait",
+        "entente",
+        "pendant",
+        "grande",
+        "paix"
+      ]
+    },
+    {
+      "id": "col-v1:diplomatie-accords",
+      "theme": "comportement",
+      "sous_categorie": "politique",
+      "societe": "ensemble:delegations-1701",
+      "epoque": "1701",
+      "question": "Une signature de paix élimine-t-elle tout conflit par magie ?",
+      "reponse_courte": "Non. Un traité constitue des engagements dont la mise en œuvre dépend des participants et du contexte.",
+      "explication_detaillee": "La Grande Paix fut un tournant majeur mais ne prouve pas l’unanimité durable de chaque individu ni l’absence définitive de tensions.",
+      "sources": [
+        {
+          "id": "pac-paix-1701-v5",
+          "section": "Événement diplomatique, déroulement des négociations et conséquences"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:delegations-1701",
+          "predicat": "documente_diplomatie_accords",
+          "objet": "Non. Un traité constitue des engagements dont la mise en œuvre dépend des participants et du contexte.",
+          "epoque": "1701"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "signature",
+        "paix",
+        "élimine",
+        "elle",
+        "tout",
+        "conflit",
+        "magie"
+      ]
+    },
+    {
+      "id": "col-v1:diplomatie-symboles",
+      "theme": "comportement",
+      "sous_categorie": "diplomatie",
+      "societe": "ensemble:delegations-1701",
+      "epoque": "1701",
+      "question": "Comment les délégations marquaient-elles le traité de 1701 ?",
+      "reponse_courte": "Des représentants ont utilisé des marques ou symboles consignés sur le document du traité.",
+      "explication_detaillee": "Pointe-à-Callière présente les marques attribuées aux délégations; celles-ci doivent être lues avec un regard critique puisque le document conservé est lié aux pratiques d’écriture coloniales.",
+      "sources": [
+        {
+          "id": "pac-paix-1701-v5",
+          "section": "Événement diplomatique, déroulement des négociations et conséquences"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:delegations-1701",
+          "predicat": "documente_diplomatie_symboles",
+          "objet": "Des représentants ont utilisé des marques ou symboles consignés sur le document du traité.",
+          "epoque": "1701"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "comment",
+        "délégations",
+        "marquaient",
+        "elles",
+        "traité"
+      ]
+    },
+    {
+      "id": "col-v1:diplomatie-wampum",
+      "theme": "comportement",
+      "sous_categorie": "diplomatie",
+      "societe": "ensemble:delegations-1701",
+      "epoque": "1701",
+      "question": "Pourquoi des objets pouvaient-ils jouer un rôle diplomatique ?",
+      "reponse_courte": "Certains objets et symboles accompagnaient les rencontres et les engagements politiques.",
+      "explication_detaillee": "L’archéologie présentée à Pointe-à-Callière mentionne des perles de wampum et des fragments de calumets; leur présence ne suffit pas à attribuer une signification précise à chaque objet.",
+      "sources": [
+        {
+          "id": "pac-commemoration-2026",
+          "section": "Commémoration, nombre approximatif de participants différent selon les communications"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:delegations-1701",
+          "predicat": "documente_diplomatie_wampum",
+          "objet": "Certains objets et symboles accompagnaient les rencontres et les engagements politiques.",
+          "epoque": "1701"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "pourquoi",
+        "objets",
+        "pouvaient",
+        "jouer",
+        "rôle",
+        "diplomatique"
+      ]
+    },
+    {
+      "id": "col-v1:conflits-commerce",
+      "theme": "comportement",
+      "sous_categorie": "cooperation_et_conflits",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "xviie_xviiie",
+      "question": "Pourquoi la traite des fourrures pouvait-elle être liée à des conflits ?",
+      "reponse_courte": "Les intérêts commerciaux, les alliances et les rivalités territoriales pouvaient se combiner.",
+      "explication_detaillee": "Pointe-à-Callière situe la paix de 1701 après de longues tensions auxquelles le commerce des fourrures était mêlé. Une guerre n’est jamais réductible à une seule marchandise.",
+      "sources": [
+        {
+          "id": "pac-paix-1701-v5",
+          "section": "Événement diplomatique, déroulement des négociations et conséquences"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_conflits_commerce",
+          "objet": "Les intérêts commerciaux, les alliances et les rivalités territoriales pouvaient se combiner.",
+          "epoque": "xviie_xviiie"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "pourquoi",
+        "traite",
+        "fourrures",
+        "pouvait",
+        "elle",
+        "être",
+        "liée",
+        "conflits"
+      ]
+    },
+    {
+      "id": "col-v1:relations-non-une",
+      "theme": "comportement",
+      "sous_categorie": "cooperation_et_conflits",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "xviie_xviiie",
+      "question": "Les relations coloniales étaient-elles seulement de l’amitié ou seulement de la guerre ?",
+      "reponse_courte": "Non. Elles pouvaient comprendre commerce, alliance, entraide, négociation, conflit et pression.",
+      "explication_detaillee": "Les relations variaient selon les peuples et les périodes. Une alliance avec certains Français ne représentait pas nécessairement une alliance de toutes les nations avec toute la France.",
+      "sources": [
+        {
+          "id": "pac-paix-1701-v5",
+          "section": "Événement diplomatique, déroulement des négociations et conséquences"
+        },
+        {
+          "id": "recit-1745-europeens",
+          "section": "Contacts, commerce, missionnaires; interprétation pédagogique à nuancer"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_relations_non_une",
+          "objet": "Non. Elles pouvaient comprendre commerce, alliance, entraide, négociation, conflit et pression.",
+          "epoque": "xviie_xviiie"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "relations",
+        "coloniales",
+        "étaient",
+        "elles",
+        "seulement",
+        "amitié",
+        "seulement",
+        "guerre"
+      ]
+    },
+    {
+      "id": "col-v1:langue-religion",
+      "theme": "comportement",
+      "sous_categorie": "moeurs_et_coutumes",
+      "societe": "ensemble:iroquoiens",
+      "epoque": "vers:1745",
+      "question": "Les langues et traditions ont-elles immédiatement disparu dans les missions ?",
+      "reponse_courte": "Les contacts ont produit des changements, mais ne signifient pas une disparition instantanée des langues et coutumes.",
+      "explication_detaillee": "La présence des missionnaires et de pratiques catholiques dans certains villages doit être mise en regard de la continuité des clans, conseils et identités.",
+      "sources": [
+        {
+          "id": "recit-1745-politique",
+          "section": "Persistance de conseils et clans, compromis avec colonies"
+        },
+        {
+          "id": "recit-1745-europeens",
+          "section": "Contacts, commerce, missionnaires; interprétation pédagogique à nuancer"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:iroquoiens",
+          "predicat": "documente_langue_religion",
+          "objet": "Les contacts ont produit des changements, mais ne signifient pas une disparition instantanée des langues et coutumes.",
+          "epoque": "vers:1745"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "langues",
+        "traditions",
+        "elles",
+        "immédiatement",
+        "disparu",
+        "dans",
+        "missions"
+      ]
+    },
+    {
+      "id": "col-v1:avenir-wendat",
+      "theme": "comportement",
+      "sous_categorie": "politique",
+      "societe": "soc:wendat",
+      "epoque": "actuel",
+      "question": "La politique wendat appartient-elle uniquement à l’histoire coloniale ?",
+      "reponse_courte": "Non. La Nation Wendat dispose de ses propres institutions politiques contemporaines.",
+      "explication_detaillee": "Le Conseil de la Nation Wendat présente son gouvernement élu et ses responsabilités relatives aux intérêts et aux droits de la Nation. Éviter de figer la nation au XVIIIe siècle.",
+      "sources": [
+        {
+          "id": "wendat-gouvernement-v5",
+          "section": "Autodescription des institutions politiques actuelles"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "soc:wendat",
+          "predicat": "documente_avenir_wendat",
+          "objet": "Non. La Nation Wendat dispose de ses propres institutions politiques contemporaines.",
+          "epoque": "actuel"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "politique",
+        "wendat",
+        "appartient",
+        "elle",
+        "uniquement",
+        "histoire",
+        "coloniale"
+      ]
+    },
+    {
+      "id": "col-v1:famille-rapports-colonisation",
+      "theme": "comportement",
+      "sous_categorie": "relations_familiales",
+      "societe": "soc:wendat",
+      "epoque": "historique_et_actuel",
+      "question": "La colonisation a-t-elle effacé toute importance des familles wendat ?",
+      "reponse_courte": "Non. La Nation Wendat présente toujours la famille comme fondement de son organisation sociale.",
+      "explication_detaillee": "Le site officiel wendat souligne son héritage matrilinéaire. La continuité des familles ne signifie pas que leurs pratiques sont demeurées inchangées.",
+      "sources": [
+        {
+          "id": "wendat-nation-v5",
+          "section": "Autodescription contemporaine de la filiation et de la diplomatie"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "soc:wendat",
+          "predicat": "documente_famille_rapports_colonisation",
+          "objet": "Non. La Nation Wendat présente toujours la famille comme fondement de son organisation sociale.",
+          "epoque": "historique_et_actuel"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "colonisation",
+        "elle",
+        "effacé",
+        "toute",
+        "importance",
+        "familles",
+        "wendat"
+      ]
+    },
+    {
+      "id": "col-v1:relations-documents",
+      "theme": "comportement",
+      "sous_categorie": "transmission",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "transversal",
+      "question": "Pourquoi faut-il lire les récits de missionnaires avec prudence ?",
+      "reponse_courte": "Ils apportent des témoignages mais expriment aussi le vocabulaire, les objectifs et les préjugés de leurs auteurs.",
+      "explication_detaillee": "Une observation coloniale ne devrait pas être interprétée comme la voix unique d’une nation autochtone. La comparaison avec des savoirs transmis par les nations et des sources archéologiques est nécessaire.",
+      "sources": [
+        {
+          "id": "recit-1745-europeens",
+          "section": "Contacts, commerce, missionnaires; interprétation pédagogique à nuancer"
+        },
+        {
+          "id": "wendat-nation-v5",
+          "section": "Autodescription contemporaine de la filiation et de la diplomatie"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_relations_documents",
+          "objet": "Ils apportent des témoignages mais expriment aussi le vocabulaire, les objectifs et les préjugés de leurs auteurs.",
+          "epoque": "transversal"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "pourquoi",
+        "faut",
+        "lire",
+        "récits",
+        "missionnaires",
+        "avec",
+        "prudence"
+      ]
+    },
+    {
+      "id": "col-v1:recettes-non-prouves",
+      "theme": "comportement",
+      "sous_categorie": "transmission",
+      "societe": "ensemble:relations-coloniales",
+      "epoque": "transversal",
+      "question": "Une recette européenne suffit-elle à prouver qu’une nation autochtone employait les mêmes ingrédients ?",
+      "reponse_courte": "Non : il faut un témoignage relié au peuple, à la période et à la technique concernée.",
+      "explication_detaillee": "La présence d’urine, d’écorce ou de résine dans d’autres traditions ne prouve pas leur emploi systématique chez les Wendat ou Haudenosaunee au XVIIe siècle. Les sources retenues ne décrivent pas un protocole complet pour ces nations.",
+      "sources": [
+        {
+          "id": "recit-1745-produits",
+          "section": "Marchandises échangées, outils et produits transformant certaines pratiques"
+        }
+      ],
+      "faits_semantiques": [
+        {
+          "sujet": "ensemble:relations-coloniales",
+          "predicat": "documente_recettes_non_prouves",
+          "objet": "Non : il faut un témoignage relié au peuple, à la période et à la technique concernée.",
+          "epoque": "transversal"
+        }
+      ],
+      "precision": "Époque et groupes circonscrits; relations non uniformes, sources situées.",
+      "statut_revue": "source_documentaire_attestee_revue_nation_a_faire",
+      "types_de_connaissance": [
+        "description_historique_contextualisee"
+      ],
+      "mots_cles": [
+        "recette",
+        "européenne",
+        "suffit",
+        "elle",
+        "prouver",
+        "nation",
+        "autochtone",
+        "employait",
+        "mêmes"
+      ]
+    }
+  ],
+  "entrainements": [
+    {
+      "id": "col-q-01",
+      "type": "vrai_ou_faux",
+      "niveau": "entrainement_non_certificatif",
+      "entree_ref": "col-v1:marches-preexistants",
+      "theme": "comportement",
+      "enonce": "Le commerce entre nations a commencé seulement après l’arrivée des Français.",
+      "options": [
+        {
+          "id": "vrai",
+          "label": "Vrai"
+        },
+        {
+          "id": "faux",
+          "label": "Faux"
+        }
+      ],
+      "bonne_option": "faux",
+      "explication_courte": "Des réseaux existaient auparavant.",
+      "source_refs": [
+        "recit-algonquiens-troc"
+      ]
+    },
+    {
+      "id": "col-q-02",
+      "type": "vrai_ou_faux",
+      "niveau": "entrainement_non_certificatif",
+      "entree_ref": "col-v1:commerce-intermediaires",
+      "theme": "comportement",
+      "enonce": "Certaines personnes autochtones étaient aussi des intermédiaires commerciaux.",
+      "options": [
+        {
+          "id": "vrai",
+          "label": "Vrai"
+        },
+        {
+          "id": "faux",
+          "label": "Faux"
+        }
+      ],
+      "bonne_option": "vrai",
+      "explication_courte": "Le RÉCIT décrit ces rôles variés.",
+      "source_refs": [
+        "recit-1745-intermediaires"
+      ]
+    },
+    {
+      "id": "col-q-03",
+      "type": "vrai_ou_faux",
+      "niveau": "entrainement_non_certificatif",
+      "entree_ref": "col-v1:politique-continuites",
+      "theme": "comportement",
+      "enonce": "Tous les conseils wendat ont cessé de fonctionner durant l’époque coloniale.",
+      "options": [
+        {
+          "id": "vrai",
+          "label": "Vrai"
+        },
+        {
+          "id": "faux",
+          "label": "Faux"
+        }
+      ],
+      "bonne_option": "faux",
+      "explication_courte": "Ils ont conservé des formes de conseil et de leadership.",
+      "source_refs": [
+        "recit-1745-politique",
+        "wendat-nation-v5"
+      ]
+    },
+    {
+      "id": "col-q-04",
+      "type": "vrai_ou_faux",
+      "niveau": "entrainement_non_certificatif",
+      "entree_ref": "col-v1:diplomatie-kondiaronk",
+      "theme": "comportement",
+      "enonce": "Kondiaronk était un diplomate wendat important en 1701.",
+      "options": [
+        {
+          "id": "vrai",
+          "label": "Vrai"
+        },
+        {
+          "id": "faux",
+          "label": "Faux"
+        }
+      ],
+      "bonne_option": "vrai",
+      "explication_courte": "Il a contribué aux négociations.",
+      "source_refs": [
+        "pac-paix-1701-v5"
+      ]
+    },
+    {
+      "id": "col-q-05",
+      "type": "vrai_ou_faux",
+      "niveau": "entrainement_non_certificatif",
+      "entree_ref": "col-v1:commerce-famille",
+      "theme": "comportement",
+      "enonce": "Les voyages de traite pouvaient modifier la répartition du travail familial.",
+      "options": [
+        {
+          "id": "vrai",
+          "label": "Vrai"
+        },
+        {
+          "id": "faux",
+          "label": "Faux"
+        }
+      ],
+      "bonne_option": "vrai",
+      "explication_courte": "Les sources décrivent ces transformations.",
+      "source_refs": [
+        "recit-1745-changements"
+      ]
+    },
+    {
+      "id": "col-q-06",
+      "type": "vrai_ou_faux",
+      "niveau": "entrainement_non_certificatif",
+      "entree_ref": "col-v1:recettes-non-prouves",
+      "theme": "comportement",
+      "enonce": "Une technique employée en Europe prouve qu’elle existait chez toutes les nations autochtones.",
+      "options": [
+        {
+          "id": "vrai",
+          "label": "Vrai"
+        },
+        {
+          "id": "faux",
+          "label": "Faux"
+        }
+      ],
+      "bonne_option": "faux",
+      "explication_courte": "Il faut des sources précises.",
+      "source_refs": [
+        "recit-1745-produits"
+      ]
+    },
+    {
+      "id": "col-q-07",
+      "type": "vrai_ou_faux",
+      "niveau": "entrainement_non_certificatif",
+      "entree_ref": "col-v1:relations-non-une",
+      "theme": "comportement",
+      "enonce": "Une relation avec les colons pouvait comprendre des échanges et des conflits à différentes époques.",
+      "options": [
+        {
+          "id": "vrai",
+          "label": "Vrai"
+        },
+        {
+          "id": "faux",
+          "label": "Faux"
+        }
+      ],
+      "bonne_option": "vrai",
+      "explication_courte": "L’histoire des relations n’est pas uniforme.",
+      "source_refs": [
+        "pac-paix-1701-v5",
+        "recit-1745-europeens"
+      ]
+    },
+    {
+      "id": "col-q-08",
+      "type": "vrai_ou_faux",
+      "niveau": "entrainement_non_certificatif",
+      "entree_ref": "col-v1:avenir-wendat",
+      "theme": "comportement",
+      "enonce": "La Nation Wendat a encore des institutions politiques aujourd’hui.",
+      "options": [
+        {
+          "id": "vrai",
+          "label": "Vrai"
+        },
+        {
+          "id": "faux",
+          "label": "Faux"
+        }
+      ],
+      "bonne_option": "vrai",
+      "explication_courte": "Son Conseil présente ses responsabilités contemporaines.",
+      "source_refs": [
+        "wendat-gouvernement-v5"
+      ]
+    }
+  ],
+  "chapitres": [
+    {
+      "theme": "comportement",
+      "sous_categorie": "commerce",
+      "titre": "Commerce et transformations des échanges",
+      "sections": [
+        "Les réseaux d’échange entre peuples existaient avant l’arrivée des Français. L’économie coloniale transforma ensuite la circulation des fourrures, des textiles, des outils métalliques et des objets de cuisine.",
+        "Les personnes autochtones n’étaient pas uniquement vendeuses de peaux : elles voyageaient, négociaient et pouvaient exercer des rôles d’intermédiaires. Le commerce pouvait aussi avoir des effets sur le travail familial."
+      ],
+      "source_ids": [
+        "recit-algonquiens-troc",
+        "recit-1745-produits",
+        "recit-1745-intermediaires"
+      ]
+    },
+    {
+      "theme": "comportement",
+      "sous_categorie": "politique",
+      "titre": "Conseils, alliances et pouvoirs",
+      "sections": [
+        "Au temps des colonies, les nations autochtones conservaient des institutions de conseils et des formes de leadership propres. Les négociations ne se réduisaient pas à des ordres donnés par les autorités françaises.",
+        "La Grande Paix de Montréal de 1701 résulta de négociations entre de nombreuses délégations. Les discours et les médiations, dont celle de Kondiaronk, jouèrent un rôle important."
+      ],
+      "source_ids": [
+        "recit-1745-politique",
+        "pac-paix-1701-v5"
+      ]
+    },
+    {
+      "theme": "comportement",
+      "sous_categorie": "relations_familiales",
+      "titre": "Famille, travail et transmission",
+      "sections": [
+        "La traite des fourrures et les conflits pouvaient occasionner de longues absences; cela changeait parfois les tâches et les décisions des familles.",
+        "Dans le cas wendat, l’organisation sociale continue d’accorder une importance à la famille et à l’héritage matrilinéaire, sans être restée identique à travers les siècles."
+      ],
+      "source_ids": [
+        "recit-1745-changements",
+        "wendat-nation-v5"
+      ]
+    },
+    {
+      "theme": "comportement",
+      "sous_categorie": "moeurs_et_coutumes",
+      "titre": "Mœurs et coutumes en situation coloniale",
+      "sections": [
+        "Les missions et le commerce entraînèrent des transformations religieuses, matérielles et quotidiennes. Aucune société ne changea partout de la même façon.",
+        "Les récits coloniaux doivent être comparés aux voix et aux sources des nations; les pratiques qui n’ont pas de preuve précise ne doivent pas devenir des faits enseignés."
+      ],
+      "source_ids": [
+        "recit-1745-europeens",
+        "recit-1745-politique",
+        "wendat-nation-v5"
+      ]
+    },
+    {
+      "theme": "fabrications",
+      "sous_categorie": "fabrications_et_adaptations",
+      "titre": "Fabriquer, transporter et adapter",
+      "sections": [
+        "Les canots d’écorce et les savoir-faire de navigation étaient connus bien avant que les voyageurs français les adoptent.",
+        "La circulation de couteaux, haches, chaudrons, outils et textiles européens pouvait modifier certains gestes sans effacer immédiatement les techniques autochtones."
+      ],
+      "source_ids": [
+        "museum-canot-colonial",
+        "recit-1745-produits"
+      ]
+    }
+  ],
+  "heritage": {
+    "graphe_v3": "canon/domain/graphe-v3.json",
+    "note": "Ce nouvel artefact conserve le graphe v3 et ses identifiants sans modification."
+  },
+  "index_categories": {
+    "comportement": {
+      "titre": "Comportement",
+      "sous_categories": {
+        "commerce": [
+          "col-v1:marches-preexistants",
+          "col-v1:produits-commerce",
+          "col-v1:commerce-intermediaires",
+          "col-v1:commerce-europeens-divers",
+          "col-v1:femmes-comptoir"
+        ],
+        "relations_familiales": [
+          "col-v1:commerce-famille",
+          "col-v1:famille-rapports-colonisation"
+        ],
+        "politique": [
+          "col-v1:politique-continuites",
+          "col-v1:conseils-compromis",
+          "col-v1:diplomatie-accords",
+          "col-v1:avenir-wendat"
+        ],
+        "changements_coloniaux": [
+          "col-v1:missions-effets"
+        ],
+        "moeurs_et_coutumes": [
+          "col-v1:convertir-non-uniforme",
+          "col-v1:langue-religion"
+        ],
+        "diplomatie": [
+          "col-v1:diplomatie-acteurs",
+          "col-v1:diplomatie-kondiaronk",
+          "col-v1:diplomatie-discours",
+          "col-v1:diplomatie-symboles",
+          "col-v1:diplomatie-wampum"
+        ],
+        "cooperation_et_conflits": [
+          "col-v1:conflits-commerce",
+          "col-v1:relations-non-une"
+        ],
+        "transmission": [
+          "col-v1:relations-documents",
+          "col-v1:recettes-non-prouves"
+        ]
+      },
+      "article_ids": [
+        "col-v1:marches-preexistants",
+        "col-v1:produits-commerce",
+        "col-v1:commerce-intermediaires",
+        "col-v1:commerce-europeens-divers",
+        "col-v1:commerce-famille",
+        "col-v1:femmes-comptoir",
+        "col-v1:politique-continuites",
+        "col-v1:conseils-compromis",
+        "col-v1:missions-effets",
+        "col-v1:convertir-non-uniforme",
+        "col-v1:diplomatie-acteurs",
+        "col-v1:diplomatie-kondiaronk",
+        "col-v1:diplomatie-discours",
+        "col-v1:diplomatie-accords",
+        "col-v1:diplomatie-symboles",
+        "col-v1:diplomatie-wampum",
+        "col-v1:conflits-commerce",
+        "col-v1:relations-non-une",
+        "col-v1:langue-religion",
+        "col-v1:avenir-wendat",
+        "col-v1:famille-rapports-colonisation",
+        "col-v1:relations-documents",
+        "col-v1:recettes-non-prouves"
+      ]
+    },
+    "fabrications": {
+      "titre": "Fabrications, objets et adaptations",
+      "article_ids": [
+        "col-v1:outils-metal",
+        "col-v1:chaudrons-cuivre",
+        "col-v1:textiles-europeens",
+        "col-v1:circulation-canots"
+      ]
+    }
+  }
+}

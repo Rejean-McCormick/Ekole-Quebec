@@ -1,0 +1,301 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fls-003",
+  "family_id": "qc-pri-fls-003-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fls-003-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Après deux modèles ORAUX prononcés par l’adulte, répète le mot entendu et demande le bon dessin sans lire les mots.",
+      "stimulus": "Le professionnel présente oralement les concepts poule et boule, cache les mots écrits, puis dit successivement « boule » et « poule ». Il ne montre pas le dessin pendant l’écoute. Le partenaire possède deux dessins identifiés.",
+      "reponse_attendue": "Ordre attendu : boule, puis poule. Dans la demande orale, le partenaire choisit correctement l’objet visé; phrases acceptées : « La boule, s’il te plaît » puis « La poule, s’il te plaît ». Ce n’est pas un test de graphie.",
+      "criteres": [
+        "Première identification = boule et deuxième = poule après familiarisation lexicale.",
+        "Le partenaire distingue les deux objets à partir de la production orale.",
+        "Le professionnel documente séparément discrimination et production; accent non sanctionné."
+      ],
+      "feedback": "Si les deux mots sont perçus comme identiques, réécouter le contraste /b/–/p/ en contexte, puis refaire l’essai sans montrer la réponse.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-003-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute chaque mot à l’oral et indique le nombre de syllabes ENTENDUES; prononce ensuite le mot à ton tour.",
+      "stimulus": "La personne enseignante prononce naturellement et séparément « vélo », « cadeau », « chocolat » avec les réalisations de référence /ve.lo/, /ka.do/, /ʃɔ.kɔ.la/. La feuille écrite reste masquée.",
+      "reponse_attendue": "vélo : 2 syllabes; cadeau : 2 syllabes; chocolat : 3 syllabes dans les modèles annoncés. Les syllabes sont dénombrées à l’écoute, pas à partir du nombre de lettres.",
+      "criteres": [
+        "L’élève identifie les trois nombres de syllabes dans les modèles effectivement prononcés.",
+        "Il démontre un découpage oral possible, pas une division orthographique.",
+        "Les variantes régionales sont évaluées sur le modèle entendu, sans stigmatisation."
+      ],
+      "feedback": "Si des lettres ont été comptées, rejouer le mot à vitesse naturelle puis découper à l’oral, sans demander la graphie.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-003-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Après la comparaison du modèle oral, explique quel mot le partenaire a compris, puis demande l’objet voulu.",
+      "stimulus": "Le professeur prononce « Je vois une poule » et « Je vois une boule ». Le partenaire tient un dessin pour chaque objet et ne sait pas lequel est ciblé au deuxième essai.",
+      "reponse_attendue": "Le choix pertinent doit correspondre au contraste poule /pul/ et boule /bul/. Une formulation exacte possible : « Je veux la poule, s’il te plaît »; le partenaire montre la poule, pas la boule. Toute forme oralement intelligible est acceptée.",
+      "criteres": [
+        "Le contraste /p/–/b/ est utile au sens, sans imposition de gestes articulatoires esthétiques.",
+        "Le destinataire indique l’objet demandé sans deviner la réponse.",
+        "L’élève peut reprendre le nom seul puis sa phrase si nécessaire."
+      ],
+      "feedback": "Corriger uniquement l’élément qui change l’objet entendu. Un accent perceptible sans ambiguïté ne requiert aucune remédiation.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-003-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Montre à l’oral la différence entre informer et poser une question, avec ou sans une intonation montante.",
+      "stimulus": "Modèles contextualisés prononcés à l’oral : « Tu viens. » comme constat; « Tu viens ? » comme question. Puis situation nouvelle : demander si le partenaire vient à l’atelier.",
+      "reponse_attendue": "Phrase recevable : « Est-ce que tu viens à l’atelier ? » ou « Tu viens à l’atelier ? ». Le destinataire doit comprendre qu’une réponse est demandée. Le contour mélodique exact n’est pas figé.",
+      "criteres": [
+        "Intention interrogative reconnue par le destinataire.",
+        "L’élève peut choisir une tournure interrogative explicite si la seule intonation n’est pas claire.",
+        "Aucune obligation de montée finale standardisée."
+      ],
+      "feedback": "En cas d’ambiguïté, reformuler avec « Est-ce que ... ? » et demander au partenaire quelle intention il comprend.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-003-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Après deux modèles à débit naturel, demande où se trouve la salle de musique en conservant une salutation et une question compréhensible.",
+      "stimulus": "Deux modèles oraux (pas d’audio inclus) : « Bonjour, je cherche la salle de musique. »; « Bonjour. Où est la salle de musique, s’il vous plaît ? ». Une autre personne joue l’accueil.",
+      "reponse_attendue": "Exemples : « Bonjour, où est la salle de musique ? » ou « Je cherche la salle de musique, pouvez-vous m’aider ? ». L’accueil sait que la personne recherche ce lieu et qu’elle pose une question.",
+      "criteres": [
+        "Information de lieu reçue : salle de musique.",
+        "Intention d’obtenir une réponse comprise.",
+        "Regroupement naturel suffisant; accents distincts du modèle acceptés."
+      ],
+      "feedback": "Si le nom du lieu n’a pas été compris, répéter uniquement le segment pertinent, puis réessayer la demande entière.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-003-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Produis un court message en distinguant deux noms possibles dans une scène imaginaire; corrige si ton partenaire n’entend pas le bon objet.",
+      "stimulus": "Deux messages modèles à l’oral : « Le pain est chaud » et « Le bain est chaud ». Le partenaire doit identifier si l’on parle du pain ou du bain, sans connaître la cible au départ.",
+      "reponse_attendue": "Les deux énoncés sont grammaticalement possibles. Le contraste /p/–/b/ dans pain /pɛ̃/ et bain /bɛ̃/ contribue au sens. Le partenaire identifie le bon nom; une reformulation comme « le pain, celui qu’on mange » est recevable en réparation.",
+      "criteres": [
+        "Le destinataire reconnaît la cible lexicale sans la connaître d’avance.",
+        "L’élève reformule si un mot crucial prête à confusion.",
+        "Une variante phonétique régionale intelligible n’est pas pénalisée."
+      ],
+      "feedback": "Contraster pain/bain dans le contexte, puis réessayer. Ne pas condamner la production seulement parce qu’elle diffère de l’accent de l’adulte.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-003-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Demande au personnel où se trouve le cahier bleu.",
+      "stimulus": "Deux modèles oraux directs : « Bonjour, je cherche le cahier bleu. » puis « Bonjour. Où est le cahier bleu ? » L’interlocuteur fictif ne voit pas le script élève.",
+      "reponse_attendue": "L’élève demande de façon intelligible où se trouve le cahier bleu; par exemple « Bonjour, où est le cahier bleu, s’il vous plaît ? »; le partenaire reformule « tu cherches le cahier bleu ».",
+      "criteres": [
+        "Le partenaire restitue le référent exact sans avoir vu la cible.",
+        "Le message est identifiable comme demande d’information.",
+        "Les regroupements et sons pertinents permettent de distinguer les variantes; accent non jugé.",
+        "La trace consigne aide, besoin de clarification et réparation sans correction automatique."
+      ],
+      "feedback": "Réécouter les deux modèles de la variante utilisée, cibler le nom ou la préposition mal entendu, reformuler, puis refaire une situation analogue sans indices.",
+      "difficulte": "intermediaire",
+      "seed": 104,
+      "parametres": {
+        "domaine": "catalogue_ferme_de_deux_variantes",
+        "variables": {
+          "scenario": [
+            "A",
+            "B"
+          ]
+        },
+        "algorithme": "index = seed % 2; 0 = A, 1 = B; aucun appel IA ni permutation de mots hors catalogue",
+        "contraintes": [
+          "script oral lu intégralement, sens non modifié",
+          "deux modèles avant production",
+          "aucun audio externe",
+          "destinataire ne voit pas la réponse cible",
+          "reprise acceptable mais consignée"
+        ],
+        "variantes": [
+          {
+            "code": "A",
+            "consigne": "Demande au personnel où se trouve le cahier bleu.",
+            "stimulus": "Deux modèles oraux directs : « Bonjour, je cherche le cahier bleu. » puis « Bonjour. Où est le cahier bleu ? » L’interlocuteur fictif ne voit pas le script élève.",
+            "reponse_attendue": "L’élève demande de façon intelligible où se trouve le cahier bleu; par exemple « Bonjour, où est le cahier bleu, s’il vous plaît ? »; le partenaire reformule « tu cherches le cahier bleu »."
+          },
+          {
+            "code": "B",
+            "consigne": "Demande au personnel où se trouve la boîte rouge.",
+            "stimulus": "Deux modèles oraux directs : « Bonjour, je cherche la boîte rouge. » puis « Bonjour. Où est la boîte rouge ? » L’interlocuteur fictif ne voit pas le script élève.",
+            "reponse_attendue": "L’élève demande de façon intelligible où se trouve la boîte rouge; par exemple « Bonjour, où est la boîte rouge ? »; le partenaire reformule « tu cherches la boîte rouge »."
+          }
+        ],
+        "exemple_selection": {
+          "seed": 104,
+          "index": 0,
+          "scenario": "A",
+          "correction": "L’élève demande de façon intelligible où se trouve le cahier bleu; par exemple « Bonjour, où est le cahier bleu, s’il vous plaît ? »; le partenaire reformule « tu cherches le cahier bleu »."
+        },
+        "validation": {
+          "nombre_variantes": 2,
+          "regle": "comparer le sens attendu par scénario préécrit et une reformulation du destinataire",
+          "limites_variation": "seules variantes A et B validées à la rédaction; une substitution libre exige revue humaine"
+        }
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-003-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Demande si le sac est sur la table.",
+      "stimulus": "Deux modèles directs : « Le sac est sur la table ? » et « Est-ce que le sac est sur la table ? »; distinguer sur de sous.",
+      "reponse_attendue": "Message intelligible qui indique sur la table et demande une confirmation; par exemple « Est-ce que le sac est sur la table ? ».",
+      "criteres": [
+        "Le partenaire restitue le référent exact sans avoir vu la cible.",
+        "Le message est identifiable comme demande d’information.",
+        "Les regroupements et sons pertinents permettent de distinguer les variantes; accent non jugé.",
+        "La trace consigne aide, besoin de clarification et réparation sans correction automatique."
+      ],
+      "feedback": "Réécouter les deux modèles de la variante utilisée, cibler le nom ou la préposition mal entendu, reformuler, puis refaire une situation analogue sans indices.",
+      "difficulte": "intermediaire",
+      "seed": 105,
+      "parametres": {
+        "domaine": "catalogue_ferme_de_deux_variantes",
+        "variables": {
+          "scenario": [
+            "A",
+            "B"
+          ]
+        },
+        "algorithme": "index = seed % 2; 0 = A, 1 = B; aucun appel IA ni permutation de mots hors catalogue",
+        "contraintes": [
+          "script oral lu intégralement, sens non modifié",
+          "deux modèles avant production",
+          "aucun audio externe",
+          "destinataire ne voit pas la réponse cible",
+          "reprise acceptable mais consignée"
+        ],
+        "variantes": [
+          {
+            "code": "A",
+            "consigne": "Demande si le sac est sous la table.",
+            "stimulus": "Deux modèles directs : « Le sac est sous la table ? » et « Est-ce que le sac est sous la table ? »; distinguer l’information sous de sur.",
+            "reponse_attendue": "Message intelligible qui indique sous la table et demande une confirmation; par exemple « Est-ce que le sac est sous la table ? »."
+          },
+          {
+            "code": "B",
+            "consigne": "Demande si le sac est sur la table.",
+            "stimulus": "Deux modèles directs : « Le sac est sur la table ? » et « Est-ce que le sac est sur la table ? »; distinguer sur de sous.",
+            "reponse_attendue": "Message intelligible qui indique sur la table et demande une confirmation; par exemple « Est-ce que le sac est sur la table ? »."
+          }
+        ],
+        "exemple_selection": {
+          "seed": 105,
+          "index": 1,
+          "scenario": "B",
+          "correction": "Message intelligible qui indique sur la table et demande une confirmation; par exemple « Est-ce que le sac est sur la table ? »."
+        },
+        "validation": {
+          "nombre_variantes": 2,
+          "regle": "comparer le sens attendu par scénario préécrit et une reformulation du destinataire",
+          "limites_variation": "seules variantes A et B validées à la rédaction; une substitution libre exige revue humaine"
+        }
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-003-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-003-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 1 — Piscine fictive : après avoir comparé deux modèles ORAUX, demande au personnel où se trouve l’accueil. Dis ton message avec tes propres mots, sans lecture obligatoire ni indices pendant l’essai coté; si on te demande une précision, réponds toi-même.",
+      "stimulus": "Carte-situation (communiquée oralement) : « Tu arrives à une piscine municipale fictive et tu cherches l’accueil. Adresse-toi au personnel. » Deux modèles préalables prononcés par l’adulte : « Bonjour. Je cherche l’accueil. » et « Bonjour, où est l’accueil, s’il vous plaît ? ». Retirer les scripts pendant l’essai. Le partenaire ne connaît pas la cible et doit dire ce qu’il a compris.",
+      "reponse_attendue": "Exemple acceptable : « Bonjour. Je cherche l’accueil de la piscine. Où est-il ? » ou « Bonjour, où est l’accueil ? ». Observer que l’interlocuteur a compris la recherche de l’accueil et qu’une localisation est demandée. Toutes formulations naturelles intelligibles acceptées, quelle que soit la variété d’accent.",
+      "criteres": [
+        "Preuve orale produite sans aide lexicale ou prosodique pendant l’essai coté après comparaison des deux modèles.",
+        "Le destinataire identifie l’accueil comme lieu recherché, et l’intention de demander son emplacement.",
+        "Les sons essentiels et les groupes de sens rendent le message intelligible; accents québécois ou plurilingues non pénalisés.",
+        "Une clarification initiée et réussie par l’élève est acceptable, mais toute assistance donnée par l’adulte est notée.",
+        "Grille de 4 dimensions appliquée indépendamment du second contexte."
+      ],
+      "feedback": "Si la personne n’a pas compris « accueil » ou l’intention interrogative, indiquer ce segment, pratiquer une reformulation, puis évaluer plus tard dans une situation réellement différente.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte_maitrise": "P1 — accueil de piscine municipale fictive",
+      "role_preuve": "manifestation_1",
+      "protocole_observation": "Comparer deux modèles en amont, retirer modèles et texte cible, laisser un essai puis au plus une clarification auto-initiée, faire reformuler le sens par le destinataire sans lui montrer la cible."
+    },
+    {
+      "item_id": "qc-pri-fls-003-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-003-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 2 — Musée fictif : après deux modèles oraux, demande à quelle heure commence une visite. Formule ton message sans indices ni texte à réciter pendant l’essai coté; vérifie que la personne a compris la question.",
+      "stimulus": "Carte-situation (oralement) : « Tu es à l’entrée d’un musée fictif. Tu veux connaître l’heure du début de la visite. » Modèles comparés à l’avance par l’adulte : « Bonjour. À quelle heure commence la visite ? » et « Excusez-moi, la visite commence à quelle heure ? ». Scripts retirés pendant l’essai; partenaire ne lit pas la cible et restitue l’intention entendue.",
+      "reponse_attendue": "Exemples : « Bonjour, à quelle heure commence la visite, s’il vous plaît ? » ou « La visite commence quand ? » si le partenaire comprend une question d’heure. Ne pas imposer une mélodie unique : on juge que l’information demandée est l’heure de début de la visite.",
+      "criteres": [
+        "Preuve orale produite en autonomie après comparaison de modèles, dans un contexte différent de P1.",
+        "Le destinataire comprend qu’il faut indiquer l’heure de début de la visite, sans inventer une heure réelle.",
+        "Question et mots-clés intelligibles avec regroupements fonctionnels; accent légitime accepté.",
+        "La trace note reformulation spontanée, aide éventuelle et demandes de clarification.",
+        "Une note isolée ne donne pas la maîtrise; croiser avec q-009 sur les quatre dimensions."
+      ],
+      "feedback": "Si « heure » ou l’intention de question reste ambiguë, réentraîner une question de temps courte, puis recueillir ultérieurement une preuve sans indices dans un nouveau lieu.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte_maitrise": "P2 — question d’horaire au musée fictif",
+      "role_preuve": "manifestation_2",
+      "protocole_observation": "Deux modèles présentés avant, scripts et aides retirés, essai personnel oral, reformulation de la cible par destinataire sans accès à la réponse; au plus une clarification autonome consignée."
+    }
+  ]
+}

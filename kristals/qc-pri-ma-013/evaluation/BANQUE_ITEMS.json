@@ -1,0 +1,460 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-013",
+  "family_id": "qc-pri-ma-013-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-013-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Sur deux bandes d’une même longueur, colorie une moitié sur la première et deux quarts sur la seconde. Écris une égalité et explique ce qui est constant.",
+      "stimulus": "Deux rectangles unités identiques; divisions en 2 et en 4 parts égales, sans dessin prérempli.",
+      "reponse_attendue": "Réponse : 1/2 = 2/4. Chaque moitié a été séparée en deux; quantité du tout inchangée.",
+      "criteres": [
+        "fraction égale correcte",
+        "même unité explicitée",
+        "deux parts sur quatre effectivement placées"
+      ],
+      "feedback": "Si les bandes ont des unités différentes, remettre la même longueur; si 1/4 est colorié, rappeler le partage des deux demi-parties.",
+      "difficulte": "initial",
+      "representation": "bandes et justification",
+      "variations_permises": "Gros caractères ou bande tactile identique; absence de solution-indice.",
+      "limites_variation": "Même unité, parts égales, dénominateurs > 0, aucune correction non vérifiée ou générée librement; si la modalité change, les exigences mathématiques restent identiques.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-013-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare 1/4 et 1/2 du même tout; place le signe et donne une preuve avec quarts ou une droite de 0 à 1.",
+      "stimulus": "Fractions affichées en notation 1/4 ? 1/2, sans position déjà dessinée.",
+      "reponse_attendue": "1/4 < 1/2 parce que 1/2=2/4 et 1<2, ou parce que 1/4 apparaît à gauche de 1/2 sur la même droite.",
+      "criteres": [
+        "signe < correct",
+        "équivalence ou droite exacte",
+        "interprétation sur un même tout"
+      ],
+      "feedback": "Si 1/4 est dit plus grand parce que 4 > 2, revenir à la taille égale des unités et à la correspondance 1/2=2/4.",
+      "difficulte": "initial",
+      "representation": "comparaison initiale symbolique et droite",
+      "variations_permises": "Présentation orale, tactile ou écrite équivalente; valeurs fixes.",
+      "limites_variation": "Même unité, parts égales, dénominateurs > 0, aucune correction non vérifiée ou générée librement; si la modalité change, les exigences mathématiques restent identiques.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-013-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-013-ev-01",
+      "mode": "parametrique",
+      "consigne": "Complète l’égalité de fractions par une multiplication identique du numérateur et du dénominateur; écris le facteur utilisé.",
+      "stimulus": "Complète 2/5 = ?/20 en multipliant les deux termes par le même facteur entier.",
+      "reponse_attendue": "2/5 = 8/20. Justification: 2×4=8 et 5×4=20.",
+      "criteres": [
+        "numérateur exact",
+        "dénominateur correspondant au même facteur",
+        "égalité démontrée par multiplication identique"
+      ],
+      "feedback": "Si tu n’as multiplié que le numérateur, partage aussi chaque part du tout selon ce facteur.",
+      "difficulte": "initial",
+      "representation": "notation et représentation de bandes",
+      "variations_permises": "Seules les quatre entrées listées dans parametres.cas sont autorisées. Le seed par item sélectionne une seule ligne, qui est présentée et corrigée; même question fondamentale, chiffres bornés.",
+      "limites_variation": "Même unité, parts égales, dénominateurs > 0, aucune correction non vérifiée ou générée librement; si la modalité change, les exigences mathématiques restent identiques.",
+      "seed": 1203,
+      "parametres": {
+        "type": "ensemble_fini_parametrique_deterministe",
+        "seed": 1203,
+        "algorithme_selection": "index = seed % len(cas); lire le cas dans l’ordre déclaré; aucune source aléatoire",
+        "formule_resolution": "(a,b,k) dans table; résultat ak/bk",
+        "domaines_et_contraintes": {
+          "table_fermee_de_cas": true,
+          "entiers_positifs": true,
+          "unite_commune": true,
+          "denominateurs_non_nuls": true,
+          "toutes_fractions_dans_0_1": true
+        },
+        "cas": [
+          {
+            "a": 1,
+            "b": 2,
+            "k": 3,
+            "corrige_exact": "1/2 = 3/6",
+            "justification_exacte": "1×3=3 et 2×3=6"
+          },
+          {
+            "a": 2,
+            "b": 3,
+            "k": 2,
+            "corrige_exact": "2/3 = 4/6",
+            "justification_exacte": "2×2=4 et 3×2=6"
+          },
+          {
+            "a": 3,
+            "b": 4,
+            "k": 3,
+            "corrige_exact": "3/4 = 9/12",
+            "justification_exacte": "3×3=9 et 4×3=12"
+          },
+          {
+            "a": 2,
+            "b": 5,
+            "k": 4,
+            "corrige_exact": "2/5 = 8/20",
+            "justification_exacte": "2×4=8 et 5×4=20"
+          }
+        ],
+        "index_retenu": 3,
+        "cas_retenu": {
+          "a": 2,
+          "b": 5,
+          "k": 4
+        },
+        "corrige_retenu": "2/5 = 8/20",
+        "justification_retenue": "2×4=8 et 5×4=20",
+        "verification": "Python fractions.Fraction et produits entiers; pour chaque cas, recalcul et comparaison exacte effectués avant livraison"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-013-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-013-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compare deux fractions qui ont le même dénominateur; indique <, > ou = et le rôle de ce dénominateur.",
+      "stimulus": "Insère <, > ou = : 2/7 ? 5/7.",
+      "reponse_attendue": "2/7 < 5/7. Justification: Même dénominateur 7: comparer 2 et 5.",
+      "criteres": [
+        "signe exact",
+        "comparaison des numérateurs",
+        "égalité admise si les numérateurs sont identiques"
+      ],
+      "feedback": "Même dénominateur : chaque part a la même taille; compare le nombre de parts retenues.",
+      "difficulte": "initial",
+      "representation": "écriture fractionnaire et justification",
+      "variations_permises": "Seules les quatre entrées listées dans parametres.cas sont autorisées. Le seed par item sélectionne une seule ligne, qui est présentée et corrigée; même question fondamentale, chiffres bornés.",
+      "limites_variation": "Même unité, parts égales, dénominateurs > 0, aucune correction non vérifiée ou générée librement; si la modalité change, les exigences mathématiques restent identiques.",
+      "seed": 1204,
+      "parametres": {
+        "type": "ensemble_fini_parametrique_deterministe",
+        "seed": 1204,
+        "algorithme_selection": "index = seed % len(cas); lire le cas dans l’ordre déclaré; aucune source aléatoire",
+        "formule_resolution": "a,c,d positifs; mêmes dénominateurs; comparer a à c",
+        "domaines_et_contraintes": {
+          "table_fermee_de_cas": true,
+          "entiers_positifs": true,
+          "unite_commune": true,
+          "denominateurs_non_nuls": true,
+          "toutes_fractions_dans_0_1": true
+        },
+        "cas": [
+          {
+            "a": 2,
+            "c": 5,
+            "d": 7,
+            "corrige_exact": "2/7 < 5/7",
+            "justification_exacte": "Même dénominateur 7: comparer 2 et 5."
+          },
+          {
+            "a": 3,
+            "c": 1,
+            "d": 8,
+            "corrige_exact": "3/8 > 1/8",
+            "justification_exacte": "Même dénominateur 8: comparer 3 et 1."
+          },
+          {
+            "a": 4,
+            "c": 4,
+            "d": 9,
+            "corrige_exact": "4/9 = 4/9",
+            "justification_exacte": "Même dénominateur 9: comparer 4 et 4."
+          },
+          {
+            "a": 5,
+            "c": 7,
+            "d": 12,
+            "corrige_exact": "5/12 < 7/12",
+            "justification_exacte": "Même dénominateur 12: comparer 5 et 7."
+          }
+        ],
+        "index_retenu": 0,
+        "cas_retenu": {
+          "a": 2,
+          "c": 5,
+          "d": 7
+        },
+        "corrige_retenu": "2/7 < 5/7",
+        "justification_retenue": "Même dénominateur 7: comparer 2 et 5.",
+        "verification": "Python fractions.Fraction et produits entiers; pour chaque cas, recalcul et comparaison exacte effectués avant livraison"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-013-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-013-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compare deux fractions à dénominateurs différents en donnant les deux produits croisés exacts et le bon signe.",
+      "stimulus": "Compare 3/4 et 2/3; écris les produits croisés.",
+      "reponse_attendue": "3/4 > 2/3. Produits croisés exacts: 3×3=9 et 2×4=8; 9 > 8.",
+      "criteres": [
+        "signe exact",
+        "deux produits croisés exacts",
+        "sens de la comparaison respecté"
+      ],
+      "feedback": "Si tu compares seulement les dénominateurs, écris a×d et c×b, puis vérifie le signe des produits.",
+      "difficulte": "intermediaire",
+      "representation": "écriture et calcul entier",
+      "variations_permises": "Seules les quatre entrées listées dans parametres.cas sont autorisées. Le seed par item sélectionne une seule ligne, qui est présentée et corrigée; même question fondamentale, chiffres bornés.",
+      "limites_variation": "Même unité, parts égales, dénominateurs > 0, aucune correction non vérifiée ou générée librement; si la modalité change, les exigences mathématiques restent identiques.",
+      "seed": 1205,
+      "parametres": {
+        "type": "ensemble_fini_parametrique_deterministe",
+        "seed": 1205,
+        "algorithme_selection": "index = seed % len(cas); lire le cas dans l’ordre déclaré; aucune source aléatoire",
+        "formule_resolution": "a,b,c,d entiers; comparer a*d à c*b; égalité autorisée",
+        "domaines_et_contraintes": {
+          "table_fermee_de_cas": true,
+          "entiers_positifs": true,
+          "unite_commune": true,
+          "denominateurs_non_nuls": true,
+          "toutes_fractions_dans_0_1": true
+        },
+        "cas": [
+          {
+            "a": 1,
+            "b": 2,
+            "c": 2,
+            "d": 3,
+            "corrige_exact": "1/2 < 2/3",
+            "justification_exacte": "Produits croisés exacts: 1×3=3 et 2×2=4; 3 < 4."
+          },
+          {
+            "a": 3,
+            "b": 4,
+            "c": 2,
+            "d": 3,
+            "corrige_exact": "3/4 > 2/3",
+            "justification_exacte": "Produits croisés exacts: 3×3=9 et 2×4=8; 9 > 8."
+          },
+          {
+            "a": 2,
+            "b": 4,
+            "c": 1,
+            "d": 2,
+            "corrige_exact": "2/4 = 1/2",
+            "justification_exacte": "Produits croisés exacts: 2×2=4 et 1×4=4; 4 = 4."
+          },
+          {
+            "a": 3,
+            "b": 5,
+            "c": 2,
+            "d": 3,
+            "corrige_exact": "3/5 < 2/3",
+            "justification_exacte": "Produits croisés exacts: 3×3=9 et 2×5=10; 9 < 10."
+          }
+        ],
+        "index_retenu": 1,
+        "cas_retenu": {
+          "a": 3,
+          "b": 4,
+          "c": 2,
+          "d": 3
+        },
+        "corrige_retenu": "3/4 > 2/3",
+        "justification_retenue": "Produits croisés exacts: 3×3=9 et 2×4=8; 9 > 8.",
+        "verification": "Python fractions.Fraction et produits entiers; pour chaque cas, recalcul et comparaison exacte effectués avant livraison"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-013-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-013-ev-01",
+      "mode": "parametrique",
+      "consigne": "Ordonne ces trois fractions dans l’ordre croissant et justifie par un dénominateur commun exact ou une droite correctement graduée.",
+      "stimulus": "Fractions non ordonnées : 2/5, 3/4, 1/2.",
+      "reponse_attendue": "2/5 < 1/2 < 3/4. Dénominateur commun 20; numérateurs ordonnés 8 < 10 < 15.",
+      "criteres": [
+        "trois valeurs toutes présentes",
+        "ordre croissant exact",
+        "justification numérique ou visuelle valide"
+      ],
+      "feedback": "Si une valeur est déplacée, transforme les fractions en parts égales d’un même tout, puis compare les numérateurs.",
+      "difficulte": "intermediaire",
+      "representation": "trois fractions et conversion",
+      "variations_permises": "Seules les quatre entrées listées dans parametres.cas sont autorisées. Le seed par item sélectionne une seule ligne, qui est présentée et corrigée; même question fondamentale, chiffres bornés.",
+      "limites_variation": "Même unité, parts égales, dénominateurs > 0, aucune correction non vérifiée ou générée librement; si la modalité change, les exigences mathématiques restent identiques.",
+      "seed": 1206,
+      "parametres": {
+        "type": "ensemble_fini_parametrique_deterministe",
+        "seed": 1206,
+        "algorithme_selection": "index = seed % len(cas); lire le cas dans l’ordre déclaré; aucune source aléatoire",
+        "formule_resolution": "Pour chaque ligne, PPCM des dénominateurs, conversion et tri exact; valeurs toutes distinctes",
+        "domaines_et_contraintes": {
+          "table_fermee_de_cas": true,
+          "entiers_positifs": true,
+          "unite_commune": true,
+          "denominateurs_non_nuls": true,
+          "toutes_fractions_dans_0_1": true
+        },
+        "cas": [
+          {
+            "fractions": [
+              "1/4",
+              "1/2",
+              "3/4"
+            ],
+            "corrige_exact": "1/4 < 1/2 < 3/4",
+            "justification_exacte": "Dénominateur commun 4; numérateurs ordonnés 1 < 2 < 3."
+          },
+          {
+            "fractions": [
+              "1/3",
+              "1/2",
+              "2/3"
+            ],
+            "corrige_exact": "1/3 < 1/2 < 2/3",
+            "justification_exacte": "Dénominateur commun 6; numérateurs ordonnés 2 < 3 < 4."
+          },
+          {
+            "fractions": [
+              "2/5",
+              "3/4",
+              "1/2"
+            ],
+            "corrige_exact": "2/5 < 1/2 < 3/4",
+            "justification_exacte": "Dénominateur commun 20; numérateurs ordonnés 8 < 10 < 15."
+          },
+          {
+            "fractions": [
+              "3/8",
+              "1/4",
+              "1/2"
+            ],
+            "corrige_exact": "1/4 < 3/8 < 1/2",
+            "justification_exacte": "Dénominateur commun 8; numérateurs ordonnés 2 < 3 < 4."
+          }
+        ],
+        "index_retenu": 2,
+        "cas_retenu": {
+          "fractions": [
+            "2/5",
+            "3/4",
+            "1/2"
+          ]
+        },
+        "corrige_retenu": "2/5 < 1/2 < 3/4",
+        "justification_retenue": "Dénominateur commun 20; numérateurs ordonnés 8 < 10 < 15.",
+        "verification": "Python fractions.Fraction et produits entiers; pour chaque cas, recalcul et comparaison exacte effectués avant livraison"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-013-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Décide si 3/6 = 4/8; vérifie en construisant une fraction de référence et avec produits croisés.",
+      "stimulus": "Unité rectangulaire commune; fractions 3/6 et 4/8 en texte sans dessin.",
+      "reponse_attendue": "Oui, 3/6=1/2 et 4/8=1/2; vérification croisée 3×8=24 et 4×6=24.",
+      "criteres": [
+        "égalité exacte reconnue",
+        "simplifications ou modèle valides",
+        "produits contrôlés"
+      ],
+      "feedback": "Deux écritures différentes peuvent représenter la même fraction; utilise l’égalité des produits pour t’en assurer.",
+      "difficulte": "intermediaire",
+      "representation": "équivalence symbolique et bande possible",
+      "variations_permises": "Fractions et chiffres fixes; réponse orale ou écrite équivalente.",
+      "limites_variation": "Même unité, parts égales, dénominateurs > 0, aucune correction non vérifiée ou générée librement; si la modalité change, les exigences mathématiques restent identiques.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-013-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-013-ev-01",
+      "mode": "fixe",
+      "consigne": "Un élève dit que 1/8 est plus grand que 1/3 parce que 8 est plus grand que 3. Corrige son classement en expliquant quel tout doit être conservé.",
+      "stimulus": "Comparaison fictive : 1/8 ? 1/3, les deux fractions du même tout.",
+      "reponse_attendue": "1/8 < 1/3 : 1×3=3 et 1×8=8, donc 3<8; lorsque le numérateur vaut 1, plus de parts égales signifie des parts plus petites sur le même entier.",
+      "criteres": [
+        "relation exacte",
+        "calcul ou visualisation sur un même tout",
+        "erreur initiale identifiée"
+      ],
+      "feedback": "Ne compare pas la valeur brute des dénominateurs : ils décrivent le partage du même tout.",
+      "difficulte": "transfert",
+      "representation": "analyse d’une justification et contre-exemple",
+      "variations_permises": "Phrase ou carte imaginaire sans histoire réelle; comparaison fixe.",
+      "limites_variation": "Même unité, parts égales, dénominateurs > 0, aucune correction non vérifiée ou générée librement; si la modalité change, les exigences mathématiques restent identiques.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-013-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-013-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A. Trois bandes de ruban fictives de même longueur totale sont préparées aux parts 1/4, 2/3 et 1/2 de cette unité. Classe ces trois quantités du plus petit au plus grand, puis démontre l’ordre avec des fractions équivalentes ou une bande commune.",
+      "stimulus": "Atelier fictif des rubans : 1/4, 2/3, 1/2, même tout. Aucune liste de conversion ni schéma résolu fourni; bande vierge accessible ou calcul libre.",
+      "reponse_attendue": "Ordre exact : 1/4 < 1/2 < 2/3. En douzièmes : 3/12 < 6/12 < 8/12; une bande commune en 12 parts égales avec 3, 6 et 8 parts est aussi une preuve.",
+      "criteres": [
+        "M1 trois fractions toutes classées sans erreur",
+        "M2 dénominateur commun ou bande de même unité correctement construite",
+        "M3 justification établissant pourquoi les inégalités sont exactes",
+        "M4 réalisation autonome sans indice de calcul ni classement"
+      ],
+      "feedback": "Si le classement ne concorde pas avec les parts de la même bande, reconstruire l’unité lors d’une remédiation séparée; aucune correction en cours d’épreuve.",
+      "difficulte": "transfert",
+      "representation": "preuve A: bandes de ruban, visualisation ou conversion en douzièmes",
+      "variations_permises": "Thème, triplet et ordre verrouillés; bande vierge, braille ou explication orale autorisés mais aucune conversion préremplie.",
+      "limites_variation": "Même unité, parts égales, dénominateurs > 0, aucune correction non vérifiée ou générée librement; si la modalité change, les exigences mathématiques restent identiques.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A — rubans, première preuve indépendante de classement et justification."
+    },
+    {
+      "item_id": "qc-pri-ma-013-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-013-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B. Sur un sentier fictif entier, trois repères se situent à 5/8, 1/2 et 3/4 du départ. Ordonne-les du plus proche au plus loin; justifie sur une droite numérique de 0 à 1 ou par des fractions équivalentes, sans reprendre la réponse du problème des rubans.",
+      "stimulus": "Situation de distance normalisée : un sentier commun représente 1 unité, repères 5/8, 1/2, 3/4; aucune distance absolue ou longueur ambiguë.",
+      "reponse_attendue": "Ordre exact : 1/2 < 5/8 < 3/4. Conversion en huitièmes : 4/8 < 5/8 < 6/8; points 4, 5, 6 sur une droite de huit intervalles égaux.",
+      "criteres": [
+        "M1 trois repères ordonnés sans erreur",
+        "M2 une seule unité de sentier utilisée sur droite ou calcul",
+        "M3 justification de deux comparaisons strictes",
+        "M4 réalisation autonome sans indice de réponse ni modèle"
+      ],
+      "feedback": "Si les repères sont placés sur des sentiers d’échelles différentes, comparer à nouveau sur 0—1; la correction s’effectue après l’épreuve pour une nouvelle occasion.",
+      "difficulte": "transfert",
+      "representation": "preuve B: droite et distances fictives ou comparaison en huitièmes",
+      "variations_permises": "Thème et triplet distincts de A fixes; support vierge accessible, scribe non directif ou réponse orale justifiée admis.",
+      "limites_variation": "Même unité, parts égales, dénominateurs > 0, aucune correction non vérifiée ou générée librement; si la modalité change, les exigences mathématiques restent identiques.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B — sentier fictif, deuxième preuve indépendante dans un contexte de progression sur une droite."
+    }
+  ]
+}

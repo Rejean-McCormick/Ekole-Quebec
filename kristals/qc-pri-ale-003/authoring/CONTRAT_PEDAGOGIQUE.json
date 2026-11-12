@@ -1,0 +1,67 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Lire un passage anglais avec précision et rythme permettant la compréhension.",
+  "concepts": [
+    "accuracy",
+    "fluency",
+    "phrasing"
+  ],
+  "preuve_attendue": "Relire un texte nouveau avec meilleure exactitude et phrasé.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-002"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-003-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Relire un texte nouveau avec meilleure exactitude et phrasé.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ale-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "passage_anglais_imprime",
+        "lecture_orale_deux_essais",
+        "annotation_observateur_et_question_litterale"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "valeurs": "passages_originaux_verrouilles_items_q001_a_q013",
+        "variation_permise": "presentation_typographique_ou_accommodement_documente_sans_changer_les_mots",
+        "parametres_numeriques": null
+      },
+      "contraintes": [
+        "Conserver les mots et la ponctuation du passage lors des preuves; aucun texte généré librement.",
+        "Sur passage initialement nouveau, deux lectures de la même version avec réflexion silencieuse non assistée entre les deux.",
+        "Transcription/observation par personne responsable; phonologie dialectale intelligible non pénalisée.",
+        "Deux contextes de maîtrise distincts et aucune déduction depuis un total unique.",
+        "Les réponses de compréhension sont auxiliaires, la lecture orale observée reste nécessaire."
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md : précision et phrasé, continuité, autocorrection/autonomie; 0–3 par indicateur; deux preuves q-012/q-013, sans note unique.",
+      "source": "Contenus et textes originaux dans kristals/qc-pri-ale-003/contenu/; gouvernance interne lue dans archive v1.2.",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,77 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ad-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Analyser les étapes de sa démarche de création ou d’interprétation.",
+  "concepts": [
+    "essai",
+    "coopération",
+    "révision",
+    "présentation"
+  ],
+  "preuve_attendue": "Présenter sa démarche avec un exemple d’ajustement réalisé.",
+  "prerequis_bloquants": [
+    "qc-pri-ad-004"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ad-006"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ad-009-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Présenter sa démarche avec un exemple d’ajustement réalisé.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "aucune variation automatique dans cette livraison; tâches fixes, modalités de réponse équivalentes documentées sans changer le stimulus",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": false,
+        "algorithme": "Aucun générateur : stimuli fixes saisis dans BANQUE_ITEMS.json, rubricage humain des traces; seed et parametres null."
+      },
+      "review_status": "contenu_redige_a_revoir",
+      "kristal_id": "qc-pri-ad-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "observation_deux_essais",
+        "carnet_avant_apres",
+        "mini_prestation_avec_choix",
+        "theatre_d_objets",
+        "presentation_orale_ou_ecrite"
+      ],
+      "variables": {},
+      "contraintes": [
+        "Famille observation_ou_production; items techniques fixe sans tirage ou réécriture automatique du stimulus.",
+        "Les deux preuves autonomes q-009 et q-010 utilisent des contextes et supports distincts; chaque preuve contient un ajustement effectivement essayé et une trace avant/après.",
+        "La création peut être jouée par objets ou marionnettes; rôles avec contact et divulgation personnelle interdits; consentement à toute captation.",
+        "La coopération est décrite lorsqu’elle a lieu, jamais simulée ni exigée comme partenariat obligatoire.",
+        "Les retours visent des actions perceptibles, pas une identité, une personnalité, le talent esthétique ou un accent.",
+        "Une reformulation neutre des consignes est permise, aucune suggestion de contenu artistique pendant les preuves autonomes."
+      ],
+      "barreme_ou_rubrique": {
+        "crit-1": {
+          "etapes_de_demarche": "0, 1 ou 2 : de l’absence de séquence à une progression intention, essai, retour/observation, révision, présentation identifiable",
+          "ajustement_realise": "0, 1 ou 2 : changement précis avant/après effectivement essayé et perceptible",
+          "lien_intention_effet": "0, 1 ou 2 : expliquer pourquoi le choix vise un effet scénique observable sans jugement de personne",
+          "autonomie_et_trace": "0, 1 ou 2 : analyse propre avec trace datée ou constat d’observation sans aide créative"
+        },
+        "condition_essentielle_par_preuve": "Chacune des quatre dimensions atteint le niveau 2 dans les deux contextes q-009 et q-010; décision collégiale qualitative si adaptation documentée, sans compensation par moyenne."
+      },
+      "source": "Production originale fondée sur la frame locale v1.2, le graphe de conception interne et les documents de gouvernance lus; sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_validation_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

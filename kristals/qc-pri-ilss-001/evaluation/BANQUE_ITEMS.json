@@ -1,0 +1,537 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ilss-001",
+  "family_id": "qc-pri-ilss-001-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ilss-001-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Associe chaque heure à l’activité et donne l’ordre des deux activités en déplaçant ou pointant les cartes.",
+      "stimulus": "Horaire inventé : [8 h 55 | MUSIQUE]; [9 h 15 | DESSIN]. Cartes indépendantes : DESSIN, MUSIQUE.",
+      "reponse_attendue": "À 8 h 55 : MUSIQUE. À 9 h 15 : DESSIN. Ordre : MUSIQUE puis DESSIN.",
+      "criteres": [
+        "Associe MUSIQUE à 8 h 55 et DESSIN à 9 h 15.",
+        "Place ou pointe MUSIQUE avant DESSIN.",
+        "Les réponses peuvent être gestuelles, orales ou avec cartes, sans indice de réponse."
+      ],
+      "feedback": "Si les cartes sont inversées : vérifie d’abord la plus petite heure puis lis le nom qui lui correspond.",
+      "difficulte": "initial",
+      "representation": "horaire écrit ou lu, cartes",
+      "contexte": "panneau de classe fictif",
+      "variabilite_permise": "Modèle fixe : modalités de présentation et de réponse accessibles seulement; heures/activités inchangées.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": null,
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Réalise la routine suivante avec la carte PAPILLON; indique à la fin ce qui a été fait.",
+      "stimulus": "Trois étiquettes visibles : DÉPART, CLASSEUR, FIN. Routine : 1. Prends PAPILLON au repère DÉPART. 2. Pose PAPILLON au repère CLASSEUR. 3. Montre FIN.",
+      "reponse_attendue": "Prendre PAPILLON à DÉPART, le poser à CLASSEUR, puis montrer FIN; dans cet ordre.",
+      "criteres": [
+        "Réussit l’étape DÉPART.",
+        "Dépose au repère CLASSEUR (pas FIN).",
+        "Montre FIN seulement après le dépôt."
+      ],
+      "feedback": "Si FIN est montré d’abord : chaque numéro est une étape; on suit 1, puis 2, puis 3.",
+      "difficulte": "initial",
+      "representation": "étiquettes et cartes séquencées",
+      "contexte": "table de classe fictive",
+      "variabilite_permise": "Repères textuels et supports en relief autorisés; aucun changement d’ordre ni de destination.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": null,
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Choisis sur quel plateau déposer la carte CRAYON. Explique ou montre le repère qui justifie ton choix.",
+      "stimulus": "Carte : [TRIANGLE / CRAYON]. Plateaux : A [CERCLE / LIVRE], B [TRIANGLE / CRAYON], C [ÉTOILE / FEUILLE]. Tous les mots/formes sont explicités.",
+      "reponse_attendue": "Plateau B. Le repère TRIANGLE / CRAYON de la carte correspond exactement à celui de B.",
+      "criteres": [
+        "Choisit B.",
+        "S’appuie sur TRIANGLE et/ou CRAYON, non sur une couleur supposée.",
+        "Ne s’appuie pas sur la simple proximité du plateau."
+      ],
+      "feedback": "Repère le même mot ou la même forme sur la carte et sur le plateau.",
+      "difficulte": "initial",
+      "representation": "texte d’étiquettes à comparer",
+      "contexte": "matériel scolaire simulé",
+      "variabilite_permise": "Prononciation et pointage variables; les repères et la clé B restent verrouillés.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": null,
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Avant de déposer un jeton, montre ce qui manque à la consigne et demande une information adaptée.",
+      "stimulus": "Consigne : « Dépose le jeton dans le bac réservé. » Deux bacs nommés CERCLE et CARRÉ sont présents. Aucun n’est désigné « réservé ».",
+      "reponse_attendue": "Ne dépose pas au hasard. Demande « Quel bac est réservé ? » ou pointe les deux et emploie la carte AIDE/OÙ ?. Réponse adulte uniquement après la demande : « C’est CARRÉ. » Dépose alors dans CARRÉ.",
+      "criteres": [
+        "Détecte que le bac réservé est indéterminé.",
+        "Initie une clarification ciblant le bac, avant dépôt.",
+        "Après la réponse, dépose le jeton en CARRÉ."
+      ],
+      "feedback": "La consigne ne permettait pas de choisir; demander où va le jeton est la bonne étape.",
+      "difficulte": "initial",
+      "representation": "consigne orale lue + deux bacs",
+      "contexte": "boîtes de classe simulées",
+      "variabilite_permise": "Expression par mots, geste ou CAA; aucune autorisation de supposer que CARRÉ est réservé.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": null,
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Montre l’activité prévue à 10 h 20 puis pose sa carte au repère qui porte le même nom.",
+      "stimulus": "Horaire : 10 h 00 → LECTURE; 10 h 20 → JEU CALME. Repères : panneau JEU CALME et panneau ARTS. Cartes disponibles : JEU CALME, ARTS.",
+      "reponse_attendue": "À 10 h 20 : JEU CALME; carte JEU CALME déposée à JEU CALME.",
+      "criteres": [
+        "Identifie JEU CALME à 10 h 20.",
+        "Choisit carte JEU CALME, non ARTS.",
+        "Dépose au panneau JEU CALME."
+      ],
+      "feedback": "L’heure désigne l’activité, puis l’étiquette désigne le lieu.",
+      "difficulte": "intermediaire",
+      "representation": "horaire texte + plan étiqueté",
+      "contexte": "coin jeu fictif",
+      "variabilite_permise": "Lecture neutre du planning autorisée; heures, activités et destination fixes.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": null,
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Le texte de la consigne est incomplet. Choisis une demande d’aide qui permettra réellement de continuer et fais-la à l’adulte.",
+      "stimulus": "« Prends la carte IMAGE et mets-la sur le plateau prévu. » Plateaux ÉTOILE et ROND, tous deux sans autre indication. Adulte disponible pour répondre.",
+      "reponse_attendue": "Question « Lequel est le plateau prévu ? » ou « Tu peux me montrer où mettre IMAGE ? » / carte QUESTION + pointage distinct des deux plateaux. Réponse adulte : « ROND. » L’élève dépose IMAGE en ROND.",
+      "criteres": [
+        "Pose/exprime une demande pertinente sur la destination, pas une affirmation hasardée.",
+        "Attend la réponse avant d’agir.",
+        "Reprend en déposant IMAGE dans ROND."
+      ],
+      "feedback": "Une demande utile nomme ou montre ce qui manque : ici, quel plateau.",
+      "difficulte": "intermediaire",
+      "representation": "oral/CAA et dialogue court",
+      "contexte": "demande d’aide lors d’un atelier fictif",
+      "variabilite_permise": "Formulation non normative acceptée si l’intention est claire; réponse de l’adulte toujours ROND.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": null,
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Exécute les trois étapes et indique quelle action vient après la vérification de l’horaire.",
+      "stimulus": "Horaire : 11 h 00 → ATELIER. Routine : 1. Montre 11 h 00. 2. Prends le jeton ÉTOILE à la pile JETONS. 3. Place-le au plateau ATELIER. Les trois repères sont visibles.",
+      "reponse_attendue": "Montre 11 h 00, prend ÉTOILE dans JETONS, place ÉTOILE à ATELIER. Après l’horaire vient la prise du jeton.",
+      "criteres": [
+        "Montre le bon moment.",
+        "Prend le jeton indiqué à la bonne pile.",
+        "Le pose à ATELIER dans le bon ordre."
+      ],
+      "feedback": "Après avoir vu quand commence la routine, respecte les étapes numérotées.",
+      "difficulte": "intermediaire",
+      "representation": "trois cartes numérotées",
+      "contexte": "préparation d’activité simulée",
+      "variabilite_permise": "Déplacement physique par assistant selon instruction de l’apprenant autorisé; aucune substitution de jeton.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": null,
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Une autre personne a agi trop vite. Dis ce qui n’était pas justifié et montre la prochaine action correcte.",
+      "stimulus": "Consigne : « À 13 h 00, mets CARTE A dans la boîte indiquée. » Deux boîtes 1 et 2, aucune indication de la boîte concernée. Sam choisit 1 sans poser de question.",
+      "reponse_attendue": "Le choix 1 est injustifié car « indiquée » ne précise pas de boîte. Il faut demander « Laquelle des boîtes est indiquée ? » avant de continuer; l’adulte répond « 2 »; le bon dépôt est 2.",
+      "criteres": [
+        "Identifie l’absence de repère plutôt que juger la personne.",
+        "Propose une demande de précision sur la boîte.",
+        "Après script adulte « 2 », choisit 2."
+      ],
+      "feedback": "On peut comprendre le moment (13 h) sans connaître la bonne boîte. Demande le lieu manquant.",
+      "difficulte": "intermediaire",
+      "representation": "analyse d’erreur illustrée textuellement",
+      "contexte": "correction d’une consigne fictive",
+      "variabilite_permise": "Accepter exemples de questions équivalentes; correction finale fixe 2.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": null,
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis le nouvel horaire, suis la consigne et demande la précision qui te manque avant de choisir un plateau.",
+      "stimulus": "[14 h 00 → JEUX DE MOTS; 14 h 20 → PAUSE]. À JEUX DE MOTS : prends la carte MOTS dans la pile MOTS, puis place-la sur le plateau correct. Plateaux ALPHA et BÊTA, aucun n’est identifié « correct ».",
+      "reponse_attendue": "14 h 00 = JEUX DE MOTS. Prend MOTS; demande « Quel plateau est correct ? » avant dépôt. Adulte : « BÊTA. » Dépose sur BÊTA. À 14 h 20 : PAUSE.",
+      "criteres": [
+        "Repère 14 h 00 et JEUX DE MOTS.",
+        "Prend MOTS, demande la destination sans deviner.",
+        "Dépose à BÊTA après réponse et associe 14 h 20 à PAUSE."
+      ],
+      "feedback": "Tu as le moment et l’activité, mais le plateau exige une précision supplémentaire.",
+      "difficulte": "transfert",
+      "representation": "mini-plan de classe et annonce écrite",
+      "contexte": "coin des jeux fictif",
+      "variabilite_permise": "Supports accessibles autorisés; séquence, plateaux et réponse BÊTA fixes.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": null,
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Demande que l’adulte précise l’étape qui ne te permet pas de choisir; agis ensuite selon sa réponse.",
+      "stimulus": "Routine : « 1. Lis RANGEMENT à 15 h 05. 2. Prends la carte FIN. 3. Dépose-la dans le bac attribué. » Bacs A et B, aucune définition d’« attribué ».",
+      "reponse_attendue": "Associe 15 h 05 à RANGEMENT; prend FIN; demande « Quel bac est attribué ? » / geste ciblé + AIDE; adulte répond « A »; dépose FIN en A.",
+      "criteres": [
+        "Respecte les deux premières étapes.",
+        "Repère l’absence de définition du bac et demande une clarification pertinente.",
+        "Dépose en A seulement après la réponse."
+      ],
+      "feedback": "Une routine peut être partiellement claire; on suit ce qui est clair et on demande ce qui manque.",
+      "difficulte": "transfert",
+      "representation": "consigne dictée + étiquettes à manipuler",
+      "contexte": "préparation de rangement fictif",
+      "variabilite_permise": "Forme de demande libre intelligible; script adulte A et repères inchangés.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": null,
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans indice de réponse, suis cette nouvelle routine avec les cartes. S’il manque une information, demande la précision utile; attends la réponse avant de continuer. Termine en montrant FIN.",
+      "stimulus": "Horaire : 10 h 15 — MÉDIATHÈQUE. Plan : panneau LIVRE à gauche; plateau DÉPART au centre; panneau FIN à droite; boîtes A et B sans contenu indiqué. Routine : 1. Montre 10 h 15 et MÉDIATHÈQUE. 2. Prends la carte LECTURE au plateau DÉPART. 3. Dépose LECTURE dans la boîte LIVRES. 4. Montre FIN. Le plan ne dit PAS où est la boîte LIVRES.",
+      "reponse_attendue": "1. Montre 10 h 15/MÉDIATHÈQUE. 2. Prend LECTURE au DÉPART. 3. Repère qu’aucune boîte n’est associée à LIVRES; initie « Où est la boîte LIVRES ? » (ou équivalent oral, écrit, geste + carte AIDE) sans choisir A/B. 4. Après réponse « B », dépose LECTURE en B et montre FIN. Pour une performance non verbale, relever les actions et la demande sur grille.",
+      "criteres": [
+        "E1 : associe l’heure et accomplit les étapes dans l’ordre (≥ 2/3).",
+        "E2 : détecte le manque de localisation de LIVRES (≥ 2/3).",
+        "E3 : initie une demande ciblée avant toute sélection A/B, par modalité accessible (≥ 2/3).",
+        "E4 : après « B », poursuit le dépôt en B puis FIN sans indice de solution (≥ 2/3)."
+      ],
+      "feedback": "Si le choix est deviné : aucun indice ne disait où était LIVRES; essaie une autre routine après entraînement à demander la localisation. Si l’ordre change : reprends la carte « 1, 2, 3, 4 ».",
+      "difficulte": "transfert",
+      "representation": "horaire, plan textuel et jeu de cartes",
+      "contexte": "preuve autonome 1 — médiathèque fictive",
+      "variabilite_permise": "Preuve 1 verrouillée : aucune substitution de A/B ni de la réponse B; canal de communication ou manipulation indirecte acceptés; aucun indice orientant vers B.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": "Après une demande ciblée initiée par l’élève, répondre exactement : « La boîte LIVRES est B. »; ne pas le dire avant.",
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    },
+    {
+      "item_id": "qc-pri-ilss-001-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans indice de réponse, réalise la routine de cet autre espace, puis indique l’activité prévue ensuite. Si un repère est absent, demande la précision nécessaire avant de choisir.",
+      "stimulus": "Planning : 13 h 05 — CRÉATION; 13 h 20 — PARTAGE. Supports : table CRÉATION, pile CARTES contenant CERCLE, deux plateaux MARQUE 1 et MARQUE 2, panneau FIN. Routine : 1. Montre CRÉATION à 13 h 05. 2. Prends CERCLE dans CARTES. 3. Dépose CERCLE sur le plateau TRI. 4. Montre FIN; indique ensuite l’activité de 13 h 20. Aucun plateau n’est étiqueté TRI.",
+      "reponse_attendue": "Montre CRÉATION/13 h 05; prend CERCLE; identifie qu’il manque l’équivalence TRI; demande « Lequel est TRI ? » (ou geste/CAA précis) sans choisir MARQUE 1 ou 2; après script « MARQUE 1 », dépose en MARQUE 1, montre FIN et associe 13 h 20 à PARTAGE.",
+      "criteres": [
+        "E1 : suit planning et séquence CRÉATION → CARTE CERCLE → FIN → PARTAGE (≥ 2/3).",
+        "E2 : repère que TRI n’est pas localisé (≥ 2/3).",
+        "E3 : pose une demande qui désigne TRI avant dépôt (≥ 2/3).",
+        "E4 : après « MARQUE 1 », agit correctement sans indice de réponse supplémentaire (≥ 2/3)."
+      ],
+      "feedback": "Si l’élève choisit avant clarification, distinguer l’inférence non fondée du repère absent puis réentraîner sur une troisième situation; si PARTAGE est omis, retravailler la lecture du second moment.",
+      "difficulte": "transfert",
+      "representation": "planning à deux moments et cartes à repères de forme",
+      "contexte": "preuve autonome 2 — atelier de création fictif",
+      "variabilite_permise": "Preuve 2 verrouillée : la réponse est MARQUE 1 et le suivi est PARTAGE; seules modalités d’accès et de réponse peuvent varier sans changer le critère.",
+      "modalites_accessibles": [
+        "texte_lu_neutrement",
+        "texte_contraste",
+        "cartes_manipulables",
+        "communication_orale",
+        "gestuelle_ou_CAA"
+      ],
+      "observation": {
+        "echelle": "0: non démontré; 1: avec indice de solution; 2: autonome pertinent; 3: autonome, complet et stable",
+        "consigner": [
+          "ordre_actions",
+          "repere_ou_information_manquante",
+          "demande_initiée",
+          "réponse_du_facilitateur",
+          "action_apres_reponse",
+          "nature_des_aides"
+        ],
+        "note": "Les dimensions E1 à E4 sont exigées simultanément pour les preuves q-011 et q-012; ne pas calculer un score global unique."
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "script_evaluateur": "Après une demande ciblée initiée par l’élève, répondre exactement : « Dans ce scénario, TRI = MARQUE 1. »; ne pas le dire avant.",
+      "separation_affichage": "Afficher seulement consigne et stimulus à l’élève; reponse_attendue, criteres et script_evaluateur restent réservés à l’évaluateur."
+    }
+  ]
+}

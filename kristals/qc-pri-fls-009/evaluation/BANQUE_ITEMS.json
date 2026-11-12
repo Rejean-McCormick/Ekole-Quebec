@@ -1,0 +1,306 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fls-009",
+  "family_id": "qc-pri-fls-009-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fls-009-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Lis le court message, puis recopie le début, les renseignements importants et la clôture. Explique en une phrase à quoi sert la clôture.",
+      "stimulus": "Salut Malo! Nous dessinons mardi à 14 h dans la salle d’arts. Apporte un crayon. À bientôt!",
+      "reponse_attendue": "Début : « Salut Malo! » Information : « Nous dessinons mardi à 14 h dans la salle d’arts. Apporte un crayon. » Clôture : « À bientôt! » Explication : la formule termine le message et marque la prise de congé.",
+      "criteres": [
+        "Repère exactement l’ouverture « Salut Malo! » ou la nomme",
+        "Identifie les deux phrases informatives qui donnent l’activité, le jour, l’heure, le lieu et l’objet",
+        "Repère « À bientôt! » comme clôture et explique sa fonction sans exiger une phrase identique"
+      ],
+      "feedback": "Si l’élève classe « Apporte un crayon » dans la clôture, rappeler que c’est une action utile au destinataire. S’il oublie la clôture, montrer que le texte se termine autrement qu’en ajoutant un nouveau fait.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "representation": "consigne écrite avec situation fictive et production ou repérage de texte en français",
+      "limites_variation": "Aucune substitution automatique des faits de ce stimulus fixe; accepter toute formulation personnelle cohérente préservant exactement les données et les fonctions de la consigne. Relecture humaine exigée.",
+      "attendus_fixes": [
+        "mardi",
+        "14 h",
+        "salle d’arts",
+        "crayon"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-009-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Écris deux phrases en français pour expliquer une activité avec ces deux renseignements : le groupe chante demain; il se réunit dans la classe. Les phrases doivent parler de la même activité.",
+      "stimulus": "Faits verrouillés : le groupe chante demain; lieu = dans la classe. Destinataire fictif = un autre élève.",
+      "reponse_attendue": "Exemple recevable : « Demain, notre groupe chante. Nous nous retrouvons dans la classe. » Autre réponse valable : « Nous allons chanter demain. Le groupe sera dans la classe. »",
+      "criteres": [
+        "Deux unités de sens lisibles et séparables",
+        "L’activité « chanter », le moment « demain » et le lieu « classe » sont présents sans changement",
+        "Les deux phrases évoquent la même activité et sont compréhensibles"
+      ],
+      "feedback": "Si les idées sont présentes mais en une suite illisible, aider à séparer les deux phrases. Si le lieu manque, demander où le lecteur doit aller; ne pas pénaliser une erreur mineure qui ne change pas le sens.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "representation": "consigne écrite avec situation fictive et production ou repérage de texte en français",
+      "limites_variation": "Aucune substitution automatique des faits de ce stimulus fixe; accepter toute formulation personnelle cohérente préservant exactement les données et les fonctions de la consigne. Relecture humaine exigée.",
+      "attendus_fixes": [
+        "demain",
+        "classe",
+        "chanter"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-009-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Le message donne deux jours différents pour une même activité. Repère la contradiction et réécris le message sans inventer d’horaire.",
+      "stimulus": "Bonjour! Le spectacle aura lieu jeudi à 11 h dans le hall. Venez mardi à 11 h dans le hall. Bonne journée!",
+      "reponse_attendue": "Contradiction : « jeudi » contre « mardi ». Exemple corrigé : « Bonjour! Le spectacle aura lieu jeudi à 11 h dans le hall. Venez jeudi à 11 h dans le hall. Bonne journée! » Remplacer la seconde phrase par « Venez au spectacle! » est aussi recevable si jeudi/11 h/hall demeurent explicites.",
+      "criteres": [
+        "Nomme ou montre « mardi » opposé à « jeudi »",
+        "Conserve le fait fourni comme référence : jeudi à 11 h dans le hall",
+        "Produit un message cohérent avec ouverture, information et clôture sans nouveau fait contradictoire"
+      ],
+      "feedback": "Si mardi reste dans la réparation, faire comparer les deux jours; si le hall ou l’heure disparaît, souligner le fait omis sur le stimulus et réviser une phrase.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "representation": "consigne écrite avec situation fictive et production ou repérage de texte en français",
+      "limites_variation": "Aucune substitution automatique des faits de ce stimulus fixe; accepter toute formulation personnelle cohérente préservant exactement les données et les fonctions de la consigne. Relecture humaine exigée.",
+      "attendus_fixes": [
+        "jeudi",
+        "11 h",
+        "hall"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-009-q-004",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Remets ces trois morceaux dans un ordre qui forme une annonce lisible avec début, renseignement et clôture. Donne l’ordre des lettres et explique-le.",
+      "stimulus": "A. « Apportez une feuille de papier. »  B. « Voici l’atelier de pliage! Il aura lieu vendredi à 10 h dans la classe. »  C. « Merci de votre participation! »",
+      "reponse_attendue": "Ordre attendu : B – A – C. Texte recomposé : « Voici l’atelier de pliage! Il aura lieu vendredi à 10 h dans la classe. Apportez une feuille de papier. Merci de votre participation! » B introduit l’activité et annonce où/quand; A donne l’action à faire; C ferme l’annonce.",
+      "criteres": [
+        "Place B en premier, A ensuite et C à la fin",
+        "Explique au moins deux fonctions : le début annonce le sujet, la consigne A est utile, la clôture ferme",
+        "Ne supprime pas l’activité, vendredi à 10 h, le lieu ou l’objet"
+      ],
+      "feedback": "Si C apparaît avant A, demander si le public reçoit encore une instruction après les remerciements et discuter de l’efficacité de l’ordre.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "representation": "consigne écrite avec situation fictive et production ou repérage de texte en français",
+      "limites_variation": "Aucune substitution automatique des faits de ce stimulus fixe; accepter toute formulation personnelle cohérente préservant exactement les données et les fonctions de la consigne. Relecture humaine exigée.",
+      "attendus_fixes": [
+        "vendredi",
+        "10 h",
+        "classe",
+        "feuille de papier"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-009-q-005",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Rédige un bref message à la camarade fictive Rosa pour l’inviter à un atelier de bricolage. Utilise une ouverture, toutes les informations utiles et une clôture. Écris toi-même les phrases.",
+      "stimulus": "Atelier de bricolage : lundi à 13 h 30, dans la salle polyvalente; apporter des ciseaux à bouts ronds. Destinataire = Rosa.",
+      "reponse_attendue": "Exemple possible, non obligatoire : « Salut Rosa! Je t’invite à l’atelier de bricolage lundi à 13 h 30 dans la salle polyvalente. Apporte des ciseaux à bouts ronds. À lundi! »",
+      "criteres": [
+        "Message adressé à Rosa et intention d’inviter claire",
+        "Atelier, lundi, 13 h 30, salle polyvalente, ciseaux à bouts ronds transmis exactement",
+        "Début, information, clôture identifiables",
+        "Phrases intelligibles, sans contradictions"
+      ],
+      "feedback": "Si l’élève met « apportez » sans confusion de destinataire, proposer « apporte » comme reformulation naturelle après avoir validé le sens. Si l’heure manque, faire relire la fiche de faits puis réécrire la phrase.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "representation": "consigne écrite avec situation fictive et production ou repérage de texte en français",
+      "limites_variation": "Aucune substitution automatique des faits de ce stimulus fixe; accepter toute formulation personnelle cohérente préservant exactement les données et les fonctions de la consigne. Relecture humaine exigée.",
+      "attendus_fixes": [
+        "lundi",
+        "13 h 30",
+        "salle polyvalente",
+        "ciseaux à bouts ronds"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-009-q-006",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Rédige un court mot poli à un enseignant fictif : demande s’il faut apporter de la colle pour l’atelier de fabrication de vendredi. Ne prétends pas connaître sa réponse.",
+      "stimulus": "Destinataire = monsieur Louis (personnage fictif); activité = atelier de fabrication; jour = vendredi; renseignement demandé = faut-il apporter de la colle?",
+      "reponse_attendue": "Exemple possible : « Bonjour monsieur Louis! Je prépare l’atelier de fabrication de vendredi. Est-ce que je dois apporter de la colle? Merci pour votre réponse! »",
+      "criteres": [
+        "Destinataire adulte et question explicite reconnaissables",
+        "Atelier de fabrication et vendredi mentionnés, avec question sur la colle; aucune réponse inventée",
+        "Début, information et clôture perceptibles",
+        "Phrases françaises compréhensibles et ton adapté"
+      ],
+      "feedback": "Si le texte affirme « Il faut apporter de la colle », souligner que l’information n’est pas connue : demander de transformer cette affirmation en question.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "representation": "consigne écrite avec situation fictive et production ou repérage de texte en français",
+      "limites_variation": "Aucune substitution automatique des faits de ce stimulus fixe; accepter toute formulation personnelle cohérente préservant exactement les données et les fonctions de la consigne. Relecture humaine exigée.",
+      "attendus_fixes": [
+        "vendredi",
+        "colle",
+        "atelier de fabrication"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-009-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Écris à la camarade fictive Ariane pour lui dire comment récupérer un ballon emprunté. Fais un message bref qui commence, communique les faits et se termine.",
+      "stimulus": "Faits : ballon rendu mercredi; moment = après le dîner; lieu = près du gymnase. Le ballon appartient à Ariane. N’ajoute ni numéro de téléphone ni adresse réelle.",
+      "reponse_attendue": "Exemple possible : « Salut Ariane! Je te rendrai ton ballon mercredi après le dîner, près du gymnase. Merci de me l’avoir prêté. À mercredi! »",
+      "criteres": [
+        "Intention de rendre le ballon à Ariane claire",
+        "Mercredi, après le dîner, près du gymnase et ballon cohérents",
+        "Ouverture et clôture adaptées",
+        "Phrases interprétables et absence d’informations personnelles réelles"
+      ],
+      "feedback": "Si mercredi est absent, cibler uniquement la date. Si le texte explique un rendez-vous ailleurs, rappeler que changer le lieu empêcherait Ariane de trouver le ballon.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "representation": "consigne écrite avec situation fictive et production ou repérage de texte en français",
+      "limites_variation": "Aucune substitution automatique des faits de ce stimulus fixe; accepter toute formulation personnelle cohérente préservant exactement les données et les fonctions de la consigne. Relecture humaine exigée.",
+      "attendus_fixes": [
+        "mercredi",
+        "après le dîner",
+        "gymnase"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-009-q-008",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Voici des notes en désordre pour une affiche. Rédige une annonce pour tous les élèves, avec une ouverture ou annonce du thème, les faits essentiels puis une clôture; respecte la fiche.",
+      "stimulus": "Notes fictives : fête des cerfs-volants; dimanche à 10 h; terrain de l’école; apporter un cerf-volant si possible; invitation aux élèves. Aucune adresse privée.",
+      "reponse_attendue": "Exemple possible : « Venez à la fête des cerfs-volants! Elle aura lieu dimanche à 10 h sur le terrain de l’école. Si possible, apportez un cerf-volant. À bientôt! »",
+      "criteres": [
+        "Texte annoncé à un public collectif, sujet explicite",
+        "Dimanche, 10 h, terrain de l’école, cerf-volant facultatif transmis correctement",
+        "Début/information/clôture repérables sans modèle de phrase obligé",
+        "Cohérence des faits, phrases compréhensibles"
+      ],
+      "feedback": "Si « apporter » devient une obligation absolue, rappeler la nuance « si possible » de la fiche; si le lieu manque, montrer quel renseignement le public doit connaître.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "representation": "consigne écrite avec situation fictive et production ou repérage de texte en français",
+      "limites_variation": "Aucune substitution automatique des faits de ce stimulus fixe; accepter toute formulation personnelle cohérente préservant exactement les données et les fonctions de la consigne. Relecture humaine exigée.",
+      "attendus_fixes": [
+        "dimanche",
+        "10 h",
+        "terrain de l’école",
+        "si possible"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-009-q-009",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "PREUVE A — Tu écris **seul** à ton camarade fictif Noa pour lui proposer un petit club de jardinage. Rédige un message bref en français qui comporte un début, toutes les informations et une clôture. Puis indique oralement ou par écrit pourquoi tu as placé un renseignement à cet endroit.",
+      "stimulus": "Destinataire : Noa. Club de jardinage : mardi à 15 h, dans la cour de l’école. Noa doit apporter des gants. Ne mentionne aucune coordonnée personnelle.",
+      "reponse_attendue": "Exemple illustratif, non exclusif : « Salut Noa! Je t’invite au club de jardinage mardi à 15 h dans la cour de l’école. Apporte des gants pour jardiner. À mardi! » Explication possible : « J’ai donné le lieu pour que Noa sache où aller. » Toute formulation équivalente est jugée sur la rubrique C1–C4.",
+      "criteres": [
+        "C1=2 : genre/destinataire adéquats et tous les faits obligatoires exacts sans contradiction ajoutée",
+        "C2=2 : début, information et clôture adaptés au genre et clairement identifiables",
+        "C3≥1 : sujet continu et enchaînement interprétable, sans contradiction majeure",
+        "C4≥1 : phrases ou formules intelligibles en français, sans exiger orthographe parfaite",
+        "Production individuelle et autonome; bref commentaire sur un choix de rédaction; modalité d’accès consignée",
+        "Ne décider qu’avec l’autre preuve q-009/q-010 réussie dans son propre contexte, pas sur une note unique"
+      ],
+      "feedback": "C1 faible : demander lors de la remédiation de relire qui/quoi/quand/où/action, sans corriger la preuve en direct. C2 faible : retour sur D-I-C puis nouvelle tâche. C3 faible : revoir l’enchaînement. C4 faible : séparer les phrases. La preuve originale aidée ne compte pas comme autonome.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "representation": "consigne écrite avec situation fictive et production ou repérage de texte en français",
+      "limites_variation": "Aucune substitution automatique des faits de ce stimulus fixe; accepter toute formulation personnelle cohérente préservant exactement les données et les fonctions de la consigne. Relecture humaine exigée.",
+      "role_preuve": "maitrise_A",
+      "contexte": "invitation individuelle à une activité de jardinage",
+      "rubrique": {
+        "dimensions": {
+          "C1": "0 = message hors consigne / faits essentiels manquants; 1 = intention comprise mais omission ou imprécision; 2 = destinataire, intention et tous les faits corrects",
+          "C2": "0 = deux fonctions manquantes; 1 = deux fonctions sur trois; 2 = début, information et clôture fonctionnels",
+          "C3": "0 = contradiction majeure; 1 = ensemble compréhensible avec légère rupture; 2 = ensemble cohérent et non contradictoire",
+          "C4": "0 = texte globalement inintelligible; 1 = message compris avec effort; 2 = phrases aisément lisibles malgré erreurs mineures"
+        },
+        "decision": "Sur chaque preuve : C1=2, C2=2, C3>=1, C4>=1, sans aide au contenu, avec justification d’un choix; les deux preuves doivent réussir, sans moyenne compensatoire."
+      },
+      "attendus_fixes": [
+        "Noa",
+        "mardi",
+        "15 h",
+        "cour de l’école",
+        "gants"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-009-q-010",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "PREUVE B — Rédige **seul** une courte annonce destinée à tous les élèves pour une collecte fictive de livres à l’école. Commence l’annonce, transmets les faits précis et termine-la. Puis explique brièvement un choix d’organisation ou de formulation.",
+      "stimulus": "Public : les élèves de l’école. Événement : collecte de livres en bon état; mardi à midi; près de la bibliothèque; chaque élève peut apporter un livre en bon état. Aucune donnée privée.",
+      "reponse_attendue": "Exemple illustratif, non exclusif : « Une collecte de livres aura lieu à l’école! Rendez-vous mardi à midi près de la bibliothèque. Vous pouvez apporter un livre en bon état. Merci pour votre participation! » Explication possible : « Je finis par un remerciement parce que c’est une annonce aux élèves. » Le vocabulaire et les formules peuvent varier sans changer les faits.",
+      "criteres": [
+        "C1=2 : genre/destinataire adéquats et tous les faits obligatoires exacts sans contradiction ajoutée",
+        "C2=2 : début, information et clôture adaptés au genre et clairement identifiables",
+        "C3≥1 : sujet continu et enchaînement interprétable, sans contradiction majeure",
+        "C4≥1 : phrases ou formules intelligibles en français, sans exiger orthographe parfaite",
+        "Production individuelle et autonome; bref commentaire sur un choix de rédaction; modalité d’accès consignée",
+        "Ne décider qu’avec l’autre preuve q-009/q-010 réussie dans son propre contexte, pas sur une note unique"
+      ],
+      "feedback": "C1 faible : vérifier dans un nouvel exercice la conservation de mardi/midi/près de la bibliothèque/qualité du livre. C2 faible : comparer annonce et invitation puis retenter. C3/C4 faibles : remédiations spécifiques de la grille. Ne pas fusionner les résultats avec la preuve A par moyenne.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "representation": "consigne écrite avec situation fictive et production ou repérage de texte en français",
+      "limites_variation": "Aucune substitution automatique des faits de ce stimulus fixe; accepter toute formulation personnelle cohérente préservant exactement les données et les fonctions de la consigne. Relecture humaine exigée.",
+      "role_preuve": "maitrise_B",
+      "contexte": "annonce publique d’une collecte de livres",
+      "rubrique": {
+        "dimensions": {
+          "C1": "0 = message hors consigne / faits essentiels manquants; 1 = intention comprise mais omission ou imprécision; 2 = destinataire, intention et tous les faits corrects",
+          "C2": "0 = deux fonctions manquantes; 1 = deux fonctions sur trois; 2 = début, information et clôture fonctionnels",
+          "C3": "0 = contradiction majeure; 1 = ensemble compréhensible avec légère rupture; 2 = ensemble cohérent et non contradictoire",
+          "C4": "0 = texte globalement inintelligible; 1 = message compris avec effort; 2 = phrases aisément lisibles malgré erreurs mineures"
+        },
+        "decision": "Sur chaque preuve : C1=2, C2=2, C3>=1, C4>=1, sans aide au contenu, avec justification d’un choix; les deux preuves doivent réussir, sans moyenne compensatoire."
+      },
+      "attendus_fixes": [
+        "mardi",
+        "midi",
+        "près de la bibliothèque",
+        "livre en bon état"
+      ]
+    }
+  ]
+}

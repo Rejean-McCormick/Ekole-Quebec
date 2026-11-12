@@ -1,0 +1,89 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Lire un texte français adapté et en identifier sens global et détails.",
+  "concepts": [
+    "décodage",
+    "mots fréquents",
+    "indices"
+  ],
+  "preuve_attendue": "Répondre à des questions sur un texte court inconnu.",
+  "prerequis_bloquants": [
+    "qc-pri-fls-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-fls-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-006-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Répondre à des questions sur un texte court inconnu.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-fls-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte écrit adapté",
+        "réponse orale ou écrite",
+        "repérage de mots et indices textuels"
+      ],
+      "variables": {
+        "mode": "fixe_uniquement",
+        "description": "Aucun tirage : dix textes, questions et corrigés verrouillés dans BANQUE_ITEMS.json",
+        "variations_accessibilite": [
+          "police",
+          "espacement",
+          "temps",
+          "modalité de réponse non directive"
+        ]
+      },
+      "contraintes": [
+        "objectif = compréhension de texte effectivement lu",
+        "deux textes inconnus en contextes distincts pour maîtrise",
+        "sens global et détails explicitement vérifiables",
+        "corrigés appuyés par des phrases du stimulus",
+        "aucun fait inventé",
+        "pas de pénalité liée à accent ou calligraphie",
+        "adulte ne lit pas le texte de l’épreuve à la place de l’élève"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "sens_global",
+          "trois_details_exacts",
+          "indices_textuels",
+          "autonomie_et_modalite"
+        ],
+        "echelle": "0 absence; 1 partiel; 2 suffisant",
+        "regle": "deux preuves distinctes, critères essentiels réunis sur chacune"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

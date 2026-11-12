@@ -1,0 +1,212 @@
+{
+  "format": "ekole.b1.internal-coverage/1",
+  "base": "snapshots_Ekole_2026-10-15_et_Kontexte_2026-10-15",
+  "cours_ekole_total": 202,
+  "cours_annee3_proposes": 36,
+  "cours_annee3_avec_activite_candidate": 8,
+  "cours_annee3_sans_activite_candidate": 28,
+  "objectifs_kontexte_internes": 83,
+  "objectifs_scenarios_principaux": 49,
+  "objectifs_hors_scenarios_principaux": 34,
+  "objectifs_avec_micro_proposee": 34,
+  "objectifs_kontexte_rattaches_cours_3e": 12,
+  "objectifs_kontexte_rattaches_cours_autres_annees": 71,
+  "semaines_planifiees": 36,
+  "semaines_scenario_principal": 32,
+  "semaines_sans_scenario_principal": [
+    9,
+    18,
+    27,
+    36
+  ],
+  "nb_scenarios_distincts": 32,
+  "nb_scenarios_catalogue": 60,
+  "cours_eleves_publies": "indetermine_sur_ce_snapshot (la v3 est distincte)",
+  "preuve_de_maitrise_constatee": 0,
+  "couverture_ministerielle_attestee": false,
+  "limite_critique": "12/83 est un indicateur de désalignement de deux index internes, PAS 12/83 des apprentissages du ministère.",
+  "audits_source_notes": [
+    "Ces chiffres mesurent des LIENS DOCUMENTAIRES, pas des apprentissages réalisés ni le respect intégral du programme.",
+    "La présence d’un objectif n’établit pas son caractère prescrit en 3e. Les Kristals Ekole et les codes qc3 sont internes et parfois transversaux. Associer chaque preuve au document officiel applicable avec revue enseignante."
+  ],
+  "details_disciplinaires": [
+    {
+      "discipline_code": "AD",
+      "discipline": "Art dramatique",
+      "objectifs_internes": 3,
+      "objectifs_scenario_principal": 2,
+      "objectifs_hors_scenario_principal": 1,
+      "objectifs_avec_micro": 1,
+      "objectifs_associes_cours_3e": 1,
+      "objectifs_associes_cours_autre_annee": 2,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    },
+    {
+      "discipline_code": "ALS",
+      "discipline": "Anglais, langue seconde",
+      "objectifs_internes": 5,
+      "objectifs_scenario_principal": 2,
+      "objectifs_hors_scenario_principal": 3,
+      "objectifs_avec_micro": 3,
+      "objectifs_associes_cours_3e": 1,
+      "objectifs_associes_cours_autre_annee": 4,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    },
+    {
+      "discipline_code": "AP",
+      "discipline": "Arts plastiques",
+      "objectifs_internes": 4,
+      "objectifs_scenario_principal": 3,
+      "objectifs_hors_scenario_principal": 1,
+      "objectifs_avec_micro": 1,
+      "objectifs_associes_cours_3e": 0,
+      "objectifs_associes_cours_autre_annee": 4,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    },
+    {
+      "discipline_code": "CCQ",
+      "discipline": "Culture et citoyenneté québécoise",
+      "objectifs_internes": 12,
+      "objectifs_scenario_principal": 6,
+      "objectifs_hors_scenario_principal": 6,
+      "objectifs_avec_micro": 6,
+      "objectifs_associes_cours_3e": 1,
+      "objectifs_associes_cours_autre_annee": 11,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    },
+    {
+      "discipline_code": "DA",
+      "discipline": "Danse",
+      "objectifs_internes": 3,
+      "objectifs_scenario_principal": 0,
+      "objectifs_hors_scenario_principal": 3,
+      "objectifs_avec_micro": 3,
+      "objectifs_associes_cours_3e": 0,
+      "objectifs_associes_cours_autre_annee": 3,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    },
+    {
+      "discipline_code": "EPS",
+      "discipline": "Éducation physique et à la santé",
+      "objectifs_internes": 6,
+      "objectifs_scenario_principal": 3,
+      "objectifs_hors_scenario_principal": 3,
+      "objectifs_avec_micro": 3,
+      "objectifs_associes_cours_3e": 0,
+      "objectifs_associes_cours_autre_annee": 6,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    },
+    {
+      "discipline_code": "FR",
+      "discipline": "Français, langue d’enseignement",
+      "objectifs_internes": 12,
+      "objectifs_scenario_principal": 8,
+      "objectifs_hors_scenario_principal": 4,
+      "objectifs_avec_micro": 4,
+      "objectifs_associes_cours_3e": 4,
+      "objectifs_associes_cours_autre_annee": 8,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    },
+    {
+      "discipline_code": "MA",
+      "discipline": "Mathématique",
+      "objectifs_internes": 16,
+      "objectifs_scenario_principal": 11,
+      "objectifs_hors_scenario_principal": 5,
+      "objectifs_avec_micro": 5,
+      "objectifs_associes_cours_3e": 4,
+      "objectifs_associes_cours_autre_annee": 12,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    },
+    {
+      "discipline_code": "MU",
+      "discipline": "Musique",
+      "objectifs_internes": 3,
+      "objectifs_scenario_principal": 1,
+      "objectifs_hors_scenario_principal": 2,
+      "objectifs_avec_micro": 2,
+      "objectifs_associes_cours_3e": 0,
+      "objectifs_associes_cours_autre_annee": 3,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    },
+    {
+      "discipline_code": "ST",
+      "discipline": "Science et technologie",
+      "objectifs_internes": 11,
+      "objectifs_scenario_principal": 10,
+      "objectifs_hors_scenario_principal": 1,
+      "objectifs_avec_micro": 1,
+      "objectifs_associes_cours_3e": 1,
+      "objectifs_associes_cours_autre_annee": 10,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    },
+    {
+      "discipline_code": "US",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "objectifs_internes": 8,
+      "objectifs_scenario_principal": 3,
+      "objectifs_hors_scenario_principal": 5,
+      "objectifs_avec_micro": 5,
+      "objectifs_associes_cours_3e": 0,
+      "objectifs_associes_cours_autre_annee": 8,
+      "lecture": "Comptage documentaire des objectifs internes, pas taux de conformité au PFEQ."
+    }
+  ],
+  "provenance": {
+    "audit": "ekole.b1.internal-coverage-audit/1",
+    "effectue_le": "2026-10-16",
+    "sources": {
+      "znapshot_Ekole_10151241.zip": {
+        "sha256": "35ed6fbbdc81400b228ef5de5860576af5c404ba5dd4ee0614eeab7b130642a9",
+        "taille_octets": 28560764
+      },
+      "znapshot_Kontexte_10152150.zip": {
+        "sha256": "2ccabcddd2b344e3ba68164e70894e52f3524a7cbec7a1d35adc912df7c8efc1",
+        "taille_octets": 345303
+      }
+    },
+    "limite": "Audit de cohérence interne. Aucun appariement exact aux tableaux ministériels et aucune attestation de conformité.",
+    "documents": {
+      "ekole_catalogue": {
+        "fichier": "catalogue/202_kristals.json",
+        "sha256": "5487495d3e92db5d0614db73380700188d728dc28782ae2e80522331323cffb6"
+      },
+      "ekole_activites": {
+        "fichier": "docs/AUDIT_ACTIVITES_202_V14.json",
+        "sha256": "6866b8d7af7d6732d9eaa97c79fc01da672d053fbc93be6b5bef7e44d4ec21ef"
+      },
+      "ekole_plan": {
+        "fichier": "docs/PLAN_TRANSFORMATION_202_V12.json",
+        "sha256": "d64b0b5148ef8653cf842bcb8628889f1070d39066d5b9578f205a42087be9c7"
+      },
+      "kontexte_objectifs": {
+        "fichier": "data/locales/qc/fr-CA/grade3/objectifs-candidats.json",
+        "sha256": "25a839db0a72c478aa23cf78f7276c84460b300ac7a960323136b7354ebd2621"
+      },
+      "kontexte_audit": {
+        "fichier": "data/locales/qc/fr-CA/grade3/audit-couverture.json",
+        "sha256": "d46be98e311b591254910ee85350c6ac8dbbdfbb347498632eba4b0bf3fd84c9"
+      },
+      "kontexte_overlays": {
+        "fichier": "data/locales/qc/fr-CA/grade3/overlays-60.json",
+        "sha256": "ee79b8fbdf310923a983dba958e94b4da98e9748aced6a33d87d4dde98daefb0"
+      },
+      "kontexte_semaines": {
+        "fichier": "data/locales/qc/fr-CA/grade3/parcours-36-semaines.json",
+        "sha256": "ba57434e70dd4fcc5b3a1928ad6ccf6fa9a04c56c1483b6359f74f06c9806ad0"
+      },
+      "kontexte_micro": {
+        "fichier": "data/locales/qc/fr-CA/grade3/micro-situations-34.json",
+        "sha256": "4a2bf9abf619c87a7e4e6035bce70babb99de2e2603c209de2977bb89e7904bb"
+      },
+      "kontexte_a_completer": {
+        "fichier": "data/locales/qc/fr-CA/grade3/seances-a-completer.json",
+        "sha256": "9059bf24a5580f372b226a1c9575664f7f9996eac15dda24858d495e7aaf95b4"
+      },
+      "kontexte_exigences": {
+        "fichier": "data/locales/qc/fr-CA/grade3/programmes-exigences.json",
+        "sha256": "52caf7394a8d5f94c4badbf6ccbdb7b678b7a97bc445c7cccd16026824958980"
+      }
+    }
+  }
+}

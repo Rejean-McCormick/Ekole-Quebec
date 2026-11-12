@@ -1,0 +1,77 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-033",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Communiquer un raisonnement mathématique vérifiable, au-delà du résultat.",
+  "concepts": [
+    "justification",
+    "représentation",
+    "contrôle",
+    "conclusion"
+  ],
+  "preuve_attendue": "Présenter une solution cohérente et repérer l’erreur d’un autre raisonnement.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-033-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Présenter une solution cohérente et repérer l’erreur d’un autre raisonnement.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_controles_techniquement_revue_humaine_requise",
+      "kristal_id": "qc-pri-ma-033",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Présenter une solution cohérente et repérer l’erreur d’un autre raisonnement.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "matériel_ou_schema_annote",
+        "egalite_et_unites",
+        "explication_verbale",
+        "controle_independant",
+        "critique_erreur"
+      ],
+      "variables": {
+        "mode": "catalogue_fini",
+        "banque_ref": "evaluation/BANQUE_ITEMS.json",
+        "six_items_parametriques": [
+          "qc-pri-ma-033-q-001",
+          "qc-pri-ma-033-q-002",
+          "qc-pri-ma-033-q-003",
+          "qc-pri-ma-033-q-005",
+          "qc-pri-ma-033-q-006",
+          "qc-pri-ma-033-q-008"
+        ],
+        "nombre_variantes_par_item": 3,
+        "valeurs_autorisees": "voir exactement parametres.catalogue dans chaque item"
+      },
+      "contraintes": [
+        "arithmetique_entiere_exacte_sans_arrondi",
+        "partages_sans_reste",
+        "pas_de_coincidence_entre_correction_et_erreur_sauf_item_fixe_q004_volontaire",
+        "unités_et_grandeurs_explicitement_coherentes",
+        "aucun_aleatoire_libre",
+        "deux_preuves_distinctes_sans_indice"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md — cinq axes V,R,J,C,E ; échelle 0/1/2 par axe ; aucune moyenne ; double preuve autonome q-009 et q-010.",
+      "source": "Sources internes consultées et contenus originaux : sources/REFERENCES_CONTENU.md ; corrigés : evaluation/BANQUE_ITEMS.json",
+      "seed": 33001,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_reviser",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

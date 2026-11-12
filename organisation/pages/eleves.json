@@ -1,0 +1,45 @@
+{
+  "format": "ekole.portal-page/0.1",
+  "id": "ekole-page-eleves",
+  "slug": "eleves",
+  "titre": "Espace élèves",
+  "public_cible": "eleve",
+  "roles_visuels": [
+    "en_tete",
+    "description",
+    "actions",
+    "ressources",
+    "navigation"
+  ],
+  "utterances": [
+    {
+      "id": "eleves-phrase-1",
+      "source": "original_edition_candidat",
+      "fr-CA": "Choisis une notion qui t’intéresse.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "eleves-phrase-2",
+      "source": "original_edition_candidat",
+      "fr-CA": "Consulte les exemples, puis essaie les activités.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "eleves-phrase-3",
+      "source": "original_edition_candidat",
+      "fr-CA": "Demande de l’aide quand une étape reste difficile.",
+      "status": "a_revoir_semantik"
+    }
+  ],
+  "component_types": [
+    "utterance",
+    "label_value",
+    "list",
+    "card"
+  ],
+  "access": "information_publique_sans_donnees_personnelles",
+  "language_status": {
+    "fr-CA": "candidat",
+    "en": "non_genere"
+  }
+}

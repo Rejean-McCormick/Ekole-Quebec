@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-014",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Participer à un échange oral puis présenter une idée argumentée en anglais.",
+  "concepts": [
+    "turn-taking",
+    "presentation",
+    "reason"
+  ],
+  "preuve_attendue": "Soutenir un échange et exposer une idée avec un exemple.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-013"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-014-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Soutenir un échange et exposer une idée avec un exemple.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Les prompts du partenaire et leurs scénarios 009/010 sont fixes. Adapter seulement présentation du support, temps, voix, posture et modalités accessibles sans donner les réponses.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "controle": "aucun générateur paramétrique utilisé, pas de seed, banque d’items fixes à réviser par un humain"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-ale-014",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "interaction orale en anglais avec partenaire",
+        "mini-présentation orale argumentée en anglais",
+        "trace d’observation des tours et de la structure idée-raison-exemple"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "corpus_autorise": [
+          "Community Reading Day",
+          "School Garden Day"
+        ],
+        "aucune_generation_aleatoire": true
+      },
+      "contraintes": [
+        "échange oral réactif avec partenaire, pas un texte récité",
+        "répondre à une question et proposer une relance pertinente",
+        "mini-présentation idée-raison-exemple",
+        "deux contextes distincts réussis séparément",
+        "aucune pénalisation pour accent non natif si intelligible",
+        "préférences fictives, aucune divulgation personnelle",
+        "aménagements non directifs annoncés avant épreuve",
+        "aucun examen certifié"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "ecoute_et_pertinence",
+          "alternance_et_relance",
+          "idee_et_raison",
+          "exemple",
+          "intelligibilite_et_autonomie"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2
+        ],
+        "decision": "deux manifestations autonomes satisfaisant toutes les dimensions essentielles; jamais de score unique"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,104 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-011",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Planifier puis rédiger un texte anglais pour un public explicite.",
+  "concepts": [
+    "purpose",
+    "paragraph",
+    "plan",
+    "audience"
+  ],
+  "preuve_attendue": "Produire deux paragraphes ordonnés selon une consigne nouvelle.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-010"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-011-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Produire deux paragraphes ordonnés selon une consigne nouvelle.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ale-011",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Produire deux paragraphes ordonnés selon une consigne nouvelle.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "consigne écrite contextualisée en anglais",
+        "plan bref à deux idées",
+        "deux paragraphes anglais avec séparation visible"
+      ],
+      "variables": {
+        "mode_choisi": "fixe",
+        "corpus_items": "qc-pri-ale-011-q-001 à qc-pri-ale-011-q-010",
+        "choix_libres": [
+          "formulation des phrases",
+          "vocabulaire pertinent",
+          "détails fictifs compatibles avec la consigne"
+        ],
+        "variation_automatique": false
+      },
+      "contraintes": [
+        "public lecteur précisé dans chaque consigne",
+        "purpose distinct du topic",
+        "deux paragraphes ordonnés pour les tâches de rédaction",
+        "plan préalable conservé pour les preuves de maîtrise",
+        "deux preuves sans indices de contenu et dans des situations différentes",
+        "respect des aménagements d’accès",
+        "aucun fait réel obligatoire ni renseignement privé",
+        "pas de génération automatique de nouveaux items sans nouvelle revue"
+      ],
+      "barreme_ou_rubrique": {
+        "type": "rubrique_analytique_descriptive",
+        "dimensions": {
+          "D1": "audience explicite et purpose réel",
+          "D2": "plan à deux idées et deux paragraphes ordonnés",
+          "D3": "anglais compréhensible adapté aux lecteurs",
+          "D4": "autonomie, justification ou révision d’un choix et adaptation au nouveau contexte"
+        },
+        "niveaux": {
+          "0": "absence de preuve/production non évaluable",
+          "1": "éléments émergents mais aide de contenu ou lacune majeure",
+          "2": "réussite fonctionnelle autonome avec petites imperfections",
+          "3": "réussite solide et adaptée au lecteur avec révision motivée"
+        },
+        "decision": "maîtrise si deux productions distinctes Q009 et Q010 atteignent chacune au moins 2 en D1,D2,D3,D4, sans aide de formulation; la somme de scores ne peut compenser une dimension manquante",
+        "pieces_a_conserver": [
+          "plan individuel",
+          "deux paragraphes",
+          "trace de relecture",
+          "consigne et adaptations permises"
+        ]
+      },
+      "source": {
+        "type": "production_originale_sur_base_interne",
+        "references": [
+          "governance/Norme_Pedagogique_Autonome_v1.2/CONTRAT_PEDAGOGIQUE_V1.2.md",
+          "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+          "kristals/qc-pri-ale-011/authoring/BRIEF_REDACTION.md",
+          "kristals/qc-pri-ale-011/sources/REFERENCES_CONTENU.md"
+        ]
+      },
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

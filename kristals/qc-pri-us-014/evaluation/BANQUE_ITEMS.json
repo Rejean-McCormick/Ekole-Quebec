@@ -1,0 +1,161 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-014",
+  "family_id": "qc-pri-us-014-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-us-014-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Écris un mini-tableau comparant A et B selon deux critères communs : aménagement du territoire et activité de transport. Ajoute une différence justifiée et une phrase indiquant une information non prouvée.",
+      "stimulus": "Documents entièrement fictifs, portant sur 1928. A — Société de Baie-Douce, « Journal du quai », par A. Picard, 6 mai 1928 : « Le chemin suit la baie; des charrettes transportent des paniers de pommes; le comité du quai fixe les heures d'accès. » B — Société de Colline-Jolie, « Feuille du conseil », par B. Pépin, 6 mai 1928 : « Une route monte la colline; des camionnettes transportent des sacs de farine; le conseil des routes fixe les heures de passage. »",
+      "reponse_attendue": "Territoire : A chemin longeant la baie; B route de colline. Transport : A charrettes/pommes; B camionnettes/farine. Explication : les deux acheminent des biens en 1928, mais sur des voies et par des moyens différents selon les documents. Limite : ces notes n'indiquent pas tous les transports des deux sociétés.",
+      "criteres": [
+        "crit-1 — tableau A/B avec exactement les mêmes deux critères",
+        "Indices fidèles aux deux fiches et datation 1928",
+        "Au moins une différence associée à deux indices distincts",
+        "Limite concrète : ne pas conclure à une absence des autres activités"
+      ],
+      "feedback": "Si tu compares une route à une marchandise, distingue aménagement et activité. Si tu écris que tout le monde se déplace en charrette, reviens à la portée de « Journal du quai ».",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-014-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Indique le type, l'auteur et la date de chaque fiche, puis compare les deux sociétés dans un tableau sous « territoire » et « activité ». Explique pourquoi on ne peut pas dire qu'à Sablon personne ne vend de céréales.",
+      "stimulus": "Cas fictifs de 1930. A — Sablon, extrait d'une note de l'archiviste fictive Jeanne Bordeleau, 12 avril 1930 : « Les habitations entourent une place. On tient un marché de légumes; le comité de la place détermine ses jours. » B — Ruisselet, bulletin du rédacteur fictif Malik Fortier, 13 avril 1930 : « Les maisons bordent une rue principale. Un marché de céréales ouvre les samedis; le conseil du marché annonce les horaires. » Aucun document n'est un inventaire de toute la vie des deux lieux.",
+      "reponse_attendue": "Provenance : A note/Jeanne Bordeleau/12-04-1930; B bulletin/Malik Fortier/13-04-1930. Territoire : place entourée d'habitations vs maisons le long d'une rue principale. Activité : marché de légumes vs marché de céréales le samedi. Différence justifiée par les passages. L'absence de mention des céréales à Sablon n'est pas une preuve d'absence de vente.",
+      "criteres": [
+        "crit-1 — deux critères strictement communs dans le tableau",
+        "Exactitude des six éléments de provenance, ou correction après indication",
+        "Description non généralisante des marchés",
+        "Explication explicite : silence documentaire ≠ absence"
+      ],
+      "feedback": "Un auteur n'est pas le nom du lieu : retrouve la mention « archiviste »/« rédacteur ». Un marché mentionné n'est pas nécessairement l'unique marché d'une société.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-014-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Produis un tableau territoire / service / institution pour A et B. Justifie une ressemblance et une différence. Précise pourquoi « citerne » n'est pas une institution.",
+      "stimulus": "Procès-verbaux fictifs du 9 juin 1951. A — Falaise-Bleue, signé C. Proulx : « Le village suit une côte rocheuse; le conseil de l'eau décide des jours où une citerne est remplie pour les maisons. » B — Pré-Large, signé L. Renaud : « Le village s'étend dans une plaine; l'assemblée de la coopérative décide des jours où des bidons sont distribués aux maisons. » Les règles mentionnées ne décrivent pas tous les usages de l'eau.",
+      "reponse_attendue": "Territoire : côte rocheuse/plaine; service : remplissage d'une citerne/distribution de bidons; institution : conseil de l'eau/assemblée de la coopérative. Ressemblance : décisions organisent la fourniture d'eau aux maisons; différence : moyen et organisation décrits distincts. Citerne = contenant/équipement, non organe de décision.",
+      "criteres": [
+        "crit-1 — trois critères communs renseignés A/B",
+        "Fonctions de décision correctement attribuées",
+        "Une ressemblance et une différence appuyées par les notices",
+        "Distinction citerne (équipement) / conseil (institution)"
+      ],
+      "feedback": "Si tu écris « la citerne décide », retrouve le sujet du verbe « décide ». Vérifie que chaque réponse provient du procès-verbal de la bonne société.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-014-q-004",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Dresse un tableau à trois lignes (aménagement, activité mentionnée, institution) puis corrige cette phrase : « À Pont-Vert, tous travaillaient au marché et personne ne cultivait. » Explique la limite des deux types de source.",
+      "stimulus": "Fiches fictives de l'année 1885. A — Pont-Vert, « Témoignage d'un marchand », auteur fictif A. Viger, 14 août 1885 : « De mon échoppe je vois une route de charrettes; le comité des halles fixe l'ouverture du marché. » B — Rive-Cendre, « Avis du conseil », auteur fictif M. Plamondon, 15 août 1885 : « Une passerelle donne accès aux jardins; le conseil des jardins fixe les tours d'arrosage. » La première fiche adopte la perspective limitée d'un marchand; la seconde annonce une décision.",
+      "reponse_attendue": "A route/charrettes; vue d'une échoppe liée au marché; comité des halles. B passerelle/jardins, tours d'arrosage; conseil des jardins. La phrase globale est non prouvée : le témoignage d'une personne n'inventorie pas les métiers, ni l'agriculture. Un avis du conseil ne présente qu'une décision, pas toute l'organisation sociale.",
+      "criteres": [
+        "crit-1 — tableau symétrique sur trois critères, sans inférence gratuite",
+        "Mention correcte de la perspective propre au témoignage",
+        "Correction du stéréotype sans nier une activité non documentée",
+        "Source et période 1885 respectées"
+      ],
+      "feedback": "Relis « de mon échoppe je vois » : ce point de vue ne représente pas toutes les familles. Une absence de mention n'autorise pas « personne ».",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-014-q-005",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Sans indices, choisis trois critères identiques et construis le tableau A/B. Écris deux différences justifiées, une ressemblance et la portée limitée des documents.",
+      "stimulus": "Fiches fictives, année 2001. A — Butte-Épine, bulletin du secrétariat fictif du conseil, 20 janvier : « Les rues serpentent sur une butte. Une navette dessert la bibliothèque; le comité de transport décide les départs. » B — Anse-Rouge, feuille d'information fictive, 20 janvier : « Les rues longent une anse. Un traversier dessert la bibliothèque; le conseil des traversées décide les départs. » Les notices ne traitent que de la desserte décrite.",
+      "reponse_attendue": "Territoire : rues sur la butte/rues près de l'anse; activité ou service : navette vers bibliothèque/traversier vers bibliothèque; institution : comité de transport/conseil des traversées. Différences : relief/usages spatiaux et type de liaison, ou organe qui décide. Ressemblance : accès à une bibliothèque et départs organisés. Limite : ne conclure ni à l'unique mode de transport ni au niveau culturel des populations.",
+      "criteres": [
+        "crit-1 — trois critères définis identiquement A/B",
+        "Deux différences expliquées par au moins quatre indices pertinents",
+        "Au moins une ressemblance attestée",
+        "Limite explicite évitant une hiérarchie de sociétés"
+      ],
+      "feedback": "Si tu dis que le traversier rend le bourg « plus évolué », retire le jugement et reviens aux services effectivement décrits. Vérifie les deux colonnes avant de conclure.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-014-q-006",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Établis l'époque réellement comparée et la date de rédaction; présente ensuite un tableau de trois critères communs. Exprime deux différences et un risque lié à des témoignages rétrospectifs.",
+      "stimulus": "Deux chroniques **rétrospectives entièrement fictives**, toutes deux rédigées en 2010 mais décrivant **1960**. A — *Souvenirs de Haute-Échelle*, par C. Nadeau, publié le 6 mars 2010 : « En 1960, le hameau occupait un versant; un autobus reliait le marché; le conseil local décidait de son trajet. » B — *Souvenirs de Bas-Ruisseau*, par D. Lachance, publié le 6 mars 2010 : « En 1960, le hameau bordait un ruisseau; une barque reliait le marché; un comité des traversées décidait de ses départs. » Ce sont des récits reconstruits, pas deux actes d'archives de 1960.",
+      "reponse_attendue": "Période comparée : 1960. Rédaction : 6 mars 2010. Territoire : versant/bord du ruisseau; activité de transport : autobus/barque vers marché; institution : conseil local/comité des traversées. Différences sur le territoire et le transport (ou organes). Limite : récit tardif susceptible de sélection de souvenirs, à croiser avec des traces datées de 1960.",
+      "criteres": [
+        "crit-1 — tableau 3 critères communs et 2 différences expliquées",
+        "1960 identifié comme objet, 2010 comme date de rédaction",
+        "Faits attribués à chaque chronique, sans généralisation",
+        "Limite critique : mémoire rétrospective ≠ archive contemporaine"
+      ],
+      "feedback": "N'écris pas « en 2010 les gens prennent la barque » : le texte de 2010 parle de 1960. Ne dis pas que la chronique prouve toute la vie de l'époque.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-014-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "**Sans aide sur la réponse**, produis un tableau à trois critères **communs et annoncés** : territoire aménagé, activité, institution responsable. Indique un passage des sources justifiant chaque ligne. Puis explique **deux différences** et **une limite** des registres. Tu peux utiliser un tableau écrit, dicté ou transcrit, sans réponse préremplie.",
+      "stimulus": "**Preuve A — fiction documentaire, pas histoire réelle.** A — Société de **Grève-aux-Ormes** en 1912. *Registre du quai*, secrétaire fictive É. Lemoine, daté du 3 avril 1912 : « Un quai se trouve au bord d'un estuaire. Des équipes chargent des caisses de sel sur des bateaux. Le conseil du quai fixe les jours de chargement. » B — Société de **Plateau-des-Hêtres** en 1912. *Registre des chemins*, secrétaire fictif R. Beaulieu, daté du 3 avril 1912 : « Une route traverse les terres élevées. Des équipes conduisent des paniers de céréales au marché. Le comité des chemins décide des jours de passage. » Chaque registre ne décrit qu'une partie de la vie locale.",
+      "reponse_attendue": "Tableau attendu — Territoire : A quai sur estuaire; B route des terres élevées. Activité : A chargement de caisses de sel sur des bateaux; B transport de paniers de céréales au marché. Institution : A conseil du quai / jours de chargement; B comité des chemins / jours de passage. Deux différences possibles : (1) voies et milieux distincts, cités dans les deux registres; (2) activité de chargement maritime du sel vs acheminement terrestre de céréales, selon les documents; ou (3) décisions par des conseils/comités spécialisés aux objets différents. Limite recevable : aucun des registres n'inventorie toutes les professions, les habitants ni les autres institutions. Ne pas inférer que B n'avait aucun quai ni que A ne cultivait pas.",
+      "criteres": [
+        "crit-1/C1 — 3 critères explicitement identiques appliqués aux deux sociétés",
+        "crit-1/C2 — 6 cellules appuyées par les registres de 1912, aucune invention",
+        "crit-1/C3 — 2 différences argumentées avec indices des deux colonnes",
+        "crit-1/C4 — au moins 1 limite documentaire précise, sans généralisation",
+        "crit-1/C5 — travail autonome consigné, assistance de forme uniquement"
+      ],
+      "feedback": "Si les critères ne sont pas symétriques, rebâtis les lignes à partir de la même question pour A et B. Si les registres deviennent des descriptions de « tous les gens », replace la formule « dans ce registre de 1912 » et nomme une lacune. Nouvelle preuve à faire sur un autre corpus, pas par simple copie du corrigé.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-014-q-008",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "**Sans aide sur la réponse**, réalise un tableau comparatif de trois critères communs : territoire aménagé, activité/service, institution responsable. Cites-en les indices, justifie **deux différences** et explique une chose qu'il est impossible d'établir à partir de ces seuls bulletins. Toute suggestion de « meilleure » société doit être remplacée par un constat prouvé.",
+      "stimulus": "**Preuve B — contexte civique contemporain fictif, distinct de 1912.** A — Société de **Parc-aux-Cèdres**, année 2024. *Bulletin du service public*, rédigé par S. Gauthier, 18 octobre 2024 : « Des immeubles entourent un parc sur terrain plat. Un minibus dessert le centre de santé. Un conseil de mobilité adopte la fréquence des voyages. » B — Société de **Coteau-du-Lac**, année 2024. *Bulletin du service public*, rédigé par M. Diallo, 18 octobre 2024 : « Des immeubles se trouvent le long d'une côte en pente. Un service de navette sur appel dessert le centre de santé. Un comité du service décide des plages de réservation. » Les bulletins ne donnent ni fréquentation ni coût.",
+      "reponse_attendue": "Tableau attendu — Territoire : A parc sur terrain plat avec immeubles / B côte en pente avec immeubles. Service : A minibus vers centre de santé / B navette sur appel vers le même type de centre. Institution : A conseil de mobilité réglant la fréquence / B comité du service fixant des plages de réservation. Deux différences pertinentes : relief et implantation décrits différemment; minibus programmé en fréquence vs navette sur appel par réservation; ou décisions sur fréquence vs plages de réservation. Ressemblance secondaire recevable : les deux services relient les habitants à un centre de santé. Limite : impossible de comparer coûts, fréquentation, accessibilité effective ou satisfaction à partir des bulletins.",
+      "criteres": [
+        "crit-1/C1 — 3 critères symétriques et explicites",
+        "crit-1/C2 — faits des 2 bulletins de 2024 respectés, aucun chiffre inventé",
+        "crit-1/C3 — 2 différences reliées chacune aux 2 supports",
+        "crit-1/C4 — absence de jugement de valeur sans preuves, lacune pertinente sur coûts/fréquentation",
+        "crit-1/C5 — réalisation autonome, seules aides neutres de présentation admises"
+      ],
+      "feedback": "Si tu affirmes que la navette est plus efficace, demande : les sources fournissent-elles des temps, coûts ou usagers? Sinon écris « non documenté ». Si tu confonds comité et service, recherche les verbes « décide » ou « adopte ».",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

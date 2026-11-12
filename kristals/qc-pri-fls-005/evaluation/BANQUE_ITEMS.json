@@ -1,0 +1,340 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fls-005",
+  "family_id": "qc-pri-fls-005-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fls-005-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute la demande de ton partenaire. Réponds en français et donne ou montre le bon objet. Tu peux vérifier ce qu’il veut.",
+      "stimulus": "Deux crayons sont visibles, un bleu et un rouge. Le partenaire dit : « J’ai besoin du crayon bleu pour finir le dessin. Peux-tu me le passer, s’il te plaît? » Puis il attend.",
+      "reponse_attendue": "Exemples recevables : montrer le crayon bleu et dire « Voilà » ou demander « Le bleu? » puis le donner. L’action et la réponse doivent montrer que « bleu » a été compris, sans exigence de phrase parfaite.",
+      "criteres": [
+        "Distingue le crayon bleu du rouge sur la base du message.",
+        "Participe à un tour de réponse intelligible; permet au partenaire de confirmer."
+      ],
+      "feedback": "Si l’objet reste ambigu, refaire la demande en montrant les deux choix; viser la compréhension familière avant d’entraîner la clarification fine. Ne pas conclure à la maîtrise finale.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "nature": "diagnostic",
+      "contexte": "demande familière de matériel",
+      "representation": "échange oral en direct avec carte partenaire distincte",
+      "limites_variation": "Stimulus et carte-réponse verrouillés; partenaires peuvent reformuler naturellement sans ajouter d’information nouvelle; réponses synonymes acceptées si la fonction communicative est observable. Aucun tirage de scénario ni génération IA en passation.",
+      "passation": "Partenaire lit le départ, attend les questions, donne uniquement les réponses conditionnelles prévues; le professeur note les contributions sans souffler les phrases. Temps de formulation, répétition naturelle et assistance d’accès permis, journalisés.",
+      "rubrique_observation": {
+        "observe": "Production compréhensible réalisant les actions listées dans criteres; le partenaire peut répondre et l’apprenant réutilise les informations demandées.",
+        "partiel_ou_avec_aide": "Une action importante est omise ou n’apparaît qu’après invite linguistique; reprendre avec un autre contexte après feedback.",
+        "non_observe": "Les tours ne permettent ni réponse pertinente ni correction de l’ambiguïté; revenir au modelage ciblé."
+      },
+      "securite_accessibilite": "Situation scolaire fictive sans donnée intime; ne jamais pénaliser l’accent légitime. Répétition naturelle, temps souple, images de contexte et dispositif de sortie vocale accessibles; aucun script linguistique fourni pendant les preuves de maîtrise.",
+      "source_interne": "contenu/02_DIAGNOSTIC.md"
+    },
+    {
+      "item_id": "qc-pri-fls-005-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Ton partenaire parle d’un rendez-vous. Écoute, puis explique ce qu’il faudrait savoir pour le rejoindre; pose une question si quelque chose manque.",
+      "stimulus": "Deux bancs dessinés : banc de la cour et banc près de la porte. Le partenaire dit « On se retrouve près du banc après l’activité. » Si demandé « quel banc? » → « Celui près de la porte ». Si demandé « quelle activité? » → « Après la lecture ».",
+      "reponse_attendue": "Exemples : « Quel banc? » ou « Après quelle activité? »; après réponse « D’accord, près de la porte ». La question indique réellement l’information inconnue; la réponse est reçue et comprise.",
+      "criteres": [
+        "Reconnaît au moins une ambiguïté pertinente.",
+        "Pose une question intelligible ou indique explicitement le renseignement manquant.",
+        "Accueille la précision sans substituer une information inventée."
+      ],
+      "feedback": "Si « Quoi? » reste indéfini, montrer les deux bancs et demander quel détail manque; enseigner ensuite une question ciblée. Une hésitation ici ne bloque pas automatiquement le prérequis.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "nature": "diagnostic",
+      "contexte": "rendez-vous près de deux bancs",
+      "representation": "échange oral en direct avec carte partenaire distincte",
+      "limites_variation": "Stimulus et carte-réponse verrouillés; partenaires peuvent reformuler naturellement sans ajouter d’information nouvelle; réponses synonymes acceptées si la fonction communicative est observable. Aucun tirage de scénario ni génération IA en passation.",
+      "passation": "Partenaire lit le départ, attend les questions, donne uniquement les réponses conditionnelles prévues; le professeur note les contributions sans souffler les phrases. Temps de formulation, répétition naturelle et assistance d’accès permis, journalisés.",
+      "rubrique_observation": {
+        "observe": "Production compréhensible réalisant les actions listées dans criteres; le partenaire peut répondre et l’apprenant réutilise les informations demandées.",
+        "partiel_ou_avec_aide": "Une action importante est omise ou n’apparaît qu’après invite linguistique; reprendre avec un autre contexte après feedback.",
+        "non_observe": "Les tours ne permettent ni réponse pertinente ni correction de l’ambiguïté; revenir au modelage ciblé."
+      },
+      "securite_accessibilite": "Situation scolaire fictive sans donnée intime; ne jamais pénaliser l’accent légitime. Répétition naturelle, temps souple, images de contexte et dispositif de sortie vocale accessibles; aucun script linguistique fourni pendant les preuves de maîtrise.",
+      "source_interne": "contenu/02_DIAGNOSTIC.md"
+    },
+    {
+      "item_id": "qc-pri-fls-005-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Demande dans quelle salle se tient l’atelier et vérifie que tu as bien compris la réponse avant de terminer.",
+      "stimulus": "Partenaire : « L’atelier a lieu dans la salle du fond. » Deux salles possibles affichées : salle de musique et salle de bricolage. Si question sur la salle → « Dans la salle de bricolage ».",
+      "reponse_attendue": "Exemple recevable : « Dans quelle salle, musique ou bricolage? » → « Bricolage » → « Merci, dans la salle de bricolage ». La clarification a obtenu un lieu exploitable.",
+      "criteres": [
+        "Attends la fin de la consigne et laisse répondre.",
+        "Demande le renseignement de lieu manquant.",
+        "Reprend la salle annoncée sans la modifier."
+      ],
+      "feedback": "Si la réponse est « oui » sans lever l’ambiguïté, comparer les deux salles, puis réessayer avec l’indice « quelle salle? »; retirer l’indice ensuite.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "nature": "ancrage",
+      "contexte": "orientation vers un atelier",
+      "representation": "échange oral en direct avec carte partenaire distincte",
+      "limites_variation": "Stimulus et carte-réponse verrouillés; partenaires peuvent reformuler naturellement sans ajouter d’information nouvelle; réponses synonymes acceptées si la fonction communicative est observable. Aucun tirage de scénario ni génération IA en passation.",
+      "passation": "Partenaire lit le départ, attend les questions, donne uniquement les réponses conditionnelles prévues; le professeur note les contributions sans souffler les phrases. Temps de formulation, répétition naturelle et assistance d’accès permis, journalisés.",
+      "rubrique_observation": {
+        "observe": "Production compréhensible réalisant les actions listées dans criteres; le partenaire peut répondre et l’apprenant réutilise les informations demandées.",
+        "partiel_ou_avec_aide": "Une action importante est omise ou n’apparaît qu’après invite linguistique; reprendre avec un autre contexte après feedback.",
+        "non_observe": "Les tours ne permettent ni réponse pertinente ni correction de l’ambiguïté; revenir au modelage ciblé."
+      },
+      "securite_accessibilite": "Situation scolaire fictive sans donnée intime; ne jamais pénaliser l’accent légitime. Répétition naturelle, temps souple, images de contexte et dispositif de sortie vocale accessibles; aucun script linguistique fourni pendant les preuves de maîtrise.",
+      "source_interne": "contenu/04_PRATIQUE_ACCOMPAGNEE.md"
+    },
+    {
+      "item_id": "qc-pri-fls-005-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Un partenaire te propose un jeu; demande lequel, puis utilise sa réponse pour poser une autre question utile.",
+      "stimulus": "Partenaire : « Jouons à un jeu de cartes. » Si demandé lequel → « Le jeu des familles ». Si demandé nombre de joueurs → « Quatre ».",
+      "reponse_attendue": "Exemple : « Quel jeu? » → « Le jeu des familles » → « Le jeu des familles, d’accord. Combien de personnes peuvent jouer? » → « Quatre » → « Nous sommes quatre ». Une autre relance liée au jeu est recevable.",
+      "criteres": [
+        "Clarification sur le jeu proposé.",
+        "Relance distincte et reliée au choix après la réponse.",
+        "Réutilise une précision réelle dans sa conclusion."
+      ],
+      "feedback": "Si la deuxième question change de sujet, repartir du mot « jeu des familles », demander ce qui manque pour jouer, puis faire une nouvelle tentative.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "nature": "ancrage",
+      "contexte": "jeu de cartes à la pause",
+      "representation": "échange oral en direct avec carte partenaire distincte",
+      "limites_variation": "Stimulus et carte-réponse verrouillés; partenaires peuvent reformuler naturellement sans ajouter d’information nouvelle; réponses synonymes acceptées si la fonction communicative est observable. Aucun tirage de scénario ni génération IA en passation.",
+      "passation": "Partenaire lit le départ, attend les questions, donne uniquement les réponses conditionnelles prévues; le professeur note les contributions sans souffler les phrases. Temps de formulation, répétition naturelle et assistance d’accès permis, journalisés.",
+      "rubrique_observation": {
+        "observe": "Production compréhensible réalisant les actions listées dans criteres; le partenaire peut répondre et l’apprenant réutilise les informations demandées.",
+        "partiel_ou_avec_aide": "Une action importante est omise ou n’apparaît qu’après invite linguistique; reprendre avec un autre contexte après feedback.",
+        "non_observe": "Les tours ne permettent ni réponse pertinente ni correction de l’ambiguïté; revenir au modelage ciblé."
+      },
+      "securite_accessibilite": "Situation scolaire fictive sans donnée intime; ne jamais pénaliser l’accent légitime. Répétition naturelle, temps souple, images de contexte et dispositif de sortie vocale accessibles; aucun script linguistique fourni pendant les preuves de maîtrise.",
+      "source_interne": "contenu/01_NOTIONS_ET_EXEMPLES.md"
+    },
+    {
+      "item_id": "qc-pri-fls-005-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour réaliser un projet, demande de quelles feuilles il s’agit puis combien il en faut. Les mots « lesquelles? » et « combien? » peuvent être affichés pendant cet entraînement.",
+      "stimulus": "Partenaire : « Tu peux emprunter les feuilles pour le projet. » Dessins de feuilles blanches et bleues. Si couleur demandée → « Les feuilles bleues ». Si quantité demandée → « Trois ».",
+      "reponse_attendue": "Exemple : « Les bleues ou les blanches? » → « Les bleues » → « D’accord, les bleues. Combien de feuilles? » → « Trois » → « Trois feuilles bleues ». La question sur la quantité reste distincte.",
+      "criteres": [
+        "Désambiguïse le lot par couleur.",
+        "Demande un second détail d’organisation.",
+        "Conclut avec des informations compatibles avec la carte partenaire."
+      ],
+      "feedback": "Si la couleur est demandée deux fois, rappeler les deux besoins de la tâche (choix puis quantité), enlever la carte aide et recommencer.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "nature": "pratique_guidee",
+      "contexte": "prêt de feuilles de couleur",
+      "representation": "échange oral en direct avec carte partenaire distincte",
+      "limites_variation": "Stimulus et carte-réponse verrouillés; partenaires peuvent reformuler naturellement sans ajouter d’information nouvelle; réponses synonymes acceptées si la fonction communicative est observable. Aucun tirage de scénario ni génération IA en passation.",
+      "passation": "Partenaire lit le départ, attend les questions, donne uniquement les réponses conditionnelles prévues; le professeur note les contributions sans souffler les phrases. Temps de formulation, répétition naturelle et assistance d’accès permis, journalisés.",
+      "rubrique_observation": {
+        "observe": "Production compréhensible réalisant les actions listées dans criteres; le partenaire peut répondre et l’apprenant réutilise les informations demandées.",
+        "partiel_ou_avec_aide": "Une action importante est omise ou n’apparaît qu’après invite linguistique; reprendre avec un autre contexte après feedback.",
+        "non_observe": "Les tours ne permettent ni réponse pertinente ni correction de l’ambiguïté; revenir au modelage ciblé."
+      },
+      "securite_accessibilite": "Situation scolaire fictive sans donnée intime; ne jamais pénaliser l’accent légitime. Répétition naturelle, temps souple, images de contexte et dispositif de sortie vocale accessibles; aucun script linguistique fourni pendant les preuves de maîtrise.",
+      "source_interne": "contenu/04_PRATIQUE_ACCOMPAGNEE.md"
+    },
+    {
+      "item_id": "qc-pri-fls-005-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Le partenaire te parle de ranger des jeux. Sans modèle de phrase, pose une question utile, écoute, puis relance sur une autre information manquante.",
+      "stimulus": "Partenaire : « Rangeons les jeux après la rencontre. » Si « où » → « Dans l’armoire près de la fenêtre ». Si « quand » → « Après la lecture ».",
+      "reponse_attendue": "Exemple : « On les range où? » → « Dans l’armoire près de la fenêtre » → « D’accord, près de la fenêtre. Quand exactement? » → « Après la lecture ». Réponses équivalentes acceptées.",
+      "criteres": [
+        "Respecte l’alternance de tours.",
+        "Obtient un lieu ou un moment précis.",
+        "Relance sur l’autre renseignement et peut réutiliser la précision."
+      ],
+      "feedback": "Si « quand? » est répété malgré la réponse, pratiquer la reprise « après la lecture » avant d’interroger le lieu.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "nature": "pratique_guidee",
+      "contexte": "rangement après une activité",
+      "representation": "échange oral en direct avec carte partenaire distincte",
+      "limites_variation": "Stimulus et carte-réponse verrouillés; partenaires peuvent reformuler naturellement sans ajouter d’information nouvelle; réponses synonymes acceptées si la fonction communicative est observable. Aucun tirage de scénario ni génération IA en passation.",
+      "passation": "Partenaire lit le départ, attend les questions, donne uniquement les réponses conditionnelles prévues; le professeur note les contributions sans souffler les phrases. Temps de formulation, répétition naturelle et assistance d’accès permis, journalisés.",
+      "rubrique_observation": {
+        "observe": "Production compréhensible réalisant les actions listées dans criteres; le partenaire peut répondre et l’apprenant réutilise les informations demandées.",
+        "partiel_ou_avec_aide": "Une action importante est omise ou n’apparaît qu’après invite linguistique; reprendre avec un autre contexte après feedback.",
+        "non_observe": "Les tours ne permettent ni réponse pertinente ni correction de l’ambiguïté; revenir au modelage ciblé."
+      },
+      "securite_accessibilite": "Situation scolaire fictive sans donnée intime; ne jamais pénaliser l’accent légitime. Répétition naturelle, temps souple, images de contexte et dispositif de sortie vocale accessibles; aucun script linguistique fourni pendant les preuves de maîtrise.",
+      "source_interne": "contenu/04_PRATIQUE_ACCOMPAGNEE.md"
+    },
+    {
+      "item_id": "qc-pri-fls-005-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans une conversation sans indice, découvre quel type de livre le partenaire propose et ce que le groupe fera avec ce livre.",
+      "stimulus": "Partenaire : « Prenons un livre amusant. » Si type demandé → « Un album avec des animaux ». Si activité demandée → « On le lira ensemble à voix haute ».",
+      "reponse_attendue": "Exemple : « Quel type de livre? » → « Un album avec des animaux » → « D’accord, un album sur les animaux. Et qu’est-ce qu’on fera ensuite? » → « On le lira ensemble » → « Nous le lirons ensemble ».",
+      "criteres": [
+        "Demande un détail absent du choix proposé.",
+        "Relance au sujet de l’usage du livre, sans phrase soufflée.",
+        "Réemploie l’information donnée de façon intelligible."
+      ],
+      "feedback": "Si l’apprenant donne son avis sans clarifier, valoriser sa contribution puis demander ce qui permettrait au groupe de choisir un livre précis; nouveau contexte après feedback.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "nature": "pratique_autonome",
+      "contexte": "choix d’un livre de groupe",
+      "representation": "échange oral en direct avec carte partenaire distincte",
+      "limites_variation": "Stimulus et carte-réponse verrouillés; partenaires peuvent reformuler naturellement sans ajouter d’information nouvelle; réponses synonymes acceptées si la fonction communicative est observable. Aucun tirage de scénario ni génération IA en passation.",
+      "passation": "Partenaire lit le départ, attend les questions, donne uniquement les réponses conditionnelles prévues; le professeur note les contributions sans souffler les phrases. Temps de formulation, répétition naturelle et assistance d’accès permis, journalisés.",
+      "rubrique_observation": {
+        "observe": "Production compréhensible réalisant les actions listées dans criteres; le partenaire peut répondre et l’apprenant réutilise les informations demandées.",
+        "partiel_ou_avec_aide": "Une action importante est omise ou n’apparaît qu’après invite linguistique; reprendre avec un autre contexte après feedback.",
+        "non_observe": "Les tours ne permettent ni réponse pertinente ni correction de l’ambiguïté; revenir au modelage ciblé."
+      },
+      "securite_accessibilite": "Situation scolaire fictive sans donnée intime; ne jamais pénaliser l’accent légitime. Répétition naturelle, temps souple, images de contexte et dispositif de sortie vocale accessibles; aucun script linguistique fourni pendant les preuves de maîtrise.",
+      "source_interne": "contenu/05_PRATIQUE_AUTONOME.md"
+    },
+    {
+      "item_id": "qc-pri-fls-005-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Organise la pose d’un dessin avec un partenaire. Clarifie une instruction vague puis demande une autre information pour permettre l’action.",
+      "stimulus": "Partenaire : « Affichons le dessin près du tableau. » Si côté demandé → « À droite du tableau ». Si moment demandé → « Après la présentation ».",
+      "reponse_attendue": "Exemple : « De quel côté du tableau? » → « À droite » → « D’accord, à droite. On l’affiche quand? » → « Après la présentation » → « Donc à droite après la présentation ».",
+      "criteres": [
+        "Pose une question pertinente sur le lieu ou le moment.",
+        "Relance sur une autre information utile après réponse.",
+        "Aboutit à un plan partagé et intelligible."
+      ],
+      "feedback": "Si la reprise change « droite » en « gauche », entraîner la reformulation et une vérification auprès du partenaire sur un cas différent.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "nature": "pratique_autonome",
+      "contexte": "affichage d’un dessin collectif",
+      "representation": "échange oral en direct avec carte partenaire distincte",
+      "limites_variation": "Stimulus et carte-réponse verrouillés; partenaires peuvent reformuler naturellement sans ajouter d’information nouvelle; réponses synonymes acceptées si la fonction communicative est observable. Aucun tirage de scénario ni génération IA en passation.",
+      "passation": "Partenaire lit le départ, attend les questions, donne uniquement les réponses conditionnelles prévues; le professeur note les contributions sans souffler les phrases. Temps de formulation, répétition naturelle et assistance d’accès permis, journalisés.",
+      "rubrique_observation": {
+        "observe": "Production compréhensible réalisant les actions listées dans criteres; le partenaire peut répondre et l’apprenant réutilise les informations demandées.",
+        "partiel_ou_avec_aide": "Une action importante est omise ou n’apparaît qu’après invite linguistique; reprendre avec un autre contexte après feedback.",
+        "non_observe": "Les tours ne permettent ni réponse pertinente ni correction de l’ambiguïté; revenir au modelage ciblé."
+      },
+      "securite_accessibilite": "Situation scolaire fictive sans donnée intime; ne jamais pénaliser l’accent légitime. Répétition naturelle, temps souple, images de contexte et dispositif de sortie vocale accessibles; aucun script linguistique fourni pendant les preuves de maîtrise.",
+      "source_interne": "contenu/05_PRATIQUE_AUTONOME.md"
+    },
+    {
+      "item_id": "qc-pri-fls-005-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Ton camarade propose un jeu à la récréation. Participe à la planification : trouve un renseignement nécessaire (lieu ou matériel), obtiens sa réponse, puis relance pour compléter l’organisation. Termine en reformulant ce que vous avez décidé. Aucun modèle de phrase ne t’est donné.",
+      "stimulus": "CARTE PARTENAIRE (ne pas communiquer à l’apprenant) : ouverture « J’aimerais organiser un jeu d’adresse à la récréation. » Si « quel jeu? / comment? » → « Un lancer d’anneaux en mousse ». Si « où? » → « Près du panier à ballons ». Si « combien de joueurs? » → « Trois personnes ». Si « quel matériel? » → « Trois anneaux en mousse ». Le partenaire répond selon les questions effectivement posées, sans souffler la question suivante.",
+      "reponse_attendue": "Une performance recevable contient au moins trois contributions pertinentes de l’apprenant et plusieurs alternances réelles : par exemple « Où exactement? » → « Près du panier à ballons » → « D’accord, près du panier. Quel matériel faut-il? » → « Trois anneaux en mousse » → « Alors, on apporte trois anneaux près du panier ». Les formulations ne sont pas uniques. Observer T/C/R/P sur la conversation complète.",
+      "criteres": [
+        "T : contribue utilement à au moins trois tours liés et laisse une réponse à autrui.",
+        "C : demande une précision manquante sur lieu, matériel, fonctionnement ou nombre.",
+        "R : pose après la réponse une question supplémentaire liée, distincte de C.",
+        "P : reprend ou intègre au moins un détail donné pour formuler un plan commun intelligible."
+      ],
+      "feedback": "Si C est absent, nommer l’ambiguïté et reprendre l’entraînement de question ciblée. Si R manque, entraîner l’usage de la réponse pour poursuivre. Si P est erronée, travailler la reformulation. Refaire une preuve indépendante après remédiation; ne pas déclarer la maîtrise avec la seule preuve A.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "nature": "preuve_maitrise_A",
+      "contexte": "négociation d’une activité à la récréation",
+      "representation": "échange oral en direct avec carte partenaire distincte",
+      "limites_variation": "Stimulus et carte-réponse verrouillés; partenaires peuvent reformuler naturellement sans ajouter d’information nouvelle; réponses synonymes acceptées si la fonction communicative est observable. Aucun tirage de scénario ni génération IA en passation.",
+      "passation": "Partenaire lit le départ, attend les questions, donne uniquement les réponses conditionnelles prévues; le professeur note les contributions sans souffler les phrases. Temps de formulation, répétition naturelle et assistance d’accès permis, journalisés.",
+      "rubrique_observation": {
+        "observe": "Production compréhensible réalisant les actions listées dans criteres; le partenaire peut répondre et l’apprenant réutilise les informations demandées.",
+        "partiel_ou_avec_aide": "Une action importante est omise ou n’apparaît qu’après invite linguistique; reprendre avec un autre contexte après feedback.",
+        "non_observe": "Les tours ne permettent ni réponse pertinente ni correction de l’ambiguïté; revenir au modelage ciblé."
+      },
+      "securite_accessibilite": "Situation scolaire fictive sans donnée intime; ne jamais pénaliser l’accent légitime. Répétition naturelle, temps souple, images de contexte et dispositif de sortie vocale accessibles; aucun script linguistique fourni pendant les preuves de maîtrise.",
+      "source_interne": "contenu/06_REMEDIATION_ET_TRANSFERT.md",
+      "preuve_maitrise": {
+        "statut": "preuve_A",
+        "autonomie": "aucune invite linguistique ni correction pendant l’échange",
+        "attendu_TCRP": "Au moins trois contributions liées; une question qui clarifie un manque; une relance différente appuyée sur la réponse; reprise ou utilisation d’un détail; le partenaire réagit réellement. Les quatre critères sont requis pour déclarer la manifestation autonome.",
+        "autre_contexte_exige": "q-010"
+      }
+    },
+    {
+      "item_id": "qc-pri-fls-005-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Tu visites le comptoir imaginaire d’une bibliothèque qui annonce un club de jeux. Discute avec la personne pour savoir quand et où venir et, si nécessaire, comment s’inscrire. Demande une précision utile, pose ensuite une autre question liée et confirme ce que tu as compris. Aucun modèle de phrase ne t’est donné.",
+      "stimulus": "CARTE PARTENAIRE (ne pas communiquer à l’apprenant) : ouverture « Le club de jeux se réunit jeudi ». Si heure demandée → « À 15 h 30 ». Si salle demandée → « Dans la salle bleue ». Si inscription demandée → « Au comptoir avant mercredi ». Les données sont fictives; le partenaire donne seulement ce qui est demandé sans proposer la question suivante.",
+      "reponse_attendue": "Une performance recevable comprend au moins trois contributions liées et plusieurs alternances réelles : par exemple « À quelle heure jeudi? » → « À 15 h 30 » → « Jeudi à 15 h 30, d’accord. Dans quelle salle? » → « Dans la salle bleue » → « Merci, je viendrai jeudi à 15 h 30 dans la salle bleue ». D’autres relances pertinentes, notamment sur l’inscription, sont admissibles. Observer T/C/R/P; aucun accent particulier exigé.",
+      "criteres": [
+        "T : participe à au moins trois tours liés en échange réel, en laissant répondre.",
+        "C : identifie une information utile absente de l’annonce (« quelle heure? », « où? »).",
+        "R : fait avancer le même sujet par une question différente après avoir reçu une réponse.",
+        "P : utilise correctement au moins une précision pour décider ou confirmer, sans inventer une donnée contraire."
+      ],
+      "feedback": "Si le partenaire doit suggérer la question, indiquer la dimension non autonome. Proposer une remédiation ciblée suivie d’une nouvelle conversation de service sans indice; une performance réussie ici ne remplace pas l’observation en contexte A.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "nature": "preuve_maitrise_B",
+      "contexte": "demande d’information à une bibliothèque fictive",
+      "representation": "échange oral en direct avec carte partenaire distincte",
+      "limites_variation": "Stimulus et carte-réponse verrouillés; partenaires peuvent reformuler naturellement sans ajouter d’information nouvelle; réponses synonymes acceptées si la fonction communicative est observable. Aucun tirage de scénario ni génération IA en passation.",
+      "passation": "Partenaire lit le départ, attend les questions, donne uniquement les réponses conditionnelles prévues; le professeur note les contributions sans souffler les phrases. Temps de formulation, répétition naturelle et assistance d’accès permis, journalisés.",
+      "rubrique_observation": {
+        "observe": "Production compréhensible réalisant les actions listées dans criteres; le partenaire peut répondre et l’apprenant réutilise les informations demandées.",
+        "partiel_ou_avec_aide": "Une action importante est omise ou n’apparaît qu’après invite linguistique; reprendre avec un autre contexte après feedback.",
+        "non_observe": "Les tours ne permettent ni réponse pertinente ni correction de l’ambiguïté; revenir au modelage ciblé."
+      },
+      "securite_accessibilite": "Situation scolaire fictive sans donnée intime; ne jamais pénaliser l’accent légitime. Répétition naturelle, temps souple, images de contexte et dispositif de sortie vocale accessibles; aucun script linguistique fourni pendant les preuves de maîtrise.",
+      "source_interne": "contenu/06_REMEDIATION_ET_TRANSFERT.md",
+      "preuve_maitrise": {
+        "statut": "preuve_B",
+        "autonomie": "aucune invite linguistique ni correction pendant l’échange",
+        "attendu_TCRP": "Au moins trois contributions liées; une question qui clarifie un manque; une relance différente appuyée sur la réponse; reprise ou utilisation d’un détail; le partenaire réagit réellement. Les quatre critères sont requis pour déclarer la manifestation autonome.",
+        "autre_contexte_exige": "q-009"
+      }
+    }
+  ]
+}

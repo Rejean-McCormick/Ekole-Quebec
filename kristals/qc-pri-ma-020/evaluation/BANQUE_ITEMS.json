@@ -1,0 +1,380 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-020",
+  "family_id": "qc-pri-ma-020-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-020-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Fais un dessin de groupes égaux, écris l’opération et vérifie.",
+      "stimulus": "Cinq corbeilles ont chacune six pommes. Combien de pommes en tout?",
+      "reponse_attendue": "Cinq groupes de six; 5×6=30 pommes. Contrôle : 30÷5=6 pommes/corbeille.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Si tu as écrit 5+6, dessine cinq corbeilles et compte six pommes dans chacune. Si tu as écrit 30 corbeilles, corrige l’unité.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "dessin de cinq corbeilles et écriture symbolique"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Modélise un partage équitable, calcule et contrôle.",
+      "stimulus": "On donne 42 feuilles à 7 équipes, équitablement, sans reste. Combien de feuilles par équipe?",
+      "reponse_attendue": "Sept groupes de six; 42÷7=6 feuilles/équipe. Contrôle : 7×6=42 feuilles et reste 0.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Ne confonds pas le nombre d’équipes (7) avec le nombre de feuilles par équipe (6). Utilise sept cases et vérifie les groupes égaux.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "sept parts égales; équation inverse"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "parametrique",
+      "consigne": "Dessine ou décris la représentation proposée, écris les opérations, réponds en unités et démontre ton résultat. Ne conserve pas uniquement le chiffre.",
+      "stimulus": "Combien de crayons y a-t-il dans 8 pots contenant chacun 10 crayons?",
+      "reponse_attendue": "8 groupes de 10 crayons, soit 8×10=80 crayons. Vérification : 80÷8=10 crayons/pot.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Si la réponse ne correspond pas, repars de la représentation : légende chaque nombre et utilise une opération inverse.",
+      "difficulte": "initial",
+      "seed": 2003,
+      "parametres": {
+        "generateur": "arithmetique_deterministe_v1",
+        "seed": 2003,
+        "variables": {
+          "a": 8,
+          "b": 10
+        },
+        "domaines": "a = 3+(s % 6) ∈ [3,8]; b = 4+((s//7)%8) ∈ [4,11]",
+        "contraintes": "a,b entiers strictement positifs; même quantité b dans chacun des a groupes",
+        "algorithme": "a=3+(seed%6); b=4+((seed//7)%8); T=a*b",
+        "verification_independante": "recalcul par identité arithmétique et test de bornes sur la valeur entière",
+        "instance_verifiee": {
+          "stimulus": "Combien de crayons y a-t-il dans 8 pots contenant chacun 10 crayons?",
+          "reponse": "8 groupes de 10 crayons, soit 8×10=80 crayons. Vérification : 80÷8=10 crayons/pot."
+        }
+      },
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "schéma de boîtes égales et équation"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "parametrique",
+      "consigne": "Dessine ou décris la représentation proposée, écris les opérations, réponds en unités et démontre ton résultat. Ne conserve pas uniquement le chiffre.",
+      "stimulus": "Pour fabriquer 5 marque-pages, on utilise exactement 2 autocollants par marque-page. Combien en faut-il?",
+      "reponse_attendue": "Tableau (marque-pages→autocollants) : 1→2, 2→4, 5→10; 5×2=10 autocollants. Contrôle : 10÷5=2 autocollants/marque-page.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Si la réponse ne correspond pas, repars de la représentation : légende chaque nombre et utilise une opération inverse.",
+      "difficulte": "intermediaire",
+      "seed": 2011,
+      "parametres": {
+        "generateur": "arithmetique_deterministe_v1",
+        "seed": 2011,
+        "variables": {
+          "n": 5,
+          "k": 2
+        },
+        "domaines": "n = 3+(s % 7) ∈ [3,9]; k = 2+((s//5)%6) ∈ [2,7]",
+        "contraintes": "rapport constant k cartes par marque-page; n,k entiers positifs",
+        "algorithme": "n=3+(seed%7); k=2+((seed//5)%6); T=n*k",
+        "verification_independante": "recalcul par identité arithmétique et test de bornes sur la valeur entière",
+        "instance_verifiee": {
+          "stimulus": "Pour fabriquer 5 marque-pages, on utilise exactement 2 autocollants par marque-page. Combien en faut-il?",
+          "reponse": "Tableau (marque-pages→autocollants) : 1→2, 2→4, 5→10; 5×2=10 autocollants. Contrôle : 10÷5=2 autocollants/marque-page."
+        }
+      },
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "tableau 1, 2 et n unités puis équation"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "parametrique",
+      "consigne": "Dessine ou décris la représentation proposée, écris les opérations, réponds en unités et démontre ton résultat. Ne conserve pas uniquement le chiffre.",
+      "stimulus": "On partage 16 jetons également entre 8 équipes. Combien chaque équipe reçoit-elle?",
+      "reponse_attendue": "8 parts égales de 2 jetons; 16÷8=2 jetons/équipe, reste 0. Vérification : 8×2+0=16.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Si la réponse ne correspond pas, repars de la représentation : légende chaque nombre et utilise une opération inverse.",
+      "difficulte": "intermediaire",
+      "seed": 2027,
+      "parametres": {
+        "generateur": "arithmetique_deterministe_v1",
+        "seed": 2027,
+        "variables": {
+          "d": 8,
+          "q": 2,
+          "N": 16
+        },
+        "domaines": "d = 3+(s % 6) ∈ [3,8]; q = 2+((s//11)%8) ∈ [2,9]; N=d*q",
+        "contraintes": "d divise N; le quotient q est entier; pas de reste",
+        "algorithme": "d=3+(seed%6); q=2+((seed//11)%8); N=d*q; contrôle N%d=0",
+        "verification_independante": "recalcul par identité arithmétique et test de bornes sur la valeur entière",
+        "instance_verifiee": {
+          "stimulus": "On partage 16 jetons également entre 8 équipes. Combien chaque équipe reçoit-elle?",
+          "reponse": "8 parts égales de 2 jetons; 16÷8=2 jetons/équipe, reste 0. Vérification : 8×2+0=16."
+        }
+      },
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "d groupes avec q dans chacun, équation inverse"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "parametrique",
+      "consigne": "Dessine ou décris la représentation proposée, écris les opérations, réponds en unités et démontre ton résultat. Ne conserve pas uniquement le chiffre.",
+      "stimulus": "On a 36 petites pièces. Une boîte contient au plus 7 pièces. Combien de boîtes pleines, combien de pièces restantes et combien de boîtes en tout pour les ranger?",
+      "reponse_attendue": "Dessiner 5 boîtes de 7 pièces et 1 pièces à part : 36=7×5+1, avec 0≤1<7. 5 boîtes pleines et 1 pièces restantes; 6 boîtes pour tout ranger (la dernière est incomplète).",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Si la réponse ne correspond pas, repars de la représentation : distingue paquets pleins, reste et nombre de boîtes nécessaires.",
+      "difficulte": "intermediaire",
+      "seed": 2033,
+      "parametres": {
+        "generateur": "arithmetique_deterministe_v1",
+        "seed": 2033,
+        "variables": {
+          "d": 7,
+          "q": 5,
+          "r": 1,
+          "N": 36
+        },
+        "domaines": "d = 4+(s%5) ∈ [4,8]; q = 3+((s//7)%6) ∈ [3,8]; r = 1+((s//13)%(d-1)) ∈ [1,d-1]; N=d*q+r",
+        "contraintes": "d>0, q≥3, 1≤r<d; reste toujours non nul; q groupes complets, q+1 boîtes nécessaires",
+        "algorithme": "d=4+(seed%5); q=3+((seed//7)%6); r=1+((seed//13)%(d-1)); N=d*q+r; r=N%d",
+        "verification_independante": "recalcul par identité arithmétique et test de bornes sur la valeur entière",
+        "instance_verifiee": {
+          "stimulus": "On a 36 petites pièces. Une boîte contient au plus 7 pièces. Combien de boîtes pleines, combien de pièces restantes et combien de boîtes en tout pour les ranger?",
+          "reponse": "Dessiner 5 boîtes de 7 pièces et 1 pièces à part : 36=7×5+1, avec 0≤1<7. 5 boîtes pleines et 1 pièces restantes; 6 boîtes pour tout ranger (la dernière est incomplète)."
+        }
+      },
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "q groupes complets, r objets isolés"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "parametrique",
+      "consigne": "Dessine ou décris la représentation proposée, écris les opérations, réponds en unités et démontre ton résultat. Ne conserve pas uniquement le chiffre.",
+      "stimulus": "L’équipe bleue a 4 rubans. L’équipe verte en a 3 fois autant. Combien de rubans possède l’équipe verte?",
+      "reponse_attendue": "Une barre bleue de 4 rubans; 3 barres identiques pour l’équipe verte : 3×4=12 rubans. Vérification : 12÷3=4.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Si la réponse ne correspond pas, repars de la représentation : légende chaque nombre et utilise une opération inverse.",
+      "difficulte": "intermediaire",
+      "seed": 2041,
+      "parametres": {
+        "generateur": "arithmetique_deterministe_v1",
+        "seed": 2041,
+        "variables": {
+          "b": 4,
+          "f": 3
+        },
+        "domaines": "b = 3+(s%8) ∈ [3,10]; f = 2+((s//9)%5) ∈ [2,6]",
+        "contraintes": "f est le facteur multiplicatif, pas une addition; b et f entiers positifs",
+        "algorithme": "b=3+(seed%8); f=2+((seed//9)%5); T=b*f",
+        "verification_independante": "recalcul par identité arithmétique et test de bornes sur la valeur entière",
+        "instance_verifiee": {
+          "stimulus": "L’équipe bleue a 4 rubans. L’équipe verte en a 3 fois autant. Combien de rubans possède l’équipe verte?",
+          "reponse": "Une barre bleue de 4 rubans; 3 barres identiques pour l’équipe verte : 3×4=12 rubans. Vérification : 12÷3=4."
+        }
+      },
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "barres de longueur égale comparées"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "parametrique",
+      "consigne": "Dessine ou décris la représentation proposée, écris les opérations, réponds en unités et démontre ton résultat. Ne conserve pas uniquement le chiffre.",
+      "stimulus": "Une salle installe 7 rangées de 11 chaises, puis retire 12 chaises. Combien de chaises restent en place?",
+      "reponse_attendue": "Représenter 7 rangées de 11, puis barrer 12 chaises : 7×11−12=65 chaises. Contrôle : 65+12=77 chaises initiales.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Si la réponse ne correspond pas, repars de la représentation : légende chaque nombre et utilise une opération inverse.",
+      "difficulte": "transfert",
+      "seed": 2053,
+      "parametres": {
+        "generateur": "arithmetique_deterministe_v1",
+        "seed": 2053,
+        "variables": {
+          "g": 7,
+          "p": 11,
+          "x": 12,
+          "T": 65
+        },
+        "domaines": "g = 4+(s%5) ∈ [4,8]; p = 5+((s//7)%7) ∈ [5,11]; x = 1+((s//11)%(g*p//3)) ∈ [1, floor(g*p/3)]",
+        "contraintes": "x positif strictement inférieur à g*p; retirés après constitution des groupes",
+        "algorithme": "g=4+(seed%5); p=5+((seed//7)%7); x=1+((seed//11)%(g*p//3)); T=g*p-x; contrôle T+x=g*p",
+        "verification_independante": "recalcul par identité arithmétique et test de bornes sur la valeur entière",
+        "instance_verifiee": {
+          "stimulus": "Une salle installe 7 rangées de 11 chaises, puis retire 12 chaises. Combien de chaises restent en place?",
+          "reponse": "Représenter 7 rangées de 11, puis barrer 12 chaises : 7×11−12=65 chaises. Contrôle : 65+12=77 chaises initiales."
+        }
+      },
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "g groupes de p moins x objets retirés"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Décide si la démarche est valide; corrige avec une représentation et un contrôle.",
+      "stimulus": "Élodie met 27 macarons dans des sacs de 5. Elle écrit : « 27=5×4+7; il reste 7 macarons, donc quatre sacs pleins ». Sa division avec reste est-elle achevée?",
+      "reponse_attendue": "Non. Bien que 5×4+7=27, le reste 7 est au moins 5. Un autre sac plein est possible. Corriger : 27=5×5+2; cinq sacs pleins, deux macarons restants, six sacs si on veut tout ranger. Contrôle : 0≤2<5.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Une égalité juste n’est pas toujours une division euclidienne terminée. Le reste doit être plus petit que la capacité d’un sac.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "correction de modèle; sacs et reste"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Montre pourquoi ce modèle ne convient pas et propose le calcul correct.",
+      "stimulus": "Trois étagères contiennent respectivement 4, 6 et 7 pots. Hugo écrit 3×6=18 pots parce qu’il y a trois étagères.",
+      "reponse_attendue": "Les tailles de groupes ne sont pas égales : 4+6+7=17 pots, et non 18. Le calcul 3×6 supposerait six pots sur chacune des trois étagères, ce qui est faux. Contrôle : recompter les trois quantités.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Le nombre de groupes n’autorise la multiplication par une taille unique que si tous les groupes sont égaux. Vérifie chaque étagère.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "barres de longueurs 4, 6, 7; somme"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sans indice, construis une représentation originale et résous les trois questions. Justifie avec une égalité inverse.",
+      "stimulus": "Un centre communautaire reçoit 47 livrets. Les bénévoles préparent des piles de 6 livrets. Combien de piles complètes peuvent-ils faire? Combien de livrets restent? Combien de piles au total pour ranger tous les livrets?",
+      "reponse_attendue": "Sept piles complètes de six livrets, cinq livrets isolés. 47=6×7+5; 0≤5<6. Pour ranger tout, huit piles dont une incomplète. Vérification : 7×6=42≤47 et 8×6=48>47.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Si tu as répondu huit piles complètes, vérifie : huit piles de six demanderaient 48 livrets. Il n’y en a que 47.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "piles de livrets, schéma/barres et équation",
+      "contexte_preuve": "preuve_autonome_A_centre_communautaire"
+    },
+    {
+      "item_id": "qc-pri-ma-020-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-020-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sans indice, construis un tableau ou un schéma, calcule et vérifie avec une opération inverse.",
+      "stimulus": "Une ferme pédagogique remplit chaque panier avec exactement 4 pommes. Elle remplit 13 paniers de la même façon. Combien de pommes dans tous les paniers? Présente un modèle qui montre le rapport constant.",
+      "reponse_attendue": "Treize groupes de quatre pommes. Tableau : 1 panier→4 pommes; 5 paniers→20 pommes; 13 paniers→52 pommes. Calcul 13×4=52 pommes. Vérification : 52÷13=4 pommes/panier. Le rapport est de 4 pommes par panier.",
+      "criteres": [
+        "Représente correctement les quantités, les groupes ou les parts, avec les unités.",
+        "Choisit et écrit une opération correspondant au sens de la question.",
+        "Obtient le résultat exact et interprète le quotient/reste s’il y a lieu.",
+        "Contrôle le résultat avec une relation inverse, une égalité ou une borne pertinente."
+      ],
+      "feedback": "Si tu as additionné 13 et 4, représente treize paniers portant chacun quatre pommes. Vérifie que le rapport reste constant.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "source": "production_originale_interne",
+      "representation": "tableau proportionnel, 13 groupes et opération",
+      "contexte_preuve": "preuve_autonome_B_ferme_pedagogique"
+    }
+  ]
+}

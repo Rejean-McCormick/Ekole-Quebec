@@ -1,0 +1,83 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ilss-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Reconnaître et utiliser les mots clés des activités scolaires.",
+  "concepts": [
+    "outil",
+    "discipline",
+    "objet",
+    "action"
+  ],
+  "preuve_attendue": "Associer lexique et consignes dans une tâche scolaire nouvelle.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ilss-003-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Associer lexique et consignes dans une tâche scolaire nouvelle.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ilss-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Associer lexique et consignes dans une tâche scolaire nouvelle.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "consigne_écrite_et_lue_à_voix_haute",
+        "cartes_mots_et_materiel_scolaire",
+        "production_observable_ou_pointage"
+      ],
+      "variables": {
+        "mode": "corpus_fixe_controle",
+        "items": "qc-pri-ilss-003-q-001 à qc-pri-ilss-003-q-012",
+        "adaptations_autorisees": [
+          "lecture verbatim du stimulus",
+          "agrandissement des textes",
+          "réponse montrée, parlée ou manipulée sans indice lexical"
+        ]
+      },
+      "contraintes": [
+        "Aucune substitution libre de mots ni de consignes dans les épreuves q-011 et q-012",
+        "Aucun indice sur le sens de action/outil/objet/discipline pendant les preuves",
+        "Pas de score d’accent, rapidité, décodage, immigration, intelligence ou identité",
+        "Deux contextes observés séparément (sciences, arts plastiques)",
+        "Matériel sécuritaire et non tranchant"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "D1_action",
+          "D2_outil_et_objet",
+          "D3_contexte",
+          "D4_autonomie_et_transfert"
+        ],
+        "echelle": "0-1-2_par_dimension",
+        "decision": "D1=D2=2 et D3>=1 et D4>=1 sur chacune des deux preuves q-011 et q-012; pas une note unique"
+      },
+      "source": {
+        "workspace": "authoring/PARCOURS.md (frame v1.2)",
+        "materiel": "scripts et cartes pédagogiques originaux dans contenu/ et evaluation/",
+        "references": "sources/REFERENCES_CONTENU.md"
+      },
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

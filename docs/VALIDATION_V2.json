@@ -1,0 +1,31 @@
+{
+  "format": "ekole.societes-livraison-v2/1.0",
+  "date": "2026-10-09",
+  "statut": "candidate_documentaire_v9_non_publiee",
+  "resultats": {
+    "assertions_v1_conservees": 23,
+    "assertions_v2_total": 37,
+    "assertions_v2_ajoutees": 14,
+    "sources_referencees": 22,
+    "relations_situees_ajoutees": 8,
+    "normes_contextualisees_attribuees": 4,
+    "activites_v1_conservees": 22,
+    "activites_v2_produites": 16,
+    "prompts_visuels": 13,
+    "tests_python": 26,
+    "tests_node_legacy": "ok",
+    "kristal_check_model": "ok",
+    "kristal_build_v9_modele": "ok",
+    "integration_real_course_build_v9": "ok",
+    "validation_nations": "non_realisee",
+    "verification_graphique_chromium": "bloquee_par_env",
+    "sources_anciennes_a_ancrer_precisement": 23
+  },
+  "remarques": [
+    "Le total 38 désigne deux versions d’activités accessibles, pas 38 activités pédagogiquement approuvées.",
+    "Les exercices v2 sont des entraînements construits depuis les fiches documentées, pas une certification.",
+    "Le corpus v1 garde sa propre entrée et n’est pas écrasé.",
+    "Aucune image créée, aucun style imposé.",
+    "Aucune publication v10 lancée."
+  ]
+}

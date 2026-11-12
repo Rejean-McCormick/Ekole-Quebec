@@ -1,0 +1,879 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-026",
+  "family_id": "qc-pri-ma-026-ev-01",
+  "conventions": "horaires fictifs, notation de 24 h, dates grégoriennes, 1 jour = 1440 minutes; pas de changement d’heure légal ni de fuseaux; réponse calculée indépendamment du rendu de l’énoncé.",
+  "validation_status": "a_revoir",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-026-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les deux heures, calcule la durée et vérifie avec une addition.",
+      "stimulus": "Horaire fictif : un jeu débute à 07 h 20 et se termine à 07 h 55, le même jour.",
+      "reponse_attendue": "35 min; 07 h 20 + 35 min = 07 h 55. La fin suit le début.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements."
+      ],
+      "feedback": "Si tu as soustrait les heures comme des décimales, compte d’abord les minutes jusqu’à 07 h 55 puis refais l’addition de contrôle.",
+      "difficulte": "initial",
+      "representation": "tableau horaire 24 h",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "correction_minutes": 35,
+      "variabilite_permises": "aucune"
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule la durée et contrôle sa compatibilité avec la séance suivante.",
+      "stimulus": "Le lundi 6 octobre 2025, une répétition fictive débute à 09 h 10 et se termine à 09 h 45. La séance suivante commence à 09 h 55. Combien de minutes dure la répétition? Reste-t-il au moins 10 minutes avant la séance suivante?",
+      "reponse_attendue": "35 min. En effet 09 h 10 + 35 min = 09 h 45. Le temps libre est de 10 min; oui, il reste 10 min avant 09 h 55.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements.",
+        "Marge de temps jusqu’à la séance suivante correctement interprétée."
+      ],
+      "feedback": "Refais d’abord le calcul début→fin en minutes; ensuite seulement, compare fin et prochaine séance.",
+      "difficulte": "initial",
+      "representation": "tableau horaire + intervalle libre",
+      "seed": 26002,
+      "parametres": {
+        "version": "qc.temps-controle/1.0",
+        "variables": [
+          {
+            "nom": "H",
+            "domaine_fini": [
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "nom": "M",
+            "domaine_fini": [
+              10,
+              25,
+              40
+            ]
+          },
+          {
+            "nom": "D",
+            "domaine_fini": [
+              35,
+              50,
+              75
+            ]
+          },
+          {
+            "nom": "G",
+            "domaine_fini": [
+              10,
+              20,
+              30
+            ]
+          }
+        ],
+        "contraintes": [
+          "H ≤ 10; même date à la fin",
+          "D et G sont des entiers positifs exprimés en minutes",
+          "D = fin − début et G = séance_suivante − fin"
+        ],
+        "tirage_deterministe": "x := seed (entier naturel); parcourir les variables dans l’ordre du tableau; choisir domaine[x modulo taille_domaine]; poser x := x // taille_domaine; aucune source aléatoire ni rejet.",
+        "algorithme_resolution": "S = date 2025-10-06, H:M; F=S+D min; N=F+G min; durée=F−S=D; marge=N−F=G",
+        "regle_calendrier": "calendrier grégorien; dates ISO AAAA-MM-JJ; jour toujours égal à 1440 min; pas de fuseaux horaires ni changement légal d’heure; arithmétique minute entière.",
+        "algorithme_controle_independant": "D = 1440*(ordinal(date_fin)-ordinal(date_debut)) + 60*(heure_fin-heure_debut) + minute_fin-minute_debut; comparer D à la solution.",
+        "instanciation_courante": {
+          "seed": 26002,
+          "variables": {
+            "H": 9,
+            "M": 10,
+            "D": 35,
+            "G": 10
+          },
+          "debut_iso": "2025-10-06T09:10",
+          "fin_iso": "2025-10-06T09:45",
+          "solution_minutes": 35,
+          "controle": 10
+        },
+        "exemples_valides": [
+          {
+            "seed": 26002,
+            "valeurs": {
+              "H": 9,
+              "M": 10,
+              "D": 35,
+              "G": 10
+            },
+            "debut_iso": "2025-10-06T09:10",
+            "fin_iso": "2025-10-06T09:45",
+            "duree_minutes": 35,
+            "controle": 10
+          },
+          {
+            "seed": 26003,
+            "valeurs": {
+              "H": 10,
+              "M": 10,
+              "D": 35,
+              "G": 10
+            },
+            "debut_iso": "2025-10-06T10:10",
+            "fin_iso": "2025-10-06T10:45",
+            "duree_minutes": 35,
+            "controle": 10
+          },
+          {
+            "seed": 26010,
+            "valeurs": {
+              "H": 8,
+              "M": 10,
+              "D": 50,
+              "G": 10
+            },
+            "debut_iso": "2025-10-06T08:10",
+            "fin_iso": "2025-10-06T09:00",
+            "duree_minutes": 50,
+            "controle": 10
+          }
+        ],
+        "variations_permises": "substituer uniquement les valeurs des domaines finis ci-dessus, puis recalculer les heures/dates et le corrigé par les deux algorithmes avant toute nouvelle passation.",
+        "limitations": "Une nouvelle variation nécessite recalcul ET revue éditoriale; aucune génération IA libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "fixe",
+      "consigne": "Détermine la durée, indique un repère intermédiaire et vérifie.",
+      "stimulus": "Dans un horaire fictif, une activité commence à 10 h 55 et finit à 11 h 15.",
+      "reponse_attendue": "20 min : 5 min jusqu’à 11 h 00, puis 15 min jusqu’à 11 h 15. 10 h 55 + 20 min = 11 h 15.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements."
+      ],
+      "feedback": "Pour éviter la base 100, avance d’abord jusqu’à l’heure ronde, puis jusqu’à l’heure de fin.",
+      "difficulte": "initial",
+      "representation": "frise de changement d’heure",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "correction_minutes": 20,
+      "variabilite_permises": "aucune"
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule chaque étape et la durée globale entre le premier départ et la fin.",
+      "stimulus": "Mardi 7 octobre 2025, un programme fictif indique : départ à 12 h 20, arrêt à 12 h 55, fin à 13 h 05. Quelle est la durée de la première étape? De la seconde? Quelle est la durée totale entre départ et fin?",
+      "reponse_attendue": "Première étape : 35 min; seconde : 10 min; total : 45 min. Vérification : 12 h 20 + 45 min = 13 h 05.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements.",
+        "Les durées d’étapes se recomposent exactement en durée totale."
+      ],
+      "feedback": "Si tu additionnes des heures affichées, relis-les comme des instants puis calcule les deux intervalles.",
+      "difficulte": "intermediaire",
+      "representation": "tableau multiévénements + addition de bonds",
+      "seed": 26004,
+      "parametres": {
+        "version": "qc.temps-controle/1.0",
+        "variables": [
+          {
+            "nom": "H",
+            "domaine_fini": [
+              12,
+              14,
+              16
+            ]
+          },
+          {
+            "nom": "M",
+            "domaine_fini": [
+              5,
+              20,
+              35
+            ]
+          },
+          {
+            "nom": "D1",
+            "domaine_fini": [
+              20,
+              35
+            ]
+          },
+          {
+            "nom": "D2",
+            "domaine_fini": [
+              10,
+              20
+            ]
+          }
+        ],
+        "contraintes": [
+          "Dates identiques; D1,D2 > 0",
+          "Premier arrêt = S+D1; fin = arrêt+D2; somme < 60 minutes"
+        ],
+        "tirage_deterministe": "x := seed (entier naturel); parcourir les variables dans l’ordre du tableau; choisir domaine[x modulo taille_domaine]; poser x := x // taille_domaine; aucune source aléatoire ni rejet.",
+        "algorithme_resolution": "S = date 2025-10-07 H:M; A=S+D1; F=A+D2; durée totale=D1+D2",
+        "regle_calendrier": "calendrier grégorien; dates ISO AAAA-MM-JJ; jour toujours égal à 1440 min; pas de fuseaux horaires ni changement légal d’heure; arithmétique minute entière.",
+        "algorithme_controle_independant": "D = 1440*(ordinal(date_fin)-ordinal(date_debut)) + 60*(heure_fin-heure_debut) + minute_fin-minute_debut; comparer D à la solution.",
+        "instanciation_courante": {
+          "seed": 26004,
+          "variables": {
+            "H": 12,
+            "M": 20,
+            "D1": 35,
+            "D2": 10
+          },
+          "debut_iso": "2025-10-07T12:20",
+          "fin_iso": "2025-10-07T13:05",
+          "solution_minutes": 45,
+          "controle": [
+            35,
+            10
+          ]
+        },
+        "exemples_valides": [
+          {
+            "seed": 26004,
+            "valeurs": {
+              "H": 12,
+              "M": 20,
+              "D1": 35,
+              "D2": 10
+            },
+            "debut_iso": "2025-10-07T12:20",
+            "fin_iso": "2025-10-07T13:05",
+            "duree_minutes": 45,
+            "controle": [
+              35,
+              10
+            ]
+          },
+          {
+            "seed": 26005,
+            "valeurs": {
+              "H": 14,
+              "M": 20,
+              "D1": 35,
+              "D2": 10
+            },
+            "debut_iso": "2025-10-07T14:20",
+            "fin_iso": "2025-10-07T15:05",
+            "duree_minutes": 45,
+            "controle": [
+              35,
+              10
+            ]
+          },
+          {
+            "seed": 26012,
+            "valeurs": {
+              "H": 16,
+              "M": 5,
+              "D1": 20,
+              "D2": 20
+            },
+            "debut_iso": "2025-10-07T16:05",
+            "fin_iso": "2025-10-07T16:45",
+            "duree_minutes": 40,
+            "controle": [
+              20,
+              20
+            ]
+          }
+        ],
+        "variations_permises": "substituer uniquement les valeurs des domaines finis ci-dessus, puis recalculer les heures/dates et le corrigé par les deux algorithmes avant toute nouvelle passation.",
+        "limitations": "Une nouvelle variation nécessite recalcul ET revue éditoriale; aucune génération IA libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare les durées des deux créneaux, en indiquant combien le premier dépasse le second.",
+      "stimulus": "Horaire fictif : activité A de 10 h 10 à 11 h 00; pause B de 11 h 00 à 11 h 30 (même date).",
+      "reponse_attendue": "Activité A : 50 min. Pause B : 30 min. L’activité A dure 20 min de plus. Contrôle : 10 h 10+50 min = 11 h 00 et 11 h 00+30 min=11 h 30.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements.",
+        "Comparaison correcte : 20 min plus long pour A."
+      ],
+      "feedback": "Vérifie chaque intervalle séparément avant de comparer : une heure affichée n’est pas une durée.",
+      "difficulte": "intermediaire",
+      "representation": "horaire à deux créneaux",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "correction_minutes": 50,
+      "variabilite_permises": "aucune"
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule la durée en minutes, puis prouve-la par conversion ou par bonds.",
+      "stimulus": "Jeudi 9 octobre 2025, un jeu fictif débute à 15 h 50 et finit à 16 h 10. Quelle durée s’est écoulée? Vérifie que la fin suit le début.",
+      "reponse_attendue": "20 min. Calcul : (16×60+10) − (15×60+50) = 20. Vérification : 15 h 50 + 20 min = 16 h 10.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements."
+      ],
+      "feedback": "Si la soustraction des minutes semble négative, convertis d’abord en minutes depuis minuit ou passe par l’heure ronde.",
+      "difficulte": "intermediaire",
+      "representation": "horaire 24 h + conversion en minutes",
+      "seed": 26006,
+      "parametres": {
+        "version": "qc.temps-controle/1.0",
+        "variables": [
+          {
+            "nom": "H",
+            "domaine_fini": [
+              9,
+              12,
+              15
+            ]
+          },
+          {
+            "nom": "M",
+            "domaine_fini": [
+              45,
+              50,
+              55
+            ]
+          },
+          {
+            "nom": "D",
+            "domaine_fini": [
+              20,
+              30,
+              40
+            ]
+          }
+        ],
+        "contraintes": [
+          "F le même jour que S",
+          "D strictement positif; passage d’heure garanti puisque D>60−M"
+        ],
+        "tirage_deterministe": "x := seed (entier naturel); parcourir les variables dans l’ordre du tableau; choisir domaine[x modulo taille_domaine]; poser x := x // taille_domaine; aucune source aléatoire ni rejet.",
+        "algorithme_resolution": "S = 2025-10-09 H:M; F=S+D min; durée=60(F.H−S.H)+(F.M−S.M)=D",
+        "regle_calendrier": "calendrier grégorien; dates ISO AAAA-MM-JJ; jour toujours égal à 1440 min; pas de fuseaux horaires ni changement légal d’heure; arithmétique minute entière.",
+        "algorithme_controle_independant": "D = 1440*(ordinal(date_fin)-ordinal(date_debut)) + 60*(heure_fin-heure_debut) + minute_fin-minute_debut; comparer D à la solution.",
+        "instanciation_courante": {
+          "seed": 26006,
+          "variables": {
+            "H": 15,
+            "M": 50,
+            "D": 20
+          },
+          "debut_iso": "2025-10-09T15:50",
+          "fin_iso": "2025-10-09T16:10",
+          "solution_minutes": 20,
+          "controle": 0
+        },
+        "exemples_valides": [
+          {
+            "seed": 26006,
+            "valeurs": {
+              "H": 15,
+              "M": 50,
+              "D": 20
+            },
+            "debut_iso": "2025-10-09T15:50",
+            "fin_iso": "2025-10-09T16:10",
+            "duree_minutes": 20,
+            "controle": 0
+          },
+          {
+            "seed": 26007,
+            "valeurs": {
+              "H": 9,
+              "M": 55,
+              "D": 20
+            },
+            "debut_iso": "2025-10-09T09:55",
+            "fin_iso": "2025-10-09T10:15",
+            "duree_minutes": 20,
+            "controle": 0
+          },
+          {
+            "seed": 26014,
+            "valeurs": {
+              "H": 12,
+              "M": 50,
+              "D": 30
+            },
+            "debut_iso": "2025-10-09T12:50",
+            "fin_iso": "2025-10-09T13:20",
+            "duree_minutes": 30,
+            "controle": 0
+          }
+        ],
+        "variations_permises": "substituer uniquement les valeurs des domaines finis ci-dessus, puis recalculer les heures/dates et le corrigé par les deux algorithmes avant toute nouvelle passation.",
+        "limitations": "Une nouvelle variation nécessite recalcul ET revue éditoriale; aucune génération IA libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "fixe",
+      "consigne": "Calcule la durée et justifie quelle date vient après l’autre.",
+      "stimulus": "Une observation fictive commence le 28 février 2024 à 23 h 25 et finit le 29 février 2024 à 00 h 05.",
+      "reponse_attendue": "40 min : 35 min jusqu’à minuit + 5 min après. 2024 est bissextile, donc le 29 février suit le 28 février. Contrôle : 28 février 23 h 25 + 40 min = 29 février 00 h 05.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements.",
+        "Changement de date bissextile correctement expliqué."
+      ],
+      "feedback": "Place minuit entre les dates avant toute soustraction; 2024 compte bien un 29 février.",
+      "difficulte": "intermediaire",
+      "representation": "calendrier + frise de minuit",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "correction_minutes": 40,
+      "variabilite_permises": "aucune"
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "parametrique",
+      "consigne": "Lis les deux dates et heures, calcule la durée et prouve le passage à la nouvelle date.",
+      "stimulus": "Dans une histoire fictive, une activité commence le 28 février 2025 à 23 h 55 et se termine le 1er mars 2025 à 00 h 25. Calcule sa durée en minutes; explique le passage de date et vérifie le résultat.",
+      "reponse_attendue": "30 min : 5 min jusqu’à minuit, puis 25 min après. 1er mars 2025 suit 28 février 2025. Contrôle : 28 février 2025 à 23 h 55 + 30 min = 1er mars 2025 à 00 h 25.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements.",
+        "Date de fin correctement située dans le calendrier grégorien."
+      ],
+      "feedback": "Avant de soustraire les heures, note la date suivante et partage en avant/après minuit.",
+      "difficulte": "transfert",
+      "representation": "calendrier + dates de fin calculées",
+      "seed": 26008,
+      "parametres": {
+        "version": "qc.temps-controle/1.0",
+        "variables": [
+          {
+            "nom": "date",
+            "domaine_fini": [
+              "2024-02-28",
+              "2025-02-28",
+              "2025-12-31"
+            ]
+          },
+          {
+            "nom": "M",
+            "domaine_fini": [
+              35,
+              45,
+              55
+            ]
+          },
+          {
+            "nom": "D",
+            "domaine_fini": [
+              30,
+              40,
+              50
+            ]
+          }
+        ],
+        "contraintes": [
+          "S=23:M; D>60−M pour franchir minuit",
+          "Date dans une liste calendaire approuvée (bissextile, non bissextile, fin d’année)",
+          "Jour civil constant de 24 h"
+        ],
+        "tirage_deterministe": "x := seed (entier naturel); parcourir les variables dans l’ordre du tableau; choisir domaine[x modulo taille_domaine]; poser x := x // taille_domaine; aucune source aléatoire ni rejet.",
+        "algorithme_resolution": "S = date 23:M; F=S+D minutes par calendrier grégorien; durée=D; date(F) est lendemain",
+        "regle_calendrier": "calendrier grégorien; dates ISO AAAA-MM-JJ; jour toujours égal à 1440 min; pas de fuseaux horaires ni changement légal d’heure; arithmétique minute entière.",
+        "algorithme_controle_independant": "D = 1440*(ordinal(date_fin)-ordinal(date_debut)) + 60*(heure_fin-heure_debut) + minute_fin-minute_debut; comparer D à la solution.",
+        "instanciation_courante": {
+          "seed": 26008,
+          "variables": {
+            "date": "2025-02-28",
+            "M": 55,
+            "D": 30
+          },
+          "debut_iso": "2025-02-28T23:55",
+          "fin_iso": "2025-03-01T00:25",
+          "solution_minutes": 30,
+          "controle": 1
+        },
+        "exemples_valides": [
+          {
+            "seed": 26008,
+            "valeurs": {
+              "date": "2025-02-28",
+              "M": 55,
+              "D": 30
+            },
+            "debut_iso": "2025-02-28T23:55",
+            "fin_iso": "2025-03-01T00:25",
+            "duree_minutes": 30,
+            "controle": 1
+          },
+          {
+            "seed": 26009,
+            "valeurs": {
+              "date": "2025-12-31",
+              "M": 55,
+              "D": 30
+            },
+            "debut_iso": "2025-12-31T23:55",
+            "fin_iso": "2026-01-01T00:25",
+            "duree_minutes": 30,
+            "controle": 1
+          },
+          {
+            "seed": 26016,
+            "valeurs": {
+              "date": "2024-02-28",
+              "M": 55,
+              "D": 40
+            },
+            "debut_iso": "2024-02-28T23:55",
+            "fin_iso": "2024-02-29T00:35",
+            "duree_minutes": 40,
+            "controle": 1
+          }
+        ],
+        "variations_permises": "substituer uniquement les valeurs des domaines finis ci-dessus, puis recalculer les heures/dates et le corrigé par les deux algorithmes avant toute nouvelle passation.",
+        "limitations": "Une nouvelle variation nécessite recalcul ET revue éditoriale; aucune génération IA libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "parametrique",
+      "consigne": "Exprime la durée en heures et minutes et vérifie la relation entre les deux dates.",
+      "stimulus": "Un programme fictif commence le 31 décembre 2025 à 17 h 05 et se termine le 1er janvier 2026 à 17 h 20. Calcule la durée en heures et minutes, puis vérifie la succession des dates.",
+      "reponse_attendue": "1455 min = 24 h 15 min. Le jour de fin suit le jour de départ d’un jour; 31 décembre 2025 à 17 h 05 + 24 h 15 min = 1er janvier 2026 à 17 h 20.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements.",
+        "Durée de plus de 24 heures correctement normalisée, sans supprimer le jour entier."
+      ],
+      "feedback": "Un jour entier vaut 24 h = 1440 min; ajoute ensuite les minutes restantes plutôt que d’oublier le jour.",
+      "difficulte": "transfert",
+      "representation": "calendrier + intervalle supérieur à 24 h",
+      "seed": 26009,
+      "parametres": {
+        "version": "qc.temps-controle/1.0",
+        "variables": [
+          {
+            "nom": "date",
+            "domaine_fini": [
+              "2024-02-29",
+              "2025-04-30",
+              "2025-12-31"
+            ]
+          },
+          {
+            "nom": "H",
+            "domaine_fini": [
+              8,
+              11,
+              17
+            ]
+          },
+          {
+            "nom": "M",
+            "domaine_fini": [
+              5,
+              20,
+              40
+            ]
+          },
+          {
+            "nom": "X",
+            "domaine_fini": [
+              15,
+              35,
+              80
+            ]
+          }
+        ],
+        "contraintes": [
+          "Durée=1440+X minutes (>24 h)",
+          "La date de fin est le jour suivant, toujours valide pour les domaines",
+          "Calcul en 24 h par jour sans changement d’heure légal"
+        ],
+        "tirage_deterministe": "x := seed (entier naturel); parcourir les variables dans l’ordre du tableau; choisir domaine[x modulo taille_domaine]; poser x := x // taille_domaine; aucune source aléatoire ni rejet.",
+        "algorithme_resolution": "S = date H:M; F=S+(1440+X) minutes; durée = 1440+X; normalisation q,r=divmod(durée,60)",
+        "regle_calendrier": "calendrier grégorien; dates ISO AAAA-MM-JJ; jour toujours égal à 1440 min; pas de fuseaux horaires ni changement légal d’heure; arithmétique minute entière.",
+        "algorithme_controle_independant": "D = 1440*(ordinal(date_fin)-ordinal(date_debut)) + 60*(heure_fin-heure_debut) + minute_fin-minute_debut; comparer D à la solution.",
+        "instanciation_courante": {
+          "seed": 26009,
+          "variables": {
+            "date": "2025-12-31",
+            "H": 17,
+            "M": 5,
+            "X": 15
+          },
+          "debut_iso": "2025-12-31T17:05",
+          "fin_iso": "2026-01-01T17:20",
+          "solution_minutes": 1455,
+          "controle": 1
+        },
+        "exemples_valides": [
+          {
+            "seed": 26009,
+            "valeurs": {
+              "date": "2025-12-31",
+              "H": 17,
+              "M": 5,
+              "X": 15
+            },
+            "debut_iso": "2025-12-31T17:05",
+            "fin_iso": "2026-01-01T17:20",
+            "duree_minutes": 1455,
+            "controle": 1
+          },
+          {
+            "seed": 26010,
+            "valeurs": {
+              "date": "2024-02-29",
+              "H": 8,
+              "M": 20,
+              "X": 15
+            },
+            "debut_iso": "2024-02-29T08:20",
+            "fin_iso": "2024-03-01T08:35",
+            "duree_minutes": 1455,
+            "controle": 1
+          },
+          {
+            "seed": 26017,
+            "valeurs": {
+              "date": "2025-04-30",
+              "H": 17,
+              "M": 20,
+              "X": 15
+            },
+            "debut_iso": "2025-04-30T17:20",
+            "fin_iso": "2025-05-01T17:35",
+            "duree_minutes": 1455,
+            "controle": 1
+          }
+        ],
+        "variations_permises": "substituer uniquement les valeurs des domaines finis ci-dessus, puis recalculer les heures/dates et le corrigé par les deux algorithmes avant toute nouvelle passation.",
+        "limitations": "Une nouvelle variation nécessite recalcul ET revue éditoriale; aucune génération IA libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "fixe",
+      "consigne": "Calcule la durée et juge si le second rendez-vous est vraiment après l’activité.",
+      "stimulus": "Dans un agenda fictif, activité de 13 h 25 à 14 h 15. Une personne déclare : « Mon rendez-vous à 14 h 00 vient après cette activité. »",
+      "reponse_attendue": "L’activité dure 50 min (35 min jusqu’à 14 h 00 puis 15 min). L’affirmation est fausse : le rendez-vous à 14 h 00 survient 15 min avant la fin de l’activité; il la chevauche. 13 h 25 + 50 min = 14 h 15.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements.",
+        "Affirmation fausse identifiée; chevauchement de 15 min établi."
+      ],
+      "feedback": "Une durée juste ne suffit pas ici. Positionne 14 h 00 sur la même frise que la fin à 14 h 15.",
+      "difficulte": "transfert",
+      "representation": "horaire + affirmation à vérifier",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "correction_minutes": 50,
+      "variabilite_permises": "aucune"
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "fixe",
+      "consigne": "**Preuve autonome A.** Sans indice, calcule la durée, vérifie l’addition, puis juge si le créneau libère la salle avant le suivant.",
+      "stimulus": "Bibliothèque fictive : atelier de 10 h 25 à 12 h 05, le même jour. La réservation suivante commence à 12 h 15. Quelle est la durée de l’atelier? La salle est-elle libérée à temps, et avec quelle marge?",
+      "reponse_attendue": "100 min = 1 h 40. 10 h 25→11 h 00 = 35 min; 11 h 00→12 h 00 = 60 min; 12 h 00→12 h 05 = 5 min. Contrôle : 10 h 25 + 1 h 40 = 12 h 05; 12 h 05 précède 12 h 15 de 10 min. Oui, il reste une marge de 10 min.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements.",
+        "Conclusion autonome : libération avant la réservation et marge de 10 min justifiées."
+      ],
+      "feedback": "En cas d’écart, reprends la conversion des minutes en heures et le repère de la réservation suivante sur une frise; réévalue ensuite sur un autre créneau.",
+      "difficulte": "transfert",
+      "representation": "preuve A : réservation à la bibliothèque",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "correction_minutes": 100,
+      "variabilite_permises": "aucune",
+      "preuve_maitrise": "A",
+      "contexte": "bibliothèque / deux réservations",
+      "condition_autonomie": "Sans indice méthodologique; outils de représentation et adaptation d’accès permis."
+    },
+    {
+      "item_id": "qc-pri-ma-026-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-026-ev-01",
+      "mode": "parametrique",
+      "consigne": "**Preuve autonome B.** Sans indice, calcule la durée, contrôle la succession des dates et vérifie la marge avant la fermeture.",
+      "stimulus": "**Preuve autonome B — station d’observation fictive.** La séance commence le 31 décembre 2025 à 23 h 35 et se termine le 1er janvier 2026 à 00 h 15. La station ferme le 1er janvier 2026 à 00 h 20. Combien de temps dure la séance? Explique le changement de date, vérifie avec une addition et décide si la séance finit avant la fermeture, avec la marge.",
+      "reponse_attendue": "**40 min**, dont 25 min jusqu’à minuit et 15 min le lendemain. 31 décembre 2025 à 23 h 35 + 40 min = 1er janvier 2026 à 00 h 15. La fin est avant la fermeture, avec **5 min** de marge. La date de fin est bien le jour suivant.",
+      "criteres": [
+        "Identification correcte des instants de début et de fin dans l’horaire.",
+        "Durée exactement calculée en minutes et unité explicitée.",
+        "Vérification explicite par addition depuis le début et par ordre des événements.",
+        "Passage de jour/mois/année justifié et marge jusqu’à fermeture correctement déterminée."
+      ],
+      "feedback": "Compare d’abord les dates et passe par minuit; recalcule ensuite la marge entre fin et fermeture. Revoir humainement la clarté de l’énoncé.",
+      "difficulte": "transfert",
+      "representation": "preuve B : calendrier et fermeture nocturne",
+      "seed": 26012,
+      "parametres": {
+        "version": "qc.temps-controle/1.0",
+        "variables": [
+          {
+            "nom": "date",
+            "domaine_fini": [
+              "2024-02-28",
+              "2025-06-30",
+              "2025-12-31"
+            ]
+          },
+          {
+            "nom": "M",
+            "domaine_fini": [
+              35,
+              40,
+              45
+            ]
+          },
+          {
+            "nom": "D",
+            "domaine_fini": [
+              30,
+              40,
+              50
+            ]
+          },
+          {
+            "nom": "G",
+            "domaine_fini": [
+              5,
+              10,
+              20
+            ]
+          }
+        ],
+        "contraintes": [
+          "S=23:M; D>60−M (passage de minuit)",
+          "F=S+D, fermeture=F+G le lendemain",
+          "Deux dates nommées; jour civil constant de 24 h",
+          "Aucun indice pendant la passation autonome"
+        ],
+        "tirage_deterministe": "x := seed (entier naturel); parcourir les variables dans l’ordre du tableau; choisir domaine[x modulo taille_domaine]; poser x := x // taille_domaine; aucune source aléatoire ni rejet.",
+        "algorithme_resolution": "S = date 23:M; F=S+D min; C=F+G min; durée=F−S=D; marge=C−F=G",
+        "regle_calendrier": "calendrier grégorien; dates ISO AAAA-MM-JJ; jour toujours égal à 1440 min; pas de fuseaux horaires ni changement légal d’heure; arithmétique minute entière.",
+        "algorithme_controle_independant": "D = 1440*(ordinal(date_fin)-ordinal(date_debut)) + 60*(heure_fin-heure_debut) + minute_fin-minute_debut; comparer D à la solution.",
+        "instanciation_courante": {
+          "seed": 26012,
+          "variables": {
+            "date": "2025-12-31",
+            "M": 35,
+            "D": 40,
+            "G": 5
+          },
+          "debut_iso": "2025-12-31T23:35",
+          "fin_iso": "2026-01-01T00:15",
+          "solution_minutes": 40,
+          "controle": 5
+        },
+        "exemples_valides": [
+          {
+            "seed": 26012,
+            "valeurs": {
+              "date": "2025-12-31",
+              "M": 35,
+              "D": 40,
+              "G": 5
+            },
+            "debut_iso": "2025-12-31T23:35",
+            "fin_iso": "2026-01-01T00:15",
+            "duree_minutes": 40,
+            "controle": 5
+          },
+          {
+            "seed": 26013,
+            "valeurs": {
+              "date": "2024-02-28",
+              "M": 40,
+              "D": 40,
+              "G": 5
+            },
+            "debut_iso": "2024-02-28T23:40",
+            "fin_iso": "2024-02-29T00:20",
+            "duree_minutes": 40,
+            "controle": 5
+          },
+          {
+            "seed": 26020,
+            "valeurs": {
+              "date": "2025-06-30",
+              "M": 35,
+              "D": 50,
+              "G": 5
+            },
+            "debut_iso": "2025-06-30T23:35",
+            "fin_iso": "2025-07-01T00:25",
+            "duree_minutes": 50,
+            "controle": 5
+          }
+        ],
+        "variations_permises": "substituer uniquement les valeurs des domaines finis ci-dessus, puis recalculer les heures/dates et le corrigé par les deux algorithmes avant toute nouvelle passation.",
+        "limitations": "Une nouvelle variation nécessite recalcul ET revue éditoriale; aucune génération IA libre."
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B",
+      "contexte": "station d’observation / minuit et fermeture",
+      "condition_autonomie": "Sans indice méthodologique; outils de représentation et adaptation d’accès permis."
+    }
+  ]
+}

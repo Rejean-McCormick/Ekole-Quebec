@@ -1,0 +1,1391 @@
+{
+  "format": "kristal.societes-contextualisees/3.0",
+  "slug": "societes-autochtones-quebec",
+  "statut": "candidate_sans_approbation_culturelle",
+  "titre": "Nations et sociétés autochtones sur le territoire du Québec",
+  "description": "Corpus historique réutilisable, non limité à l’école; chaque nation et époque est distincte.",
+  "modele_ref": "urn:kristal:modele-organisation-humaine:modele",
+  "politique": {
+    "sources": "Chaque fait conserve sa source et sa portée, aucune inférence par absence.",
+    "consentement": "Pas de reconstitution de savoir protégé ni d’approbation autochtone présumée.",
+    "temporalisations": "Description d’une époque ne s’applique pas à une autre sans preuve."
+  },
+  "societes": [
+    {
+      "id": "soc:peuples-autochtones-anterieurs",
+      "type": "ensemble_historique_non_uniforme",
+      "label": "Sociétés autochtones présentes sur le territoire avant les établissements coloniaux français",
+      "periode_ref": "periode:avant-contact",
+      "note": "Ensemble analytique de peuples différents, non une organisation ou une nation unique."
+    },
+    {
+      "id": "soc:nations-autochtones-actuelles",
+      "type": "collection",
+      "label": "Les onze nations autochtones reconnues au Québec",
+      "periode_ref": "periode:actuel",
+      "note": "Collection descriptive de nations distinctes, pas une seule société ou un organe de décision."
+    },
+    {
+      "id": "soc:innus",
+      "type": "nation",
+      "label": "Nation innue",
+      "periode_ref": null,
+      "note": "Nation distincte; éviter de déduire son organisation du terme historique utilisé par certains observateurs."
+    },
+    {
+      "id": "soc:anishinaabeg",
+      "type": "nation",
+      "label": "Anichinabés / Algonquins",
+      "periode_ref": null,
+      "note": "Nom actuel et dénominations historiques demandent une validation nation-spécifique."
+    },
+    {
+      "id": "soc:wendat",
+      "type": "nation",
+      "label": "Nation wendat",
+      "periode_ref": null,
+      "note": "Peuple distinct. Les rôles de Kondiaronk concernent un contexte temporel et diplomatique précis."
+    },
+    {
+      "id": "soc:mikmaq",
+      "type": "nation",
+      "label": "Nation mi’kmaq",
+      "periode_ref": null,
+      "note": "Les relations diplomatiques varient avec les époques et les lieux."
+    },
+    {
+      "id": "soc:kiskakons-1701",
+      "type": "delegation_historique",
+      "label": "Représentants kiskakons lors des négociations de 1701",
+      "periode_ref": "periode:1701",
+      "note": "Mention dans le traité, nom et représentation tels que transcrits par les archives coloniales."
+    },
+    {
+      "id": "soc:conseil-wendat-2026",
+      "type": "institution_nation_contemporaine",
+      "label": "Conseil des élus de la Nation Wendat",
+      "periode_ref": "periode:actuel",
+      "note": "Institution actuelle, distincte des gouvernances historiques."
+    },
+    {
+      "id": "soc:communautes-innues-traditionnelles",
+      "type": "ensemble_historique_contextuel",
+      "label": "Familles et campements innus décrits dans le cycle traditionnel",
+      "periode_ref": "periode:traditions-historiques",
+      "note": "Description contextualisée du point de vue scientifique Nametau innu, pas ensemble politique homogène."
+    },
+    {
+      "id": "soc:v3-wendat-vie-historique",
+      "label": "Vie collective wendat historique décrite par la Nation",
+      "type": "dossier_historique_non_universel",
+      "periode_ref": "periode:traditions-historiques"
+    },
+    {
+      "id": "soc:v3-memoire-innue-documentaire",
+      "label": "Mémoire innue transmise dans Nametau innu aujourd’hui",
+      "type": "dossier_documentaire_contemporain",
+      "periode_ref": "periode:actuel"
+    }
+  ],
+  "periodes": [
+    {
+      "id": "periode:avant-contact",
+      "label": "Avant l’implantation coloniale française dans la vallée du Saint-Laurent",
+      "start": null,
+      "end": 1599,
+      "note": "Ne signifie pas avant tout contact européen ni début des sociétés autochtones; le territoire est habité depuis des millénaires."
+    },
+    {
+      "id": "periode:traditions-historiques",
+      "label": "Organisations historiques — datation à préciser",
+      "start": null,
+      "end": null,
+      "note": "Pratiques décrites comme historiques ou traditionnelles : ne pas les assigner à 1500 sans précision de la source."
+    },
+    {
+      "id": "periode:1600-1650",
+      "label": "Début du XVIIe siècle — échanges et établissements",
+      "start": 1600,
+      "end": 1650,
+      "note": "Les relations et leurs acteurs changent selon les lieux et moments."
+    },
+    {
+      "id": "periode:1701",
+      "label": "1701 — Grande Paix de Montréal",
+      "start": 1701,
+      "end": 1701,
+      "note": "Événement diplomatique contextualisé, pas relation identique pour toutes les nations."
+    },
+    {
+      "id": "periode:1700-1799",
+      "label": "XVIIIe siècle — alliances et rivalités",
+      "start": 1700,
+      "end": 1799,
+      "note": "Cette période recouvre 1701 mais représente des processus plus étendus, pas un événement unique."
+    },
+    {
+      "id": "periode:actuel",
+      "label": "Aujourd’hui",
+      "start": 2025,
+      "end": null,
+      "note": "Les nations autochtones sont contemporaines. Les données actuelles sont datées, et non projetées vers le passé."
+    },
+    {
+      "id": "periode:1760-1830",
+      "label": "Après 1760 — changement de régime et revendications",
+      "start": 1760,
+      "end": 1830,
+      "note": "Comprend le changement de régime colonial et des démarches politiques autochtones documentées."
+    },
+    {
+      "id": "periode:19e-20e",
+      "label": "XIXe et XXe siècles — politiques coloniales",
+      "start": 1800,
+      "end": 1999,
+      "note": "Période large choisie pour étudier des politiques successives, et non un événement unique."
+    }
+  ],
+  "roles": [
+    {
+      "id": "role:aines-innus",
+      "label": "Aînées et aînés transmettant des récits dans les campements d’été",
+      "taches": [
+        "tache:raconter"
+      ],
+      "ressources": [
+        "ress:savoirs-transmis"
+      ],
+      "note": "Description de la ressource Nametau; non un rôle obligatoirement identique partout."
+    },
+    {
+      "id": "role:artisans-innus",
+      "label": "Personnes qui fabriquent ou réparent outils et moyens de transport",
+      "taches": [
+        "tache:entretenir-outils"
+      ],
+      "ressources": [
+        "ress:outils-innu"
+      ],
+      "note": "Activités décrites pour la saison estivale, aucun rôle réservé selon le genre inféré."
+    },
+    {
+      "id": "role:pecheurs-innus",
+      "label": "Personnes pratiquant la pêche saisonnière",
+      "taches": [
+        "tache:pecher-saumon"
+      ],
+      "ressources": [
+        "ress:saumon"
+      ],
+      "note": "La source nomme la pêche; pas une permission juridique de pêche."
+    },
+    {
+      "id": "role:conseil-wendat",
+      "label": "Conseil d’élus wendat (aujourd’hui)",
+      "taches": [
+        "tache:representer-nation"
+      ],
+      "ressources": [
+        "ress:institutions"
+      ],
+      "note": "Responsabilités décrites publiquement sur le site de la Nation."
+    },
+    {
+      "id": "role:grand-chef-wendat",
+      "label": "Grand Chef wendat (aujourd’hui)",
+      "taches": [
+        "tache:presider-conseil"
+      ],
+      "ressources": [
+        "ress:conseil"
+      ],
+      "note": "Fonction institutionnelle actuelle; ne pas projeter sur le XVIIe siècle."
+    },
+    {
+      "id": "role:ambassadeur-kiskakon-1701",
+      "label": "Chef kiskakon s’exprimant lors de la Grande Paix",
+      "taches": [
+        "tache:ratifier-paix"
+      ],
+      "ressources": [
+        "ress:entente-1701"
+      ],
+      "note": "La transcription fait parler ce représentant. Attribution coloniale à examiner."
+    },
+    {
+      "id": "role:v3-elu-wendat",
+      "label": "Membre élu du Conseil wendat"
+    },
+    {
+      "id": "role:v3-artisans-innu",
+      "label": "Artisane ou artisan innu"
+    },
+    {
+      "id": "role:v3-adulte-transmetteur",
+      "label": "Adulte qui transmet des savoirs"
+    },
+    {
+      "id": "role:v3-famille-wendat",
+      "label": "Familles et clans wendat (description historique)"
+    }
+  ],
+  "taches": [
+    {
+      "id": "tache:raconter",
+      "label": "Transmettre des récits et savoirs",
+      "verbe": "raconter"
+    },
+    {
+      "id": "tache:entretenir-outils",
+      "label": "Entretenir et fabriquer des outils",
+      "verbe": "entretenir"
+    },
+    {
+      "id": "tache:pecher-saumon",
+      "label": "Pêcher le saumon dans les rivières",
+      "verbe": "pêcher"
+    },
+    {
+      "id": "tache:representer-nation",
+      "label": "Représenter la Nation et défendre ses intérêts",
+      "verbe": "représenter"
+    },
+    {
+      "id": "tache:presider-conseil",
+      "label": "Présider le Conseil des élus",
+      "verbe": "présider"
+    },
+    {
+      "id": "tache:ratifier-paix",
+      "label": "Présenter une ratification diplomatique",
+      "verbe": "ratifier"
+    },
+    {
+      "id": "tache:v3-debattre-conseil",
+      "label": "Délibérer et représenter des membres"
+    },
+    {
+      "id": "tache:v3-gerer-education",
+      "label": "Participer aux orientations en éducation"
+    },
+    {
+      "id": "tache:v3-transmettre-savoirs",
+      "label": "Transmettre des connaissances"
+    },
+    {
+      "id": "tache:v3-fabriquer-canoe",
+      "label": "Fabriquer et entretenir des canots"
+    },
+    {
+      "id": "tache:v3-fabriquer-raquettes",
+      "label": "Fabriquer des raquettes"
+    },
+    {
+      "id": "tache:v3-organiser-vie-collective",
+      "label": "Organiser la vie collective"
+    }
+  ],
+  "ressources": [
+    {
+      "id": "ress:territoire",
+      "label": "Territoire",
+      "type": "milieu_et_droits",
+      "note": "Habiter, circuler, utiliser et posséder sont des rapports différents; ne pas inférer un droit à partir d’une carte coloniale."
+    },
+    {
+      "id": "ress:maison-longue",
+      "label": "Maison longue de villages historiques wendat",
+      "type": "lieu_de_vie_commun"
+    },
+    {
+      "id": "ress:liens-familiaux",
+      "label": "Liens de famille et de clan",
+      "type": "lien_social"
+    },
+    {
+      "id": "ress:nitassinan",
+      "label": "Nitassinan (territoire innu)",
+      "type": "territoire_et_relations",
+      "note": "Ne pas interpréter ce terme comme une propriété privée ou une frontière unique."
+    },
+    {
+      "id": "ress:langue-innue",
+      "label": "Langue innue et transmission",
+      "type": "patrimoine_vivant"
+    },
+    {
+      "id": "ress:savoirs-transmis",
+      "label": "Récits et savoirs transmis",
+      "type": "savoir_relationnel"
+    },
+    {
+      "id": "ress:outils-innu",
+      "label": "Canots, pièges et autres outils de déplacement ou de chasse",
+      "type": "materiel"
+    },
+    {
+      "id": "ress:saumon",
+      "label": "Saumon des cours d’eau",
+      "type": "ressource_vivriere"
+    },
+    {
+      "id": "ress:institutions",
+      "label": "Services et institutions de la Nation Wendat",
+      "type": "institution"
+    },
+    {
+      "id": "ress:conseil",
+      "label": "Conseil de la Nation Wendat",
+      "type": "organe_decision"
+    },
+    {
+      "id": "ress:entente-1701",
+      "label": "Entente documentée en 1701",
+      "type": "accord_contextuel"
+    },
+    {
+      "id": "ress:v3-conseil",
+      "label": "Conseil et discussions institutionnelles"
+    },
+    {
+      "id": "ress:v3-education",
+      "label": "Éducation et services collectifs"
+    },
+    {
+      "id": "ress:v3-savoirs",
+      "label": "Savoirs transmis"
+    },
+    {
+      "id": "ress:v3-bouleau",
+      "label": "Bois et écorce de bouleau"
+    },
+    {
+      "id": "ress:v3-babiche",
+      "label": "Babiche et bois"
+    },
+    {
+      "id": "ress:v3-maisonlongue",
+      "label": "Maisons longues"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "fait:peuples-avant",
+      "enonce_fr": "Les peuples autochtones habitent le territoire de l’actuel Québec bien avant l’établissement colonial français de 1608.",
+      "periode_ref": "periode:avant-contact",
+      "source_ids": [
+        "src:quebec-nations",
+        "src:pc-champlain"
+      ],
+      "predicat": "presence",
+      "sujet_ref": "soc:peuples-autochtones-anterieurs",
+      "objet_ref": "ress:territoire",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Description générale; ne pas projeter les onze structures administratives actuelles sur 1500."
+    },
+    {
+      "id": "fait:diversite-actuelle",
+      "enonce_fr": "Le Québec reconnaît aujourd’hui onze nations autochtones distinctes, dont dix Premières Nations et la nation inuite.",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:quebec-nations"
+      ],
+      "predicat": "pluralite",
+      "sujet_ref": "soc:nations-autochtones-actuelles",
+      "objet_ref": "val:11-nations",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Cadre provincial actuel; ne constitue pas une liste des peuples présents aux mêmes lieux en 1600."
+    },
+    {
+      "id": "fait:vie-aujourdhui",
+      "enonce_fr": "Les nations autochtones sont des peuples vivants aujourd’hui, avec leurs langues, leurs cultures et leurs institutions distinctes.",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:quebec-nations"
+      ],
+      "predicat": "continuité",
+      "sujet_ref": "soc:nations-autochtones-actuelles",
+      "objet_ref": "concept:continuite",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Ne pas raconter ces peuples seulement au passé."
+    },
+    {
+      "id": "fait:wendat-maisons",
+      "enonce_fr": "Selon le Conseil de la Nation Wendat, des villages historiques wendat regroupaient plusieurs familles et clans dans des maisons longues.",
+      "periode_ref": "periode:traditions-historiques",
+      "source_ids": [
+        "src:wendat-histoire"
+      ],
+      "predicat": "habiter",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "ress:maison-longue",
+      "regime": "document_de_la_nation_ou_temoignage_situe",
+      "statut": "source_nation_etudiee_revue_pedagogique_requise",
+      "limites": "L’organisation et la taille des communautés ont changé dans le temps; ne pas généraliser à toutes les nations."
+    },
+    {
+      "id": "fait:wendat-meres-clan",
+      "enonce_fr": "Le Conseil de la Nation Wendat décrit une transmission traditionnelle de l’appartenance familiale par la lignée maternelle, avec des mères de clan jouant un rôle central.",
+      "periode_ref": "periode:traditions-historiques",
+      "source_ids": [
+        "src:wendat-histoire"
+      ],
+      "predicat": "organiser",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "role:mere-clan-wendat",
+      "regime": "document_de_la_nation_ou_temoignage_situe",
+      "statut": "source_nation_etudiee_revue_pedagogique_requise",
+      "limites": "Ces rôles sont documentés pour la Nation Wendat; pas un système universel autochtone."
+    },
+    {
+      "id": "fait:innus-saisons",
+      "enonce_fr": "La ressource Nametau innu décrit, dans des contextes traditionnels, des déplacements de familles innues suivant les saisons et les ressources du Nitassinan.",
+      "periode_ref": "periode:traditions-historiques",
+      "source_ids": [
+        "src:nametau-territoire"
+      ],
+      "predicat": "parcourir",
+      "sujet_ref": "soc:innus",
+      "objet_ref": "ress:nitassinan",
+      "regime": "document_de_la_nation_ou_temoignage_situe",
+      "statut": "source_nation_etudiee_revue_pedagogique_requise",
+      "limites": "Il ne faut pas qualifier une nation entière de nomade éternellement; pratiques et modes de vie évoluent."
+    },
+    {
+      "id": "fait:wendat-conseil-actuel",
+      "enonce_fr": "Le Conseil de la Nation Wendat décrit aujourd’hui un conseil d’élus chargé notamment de défendre les intérêts de ses membres et d’assurer des services.",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:wendat-gouvernance"
+      ],
+      "predicat": "gouverner",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "role:conseil-wendat-actuel",
+      "regime": "document_de_la_nation_ou_temoignage_situe",
+      "statut": "source_nation_etudiee_revue_pedagogique_requise",
+      "limites": "Une description du présent ne s’applique pas automatiquement au XVIIe siècle."
+    },
+    {
+      "id": "fait:innu-transmission",
+      "enonce_fr": "Dans un témoignage présenté par Nametau innu, des membres de la communauté expriment l’importance de transmettre la langue innue aux générations suivantes.",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:nametau-temoignage"
+      ],
+      "predicat": "transmettre",
+      "sujet_ref": "soc:innus",
+      "objet_ref": "ress:langue-innue",
+      "regime": "document_de_la_nation_ou_temoignage_situe",
+      "statut": "source_nation_etudiee_revue_pedagogique_requise",
+      "limites": "Un témoignage individuel ne prétend pas représenter chaque Innu ou tous les enjeux linguistiques."
+    },
+    {
+      "id": "fait:wendat-conseil-electif",
+      "enonce_fr": "Selon la Nation Wendat, son Grand Chef et ses huit Chefs sont élus; leur Conseil représente la Nation aujourd’hui.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "objet_ref": "role:grand-chef-wendat",
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "regime": "autodescription_actuelle",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Pas une règle historique projetable à 1701.",
+      "ancrage_documentaire": "Nation Wendat / Grand Chef et Chefs / description du Conseil"
+    },
+    {
+      "id": "fait:wendat-conseil-redevabilite",
+      "enonce_fr": "Le Conseil des élus wendat indique qu’il défend les droits et intérêts de la Nation, fournit des services et est redevable envers ses membres.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "objet_ref": "tache:representer-nation",
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "regime": "autodescription_actuelle",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "La formulation indique les responsabilités déclarées de l’institution, pas une évaluation externe de ses résultats.",
+      "ancrage_documentaire": "Nation Wendat / Grand Chef et Chefs / Une voix pour tous"
+    },
+    {
+      "id": "fait:wendat-grand-chef-preside",
+      "enonce_fr": "La Nation Wendat précise que le Grand Chef préside son Conseil des élus et est son porte-parole officiel.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "objet_ref": "tache:presider-conseil",
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "regime": "autodescription_actuelle",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Description institutionnelle actuelle.",
+      "ancrage_documentaire": "Nation Wendat / Grand Chef & Chefs"
+    },
+    {
+      "id": "fait:wendat-transmission-familles",
+      "enonce_fr": "La Nation Wendat décrit des maisons longues historiques regroupant plusieurs familles et permettant la transmission de savoirs.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "ress:maison-longue",
+      "source_ids": [
+        "src:wendat-histoire-2026"
+      ],
+      "regime": "autodescription_histoire",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Le site ne donne pas ici de datation précise ni de plan architectural à reproduire automatiquement.",
+      "ancrage_documentaire": "Nation Wendat / Yahwatsira’ — la famille"
+    },
+    {
+      "id": "fait:wendat-responsabilite-transmission",
+      "enonce_fr": "La Nation Wendat présente la transmission des savoirs et des traditions comme une responsabilité envers les générations suivantes.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "ress:liens-familiaux",
+      "source_ids": [
+        "src:wendat-histoire-2026"
+      ],
+      "regime": "autodescription_valeurs",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Valeur déclarée, non obligation juridique codifiée.",
+      "ancrage_documentaire": "Nation Wendat / Les valeurs qui nous guident / Responsabilité, Partage"
+    },
+    {
+      "id": "fait:innus-recits-ete",
+      "enonce_fr": "La ressource Nametau innu décrit des rassemblements estivaux où des aînés transmettent des récits aux plus jeunes.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "objet_ref": "tache:raconter",
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "description_scientifique_contextualisee",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Pratique décrite dans un cycle traditionnel, pas règle générale pour toutes les communautés actuelles.",
+      "ancrage_documentaire": "Nametau innu / Territoire et cycle de vie traditionnels / été"
+    },
+    {
+      "id": "fait:innus-reparation-ete",
+      "enonce_fr": "Nametau innu indique que la période estivale pouvait permettre de réparer ou fabriquer des canots, raquettes, contenants et autres outils.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "objet_ref": "tache:entretenir-outils",
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "description_scientifique_contextualisee",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "L’outil ne permet pas de déduire quelles personnes effectuaient chaque tâche dans toutes les familles.",
+      "ancrage_documentaire": "Nametau innu / Territoire et cycle de vie traditionnels / été"
+    },
+    {
+      "id": "fait:innus-saumon",
+      "enonce_fr": "Nametau innu décrit une pêche saisonnière du saumon, notamment au filet ou au flambeau, dans certains cours d’eau de la Côte-Nord.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "objet_ref": "ress:saumon",
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "description_scientifique_contextualisee",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Ne définit pas le régime juridique de la ressource ou des droits de pêche.",
+      "ancrage_documentaire": "Nametau innu / Territoire et cycle de vie traditionnels / juin"
+    },
+    {
+      "id": "fait:1701-discours-kiskakons",
+      "enonce_fr": "Dans la transcription du traité de 1701, le chef des Kiskakons présente des prisonniers et exprime son adhésion à l’accord de paix.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:kiskakons-1701",
+      "objet_ref": "tache:ratifier-paix",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "transcription_document_colonial",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Paroles rapportées par la transcription coloniale; ne pas traiter la formulation comme une traduction neutre de la position de la nation.",
+      "ancrage_documentaire": "Pointe-à-Callière / Le Chef des Kiskakons"
+    },
+    {
+      "id": "fait:wendat-langue-vivante",
+      "enonce_fr": "La Nation Wendat décrit des efforts contemporains pour revitaliser et transmettre sa langue.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "ress:liens-familiaux",
+      "source_ids": [
+        "src:wendat-histoire-2026"
+      ],
+      "regime": "autodescription_actuelle",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "La transmission et la vitalité changent avec le temps; ne pas dire que tous les locuteurs ont la même expérience.",
+      "ancrage_documentaire": "Nation Wendat / Une renaissance linguistique vivante"
+    },
+    {
+      "id": "fait:v3-wendat-gouvernance",
+      "enonce_fr": "La Nation Wendat décrit aujourd’hui un conseil d’élus composé d’un Grand Chef et de Chefs familiaux.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "regime": "autodescription_contemporaine",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Gouvernance",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "gouvernance",
+      "limites": "Cette organisation contemporaine ne décrit pas identiquement les conseils du XVIIe siècle.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-domaines",
+      "enonce_fr": "Selon la Nation Wendat, son conseil travaille notamment sur le territoire, l’éducation, la culture, la santé et le développement économique.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "regime": "autodescription_contemporaine",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Gouvernance",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "responsabilités",
+      "limites": "Des domaines de responsabilité ne sont pas des droits de propriété ou des pouvoirs illimités.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-familles",
+      "enonce_fr": "La Nation Wendat indique que des maisons longues historiques regroupaient plusieurs familles et clans.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:v3-wendat-vie-historique",
+      "regime": "autodescription_histoire_nation",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Yahwatsira’ — la famille",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "habitat et organisation",
+      "limites": "La source ne date pas chaque maison ni toutes les pratiques d’une année précise.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-matrilineaire",
+      "enonce_fr": "La Nation Wendat présente la filiation maternelle comme un aspect important de son organisation sociale traditionnelle.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:v3-wendat-vie-historique",
+      "regime": "autodescription_histoire_nation",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Un héritage matrilinéaire",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "famille et rôles",
+      "limites": "Ne pas attribuer la même structure à toutes les Premières Nations.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-transmission",
+      "enonce_fr": "La Nation Wendat présente la transmission de connaissances et de traditions comme une responsabilité qui relie les générations.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "regime": "autodescription_contemporaine",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Une histoire qui se conjugue à tous les temps",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "transmission",
+      "limites": "La description actuelle n’est pas une preuve du fonctionnement exact de tous les siècles passés.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-langue",
+      "enonce_fr": "La Nation Wendat décrit un travail actuel de revitalisation et d’apprentissage de sa langue.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "regime": "autodescription_contemporaine",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Une renaissance linguistique vivante",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "langue vivante",
+      "limites": "Ne pas réduire une nation à ses pratiques du passé.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-territoire",
+      "enonce_fr": "La Nation Wendat nomme Onyionhwentsïio’ son territoire ancestral et décrit un lien continu avec celui-ci.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "regime": "revendication_et_identite_autodecrites",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Notre rapport à Onyionhwentsïio’",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "territoire et mémoire",
+      "limites": "Présente une relation et une revendication de la Nation; n’établit pas une délimitation judiciaire universelle.",
+      "eligible_exercice": false,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-innu-aine",
+      "enonce_fr": "Nametau innu met en scène et documente la transmission de connaissances entre des aînés et des enfants.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:v3-memoire-innue-documentaire",
+      "regime": "production_culturelle_educative",
+      "preuves": [
+        {
+          "source_id": "src:v3-nametau-visite",
+          "ancrage": "Vos premiers pas dans la culture innue",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "transmission",
+      "limites": "La visite est un parcours documentaire et éducatif; pas un inventaire de toutes les familles innues.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-innu-saisons",
+      "enonce_fr": "Nametau innu raconte un déplacement saisonnier le long de la rivière Moisie vers le Nitassinan, décrit pour des familles innues de cette région.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "regime": "pratique_historique_decrite",
+      "preuves": [
+        {
+          "source_id": "src:v3-nametau-intro",
+          "ancrage": "Accueil — premier paragraphe",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "territoire et mobilité",
+      "limites": "Ne pas étendre ce trajet à toutes les communautés innues.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-innu-outils",
+      "enonce_fr": "Nametau innu décrit la fabrication de canots à partir de bois de bouleau, d’écorce et de racines.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "regime": "description_materielle",
+      "preuves": [
+        {
+          "source_id": "src:v3-nametau-materiel",
+          "ancrage": "La culture matérielle",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "ressources et savoir-faire",
+      "limites": "La source documente un procédé traditionnel, pas une obligation pour chaque personne.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-innu-raquettes",
+      "enonce_fr": "Nametau innu présente des raquettes fabriquées avec des matériaux comme le bouleau et la babiche.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "regime": "description_materielle",
+      "preuves": [
+        {
+          "source_id": "src:v3-nametau-materiel",
+          "ancrage": "La culture matérielle",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "outils et déplacement",
+      "limites": "Ne pas transformer une pratique matérielle en stéréotype intemporel.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-innu-grandmere",
+      "enonce_fr": "Dans sa visite guidée, Nametau innu décrit un enfant qui reçoit des raquettes de son arrière-grand-mère et apprend avec les adultes.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:v3-memoire-innue-documentaire",
+      "regime": "recit_documentaire",
+      "preuves": [
+        {
+          "source_id": "src:v3-nametau-visite",
+          "ancrage": "Affiliation : Grand-mère / Chasseur : Raquette",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "transmission familiale",
+      "limites": "Il s’agit d’une situation présentée dans la visite guidée, pas d’une règle universelle.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:innus-ainés",
+      "societe_ref": "soc:communautes-innues-traditionnelles",
+      "role_ref": "role:aines-innus",
+      "tache_ref": "tache:raconter",
+      "ressource_ref": "ress:savoirs-transmis",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:innus-recits-ete"
+      ],
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "pratique_decrite",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:innus-outils",
+      "societe_ref": "soc:communautes-innues-traditionnelles",
+      "role_ref": "role:artisans-innus",
+      "tache_ref": "tache:entretenir-outils",
+      "ressource_ref": "ress:outils-innu",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:innus-reparation-ete"
+      ],
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "pratique_decrite",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:innus-peche",
+      "societe_ref": "soc:communautes-innues-traditionnelles",
+      "role_ref": "role:pecheurs-innus",
+      "tache_ref": "tache:pecher-saumon",
+      "ressource_ref": "ress:saumon",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:innus-saumon"
+      ],
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "pratique_decrite",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:wendat-mandat",
+      "societe_ref": "soc:conseil-wendat-2026",
+      "role_ref": "role:conseil-wendat",
+      "tache_ref": "tache:representer-nation",
+      "ressource_ref": "ress:institutions",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:wendat-conseil-redevabilite"
+      ],
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "regime": "mandat_contemporain",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:wendat-grand-chef",
+      "societe_ref": "soc:conseil-wendat-2026",
+      "role_ref": "role:grand-chef-wendat",
+      "tache_ref": "tache:presider-conseil",
+      "ressource_ref": "ress:conseil",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:wendat-grand-chef-preside"
+      ],
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "regime": "mandat_contemporain",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:kiskakons-paix",
+      "societe_ref": "soc:kiskakons-1701",
+      "role_ref": "role:ambassadeur-kiskakon-1701",
+      "tache_ref": "tache:ratifier-paix",
+      "ressource_ref": "ress:entente-1701",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:1701-discours-kiskakons"
+      ],
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "evenement_atteste",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:v3-wendat-representer",
+      "societe_ref": "soc:conseil-wendat-2026",
+      "role_ref": "role:v3-elu-wendat",
+      "tache_ref": "tache:v3-debattre-conseil",
+      "ressource_ref": "ress:v3-conseil",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:v3-wendat-gouvernance"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "mandat contemporain présenté par la Nation"
+    },
+    {
+      "id": "relation:v3-wendat-education",
+      "societe_ref": "soc:conseil-wendat-2026",
+      "role_ref": "role:v3-elu-wendat",
+      "tache_ref": "tache:v3-gerer-education",
+      "ressource_ref": "ress:v3-education",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:v3-wendat-domaines"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "domaine de responsabilité actuel, sans pouvoir exclusif inféré"
+    },
+    {
+      "id": "relation:v3-wendat-transmission",
+      "societe_ref": "soc:conseil-wendat-2026",
+      "role_ref": "role:v3-adulte-transmetteur",
+      "tache_ref": "tache:v3-transmettre-savoirs",
+      "ressource_ref": "ress:v3-savoirs",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:v3-wendat-transmission"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "responsabilité culturelle générale selon l’autodescription, rôle non exclusif"
+    },
+    {
+      "id": "relation:v3-wendat-familles",
+      "societe_ref": "soc:v3-wendat-vie-historique",
+      "role_ref": "role:v3-famille-wendat",
+      "tache_ref": "tache:v3-organiser-vie-collective",
+      "ressource_ref": "ress:v3-maisonlongue",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:v3-wendat-familles"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "vie collective selon une description historique de la Nation"
+    },
+    {
+      "id": "relation:v3-innu-transmission",
+      "societe_ref": "soc:v3-memoire-innue-documentaire",
+      "role_ref": "role:v3-adulte-transmetteur",
+      "tache_ref": "tache:v3-transmettre-savoirs",
+      "ressource_ref": "ress:v3-savoirs",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:v3-innu-aine"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "parcours de transmission documenté, rôle non exclusif"
+    },
+    {
+      "id": "relation:v3-innu-canoe",
+      "societe_ref": "soc:communautes-innues-traditionnelles",
+      "role_ref": "role:v3-artisans-innu",
+      "tache_ref": "tache:v3-fabriquer-canoe",
+      "ressource_ref": "ress:v3-bouleau",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:v3-innu-outils"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "une pratique matérielle située"
+    },
+    {
+      "id": "relation:v3-innu-raquettes",
+      "societe_ref": "soc:communautes-innues-traditionnelles",
+      "role_ref": "role:v3-artisans-innu",
+      "tache_ref": "tache:v3-fabriquer-raquettes",
+      "ressource_ref": "ress:v3-babiche",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:v3-innu-raquettes"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "une pratique matérielle située"
+    }
+  ],
+  "normes": [
+    {
+      "id": "norme:wendat-conseil-representer",
+      "modalite": "responsabilite_decrite",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "action_ref": "tache:representer-nation",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "fact_ids": [
+        "fait:wendat-conseil-redevabilite"
+      ],
+      "portee": "mandat d’élus wendat contemporains",
+      "statut": "autodescription_institutionnelle_a_reconfirmer",
+      "interpretation": "Le Conseil présente sa responsabilité de défendre les intérêts et droits de la Nation; il ne définit pas à lui seul chaque droit territorial."
+    },
+    {
+      "id": "norme:wendat-grand-chef-preside",
+      "modalite": "autorite_reconnue_dans_source",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "action_ref": "tache:presider-conseil",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "fact_ids": [
+        "fait:wendat-grand-chef-preside"
+      ],
+      "portee": "composition et fonctionnement actuels du Conseil",
+      "statut": "autodescription_institutionnelle_a_reconfirmer",
+      "interpretation": "Fonction institutionnelle actuelle, pas une attribution historique intemporelle."
+    },
+    {
+      "id": "norme:v3-wendat-representation",
+      "modalite": "responsabilite_autodecrite",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "periode_ref": "periode:actuel",
+      "action_ref": "tache:v3-debattre-conseil",
+      "fact_ids": [
+        "fait:v3-wendat-gouvernance"
+      ],
+      "portee": "présentation actuelle de la gouvernance wendat",
+      "reconnaissance_par": "Nation Wendat, site de la Nation",
+      "statut": "autodescription_institutionnelle_a_revalider"
+    },
+    {
+      "id": "norme:v3-wendat-education",
+      "modalite": "domaine_de_responsabilite_decrit",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "periode_ref": "periode:actuel",
+      "action_ref": "tache:v3-gerer-education",
+      "fact_ids": [
+        "fait:v3-wendat-domaines"
+      ],
+      "portee": "domaine éducation mentionné; pas de compétence juridique détaillée",
+      "reconnaissance_par": "Nation Wendat, site de la Nation",
+      "statut": "autodescription_institutionnelle_a_revalider"
+    }
+  ],
+  "interactions": [],
+  "sources": [
+    {
+      "id": "src:nametau-cycle-2026",
+      "title": "Nametau innu — Territoire et cycle de vie traditionnels, point de vue scientifique",
+      "kind": "ressource_innue_point_de_vue_scientifique",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/outil/cycle.html",
+      "authority_scope": "cycle historique selon la description scientifique publiée dans le projet Nametau innu",
+      "limitations": "Point de vue scientifique dans un projet innu, non règle propre à toutes les familles ou à toutes les époques."
+    },
+    {
+      "id": "src:nametau-temoignage",
+      "title": "Nametau innu — Grand-mère : contexte social (paroles et témoignages)",
+      "kind": "indigenous_voices_transcript",
+      "locator": "https://www.nametauinnu.ca/fr/culture/ouverture/detail/58/152.html",
+      "authority_scope": "témoignage situé sur la transmission de la langue et la vie culturelle aujourd’hui",
+      "limitations": "Ce témoignage individuel ne remplace pas l’ensemble des perspectives innues. Les mots ne sont pas reproduits dans ce Kristal."
+    },
+    {
+      "id": "src:nametau-territoire",
+      "title": "Nametau innu — Territoire et cycle de vie traditionnels (point de vue scientifique)",
+      "kind": "indigenous_heritage_resource",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/outil/cycle.html",
+      "authority_scope": "exemple contextualisé de cycles saisonniers et ressources innues",
+      "limitations": "Source de vulgarisation historique, non norme identique à toutes les communautés et époques."
+    },
+    {
+      "id": "src:pac-texte-1701",
+      "title": "Pointe-à-Callière — Transcription du traité de la Grande Paix de Montréal",
+      "kind": "document_colonial_historique_transcrit",
+      "locator": "https://pacmusee.qc.ca/fr/traite-grande-paix-montreal/",
+      "authority_scope": "les propos consignés dans le document; ne pas confondre attribution du rédacteur et adhésion de toutes les nations",
+      "limitations": "Texte transcrit d’un document colonial; ses catégories, ses formulations et sa voix demandent une lecture critique."
+    },
+    {
+      "id": "src:pc-champlain",
+      "title": "Parcs Canada — Samuel de Champlain, premier Français à Chambly",
+      "kind": "institutional_web",
+      "locator": "https://parcs.canada.ca/lhn-nhs/qc/fortchambly/culture/histoire-history/site/samuel-de-champlain",
+      "authority_scope": "1608, commerces et relations avec des interlocuteurs autochtones; récit institutionnel",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:quebec-nations",
+      "title": "Gouvernement du Québec — Les 11 nations autochtones du Québec",
+      "kind": "institutional_web",
+      "locator": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/a-propos-nations",
+      "authority_scope": "diversité et existence contemporaine des nations; source institutionnelle provinciale",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:v3-nametau-intro",
+      "title": "Nametau innu — Mémoire et connaissance du Nitassinan",
+      "locator": "https://www.nametauinnu.ca/fr/accueil.html",
+      "voix": "Production à participation innue / transmission culturelle",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:v3-nametau-materiel",
+      "title": "Nametau innu — La culture matérielle",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/outil.html",
+      "voix": "Point de vue scientifique présenté sur Nametau innu",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:v3-nametau-visite",
+      "title": "Nametau innu — Visite guidée",
+      "locator": "https://www.nametauinnu.ca/fr/visite.html",
+      "voix": "Production à participation innue / mémoire et enseignement",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:v3-wendat-histoire",
+      "title": "Nation Wendat — Histoire & culture",
+      "locator": "https://www.wendake.ca/histoire-et-culture",
+      "voix": "Nation Wendat / expression contemporaine de la Nation",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:wendat-conseil-2026",
+      "title": "Nation Wendat — Grand Chef et Chefs (mandat, élus, redevabilité)",
+      "kind": "source_nation_publiee",
+      "locator": "https://www.wendake.ca/grand-chef-et-chefs-familiaux",
+      "authority_scope": "gouvernance actuelle décrite par la Nation",
+      "limitations": "Ne décrit pas le fonctionnement de la confédération historique."
+    },
+    {
+      "id": "src:wendat-gouvernance",
+      "title": "Conseil de la Nation Wendat — Grand Chef et Chefs familiaux",
+      "kind": "nation_authored_web",
+      "locator": "https://www.wendake.ca/grand-chef-et-chefs-familiaux",
+      "authority_scope": "gouvernance contemporaine documentée et rôles des représentants",
+      "limitations": "Gouvernance actuelle, non celle de 1701 ou de toutes les nations."
+    },
+    {
+      "id": "src:wendat-histoire",
+      "title": "Conseil de la Nation Wendat — Histoire et culture",
+      "kind": "nation_authored_web",
+      "locator": "https://www.wendake.ca/histoire-et-culture",
+      "authority_scope": "autoprésentation de la Nation Wendat : traditions, maisons longues, clans, liens de parenté, présence aujourd’hui",
+      "limitations": "Présentation contemporaine par la Nation : ne pas extrapoler sans nuance une organisation unique à toutes les époques."
+    },
+    {
+      "id": "src:wendat-histoire-2026",
+      "title": "Nation Wendat — Histoire et culture (rôles, langue, maison longue, famille)",
+      "kind": "source_nation_publiee",
+      "locator": "https://www.wendake.ca/histoire-et-culture",
+      "authority_scope": "autodescription de la Nation Wendat; distinguer contemporain et histoire racontée",
+      "limitations": "L’autodescription n’autorise pas la transposition de règles d’aujourd’hui à 1701; confirmer la datation historique auprès de la Nation."
+    }
+  ],
+  "tracabilite_v2": [
+    {
+      "assertion_id": "fait:peuples-avant",
+      "source_id": "src:pc-champlain",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:diversite-actuelle",
+      "source_id": "src:quebec-nations",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:vie-aujourdhui",
+      "source_id": "src:quebec-nations",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:wendat-maisons",
+      "source_id": "src:wendat-histoire",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "document_de_la_nation_ou_temoignage_situe",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:wendat-meres-clan",
+      "source_id": "src:wendat-histoire",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "document_de_la_nation_ou_temoignage_situe",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:innus-saisons",
+      "source_id": "src:nametau-territoire",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "document_de_la_nation_ou_temoignage_situe",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:wendat-conseil-actuel",
+      "source_id": "src:wendat-gouvernance",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "document_de_la_nation_ou_temoignage_situe",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:innu-transmission",
+      "source_id": "src:nametau-temoignage",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "document_de_la_nation_ou_temoignage_situe",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:wendat-conseil-electif",
+      "source_id": "src:wendat-conseil-2026",
+      "ancrage_section": "Nation Wendat / Grand Chef et Chefs / description du Conseil",
+      "perspective": "autodescription_actuelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:wendat-conseil-redevabilite",
+      "source_id": "src:wendat-conseil-2026",
+      "ancrage_section": "Nation Wendat / Grand Chef et Chefs / Une voix pour tous",
+      "perspective": "autodescription_actuelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:wendat-grand-chef-preside",
+      "source_id": "src:wendat-conseil-2026",
+      "ancrage_section": "Nation Wendat / Grand Chef & Chefs",
+      "perspective": "autodescription_actuelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:wendat-transmission-familles",
+      "source_id": "src:wendat-histoire-2026",
+      "ancrage_section": "Nation Wendat / Yahwatsira’ — la famille",
+      "perspective": "autodescription_histoire",
+      "type_document": "publication_documentaire",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:wendat-responsabilite-transmission",
+      "source_id": "src:wendat-histoire-2026",
+      "ancrage_section": "Nation Wendat / Les valeurs qui nous guident / Responsabilité, Partage",
+      "perspective": "autodescription_valeurs",
+      "type_document": "publication_documentaire",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:innus-recits-ete",
+      "source_id": "src:nametau-cycle-2026",
+      "ancrage_section": "Nametau innu / Territoire et cycle de vie traditionnels / été",
+      "perspective": "description_scientifique_contextualisee",
+      "type_document": "publication_documentaire",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:innus-reparation-ete",
+      "source_id": "src:nametau-cycle-2026",
+      "ancrage_section": "Nametau innu / Territoire et cycle de vie traditionnels / été",
+      "perspective": "description_scientifique_contextualisee",
+      "type_document": "publication_documentaire",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:innus-saumon",
+      "source_id": "src:nametau-cycle-2026",
+      "ancrage_section": "Nametau innu / Territoire et cycle de vie traditionnels / juin",
+      "perspective": "description_scientifique_contextualisee",
+      "type_document": "publication_documentaire",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:1701-discours-kiskakons",
+      "source_id": "src:pac-texte-1701",
+      "ancrage_section": "Pointe-à-Callière / Le Chef des Kiskakons",
+      "perspective": "transcription_document_colonial",
+      "type_document": "source_historique_contextualisee",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:wendat-langue-vivante",
+      "source_id": "src:wendat-histoire-2026",
+      "ancrage_section": "Nation Wendat / Une renaissance linguistique vivante",
+      "perspective": "autodescription_actuelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    }
+  ],
+  "limites": [
+    "Une fiche ne décrit pas une nation entière.",
+    "Les affirmations de documents coloniaux sont marquées comme telles.",
+    "Une absence de donnée ne démontre jamais une impossibilité historique."
+  ],
+  "historique_migration": {
+    "source": "societes-rencontres-v2.json + societes-rencontres-v3.json",
+    "note": "Données reformées en deux propriétaires sémantiques; le cours ne contient plus le corpus v3."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ccq-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Analyser une situation où des choix humains touchent l’environnement.",
+  "concepts": [
+    "relation au vivant",
+    "ressource",
+    "conséquence",
+    "valeur"
+  ],
+  "preuve_attendue": "Évaluer deux options fictives selon des critères explicites.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Évaluer deux options fictives selon des critères explicites.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ccq-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Évaluer deux options fictives selon des critères explicites.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "vignette fictive textuelle",
+        "tableau comparatif A/B",
+        "production orale ou écrite critériée"
+      ],
+      "variables": {
+        "mode": "catalogue_fini_controle",
+        "banque_items": "evaluation/BANQUE_ITEMS.json",
+        "familles_contextes": [
+          "lieu_scolaire_fictif",
+          "espace_collectif_fictif",
+          "ressources_et_usages"
+        ],
+        "selections_autorisees": [
+          "fixe",
+          "scenario_controle"
+        ],
+        "methode": "Aucun générateur libre; sélectionner un scénario et sa rubrique associés parmi les variantes documentées item par item."
+      },
+      "contraintes": [
+        "ne pas faire juger croyances ou identités",
+        "utiliser uniquement les faits fournis dans chaque vignette",
+        "deux options observables et au moins deux critères identiques pour A et B",
+        "ne pas confondre conséquence certaine et anticipée",
+        "variation permise uniquement dans le catalogue explicite de chaque item",
+        "aucun scénario réel ni témoignage privé"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "faits_et_ressources",
+          "comparaison_deux_options",
+          "consequences_valeurs_et_nuance",
+          "justification_et_autonomie"
+        ],
+        "echelle": "0 = non démontré; 1 = partiel; 2 = solide par dimension",
+        "seuil": "Deux preuves autonomes en contextes distincts, >= 6/8 chacune, avec dimensions faits et comparaison à 2/2, aucune divulgation personnelle requise.",
+        "note": "Ne jamais déduire la maîtrise d’une somme seule; jugement par critère et remédiation."
+      },
+      "source": [
+        "archive maître v1.2 — gouvernance et authoring natifs",
+        "sources/REFERENCES_CONTENU.md",
+        "scénarios et rubriques originaux rédigés pour ce Kristal"
+      ],
+      "seed": {
+        "politique": "fixe: null; scénario contrôlé: seed entière et sélection explicite du catalogue",
+        "exemples": {
+          "q-005": 102,
+          "q-006": 205
+        }
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

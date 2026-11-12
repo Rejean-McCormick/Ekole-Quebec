@@ -1,0 +1,267 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-da-009",
+  "family_id": "qc-pri-da-009-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-da-009-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère l’intention de la personne et cite l’indice du carnet.",
+      "stimulus": "Carnet fictif de Miro : « Je veux faire sentir une vague qui avance doucement. » A : trois mouvements de mains rapides. B : trois mouvements lents.",
+      "reponse_attendue": "Intention : évoquer une vague qui avance doucement. Indice décisif : la phrase « Je veux faire sentir une vague qui avance doucement ». Le ralentissement en B est un choix/révision, non l’intention elle-même.",
+      "criteres": [
+        "Intention identifiée sans la confondre avec la réussite ou l’appréciation.",
+        "Citation ou pointage de la phrase exacte du carnet.",
+        "Réponse intelligible sans juger la virtuosité."
+      ],
+      "feedback": "Si tu réponds seulement « faire trois gestes », cherche la phrase qui commence par « Je veux » : elle donne le but, non la technique.",
+      "difficulte": "initial",
+      "representation": "carte_journal",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Nomme deux choix de composition et explique le rôle de chacun dans l’intention.",
+      "stimulus": "Trace fictive d’Aïcha : intention « montrer le sommeil puis le réveil ». Croquis B : geste de main immobile au départ; pause; puis gestes de doigts de plus en plus nombreux. Note : « j’ai évité une entrée brusque ».",
+      "reponse_attendue": "Choix 1 : immobilité et pause pour représenter le sommeil/l’attente. Choix 2 : ajouter progressivement des gestes des doigts pour suggérer le réveil; l’entrée graduelle évite la brusquerie. Toute relation équivalente justifiée par la trace est recevable.",
+      "criteres": [
+        "Deux choix distincts repérables (immobilité/pause, augmentation des gestes).",
+        "Lien plausible et explicité entre chaque choix et l’intention.",
+        "Pas d’exigence de démonstration corporelle."
+      ],
+      "feedback": "Un choix n’est pas une opinion générale; cite un élément visible du croquis et explique à quoi il sert.",
+      "difficulte": "initial",
+      "representation": "tableau_choix",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Indique une révision visible entre A et B et sa raison documentée.",
+      "stimulus": "Journal fictif de Rémi : intention « représenter un trajet hésitant ». A : une ligne droite continue. Observation : « le trajet semble décidé ». B : deux arrêts marqués et une ligne en zigzag.",
+      "reponse_attendue": "Révision : passage de la ligne droite continue à une trajectoire avec arrêts et zigzag. Raison : rendre perceptible l’hésitation, car A semblait trop assurée. Il suffit d’un changement clairement nommé et soutenu.",
+      "criteres": [
+        "Différence A/B exacte et localisable.",
+        "Raison liée à l’observation et à l’intention, non à la beauté.",
+        "Mention explicite de la source : journal A, observation, B."
+      ],
+      "feedback": "« C’est mieux » est incomplet : dis ce qui a changé et pourquoi, à partir de la note.",
+      "difficulte": "initial",
+      "representation": "comparaison_versions",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Ordonne les étapes de la démarche et indique l’indice qui marque la révision.",
+      "stimulus": "Quatre cartes d’une création fictive « rendre visible un écho » : carte A « je veux montrer un écho »; carte B « essai 1 : deux gestes simultanés »; carte C « observation : on ne distingue pas une réponse »; carte D « essai 2 : un geste après l’autre ».",
+      "reponse_attendue": "Ordre A → B → C → D. L’indice de révision est D : gestes successifs plutôt que simultanés (B), en réponse au constat C.",
+      "criteres": [
+        "Ordre intention–essai–observation–révision correct.",
+        "Modification entre B et D reconnue.",
+        "Justification pouvant être montrée par pointage ou pictogrammes."
+      ],
+      "feedback": "L’observation n’est pas l’intention : elle vient après le premier essai et permet de décider de la révision.",
+      "difficulte": "initial",
+      "representation": "cartes_chronologie",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Raconte le rôle personnel de chaque membre et la décision commune sans inventer d’accord.",
+      "stimulus": "Journal fictif : intention « deux lumières dialoguent ». A : deux ronds bougent ensemble. Notes : « Ana propose de faire alterner les ronds; Jules préfère ajouter une pause; ils essaient les deux. » B : alternance de ronds, avec une pause entre eux.",
+      "reponse_attendue": "Réponse modèle : « Ana a proposé l’alternance, Jules la pause; leur essai B comporte les deux propositions, pour mieux distinguer la réponse de chaque lumière. » Aucun témoignage sur les sentiments n’est disponible.",
+      "criteres": [
+        "Propositions correctement attribuées à Ana et Jules.",
+        "Décision B décrite et reliée à l’intention.",
+        "Aucune émotion ni approbation inventée."
+      ],
+      "feedback": "Le fait que B combine deux idées ne prouve pas que chacun a « adoré » le résultat; limite-toi aux notes disponibles.",
+      "difficulte": "intermediaire",
+      "representation": "journal_collaboratif",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare les traces et justifie deux changements de composition à l’aide des notes.",
+      "stimulus": "Création fictive de Luz « une ombre s’allonge ». A : geste court, puis un arrêt abrupt. Observation : « on voit peu l’allongement ». B : deux gestes successifs représentés par des flèches de longueur croissante et une fin immobile.",
+      "reponse_attendue": "Deux changements : (1) geste court unique → deux gestes représentés par des flèches croissantes pour figurer l’allongement; (2) arrêt abrupt → fin immobile préparée, pour rendre visible la conclusion. Justification fondée sur la remarque « on voit peu l’allongement ». L’analyse peut signaler qu’un seul changement est suffisant pour l’intention si elle le justifie.",
+      "criteres": [
+        "Au moins deux différences A/B correctes.",
+        "Raison appuyée par la note, sans inventer la réaction du public.",
+        "Vocabulaire intention/choix/révision utilisé de manière compréhensible."
+      ],
+      "feedback": "Vérifie chaque changement dans les deux versions; ne confonds pas le titre du projet avec une observation.",
+      "difficulte": "intermediaire",
+      "representation": "croquis_révision",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Distingue ce qui est attesté par une trace et ce qui relève d’une affirmation non vérifiée. Propose une reformulation juste.",
+      "stimulus": "Texte fictif : « A : nos personnages restent éloignés; B : ils s’arrêtent à mi-chemin. J’ai choisi la pause pour montrer une rencontre. Tout le public a compris et m’a trouvé parfait. » Aucune réaction du public n’a été enregistrée.",
+      "reponse_attendue": "Attesté : A montre l’éloignement, B la pause et la personne explique son choix d’évoquer une rencontre. Non attesté : tout le public a compris et le jugement « parfait ». Reformulation : « J’ai ajouté une pause à mi-chemin pour évoquer une rencontre; A et B montrent ce changement. »",
+      "criteres": [
+        "Faits de trace séparés des suppositions.",
+        "Reformulation reliant intention, changement et preuve.",
+        "Aucun jugement esthétique ou personnel retenu comme preuve."
+      ],
+      "feedback": "Demande-toi « où est-ce noté? » avant de répéter une affirmation sur les spectateurs.",
+      "difficulte": "intermediaire",
+      "representation": "analyse_de_preuve",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique comment une même démarche peut être racontée sans vidéo et montre une justification à partir de deux croquis.",
+      "stimulus": "Storyboard fictif de Téo : intention « faire sentir une surprise douce ». Croquis A : un seul personnage tient une carte fermée. Croquis B : carte ouverte en deux temps avec pause. Note : « la première version n’annonçait pas le changement ». Pas de vidéo ni de représentation corporelle.",
+      "reponse_attendue": "Présentation valable : « Je voulais une surprise douce. A, la carte reste fermée; en B, j’ai choisi de l’ouvrir en deux étapes avec une pause, parce que l’essai A n’annonçait pas le changement. » La comparaison A/B démontre le processus sans vidéo.",
+      "criteres": [
+        "Intention et au moins un choix explicités.",
+        "Révision et raison tirées des croquis et de la note.",
+        "Absence de vidéo correctement reconnue comme modalité équivalente."
+      ],
+      "feedback": "Une vidéo n’est pas obligatoire; une preuve se trouve aussi dans des dessins datés et une explication.",
+      "difficulte": "intermediaire",
+      "representation": "storyboard_accessible",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Crée une mini-composition personnelle sur le thème « une lanterne s’allume », trace la version A, décide d’une révision B après un essai, puis raconte ta démarche sans phrase à compléter.",
+      "stimulus": "Matériel autorisé : cartes « lumière éteinte / attente / lumière allumée », deux feuilles A/B ou équivalent; un adulte veille à un espace sûr. Tu peux déplacer seulement les cartes ou faire des gestes simples et confortables. Note la raison de ton changement; aucune captation exigée.",
+      "reponse_attendue": "Production variable : trace A créée par la personne, trace B distinguable, intention « allumage graduel » ou autre intention cohérente, deux choix reliés à l’intention, différence A/B et raison personnelle explicite. Exemple non prescriptif : A passe directement de fermé à ouvert; B insère une pause pour faire attendre le signal. Aucun modèle unique de geste.",
+      "criteres": [
+        "Intention explicitée et deux choix reliés au thème.",
+        "Deux états originaux A/B reconnaissables et chronologiques.",
+        "Modification décrite et motivée sans amorce de contenu.",
+        "Autonomie et possibilité d’une modalité assise, pictographique ou écrite."
+      ],
+      "feedback": "Si tu décris seulement B, retrouve A : quelle décision as-tu changée et dans quel but?",
+      "difficulte": "transfert",
+      "representation": "carnet_personnel_individuel",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir du journal fictif de trois créateurs, explique intention, décisions attribuées, révision et preuve, puis suggère un autre essai cohérent sans imposer ton esthétique.",
+      "stimulus": "Projet fictif « trois messages circulent ». A : trois gestes dessinés en même temps. Journal : « Léa propose un départ à tour de rôle; Idris propose un temps d’attente; Tao note que l’idée de circulation se perd en A et dessine B avec trois départs différés et une pause. »",
+      "reponse_attendue": "Récit modèle : « Ils veulent évoquer la circulation de trois messages. A fait tout démarrer ensemble; Léa propose des départs successifs, Idris une pause, et Tao produit le croquis B. La révision aide à suivre le trajet des messages, ce que la note signalait comme difficile dans A. » Nouvel essai recevable : inverser l’ordre des trois départs et expliquer si la circulation reste lisible.",
+      "criteres": [
+        "Intention correctement inférée du projet et de la note.",
+        "Propositions et contribution de chacun attribuées.",
+        "Différence A/B précise, raison fondée sur la remarque.",
+        "Nouvelle proposition possible et justifiée sans goût imposé."
+      ],
+      "feedback": "Ne confonds pas suggestion, décision et observation : relis la partie du journal qui attribue les rôles.",
+      "difficulte": "transfert",
+      "representation": "analyse_du_processus_de_groupe",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE A — En autonomie, crée une courte composition originale « une horloge se réveille » avec gestes sûrs, cartes ou figurines. Garde une trace personnelle A de ton premier essai, note ton observation, puis construis B avec un changement précis. Raconte les étapes de ta création à partir des deux traces, sans indice de contenu.",
+      "stimulus": "Contexte distinct A : création individuelle en trois moments symbolisant un réveil progressif. Support au choix : deux croquis A/B, storyboard, notes, audio dicté, vidéo consentie (non obligatoire). Réaliser sous supervision si mouvements; pas de sauts, contact ou déplacements rapides. La personne peut représenter la composition exclusivement sur papier.",
+      "reponse_attendue": "Preuve observable, pas chorégraphie imposée : intention formulée par la personne; au moins deux choix motivés (ex. rythme et pause); traces A/B personnellement créées et ordonnées; observation d’essai; changement clairement situé; justification de B reliée à l’intention. Elle explique son rôle individuel sans inventer de collaboration. L’évaluateur observe les axes I, C, T, R, P et S de la grille; aucune qualité motrice brute notée.",
+      "criteres": [
+        "I : intention explicite qui oriente la composition.",
+        "C : au moins deux choix différents justifiés.",
+        "T : trace personnelle A/B ordonnée et citée.",
+        "R : changement précis et raison observée.",
+        "P : responsabilité personnelle honnête en solo.",
+        "S : sécurité, autonomie de contenu et respect de la vie privée."
+      ],
+      "feedback": "Si une raison manque, indiquer quel lien intention/trace est absent; ne pas souffler la réponse pendant la preuve. Prévoir une remédiation puis une nouvelle tâche.",
+      "difficulte": "transfert",
+      "representation": "maitrise_A_creation_individuelle",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-009-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-009-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE B — Dans un contexte distinct, conçois avec une autre personne consentante, en présence de l’adulte, une composition « un chemin se construit » (ou échange d’idées médié par cartes si besoin). Collectez vos propositions dans un journal A, faites un premier essai, puis créez B avec un changement. Raconte TA démarche et les contributions attribuables de l’autre, en montrant la trace A/B, sans aide sur le contenu.",
+      "stimulus": "Contexte distinct B : composition coopérative d’un chemin imaginaire, sans contact imposé. Une interaction réelle peut se faire par propositions écrites ou pictographiques; un adulte assure participation et consentement. Traces personnelles signées « ma proposition / proposition reçue / essai A / essai B / raison ». Vidéo inutile. Si aucune interaction réelle n’est possible, différer cette preuve et proposer un partenaire médié, ne pas simuler un accord fictif.",
+      "reponse_attendue": "Preuve observable : intention partagée exprimée avec honnêteté, deux choix expliqués (ex. succession et pause), contribution personnelle et proposition de l’autre attribuées avec exactitude; traces A/B distinguables; modification issue de l’essai; justification cohérente. Support écrit, oral, cartes ou communication assistée; critères I, C, T, R, P, S constants. Une trace collective peut servir de preuve si la contribution de l’élève est identifiable.",
+      "criteres": [
+        "I : intention explicitée, liée au chemin imaginaire.",
+        "C : au moins deux choix justifiés et situés.",
+        "T : traces d’essai A/B réelles et ordonnées.",
+        "R : révision expliquée par l’observation.",
+        "P : collaboration respectueuse, réelle et contributions attribuées correctement.",
+        "S : consentement, sécurité, autonomie de contenu et confidentialité."
+      ],
+      "feedback": "Dire précisément ce qui manque dans l’explication; ne pas comparer les corps ou le talent et ne pas prêter une opinion au partenaire. Refaire sur un autre projet après remédiation ciblée.",
+      "difficulte": "transfert",
+      "representation": "maitrise_B_creation_cooperative",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ma-002",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Lire, écrire, ordonner et comparer des nombres naturels dans un champ adapté.",
+    "concepts": [
+      "numération",
+      "ordre",
+      "symbole",
+      "comparaison"
+    ]
+  },
+  "titre_source": "Lire, écrire et comparer des nombres naturels",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [
+      {
+        "type": "fraction",
+        "statut": "suggestion_de_composant_a_verifier",
+        "validation": "aucune"
+      }
+    ],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "numération, ordre, symbole",
+      "prompt_conceptuel": "Concept d'image pour le cours « Lire, écrire et comparer des nombres naturels ». Représenter des objets et supports manipulables permettant de raisonner sur la notion mathématique. Mettre en évidence les notions : numération, ordre, symbole, comparaison. L'image doit aider à comprendre l'objectif « Lire, écrire, ordonner et comparer des nombres naturels dans un champ adapté. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Lire, écrire et comparer des nombres naturels : numération, ordre, symbole.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "numération, ordre, symbole",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Lire, écrire et comparer des nombres naturels » : montrer une situation quotidienne où les objets peuvent être comparés, groupés ou organisés. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter numération, ordre, symbole, comparaison. Cette image sert de point de départ à une activité liée à l'objectif « Lire, écrire, ordonner et comparer des nombres naturels dans un champ adapté. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Première différence »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Lire, écrire et comparer des nombres naturels.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Première différence",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

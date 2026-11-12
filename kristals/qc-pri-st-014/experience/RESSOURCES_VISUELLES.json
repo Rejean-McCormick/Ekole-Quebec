@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-st-014",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Expliquer par un schéma les principaux changements d’état et déplacements de l’eau.",
+    "concepts": [
+      "évaporation",
+      "condensation",
+      "précipitation",
+      "circulation"
+    ]
+  },
+  "titre_source": "Eau et cycle de l’eau",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "évaporation, condensation, précipitation",
+      "prompt_conceptuel": "Concept d'image pour le cours « Eau et cycle de l’eau ». Représenter un environnement d’observation scientifique avec des objets ou phénomènes pertinents. Mettre en évidence les notions : évaporation, condensation, précipitation, circulation. L'image doit aider à comprendre l'objectif « Expliquer par un schéma les principaux changements d’état et déplacements de l’eau. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Eau et cycle de l’eau : évaporation, condensation, précipitation.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "évaporation, condensation, précipitation",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Eau et cycle de l’eau » : montrer une situation d’investigation où l’on peut comparer un phénomène avant et après une action. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter évaporation, condensation, précipitation, circulation. Cette image sert de point de départ à une activité liée à l'objectif « Expliquer par un schéma les principaux changements d’état et déplacements de l’eau. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Lac, nuages et ruisseau »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Eau et cycle de l’eau.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Lac, nuages et ruisseau",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

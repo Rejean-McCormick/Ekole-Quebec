@@ -1,0 +1,742 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-033",
+  "family_id": "qc-pri-ma-033-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-033-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-033-ev-01",
+      "mode": "parametrique",
+      "consigne": "Représente la situation, explique chaque opération, contrôle par une autre méthode, conclus avec la bonne unité et repère puis corrige la première erreur du raisonnement présenté.",
+      "stimulus": "Dans un atelier, il y a 4 boîtes contenant chacune 6 crayons, plus 3 crayons isolés. Combien de crayons en tout? Jules écrit « 4 + 6 + 3 = 13 crayons ». Représente les quantités, justifie, contrôle autrement, conclus et repère précisément son erreur.",
+      "reponse_attendue": "Représentation vérifiable : 4 groupes de 6 crayons, puis 3 isolés. Justification et calcul : 4 × 6 + 3 = 27 crayons. Contrôle indépendant : 6 + 6 + 6 + 6 + 3 = 27 crayons. Conclusion : la grandeur demandée est 27 crayons. Analyse du premier passage invalide : La première addition des groupes et des crayons/groupe est une confusion d’unités. Corriger avec le calcul montré, sans prétendre que le résultat suffit.",
+      "criteres": [
+        "crit-1 / V : calcul et unité exacts selon les données et le résultat de la variante",
+        "crit-1 / R : représentation des quantités explicitement étiquetée",
+        "crit-1 / J : opérations justifiées par les relations entre quantités",
+        "crit-1 / C : contrôle indépendant et conclusion avec l’unité",
+        "crit-1 / E : première erreur adverse localisée, expliquée et correctement réparée"
+      ],
+      "feedback": "Si le résultat annoncé est 13, examiner l’opération de départ et l’unité de chaque nombre. Le résultat contrôlé est 27; demander un second contrôle et la localisation de la première erreur, pas la simple copie de la réponse.",
+      "difficulte": "initial",
+      "representation_attendue": "Schéma de groupes de crayons ou addition répétée et égalité.",
+      "seed": 33001,
+      "parametres": {
+        "protocole": "catalogue_fini_deterministe/1.0",
+        "variables": {
+          "groupes": {
+            "type": "entier",
+            "domaine_exact": [
+              3,
+              4,
+              5
+            ]
+          },
+          "objets_par_groupe": {
+            "type": "entier",
+            "domaine_exact": [
+              4,
+              5,
+              6
+            ]
+          },
+          "objets_ajoutes": {
+            "type": "entier",
+            "domaine_exact": [
+              2,
+              3
+            ]
+          }
+        },
+        "catalogue": [
+          {
+            "groupes": 3,
+            "objets_par_groupe": 5,
+            "objets_ajoutes": 2
+          },
+          {
+            "groupes": 4,
+            "objets_par_groupe": 6,
+            "objets_ajoutes": 3
+          },
+          {
+            "groupes": 5,
+            "objets_par_groupe": 4,
+            "objets_ajoutes": 2
+          }
+        ],
+        "contraintes": "groupes>=3; objets_par_groupe>=4; objets_ajoutes>=2; total_positif; erreur_differente",
+        "choix_instance": "index_zero_base = seed % len(catalogue) ; puis choisir cette entrée sans permutation ni tirage aléatoire",
+        "index_instance_livree": 1,
+        "construction_stimulus": "Dans un atelier, il y a {groupes} boîtes contenant chacune {objets_par_groupe} crayons, plus {objets_ajoutes} crayons isolés. Combien de crayons en tout? Jules écrit « {groupes} + {objets_par_groupe} + {objets_ajoutes} = {faux} crayons ». Représente les quantités, justifie, contrôle autrement, conclus et repère précisément son erreur.",
+        "algorithme_resolution": "groupes * objets_par_groupe + objets_ajoutes",
+        "algorithme_erreur_a_critiquer": "groupes + objets_par_groupe + objets_ajoutes",
+        "algorithme_corrige": "Calculer les deux expressions indiquées sur les entiers; construire la représentation selon la situation; pour contrôler, utiliser le contrôle indépendant stocké dans validations_exemples. Les unités sont données par le contexte.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "groupes": 3,
+              "objets_par_groupe": 5,
+              "objets_ajoutes": 2
+            },
+            "resultat_attendu": 17,
+            "resultat_errone_propose": 10,
+            "calcul_explicite": "3 × 5 + 2 = 17 crayons",
+            "controle_independant": "5 + 5 + 5 + 2 = 17 crayons"
+          },
+          {
+            "variables": {
+              "groupes": 4,
+              "objets_par_groupe": 6,
+              "objets_ajoutes": 3
+            },
+            "resultat_attendu": 27,
+            "resultat_errone_propose": 13,
+            "calcul_explicite": "4 × 6 + 3 = 27 crayons",
+            "controle_independant": "6 + 6 + 6 + 6 + 3 = 27 crayons"
+          },
+          {
+            "variables": {
+              "groupes": 5,
+              "objets_par_groupe": 4,
+              "objets_ajoutes": 2
+            },
+            "resultat_attendu": 22,
+            "resultat_errone_propose": 11,
+            "calcul_explicite": "5 × 4 + 2 = 22 crayons",
+            "controle_independant": "4 + 4 + 4 + 4 + 4 + 2 = 22 crayons"
+          }
+        ],
+        "limites_variation": "Substituer uniquement un tuple entier listé dans catalogue; regénérer simultanément stimulus, opération adverse, corrigé, contrôle et conclusion; aucune reformulation ou paramétrisation libre non testée."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-033-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-033-ev-01",
+      "mode": "parametrique",
+      "consigne": "Représente la situation, explique chaque opération, contrôle par une autre méthode, conclus avec la bonne unité et repère puis corrige la première erreur du raisonnement présenté.",
+      "stimulus": "Une classe possède 3 rangées de 5 chaises. On retire 4 chaises. Combien en reste-t-il? Zoé écrit « 3 + 5 − 4 = 4 ». Démontre une solution, effectue un contrôle indépendant et localise l’erreur de Zoé.",
+      "reponse_attendue": "Représentation vérifiable : 3 rangées de 5 sièges, puis retrait de 4. Justification et calcul : 3 × 5 − 4 = 11 chaises. Contrôle indépendant : (11) + 4 = 15 chaises initiales. Conclusion : la grandeur demandée est 11 chaises. Analyse du premier passage invalide : Zoé traite le nombre de rangées comme un tas de chaises; elle doit d’abord calculer le total des rangées. Corriger avec le calcul montré, sans prétendre que le résultat suffit.",
+      "criteres": [
+        "crit-1 / V : calcul et unité exacts selon les données et le résultat de la variante",
+        "crit-1 / R : représentation des quantités explicitement étiquetée",
+        "crit-1 / J : opérations justifiées par les relations entre quantités",
+        "crit-1 / C : contrôle indépendant et conclusion avec l’unité",
+        "crit-1 / E : première erreur adverse localisée, expliquée et correctement réparée"
+      ],
+      "feedback": "Si le résultat annoncé est 4, examiner l’opération de départ et l’unité de chaque nombre. Le résultat contrôlé est 11; demander un second contrôle et la localisation de la première erreur, pas la simple copie de la réponse.",
+      "difficulte": "initial",
+      "representation_attendue": "Rangées identifiables et chaises retirées; total initial puis reste.",
+      "seed": 33002,
+      "parametres": {
+        "protocole": "catalogue_fini_deterministe/1.0",
+        "variables": {
+          "rangees": {
+            "type": "entier",
+            "domaine_exact": [
+              2,
+              3,
+              4
+            ]
+          },
+          "chaises_par_rangee": {
+            "type": "entier",
+            "domaine_exact": [
+              5,
+              6,
+              8
+            ]
+          },
+          "chaises_retirees": {
+            "type": "entier",
+            "domaine_exact": [
+              3,
+              4,
+              5
+            ]
+          }
+        },
+        "catalogue": [
+          {
+            "rangees": 2,
+            "chaises_par_rangee": 8,
+            "chaises_retirees": 3
+          },
+          {
+            "rangees": 4,
+            "chaises_par_rangee": 6,
+            "chaises_retirees": 5
+          },
+          {
+            "rangees": 3,
+            "chaises_par_rangee": 5,
+            "chaises_retirees": 4
+          }
+        ],
+        "contraintes": "rangees>=2; produit>chaises_retirees>=3; erreur_differente",
+        "choix_instance": "index_zero_base = seed % len(catalogue) ; puis choisir cette entrée sans permutation ni tirage aléatoire",
+        "index_instance_livree": 2,
+        "construction_stimulus": "Une classe possède {rangees} rangées de {chaises_par_rangee} chaises. On retire {chaises_retirees} chaises. Combien en reste-t-il? Zoé écrit « {rangees} + {chaises_par_rangee} − {chaises_retirees} = {faux} ». Démontre une solution, effectue un contrôle indépendant et localise l’erreur de Zoé.",
+        "algorithme_resolution": "rangees * chaises_par_rangee - chaises_retirees",
+        "algorithme_erreur_a_critiquer": "rangees + chaises_par_rangee - chaises_retirees",
+        "algorithme_corrige": "Calculer les deux expressions indiquées sur les entiers; construire la représentation selon la situation; pour contrôler, utiliser le contrôle indépendant stocké dans validations_exemples. Les unités sont données par le contexte.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "rangees": 2,
+              "chaises_par_rangee": 8,
+              "chaises_retirees": 3
+            },
+            "resultat_attendu": 13,
+            "resultat_errone_propose": 7,
+            "calcul_explicite": "2 × 8 − 3 = 13 chaises",
+            "controle_independant": "(13) + 3 = 16 chaises initiales"
+          },
+          {
+            "variables": {
+              "rangees": 4,
+              "chaises_par_rangee": 6,
+              "chaises_retirees": 5
+            },
+            "resultat_attendu": 19,
+            "resultat_errone_propose": 5,
+            "calcul_explicite": "4 × 6 − 5 = 19 chaises",
+            "controle_independant": "(19) + 5 = 24 chaises initiales"
+          },
+          {
+            "variables": {
+              "rangees": 3,
+              "chaises_par_rangee": 5,
+              "chaises_retirees": 4
+            },
+            "resultat_attendu": 11,
+            "resultat_errone_propose": 4,
+            "calcul_explicite": "3 × 5 − 4 = 11 chaises",
+            "controle_independant": "(11) + 4 = 15 chaises initiales"
+          }
+        ],
+        "limites_variation": "Substituer uniquement un tuple entier listé dans catalogue; regénérer simultanément stimulus, opération adverse, corrigé, contrôle et conclusion; aucune reformulation ou paramétrisation libre non testée."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-033-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-033-ev-01",
+      "mode": "parametrique",
+      "consigne": "Représente la situation, explique chaque opération, contrôle par une autre méthode, conclus avec la bonne unité et repère puis corrige la première erreur du raisonnement présenté.",
+      "stimulus": "On partage équitablement 24 cartes entre 4 équipes, sans reste. Combien de cartes par équipe? Ariane répond « 24 − 4 = 20 cartes par équipe ». Fais un schéma ou tableau, justifie le quotient, vérifie-le, conclus et situe l’erreur.",
+      "reponse_attendue": "Représentation vérifiable : 4 groupes égaux de 6 cartes. Justification et calcul : 24 ÷ 4 = 6 cartes par équipe. Contrôle indépendant : 4 × 6 = 24 cartes au total. Conclusion : la grandeur demandée est 6 cartes/équipe. Analyse du premier passage invalide : Soustraire le nombre d’équipes ne répartit pas les cartes; on doit faire autant de groupes égaux que d’équipes. Corriger avec le calcul montré, sans prétendre que le résultat suffit.",
+      "criteres": [
+        "crit-1 / V : calcul et unité exacts selon les données et le résultat de la variante",
+        "crit-1 / R : représentation des quantités explicitement étiquetée",
+        "crit-1 / J : opérations justifiées par les relations entre quantités",
+        "crit-1 / C : contrôle indépendant et conclusion avec l’unité",
+        "crit-1 / E : première erreur adverse localisée, expliquée et correctement réparée"
+      ],
+      "feedback": "Si le résultat annoncé est 20, examiner l’opération de départ et l’unité de chaque nombre. Le résultat contrôlé est 6; demander un second contrôle et la localisation de la première erreur, pas la simple copie de la réponse.",
+      "difficulte": "intermediaire",
+      "representation_attendue": "Colonnes de cartes égales, une colonne par équipe; quotient et inverse.",
+      "seed": 33003,
+      "parametres": {
+        "protocole": "catalogue_fini_deterministe/1.0",
+        "variables": {
+          "cartes": {
+            "type": "entier",
+            "domaine_exact": [
+              24,
+              30,
+              35
+            ]
+          },
+          "equipes": {
+            "type": "entier",
+            "domaine_exact": [
+              4,
+              5,
+              6
+            ]
+          }
+        },
+        "catalogue": [
+          {
+            "cartes": 24,
+            "equipes": 4
+          },
+          {
+            "cartes": 30,
+            "equipes": 6
+          },
+          {
+            "cartes": 35,
+            "equipes": 5
+          }
+        ],
+        "contraintes": "cartes % equipes=0; quotient_positif; erreur_differente",
+        "choix_instance": "index_zero_base = seed % len(catalogue) ; puis choisir cette entrée sans permutation ni tirage aléatoire",
+        "index_instance_livree": 0,
+        "construction_stimulus": "On partage équitablement {cartes} cartes entre {equipes} équipes, sans reste. Combien de cartes par équipe? Ariane répond « {cartes} − {equipes} = {faux} cartes par équipe ». Fais un schéma ou tableau, justifie le quotient, vérifie-le, conclus et situe l’erreur.",
+        "algorithme_resolution": "cartes // equipes (division entière, cartes % equipes == 0)",
+        "algorithme_erreur_a_critiquer": "cartes - equipes",
+        "algorithme_corrige": "Calculer les deux expressions indiquées sur les entiers; construire la représentation selon la situation; pour contrôler, utiliser le contrôle indépendant stocké dans validations_exemples. Les unités sont données par le contexte.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "cartes": 24,
+              "equipes": 4
+            },
+            "resultat_attendu": 6,
+            "resultat_errone_propose": 20,
+            "calcul_explicite": "24 ÷ 4 = 6 cartes par équipe",
+            "controle_independant": "4 × 6 = 24 cartes au total"
+          },
+          {
+            "variables": {
+              "cartes": 30,
+              "equipes": 6
+            },
+            "resultat_attendu": 5,
+            "resultat_errone_propose": 24,
+            "calcul_explicite": "30 ÷ 6 = 5 cartes par équipe",
+            "controle_independant": "6 × 5 = 30 cartes au total"
+          },
+          {
+            "variables": {
+              "cartes": 35,
+              "equipes": 5
+            },
+            "resultat_attendu": 7,
+            "resultat_errone_propose": 30,
+            "calcul_explicite": "35 ÷ 5 = 7 cartes par équipe",
+            "controle_independant": "5 × 7 = 35 cartes au total"
+          }
+        ],
+        "limites_variation": "Substituer uniquement un tuple entier listé dans catalogue; regénérer simultanément stimulus, opération adverse, corrigé, contrôle et conclusion; aucune reformulation ou paramétrisation libre non testée."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-033-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-033-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique pourquoi une réponse peut être juste malgré une mauvaise justification. Représente le contour, montre deux calculs corrects, puis mets la règle proposée à l’épreuve sur un deuxième rectangle.",
+      "stimulus": "Pour un rectangle de 6 m sur 2 m, Alice dit : « Le contour vaut 6×2+4=16 m. Donc pour tout rectangle, le périmètre est longueur×largeur+4. » Évalue le résultat ET la généralisation avec un rectangle de 5 m sur 3 m.",
+      "reponse_attendue": "Premier rectangle : côtés 6,2,6,2 m, donc P=6+2+6+2=16 m (contrôle 2×(6+2)=16 m). Le nombre 16 est juste mais la formule 6×2+4 n’est pas la règle du périmètre : 6 m×2 m=12 m² (aire) et ne peut s’additionner à 4 m. Contre-test 5×3 : P=5+3+5+3=16 m, mais 5×3+4=19, donc la règle est réfutée. Conclusion : 16 m est bien le premier périmètre, obtenu ici par une mauvaise raison.",
+      "criteres": [
+        "crit-1 / V : périmètres 16 m pour les deux rectangles, 19 résultat erroné du contre-test",
+        "crit-1 / R : côtés légendés en mètres",
+        "crit-1 / J : contour comme somme des côtés et distinction de l’aire",
+        "crit-1 / C : second calcul 2(L+l) et conclusion précise",
+        "crit-1 / E : localiser la confusion entre m² et m, expliciter le hasard du premier résultat"
+      ],
+      "feedback": "Si l’élève accepte la règle parce que 16 est juste, demander l’unité de 6×2 et le calcul sur 5 m par 3 m; distinguer validité de la démarche et coïncidence.",
+      "difficulte": "intermediaire",
+      "representation_attendue": "Quatre côtés et unités, plus contre-exemple chiffré",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-033-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-033-ev-01",
+      "mode": "parametrique",
+      "consigne": "Représente la situation, explique chaque opération, contrôle par une autre méthode, conclus avec la bonne unité et repère puis corrige la première erreur du raisonnement présenté.",
+      "stimulus": "Un rectangle mesure 5 m de longueur et 4 m de largeur. Combien de mètres de ficelle faut-il pour faire exactement le tour? Rémi affirme « 5 × 4 = 20 m ». Représente les côtés, justifie, contrôle et corrige son raisonnement.",
+      "reponse_attendue": "Représentation vérifiable : Côtés 5 m, 4 m, 5 m, 4 m. Justification et calcul : 5 + 4 + 5 + 4 = 18 m. Contrôle indépendant : 2 × (5 + 4) = 18 m. Conclusion : la grandeur demandée est 18 m. Analyse du premier passage invalide : Le produit 5 m × 4 m donne 20 m² d’aire, pas un contour mesuré en m. Corriger avec le calcul montré, sans prétendre que le résultat suffit.",
+      "criteres": [
+        "crit-1 / V : calcul et unité exacts selon les données et le résultat de la variante",
+        "crit-1 / R : représentation des quantités explicitement étiquetée",
+        "crit-1 / J : opérations justifiées par les relations entre quantités",
+        "crit-1 / C : contrôle indépendant et conclusion avec l’unité",
+        "crit-1 / E : première erreur adverse localisée, expliquée et correctement réparée"
+      ],
+      "feedback": "Si le résultat annoncé est 20, examiner l’opération de départ et l’unité de chaque nombre. Le résultat contrôlé est 18; demander un second contrôle et la localisation de la première erreur, pas la simple copie de la réponse.",
+      "difficulte": "intermediaire",
+      "representation_attendue": "Quatre côtés étiquetés en mètres, contour séparé de surface.",
+      "seed": 33005,
+      "parametres": {
+        "protocole": "catalogue_fini_deterministe/1.0",
+        "variables": {
+          "longueur_m": {
+            "type": "entier",
+            "domaine_exact": [
+              5,
+              6,
+              8
+            ]
+          },
+          "largeur_m": {
+            "type": "entier",
+            "domaine_exact": [
+              3,
+              4
+            ]
+          }
+        },
+        "catalogue": [
+          {
+            "longueur_m": 6,
+            "largeur_m": 4
+          },
+          {
+            "longueur_m": 8,
+            "largeur_m": 3
+          },
+          {
+            "longueur_m": 5,
+            "largeur_m": 4
+          }
+        ],
+        "contraintes": "longueur_m>largeur_m>=3; perimetre!=aire_valeur; longueurs_positives",
+        "choix_instance": "index_zero_base = seed % len(catalogue) ; puis choisir cette entrée sans permutation ni tirage aléatoire",
+        "index_instance_livree": 2,
+        "construction_stimulus": "Un rectangle mesure {longueur_m} m de longueur et {largeur_m} m de largeur. Combien de mètres de ficelle faut-il pour faire exactement le tour? Rémi affirme « {longueur_m} × {largeur_m} = {faux} m ». Représente les côtés, justifie, contrôle et corrige son raisonnement.",
+        "algorithme_resolution": "2 * (longueur_m + largeur_m)",
+        "algorithme_erreur_a_critiquer": "longueur_m * largeur_m",
+        "algorithme_corrige": "Calculer les deux expressions indiquées sur les entiers; construire la représentation selon la situation; pour contrôler, utiliser le contrôle indépendant stocké dans validations_exemples. Les unités sont données par le contexte.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "longueur_m": 6,
+              "largeur_m": 4
+            },
+            "resultat_attendu": 20,
+            "resultat_errone_propose": 24,
+            "calcul_explicite": "6 + 4 + 6 + 4 = 20 m",
+            "controle_independant": "2 × (6 + 4) = 20 m"
+          },
+          {
+            "variables": {
+              "longueur_m": 8,
+              "largeur_m": 3
+            },
+            "resultat_attendu": 22,
+            "resultat_errone_propose": 24,
+            "calcul_explicite": "8 + 3 + 8 + 3 = 22 m",
+            "controle_independant": "2 × (8 + 3) = 22 m"
+          },
+          {
+            "variables": {
+              "longueur_m": 5,
+              "largeur_m": 4
+            },
+            "resultat_attendu": 18,
+            "resultat_errone_propose": 20,
+            "calcul_explicite": "5 + 4 + 5 + 4 = 18 m",
+            "controle_independant": "2 × (5 + 4) = 18 m"
+          }
+        ],
+        "limites_variation": "Substituer uniquement un tuple entier listé dans catalogue; regénérer simultanément stimulus, opération adverse, corrigé, contrôle et conclusion; aucune reformulation ou paramétrisation libre non testée."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-033-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-033-ev-01",
+      "mode": "parametrique",
+      "consigne": "Représente la situation, explique chaque opération, contrôle par une autre méthode, conclus avec la bonne unité et repère puis corrige la première erreur du raisonnement présenté.",
+      "stimulus": "Il y a 4 boîtes de 6 jetons chacune. On retire 2 jetons, pas des boîtes. Combien de jetons restent? Mia écrit « (4 − 2) × 6 = 12 ». Explique une solution, contrôle-la et montre précisément pourquoi son raisonnement ne représente pas le retrait.",
+      "reponse_attendue": "Représentation vérifiable : 4 groupes de 6 jetons moins 2 jetons isolés. Justification et calcul : 4 × 6 − 2 = 22 jetons. Contrôle indépendant : 22 + 2 = 24 jetons. Conclusion : la grandeur demandée est 22 jetons. Analyse du premier passage invalide : Soustraire 2 à 4 enlève des boîtes alors que la situation enlève des jetons. Corriger avec le calcul montré, sans prétendre que le résultat suffit.",
+      "criteres": [
+        "crit-1 / V : calcul et unité exacts selon les données et le résultat de la variante",
+        "crit-1 / R : représentation des quantités explicitement étiquetée",
+        "crit-1 / J : opérations justifiées par les relations entre quantités",
+        "crit-1 / C : contrôle indépendant et conclusion avec l’unité",
+        "crit-1 / E : première erreur adverse localisée, expliquée et correctement réparée"
+      ],
+      "feedback": "Si le résultat annoncé est 12, examiner l’opération de départ et l’unité de chaque nombre. Le résultat contrôlé est 22; demander un second contrôle et la localisation de la première erreur, pas la simple copie de la réponse.",
+      "difficulte": "intermediaire",
+      "representation_attendue": "Boîtes et objets représentés séparément; retrait individuel.",
+      "seed": 33006,
+      "parametres": {
+        "protocole": "catalogue_fini_deterministe/1.0",
+        "variables": {
+          "paquets": {
+            "type": "entier",
+            "domaine_exact": [
+              3,
+              4,
+              5
+            ]
+          },
+          "objets_par_paquet": {
+            "type": "entier",
+            "domaine_exact": [
+              6,
+              7,
+              8
+            ]
+          },
+          "objets_retires": {
+            "type": "entier",
+            "domaine_exact": [
+              2,
+              3
+            ]
+          }
+        },
+        "catalogue": [
+          {
+            "paquets": 4,
+            "objets_par_paquet": 6,
+            "objets_retires": 2
+          },
+          {
+            "paquets": 5,
+            "objets_par_paquet": 7,
+            "objets_retires": 3
+          },
+          {
+            "paquets": 3,
+            "objets_par_paquet": 8,
+            "objets_retires": 2
+          }
+        ],
+        "contraintes": "paquets>objets_retires>=2; erreur_differente; resultat_positif",
+        "choix_instance": "index_zero_base = seed % len(catalogue) ; puis choisir cette entrée sans permutation ni tirage aléatoire",
+        "index_instance_livree": 0,
+        "construction_stimulus": "Il y a {paquets} boîtes de {objets_par_paquet} jetons chacune. On retire {objets_retires} jetons, pas des boîtes. Combien de jetons restent? Mia écrit « ({paquets} − {objets_retires}) × {objets_par_paquet} = {faux} ». Explique une solution, contrôle-la et montre précisément pourquoi son raisonnement ne représente pas le retrait.",
+        "algorithme_resolution": "paquets * objets_par_paquet - objets_retires",
+        "algorithme_erreur_a_critiquer": "(paquets - objets_retires) * objets_par_paquet",
+        "algorithme_corrige": "Calculer les deux expressions indiquées sur les entiers; construire la représentation selon la situation; pour contrôler, utiliser le contrôle indépendant stocké dans validations_exemples. Les unités sont données par le contexte.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "paquets": 4,
+              "objets_par_paquet": 6,
+              "objets_retires": 2
+            },
+            "resultat_attendu": 22,
+            "resultat_errone_propose": 12,
+            "calcul_explicite": "4 × 6 − 2 = 22 jetons",
+            "controle_independant": "22 + 2 = 24 jetons"
+          },
+          {
+            "variables": {
+              "paquets": 5,
+              "objets_par_paquet": 7,
+              "objets_retires": 3
+            },
+            "resultat_attendu": 32,
+            "resultat_errone_propose": 14,
+            "calcul_explicite": "5 × 7 − 3 = 32 jetons",
+            "controle_independant": "32 + 3 = 35 jetons"
+          },
+          {
+            "variables": {
+              "paquets": 3,
+              "objets_par_paquet": 8,
+              "objets_retires": 2
+            },
+            "resultat_attendu": 22,
+            "resultat_errone_propose": 8,
+            "calcul_explicite": "3 × 8 − 2 = 22 jetons",
+            "controle_independant": "22 + 2 = 24 jetons"
+          }
+        ],
+        "limites_variation": "Substituer uniquement un tuple entier listé dans catalogue; regénérer simultanément stimulus, opération adverse, corrigé, contrôle et conclusion; aucune reformulation ou paramétrisation libre non testée."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-033-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-033-ev-01",
+      "mode": "fixe",
+      "consigne": "Construit un tableau avant/arrivée/départ/après; justifie le calcul, vérifie autrement et repère l’oubli de la démarche proposée.",
+      "stimulus": "Au départ, la classe possède 25 revues. Elle en reçoit 9, puis en prête 12. Combien lui en reste-t-il? Kim propose « 25−12=13 revues restantes »; elle n’a pas tenu compte d’une étape du récit.",
+      "reponse_attendue": "Tableau : avant 25 revues, reçues +9, prêtées −12, après 22. Calcul 25+9−12=22 revues; contrôle 22+12=34 et 25+9=34. L’erreur de Kim apparaît au calcul 25−12, car il omet les 9 reçues avant le prêt. Conclusion : il reste 22 revues.",
+      "criteres": [
+        "crit-1 / V : valeur 22 revues et opérations correctes",
+        "crit-1 / R : tableau chronologique explicite",
+        "crit-1 / J : chacune des deux transformations liée au récit",
+        "crit-1 / C : contrôle 22+12=25+9 et conclusion en revues",
+        "crit-1 / E : omission des 9 reçues identifiée et réparée"
+      ],
+      "feedback": "Si le nombre 13 est donné, faire nommer les trois moments du récit; vérifier d’abord le stock après arrivée, puis le stock après prêt.",
+      "difficulte": "intermediaire",
+      "representation_attendue": "Tableau ou frise avant/après",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-033-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-033-ev-01",
+      "mode": "parametrique",
+      "consigne": "Représente la situation, explique chaque opération, contrôle par une autre méthode, conclus avec la bonne unité et repère puis corrige la première erreur du raisonnement présenté.",
+      "stimulus": "Un kiosque fictif vend 4 billets à 4 $ chacun. On paie 25 $. Quelle monnaie reçoit-on? Enzo écrit « 25 − 4 − 4 = 17 $ ». Justifie le coût total puis la monnaie, contrôle autrement et repère l’erreur.",
+      "reponse_attendue": "Représentation vérifiable : 4 billets de 4 $ chacun; paiement 25 $. Justification et calcul : 4 × 4 $ = 16 $ de coût; 25 $ − 16 $ = 9 $ de monnaie. Contrôle indépendant : 16 $ + 9 $ = 25 $ payé. Conclusion : la grandeur demandée est 9 $. Analyse du premier passage invalide : Enzo soustrait le nombre de billets et le prix unitaire séparément alors que ces données définissent un coût total multiplicatif. Corriger avec le calcul montré, sans prétendre que le résultat suffit.",
+      "criteres": [
+        "crit-1 / V : calcul et unité exacts selon les données et le résultat de la variante",
+        "crit-1 / R : représentation des quantités explicitement étiquetée",
+        "crit-1 / J : opérations justifiées par les relations entre quantités",
+        "crit-1 / C : contrôle indépendant et conclusion avec l’unité",
+        "crit-1 / E : première erreur adverse localisée, expliquée et correctement réparée"
+      ],
+      "feedback": "Si le résultat annoncé est 17, examiner l’opération de départ et l’unité de chaque nombre. Le résultat contrôlé est 9; demander un second contrôle et la localisation de la première erreur, pas la simple copie de la réponse.",
+      "difficulte": "intermediaire",
+      "representation_attendue": "Tableau nombre de billets, prix par billet, prix total et monnaie rendue.",
+      "seed": 33008,
+      "parametres": {
+        "protocole": "catalogue_fini_deterministe/1.0",
+        "variables": {
+          "billets": {
+            "type": "entier",
+            "domaine_exact": [
+              3,
+              4,
+              5
+            ]
+          },
+          "prix_unitaire_dollars": {
+            "type": "entier",
+            "domaine_exact": [
+              3,
+              4
+            ]
+          },
+          "paiement_dollars": {
+            "type": "entier",
+            "domaine_exact": [
+              20,
+              25
+            ]
+          }
+        },
+        "catalogue": [
+          {
+            "billets": 3,
+            "prix_unitaire_dollars": 4,
+            "paiement_dollars": 20
+          },
+          {
+            "billets": 5,
+            "prix_unitaire_dollars": 3,
+            "paiement_dollars": 20
+          },
+          {
+            "billets": 4,
+            "prix_unitaire_dollars": 4,
+            "paiement_dollars": 25
+          }
+        ],
+        "contraintes": "billets>=3; prix_unitaire_dollars>=3; paiement_dollars>billets*prix_unitaire_dollars; monnaie_positive; erreur_differente",
+        "choix_instance": "index_zero_base = seed % len(catalogue) ; puis choisir cette entrée sans permutation ni tirage aléatoire",
+        "index_instance_livree": 2,
+        "construction_stimulus": "Un kiosque fictif vend {billets} billets à {prix_unitaire_dollars} $ chacun. On paie {paiement_dollars} $. Quelle monnaie reçoit-on? Enzo écrit « {paiement_dollars} − {billets} − {prix_unitaire_dollars} = {faux} $ ». Justifie le coût total puis la monnaie, contrôle autrement et repère l’erreur.",
+        "algorithme_resolution": "paiement_dollars - billets * prix_unitaire_dollars",
+        "algorithme_erreur_a_critiquer": "paiement_dollars - billets - prix_unitaire_dollars",
+        "algorithme_corrige": "Calculer les deux expressions indiquées sur les entiers; construire la représentation selon la situation; pour contrôler, utiliser le contrôle indépendant stocké dans validations_exemples. Les unités sont données par le contexte.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "billets": 3,
+              "prix_unitaire_dollars": 4,
+              "paiement_dollars": 20
+            },
+            "resultat_attendu": 8,
+            "resultat_errone_propose": 13,
+            "calcul_explicite": "3 × 4 $ = 12 $ de coût; 20 $ − 12 $ = 8 $ de monnaie",
+            "controle_independant": "12 $ + 8 $ = 20 $ payé"
+          },
+          {
+            "variables": {
+              "billets": 5,
+              "prix_unitaire_dollars": 3,
+              "paiement_dollars": 20
+            },
+            "resultat_attendu": 5,
+            "resultat_errone_propose": 12,
+            "calcul_explicite": "5 × 3 $ = 15 $ de coût; 20 $ − 15 $ = 5 $ de monnaie",
+            "controle_independant": "15 $ + 5 $ = 20 $ payé"
+          },
+          {
+            "variables": {
+              "billets": 4,
+              "prix_unitaire_dollars": 4,
+              "paiement_dollars": 25
+            },
+            "resultat_attendu": 9,
+            "resultat_errone_propose": 17,
+            "calcul_explicite": "4 × 4 $ = 16 $ de coût; 25 $ − 16 $ = 9 $ de monnaie",
+            "controle_independant": "16 $ + 9 $ = 25 $ payé"
+          }
+        ],
+        "limites_variation": "Substituer uniquement un tuple entier listé dans catalogue; regénérer simultanément stimulus, opération adverse, corrigé, contrôle et conclusion; aucune reformulation ou paramétrisation libre non testée."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-033-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-033-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME A, sans indice. Produis une représentation annotée, la démarche complète et justifiée, un contrôle mathématique distinct et une conclusion; repère, explique et répare la première erreur de la démarche fictive.",
+      "stimulus": "Une bibliothèque reçoit 5 boîtes contenant chacune 8 livres neufs. On prête ensuite 6 de ces nouveaux livres. Combien de ces nouveaux livres restent à la bibliothèque? Hugo écrit : « 5+8−6=7; il reste 7 livres. »",
+      "reponse_attendue": "Cinq groupes de huit livres (schéma [8][8][8][8][8]), soit 5×8=40 nouveaux livres; puis 40−6=34 livres. Contrôle 34+6=40 et 8+8+8+8+8=40. Conclusion : 34 de ces nouveaux livres restent à la bibliothèque. La première erreur de Hugo est 5+8 : additionner le nombre de boîtes et les livres par boîte ne compte pas cinq groupes de huit. Réparation 5×8−6=34. Opérations et formulations équivalentes admises.",
+      "criteres": [
+        "crit-1 / V : 34 livres, unités cohérentes",
+        "crit-1 / R : 5 groupes de 8 puis retrait de 6 clairement représentés",
+        "crit-1 / J : multiplication et retrait reliés au texte",
+        "crit-1 / C : opération inverse 34+6=40 ou recomptage indépendant, conclusion contextualisée",
+        "crit-1 / E : erreur à 5+8 localisée, expliquée et réparée 5×8−6"
+      ],
+      "feedback": "Si une justification manque malgré 34, faire travailler groupes et unités sur un autre nombre. Si la correction adverse est vague, demander de relever la première opération incorrecte avant une nouvelle passation.",
+      "difficulte": "transfert",
+      "representation_attendue": "Regroupement de livres en boîtes et expression mathématique",
+      "seed": null,
+      "parametres": {
+        "variabilite": "aucune; situation et corrigé figés",
+        "preuve": "A",
+        "contexte": "bibliotheque",
+        "autonomie": "sans indice ni canevas de réponse"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-033-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-033-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME B, sans indice. Représente les quatre côtés, justifie le calcul de clôture, contrôle par une autre méthode, conclus avec l’unité et corrige l’erreur de la démarche fictive.",
+      "stimulus": "On veut clôturer entièrement un jardin rectangulaire de 7 m de longueur et de 4 m de largeur, sans ouverture. Quelle longueur de clôture faut-il? Maëlle écrit : « 7×4=28, donc il faut 28 mètres de clôture. »",
+      "reponse_attendue": "Schéma étiqueté des quatre côtés : 7 m, 4 m, 7 m, 4 m. Périmètre 7+4+7+4=22 m; contrôle indépendant 2×(7+4)=22 m. Conclusion : il faut 22 mètres de clôture. La première erreur de Maëlle est de choisir 7×4, qui calcule l’aire 28 m² du jardin, non la longueur de son contour. Elle confond surface (m²) et longueur (m). Réparation : sommer les quatre côtés.",
+      "criteres": [
+        "crit-1 / V : 22 m, distinguer 28 m² et 22 m",
+        "crit-1 / R : côtés 7,4,7,4 m représentés et nommés",
+        "crit-1 / J : somme des longueurs de contour expliquée",
+        "crit-1 / C : 2×(7+4)=22 m et conclusion en mètres",
+        "crit-1 / E : produit erroné comme aire en m² situé et remplacé par périmètre"
+      ],
+      "feedback": "Si 28 m est retenu, faire identifier le contour distinct de la surface sur un autre rectangle. Si l’unité n’est pas claire, contraster m (longueur) et m² (aire) avant nouvelle passation.",
+      "difficulte": "transfert",
+      "representation_attendue": "Quatre côtés étiquetés; somme des longueurs et distinction m/m²",
+      "seed": null,
+      "parametres": {
+        "variabilite": "aucune; situation et corrigé figés",
+        "preuve": "B",
+        "contexte": "jardin_cloture",
+        "autonomie": "sans indice ni canevas de réponse"
+      },
+      "validation_status": "a_revoir"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "format": "ekole.univers/1",
+  "themes": [
+    {
+      "id": "jardinage",
+      "name": "Les jardins du village",
+      "name_en": "Village gardens",
+      "scenario": "jardin-saisonnier",
+      "companion": "fermier",
+      "intro": "Un jardin collectif prend forme au printemps.",
+      "grouping": {
+        "fr-CA": [
+          "semences",
+          "sachets"
+        ],
+        "en": [
+          "seeds",
+          "packets"
+        ]
+      },
+      "frames": {
+        "ma": "On répartit les semences entre les équipes du jardin.",
+        "langues": "Une nouvelle équipe lit les étiquettes et prépare une annonce pour les bénévoles.",
+        "st": "On compare deux bacs qui ne reçoivent pas la même quantité de lumière.",
+        "arts": "Le groupe dessine un plan des bacs et invente un motif pour les panneaux.",
+        "societe": "Les voisins décident comment partager l’eau et les outils du jardin.",
+        "eps": "Le groupe organise un relais où les sacs de graines se transmettent de main en main."
+      },
+      "capacity": 2,
+      "groups": 3
+    },
+    {
+      "id": "jazz",
+      "name": "Le festival de jazz",
+      "name_en": "The jazz festival",
+      "scenario": "sons-des-lieux",
+      "companion": "leo",
+      "intro": "Un quartier prépare un petit festival de musique.",
+      "grouping": {
+        "fr-CA": [
+          "billets",
+          "enveloppes"
+        ],
+        "en": [
+          "tickets",
+          "envelopes"
+        ]
+      },
+      "frames": {
+        "ma": "La billetterie prépare les enveloppes à distribuer.",
+        "langues": "Une animatrice annonce le programme, puis un groupe prépare les sous-titres des entrevues.",
+        "st": "Des musiciens cherchent comment le matériau d’un instrument change le son produit.",
+        "arts": "Le groupe répond à un motif rythmique et crée une affiche pour la scène.",
+        "societe": "On choisit des horaires pour que les habitants et les musiciens puissent partager l’espace.",
+        "eps": "Deux équipes se déplacent au rythme de la musique et changent de direction au signal."
+      },
+      "capacity": 3,
+      "groups": 4
+    },
+    {
+      "id": "camping",
+      "name": "Camping entre amis",
+      "name_en": "Camping with friends",
+      "scenario": "randonnee-symbolique",
+      "companion": "mila",
+      "intro": "Une équipe prépare une sortie et un campement.",
+      "grouping": {
+        "fr-CA": [
+          "jetons",
+          "trousses"
+        ],
+        "en": [
+          "tokens",
+          "kits"
+        ]
+      },
+      "frames": {
+        "ma": "L’équipe prépare des trousses de jeu identiques pour les tentes.",
+        "langues": "Des amis rédigent une liste et racontent ce qui est arrivé au campement.",
+        "st": "L’équipe compare les endroits où une serviette humide sèche plus vite.",
+        "arts": "Le groupe compose un carnet de sons et de dessins du campement.",
+        "societe": "On discute des règles de passage et de rangement dans un espace partagé.",
+        "eps": "Le groupe essaie deux trajets balisés et décrit les repères utilisés pour s’orienter."
+      },
+      "capacity": 4,
+      "groups": 3
+    },
+    {
+      "id": "velo",
+      "name": "Le vélo de Mathilde",
+      "name_en": "Mathilde’s bike",
+      "scenario": "reparer-pour-un-autre",
+      "companion": "alex",
+      "intro": "Un atelier de quartier remet en état le vélo de Mathilde.",
+      "grouping": {
+        "fr-CA": [
+          "rustines",
+          "boîtes"
+        ],
+        "en": [
+          "patches",
+          "boxes"
+        ]
+      },
+      "frames": {
+        "ma": "On prépare des boîtes de rustines pour les postes de réparation.",
+        "langues": "Mathilde laisse un message à l’atelier et relit le mode d’emploi du matériel.",
+        "st": "Le groupe compare comment deux roues de maquette roulent sur des surfaces différentes.",
+        "arts": "On prépare des pictogrammes pour repérer les postes et joue la scène de l’arrivée à l’atelier.",
+        "societe": "Les bénévoles discutent de la priorité des réparations et de l’accès aux outils.",
+        "eps": "On s’exerce à donner et suivre des signaux de déplacement dans une zone balisée."
+      },
+      "capacity": 2,
+      "groups": 4
+    },
+    {
+      "id": "cuisine",
+      "name": "La cuisine collective",
+      "name_en": "The community kitchen",
+      "scenario": "repas-partage",
+      "companion": "mila",
+      "intro": "Un groupe prépare un goûter pour le voisinage.",
+      "grouping": {
+        "fr-CA": [
+          "biscuits",
+          "boîtes"
+        ],
+        "en": [
+          "cookies",
+          "boxes"
+        ]
+      },
+      "frames": {
+        "ma": "On organise les boîtes à préparer pour le goûter.",
+        "langues": "Une équipe relit la recette et reformule les étapes pour une personne qui la découvre.",
+        "st": "On observe comment des cubes de glace changent dans deux bols placés dans des endroits différents.",
+        "arts": "Le groupe dessine un menu et met en scène une commande au comptoir.",
+        "societe": "On choisit ensemble une façon de distribuer les portions et de répartir le rangement.",
+        "eps": "Les équipes miment une suite de gestes de cuisine, puis l’adaptent à l’espace disponible."
+      },
+      "capacity": 3,
+      "groups": 3
+    },
+    {
+      "id": "grenier",
+      "name": "Le grenier de grand-maman",
+      "name_en": "Grandma’s attic",
+      "scenario": "coup-de-main",
+      "companion": "mila",
+      "intro": "Des enfants aident à trier les objets d’un grenier.",
+      "grouping": {
+        "fr-CA": [
+          "cartes",
+          "boîtes"
+        ],
+        "en": [
+          "cards",
+          "boxes"
+        ]
+      },
+      "frames": {
+        "ma": "On range des cartes de collection dans des boîtes de même capacité.",
+        "langues": "Des photos inspirent un récit et des étiquettes pour les objets retrouvés.",
+        "st": "On compare la transparence et la rigidité de matériaux choisis pour protéger des objets.",
+        "arts": "Une équipe compose une vitrine et joue une scène inspirée d’un objet trouvé.",
+        "societe": "Le groupe discute des objets à garder, à prêter ou à donner et explique ses choix.",
+        "eps": "On fait circuler des objets légers de jeu entre des postes aménagés dans un espace dégagé."
+      },
+      "capacity": 4,
+      "groups": 4
+    },
+    {
+      "id": "riviere",
+      "name": "La rivière du quartier",
+      "name_en": "The neighbourhood river",
+      "scenario": "lac-a-preserver",
+      "companion": "leo",
+      "intro": "Un groupe prépare une journée d’observation près de la rivière.",
+      "grouping": {
+        "fr-CA": [
+          "fiches",
+          "porte-documents"
+        ],
+        "en": [
+          "sheets",
+          "folders"
+        ]
+      },
+      "frames": {
+        "ma": "Les équipes répartissent leurs fiches d’observation dans des porte-documents.",
+        "langues": "Des jeunes préparent une carte annotée et un court bulletin sur leurs observations.",
+        "st": "On compare des modèles de berges en versant la même quantité d’eau sur deux plateaux.",
+        "arts": "Le groupe crée une affiche avec les formes et les sons associés à la rivière.",
+        "societe": "Des personnes discutent de plusieurs usages d’un lieu commun et comparent leurs besoins.",
+        "eps": "Le groupe suit au sol un parcours qui représente les courbes de la rivière."
+      },
+      "capacity": 2,
+      "groups": 3
+    },
+    {
+      "id": "espace",
+      "name": "La station spatiale",
+      "name_en": "The space station",
+      "scenario": "ciel-en-cartes",
+      "companion": "extraterrestre",
+      "intro": "Une station fictive se prépare à recevoir son équipage.",
+      "grouping": {
+        "fr-CA": [
+          "capsules",
+          "caisses"
+        ],
+        "en": [
+          "capsules",
+          "crates"
+        ]
+      },
+      "frames": {
+        "ma": "L’équipe range les capsules d’équipement dans des caisses.",
+        "langues": "L’équipage déchiffre un message et rédige son journal de bord.",
+        "st": "Dans une maquette, on compare l’ombre d’un objet à deux distances de la lampe.",
+        "arts": "On dessine une carte céleste imaginaire et compose un signal sonore.",
+        "societe": "Le groupe discute de la répartition des ressources entre les modules de la station.",
+        "eps": "En équipe, on invente des gestes de communication à distance puis on les essaie."
+      },
+      "capacity": 3,
+      "groups": 4
+    },
+    {
+      "id": "marche",
+      "name": "Le marché des créations",
+      "name_en": "The makers’ market",
+      "scenario": "marche-des-creations",
+      "companion": "alex",
+      "intro": "Des jeunes installent un marché pour présenter leurs créations.",
+      "grouping": {
+        "fr-CA": [
+          "étiquettes",
+          "paquets"
+        ],
+        "en": [
+          "labels",
+          "packs"
+        ]
+      },
+      "frames": {
+        "ma": "On prépare des paquets d’étiquettes pour les kiosques.",
+        "langues": "Les exposants rédigent une courte présentation et la relisent avec un visiteur.",
+        "st": "Le groupe teste deux matériaux pour un support de présentation.",
+        "arts": "On essaie deux compositions pour une affiche et observe laquelle guide mieux le regard.",
+        "societe": "Les exposants fixent une règle d’accès aux tables et comparent les propositions.",
+        "eps": "On établit des trajets entre les kiosques et on essaie de les suivre sans se gêner."
+      },
+      "capacity": 4,
+      "groups": 3
+    },
+    {
+      "id": "neige",
+      "name": "Le village en hiver",
+      "name_en": "The village in winter",
+      "scenario": "station-meteo",
+      "companion": "fermier",
+      "intro": "Des jeunes préparent une journée de jeux dans un village enneigé.",
+      "grouping": {
+        "fr-CA": [
+          "fanions",
+          "sacs"
+        ],
+        "en": [
+          "flags",
+          "bags"
+        ]
+      },
+      "frames": {
+        "ma": "On prépare les sacs de fanions pour les équipes.",
+        "langues": "Un groupe rédige un bulletin du jour et raconte un imprévu de la sortie.",
+        "st": "On compare le temps de fonte de deux glaçons placés dans des conditions différentes.",
+        "arts": "On crée une composition à partir des traces, des sons et des couleurs de l’hiver.",
+        "societe": "Le groupe décide comment partager le matériel et les espaces entre les activités.",
+        "eps": "On dessine un parcours d’hiver, puis on mime le franchissement de ses obstacles."
+      },
+      "capacity": 2,
+      "groups": 4
+    }
+  ]
+}

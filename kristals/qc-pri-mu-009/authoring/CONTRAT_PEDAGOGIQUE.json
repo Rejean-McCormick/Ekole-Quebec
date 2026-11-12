@@ -1,0 +1,98 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-mu-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Exprimer une appréciation musicale reliée à des indices entendus.",
+  "concepts": [
+    "préférence",
+    "effet",
+    "élément musical",
+    "argument"
+  ],
+  "preuve_attendue": "Argumenter une appréciation en citant deux éléments auditifs.",
+  "prerequis_bloquants": [
+    "qc-pri-mu-008"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-mu-009-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Argumenter une appréciation en citant deux éléments auditifs.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_produits_a_revoir",
+      "kristal_id": "qc-pri-mu-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "écoute de mini-œuvre originale contrôlée",
+        "appréciation orale, écrite ou alternative enregistrable",
+        "pointage ou minutage de deux indices entendus"
+      ],
+      "variables": {
+        "mode": "corpus_ferme",
+        "pistes_autorisees": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08",
+          "S09",
+          "S10",
+          "S11"
+        ],
+        "variations_autorisees": [
+          "ordre des items hors preuves",
+          "nombre de réécoutes",
+          "support de la réponse"
+        ],
+        "generation_libre_interdite": true
+      },
+      "contraintes": [
+        "Deux indices auditifs distincts, exacts et localisables",
+        "Préférence et effet personnels non scorés en eux-mêmes",
+        "Deux preuves indépendantes S07 et S08 en contextes différents",
+        "Relecture des droits et test du lecteur avant examen",
+        "Aucune modification libre de fichiers audio ou du scénario",
+        "Adaptation de modalité documentée par un humain"
+      ],
+      "barreme_ou_rubrique": {
+        "grille": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "expression de l’appréciation (0-2)",
+          "exactitude de deux indices distincts (0-2)",
+          "justification reliée aux indices (0-2)",
+          "autonomie (0-2)"
+        ],
+        "regle": "deux productions q-008 et q-009 sans aide sur les indices; chacune ≥1/2 sur expression et 2/2 sur indices, justification et autonomie; le total seul ne décide pas de la maîtrise"
+      },
+      "source": {
+        "base": "authoring/CONTRAT_PEDAGOGIQUE.json v1.2 (préservé)",
+        "contenu": "11 pistes PCM originales dans contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "references": "sources/REFERENCES_CONTENU.md"
+      },
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_produits_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

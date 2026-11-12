@@ -1,0 +1,350 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-012",
+  "family_id": "qc-pri-fr-012-ev-01",
+  "statut": "banque_redigee_a_revoir",
+  "modalite_privilegiee": "réponse_argumentée",
+  "notes_diffusion": "Stimuli de dictée et réponses doivent rester côté correcteur jusqu’à la clôture de la phase correspondante. Les deux preuves ne sont valides que si elles ne sont pas pré-enseignées.",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-012-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-012-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Écris de mémoire les quatre mots du corpus qui répondent aux quatre définitions. Puis explique un groupe de lettres identique, sans recourir au modèle écrit.",
+      "stimulus": "1. Bâtiment où des personnes habitent. 2. Partie de l’année. 3. Motif ou explication. 4. Action ou résultat de relier deux éléments. (Les mots ont été étudiés; ne pas afficher la liste pendant la réponse.)",
+      "reponse_attendue": "1 maison; 2 saison; 3 raison; 4 liaison. Justification : les quatre mots ont la séquence finale -aison (a-i-s-o-n).",
+      "criteres": [
+        "Les quatre mots correspondent aux quatre indices de sens.",
+        "Chaque mot a la graphie lexicale attendue.",
+        "La justification décrit -aison comme une observation de ce groupe, sans généralisation à tous les mots."
+      ],
+      "feedback": "En cas de maizon, refaire observer le s de -aison; cacher les exemples et réécrire un autre membre du groupe.",
+      "difficulte": "initial",
+      "representation": "indices_semantiques_ecrits",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune modification automatique des mots, formes, contextes et réponses. Répétition de consigne possible; toute substitution doit faire l’objet d’une révision humaine.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "maison",
+        "saison",
+        "raison",
+        "liaison"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-012-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-012-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Complète les trois phrases avec les mots appris; cite un mot apparenté qui explique la lettre finale de deux réponses.",
+      "stimulus": "Un ___ arbre protège le parc (grande taille). Un ___ chien dort (petite taille). Nous apprenons un ___ pour le spectacle (pièce chantée).",
+      "reponse_attendue": "grand; petit; chant. Explications : grande indique d de grand; petite indique t de petit; chanter indique t de chant.",
+      "criteres": [
+        "Les graphies grand, petit et chant sont exactes.",
+        "Deux explications citent une véritable forme apparentée et la lettre qu’elle révèle.",
+        "Aucun point n’est donné à une règle fondée seulement sur la prononciation."
+      ],
+      "feedback": "Ne pas remplacer grand par grant : c’est grande, avec d, qui éclaire son orthographe.",
+      "difficulte": "initial",
+      "representation": "phrases_a_completer",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune modification automatique des mots, formes, contextes et réponses. Répétition de consigne possible; toute substitution doit faire l’objet d’une révision humaine.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "grand",
+        "petit",
+        "chant"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-012-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-012-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Après une dictée sans affichage des mots, écris les quatre mots fréquents étudiés et explique un détail mémorisé dans deux mots.",
+      "stimulus": "LECTEUR SEULEMENT (ne pas afficher à l’élève) : « toujours », « beaucoup », « demain », « jamais »; chaque mot est dit dans cet ordre, sans épellation.",
+      "reponse_attendue": "toujours; beaucoup; demain; jamais. Particularités : s final, p final, -ain, s final. Deux détails exacts suffisent.",
+      "criteres": [
+        "Quatre mots correctement orthographiés sans accès au modèle.",
+        "Au moins deux explications nomment une lettre ou une suite réelle.",
+        "Les réponses initiales sont consignées avant comparaison avec le corrigé."
+      ],
+      "feedback": "Si beaucou apparaît, revoir le p final, puis faire un rappel après masquage.",
+      "difficulte": "initial",
+      "representation": "dictee_orale_mots_isoles",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune modification automatique des mots, formes, contextes et réponses. Répétition de consigne possible; toute substitution doit faire l’objet d’une révision humaine.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "toujours",
+        "beaucoup",
+        "demain",
+        "jamais"
+      ],
+      "consigne_lecteur": "toujours; beaucoup; demain; jamais",
+      "protections": "Le champ stimulus et les réponses sont côté correcteur, jamais affichés pendant la dictée."
+    },
+    {
+      "item_id": "qc-pri-fr-012-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-012-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Repère quatre mots mal orthographiés dans ce message. Écris leur forme exacte et justifie deux corrections précises.",
+      "stimulus": "Une mézon accueille un chenteur. Il vient toujour avec beaucou de livres.",
+      "reponse_attendue": "maison; chanteur; toujours; beaucoup. Justifications : maison/-aison; chanteur/chant-; toujours/s final; beaucoup/p final.",
+      "criteres": [
+        "Les quatre substitutions erronées sont rectifiées exactement.",
+        "Deux justifications correspondent à deux modifications réelles.",
+        "Les mots non ciblés ne sont pas comptés."
+      ],
+      "feedback": "Pour chenteur, rapprocher le mot de chant et de chanter : on garde la base chant-.",
+      "difficulte": "intermediaire",
+      "representation": "message_a_corriger",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune modification automatique des mots, formes, contextes et réponses. Répétition de consigne possible; toute substitution doit faire l’objet d’une révision humaine.",
+      "validation_status": "a_revoir",
+      "corrige_structure": {
+        "mézon": "maison",
+        "chenteur": "chanteur",
+        "toujour": "toujours",
+        "beaucou": "beaucoup"
+      }
+    },
+    {
+      "item_id": "qc-pri-fr-012-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-012-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Discute l’affirmation et écris les deux mots étudiés en contexte en justifiant le choix de la lettre.",
+      "stimulus": "Un ami dit : « Quand j’entends /z/ dans un mot, j’écris toujours z. » Complète : « Voici ma ___ » (explication) et « Voici ma ___ » (habitation).",
+      "reponse_attendue": "L’affirmation est fausse; écrire « Voici ma raison » et « Voici ma maison ». Dans ces mots, on utilise s dans la séquence -aison même si la prononciation contient /z/.",
+      "criteres": [
+        "L’élève rejette la généralisation phonétique injustifiée.",
+        "Les graphies raison et maison sont correctes.",
+        "La justification évoque le groupe -aison, pas une loi générale du /z/."
+      ],
+      "feedback": "Le son /z/ peut correspondre à la lettre s entre voyelles dans ces mots; il ne détermine pas à lui seul l’orthographe.",
+      "difficulte": "intermediaire",
+      "representation": "contre_exemple_argumente",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune modification automatique des mots, formes, contextes et réponses. Répétition de consigne possible; toute substitution doit faire l’objet d’une révision humaine.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "raison",
+        "maison"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-012-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-012-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Écris les trois mots étudiés qui complètent les phrases. Explique ce qui est resté stable dans une famille.",
+      "stimulus": "Une ___ porte protège la salle (grande taille, forme féminine). Une ___ histoire commence (petite taille, forme féminine). Nous allons ___ ensemble (produire un chant).",
+      "reponse_attendue": "grande; petite; chanter. Appuis possibles : grand/grande conserve grand-, petit/petite conserve petit-, chant/chanter conserve chant-.",
+      "criteres": [
+        "Graphies grande, petite et chanter exactes.",
+        "Une comparaison de famille explicite au moins un segment stable.",
+        "Pas d’orthographe inventée par simple proximité sonore."
+      ],
+      "feedback": "L’ajout d’une forme apparentée sert à vérifier une graphie réelle, non à improviser une règle générale.",
+      "difficulte": "intermediaire",
+      "representation": "phrases_et_familles",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune modification automatique des mots, formes, contextes et réponses. Répétition de consigne possible; toute substitution doit faire l’objet d’une révision humaine.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "grande",
+        "petite",
+        "chanter"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-012-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-012-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Pour chaque mot à écrire, indique quel apparenté te permet de vérifier une lettre; explique pourquoi une ressemblance sonore ne suffit pas.",
+      "stimulus": "1. ___ (grand, masculin) : choisir l’appui grande ou gratter. 2. ___ (petit, masculin) : choisir petite ou pétale. 3. ___ (production vocale) : choisir chanter ou chance.",
+      "reponse_attendue": "1 grand → grande révèle d; 2 petit → petite révèle t; 3 chant → chanter conserve t. Gratter, pétale, chance ne sont pas des justifications de ces lettres.",
+      "criteres": [
+        "Trois mots sont correctement écrits.",
+        "Les trois apparentés retenus justifient la lettre visée.",
+        "L’élève explique au moins une fois qu’une simple ressemblance de son ou de début ne suffit pas."
+      ],
+      "feedback": "Le mot chance ne justifie pas le t de chant : vérifier la parenté de sens et de base écrite.",
+      "difficulte": "intermediaire",
+      "representation": "comparaison_morphologique",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune modification automatique des mots, formes, contextes et réponses. Répétition de consigne possible; toute substitution doit faire l’objet d’une révision humaine.",
+      "validation_status": "a_revoir",
+      "corrige_structure": {
+        "grand": "grande",
+        "petit": "petite",
+        "chant": "chanter"
+      }
+    },
+    {
+      "item_id": "qc-pri-fr-012-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-012-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Corrige les quatre mots fautifs d’une courte note et donne deux explications basées sur des graphies apprises.",
+      "stimulus": "La lièzon entre les équipes est bonne. Cette sèzon, on part demen et l’on n’oubliera jamai ce voyage.",
+      "reponse_attendue": "liaison; saison; demain; jamais. Justifications : liaison et saison avec -aison, demain avec -ain, jamais avec s final mémorisé.",
+      "criteres": [
+        "Les quatre mots ciblés sont corrigés exactement.",
+        "Deux justifications concernent des graphies effectivement corrigées.",
+        "Le contexte sémantique et les lettres de chaque mot sont respectés."
+      ],
+      "feedback": "Pour saison, comparer avec maison et raison; pour demain, regarder -ain puis le réécrire sans modèle.",
+      "difficulte": "intermediaire",
+      "representation": "note_a_corriger",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Aucune modification automatique des mots, formes, contextes et réponses. Répétition de consigne possible; toute substitution doit faire l’objet d’une révision humaine.",
+      "validation_status": "a_revoir",
+      "corrige_structure": {
+        "lièzon": "liaison",
+        "sèzon": "saison",
+        "demen": "demain",
+        "jamai": "jamais"
+      }
+    },
+    {
+      "item_id": "qc-pri-fr-012-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-012-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "PREUVE A — 1) Écoute le texte de visite lu sans modèle et écris, sans aide orthographique, les six mots ciblés, dans l’ordre où ils sont entendus. 2) Une fois la première réponse remise, corrige cinq erreurs dans la note affichée. 3) Justifie comment tu écris maison et chanteur en nommant leurs lettres ou apparentés.",
+      "stimulus": "Phase 1 (LECTEUR SEULEMENT, texte non affiché à l’élève) : « Demain, notre classe visite une grande maison. Un chanteur nous accueille. Il y a toujours beaucoup de questions. » Phase 2 (affichée APRES remise phase 1) : « Demen, la mezon près de l'école accueille un chenteur. Nous avons toujour beaucou de questions. »",
+      "reponse_attendue": "Phase 1 : demain, grande, maison, chanteur, toujours, beaucoup. Phase 2 : Demen→demain; mezon→maison; chenteur→chanteur; toujour→toujours; beaucou→beaucoup. Justifications : maison reprend -aison de saison; chanteur conserve la base chant- (chant, chanter).",
+      "criteres": [
+        "Au moins 5 des 6 graphies initiales sont exactes sans modèle.",
+        "Au moins 4 des 5 erreurs affichées sont corrigées exactement sans accès au corrigé.",
+        "Deux justifications pertinentes et précises : maison/-aison et chanteur/chant-.",
+        "Les phases sont séparées; la copie, les suggestions et les modèles sont exclus."
+      ],
+      "feedback": "Demen : revoir -ain; mezon : rapprocher maison/saison; chenteur : conserver chant-; toujour : mémoriser s; beaucou : mémoriser p. Une correction donnée après affichage de la clé ne compte pas.",
+      "difficulte": "transfert",
+      "representation": "dictee_puis_note_de_visite_a_corriger",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Deux lectures du même texte, temps ou saisie adaptés. Les mots, erreurs, corrigés et deux justifications ciblées restent fixes. Aucun tirage ni remplacement automatique.",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A",
+      "texte_dicte_lecteur": "Demain, notre classe visite une grande maison. Un chanteur nous accueille. Il y a toujours beaucoup de questions.",
+      "texte_a_corriger_phase2": "Demen, la mezon près de l'école accueille un chenteur. Nous avons toujour beaucou de questions.",
+      "mots_cibles_phase1": [
+        "demain",
+        "grande",
+        "maison",
+        "chanteur",
+        "toujours",
+        "beaucoup"
+      ],
+      "corrections_phase2": {
+        "Demen": "demain",
+        "mezon": "maison",
+        "chenteur": "chanteur",
+        "toujour": "toujours",
+        "beaucou": "beaucoup"
+      },
+      "justifications_attendues": {
+        "maison": "La graphie -aison se retrouve aussi dans saison.",
+        "chanteur": "La base chant- est conservée dans chant/chanter/chanteur."
+      },
+      "seuils_locaux": {
+        "graphies_initiales_min": 5,
+        "graphies_initiales_total": 6,
+        "corrections_min": 4,
+        "corrections_total": 5,
+        "justifications_min": 2,
+        "justifications_total": 2,
+        "autonomie_requise": true
+      },
+      "protocole_phase": "1: dictee orale sans orthographe visible; remise ferme des mots; 2: montrer seulement le texte erroné; correction; 3: explications, sans carte ni corrigé."
+    },
+    {
+      "item_id": "qc-pri-fr-012-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-012-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "PREUVE B — 1) Écoute l’annonce de fête lue sans modèle et écris les cinq mots ciblés dans l’ordre. 2) Après dépôt de la première production, corrige cinq erreurs dans l’affiche. 3) Justifie les écritures de grand et saison grâce à une famille ou à une régularité.",
+      "stimulus": "Phase 1 (LECTEUR SEULEMENT, texte non affiché à l’élève) : « Pendant la fête du quartier, un petit groupe prépare un chant. Le grand panneau annonce la saison des récoltes. Nous n'oublions jamais cette fête. » Phase 2 (affichée APRES remise phase 1) : « Au jardin, le peti groupe présente un chan. Le grant panneau annonce la sèzon des récoltes; on n'oublie jamai ce moment. »",
+      "reponse_attendue": "Phase 1 : petit, chant, grand, saison, jamais. Phase 2 : peti→petit; chan→chant; grant→grand; sèzon→saison; jamai→jamais. Justifications : grande révèle d de grand; saison garde la séquence -aison comme maison.",
+      "criteres": [
+        "Au moins 4 des 5 graphies initiales sont exactes sans modèle.",
+        "Au moins 4 des 5 erreurs affichées sont corrigées exactement sans accès au corrigé.",
+        "Deux justifications pertinentes et précises : grand/grande-d et saison/-aison.",
+        "Phases distinctes, texte différent de la preuve A, autonomie documentée."
+      ],
+      "feedback": "Peti : comparer avec petite; chan : comparer avec chanter; grant : utiliser grande, donc d; sèzon : observer -aison; jamai : mémoriser le s final. Ne pas accepter une justification réduite à « parce qu’on l’entend ».",
+      "difficulte": "transfert",
+      "representation": "dictee_puis_affiche_de_fete_a_corriger",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Deux lectures du même texte, temps ou saisie adaptés. Les mots, erreurs, corrigés et deux justifications ciblées restent fixes. Aucune variation automatique.",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B",
+      "texte_dicte_lecteur": "Pendant la fête du quartier, un petit groupe prépare un chant. Le grand panneau annonce la saison des récoltes. Nous n'oublions jamais cette fête.",
+      "texte_a_corriger_phase2": "Au jardin, le peti groupe présente un chan. Le grant panneau annonce la sèzon des récoltes; on n'oublie jamai ce moment.",
+      "mots_cibles_phase1": [
+        "petit",
+        "chant",
+        "grand",
+        "saison",
+        "jamais"
+      ],
+      "corrections_phase2": {
+        "peti": "petit",
+        "chan": "chant",
+        "grant": "grand",
+        "sèzon": "saison",
+        "jamai": "jamais"
+      },
+      "justifications_attendues": {
+        "grand": "Grande montre le d final de grand.",
+        "saison": "La séquence -aison se trouve aussi dans maison."
+      },
+      "seuils_locaux": {
+        "graphies_initiales_min": 4,
+        "graphies_initiales_total": 5,
+        "corrections_min": 4,
+        "corrections_total": 5,
+        "justifications_min": 2,
+        "justifications_total": 2,
+        "autonomie_requise": true
+      },
+      "protocole_phase": "1: dictée orale sans graphie visible; collecter la réponse; 2: afficher l’affiche erronée; 3: justifier sans aide orthographique."
+    }
+  ]
+}

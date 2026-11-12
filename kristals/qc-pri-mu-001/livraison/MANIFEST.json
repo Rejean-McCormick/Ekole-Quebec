@@ -1,0 +1,23 @@
+{
+  "format": "qc.kristal-delivery-manifest/1.2",
+  "kristal_id": "qc-pri-mu-001",
+  "base_version": "1.2",
+  "archive_root": "kristals/qc-pri-mu-001/",
+  "files": [
+    "kristals/qc-pri-mu-001/authoring/PARCOURS.md",
+    "kristals/qc-pri-mu-001/authoring/CONTRAT_PEDAGOGIQUE.json",
+    "kristals/qc-pri-mu-001/contenu/01_NOTIONS_ET_EXEMPLES.md",
+    "kristals/qc-pri-mu-001/contenu/02_DIAGNOSTIC.md",
+    "kristals/qc-pri-mu-001/contenu/03_ENSEIGNEMENT_GUIDE.md",
+    "kristals/qc-pri-mu-001/contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+    "kristals/qc-pri-mu-001/contenu/05_PRATIQUE_AUTONOME.md",
+    "kristals/qc-pri-mu-001/contenu/06_REMEDIATION_ET_TRANSFERT.md",
+    "kristals/qc-pri-mu-001/evaluation/PLAN_EVALUATION.md",
+    "kristals/qc-pri-mu-001/evaluation/BANQUE_ITEMS.json",
+    "kristals/qc-pri-mu-001/evaluation/GRILLE_MAITRISE.md",
+    "kristals/qc-pri-mu-001/sources/REFERENCES_CONTENU.md",
+    "kristals/qc-pri-mu-001/livraison/MANIFEST.json",
+    "kristals/qc-pri-mu-001/livraison/VALIDATION.md"
+  ],
+  "statut_validation": "controle_structurel_et_numerique_effectue__revue_pedagogique_et_audio_humaine_requise"
+}

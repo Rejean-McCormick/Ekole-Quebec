@@ -1,0 +1,726 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-017",
+  "family_id": "qc-pri-ma-017-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-017-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Décris les cases à remplir pour 25 %, écris ce pourcentage comme fraction sur cent et fraction simplifiée, puis donne une vérification.",
+      "stimulus": "La grille 10 × 10 contient 100 cases identiques et représente une unité complète. La partie demandée est 25 %.",
+      "reponse_attendue": "Remplir 25 des 100 cases. 25 % = 25/100 = 1/4. Quatre groupes de 25 cases forment la grille entière de 100 cases.",
+      "criteres": [
+        "Désigne le bon tout N et la bonne unité (nombre de cartes, minutes, objets selon le contexte).",
+        "Exprime le taux comme p/100 ou une fraction équivalente et explique pourquoi la proportion se conserve.",
+        "Calcule la quantité q exacte correspondant au taux sans confondre nombre d’objets et pourcentage.",
+        "Présente une vérification indépendante : tableau, groupements, complément ou égalité de fractions."
+      ],
+      "feedback": "Si tu colories 25 rangées, reviens au tout : il y a 100 petites cases et non 100 rangées. Un quart = 25 cases.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": [
+        "grille 10 × 10",
+        "fraction sur 100"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-017-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Combien de jetons représente 50 % de 36? Justifie avec une fraction et vérifie par recomposition.",
+      "stimulus": "Une collection fictive contient 36 jetons. On veut en placer exactement la moitié dans un plateau.",
+      "reponse_attendue": "50 % = 50/100 = 1/2. 36/2 = 18 jetons. Vérification : 18 + 18 = 36 et 18/36 = 1/2.",
+      "criteres": [
+        "Désigne le bon tout N et la bonne unité (nombre de cartes, minutes, objets selon le contexte).",
+        "Exprime le taux comme p/100 ou une fraction équivalente et explique pourquoi la proportion se conserve.",
+        "Calcule la quantité q exacte correspondant au taux sans confondre nombre d’objets et pourcentage.",
+        "Présente une vérification indépendante : tableau, groupements, complément ou égalité de fractions."
+      ],
+      "feedback": "Si tu écris 50 jetons, tu as utilisé le pourcentage comme une quantité fixe. 50 % signifie une moitié de 36.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": [
+        "groupes de jetons",
+        "fraction"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-017-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique pourquoi la proposition n’est pas correcte et calcule la quantité exacte. Contrôle avec des groupes ou un tableau.",
+      "stimulus": "Sur 80 feuilles fictives, on doit réserver exactement 20 %. Une proposition erronée indique : 80 − 20 = 60 feuilles.",
+      "reponse_attendue": "20 % = 20/100 = 1/5. 80/5 = 16 feuilles. Cinq groupes de 16 donnent 80; 16/80 = 20/100. 60/80=75/100, pas 20/100.",
+      "criteres": [
+        "Désigne le bon tout N et la bonne unité (nombre de cartes, minutes, objets selon le contexte).",
+        "Exprime le taux comme p/100 ou une fraction équivalente et explique pourquoi la proportion se conserve.",
+        "Calcule la quantité q exacte correspondant au taux sans confondre nombre d’objets et pourcentage.",
+        "Présente une vérification indépendante : tableau, groupements, complément ou égalité de fractions."
+      ],
+      "feedback": "Une soustraction de 20 unités n’est pas le calcul de 20 %. Commence par 10 % de 80 = 8, puis double.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": [
+        "contre-exemple écrit",
+        "fraction",
+        "tableau"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-017-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-017-ev-01",
+      "mode": "parametrique",
+      "consigne": "Combien de crayons portent un autocollant? Précise le tout, fraction sur 100, quantité en crayons et contrôle avec un tableau ou des groupes.",
+      "stimulus": "Dans un atelier fictif, une boîte contient 60 crayons; 20 % portent un autocollant.",
+      "reponse_attendue": "Tout : 60 crayons; taux : 20 % = 20/100 = 1/5. Calcul : 60 ÷ 5 = 12 crayons; q = (20 × 60)/100 = 12 crayons. Vérification : 12/60 = 20/100 (produits croisés : 100 × 12 = 1200, 20 × 60 = 1200). Complément : 60 − 12 = 48 crayons.",
+      "criteres": [
+        "Désigne le bon tout N et la bonne unité (nombre de cartes, minutes, objets selon le contexte).",
+        "Exprime le taux comme p/100 ou une fraction équivalente et explique pourquoi la proportion se conserve.",
+        "Calcule la quantité q exacte correspondant au taux sans confondre nombre d’objets et pourcentage.",
+        "Présente une vérification indépendante : tableau, groupements, complément ou égalité de fractions."
+      ],
+      "feedback": "Si tu réponds 20 crayons, rappelle-toi que le tout est 60, pas 100 crayons.",
+      "difficulte": "intermediaire",
+      "seed": 17004,
+      "parametres": {
+        "variables": {
+          "p": "pourcentage entier",
+          "N": "effectif/durée totale en crayons",
+          "q": "quantité cherchée en crayons"
+        },
+        "domaines_paires": [
+          {
+            "p": 20,
+            "N": 60
+          },
+          {
+            "p": 25,
+            "N": 80
+          },
+          {
+            "p": 50,
+            "N": 120
+          },
+          {
+            "p": 75,
+            "N": 40
+          }
+        ],
+        "contraintes": [
+          "couples (p,N) uniquement dans domaines_paires (corpus ordonné fixe)",
+          "p dans 10,20,25,50,75 et 0 < p < 100",
+          "N est entier positif; (p*N)%100 = 0; q est entier entre 0 et N",
+          "même unité pour part et tout; vérification par produits croisés et complément",
+          "les contextes textuels et critères demeurent fixes sauf insertion des nombres permis"
+        ],
+        "algorithme_selection": "indice = seed % len(domaines_paires); p=domaines_paires[indice].p; N=domaines_paires[indice].N; pas de générateur aléatoire ni IA",
+        "algorithme_resolution": "q = Fraction(p*N,100) (fraction irréductible exacte); si dénominateur != 1, rejeter le couple; vérifier 100*q == p*N et 0 <= q <= N",
+        "algorithme_verification": "identité q/N = p/100 (N>0) contrôlée par égalité entière 100*q=p*N; vérification indépendante par part restante N−q et par regroupement selon fraction équivalente",
+        "index_selectionne": 0,
+        "valeurs_selectionnees": {
+          "p": 20,
+          "N": 60,
+          "q": 12
+        },
+        "exemples_valides": [
+          {
+            "p": 20,
+            "N": 60,
+            "q": 12
+          },
+          {
+            "p": 25,
+            "N": 80,
+            "q": 20
+          },
+          {
+            "p": 50,
+            "N": 120,
+            "q": 60
+          },
+          {
+            "p": 75,
+            "N": 40,
+            "q": 30
+          }
+        ],
+        "gabarit_stimulus": "Dans un atelier fictif, une boîte contient {N} crayons; {p} % portent un autocollant.",
+        "gabarit_consignes": "Combien de crayons portent un autocollant? Précise le tout, fraction sur 100, quantité en crayons et contrôle avec un tableau ou des groupes.",
+        "unite": "crayons",
+        "politique_variation": "seul le couple ordonné (p,N) peut varier; recalculez et revérifiez le corrigé exact avant d’afficher une variante; ne changez pas les situations ni le vocabulaire par génération libre"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "tableau de proportion",
+        "fraction sur cent"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-017-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-017-ev-01",
+      "mode": "parametrique",
+      "consigne": "Combien de places cela représente-t-il? Écris p/100, la quantité en places et une vérification indépendante.",
+      "stimulus": "Une salle imaginaire comporte 200 places; 25 % des places sont réservées pour une activité.",
+      "reponse_attendue": "Tout : 200 places; taux : 25 % = 25/100 = 1/4. Calcul : 200 ÷ 4 = 50 places; q = (25 × 200)/100 = 50 places. Vérification : 50/200 = 25/100 (produits croisés : 100 × 50 = 5000, 25 × 200 = 5000). Complément : 200 − 50 = 150 places.",
+      "criteres": [
+        "Désigne le bon tout N et la bonne unité (nombre de cartes, minutes, objets selon le contexte).",
+        "Exprime le taux comme p/100 ou une fraction équivalente et explique pourquoi la proportion se conserve.",
+        "Calcule la quantité q exacte correspondant au taux sans confondre nombre d’objets et pourcentage.",
+        "Présente une vérification indépendante : tableau, groupements, complément ou égalité de fractions."
+      ],
+      "feedback": "Ne soustrais pas le taux du total : calcule une fraction de 200 places.",
+      "difficulte": "intermediaire",
+      "seed": 17005,
+      "parametres": {
+        "variables": {
+          "p": "pourcentage entier",
+          "N": "effectif/durée totale en places",
+          "q": "quantité cherchée en places"
+        },
+        "domaines_paires": [
+          {
+            "p": 10,
+            "N": 150
+          },
+          {
+            "p": 25,
+            "N": 200
+          },
+          {
+            "p": 50,
+            "N": 90
+          },
+          {
+            "p": 75,
+            "N": 80
+          }
+        ],
+        "contraintes": [
+          "couples (p,N) uniquement dans domaines_paires (corpus ordonné fixe)",
+          "p dans 10,20,25,50,75 et 0 < p < 100",
+          "N est entier positif; (p*N)%100 = 0; q est entier entre 0 et N",
+          "même unité pour part et tout; vérification par produits croisés et complément",
+          "les contextes textuels et critères demeurent fixes sauf insertion des nombres permis"
+        ],
+        "algorithme_selection": "indice = seed % len(domaines_paires); p=domaines_paires[indice].p; N=domaines_paires[indice].N; pas de générateur aléatoire ni IA",
+        "algorithme_resolution": "q = Fraction(p*N,100) (fraction irréductible exacte); si dénominateur != 1, rejeter le couple; vérifier 100*q == p*N et 0 <= q <= N",
+        "algorithme_verification": "identité q/N = p/100 (N>0) contrôlée par égalité entière 100*q=p*N; vérification indépendante par part restante N−q et par regroupement selon fraction équivalente",
+        "index_selectionne": 1,
+        "valeurs_selectionnees": {
+          "p": 25,
+          "N": 200,
+          "q": 50
+        },
+        "exemples_valides": [
+          {
+            "p": 10,
+            "N": 150,
+            "q": 15
+          },
+          {
+            "p": 25,
+            "N": 200,
+            "q": 50
+          },
+          {
+            "p": 50,
+            "N": 90,
+            "q": 45
+          },
+          {
+            "p": 75,
+            "N": 80,
+            "q": 60
+          }
+        ],
+        "gabarit_stimulus": "Une salle imaginaire comporte {N} places; {p} % des places sont réservées pour une activité.",
+        "gabarit_consignes": "Combien de places cela représente-t-il? Écris p/100, la quantité en places et une vérification indépendante.",
+        "unite": "places",
+        "politique_variation": "seul le couple ordonné (p,N) peut varier; recalculez et revérifiez le corrigé exact avant d’afficher une variante; ne changez pas les situations ni le vocabulaire par génération libre"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "fractions équivalentes",
+        "tableau de proportion"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-017-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-017-ev-01",
+      "mode": "parametrique",
+      "consigne": "Combien de billets « matin »? Présente deux méthodes cohérentes, par exemple fraction et répartition en groupes, puis contrôle.",
+      "stimulus": "Pour une représentation imaginaire, 180 billets sont imprimés. 50 % sont marqués « matin ».",
+      "reponse_attendue": "Tout : 180 billets; taux : 50 % = 50/100 = 1/2. Calcul : 180 ÷ 2 = 90 billets; q = (50 × 180)/100 = 90 billets. Vérification : 90/180 = 50/100 (produits croisés : 100 × 90 = 9000, 50 × 180 = 9000). Complément : 180 − 90 = 90 billets.",
+      "criteres": [
+        "Désigne le bon tout N et la bonne unité (nombre de cartes, minutes, objets selon le contexte).",
+        "Exprime le taux comme p/100 ou une fraction équivalente et explique pourquoi la proportion se conserve.",
+        "Calcule la quantité q exacte correspondant au taux sans confondre nombre d’objets et pourcentage.",
+        "Présente une vérification indépendante : tableau, groupements, complément ou égalité de fractions."
+      ],
+      "feedback": "Si tu obtiens un nombre supérieur à 180, souviens-toi qu’un taux de 50 % ne peut dépasser le tout.",
+      "difficulte": "intermediaire",
+      "seed": 17006,
+      "parametres": {
+        "variables": {
+          "p": "pourcentage entier",
+          "N": "effectif/durée totale en billets",
+          "q": "quantité cherchée en billets"
+        },
+        "domaines_paires": [
+          {
+            "p": 20,
+            "N": 120
+          },
+          {
+            "p": 25,
+            "N": 160
+          },
+          {
+            "p": 50,
+            "N": 180
+          },
+          {
+            "p": 75,
+            "N": 200
+          }
+        ],
+        "contraintes": [
+          "couples (p,N) uniquement dans domaines_paires (corpus ordonné fixe)",
+          "p dans 10,20,25,50,75 et 0 < p < 100",
+          "N est entier positif; (p*N)%100 = 0; q est entier entre 0 et N",
+          "même unité pour part et tout; vérification par produits croisés et complément",
+          "les contextes textuels et critères demeurent fixes sauf insertion des nombres permis"
+        ],
+        "algorithme_selection": "indice = seed % len(domaines_paires); p=domaines_paires[indice].p; N=domaines_paires[indice].N; pas de générateur aléatoire ni IA",
+        "algorithme_resolution": "q = Fraction(p*N,100) (fraction irréductible exacte); si dénominateur != 1, rejeter le couple; vérifier 100*q == p*N et 0 <= q <= N",
+        "algorithme_verification": "identité q/N = p/100 (N>0) contrôlée par égalité entière 100*q=p*N; vérification indépendante par part restante N−q et par regroupement selon fraction équivalente",
+        "index_selectionne": 2,
+        "valeurs_selectionnees": {
+          "p": 50,
+          "N": 180,
+          "q": 90
+        },
+        "exemples_valides": [
+          {
+            "p": 20,
+            "N": 120,
+            "q": 24
+          },
+          {
+            "p": 25,
+            "N": 160,
+            "q": 40
+          },
+          {
+            "p": 50,
+            "N": 180,
+            "q": 90
+          },
+          {
+            "p": 75,
+            "N": 200,
+            "q": 150
+          }
+        ],
+        "gabarit_stimulus": "Pour une représentation imaginaire, {N} billets sont imprimés. {p} % sont marqués « matin ».",
+        "gabarit_consignes": "Combien de billets « matin »? Présente deux méthodes cohérentes, par exemple fraction et répartition en groupes, puis contrôle.",
+        "unite": "billets",
+        "politique_variation": "seul le couple ordonné (p,N) peut varier; recalculez et revérifiez le corrigé exact avant d’afficher une variante; ne changez pas les situations ni le vocabulaire par génération libre"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "barre fractionnée",
+        "écriture numérique"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-017-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-017-ev-01",
+      "mode": "parametrique",
+      "consigne": "Quelle est la durée de cette activité en minutes? Précise la proportion partie/tout et vérifie sans recopier seulement le calcul.",
+      "stimulus": "Un programme fictif dure 200 minutes. Une activité occupe 20 % de cette durée.",
+      "reponse_attendue": "Tout : 200 minutes; taux : 20 % = 20/100 = 1/5. Calcul : 200 ÷ 5 = 40 minutes; q = (20 × 200)/100 = 40 minutes. Vérification : 40/200 = 20/100 (produits croisés : 100 × 40 = 4000, 20 × 200 = 4000). Complément : 200 − 40 = 160 minutes.",
+      "criteres": [
+        "Désigne le bon tout N et la bonne unité (nombre de cartes, minutes, objets selon le contexte).",
+        "Exprime le taux comme p/100 ou une fraction équivalente et explique pourquoi la proportion se conserve.",
+        "Calcule la quantité q exacte correspondant au taux sans confondre nombre d’objets et pourcentage.",
+        "Présente une vérification indépendante : tableau, groupements, complément ou égalité de fractions."
+      ],
+      "feedback": "Attention à ne pas écrire un taux à la place de la durée : la réponse est en minutes.",
+      "difficulte": "intermediaire",
+      "seed": 17007,
+      "parametres": {
+        "variables": {
+          "p": "pourcentage entier",
+          "N": "effectif/durée totale en minutes",
+          "q": "quantité cherchée en minutes"
+        },
+        "domaines_paires": [
+          {
+            "p": 25,
+            "N": 120
+          },
+          {
+            "p": 50,
+            "N": 80
+          },
+          {
+            "p": 75,
+            "N": 160
+          },
+          {
+            "p": 20,
+            "N": 200
+          }
+        ],
+        "contraintes": [
+          "couples (p,N) uniquement dans domaines_paires (corpus ordonné fixe)",
+          "p dans 10,20,25,50,75 et 0 < p < 100",
+          "N est entier positif; (p*N)%100 = 0; q est entier entre 0 et N",
+          "même unité pour part et tout; vérification par produits croisés et complément",
+          "les contextes textuels et critères demeurent fixes sauf insertion des nombres permis"
+        ],
+        "algorithme_selection": "indice = seed % len(domaines_paires); p=domaines_paires[indice].p; N=domaines_paires[indice].N; pas de générateur aléatoire ni IA",
+        "algorithme_resolution": "q = Fraction(p*N,100) (fraction irréductible exacte); si dénominateur != 1, rejeter le couple; vérifier 100*q == p*N et 0 <= q <= N",
+        "algorithme_verification": "identité q/N = p/100 (N>0) contrôlée par égalité entière 100*q=p*N; vérification indépendante par part restante N−q et par regroupement selon fraction équivalente",
+        "index_selectionne": 3,
+        "valeurs_selectionnees": {
+          "p": 20,
+          "N": 200,
+          "q": 40
+        },
+        "exemples_valides": [
+          {
+            "p": 25,
+            "N": 120,
+            "q": 30
+          },
+          {
+            "p": 50,
+            "N": 80,
+            "q": 40
+          },
+          {
+            "p": 75,
+            "N": 160,
+            "q": 120
+          },
+          {
+            "p": 20,
+            "N": 200,
+            "q": 40
+          }
+        ],
+        "gabarit_stimulus": "Un programme fictif dure {N} minutes. Une activité occupe {p} % de cette durée.",
+        "gabarit_consignes": "Quelle est la durée de cette activité en minutes? Précise la proportion partie/tout et vérifie sans recopier seulement le calcul.",
+        "unite": "minutes",
+        "politique_variation": "seul le couple ordonné (p,N) peut varier; recalculez et revérifiez le corrigé exact avant d’afficher une variante; ne changez pas les situations ni le vocabulaire par génération libre"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "tableau temps/taux",
+        "ratio partie/tout"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-017-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-017-ev-01",
+      "mode": "parametrique",
+      "consigne": "Combien de pages de dessin? Explique la fraction sur cent, donne l’unité et vérifie avec un modèle de ton choix.",
+      "stimulus": "Un carnet imaginaire a 230 pages; 10 % sont dédiées aux dessins.",
+      "reponse_attendue": "Tout : 230 pages; taux : 10 % = 10/100 = 1/10. Calcul : 230 ÷ 10 = 23 pages; q = (10 × 230)/100 = 23 pages. Vérification : 23/230 = 10/100 (produits croisés : 100 × 23 = 2300, 10 × 230 = 2300). Complément : 230 − 23 = 207 pages.",
+      "criteres": [
+        "Désigne le bon tout N et la bonne unité (nombre de cartes, minutes, objets selon le contexte).",
+        "Exprime le taux comme p/100 ou une fraction équivalente et explique pourquoi la proportion se conserve.",
+        "Calcule la quantité q exacte correspondant au taux sans confondre nombre d’objets et pourcentage.",
+        "Présente une vérification indépendante : tableau, groupements, complément ou égalité de fractions."
+      ],
+      "feedback": "Vérifie que l’unité du résultat est « pages » et que la part ne dépasse pas 230.",
+      "difficulte": "transfert",
+      "seed": 17008,
+      "parametres": {
+        "variables": {
+          "p": "pourcentage entier",
+          "N": "effectif/durée totale en pages",
+          "q": "quantité cherchée en pages"
+        },
+        "domaines_paires": [
+          {
+            "p": 10,
+            "N": 230
+          },
+          {
+            "p": 20,
+            "N": 75
+          },
+          {
+            "p": 25,
+            "N": 140
+          },
+          {
+            "p": 50,
+            "N": 90
+          }
+        ],
+        "contraintes": [
+          "couples (p,N) uniquement dans domaines_paires (corpus ordonné fixe)",
+          "p dans 10,20,25,50,75 et 0 < p < 100",
+          "N est entier positif; (p*N)%100 = 0; q est entier entre 0 et N",
+          "même unité pour part et tout; vérification par produits croisés et complément",
+          "les contextes textuels et critères demeurent fixes sauf insertion des nombres permis"
+        ],
+        "algorithme_selection": "indice = seed % len(domaines_paires); p=domaines_paires[indice].p; N=domaines_paires[indice].N; pas de générateur aléatoire ni IA",
+        "algorithme_resolution": "q = Fraction(p*N,100) (fraction irréductible exacte); si dénominateur != 1, rejeter le couple; vérifier 100*q == p*N et 0 <= q <= N",
+        "algorithme_verification": "identité q/N = p/100 (N>0) contrôlée par égalité entière 100*q=p*N; vérification indépendante par part restante N−q et par regroupement selon fraction équivalente",
+        "index_selectionne": 0,
+        "valeurs_selectionnees": {
+          "p": 10,
+          "N": 230,
+          "q": 23
+        },
+        "exemples_valides": [
+          {
+            "p": 10,
+            "N": 230,
+            "q": 23
+          },
+          {
+            "p": 20,
+            "N": 75,
+            "q": 15
+          },
+          {
+            "p": 25,
+            "N": 140,
+            "q": 35
+          },
+          {
+            "p": 50,
+            "N": 90,
+            "q": 45
+          }
+        ],
+        "gabarit_stimulus": "Un carnet imaginaire a {N} pages; {p} % sont dédiées aux dessins.",
+        "gabarit_consignes": "Combien de pages de dessin? Explique la fraction sur cent, donne l’unité et vérifie avec un modèle de ton choix.",
+        "unite": "pages",
+        "politique_variation": "seul le couple ordonné (p,N) peut varier; recalculez et revérifiez le corrigé exact avant d’afficher une variante; ne changez pas les situations ni le vocabulaire par génération libre"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "calcul rationnel",
+        "vérification par groupes"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-017-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-017-ev-01",
+      "mode": "parametrique",
+      "consigne": "Sans indice, combien de maquettes ont un toit triangulaire? Indique le tout, écris la fraction sur 100, calcule la quantité avec son unité et justifie par une autre méthode ou un contrôle indépendant.",
+      "stimulus": "Dans un atelier de construction entièrement fictif, 180 maquettes en carton ont été fabriquées; 25 % ont un toit triangulaire.",
+      "reponse_attendue": "Tout : 180 maquettes; taux : 25 % = 25/100 = 1/4. Calcul : 180 ÷ 4 = 45 maquettes; q = (25 × 180)/100 = 45 maquettes. Vérification : 45/180 = 25/100 (produits croisés : 100 × 45 = 4500, 25 × 180 = 4500). Complément : 180 − 45 = 135 maquettes.",
+      "criteres": [
+        "Désigne le bon tout N et la bonne unité (nombre de cartes, minutes, objets selon le contexte).",
+        "Exprime le taux comme p/100 ou une fraction équivalente et explique pourquoi la proportion se conserve.",
+        "Calcule la quantité q exacte correspondant au taux sans confondre nombre d’objets et pourcentage.",
+        "Présente une vérification indépendante : tableau, groupements, complément ou égalité de fractions."
+      ],
+      "feedback": "Si la quantité ou le contrôle manque, reprends l’identification du tout et utilise une répartition en parts égales sur un nouvel exemple, sans recevoir la réponse du test.",
+      "difficulte": "transfert",
+      "seed": 17009,
+      "parametres": {
+        "variables": {
+          "p": "pourcentage entier",
+          "N": "effectif/durée totale en maquettes",
+          "q": "quantité cherchée en maquettes"
+        },
+        "domaines_paires": [
+          {
+            "p": 20,
+            "N": 150
+          },
+          {
+            "p": 25,
+            "N": 180
+          },
+          {
+            "p": 50,
+            "N": 140
+          },
+          {
+            "p": 75,
+            "N": 80
+          }
+        ],
+        "contraintes": [
+          "couples (p,N) uniquement dans domaines_paires (corpus ordonné fixe)",
+          "p dans 10,20,25,50,75 et 0 < p < 100",
+          "N est entier positif; (p*N)%100 = 0; q est entier entre 0 et N",
+          "même unité pour part et tout; vérification par produits croisés et complément",
+          "les contextes textuels et critères demeurent fixes sauf insertion des nombres permis"
+        ],
+        "algorithme_selection": "indice = seed % len(domaines_paires); p=domaines_paires[indice].p; N=domaines_paires[indice].N; pas de générateur aléatoire ni IA",
+        "algorithme_resolution": "q = Fraction(p*N,100) (fraction irréductible exacte); si dénominateur != 1, rejeter le couple; vérifier 100*q == p*N et 0 <= q <= N",
+        "algorithme_verification": "identité q/N = p/100 (N>0) contrôlée par égalité entière 100*q=p*N; vérification indépendante par part restante N−q et par regroupement selon fraction équivalente",
+        "index_selectionne": 1,
+        "valeurs_selectionnees": {
+          "p": 25,
+          "N": 180,
+          "q": 45
+        },
+        "exemples_valides": [
+          {
+            "p": 20,
+            "N": 150,
+            "q": 30
+          },
+          {
+            "p": 25,
+            "N": 180,
+            "q": 45
+          },
+          {
+            "p": 50,
+            "N": 140,
+            "q": 70
+          },
+          {
+            "p": 75,
+            "N": 80,
+            "q": 60
+          }
+        ],
+        "gabarit_stimulus": "Dans un atelier de construction entièrement fictif, {N} maquettes en carton ont été fabriquées; {p} % ont un toit triangulaire.",
+        "gabarit_consignes": "Sans indice, combien de maquettes ont un toit triangulaire? Indique le tout, écris la fraction sur 100, calcule la quantité avec son unité et justifie par une autre méthode ou un contrôle indépendant.",
+        "unite": "maquettes",
+        "politique_variation": "seul le couple ordonné (p,N) peut varier; recalculez et revérifiez le corrigé exact avant d’afficher une variante; ne changez pas les situations ni le vocabulaire par génération libre"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "situation de fabrication",
+        "proportion",
+        "contrôle"
+      ],
+      "preuve_maitrise": "M1",
+      "conditions_passation": "Travail individuel sans indice opérationnel ni corrigé affiché, contexte différent de l’autre preuve; modalité orale ou écrite équivalente autorisée."
+    },
+    {
+      "item_id": "qc-pri-ma-017-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-017-ev-01",
+      "mode": "parametrique",
+      "consigne": "Sans indice, combien de pots présentent une pousse? Identifie la base, représente p % comme fraction de cent, donne la quantité exacte en pots et vérifie par un calcul différent ou par le complément.",
+      "stimulus": "Dans un potager scolaire entièrement fictif, on a placé 160 pots. On observe que 75 % des pots présentent une pousse.",
+      "reponse_attendue": "Tout : 160 pots; taux : 75 % = 75/100 = 3/4. Calcul : 160 ÷ 4 × 3 = 120 pots; q = (75 × 160)/100 = 120 pots. Vérification : 120/160 = 75/100 (produits croisés : 100 × 120 = 12000, 75 × 160 = 12000). Complément : 160 − 120 = 40 pots.",
+      "criteres": [
+        "Désigne le bon tout N et la bonne unité (nombre de cartes, minutes, objets selon le contexte).",
+        "Exprime le taux comme p/100 ou une fraction équivalente et explique pourquoi la proportion se conserve.",
+        "Calcule la quantité q exacte correspondant au taux sans confondre nombre d’objets et pourcentage.",
+        "Présente une vérification indépendante : tableau, groupements, complément ou égalité de fractions."
+      ],
+      "feedback": "Si tu as seulement fait une soustraction, repars du taux sur cent et vérifie la recomposition du tout dans une nouvelle situation.",
+      "difficulte": "transfert",
+      "seed": 17010,
+      "parametres": {
+        "variables": {
+          "p": "pourcentage entier",
+          "N": "effectif/durée totale en pots",
+          "q": "quantité cherchée en pots"
+        },
+        "domaines_paires": [
+          {
+            "p": 10,
+            "N": 160
+          },
+          {
+            "p": 25,
+            "N": 200
+          },
+          {
+            "p": 75,
+            "N": 160
+          },
+          {
+            "p": 50,
+            "N": 90
+          }
+        ],
+        "contraintes": [
+          "couples (p,N) uniquement dans domaines_paires (corpus ordonné fixe)",
+          "p dans 10,20,25,50,75 et 0 < p < 100",
+          "N est entier positif; (p*N)%100 = 0; q est entier entre 0 et N",
+          "même unité pour part et tout; vérification par produits croisés et complément",
+          "les contextes textuels et critères demeurent fixes sauf insertion des nombres permis"
+        ],
+        "algorithme_selection": "indice = seed % len(domaines_paires); p=domaines_paires[indice].p; N=domaines_paires[indice].N; pas de générateur aléatoire ni IA",
+        "algorithme_resolution": "q = Fraction(p*N,100) (fraction irréductible exacte); si dénominateur != 1, rejeter le couple; vérifier 100*q == p*N et 0 <= q <= N",
+        "algorithme_verification": "identité q/N = p/100 (N>0) contrôlée par égalité entière 100*q=p*N; vérification indépendante par part restante N−q et par regroupement selon fraction équivalente",
+        "index_selectionne": 2,
+        "valeurs_selectionnees": {
+          "p": 75,
+          "N": 160,
+          "q": 120
+        },
+        "exemples_valides": [
+          {
+            "p": 10,
+            "N": 160,
+            "q": 16
+          },
+          {
+            "p": 25,
+            "N": 200,
+            "q": 50
+          },
+          {
+            "p": 75,
+            "N": 160,
+            "q": 120
+          },
+          {
+            "p": 50,
+            "N": 90,
+            "q": 45
+          }
+        ],
+        "gabarit_stimulus": "Dans un potager scolaire entièrement fictif, on a placé {N} pots. On observe que {p} % des pots présentent une pousse.",
+        "gabarit_consignes": "Sans indice, combien de pots présentent une pousse? Identifie la base, représente p % comme fraction de cent, donne la quantité exacte en pots et vérifie par un calcul différent ou par le complément.",
+        "unite": "pots",
+        "politique_variation": "seul le couple ordonné (p,N) peut varier; recalculez et revérifiez le corrigé exact avant d’afficher une variante; ne changez pas les situations ni le vocabulaire par génération libre"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "situation de jardinage",
+        "barre fractionnée",
+        "complément"
+      ],
+      "preuve_maitrise": "M2",
+      "conditions_passation": "Travail individuel sans indice opérationnel ni corrigé affiché, contexte différent de l’autre preuve; modalité orale ou écrite équivalente autorisée."
+    }
+  ]
+}

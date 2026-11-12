@@ -1,0 +1,313 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ccq-006",
+  "family_id": "qc-pri-ccq-006-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ccq-006-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère deux faits, un contexte et une information inconnue, puis rédige deux phrases neutres.",
+      "stimulus": "Affiche fictive « Maison des Tilleuls — exposition de neuf dessins dans le hall du 3 au 9 mars. Entrée libre. »",
+      "reponse_attendue": "Deux faits : exposition de neuf dessins; entrée libre. Contexte : hall de la Maison des Tilleuls, du 3 au 9 mars. Inconnu : nombre de visiteurs ou leur appréciation. Exemple : « Une affiche de la Maison des Tilleuls annonce neuf dessins exposés dans le hall du 3 au 9 mars. Elle ne précise pas combien de personnes les verront. »",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas."
+      ],
+      "feedback": "Vérifier « exposition annoncée » et non « appréciée par tous ». Pour améliorer, nommer le lieu et signaler une absence de données.",
+      "difficulte": "initial",
+      "representation": "affiche fictive",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Transforme les trois formulations proposées en une description neutre; justifie une correction.",
+      "stimulus": "Notice fictive : « Centre de l’Écluse — atelier de marionnettes dimanche à 14 h; carton fourni. » Phrases à revoir : a) « Cet atelier est merveilleux »; b) « Tous les voisins font des marionnettes »; c) « L’atelier s’est tenu dimanche ».",
+      "reponse_attendue": "a) « Le centre annonce un atelier de marionnettes » : « merveilleux » est un jugement. b) « L’atelier est proposé aux personnes intéressées » ou « la notice annonce un atelier » : aucune participation générale n’est attestée. c) « L’atelier est prévu dimanche à 14 h » : la notice est une annonce, pas un compte rendu. Carton fourni est un détail attesté.",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas."
+      ],
+      "feedback": "Séparer jugement, généralisation et confusion annonce/réalisation; chaque correction doit rester vérifiable.",
+      "difficulte": "initial",
+      "representation": "texte à corriger",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige trois phrases décrivant cette activité culturelle, puis cite les renseignements non fournis.",
+      "stimulus": "Programme fictif : « Maison des Dessins. Jeudi 17 h : présentation de six planches de bande dessinée imaginées par un club. Une discussion est prévue à 18 h. »",
+      "reponse_attendue": "« Le programme de la Maison des Dessins annonce une présentation de six planches de bande dessinée jeudi à 17 h. Une discussion est prévue à 18 h. On ne sait pas qui assistera à ces activités ni ce que le public en pensera. »",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas."
+      ],
+      "feedback": "Les heures décrivent des activités prévues, pas un résultat déjà réalisé. Éviter d’inventer les émotions du public.",
+      "difficulte": "initial",
+      "representation": "notice fictive",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare les deux documents sans inventer une contradiction : écris ce que chacun permet d’affirmer et ce qui reste inconnu.",
+      "stimulus": "Document A, annonce fictive du 1er juin : « Samedi 8 juin, 15 h : création collective de bannières au Centre du Phare ». Document B, compte rendu fictif du 9 juin : « L’atelier du 8 juin a réuni onze personnes. Six bannières ont été terminées ».",
+      "reponse_attendue": "« L’annonce du 1er juin prévoyait un atelier de bannières le 8 juin au Centre du Phare. Le compte rendu du 9 juin dit qu’il a réuni onze personnes et que six bannières ont été terminées. Aucun document ne précise les opinions des participants. »",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas."
+      ],
+      "feedback": "La source datée d’après l’activité peut établir une réalisation; le programme seul ne le peut pas.",
+      "difficulte": "intermediaire",
+      "representation": "deux documents fictifs",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige une courte note de programme qui respecte la pluralité des activités et ne présume rien de l’identité des personnes.",
+      "stimulus": "Programme fictif du Centre des Roseaux : « Mardi : fabrication de cerfs-volants en papier. Jeudi : atelier d’histoires illustrées. Les deux activités sont facultatives. »",
+      "reponse_attendue": "« Le Centre des Roseaux propose deux activités différentes : des cerfs-volants en papier mardi et des histoires illustrées jeudi. La participation est facultative. Le programme ne permet pas de connaître les goûts ni la participation réelle des personnes. »",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas."
+      ],
+      "feedback": "Deux activités annoncées illustrent une pluralité de propositions; elles ne prouvent pas les préférences d’un groupe.",
+      "difficulte": "intermediaire",
+      "representation": "notice fictive",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige trois phrases et explique pourquoi chercher le vrai nom des auteurs serait inapproprié.",
+      "stimulus": "Programme fictif « Radio des Sources, mercredi 12 h : diffusion de quatre poèmes enregistrés par des équipes. Les équipes ont choisi des noms de plume. Leurs identités réelles ne sont pas affichées ».",
+      "reponse_attendue": "« Le programme de Radio des Sources prévoit mercredi à midi la diffusion de quatre poèmes enregistrés. Les équipes d’auteurs utilisent des noms de plume et leurs noms réels ne sont pas publiés. Le programme ne fournit ni ces noms ni l’audience. » Demander l’identité réelle sort des informations fournies et n’est pas nécessaire pour décrire l’activité.",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas."
+      ],
+      "feedback": "Les identités privées ne font pas partie de la preuve; décrire l’activité sans chercher à identifier les auteurs.",
+      "difficulte": "intermediaire",
+      "representation": "notice fictive",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Décris le programme sans juger les créations; inclue le lieu, le moment, le nombre de réalisations et une limite de la source.",
+      "stimulus": "Programme fictif « Salle des Joncs : samedi 11 h, exposition de huit maquettes de maisons imaginaires. Accès libre ».",
+      "reponse_attendue": "« La Salle des Joncs annonce une exposition de huit maquettes de maisons imaginaires samedi à 11 h. L’accès est libre. Le programme ne précise ni le nombre de visiteurs ni leurs impressions. »",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas."
+      ],
+      "feedback": "Vérifier que la réponse reprend exactement le dossier sélectionné, et qu’elle ne convertit pas une annonce en fréquentation réelle.",
+      "difficulte": "intermediaire",
+      "representation": "programme fictif à variantes fermées",
+      "seed": 6006,
+      "parametres": {
+        "variables": {
+          "variant": [
+            "A",
+            "B"
+          ]
+        },
+        "domaines": {
+          "variant": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "tirage uniquement dans ces deux dossiers fictifs complets",
+          "aucune combinaison libre",
+          "correction verrouillée par variante"
+        ],
+        "seed_stable": 6006,
+        "algorithme": "Trier les variantes dans l’ordre A,B; sélectionner indice = seed mod 2. Pour seed 6006: indice 0, variante A. Aucun appel à un modèle génératif.",
+        "exemple_verifie": {
+          "seed": 6006,
+          "indice": 0,
+          "variante": "A",
+          "attendu": "« La Salle des Joncs annonce une exposition de huit maquettes de maisons imaginaires samedi à 11 h. L’accès est libre. Le programme ne précise ni le nombre de visiteurs ni leurs impressions. »"
+        },
+        "variantes": [
+          {
+            "code": "A",
+            "stimulus": "Programme fictif « Salle des Joncs : samedi 11 h, exposition de huit maquettes de maisons imaginaires. Accès libre ».",
+            "reponse_attendue": "« La Salle des Joncs annonce une exposition de huit maquettes de maisons imaginaires samedi à 11 h. L’accès est libre. Le programme ne précise ni le nombre de visiteurs ni leurs impressions. »"
+          },
+          {
+            "code": "B",
+            "stimulus": "Programme fictif « Salle des Ormes : mardi 16 h, exposition de cinq mobiles en carton. Accès sur inscription ».",
+            "reponse_attendue": "« La Salle des Ormes annonce une exposition de cinq mobiles en carton mardi à 16 h. L’accès se fait sur inscription. Le programme ne précise ni le nombre de personnes inscrites ni leurs impressions. »"
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Distingue faits, hypothèses et jugements en annotant les trois phrases puis produis une description qui n’en retient que ce qui est établi.",
+      "stimulus": "Affiche fictive : « Bibliothèque de la Rive — dimanche 14 h : atelier de dessins sur sable coloré, supports fournis ». Phrases : 1) « Un atelier est annoncé dimanche à 14 h ». 2) « Les visiteurs seront tous passionnés ». 3) « C’est le plus bel atelier du monde ».",
+      "reponse_attendue": "1) fait attesté par l’affiche; 2) supposition sans indice; 3) jugement de goût. Description possible : « La Bibliothèque de la Rive annonce un atelier de dessins sur sable coloré dimanche à 14 h. Les supports seront fournis. L’affiche ne décrit pas les réactions des visiteurs. »",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas."
+      ],
+      "feedback": "Justifier le classement de chaque phrase; une formulation appréciative ne devient pas un fait culturel vérifié.",
+      "difficulte": "intermediaire",
+      "representation": "notice fictive",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir des deux pièces du dossier, rédige quatre phrases situées, neutres et vérifiables, en relevant une limite documentaire.",
+      "stimulus": "Dossier fictif : A) invitation « Atelier des Papiers : vendredi à 16 h, fabrication de petites scènes en carton, bibliothèque mobile ». B) note d’organisation « Matériel prêté sur place; participation libre; aucune photographie de personnes n’est prévue ».",
+      "reponse_attendue": "« Une invitation de l’Atelier des Papiers annonce la fabrication de scènes en carton vendredi à 16 h à la bibliothèque mobile. Une note précise que le matériel est prêté et que la participation est libre. Aucune photographie des personnes n’est prévue. Le dossier ne permet pas de connaître la fréquentation ou l’appréciation. »",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas."
+      ],
+      "feedback": "Chaque proposition doit correspondre à l’une des deux pièces; ne pas chercher de photos ou d’informations personnelles.",
+      "difficulte": "transfert",
+      "representation": "dossier de deux pièces",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige une courte description du compte rendu; distingue les faits de toute interprétation sur les participants.",
+      "stimulus": "Compte rendu fictif de l’Atelier du Square daté du 22 octobre : « Le 21 octobre, 12 personnes ont participé à un atelier de mosaïque en papier. Huit panneaux ont été terminés. Le compte rendu ne recueille aucune opinion des personnes ».",
+      "reponse_attendue": "« Selon le compte rendu du 22 octobre, douze personnes ont participé à un atelier de mosaïque en papier la veille. Huit panneaux ont été terminés. Le document ne donne aucune opinion des participants. »",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas."
+      ],
+      "feedback": "Conserver la différence entre les quantités attestées (12, 8) et les réactions non étudiées.",
+      "difficulte": "transfert",
+      "representation": "compte rendu fictif",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "**Preuve autonome A (sans indices).** Lis le dossier fictif d’exposition à la bibliothèque et rédige 4 à 6 phrases : activité, faits, lieu/moment, diversité sans généralisation, et limite. Aucun rappel des formulations modèles ne sera donné.",
+      "stimulus": "**Dossier A — Bibliothèque des Peupliers**. Pièce 1, programme daté du 2 mai : « Du 10 au 17 mai, la bibliothèque expose dans son hall 14 affiches de contes dessinés produites par trois ateliers de création ». Pièce 2, note : « Les ateliers ont porté sur différents styles d’illustration; la bibliothèque ne possède pas de comptage des visiteurs ».",
+      "reponse_attendue": "**Une production possible** : « Selon le programme du 2 mai, la Bibliothèque des Peupliers prévoit une exposition de quatorze affiches de contes dessinés dans son hall du 10 au 17 mai. Les affiches proviennent de trois ateliers de création. Une note mentionne différents styles d’illustration. Les documents ne donnent aucun nombre de visiteurs; on ne peut pas affirmer que tout le quartier a visité l’exposition. » Autres formulations admises si quatre dimensions satisfaites.",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas.",
+        "Preuve A autonome : 4–6 phrases, au moins trois données exactes, une limite explicite; consigner séparément les 4 dimensions 0–2 de la grille."
+      ],
+      "feedback": "Si une phrase ne peut pas être rattachée à l’une des deux pièces, la retirer ou la qualifier; ne pas associer les styles à l’identité des participants.",
+      "difficulte": "transfert",
+      "representation": "deux documents fictifs — programme + note",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "preuve_A_bibliotheque"
+    },
+    {
+      "item_id": "qc-pri-ccq-006-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-006-ev-01",
+      "mode": "fixe",
+      "consigne": "**Preuve autonome B (sans indices).** À partir d’un compte rendu distinct portant sur un jardin communautaire fictif, décris la situation en 4 à 6 phrases : faits, contexte, diversité sans généralisation, limites. Ne réemploie pas la description du dossier A.",
+      "stimulus": "**Dossier B — Jardin collectif du Sentier**. Pièce 1, compte rendu daté du 23 septembre : « Le 22 septembre, un atelier de panneaux illustrés sur les plantes imaginaires a eu lieu dans le jardin collectif; 9 personnes y ont participé; 6 panneaux ont été installés ». Pièce 2, note de la coordination : « Les participants pouvaient choisir entre dessin, découpage et assemblage. Aucun sondage sur leurs préférences n’a été effectué ».",
+      "reponse_attendue": "**Une production possible** : « Le compte rendu du Jardin collectif du Sentier indique qu’un atelier de panneaux illustrés a eu lieu le 22 septembre. Neuf personnes y ont participé et six panneaux ont été installés. La note explique que plusieurs techniques étaient proposées : dessin, découpage et assemblage. Elle ne dit pas quelle technique chaque personne a choisie ni si les participants ont apprécié l’atelier. » Les variantes linguistiques sont acceptées si elles restent documentées.",
+      "criteres": [
+        "Fidélité: seuls les faits expressément documentés sont retenus, sans invention.",
+        "Contexte: activité, lieu et moment sont situés ou signalés absents.",
+        "Neutralité/diversité: aucun jugement, stéréotype ni généralisation sur un groupe.",
+        "Traçabilité/limite: la réponse s’appuie sur le document et indique ce qu’il ne prouve pas.",
+        "Preuve B autonome : 4–6 phrases, au moins trois données exactes, une limite explicite; renseigner une seconde grille indépendante."
+      ],
+      "feedback": "Le compte rendu atteste une activité réalisée, contrairement à un programme; ne pas attribuer à chaque participant les trois techniques proposées.",
+      "difficulte": "transfert",
+      "representation": "deux documents fictifs — compte rendu + note",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "preuve_B_jardin_communautaire"
+    }
+  ]
+}

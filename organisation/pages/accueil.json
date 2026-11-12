@@ -1,0 +1,45 @@
+{
+  "format": "ekole.portal-page/0.1",
+  "id": "ekole-page-accueil",
+  "slug": "accueil",
+  "titre": "Bienvenue à Ekole",
+  "public_cible": "public",
+  "roles_visuels": [
+    "en_tete",
+    "description",
+    "actions",
+    "ressources",
+    "navigation"
+  ],
+  "utterances": [
+    {
+      "id": "accueil-phrase-1",
+      "source": "original_edition_candidat",
+      "fr-CA": "Ekole ouvre une bibliothèque scolaire organisée autour de 202 Kristals pédagogiques.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "accueil-phrase-2",
+      "source": "original_edition_candidat",
+      "fr-CA": "Chaque notion possède un parcours, des préalables et des preuves de maîtrise distinctes.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "accueil-phrase-3",
+      "source": "original_edition_candidat",
+      "fr-CA": "Explorez par matière, par parcours ou par besoin.",
+      "status": "a_revoir_semantik"
+    }
+  ],
+  "component_types": [
+    "utterance",
+    "label_value",
+    "list",
+    "card"
+  ],
+  "access": "public",
+  "language_status": {
+    "fr-CA": "candidat",
+    "en": "non_genere"
+  }
+}

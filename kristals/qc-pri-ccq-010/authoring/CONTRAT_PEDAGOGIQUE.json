@@ -1,0 +1,94 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ccq-010",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Reconnaître les limites personnelles, le respect et les règles de sécurité dans des situations adaptées à l’âge.",
+  "concepts": [
+    "corps",
+    "intimité",
+    "consentement",
+    "sécurité",
+    "aide"
+  ],
+  "preuve_attendue": "Choisir une conduite sûre dans une vignette fictive et identifier une ressource adulte.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ccq-010-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Choisir une conduite sûre dans une vignette fictive et identifier une ressource adulte.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ccq-010",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Choisir une conduite sûre dans une vignette fictive et identifier une ressource adulte.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "vignette écrite fictive",
+        "cartes-réponse lisibles",
+        "observation de choix justifié",
+        "réponse orale, écrite ou pictographique"
+      ],
+      "variables": {
+        "mode": "scenarios_fixes",
+        "domaine": [
+          "école",
+          "loisirs",
+          "communication numérique",
+          "soins accompagnés"
+        ],
+        "corpus": "evaluation/BANQUE_ITEMS.json, q-001 à q-012",
+        "tirage_libre_interdit": true
+      },
+      "contraintes": [
+        "ne demander aucune confidence intime, croyance ou identité",
+        "aucun acte corporel ni jeu de rôle tactile",
+        "distinguer intimité respectée et danger",
+        "toujours demander une conduite sûre ET une ressource adulte",
+        "pas de blâme envers la personne vulnérable",
+        "respecter les réponses équivalentes à l’aide de la rubrique",
+        "protéger les traces pédagogiques"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "repérer la limite ou le risque",
+          "choisir une conduite sûre et respectueuse",
+          "identifier une ressource adulte accessible",
+          "justifier sans blâmer la personne vulnérable"
+        ],
+        "niveaux_par_dimension": [
+          0,
+          1,
+          2
+        ],
+        "preuves_minimales": 2,
+        "conditions": "deux cas distincts sans indices; décisions protectrices et recours à un adulte requis pour chaque cas"
+      },
+      "source": [
+        "source frame v1.2 (identité, objectif, famille)",
+        "sources/REFERENCES_CONTENU.md (références de protection vérifiées)",
+        "vignettes et corrigés de rédaction originale"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

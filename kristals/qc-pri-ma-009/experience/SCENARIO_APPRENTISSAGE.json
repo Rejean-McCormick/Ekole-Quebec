@@ -1,0 +1,100 @@
+{
+  "format": "ekole.kristal-experience/2.0-proposition",
+  "kristal_id": "qc-pri-ma-009",
+  "statut": "prototype_revue_pedagogique_requise",
+  "alias_enfant": "Partager ou former des groupes",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Représenter le partage et le groupement pour résoudre des divisions.",
+    "preuve_attendue": "Effectuer un partage justifié et vérifier quotient et reste.",
+    "concepts": [
+      "quotient",
+      "reste",
+      "partage",
+      "groupement"
+    ],
+    "modules": [
+      "contenu/01_NOTIONS_ET_EXEMPLES.md",
+      "contenu/03_ENSEIGNEMENT_GUIDE.md",
+      "contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+      "contenu/05_PRATIQUE_AUTONOME.md",
+      "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    ]
+  },
+  "modalite_evaluation": "exactitude_mathematique",
+  "progression_enfant": {
+    "decouvrir": {
+      "titre_enfant": "Deux histoires de division",
+      "consigne_enfant": "Dans le partage, le nombre de personnes est fixé. Dans le groupement, la taille de chaque lot est fixée.",
+      "statut_validation": "Distinguer les deux significations",
+      "source_pedagogique": "contenu/03_ENSEIGNEMENT_GUIDE.md"
+    },
+    "essayer": {
+      "titre_enfant": "Déplace les jetons",
+      "consigne_enfant": "Distribue réellement les jetons dans plusieurs boîtes. Vérifie que toutes les boîtes ont autant de jetons et observe le reste.",
+      "statut_validation": "Validation algorithmique du partage uniquement",
+      "source_pedagogique": "contenu/03_ENSEIGNEMENT_GUIDE.md"
+    },
+    "expliquer": {
+      "titre_enfant": "Comment vérifies-tu ?",
+      "consigne_enfant": "Explique pourquoi les parts sont égales et pourquoi le reste ne permet pas de créer une part de plus.",
+      "statut_validation": "Justification observable par l’adulte",
+      "source_pedagogique": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    },
+    "explorer": {
+      "titre_enfant": "D’autres objets, même règle",
+      "consigne_enfant": "Transfère le partage à des lots, crayons ou autocollants sans changer les règles de la situation.",
+      "statut_validation": "Transfert avec contexte changé",
+      "source_pedagogique": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    }
+  },
+  "outils_interactifs": [
+    {
+      "id": "partage-12",
+      "statut": "entrainement_candidat_non_certifie",
+      "usage": "pratique_non_notée"
+    },
+    {
+      "id": "partage-14",
+      "statut": "entrainement_candidat_non_certifie",
+      "usage": "pratique_non_notée"
+    }
+  ],
+  "preuves_de_maitrise": {
+    "source": "evaluation/BANQUE_ITEMS.json",
+    "remplacee_par_atelier": false,
+    "decision": "revue_humaine_requise",
+    "commentaire": "Les mini-environnements ne remplacent pas les preuves source."
+  },
+  "difficultes_a_observer": [
+    "Confond nombre de groupes et taille des groupes",
+    "Distribue tout alors qu’un reste est possible",
+    "Déclare un reste égal ou supérieur au diviseur"
+  ],
+  "consignes_enseignant": [
+    "Faire verbaliser ce qui est fixé au départ (nombre de groupes ou taille d’un groupe).",
+    "Demander la vérification total = diviseur × quotient + reste sans la transformer en récitation mécanique.",
+    "Présenter un exemple avec un reste, puis une situation nouvelle."
+  ],
+  "erreurs_et_relances": [
+    {
+      "observation": "Partage inégal",
+      "relance": "Comparer visuellement la taille des boîtes avant vérification"
+    },
+    {
+      "observation": "Reste trop grand",
+      "relance": "Demander si une nouvelle unité peut être placée dans chaque boîte"
+    },
+    {
+      "observation": "Deux sens confondus",
+      "relance": "Surligner « nombre de boîtes » et « taille des lots » dans deux énoncés"
+    }
+  ],
+  "limitations": [
+    "Les jetons vérifient le partage matériel, pas la justification du quotient et du reste.",
+    "La différence entre partage et groupement doit rester explicite."
+  ],
+  "politique_visuelle": "Description de concept seulement; aucun style imposé; un fichier absent affiche son prompt.",
+  "provenance": "Projet de refonte fondé sur les modules source du Kristal; pas une approbation institutionnelle."
+}

@@ -1,0 +1,122 @@
+{
+  "format": "ekole.kristal-visual-missing/1.0",
+  "note": "Ces déclarations NE SONT PAS DES KRISTALS complets. Elles proviennent seulement du catalogue Ekole.",
+  "cours_sans_source": {
+    "qc-pri-fr-004": {
+      "statut": "source_absente",
+      "titre_catalogue": "Fluidité et expressivité en lecture",
+      "visuels": [
+        {
+          "slot": "concept",
+          "placement": "decouvrir",
+          "role": "illustration_provisoire_catalogue",
+          "concept": "Fluidité et expressivité en lecture",
+          "prompt_conceptuel": "Concept d'image pour le cours catalogué « Fluidité et expressivité en lecture ». Montrer une situation reliée à l'objectif indiqué dans le catalogue : « Lire un court passage adapté avec exactitude, continuité et prosodie pertinente. ». Donner des éléments à observer sans fournir de solution. Le Kristal source n'est pas disponible et ce prompt devra être revu à sa réception.",
+          "texte_alternatif": "Concept provisoire pour Fluidité et expressivité en lecture.",
+          "fichier_preferentiel": "experience/images/concept.webp",
+          "formats_acceptes": [
+            "webp",
+            "png",
+            "jpg",
+            "jpeg"
+          ],
+          "dimensions": {
+            "reglage": "manuel_ulterieur",
+            "minimum_publication_px": [
+              120,
+              120
+            ]
+          },
+          "statut": "prompt_en_attente_image",
+          "outils_associes": [],
+          "verification_pedagogique": "requise",
+          "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+        },
+        {
+          "slot": "situation",
+          "placement": "explorer",
+          "role": "exploration_provisoire_catalogue",
+          "concept": "Fluidité et expressivité en lecture",
+          "prompt_conceptuel": "Concept d'image d'exploration autour de « Fluidité et expressivité en lecture » : représenter une situation concrète en lien avec « Lire un court passage adapté avec exactitude, continuité et prosodie pertinente. » sans supposer d'autres notions non vérifiées. Source Kristal à obtenir avant validation et publication pédagogique.",
+          "texte_alternatif": "Exploration provisoire pour Fluidité et expressivité en lecture.",
+          "fichier_preferentiel": "experience/images/situation.webp",
+          "formats_acceptes": [
+            "webp",
+            "png",
+            "jpg",
+            "jpeg"
+          ],
+          "dimensions": {
+            "reglage": "manuel_ulterieur",
+            "minimum_publication_px": [
+              120,
+              120
+            ]
+          },
+          "statut": "prompt_en_attente_image",
+          "outils_associes": [],
+          "verification_pedagogique": "requise",
+          "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+        }
+      ]
+    },
+    "qc-pri-ma-005": {
+      "statut": "source_absente",
+      "titre_catalogue": "Estimation et arrondissement",
+      "visuels": [
+        {
+          "slot": "concept",
+          "placement": "decouvrir",
+          "role": "illustration_provisoire_catalogue",
+          "concept": "Estimation et arrondissement",
+          "prompt_conceptuel": "Concept d'image pour le cours catalogué « Estimation et arrondissement ». Montrer une situation reliée à l'objectif indiqué dans le catalogue : « Produire une estimation défendable et arrondir selon un rang annoncé. ». Donner des éléments à observer sans fournir de solution. Le Kristal source n'est pas disponible et ce prompt devra être revu à sa réception.",
+          "texte_alternatif": "Concept provisoire pour Estimation et arrondissement.",
+          "fichier_preferentiel": "experience/images/concept.webp",
+          "formats_acceptes": [
+            "webp",
+            "png",
+            "jpg",
+            "jpeg"
+          ],
+          "dimensions": {
+            "reglage": "manuel_ulterieur",
+            "minimum_publication_px": [
+              120,
+              120
+            ]
+          },
+          "statut": "prompt_en_attente_image",
+          "outils_associes": [],
+          "verification_pedagogique": "requise",
+          "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+        },
+        {
+          "slot": "situation",
+          "placement": "explorer",
+          "role": "exploration_provisoire_catalogue",
+          "concept": "Estimation et arrondissement",
+          "prompt_conceptuel": "Concept d'image d'exploration autour de « Estimation et arrondissement » : représenter une situation concrète en lien avec « Produire une estimation défendable et arrondir selon un rang annoncé. » sans supposer d'autres notions non vérifiées. Source Kristal à obtenir avant validation et publication pédagogique.",
+          "texte_alternatif": "Exploration provisoire pour Estimation et arrondissement.",
+          "fichier_preferentiel": "experience/images/situation.webp",
+          "formats_acceptes": [
+            "webp",
+            "png",
+            "jpg",
+            "jpeg"
+          ],
+          "dimensions": {
+            "reglage": "manuel_ulterieur",
+            "minimum_publication_px": [
+              120,
+              120
+            ]
+          },
+          "statut": "prompt_en_attente_image",
+          "outils_associes": [],
+          "verification_pedagogique": "requise",
+          "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+        }
+      ]
+    }
+  }
+}

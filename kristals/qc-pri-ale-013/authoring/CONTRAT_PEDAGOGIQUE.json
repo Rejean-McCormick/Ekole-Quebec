@@ -1,0 +1,85 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-013",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Écouter un échange anglais et en restituer les idées essentielles.",
+  "concepts": [
+    "oral cue",
+    "main idea",
+    "detail"
+  ],
+  "preuve_attendue": "Résumer un échange et poser une question pertinente de clarification.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-013-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Résumer un échange et poser une question pertinente de clarification.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ale-013",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Résumer un échange et poser une question pertinente de clarification.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "dialogue oral à deux voix",
+        "résumé oral / dicté / écrit",
+        "question orale ou écrite"
+      ],
+      "variables": {
+        "mode": "corpus_ferme",
+        "nombre_scenarios": 12,
+        "identifiants": [
+          "qc-pri-ale-013-q-001",
+          "qc-pri-ale-013-q-002",
+          "qc-pri-ale-013-q-003",
+          "qc-pri-ale-013-q-004",
+          "qc-pri-ale-013-q-005",
+          "qc-pri-ale-013-q-006",
+          "qc-pri-ale-013-q-007",
+          "qc-pri-ale-013-q-008",
+          "qc-pri-ale-013-q-009",
+          "qc-pri-ale-013-q-010",
+          "qc-pri-ale-013-q-011",
+          "qc-pri-ale-013-q-012"
+        ],
+        "substitutions": "aucune substitution de faits ou de dialogues sans revalidation humaine du corrigé"
+      },
+      "contraintes": [
+        "Deux écoutes intégrales par item",
+        "Transcription réservée à l’évaluateur avant la réponse, sauf adaptation consignée",
+        "Scénarios fictifs verrouillés et réponses appréciées par rubrique",
+        "Question de clarification pertinente portant sur une donnée absente",
+        "Deux manifestations autonomes : q-011 et q-012"
+      ],
+      "barreme_ou_rubrique": {
+        "main_idea": 2,
+        "two_details": 2,
+        "clarification": 2,
+        "fidelity_and_evidence": 2,
+        "total": 8,
+        "mastery_decision": "deux preuves indépendantes, critères essentiels validés dans chacune, sans score unique"
+      },
+      "source": "dialogues originaux et prescriptions internes v1.2, sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

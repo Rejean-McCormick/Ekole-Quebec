@@ -1,0 +1,100 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Assembler plusieurs habiletés motrices en une séquence contrôlée.",
+  "concepts": [
+    "transition",
+    "rythme",
+    "coordination",
+    "espace"
+  ],
+  "preuve_attendue": "Exécuter une séquence de trois mouvements avec continuité.",
+  "prerequis_bloquants": [
+    "qc-pri-eps-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-eps-003",
+    "qc-pri-eps-004"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-005-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Exécuter une séquence de trois mouvements avec continuité.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Variations d’accessibilité et de milieu fixées avant l’essai; scénarios et rubriques verrouillés dans la banque. Pas de génération libre.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-eps-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "enchaînement moteur observé",
+        "bande de trois actions",
+        "observation descriptive et auto-explication accessible"
+      ],
+      "variables": {
+        "mode": "fixe_controle",
+        "situations": [
+          "parcours_de_trois_reperes",
+          "message_silencieux"
+        ],
+        "parametres_moteurs_accessibles": [
+          "position",
+          "amplitude",
+          "tempo",
+          "zone_corporelle_disponible"
+        ],
+        "tirage_aleatoire": false
+      },
+      "contraintes": [
+        "trois mouvements volontaires et discernables dans un ordre choisi",
+        "transitions suffisamment contrôlées pour maintenir la continuité",
+        "pas de saut, course, contact, rapidité ou amplitude imposée",
+        "deux épreuves en contextes distincts avec une nouvelle composition",
+        "adaptations non directives fixées avant l’épreuve",
+        "surveillance d’un adulte et arrêt en cas de danger ou douleur",
+        "pas de score de morphologie, vitesse, force ni souplesse"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "trois_actions",
+          "ordre_et_continuite",
+          "transitions_et_rythme",
+          "espace_et_securite",
+          "autonomie_et_transfert"
+        ],
+        "echelle": {
+          "0": "non observe",
+          "1": "partiel",
+          "2": "observe"
+        },
+        "decision": "aucun score global compensatoire; critères essentiels sur deux preuves distinctes"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

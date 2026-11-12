@@ -1,0 +1,77 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-021",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire un trajet ou une position au moyen de repères spatiaux stables.",
+  "concepts": [
+    "orientation",
+    "coordonnées simples",
+    "déplacement"
+  ],
+  "preuve_attendue": "Donner puis suivre un parcours spatial précis sans ambiguïté.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-021-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Donner puis suivre un parcours spatial précis sans ambiguïté.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "controle_algorithmique_entier_effectue_revue_humaine_requise",
+        "variations_admissibles": "4 cas fermés par item paramétrique, seed%4; scénarios et preuves fixes; adaptations de modalité neutres uniquement",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme_resolution": "simulateur exact pas à pas et contrôle indépendant par bilan entier, BFS pour distances minimales",
+        "cas_controles": 16,
+        "preuves_contextes": [
+          "bibliotheque",
+          "robot_jardin"
+        ]
+      },
+      "review_status": "banque_instrumentee_revue_humaine_requise",
+      "kristal_id": "qc-pri-ma-021",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "pion_sur_grille_de_points",
+        "plan_avec_points_et_coordonnees",
+        "commandes_N_S_E_O",
+        "trace_ordonnée",
+        "description_orale_ou_tactile"
+      ],
+      "variables": {
+        "coordonnees": "entiers x,y de 1 à 6",
+        "direction": "E,O,N,S",
+        "pas_par_segment": "1 à 3",
+        "passages": "coordonnées entières fixées par table",
+        "obstacles": "ensemble fini fixé dans le scénario de preuve B",
+        "source_variantes": "parametres.cas des items q-003,004,006,009"
+      },
+      "contraintes": [
+        "repère commun avec nord en haut et colonne avant rangée",
+        "décomposer les segments en pas unitaires",
+        "aucun point traversé hors de x,y=1..6",
+        "points fermés évités pour B; cas volontairement invalides de q-006 à identifier",
+        "visite de l’escale dans l’ordre quand elle existe",
+        "donner puis suivre le parcours sans ambiguïté pour les preuves A/B",
+        "aucune génération IA libre ni altération des 4 cas contrôlés"
+      ],
+      "barreme_ou_rubrique": "Pour preuves A et B, cinq dimensions R1–R5 de GRILLE_MAITRISE.md, chacune atteinte au niveau 2 sans indices; deux occasions/contextes requis. Les items 001–009 sont formatifs.",
+      "source": "sources/REFERENCES_CONTENU.md (conventions et contextes originaux, références internes gouvernance v1.2 et frame)",
+      "seed": 21021,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_banque_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

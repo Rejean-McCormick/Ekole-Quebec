@@ -1,0 +1,3567 @@
+{
+  "format": "ekole.revue-kristals/1.0",
+  "count": 202,
+  "pilotes": 5,
+  "source_complete": 200,
+  "sources_absentes": 2,
+  "politique": "Aucune revue pédagogique des 195 autres Kristals ne peut être revendiquée.",
+  "cours": [
+    {
+      "kristal_id": "qc-pri-ad-001",
+      "statut": "pilote_structure_a_revoir",
+      "objectif_source": "Utiliser corps, voix et espace pour exprimer une intention théâtrale.",
+      "preuve_source": "Interpréter une consigne d’expression par deux moyens différents.",
+      "concepts_source": [
+        "geste",
+        "posture",
+        "voix",
+        "espace"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Jeu dramatique et intention observés humainement, sans analyse biométrique.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "pilote",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ad-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Caractériser un personnage et une situation de jeu dramatique.",
+      "preuve_source": "Improviser une entrée en scène manifestant un personnage identifiable.",
+      "concepts_source": [
+        "personnage",
+        "intention",
+        "relation",
+        "situation"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Jeu dramatique et intention observés humainement, sans analyse biométrique.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ad-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Improviser une interaction en respectant les propositions des partenaires.",
+      "preuve_source": "Soutenir une improvisation avec cohérence et prise en compte d’autrui.",
+      "concepts_source": [
+        "écoute",
+        "relance",
+        "action",
+        "imprévu"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Jeu dramatique et intention observés humainement, sans analyse biométrique.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ad-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Construire une brève séquence dramatique comportant une évolution.",
+      "preuve_source": "Jouer une séquence originale avec progression intelligible.",
+      "concepts_source": [
+        "début",
+        "enjeu",
+        "action",
+        "fin"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Jeu dramatique et intention observés humainement, sans analyse biométrique.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ad-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Organiser les éléments d’une mise en scène simple pour un public.",
+      "preuve_source": "Présenter une mise en scène et justifier ses choix scéniques.",
+      "concepts_source": [
+        "espace",
+        "entrée",
+        "rôle",
+        "consigne"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Jeu dramatique et intention observés humainement, sans analyse biométrique.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ad-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Interpréter un rôle en maintenant une intention et une relation de jeu.",
+      "preuve_source": "Jouer une scène courte avec constance des choix interprétatifs.",
+      "concepts_source": [
+        "personnage",
+        "émotion représentée",
+        "continuité"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Jeu dramatique et intention observés humainement, sans analyse biométrique.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ad-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire ce qui se passe dans une représentation théâtrale.",
+      "preuve_source": "Noter des éléments observables d’une scène sans juger les personnes.",
+      "concepts_source": [
+        "jeu",
+        "espace",
+        "action",
+        "observation"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Jeu dramatique et intention observés humainement, sans analyse biométrique.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ad-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Apprécier une représentation à partir de critères observables.",
+      "preuve_source": "Exprimer une appréciation appuyée sur deux moments précis.",
+      "concepts_source": [
+        "intention",
+        "interprétation",
+        "effet",
+        "justification"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Jeu dramatique et intention observés humainement, sans analyse biométrique.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ad-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Analyser les étapes de sa démarche de création ou d’interprétation.",
+      "preuve_source": "Présenter sa démarche avec un exemple d’ajustement réalisé.",
+      "concepts_source": [
+        "essai",
+        "coopération",
+        "révision",
+        "présentation"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Jeu dramatique et intention observés humainement, sans analyse biométrique.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Segmenter et manipuler syllabes et phonèmes de mots anglais oraux.",
+      "preuve_source": "Recomposer oralement des mots nouveaux après segmentation.",
+      "concepts_source": [
+        "syllable",
+        "phoneme",
+        "onset",
+        "rime"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Appliquer des correspondances lettres-sons anglaises au décodage.",
+      "preuve_source": "Lire de nouveaux mots réguliers et indiquer l’indice utilisé.",
+      "concepts_source": [
+        "phonics",
+        "grapheme",
+        "sound blend"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Lire un passage anglais avec précision et rythme permettant la compréhension.",
+      "preuve_source": "Relire un texte nouveau avec meilleure exactitude et phrasé.",
+      "concepts_source": [
+        "accuracy",
+        "fluency",
+        "phrasing"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Reconstituer actions, personnages et idées d’un récit en anglais.",
+      "preuve_source": "Résumer une histoire et citer un détail qui soutient le résumé.",
+      "concepts_source": [
+        "plot",
+        "character",
+        "event",
+        "evidence"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Repérer et organiser les informations d’un texte informatif en anglais.",
+      "preuve_source": "Créer une fiche de synthèse d’un document nouveau.",
+      "concepts_source": [
+        "main idea",
+        "detail",
+        "heading",
+        "evidence"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Inférer une intention ou une information non explicite dans un texte anglais.",
+      "preuve_source": "Formuler deux inférences soutenues par des indices textuels.",
+      "concepts_source": [
+        "text clues",
+        "inference",
+        "justification"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Formuler une appréciation littéraire fondée sur des éléments de l’œuvre.",
+      "preuve_source": "Défendre une appréciation et reconnaître une autre lecture possible.",
+      "concepts_source": [
+        "theme",
+        "narrative choice",
+        "textual evidence"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Déduire le sens de mots anglais en utilisant contexte et morphologie.",
+      "preuve_source": "Expliquer le sens de mots nouveaux dans deux phrases.",
+      "concepts_source": [
+        "prefix",
+        "suffix",
+        "root",
+        "context"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Orthographier et ponctuer des phrases anglaises ciblées.",
+      "preuve_source": "Corriger un message en repérant et justifiant les corrections.",
+      "concepts_source": [
+        "spelling patterns",
+        "capitals",
+        "punctuation"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-010",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Construire des phrases anglaises variées et grammaticalement compréhensibles.",
+      "preuve_source": "Produire et transformer plusieurs phrases sur le même thème.",
+      "concepts_source": [
+        "subject",
+        "verb",
+        "complement",
+        "sentence type"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-011",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Planifier puis rédiger un texte anglais pour un public explicite.",
+      "preuve_source": "Produire deux paragraphes ordonnés selon une consigne nouvelle.",
+      "concepts_source": [
+        "purpose",
+        "paragraph",
+        "plan",
+        "audience"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-012",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Réviser un texte anglais selon un ordre de contrôle du sens puis de la forme.",
+      "preuve_source": "Remettre une version annotée montrant des améliorations justifiées.",
+      "concepts_source": [
+        "revision",
+        "cohesion",
+        "conventions"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-013",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Écouter un échange anglais et en restituer les idées essentielles.",
+      "preuve_source": "Résumer un échange et poser une question pertinente de clarification.",
+      "concepts_source": [
+        "oral cue",
+        "main idea",
+        "detail"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ale-014",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Participer à un échange oral puis présenter une idée argumentée en anglais.",
+      "preuve_source": "Soutenir un échange et exposer une idée avec un exemple.",
+      "concepts_source": [
+        "turn-taking",
+        "presentation",
+        "reason"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Exécuter et reformuler des consignes orales courantes en anglais.",
+      "preuve_source": "Suivre trois instructions inédites puis indiquer leur sens.",
+      "concepts_source": [
+        "formules usuelles",
+        "consignes",
+        "contexte"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Employer un lexique anglais ciblé dans des échanges authentiques.",
+      "preuve_source": "Nommer et utiliser correctement des mots nouveaux dans un mini-dialogue.",
+      "concepts_source": [
+        "lexique fréquent",
+        "catégorisation",
+        "expressions"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier le sens global et quelques détails d’un texte oral rythmé.",
+      "preuve_source": "Répondre à des questions simples après une chanson ou histoire entendue.",
+      "concepts_source": [
+        "rimes",
+        "répétitions",
+        "idée générale"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Produire de manière intelligible des sons, accents et rythmes élémentaires.",
+      "preuve_source": "Enregistrer un court message compréhensible après modelage.",
+      "concepts_source": [
+        "phonèmes fréquents",
+        "accentuation",
+        "rythme"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Poser et répondre à des questions simples en interaction.",
+      "preuve_source": "Soutenir un échange de quatre tours avec un partenaire.",
+      "concepts_source": [
+        "salutations",
+        "questions fréquentes",
+        "réponses"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire une expérience proche en phrases anglaises simples.",
+      "preuve_source": "Raconter oralement une situation familière avec trois informations pertinentes.",
+      "concepts_source": [
+        "personnes",
+        "actions",
+        "temps présent",
+        "connecteurs"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Extraire le sens d’un court texte écrit anglais adapté.",
+      "preuve_source": "Associer des phrases à des informations et repérer un détail précis.",
+      "concepts_source": [
+        "mots fréquents",
+        "indices visuels",
+        "sens global"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Choisir une stratégie adaptée pour comprendre un message anglais.",
+      "preuve_source": "Décrire l’indice ayant permis de comprendre un passage nouveau.",
+      "concepts_source": [
+        "anticipation",
+        "indices",
+        "reformulation"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Réemployer à l’oral ou à l’écrit des informations comprises dans un message.",
+      "preuve_source": "Transformer un bref récit entendu ou lu en présentation personnelle.",
+      "concepts_source": [
+        "sélection d’informations",
+        "reformulation"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-010",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Rédiger un texte anglais bref, intelligible et adapté à une consigne.",
+      "preuve_source": "Produire un message de quatre phrases sur une situation donnée.",
+      "concepts_source": [
+        "phrases simples",
+        "vocabulaire",
+        "enchaînement"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-011",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Relire et améliorer un texte anglais court à partir de critères ciblés.",
+      "preuve_source": "Réviser un court message et expliquer deux améliorations.",
+      "concepts_source": [
+        "révision",
+        "sens",
+        "mots fréquents",
+        "structure"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-als-012",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Communiquer une idée en anglais devant un petit groupe et répondre aux questions.",
+      "preuve_source": "Présenter un thème familier puis répondre à des demandes de précision.",
+      "concepts_source": [
+        "oral préparé",
+        "interaction",
+        "clarification"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ap-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier et décrire des éléments visuels dans des images et objets.",
+      "preuve_source": "Annoter une image en justifiant plusieurs éléments observés.",
+      "concepts_source": [
+        "ligne",
+        "forme",
+        "couleur",
+        "texture"
+      ],
+      "archetype_candidat": "arts_creatifs",
+      "orientation_a_verifier": "Observation sur critères explicites, création libre évaluée humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ap-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Expérimenter des gestes, supports et procédés plastiques de façon sûre.",
+      "preuve_source": "Produire une planche d’essais légendée et comparer les effets.",
+      "concepts_source": [
+        "outil",
+        "geste",
+        "technique",
+        "trace"
+      ],
+      "archetype_candidat": "arts_creatifs",
+      "orientation_a_verifier": "Observation sur critères explicites, création libre évaluée humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ap-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Organiser des éléments visuels en une composition intentionnelle.",
+      "preuve_source": "Créer deux compositions différentes et expliquer les choix.",
+      "concepts_source": [
+        "espace",
+        "contraste",
+        "rythme",
+        "équilibre"
+      ],
+      "archetype_candidat": "arts_creatifs",
+      "orientation_a_verifier": "Observation sur critères explicites, création libre évaluée humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ap-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Choisir matériaux et procédés en fonction d’une intention créative.",
+      "preuve_source": "Tester deux matériaux puis justifier celui qui convient à l’intention.",
+      "concepts_source": [
+        "matériau",
+        "texture",
+        "outil",
+        "effet"
+      ],
+      "archetype_candidat": "arts_creatifs",
+      "orientation_a_verifier": "Observation sur critères explicites, création libre évaluée humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ap-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Créer une image personnelle cohérente avec un projet expressif.",
+      "preuve_source": "Réaliser une production et présenter ses choix de création.",
+      "concepts_source": [
+        "intention",
+        "imaginaire",
+        "choix plastiques"
+      ],
+      "archetype_candidat": "arts_creatifs",
+      "orientation_a_verifier": "Observation sur critères explicites, création libre évaluée humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ap-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Créer une image destinée à communiquer à un public précis.",
+      "preuve_source": "Réaliser une affiche et vérifier sa compréhension auprès d’un pair.",
+      "concepts_source": [
+        "destinataire",
+        "image",
+        "message",
+        "lisibilité"
+      ],
+      "archetype_candidat": "arts_creatifs",
+      "orientation_a_verifier": "Observation sur critères explicites, création libre évaluée humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ap-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire l’organisation et les moyens expressifs d’une œuvre visuelle.",
+      "preuve_source": "Analyser une œuvre avec preuves visuelles spécifiques.",
+      "concepts_source": [
+        "composition",
+        "procédé",
+        "intention",
+        "contexte"
+      ],
+      "archetype_candidat": "arts_creatifs",
+      "orientation_a_verifier": "Observation sur critères explicites, création libre évaluée humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ap-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Formuler une appréciation argumentée d’une œuvre sans imposer le goût.",
+      "preuve_source": "Donner un avis distinguant préférence et éléments de l’œuvre.",
+      "concepts_source": [
+        "observation",
+        "effet",
+        "critère",
+        "jugement"
+      ],
+      "archetype_candidat": "arts_creatifs",
+      "orientation_a_verifier": "Observation sur critères explicites, création libre évaluée humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ap-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Expliquer son processus de création et des ajustements apportés.",
+      "preuve_source": "Présenter un portfolio commenté de deux étapes de création.",
+      "concepts_source": [
+        "intention",
+        "essai",
+        "choix",
+        "réflexion"
+      ],
+      "archetype_candidat": "arts_creatifs",
+      "orientation_a_verifier": "Observation sur critères explicites, création libre évaluée humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire des éléments de l’identité et expliquer leur diversité dans la société.",
+      "preuve_source": "Analyser un personnage fictif en respectant la pluralité des identités.",
+      "concepts_source": [
+        "identité",
+        "appartenance",
+        "expérience",
+        "diversité"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comparer des façons de vivre les relations et les responsabilités partagées.",
+      "preuve_source": "Proposer des réponses argumentées à une situation relationnelle fictive.",
+      "concepts_source": [
+        "relation",
+        "entraide",
+        "règle",
+        "respect"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Explorer plusieurs réponses possibles à une question de sens.",
+      "preuve_source": "Comparer des points de vue sans exiger d’adhésion personnelle.",
+      "concepts_source": [
+        "valeur",
+        "interprétation",
+        "pluralité",
+        "argument"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Analyser une situation où des choix humains touchent l’environnement.",
+      "preuve_source": "Évaluer deux options fictives selon des critères explicites.",
+      "concepts_source": [
+        "relation au vivant",
+        "ressource",
+        "conséquence",
+        "valeur"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Distinguer informations, opinions et influences dans des contenus médiatiques.",
+      "preuve_source": "Analyser un message fictif et expliciter deux mécanismes d’influence.",
+      "concepts_source": [
+        "média",
+        "source",
+        "publicité",
+        "réputation"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire une réalité culturelle à partir d’éléments observables et contextualisés.",
+      "preuve_source": "Produire une description neutre d’une situation documentée.",
+      "concepts_source": [
+        "fait culturel",
+        "contexte",
+        "description",
+        "diversité"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comparer des perspectives culturelles sans généralisation abusive.",
+      "preuve_source": "Comparer deux récits en distinguant faits et points de vue.",
+      "concepts_source": [
+        "perspective",
+        "comparaison",
+        "préjugé",
+        "contexte"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Conduire un échange avec écoute active, questions ouvertes et respect.",
+      "preuve_source": "Participer à un dialogue sur un cas fictif avec des relances pertinentes.",
+      "concepts_source": [
+        "dialogue",
+        "reformulation",
+        "désaccord",
+        "écoute"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Examiner un choix et argumenter à partir de conséquences et de principes.",
+      "preuve_source": "Justifier une décision possible et reconnaître une objection valable.",
+      "concepts_source": [
+        "dilemme",
+        "critères",
+        "raison",
+        "conséquence"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-010",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Reconnaître les limites personnelles, le respect et les règles de sécurité dans des situations adaptées à l’âge.",
+      "preuve_source": "Choisir une conduite sûre dans une vignette fictive et identifier une ressource adulte.",
+      "concepts_source": [
+        "corps",
+        "intimité",
+        "consentement",
+        "sécurité",
+        "aide"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ccq-011",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Présenter de manière respectueuse différentes perspectives de Premiers Peuples.",
+      "preuve_source": "Comparer deux documents contextualisés sans généralisation ni appropriation.",
+      "concepts_source": [
+        "perspective autochtone",
+        "pluralité",
+        "continuité",
+        "respect"
+      ],
+      "archetype_candidat": "perspectives_ethiques",
+      "orientation_a_verifier": "Aucune correction automatique des opinions; argumentation à accompagner.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-da-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Explorer les possibilités de mouvements du corps en sécurité.",
+      "preuve_source": "Créer puis répéter une séquence courte explorant deux types de mouvements.",
+      "concepts_source": [
+        "parties du corps",
+        "action",
+        "mobilité",
+        "expression"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Mouvements et choix expressifs évalués avec observation humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-da-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Faire varier espace, temps et énergie dans un même motif dansé.",
+      "preuve_source": "Transformer un même mouvement selon trois paramètres annoncés.",
+      "concepts_source": [
+        "direction",
+        "niveau",
+        "durée",
+        "intensité"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Mouvements et choix expressifs évalués avec observation humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-da-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Composer une phrase dansée structurée avec un début et une fin.",
+      "preuve_source": "Présenter une phrase chorégraphique originale mémorisable.",
+      "concepts_source": [
+        "motif",
+        "répétition",
+        "transition",
+        "structure"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Mouvements et choix expressifs évalués avec observation humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-da-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Combiner plusieurs phrases dansées en une composition cohérente.",
+      "preuve_source": "Créer une courte composition et justifier l’ordre des motifs.",
+      "concepts_source": [
+        "enchainement",
+        "contraste",
+        "organisation",
+        "intention"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Mouvements et choix expressifs évalués avec observation humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-da-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Improviser un mouvement en respectant une contrainte expressive.",
+      "preuve_source": "Réaliser une improvisation où la contrainte est perceptible.",
+      "concepts_source": [
+        "improvisation",
+        "écoute",
+        "consigne",
+        "adaptation"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Mouvements et choix expressifs évalués avec observation humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-da-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Interpréter une danse avec précision relative et intention expressive.",
+      "preuve_source": "Exécuter une séquence montrant une progression entre deux essais.",
+      "concepts_source": [
+        "mémorisation",
+        "rythme",
+        "présence",
+        "sécurité"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Mouvements et choix expressifs évalués avec observation humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-da-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Observer et décrire les choix de mouvement dans une œuvre dansée.",
+      "preuve_source": "Décrire des éléments précis d’un extrait chorégraphique.",
+      "concepts_source": [
+        "espace",
+        "temps",
+        "énergie",
+        "relation"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Mouvements et choix expressifs évalués avec observation humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-da-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comparer deux propositions chorégraphiques à partir de critères explicites.",
+      "preuve_source": "Présenter une comparaison avec des observations vérifiables.",
+      "concepts_source": [
+        "contraste",
+        "effet",
+        "mouvement",
+        "argument"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Mouvements et choix expressifs évalués avec observation humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-da-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Présenter et expliquer les étapes de sa création dansée.",
+      "preuve_source": "Raconter sa démarche à partir d’une trace ou d’une vidéo de répétition.",
+      "concepts_source": [
+        "intention",
+        "choix",
+        "collaboration",
+        "révision"
+      ],
+      "archetype_candidat": "arts_vivants",
+      "orientation_a_verifier": "Mouvements et choix expressifs évalués avec observation humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier ses segments corporels et coordonner un mouvement simple.",
+      "preuve_source": "Exécuter un mouvement ciblé en décrivant ses repères corporels.",
+      "concepts_source": [
+        "corps",
+        "posture",
+        "latéralité",
+        "perception"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Adapter marche, course, saut ou déplacement à un espace et une consigne.",
+      "preuve_source": "Réaliser un parcours varié avec contrôle des déplacements.",
+      "concepts_source": [
+        "locomotion",
+        "trajectoire",
+        "vitesse",
+        "sécurité"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Maintenir ou retrouver l’équilibre lors d’actions motrices de difficulté graduée.",
+      "preuve_source": "Réussir deux enchaînements avec changement d’appuis.",
+      "concepts_source": [
+        "équilibre",
+        "coordination",
+        "appuis"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Contrôler un objet en lançant, recevant, frappant ou conduisant selon le contexte.",
+      "preuve_source": "Réaliser plusieurs essais mesurables avec ajustement de la technique.",
+      "concepts_source": [
+        "coordination œil-main",
+        "manipulation",
+        "contrôle"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Assembler plusieurs habiletés motrices en une séquence contrôlée.",
+      "preuve_source": "Exécuter une séquence de trois mouvements avec continuité.",
+      "concepts_source": [
+        "transition",
+        "rythme",
+        "coordination",
+        "espace"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Jouer selon des règles partagées en coopérant et en gérant l’opposition.",
+      "preuve_source": "Participer à un jeu en montrant respect des règles et décisions adaptées.",
+      "concepts_source": [
+        "coopération",
+        "règle",
+        "opposition",
+        "fair-play"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Choisir une stratégie collective simple puis l’adapter après observation.",
+      "preuve_source": "Expliquer un choix tactique et montrer un ajustement en jeu.",
+      "concepts_source": [
+        "rôle",
+        "plan",
+        "communication",
+        "adaptation"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Reconnaître une situation à risque et appliquer les consignes de prévention.",
+      "preuve_source": "Repérer des risques dans un scénario et proposer une action sûre.",
+      "concepts_source": [
+        "zone sécuritaire",
+        "échauffement",
+        "protection",
+        "aide"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Réguler son effort en fonction d’une activité et des signes corporels usuels.",
+      "preuve_source": "Planifier puis ajuster une séance d’effort adaptée et sûre.",
+      "concepts_source": [
+        "intensité",
+        "respiration",
+        "récupération",
+        "adaptation"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-010",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Planifier des occasions d’activité physique variées et réalistes.",
+      "preuve_source": "Élaborer un plan hebdomadaire flexible d’activités plaisantes.",
+      "concepts_source": [
+        "routine active",
+        "motivation",
+        "contexte",
+        "continuité"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-011",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Reconnaître les pratiques quotidiennes qui soutiennent santé et bien-être.",
+      "preuve_source": "Sélectionner des choix sains dans des situations scolaires fictives.",
+      "concepts_source": [
+        "repos",
+        "hygiène",
+        "hydratation",
+        "prévention"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-eps-012",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Analyser une pratique physique à partir de critères observables et personnels non comparatifs.",
+      "preuve_source": "Comparer deux essais personnels et identifier une prochaine adaptation.",
+      "concepts_source": [
+        "objectif",
+        "effort",
+        "amélioration",
+        "sécurité"
+      ],
+      "archetype_candidat": "mouvement",
+      "orientation_a_verifier": "Aucune inférence de performance sans observation et consentement adaptés.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comprendre et exécuter des messages oraux courants en français.",
+      "preuve_source": "Effectuer plusieurs consignes inédites puis les reformuler.",
+      "concepts_source": [
+        "consignes",
+        "indices contextuels",
+        "compréhension"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Employer un lexique français usuel dans des phrases contextualisées.",
+      "preuve_source": "Utiliser des expressions ciblées dans un dialogue nouveau.",
+      "concepts_source": [
+        "mots fréquents",
+        "expressions",
+        "collocations"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Distinguer et produire les sons pertinents du français à un niveau intelligible.",
+      "preuve_source": "Produire un message oral intelligible après comparaison de modèles.",
+      "concepts_source": [
+        "syllabe",
+        "phonème",
+        "rythme",
+        "prosodie"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Échanger en français dans une situation quotidienne préparée.",
+      "preuve_source": "Jouer un dialogue de quatre tours avec choix de formules adaptées.",
+      "concepts_source": [
+        "salutations",
+        "question",
+        "demande",
+        "réponse"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Développer et relancer un échange oral en français au-delà des routines.",
+      "preuve_source": "Soutenir une conversation brève et demander une précision utile.",
+      "concepts_source": [
+        "tour de parole",
+        "clarification",
+        "précision"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Lire un texte français adapté et en identifier sens global et détails.",
+      "preuve_source": "Répondre à des questions sur un texte court inconnu.",
+      "concepts_source": [
+        "décodage",
+        "mots fréquents",
+        "indices"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Réinvestir en situation nouvelle des informations lues ou entendues.",
+      "preuve_source": "Préparer une consigne ou présentation à partir de deux messages.",
+      "concepts_source": [
+        "sélection",
+        "reformulation",
+        "transfert"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Écrire des phrases simples en français adaptées à une intention.",
+      "preuve_source": "Rédiger un message de plusieurs phrases intelligibles.",
+      "concepts_source": [
+        "ordre des mots",
+        "sujet-verbe",
+        "lexique"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Rédiger un court texte en français répondant à une consigne précise.",
+      "preuve_source": "Produire un texte bref avec début, information et clôture.",
+      "concepts_source": [
+        "organisation",
+        "cohérence",
+        "phrases"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-010",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Améliorer un texte en français grâce à une relecture guidée par critères.",
+      "preuve_source": "Corriger un texte court et justifier les modifications.",
+      "concepts_source": [
+        "sens",
+        "grammaire prioritaire",
+        "orthographe"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-011",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire et comparer des éléments culturels francophones situés et documentés.",
+      "preuve_source": "Présenter une référence culturelle sans généralisation abusive.",
+      "concepts_source": [
+        "pratiques",
+        "langue",
+        "diversité",
+        "contexte"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fls-012",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Mener un projet de communication orale et écrite simple en français.",
+      "preuve_source": "Produire et présenter un message cohérent pour une situation réelle.",
+      "concepts_source": [
+        "intention",
+        "audience",
+        "choix du support"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Compréhension structurée et production orale humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Segmenter, fusionner et transformer des syllabes et sons de mots entendus.",
+      "preuve_source": "Segmenter puis recomposer oralement cinq mots nouveaux.",
+      "concepts_source": [
+        "syllabe",
+        "phonème",
+        "rime",
+        "attaque et finale"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Associer les graphèmes courants aux phonèmes et effectuer la conversion dans les deux sens.",
+      "preuve_source": "Lire et écrire une série de syllabes et de mots réguliers nouveaux.",
+      "concepts_source": [
+        "lettres et groupes de lettres",
+        "sons",
+        "correspondances régulières"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décoder des mots inconnus en mobilisant les correspondances apprises.",
+      "preuve_source": "Lire à voix haute une série de mots nouveaux et expliquer la stratégie employée.",
+      "concepts_source": [
+        "assemblage phonémique",
+        "décodage",
+        "reconnaissance orthographique"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-004",
+      "statut": "source_complete_absente",
+      "source": "catalogue_Ekole_uniquement",
+      "revision_pedagogique": "impossible_sans_source",
+      "priorite": "restaurer_source"
+    },
+    {
+      "kristal_id": "qc-pri-fr-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Repérer des informations explicites et les restituer fidèlement après lecture ou écoute.",
+      "preuve_source": "Répondre à des questions littérales en citant un indice présent dans le texte.",
+      "concepts_source": [
+        "personnage",
+        "lieu",
+        "temps",
+        "faits explicites"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Déduire une information implicite en reliant indices du texte et connaissances pertinentes.",
+      "preuve_source": "Formuler deux inférences différentes appuyées chacune sur un indice.",
+      "concepts_source": [
+        "indices",
+        "inférence",
+        "justification"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Choisir une stratégie de compréhension et en vérifier les effets sur un texte.",
+      "preuve_source": "Identifier une incompréhension, appliquer une stratégie et expliquer le résultat.",
+      "concepts_source": [
+        "anticipation",
+        "clarification",
+        "questionnement",
+        "résumé"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-008",
+      "statut": "pilote_structure_a_revoir",
+      "objectif_source": "Reconstituer les éléments d’un récit et leurs liens de cause à effet.",
+      "preuve_source": "Produire un schéma narratif et justifier l’ordre des événements.",
+      "concepts_source": [
+        "situation initiale",
+        "personnages",
+        "événements",
+        "dénouement"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "pilote",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Extraire, organiser et reformuler les informations principales d’un texte documentaire.",
+      "preuve_source": "Créer une synthèse courte distinguant informations principales et secondaires.",
+      "concepts_source": [
+        "titre",
+        "sous-titres",
+        "idées principales",
+        "faits"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-010",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Exprimer une réaction argumentée à une lecture en distinguant goûts et indices textuels.",
+      "preuve_source": "Défendre une appréciation personnelle fondée sur deux éléments du texte.",
+      "concepts_source": [
+        "opinion",
+        "critères",
+        "preuves textuelles"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-011",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Déduire et expliquer le sens de mots en contexte puis réutiliser ce vocabulaire.",
+      "preuve_source": "Choisir le sens d’un mot dans deux contextes et le réutiliser justement.",
+      "concepts_source": [
+        "famille de mots",
+        "synonymie",
+        "antonymie",
+        "contexte"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-012",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Écrire correctement un ensemble ciblé de mots et expliquer une stratégie de mémorisation.",
+      "preuve_source": "Produire des mots en contexte puis corriger ses erreurs avec justification.",
+      "concepts_source": [
+        "régularités orthographiques",
+        "morphologie",
+        "mots fréquents"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-013",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier la classe grammaticale de mots selon leur fonctionnement en phrase.",
+      "preuve_source": "Classer des mots en contexte et justifier deux cas ambigus.",
+      "concepts_source": [
+        "nom",
+        "déterminant",
+        "adjectif",
+        "verbe",
+        "pronom"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-014",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Repérer des groupes de mots et expliquer leurs principales fonctions dans une phrase.",
+      "preuve_source": "Segmenter plusieurs phrases et expliciter le rôle de leurs groupes.",
+      "concepts_source": [
+        "groupe nominal",
+        "groupe verbal",
+        "fonctions"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-015",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Construire des phrases compréhensibles en organisant correctement leurs constituants.",
+      "preuve_source": "Transformer des mots désordonnés en phrases correctes et varier leur structure.",
+      "concepts_source": [
+        "sujet",
+        "prédicat",
+        "compléments",
+        "syntaxe"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-016",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Réaliser les accords à l’intérieur d’un groupe nominal et expliquer les marques utilisées.",
+      "preuve_source": "Corriger des groupes nominaux en indiquant les indices d’accord.",
+      "concepts_source": [
+        "genre",
+        "nombre",
+        "donneur et receveur"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-017",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Accorder le verbe avec son sujet dans des phrases simples puis enrichies.",
+      "preuve_source": "Repérer le sujet et justifier l’accord dans six phrases différentes.",
+      "concepts_source": [
+        "sujet",
+        "personne",
+        "nombre",
+        "verbe"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-018",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Employer les formes verbales étudiées selon la personne et la valeur temporelle.",
+      "preuve_source": "Compléter puis produire de courtes phrases aux temps ciblés.",
+      "concepts_source": [
+        "radical",
+        "terminaison",
+        "temps",
+        "personne"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-019",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Utiliser majuscules et signes de ponctuation pour segmenter et clarifier un écrit.",
+      "preuve_source": "Ponctuer un passage dépourvu de signes et motiver les choix.",
+      "concepts_source": [
+        "phrase",
+        "ponctuation forte",
+        "virgule",
+        "dialogue"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-020",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Organiser les idées d’un texte en fonction d’un destinataire et d’un but explicites.",
+      "preuve_source": "Produire un plan logique à partir d’une consigne d’écriture nouvelle.",
+      "concepts_source": [
+        "intention",
+        "destinataire",
+        "plan",
+        "idées"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-021",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Rédiger des phrases reliées en paragraphes porteurs d’une idée centrale.",
+      "preuve_source": "Rédiger deux paragraphes complets à partir d’un plan.",
+      "concepts_source": [
+        "unité du paragraphe",
+        "enchaînement",
+        "formulation"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-022",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Relier des paragraphes en maintenant le sujet et l’ordre logique du texte.",
+      "preuve_source": "Réorganiser un texte fragmenté et expliquer les liens créés.",
+      "concepts_source": [
+        "connecteurs",
+        "reprise",
+        "progression des idées"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-023",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Améliorer un texte en révisant sens, structure puis orthographe et grammaire.",
+      "preuve_source": "Annoter puis produire une version révisée avec justification de trois changements.",
+      "concepts_source": [
+        "relecture",
+        "correction",
+        "priorisation"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-024",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Reformuler les points essentiels d’une communication orale suivie.",
+      "preuve_source": "Restituer un message oral et répondre à des questions de vérification.",
+      "concepts_source": [
+        "écoute",
+        "indices sonores",
+        "reformulation"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-025",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Prendre part à un échange en écoutant, reformulant et poursuivant le propos d’autrui.",
+      "preuve_source": "Participer à une discussion guidée avec deux relances pertinentes.",
+      "concepts_source": [
+        "tour de parole",
+        "écoute active",
+        "question"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-fr-026",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Présenter une idée structurée et la défendre à l’aide de raisons audibles.",
+      "preuve_source": "Donner un court exposé suivi de réponses pertinentes à deux questions.",
+      "concepts_source": [
+        "organisation orale",
+        "argument",
+        "exemple"
+      ],
+      "archetype_candidat": "lecture_ecriture",
+      "orientation_a_verifier": "Distinguer réponses fermées, lecture interprétative et production ouverte.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ilss-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comprendre les règles et consignes scolaires indispensables.",
+      "preuve_source": "Suivre une routine nouvelle et demander une clarification adaptée.",
+      "concepts_source": [
+        "routine",
+        "horaire",
+        "aide",
+        "repère"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Respect du contexte plurilingue et du développement langagier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ilss-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Échanger des informations nécessaires à la vie de classe.",
+      "preuve_source": "Participer à un échange scolaire de plusieurs tours.",
+      "concepts_source": [
+        "demande",
+        "reformulation",
+        "prise de parole"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Respect du contexte plurilingue et du développement langagier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ilss-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Reconnaître et utiliser les mots clés des activités scolaires.",
+      "preuve_source": "Associer lexique et consignes dans une tâche scolaire nouvelle.",
+      "concepts_source": [
+        "outil",
+        "discipline",
+        "objet",
+        "action"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Respect du contexte plurilingue et du développement langagier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ilss-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comprendre des messages et documents fonctionnels du quotidien.",
+      "preuve_source": "Extraire l’information utile d’un document scolaire adapté.",
+      "concepts_source": [
+        "pictogramme",
+        "formulaire",
+        "horaire",
+        "message"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Respect du contexte plurilingue et du développement langagier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ilss-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Utiliser des stratégies de lecture adaptées à son palier de littératie.",
+      "preuve_source": "Lire un texte adapté et indiquer la stratégie utile.",
+      "concepts_source": [
+        "relation oral-écrit",
+        "décodage",
+        "sens"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Respect du contexte plurilingue et du développement langagier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ilss-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier et organiser les informations principales de documents scolaires.",
+      "preuve_source": "Restituer le sens d’un court document pédagogique.",
+      "concepts_source": [
+        "titre",
+        "consigne",
+        "idée principale",
+        "donnée"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Respect du contexte plurilingue et du développement langagier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ilss-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Écrire un message fonctionnel compréhensible pour un destinataire.",
+      "preuve_source": "Rédiger une demande ou une réponse scolaire utilisable.",
+      "concepts_source": [
+        "intention",
+        "formule",
+        "information",
+        "lisibilité"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Respect du contexte plurilingue et du développement langagier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ilss-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Produire un texte scolaire progressif avec structure compréhensible.",
+      "preuve_source": "Rédiger un texte court répondant à une consigne disciplinaire.",
+      "concepts_source": [
+        "idée principale",
+        "phrases",
+        "enchaînement"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Respect du contexte plurilingue et du développement langagier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ilss-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier les pratiques de classe et les ressources permettant d’obtenir de l’aide.",
+      "preuve_source": "Expliquer quoi faire face à un scénario scolaire fictif.",
+      "concepts_source": [
+        "règle",
+        "procédure",
+        "soutien",
+        "coopération"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Respect du contexte plurilingue et du développement langagier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ilss-010",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Participer à une activité sociale ou culturelle en utilisant les ressources du milieu.",
+      "preuve_source": "Préparer puis réaliser une participation adaptée à un contexte sûr.",
+      "concepts_source": [
+        "interaction",
+        "appartenance",
+        "initiative",
+        "respect"
+      ],
+      "archetype_candidat": "langue",
+      "orientation_a_verifier": "Respect du contexte plurilingue et du développement langagier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Associer une quantité à un dénombrement exact et en représenter les éléments.",
+      "preuve_source": "Dénombrer deux collections inédites et contrôler le résultat autrement.",
+      "concepts_source": [
+        "correspondance terme à terme",
+        "cardinalité",
+        "groupement"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Lire, écrire, ordonner et comparer des nombres naturels dans un champ adapté.",
+      "preuve_source": "Placer et comparer des nombres en expliquant le critère de comparaison.",
+      "concepts_source": [
+        "numération",
+        "ordre",
+        "symbole",
+        "comparaison"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décomposer et recomposer des nombres grâce aux valeurs de position.",
+      "preuve_source": "Décomposer un nombre de deux façons puis effectuer un regroupement inverse.",
+      "concepts_source": [
+        "unités",
+        "dizaines",
+        "centaines",
+        "base dix"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier, poursuivre et décrire une régularité numérique.",
+      "preuve_source": "Compléter une suite et expliciter une règle qui permet d’en prévoir la suite.",
+      "concepts_source": [
+        "motif",
+        "pas",
+        "règle",
+        "terme manquant"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-005",
+      "statut": "source_complete_absente",
+      "source": "catalogue_Ekole_uniquement",
+      "revision_pedagogique": "impossible_sans_source",
+      "priorite": "restaurer_source"
+    },
+    {
+      "kristal_id": "qc-pri-ma-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Modéliser l’addition et choisir une stratégie efficace pour calculer.",
+      "preuve_source": "Résoudre deux additions distinctes et expliquer la stratégie adoptée.",
+      "concepts_source": [
+        "réunion",
+        "augmentation",
+        "décomposition",
+        "somme"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Modéliser la soustraction comme retrait, différence ou complément.",
+      "preuve_source": "Résoudre un problème de différence et vérifier par addition.",
+      "concepts_source": [
+        "retrait",
+        "comparaison",
+        "relation inverse"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Représenter la multiplication comme groupes égaux et calculer des produits.",
+      "preuve_source": "Résoudre un problème de groupes égaux avec dessin et calcul.",
+      "concepts_source": [
+        "itération",
+        "tableau",
+        "propriété distributive"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-009",
+      "statut": "pilote_structure_a_revoir",
+      "objectif_source": "Représenter le partage et le groupement pour résoudre des divisions.",
+      "preuve_source": "Effectuer un partage justifié et vérifier quotient et reste.",
+      "concepts_source": [
+        "quotient",
+        "reste",
+        "partage",
+        "groupement"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "pilote",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-010",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Choisir une stratégie de calcul mental et mobiliser une propriété opératoire.",
+      "preuve_source": "Comparer deux stratégies mentales et expliquer laquelle convient le mieux.",
+      "concepts_source": [
+        "commutativité",
+        "associativité",
+        "compensation"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-011",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Exécuter, vérifier et expliquer une procédure de calcul écrit.",
+      "preuve_source": "Calculer puis détecter une erreur dans une procédure proposée.",
+      "concepts_source": [
+        "algorithme",
+        "valeur de position",
+        "contrôle inverse"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-012",
+      "statut": "pilote_structure_a_revoir",
+      "objectif_source": "Représenter une fraction comme partie d’un tout ou d’une collection.",
+      "preuve_source": "Produire trois représentations correctes d’une même fraction simple.",
+      "concepts_source": [
+        "tout",
+        "parts égales",
+        "numérateur",
+        "dénominateur"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "pilote",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-013",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Construire des fractions équivalentes et comparer des fractions de référence.",
+      "preuve_source": "Ordonner des fractions avec justification visuelle ou numérique.",
+      "concepts_source": [
+        "équivalence",
+        "dénominateur",
+        "comparaison"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-014",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Effectuer des opérations élémentaires sur les fractions en conservant leur sens.",
+      "preuve_source": "Résoudre une situation illustrée sur des fractions et vérifier le résultat.",
+      "concepts_source": [
+        "fraction unitaire",
+        "addition compatible",
+        "décomposition"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-015",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Relier les écritures décimales aux décompositions en dixièmes et centièmes.",
+      "preuve_source": "Représenter un même décimal par un dessin et une décomposition.",
+      "concepts_source": [
+        "décimal",
+        "dixième",
+        "centième",
+        "droite graduée"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-016",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comparer et calculer avec des décimaux en utilisant les valeurs de position.",
+      "preuve_source": "Résoudre deux calculs décimaux et justifier la plausibilité des réponses.",
+      "concepts_source": [
+        "alignement des rangs",
+        "décimaux",
+        "opérations"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-017",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Relier pourcentage, fraction de cent et situations proportionnelles simples.",
+      "preuve_source": "Déterminer une quantité correspondant à un pourcentage simple et la vérifier.",
+      "concepts_source": [
+        "part sur cent",
+        "ratio",
+        "tableau de proportion"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-018",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Établir et expliquer des égalités ou relations numériques correctes.",
+      "preuve_source": "Compléter des égalités ouvertes en explicitant la relation choisie.",
+      "concepts_source": [
+        "égalité",
+        "inconnue",
+        "compensation",
+        "relation"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-019",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Modéliser et résoudre une situation additive en distinguant les données utiles.",
+      "preuve_source": "Résoudre deux problèmes verbaux nouveaux et expliquer les opérations.",
+      "concepts_source": [
+        "schéma",
+        "inconnue",
+        "addition",
+        "soustraction"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-020",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Modéliser une situation multiplicative ou de partage et contrôler la solution.",
+      "preuve_source": "Construire une représentation et résoudre un problème multiplicatif inédit.",
+      "concepts_source": [
+        "groupes",
+        "proportion simple",
+        "quotient",
+        "reste"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-021",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire un trajet ou une position au moyen de repères spatiaux stables.",
+      "preuve_source": "Donner puis suivre un parcours spatial précis sans ambiguïté.",
+      "concepts_source": [
+        "orientation",
+        "coordonnées simples",
+        "déplacement"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-022",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Reconnaître et décrire des solides grâce à leurs éléments constitutifs.",
+      "preuve_source": "Associer une description à un solide et justifier à l’aide de ses propriétés.",
+      "concepts_source": [
+        "face",
+        "arête",
+        "sommet",
+        "patrons"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-023",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Classer des figures planes à partir de propriétés observables.",
+      "preuve_source": "Trier de nouvelles figures et expliquer un cas de non-appartenance.",
+      "concepts_source": [
+        "côtés",
+        "sommets",
+        "parallélisme",
+        "figure"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-024",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier et construire des angles, des droites et des symétries simples.",
+      "preuve_source": "Compléter une figure symétrique puis justifier la transformation.",
+      "concepts_source": [
+        "angle",
+        "parallélisme",
+        "perpendicularité",
+        "symétrie"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-025",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Mesurer et comparer des longueurs, masses ou capacités avec unités adaptées.",
+      "preuve_source": "Choisir l’outil et mesurer un objet réel en justifiant l’unité.",
+      "concepts_source": [
+        "grandeur",
+        "unité",
+        "instrument",
+        "étalonnage"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-026",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Lire des horaires et déterminer des durées entre deux événements.",
+      "preuve_source": "Calculer une durée et vérifier le sens du résultat dans un horaire.",
+      "concepts_source": [
+        "heure",
+        "minute",
+        "calendrier",
+        "durée"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-027",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Calculer et interpréter le périmètre d’une figure comme longueur du contour.",
+      "preuve_source": "Trouver le périmètre de deux figures et expliquer l’effet d’une modification.",
+      "concepts_source": [
+        "contour",
+        "longueur",
+        "addition",
+        "unité"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-028",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Mesurer ou calculer une aire en unités carrées adaptées.",
+      "preuve_source": "Déterminer l’aire de figures quadrillées et expliquer la méthode.",
+      "concepts_source": [
+        "surface",
+        "quadrillage",
+        "unité carrée"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-029",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Déterminer un volume par comptage ou structuration d’unités cubiques.",
+      "preuve_source": "Évaluer le volume d’un assemblage de cubes en montrant le comptage.",
+      "concepts_source": [
+        "espace occupé",
+        "cube unité",
+        "couche"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-030",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Collecter des données selon une question et produire un tableau fiable.",
+      "preuve_source": "Construire un tableau sans omission à partir d’observations brutes.",
+      "concepts_source": [
+        "catégorie",
+        "relevé",
+        "effectif",
+        "tableau"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-031",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Lire, créer et critiquer une représentation graphique de données.",
+      "preuve_source": "Produire un diagramme et repérer une interprétation incorrecte.",
+      "concepts_source": [
+        "axes",
+        "catégories",
+        "échelle",
+        "diagramme"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-032",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire des événements en termes de possibilité et de chance relative.",
+      "preuve_source": "Classer des événements et expliquer les conditions du classement.",
+      "concepts_source": [
+        "certain",
+        "impossible",
+        "probable",
+        "hasard"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-ma-033",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Communiquer un raisonnement mathématique vérifiable, au-delà du résultat.",
+      "preuve_source": "Présenter une solution cohérente et repérer l’erreur d’un autre raisonnement.",
+      "concepts_source": [
+        "justification",
+        "représentation",
+        "contrôle",
+        "conclusion"
+      ],
+      "archetype_candidat": "manipulation_numerique",
+      "orientation_a_verifier": "Explorer validation déterministe des propriétés formalisables, puis justification humaine.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-mu-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Discriminer sons et silences selon des propriétés audibles.",
+      "preuve_source": "Classer des extraits sonores selon deux critères expliqués.",
+      "concepts_source": [
+        "durée",
+        "intensité",
+        "hauteur",
+        "timbre",
+        "silence"
+      ],
+      "archetype_candidat": "musique",
+      "orientation_a_verifier": "Écoute structurée possible; exécution et interprétation à observer.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-mu-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Reproduire et créer des motifs avec pulsation et durées.",
+      "preuve_source": "Reproduire puis inventer un motif rythmique stable.",
+      "concepts_source": [
+        "pulsation",
+        "motif",
+        "rythme",
+        "mesure simple"
+      ],
+      "archetype_candidat": "musique",
+      "orientation_a_verifier": "Écoute structurée possible; exécution et interprétation à observer.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-mu-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comparer des motifs mélodiques selon les mouvements de hauteur.",
+      "preuve_source": "Chanter ou jouer un motif et décrire ses variations de hauteur.",
+      "concepts_source": [
+        "aigu",
+        "grave",
+        "intervalle",
+        "phrase"
+      ],
+      "archetype_candidat": "musique",
+      "orientation_a_verifier": "Écoute structurée possible; exécution et interprétation à observer.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-mu-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Reconnaître des timbres instrumentaux et expliquer leur différence.",
+      "preuve_source": "Identifier et comparer plusieurs sons instrumentaux.",
+      "concepts_source": [
+        "timbre",
+        "famille d’instruments",
+        "source sonore"
+      ],
+      "archetype_candidat": "musique",
+      "orientation_a_verifier": "Écoute structurée possible; exécution et interprétation à observer.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-mu-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Utiliser sa voix de façon sûre et expressive dans un motif simple.",
+      "preuve_source": "Interpréter un chant court avec diction et contrôle du souffle.",
+      "concepts_source": [
+        "respiration",
+        "articulation",
+        "hauteur",
+        "expression"
+      ],
+      "archetype_candidat": "musique",
+      "orientation_a_verifier": "Écoute structurée possible; exécution et interprétation à observer.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-mu-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Composer une courte pièce sonore selon une intention donnée.",
+      "preuve_source": "Créer et documenter une pièce courte avec structure reconnaissable.",
+      "concepts_source": [
+        "motif",
+        "variation",
+        "contraste",
+        "composition"
+      ],
+      "archetype_candidat": "musique",
+      "orientation_a_verifier": "Écoute structurée possible; exécution et interprétation à observer.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-mu-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Interpréter une pièce avec écoute mutuelle et cohérence collective.",
+      "preuve_source": "Exécuter une pièce courte puis corriger un passage problématique.",
+      "concepts_source": [
+        "mise en place",
+        "rythme",
+        "nuance",
+        "coopération"
+      ],
+      "archetype_candidat": "musique",
+      "orientation_a_verifier": "Écoute structurée possible; exécution et interprétation à observer.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-mu-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Écouter un extrait et en décrire des caractéristiques musicales observables.",
+      "preuve_source": "Présenter une analyse d’écoute justifiée par des moments précis.",
+      "concepts_source": [
+        "rythme",
+        "timbre",
+        "structure",
+        "contraste"
+      ],
+      "archetype_candidat": "musique",
+      "orientation_a_verifier": "Écoute structurée possible; exécution et interprétation à observer.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-mu-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Exprimer une appréciation musicale reliée à des indices entendus.",
+      "preuve_source": "Argumenter une appréciation en citant deux éléments auditifs.",
+      "concepts_source": [
+        "préférence",
+        "effet",
+        "élément musical",
+        "argument"
+      ],
+      "archetype_candidat": "musique",
+      "orientation_a_verifier": "Écoute structurée possible; exécution et interprétation à observer.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-001",
+      "statut": "pilote_structure_a_revoir",
+      "objectif_source": "Observer un phénomène et poser une question investigable et précise.",
+      "preuve_source": "Décrire un phénomène puis transformer une curiosité en question testable.",
+      "concepts_source": [
+        "observation",
+        "description",
+        "variable",
+        "question"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "pilote",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Formuler une prédiction motivée et concevoir un test simple et sûr.",
+      "preuve_source": "Proposer un protocole avec paramètres observables et mesures prévues.",
+      "concepts_source": [
+        "hypothèse",
+        "variable",
+        "comparaison",
+        "sécurité"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Choisir un instrument et relever des mesures traçables et reproductibles.",
+      "preuve_source": "Tenir un tableau de données sur deux essais comparables.",
+      "concepts_source": [
+        "mesure",
+        "unité",
+        "tableau",
+        "répétition"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Relier des observations à une conclusion en distinguant constat et interprétation.",
+      "preuve_source": "Présenter un résultat, son indice et une limite de la conclusion.",
+      "concepts_source": [
+        "preuve",
+        "résultat",
+        "explication",
+        "limite"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Classer des matières selon leurs propriétés et leurs états.",
+      "preuve_source": "Classer des matériaux inconnus en justifiant deux critères.",
+      "concepts_source": [
+        "solide",
+        "liquide",
+        "gaz",
+        "matériau",
+        "propriétés"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier et comparer des changements physiques observables de la matière.",
+      "preuve_source": "Comparer deux transformations et conserver une trace des observations.",
+      "concepts_source": [
+        "fusion",
+        "évaporation",
+        "mélange",
+        "réversibilité"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire l’effet d’une force sur le mouvement ou la forme d’un objet.",
+      "preuve_source": "Prédire puis observer les effets de forces différentes sur un objet.",
+      "concepts_source": [
+        "poussée",
+        "traction",
+        "friction",
+        "mouvement"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Repérer des sources d’énergie et décrire les transformations observées.",
+      "preuve_source": "Construire un schéma simple d’une chaîne énergétique observable.",
+      "concepts_source": [
+        "source",
+        "transfert",
+        "transformation",
+        "usage"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Relier des phénomènes lumineux ou sonores à leurs sources et propriétés.",
+      "preuve_source": "Démontrer une variation de lumière ou de son par une manipulation sûre.",
+      "concepts_source": [
+        "lumière",
+        "ombre",
+        "vibration",
+        "propagation"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-010",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Construire un circuit très simple et distinguer circuit fermé et ouvert.",
+      "preuve_source": "Dessiner puis vérifier le fonctionnement d’un montage à basse tension.",
+      "concepts_source": [
+        "composant",
+        "conducteur",
+        "circuit",
+        "sécurité"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-011",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier la fonction d’éléments d’un objet technique usuel.",
+      "preuve_source": "Annoter un objet démontable ou documenté et expliquer ses fonctions.",
+      "concepts_source": [
+        "besoin",
+        "fonction",
+        "mécanisme",
+        "contrainte"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-012",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Prototyper un objet répondant à un besoin avec tests et améliorations.",
+      "preuve_source": "Fabriquer un prototype et documenter une amélioration issue des essais.",
+      "concepts_source": [
+        "critères",
+        "matériau",
+        "prototype",
+        "itération"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-013",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comparer roches et sols à partir de caractéristiques observables.",
+      "preuve_source": "Établir un tableau comparatif d’échantillons sans risque.",
+      "concepts_source": [
+        "granulométrie",
+        "roche",
+        "sol",
+        "relief"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-014",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Expliquer par un schéma les principaux changements d’état et déplacements de l’eau.",
+      "preuve_source": "Construire une représentation commentée du cycle de l’eau.",
+      "concepts_source": [
+        "évaporation",
+        "condensation",
+        "précipitation",
+        "circulation"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-015",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire des phénomènes météorologiques à partir de mesures et observations.",
+      "preuve_source": "Interpréter une courte série de relevés météorologiques.",
+      "concepts_source": [
+        "température",
+        "vent",
+        "pluie",
+        "nuages"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-016",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Expliquer par un modèle simple des phénomènes Terre-Soleil-Lune.",
+      "preuve_source": "Utiliser un modèle pour expliquer un phénomène astronomique simple.",
+      "concepts_source": [
+        "jour et nuit",
+        "rotation",
+        "phase",
+        "orbite"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-017",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Classer des organismes par caractéristiques observables plutôt que par préférences.",
+      "preuve_source": "Justifier une classification de plusieurs êtres vivants.",
+      "concepts_source": [
+        "vivant",
+        "organisme",
+        "caractère",
+        "classification"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-018",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Relier besoins vitaux et fonctions d’organes ou systèmes étudiés.",
+      "preuve_source": "Construire un schéma fonctionnel simplifié d’un besoin vital.",
+      "concepts_source": [
+        "respiration",
+        "alimentation",
+        "mouvement",
+        "besoin"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-019",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comparer des étapes de cycles de vie et des adaptations à un milieu.",
+      "preuve_source": "Ordonner un cycle de vie et justifier une adaptation observable.",
+      "concepts_source": [
+        "croissance",
+        "reproduction",
+        "adaptation",
+        "cycle"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-st-020",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Représenter des interactions alimentaires et environnementales d’un habitat.",
+      "preuve_source": "Construire un réseau simple et prédire l’effet d’un changement de ressource.",
+      "concepts_source": [
+        "habitat",
+        "ressource",
+        "chaîne alimentaire",
+        "impact"
+      ],
+      "archetype_candidat": "investigation",
+      "orientation_a_verifier": "Observations structurées; raisonnement et sûreté à examiner humainement.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-001",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Positionner et ordonner des événements selon une échelle temporelle cohérente.",
+      "preuve_source": "Construire une ligne du temps et expliquer l’ordre retenu.",
+      "concepts_source": [
+        "chronologie",
+        "durée",
+        "succession",
+        "époque"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-002",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Lire une carte à l’aide de son titre, sa légende et ses repères.",
+      "preuve_source": "Localiser des lieux et justifier le parcours entre eux sur une carte.",
+      "concepts_source": [
+        "orientation",
+        "symbole",
+        "échelle simple",
+        "carte"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-003",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Caractériser un territoire par ses ressources et les usages humains observables.",
+      "preuve_source": "Produire une carte annotée reliant ressources et activités.",
+      "concepts_source": [
+        "relief",
+        "climat",
+        "ressources",
+        "occupation"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-004",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire comment une société organise ses activités et son territoire.",
+      "preuve_source": "Présenter une société avec une grille commune de comparaison.",
+      "concepts_source": [
+        "population",
+        "rôle",
+        "lieu",
+        "organisation"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-005",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Distinguer source, affirmation et interprétation dans un document historique.",
+      "preuve_source": "Comparer deux sources et relever ce qu’elles établissent réellement.",
+      "concepts_source": [
+        "document",
+        "auteur",
+        "date",
+        "point de vue"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-006",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire la diversité de sociétés autochtones sur le territoire vers 1500.",
+      "preuve_source": "Comparer deux réalités autochtones sans les confondre ni les homogénéiser.",
+      "concepts_source": [
+        "territoire",
+        "modes de vie",
+        "échanges",
+        "diversité"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-007",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire des aspects des sociétés inuites et leurs relations aux milieux nordiques.",
+      "preuve_source": "Expliquer deux relations entre environnement et activités, avec sources.",
+      "concepts_source": [
+        "territoire nordique",
+        "pratiques",
+        "adaptations",
+        "continuité"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-008",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Présenter l’organisation et des évolutions de la Nouvelle-France.",
+      "preuve_source": "Réaliser une chronologie commentée de transformations déterminées.",
+      "concepts_source": [
+        "établissement",
+        "économie",
+        "administration",
+        "population"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-009",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comparer des situations de rencontre et d’échange entre populations.",
+      "preuve_source": "Analyser une situation à partir de deux points de vue documentés.",
+      "concepts_source": [
+        "échange",
+        "alliance",
+        "conflit",
+        "perspective"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-010",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Identifier des transformations sociales et politiques sous le régime britannique.",
+      "preuve_source": "Produire une comparaison avant-après sur un aspect précis.",
+      "concepts_source": [
+        "institutions",
+        "territoires",
+        "économie",
+        "continuité"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-011",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Expliquer des conséquences de l’industrialisation sur la vie quotidienne.",
+      "preuve_source": "Relier une transformation technique à deux effets sociaux documentés.",
+      "concepts_source": [
+        "industrialisation",
+        "migration",
+        "ville",
+        "travail"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-012",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Ordonner des changements marquants du Québec au XXe siècle.",
+      "preuve_source": "Concevoir une frise thématique avec sources et liens justifiés.",
+      "concepts_source": [
+        "institutions",
+        "société",
+        "modernisation",
+        "temps"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-013",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Décrire un enjeu du Québec contemporain à partir d’informations croisées.",
+      "preuve_source": "Synthétiser un enjeu avec faits, acteurs et limites des sources.",
+      "concepts_source": [
+        "territoire",
+        "diversité",
+        "institutions",
+        "enjeux"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-014",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Comparer deux sociétés selon des critères explicites et communs.",
+      "preuve_source": "Produire un tableau comparatif avec explication des différences.",
+      "concepts_source": [
+        "territoire",
+        "activité",
+        "institution",
+        "comparaison"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-015",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Distinguer ce qui change de ce qui perdure au fil d’une période.",
+      "preuve_source": "Appuyer deux constats historiques par des éléments datés.",
+      "concepts_source": [
+        "rupture",
+        "continuité",
+        "temporalité",
+        "preuve"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    },
+    {
+      "kristal_id": "qc-pri-us-016",
+      "statut": "en_attente_de_conception_humaine",
+      "objectif_source": "Expliquer la pluralité des héritages culturels dans les sociétés étudiées.",
+      "preuve_source": "Présenter deux héritages sans les réduire à des stéréotypes.",
+      "concepts_source": [
+        "langue",
+        "pratiques",
+        "héritage",
+        "diversité"
+      ],
+      "archetype_candidat": "sources_cartes",
+      "orientation_a_verifier": "Sources et preuves historiques à contextualiser et vérifier.",
+      "source": "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "priorite": "a_prioriser_apres_audit",
+      "niveau_scolaire": "a_confirmer",
+      "revision_pedagogique": "non_approuvee"
+    }
+  ]
+}

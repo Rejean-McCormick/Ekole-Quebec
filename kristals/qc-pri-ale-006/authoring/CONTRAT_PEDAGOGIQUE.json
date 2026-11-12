@@ -1,0 +1,75 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Inférer une intention ou une information non explicite dans un texte anglais.",
+  "concepts": [
+    "text clues",
+    "inference",
+    "justification"
+  ],
+  "preuve_attendue": "Formuler deux inférences soutenues par des indices textuels.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-004"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ale-005"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-006-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Formuler deux inférences soutenues par des indices textuels.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-ale-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "récit court",
+        "dialogue",
+        "avis informatif",
+        "note de terrain fictive",
+        "lecture annotée / justification orale ou écrite"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Passages et consignes fixes originaux; aucune génération libre ni permutation automatique.",
+        "Déductions étayées par indices textuels explicitement repérables.",
+        "Deux inférences distinctes par preuve de maîtrise, dans deux genres différents.",
+        "Ne pas noter opinions ou caractéristiques personnelles; admettre plusieurs formulations justifiées."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "validité et caractère implicite",
+          "indices spécifiques",
+          "lien de justification",
+          "prudence/interprétation",
+          "autonomie et transfert"
+        ],
+        "regle_maitrise": "Deux inférences indépendantes et étayées dans chacun des deux contextes q-011 et q-012, sans guidage orientant."
+      },
+      "source": "sources/REFERENCES_CONTENU.md — passages et items originaux du microparcours",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "cours_redige_evaluations_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,307 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-006",
+  "family_id": "qc-pri-fr-006-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-006-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Quel temps faisait-il probablement dehors ? Cite un indice du texte.",
+      "stimulus": "Un manteau mouillé — Près de la porte, Eva accroche un manteau couvert de gouttes et laisse ses bottes sur le tapis.",
+      "reponse_attendue": "Il a probablement plu ou il faisait très humide dehors. Indice : « un manteau couvert de gouttes » (ou les bottes laissées sur le tapis). Ne pas inventer un orage.",
+      "criteres": [
+        "Inférence non explicitement écrite, compatible avec tout le texte.",
+        "Citation textuelle exacte et spécifique à la conclusion (pas d’indice inventé).",
+        "Lien expliqué entre indice, connaissance pertinente et hypothèse; pas de certitude excessive.",
+        "Formulation autonome; en cas de deux inférences, elles sont différentes et chacune repose sur un indice distinct."
+      ],
+      "feedback": "Si tu dis « une tempête » sans preuve, limite-toi à « probablement de la pluie ». Le manteau mouillé est un indice, pas la conclusion.",
+      "difficulte": "initial",
+      "representation": "texte narratif + réponse justifiée",
+      "indices_corrige": [
+        "un manteau couvert de gouttes"
+      ],
+      "connaissance_mobilisee": "Un vêtement extérieur se mouille fréquemment sous la pluie.",
+      "variabilite_permise": "Réponse reformulée à l’oral ou à l’écrit, sinon aucune substitution du stimulus; accepter toute inférence compatible et étayée, non des détails imaginés.",
+      "limites_variation": "Un énoncé et son corrigé sont figés. Pas de variation automatique ni génération IA libre; tout changement nécessite revue humaine des indices et des hypothèses.",
+      "accessibilite_securite": "Agrandissement/lecteur écran ou lecture humaine neutre avec modalité notée; même exigence inférence + indice; pas de données intimes ni d’images tierces.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-006-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Que vont probablement faire les personnes dans la cuisine ? Cite un indice.",
+      "stimulus": "Une soupe à servir — Dans la cuisine, Mila pose six bols sur la table. La casserole fume doucement et son frère apporte des cuillères.",
+      "reponse_attendue": "Elles vont probablement manger ou servir de la soupe, puisque « la casserole fume doucement » et « son frère apporte des cuillères ». On ne sait pas ce qu’il y a exactement dans la casserole : dire « de la soupe » demeure plausible mais moins certain que « un repas chaud ».",
+      "criteres": [
+        "Inférence non explicitement écrite, compatible avec tout le texte.",
+        "Citation textuelle exacte et spécifique à la conclusion (pas d’indice inventé).",
+        "Lien expliqué entre indice, connaissance pertinente et hypothèse; pas de certitude excessive.",
+        "Formulation autonome; en cas de deux inférences, elles sont différentes et chacune repose sur un indice distinct."
+      ],
+      "feedback": "Ne transforme pas une hypothèse en certitude sur le contenu de la casserole; « servir un repas chaud » suffit.",
+      "difficulte": "initial",
+      "representation": "texte narratif + réponse justifiée",
+      "indices_corrige": [
+        "six bols sur la table",
+        "son frère apporte des cuillères"
+      ],
+      "connaissance_mobilisee": "On prépare des bols et des cuillères pour servir et manger un plat.",
+      "variabilite_permise": "Réponse reformulée à l’oral ou à l’écrit, sinon aucune substitution du stimulus; accepter toute inférence compatible et étayée, non des détails imaginés.",
+      "limites_variation": "Un énoncé et son corrigé sont figés. Pas de variation automatique ni génération IA libre; tout changement nécessite revue humaine des indices et des hypothèses.",
+      "accessibilite_securite": "Agrandissement/lecteur écran ou lecture humaine neutre avec modalité notée; même exigence inférence + indice; pas de données intimes ni d’images tierces.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-006-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Pourquoi Rania parle-t-elle probablement moins fort ? Appuie ton idée sur les mots du panneau.",
+      "stimulus": "La lumière du corridor — Au bout du corridor, un panneau indique « Silence, examen en cours ». Rania abaisse la voix et referme la porte doucement.",
+      "reponse_attendue": "Elle veut probablement éviter de déranger les personnes qui passent un examen. Indice exact « Silence, examen en cours »; réduire sa voix évite de troubler le calme.",
+      "criteres": [
+        "Inférence non explicitement écrite, compatible avec tout le texte.",
+        "Citation textuelle exacte et spécifique à la conclusion (pas d’indice inventé).",
+        "Lien expliqué entre indice, connaissance pertinente et hypothèse; pas de certitude excessive.",
+        "Formulation autonome; en cas de deux inférences, elles sont différentes et chacune repose sur un indice distinct."
+      ],
+      "feedback": "Le texte ne dit pas que Rania est fâchée ni qu’elle passe elle-même l’examen; évite ces ajouts.",
+      "difficulte": "initial",
+      "representation": "texte narratif + réponse justifiée",
+      "indices_corrige": [
+        "Silence, examen en cours"
+      ],
+      "connaissance_mobilisee": "Un examen demande généralement de la concentration, et le bruit peut déranger.",
+      "variabilite_permise": "Réponse reformulée à l’oral ou à l’écrit, sinon aucune substitution du stimulus; accepter toute inférence compatible et étayée, non des détails imaginés.",
+      "limites_variation": "Un énoncé et son corrigé sont figés. Pas de variation automatique ni génération IA libre; tout changement nécessite revue humaine des indices et des hypothèses.",
+      "accessibilite_securite": "Agrandissement/lecteur écran ou lecture humaine neutre avec modalité notée; même exigence inférence + indice; pas de données intimes ni d’images tierces.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-006-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Que cherche Jules probablement à faire bientôt ? Donne un indice et explique-le.",
+      "stimulus": "Avant le départ — Sur le quai, Jules regarde la grande horloge puis serre son billet dans sa main. Il rejoint la file de personnes devant un autobus dont la porte vient de s’ouvrir.",
+      "reponse_attendue": "Jules va probablement monter dans l’autobus ou prendre le transport qui arrive. Indices « serre son billet », « rejoint la file » et « porte vient de s’ouvrir ». Ces gestes correspondent à l’embarquement, sans indiquer une destination précise.",
+      "criteres": [
+        "Inférence non explicitement écrite, compatible avec tout le texte.",
+        "Citation textuelle exacte et spécifique à la conclusion (pas d’indice inventé).",
+        "Lien expliqué entre indice, connaissance pertinente et hypothèse; pas de certitude excessive.",
+        "Formulation autonome; en cas de deux inférences, elles sont différentes et chacune repose sur un indice distinct."
+      ],
+      "feedback": "Une destination ou une heure de départ précise serait inventée. Explique ce que le billet suggère.",
+      "difficulte": "intermediaire",
+      "representation": "texte narratif + réponse justifiée",
+      "indices_corrige": [
+        "serre son billet",
+        "rejoint la file"
+      ],
+      "connaissance_mobilisee": "Un billet et une file devant une porte de bus servent souvent à embarquer.",
+      "variabilite_permise": "Réponse reformulée à l’oral ou à l’écrit, sinon aucune substitution du stimulus; accepter toute inférence compatible et étayée, non des détails imaginés.",
+      "limites_variation": "Un énoncé et son corrigé sont figés. Pas de variation automatique ni génération IA libre; tout changement nécessite revue humaine des indices et des hypothèses.",
+      "accessibilite_securite": "Agrandissement/lecteur écran ou lecture humaine neutre avec modalité notée; même exigence inférence + indice; pas de données intimes ni d’images tierces.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-006-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Quelle responsabilité Nina a-t-elle probablement pendant l’événement ? Justifie avec un indice précis.",
+      "stimulus": "Le spectacle du centre — Dans la salle, Nina vérifie le câble d’un micro. Elle regarde une dernière fois les fiches posées sur son pupitre, alors que les invités prennent place.",
+      "reponse_attendue": "Nina va probablement parler, présenter ou animer une partie de l’événement. Indices « vérifie le câble d’un micro » et « fiches posées sur son pupitre ». Une prestation musicale reste envisageable, mais aucun instrument n’est mentionné.",
+      "criteres": [
+        "Inférence non explicitement écrite, compatible avec tout le texte.",
+        "Citation textuelle exacte et spécifique à la conclusion (pas d’indice inventé).",
+        "Lien expliqué entre indice, connaissance pertinente et hypothèse; pas de certitude excessive.",
+        "Formulation autonome; en cas de deux inférences, elles sont différentes et chacune repose sur un indice distinct."
+      ],
+      "feedback": "Évite d’affirmer qu’elle chantera : rien n’indique un chant. Une présentation est davantage soutenue.",
+      "difficulte": "intermediaire",
+      "representation": "texte narratif + réponse justifiée",
+      "indices_corrige": [
+        "vérifie le câble d’un micro",
+        "fiches posées sur son pupitre"
+      ],
+      "connaissance_mobilisee": "Un microphone et des fiches servent à présenter un contenu devant un public.",
+      "variabilite_permise": "Réponse reformulée à l’oral ou à l’écrit, sinon aucune substitution du stimulus; accepter toute inférence compatible et étayée, non des détails imaginés.",
+      "limites_variation": "Un énoncé et son corrigé sont figés. Pas de variation automatique ni génération IA libre; tout changement nécessite revue humaine des indices et des hypothèses.",
+      "accessibilite_securite": "Agrandissement/lecteur écran ou lecture humaine neutre avec modalité notée; même exigence inférence + indice; pas de données intimes ni d’images tierces.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-006-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Que veut-il probablement faire de la tarte ? Justifie avec un indice qui n’est pas une conclusion.",
+      "stimulus": "Les pâtisseries — Dans la vitrine, la dernière tarte aux pommes est encore entière. Léon demande une boîte à l’employée et tend sa carte de paiement.",
+      "reponse_attendue": "Il veut probablement acheter la tarte, éventuellement l’emporter. Indices « demande une boîte » et « tend sa carte de paiement ». On ignore pour qui elle est achetée.",
+      "criteres": [
+        "Inférence non explicitement écrite, compatible avec tout le texte.",
+        "Citation textuelle exacte et spécifique à la conclusion (pas d’indice inventé).",
+        "Lien expliqué entre indice, connaissance pertinente et hypothèse; pas de certitude excessive.",
+        "Formulation autonome; en cas de deux inférences, elles sont différentes et chacune repose sur un indice distinct."
+      ],
+      "feedback": "N’invente pas « c’est pour son anniversaire ». Le texte permet surtout l’achat.",
+      "difficulte": "intermediaire",
+      "representation": "texte narratif + réponse justifiée",
+      "indices_corrige": [
+        "demande une boîte",
+        "tend sa carte de paiement"
+      ],
+      "connaissance_mobilisee": "Une carte de paiement et une boîte sont des signes d’achat et d’emballage.",
+      "variabilite_permise": "Réponse reformulée à l’oral ou à l’écrit, sinon aucune substitution du stimulus; accepter toute inférence compatible et étayée, non des détails imaginés.",
+      "limites_variation": "Un énoncé et son corrigé sont figés. Pas de variation automatique ni génération IA libre; tout changement nécessite revue humaine des indices et des hypothèses.",
+      "accessibilite_securite": "Agrandissement/lecteur écran ou lecture humaine neutre avec modalité notée; même exigence inférence + indice; pas de données intimes ni d’images tierces.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-006-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Formule une inférence sur Zoé et une autre sur Ilyes. Donne un indice distinct pour chacune.",
+      "stimulus": "Deux indices, deux réponses — Au club de lecture, Zoé replace les coussins autour d’une grande table. Ilyes, lui, relit des questions sur une carte et s’exerce à les prononcer à voix basse.",
+      "reponse_attendue": "Zoé prépare probablement un endroit pour accueillir un groupe : « replace les coussins autour d’une grande table ». Ilyes se prépare probablement à animer une discussion ou poser des questions : « relit des questions » et « s’exerce à les prononcer ». Deux personnes, deux intentions distinctes; pas d’âge ou de note d’examen à inventer.",
+      "criteres": [
+        "Inférence non explicitement écrite, compatible avec tout le texte.",
+        "Citation textuelle exacte et spécifique à la conclusion (pas d’indice inventé).",
+        "Lien expliqué entre indice, connaissance pertinente et hypothèse; pas de certitude excessive.",
+        "Formulation autonome; en cas de deux inférences, elles sont différentes et chacune repose sur un indice distinct."
+      ],
+      "feedback": "Si tu répètes « ils préparent le club » deux fois, précise une action différente et son propre indice pour chaque personne.",
+      "difficulte": "intermediaire",
+      "representation": "texte narratif + réponse justifiée",
+      "indices_corrige": [
+        "replace les coussins autour d’une grande table",
+        "relit des questions sur une carte"
+      ],
+      "connaissance_mobilisee": "Les coussins organisés facilitent l’accueil; relire des questions est une préparation à les poser.",
+      "variabilite_permise": "Réponse reformulée à l’oral ou à l’écrit, sinon aucune substitution du stimulus; accepter toute inférence compatible et étayée, non des détails imaginés.",
+      "limites_variation": "Un énoncé et son corrigé sont figés. Pas de variation automatique ni génération IA libre; tout changement nécessite revue humaine des indices et des hypothèses.",
+      "accessibilite_securite": "Agrandissement/lecteur écran ou lecture humaine neutre avec modalité notée; même exigence inférence + indice; pas de données intimes ni d’images tierces.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-006-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Pourquoi Nora change-t-elle probablement de direction ? Cite les mots qui justifient cette inférence.",
+      "stimulus": "Une affiche à suivre — Dans le hall d’un centre sportif, une affiche indique « Terrain fermé : entretien jusqu’à 14 h ». Au fond, un employé étend des rubans autour du terrain; Nora tourne vers la salle de jeux intérieure.",
+      "reponse_attendue": "Nora cherche probablement une autre activité ou un autre endroit parce qu’elle ne peut pas utiliser le terrain présentement. Indices « Terrain fermé : entretien jusqu’à 14 h » et « tourne vers la salle de jeux intérieure ». Dire qu’elle reviendra à 14 h est possible, mais non démontré.",
+      "criteres": [
+        "Inférence non explicitement écrite, compatible avec tout le texte.",
+        "Citation textuelle exacte et spécifique à la conclusion (pas d’indice inventé).",
+        "Lien expliqué entre indice, connaissance pertinente et hypothèse; pas de certitude excessive.",
+        "Formulation autonome; en cas de deux inférences, elles sont différentes et chacune repose sur un indice distinct."
+      ],
+      "feedback": "L’heure 14 h est un fait, mais ne suffit pas à prouver le projet futur de Nora.",
+      "difficulte": "transfert",
+      "representation": "texte narratif + réponse justifiée",
+      "indices_corrige": [
+        "Terrain fermé : entretien jusqu’à 14 h",
+        "tourne vers la salle de jeux intérieure"
+      ],
+      "connaissance_mobilisee": "Un espace signalé fermé n’est pas accessible pour l’activité prévue.",
+      "variabilite_permise": "Réponse reformulée à l’oral ou à l’écrit, sinon aucune substitution du stimulus; accepter toute inférence compatible et étayée, non des détails imaginés.",
+      "limites_variation": "Un énoncé et son corrigé sont figés. Pas de variation automatique ni génération IA libre; tout changement nécessite revue humaine des indices et des hypothèses.",
+      "accessibilite_securite": "Agrandissement/lecteur écran ou lecture humaine neutre avec modalité notée; même exigence inférence + indice; pas de données intimes ni d’images tierces.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-006-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans indice de l’adulte, formule **deux inférences différentes** : une sur le but des gestes de Rosalie et une sur ce que Sacha s’apprête probablement à faire. Pour **chacune**, recopie une expression différente du texte et explique son lien avec ta conclusion. Une réponse prudente est attendue.",
+      "stimulus": "PREUVE AUTONOME A — Un musée de quartier — Au musée du quartier, Rosalie pousse doucement un présentoir dont une roulette grince. Elle place une cale sous un pied qui bouge et vérifie si les affiches restent droites. À l’entrée, Sacha observe les visiteurs qui attendent derrière une corde, accroche une étiquette « Guide — visite de 10 h » à son chandail et ouvre un carnet de notes.",
+      "reponse_attendue": "Inférence 1 : Rosalie cherche probablement à **stabiliser le présentoir**. Indice « place une cale sous un pied qui bouge » (possible complément « vérifie si les affiches restent droites »). Une cale peut empêcher un support de bouger. Inférence 2 : Sacha va probablement **guider une visite ou accueillir un groupe**. Indice différent « Guide — visite de 10 h » et/ou « visiteurs qui attendent derrière une corde »; une étiquette de guide et des visiteurs qui attendent suggèrent le début d’une visite. Ne pas ajouter que Rosalie réparera définitivement la roulette ou que Sacha est directeur.",
+      "criteres": [
+        "Inférence non explicitement écrite, compatible avec tout le texte.",
+        "Citation textuelle exacte et spécifique à la conclusion (pas d’indice inventé).",
+        "Lien expliqué entre indice, connaissance pertinente et hypothèse; pas de certitude excessive.",
+        "Formulation autonome; en cas de deux inférences, elles sont différentes et chacune repose sur un indice distinct."
+      ],
+      "feedback": "Les deux inférences ont des fonctions différentes. Si l’élève mentionne seulement le présentoir deux fois, la deuxième preuve manque; s’il dit que Sacha est directeur, aucun indice ne l’appuie.",
+      "difficulte": "transfert",
+      "representation": "texte narratif inédit + deux réponses argumentées",
+      "indices_corrige": [
+        "place une cale sous un pied qui bouge",
+        "Guide — visite de 10 h"
+      ],
+      "connaissance_mobilisee": "Une cale peut stabiliser un présentoir; un badge de guide et des visiteurs qui attendent annoncent souvent une visite.",
+      "variabilite_permise": "Réponse reformulée à l’oral ou à l’écrit, sinon aucune substitution du stimulus; accepter toute inférence compatible et étayée, non des détails imaginés.",
+      "limites_variation": "Un énoncé et son corrigé sont figés. Pas de variation automatique ni génération IA libre; tout changement nécessite revue humaine des indices et des hypothèses.",
+      "accessibilite_securite": "Agrandissement/lecteur écran ou lecture humaine neutre avec modalité notée; même exigence inférence + indice; pas de données intimes ni d’images tierces.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "preuve_A"
+    },
+    {
+      "item_id": "qc-pri-fr-006-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans aide de fond, formule **deux inférences différentes** : une sur le besoin des jeunes pousses et une sur la raison du geste de Malik. Pour **chacune**, cite un indice textuel différent et explique le lien avec une connaissance pertinente. Ne présente pas comme certain ce que le texte n’affirme pas.",
+      "stimulus": "PREUVE AUTONOME B — Un jardin communautaire — Dans un jardin communautaire, Juliette remarque que la terre autour des jeunes pousses est pâle et craquelée. Elle touche le sol, puis remplit un arrosoir près des bacs. Devant le cabanon, Malik voit des nuages sombres approcher. Il range aussitôt sous le toit des cartons remplis de sachets de graines.",
+      "reponse_attendue": "Inférence 1 : les jeunes pousses ont **probablement besoin d’eau**, indice « terre ... pâle et craquelée » ou « remplit un arrosoir ». Une terre sèche peut conduire à l’arrosage. Inférence 2 : Malik veut probablement **protéger les sachets de graines d’une pluie qui pourrait venir**, indice distinct « voit des nuages sombres approcher » et « range aussitôt sous le toit ». Des cartons ou graines peuvent être abîmés lorsqu’ils sont mouillés; les nuages foncés annoncent possiblement la pluie mais pas avec certitude. Une autre conclusion compatible sur la protection des cartons peut être admise si justifiée.",
+      "criteres": [
+        "Inférence non explicitement écrite, compatible avec tout le texte.",
+        "Citation textuelle exacte et spécifique à la conclusion (pas d’indice inventé).",
+        "Lien expliqué entre indice, connaissance pertinente et hypothèse; pas de certitude excessive.",
+        "Formulation autonome; en cas de deux inférences, elles sont différentes et chacune repose sur un indice distinct."
+      ],
+      "feedback": "Il est excessif d’affirmer « la pluie est certaine » ou « les plantes sont mortes » : ces faits ne sont pas écrits. Conserve deux indices indépendants.",
+      "difficulte": "transfert",
+      "representation": "texte descriptif inédit + deux réponses argumentées",
+      "indices_corrige": [
+        "terre autour des jeunes pousses est pâle et craquelée",
+        "nuages sombres approcher"
+      ],
+      "connaissance_mobilisee": "Une terre visiblement sèche peut nécessiter de l’eau; un abri protège souvent du mouillage possible.",
+      "variabilite_permise": "Réponse reformulée à l’oral ou à l’écrit, sinon aucune substitution du stimulus; accepter toute inférence compatible et étayée, non des détails imaginés.",
+      "limites_variation": "Un énoncé et son corrigé sont figés. Pas de variation automatique ni génération IA libre; tout changement nécessite revue humaine des indices et des hypothèses.",
+      "accessibilite_securite": "Agrandissement/lecteur écran ou lecture humaine neutre avec modalité notée; même exigence inférence + indice; pas de données intimes ni d’images tierces.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "preuve_B"
+    }
+  ]
+}

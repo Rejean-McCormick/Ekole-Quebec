@@ -1,0 +1,73 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-017",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Accorder le verbe avec son sujet dans des phrases simples puis enrichies.",
+  "concepts": [
+    "sujet",
+    "personne",
+    "nombre",
+    "verbe"
+  ],
+  "preuve_attendue": "Repérer le sujet et justifier l’accord dans six phrases différentes.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-014"
+  ],
+  "ordre_conseille": [
+    "qc-pri-fr-013"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-017-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Repérer le sujet et justifier l’accord dans six phrases différentes.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-fr-017",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "phrases_ecrites_avec_infinitif",
+        "production_justifiee_avec_sujet_et_traits"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Présent de l’indicatif pour les verbes réguliers en -er du corpus fermé.",
+        "Chaque item fixe conserve sa phrase, son sujet, son infinitif et son corrigé; aucune paraphrase du stimulus sans nouveau contrôle.",
+        "Marques d’accord vérifiées à l’écrit; aucune inférence à partir de la seule prononciation.",
+        "Les manifestations A et B comportent chacune six phrases distinctes dans deux contextes différents et sont administrées sans indices cognitifs."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "S_sujet_complet",
+          "PN_personne_et_nombre",
+          "V_forme_graphique",
+          "J_justification_accord"
+        ],
+        "par_phrase": "Les quatre dimensions essentielles sont vérifiées; une phrase ne compte pour crit-1 que si S, PN, V et J sont présents et exacts.",
+        "decision": "Deux manifestations autonomes A et B, chacune avec six phrases différentes entièrement justifiées; aucun score isolé ne suffit."
+      },
+      "source": "production_originale_qc-pri-fr-017_et_regles_linguistiques_verifiees_sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

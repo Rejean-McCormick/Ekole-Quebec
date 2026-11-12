@@ -1,0 +1,134 @@
+{
+  "format": "ekole.activity/1",
+  "id": "paniers-de-pains",
+  "revision": 1,
+  "status": "local_demo",
+  "model": "questions",
+  "course": {
+    "id": "qc-pri-ma-008",
+    "objective": "obj-1",
+    "sha256": "sha256:84a6a43068791908193713667f5999f28df6747bd2aefc1e8ab6b8f96fe8af71"
+  },
+  "scenario": {
+    "id": "paniers-de-pains",
+    "version": "1.0.0",
+    "step": "essai",
+    "sha256": "sha256:e11041c3059316729591188e30680ce68c96bfaa85c9bc005236b50a1370babc"
+  },
+  "trame": "commande-de-pains",
+  "tasks": {
+    "pratique": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "numeric",
+          "expected": "12",
+          "tolerance": "0"
+        }
+      ]
+    },
+    "bilan": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "numeric",
+          "expected": "30",
+          "tolerance": "0"
+        },
+        {
+          "id": "expliquer",
+          "kind": "rubric",
+          "criteria": {
+            "preuve": 1
+          }
+        }
+      ]
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "review": "La justification sera lue par une personne.",
+      "title": "Des paniers de pains",
+      "objective": "Représente des groupes égaux et calcule leur total.",
+      "prerequisite": "Compter plusieurs groupes de même taille.",
+      "context": "Il y a quatre paniers. Dans chaque panier, le boulanger met trois pains.",
+      "group": "Dessine les quatre paniers.",
+      "compare": "Compare le dessin avec une addition répétée.",
+      "reflection": "Comment reconnais-tu le nombre de groupes et leur taille ?",
+      "transfer": "Pour une commande, le boulanger remplit six paniers de cinq pains.",
+      "subtitle": "Activité de découverte",
+      "heading": "Des paniers de pains",
+      "correct": "Ta réponse correspond à la situation.",
+      "incorrect": "Relis les données de la situation et compare les possibilités.",
+      "next": "Compare le dessin avec une addition répétée.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Combien y a-t-il de pains ?"
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Combien de pains faut-il pour la commande ?"
+          },
+          "expliquer": {
+            "prompt": "Donne une multiplication et explique ce que représentent ses deux facteurs.",
+            "criteria": {
+              "preuve": "La réponse relie six paniers et cinq pains par panier au produit."
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "limits": "Local demonstration activity for review before classroom use.",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "review": "Someone will review your explanation.",
+      "title": "Baskets of bread",
+      "objective": "Represent equal groups and calculate their total.",
+      "prerequisite": "Count several groups of the same size.",
+      "context": "There are four baskets. The baker puts three loaves in each basket.",
+      "group": "Draw the four baskets.",
+      "compare": "Compare the drawing with repeated addition.",
+      "reflection": "How do you tell the number of groups from their size?",
+      "transfer": "For an order, the baker fills six baskets with five loaves each.",
+      "subtitle": "Discovery activity",
+      "heading": "Baskets of bread",
+      "correct": "Your answer fits the situation.",
+      "incorrect": "Read the situation again and compare the options.",
+      "next": "Compare the drawing with repeated addition.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "How many loaves are there?"
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "How many loaves are needed for the order?"
+          },
+          "expliquer": {
+            "prompt": "Write a multiplication and explain what its two factors mean.",
+            "criteria": {
+              "preuve": "The response connects six baskets and five loaves per basket to the product."
+            }
+          }
+        }
+      }
+    }
+  }
+}

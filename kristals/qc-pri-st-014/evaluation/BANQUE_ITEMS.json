@@ -1,0 +1,287 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-014",
+  "family_id": "qc-pri-st-014-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-014-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis la flèche d’un plan d’eau vers l’air. Nomme le changement et les deux états de l’eau; précise si le gaz est directement visible.",
+      "stimulus": "Étang avec eau liquide → air contenant de la vapeur d’eau, sans source d’ébullition.",
+      "reponse_attendue": "Évaporation : l’eau passe de liquide à gaz (vapeur d’eau invisible). Le processus peut se produire sans ébullition.",
+      "criteres": [
+        "Le nom évaporation correspond à liquide→gaz.",
+        "L’état initial liquide et final gaz sont explicites.",
+        "La vapeur gazeuse est dite invisible et sans ébullition nécessaire."
+      ],
+      "feedback": "Si la réponse est « vapeur blanche », distinguer gaz invisible et fines gouttelettes visibles; si elle exige 100 °C, rappeler l’évaporation des flaques.",
+      "difficulte": "initial",
+      "representation": "Lecture d’une flèche annotée + courte explication ; support de réponse accessible et lisible, sans notation de l’esthétique ou de la motricité fine",
+      "limites_variation": "Lieu d’eau à l’air libre au choix parmi mare, étang ou lac seulement si l’état initial/final reste identique et l’énoncé est entièrement prévalidé.",
+      "securite_accessibilite": "Schéma textuel, papier, tactile ou numérique et commentaires dictés admis. Aucune manipulation chauffée, déplacement extérieur risqué ou mesure de performance graphique. Aides techniques non directives possibles avant l’essai.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-014-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète le schéma de la vapeur d’eau à une gouttelette liquide, puis explique pourquoi ce n’est pas encore la pluie.",
+      "stimulus": "Vapeur d’eau (gaz) → [processus à nommer] → petites gouttelettes en suspension dans un nuage.",
+      "reponse_attendue": "Condensation : gaz→liquide. Les petites gouttelettes peuvent constituer un nuage; précipitation signifie que de l’eau tombe et est donc une étape différente, non automatique.",
+      "criteres": [
+        "Nom condensation exact.",
+        "États gaz→liquide corrects.",
+        "Formation de gouttelettes et chute des précipitations clairement différenciées."
+      ],
+      "feedback": "Si condensation et pluie sont confondues, dessiner deux flèches distinctes, l’une formant des gouttes, l’autre les faisant tomber.",
+      "difficulte": "initial",
+      "representation": "Schéma à compléter + comparaison conceptuelle ; support de réponse accessible et lisible, sans notation de l’esthétique ou de la motricité fine",
+      "limites_variation": "Aucune variation du changement d’état; seule la présentation des mots et des symboles peut changer.",
+      "securite_accessibilite": "Schéma textuel, papier, tactile ou numérique et commentaires dictés admis. Aucune manipulation chauffée, déplacement extérieur risqué ou mesure de performance graphique. Aides techniques non directives possibles avant l’essai.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-014-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Étiquette les deux flèches et dis laquelle représente un changement d’état : A nuage→pluie sur le terrain; B terrain→ruisseau.",
+      "stimulus": "A : des gouttes tombent des nuages au sol. B : de l’eau liquide coule sur la pente jusque dans un ruisseau.",
+      "reponse_attendue": "A : précipitation (pluie liquide qui tombe, pas nécessairement changement d’état). B : ruissellement ou écoulement superficiel (liquide vers liquide), pas de changement d’état dans la situation.",
+      "criteres": [
+        "A nommé précipitation, sens vers la surface.",
+        "B nommé ruissellement/écoulement, déplacement liquide.",
+        "Pas de faux changement d’état imposé à A ou B."
+      ],
+      "feedback": "Si l’élève écrit évaporation pour A, demander la direction de la flèche; si infiltration pour B, distinguer « sur » et « dans » le sol.",
+      "difficulte": "initial",
+      "representation": "Deux flèches en contexte + justification ; support de réponse accessible et lisible, sans notation de l’esthétique ou de la motricité fine",
+      "limites_variation": "La pente et le terrain restent identiques; les schémas peuvent être tactiles, sans modification des processus.",
+      "securite_accessibilite": "Schéma textuel, papier, tactile ou numérique et commentaires dictés admis. Aucune manipulation chauffée, déplacement extérieur risqué ou mesure de performance graphique. Aides techniques non directives possibles avant l’essai.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-014-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Distingue une observation, une inférence et une façon sûre de vérifier une explication à propos de gouttes à l’extérieur d’une bouteille froide.",
+      "stimulus": "Une bouteille froide fermée est posée sur la table. Des gouttes apparaissent sur sa surface externe. Aucun liquide ne s’écoule visiblement du bouchon.",
+      "reponse_attendue": "Observation : gouttes extérieures visibles. Inférence étayée : de la vapeur d’eau de l’air s’est probablement condensée sur la paroi froide. Vérification possible : comparer à une surface similaire moins froide ou observer sans ouvrir, sans chauffe; ne pas prétendre prouver à partir de la seule vue.",
+      "criteres": [
+        "Un constat perceptible sans cause supposée est fourni.",
+        "La condensation de vapeur de l’air est l’hypothèse plausible.",
+        "Une comparaison sûre et non dangereuse est décrite comme vérification possible, pas preuve déjà faite."
+      ],
+      "feedback": "Si la cause est présentée comme un fait observé, demander « qu’as-tu vraiment vu ? »; si le verre fuit, distinguer une autre hypothèse et discuter les indices.",
+      "difficulte": "intermediaire",
+      "representation": "Texte/photographie décrite + réponse argumentée ; support de réponse accessible et lisible, sans notation de l’esthétique ou de la motricité fine",
+      "limites_variation": "Bouteille ou vitre froide déjà disponible en description uniquement; jamais d’installation chaude imposée.",
+      "securite_accessibilite": "Schéma textuel, papier, tactile ou numérique et commentaires dictés admis. Aucune manipulation chauffée, déplacement extérieur risqué ou mesure de performance graphique. Aides techniques non directives possibles avant l’essai.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-014-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète quatre étapes d’une boucle possible partant d’un lac et revenant par une rivière, puis annote deux flèches avec état initial et final.",
+      "stimulus": "Réservoirs préindiqués : lac (liquide), air (vapeur gazeuse), nuage (gouttelettes), terrain, rivière. Flèches vierges à orienter.",
+      "reponse_attendue": "Lac→air évaporation L→G; air→nuage condensation G→L; nuage→terrain précipitation (pluie); terrain→rivière ruissellement (L→L); rivière→lac écoulement (L→L). Commentaires L→G et G→L explicitent les deux transformations.",
+      "criteres": [
+        "Les cinq lieux sont reliés selon des flèches scientifiquement plausibles.",
+        "Les noms évaporation, condensation, précipitation et circulation sont aux bonnes positions.",
+        "Au moins deux flèches explicitent correctement les états."
+      ],
+      "feedback": "Si une flèche est à l’envers, nommer d’abord départ/arrivée puis vérifier les états; si le nuage est indiqué gaz visible, distinguer gouttelettes et vapeur.",
+      "difficulte": "intermediaire",
+      "representation": "Dessin à flèches / modèle textuel + commentaires ; support de réponse accessible et lisible, sans notation de l’esthétique ou de la motricité fine",
+      "limites_variation": "Aucune substitution automatique de processus; la boucle est un exemple, non le trajet universel obligatoire.",
+      "securite_accessibilite": "Schéma textuel, papier, tactile ou numérique et commentaires dictés admis. Aucune manipulation chauffée, déplacement extérieur risqué ou mesure de performance graphique. Aides techniques non directives possibles avant l’essai.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-014-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Après la pluie, représente deux déplacements différents de l’eau depuis un sol perméable et ajoute une phrase pour expliquer pourquoi ils peuvent coexister.",
+      "stimulus": "Prairie en pente avec ruisseau au bas et sol qui permet à une partie de l’eau de s’infiltrer. Source d’eau : pluie déjà tombée.",
+      "reponse_attendue": "Sol→ruisseau : ruissellement/écoulement superficiel; sol→sol en profondeur/nappe : infiltration puis circulation souterraine possible. Les deux flux peuvent répartir l’eau de pluie; elle ne disparaît pas en entrant dans le sol.",
+      "criteres": [
+        "La branche superficielle mène au ruisseau.",
+        "La branche infiltration mène au réservoir du sol ou souterrain.",
+        "Aucune disparition magique de matière ni confusion avec condensation."
+      ],
+      "feedback": "Si les deux branches pointent vers le ciel, demander l’indice « pente/sol »; si l’eau souterraine disparaît, nommer le réservoir où elle est stockée.",
+      "difficulte": "intermediaire",
+      "representation": "Schéma ramifié + phrase d’explication ; support de réponse accessible et lisible, sans notation de l’esthétique ou de la motricité fine",
+      "limites_variation": "Support de sortie libre; pas d’obligation d’affirmer le même débit ou le même temps de circulation.",
+      "securite_accessibilite": "Schéma textuel, papier, tactile ou numérique et commentaires dictés admis. Aucune manipulation chauffée, déplacement extérieur risqué ou mesure de performance graphique. Aides techniques non directives possibles avant l’essai.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-014-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère puis répare exactement trois étiquettes erronées du schéma fourni. Explique au moins une correction par les états de l’eau.",
+      "stimulus": "Schéma volontairement erroné : (1) lac liquide→vapeur gazeuse, étiquette « précipitation »; (2) vapeur→gouttelettes de nuage, étiquette « ruissellement »; (3) nuage→pluie au sol, étiquette « évaporation ».",
+      "reponse_attendue": "Corrections déterminées : (1) évaporation, L→G; (2) condensation, G→L; (3) précipitation, eau tombant du nuage. Aucune des trois étiquettes initiales n’est à conserver. Exemple de justification : le passage L→G ne correspond pas à de la pluie.",
+      "criteres": [
+        "Les trois étiquettes corrigées correspondent respectivement aux processus évaporation, condensation et précipitation.",
+        "Les flèches ne sont pas inversées ni réinterprétées.",
+        "Au moins une justification scientifiquement exacte sur les états est donnée."
+      ],
+      "feedback": "Si (2) est appelé pluie, préciser qu’une goutte se forme avant sa chute; réessayer un schéma avec autres lieux sans recopie de l’exercice.",
+      "difficulte": "intermediaire",
+      "representation": "Analyse critique d’un modèle fautif + correction ; support de réponse accessible et lisible, sans notation de l’esthétique ou de la motricité fine",
+      "limites_variation": "Schéma et trois erreurs verrouillés; aucun générateur libre de distracteurs ou de corrigés.",
+      "securite_accessibilite": "Schéma textuel, papier, tactile ou numérique et commentaires dictés admis. Aucune manipulation chauffée, déplacement extérieur risqué ou mesure de performance graphique. Aides techniques non directives possibles avant l’essai.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-014-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Un jardin reçoit de l’eau de pluie. Trace un cycle possible incluant un petit bassin, des nuages et le jardin; ajoute aussi une bifurcation vers le sol. Justifie deux flèches et les limites de ton modèle.",
+      "stimulus": "Carte fictive : petit bassin ouvert, zone de jardin perméable, un nuage et l’air entre les deux. Aucun cours d’eau réel ni expérience nécessaire.",
+      "reponse_attendue": "Chemin admis : bassin(L)→évaporation→vapeur(G)→condensation→nuage(gouttelettes)→précipitation→jardin(L). Puis jardin→infiltration→sol/nappe et/ou jardin→ruissellement→bassin. Deux commentaires expliquent L→G et l’infiltration; le dessin est une trajectoire possible, pas une prévision exhaustive.",
+      "criteres": [
+        "Cycle avec quatre processus exacts et flèches orientées.",
+        "Bifurcation infiltration cohérente et réservoir du sol identifié.",
+        "Deux commentaires et limite du modèle sont explicités."
+      ],
+      "feedback": "Si le schéma prétend que toute la pluie infiltre, demander quelles autres voies plausibles sont absentes; ne pas attribuer la même trajectoire à toute la pluie.",
+      "difficulte": "transfert",
+      "representation": "Schéma ramifié original + annotation épistémique ; support de réponse accessible et lisible, sans notation de l’esthétique ou de la motricité fine",
+      "limites_variation": "Variantes de dessin, maquette ou mots seulement; faits des processus et scène fixés.",
+      "securite_accessibilite": "Schéma textuel, papier, tactile ou numérique et commentaires dictés admis. Aucune manipulation chauffée, déplacement extérieur risqué ou mesure de performance graphique. Aides techniques non directives possibles avant l’essai.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-014-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-014-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Preuve autonome A — Zone côtière : construis SANS modèle à copier un schéma commenté qui relie lagune, atmosphère, nuages, pluie sur le littoral, rivière et estuaire. Montre évaporation, condensation, précipitation et au moins une circulation; commente deux flèches et précise que c’est un trajet possible.",
+      "stimulus": "SCENARIO-COTE-01 (fixé) : une lagune d’eau liquide borde une ville; un nuage peut donner de la pluie sur une pente où coule une rivière vers l’estuaire. Les lieux sont décrits, AUCUNE flèche ni étiquette de processus n’est fournie. Élève choisit la représentation. Deux passages de révision du schéma par l’élève sont permis sans indice de l’adulte.",
+      "reponse_attendue": "Modèle de référence non unique : lagune(L)→évaporation→vapeur(G, invisible)→condensation→gouttelettes du nuage→précipitation pluie→versant(L)→ruissellement→rivière(L)→écoulement→estuaire(L). Commentaires recevables : « évaporation L→G » et « ruissellement fait avancer de l’eau liquide sur la pente ». D’autres parcours scientifiques cohérents sont acceptés; ne pas exiger un circuit où chaque goutte revient à la lagune.",
+      "criteres": [
+        "M1 Au moins trois lieux/réservoirs pertinents, dont surface liquide, atmosphère/nuage et surface de retour.",
+        "M2 Évaporation L→G et condensation G→gouttelettes correctement représentées et nommées.",
+        "M3 Précipitation nuage→surface et circulation rivière/estuaire orientées et distinctes.",
+        "M4 Deux annotations exactes reliant au moins un changement d’état et un déplacement au modèle; une limite du trajet représenté est signalée.",
+        "M5 Schéma nouveau réalisé sans indices scientifiques durant la preuve; modalités d’accès non directives admises."
+      ],
+      "feedback": "Après l’épreuve, si M2 manque : réentrainer L/G et reprendre plus tard un autre thème; si M3 manque : repérer la chute puis l’écoulement; si M4 manque : demander d’expliquer une flèche en entraînement, sans corriger silencieusement la preuve sommative.",
+      "difficulte": "transfert",
+      "representation": "Représentation commentée autonome de bassin côtier, schéma papier/tactile/numérique ; support de réponse accessible et lisible, sans notation de l’esthétique ou de la motricité fine",
+      "limites_variation": "Scénario SCENARIO-COTE-01 immuable; aucun échange de côte avec vallée au hasard; supports d’accès adaptables; le correcteur accepte différentes géométries de flèches si mécanismes exacts.",
+      "securite_accessibilite": "Schéma textuel, papier, tactile ou numérique et commentaires dictés admis. Aucune manipulation chauffée, déplacement extérieur risqué ou mesure de performance graphique. Aides techniques non directives possibles avant l’essai.",
+      "seed": 14009,
+      "parametres": {
+        "scenario_id": "SCENARIO-COTE-01",
+        "catalogue_autorise": [
+          "SCENARIO-COTE-01"
+        ],
+        "algorithme_selection": "index = seed % 1 = 0 : sélectionner le seul scénario complet validé pour la preuve A; aucune variation sémantique",
+        "variables": {
+          "position_support": [
+            "papier",
+            "relief",
+            "numérique"
+          ],
+          "moyen_commentaire": [
+            "texte",
+            "oral transcrit",
+            "communication assistée"
+          ]
+        },
+        "contraintes": [
+          "contenu et corrigé des mécanismes inchangés",
+          "pas de génération IA libre"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "Preuve A : composition unique côtière, indépendante de B; évaluer M1–M5 séparément."
+    },
+    {
+      "item_id": "qc-pri-st-014-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-014-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Preuve autonome B — Bassin de montagne : construis une NOUVELLE représentation commentée d’une vallée montagneuse où la pluie arrive sur une forêt; une partie de l’eau coule vers un ruisseau et une autre entre dans le sol par infiltration. Relie aussi un plan d’eau, l’atmosphère et un nuage par évaporation et condensation. Commente deux flèches et explique une limite du schéma.",
+      "stimulus": "SCENARIO-MONTAGNE-01 (fixé) : forêt sur pente, terrain perméable, ruisseau, petit lac, air et nuage. L’élève choisit les positions et la structure. Aucun modèle de flèches n’est fourni, et il doit composer un schéma autre que celui de la preuve A; séance distincte recommandée.",
+      "reponse_attendue": "Modèle admissible : lac(L)→évaporation→vapeur invisible(G)→condensation→gouttelettes du nuage→précipitation pluie→forêt/sol(L), avec DEUX branches forêt→ruissellement→ruisseau→lac et forêt→infiltration→eau dans le sol/nappe. Commentaires : « la pluie est une chute, pas nécessairement un changement d’état » et « l’infiltration fait entrer l’eau dans le sol ». Des liens réalistes alternatifs sont acceptés avec justification; le lac n’est pas obligatoirement destinataire immédiat de toutes les eaux souterraines.",
+      "criteres": [
+        "M1 Lieux/réservoirs pertinents au moins surface, atmosphère/nuage et terrain/sol clairement indiqués.",
+        "M2 Évaporation liquide→gaz et condensation gaz→gouttelettes exactes.",
+        "M3 Précipitation dirigée du nuage vers la forêt, et circulation en au moins deux branches (ruissellement + infiltration) exactes.",
+        "M4 Deux commentaires explicatifs exacts et une limite de la représentation (trajectoires, stockage ou durée) sont documentés.",
+        "M5 Nouvelle production autonome indépendante de A, sans choix de flèche dicté par l’adulte, accès assisté non directif permis."
+      ],
+      "feedback": "Si la branche souterraine manque, retravailler infiltration/réservoir et réévaluer dans un autre contexte. Si l’élève reproduit mot pour mot le schéma côtier sans nouvelle composition de la vallée, la preuve de transfert B est insuffisante.",
+      "difficulte": "transfert",
+      "representation": "Représentation commentée autonome de montagne et forêt, avec branches de circulation ; support de réponse accessible et lisible, sans notation de l’esthétique ou de la motricité fine",
+      "limites_variation": "Scénario SCENARIO-MONTAGNE-01 fixe, différent de la côte; choix graphique libre; aucune substitution générative du relief ou de la réponse, et aucune nouvelle famille d’évaluation.",
+      "securite_accessibilite": "Schéma textuel, papier, tactile ou numérique et commentaires dictés admis. Aucune manipulation chauffée, déplacement extérieur risqué ou mesure de performance graphique. Aides techniques non directives possibles avant l’essai.",
+      "seed": 14010,
+      "parametres": {
+        "scenario_id": "SCENARIO-MONTAGNE-01",
+        "catalogue_autorise": [
+          "SCENARIO-MONTAGNE-01"
+        ],
+        "algorithme_selection": "index = seed % 1 = 0 : sélectionner le seul scénario complet validé pour la preuve B; aucune permutation de contexte",
+        "variables": {
+          "position_support": [
+            "papier",
+            "relief",
+            "numérique"
+          ],
+          "moyen_commentaire": [
+            "texte",
+            "oral transcrit",
+            "communication assistée"
+          ]
+        },
+        "contraintes": [
+          "deux branches exigées dans ce contexte",
+          "aucune génération IA libre"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "Preuve B : composition montagne/forêt distincte de A; décisions M1–M5 non compensatoires."
+    }
+  ]
+}

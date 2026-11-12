@@ -1,0 +1,439 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-005",
+  "family_id": "qc-pri-fr-005-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-005-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Qui accompagne Inès au jardin communautaire? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "Le mercredi 12 avril, Inès arrive au jardin communautaire avec son grand-père. Elle remplit un arrosoir bleu au robinet. Ensuite, ils arrosent les semis de radis.",
+      "reponse_attendue": "Son grand-père. Indice : « avec son grand-père ».",
+      "indice_textuel": "avec son grand-père",
+      "notion_cible": "personnage",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : Son grand-père. Indice probant : « avec son grand-père ». Si tu réponds « sa mère », ce n’est pas écrit. Relis « avec son grand-père ».",
+      "difficulte": "initial",
+      "representation": "recit_court",
+      "contexte_id": "A",
+      "role_manifestation": "preuve_A",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Où Inès arrive-t-elle? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "Le mercredi 12 avril, Inès arrive au jardin communautaire avec son grand-père. Elle remplit un arrosoir bleu au robinet. Ensuite, ils arrosent les semis de radis.",
+      "reponse_attendue": "Au jardin communautaire. Indice : « au jardin communautaire ».",
+      "indice_textuel": "au jardin communautaire",
+      "notion_cible": "lieu",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : Au jardin communautaire. Indice probant : « au jardin communautaire ». Le robinet est le lieu où elle remplit l’arrosoir; la question demande où elle arrive.",
+      "difficulte": "initial",
+      "representation": "recit_court",
+      "contexte_id": "A",
+      "role_manifestation": "preuve_A",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Quel jour et quelle date sont indiqués à son arrivée? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "Le mercredi 12 avril, Inès arrive au jardin communautaire avec son grand-père. Elle remplit un arrosoir bleu au robinet. Ensuite, ils arrosent les semis de radis.",
+      "reponse_attendue": "Le mercredi 12 avril. Indice : « Le mercredi 12 avril ».",
+      "indice_textuel": "Le mercredi 12 avril",
+      "notion_cible": "temps",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : Le mercredi 12 avril. Indice probant : « Le mercredi 12 avril ». Ne remplace pas la date écrite par une date inventée ni seulement « en avril ». ",
+      "difficulte": "intermediaire",
+      "representation": "recit_court",
+      "contexte_id": "A",
+      "role_manifestation": "preuve_A",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Quel objet Inès remplit-elle au robinet? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "Le mercredi 12 avril, Inès arrive au jardin communautaire avec son grand-père. Elle remplit un arrosoir bleu au robinet. Ensuite, ils arrosent les semis de radis.",
+      "reponse_attendue": "Un arrosoir bleu. Indice : « un arrosoir bleu ».",
+      "indice_textuel": "un arrosoir bleu",
+      "notion_cible": "fait explicite",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : Un arrosoir bleu. Indice probant : « un arrosoir bleu ». Les semis de radis sont arrosés ensuite; c’est un arrosoir bleu qu’Inès remplit.",
+      "difficulte": "intermediaire",
+      "representation": "recit_court",
+      "contexte_id": "A",
+      "role_manifestation": "preuve_A",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Qui accueillera le groupe? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "AVIS À LA CLASSE. Le mardi 9 mai, M. Bouchard accueillera le groupe à 13 h 30 dans la salle polyvalente. Les élèves apporteront un cahier bleu pour l’atelier de dessin.",
+      "reponse_attendue": "M. Bouchard. Indice : « M. Bouchard accueillera le groupe ».",
+      "indice_textuel": "M. Bouchard accueillera le groupe",
+      "notion_cible": "personnage",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : M. Bouchard. Indice probant : « M. Bouchard accueillera le groupe ». Le texte nomme M. Bouchard, pas une personne que l’on pourrait imaginer.",
+      "difficulte": "initial",
+      "representation": "avis_fonctionnel",
+      "contexte_id": "B",
+      "role_manifestation": "preuve_B",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "À quelle heure M. Bouchard accueillera-t-il le groupe? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "AVIS À LA CLASSE. Le mardi 9 mai, M. Bouchard accueillera le groupe à 13 h 30 dans la salle polyvalente. Les élèves apporteront un cahier bleu pour l’atelier de dessin.",
+      "reponse_attendue": "À 13 h 30. Indice : « à 13 h 30 ».",
+      "indice_textuel": "à 13 h 30",
+      "notion_cible": "temps",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : À 13 h 30. Indice probant : « à 13 h 30 ». La question demande une heure, pas simplement le mardi.",
+      "difficulte": "intermediaire",
+      "representation": "avis_fonctionnel",
+      "contexte_id": "B",
+      "role_manifestation": "preuve_B",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans quel lieu le groupe sera-t-il accueilli? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "AVIS À LA CLASSE. Le mardi 9 mai, M. Bouchard accueillera le groupe à 13 h 30 dans la salle polyvalente. Les élèves apporteront un cahier bleu pour l’atelier de dessin.",
+      "reponse_attendue": "Dans la salle polyvalente. Indice : « dans la salle polyvalente ».",
+      "indice_textuel": "dans la salle polyvalente",
+      "notion_cible": "lieu",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : Dans la salle polyvalente. Indice probant : « dans la salle polyvalente ». « À la classe » est un titre d’avis, et non le lieu : cite « dans la salle polyvalente ».",
+      "difficulte": "intermediaire",
+      "representation": "avis_fonctionnel",
+      "contexte_id": "B",
+      "role_manifestation": "preuve_B",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Quel objet les élèves apporteront-ils? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "AVIS À LA CLASSE. Le mardi 9 mai, M. Bouchard accueillera le groupe à 13 h 30 dans la salle polyvalente. Les élèves apporteront un cahier bleu pour l’atelier de dessin.",
+      "reponse_attendue": "Un cahier bleu. Indice : « un cahier bleu ».",
+      "indice_textuel": "un cahier bleu",
+      "notion_cible": "fait explicite",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : Un cahier bleu. Indice probant : « un cahier bleu ». Le texte demande un cahier bleu et ne mentionne ni crayons ni peinture à apporter.",
+      "difficulte": "transfert",
+      "representation": "avis_fonctionnel",
+      "contexte_id": "B",
+      "role_manifestation": "preuve_B",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Qui place les trois coussins? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "Consigne pour le coin lecture. Vendredi matin, Zoé place trois coussins verts dans le coin lecture de la classe. Malik installe ensuite les albums sur l’étagère basse.",
+      "reponse_attendue": "Zoé. Indice : « Zoé place trois coussins verts ».",
+      "indice_textuel": "Zoé place trois coussins verts",
+      "notion_cible": "personnage",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : Zoé. Indice probant : « Zoé place trois coussins verts ». C’est Zoé qui place les coussins; Malik installe les albums.",
+      "difficulte": "initial",
+      "representation": "consigne_descriptive",
+      "contexte_id": "C",
+      "role_manifestation": "controle_C",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Quand Zoé place-t-elle les coussins? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "Consigne pour le coin lecture. Vendredi matin, Zoé place trois coussins verts dans le coin lecture de la classe. Malik installe ensuite les albums sur l’étagère basse.",
+      "reponse_attendue": "Vendredi matin. Indice : « Vendredi matin ».",
+      "indice_textuel": "Vendredi matin",
+      "notion_cible": "temps",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : Vendredi matin. Indice probant : « Vendredi matin ». Aucune heure exacte n’est donnée; garde « vendredi matin ».",
+      "difficulte": "intermediaire",
+      "representation": "consigne_descriptive",
+      "contexte_id": "C",
+      "role_manifestation": "controle_C",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Où Zoé place-t-elle les coussins? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "Consigne pour le coin lecture. Vendredi matin, Zoé place trois coussins verts dans le coin lecture de la classe. Malik installe ensuite les albums sur l’étagère basse.",
+      "reponse_attendue": "Dans le coin lecture de la classe. Indice : « dans le coin lecture de la classe ».",
+      "indice_textuel": "dans le coin lecture de la classe",
+      "notion_cible": "lieu",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : Dans le coin lecture de la classe. Indice probant : « dans le coin lecture de la classe ». L’étagère basse concerne l’action de Malik, pas l’endroit des coussins.",
+      "difficulte": "intermediaire",
+      "representation": "consigne_descriptive",
+      "contexte_id": "C",
+      "role_manifestation": "controle_C",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-005-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Que fait Malik après que Zoé a placé les coussins? Réponds puis cite les mots exacts du texte qui prouvent ta réponse.",
+      "stimulus": "Consigne pour le coin lecture. Vendredi matin, Zoé place trois coussins verts dans le coin lecture de la classe. Malik installe ensuite les albums sur l’étagère basse.",
+      "reponse_attendue": "Il installe les albums sur l’étagère basse. Indice : « Malik installe ensuite les albums sur l’étagère basse ».",
+      "indice_textuel": "Malik installe ensuite les albums sur l’étagère basse",
+      "notion_cible": "fait explicite",
+      "criteres": [
+        "E=1 : réponse exacte au sens du stimulus, sans fait ajouté ni déformation.",
+        "I=1 : citation fidèle présente dans le stimulus et prouvant directement la réponse.",
+        "A=oui : réponse et indice fournis sans aide ciblant leur emplacement; lecture intégrale neutre et scribe verbatim possibles."
+      ],
+      "feedback": "Réponse attendue : Il installe les albums sur l’étagère basse. Indice probant : « Malik installe ensuite les albums sur l’étagère basse ». Ne lui attribue pas les coussins : le texte dit qu’il installe les albums sur l’étagère basse.",
+      "difficulte": "transfert",
+      "representation": "consigne_descriptive",
+      "contexte_id": "C",
+      "role_manifestation": "controle_C",
+      "rubrique_item": {
+        "exactitude": 1,
+        "indice_probant": 1,
+        "autonomie": "requis pour preuve; noté séparément"
+      },
+      "variations_permises": [
+        "Réponse reformulée fidèlement sans altérer la donnée demandée.",
+        "Citation plus longue comprenant les mots de l'indice; réponse orale ou écrite.",
+        "Lecture intégrale et neutre du même stimulus, sans marquage ciblé."
+      ],
+      "limites_variation": "Ne pas modifier stimulus, question, moment, lieu, acteur, quantité ou clé de correction; une variante textuelle exige un nouvel item contrôlé.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

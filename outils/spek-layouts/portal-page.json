@@ -1,0 +1,12 @@
+{
+  "format": "kristal.editorial-layout/0.1",
+  "id": "portal-page",
+  "version": "1.0.0",
+  "intent": "present_explicit_school_portal_information",
+  "audience": "general_or_educational",
+  "slots": {
+    "lead": {"allowed_kinds": ["context"], "min": 1, "max": 1},
+    "information": {"allowed_kinds": ["information"], "min": 0, "max": 12},
+    "limits": {"allowed_kinds": ["qualification"], "min": 1, "max": 2}
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-010",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Exprimer une réaction argumentée à une lecture en distinguant goûts et indices textuels.",
+  "concepts": [
+    "opinion",
+    "critères",
+    "preuves textuelles"
+  ],
+  "preuve_attendue": "Défendre une appréciation personnelle fondée sur deux éléments du texte.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-008"
+  ],
+  "ordre_conseille": [
+    "qc-pri-fr-009"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-010-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Défendre une appréciation personnelle fondée sur deux éléments du texte.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_execute": "fixe",
+        "aucune_generation_ia_libre": true,
+        "seed_non_utilise_pour_mode_fixe": null,
+        "validation_humaine_obligatoire": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-fr-010",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Défendre une appréciation personnelle fondée sur deux éléments du texte.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "récit bref",
+        "information pratique",
+        "annonce communautaire",
+        "note d’observation"
+      ],
+      "variables": {
+        "mode": "aucun_tirage_automatique",
+        "corpus_ferme_ids": [
+          "qc-pri-fr-010-q-001",
+          "qc-pri-fr-010-q-002",
+          "qc-pri-fr-010-q-003",
+          "qc-pri-fr-010-q-004",
+          "qc-pri-fr-010-q-005",
+          "qc-pri-fr-010-q-006",
+          "qc-pri-fr-010-q-007",
+          "qc-pri-fr-010-q-008"
+        ],
+        "variation_de_formulation_de_reponse": "libre_sous_grille"
+      },
+      "contraintes": [
+        "stimulus fixé sans réécriture aléatoire",
+        "avis libre; deux éléments distincts et fidèles",
+        "deux liens expliqués",
+        "lecture ou écoute fidèle accessibles",
+        "pas de notation de la préférence",
+        "aucune substitution de stimulus sans revue humaine"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "A-opinion_et_critere",
+          "B-deux_preuves_fideles_distinctes",
+          "C-deux_liens_expliques",
+          "D-autonomie_documentee"
+        ],
+        "regle_maitrise": "A=B=C=2 dans deux contextes distincts, au moins une production D=2; pas de score unique"
+      },
+      "source": "sources/REFERENCES_CONTENU.md — stimuli et rubriques originaux; sources internes v1.2 documentées",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

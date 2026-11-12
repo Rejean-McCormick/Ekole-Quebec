@@ -1,0 +1,3623 @@
+{
+  "format": "ekole.quality-audit/1.0",
+  "avertissement": "Validation technique seulement. Aucune habilitation, maîtrise, ni homologation confirmée.",
+  "statistiques": {
+    "cours": 202,
+    "cours_avec_outil": 25,
+    "cours_sans_outil": 177,
+    "defis_catalogue": 51,
+    "defis_lies": 35,
+    "moteurs": 14,
+    "par_annee": {
+      "1": {
+        "total": 39,
+        "avec_outil": 2
+      },
+      "2": {
+        "total": 37,
+        "avec_outil": 4
+      },
+      "3": {
+        "total": 36,
+        "avec_outil": 8
+      },
+      "4": {
+        "total": 37,
+        "avec_outil": 6
+      },
+      "5": {
+        "total": 32,
+        "avec_outil": 3
+      },
+      "6": {
+        "total": 21,
+        "avec_outil": 2
+      }
+    }
+  },
+  "cours": [
+    {
+      "id": "qc-pri-ad-001",
+      "titre": "Explorer corps, voix et espace scénique",
+      "discipline": "Art dramatique",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Utiliser corps, voix et espace pour exprimer une intention théâtrale.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ad-002",
+      "titre": "Découvrir personnages et situations dramatiques",
+      "discipline": "Art dramatique",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Caractériser un personnage et une situation de jeu dramatique.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ad-007",
+      "titre": "Observer une œuvre ou une représentation théâtrale",
+      "discipline": "Art dramatique",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire ce qui se passe dans une représentation théâtrale.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-001",
+      "titre": "Conscience phonologique en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Segmenter et manipuler syllabes et phonèmes de mots anglais oraux.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-008",
+      "titre": "Vocabulaire et morphologie anglaise",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Déduire le sens de mots anglais en utilisant contexte et morphologie.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-013",
+      "titre": "Écouter et comprendre des échanges",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Écouter un échange anglais et en restituer les idées essentielles.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-001",
+      "titre": "Comprendre des consignes et des messages oraux",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Exécuter et reformuler des consignes orales courantes en anglais.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-002",
+      "titre": "Reconnaître et utiliser le vocabulaire quotidien",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Employer un lexique anglais ciblé dans des échanges authentiques.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-003",
+      "titre": "Comprendre chansons, comptines et histoires entendues",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier le sens global et quelques détails d’un texte oral rythmé.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-004",
+      "titre": "Prononciation et rythme de l’anglais",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Produire de manière intelligible des sons, accents et rythmes élémentaires.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-007",
+      "titre": "Comprendre des textes écrits adaptés",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Extraire le sens d’un court texte écrit anglais adapté.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ap-001",
+      "titre": "Observer formes, lignes, couleurs et textures",
+      "discipline": "Arts plastiques",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier et décrire des éléments visuels dans des images et objets.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ap-002",
+      "titre": "Expérimenter les gestes et techniques plastiques",
+      "discipline": "Arts plastiques",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Expérimenter des gestes, supports et procédés plastiques de façon sûre.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-001",
+      "titre": "Conscience de soi et construction identitaire",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire des éléments de l’identité et expliquer leur diversité dans la société.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-002",
+      "titre": "Relations entre humains",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comparer des façons de vivre les relations et les responsabilités partagées.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-003",
+      "titre": "Quête de sens",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Explorer plusieurs réponses possibles à une question de sens.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-004",
+      "titre": "Relations entre humains et environnement",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Analyser une situation où des choix humains touchent l’environnement.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-005",
+      "titre": "Médias et vie numérique",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Distinguer informations, opinions et influences dans des contenus médiatiques.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-006",
+      "titre": "Observer et décrire des réalités culturelles",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire une réalité culturelle à partir d’éléments observables et contextualisés.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-008",
+      "titre": "Dialoguer et écouter avec respect",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Conduire un échange avec écoute active, questions ouvertes et respect.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-010",
+      "titre": "Éducation à la sexualité : contenus prescrits et adaptés à l’âge",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Reconnaître les limites personnelles, le respect et les règles de sécurité dans des situations adaptées à l’âge.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-011",
+      "titre": "Réalités et perspectives des Premiers Peuples",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Présenter de manière respectueuse différentes perspectives de Premiers Peuples.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-da-001",
+      "titre": "Explorer le corps et le mouvement",
+      "discipline": "Danse",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Explorer les possibilités de mouvements du corps en sécurité.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-da-007",
+      "titre": "Observer des œuvres chorégraphiques",
+      "discipline": "Danse",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Observer et décrire les choix de mouvement dans une œuvre dansée.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-001",
+      "titre": "Conscience corporelle et schéma corporel",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier ses segments corporels et coordonner un mouvement simple.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-002",
+      "titre": "Locomotion et déplacements",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Adapter marche, course, saut ou déplacement à un espace et une consigne.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-003",
+      "titre": "Équilibre et coordination",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Maintenir ou retrouver l’équilibre lors d’actions motrices de difficulté graduée.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-004",
+      "titre": "Manipulation d’objets et habiletés motrices",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Contrôler un objet en lançant, recevant, frappant ou conduisant selon le contexte.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-008",
+      "titre": "Sécurité et prévention des blessures",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Reconnaître une situation à risque et appliquer les consignes de prévention.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-010",
+      "titre": "Habitudes de vie actives",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Planifier des occasions d’activité physique variées et réalistes.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-011",
+      "titre": "Santé, repos, hygiène et bien-être",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Reconnaître les pratiques quotidiennes qui soutiennent santé et bien-être.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-001",
+      "titre": "Comprendre des messages oraux en français",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comprendre et exécuter des messages oraux courants en français.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-002",
+      "titre": "Vocabulaire et expressions usuelles en français",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Employer un lexique français usuel dans des phrases contextualisées.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-003",
+      "titre": "Prononciation et conscience des sons du français",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Distinguer et produire les sons pertinents du français à un niveau intelligible.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-011",
+      "titre": "Découvrir et interpréter des références culturelles francophones",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire et comparer des éléments culturels francophones situés et documentés.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-001",
+      "titre": "Conscience phonologique et syllabes",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Segmenter, fusionner et transformer des syllabes et sons de mots entendus.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-005",
+      "titre": "Compréhension littérale de textes",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Repérer des informations explicites et les restituer fidèlement après lecture ou écoute.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-007",
+      "titre": "Stratégies de compréhension et d’autorégulation",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Choisir une stratégie de compréhension et en vérifier les effets sur un texte.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-011",
+      "titre": "Sens des mots et relations lexicales",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Déduire et expliquer le sens de mots en contexte puis réutiliser ce vocabulaire.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-012",
+      "titre": "Orthographe d’usage",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Écrire correctement un ensemble ciblé de mots et expliquer une stratégie de mémorisation.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-013",
+      "titre": "Classes de mots",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier la classe grammaticale de mots selon leur fonctionnement en phrase.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-015",
+      "titre": "Construction des phrases",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Construire des phrases compréhensibles en organisant correctement leurs constituants.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-020",
+      "titre": "Planifier un texte",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Organiser les idées d’un texte en fonction d’un destinataire et d’un but explicites.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-024",
+      "titre": "Comprendre des communications orales",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Reformuler les points essentiels d’une communication orale suivie.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ilss-001",
+      "titre": "Comprendre les routines et consignes scolaires",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comprendre les règles et consignes scolaires indispensables.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ilss-003",
+      "titre": "Développer le vocabulaire scolaire essentiel",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Reconnaître et utiliser les mots clés des activités scolaires.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ilss-009",
+      "titre": "Connaître les codes et pratiques de la vie scolaire",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier les pratiques de classe et les ressources permettant d’obtenir de l’aide.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-001",
+      "titre": "Dénombrer et représenter des collections",
+      "discipline": "Mathématique",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Associer une quantité à un dénombrement exact et en représenter les éléments.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "jetons"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-001\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-004",
+      "titre": "Suites et régularités numériques",
+      "discipline": "Mathématique",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier, poursuivre et décrire une régularité numérique.",
+      "moteurs_a_etudier": [
+        "probleme"
+      ],
+      "prochaine_action": "Définir la manipulation et sa preuve distincte du résultat.",
+      "nombre_activites": 1,
+      "types": [
+        "suite"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-004\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-012",
+      "titre": "Fractions : représentations et sens",
+      "discipline": "Mathématique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Représenter une fraction comme partie d’un tout ou d’une collection.",
+      "moteurs_a_etudier": [
+        "fraction",
+        "equivalence"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 2,
+      "types": [
+        "fraction"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-012\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-018",
+      "titre": "Relations et égalités numériques",
+      "discipline": "Mathématique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Établir et expliquer des égalités ou relations numériques correctes.",
+      "moteurs_a_etudier": [
+        "probleme"
+      ],
+      "prochaine_action": "Définir la manipulation et sa preuve distincte du résultat.",
+      "nombre_activites": 2,
+      "types": [
+        "position",
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-018\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-021",
+      "titre": "Positions, déplacements et repérage",
+      "discipline": "Mathématique",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire un trajet ou une position au moyen de repères spatiaux stables.",
+      "moteurs_a_etudier": [
+        "probleme"
+      ],
+      "prochaine_action": "Définir la manipulation et sa preuve distincte du résultat.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-022",
+      "titre": "Solides et représentations spatiales",
+      "discipline": "Mathématique",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Reconnaître et décrire des solides grâce à leurs éléments constitutifs.",
+      "moteurs_a_etudier": [
+        "probleme"
+      ],
+      "prochaine_action": "Définir la manipulation et sa preuve distincte du résultat.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-023",
+      "titre": "Figures planes et propriétés",
+      "discipline": "Mathématique",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Classer des figures planes à partir de propriétés observables.",
+      "moteurs_a_etudier": [
+        "grille",
+        "classer"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-025",
+      "titre": "Longueurs, masses et capacités",
+      "discipline": "Mathématique",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Mesurer et comparer des longueurs, masses ou capacités avec unités adaptées.",
+      "moteurs_a_etudier": [
+        "probleme"
+      ],
+      "prochaine_action": "Définir la manipulation et sa preuve distincte du résultat.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-026",
+      "titre": "Temps et durées",
+      "discipline": "Mathématique",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Lire des horaires et déterminer des durées entre deux événements.",
+      "moteurs_a_etudier": [
+        "duree"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 2,
+      "types": [
+        "duree"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-026\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-030",
+      "titre": "Collecter et organiser des données",
+      "discipline": "Mathématique",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Collecter des données selon une question et produire un tableau fiable.",
+      "moteurs_a_etudier": [
+        "diagramme",
+        "classer"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "diagramme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-030\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-032",
+      "titre": "Probabilités et événements aléatoires",
+      "discipline": "Mathématique",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire des événements en termes de possibilité et de chance relative.",
+      "moteurs_a_etudier": [
+        "probleme"
+      ],
+      "prochaine_action": "Définir la manipulation et sa preuve distincte du résultat.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "cours-references\\qc-pri-ma-032\\OUTILS_INTERACTIFS_V14_CANDIDATS.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-033",
+      "titre": "Justifier et communiquer une démarche mathématique",
+      "discipline": "Mathématique",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Communiquer un raisonnement mathématique vérifiable, au-delà du résultat.",
+      "moteurs_a_etudier": [
+        "probleme"
+      ],
+      "prochaine_action": "Définir la manipulation et sa preuve distincte du résultat.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-mu-001",
+      "titre": "Percevoir les sons, leurs qualités et les silences",
+      "discipline": "Musique",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Discriminer sons et silences selon des propriétés audibles.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-001",
+      "titre": "Observer et formuler des questions scientifiques",
+      "discipline": "Science et technologie",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Observer un phénomène et poser une question investigable et précise.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-005",
+      "titre": "Propriétés et états de la matière",
+      "discipline": "Science et technologie",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Classer des matières selon leurs propriétés et leurs états.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-007",
+      "titre": "Forces et mouvement",
+      "discipline": "Science et technologie",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire l’effet d’une force sur le mouvement ou la forme d’un objet.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-008",
+      "titre": "Énergie et transformations énergétiques",
+      "discipline": "Science et technologie",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Repérer des sources d’énergie et décrire les transformations observées.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-009",
+      "titre": "Lumière et son",
+      "discipline": "Science et technologie",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Relier des phénomènes lumineux ou sonores à leurs sources et propriétés.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-011",
+      "titre": "Objets techniques, mécanismes et fonctions",
+      "discipline": "Science et technologie",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier la fonction d’éléments d’un objet technique usuel.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-013",
+      "titre": "Roches, sols et relief",
+      "discipline": "Science et technologie",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comparer roches et sols à partir de caractéristiques observables.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-015",
+      "titre": "Atmosphère et phénomènes météorologiques",
+      "discipline": "Science et technologie",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire des phénomènes météorologiques à partir de mesures et observations.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-016",
+      "titre": "Terre, Soleil, Lune et système solaire",
+      "discipline": "Science et technologie",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Expliquer par un modèle simple des phénomènes Terre-Soleil-Lune.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-017",
+      "titre": "Caractéristiques et classification du vivant",
+      "discipline": "Science et technologie",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Classer des organismes par caractéristiques observables plutôt que par préférences.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-018",
+      "titre": "Corps humain et besoins vitaux",
+      "discipline": "Science et technologie",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Relier besoins vitaux et fonctions d’organes ou systèmes étudiés.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-001",
+      "titre": "Se repérer dans le temps et construire une chronologie",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Positionner et ordonner des événements selon une échelle temporelle cohérente.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-002",
+      "titre": "Lire des cartes et se repérer dans l’espace",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Lire une carte à l’aide de son titre, sa légende et ses repères.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-003",
+      "titre": "Caractériser un territoire et ses ressources",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Caractériser un territoire par ses ressources et les usages humains observables.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-005",
+      "titre": "Utiliser et comparer des sources historiques",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Distinguer source, affirmation et interprétation dans un document historique.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-006",
+      "titre": "Sociétés autochtones du territoire vers 1500",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire la diversité de sociétés autochtones sur le territoire vers 1500.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-007",
+      "titre": "Sociétés inuites et milieux nordiques",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire des aspects des sociétés inuites et leurs relations aux milieux nordiques.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-009",
+      "titre": "Rencontres et échanges entre populations",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comparer des situations de rencontre et d’échange entre populations.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 3,
+      "types": [
+        "associer",
+        "classer"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-us-009\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-016",
+      "titre": "Diversité culturelle et héritages des sociétés",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Expliquer la pluralité des héritages culturels dans les sociétés étudiées.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ad-003",
+      "titre": "Improviser en interaction",
+      "discipline": "Art dramatique",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Improviser une interaction en respectant les propositions des partenaires.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ad-006",
+      "titre": "Interpréter un rôle",
+      "discipline": "Art dramatique",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Interpréter un rôle en maintenant une intention et une relation de jeu.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ad-008",
+      "titre": "Apprécier une représentation et argumenter",
+      "discipline": "Art dramatique",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Apprécier une représentation à partir de critères observables.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-002",
+      "titre": "Phonics et décodage",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Appliquer des correspondances lettres-sons anglaises au décodage.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-010",
+      "titre": "Construire des phrases en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Construire des phrases anglaises variées et grammaticalement compréhensibles.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-014",
+      "titre": "Parler, interagir et présenter à l’oral",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Participer à un échange oral puis présenter une idée argumentée en anglais.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-005",
+      "titre": "Interagir par formules et questions simples",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Poser et répondre à des questions simples en interaction.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-008",
+      "titre": "Stratégies de lecture et d’écoute en anglais",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Choisir une stratégie adaptée pour comprendre un message anglais.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-009",
+      "titre": "Réinvestir le contenu de textes lus ou entendus",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Réemployer à l’oral ou à l’écrit des informations comprises dans un message.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-010",
+      "titre": "Produire de courts textes en anglais",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Rédiger un texte anglais bref, intelligible et adapté à une consigne.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ap-003",
+      "titre": "Composer dans l’espace et sur un support",
+      "discipline": "Arts plastiques",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Organiser des éléments visuels en une composition intentionnelle.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ap-004",
+      "titre": "Choisir des matériaux et procédés de création",
+      "discipline": "Arts plastiques",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Choisir matériaux et procédés en fonction d’une intention créative.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ap-007",
+      "titre": "Analyser les éléments d’une œuvre visuelle",
+      "discipline": "Arts plastiques",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire l’organisation et les moyens expressifs d’une œuvre visuelle.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-007",
+      "titre": "Comparer les réalités culturelles et les points de vue",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comparer des perspectives culturelles sans généralisation abusive.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ccq-009",
+      "titre": "Réfléchir de façon critique et éthique",
+      "discipline": "Culture et citoyenneté québécoise",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Examiner un choix et argumenter à partir de conséquences et de principes.",
+      "moteurs_a_etudier": [
+        "associer",
+        "classer"
+      ],
+      "prochaine_action": "Valider les significations et les perspectives; ne pas scorer une opinion.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-da-002",
+      "titre": "Explorer espace, temps et énergie en mouvement",
+      "discipline": "Danse",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Faire varier espace, temps et énergie dans un même motif dansé.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-da-005",
+      "titre": "Improviser seul ou en groupe",
+      "discipline": "Danse",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Improviser un mouvement en respectant une contrainte expressive.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-da-008",
+      "titre": "Apprécier et comparer des œuvres chorégraphiques",
+      "discipline": "Danse",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comparer deux propositions chorégraphiques à partir de critères explicites.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-005",
+      "titre": "Actions et enchaînements moteurs",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Assembler plusieurs habiletés motrices en une séquence contrôlée.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-006",
+      "titre": "Jeux coopératifs et opposition",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Jouer selon des règles partagées en coopérant et en gérant l’opposition.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-009",
+      "titre": "Condition physique et effort",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Réguler son effort en fonction d’une activité et des signes corporels usuels.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-004",
+      "titre": "Interagir dans des situations familières en français",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Échanger en français dans une situation quotidienne préparée.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-006",
+      "titre": "Lire et comprendre des textes adaptés en français",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Lire un texte français adapté et en identifier sens global et détails.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-007",
+      "titre": "Réinvestir des informations lues et entendues",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Réinvestir en situation nouvelle des informations lues ou entendues.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-008",
+      "titre": "Construire et écrire des phrases en français",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Écrire des phrases simples en français adaptées à une intention.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-002",
+      "titre": "Correspondances graphèmes-phonèmes",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Associer les graphèmes courants aux phonèmes et effectuer la conversion dans les deux sens.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-006",
+      "titre": "Inférences en lecture",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Déduire une information implicite en reliant indices du texte et connaissances pertinentes.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-008",
+      "titre": "Lire un récit",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Reconstituer les éléments d’un récit et leurs liens de cause à effet.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 1,
+      "types": [
+        "ordonner"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-fr-008\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-009",
+      "titre": "Lire un texte courant ou documentaire",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Extraire, organiser et reformuler les informations principales d’un texte documentaire.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-014",
+      "titre": "Groupes de mots et fonctions syntaxiques",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Repérer des groupes de mots et expliquer leurs principales fonctions dans une phrase.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-018",
+      "titre": "Conjugaison des verbes",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Employer les formes verbales étudiées selon la personne et la valeur temporelle.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-019",
+      "titre": "Ponctuation et majuscules",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Utiliser majuscules et signes de ponctuation pour segmenter et clarifier un écrit.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-021",
+      "titre": "Rédiger des phrases et des paragraphes",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Rédiger des phrases reliées en paragraphes porteurs d’une idée centrale.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-025",
+      "titre": "Interagir et écouter activement",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Prendre part à un échange en écoutant, reformulant et poursuivant le propos d’autrui.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ilss-002",
+      "titre": "Interagir oralement dans la classe",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Échanger des informations nécessaires à la vie de classe.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ilss-004",
+      "titre": "Comprendre des échanges et documents de la vie quotidienne",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comprendre des messages et documents fonctionnels du quotidien.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ilss-005",
+      "titre": "Entrer dans la lecture en français selon le palier",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Utiliser des stratégies de lecture adaptées à son palier de littératie.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ilss-007",
+      "titre": "Écrire des messages et textes fonctionnels",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Écrire un message fonctionnel compréhensible pour un destinataire.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ilss-010",
+      "titre": "Participer à la vie sociale et culturelle du milieu",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Participer à une activité sociale ou culturelle en utilisant les ressources du milieu.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-002",
+      "titre": "Lire, écrire et comparer des nombres naturels",
+      "discipline": "Mathématique",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Lire, écrire, ordonner et comparer des nombres naturels dans un champ adapté.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-013",
+      "titre": "Fractions : équivalence et comparaison",
+      "discipline": "Mathématique",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Construire des fractions équivalentes et comparer des fractions de référence.",
+      "moteurs_a_etudier": [
+        "fraction",
+        "equivalence"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 2,
+      "types": [
+        "equivalence"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-013\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-024",
+      "titre": "Droites, angles et symétrie",
+      "discipline": "Mathématique",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier et construire des angles, des droites et des symétries simples.",
+      "moteurs_a_etudier": [
+        "grille",
+        "classer"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-027",
+      "titre": "Périmètre",
+      "discipline": "Mathématique",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Calculer et interpréter le périmètre d’une figure comme longueur du contour.",
+      "moteurs_a_etudier": [
+        "grille",
+        "classer"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "cours-references\\qc-pri-ma-027\\OUTILS_INTERACTIFS_V14_CANDIDATS.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-028",
+      "titre": "Aire et unités d’aire",
+      "discipline": "Mathématique",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Mesurer ou calculer une aire en unités carrées adaptées.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "cours-references\\qc-pri-ma-028\\OUTILS_INTERACTIFS_V14_CANDIDATS.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-029",
+      "titre": "Volume et unités de volume",
+      "discipline": "Mathématique",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Déterminer un volume par comptage ou structuration d’unités cubiques.",
+      "moteurs_a_etudier": [
+        "probleme"
+      ],
+      "prochaine_action": "Définir la manipulation et sa preuve distincte du résultat.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "cours-references\\qc-pri-ma-029\\OUTILS_INTERACTIFS_V14_CANDIDATS.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-031",
+      "titre": "Lire et produire des diagrammes",
+      "discipline": "Mathématique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Lire, créer et critiquer une représentation graphique de données.",
+      "moteurs_a_etudier": [
+        "diagramme",
+        "classer"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 2,
+      "types": [
+        "diagramme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-031\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-mu-002",
+      "titre": "Explorer pulsation, rythme et durée",
+      "discipline": "Musique",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Reproduire et créer des motifs avec pulsation et durées.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-mu-003",
+      "titre": "Explorer hauteur, mélodie et harmonie",
+      "discipline": "Musique",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comparer des motifs mélodiques selon les mouvements de hauteur.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-mu-004",
+      "titre": "Découvrir timbres et instruments",
+      "discipline": "Musique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Reconnaître des timbres instrumentaux et expliquer leur différence.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-mu-005",
+      "titre": "Explorer voix et techniques vocales",
+      "discipline": "Musique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Utiliser sa voix de façon sûre et expressive dans un motif simple.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-mu-008",
+      "titre": "Écouter et analyser des œuvres musicales",
+      "discipline": "Musique",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Écouter un extrait et en décrire des caractéristiques musicales observables.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-002",
+      "titre": "Formuler des hypothèses et planifier une investigation",
+      "discipline": "Science et technologie",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Formuler une prédiction motivée et concevoir un test simple et sûr.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-003",
+      "titre": "Mesurer et recueillir des données",
+      "discipline": "Science et technologie",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Choisir un instrument et relever des mesures traçables et reproductibles.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-006",
+      "titre": "Transformations de la matière",
+      "discipline": "Science et technologie",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier et comparer des changements physiques observables de la matière.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-010",
+      "titre": "Électricité et magnétisme",
+      "discipline": "Science et technologie",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Construire un circuit très simple et distinguer circuit fermé et ouvert.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-012",
+      "titre": "Concevoir et fabriquer un objet technique",
+      "discipline": "Science et technologie",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Prototyper un objet répondant à un besoin avec tests et améliorations.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-014",
+      "titre": "Eau et cycle de l’eau",
+      "discipline": "Science et technologie",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Expliquer par un schéma les principaux changements d’état et déplacements de l’eau.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-019",
+      "titre": "Cycles de vie et adaptations du vivant",
+      "discipline": "Science et technologie",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comparer des étapes de cycles de vie et des adaptations à un milieu.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-020",
+      "titre": "Habitats, réseaux alimentaires et environnement",
+      "discipline": "Science et technologie",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Représenter des interactions alimentaires et environnementales d’un habitat.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-004",
+      "titre": "Lire l’organisation d’une société sur son territoire",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire comment une société organise ses activités et son territoire.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-008",
+      "titre": "La Nouvelle-France : territoire et société",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Présenter l’organisation et des évolutions de la Nouvelle-France.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-010",
+      "titre": "Transformations à l’époque britannique",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier des transformations sociales et politiques sous le régime britannique.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-011",
+      "titre": "Industrialisation, urbanisation et transformations sociales",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Expliquer des conséquences de l’industrialisation sur la vie quotidienne.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-012",
+      "titre": "Québec au XXe siècle",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Ordonner des changements marquants du Québec au XXe siècle.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-013",
+      "titre": "Québec contemporain et évolution sociale",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire un enjeu du Québec contemporain à partir d’informations croisées.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-015",
+      "titre": "Comprendre les changements et les continuités historiques",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Distinguer ce qui change de ce qui perdure au fil d’une période.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ad-004",
+      "titre": "Créer une séquence dramatique",
+      "discipline": "Art dramatique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Construire une brève séquence dramatique comportant une évolution.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-003",
+      "titre": "Lire avec fluidité en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Lire un passage anglais avec précision et rythme permettant la compréhension.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-009",
+      "titre": "Orthographe et conventions de l’écrit en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Orthographier et ponctuer des phrases anglaises ciblées.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-011",
+      "titre": "Planifier et produire des textes en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Planifier puis rédiger un texte anglais pour un public explicite.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-006",
+      "titre": "Parler d’expériences et de situations familières",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décrire une expérience proche en phrases anglaises simples.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-011",
+      "titre": "Réviser les productions écrites en anglais",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Relire et améliorer un texte anglais court à partir de critères ciblés.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-als-012",
+      "titre": "Présenter et échanger en anglais",
+      "discipline": "Anglais, langue seconde",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Communiquer une idée en anglais devant un petit groupe et répondre aux questions.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ap-005",
+      "titre": "Créer des images personnelles",
+      "discipline": "Arts plastiques",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Créer une image personnelle cohérente avec un projet expressif.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ap-006",
+      "titre": "Créer des images médiatiques",
+      "discipline": "Arts plastiques",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Créer une image destinée à communiquer à un public précis.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ap-008",
+      "titre": "Apprécier des œuvres et exprimer sa perception",
+      "discipline": "Arts plastiques",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Formuler une appréciation argumentée d’une œuvre sans imposer le goût.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-da-003",
+      "titre": "Créer une phrase chorégraphique",
+      "discipline": "Danse",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Composer une phrase dansée structurée avec un début et une fin.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-da-006",
+      "titre": "Interpréter une danse",
+      "discipline": "Danse",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Interpréter une danse avec précision relative et intention expressive.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-007",
+      "titre": "Stratégies d’action collective",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Choisir une stratégie collective simple puis l’adapter après observation.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-eps-012",
+      "titre": "Autoévaluation d’une pratique physique",
+      "discipline": "Éducation physique et à la santé",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Analyser une pratique physique à partir de critères observables et personnels non comparatifs.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-005",
+      "titre": "Développer l’interaction et la prise de parole",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Développer et relancer un échange oral en français au-delà des routines.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-009",
+      "titre": "Produire des textes adaptés en français",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Rédiger un court texte en français répondant à une consigne précise.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-003",
+      "titre": "Décodage et reconnaissance des mots",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décoder des mots inconnus en mobilisant les correspondances apprises.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-010",
+      "titre": "Réagir aux textes et les apprécier",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Exprimer une réaction argumentée à une lecture en distinguant goûts et indices textuels.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-016",
+      "titre": "Accords dans le groupe nominal",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Réaliser les accords à l’intérieur d’un groupe nominal et expliquer les marques utilisées.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-017",
+      "titre": "Accord du verbe avec le sujet",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Accorder le verbe avec son sujet dans des phrases simples puis enrichies.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-022",
+      "titre": "Organiser et assurer la cohérence d’un texte",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Relier des paragraphes en maintenant le sujet et l’ordre logique du texte.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-023",
+      "titre": "Réviser et corriger un texte",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Améliorer un texte en révisant sens, structure puis orthographe et grammaire.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-026",
+      "titre": "Présenter et justifier des idées à l’oral",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Présenter une idée structurée et la défendre à l’aide de raisons audibles.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ilss-006",
+      "titre": "Lire et comprendre des textes scolaires",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Identifier et organiser les informations principales de documents scolaires.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-003",
+      "titre": "Valeur de position et regroupements",
+      "discipline": "Mathématique",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Décomposer et recomposer des nombres grâce aux valeurs de position.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 2,
+      "types": [
+        "position"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-003\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-006",
+      "titre": "Sens et stratégies de l’addition",
+      "discipline": "Mathématique",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Modéliser l’addition et choisir une stratégie efficace pour calculer.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-007",
+      "titre": "Sens et stratégies de la soustraction",
+      "discipline": "Mathématique",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Modéliser la soustraction comme retrait, différence ou complément.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-014",
+      "titre": "Fractions : opérations selon la progression",
+      "discipline": "Mathématique",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Effectuer des opérations élémentaires sur les fractions en conservant leur sens.",
+      "moteurs_a_etudier": [
+        "fraction",
+        "equivalence"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "cours-references\\qc-pri-ma-014\\OUTILS_INTERACTIFS_V14_CANDIDATS.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-mu-006",
+      "titre": "Inventer une pièce vocale ou instrumentale",
+      "discipline": "Musique",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Composer une courte pièce sonore selon une intention donnée.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-mu-007",
+      "titre": "Interpréter seul ou en ensemble",
+      "discipline": "Musique",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Interpréter une pièce avec écoute mutuelle et cohérence collective.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-mu-009",
+      "titre": "Apprécier des œuvres et justifier son appréciation",
+      "discipline": "Musique",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Exprimer une appréciation musicale reliée à des indices entendus.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-st-004",
+      "titre": "Expliquer et communiquer des résultats",
+      "discipline": "Science et technologie",
+      "annee_proposee": 1,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Relier des observations à une conclusion en distinguant constat et interprétation.",
+      "moteurs_a_etudier": [
+        "classer",
+        "ordonner",
+        "grille"
+      ],
+      "prochaine_action": "Distinguer observation, interprétation et expérimentation; vérifier les sources.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-us-014",
+      "titre": "Comparer des sociétés et leurs territoires",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comparer deux sociétés selon des critères explicites et communs.",
+      "moteurs_a_etudier": [
+        "grille",
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Conserver le contexte des sources, des lieux et des époques; revue historique nécessaire.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ad-005",
+      "titre": "Organiser une mise en scène simple",
+      "discipline": "Art dramatique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Organiser les éléments d’une mise en scène simple pour un public.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ad-009",
+      "titre": "Présenter et analyser sa démarche dramatique",
+      "discipline": "Art dramatique",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Analyser les étapes de sa démarche de création ou d’interprétation.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-004",
+      "titre": "Comprendre des textes narratifs",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Reconstituer actions, personnages et idées d’un récit en anglais.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-005",
+      "titre": "Comprendre des textes informatifs",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Repérer et organiser les informations d’un texte informatif en anglais.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-012",
+      "titre": "Réviser ses textes en anglais",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Réviser un texte anglais selon un ordre de contrôle du sens puis de la forme.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ap-009",
+      "titre": "Présenter et expliquer sa démarche artistique",
+      "discipline": "Arts plastiques",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Expliquer son processus de création et des ajustements apportés.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-da-004",
+      "titre": "Organiser une composition dansée",
+      "discipline": "Danse",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Combiner plusieurs phrases dansées en une composition cohérente.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-010",
+      "titre": "Réviser et améliorer les productions en français",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Améliorer un texte en français grâce à une relecture guidée par critères.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fls-012",
+      "titre": "Réaliser des projets de communication en français",
+      "discipline": "Français, langue seconde",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Mener un projet de communication orale et écrite simple en français.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-fr-004",
+      "titre": "Fluidité et expressivité en lecture",
+      "discipline": "Français, langue d’enseignement",
+      "annee_proposee": 2,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Lire un court passage adapté avec exactitude, continuité et prosodie pertinente.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ilss-008",
+      "titre": "Produire des textes scolaires progressifs",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Produire un texte scolaire progressif avec structure compréhensible.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-005",
+      "titre": "Estimation et arrondissement",
+      "discipline": "Mathématique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Produire une estimation défendable et arrondir selon un rang annoncé.",
+      "moteurs_a_etudier": [
+        "probleme"
+      ],
+      "prochaine_action": "Définir la manipulation et sa preuve distincte du résultat.",
+      "nombre_activites": 2,
+      "types": [
+        "droite"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-005\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-008",
+      "titre": "Sens et stratégies de la multiplication",
+      "discipline": "Mathématique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Représenter la multiplication comme groupes égaux et calculer des produits.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 2,
+      "types": [
+        "jetons"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-008\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-010",
+      "titre": "Calcul mental et propriétés des opérations",
+      "discipline": "Mathématique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Choisir une stratégie de calcul mental et mobiliser une propriété opératoire.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-010\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-011",
+      "titre": "Algorithmes et vérification des calculs",
+      "discipline": "Mathématique",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Exécuter, vérifier et expliquer une procédure de calcul écrit.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-011\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-015",
+      "titre": "Nombres décimaux : représentations",
+      "discipline": "Mathématique",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Relier les écritures décimales aux décompositions en dixièmes et centièmes.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-019",
+      "titre": "Situations-problèmes additives",
+      "discipline": "Mathématique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Modéliser et résoudre une situation additive en distinguant les données utiles.",
+      "moteurs_a_etudier": [
+        "diagramme",
+        "classer"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-019\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-006",
+      "titre": "Inférences et interprétation en lecture",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Inférer une intention ou une information non explicite dans un texte anglais.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ale-007",
+      "titre": "Apprécier la littérature de langue anglaise",
+      "discipline": "Anglais, langue d’enseignement",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Formuler une appréciation littéraire fondée sur des éléments de l’œuvre.",
+      "moteurs_a_etudier": [
+        "ordonner",
+        "associer"
+      ],
+      "prochaine_action": "Vérifier le sens et la langue; ne pas réduire la lecture ou la production à un choix.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-da-009",
+      "titre": "Présenter et expliquer sa démarche en danse",
+      "discipline": "Danse",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Présenter et expliquer les étapes de sa création dansée.",
+      "moteurs_a_etudier": [],
+      "prochaine_action": "Observation humaine requise pour les compétences expressives et motrices.",
+      "nombre_activites": 0,
+      "types": [],
+      "etat": "a_concevoir",
+      "source_manifest": null,
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-009",
+      "titre": "Sens et stratégies de la division",
+      "discipline": "Mathématique",
+      "annee_proposee": 3,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Représenter le partage et le groupement pour résoudre des divisions.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "jetons"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-009\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-016",
+      "titre": "Nombres décimaux : comparaison et calculs",
+      "discipline": "Mathématique",
+      "annee_proposee": 5,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Comparer et calculer avec des décimaux en utilisant les valeurs de position.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "cours-references\\qc-pri-ma-016\\OUTILS_INTERACTIFS_V14_CANDIDATS.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-017",
+      "titre": "Pourcentages et situations de proportionnalité",
+      "discipline": "Mathématique",
+      "annee_proposee": 6,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Relier pourcentage, fraction de cent et situations proportionnelles simples.",
+      "moteurs_a_etudier": [
+        "fraction",
+        "equivalence"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "cours-references\\qc-pri-ma-017\\OUTILS_INTERACTIFS_V14_CANDIDATS.json",
+      "source_kristal": true
+    },
+    {
+      "id": "qc-pri-ma-020",
+      "titre": "Situations-problèmes multiplicatives",
+      "discipline": "Mathématique",
+      "annee_proposee": 4,
+      "affectation": "proposition_non_validee",
+      "objectif_source": "Modéliser une situation multiplicative ou de partage et contrôler la solution.",
+      "moteurs_a_etudier": [
+        "probleme",
+        "position",
+        "jetons"
+      ],
+      "prochaine_action": "Formaliser les relations mathématiques et les erreurs diagnostiques avant de publier.",
+      "nombre_activites": 1,
+      "types": [
+        "probleme"
+      ],
+      "etat": "prototypes_a_revoir",
+      "source_manifest": "kristals\\qc-pri-ma-020\\experience\\OUTILS_INTERACTIFS_V14.json",
+      "source_kristal": true
+    }
+  ]
+}

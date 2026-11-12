@@ -1,0 +1,972 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-014",
+  "family_id": "qc-pri-ma-014-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-014-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Observe la bande; identifie le tout, la fraction unitaire occupée et explique ton choix.",
+      "stimulus": "Une bande unique divisée en quatre sections de même longueur : [■□□□]. ■ est occupé; □ est libre.",
+      "reponse_attendue": "Une section sur quatre de même taille est occupée : 1/4 du tout; le dénominateur 4 compte toutes les sections égales. Contrôle : quatre sections de 1/4 recomposent 4/4 = 1.",
+      "criteres": [
+        "Identifie la bande comme tout.",
+        "Indique 1/4 et décrit les quatre parts égales.",
+        "Contrôle par recomposition 4 × 1/4 = 1."
+      ],
+      "feedback": "Si 1/3 est proposé, recompter les quatre sections du tout; si les parts semblent inégales, reconstruire une bande correcte.",
+      "difficulte": "initial",
+      "representation": "bande textuelle 4 sections",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "parametrique",
+      "consigne": "Quelle fraction de la bande est marquée maintenant? Dessine ou décris les parts, écris le calcul, puis vérifie la réponse.",
+      "stimulus": "Une seule bande a 6 cases égales. 1 cases sont marquées, puis 2 cases supplémentaires sont marquées. Illustration textuelle de l'état final à compléter : une bande de 6 cases égales, dont 1 marquées puis 2 autres cases distinctes.",
+      "reponse_attendue": "1/6 + 2/6 = 3/6 = 1/2. Vérification : 3/6 − 2/6 = 1/6. Une illustration doit représenter 6 parts égales du même tout.",
+      "criteres": [
+        "Nomme explicitement le tout commun et justifie le caractère égal des parts.",
+        "Écrit une égalité fractionnaire exacte avec dénominateur conservé et une représentation cohérente.",
+        "Vérifie par l'opération inverse ou recomptage, en reliant ce contrôle à la quantité illustrée."
+      ],
+      "feedback": "Si les dénominateurs ont été additionnés, recompter le nombre fixe de cases du tout; si la somme dépasse le dessin, marquer les groupes séparément.",
+      "difficulte": "initial",
+      "representation": "bande additive",
+      "seed": 140140017,
+      "parametres": {
+        "variables": [
+          "d",
+          "a",
+          "b"
+        ],
+        "domaines": {
+          "d": [
+            5,
+            6,
+            8
+          ],
+          "a": [
+            1,
+            2
+          ],
+          "b": [
+            2,
+            3
+          ]
+        },
+        "contraintes": [
+          "(d,a,b) appartient uniquement à la liste de candidats approuvés",
+          "1 ≤ a, 1 ≤ b, a+b ≤ d",
+          "même tout et parts égales",
+          "pas de chevauchement entre les groupes ajoutés"
+        ],
+        "candidats": [
+          {
+            "d": 6,
+            "a": 1,
+            "b": 2
+          },
+          {
+            "d": 8,
+            "a": 2,
+            "b": 3
+          },
+          {
+            "d": 5,
+            "a": 1,
+            "b": 3
+          }
+        ],
+        "gabarit_stimulus": "Une seule bande a {d} cases égales. {a} cases sont marquées, puis {b} cases supplémentaires sont marquées.",
+        "gabarit_consigne": "Quelle fraction de la bande est marquée maintenant?",
+        "selection": "indice = seed modulo longueur(candidats) ; candidats ordonnés comme dans ce champ, aucune permutation ni génération libre",
+        "index_selectionne": 0,
+        "instance_selectionnee": {
+          "d": 6,
+          "a": 1,
+          "b": 2
+        },
+        "operation": "addition",
+        "algorithme_resolution": "Choisir le triplet candidats[seed modulo 3], dans l'ordre énuméré. Sur un seul tout partagé en d parts égales, montrer a puis b parts supplémentaires non chevauchantes; poser a/d+b/d=(a+b)/d; réduire avec pgcd(a+b,d) si pertinent; vérifier par (a+b)/d-b/d=a/d.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "d": 6,
+              "a": 1,
+              "b": 2
+            },
+            "reponse_exacte": "1/6 + 2/6 = 3/6 = 1/2",
+            "verification_exacte": "3/6 − 2/6 = 1/6",
+            "numerateur_resultant": 3
+          },
+          {
+            "variables": {
+              "d": 8,
+              "a": 2,
+              "b": 3
+            },
+            "reponse_exacte": "2/8 + 3/8 = 5/8",
+            "verification_exacte": "5/8 − 3/8 = 2/8",
+            "numerateur_resultant": 5
+          },
+          {
+            "variables": {
+              "d": 5,
+              "a": 1,
+              "b": 3
+            },
+            "reponse_exacte": "1/5 + 3/5 = 4/5",
+            "verification_exacte": "4/5 − 3/5 = 1/5",
+            "numerateur_resultant": 4
+          }
+        ],
+        "variation_autorisee": "Uniquement les trois triplets énumérés. Pour chaque variante, réinstancier le gabarit_stimulus avec d,a,b, conserver le gabarit_consigne, reconstruire la description de bande (d cases, a marques initiales, b ajoutées/retirées/isolées), calculer le corrigé et la vérification par algorithme_resolution; aucune génération textuelle libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "parametrique",
+      "consigne": "Complète une décomposition en deux fractions de mêmes parts et justifie que le total ne change pas. Dessine ou décris les parts, écris le calcul, puis vérifie la réponse.",
+      "stimulus": "Une bande de 8 cases égales contient 4 cases occupées. On isole 1 de ces cases dans un premier groupe. Illustration textuelle : 8 cases égales, 4 marquées au total; un groupe contient 1 marques.",
+      "reponse_attendue": "4/8 = 1/8 + 3/8. Vérification : 1+3=4 parts sur 8. Une illustration doit représenter 8 parts égales du même tout.",
+      "criteres": [
+        "Nomme explicitement le tout commun et justifie le caractère égal des parts.",
+        "Écrit une égalité fractionnaire exacte avec dénominateur conservé et une représentation cohérente.",
+        "Vérifie par l'opération inverse ou recomptage, en reliant ce contrôle à la quantité illustrée."
+      ],
+      "feedback": "Si la somme des numérateurs diffère du total marqué, recompter les deux groupes sans changer le dénominateur.",
+      "difficulte": "intermediaire",
+      "representation": "bande et regroupement",
+      "seed": 140140020,
+      "parametres": {
+        "variables": [
+          "d",
+          "a",
+          "b"
+        ],
+        "domaines": {
+          "d": [
+            6,
+            8,
+            10
+          ],
+          "a": [
+            4,
+            5,
+            7
+          ],
+          "b": [
+            1,
+            2,
+            3
+          ]
+        },
+        "contraintes": [
+          "(d,a,b) appartient uniquement à la liste de candidats approuvés",
+          "1 ≤ b < a ≤ d",
+          "même tout et parts égales",
+          "deux groupes non vides disjoints, union de a parts"
+        ],
+        "candidats": [
+          {
+            "d": 8,
+            "a": 4,
+            "b": 1
+          },
+          {
+            "d": 6,
+            "a": 5,
+            "b": 2
+          },
+          {
+            "d": 10,
+            "a": 7,
+            "b": 3
+          }
+        ],
+        "gabarit_stimulus": "Une bande de {d} cases égales contient {a} cases occupées. On isole {b} de ces cases dans un premier groupe.",
+        "gabarit_consigne": "Complète une décomposition en deux fractions de mêmes parts et justifie que le total ne change pas.",
+        "selection": "indice = seed modulo longueur(candidats) ; candidats ordonnés comme dans ce champ, aucune permutation ni génération libre",
+        "index_selectionne": 0,
+        "instance_selectionnee": {
+          "d": 8,
+          "a": 4,
+          "b": 1
+        },
+        "operation": "decomposition",
+        "algorithme_resolution": "Choisir le triplet candidats[seed modulo 3], dans l'ordre énuméré. Montrer a parts sur d dans un seul tout; isoler b parts et a−b parts; écrire a/d=b/d+(a−b)/d; vérifier b+(a−b)=a par recomptage sans modifier d.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "d": 8,
+              "a": 4,
+              "b": 1
+            },
+            "reponse_exacte": "4/8 = 1/8 + 3/8",
+            "verification_exacte": "1+3=4 parts sur 8",
+            "numerateur_resultant": 4
+          },
+          {
+            "variables": {
+              "d": 6,
+              "a": 5,
+              "b": 2
+            },
+            "reponse_exacte": "5/6 = 2/6 + 3/6",
+            "verification_exacte": "2+3=5 parts sur 6",
+            "numerateur_resultant": 5
+          },
+          {
+            "variables": {
+              "d": 10,
+              "a": 7,
+              "b": 3
+            },
+            "reponse_exacte": "7/10 = 3/10 + 4/10",
+            "verification_exacte": "3+4=7 parts sur 10",
+            "numerateur_resultant": 7
+          }
+        ],
+        "variation_autorisee": "Uniquement les trois triplets énumérés. Pour chaque variante, réinstancier le gabarit_stimulus avec d,a,b, conserver le gabarit_consigne, reconstruire la description de bande (d cases, a marques initiales, b ajoutées/retirées/isolées), calculer le corrigé et la vérification par algorithme_resolution; aucune génération textuelle libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Indique si le calcul 1/4 + 1/4 = 2/4 prouve que la moitié du premier ruban est occupée. Corrige l’interprétation.",
+      "stimulus": "Ruban A : 20 cm, coupé en quatre segments égaux; on prend 1 segment. Ruban B : 40 cm, coupé en quatre segments égaux; on prend 1 segment. Les deux rubans ne forment PAS un tout déclaré commun.",
+      "reponse_attendue": "Non : 1/4 de A = 5 cm, 1/4 de B = 10 cm; les deux portions réunies font 15 cm, mais 15 cm n’est ni 1/2 de A (10 cm) ni 1/2 de B (20 cm). Il faut d’abord choisir et décrire un tout commun pour écrire une fraction de ce tout.",
+      "criteres": [
+        "Distingue les deux unités (20 et 40 cm).",
+        "Calcule 5 cm et 10 cm ou compare les quarts par les longueurs.",
+        "Refuse la conclusion 2/4 d’un tout indéfini et explicite la condition manquante."
+      ],
+      "feedback": "Même dénominateur ne signifie pas parts de même longueur si les touts sont différents; aligner les rubans de 20 et 40 cm.",
+      "difficulte": "intermediaire",
+      "representation": "deux rubans textuels inégaux",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "parametrique",
+      "consigne": "Quelle fraction reste marquée? Dessine ou décris les parts, écris le calcul, puis vérifie la réponse.",
+      "stimulus": "Une bande de 8 sections égales possède 5 sections marquées. On enlève 2 marques. Illustration textuelle : 8 cases égales, 5 initialement marquées, et 2 de ces marques à retirer.",
+      "reponse_attendue": "5/8 − 2/8 = 3/8. Vérification : 3/8 + 2/8 = 5/8. Une illustration doit représenter 8 parts égales du même tout.",
+      "criteres": [
+        "Nomme explicitement le tout commun et justifie le caractère égal des parts.",
+        "Écrit une égalité fractionnaire exacte avec dénominateur conservé et une représentation cohérente.",
+        "Vérifie par l'opération inverse ou recomptage, en reliant ce contrôle à la quantité illustrée."
+      ],
+      "feedback": "Si le résultat augmente après un retrait, représenter les cases effacées et vérifier par l’addition inverse.",
+      "difficulte": "intermediaire",
+      "representation": "bande avec retrait",
+      "seed": 140140026,
+      "parametres": {
+        "variables": [
+          "d",
+          "a",
+          "b"
+        ],
+        "domaines": {
+          "d": [
+            6,
+            8,
+            10
+          ],
+          "a": [
+            5,
+            7
+          ],
+          "b": [
+            1,
+            2,
+            4
+          ]
+        },
+        "contraintes": [
+          "(d,a,b) appartient uniquement à la liste de candidats approuvés",
+          "1 ≤ b ≤ a ≤ d",
+          "même tout et parts égales",
+          "ne jamais retirer des parts non marquées"
+        ],
+        "candidats": [
+          {
+            "d": 8,
+            "a": 5,
+            "b": 2
+          },
+          {
+            "d": 6,
+            "a": 5,
+            "b": 1
+          },
+          {
+            "d": 10,
+            "a": 7,
+            "b": 4
+          }
+        ],
+        "gabarit_stimulus": "Une bande de {d} sections égales possède {a} sections marquées. On enlève {b} marques.",
+        "gabarit_consigne": "Quelle fraction reste marquée?",
+        "selection": "indice = seed modulo longueur(candidats) ; candidats ordonnés comme dans ce champ, aucune permutation ni génération libre",
+        "index_selectionne": 0,
+        "instance_selectionnee": {
+          "d": 8,
+          "a": 5,
+          "b": 2
+        },
+        "operation": "soustraction",
+        "algorithme_resolution": "Choisir le triplet candidats[seed modulo 3], dans l'ordre énuméré. Montrer a parts sur d dans un seul tout; retirer b des a parts; poser a/d−b/d=(a−b)/d; réduire via pgcd(a−b,d) si pertinent; vérifier (a−b)/d+b/d=a/d.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "d": 8,
+              "a": 5,
+              "b": 2
+            },
+            "reponse_exacte": "5/8 − 2/8 = 3/8",
+            "verification_exacte": "3/8 + 2/8 = 5/8",
+            "numerateur_resultant": 3
+          },
+          {
+            "variables": {
+              "d": 6,
+              "a": 5,
+              "b": 1
+            },
+            "reponse_exacte": "5/6 − 1/6 = 4/6 = 2/3",
+            "verification_exacte": "4/6 + 1/6 = 5/6",
+            "numerateur_resultant": 4
+          },
+          {
+            "variables": {
+              "d": 10,
+              "a": 7,
+              "b": 4
+            },
+            "reponse_exacte": "7/10 − 4/10 = 3/10",
+            "verification_exacte": "3/10 + 4/10 = 7/10",
+            "numerateur_resultant": 3
+          }
+        ],
+        "variation_autorisee": "Uniquement les trois triplets énumérés. Pour chaque variante, réinstancier le gabarit_stimulus avec d,a,b, conserver le gabarit_consigne, reconstruire la description de bande (d cases, a marques initiales, b ajoutées/retirées/isolées), calculer le corrigé et la vérification par algorithme_resolution; aucune génération textuelle libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "parametrique",
+      "consigne": "Quelle partie du rectangle est remplie? Dis si le tout est atteint. Dessine ou décris les parts, écris le calcul, puis vérifie la réponse.",
+      "stimulus": "Un unique rectangle est partagé en 6 parties égales. 3 cases sont remplies, puis 3 autres cases distinctes sont remplies. Illustration textuelle de l'état final à compléter : une bande de 6 cases égales, dont 3 marquées puis 3 autres cases distinctes.",
+      "reponse_attendue": "3/6 + 3/6 = 6/6 = 1. Vérification : 6/6 − 3/6 = 3/6. Une illustration doit représenter 6 parts égales du même tout.",
+      "criteres": [
+        "Nomme explicitement le tout commun et justifie le caractère égal des parts.",
+        "Écrit une égalité fractionnaire exacte avec dénominateur conservé et une représentation cohérente.",
+        "Vérifie par l'opération inverse ou recomptage, en reliant ce contrôle à la quantité illustrée."
+      ],
+      "feedback": "Si le résultat est décrit comme plus d’un tout, recompter les d cases; d/d est exactement un tout.",
+      "difficulte": "intermediaire",
+      "representation": "rectangle complet",
+      "seed": 140140029,
+      "parametres": {
+        "variables": [
+          "d",
+          "a",
+          "b"
+        ],
+        "domaines": {
+          "d": [
+            4,
+            6,
+            8
+          ],
+          "a": [
+            1,
+            3,
+            5
+          ],
+          "b": [
+            3
+          ]
+        },
+        "contraintes": [
+          "(d,a,b) appartient uniquement à la liste de candidats approuvés",
+          "1 ≤ a, 1 ≤ b, a+b ≤ d",
+          "même tout et parts égales",
+          "pas de chevauchement entre les groupes ajoutés"
+        ],
+        "candidats": [
+          {
+            "d": 6,
+            "a": 3,
+            "b": 3
+          },
+          {
+            "d": 8,
+            "a": 5,
+            "b": 3
+          },
+          {
+            "d": 4,
+            "a": 1,
+            "b": 3
+          }
+        ],
+        "gabarit_stimulus": "Un unique rectangle est partagé en {d} parties égales. {a} cases sont remplies, puis {b} autres cases distinctes sont remplies.",
+        "gabarit_consigne": "Quelle partie du rectangle est remplie? Dis si le tout est atteint.",
+        "selection": "indice = seed modulo longueur(candidats) ; candidats ordonnés comme dans ce champ, aucune permutation ni génération libre",
+        "index_selectionne": 0,
+        "instance_selectionnee": {
+          "d": 6,
+          "a": 3,
+          "b": 3
+        },
+        "operation": "addition",
+        "algorithme_resolution": "Choisir le triplet candidats[seed modulo 3], dans l'ordre énuméré. Sur un seul tout partagé en d parts égales, montrer a puis b parts supplémentaires non chevauchantes; poser a/d+b/d=(a+b)/d; réduire avec pgcd(a+b,d) si pertinent; vérifier par (a+b)/d-b/d=a/d.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "d": 6,
+              "a": 3,
+              "b": 3
+            },
+            "reponse_exacte": "3/6 + 3/6 = 6/6 = 1",
+            "verification_exacte": "6/6 − 3/6 = 3/6",
+            "numerateur_resultant": 6
+          },
+          {
+            "variables": {
+              "d": 8,
+              "a": 5,
+              "b": 3
+            },
+            "reponse_exacte": "5/8 + 3/8 = 8/8 = 1",
+            "verification_exacte": "8/8 − 3/8 = 5/8",
+            "numerateur_resultant": 8
+          },
+          {
+            "variables": {
+              "d": 4,
+              "a": 1,
+              "b": 3
+            },
+            "reponse_exacte": "1/4 + 3/4 = 4/4 = 1",
+            "verification_exacte": "4/4 − 3/4 = 1/4",
+            "numerateur_resultant": 4
+          }
+        ],
+        "variation_autorisee": "Uniquement les trois triplets énumérés. Pour chaque variante, réinstancier le gabarit_stimulus avec d,a,b, conserver le gabarit_consigne, reconstruire la description de bande (d cases, a marques initiales, b ajoutées/retirées/isolées), calculer le corrigé et la vérification par algorithme_resolution; aucune génération textuelle libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Examine une solution d’élève; repère l’erreur puis fournis le bon calcul et une vérification.",
+      "stimulus": "Dans une même bande de six cases égales, deux cases sont occupées et trois autres sont occupées ensuite. Une solution écrit 2/6 + 3/6 = 5/12.",
+      "reponse_attendue": "Le 12 est erroné : la bande conserve six cases égales. 2/6 + 3/6 = 5/6. Représentation : [■■■■■□]. Vérification : 5/6 − 3/6 = 2/6 et cinq cases ≤ six.",
+      "criteres": [
+        "Identifie l’addition erronée des dénominateurs.",
+        "Écrit exactement 5/6 avec le même tout.",
+        "Vérifie par retrait ou recomptage sur six cases."
+      ],
+      "feedback": "Le dénominateur compte la partition du tout, non le nombre de pièces provenant des deux groupes.",
+      "difficulte": "intermediaire",
+      "representation": "analyse d’erreur écrite et bande",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "parametrique",
+      "consigne": "Écris la décomposition du nombre de parts couvertes et vérifie la recomposition. Dessine ou décris les parts, écris le calcul, puis vérifie la réponse.",
+      "stimulus": "Un rectangle de 6 petites cases de même aire en compte 5 couvertes. On veut faire deux groupes, l’un de 2 cases. Illustration textuelle : 6 cases égales, 5 marquées au total; un groupe contient 2 marques.",
+      "reponse_attendue": "5/6 = 2/6 + 3/6. Vérification : 2+3=5 parts sur 6. Une illustration doit représenter 6 parts égales du même tout.",
+      "criteres": [
+        "Nomme explicitement le tout commun et justifie le caractère égal des parts.",
+        "Écrit une égalité fractionnaire exacte avec dénominateur conservé et une représentation cohérente.",
+        "Vérifie par l'opération inverse ou recomptage, en reliant ce contrôle à la quantité illustrée."
+      ],
+      "feedback": "Un groupe ne peut pas contenir plus de cases que le total; vérifier b+(a−b)=a en gardant le tout identique.",
+      "difficulte": "intermediaire",
+      "representation": "surface à décomposer",
+      "seed": 140140035,
+      "parametres": {
+        "variables": [
+          "d",
+          "a",
+          "b"
+        ],
+        "domaines": {
+          "d": [
+            6,
+            8,
+            10
+          ],
+          "a": [
+            5,
+            7,
+            9
+          ],
+          "b": [
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "(d,a,b) appartient uniquement à la liste de candidats approuvés",
+          "1 ≤ b < a ≤ d",
+          "même tout et parts égales",
+          "deux groupes non vides disjoints, union de a parts"
+        ],
+        "candidats": [
+          {
+            "d": 6,
+            "a": 5,
+            "b": 2
+          },
+          {
+            "d": 8,
+            "a": 7,
+            "b": 3
+          },
+          {
+            "d": 10,
+            "a": 9,
+            "b": 4
+          }
+        ],
+        "gabarit_stimulus": "Un rectangle de {d} petites cases de même aire en compte {a} couvertes. On veut faire deux groupes, l’un de {b} cases.",
+        "gabarit_consigne": "Écris la décomposition du nombre de parts couvertes et vérifie la recomposition.",
+        "selection": "indice = seed modulo longueur(candidats) ; candidats ordonnés comme dans ce champ, aucune permutation ni génération libre",
+        "index_selectionne": 0,
+        "instance_selectionnee": {
+          "d": 6,
+          "a": 5,
+          "b": 2
+        },
+        "operation": "decomposition",
+        "algorithme_resolution": "Choisir le triplet candidats[seed modulo 3], dans l'ordre énuméré. Montrer a parts sur d dans un seul tout; isoler b parts et a−b parts; écrire a/d=b/d+(a−b)/d; vérifier b+(a−b)=a par recomptage sans modifier d.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "d": 6,
+              "a": 5,
+              "b": 2
+            },
+            "reponse_exacte": "5/6 = 2/6 + 3/6",
+            "verification_exacte": "2+3=5 parts sur 6",
+            "numerateur_resultant": 5
+          },
+          {
+            "variables": {
+              "d": 8,
+              "a": 7,
+              "b": 3
+            },
+            "reponse_exacte": "7/8 = 3/8 + 4/8",
+            "verification_exacte": "3+4=7 parts sur 8",
+            "numerateur_resultant": 7
+          },
+          {
+            "variables": {
+              "d": 10,
+              "a": 9,
+              "b": 4
+            },
+            "reponse_exacte": "9/10 = 4/10 + 5/10",
+            "verification_exacte": "4+5=9 parts sur 10",
+            "numerateur_resultant": 9
+          }
+        ],
+        "variation_autorisee": "Uniquement les trois triplets énumérés. Pour chaque variante, réinstancier le gabarit_stimulus avec d,a,b, conserver le gabarit_consigne, reconstruire la description de bande (d cases, a marques initiales, b ajoutées/retirées/isolées), calculer le corrigé et la vérification par algorithme_resolution; aucune génération textuelle libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "fixe",
+      "consigne": "Montre par une représentation et un raisonnement si 4/8 représente la même quantité que 1/2 du tout.",
+      "stimulus": "Deux bandes exactement de même longueur : la première [■■■■□□□□] (huit huitièmes égaux); la deuxième [■□] (deux moitiés égales).",
+      "reponse_attendue": "Oui : 4/8 = 1/2 de la même longueur. Quatre des huit segments représentent une moitié car les huit segments forment deux groupes de quatre. Contrôle : 4/8 + 4/8 = 8/8 = 1.",
+      "criteres": [
+        "Garde constant le tout dans la comparaison.",
+        "Justifie par regroupement exact des huit parties en deux moitiés.",
+        "Contrôle par recomposition de l’unité."
+      ],
+      "feedback": "Compter quatre parties plutôt que leur longueur ne suffit pas : aligner les deux bandes égales.",
+      "difficulte": "intermediaire",
+      "representation": "comparaison de bandes et équivalence",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "parametrique",
+      "consigne": "Quelle fraction est marquée? Donne aussi une écriture équivalente en demis et une vérification. Dessine ou décris les parts, écris le calcul, puis vérifie la réponse.",
+      "stimulus": "Un seul ruban divisé en 8 parties égales reçoit 2 marques et 2 marques supplémentaires sans chevauchement. Illustration textuelle de l'état final à compléter : une bande de 8 cases égales, dont 2 marquées puis 2 autres cases distinctes.",
+      "reponse_attendue": "2/8 + 2/8 = 4/8 = 1/2. Vérification : 4/8 − 2/8 = 2/8. Une illustration doit représenter 8 parts égales du même tout.",
+      "criteres": [
+        "Nomme explicitement le tout commun et justifie le caractère égal des parts.",
+        "Écrit une égalité fractionnaire exacte avec dénominateur conservé et une représentation cohérente.",
+        "Vérifie par l'opération inverse ou recomptage, en reliant ce contrôle à la quantité illustrée."
+      ],
+      "feedback": "Si l’expression réduite semble différente, superposer les deux demi-rubans : a+b vaut la moitié de d dans tous les cas permis.",
+      "difficulte": "intermediaire",
+      "representation": "ruban et équivalence en moitiés",
+      "seed": 140140041,
+      "parametres": {
+        "variables": [
+          "d",
+          "a",
+          "b"
+        ],
+        "domaines": {
+          "d": [
+            6,
+            8,
+            10
+          ],
+          "a": [
+            1,
+            2,
+            3
+          ],
+          "b": [
+            2
+          ]
+        },
+        "contraintes": [
+          "(d,a,b) appartient uniquement à la liste de candidats approuvés",
+          "1 ≤ a, 1 ≤ b, a+b ≤ d",
+          "même tout et parts égales",
+          "pas de chevauchement entre les groupes ajoutés"
+        ],
+        "candidats": [
+          {
+            "d": 8,
+            "a": 2,
+            "b": 2
+          },
+          {
+            "d": 6,
+            "a": 1,
+            "b": 2
+          },
+          {
+            "d": 10,
+            "a": 3,
+            "b": 2
+          }
+        ],
+        "gabarit_stimulus": "Un seul ruban divisé en {d} parties égales reçoit {a} marques et {b} marques supplémentaires sans chevauchement.",
+        "gabarit_consigne": "Quelle fraction est marquée? Donne aussi une écriture équivalente en demis et une vérification.",
+        "selection": "indice = seed modulo longueur(candidats) ; candidats ordonnés comme dans ce champ, aucune permutation ni génération libre",
+        "index_selectionne": 0,
+        "instance_selectionnee": {
+          "d": 8,
+          "a": 2,
+          "b": 2
+        },
+        "operation": "addition",
+        "algorithme_resolution": "Choisir le triplet candidats[seed modulo 3], dans l'ordre énuméré. Sur un seul tout partagé en d parts égales, montrer a puis b parts supplémentaires non chevauchantes; poser a/d+b/d=(a+b)/d; réduire avec pgcd(a+b,d) si pertinent; vérifier par (a+b)/d-b/d=a/d.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "d": 8,
+              "a": 2,
+              "b": 2
+            },
+            "reponse_exacte": "2/8 + 2/8 = 4/8 = 1/2",
+            "verification_exacte": "4/8 − 2/8 = 2/8",
+            "numerateur_resultant": 4
+          },
+          {
+            "variables": {
+              "d": 6,
+              "a": 1,
+              "b": 2
+            },
+            "reponse_exacte": "1/6 + 2/6 = 3/6 = 1/2",
+            "verification_exacte": "3/6 − 2/6 = 1/6",
+            "numerateur_resultant": 3
+          },
+          {
+            "variables": {
+              "d": 10,
+              "a": 3,
+              "b": 2
+            },
+            "reponse_exacte": "3/10 + 2/10 = 5/10 = 1/2",
+            "verification_exacte": "5/10 − 2/10 = 3/10",
+            "numerateur_resultant": 5
+          }
+        ],
+        "variation_autorisee": "Uniquement les trois triplets énumérés. Pour chaque variante, réinstancier le gabarit_stimulus avec d,a,b, conserver le gabarit_consigne, reconstruire la description de bande (d cases, a marques initiales, b ajoutées/retirées/isolées), calculer le corrigé et la vérification par algorithme_resolution; aucune génération textuelle libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "parametrique",
+      "consigne": "Quelle fraction de la surface du parterre est plantée après ces deux aménagements? Dessine ou décris les parts, écris le calcul, puis vérifie la réponse.",
+      "stimulus": "Un SEUL parterre, pris comme tout, est partagé en 8 carrés de même aire : 3 carrés reçoivent des fines herbes, puis 2 carrés distincts reçoivent des fleurs. Il n’y a aucun chevauchement. Illustration textuelle de l'état final à compléter : une bande de 8 cases égales, dont 3 marquées puis 2 autres cases distinctes.",
+      "reponse_attendue": "3/8 + 2/8 = 5/8. Vérification : 5/8 − 2/8 = 3/8. Une illustration doit représenter 8 parts égales du même tout.",
+      "criteres": [
+        "Nomme le parterre unique comme tout et reconnaît d carrés de même aire.",
+        "Écrit exactement la somme (a+b)/d et représente les deux groupes distincts.",
+        "Vérifie par la soustraction inverse en interprétant la surface retrouvée.",
+        "Produis seul la solution sans indice ni corrigé affiché."
+      ],
+      "feedback": "Si tu as additionné les dénominateurs, dessine le parterre entier et recompte les carrés; le tout reste unique. Contrôle recommandé : retirer les fleurs pour retrouver les fines herbes.",
+      "difficulte": "transfert",
+      "representation": "parterre illustré, surface",
+      "seed": 140140044,
+      "parametres": {
+        "variables": [
+          "d",
+          "a",
+          "b"
+        ],
+        "domaines": {
+          "d": [
+            6,
+            8,
+            10
+          ],
+          "a": [
+            2,
+            3,
+            4
+          ],
+          "b": [
+            2,
+            3
+          ]
+        },
+        "contraintes": [
+          "(d,a,b) appartient uniquement à la liste de candidats approuvés",
+          "1 ≤ a, 1 ≤ b, a+b ≤ d",
+          "même tout et parts égales",
+          "pas de chevauchement entre les groupes ajoutés"
+        ],
+        "candidats": [
+          {
+            "d": 8,
+            "a": 3,
+            "b": 2
+          },
+          {
+            "d": 6,
+            "a": 2,
+            "b": 3
+          },
+          {
+            "d": 10,
+            "a": 4,
+            "b": 3
+          }
+        ],
+        "gabarit_stimulus": "Un SEUL parterre, pris comme tout, est partagé en {d} carrés de même aire : {a} carrés reçoivent des fines herbes, puis {b} carrés distincts reçoivent des fleurs. Il n’y a aucun chevauchement.",
+        "gabarit_consigne": "Quelle fraction de la surface du parterre est plantée après ces deux aménagements?",
+        "selection": "indice = seed modulo longueur(candidats) ; candidats ordonnés comme dans ce champ, aucune permutation ni génération libre",
+        "index_selectionne": 0,
+        "instance_selectionnee": {
+          "d": 8,
+          "a": 3,
+          "b": 2
+        },
+        "operation": "addition",
+        "algorithme_resolution": "Choisir le triplet candidats[seed modulo 3], dans l'ordre énuméré. Sur un seul tout partagé en d parts égales, montrer a puis b parts supplémentaires non chevauchantes; poser a/d+b/d=(a+b)/d; réduire avec pgcd(a+b,d) si pertinent; vérifier par (a+b)/d-b/d=a/d.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "d": 8,
+              "a": 3,
+              "b": 2
+            },
+            "reponse_exacte": "3/8 + 2/8 = 5/8",
+            "verification_exacte": "5/8 − 2/8 = 3/8",
+            "numerateur_resultant": 5
+          },
+          {
+            "variables": {
+              "d": 6,
+              "a": 2,
+              "b": 3
+            },
+            "reponse_exacte": "2/6 + 3/6 = 5/6",
+            "verification_exacte": "5/6 − 3/6 = 2/6",
+            "numerateur_resultant": 5
+          },
+          {
+            "variables": {
+              "d": 10,
+              "a": 4,
+              "b": 3
+            },
+            "reponse_exacte": "4/10 + 3/10 = 7/10",
+            "verification_exacte": "7/10 − 3/10 = 4/10",
+            "numerateur_resultant": 7
+          }
+        ],
+        "variation_autorisee": "Uniquement les trois triplets énumérés. Pour chaque variante, réinstancier le gabarit_stimulus avec d,a,b, conserver le gabarit_consigne, reconstruire la description de bande (d cases, a marques initiales, b ajoutées/retirées/isolées), calculer le corrigé et la vérification par algorithme_resolution; aucune génération textuelle libre."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-014-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-014-ev-01",
+      "mode": "parametrique",
+      "consigne": "Quelle fraction de la longueur totale reste comptabilisée après correction? Dessine ou décris les parts, écris le calcul, puis vérifie la réponse.",
+      "stimulus": "Un SEUL parcours balisé divisé en 10 tronçons de même longueur sert d’unité : un relevé indique 7 tronçons comptabilisés, puis une correction retire 3 de ces tronçons de ce relevé. Illustration textuelle : 10 cases égales, 7 initialement marquées, et 3 de ces marques à retirer.",
+      "reponse_attendue": "7/10 − 3/10 = 4/10 = 2/5. Vérification : 4/10 + 3/10 = 7/10. Une illustration doit représenter 10 parts égales du même tout.",
+      "criteres": [
+        "Nomme le parcours unique comme tout et identifie d tronçons de même longueur.",
+        "Écrit exactement (a−b)/d avec une représentation des tronçons retirés et restants.",
+        "Vérifie par l’addition inverse et interprète la longueur restant comptabilisée.",
+        "Produis seul la solution sans indice ni corrigé affiché."
+      ],
+      "feedback": "Le relevé corrigé doit diminuer : barrer les tronçons retirés, puis additionner le nombre restant au nombre retiré pour retrouver le relevé initial.",
+      "difficulte": "transfert",
+      "representation": "trajet illustré, longueur",
+      "seed": 140140047,
+      "parametres": {
+        "variables": [
+          "d",
+          "a",
+          "b"
+        ],
+        "domaines": {
+          "d": [
+            6,
+            8,
+            10
+          ],
+          "a": [
+            5,
+            6,
+            7
+          ],
+          "b": [
+            2,
+            3
+          ]
+        },
+        "contraintes": [
+          "(d,a,b) appartient uniquement à la liste de candidats approuvés",
+          "1 ≤ b ≤ a ≤ d",
+          "même tout et parts égales",
+          "ne jamais retirer des parts non marquées"
+        ],
+        "candidats": [
+          {
+            "d": 10,
+            "a": 7,
+            "b": 3
+          },
+          {
+            "d": 8,
+            "a": 6,
+            "b": 2
+          },
+          {
+            "d": 6,
+            "a": 5,
+            "b": 2
+          }
+        ],
+        "gabarit_stimulus": "Un SEUL parcours balisé divisé en {d} tronçons de même longueur sert d’unité : un relevé indique {a} tronçons comptabilisés, puis une correction retire {b} de ces tronçons de ce relevé.",
+        "gabarit_consigne": "Quelle fraction de la longueur totale reste comptabilisée après correction?",
+        "selection": "indice = seed modulo longueur(candidats) ; candidats ordonnés comme dans ce champ, aucune permutation ni génération libre",
+        "index_selectionne": 0,
+        "instance_selectionnee": {
+          "d": 10,
+          "a": 7,
+          "b": 3
+        },
+        "operation": "soustraction",
+        "algorithme_resolution": "Choisir le triplet candidats[seed modulo 3], dans l'ordre énuméré. Montrer a parts sur d dans un seul tout; retirer b des a parts; poser a/d−b/d=(a−b)/d; réduire via pgcd(a−b,d) si pertinent; vérifier (a−b)/d+b/d=a/d.",
+        "validations_exemples": [
+          {
+            "variables": {
+              "d": 10,
+              "a": 7,
+              "b": 3
+            },
+            "reponse_exacte": "7/10 − 3/10 = 4/10 = 2/5",
+            "verification_exacte": "4/10 + 3/10 = 7/10",
+            "numerateur_resultant": 4
+          },
+          {
+            "variables": {
+              "d": 8,
+              "a": 6,
+              "b": 2
+            },
+            "reponse_exacte": "6/8 − 2/8 = 4/8 = 1/2",
+            "verification_exacte": "4/8 + 2/8 = 6/8",
+            "numerateur_resultant": 4
+          },
+          {
+            "variables": {
+              "d": 6,
+              "a": 5,
+              "b": 2
+            },
+            "reponse_exacte": "5/6 − 2/6 = 3/6 = 1/2",
+            "verification_exacte": "3/6 + 2/6 = 5/6",
+            "numerateur_resultant": 3
+          }
+        ],
+        "variation_autorisee": "Uniquement les trois triplets énumérés. Pour chaque variante, réinstancier le gabarit_stimulus avec d,a,b, conserver le gabarit_consigne, reconstruire la description de bande (d cases, a marques initiales, b ajoutées/retirées/isolées), calculer le corrigé et la vérification par algorithme_resolution; aucune génération textuelle libre."
+      },
+      "validation_status": "a_revoir"
+    }
+  ]
+}

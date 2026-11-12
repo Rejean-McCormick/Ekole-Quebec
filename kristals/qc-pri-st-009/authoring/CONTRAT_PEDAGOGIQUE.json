@@ -1,0 +1,87 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Relier des phénomènes lumineux ou sonores à leurs sources et propriétés.",
+  "concepts": [
+    "lumière",
+    "ombre",
+    "vibration",
+    "propagation"
+  ],
+  "preuve_attendue": "Démontrer une variation de lumière ou de son par une manipulation sûre.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-st-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-009-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Démontrer une variation de lumière ou de son par une manipulation sûre.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "banque_items": "evaluation/BANQUE_ITEMS.json",
+        "politique_variation": "corpus fermé à clé variante_id, A active, B à réviser; pas de génération libre",
+        "test_reproductibilite": "clé (item_id,variante_id) sans aléatoire, jeu de données stocké dans chaque item"
+      },
+      "review_status": "a_revoir",
+      "kristal_id": "qc-pri-st-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Démontrer une variation de lumière ou de son par une manipulation sûre.",
+      "critere_id": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "observation A/B",
+        "schéma annoté",
+        "explication orale ou écrite",
+        "manipulation sûre documentée"
+      ],
+      "variables": {
+        "mode_variation": "scenario_controle",
+        "catalogue_ferme": "evaluation/BANQUE_ITEMS.json: items q-007 à q-010, parametres.variantes",
+        "parametres_permis": [
+          "variante_id=A",
+          "variante_id=B_apres_revue_humaine"
+        ],
+        "premiere_variante_autorisee": "A",
+        "invariants": [
+          "identifiant famille/objectif/critère",
+          "une seule variable manipulée",
+          "réponse sur faits et inférence",
+          "sécurité et accessibilité"
+        ]
+      },
+      "contraintes": [
+        "aucune génération libre d’énoncé, de source scientifique ou de corrigé",
+        "variante A fixe dans la banque; variante B uniquement après revue humaine et essai matériel",
+        "lampe DEL à piles, pas de laser, flamme, secteur ni faisceau vers les yeux",
+        "sons doux et dispositifs fixés par adulte, dispositif alternatif si latex/allergie",
+        "constater honnêtement la variation, y compris non-observation",
+        "deux preuves autonomes, lumière et son, dans des contextes distincts"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md — P1 sécurité, P2 comparaison, P3 observation, P4 interprétation et propagation, P5 autonomie; seuil P1–P5 ≥ 2 dans chacune des preuves q-009 et q-010",
+      "source": [
+        "source master v1.2 : authoring/PARCOURS.md, CONTRAT_PEDAGOGIQUE.json, ALIGNEMENT.md et graphe",
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/PLAN_EVALUATION.md"
+      ],
+      "seed": "st009-corpus-ferme-v1-A",
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

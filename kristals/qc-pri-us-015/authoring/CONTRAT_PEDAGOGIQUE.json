@@ -1,0 +1,99 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-015",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Distinguer ce qui change de ce qui perdure au fil d’une période.",
+  "concepts": [
+    "rupture",
+    "continuité",
+    "temporalité",
+    "preuve"
+  ],
+  "preuve_attendue": "Appuyer deux constats historiques par des éléments datés.",
+  "prerequis_bloquants": [
+    "qc-pri-us-001",
+    "qc-pri-us-005"
+  ],
+  "ordre_conseille": [
+    "qc-pri-us-008"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-015-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Appuyer deux constats historiques par des éléments datés.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Seulement corpus fixes approuvés L1-L3, B1-B3, E1-E3, J1-J3 en entraînement, R1-R3 et M1-M3 en maîtrise; adaptation de lecture et de réponse sans modifier dates/faits.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_scenarios": "fixe, sans tirage ni génération IA libre pour les épreuves 009/010"
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-us-015",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "tableau de traces datées",
+        "mini-frise chronologique",
+        "analyse écrite ou orale avec preuves codées"
+      ],
+      "variables": {
+        "mode": "corpus_fixes_controles",
+        "scenario_pool": [
+          "L1-L3 bibliothèque fictive",
+          "B1-B3 traversée fictive",
+          "E1-E3 école fictive",
+          "J1-J3 jardin fictif",
+          "R1-R3 atelier de reliure fictif — preuve A",
+          "M1-M3 marché fictif — preuve B"
+        ],
+        "algorithme_generation": "aucun : choix explicite de scénario fixé; toute variante éditoriale soumise à revue humaine",
+        "generateur_libre": false
+      },
+      "contraintes": [
+        "deux constats historiquement bornés : changement et continuité",
+        "dates et codes de pièces exacts",
+        "même objet et critère comparés",
+        "distinguer observé, inféré et inconnu",
+        "aucun fait réel inventé à partir de fonds fictifs",
+        "deux preuves distinctes indépendantes",
+        "ne jamais décider la maîtrise à partir d’une note unique"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "chronologie",
+          "constat_changement",
+          "constat_continuite",
+          "preuves_datees",
+          "portee_et_autonomie"
+        ],
+        "decision": "deux preuves indépendantes chacune satisfaisante dans les cinq dimensions",
+        "niveaux": [
+          0,
+          1,
+          2
+        ]
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/PLAN_EVALUATION.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

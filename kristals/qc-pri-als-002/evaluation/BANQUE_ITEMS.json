@@ -1,0 +1,348 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-als-002",
+  "family_id": "qc-pri-als-002-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-als-002-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "fixe",
+      "usage": "diagnostic_formatif",
+      "representation": "objets_et_interaction",
+      "consigne": "Observe la table : un crayon, une pomme et une règle, tous sans étiquettes. Joue l'élève qui veut écrire. Réponds en anglais à ton partenaire.",
+      "stimulus": "Scène décrite en français si besoin; partenaire : 'What do you need?' puis, après la demande, 'Here you go.'",
+      "reponse_attendue": "Production possible : 'A pencil, please.' ou 'I need a pencil, please.' Le crayon est demandé, pas la pomme ni la règle; le partenaire remet le crayon.",
+      "criteres": [
+        "crit-1 — le mot cible pencil identifie le crayon et non un autre objet",
+        "crit-1 — la prise de parole constitue une demande anglaise intelligible et adaptée au tour du partenaire"
+      ],
+      "feedback": "Si l'élève choisit apple : montrer les fonctions des référents, associer crayon↔pencil, puis demander un ruler sans traduction fournie. Si l'accent varie mais le choix est compris, valider le sens.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "fixe",
+      "usage": "formatif",
+      "representation": "contraste_objets_et_requete",
+      "consigne": "Deux cartes non étiquetées représentent une gomme à effacer et une règle. Tu as fait une erreur au crayon. Demande l'objet qui permet d'effacer; réponds à ton partenaire en anglais.",
+      "stimulus": "Partenaire : 'Can I help you?' ; les cartes sont décrites au besoin sans noms anglais.",
+      "reponse_attendue": "'Do you have an eraser?' / 'An eraser, please.'; le référent correct est la gomme; ruler serait erroné pour effacer.",
+      "criteres": [
+        "crit-1 — sélection explicite de eraser dans la demande",
+        "crit-1 — choix de la catégorie matériel et fonction effacer",
+        "crit-1 — expression compréhensible adressée au partenaire"
+      ],
+      "feedback": "Si ruler est choisi, demander quel objet efface, réassocier eraser au référent, puis tester notebook dans une nouvelle demande.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "fixe",
+      "usage": "formatif",
+      "representation": "scene_collation_fictive",
+      "consigne": "Au comptoir imaginaire, une pomme et une bouteille d'eau sont marquées sur une carte sans mots anglais. Demande les deux produits en anglais.",
+      "stimulus": "Vendeur : 'Hello! What would you like?' ; la scène comporte aussi une règle non sélectionnée.",
+      "reponse_attendue": "'I'd like an apple and some water, please.' ou 'An apple and water, please.'; apple et water sont les référents demandés, dans une commande.",
+      "criteres": [
+        "crit-1 — apple et water employés pour les bons produits",
+        "crit-1 — fonction de commande intelligible",
+        "crit-1 — pas de substitution par ruler, objet hors catégorie"
+      ],
+      "feedback": "Si l'élève nomme ruler, contraster objet de classe et produit du kiosque, puis formuler une autre demande avec banana. Les articles exacts sont modélisés, pas un obstacle autonome.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "fixe",
+      "usage": "formatif",
+      "representation": "plan_quartier_fictif",
+      "consigne": "La carte inventée présente un parc et une bibliothèque sans étiquette. Ton personnage veut jouer dehors. Propose le lieu correspondant au partenaire en anglais.",
+      "stimulus": "Partenaire : 'Where should we go?' ; une image montre le parc (arbres et banc) et l'autre des livres en rayons.",
+      "reponse_attendue": "'Let's go to the park.' ou 'The park, please.'; le mot attendu est park et non library.",
+      "criteres": [
+        "crit-1 — le mot park désigne le lieu avec arbres et banc",
+        "crit-1 — proposition compréhensible d'un lieu",
+        "crit-1 — réponse cohérente à la question du partenaire"
+      ],
+      "feedback": "Si library est choisi, faire identifier la fonction des deux lieux; sur une nouvelle carte, demander un lieu pour lire et attendre library sans amorce.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "fixe",
+      "usage": "formatif",
+      "representation": "contre_exemple_dialogue",
+      "consigne": "Tu joues un kiosque fictif. Une personne dit : 'I'd like a ruler, please' en désignant un sandwich. Explique brièvement la difficulté (français permis), puis remplace la mauvaise demande par une demande anglaise pertinente.",
+      "stimulus": "Scène : une carte 'sandwich' non étiquetée et une règle dessinée ailleurs; phrase à réparer : 'I'd like a ruler, please.'",
+      "reponse_attendue": "Explication possible : ruler est une règle de classe, pas le sandwich montré. Réparation : 'I'd like a sandwich, please.' ou 'A sandwich, please.'",
+      "criteres": [
+        "crit-1 — identification de l'incohérence de catégorie",
+        "crit-1 — emploi de sandwich comme référent de la demande",
+        "crit-1 — formulation de demande au lieu d'une phrase sans but"
+      ],
+      "feedback": "Si seule la phrase apprise est répétée, faire décrire l'objet sans l'appeler en anglais puis reformuler; transfert sur water dans un autre kiosque.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "fixe",
+      "usage": "formatif",
+      "representation": "inversion_roles_et_objets",
+      "consigne": "Tu joues la personne qui offre du matériel. Ton partenaire demande un cahier, puis une gomme à effacer. Réponds en anglais, nomme ce que tu donnes et fais au moins une prise de parole en réponse à chaque demande.",
+      "stimulus": "Cartes sans étiquettes : notebook, eraser, ruler. Partenaire : 'Do you have a notebook?' puis 'And an eraser?'",
+      "reponse_attendue": "'Yes, here is a notebook.' puis 'Yes, an eraser. Here you go.' ou toute réponse naturelle équivalente; les objets remis correspondent aux deux noms.",
+      "criteres": [
+        "crit-1 — les mots notebook et eraser sont associés aux bons objets",
+        "crit-1 — here you go utilisé par la personne qui remet, non celle qui demande",
+        "crit-1 — réponse aux deux sollicitations"
+      ],
+      "feedback": "Si l'élève demande au lieu de donner, rejouer les rôles avec un objet différent (pencil) et vérifier la phrase de remise sans modèle.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "fixe",
+      "usage": "formatif",
+      "representation": "mini_dialogue_classe",
+      "consigne": "Dans une classe fictive, tu as besoin d'un crayon et d'une gomme pour corriger un dessin. Demande les deux, en deux interventions anglaises distinctes.",
+      "stimulus": "Partenaire : 'What do you need?' puis 'Anything else?' ; cartes sans texte : pencil, eraser, water (distracteur).",
+      "reponse_attendue": "Premier tour : 'A pencil, please.' Deuxième tour : 'An eraser too, please.'; accepter 'I need a pencil' / 'Can I have an eraser?' sans indices.",
+      "criteres": [
+        "crit-1 — pencil et eraser choisis pour le travail décrit",
+        "crit-1 — deux tours cohérents avec relance",
+        "crit-1 — emploi de demandes intelligibles plutôt que répétition de la même liste"
+      ],
+      "feedback": "Si le deuxième tour répète pencil, faire pratiquer la relance sur notebook puis rejouer une nouvelle boîte sans mot soufflé.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "fixe",
+      "usage": "formatif",
+      "representation": "choix_lieux_en_dialogue",
+      "consigne": "Dans un quartier inventé, ton personnage veut acheter un cahier, puis emprunter un livre. Propose les deux lieux anglais successivement.",
+      "stimulus": "Partenaire : 'Where should we go first?' puis 'And after that?' ; cartes de store, library et park sans mots anglais.",
+      "reponse_attendue": "'Let's go to the store first.' puis 'The library next.' ou formulation équivalente. store = magasin; library = bibliothèque.",
+      "criteres": [
+        "crit-1 — les noms store et library correspondent aux buts successifs",
+        "crit-1 — expression de proposition appropriée",
+        "crit-1 — deux prises de parole liées à l'échange"
+      ],
+      "feedback": "Si park est utilisé pour emprunter un livre, distinguer les lieux par fonction; transférer à une carte school/park dans une scène nouvelle.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "scenario_controle",
+      "usage": "preuve_maitrise_A",
+      "representation": "objets_sans_etiquette_et_dialogue_a_deux_tours",
+      "consigne": "Preuve A à réaliser sans amorce lexicale : tu prépares une affiche fictive. Trois images non étiquetées et décrites au besoin montrent les objets que tu veux emprunter : un crayon, un cahier et une règle (une gomme n'est pas sélectionnée). Demande-les en anglais à ton partenaire en **deux prises de parole**, dont une réponse à sa relance.",
+      "stimulus": "Bureau de prêt imaginaire, partenaire : 'Hi! What do you need for your poster?' [réponse de l'élève] 'Anything else?' [seconde réponse de l'élève]. Aucun mot anglais cible n'est montré; les 3 images sont explicitement marquées comme nécessaires.",
+      "reponse_attendue": "Exemple de correction A_base : 'I need a pencil and a notebook, please.' / 'A ruler too, please. Thank you!' (ordre et expressions équivalents acceptés). Trois noms cibles distincts : pencil, notebook, ruler. Pour variante A_reprise revue : 'An eraser and a notebook, please.' / 'A ruler too, please.' (eraser, notebook, ruler). Les 3 mots de la variante doivent provenir de l'élève, pas du partenaire.",
+      "criteres": [
+        "crit-1 — L=2 : trois mots cibles distincts et associés à chacun des trois objets demandés",
+        "crit-1 — C=2 : demande appropriée à un bureau de prêt",
+        "crit-1 — T=2 : demande initiale et précision pertinente après Anything else?",
+        "crit-1 — I=2 : message compréhensible sans mot donné, traduit ou choisi par l'évaluateur (accent non natif accepté)",
+        "crit-1 — les 4 dimensions à 2 selon GRILLE_MAITRISE.md; preuve A seule ne suffit jamais"
+      ],
+      "feedback": "Si un mot ou une catégorie est confondu, noter L, réenseigner son référent, puis vérifier une variante nouvelle. Si l'élève ne répond pas à Anything else?, travailler l'interaction T. Toute aide lexicale invalide la tentative comme preuve autonome; traiter cela en formatif.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "selection": "manuelle_sans_tirage",
+        "variantes_autorisees": [
+          {
+            "code": "A_base",
+            "contexte": "bureau_de_pret_pour_affiche",
+            "objets_requis_fr": [
+              "crayon",
+              "cahier",
+              "règle"
+            ],
+            "cibles_en": [
+              "pencil",
+              "notebook",
+              "ruler"
+            ],
+            "objet_non_requis_fr": "gomme à effacer"
+          },
+          {
+            "code": "A_reprise",
+            "contexte": "bureau_de_pret_de_latelier_fictif",
+            "objets_requis_fr": [
+              "gomme à effacer",
+              "cahier",
+              "règle"
+            ],
+            "cibles_en": [
+              "eraser",
+              "notebook",
+              "ruler"
+            ],
+            "objet_non_requis_fr": "crayon"
+          }
+        ],
+        "contraintes": "3 référents graphiquement désignés, non étiquetés en anglais; question initiale et relance Anything else?; 2 tours de l’élève; 3 mots différents de la variante; situation classe; pas de banque de mots; variante de reprise à valider humainement",
+        "validation": "corrige_textuel_par_variante_documente;aucun_moteur_aleatoire_ni_solveur",
+        "seed": null
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "scenario_controle",
+      "usage": "preuve_maitrise_B",
+      "representation": "kiosque_fictif_sans_etiquettes_et_dialogue",
+      "consigne": "Preuve B à une autre occasion : tu représentes une personne fictive au kiosque d'une rencontre. Trois produits dessinés et décrits au besoin sont sélectionnés : pomme, eau, banane (un sandwich est non sélectionné). Demande ces trois produits en anglais en **deux prises de parole**, puis réponds à la relance sans banque de mots.",
+      "stimulus": "Kiosque imaginaire sans nourriture réelle, partenaire : 'Hello! What would you like?' [réponse] 'Anything else?' [réponse]. Aucun mot anglais cible ni expression de réponse n'est affiché.",
+      "reponse_attendue": "Correction B_base : 'I'd like an apple and some water, please.' / 'A banana too, please. Thank you!' Trois noms distincts : apple, water, banana. Variante B_reprise à revue : 'I'd like a sandwich and some water, please.' / 'An apple too, please.' (sandwich, water, apple). 'Water, please' accepté si intelligible; ordre variable.",
+      "criteres": [
+        "crit-1 — L=2 : trois noms cibles distincts correspondant aux produits demandés",
+        "crit-1 — C=2 : acte de commande approprié au kiosque, sans objet hors catégorie",
+        "crit-1 — T=2 : deux interventions, dont une précision après la relance neutre",
+        "crit-1 — I=2 : les demandes sont compréhensibles et l'élève choisit les mots sans aide lexicale",
+        "crit-1 — les 4 dimensions à 2 selon GRILLE_MAITRISE.md; preuve B ET preuve A sur occasions différentes pour conclure"
+      ],
+      "feedback": "En cas de demande d'un produit non marqué, expliciter le code C/L et retravailler l'observation du référent; si la réponse après relance manque, pratiquer le deuxième tour sur un autre kiosque fictif. Ne pas juger une préférence réelle ou un accent natif.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "selection": "manuelle_sans_tirage",
+        "variantes_autorisees": [
+          {
+            "code": "B_base",
+            "contexte": "kiosque_de_rencontre_fictive",
+            "produits_requis_fr": [
+              "pomme",
+              "eau",
+              "banane"
+            ],
+            "cibles_en": [
+              "apple",
+              "water",
+              "banana"
+            ],
+            "produit_non_requis_fr": "sandwich"
+          },
+          {
+            "code": "B_reprise",
+            "contexte": "comptoir_dexposition_imaginaire",
+            "produits_requis_fr": [
+              "sandwich",
+              "eau",
+              "pomme"
+            ],
+            "cibles_en": [
+              "sandwich",
+              "water",
+              "apple"
+            ],
+            "produit_non_requis_fr": "banane"
+          }
+        ],
+        "contraintes": "3 produits dessinés sélectionnés, aucun achat/consommation, sans mot anglais cible, question What would you like? puis Anything else?, 2 tours, 3 noms distincts de la variante, variante de reprise à valider humainement",
+        "validation": "corrige_textuel_par_variante_documente;aucun_moteur_aleatoire_ni_solveur",
+        "seed": null
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "fixe",
+      "usage": "transfert_formatif",
+      "representation": "club_fictif_et_inversion_role",
+      "consigne": "Dans un atelier fictif, tu joues la personne qui distribue du matériel. Le partenaire demande un crayon et un cahier; après deux remises, tu lui offres une gomme en anglais. Produis les phrases nécessaires à ce dialogue.",
+      "stimulus": "Partenaire : 'Can I have a pencil and a notebook?' ; répond; partenaire : 'Thank you. Anything else?' ; l'élève offre un objet représenté par une gomme sans étiquette.",
+      "reponse_attendue": "'Yes, here are a pencil and a notebook.' puis 'Do you need an eraser too?' ; accepter 'Here you go: a pencil and a notebook.' / 'An eraser too?' si le sens et les référents sont nets.",
+      "criteres": [
+        "crit-1 — emploi intelligible de pencil, notebook et eraser dans les bons rôles",
+        "crit-1 — réponse au partenaire et offre appropriée après relance",
+        "crit-1 — adaptation à une personne qui donne plutôt qu'à une personne qui demande"
+      ],
+      "feedback": "Si Here you go est employé par erreur comme une demande, rejouer la distinction donner/demander avec ruler, puis enlever les étiquettes.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-002-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-002-ev-01",
+      "mode": "fixe",
+      "usage": "rappel_formatif_J7",
+      "representation": "carte_nouvelle_et_rappel_differe",
+      "consigne": "Sans liste ni révision immédiate, observe une nouvelle carte inventée : une école et un parc sont marqués. Ton partenaire propose d'aller à l'école puis te demande où aller ensuite. Réponds en anglais avec les deux noms de lieu pertinents.",
+      "stimulus": "À J+7 suggéré, carte school et park sans texte; partenaire : 'Let's go to the school first. Where next?' ; l'élève répond après une question sur le premier lieu si nécessaire : 'Where first?'",
+      "reponse_attendue": "Par exemple 'The school first, then the park.' ou, en deux tours, 'Let's go to the school.' / 'To the park next.' ; noms school et park exacts, destinations distinctes; aucune date d'administration fixe imposée.",
+      "criteres": [
+        "crit-1 — récupération des mots school et park sans modèle lexical",
+        "crit-1 — compréhension de leur fonction de lieux",
+        "crit-1 — réponse pertinente à la relance plutôt qu'une récitation brute"
+      ],
+      "feedback": "Si park et school sont confondus, refaire l'association cartes↔mots dans une pratique guidée et recontrôler après délai avec library/store; ce rappel n'est pas une preuve de maîtrise additionnelle.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

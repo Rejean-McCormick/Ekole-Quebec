@@ -1,0 +1,108 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Représenter la multiplication comme groupes égaux et calculer des produits.",
+  "concepts": [
+    "itération",
+    "tableau",
+    "propriété distributive"
+  ],
+  "preuve_attendue": "Résoudre un problème de groupes égaux avec dessin et calcul.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-006"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ma-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-008-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Résoudre un problème de groupes égaux avec dessin et calcul.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme": "Pour chaque item paramétrique, appliquer les calculs entiers // et % documentés dans parametres; calculer g*n ou g*(b+c), et valider par somme répétée et par décomposition."
+      },
+      "review_status": "contenu_redige_a_revoir",
+      "kristal_id": "qc-pri-ma-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "groupes_dessines",
+        "tableau_rectangulaire",
+        "addition_iteree",
+        "multiplication",
+        "decomposition_distributive"
+      ],
+      "variables": {
+        "g": {
+          "type": "entier",
+          "signification": "nombre de groupes ou de rangées",
+          "domaine_generique": [
+            2,
+            8
+          ]
+        },
+        "n": {
+          "type": "entier",
+          "signification": "éléments par groupe ou colonnes",
+          "domaine_generique": [
+            2,
+            9
+          ]
+        },
+        "b": {
+          "type": "entier",
+          "signification": "première partie de chaque groupe",
+          "domaine_generique": [
+            2,
+            5
+          ]
+        },
+        "c": {
+          "type": "entier",
+          "signification": "deuxième partie de chaque groupe",
+          "domaine_generique": [
+            2,
+            4
+          ]
+        }
+      },
+      "contraintes": [
+        "Facteurs entiers positifs dans les domaines propres à chaque item.",
+        "Chaque groupe ou ligne a la même taille.",
+        "Consigne, schéma et expression doivent préserver les unités et les rôles des facteurs.",
+        "Les valeurs et le corrigé sont déterminés par seed et par des divisions euclidiennes; aucune IA libre ni hasard non contrôlé.",
+        "Un item de maîtrise demande dessin et calcul, sans indice."
+      ],
+      "barreme_ou_rubrique": {
+        "crit-1": {
+          "groupes_egaux": 1,
+          "expression_et_sens": 1,
+          "produit_exact_avec_unite": 1,
+          "justification_autonome": 1
+        },
+        "seuil_par_preuve": "4/4 exigences essentielles atteintes sans aide de fond; deux contextes distincts"
+      },
+      "source": "Production originale sur frame qc-pri-ma-008; règles de gouvernance interne v1.2; détails dans sources/REFERENCES_CONTENU.md",
+      "seed": "Fixe par item dans BANQUE_ITEMS.json; null pour mode fixe; aucune graine globale non définie",
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_validation_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

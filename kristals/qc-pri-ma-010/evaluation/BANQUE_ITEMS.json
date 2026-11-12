@@ -1,0 +1,493 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-010",
+  "family_id": "qc-pri-ma-010-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-010-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Calcule par deux stratégies puis choisis en expliquant ton choix.",
+      "stimulus": "28+12. A : 28+2+10. B : 12+28. Quelle égalité garantit B ? Que rend A facile ?",
+      "reponse_attendue": "28+12=40. A : 28+2+10=40. B : 12+28=40 par commutativité de l’addition. Choix recevable : A forme 30 puis ajoute 10; B échange les termes sans simplification supplémentaire; préférer A peut être justifié, préférer B si la somme inversée est connue aussi.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Si B est rejetée, rappeler que l’on peut échanger les termes d’une addition, pas d’une soustraction; si A donne 42, recompter les 12 unités transférées.",
+      "difficulte": "initial",
+      "representation": "notation_symbolique",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Données et stratégies fixes. Réponses exprimées oralement, en symboles ou en schéma annoté; préférences différentes valables si expliquées correctement.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression": "28+12",
+        "attendu": 40,
+        "comparaison": [
+          40,
+          40
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare deux façons de regrouper; cite les propriétés effectivement utilisées.",
+      "stimulus": "25+16+75. A : (25+16)+75. B : (25+75)+16. Quelle méthode forme 100 rapidement ?",
+      "reponse_attendue": "A : 41+75=116. B : 100+16=116. Pour B, échanger 16 et 75 relève de la commutativité, puis former (25+75) relève de l’associativité. B est avantageuse pour créer une centaine.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Ne pas attribuer l’échange de 16 et 75 à l’associativité seule. Vérifier séparément échange des termes et regroupement des additions.",
+      "difficulte": "initial",
+      "representation": "cartes_numeriques_et_notation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Données et stratégies fixes. Réponses exprimées oralement, en symboles ou en schéma annoté; préférences différentes valables si expliquées correctement.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression": "25+16+75",
+        "attendu": 116,
+        "comparaison": [
+          116,
+          116
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare compensation et décomposition pour une addition; explique le transfert d’unités.",
+      "stimulus": "47+36. A : 47+30+6. B : (47+3)+(36−3). Pourquoi B ne change-t-elle pas le total ?",
+      "reponse_attendue": "47+36=83. A : 77+6=83. B : 50+33=83. B transfère exactement 3 unités du second terme au premier; elle forme 50. A demeure valide et peut être choisie si ses étapes sont plus sûres.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Si 50+36 est proposé, trois unités ont été ajoutées au total. Faire déplacer trois jetons plutôt que les créer.",
+      "difficulte": "intermediaire",
+      "representation": "schema_dizaines_unites_et_notation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Données et stratégies fixes. Réponses exprimées oralement, en symboles ou en schéma annoté; préférences différentes valables si expliquées correctement.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression": "47+36",
+        "attendu": 83,
+        "comparaison": [
+          83,
+          83
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare deux stratégies pour une soustraction près de 100 et choisis.",
+      "stimulus": "152−98. A : 152−100+2. B : (152+2)−(98+2). Laquelle est une compensation des deux termes ?",
+      "reponse_attendue": "152−98=54. A : 52+2=54. B : 154−100=54. B déplace les deux termes de +2 et conserve l’écart; A corrige le retranchement de deux unités en trop. Les deux peuvent convenir.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Si le résultat annoncé est 52, remettre les deux unités retranchées de trop. Pour B, décaler les deux repères du même pas.",
+      "difficulte": "intermediaire",
+      "representation": "droite_numerique_textuelle",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Données et stratégies fixes. Réponses exprimées oralement, en symboles ou en schéma annoté; préférences différentes valables si expliquées correctement.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression": "152-98",
+        "attendu": 54,
+        "comparaison": [
+          54,
+          54
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère une propriété invoquée à tort et explique le choix de méthode correcte.",
+      "stimulus": "63−18. A : 63−20+2. B : 18−63 en prétendant échanger les termes (commutativité). Quelle méthode respecte la soustraction initiale ?",
+      "reponse_attendue": "A : 63−20+2=43+2=45. B est invalide : la soustraction ne permet pas d’échanger les termes. La valeur de 18−63 serait différente de 45 (hors naturels); choisir A.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Ne pas généraliser la commutativité à −. Demander quel nombre est retiré de quelle quantité, avec une ligne graduée.",
+      "difficulte": "intermediaire",
+      "representation": "erreur_a_analyser",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Données et stratégies fixes. Réponses exprimées oralement, en symboles ou en schéma annoté; préférences différentes valables si expliquées correctement.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression": "63-18",
+        "attendu": 45,
+        "comparaison": [
+          45
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare deux parenthésages et choisis celui qui correspond à la soustraction sans parenthèses.",
+      "stimulus": "80−30−10. A : 80−(30−10). B : (80−30)−10. Les deux méthodes produisent-elles la même valeur ?",
+      "reponse_attendue": "Expression originale évaluée de gauche à droite : B=50−10=40. A=80−20=60, donc non équivalente. L’associativité ne s’applique pas à la soustraction en général; choisir B.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Recalculer séparément les parenthèses : 30−10=20 et 80−30=50; un résultat exact d’une expression modifiée ne valide pas le changement.",
+      "difficulte": "intermediaire",
+      "representation": "parentheses_contrastees",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Données et stratégies fixes. Réponses exprimées oralement, en symboles ou en schéma annoté; préférences différentes valables si expliquées correctement.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression": "80-30-10",
+        "attendu": 40,
+        "comparaison": [
+          60,
+          40
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compare le calcul de gauche à droite et l’associativité qui forme 100; justifie la méthode convenable.",
+      "stimulus": "20+36+64. A : (20+36)+64. B : 20+(36+64).",
+      "reponse_attendue": "A : (56)+64=120. B : 20+100=120; associativité de l’addition, car 36+64=100. B est souvent plus simple; A demeure exacte.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Vérifier que les mêmes trois termes sont conservés, puis grouper ceux qui forment 100. Ne pas changer le signe d’un terme.",
+      "difficulte": "intermediaire",
+      "representation": "trois_cartes_et_symboles",
+      "seed": 137,
+      "parametres": {
+        "generateur_id": "p-assoc",
+        "seed_fixe": 137,
+        "variables_instanciees": {
+          "a": 20,
+          "b": 36,
+          "c": 64,
+          "r": 120,
+          "calc_A": 120,
+          "calc_B": 120
+        },
+        "domaines": {
+          "a": "18..26",
+          "b": "29..36",
+          "c": "64..71"
+        },
+        "contraintes": "b+c=100; a,b,c naturels",
+        "resolution_deterministe": "Construire a=18+seed%9, b=29+((seed//9)%8), c=100-b; calculer a+b+c et les deux parenthésages; vérifier égalité et b+c=100.",
+        "regle_reproduction": "Appliquer exactement les divisions entières // et les restes % indiqués dans les variables du contrat, avec cette seed. Aucun tirage externe. Le même seed donne les mêmes termes et corrigé.",
+        "verification_exemple": "20+36+64=120; (20+36)+64=120; 20+(36+64)=120.",
+        "variation_autorisee": "Uniquement seeds entières >=0; ne pas modifier la structure de tâche, les critères ou l’algorithme."
+      },
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Données et stratégies fixes. Réponses exprimées oralement, en symboles ou en schéma annoté; préférences différentes valables si expliquées correctement.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression_terms": [
+          20,
+          36,
+          64
+        ],
+        "attendu": 120,
+        "comparaison": [
+          120,
+          120
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compare décomposition et compensation qui fait une dizaine; justifie la transformation.",
+      "stimulus": "45+39. A : 45+(30)+9. B : (45+5)+(39−5).",
+      "reponse_attendue": "A : 45+30+9=84. B : 50+34=84; transférer 5 du second terme au premier conserve la somme, et 50 est multiple de dix. B est commode; A est aussi valide.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Si les résultats divergent, vérifier simultanément +k et −k et contrôler que le second terme demeure naturel.",
+      "difficulte": "intermediaire",
+      "representation": "deux_piles_d_unites",
+      "seed": 428,
+      "parametres": {
+        "generateur_id": "p-comp-somme",
+        "seed_fixe": 428,
+        "variables_instanciees": {
+          "a": 45,
+          "b": 39,
+          "k": 5,
+          "r": 84,
+          "calc_A": 84,
+          "calc_B": 84
+        },
+        "domaines": {
+          "a": "41..48",
+          "b": "23..59",
+          "k": "2..9"
+        },
+        "contraintes": "2<=k<=9 et b>=k; a+k multiple de 10",
+        "resolution_deterministe": "Construire a=41+seed%8, b=23+((seed//8)%37), k=10-(a%10); vérifier 0<k<=b; r=a+b=(a+k)+(b-k).",
+        "regle_reproduction": "Appliquer exactement les divisions entières // et les restes % indiqués dans les variables du contrat, avec cette seed. Aucun tirage externe. Le même seed donne les mêmes termes et corrigé.",
+        "verification_exemple": "45+39=84; 50+34=84; 39>=5.",
+        "variation_autorisee": "Uniquement seeds entières >=0; ne pas modifier la structure de tâche, les critères ou l’algorithme."
+      },
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Données et stratégies fixes. Réponses exprimées oralement, en symboles ou en schéma annoté; préférences différentes valables si expliquées correctement.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression_terms": [
+          45,
+          39
+        ],
+        "attendu": 84,
+        "comparaison": [
+          84,
+          84
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compare retrancher 100 puis corriger à la compensation des deux termes; indique ton choix.",
+      "stimulus": "235−96. A : 235−100+4. B : (235+4)−(96+4).",
+      "reponse_attendue": "A : 135+4=139. B : 239−100=139. B augmente les deux termes de 4 : même différence; A rétablit 4 unités soustraites en trop. Choix argumenté entre les deux.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Si A finit par −k, rappeler qu’en soustrayant 100 au lieu de b, on a retranché k de trop; le rendre. Si B n’ajuste qu’un terme, l’écart change.",
+      "difficulte": "intermediaire",
+      "representation": "droite_numerique_textuelle",
+      "seed": 515,
+      "parametres": {
+        "generateur_id": "p-comp-diff",
+        "seed_fixe": 515,
+        "variables_instanciees": {
+          "a": 235,
+          "b": 96,
+          "k": 4,
+          "r": 139,
+          "calc_A": 139,
+          "calc_B": 139
+        },
+        "domaines": {
+          "a": "200..279",
+          "b": "95..99",
+          "k": "1..5"
+        },
+        "contraintes": "a>=b; b+k=100; deux termes augmentés du même k",
+        "resolution_deterministe": "Construire a=200+seed%80, b=95+((seed//80)%5), k=100-b; vérifier b+k=100 et a-b=(a+k)-(b+k)=a-100+k.",
+        "regle_reproduction": "Appliquer exactement les divisions entières // et les restes % indiqués dans les variables du contrat, avec cette seed. Aucun tirage externe. Le même seed donne les mêmes termes et corrigé.",
+        "verification_exemple": "235−96=139; 235−100+4=139; 239−100=139.",
+        "variation_autorisee": "Uniquement seeds entières >=0; ne pas modifier la structure de tâche, les critères ou l’algorithme."
+      },
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Données et stratégies fixes. Réponses exprimées oralement, en symboles ou en schéma annoté; préférences différentes valables si expliquées correctement.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression_terms": [
+          235,
+          96
+        ],
+        "attendu": 139,
+        "comparaison": [
+          139,
+          139
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compare addition successive et regroupement en deux centaines; justifie la stratégie la plus avantageuse.",
+      "stimulus": "48+52+41+59. A : calculer de gauche à droite. B : (48+52)+(41+59).",
+      "reponse_attendue": "A : 48+52=100, puis +41=141, puis +59=200. B : (48+52)+(41+59)=100+100=200. B rend évidentes les deux centaines, par associativité; les deux sont exactes.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Rechercher les paires qui totalisent 100 avant de calculer chaque somme; ne jamais oublier un terme du regroupement.",
+      "difficulte": "transfert",
+      "representation": "quatre_cartes_et_symboles",
+      "seed": 772,
+      "parametres": {
+        "generateur_id": "p-quatre-termes",
+        "seed_fixe": 772,
+        "variables_instanciees": {
+          "a": 48,
+          "b": 52,
+          "c": 41,
+          "d": 59,
+          "r": 200,
+          "calc_A": 200,
+          "calc_B": 200
+        },
+        "domaines": {
+          "a": "30..58",
+          "b": "42..70",
+          "c": "15..48",
+          "d": "52..85"
+        },
+        "contraintes": "a+b=100; c+d=100; tous termes naturels",
+        "resolution_deterministe": "Construire a=30+seed%29, b=100-a, c=15+((seed//29)%34), d=100-c; vérifier a+b=100, c+d=100, somme 200.",
+        "regle_reproduction": "Appliquer exactement les divisions entières // et les restes % indiqués dans les variables du contrat, avec cette seed. Aucun tirage externe. Le même seed donne les mêmes termes et corrigé.",
+        "verification_exemple": "48+52+41+59=200; (48+52)+(41+59)=200.",
+        "variation_autorisee": "Uniquement seeds entières >=0; ne pas modifier la structure de tâche, les critères ou l’algorithme."
+      },
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Données et stratégies fixes. Réponses exprimées oralement, en symboles ou en schéma annoté; préférences différentes valables si expliquées correctement.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression_terms": [
+          48,
+          52,
+          41,
+          59
+        ],
+        "attendu": 200,
+        "comparaison": [
+          200,
+          200
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME 1 — Calcule le total et compare les deux stratégies sans indice sur les règles.",
+      "stimulus": "Contexte A, kiosque de fruits : un kiosque prépare 58 pommes et 27 poires; combien de fruits ? Stratégie A : 58+20+7. Stratégie B : (58+2)+(27−2). Explique laquelle te convient le mieux et pourquoi.",
+      "reponse_attendue": "85 fruits. A : 58+20+7=78+7=85. B : 60+25=85, car +2 et −2 transfèrent deux fruits d’un groupe à l’autre sans changer le total. B peut convenir parce que 60+25 est simple; A peut convenir si la décomposition est mieux maîtrisée. Les deux sont exactes, choix justifié exigé.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Si une somme devient 87, vérifier si deux unités ont été créées plutôt que transférées; fournir cette rétroaction après la preuve, puis un item neuf.",
+      "difficulte": "transfert",
+      "representation": "scenario_inventaire_objets",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Contexte, nombres et deux stratégies immuables; seules modalités de réponse varient. À administrer sans aide procédurale et à conserver distinct de q-012.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression": "58+27",
+        "attendu": 85,
+        "comparaison": [
+          85,
+          85
+        ],
+        "unite": "fruits"
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-010-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-010-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME 2 — Calcule la distance restante et compare les deux stratégies sans indice sur les règles.",
+      "stimulus": "Contexte B, randonnée : un sentier mesure 324 m; on a parcouru 198 m. Quelle distance reste-t-il ? Stratégie A : 324−200+2. Stratégie B : (324+2)−(198+2). Quelle stratégie préfères-tu pour ces nombres, et pourquoi ?",
+      "reponse_attendue": "126 m restants. A : 324−200+2=124+2=126. B : 326−200=126, car +2 aux deux termes conserve l’écart. B ramène le sous-trahend à 200; A corrige une soustraction trop forte. Les deux sont acceptables si l’unité et l’argument sont corrects.",
+      "criteres": [
+        "RÉSULTAT : calculer exactement la valeur initiale, avec unité si donnée.",
+        "VALIDITÉ : établir l’égalité des deux méthodes valides ou détecter et expliquer la méthode invalide; caractériser l’échange, le regroupement ou la compensation.",
+        "COMPARAISON : observer une propriété utile des nombres ou une erreur de transformation, et non seulement la rapidité supposée.",
+        "JUSTIFICATION : choisir une stratégie appropriée, avec un avantage calculatoire précis; autre préférence admise si rigoureuse."
+      ],
+      "feedback": "Si 122 m est obtenu, on a retranché deux unités de trop sans les restituer; si les deux bornes n’ont pas bougé ensemble, la différence a changé. Remédier ensuite, puis nouvelle preuve inédite.",
+      "difficulte": "transfert",
+      "representation": "scenario_distance_droite_numerique",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permise": "Contexte, nombres et deux stratégies immuables; seules modalités de réponse varient. À administrer sans aide procédurale et à conserver distinct de q-011.",
+      "barreme": "4 axes de 0 à 2 points (8 points), selon evaluation/GRILLE_MAITRISE.md.",
+      "controle_numerique": {
+        "expression": "324-198",
+        "attendu": 126,
+        "comparaison": [
+          126,
+          126
+        ],
+        "unite": "m"
+      }
+    }
+  ]
+}

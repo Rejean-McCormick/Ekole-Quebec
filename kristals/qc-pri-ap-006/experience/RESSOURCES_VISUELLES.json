@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ap-006",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Créer une image destinée à communiquer à un public précis.",
+    "concepts": [
+      "destinataire",
+      "image",
+      "message",
+      "lisibilité"
+    ]
+  },
+  "titre_source": "Créer des images médiatiques",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "destinataire, image, message",
+      "prompt_conceptuel": "Concept d'image pour le cours « Créer des images médiatiques ». Représenter un atelier de création présentant matériaux, outils ou éléments plastiques liés à la notion. Mettre en évidence les notions : destinataire, image, message, lisibilité. L'image doit aider à comprendre l'objectif « Créer une image destinée à communiquer à un public précis. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Créer des images médiatiques : destinataire, image, message.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "destinataire, image, message",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Créer des images médiatiques » : montrer une situation où une personne observe, compare ou crée avec des matériaux. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter destinataire, image, message, lisibilité. Cette image sert de point de départ à une activité liée à l'objectif « Créer une image destinée à communiquer à un public précis. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Coin lecture (invitation, public jeune) »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Créer des images médiatiques.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Coin lecture (invitation, public jeune)",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

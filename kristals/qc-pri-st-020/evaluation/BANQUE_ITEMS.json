@@ -1,0 +1,357 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-020",
+  "family_id": "qc-pri-st-020-ev-01",
+  "note_conception": "Scénarios 009 et 010 fixes, sélection déterministe par item_id; aucune variation libre du correcteur et aucune génération IA. Les cartes sont des données de modèles didactiques, pas des relevés de terrain.",
+  "catalogue_scenarios": [
+    {
+      "scenario_id": "prairie_A",
+      "titre": "Prairie fictive, disponibilité du trèfle",
+      "statut": "jeu de cartes original didactique, relations autorisées uniquement comme hypothèses du scénario",
+      "organismes": [
+        "trèfle",
+        "sauterelle",
+        "campagnol",
+        "petit oiseau insectivore",
+        "rapace"
+      ],
+      "cartes": [
+        "Dans ce modèle, la sauterelle consomme le trèfle.",
+        "Le campagnol consomme le trèfle.",
+        "Le petit oiseau insectivore consomme la sauterelle.",
+        "Le rapace consomme le petit oiseau insectivore.",
+        "Le rapace consomme le campagnol."
+      ],
+      "aretes_attendues": [
+        [
+          "trèfle",
+          "sauterelle"
+        ],
+        [
+          "trèfle",
+          "campagnol"
+        ],
+        [
+          "sauterelle",
+          "petit oiseau insectivore"
+        ],
+        [
+          "petit oiseau insectivore",
+          "rapace"
+        ],
+        [
+          "campagnol",
+          "rapace"
+        ]
+      ],
+      "chaines_attendues": [
+        [
+          "trèfle",
+          "sauterelle",
+          "petit oiseau insectivore",
+          "rapace"
+        ],
+        [
+          "trèfle",
+          "campagnol",
+          "rapace"
+        ]
+      ],
+      "ressource_modifiee": "trèfle disponible : diminue dans le scénario",
+      "effet_direct_possible": "La sauterelle et le campagnol pourraient avoir moins de cet aliment; aucune diminution d’effectifs n’est mesurée.",
+      "effet_indirect_possible": "Le petit oiseau pourrait rencontrer moins de sauterelles; le rapace pourrait être touché si ses proies se raréfient.",
+      "incertitude": "Les autres nourritures, réponses des organismes, durées et effectifs ne sont pas renseignés; toutes les conséquences sur les populations sont hypothétiques.",
+      "condition_validation": "Les flèches donnent des consommations dans ce jeu, pas une estimation quantitative de populations."
+    },
+    {
+      "scenario_id": "mare_B",
+      "titre": "Mare fictive, baisse du zooplancton",
+      "statut": "jeu de cartes original didactique, aucune liste d’espèces ou régimes du milieu naturel revendiquée",
+      "organismes": [
+        "algues microscopiques",
+        "zooplancton",
+        "escargot aquatique",
+        "petit poisson",
+        "héron"
+      ],
+      "cartes": [
+        "Dans ce modèle, le zooplancton consomme les algues microscopiques.",
+        "L’escargot aquatique consomme ces algues.",
+        "Le petit poisson consomme le zooplancton.",
+        "Dans ce jeu, le petit poisson consomme aussi l’escargot aquatique.",
+        "Le héron consomme le petit poisson."
+      ],
+      "aretes_attendues": [
+        [
+          "algues microscopiques",
+          "zooplancton"
+        ],
+        [
+          "algues microscopiques",
+          "escargot aquatique"
+        ],
+        [
+          "zooplancton",
+          "petit poisson"
+        ],
+        [
+          "escargot aquatique",
+          "petit poisson"
+        ],
+        [
+          "petit poisson",
+          "héron"
+        ]
+      ],
+      "chaines_attendues": [
+        [
+          "algues microscopiques",
+          "zooplancton",
+          "petit poisson",
+          "héron"
+        ],
+        [
+          "algues microscopiques",
+          "escargot aquatique",
+          "petit poisson",
+          "héron"
+        ]
+      ],
+      "ressource_modifiee": "zooplancton disponible pour les petits poissons : diminue dans le scénario",
+      "effet_direct_possible": "Les petits poissons pourraient perdre une source d’aliment (zooplancton); une autre ressource, l’escargot, demeure dans le jeu.",
+      "effet_indirect_possible": "Le héron pourrait subir un effet indirect si le nombre ou la disponibilité des poissons diminuait réellement.",
+      "incertitude": "Aucun effectif ni taux de remplacement par les escargots n’est fourni; ni mortalité ni baisse du héron ne peuvent être affirmées.",
+      "condition_validation": "L’existence d’une seconde voie vers le poisson impose de discuter de substitution, sans garantir la compensation."
+    }
+  ],
+  "items": [
+    {
+      "item_id": "qc-pri-st-020-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-020-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir des deux cartes, relie chaque aliment à son consommateur par une flèche; explique le sens de chaque flèche.",
+      "stimulus": "Carte A : dans ce jeu une chenille mange la feuille de chou. Carte B : un oiseau insectivore mange cette chenille. Aucun autre aliment n’est donné.",
+      "reponse_attendue": "Réseau exact : chou (feuille) → chenille → oiseau insectivore, soit les arêtes chou→chenille et chenille→oiseau; la flèche pointe vers celui qui reçoit la nourriture et son énergie.",
+      "criteres": [
+        "Deux arêtes conformes aux deux cartes, sans lien inventé.",
+        "Flèches dans le sens aliment vers consommateur.",
+        "Explication du sens de flèche en termes de consommation."
+      ],
+      "feedback": "Si tu écris chenille→chou, relis « la chenille mange le chou » : le chou est ce qui est mangé et doit apparaître au début de la flèche.",
+      "difficulte": "initial",
+      "representation": "deux phrases et chaîne dirigée; réponse par graphe orienté, tableau de paires ou description orale structurée qui préserve les relations alimentaires et la justification scientifique.",
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Stimulus, cartes, sens des flèches et corrigé verrouillés; adaptations autorisées: présentation audio, tactile ou gros caractères, mode de réponse oral, écrit ou sous forme de tableau; jamais de génération IA libre ou ajout d’arête implicite.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-020-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis le tableau et construis un réseau de quatre flèches avec deux chemins liés. Nommer l’organisme à l’origine des deux chemins.",
+      "stimulus": "Tableau des consommations du cas fictif : plant de pois mangé par chenille; plant de pois mangé par souris; chenille mangée par mésange; souris mangée par chouette.",
+      "reponse_attendue": "Quatre flèches : pois→chenille, pois→souris, chenille→mésange, souris→chouette. Deux chaînes : pois→chenille→mésange et pois→souris→chouette. Le pois est l’origine de la bifurcation.",
+      "criteres": [
+        "Quatre flèches seulement, toutes appuyées par les cartes.",
+        "Deux chaînes ayant un organisme source commun.",
+        "Bifurcation reconnue sans inventer de consommation."
+      ],
+      "feedback": "Une unique chaîne n’utilise pas les quatre relations. Commence par les deux consommateurs du pois puis prolonge chaque branche.",
+      "difficulte": "initial",
+      "representation": "tableau vers graphe avec bifurcation; réponse par graphe orienté, tableau de paires ou description orale structurée qui préserve les relations alimentaires et la justification scientifique.",
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Stimulus, cartes, sens des flèches et corrigé verrouillés; adaptations autorisées: présentation audio, tactile ou gros caractères, mode de réponse oral, écrit ou sous forme de tableau; jamais de génération IA libre ou ajout d’arête implicite.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-020-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Sépare les ressources environnementales des liens alimentaires : construis le graphe autorisé et annote une condition non alimentaire de l’habitat.",
+      "stimulus": "Cartes : de l’eau est présente dans la mare; des algues sont consommées par une limnée (escargot d’eau); la limnée est consommée par un poisson, dans ce jeu. Rien n’indique que l’eau est mangée.",
+      "reponse_attendue": "Deux arêtes alimentaires algues→limnée et limnée→poisson. L’eau apparaît dans une note « ressource/condition de l’habitat » et NON sous forme d’une flèche alimentaire eau→poisson.",
+      "criteres": [
+        "Deux relations de consommation correctement tracées.",
+        "Eau classée parmi les conditions non alimentaires.",
+        "Légende et absence de flèche alimentaire créée à partir de l’eau."
+      ],
+      "feedback": "L’eau peut être essentielle aux organismes, mais la flèche des chaînes ne signifie pas simplement « utile à »; place l’eau hors des relations alimentaires.",
+      "difficulte": "initial",
+      "representation": "schéma avec note environnementale; réponse par graphe orienté, tableau de paires ou description orale structurée qui préserve les relations alimentaires et la justification scientifique.",
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Stimulus, cartes, sens des flèches et corrigé verrouillés; adaptations autorisées: présentation audio, tactile ou gros caractères, mode de réponse oral, écrit ou sous forme de tableau; jamais de génération IA libre ou ajout d’arête implicite.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-020-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Fais un réseau à partir de quatre cartes et formule un effet direct POSSIBLE si une ressource diminue. N’ajoute aucune observation non donnée.",
+      "stimulus": "Cartes fictives : feuilles de bouleau mangées par une chenille et par un insecte phyllophage; la chenille est mangée par un oiseau; l’autre insecte est mangé par ce même oiseau. Perturbation déclarée : les feuilles se font plus rares.",
+      "reponse_attendue": "Flèches bouleau→chenille, bouleau→insecte phyllophage, chenille→oiseau, insecte phyllophage→oiseau. Les deux consommateurs de feuilles pourraient trouver moins de cet aliment; l’oiseau pourrait être affecté INDIRECTEMENT si ses proies se raréfient. Aucune mortalité prouvée.",
+      "criteres": [
+        "Quatre arêtes justifiées dans le sens correct.",
+        "Bifurcation et convergence représentées.",
+        "Effet direct et effet indirect distingués, sous condition explicite."
+      ],
+      "feedback": "Si tu dis « l’oiseau meurt », remplace par une proposition conditionnelle fondée sur les deux chemins; aucun effectif n’a été observé.",
+      "difficulte": "intermediaire",
+      "representation": "réseau de quatre liens et prédiction; réponse par graphe orienté, tableau de paires ou description orale structurée qui préserve les relations alimentaires et la justification scientifique.",
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Stimulus, cartes, sens des flèches et corrigé verrouillés; adaptations autorisées: présentation audio, tactile ou gros caractères, mode de réponse oral, écrit ou sous forme de tableau; jamais de génération IA libre ou ajout d’arête implicite.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-020-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Une élève a ajouté « pierre→merle » et « escargot→merle ». Sur la base des cartes, juge chaque arête, retire les liens non documentés et justifie ta décision.",
+      "stimulus": "Cartes originales : limace mangée par merle; merle mangé par rapace; pierre présente sous la mousse; escargot observé dans le même habitat. Aucun régime concernant l’escargot n’est fourni.",
+      "reponse_attendue": "Arêtes autorisées : limace→merle et merle→rapace. Pierre→merle est fausse comme flèche alimentaire (pierre non consommée selon les cartes); escargot→merle est non documentée, même si cela pourrait arriver dans un autre contexte. La simple co-présence ne justifie pas un repas.",
+      "criteres": [
+        "Deux arêtes autorisées conservées.",
+        "Pied de preuve exigé pour chaque consommation ajoutée.",
+        "Différence entre faux type de flèche et relation biologique non documentée."
+      ],
+      "feedback": "Tu ne peux pas décider qu’un animal mange un autre simplement parce qu’ils sont dessinés ensemble : indique le renseignement manquant.",
+      "difficulte": "intermediaire",
+      "representation": "critique d’un modèle et des preuves; réponse par graphe orienté, tableau de paires ou description orale structurée qui préserve les relations alimentaires et la justification scientifique.",
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Stimulus, cartes, sens des flèches et corrigé verrouillés; adaptations autorisées: présentation audio, tactile ou gros caractères, mode de réponse oral, écrit ou sous forme de tableau; jamais de génération IA libre ou ajout d’arête implicite.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-020-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare une donnée, une inférence et une observation manquante pour le même réseau; représente aussi les trois flèches fournies.",
+      "stimulus": "Dans un pré imaginé, du trèfle nourrit une sauterelle; la sauterelle nourrit un oiseau; l’oiseau nourrit un rapace. Nouvelle donnée du récit : la surface de trèfle s’est réduite. Aucune mesure des effectifs animaux n’a été faite.",
+      "reponse_attendue": "Flèches trèfle→sauterelle→oiseau→rapace. Donnée : baisse de surface de trèfle. Inférence : sauterelle pourrait avoir moins de nourriture si non compensée; effet possible en aval. Observation manquante : comptages ou suivis des sauterelles/oiseaux/rapaces et relevé des autres aliments. Ne pas annoncer une baisse de rapaces comme constat.",
+      "criteres": [
+        "Trois arêtes dans le bon ordre.",
+        "Donnée de scénario distincte d’une conclusion animale.",
+        "Prédiction conditionnelle et donnée de vérification proposée."
+      ],
+      "feedback": "Si tu appelles « observation » un changement de rapaces non mesuré, écris « hypothèse » puis indique ce qu’il faudrait observer.",
+      "difficulte": "intermediaire",
+      "representation": "texte, modèle et protocole de vérification; réponse par graphe orienté, tableau de paires ou description orale structurée qui préserve les relations alimentaires et la justification scientifique.",
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Stimulus, cartes, sens des flèches et corrigé verrouillés; adaptations autorisées: présentation audio, tactile ou gros caractères, mode de réponse oral, écrit ou sous forme de tableau; jamais de génération IA libre ou ajout d’arête implicite.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-020-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Crée le réseau des quatre cartes; indique la deuxième nourriture du consommateur et explique pourquoi une pénurie de la première ne prouve pas sa disparition.",
+      "stimulus": "Cartes d'un étang schématique : algues mangées par daphnies; algues mangées par escargots; daphnies mangées par le poisson; escargots aussi mangés par le poisson. Le scénario dit : les daphnies diminuent.",
+      "reponse_attendue": "Flèches algues→daphnies, algues→escargots, daphnies→poisson, escargots→poisson. Le poisson garde l’escargot dans les cartes. Il pourrait recevoir moins de daphnies, mais son effectif ne peut être prédit avec certitude sans quantité et autres ressources.",
+      "criteres": [
+        "Quatre relations reconstituées.",
+        "Convergence vers un consommateur ayant au moins deux ressources.",
+        "Prédiction prudente qui mentionne l’alternative escargot et une incertitude."
+      ],
+      "feedback": "Le poisson n'a pas qu’un seul chemin alimentaire ici : montre son deuxième chemin avant de conclure à une diminution.",
+      "difficulte": "intermediaire",
+      "representation": "réseau avec compensation possible; réponse par graphe orienté, tableau de paires ou description orale structurée qui préserve les relations alimentaires et la justification scientifique.",
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Stimulus, cartes, sens des flèches et corrigé verrouillés; adaptations autorisées: présentation audio, tactile ou gros caractères, mode de réponse oral, écrit ou sous forme de tableau; jamais de génération IA libre ou ajout d’arête implicite.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-020-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-020-ev-01",
+      "mode": "fixe",
+      "consigne": "Présente les cinq liens du scénario en réseau; explique la différence entre deux prédictions après une sécheresse : « les chenilles pourraient avoir moins à manger » et « tous les renards meurent ».",
+      "stimulus": "Sous-bois fictif : arbuste→chenille et arbuste→lièvre dans le sens de consommation; chenille→petit oiseau; lièvre→renard; petit oiseau→renard. La sécheresse pourrait réduire les feuilles; aucun nombre d'animaux n’est donné.",
+      "reponse_attendue": "Réseau exact : arbuste→chenille, arbuste→lièvre, chenille→petit oiseau, lièvre→renard, petit oiseau→renard. La première prédiction est conditionnellement raisonnable si les feuilles diminuent; la mort de tous les renards est une certitude sans preuve. Dire plutôt « le renard pourrait trouver moins de ces proies si elles-mêmes diminuent, sans savoir si d’autres ressources compensent ».",
+      "criteres": [
+        "Cinq arêtes et deux chemins vers le renard.",
+        "Donnée de sécheresse séparée de la possibilité de baisse des feuilles.",
+        "Rejet justifié d’une affirmation certaine non étayée."
+      ],
+      "feedback": "Le réseau décrit ce qui mange quoi, pas le nombre d'animaux. N’en déduis pas une disparition certaine.",
+      "difficulte": "transfert",
+      "representation": "transfert causal et critique d’affirmations; réponse par graphe orienté, tableau de paires ou description orale structurée qui préserve les relations alimentaires et la justification scientifique.",
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Stimulus, cartes, sens des flèches et corrigé verrouillés; adaptations autorisées: présentation audio, tactile ou gros caractères, mode de réponse oral, écrit ou sous forme de tableau; jamais de génération IA libre ou ajout d’arête implicite.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-020-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-020-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME A : à partir des cinq cartes de prairie, construis de mémoire organisationnelle mais avec les cartes visibles un réseau alimentaire COMPLET. Montre deux chaînes reliées; la disponibilité du trèfle diminue. Prédit un effet direct et un effet indirect possibles en citant les flèches et une incertitude. Aucun adulte ne choisit une arête pour toi.",
+      "stimulus": "Prairie_A, texte complet : (1) dans ce modèle la sauterelle consomme le trèfle; (2) le campagnol consomme le trèfle; (3) un petit oiseau insectivore consomme la sauterelle; (4) un rapace consomme l'oiseau; (5) le rapace consomme le campagnol. Donnée perturbatrice : la quantité de trèfle disponible DIMINUE. Toutes les autres ressources, les effectifs et la durée sont inconnus.",
+      "reponse_attendue": "CORRIGÉ FIXÉ : cinq arêtes trèfle→sauterelle, trèfle→campagnol, sauterelle→petit oiseau insectivore, petit oiseau insectivore→rapace, campagnol→rapace. Chaînes trèfle→sauterelle→oiseau→rapace et trèfle→campagnol→rapace. Direct : sauterelle/campagnol pourraient manquer de trèfle. Indirect : oiseau pourrait trouver moins de sauterelles et rapace pourrait être touché si ses deux proies sont moins disponibles. Limite : autres aliments, effectifs et durée non mesurés; aucune disparition certaine.",
+      "criteres": [
+        "M1. Exactement les cinq arêtes des cartes, dans le sens organisme consommé→consommateur, aucun lien supposé.",
+        "M2. Deux chaînes liées de la prairie, bifurcation au trèfle et convergence au rapace identifiables.",
+        "M3. Un impact direct possible sur consommateur de trèfle et indirect possible via au moins deux arêtes, chemin causal expliqué.",
+        "M4. Distingue perturbation donnée, prédiction conditionnelle et au moins une incertitude (autres aliments/effectifs/temps).",
+        "M5. Production et justification autonomes sans indices directifs; aménagements d’accès non directifs permis."
+      ],
+      "feedback": "Si M1 manque, réentraîner le sens et le relevé des cartes; si M3 manque, suivre physiquement deux flèches; si M4 manque, comparer ce qui est donné à ce qui n’est pas observé. Reprogrammer une preuve indépendante après remédiation.",
+      "difficulte": "transfert",
+      "representation": "schéma/tableau libre + justification argumentée, prairie; réponse par graphe orienté, tableau de paires ou description orale structurée qui préserve les relations alimentaires et la justification scientifique.",
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Stimulus, cartes, sens des flèches et corrigé verrouillés; adaptations autorisées: présentation audio, tactile ou gros caractères, mode de réponse oral, écrit ou sous forme de tableau; jamais de génération IA libre ou ajout d’arête implicite.",
+      "validation_status": "a_revoir",
+      "scenario_id": "prairie_A",
+      "selection_scenario": "Sélection figée par numéro d’item; aucun tirage aléatoire ni substitution de données ou de relations; corpus approuvé intégré au JSON."
+    },
+    {
+      "item_id": "qc-pri-st-020-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-020-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME B : sur cette MARE (contexte différent), construis un réseau complet à partir des cinq cartes; écris deux chaînes. La disponibilité du zooplancton diminue : prédis l'effet possible sur le petit poisson et, indirectement, sur le héron; cite sa seconde nourriture, une incertitude et la limite d'une affirmation certaine. Travaille sans indices sur le corrigé.",
+      "stimulus": "Mare_B, texte complet : (1) zooplancton mange algues microscopiques; (2) escargot aquatique mange ces algues; (3) petit poisson mange zooplancton; (4) dans ce modèle petit poisson mange aussi escargot aquatique; (5) héron mange petit poisson. Donnée : moins de zooplancton disponible. Pas d'effectifs animaux ni de capacités de substitution observés.",
+      "reponse_attendue": "CORRIGÉ FIXÉ : cinq arêtes algues microscopiques→zooplancton, algues microscopiques→escargot aquatique, zooplancton→petit poisson, escargot aquatique→petit poisson, petit poisson→héron. Deux chemins via zooplancton et escargot vers poisson puis héron. Effet direct : poisson pourrait avoir moins de zooplancton; alternative : escargot toujours représenté. Effet indirect héron : possible SI poisson touché; aucune disparition ou augmentation certaine. Limite : substitution, effectifs, délai et autres aliments inconnus.",
+      "criteres": [
+        "M1. Exactement les cinq arêtes autorisées, sens et organismes de la mare corrects, aucune eau→poisson alimentaire.",
+        "M2. Deux chemins de la mare reliés par algues, poisson et héron; convergence au poisson.",
+        "M3. Effet sur poisson puis héron expliqué par un chemin, avec escargot cité comme alternative.",
+        "M4. Constat de diminution du zooplancton distingué de l’impact simplement prédit; une incertitude ou observation à rechercher.",
+        "M5. Deuxième production distincte et autonome, sans indices directifs; adaptation de modalité seulement."
+      ],
+      "feedback": "Si la réponse affirme la mort des poissons, attirer ensuite l'attention sur l'escargot comme autre ressource. Après correction formative, nouvelle épreuve à organiser par un humain; ne pas modifier la note rétroactivement.",
+      "difficulte": "transfert",
+      "representation": "réseau de mare + prédiction conditionnelle et alternative; réponse par graphe orienté, tableau de paires ou description orale structurée qui préserve les relations alimentaires et la justification scientifique.",
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Stimulus, cartes, sens des flèches et corrigé verrouillés; adaptations autorisées: présentation audio, tactile ou gros caractères, mode de réponse oral, écrit ou sous forme de tableau; jamais de génération IA libre ou ajout d’arête implicite.",
+      "validation_status": "a_revoir",
+      "scenario_id": "mare_B",
+      "selection_scenario": "Sélection figée par numéro d’item; aucun tirage aléatoire ni substitution de données ou de relations; corpus approuvé intégré au JSON."
+    }
+  ]
+}

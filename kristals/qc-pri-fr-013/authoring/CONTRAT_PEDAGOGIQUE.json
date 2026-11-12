@@ -1,0 +1,69 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-013",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier la classe grammaticale de mots selon leur fonctionnement en phrase.",
+  "concepts": [
+    "nom",
+    "déterminant",
+    "adjectif",
+    "verbe",
+    "pronom"
+  ],
+  "preuve_attendue": "Classer des mots en contexte et justifier deux cas ambigus.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-013-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Classer des mots en contexte et justifier deux cas ambigus.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_effectif": "fixe_controle",
+        "parametrage_actif": false
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-fr-013",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Classer des mots en contexte et justifier deux cas ambigus.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte_avec_reperes",
+        "texte_ou_lecture_neutre_reponse_orale_ou_ecrite"
+      ],
+      "variables": [],
+      "contraintes": [
+        "12 items fixes : aucun tirage libre ni substitution automatique de texte.",
+        "Deux preuves A et B avec douze occurrences chacune et deux cas ambigus à justifier.",
+        "Corrigé et indices contrôlés par item; lecture neutre/format adapté permis sans aide cognitive.",
+        "Revue humaine obligatoire avant qualification; pas de conformité PFEQ revendiquée."
+      ],
+      "bareme_ou_rubrique": {
+        "reference": "../evaluation/GRILLE_MAITRISE.md",
+        "classement_par_preuve": "au moins 10/12 exacts à titre indicatif, 5 classes comprises sans confusion systématique",
+        "justifications_par_preuve": "deux cas ambigus appuyés sur des indices syntaxiques et contrastés avec un autre emploi",
+        "autonomie": "sans aide cognitive sur les deux contextes",
+        "decision": "deux manifestations distinctes A et B, jamais une seule note"
+      },
+      "source": "../sources/REFERENCES_CONTENU.md (exemples et items originaux; références linguistiques vérifiées)",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2",
+  "note_etat_livraison": "Delta v1.2 documentaire, aucune qualification humaine ni construction canonique v9"
+}

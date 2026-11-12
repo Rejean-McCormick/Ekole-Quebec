@@ -1,0 +1,349 @@
+{
+  "distinct_candidate_courses": [
+    "qc-pri-als-002",
+    "qc-pri-als-010",
+    "qc-pri-ap-003",
+    "qc-pri-ccq-002",
+    "qc-pri-ccq-007",
+    "qc-pri-ccq-008",
+    "qc-pri-fr-009",
+    "qc-pri-fr-016",
+    "qc-pri-fr-020",
+    "qc-pri-fr-023",
+    "qc-pri-ma-006",
+    "qc-pri-ma-007",
+    "qc-pri-ma-008",
+    "qc-pri-ma-009",
+    "qc-pri-ma-025",
+    "qc-pri-ma-030",
+    "qc-pri-st-002",
+    "qc-pri-st-003",
+    "qc-pri-st-005",
+    "qc-pri-st-017",
+    "qc-pri-us-002"
+  ],
+  "format": "ekole.spek.qc3-stage2-audit/1",
+  "gates": {
+    "curriculum_reviewed": false,
+    "linguistic_equivalence_certified": false,
+    "public_release_authorized": false,
+    "source_canon_verified": false,
+    "student_records_exported": false
+  },
+  "goal_link_count": 31,
+  "origin": {
+    "mode": "bundled_curated_snapshot",
+    "source": "/mnt/data/ekole_spek_stage2_pack/data/stage2_curated_fixture.json"
+  },
+  "period": "annee-3-etape-2",
+  "scenario_count": 8,
+  "source_hashes": {
+    "ekole/catalogue/202_kristals.json": "sha256:5487495d3e92db5d0614db73380700188d728dc28782ae2e80522331323cffb6",
+    "kontexte/grade3/micro-situations-34.json": "sha256:4a2bf9abf619c87a7e4e6035bce70babb99de2e2603c209de2977bb89e7904bb",
+    "kontexte/grade3/objectifs-candidats.json": "sha256:25a839db0a72c478aa23cf78f7276c84460b300ac7a960323136b7354ebd2621",
+    "kontexte/grade3/overlays-60.json": "sha256:ee79b8fbdf310923a983dba958e94b4da98e9748aced6a33d87d4dde98daefb0",
+    "kontexte/grade3/parcours-36-semaines.json": "sha256:ba57434e70dd4fcc5b3a1928ad6ccf6fa9a04c56c1483b6359f74f06c9806ad0"
+  },
+  "status": "local_candidate_not_approved",
+  "week_count": 9,
+  "weeks": [
+    {
+      "goals": [
+        {
+          "candidate_kristal_id": "qc-pri-ma-008",
+          "course_title": "Sens et stratégies de la multiplication",
+          "goal_id": "qc3.ma.multiplication",
+          "notion": "Composer des groupes égaux et multiplier",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ma-006",
+          "course_title": "Sens et stratégies de l’addition",
+          "goal_id": "qc3.ma.addition",
+          "notion": "Additionner dans une situation de quantités",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-fr-009",
+          "course_title": "Lire un texte courant ou documentaire",
+          "goal_id": "qc3.fr.lire-consigne",
+          "notion": "Comprendre les consignes et identifier les actions attendues",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-st-005",
+          "course_title": "Propriétés et états de la matière",
+          "goal_id": "qc3.st.matiere",
+          "notion": "Explorer des propriétés de matériaux sûrs",
+          "status": "candidate_requires_teacher_review"
+        }
+      ],
+      "micro_lesson": "enseignement-explicite-010",
+      "status": "preview_not_approved",
+      "title": "La commande de la boulangerie fictive",
+      "trame": "commande-de-pains",
+      "week": 10
+    },
+    {
+      "goals": [
+        {
+          "candidate_kristal_id": "qc-pri-st-002",
+          "course_title": "Formuler des hypothèses et planifier une investigation",
+          "goal_id": "qc3.st.hypothese",
+          "notion": "Formuler une hypothèse simple",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-st-003",
+          "course_title": "Mesurer et recueillir des données",
+          "goal_id": "qc3.st.donnees",
+          "notion": "Mesurer, noter et comparer des observations",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ma-030",
+          "course_title": "Collecter et organiser des données",
+          "goal_id": "qc3.ma.donnees",
+          "notion": "Collecter et organiser les données d’une mission",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ma-025",
+          "course_title": "Longueurs, masses et capacités",
+          "goal_id": "qc3.ma.mesure",
+          "notion": "Mesurer longueur, masse ou capacité avec unité",
+          "status": "candidate_requires_teacher_review"
+        }
+      ],
+      "micro_lesson": "enseignement-explicite-011",
+      "status": "preview_not_approved",
+      "title": "Deux bacs de haricots",
+      "trame": "semis-compare",
+      "week": 11
+    },
+    {
+      "goals": [
+        {
+          "candidate_kristal_id": "qc-pri-fr-009",
+          "course_title": "Lire un texte courant ou documentaire",
+          "goal_id": "qc3.fr.lecture-document",
+          "notion": "Prélever de l’information d’un texte courant",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-als-002",
+          "course_title": "Reconnaître et utiliser le vocabulaire quotidien",
+          "goal_id": "qc3.als.lexique",
+          "notion": "Utiliser des mots courants dans un rôle",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-us-002",
+          "course_title": "Lire des cartes et se repérer dans l’espace",
+          "goal_id": "qc3.us.cartographie",
+          "notion": "Lire des cartes et situer des lieux au Québec",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ccq-008",
+          "course_title": "Dialoguer et écouter avec respect",
+          "goal_id": "qc3.ccq.dialogue",
+          "notion": "Écouter, questionner et dialoguer respectueusement",
+          "status": "candidate_requires_teacher_review"
+        }
+      ],
+      "micro_lesson": "enseignement-explicite-012",
+      "status": "preview_not_approved",
+      "title": "Bienvenue à notre école",
+      "trame": "accueil-nouveaux",
+      "week": 12
+    },
+    {
+      "goals": [
+        {
+          "candidate_kristal_id": "qc-pri-fr-020",
+          "course_title": "Planifier un texte",
+          "goal_id": "qc3.fr.planification",
+          "notion": "Planifier et rédiger un texte fonctionnel",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-fr-023",
+          "course_title": "Réviser et corriger un texte",
+          "goal_id": "qc3.fr.revision",
+          "notion": "Réviser le texte à partir de critères",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-als-010",
+          "course_title": "Produire de courts textes en anglais",
+          "goal_id": "qc3.als.ecrit",
+          "notion": "Composer un message bref avec soutien",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ap-003",
+          "course_title": "Composer dans l’espace et sur un support",
+          "goal_id": "qc3.ap.composition",
+          "notion": "Composer une image ou un objet visuel",
+          "status": "candidate_requires_teacher_review"
+        }
+      ],
+      "micro_lesson": "enseignement-explicite-013",
+      "status": "preview_not_approved",
+      "title": "L’invitation fr-CA / en-CA",
+      "trame": "invitation-multilingue",
+      "week": 13
+    },
+    {
+      "goals": [
+        {
+          "candidate_kristal_id": "qc-pri-ma-006",
+          "course_title": "Sens et stratégies de l’addition",
+          "goal_id": "qc3.ma.addition",
+          "notion": "Additionner dans une situation de quantités",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ma-007",
+          "course_title": "Sens et stratégies de la soustraction",
+          "goal_id": "qc3.ma.soustraction",
+          "notion": "Calculer une différence ou un reste",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-fr-020",
+          "course_title": "Planifier un texte",
+          "goal_id": "qc3.fr.planification",
+          "notion": "Planifier et rédiger un texte fonctionnel",
+          "status": "candidate_requires_teacher_review"
+        }
+      ],
+      "micro_lesson": "enseignement-explicite-014",
+      "status": "preview_not_approved",
+      "title": "Le budget des kiosques",
+      "trame": "budget-marche",
+      "week": 14
+    },
+    {
+      "goals": [
+        {
+          "candidate_kristal_id": "qc-pri-st-017",
+          "course_title": "Caractéristiques et classification du vivant",
+          "goal_id": "qc3.st.vivant",
+          "notion": "Décrire des caractéristiques et besoins d’êtres vivants",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-st-003",
+          "course_title": "Mesurer et recueillir des données",
+          "goal_id": "qc3.st.donnees",
+          "notion": "Mesurer, noter et comparer des observations",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ma-025",
+          "course_title": "Longueurs, masses et capacités",
+          "goal_id": "qc3.ma.mesure",
+          "notion": "Mesurer longueur, masse ou capacité avec unité",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-fr-009",
+          "course_title": "Lire un texte courant ou documentaire",
+          "goal_id": "qc3.fr.lecture-document",
+          "notion": "Prélever de l’information d’un texte courant",
+          "status": "candidate_requires_teacher_review"
+        }
+      ],
+      "micro_lesson": "enseignement-explicite-015",
+      "status": "preview_not_approved",
+      "title": "Le potager des quatre saisons",
+      "trame": "jardin-saisonnier",
+      "week": 15
+    },
+    {
+      "goals": [
+        {
+          "candidate_kristal_id": "qc-pri-ma-009",
+          "course_title": "Sens et stratégies de la division",
+          "goal_id": "qc3.ma.partage",
+          "notion": "Partager des quantités en groupes égaux",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ma-007",
+          "course_title": "Sens et stratégies de la soustraction",
+          "goal_id": "qc3.ma.soustraction",
+          "notion": "Calculer une différence ou un reste",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ccq-007",
+          "course_title": "Comparer les réalités culturelles et les points de vue",
+          "goal_id": "qc3.ccq.pointdevue",
+          "notion": "Reconnaître plusieurs points de vue",
+          "status": "candidate_requires_teacher_review"
+        }
+      ],
+      "micro_lesson": "enseignement-explicite-016",
+      "status": "preview_not_approved",
+      "title": "Les matériaux partagés",
+      "trame": "ressources-a-partager",
+      "week": 16
+    },
+    {
+      "goals": [
+        {
+          "candidate_kristal_id": "qc-pri-fr-020",
+          "course_title": "Planifier un texte",
+          "goal_id": "qc3.fr.planification",
+          "notion": "Planifier et rédiger un texte fonctionnel",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-als-010",
+          "course_title": "Produire de courts textes en anglais",
+          "goal_id": "qc3.als.ecrit",
+          "notion": "Composer un message bref avec soutien",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ap-003",
+          "course_title": "Composer dans l’espace et sur un support",
+          "goal_id": "qc3.ap.composition",
+          "notion": "Composer une image ou un objet visuel",
+          "status": "candidate_requires_teacher_review"
+        },
+        {
+          "candidate_kristal_id": "qc-pri-ccq-002",
+          "course_title": "Relations entre humains",
+          "goal_id": "qc3.ccq.inclusion",
+          "notion": "Observer inclusion et exclusion dans un groupe",
+          "status": "candidate_requires_teacher_review"
+        }
+      ],
+      "micro_lesson": "enseignement-explicite-017",
+      "status": "preview_not_approved",
+      "title": "L’affiche du service d’entraide",
+      "trame": "affiche-service",
+      "week": 17
+    },
+    {
+      "goals": [
+        {
+          "candidate_kristal_id": "qc-pri-fr-016",
+          "course_title": "Accords dans le groupe nominal",
+          "goal_id": "qc3.fr.accords",
+          "notion": "Observer et effectuer des accords appropriés",
+          "status": "candidate_requires_teacher_review"
+        }
+      ],
+      "micro_lesson": "enseignement-explicite-018",
+      "status": "preview_not_approved",
+      "title": "Consolidation et reprises",
+      "trame": null,
+      "week": 18
+    }
+  ]
+}

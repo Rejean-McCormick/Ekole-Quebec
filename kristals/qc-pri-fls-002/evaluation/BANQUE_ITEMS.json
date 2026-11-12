@@ -1,0 +1,455 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fls-002",
+  "family_id": "qc-pri-fls-002-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fls-002-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Joue un dialogue de trois tours : ouvre l’échange, demande le lieu, puis remercie après la réponse.",
+      "stimulus": "Salle des arts — Tu cherches la salle des arts; à l’accueil, on te répond « Elle est en face de la bibliothèque ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Bonjour. Excusez-moi, où se trouve la salle des arts? — Elle est en face de la bibliothèque. — Merci beaucoup! » Autre formulation intelligible acceptée si les mêmes intentions et tours sont respectés.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "L’élève formule bien une question de lieu, sans inventer une direction.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Tu as formulé une question de lieu; pense à réagir à la réponse avant de terminer.",
+      "difficulte": "initial",
+      "representation": "dialogue_oral",
+      "usage": "entrainement_ou_evaluation_formative",
+      "seed": null,
+      "parametres": null,
+      "variations_permises": "Changer le prénom ou la modalité orale/écrite, jamais la condition ni la réplique fournie; autres formulations naturelles admises si critères maintenus.",
+      "adaptations": "Lecture de la situation, pictogrammes des rôles, transcription ou dispositif de communication; sans suggestion d’expression lors d’une preuve autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris une demande polie et ta réaction à la réponse. Conserve les tours de dialogue.",
+      "stimulus": "Matériel de classe — Tu veux utiliser le taille-crayon d’une autre élève. Elle répond : « Oui, après moi ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Est-ce que je peux utiliser ton taille-crayon, s’il te plaît? — Oui, après moi. — D’accord, merci, je vais attendre. » Autre formulation intelligible acceptée si les mêmes intentions et tours sont respectés.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "La demande ne suppose pas l’autorisation; le délai est reconnu.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Ta demande est compréhensible; ajoute une phrase qui montre que tu as entendu « après moi ».",
+      "difficulte": "initial",
+      "representation": "dialogue_ecrit",
+      "usage": "entrainement_ou_evaluation_formative",
+      "seed": null,
+      "parametres": null,
+      "variations_permises": "Changer le prénom ou la modalité orale/écrite, jamais la condition ni la réplique fournie; autres formulations naturelles admises si critères maintenus.",
+      "adaptations": "Lecture de la situation, pictogrammes des rôles, transcription ou dispositif de communication; sans suggestion d’expression lors d’une preuve autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Pose une question de lieu, puis réponds à l’information reçue.",
+      "stimulus": "Bibliothèque — Tu veux connaître l’emplacement des bandes dessinées. La bibliothécaire répond : « Elles sont sur l’étagère près de la fenêtre ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Bonjour. Où se trouvent les bandes dessinées, s’il vous plaît? — Sur l’étagère près de la fenêtre. — Merci! » Autre formulation intelligible acceptée si les mêmes intentions et tours sont respectés.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "Question contextualisée pour le rayon; réponse cohérente et non inventée.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Tu as trouvé la bonne intention; adresse la question à l’autre personne et conclus après son renseignement.",
+      "difficulte": "initial",
+      "representation": "dialogue_oral",
+      "usage": "entrainement_ou_evaluation_formative",
+      "seed": null,
+      "parametres": null,
+      "variations_permises": "Changer le prénom ou la modalité orale/écrite, jamais la condition ni la réplique fournie; autres formulations naturelles admises si critères maintenus.",
+      "adaptations": "Lecture de la situation, pictogrammes des rôles, transcription ou dispositif de communication; sans suggestion d’expression lors d’une preuve autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Propose une aide et réagis à la tâche donnée dans un dialogue de trois tours.",
+      "stimulus": "Atelier d’art — Tu veux proposer ton aide à un camarade qui range des pinceaux propres. Il répond : « Oui, tu peux placer les boîtes ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Est-ce que je peux te donner un coup de main pour ranger? — Oui, tu peux placer les boîtes. — Bien sûr, je m’en occupe! » Autre formulation intelligible acceptée si les mêmes intentions et tours sont respectés.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "La proposition « donner un coup de main » signifie aider et la tâche acceptée correspond à la réplique.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Le coup de main est une aide; explique l’action que tu peux faire et réponds à la proposition.",
+      "difficulte": "intermediaire",
+      "representation": "dialogue_oral",
+      "usage": "entrainement_ou_evaluation_formative",
+      "seed": null,
+      "parametres": null,
+      "variations_permises": "Changer le prénom ou la modalité orale/écrite, jamais la condition ni la réplique fournie; autres formulations naturelles admises si critères maintenus.",
+      "adaptations": "Lecture de la situation, pictogrammes des rôles, transcription ou dispositif de communication; sans suggestion d’expression lors d’une preuve autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris une phrase qui invite à faire attention et une réaction adaptée à « D’accord, je vais contourner ».",
+      "stimulus": "Corridor fictif — Des affiches sont déposées sur le sol près de la porte. Ton partenaire s’apprête à passer et dit : « Je vais traverser ici ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Fais attention aux affiches sur le sol, s’il te plaît. — D’accord, je vais contourner. — Merci! » Autre formulation intelligible acceptée si les mêmes intentions et tours sont respectés.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "Emploi sensé de « faire attention à »; pas d’ordre agressif ni d’affirmation de danger grave.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Tu veux prévenir ton partenaire : indique à quoi il doit faire attention et réponds au choix de contourner.",
+      "difficulte": "intermediaire",
+      "representation": "dialogue_ecrit",
+      "usage": "entrainement_ou_evaluation_formative",
+      "seed": null,
+      "parametres": null,
+      "variations_permises": "Changer le prénom ou la modalité orale/écrite, jamais la condition ni la réplique fournie; autres formulations naturelles admises si critères maintenus.",
+      "adaptations": "Lecture de la situation, pictogrammes des rôles, transcription ou dispositif de communication; sans suggestion d’expression lors d’une preuve autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Réponds avec une expression usuelle et une raison brève non personnelle, puis réagis à « D’accord, une autre fois ».",
+      "stimulus": "Activité de dessin — Une camarade t’invite à participer : « Tu viens dessiner avec nous? » Tu veux continuer ton jeu pour le moment.",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Merci pour l’invitation, mais pas maintenant. Je vais finir mon jeu. — D’accord, une autre fois. — Avec plaisir! » Autre formulation intelligible acceptée si les mêmes intentions et tours sont respectés.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "Refus compréhensible et respectueux; aucune obligation de participer ou de dévoiler une raison intime.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Tu peux refuser avec respect; réponds d’abord à l’invitation, puis à la dernière réplique.",
+      "difficulte": "intermediaire",
+      "representation": "dialogue_oral",
+      "usage": "entrainement_ou_evaluation_formative",
+      "seed": null,
+      "parametres": null,
+      "variations_permises": "Changer le prénom ou la modalité orale/écrite, jamais la condition ni la réplique fournie; autres formulations naturelles admises si critères maintenus.",
+      "adaptations": "Lecture de la situation, pictogrammes des rôles, transcription ou dispositif de communication; sans suggestion d’expression lors d’une preuve autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris une proposition utilisant « rendre service » ou une formulation équivalente enseignée, et réagis à « Merci ».",
+      "stimulus": "Aide au rangement — Une personne place des livres sur une étagère basse; elle dit : « J’aurais besoin d’aide pour la dernière pile ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Je peux te rendre service : je vais prendre la petite pile. — Merci! — Avec plaisir! » Autre formulation intelligible acceptée si les mêmes intentions et tours sont respectés.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "L’aide offerte est proportionnée et la tournure « rendre service » a le sens d’aider.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Ta proposition est pertinente; emploie « rendre service » dans une phrase qui dit comment tu aides.",
+      "difficulte": "intermediaire",
+      "representation": "dialogue_ecrit",
+      "usage": "entrainement_ou_evaluation_formative",
+      "seed": null,
+      "parametres": null,
+      "variations_permises": "Changer le prénom ou la modalité orale/écrite, jamais la condition ni la réplique fournie; autres formulations naturelles admises si critères maintenus.",
+      "adaptations": "Lecture de la situation, pictogrammes des rôles, transcription ou dispositif de communication; sans suggestion d’expression lors d’une preuve autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Demande poliment de répéter, puis réagis à « Oui, je répète lentement ».",
+      "stimulus": "Consigne mal entendue — Pendant une activité fictive, ton partenaire vient d’expliquer où poser les feuilles; tu n’as pas compris et il te dit : « Tu as une question? ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Oui, est-ce que tu peux répéter, s’il te plaît? — Oui, je répète lentement. — Merci, ça va m’aider! » Autre formulation intelligible acceptée si les mêmes intentions et tours sont respectés.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "L’élève demande une clarification plutôt que de faire semblant de comprendre.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Tu as le droit de demander de répéter; transforme ton besoin en question claire.",
+      "difficulte": "intermediaire",
+      "representation": "dialogue_oral",
+      "usage": "entrainement_ou_evaluation_formative",
+      "seed": null,
+      "parametres": null,
+      "variations_permises": "Changer le prénom ou la modalité orale/écrite, jamais la condition ni la réplique fournie; autres formulations naturelles admises si critères maintenus.",
+      "adaptations": "Lecture de la situation, pictogrammes des rôles, transcription ou dispositif de communication; sans suggestion d’expression lors d’une preuve autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Joue une interaction de trois à quatre tours : indique ce que tu cherches ou ce dont tu as besoin et adapte ta dernière réplique à la réponse de l’autre.",
+      "stimulus": "Dans une exposition de dessins fictive, tu as besoin d’une étiquette pour ton dessin. La personne à l’accueil te dit : « Bonjour! » Puis elle répond : « Oui, voici une étiquette ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Bonjour, j’ai besoin d’une étiquette pour mon dessin. Est-ce que je peux en avoir une, s’il vous plaît? — Oui, voici une étiquette. — Merci! » Autres formulations correctes permises si la demande et la réponse respectent cette variante.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "Demande de matériel et remerciement, pas de question de lieu imposée.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Si la formulation est isolée, demande une phrase complète; si la réplique ne répond pas à la condition du partenaire, refais l’échange avec une autre situation. Valorise le message intelligible et corrige une seule forme prioritaire.",
+      "difficulte": "intermediaire",
+      "representation": "dialogue_oral",
+      "usage": "evaluation_formative",
+      "seed": 3009,
+      "parametres": {
+        "titre": "Exposition de dessins — accueil temporaire",
+        "variable": "index_variant",
+        "domaine": [
+          0,
+          1
+        ],
+        "algorithme": "index_variant = seed % 2 (reste de division entière par 2); retenir uniquement l’entrée indexée du corpus fermé",
+        "contraintes": [
+          "Ne pas modifier les répliques de la personne partenaire ni le contexte sans revalider la rubrique.",
+          "Le stimulus et la réponse exemple affichés doivent provenir du même index.",
+          "Aucune génération libre ni tirage non reproductible."
+        ],
+        "corpus": [
+          {
+            "index": 0,
+            "stimulus": "Dans une exposition de dessins fictive, tu cherches la table où déposer ton dessin. La personne à l’accueil te dit : « Bonjour! » Puis elle répond à ta question : « La table est près de la porte verte ».",
+            "reponse_exemple": "« Bonjour, excusez-moi, où se trouve la table pour déposer mon dessin? — Près de la porte verte. — Merci beaucoup! »",
+            "critere_specifique": "Demande de lieu et réaction au renseignement, sans inventer la direction."
+          },
+          {
+            "index": 1,
+            "stimulus": "Dans une exposition de dessins fictive, tu as besoin d’une étiquette pour ton dessin. La personne à l’accueil te dit : « Bonjour! » Puis elle répond : « Oui, voici une étiquette ».",
+            "reponse_exemple": "« Bonjour, j’ai besoin d’une étiquette pour mon dessin. Est-ce que je peux en avoir une, s’il vous plaît? — Oui, voici une étiquette. — Merci! »",
+            "critere_specifique": "Demande de matériel et remerciement, pas de question de lieu imposée."
+          }
+        ],
+        "instance_affichee": 1,
+        "exemple_controle": {
+          "seed": 3009,
+          "index": 1,
+          "stimulus": "Dans une exposition de dessins fictive, tu as besoin d’une étiquette pour ton dessin. La personne à l’accueil te dit : « Bonjour! » Puis elle répond : « Oui, voici une étiquette ».",
+          "reponse_exemple": "« Bonjour, j’ai besoin d’une étiquette pour mon dessin. Est-ce que je peux en avoir une, s’il vous plaît? — Oui, voici une étiquette. — Merci! »"
+        }
+      },
+      "variations_permises": "Seulement les deux variantes du corpus fermé à seed stable; formulations alternatives de l’élève évaluées par la même grille, pas par comparaison stricte de chaînes.",
+      "adaptations": "Débit adapté, sous-titres, aide à lire le rôle du partenaire, communication assistée; aucun choix lexical soufflé pendant la prestation autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Compose un dialogue de trois à quatre tours avec une proposition d’aide ou une demande adaptée et une réponse qui respecte le choix de l’autre.",
+      "stimulus": "Dans une zone de jeux fictive, une personne range de grosses pièces en mousse légères et dit : « J’aimerais que quelqu’un m’aide ». Puis elle répond : « Oui, prends celles de gauche ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Salut, je peux te donner un coup de main pour ranger? — Oui, prends celles de gauche. — D’accord, merci! » Autres formulations correctes permises si la demande et la réponse respectent cette variante.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "Proposition d’aide suivie de la tâche demandée.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Si la formulation est isolée, demande une phrase complète; si la réplique ne répond pas à la condition du partenaire, refais l’échange avec une autre situation. Valorise le message intelligible et corrige une seule forme prioritaire.",
+      "difficulte": "intermediaire",
+      "representation": "communication_assistee",
+      "usage": "evaluation_formative",
+      "seed": 3010,
+      "parametres": {
+        "titre": "Zone de jeux — aide entre partenaires",
+        "variable": "index_variant",
+        "domaine": [
+          0,
+          1
+        ],
+        "algorithme": "index_variant = seed % 2 (reste de division entière par 2); retenir uniquement l’entrée indexée du corpus fermé",
+        "contraintes": [
+          "Ne pas modifier les répliques de la personne partenaire ni le contexte sans revalider la rubrique.",
+          "Le stimulus et la réponse exemple affichés doivent provenir du même index.",
+          "Aucune génération libre ni tirage non reproductible."
+        ],
+        "corpus": [
+          {
+            "index": 0,
+            "stimulus": "Dans une zone de jeux fictive, une personne range de grosses pièces en mousse légères et dit : « J’aimerais que quelqu’un m’aide ». Puis elle répond : « Oui, prends celles de gauche ».",
+            "reponse_exemple": "« Salut, je peux te donner un coup de main pour ranger? — Oui, prends celles de gauche. — D’accord, merci! »",
+            "critere_specifique": "Proposition d’aide suivie de la tâche demandée."
+          },
+          {
+            "index": 1,
+            "stimulus": "Dans une zone de jeux fictive, tu cherches un petit panier de rangement. La personne responsable répond : « Il est à côté de la table ».",
+            "reponse_exemple": "« Excuse-moi, où se trouve le panier de rangement? — Il est à côté de la table. — Merci! »",
+            "critere_specifique": "Question de lieu et remerciement liés au renseignement."
+          }
+        ],
+        "instance_affichee": 0,
+        "exemple_controle": {
+          "seed": 3010,
+          "index": 0,
+          "stimulus": "Dans une zone de jeux fictive, une personne range de grosses pièces en mousse légères et dit : « J’aimerais que quelqu’un m’aide ». Puis elle répond : « Oui, prends celles de gauche ».",
+          "reponse_exemple": "« Salut, je peux te donner un coup de main pour ranger? — Oui, prends celles de gauche. — D’accord, merci! »"
+        }
+      },
+      "variations_permises": "Seulement les deux variantes du corpus fermé à seed stable; formulations alternatives de l’élève évaluées par la même grille, pas par comparaison stricte de chaînes.",
+      "adaptations": "Débit adapté, sous-titres, aide à lire le rôle du partenaire, communication assistée; aucun choix lexical soufflé pendant la prestation autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sans fiche de formules, produis un dialogue nouveau de trois à cinq tours à l’accueil du centre. Demande une information utile, utilise au moins deux expressions ciblées dans des phrases contextualisées et réagis à la réponse. L’adulte joue seulement les tours fournis.",
+      "stimulus": "Dans un centre communautaire entièrement fictif, tu arrives pour un atelier de lecture. La personne à l’accueil te dit « Bonjour, je peux vous aider? ». À ta demande, elle répond « La salle est au bout du corridor ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « Bonjour. Je cherche la salle de l’atelier de lecture. Pouvez-vous m’aider, s’il vous plaît? — Elle est au bout du corridor. — Merci pour votre aide! » Autres formulations correctes permises si la demande et la réponse respectent cette variante.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "Deux expressions au moins (bonjour/je cherche/pouvez-vous m’aider/s’il vous plaît/merci); tient compte du lieu.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Si la formulation est isolée, demande une phrase complète; si la réplique ne répond pas à la condition du partenaire, refais l’échange avec une autre situation. Valorise le message intelligible et corrige une seule forme prioritaire.",
+      "difficulte": "transfert",
+      "representation": "dialogue_oral_ou_ecrit",
+      "usage": "preuve_maitrise_A",
+      "seed": 3011,
+      "parametres": {
+        "titre": "PREUVE A — centre communautaire fictif",
+        "variable": "index_variant",
+        "domaine": [
+          0,
+          1
+        ],
+        "algorithme": "index_variant = seed % 2 (reste de division entière par 2); retenir uniquement l’entrée indexée du corpus fermé",
+        "contraintes": [
+          "Ne pas modifier les répliques de la personne partenaire ni le contexte sans revalider la rubrique.",
+          "Le stimulus et la réponse exemple affichés doivent provenir du même index.",
+          "Aucune génération libre ni tirage non reproductible."
+        ],
+        "corpus": [
+          {
+            "index": 0,
+            "stimulus": "Dans un centre communautaire entièrement fictif, tu arrives pour un atelier de cerfs-volants. La personne à l’accueil te dit « Bonjour, je peux vous aider? ». À ta demande de lieu, elle répond « La salle est à côté du jardin intérieur ».",
+            "reponse_exemple": "« Bonjour. Excusez-moi, où se trouve l’atelier de cerfs-volants? — La salle est à côté du jardin intérieur. — Merci beaucoup! — Avec plaisir! »",
+            "critere_specifique": "Deux expressions au moins (bonjour/excusez-moi/où se trouve/merci); réponse à une information de lieu."
+          },
+          {
+            "index": 1,
+            "stimulus": "Dans un centre communautaire entièrement fictif, tu arrives pour un atelier de lecture. La personne à l’accueil te dit « Bonjour, je peux vous aider? ». À ta demande, elle répond « La salle est au bout du corridor ».",
+            "reponse_exemple": "« Bonjour. Je cherche la salle de l’atelier de lecture. Pouvez-vous m’aider, s’il vous plaît? — Elle est au bout du corridor. — Merci pour votre aide! »",
+            "critere_specifique": "Deux expressions au moins (bonjour/je cherche/pouvez-vous m’aider/s’il vous plaît/merci); tient compte du lieu."
+          }
+        ],
+        "instance_affichee": 1,
+        "exemple_controle": {
+          "seed": 3011,
+          "index": 1,
+          "stimulus": "Dans un centre communautaire entièrement fictif, tu arrives pour un atelier de lecture. La personne à l’accueil te dit « Bonjour, je peux vous aider? ». À ta demande, elle répond « La salle est au bout du corridor ».",
+          "reponse_exemple": "« Bonjour. Je cherche la salle de l’atelier de lecture. Pouvez-vous m’aider, s’il vous plaît? — Elle est au bout du corridor. — Merci pour votre aide! »"
+        }
+      },
+      "variations_permises": "Seulement les deux variantes du corpus fermé à seed stable; formulations alternatives de l’élève évaluées par la même grille, pas par comparaison stricte de chaînes.",
+      "adaptations": "Débit adapté, sous-titres, aide à lire le rôle du partenaire, communication assistée; aucun choix lexical soufflé pendant la prestation autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-002-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-002-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sans fiche de formules, produis un dialogue de trois à cinq tours en équipe : exprime un besoin ou une demande, réagis à une condition et propose une aide ou une solution. Utilise au moins deux expressions ciblées dans des phrases en contexte.",
+      "stimulus": "Une équipe fictive prépare un panneau pour une exposition scientifique. Tu as besoin de ruban adhésif. Ton partenaire te dit : « Je m’en sers encore deux minutes ».",
+      "reponse_attendue": "Exemple de production observable (non exclusif) : « J’ai besoin de ruban adhésif pour notre panneau. Est-ce que je peux utiliser le tien après toi, s’il te plaît? — Je m’en sers encore deux minutes. — D’accord, merci, j’attends. Je peux te donner un coup de main pour placer les images en attendant. » Autres formulations correctes permises si la demande et la réponse respectent cette variante.",
+      "criteres": [
+        "Intentions et interlocuteurs : la demande, la proposition ou le refus est compréhensible et adapté à la situation fictive.",
+        "Lexique : au moins une expression ciblée intégrée dans une phrase pertinente (au moins deux pour les preuves 011 et 012), sans simple liste de mots.",
+        "Tours de parole : réagir au contenu précis de la réplique de l’autre, plutôt que réciter sans écouter.",
+        "Demande et temps d’attente pris en compte; aide proposée; au moins deux expressions du corpus.",
+        "Autonomie : observer et noter les aides; ne pas pénaliser accent francophone, hésitations ou modalité de communication équivalente."
+      ],
+      "feedback": "Si la formulation est isolée, demande une phrase complète; si la réplique ne répond pas à la condition du partenaire, refais l’échange avec une autre situation. Valorise le message intelligible et corrige une seule forme prioritaire.",
+      "difficulte": "transfert",
+      "representation": "dialogue_oral_ou_ecrit",
+      "usage": "preuve_maitrise_B",
+      "seed": 3012,
+      "parametres": {
+        "titre": "PREUVE B — exposition scientifique fictive",
+        "variable": "index_variant",
+        "domaine": [
+          0,
+          1
+        ],
+        "algorithme": "index_variant = seed % 2 (reste de division entière par 2); retenir uniquement l’entrée indexée du corpus fermé",
+        "contraintes": [
+          "Ne pas modifier les répliques de la personne partenaire ni le contexte sans revalider la rubrique.",
+          "Le stimulus et la réponse exemple affichés doivent provenir du même index.",
+          "Aucune génération libre ni tirage non reproductible."
+        ],
+        "corpus": [
+          {
+            "index": 0,
+            "stimulus": "Une équipe fictive prépare un panneau pour une exposition scientifique. Tu as besoin de ruban adhésif. Ton partenaire te dit : « Je m’en sers encore deux minutes ».",
+            "reponse_exemple": "« J’ai besoin de ruban adhésif pour notre panneau. Est-ce que je peux utiliser le tien après toi, s’il te plaît? — Je m’en sers encore deux minutes. — D’accord, merci, j’attends. Je peux te donner un coup de main pour placer les images en attendant. »",
+            "critere_specifique": "Demande et temps d’attente pris en compte; aide proposée; au moins deux expressions du corpus."
+          },
+          {
+            "index": 1,
+            "stimulus": "Une équipe fictive prépare un modèle du système solaire pour une exposition scientifique. Tu as besoin d’un marqueur bleu. Ton partenaire te dit : « Je le garde jusqu’à ce que j’aie fini mes titres ».",
+            "reponse_exemple": "« J’ai besoin du marqueur bleu pour nommer les planètes. Est-ce que je peux te l’emprunter après, s’il te plaît? — Je le garde jusqu’à ce que j’aie fini mes titres. — D’accord, merci. Je peux te donner un coup de main pour installer notre affiche pendant ce temps. »",
+            "critere_specifique": "Demande de marqueur et réponse au délai; proposition d’une aide distincte; deux expressions ciblées."
+          }
+        ],
+        "instance_affichee": 0,
+        "exemple_controle": {
+          "seed": 3012,
+          "index": 0,
+          "stimulus": "Une équipe fictive prépare un panneau pour une exposition scientifique. Tu as besoin de ruban adhésif. Ton partenaire te dit : « Je m’en sers encore deux minutes ».",
+          "reponse_exemple": "« J’ai besoin de ruban adhésif pour notre panneau. Est-ce que je peux utiliser le tien après toi, s’il te plaît? — Je m’en sers encore deux minutes. — D’accord, merci, j’attends. Je peux te donner un coup de main pour placer les images en attendant. »"
+        }
+      },
+      "variations_permises": "Seulement les deux variantes du corpus fermé à seed stable; formulations alternatives de l’élève évaluées par la même grille, pas par comparaison stricte de chaînes.",
+      "adaptations": "Débit adapté, sous-titres, aide à lire le rôle du partenaire, communication assistée; aucun choix lexical soufflé pendant la prestation autonome.",
+      "validation_status": "a_revoir"
+    }
+  ]
+}

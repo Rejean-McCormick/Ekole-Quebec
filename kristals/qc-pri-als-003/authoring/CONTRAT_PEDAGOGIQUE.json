@@ -1,0 +1,102 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier le sens global et quelques détails d’un texte oral rythmé.",
+  "concepts": [
+    "rimes",
+    "répétitions",
+    "idée générale"
+  ],
+  "preuve_attendue": "Répondre à des questions simples après une chanson ou histoire entendue.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-003-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Répondre à des questions simples après une chanson ou histoire entendue.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "methodologie": "corpus fixe; aucune génération aléatoire; les variations permises portent sur la voix et les modalités expressives sans changer les réponses",
+        "corpus_controle": [
+          "qc-pri-als-003-q-001",
+          "qc-pri-als-003-q-002",
+          "qc-pri-als-003-q-003",
+          "qc-pri-als-003-q-004",
+          "qc-pri-als-003-q-005",
+          "qc-pri-als-003-q-006",
+          "qc-pri-als-003-q-007",
+          "qc-pri-als-003-q-008",
+          "qc-pri-als-003-q-009",
+          "qc-pri-als-003-q-010",
+          "qc-pri-als-003-q-011",
+          "qc-pri-als-003-q-012"
+        ]
+      },
+      "review_status": "a_revoir",
+      "kristal_id": "qc-pri-als-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "comptine_ou_chant_parle_entendu",
+        "histoire_rythmee_entendue",
+        "observation_reponse_orale_ou_pointage_documente"
+      ],
+      "variables": [],
+      "contraintes": {
+        "corpus": "fixe; 12 scripts originaux non modifiables au moment de la correction",
+        "n_ecoutes_standard": 2,
+        "script_visible_eleve": false,
+        "reponses_permises": [
+          "français",
+          "anglais simple",
+          "réponse orale",
+          "pointage documenté"
+        ],
+        "pas_de_generation_libre": true,
+        "variation_de_presentation": "voix / débit clair / accent intelligible; ne pas changer le lexique, les faits ou l’ordre du stimulus",
+        "modalites_modifiant_construit": "toute transcription disponible pendant la tâche exige une révision de validité distincte"
+      },
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "idee_generale",
+          "details_explicitement_entendus",
+          "indice_rythmique_rime_ou_repetition",
+          "autonomie"
+        ],
+        "preuves": [
+          "qc-pri-als-003-q-011",
+          "qc-pri-als-003-q-012"
+        ],
+        "seuil_chaque_preuve": "idée générale correcte; >=2/3 détails justes; >=1 indice sonore juste",
+        "condition": "les deux preuves dans deux contextes distincts sans aide sur le contenu; pas de décision sur une note totale isolée",
+        "sans_notation": [
+          "accent",
+          "aisance à lire",
+          "orthographe",
+          "qualité du chant",
+          "vitesse de réponse"
+        ]
+      },
+      "source": "scripts et rubriques originaux de cette livraison, contenus du dossier qc-pri-als-003/; normes de gouvernance présentes dans l’archive source",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

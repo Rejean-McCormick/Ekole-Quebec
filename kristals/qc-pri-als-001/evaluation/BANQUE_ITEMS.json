@@ -1,0 +1,431 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-als-001",
+  "family_id": "qc-pri-als-001-ev-01",
+  "version": "1.0-redaction-a-revoir",
+  "protocole_commun": "Seul le correcteur voit les scripts; stimuli exclusivement prononcés en anglais, au plus deux écoutes identiques, sans indice sémantique. Exiger une action (ou alternative motrice fonctionnellement équivalente) ET l’indication du sens; aucune pénalité d’accent ou d’orthographe.",
+  "items": [
+    {
+      "item_id": "qc-pri-als-001-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute une consigne anglaise; fais-la puis explique son sens.",
+      "stimulus": "Voix : “Open the book, please.” Un livre fermé est présent.",
+      "reponse_attendue": "Ouvrir le livre; « Ouvre le livre, s’il te plaît ».",
+      "criteres": [
+        "Ouvre le livre, et non la boîte ni le cahier.",
+        "Interprète open comme ouvrir, please comme politesse.",
+        "Exprime une paraphrase sémantiquement équivalente sans aide."
+      ],
+      "feedback": "Si tu as fermé le livre, tu as inversé open et close. Réécoute ces deux verbes sur un autre objet avant de refaire une nouvelle consigne.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "Table de lecture",
+      "representation": "Écoute en anglais (voix humaine, script exact), objets accessibles, action et sens exprimé",
+      "materiel": [
+        "livre fermé"
+      ],
+      "scripts_oraux": [
+        "Open the book, please."
+      ],
+      "observables": {
+        "actions_attendues": [
+          "Ouvrir le livre."
+        ],
+        "sens_attendus": [
+          "Ouvre le livre, s’il te plaît."
+        ]
+      },
+      "limites_de_variation": "Script anglais et corrigé verrouillés. Substitution de matériel accessible équivalent uniquement; ne pas modifier les mots, l’ordre, les liens objets/cibles ou la difficulté sans nouvelle revue.",
+      "protocole": "Fournir oralement le(s) script(s), une lecture puis une répétition identique possible. Aucune transcription, traduction, mime ni correction avant réponse. Demander ensuite le sens, en français, anglais simple ou CAA; consigner action et sens indépendamment."
+    },
+    {
+      "item_id": "qc-pri-als-001-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute; place la carte comme demandé et indique ce que la phrase signifie.",
+      "stimulus": "Voix : “Put the card inside the box.” Une carte large et une boîte ouverte sont présentes.",
+      "reponse_attendue": "Placer la carte à l’intérieur de la boîte; « Mets la carte dans la boîte ».",
+      "criteres": [
+        "Place bien la carte, pas un autre objet.",
+        "Choisit l’intérieur, et non le dessus.",
+        "Formule inside/in comme « dans »."
+      ],
+      "feedback": "Inside demande de mettre à l’intérieur. Si la carte est sur la boîte, opposer inside/on, puis vérifier avec une autre phrase.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "Rangement",
+      "representation": "Écoute en anglais (voix humaine, script exact), objets accessibles, action et sens exprimé",
+      "materiel": [
+        "grande carte",
+        "boîte ouverte"
+      ],
+      "scripts_oraux": [
+        "Put the card inside the box."
+      ],
+      "observables": {
+        "actions_attendues": [
+          "Carte dans la boîte."
+        ],
+        "sens_attendus": [
+          "Mets la carte à l’intérieur de la boîte."
+        ]
+      },
+      "limites_de_variation": "Script anglais et corrigé verrouillés. Substitution de matériel accessible équivalent uniquement; ne pas modifier les mots, l’ordre, les liens objets/cibles ou la difficulté sans nouvelle revue.",
+      "protocole": "Fournir oralement le(s) script(s), une lecture puis une répétition identique possible. Aucune transcription, traduction, mime ni correction avant réponse. Demander ensuite le sens, en français, anglais simple ou CAA; consigner action et sens indépendamment."
+    },
+    {
+      "item_id": "qc-pri-als-001-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute le message; indique ce qu’il signifie et s’il demande une action.",
+      "stimulus": "Voix : “The pencil is next to the notebook.” Crayon et cahier déjà côte à côte.",
+      "reponse_attendue": "« Le crayon est à côté du cahier »; aucun changement d’objet à exécuter.",
+      "criteres": [
+        "Reconnaît une information, pas une consigne.",
+        "Conserve la relation next to/à côté.",
+        "N’invente pas une instruction de déplacer le crayon."
+      ],
+      "feedback": "Il s’agit d’une information. Une phrase comme “Put the pencil…” demanderait une action; ici elle décrit la position.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "Message descriptif",
+      "representation": "Écoute en anglais (voix humaine, script exact), objets accessibles, action et sens exprimé",
+      "materiel": [
+        "crayon",
+        "cahier côte à côte"
+      ],
+      "scripts_oraux": [
+        "The pencil is next to the notebook."
+      ],
+      "observables": {
+        "actions_attendues": [
+          "Aucune action, description de position."
+        ],
+        "sens_attendus": [
+          "Le crayon est à côté du cahier."
+        ]
+      },
+      "limites_de_variation": "Script anglais et corrigé verrouillés. Substitution de matériel accessible équivalent uniquement; ne pas modifier les mots, l’ordre, les liens objets/cibles ou la difficulté sans nouvelle revue.",
+      "protocole": "Fournir oralement le(s) script(s), une lecture puis une répétition identique possible. Aucune transcription, traduction, mime ni correction avant réponse. Demander ensuite le sens, en français, anglais simple ou CAA; consigner action et sens indépendamment."
+    },
+    {
+      "item_id": "qc-pri-als-001-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute, pointe vers l’objet demandé et explique ce que tu as entendu.",
+      "stimulus": "Voix : “Point to the box, please.” Sur la table : un livre et une boîte.",
+      "reponse_attendue": "Montrer la boîte; « Montre la boîte, s’il te plaît ».",
+      "criteres": [
+        "Désigne la boîte sans démonstration adulte.",
+        "Ne confond pas pointer et ouvrir/prendre.",
+        "Reformule le sens de point to."
+      ],
+      "feedback": "Point to demande de montrer, pas de déplacer; reconnais d’abord la cible box.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "Désignation",
+      "representation": "Écoute en anglais (voix humaine, script exact), objets accessibles, action et sens exprimé",
+      "materiel": [
+        "boîte",
+        "livre"
+      ],
+      "scripts_oraux": [
+        "Point to the box, please."
+      ],
+      "observables": {
+        "actions_attendues": [
+          "Désigner la boîte."
+        ],
+        "sens_attendus": [
+          "Montre la boîte, s’il te plaît."
+        ]
+      },
+      "limites_de_variation": "Script anglais et corrigé verrouillés. Substitution de matériel accessible équivalent uniquement; ne pas modifier les mots, l’ordre, les liens objets/cibles ou la difficulté sans nouvelle revue.",
+      "protocole": "Fournir oralement le(s) script(s), une lecture puis une répétition identique possible. Aucune transcription, traduction, mime ni correction avant réponse. Demander ensuite le sens, en français, anglais simple ou CAA; consigner action et sens indépendamment."
+    },
+    {
+      "item_id": "qc-pri-als-001-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute; manipule les objets puis formule le sens.",
+      "stimulus": "Voix : “Put the eraser under the book.” Une gomme et un livre sont accessibles.",
+      "reponse_attendue": "Placer la gomme sous le livre; « Mets la gomme sous le livre ».",
+      "criteres": [
+        "Sélectionne la gomme et le livre.",
+        "Place effectivement la gomme sous le livre.",
+        "Reformulation exprime la relation sous/under."
+      ],
+      "feedback": "Under est sous; sur est on. Pratique avec une autre paire d’objets sans voir de correction mimée.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "Table de travail",
+      "representation": "Écoute en anglais (voix humaine, script exact), objets accessibles, action et sens exprimé",
+      "materiel": [
+        "grosse gomme sécuritaire",
+        "livre léger"
+      ],
+      "scripts_oraux": [
+        "Put the eraser under the book."
+      ],
+      "observables": {
+        "actions_attendues": [
+          "Gomme sous le livre."
+        ],
+        "sens_attendus": [
+          "Mets la gomme sous le livre."
+        ]
+      },
+      "limites_de_variation": "Script anglais et corrigé verrouillés. Substitution de matériel accessible équivalent uniquement; ne pas modifier les mots, l’ordre, les liens objets/cibles ou la difficulté sans nouvelle revue.",
+      "protocole": "Fournir oralement le(s) script(s), une lecture puis une répétition identique possible. Aucune transcription, traduction, mime ni correction avant réponse. Demander ensuite le sens, en français, anglais simple ou CAA; consigner action et sens indépendamment."
+    },
+    {
+      "item_id": "qc-pri-als-001-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute cette demande polie puis agis et dis ce qu’elle demande.",
+      "stimulus": "Voix : “Could you move the notebook next to the box, please?” Un cahier éloigné de la boîte.",
+      "reponse_attendue": "Déplacer le cahier à côté de la boîte; « Pourrais-tu déplacer le cahier à côté de la boîte, s’il te plaît? ».",
+      "criteres": [
+        "Déplace le cahier et non la boîte.",
+        "Respecte next to/à côté.",
+        "Comprend Could you ... please? comme une demande d’action polie."
+      ],
+      "feedback": "La forme interrogative “Could you…” est ici une demande polie, pas une question de capacité; repère move et next to.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "Rangement coopératif",
+      "representation": "Écoute en anglais (voix humaine, script exact), objets accessibles, action et sens exprimé",
+      "materiel": [
+        "cahier",
+        "boîte"
+      ],
+      "scripts_oraux": [
+        "Could you move the notebook next to the box, please?"
+      ],
+      "observables": {
+        "actions_attendues": [
+          "Déplacer le cahier à côté de la boîte."
+        ],
+        "sens_attendus": [
+          "Pourrais-tu déplacer le cahier à côté de la boîte, s’il te plaît?"
+        ]
+      },
+      "limites_de_variation": "Script anglais et corrigé verrouillés. Substitution de matériel accessible équivalent uniquement; ne pas modifier les mots, l’ordre, les liens objets/cibles ou la difficulté sans nouvelle revue.",
+      "protocole": "Fournir oralement le(s) script(s), une lecture puis une répétition identique possible. Aucune transcription, traduction, mime ni correction avant réponse. Demander ensuite le sens, en français, anglais simple ou CAA; consigner action et sens indépendamment."
+    },
+    {
+      "item_id": "qc-pri-als-001-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute les deux phrases; réponds à la demande et explique le rôle de la première.",
+      "stimulus": "Voix : “Thank you. Open the notebook, please.” Un cahier fermé est présent.",
+      "reponse_attendue": "Ouvrir le cahier; « Merci. Ouvre le cahier, s’il te plaît ». Thank you exprime le remerciement.",
+      "criteres": [
+        "Distingue Thank you (remerciement) de Open (action).",
+        "Ouvre le cahier.",
+        "Exprime le sens des deux formules sans omission importante."
+      ],
+      "feedback": "Thank you ne remplace pas l’action open. Écoute où apparaît le verbe après la formule relationnelle.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "Court échange",
+      "representation": "Écoute en anglais (voix humaine, script exact), objets accessibles, action et sens exprimé",
+      "materiel": [
+        "cahier fermé"
+      ],
+      "scripts_oraux": [
+        "Thank you. Open the notebook, please."
+      ],
+      "observables": {
+        "actions_attendues": [
+          "Ouvrir le cahier, sans action en réponse à Thank you."
+        ],
+        "sens_attendus": [
+          "Merci. Ouvre le cahier, s’il te plaît."
+        ]
+      },
+      "limites_de_variation": "Script anglais et corrigé verrouillés. Substitution de matériel accessible équivalent uniquement; ne pas modifier les mots, l’ordre, les liens objets/cibles ou la difficulté sans nouvelle revue.",
+      "protocole": "Fournir oralement le(s) script(s), une lecture puis une répétition identique possible. Aucune transcription, traduction, mime ni correction avant réponse. Demander ensuite le sens, en français, anglais simple ou CAA; consigner action et sens indépendamment."
+    },
+    {
+      "item_id": "qc-pri-als-001-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute l’instruction dans un petit comptoir fictif; agis puis explique.",
+      "stimulus": "Voix : “Please put the envelope on the box.” Enveloppe et boîte prêtes à manipuler.",
+      "reponse_attendue": "Placer l’enveloppe sur la boîte; « S’il te plaît, mets l’enveloppe sur la boîte ».",
+      "criteres": [
+        "Choisit enveloppe et boîte, pas un autre objet.",
+        "Place l’enveloppe sur la boîte, non dedans.",
+        "Reformulation conserve please et on dans leur rôle."
+      ],
+      "feedback": "On désigne la surface supérieure; inside désignerait l’intérieur. Vérifie en comparant les deux gestes.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "Comptoir postal simulé",
+      "representation": "Écoute en anglais (voix humaine, script exact), objets accessibles, action et sens exprimé",
+      "materiel": [
+        "grande enveloppe",
+        "boîte"
+      ],
+      "scripts_oraux": [
+        "Please put the envelope on the box."
+      ],
+      "observables": {
+        "actions_attendues": [
+          "Enveloppe sur la boîte."
+        ],
+        "sens_attendus": [
+          "S’il te plaît, mets l’enveloppe sur la boîte."
+        ]
+      },
+      "limites_de_variation": "Script anglais et corrigé verrouillés. Substitution de matériel accessible équivalent uniquement; ne pas modifier les mots, l’ordre, les liens objets/cibles ou la difficulté sans nouvelle revue.",
+      "protocole": "Fournir oralement le(s) script(s), une lecture puis une répétition identique possible. Aucune transcription, traduction, mime ni correction avant réponse. Demander ensuite le sens, en français, anglais simple ou CAA; consigner action et sens indépendamment."
+    },
+    {
+      "item_id": "qc-pri-als-001-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE A — écoute TROIS instructions inédites, exécute-les séparément, puis indique le sens de chacune. Aucune phrase écrite n’est montrée à l’élève.",
+      "stimulus": "Situation de classe : livre ouvert, cahier fermé, crayon à côté et gomme accessible. L’enseignant prononce successivement : “Point to the eraser, please.” / “Put the pencil on the notebook.” / “Close the book, please.”",
+      "reponse_attendue": "1) Montrer la gomme et dire « Montre la gomme ». 2) Mettre le crayon SUR le cahier et dire « Mets le crayon sur le cahier ». 3) Fermer le livre et dire « Ferme le livre ». Trois paires action-sens indépendantes.",
+      "criteres": [
+        "A1 : désigne la gomme; S1 : indique montrer la gomme.",
+        "A2 : place le crayon sur le cahier; S2 : précise sur, non sous/à côté.",
+        "A3 : ferme le livre; S3 : précise fermer le livre.",
+        "Aucune traduction, geste indicatif, correction ou indice adulte avant réponse; une seule répétition strictement identique de chaque consigne possible.",
+        "Preuve complète seulement si 3 actions et 3 indications de sens justes, dans ce contexte."
+      ],
+      "feedback": "Si une action ou son sens diffère, décrire après l’épreuve quel mot (cible, action, position) pose problème et pratiquer d’autres phrases. Ne pas refaire la même série comme deuxième preuve.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "scenario_fixe": "bureau_de_classe",
+        "ordre_scripts": "verrouille",
+        "nb_consigne": 3,
+        "repetition_identique_max_par_consigne": 1,
+        "indices_semantiques": 0,
+        "equivalents_materiels": "objets tactiles/grands, aide motrice neutre autorisée, sans modification sémantique"
+      },
+      "validation_status": "a_revoir",
+      "contexte": "PREUVE DE MAÎTRISE A — classe",
+      "representation": "Écoute en anglais (voix humaine, script exact), objets accessibles, action et sens exprimé",
+      "materiel": [
+        "gomme sécuritaire",
+        "crayon",
+        "cahier",
+        "livre ouvert"
+      ],
+      "scripts_oraux": [
+        "Point to the eraser, please.",
+        "Put the pencil on the notebook.",
+        "Close the book, please."
+      ],
+      "observables": {
+        "actions_attendues": [
+          "Désigner la gomme.",
+          "Placer crayon sur cahier.",
+          "Fermer le livre."
+        ],
+        "sens_attendus": [
+          "Montre la gomme.",
+          "Mets le crayon sur le cahier.",
+          "Ferme le livre."
+        ]
+      },
+      "limites_de_variation": "Contexte bureau de classe, 3 scripts et ordre fixés; seules équivalences matérielles et modalité de réponse motrice/CAA sont permises, documentées. Aucun rééchantillonnage libre, aucune traduction écrite présentée.",
+      "protocole": "Fournir oralement le(s) script(s), une lecture puis une répétition identique possible. Aucune transcription, traduction, mime ni correction avant réponse. Demander ensuite le sens, en français, anglais simple ou CAA; consigner action et sens indépendamment."
+    },
+    {
+      "item_id": "qc-pri-als-001-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE B — dans un comptoir postal imaginaire, écoute TROIS nouvelles instructions, réalise les actions et exprime le sens de chaque phrase.",
+      "stimulus": "Comptoir postal fictif : une boîte ouverte, une enveloppe vide ouverte, une grande carte et un grand faux timbre en carton sur le comptoir. Scripts successifs : “Put the envelope next to the box.” / “Pick up the stamp, please.” / “Put the card inside the envelope.”",
+      "reponse_attendue": "1) Mettre l’enveloppe à côté de la boîte; « Mets l’enveloppe à côté de la boîte ». 2) Prendre le grand faux timbre; « Prends le timbre ». 3) Placer la carte dans l’enveloppe; « Mets la carte dans l’enveloppe ». Trois paires action-sens indépendantes.",
+      "criteres": [
+        "B1 : enveloppe à côté de la boîte et reformulation avec next to.",
+        "B2 : prend/indique la prise du timbre et exprime pick up.",
+        "B3 : carte à l’intérieur de l’enveloppe et reformulation avec inside.",
+        "Aucune aide donnant le sens; au plus une répétition littérale par script, sans geste ni traduction.",
+        "Preuve complète seulement si 3 actions correctes et 3 sens corrects pour ce deuxième contexte."
+      ],
+      "feedback": "Si tu as mis la carte à côté de l’enveloppe, le mot inside n’a pas été suivi; travailler in / next to sur d’autres objets et reprendre avec une nouvelle série après remédiation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "scenario_fixe": "comptoir_postal_fictif",
+        "ordre_scripts": "verrouille",
+        "nb_consigne": 3,
+        "repetition_identique_max_par_consigne": 1,
+        "indices_semantiques": 0,
+        "equivalents_materiels": "grands faux objets équivalents, aide motrice neutre sans gestes-solution"
+      },
+      "validation_status": "a_revoir",
+      "contexte": "PREUVE DE MAÎTRISE B — comptoir postal simulé",
+      "representation": "Écoute en anglais (voix humaine, script exact), objets accessibles, action et sens exprimé",
+      "materiel": [
+        "grande enveloppe ouverte",
+        "boîte ouverte",
+        "grande carte",
+        "grand faux timbre cartonné non avalable"
+      ],
+      "scripts_oraux": [
+        "Put the envelope next to the box.",
+        "Pick up the stamp, please.",
+        "Put the card inside the envelope."
+      ],
+      "observables": {
+        "actions_attendues": [
+          "Placer enveloppe à côté de boîte.",
+          "Prendre grand timbre factice.",
+          "Mettre carte dans enveloppe."
+        ],
+        "sens_attendus": [
+          "Mets l’enveloppe à côté de la boîte.",
+          "Prends le timbre, s’il te plaît.",
+          "Mets la carte dans l’enveloppe."
+        ]
+      },
+      "limites_de_variation": "Comptoir postal fictif et 3 phrases verrouillés. Grand timbre carton (pas de vraie petite pièce). Autoriser objets plus grands et CAA sans donner la relation spatiale; toute nouvelle phrase exige une nouvelle validation.",
+      "protocole": "Fournir oralement le(s) script(s), une lecture puis une répétition identique possible. Aucune transcription, traduction, mime ni correction avant réponse. Demander ensuite le sens, en français, anglais simple ou CAA; consigner action et sens indépendamment."
+    }
+  ]
+}

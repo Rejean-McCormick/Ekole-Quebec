@@ -1,0 +1,14 @@
+# 05 — Quatre pratiques autonomes | qc-pri-als-012
+
+**Cadre commun :** petit groupe (p. ex. 2–4 auditeurs), un temps bref de préparation avec **trois mots clés au maximum** (pictogrammes ou braille possibles), sans texte intégral, sans corrections de contenu pendant l'oral. Les questions ne sont pas révélées à l'apprenant à l'avance. Présentation indicatrice de 30–90 s non chronométrée comme critère éliminatoire. Les quatre sujets sont fictifs ou choisis librement pour éviter une divulgation personnelle.
+
+| Tâche | Commande en français; production attendue en anglais | Questions auditeurs proposées (en anglais) | Preuve observable et critères |
+|---|---|---|---|
+| `independent-1` : coin d'arts | Proposer un outil ou une station de création pour une classe imaginaire; donner deux raisons/détails. | “What would we do there?” / “Why is it helpful?” | Idée annoncée, deux détails, réponses cohérentes *what/why*; demander de répéter si nécessaire. Exemple : “We can make paper flowers there. We need paper and glue. It is a fun place to create together.” |
+| `independent-2` : petit jeu de cour | Présenter un jeu **inventé** ou familier sans règles dangereuses; dire une règle et une raison de jouer. | “How do we play?” / “What if someone misses a turn?” | Décrire la règle, adapter sa réponse à une difficulté; pas d'obligation d'expérience vécue. Exemple : “We take turns tossing a soft ball into a box. If you miss, you can try again on your next turn.” |
+| `independent-3` : carte de bienvenue | Proposer un message en anglais pour une classe fictive; expliquer ce qu'on veut communiquer. | “Who is the card for?” / “What do you mean by ‘welcome’?” | Clarifier *who* et reformuler le sens de *welcome*, sans dicter une identité personnelle. Exemple : “It is for new students. ‘Welcome’ means we are happy they are here.” |
+| `independent-4` : mini-guide d'une exposition fictive | Présenter deux choses qu'on montrerait dans une exposition d'objets créés. | “Which item would you show first?” / “Why that one?” | Choix explicite, ordre et justification adaptés; exemple : “I would show the model bridge first because it is the biggest project.” |
+
+**Notation formative :** pour chaque essai, inscrire quatre indicateurs : `message intelligible`, `idée + deux précisions`, `réponses à deux questions`, `clarification lorsqu'utile`; résultat `autonome / avec aide de contenu / non observé`. Les modèles ci-dessus ne sont pas des réponses obligatoires. Si les questions ne sont pas comprises, une répétition **neutre** est permise et consignée; souffler *because…* pendant l'évaluation n'est pas une preuve autonome.
+
+**Transfert de fin de parcours :** passer à deux situations nouvelles dans `06_REMEDIATION_ET_TRANSFERT.md`; seules les preuves distinctes `q-009` et `q-010`, jugées ensemble par la grille, soutiennent la décision de maîtrise, jamais une note unique des pratiques.

@@ -1,0 +1,500 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-018",
+  "family_id": "qc-pri-st-018-ev-01",
+  "objectif_observable": "Relier besoins vitaux et fonctions d’organes ou systèmes étudiés.",
+  "preuve_attendue": "Construire un schéma fonctionnel simplifié d’un besoin vital.",
+  "validation_status": "a_revoir",
+  "usage": "items originaux contrôlés, révision humaine nécessaire avant toute décision sommative",
+  "items": [
+    {
+      "item_id": "qc-pri-st-018-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Associe A, B, C aux fonctions 1, 2, 3; explique un des liens.",
+      "stimulus": "A poumons ; B intestin grêle ; C muscles et os. 1 absorbent surtout les nutriments ; 2 font bouger un membre ; 3 assurent les échanges entre l’air et le sang.",
+      "reponse_attendue": "A→3 ; B→1 ; C→2. Justification acceptée : les poumons permettent le passage d’O₂ vers le sang.",
+      "criteres": [
+        "Trois appariements exacts",
+        "Une justification fondée sur la fonction, non une préférence"
+      ],
+      "feedback": "Si tu as relié les poumons à la digestion, distingue trajet de l’air et trajet des aliments.",
+      "difficulte": "initial",
+      "representation": "cartes_textuelles",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-018-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Décide si ce modèle convient. Répare-le et justifie une correction.",
+      "stimulus": "Une élève fictive a dessiné : « pain → poumons → nutriments ».",
+      "reponse_attendue": "Non. Remplacement minimal : pain/aliment → système digestif → nutriments absorbés (principalement intestin grêle) → organes. Les poumons n’assurent pas la digestion.",
+      "criteres": [
+        "Trajet alimentaire séparé du circuit respiratoire",
+        "Rôle de l’intestin grêle ou du système digestif nommé",
+        "Explication claire d’une correction"
+      ],
+      "feedback": "Les poumons échangent des gaz; c’est le système digestif qui transforme les aliments.",
+      "difficulte": "initial",
+      "representation": "texte_et_fleches",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-018-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète le schéma avec le gaz pertinent et deux verbes, puis nomme le besoin.",
+      "stimulus": "air inspiré → [POUMONS] → [SANG] → [ORGANES]. Les deux dernières flèches n’ont aucune étiquette.",
+      "reponse_attendue": "Le besoin est de recevoir de l’oxygène. O₂ passe des poumons vers le sang ; le sang transporte l’O₂ aux organes. L’air entier ne circule pas dans le sang.",
+      "criteres": [
+        "Oxygène mentionné",
+        "Deux relations directionnelles exactes",
+        "Besoin lié aux organes"
+      ],
+      "feedback": "Écris « oxygène » plutôt qu’« air entier » sur la flèche vers le sang.",
+      "difficulte": "initial",
+      "representation": "texte_et_fleches",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-018-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Construis un schéma comportant bouche, estomac et intestin grêle; précise ce qui est absorbé.",
+      "stimulus": "On te remet les étiquettes ALIMENT, BOUCHE, ESTOMAC, INTESTIN GRÊLE, NUTRIMENTS ABSORBÉS.",
+      "reponse_attendue": "aliment → bouche → estomac → intestin grêle → nutriments absorbés. Justifications : la digestion commence dans la bouche, se poursuit dans l’estomac et l’intestin; l’intestin grêle absorbe la plupart des nutriments.",
+      "criteres": [
+        "Ordre fonctionnel juste",
+        "Distinction aliments/nutriments",
+        "Une justification de l’absorption"
+      ],
+      "feedback": "L’estomac participe à la digestion mais l’intestin grêle joue un rôle majeur dans l’absorption.",
+      "difficulte": "intermediaire",
+      "representation": "cartes_et_schema",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-018-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Dessine trois boîtes et deux flèches expliquant pourquoi le bras d’une figurine peut plier au coude.",
+      "stimulus": "Description complète d’un dessin fictif : une figurine possède un bras articulé et plie le coude; aucune action physique n’est à réaliser.",
+      "reponse_attendue": "Muscles du bras → (contraction/traction) → os de l’avant-bras → (mouvement à) → articulation du coude. Une description des muscles tirant sur les os suffit.",
+      "criteres": [
+        "Muscles responsables de la force",
+        "Os/articulation contribuent au mouvement",
+        "Deux flèches explicitées"
+      ],
+      "feedback": "Les os ne se contractent pas : ce sont les muscles squelettiques qui produisent la force.",
+      "difficulte": "intermediaire",
+      "representation": "schema_fonctionnel",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-018-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Sépare observation et modèle, puis formule une conclusion correcte.",
+      "stimulus": "Une fiche décrit une vidéo fictive où le thorax d’un personnage bouge, puis présente un dessin adjacent montrant une flèche O₂ des poumons au sang.",
+      "reponse_attendue": "Observation : mouvements du thorax dans la vidéo. Modèle : flèche d’échange d’O₂ des poumons vers le sang, non visible directement dans la vidéo. Conclusion : les poumons permettent un transfert d’O₂ au sang pendant la respiration.",
+      "criteres": [
+        "Identification de l’observation réellement visible",
+        "Reconnaissance du modèle scientifique",
+        "Conclusion fonctionnelle sans surinterprétation"
+      ],
+      "feedback": "La flèche d’oxygène est un modèle explicatif, pas quelque chose vu directement à l’œil nu.",
+      "difficulte": "intermediaire",
+      "representation": "texte_et_fleches",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-018-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Explique avec trois boîtes comment les organes continuent de recevoir l’oxygène et écris le rôle des poumons.",
+      "stimulus": "Une histoire montre une personne qui regarde un paysage sans bouger; elle respire.",
+      "reponse_attendue": "air → poumons (échanges : O₂ passe au sang) → sang transporte O₂ aux organes. Le besoin en oxygène existe aussi au repos.",
+      "criteres": [
+        "Besoin d’oxygène même au repos",
+        "Rôle des poumons exact",
+        "Au moins deux flèches fonctionnelles"
+      ],
+      "feedback": "Être immobile ne signifie pas que les organes cessent d’utiliser de l’oxygène.",
+      "difficulte": "intermediaire",
+      "representation": "fiche_fictive_et_schema",
+      "seed": 1807,
+      "parametres": {
+        "type_variation": "scenario_controle_sans_IA_libre",
+        "variables": {
+          "contexte_id": [
+            0,
+            1,
+            2
+          ]
+        },
+        "domaines": {
+          "contexte_id": "0..2"
+        },
+        "contraintes": [
+          "Seule la situation narrative est substituée à partir du corpus fermé; les organes, faits scientifiques, barème et réponse restent invariants.",
+          "Pas de données de santé personnelle, de manipulation du corps ou de détail clinique."
+        ],
+        "algorithme": "index = seed modulo 3; stimulus = corpus[index].situation; corrigé = corrige_invariant",
+        "corpus": [
+          {
+            "code": "repos-1",
+            "situation": "Une affiche montre une personne qui lit tranquillement sur un banc; elle respire.",
+            "corrige_invariant": "air → poumons (échanges : O₂ passe au sang) → sang transporte O₂ aux organes. Le besoin en oxygène existe aussi au repos."
+          },
+          {
+            "code": "repos-2",
+            "situation": "Une histoire montre une personne qui regarde un paysage sans bouger; elle respire.",
+            "corrige_invariant": "air → poumons (échanges : O₂ passe au sang) → sang transporte O₂ aux organes. Le besoin en oxygène existe aussi au repos."
+          },
+          {
+            "code": "repos-3",
+            "situation": "Une bande dessinée montre une personne au repos dans un train; elle respire.",
+            "corrige_invariant": "air → poumons (échanges : O₂ passe au sang) → sang transporte O₂ aux organes. Le besoin en oxygène existe aussi au repos."
+          }
+        ],
+        "selection_active": 1,
+        "exemple_calcule": {
+          "seed": 1807,
+          "index": 1,
+          "stimulus": "Une histoire montre une personne qui regarde un paysage sans bouger; elle respire.",
+          "corrige": "air → poumons (échanges : O₂ passe au sang) → sang transporte O₂ aux organes. Le besoin en oxygène existe aussi au repos."
+        },
+        "variations_autorisees": "Uniquement les situations de corpus; pas de génération libre, aucun synonyme changeant les fonctions."
+      },
+      "validation_status": "a_revoir",
+      "limites_variation": "Corpus interne verrouillé, sans nouveau contexte non relu; mêmes faits, mêmes fonctions et même rubrique."
+    },
+    {
+      "item_id": "qc-pri-st-018-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Réalise un schéma expliquant comment les nutriments deviennent disponibles pour le corps, puis justifie deux flèches.",
+      "stimulus": "Un dessin montre un personnage qui mange une tartine fictive; on veut suivre les nutriments.",
+      "reponse_attendue": "aliment → bouche → estomac → intestin grêle : digestion et absorption de la plupart des nutriments → organes receveurs. Rôle de l’intestin grêle nommé. La phrase « nutriments absorbés sont transportés vers les organes » suffit pour le dernier lien.",
+      "criteres": [
+        "Système digestif identifié",
+        "Intestin grêle et absorption corrects",
+        "Deux flèches justifiées"
+      ],
+      "feedback": "Les aliments sont digérés; les nutriments absorbés rejoignent ensuite les tissus via les voies de transport du corps.",
+      "difficulte": "intermediaire",
+      "representation": "fiche_fictive_et_schema",
+      "seed": 1808,
+      "parametres": {
+        "type_variation": "scenario_controle_sans_IA_libre",
+        "variables": {
+          "contexte_id": [
+            0,
+            1,
+            2
+          ]
+        },
+        "domaines": {
+          "contexte_id": "0..2"
+        },
+        "contraintes": [
+          "Seule la situation narrative est substituée à partir du corpus fermé; les organes, faits scientifiques, barème et réponse restent invariants.",
+          "Pas de données de santé personnelle, de manipulation du corps ou de détail clinique."
+        ],
+        "algorithme": "index = seed modulo 3; stimulus = corpus[index].situation; corrigé = corrige_invariant",
+        "corpus": [
+          {
+            "code": "nutrition-1",
+            "situation": "Un personnage fictif mange un bol de céréales dessiné; on veut suivre les nutriments.",
+            "corrige_invariant": "aliment → bouche → estomac → intestin grêle : digestion et absorption de la plupart des nutriments → organes receveurs. Rôle de l’intestin grêle nommé. La phrase « nutriments absorbés sont transportés vers les organes » suffit pour le dernier lien."
+          },
+          {
+            "code": "nutrition-2",
+            "situation": "Une héroïne de conte mange des légumes représentés sur une carte; on veut suivre les nutriments.",
+            "corrige_invariant": "aliment → bouche → estomac → intestin grêle : digestion et absorption de la plupart des nutriments → organes receveurs. Rôle de l’intestin grêle nommé. La phrase « nutriments absorbés sont transportés vers les organes » suffit pour le dernier lien."
+          },
+          {
+            "code": "nutrition-3",
+            "situation": "Un dessin montre un personnage qui mange une tartine fictive; on veut suivre les nutriments.",
+            "corrige_invariant": "aliment → bouche → estomac → intestin grêle : digestion et absorption de la plupart des nutriments → organes receveurs. Rôle de l’intestin grêle nommé. La phrase « nutriments absorbés sont transportés vers les organes » suffit pour le dernier lien."
+          }
+        ],
+        "selection_active": 2,
+        "exemple_calcule": {
+          "seed": 1808,
+          "index": 2,
+          "stimulus": "Un dessin montre un personnage qui mange une tartine fictive; on veut suivre les nutriments.",
+          "corrige": "aliment → bouche → estomac → intestin grêle : digestion et absorption de la plupart des nutriments → organes receveurs. Rôle de l’intestin grêle nommé. La phrase « nutriments absorbés sont transportés vers les organes » suffit pour le dernier lien."
+        },
+        "variations_autorisees": "Uniquement les situations de corpus; pas de génération libre, aucun synonyme changeant les fonctions."
+      },
+      "validation_status": "a_revoir",
+      "limites_variation": "Corpus interne verrouillé, sans nouveau contexte non relu; mêmes faits, mêmes fonctions et même rubrique."
+    },
+    {
+      "item_id": "qc-pri-st-018-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Explique par un petit schéma quel système rend le mouvement du bras possible; identifie ce qui se contracte.",
+      "stimulus": "Une photo dessinée montre une poupée articulée qui soulève un livre.",
+      "reponse_attendue": "Muscle squelettique → contraction/traction sur l’os → déplacement de l’os au niveau d’une articulation → mouvement. L’os ne se contracte pas.",
+      "criteres": [
+        "Muscle responsable de la force",
+        "Os et articulation contribuent au mouvement",
+        "Direction correcte et justification"
+      ],
+      "feedback": "Un os donne un support et sert de levier; un muscle squelettique exerce la force pour le déplacer.",
+      "difficulte": "transfert",
+      "representation": "fiche_fictive_et_schema",
+      "seed": 1809,
+      "parametres": {
+        "type_variation": "scenario_controle_sans_IA_libre",
+        "variables": {
+          "contexte_id": [
+            0,
+            1,
+            2
+          ]
+        },
+        "domaines": {
+          "contexte_id": "0..2"
+        },
+        "contraintes": [
+          "Seule la situation narrative est substituée à partir du corpus fermé; les organes, faits scientifiques, barème et réponse restent invariants.",
+          "Pas de données de santé personnelle, de manipulation du corps ou de détail clinique."
+        ],
+        "algorithme": "index = seed modulo 3; stimulus = corpus[index].situation; corrigé = corrige_invariant",
+        "corpus": [
+          {
+            "code": "mouvement-1",
+            "situation": "Une photo dessinée montre une poupée articulée qui soulève un livre.",
+            "corrige_invariant": "Muscle squelettique → contraction/traction sur l’os → déplacement de l’os au niveau d’une articulation → mouvement. L’os ne se contracte pas."
+          },
+          {
+            "code": "mouvement-2",
+            "situation": "Un personnage illustré ouvre un tiroir avec le bras.",
+            "corrige_invariant": "Muscle squelettique → contraction/traction sur l’os → déplacement de l’os au niveau d’une articulation → mouvement. L’os ne se contracte pas."
+          },
+          {
+            "code": "mouvement-3",
+            "situation": "Dans un dessin, une figurine lève la main pour dire bonjour.",
+            "corrige_invariant": "Muscle squelettique → contraction/traction sur l’os → déplacement de l’os au niveau d’une articulation → mouvement. L’os ne se contracte pas."
+          }
+        ],
+        "selection_active": 0,
+        "exemple_calcule": {
+          "seed": 1809,
+          "index": 0,
+          "stimulus": "Une photo dessinée montre une poupée articulée qui soulève un livre.",
+          "corrige": "Muscle squelettique → contraction/traction sur l’os → déplacement de l’os au niveau d’une articulation → mouvement. L’os ne se contracte pas."
+        },
+        "variations_autorisees": "Uniquement les situations de corpus; pas de génération libre, aucun synonyme changeant les fonctions."
+      },
+      "validation_status": "a_revoir",
+      "limites_variation": "Corpus interne verrouillé, sans nouveau contexte non relu; mêmes faits, mêmes fonctions et même rubrique."
+    },
+    {
+      "item_id": "qc-pri-st-018-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sépare les deux circuits, dessine un schéma fonctionnel correct pour chacun et explique pourquoi le modèle de départ est faux.",
+      "stimulus": "Dans un centre de sciences imaginaire, une étiquette mélange « oxygène → estomac » et « fruits → poumons ».",
+      "reponse_attendue": "Respiration : air → poumons → O₂ passe dans sang → organes. Digestion : aliment → bouche/estomac/intestin grêle → nutriments absorbés → organes. Les circuits sont différents mais contribuent aux besoins des organes.",
+      "criteres": [
+        "Deux circuits distingués",
+        "Deux fonctions organiques exactes",
+        "Deux justifications des réparations"
+      ],
+      "feedback": "Distingue la circulation de l’air dans les voies respiratoires et la progression des aliments dans le tube digestif.",
+      "difficulte": "transfert",
+      "representation": "fiche_fictive_et_schema",
+      "seed": 1810,
+      "parametres": {
+        "type_variation": "scenario_controle_sans_IA_libre",
+        "variables": {
+          "contexte_id": [
+            0,
+            1,
+            2
+          ]
+        },
+        "domaines": {
+          "contexte_id": "0..2"
+        },
+        "contraintes": [
+          "Seule la situation narrative est substituée à partir du corpus fermé; les organes, faits scientifiques, barème et réponse restent invariants.",
+          "Pas de données de santé personnelle, de manipulation du corps ou de détail clinique."
+        ],
+        "algorithme": "index = seed modulo 3; stimulus = corpus[index].situation; corrigé = corrige_invariant",
+        "corpus": [
+          {
+            "code": "correction-1",
+            "situation": "Au coin lecture, une affiche mélange les flèches « air → estomac » et « aliments → poumons ».",
+            "corrige_invariant": "Respiration : air → poumons → O₂ passe dans sang → organes. Digestion : aliment → bouche/estomac/intestin grêle → nutriments absorbés → organes. Les circuits sont différents mais contribuent aux besoins des organes."
+          },
+          {
+            "code": "correction-2",
+            "situation": "Dans un centre de sciences imaginaire, une étiquette mélange « oxygène → estomac » et « fruits → poumons ».",
+            "corrige_invariant": "Respiration : air → poumons → O₂ passe dans sang → organes. Digestion : aliment → bouche/estomac/intestin grêle → nutriments absorbés → organes. Les circuits sont différents mais contribuent aux besoins des organes."
+          },
+          {
+            "code": "correction-3",
+            "situation": "Sur un jeu de cartes éducatif fictif, « respiration » conduit vers l’intestin grêle et « alimentation » vers les poumons.",
+            "corrige_invariant": "Respiration : air → poumons → O₂ passe dans sang → organes. Digestion : aliment → bouche/estomac/intestin grêle → nutriments absorbés → organes. Les circuits sont différents mais contribuent aux besoins des organes."
+          }
+        ],
+        "selection_active": 1,
+        "exemple_calcule": {
+          "seed": 1810,
+          "index": 1,
+          "stimulus": "Dans un centre de sciences imaginaire, une étiquette mélange « oxygène → estomac » et « fruits → poumons ».",
+          "corrige": "Respiration : air → poumons → O₂ passe dans sang → organes. Digestion : aliment → bouche/estomac/intestin grêle → nutriments absorbés → organes. Les circuits sont différents mais contribuent aux besoins des organes."
+        },
+        "variations_autorisees": "Uniquement les situations de corpus; pas de génération libre, aucun synonyme changeant les fonctions."
+      },
+      "validation_status": "a_revoir",
+      "limites_variation": "Corpus interne verrouillé, sans nouveau contexte non relu; mêmes faits, mêmes fonctions et même rubrique."
+    },
+    {
+      "item_id": "qc-pri-st-018-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 1. Sans modèle de réponse, crée un schéma de 3 à 5 boîtes pour montrer comment les organes d’un personnage reçoivent une ressource indispensable pendant le trajet. Étiquette au moins deux flèches et explique deux relations. Indique ce qui relève d’un modèle, non d’une observation directe.",
+      "stimulus": "Contexte inédit A — Sentier balisé fictif : dans un album illustré, une personne suit un sentier à pied. L’affiche doit expliquer un besoin vital lié à sa respiration, sans que l’élève ait à marcher.",
+      "reponse_attendue": "Besoin : oxygène. Schéma recevable : air inspiré → poumons (entrée/échanges) → O₂ passe au sang → sang transporte O₂ aux organes. Deux justifications : les poumons permettent le passage de l’oxygène dans le sang; le sang apporte l’oxygène aux organes. La flèche de gaz est un modèle, pas une mesure du personnage. Accepter une représentation séquentielle orale ou tactile équivalente. Ne pas accepter air entier dans le sang, estomac ou poumons produisant de l’O₂.",
+      "criteres": [
+        "Besoin vital explicite et scientifiquement pertinent.",
+        "Au moins deux organes/éléments fonctionnels placés avec leur rôle exact.",
+        "Au moins deux flèches orientées et légendées, sans erreur scientifique majeure.",
+        "Deux justifications qui expliquent les fonctions plutôt que de répéter les noms des boîtes.",
+        "Réalisation autonome : aucune aide sur le contenu, modalité adaptée autorisée; capacité de transposer à ce contexte inédit."
+      ],
+      "feedback": "Si le schéma est inexact, retravailler une relation précise avec des cartes, puis réévaluer sur un autre contexte inédit. Ne pas annoncer la maîtrise à partir de cette seule preuve.",
+      "difficulte": "transfert",
+      "representation": "schema_fonctionnel_ou_equivalent",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": {
+        "code": "P1",
+        "contexte": "sentier_balise_fictif",
+        "besoin_cible": "oxygene",
+        "contexte_distinct_de": "P2",
+        "temps_indicatif_min": 8
+      },
+      "rubrique": {
+        "exactitude": [
+          "besoin O₂",
+          "fonction poumons",
+          "transport par le sang"
+        ],
+        "processus": [
+          "2 flèches étiquetées",
+          "2 justifications"
+        ],
+        "autonomie": [
+          "sans aide scientifique",
+          "supports neutres permis"
+        ]
+      },
+      "points_de_vigilance": [
+        "scénario fictif, pas de tâche physique",
+        "absence de diagnostic de santé"
+      ],
+      "aides_admissibles": [
+        "lecture neutre de consigne",
+        "papier, cartes vierges ou dictée fidèle",
+        "temps supplémentaire"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-018-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-018-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 2. Crée un nouveau schéma de 3 à 5 boîtes qui explique comment le corps obtient une ressource indispensable à partir d’un repas. Étiquette au moins deux flèches et explique deux fonctions d’organes. Termine par une phrase qui relie le besoin à la fonction. Travail sans exemple fourni.",
+      "stimulus": "Contexte inédit B — Cantine d’un centre communautaire fictif : une fiche raconte qu’un personnage reçoit un repas. Il faut préparer une affiche scientifique expliquant le trajet des nutriments; aucun aliment réel n’est utilisé.",
+      "reponse_attendue": "Besoin : nutriments. Schéma recevable : aliments → bouche (ingestion/début digestion) → estomac (poursuite digestion) → intestin grêle (digestion et absorption des nutriments) → nutriments transportés vers organes. Deux justifications distinctes : rôle de l’estomac dans la digestion; rôle de l’intestin grêle dans l’absorption. Accepter système digestif comme boîte regroupée si deux fonctions sont explicitement expliquées et si l’intestin grêle est nommé. Ne pas accepter aliments intacts dans le sang ou digestion dans les poumons.",
+      "criteres": [
+        "Besoin vital explicite et scientifiquement pertinent.",
+        "Au moins deux organes/éléments fonctionnels placés avec leur rôle exact.",
+        "Au moins deux flèches orientées et légendées, sans erreur scientifique majeure.",
+        "Deux justifications qui expliquent les fonctions plutôt que de répéter les noms des boîtes.",
+        "Réalisation autonome : aucune aide sur le contenu, modalité adaptée autorisée; capacité de transposer à ce contexte inédit."
+      ],
+      "feedback": "Si les étapes ou les fonctions sont confondues, reprendre le trajet digestion–absorption et demander plus tard un nouveau schéma inédit; une bonne preuve 1 ne compense pas une preuve 2 insuffisante.",
+      "difficulte": "transfert",
+      "representation": "schema_fonctionnel_ou_equivalent",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": {
+        "code": "P2",
+        "contexte": "cantine_communautaire_fictive",
+        "besoin_cible": "nutriments",
+        "contexte_distinct_de": "P1",
+        "temps_indicatif_min": 8
+      },
+      "rubrique": {
+        "exactitude": [
+          "besoin nutriments",
+          "digestion",
+          "intestin grêle/absorption"
+        ],
+        "processus": [
+          "2 flèches étiquetées",
+          "2 justifications"
+        ],
+        "autonomie": [
+          "sans aide scientifique",
+          "supports neutres permis"
+        ]
+      },
+      "points_de_vigilance": [
+        "pas de repas à consommer",
+        "pas de discussion sur poids, allergies, habitudes personnelles"
+      ],
+      "aides_admissibles": [
+        "lecture neutre de consigne",
+        "papier, cartes vierges ou dictée fidèle",
+        "temps supplémentaire"
+      ]
+    }
+  ]
+}

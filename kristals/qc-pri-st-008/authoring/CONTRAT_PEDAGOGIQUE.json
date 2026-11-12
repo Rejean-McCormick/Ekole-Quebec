@@ -1,0 +1,110 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Repérer des sources d’énergie et décrire les transformations observées.",
+  "concepts": [
+    "source",
+    "transfert",
+    "transformation",
+    "usage"
+  ],
+  "preuve_attendue": "Construire un schéma simple d’une chaîne énergétique observable.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-st-007"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-008-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Construire un schéma simple d’une chaîne énergétique observable.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "methode": "scenario_controle_sur_catalogue_ferme",
+        "algorithme": "index = seed % 2; seed ∈ {base, base+1}, base = 44000 + 2 * numéro item (q-001 à q-006)",
+        "source_variantes": "evaluation/BANQUE_ITEMS.json (parametres.catalogue)",
+        "nombre_variantes_par_item": 2,
+        "controle": "comparaison des champs corrige/indice pour les 12 variantes; toute réponse formulée par élève doit être révisée par un humain"
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-st-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Construire un schéma simple d’une chaîne énergétique observable.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "schema_annote",
+        "classement_observation_modele",
+        "justification_orale_ou_ecrite"
+      ],
+      "variables": {
+        "scenario_index": {
+          "domaine": [
+            0,
+            1
+          ],
+          "unite": "entier",
+          "applicable_items": [
+            "qc-pri-st-008-q-001",
+            "qc-pri-st-008-q-002",
+            "qc-pri-st-008-q-003",
+            "qc-pri-st-008-q-004",
+            "qc-pri-st-008-q-005",
+            "qc-pri-st-008-q-006"
+          ]
+        }
+      },
+      "contraintes": [
+        "catalogue de scénarios fini, sans génération libre de faits",
+        "seed modulo 2, seules deux graines adjacentes admises par item",
+        "correspondance stimulus/corrigé fixe par variante",
+        "2 preuves autonomes dans des contextes distincts",
+        "aucun protocole de manipulation à risque"
+      ],
+      "barreme_ou_rubrique": {
+        "fichier": "../evaluation/GRILLE_MAITRISE.md",
+        "axes": [
+          "source",
+          "chaine_et_transformations",
+          "observation_vs_modele",
+          "effet_et_usage"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2
+        ],
+        "decision": "niveau 2 sur chaque axe pour chacune des deux preuves q-009 et q-010, sans indice; pas de moyenne"
+      },
+      "source": [
+        "governance/Norme_Pedagogique_Autonome_v1.2/CONTRAT_PEDAGOGIQUE_V1.2.md",
+        "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "kristals/qc-pri-st-008/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": {
+        "algorithme": "index = seed % 2",
+        "intervalle_base": {
+          "min": 44002,
+          "max": 44012,
+          "pas": 2
+        },
+        "versions": "pour chaque q-001..q-006 : seed_base = 44000 + 2 * numéro; seed_base ou seed_base+1"
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,359 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-eps-008",
+  "family_id": "qc-pri-eps-008-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-eps-008-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Montre le danger, dis ce que tu fais avant de courir et à qui tu le signales.",
+      "stimulus": "Dans un gymnase, un sac est posé dans le couloir où le groupe doit se déplacer. L’adulte est présent; le départ n’a pas été donné.",
+      "reponse_attendue": "Le sac peut faire trébucher. Ne pas commencer; avertir l’adulte et attendre qu’il dégage ou modifie le trajet et donne le signal.",
+      "criteres": [
+        "Identifie le sac dans le trajet comme obstacle et risque de chute.",
+        "Décide de ne pas commencer tant que le trajet n’est pas sûr.",
+        "Avertit l’adulte et attend une décision autorisant un passage sûr."
+      ],
+      "feedback": "Si tu proposes seulement de contourner vite le sac, demande-toi si l’obstacle est toujours là pour les autres : le départ reste suspendu.",
+      "difficulte": "initial",
+      "representation": "carte_textuelle_plan",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère le danger, explique comment l’éviter et qui doit organiser la zone.",
+      "stimulus": "À l’atelier de lancers de ballons souples, des camarades traversent derrière la cible pendant que les autres s’apprêtent à lancer.",
+      "reponse_attendue": "Risque qu’un ballon heurte quelqu’un. Suspendre le lancer, avertir l’adulte et attendre qu’il sépare la zone de passage de celle de réception et donne une consigne de récupération.",
+      "criteres": [
+        "Reconnaît la trajectoire de lancer croisant un passage comme risque.",
+        "Interrompt le lancer avant toute action.",
+        "Propose une séparation des zones par l’adulte, non une simple demande de viser mieux."
+      ],
+      "feedback": "Un ballon souple peut tout de même atteindre une personne : ce sont les zones séparées et la consigne d’arrêt qui comptent.",
+      "difficulte": "initial",
+      "representation": "carte_textuelle_schema",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Décris un début d’activité plus sûr; précise ce que tu fais en cas de douleur.",
+      "stimulus": "Après une longue période assise, une classe veut faire immédiatement des sprints au signal. Aucun échauffement n’est prévu.",
+      "reponse_attendue": "Demander à l’adulte un début avec déplacements doux et progressifs adaptés avant l’effort plus actif; suivre les consignes, et s’arrêter puis avertir l’adulte si une douleur ou un malaise apparaît.",
+      "criteres": [
+        "Identifie le départ maximal sans préparation comme inadapté.",
+        "Propose une mise en mouvement graduelle sous supervision.",
+        "Prévoit arrêt et alerte en cas de douleur ou malaise; ne promet pas zéro blessure."
+      ],
+      "feedback": "L’échauffement n’est pas une course à gagner. Il commence doucement et ne dispense pas d’arrêter en cas de douleur.",
+      "difficulte": "initial",
+      "representation": "carte_textuelle_timeline",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Quelle décision prends-tu pour l’équipement et l’activité? Justifie.",
+      "stimulus": "Une protection exigée par l’adulte pour une activité a sa sangle de fermeture cassée. Le groupe se prépare à commencer.",
+      "reponse_attendue": "Ne pas utiliser la protection défectueuse ni participer à cette activité avec ce matériel; avertir l’adulte et attendre remplacement, vérification ou activité adaptée.",
+      "criteres": [
+        "Identifie la sangle cassée comme défaut de protection.",
+        "Refuse l’utilisation et le démarrage avec l’équipement abîmé.",
+        "Avertit l’adulte; ne tente pas une réparation improvisée."
+      ],
+      "feedback": "Une protection qui ne tient pas n’est pas une solution. Arrête et fais vérifier par l’adulte plutôt que d’improviser une réparation.",
+      "difficulte": "initial",
+      "representation": "carte_textuelle_objet",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Comme camarade, dis quoi faire immédiatement et un geste à éviter.",
+      "stimulus": "Pendant un jeu, un élève tombe, dit qu’il a mal au bras et demande à ses amis de le relever rapidement.",
+      "reponse_attendue": "Arrêter l’activité et prévenir aussitôt l’adulte. Laisser l’adulte prendre en charge; ne pas soulever, tirer ou manipuler la personne blessée par initiative personnelle.",
+      "criteres": [
+        "Identifie une douleur après chute comme motif d’arrêt et d’aide.",
+        "Alerte l’adulte sans délai.",
+        "Ne propose ni de déplacer ni de traiter la blessure soi-même."
+      ],
+      "feedback": "Ton aide comme élève consiste d’abord à arrêter le jeu et à prévenir l’adulte; tu n’as pas à évaluer ou manipuler la blessure.",
+      "difficulte": "intermediaire",
+      "representation": "carte_textuelle_incident",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère ce qui rend le passage dangereux et propose une action sûre.",
+      "stimulus": "Une bouteille renversée a mouillé le sol à l’entrée d’un petit parcours. Le groupe veut continuer sans prévenir l’adulte.",
+      "reponse_attendue": "Risque de glissade; ne pas entrer dans la zone humide, interrompre le passage et avertir l’adulte; attendre qu’il fasse traiter le danger ou propose un trajet alternatif sûr.",
+      "criteres": [
+        "Identifie la surface humide comme risque de glissade.",
+        "Empêche le départ ou passage sur cette zone.",
+        "Avertit l’adulte et attend la sécurisation ou le changement du parcours."
+      ],
+      "feedback": "Même si tu crois pouvoir passer, le sol reste glissant pour le groupe. Signale la zone avant toute reprise.",
+      "difficulte": "intermediaire",
+      "representation": "carte_textuelle_surface",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Comment rendre la participation sûre sans juger les capacités des élèves?",
+      "stimulus": "Le trajet d’un jeu est très étroit : les cônes bloquent l’accès à certains modes de déplacement. Un participant ne peut le traverser sans heurter les cônes.",
+      "reponse_attendue": "Suspendre le départ, signaler à l’adulte que le parcours n’est pas accessible et lui demander de l’élargir, de dégager l’accès ou de proposer un itinéraire équivalent et sûr.",
+      "criteres": [
+        "Identifie l’étroitesse et les cônes comme obstacles réels.",
+        "Propose l’arrêt puis un aménagement accessible encadré.",
+        "Ne juge ni vitesse, ni corps, ni aptitude brute de la personne."
+      ],
+      "feedback": "Une zone sûre doit aussi être praticable; la bonne réponse change le lieu avec l’adulte, pas la valeur attribuée à une personne.",
+      "difficulte": "intermediaire",
+      "representation": "carte_textuelle_accessibilite",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère deux éléments qui risquent d’entrer en collision et explique ce que tu demandes à l’adulte.",
+      "stimulus": "Dans le gymnase, un jeu de ballon se déroule au bord d’un relais. Les trajectoires se croisent et le signal commun d’arrêt n’a pas été expliqué.",
+      "reponse_attendue": "Risque de collision entre participants ou ballons; ne pas démarrer/suspendre le jeu; alerter l’adulte pour séparer les trajets, préciser une zone de réception et expliquer le signal d’arrêt.",
+      "criteres": [
+        "Reconnaît le croisement de trajectoires comme danger.",
+        "Choisit suspension plutôt que rapidité ou habileté.",
+        "Demande une organisation et un signal supervisés pour tous."
+      ],
+      "feedback": "Bien viser ou courir vite ne règle pas les trajectoires croisées; il faut revoir l’organisation avant le jeu.",
+      "difficulte": "intermediaire",
+      "representation": "carte_textuelle_plan",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère au moins deux risques, annonce une action immédiate sûre, propose à l’adulte une modification précise et explique ton choix. Réponds sans indice.",
+      "stimulus": "Dans le gymnase, un parcours de marche entre quatre cônes traverse le trajet de ballons que l’autre groupe roule vers une cible. Des sacs sont déposés près du croisement. Le professeur n’a pas encore ouvert l’activité.",
+      "reponse_attendue": "1) Risque de collision entre les trajectoires de marche et de ballons; 2) risque de trébucher sur les sacs. Ne pas démarrer, avertir le professeur et lui proposer de séparer les deux espaces et libérer le passage; attendre sa consigne avant de commencer. Toute variante équivalente doit éliminer les deux dangers et conserver la décision de l’adulte.",
+      "criteres": [
+        "Repère explicitement DEUX risques distincts : croisement/collision et sacs/chute.",
+        "Ne lance pas l’activité et propose une modification concrète qui écarte LES DEUX risques.",
+        "Avertit l’adulte, attend sa décision et justifie en termes de sécurité."
+      ],
+      "feedback": "Si tu as repéré seulement les sacs, regarde aussi où vont les ballons; si tu proposes seulement de courir lentement, les trajectoires restent croisées. Après l’épreuve, étudie les deux risques avec l’adulte.",
+      "difficulte": "transfert",
+      "representation": "plan_gymnase",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A — gymnase, trajectoires croisées",
+      "conditions_autonomie": "Sans indice de fond; consigne accessible et transcription neutre possibles; R=2 S=2 A≥1, deux risques, aucune action gravement dangereuse."
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère au moins deux risques, annonce une action immédiate sûre, propose à l’adulte une solution de jeu et justifie. Réponds sans indice.",
+      "stimulus": "Dans la cour d’école, un jeu de poursuite va commencer. Une partie du trajet est glissante après la pluie et un sac bloque l’entrée du passage habituel. Les autres veulent partir tout de suite.",
+      "reponse_attendue": "1) Risque de glisser sur la surface mouillée; 2) risque de trébucher ou de bloquer le passage à cause du sac. Ne pas commencer; informer l’adulte; attendre qu’il choisisse une zone sèche et dégagée ou qu’il modifie/reporte l’activité. Ne pas simplement contourner seul ni demander au groupe d’accélérer.",
+      "criteres": [
+        "Repère DEUX risques distincts : sol glissant et sac/obstruction.",
+        "Refuse le départ et propose une solution concrète couvrant LES DEUX dangers.",
+        "Informe l’adulte, attend sa décision et explique le risque de glissade ou de chute."
+      ],
+      "feedback": "Le sac n’est pas le seul problème : le sol reste glissant. Une solution sûre doit traiter les deux avant le signal de l’adulte.",
+      "difficulte": "transfert",
+      "representation": "carte_cour_ecole",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B — cour, sol et accès obstrué",
+      "conditions_autonomie": "Sans indice de fond; consigne accessible et transcription neutre possibles; R=2 S=2 A≥1, deux risques, aucune action gravement dangereuse."
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Quel choix fais-tu lorsque tu ne connais pas encore les consignes de départ?",
+      "stimulus": "Dans une salle d’activités, le matériel est installé et les élèves sont prêts, mais l’adulte responsable n’est pas à leur poste et le signal de départ n’a pas été donné.",
+      "reponse_attendue": "Ne pas commencer le jeu; attendre que l’adulte responsable soit présent et qu’il donne les consignes et le signal après vérification du lieu.",
+      "criteres": [
+        "Identifie l’absence de supervision et de signal comme raison de ne pas débuter.",
+        "Attends au lieu de lancer le jeu.",
+        "Demande les consignes à l’adulte responsable sans improviser un signal."
+      ],
+      "feedback": "Le matériel en place ne signifie pas que la zone est autorisée; il faut la présence et les consignes de l’adulte.",
+      "difficulte": "intermediaire",
+      "representation": "carte_textuelle_signal",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-008-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Que fais-tu immédiatement comme camarade, et que dois-tu éviter?",
+      "stimulus": "Au cours d’un jeu, un élève glisse, se heurte la tête et paraît étourdi. Quelqu’un propose de le laisser reprendre pour finir le jeu.",
+      "reponse_attendue": "Arrêter le jeu et avertir immédiatement l’adulte responsable; tenir les autres éloignés; ne pas laisser reprendre et ne pas poser de diagnostic ni déplacer/manipuler la personne par initiative personnelle. L’adulte applique le protocole local et sollicite les secours requis.",
+      "criteres": [
+        "Identifie le choc à la tête et l’étourdissement comme alerte sérieuse.",
+        "Suspend le jeu et alerte immédiatement l’adulte; aucune reprise proposée.",
+        "N’improvise ni diagnostic, ni manipulation, ni décision médicale."
+      ],
+      "feedback": "Un choc à la tête avec étourdissement n’est jamais un défi à terminer. L’élève s’arrête et avertit l’adulte, qui applique le protocole.",
+      "difficulte": "transfert",
+      "representation": "carte_textuelle_choc_tete",
+      "type": "observation_ou_production",
+      "rubrique": {
+        "reperage_R": "0 = danger absent ou interprété comme sûr; 1 = un repère pertinent mais incomplet; 2 = tous les risques cruciaux demandés reconnus et explicités.",
+        "securite_S": "0 = action dangereuse; 1 = arrêt ou prudence sans action suffisante; 2 = arrêt/non-départ + mesure sûre concrète.",
+        "aide_A": "0 = adulte absent là où nécessaire / intervention non autorisée; 1 = adulte ou justification partiels; 2 = adulte, justification et adaptation explicités.",
+        "point_non_compensable": "Toute proposition gravement dangereuse bloque la maîtrise; aucune somme de points ne compense."
+      },
+      "variations_admissibles": "Uniquement modalité fidèle texte/lecture/pointage/dessin/support de communication, sans suppression d’indices ni ajout de solution; tout remplacement de scénario exige revue humaine.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

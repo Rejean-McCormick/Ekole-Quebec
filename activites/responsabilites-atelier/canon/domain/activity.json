@@ -1,0 +1,166 @@
+{
+  "format": "ekole.activity/1",
+  "id": "responsabilites-atelier",
+  "revision": 1,
+  "status": "local_demo",
+  "model": "questions",
+  "course": {
+    "id": "qc-pri-ccq-002",
+    "objective": "obj-1",
+    "sha256": "sha256:5285b529acc06a02b685ae065ce94e62f617ebbd0094e067a363dfbda0a24660"
+  },
+  "scenario": {
+    "id": "responsabilites-atelier",
+    "version": "1.0.0",
+    "step": "essai",
+    "sha256": "sha256:3e3c33df2ac343a8af9eb168fb86b69f2f169aa9ffe5c2db42f62079ba0aaf11"
+  },
+  "trame": "regles-ateliers",
+  "tasks": {
+    "pratique": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "a"
+          ]
+        }
+      ]
+    },
+    "bilan": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "b"
+          ]
+        },
+        {
+          "id": "expliquer",
+          "kind": "rubric",
+          "criteria": {
+            "preuve": 1
+          }
+        }
+      ]
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "review": "La justification sera lue par une personne.",
+      "title": "Partager les responsabilités",
+      "objective": "Compare deux façons de partager les responsabilités.",
+      "prerequisite": "Identifier une tâche nécessaire dans un groupe.",
+      "context": "Pour ranger l’atelier, un groupe alterne les tâches chaque semaine. Un autre répartit les tâches selon les préférences de chacun.",
+      "group": "Nomme une responsabilité commune.",
+      "compare": "Compare qui fait quoi et comment cela peut changer.",
+      "reflection": "Que faire si une tâche importante reste sans responsable ?",
+      "transfer": "Aujourd’hui, la personne qui range d’habitude les outils est absente.",
+      "subtitle": "Activité de découverte",
+      "heading": "Partager les responsabilités",
+      "correct": "Ta réponse correspond à la situation.",
+      "incorrect": "Relis les données de la situation et compare les possibilités.",
+      "next": "Compare qui fait quoi et comment cela peut changer.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Quelle différence est décrite ?",
+            "options": {
+              "a": "Les tâches tournent dans un groupe et sont choisies dans l’autre.",
+              "b": "Les deux groupes laissent toutes les tâches sans responsable.",
+              "c": "Les deux groupes gardent exactement les mêmes rôles."
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Quel geste permet au groupe de tenir compte de l’absence ?",
+            "options": {
+              "a": "Laisser les outils sortis sans en parler.",
+              "b": "Se mettre d’accord sur qui prend la tâche aujourd’hui.",
+              "c": "Retirer la tâche de la liste pour toujours."
+            }
+          },
+          "expliquer": {
+            "prompt": "Propose une façon de partager les tâches et explique une conséquence pour le groupe.",
+            "criteria": {
+              "preuve": "La réponse relie une répartition proposée à une conséquence pour le groupe."
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "limits": "Local demonstration activity for review before classroom use.",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "review": "Someone will review your explanation.",
+      "title": "Sharing responsibilities",
+      "objective": "Compare two ways of sharing responsibilities.",
+      "prerequisite": "Identify a task that a group needs to do.",
+      "context": "One workshop group rotates jobs each week. Another group divides jobs according to people’s preferences.",
+      "group": "Name a responsibility both groups share.",
+      "compare": "Compare who does what and how that can change.",
+      "reflection": "What can you do if nobody is responsible for an important job?",
+      "transfer": "The person who normally puts away the tools is absent today.",
+      "subtitle": "Discovery activity",
+      "heading": "Sharing responsibilities",
+      "correct": "Your answer fits the situation.",
+      "incorrect": "Read the situation again and compare the options.",
+      "next": "Compare who does what and how that can change.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "What difference does the story describe?",
+            "options": {
+              "a": "One group rotates jobs and the other chooses them.",
+              "b": "Both groups leave all jobs unassigned.",
+              "c": "Both groups keep exactly the same roles."
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Which action takes the absence into account?",
+            "options": {
+              "a": "Leave the tools out without talking about it.",
+              "b": "Agree on who will do the job today.",
+              "c": "Remove the job from the list forever."
+            }
+          },
+          "expliquer": {
+            "prompt": "Suggest a way to share jobs and explain one consequence for the group.",
+            "criteria": {
+              "preuve": "The response connects a proposed division of jobs to a consequence for the group."
+            }
+          }
+        }
+      }
+    }
+  }
+}

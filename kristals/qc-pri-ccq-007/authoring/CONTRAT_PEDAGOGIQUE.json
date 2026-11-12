@@ -1,0 +1,88 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ccq-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comparer des perspectives culturelles sans généralisation abusive.",
+  "concepts": [
+    "perspective",
+    "comparaison",
+    "préjugé",
+    "contexte"
+  ],
+  "preuve_attendue": "Comparer deux récits en distinguant faits et points de vue.",
+  "prerequis_bloquants": [
+    "qc-pri-ccq-006"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ccq-007-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Comparer deux récits en distinguant faits et points de vue.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Banque de dossiers fixés; aucune variation non revue des récits, noms, faits ou corrigés",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "corpus_ferme": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ccq-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiche_factuelle_et_deux_recits_fictifs",
+        "tableau_de_comparaison",
+        "production_orale_ou_ecrite"
+      ],
+      "variables": {
+        "type": "corpus_fixé",
+        "corpus": "10 dossiers originaux; deux preuves q-009 et q-010",
+        "variation": "aucune substitution automatique hors revue humaine"
+      },
+      "contraintes": [
+        "respecter données et énoncés de la fiche commune fictive",
+        "attribuer les points de vue à leur narrateur",
+        "ne pas inférer identité ni croyances privées",
+        "ne pas conclure que tous les membres d’un groupe pensent de même",
+        "corriger les généralisations par une formulation limitée et documentée",
+        "deux manifestations autonomes dans des contextes différents"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "fait_source",
+          "attribution_points_de_vue",
+          "comparaison_criteriee",
+          "anti_generalisation",
+          "contexte_et_limite"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2
+        ],
+        "decision": "toutes les exigences minimales sur deux preuves; aucune moyenne compensatoire"
+      },
+      "source": [
+        "source_interne_workspace_v1.2",
+        "situations_originales_fictives",
+        "unesco_mil_ressource_generale"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

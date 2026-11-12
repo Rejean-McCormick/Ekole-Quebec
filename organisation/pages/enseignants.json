@@ -1,0 +1,39 @@
+{
+  "format": "ekole.portal-page/0.1",
+  "id": "ekole-page-enseignants",
+  "slug": "enseignants",
+  "titre": "Espace enseignement",
+  "public_cible": "enseignant",
+  "roles_visuels": [
+    "en_tete",
+    "description",
+    "actions",
+    "ressources",
+    "navigation"
+  ],
+  "utterances": [
+    {
+      "id": "enseignants-phrase-1",
+      "source": "original_edition_candidat",
+      "fr-CA": "Chaque Kristal précise un objectif observable, des activités et un plan d’évaluation.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "enseignants-phrase-2",
+      "source": "original_edition_candidat",
+      "fr-CA": "Les items d’évaluation nécessitent une revue humaine avant leur utilisation.",
+      "status": "a_revoir_semantik"
+    }
+  ],
+  "component_types": [
+    "utterance",
+    "label_value",
+    "list",
+    "card"
+  ],
+  "access": "information_publique_sans_donnees_personnelles",
+  "language_status": {
+    "fr-CA": "candidat",
+    "en": "non_genere"
+  }
+}

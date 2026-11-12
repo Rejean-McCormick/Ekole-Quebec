@@ -1,0 +1,69 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Choisir une stratégie collective simple puis l’adapter après observation.",
+  "concepts": [
+    "rôle",
+    "plan",
+    "communication",
+    "adaptation"
+  ],
+  "preuve_attendue": "Expliquer un choix tactique et montrer un ajustement en jeu.",
+  "prerequis_bloquants": [
+    "qc-pri-eps-006"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-007-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Expliquer un choix tactique et montrer un ajustement en jeu.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_revue_humaine_requise",
+      "kristal_id": "qc-pri-eps-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "jeu_collectif_sans_contact",
+        "station_d_acheminement",
+        "plateau_cooperatif_adapte",
+        "observation_factualisee"
+      ],
+      "variables": {
+        "mode": "fixe_controle",
+        "jeu": "scenarios_q-001_a_q-013_fixes",
+        "choix_dequipe": "roles_et_solution_tactique_multiples_sous_contraintes",
+        "canal_communication": "oral_geste_pictogramme_ou_assistance_accessible"
+      },
+      "contraintes": [
+        "Toutes les tâches sont non compétitives et sans contact.",
+        "Supervision adulte, aire accessible et sécurisée, signal ARRÊT perceptible.",
+        "Variation de repères/matériel seulement si propriétés fonctionnelles équivalentes.",
+        "Deux preuves autonomes sur jeux distincts q-012 et q-013.",
+        "Interdiction de variation IA libre non révisée et d’évaluation de la vitesse ou du corps."
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md ; 5 indicateurs I1-I5 à 4 niveaux, deux manifestations distinctes toutes ≥ 2; sécurité requise.",
+      "source": "sources/REFERENCES_CONTENU.md ; scenarios originaux contenus dans contenu/ et evaluation/BANQUE_ITEMS.json",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

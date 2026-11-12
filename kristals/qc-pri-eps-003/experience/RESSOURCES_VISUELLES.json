@@ -1,0 +1,83 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-eps-003",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Maintenir ou retrouver l’équilibre lors d’actions motrices de difficulté graduée.",
+    "concepts": [
+      "équilibre",
+      "coordination",
+      "appuis"
+    ]
+  },
+  "titre_source": "Équilibre et coordination",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "équilibre, coordination, appuis",
+      "prompt_conceptuel": "Concept d'image pour le cours « Équilibre et coordination ». Représenter un espace de mouvement, d’activité physique ou de coopération sécuritaire. Mettre en évidence les notions : équilibre, coordination, appuis. L'image doit aider à comprendre l'objectif « Maintenir ou retrouver l’équilibre lors d’actions motrices de difficulté graduée. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Équilibre et coordination : équilibre, coordination, appuis.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "équilibre, coordination, appuis",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Équilibre et coordination » : montrer une situation de déplacement ou d’action physique où les participants observent une consigne. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter équilibre, coordination, appuis. Cette image sert de point de départ à une activité liée à l'objectif « Maintenir ou retrouver l’équilibre lors d’actions motrices de difficulté graduée. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « La ligne des deux repères (au sol) »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Équilibre et coordination.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "La ligne des deux repères (au sol)",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

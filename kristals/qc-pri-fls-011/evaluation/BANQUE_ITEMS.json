@@ -1,0 +1,389 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fls-011",
+  "family_id": "qc-pri-fls-011-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fls-011-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Annonce située — Présente [S1] en 2 à 4 phrases en nommant le lieu, la période annoncée, la pratique et le site source. Ajoute une phrase sur ce qu’on ne peut pas conclure des habitants.",
+      "stimulus": "[S1] Site officiel des Francos de Montréal (Québec), https://francosmontreal.com/, consulté le 2026-10-09 : festival de musique francophone à Montréal; édition 2027 annoncée du 11 au 19 juin. Le programme ne renseigne pas les goûts de tous les habitants.",
+      "reponse_attendue": "Selon le site des Francos de Montréal, un festival de musique francophone est présenté à Montréal; l’édition 2027 est annoncée du 11 au 19 juin. C’est un exemple d’activité culturelle, pas une preuve que tous les Montréalais aiment les mêmes chansons.",
+      "criteres": [
+        "Fait exact : festival de musique francophone à Montréal; date annoncée de juin 2027 si citée, sans confondre annonce et tenue.",
+        "Attribution explicite au site des Francos.",
+        "Limite explicite : aucune conclusion sur tous les habitants.",
+        "Production compréhensible, orale ou écrite."
+      ],
+      "feedback": "Si seul le lieu est donné, ajouter la pratique et le site. Si « tous les Montréalais » apparaît, retirer la généralisation et revenir à la portée de la page.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte_court_ou_oral",
+      "source_refs": [
+        "S1"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Activité particulière — Décris [S3] et explique pourquoi « une activité de karaoké » ne signifie pas « tous les habitants chantent ».",
+      "stimulus": "[S3] Page Karaoké Radio-Canada, Festival acadien de Caraquet (Nouveau-Brunswick), https://festivalacadien.ca/evenements/karaoke-radio-canada/, consultée le 2026-10-09 : activité gratuite de karaoké de chansons francophones annoncée le 9 août 2026 au quartier général du Festival (sous-sol du Musée acadien de Caraquet). L’annonce ne dit pas que tous les habitants chantent.",
+      "reponse_attendue": "Le programme du Festival acadien annonçait un karaoké de chansons francophones le 9 août 2026 à Caraquet, au Nouveau-Brunswick. C’est une activité particulière, qui ne renseigne ni la langue première ni les loisirs de tous les habitants.",
+      "criteres": [
+        "Lieu, date, activité et source [S3] correctement situés.",
+        "Distinction explicite activité singulière vs population.",
+        "Expression intelligible et non stigmatisante."
+      ],
+      "feedback": "Si la date est absente, la repérer dans la carte. Si la phrase suppose la langue première des participants, rappeler que la source ne le documente pas.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte_court_ou_oral",
+      "source_refs": [
+        "S3"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Comparer la musique — Compare [S1] et [S3] sur la place de chansons en français : un point commun, une différence et une limite, avec les sources.",
+      "stimulus": "[S1] Site officiel des Francos de Montréal (Québec), https://francosmontreal.com/, consulté le 2026-10-09 : festival de musique francophone à Montréal; édition 2027 annoncée du 11 au 19 juin. Le programme ne renseigne pas les goûts de tous les habitants.\n[S3] Page Karaoké Radio-Canada, Festival acadien de Caraquet (Nouveau-Brunswick), https://festivalacadien.ca/evenements/karaoke-radio-canada/, consultée le 2026-10-09 : activité gratuite de karaoké de chansons francophones annoncée le 9 août 2026 au quartier général du Festival (sous-sol du Musée acadien de Caraquet). L’annonce ne dit pas que tous les habitants chantent.",
+      "reponse_attendue": "Les deux sources décrivent des activités musicales francophones. [S1] présente un festival de musique à Montréal, alors que [S3] présente un karaoké ponctuel à Caraquet en 2026. Les annonces ne prouvent pas les goûts de tous les habitants.",
+      "criteres": [
+        "Point commun démontré par S1 et S3 : musique/chansons francophones.",
+        "Différence de niveau : festival de musique vs activité précise dans un festival.",
+        "Sources attribuées, lieux situés et limite anti-généralisation."
+      ],
+      "feedback": "Une comparaison « Montréal est plus grand » n’est pas étayée par ces cartes : choisir le même axe, la forme de l’activité musicale.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte_court_ou_oral",
+      "source_refs": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Réparer une généralisation — Corrige l’énoncé « Puisqu’il existe des Francos à Montréal et du karaoké à Caraquet, tous les francophones chantent tous les jours ». Écris ou dis une alternative située, sourcée et comparée.",
+      "stimulus": "[S1] Site officiel des Francos de Montréal (Québec), https://francosmontreal.com/, consulté le 2026-10-09 : festival de musique francophone à Montréal; édition 2027 annoncée du 11 au 19 juin. Le programme ne renseigne pas les goûts de tous les habitants.\n[S3] Page Karaoké Radio-Canada, Festival acadien de Caraquet (Nouveau-Brunswick), https://festivalacadien.ca/evenements/karaoke-radio-canada/, consultée le 2026-10-09 : activité gratuite de karaoké de chansons francophones annoncée le 9 août 2026 au quartier général du Festival (sous-sol du Musée acadien de Caraquet). L’annonce ne dit pas que tous les habitants chantent.",
+      "reponse_attendue": "Les Francos de Montréal présentent un festival de musique francophone; le programme 2026 du Festival acadien de Caraquet annonçait une activité de karaoké. La musique est un point commun, mais les activités sont distinctes et ne décrivent pas les habitudes de tous les francophones.",
+      "criteres": [
+        "Refus clair de l’inférence « tous… tous les jours ».",
+        "Un fait provenant de chaque carte avec provenance et lieu.",
+        "Point commun musical et différence d’activité."
+      ],
+      "feedback": "Souligne « tous » et demande quelle donnée l’appuie : aucune. Reformuler « certaines activités annoncées » plutôt que décrire une population entière.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte_court_ou_oral",
+      "source_refs": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Échelle de l’événement — Un journaliste confond [S2] avec l’activité particulière [S3]. Présente le Festival acadien puis explique comment le karaoké s’insère dans sa programmation, sans faire de l’activité une coutume universelle.",
+      "stimulus": "[S2] Programme du Festival acadien de Caraquet (Nouveau-Brunswick), https://festivalacadien.ca/programmation/, consulté le 2026-10-09 : 64e édition du 2 au 15 août 2026; la programmation comprend des spectacles musicaux et des activités festives. Elle ne présente pas les loisirs de toute l’Acadie.\n[S3] Page Karaoké Radio-Canada, Festival acadien de Caraquet (Nouveau-Brunswick), https://festivalacadien.ca/evenements/karaoke-radio-canada/, consultée le 2026-10-09 : activité gratuite de karaoké de chansons francophones annoncée le 9 août 2026 au quartier général du Festival (sous-sol du Musée acadien de Caraquet). L’annonce ne dit pas que tous les habitants chantent.",
+      "reponse_attendue": "Le programme [S2] présente la 64e édition du Festival acadien à Caraquet du 2 au 15 août 2026, avec des spectacles et activités variées. La page [S3] annonce un karaoké le 9 août 2026 dans ce cadre. Le karaoké est une activité du programme, pas une description de tous les Acadiens.",
+      "criteres": [
+        "Identification du festival, du lieu et de l’édition 2026.",
+        "Rapport partie/tout exact entre karaoké [S3] et programme [S2].",
+        "Deux sources attribuées; limite explicite sur les Acadiens."
+      ],
+      "feedback": "Si l’élève dit que le karaoké est tout le festival, montrer la durée et la variété de S2; reprendre l’axe partie/ensemble.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte_court_ou_oral",
+      "source_refs": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Décrire sans confondre les cultures — Présente [S4] en nommant deux formes d’activités et explique pourquoi la présence d’artistes francophones et autochtones ne permet pas de leur attribuer une culture unique.",
+      "stimulus": "[S4] Page de l’organisateur du Festival du Voyageur, Winnipeg (Manitoba), https://heho.ca/en/about-us/, consultée le 2026-10-09 (faits paraphrasés depuis l’anglais) : festival hivernal comportant musique, danse, sculptures sur neige et activités éducatives/historiques; l’organisateur évoque des artistes francophones et autochtones. Cela ne signifie pas que les cultures ou identités de toutes les personnes sont semblables.",
+      "reponse_attendue": "Selon l’organisateur du Festival du Voyageur à Winnipeg, le festival hivernal propose notamment de la musique et des sculptures sur neige, en plus d’activités éducatives. L’organisateur met en valeur des artistes francophones et autochtones, mais cela ne signifie pas que ces groupes partagent une seule identité ou les mêmes pratiques.",
+      "criteres": [
+        "Winnipeg/Manitoba et cadre hivernal situés.",
+        "Au moins deux activités précises de S4.",
+        "Attribution à l’organisateur et non-assimilation des cultures/identités."
+      ],
+      "feedback": "Si le discours confond francophones et peuples autochtones, distinguer les termes sans attribuer d’identité aux individus ni interpréter leur expérience.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte_court_ou_oral",
+      "source_refs": [
+        "S4"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Éditions et comparaison — Compare [S1] et [S2] : où, quelle période annoncée ou documentée, et un point commun musical. Évite de conclure que les deux fêtes se déroulent à la même date.",
+      "stimulus": "[S1] Site officiel des Francos de Montréal (Québec), https://francosmontreal.com/, consulté le 2026-10-09 : festival de musique francophone à Montréal; édition 2027 annoncée du 11 au 19 juin. Le programme ne renseigne pas les goûts de tous les habitants.\n[S2] Programme du Festival acadien de Caraquet (Nouveau-Brunswick), https://festivalacadien.ca/programmation/, consulté le 2026-10-09 : 64e édition du 2 au 15 août 2026; la programmation comprend des spectacles musicaux et des activités festives. Elle ne présente pas les loisirs de toute l’Acadie.",
+      "reponse_attendue": "Les Francos de Montréal annoncent une édition du 11 au 19 juin 2027 à Montréal, et le programme du Festival acadien présente son édition du 2 au 15 août 2026 à Caraquet. Les deux comportent une dimension musicale, mais les années, les lieux et l’étendue des programmes diffèrent; cela ne décrit pas tous les habitants.",
+      "criteres": [
+        "Deux lieux et deux périodes attribuées à la bonne source.",
+        "Similarité liée à la musique et différence de cadre ou de période.",
+        "Distinction entre annonce 2027 et programme 2026, sans généralisation."
+      ],
+      "feedback": "Si les dates sont interverties, apparier chaque nom au document correspondant avant de refaire la comparaison.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte_court_ou_oral",
+      "source_refs": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Comparer les activités, pas les gens — À partir de [S3] et [S4], compare une activité musicale précise et un programme comportant plusieurs types d’activités. Décris pourquoi on ne peut pas en déduire la langue maternelle ou les préférences de tous les participants.",
+      "stimulus": "[S3] Page Karaoké Radio-Canada, Festival acadien de Caraquet (Nouveau-Brunswick), https://festivalacadien.ca/evenements/karaoke-radio-canada/, consultée le 2026-10-09 : activité gratuite de karaoké de chansons francophones annoncée le 9 août 2026 au quartier général du Festival (sous-sol du Musée acadien de Caraquet). L’annonce ne dit pas que tous les habitants chantent.\n[S4] Page de l’organisateur du Festival du Voyageur, Winnipeg (Manitoba), https://heho.ca/en/about-us/, consultée le 2026-10-09 (faits paraphrasés depuis l’anglais) : festival hivernal comportant musique, danse, sculptures sur neige et activités éducatives/historiques; l’organisateur évoque des artistes francophones et autochtones. Cela ne signifie pas que les cultures ou identités de toutes les personnes sont semblables.",
+      "reponse_attendue": "La page [S3] annonçait un karaoké francophone à Caraquet en 2026, tandis que [S4] présente le Festival du Voyageur de Winnipeg avec musique, danse, sculpture sur neige et activités historiques. Les deux contiennent de la musique; l’une décrit une activité précise, l’autre un ensemble d’activités. Rien ici ne démontre les langues premières ni les goûts de tous les individus.",
+      "criteres": [
+        "Un fait exact et lieu de chacune des cartes.",
+        "Même axe : variété/type d’activités, avec ressemblance et différence.",
+        "Deux sources attribuées et aucune inférence sur les identités."
+      ],
+      "feedback": "Réduire les conjectures : « selon ces programmes » plutôt que « les gens là-bas sont… ».",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte_court_ou_oral",
+      "source_refs": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "A1 — Capsule radio indépendante — Pour la radio scolaire au Manitoba, prépare une capsule de 60–90 s OU un texte bref de charge équivalente. Situe [S4], donne au moins deux activités annoncées; compare avec [S1] sur l’art ou la musique (point commun + différence); attribue chaque information, précise une limite; sans phrase modèle ni aide au raisonnement.",
+      "stimulus": "[S4] Page de l’organisateur du Festival du Voyageur, Winnipeg (Manitoba), https://heho.ca/en/about-us/, consultée le 2026-10-09 (faits paraphrasés depuis l’anglais) : festival hivernal comportant musique, danse, sculptures sur neige et activités éducatives/historiques; l’organisateur évoque des artistes francophones et autochtones. Cela ne signifie pas que les cultures ou identités de toutes les personnes sont semblables.\n[S1] Site officiel des Francos de Montréal (Québec), https://francosmontreal.com/, consulté le 2026-10-09 : festival de musique francophone à Montréal; édition 2027 annoncée du 11 au 19 juin. Le programme ne renseigne pas les goûts de tous les habitants.",
+      "reponse_attendue": "Production possible : « D’après le Festival du Voyageur, à Winnipeg, cette fête d’hiver présente de la musique et des sculptures sur neige ainsi que des activités historiques. Le site des Francos de Montréal présente un festival de musique francophone. La musique est commune, mais le Festival du Voyageur annonce aussi des activités éducatives et des sculptures sur neige. On ne peut pas conclure que tous les habitants participent. » Toute formulation factuellement équivalente est admise selon la grille.",
+      "criteres": [
+        "D1 : S4 situé (Winnipeg, hiver) + deux activités S4 exactes et un fait S1 exact, sources nommées (niveau attendu 2).",
+        "D2 : un point commun et une différence sur le même axe, chaque élément appuyé (niveau attendu 2).",
+        "D3 : limite explicite anti-généralisation et aucune assimilation des identités (niveau attendu 2).",
+        "D4 : réponse intelligible et sélection autonome des faits, sans co-rédaction (niveau attendu au moins 1)."
+      ],
+      "feedback": "Si D1 est fragile, retravailler le repérage lieu/pratique/source; si D2, comparer sur un axe unique; si D3, reformuler « certains » et vérifier les limites; si D4, adapter modalité sans fournir la réponse. Cette preuve ne se compense pas par la note d’une autre.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "corpus_verrouille": [
+          "S4",
+          "S1"
+        ],
+        "variations_permises": [
+          "oral/écrit/dictée sans changement des faits",
+          "temps et présentation accessibles"
+        ],
+        "variations_interdites": [
+          "substitution de source non validée",
+          "invention de dates ou de citations",
+          "changement libre de scénario par IA",
+          "ajout de conclusions sur identités ou cultures"
+        ],
+        "procedure_validation": "Comparer tout fait avancé aux cartes et appliquer D1-D4 de GRILLE_MAITRISE.md; arbitrer les formulations équivalentes lors de la revue humaine."
+      },
+      "validation_status": "a_revoir",
+      "representation": "oral_audio_ou_script_ecrit",
+      "source_refs": [
+        "S4",
+        "S1"
+      ],
+      "situation": "Première manifestation de maîtrise : capsule radio scolaire au Manitoba, référence centrale Festival du Voyageur (S4).",
+      "maitrise_role": "preuve_1",
+      "conditions": [
+        "sans indices sémantiques",
+        "cartes S4 et S1 autorisées",
+        "accompagnement limité à la logistique et accessibilité",
+        "réévaluation humaine des cas limites"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "A2 — Cartel indépendant — Pour une exposition de bibliothèque scolaire, crée un cartel de 90–130 mots OU une dictée équivalente sur [S2]. Situe l’édition 2026 à Caraquet, mentionne deux faits, compare avec [S1] sur la musique et le cadre de programmation, nomme les sources et refuse une généralisation; sans aide de rédaction.",
+      "stimulus": "[S2] Programme du Festival acadien de Caraquet (Nouveau-Brunswick), https://festivalacadien.ca/programmation/, consulté le 2026-10-09 : 64e édition du 2 au 15 août 2026; la programmation comprend des spectacles musicaux et des activités festives. Elle ne présente pas les loisirs de toute l’Acadie.\n[S1] Site officiel des Francos de Montréal (Québec), https://francosmontreal.com/, consulté le 2026-10-09 : festival de musique francophone à Montréal; édition 2027 annoncée du 11 au 19 juin. Le programme ne renseigne pas les goûts de tous les habitants.",
+      "reponse_attendue": "Production possible : « Selon le programme du Festival acadien de Caraquet, la programmation annonçait la 64e édition du 2 au 15 août 2026 au Nouveau-Brunswick et proposait des spectacles et d’autres activités festives. Les Francos de Montréal présentent un festival de musique francophone et annoncent une édition en juin 2027. Les deux programmes donnent une place à la musique, mais les documents décrivent des programmations différentes et des périodes distinctes. Cela ne permet pas d’attribuer les mêmes goûts à tous les habitants. » Paraphrases exactes autorisées.",
+      "criteres": [
+        "D1 : Caraquet/2026 correctement situés avec deux faits S2 et un fait S1; deux sources nommées (niveau attendu 2).",
+        "D2 : point commun et différence de programmation justifiés à partir de chaque carte (niveau attendu 2).",
+        "D3 : limite contre généralisation explicite (niveau attendu 2).",
+        "D4 : cartel intelligible et produit sans indices de contenu (niveau attendu au moins 1)."
+      ],
+      "feedback": "Vérifier l’association 2026-Caraquet / 2027-Montréal. Si l’élève transforme la programmation en coutume générale, demander « de quelles personnes cette source parle-t-elle? ».",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "corpus_verrouille": [
+          "S2",
+          "S1"
+        ],
+        "variations_permises": [
+          "oral/écrit/dictée sans changement des faits",
+          "temps et présentation accessibles"
+        ],
+        "variations_interdites": [
+          "substitution de source non validée",
+          "invention de dates ou de citations",
+          "changement libre de scénario par IA",
+          "ajout de conclusions sur identités ou cultures"
+        ],
+        "procedure_validation": "Comparer tout fait avancé aux cartes et appliquer D1-D4 de GRILLE_MAITRISE.md; arbitrer les formulations équivalentes lors de la revue humaine."
+      },
+      "validation_status": "a_revoir",
+      "representation": "cartel_ecrit_ou_dicte",
+      "source_refs": [
+        "S2",
+        "S1"
+      ],
+      "situation": "Deuxième manifestation de maîtrise : cartel d’exposition en bibliothèque, référence centrale Festival acadien (S2), autre public et autre cadre.",
+      "maitrise_role": "preuve_2",
+      "conditions": [
+        "sans indices sémantiques",
+        "cartes S2 et S1 autorisées",
+        "scribe neutre admis sans co-rédaction",
+        "contextes de la preuve 1 et 2 distincts"
+      ]
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "T1 — Chronique radio de transfert — Pour une chronique radio scolaire, compare [S4] et [S3] sur les activités musicales et non musicales. Situe chaque événement, cite ses sources, donne un point commun ou une différence sur un même axe et une limite sur les personnes.",
+      "stimulus": "[S4] Page de l’organisateur du Festival du Voyageur, Winnipeg (Manitoba), https://heho.ca/en/about-us/, consultée le 2026-10-09 (faits paraphrasés depuis l’anglais) : festival hivernal comportant musique, danse, sculptures sur neige et activités éducatives/historiques; l’organisateur évoque des artistes francophones et autochtones. Cela ne signifie pas que les cultures ou identités de toutes les personnes sont semblables.\n[S3] Page Karaoké Radio-Canada, Festival acadien de Caraquet (Nouveau-Brunswick), https://festivalacadien.ca/evenements/karaoke-radio-canada/, consultée le 2026-10-09 : activité gratuite de karaoké de chansons francophones annoncée le 9 août 2026 au quartier général du Festival (sous-sol du Musée acadien de Caraquet). L’annonce ne dit pas que tous les habitants chantent.",
+      "reponse_attendue": "Selon l’organisateur, le Festival du Voyageur à Winnipeg propose musique, danse et sculpture sur neige en hiver. Selon le programme du Festival acadien, un karaoké de chansons francophones était annoncé à Caraquet le 9 août 2026. Les deux textes évoquent la musique, mais l’un décrit tout un festival avec activités variées et l’autre une activité précise. Aucune conclusion n’est possible sur les habitudes de tous les habitants.",
+      "criteres": [
+        "Faits, lieux et sources des deux cartes documentés.",
+        "Point commun ou différence selon le même axe, avec explication.",
+        "Portée limitée; message compréhensible."
+      ],
+      "feedback": "Si la chronique compare des gens plutôt que les programmes, recommencer avec « selon l’organisateur » et un fait par carte.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "corpus_verrouille": [
+          "S4",
+          "S3"
+        ],
+        "variations_permises": [
+          "oral/écrit/dictée sans changement des faits",
+          "temps et présentation accessibles"
+        ],
+        "variations_interdites": [
+          "substitution de source non validée",
+          "invention de dates ou de citations",
+          "changement libre de scénario par IA",
+          "ajout de conclusions sur identités ou cultures"
+        ],
+        "procedure_validation": "Comparer tout fait avancé aux cartes et appliquer D1-D4 de GRILLE_MAITRISE.md; arbitrer les formulations équivalentes lors de la revue humaine."
+      },
+      "validation_status": "a_revoir",
+      "representation": "oral_audio_ou_script",
+      "source_refs": [
+        "S4",
+        "S3"
+      ],
+      "situation": "Transfert dans une chronique radio pour un public scolaire; ne remplace pas automatiquement les deux preuves qualifiantes."
+    },
+    {
+      "item_id": "qc-pri-fls-011-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "T2 — Notice de bibliothèque de transfert — Rédige une notice à destination d’une bibliothèque sous le thème « Des activités francophones différentes ». Situe [S2] et [S1] avec leurs éditions, compare la place de la musique et la forme de leur programme, puis réfute « tous les francophones aiment les mêmes fêtes ».",
+      "stimulus": "[S2] Programme du Festival acadien de Caraquet (Nouveau-Brunswick), https://festivalacadien.ca/programmation/, consulté le 2026-10-09 : 64e édition du 2 au 15 août 2026; la programmation comprend des spectacles musicaux et des activités festives. Elle ne présente pas les loisirs de toute l’Acadie.\n[S1] Site officiel des Francos de Montréal (Québec), https://francosmontreal.com/, consulté le 2026-10-09 : festival de musique francophone à Montréal; édition 2027 annoncée du 11 au 19 juin. Le programme ne renseigne pas les goûts de tous les habitants.",
+      "reponse_attendue": "En août 2026, le programme du Festival acadien annonçait plusieurs activités à Caraquet, dont des spectacles. Les Francos de Montréal annoncent un festival de musique francophone en juin 2027. La musique rapproche les descriptions, mais elles ne concernent ni le même lieu, ni la même année, ni exactement les mêmes activités. Les sources ne parlent pas des goûts de toutes les personnes.",
+      "criteres": [
+        "Deux lieux/périodes/sources situés sans inversion.",
+        "Point commun musical et différence documentaire explicités.",
+        "Généralisation réfutée de manière respectueuse et justifiée."
+      ],
+      "feedback": "Une phrase sur les goûts personnels de toute une communauté doit être retirée faute de preuve; préserver les faits datés.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "corpus_verrouille": [
+          "S2",
+          "S1"
+        ],
+        "variations_permises": [
+          "oral/écrit/dictée sans changement des faits",
+          "temps et présentation accessibles"
+        ],
+        "variations_interdites": [
+          "substitution de source non validée",
+          "invention de dates ou de citations",
+          "changement libre de scénario par IA",
+          "ajout de conclusions sur identités ou cultures"
+        ],
+        "procedure_validation": "Comparer tout fait avancé aux cartes et appliquer D1-D4 de GRILLE_MAITRISE.md; arbitrer les formulations équivalentes lors de la revue humaine."
+      },
+      "validation_status": "a_revoir",
+      "representation": "notice_ecrite_ou_dictee",
+      "source_refs": [
+        "S2",
+        "S1"
+      ],
+      "situation": "Transfert dans une notice de bibliothèque et audience non spécialiste, distinct du contexte radio."
+    }
+  ]
+}

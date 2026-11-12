@@ -1,0 +1,395 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-009",
+  "family_id": "qc-pri-fr-009-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-009-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis le texte et explique ce que le titre annonce. Pour chaque sous-titre, donne l’idée principale et un fait du texte. Nomme un détail secondaire, avec une raison, puis reformule l’essentiel en deux ou trois phrases.",
+      "stimulus": "**Titre : Les boîtes de la salle commune**\n\n**Sous-titre : Préparer les boîtes**\nChaque lundi, l’équipe de la salle commune fictive place des cahiers et des crayons dans deux boîtes. Les élèves peuvent consulter le matériel au comptoir. La première boîte a une poignée verte.\n\n**Sous-titre : Ranger après l’activité**\nAvant la fermeture, chaque objet emprunté est rapporté au comptoir. Une personne responsable vérifie ensuite les deux boîtes. Une affiche en forme de lune décore la porte.",
+      "reponse_attendue": "La salle commune met des cahiers et des crayons à disposition au comptoir le lundi. Les objets consultés ou empruntés doivent revenir avant la fermeture, puis une personne vérifie les boîtes. La poignée verte et la décoration de porte sont des détails secondaires.",
+      "criteres": [
+        "Le thème du titre et l’idée principale de chacune des deux sections sont restitués avec fidélité.",
+        "Au moins deux faits précis effectivement présents dans le texte soutiennent les idées; leurs rôles sont expliqués.",
+        "Au moins un détail réellement présent est distingué des idées indispensables avec une justification de son omission.",
+        "La reformulation est cohérente, ne copie pas de longues suites textuelles et n’ajoute aucun fait non présent."
+      ],
+      "feedback": "Si une idée manque, relis le sous-titre correspondant et cherche la phrase qui dit ce que fait le service. Si un détail décoratif prend trop de place, teste sa suppression; si une affirmation est inventée, demande où elle apparaît dans le document. Ne confonds pas une couleur secondaire avec une règle indispensable.",
+      "difficulte": "initial",
+      "representation": "texte documentaire original avec titre, deux sous-titres, deux paragraphes; réponse rédigée/dictée et justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "ancrages_correction": {
+        "idees_principales": [
+          "mise à disposition de cahiers et crayons au comptoir le lundi",
+          "retour des objets avant fermeture et vérification des boîtes"
+        ],
+        "faits_citations_courtes": [
+          "Chaque lundi",
+          "Avant la fermeture"
+        ],
+        "details_secondaires_citations_courtes": [
+          "poignée verte",
+          "affiche en forme de lune"
+        ]
+      },
+      "limites_variation": "Stimulus et corrigé fixes. Seuls taille de police, espacement, segmentation, saisie adaptée et dictée neutre peuvent changer; ne pas modifier les faits. Aucun tirage ni génération IA libre.",
+      "securite_accessibilite": "Document fictif, sans donnée privée; affichage lisible, alternative à la production manuscrite; le recours à une oralisation est consigné distinctement du décodage."
+    },
+    {
+      "item_id": "qc-pri-fr-009-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis le texte et explique ce que le titre annonce. Pour chaque sous-titre, donne l’idée principale et un fait du texte. Nomme un détail secondaire, avec une raison, puis reformule l’essentiel en deux ou trois phrases.",
+      "stimulus": "**Titre : Le coin de lecture itinérant**\n\n**Sous-titre : Déplacer les livres**\nLe mercredi, le coin de lecture fictif est installé dans une autre classe. Deux élèves responsables transportent les livres dans une caisse. Une étoile est dessinée sur la caisse.\n\n**Sous-titre : Choisir puis rendre**\nChaque lecteur choisit un livre sur place et le rapporte dans la caisse après la période de lecture. L’équipe vérifie les retours. Le tapis du coin est rayé.",
+      "reponse_attendue": "Le coin de lecture change de classe le mercredi et les livres sont transportés dans une caisse. Les élèves choisissent un livre et le remettent après la période de lecture. Le dessin sur la caisse et le tapis rayé sont accessoires au fonctionnement.",
+      "criteres": [
+        "Le thème du titre et l’idée principale de chacune des deux sections sont restitués avec fidélité.",
+        "Au moins deux faits précis effectivement présents dans le texte soutiennent les idées; leurs rôles sont expliqués.",
+        "Au moins un détail réellement présent est distingué des idées indispensables avec une justification de son omission.",
+        "La reformulation est cohérente, ne copie pas de longues suites textuelles et n’ajoute aucun fait non présent."
+      ],
+      "feedback": "Si une idée manque, relis le sous-titre correspondant et cherche la phrase qui dit ce que fait le service. Si un détail décoratif prend trop de place, teste sa suppression; si une affirmation est inventée, demande où elle apparaît dans le document. Ne confonds pas une couleur secondaire avec une règle indispensable.",
+      "difficulte": "initial",
+      "representation": "texte documentaire original avec titre, deux sous-titres, deux paragraphes; réponse rédigée/dictée et justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "ancrages_correction": {
+        "idees_principales": [
+          "déplacement hebdomadaire du coin lecture dans une autre classe",
+          "choix et retour des livres dans la caisse après lecture"
+        ],
+        "faits_citations_courtes": [
+          "Le mercredi",
+          "le rapporte dans la caisse"
+        ],
+        "details_secondaires_citations_courtes": [
+          "étoile est dessinée",
+          "tapis du coin est rayé"
+        ]
+      },
+      "limites_variation": "Stimulus et corrigé fixes. Seuls taille de police, espacement, segmentation, saisie adaptée et dictée neutre peuvent changer; ne pas modifier les faits. Aucun tirage ni génération IA libre.",
+      "securite_accessibilite": "Document fictif, sans donnée privée; affichage lisible, alternative à la production manuscrite; le recours à une oralisation est consigné distinctement du décodage."
+    },
+    {
+      "item_id": "qc-pri-fr-009-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis le texte et explique ce que le titre annonce. Pour chaque sous-titre, donne l’idée principale et un fait du texte. Nomme un détail secondaire, avec une raison, puis reformule l’essentiel en deux ou trois phrases.",
+      "stimulus": "**Titre : La collecte des cartes de jeux**\n\n**Sous-titre : Rassembler les cartes**\nLe vendredi, le comité fictif recueille les cartes de jeux empruntées par les groupes. Chaque groupe les dépose dans une enveloppe numérotée. Les enveloppes sont jaunes.\n\n**Sous-titre : Contrôler le nombre**\nLa personne responsable compte les cartes de chaque enveloppe avant de les ranger. Elle signale les ensembles incomplets pour qu’ils soient revérifiés. Le registre a une couverture bleue.",
+      "reponse_attendue": "Le vendredi, les groupes rendent leurs cartes de jeux dans une enveloppe numérotée. La personne responsable compte les cartes et signale les ensembles incomplets avant le rangement. La couleur des enveloppes et du registre est secondaire.",
+      "criteres": [
+        "Le thème du titre et l’idée principale de chacune des deux sections sont restitués avec fidélité.",
+        "Au moins deux faits précis effectivement présents dans le texte soutiennent les idées; leurs rôles sont expliqués.",
+        "Au moins un détail réellement présent est distingué des idées indispensables avec une justification de son omission.",
+        "La reformulation est cohérente, ne copie pas de longues suites textuelles et n’ajoute aucun fait non présent."
+      ],
+      "feedback": "Si une idée manque, relis le sous-titre correspondant et cherche la phrase qui dit ce que fait le service. Si un détail décoratif prend trop de place, teste sa suppression; si une affirmation est inventée, demande où elle apparaît dans le document. Ne confonds pas une couleur secondaire avec une règle indispensable.",
+      "difficulte": "initial",
+      "representation": "texte documentaire original avec titre, deux sous-titres, deux paragraphes; réponse rédigée/dictée et justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "ancrages_correction": {
+        "idees_principales": [
+          "les groupes remettent les cartes dans une enveloppe identifiée le vendredi",
+          "le comité compte les cartes et signale les ensembles incomplets"
+        ],
+        "faits_citations_courtes": [
+          "Le vendredi",
+          "compte les cartes"
+        ],
+        "details_secondaires_citations_courtes": [
+          "enveloppes sont jaunes",
+          "couverture bleue"
+        ]
+      },
+      "limites_variation": "Stimulus et corrigé fixes. Seuls taille de police, espacement, segmentation, saisie adaptée et dictée neutre peuvent changer; ne pas modifier les faits. Aucun tirage ni génération IA libre.",
+      "securite_accessibilite": "Document fictif, sans donnée privée; affichage lisible, alternative à la production manuscrite; le recours à une oralisation est consigné distinctement du décodage."
+    },
+    {
+      "item_id": "qc-pri-fr-009-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les deux parties du document. Construis un relevé des deux idées principales et des faits qui les justifient; écris une synthèse de 3 à 5 phrases dans tes mots. Identifie un détail secondaire omis et justifie cette décision à partir du texte.",
+      "stimulus": "**Titre : Le service de prêt de raquettes**\n\n**Sous-titre : Emprunter le matériel**\nDans le centre fictif du Grand-Saule, des raquettes sont prêtées pendant la séance du mardi. Une personne responsable remet les raquettes au comptoir et note leur numéro. Le comptoir est près d’une affiche orange.\n\n**Sous-titre : Remettre le matériel**\nÀ la fin de la séance, les personnes retournent les raquettes au même comptoir. L’équipe vérifie que le numéro correspond à celui du départ. Une plante verte se trouve près de la porte.",
+      "reponse_attendue": "Le centre prête des raquettes pendant la séance du mardi et inscrit leur numéro au comptoir. Les raquettes sont rapportées au même endroit à la fin de la séance; l’équipe vérifie les numéros. L’affiche orange et la plante sont secondaires.",
+      "criteres": [
+        "Le thème du titre et l’idée principale de chacune des deux sections sont restitués avec fidélité.",
+        "Au moins deux faits précis effectivement présents dans le texte soutiennent les idées; leurs rôles sont expliqués.",
+        "Au moins un détail réellement présent est distingué des idées indispensables avec une justification de son omission.",
+        "La reformulation est cohérente, ne copie pas de longues suites textuelles et n’ajoute aucun fait non présent."
+      ],
+      "feedback": "Si une idée manque, relis le sous-titre correspondant et cherche la phrase qui dit ce que fait le service. Si un détail décoratif prend trop de place, teste sa suppression; si une affirmation est inventée, demande où elle apparaît dans le document. Ne confonds pas une couleur secondaire avec une règle indispensable.",
+      "difficulte": "intermediaire",
+      "representation": "texte documentaire original avec titre, deux sous-titres, deux paragraphes; réponse rédigée/dictée et justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "ancrages_correction": {
+        "idees_principales": [
+          "prêt de raquettes à la séance du mardi avec numéro noté",
+          "retour au comptoir et contrôle du numéro"
+        ],
+        "faits_citations_courtes": [
+          "séance du mardi",
+          "numéro correspond"
+        ],
+        "details_secondaires_citations_courtes": [
+          "affiche orange",
+          "plante verte"
+        ]
+      },
+      "limites_variation": "Stimulus et corrigé fixes. Seuls taille de police, espacement, segmentation, saisie adaptée et dictée neutre peuvent changer; ne pas modifier les faits. Aucun tirage ni génération IA libre.",
+      "securite_accessibilite": "Document fictif, sans donnée privée; affichage lisible, alternative à la production manuscrite; le recours à une oralisation est consigné distinctement du décodage."
+    },
+    {
+      "item_id": "qc-pri-fr-009-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les deux parties du document. Construis un relevé des deux idées principales et des faits qui les justifient; écris une synthèse de 3 à 5 phrases dans tes mots. Identifie un détail secondaire omis et justifie cette décision à partir du texte.",
+      "stimulus": "**Titre : Une armoire de bricolage partagée**\n\n**Sous-titre : Préparer les objets**\nChaque jeudi, deux membres du club fictif vérifient les outils de bricolage rangés dans l’armoire commune. Ils placent les objets utilisables dans des bacs et écartent les objets abîmés pour examen. Les bacs sont turquoise.\n\n**Sous-titre : Emprunter et rendre**\nLes groupes notent l’objet qu’ils prennent sur une feuille, puis le rapportent avant de quitter le local. La personne responsable vérifie la feuille à la fermeture. Un dessin de fleur décore l’armoire.",
+      "reponse_attendue": "Chaque jeudi, des membres du club examinent les objets de bricolage et mettent de côté ceux qui sont abîmés. Les groupes inscrivent leurs emprunts et rendent les objets avant de partir; une personne vérifie la liste. La couleur des bacs et la fleur dessinée ne sont pas essentielles.",
+      "criteres": [
+        "Le thème du titre et l’idée principale de chacune des deux sections sont restitués avec fidélité.",
+        "Au moins deux faits précis effectivement présents dans le texte soutiennent les idées; leurs rôles sont expliqués.",
+        "Au moins un détail réellement présent est distingué des idées indispensables avec une justification de son omission.",
+        "La reformulation est cohérente, ne copie pas de longues suites textuelles et n’ajoute aucun fait non présent."
+      ],
+      "feedback": "Si une idée manque, relis le sous-titre correspondant et cherche la phrase qui dit ce que fait le service. Si un détail décoratif prend trop de place, teste sa suppression; si une affirmation est inventée, demande où elle apparaît dans le document. Ne confonds pas une couleur secondaire avec une règle indispensable.",
+      "difficulte": "intermediaire",
+      "representation": "texte documentaire original avec titre, deux sous-titres, deux paragraphes; réponse rédigée/dictée et justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "ancrages_correction": {
+        "idees_principales": [
+          "contrôle des objets avant mise à disposition chaque jeudi",
+          "emprunt inscrit et retour avant de quitter le local"
+        ],
+        "faits_citations_courtes": [
+          "Chaque jeudi",
+          "avant de quitter le local"
+        ],
+        "details_secondaires_citations_courtes": [
+          "bacs sont turquoise",
+          "dessin de fleur"
+        ]
+      },
+      "limites_variation": "Stimulus et corrigé fixes. Seuls taille de police, espacement, segmentation, saisie adaptée et dictée neutre peuvent changer; ne pas modifier les faits. Aucun tirage ni génération IA libre.",
+      "securite_accessibilite": "Document fictif, sans donnée privée; affichage lisible, alternative à la production manuscrite; le recours à une oralisation est consigné distinctement du décodage."
+    },
+    {
+      "item_id": "qc-pri-fr-009-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les deux parties du document. Construis un relevé des deux idées principales et des faits qui les justifient; écris une synthèse de 3 à 5 phrases dans tes mots. Identifie un détail secondaire omis et justifie cette décision à partir du texte.",
+      "stimulus": "**Titre : Des livres à réparer**\n\n**Sous-titre : Identifier les livres abîmés**\nDans la bibliothèque fictive des Merisiers, une équipe vérifie chaque mois les livres dont les pages se détachent. Elle note les livres à réparer dans un registre. Le registre est placé dans un tiroir gris.\n\n**Sous-titre : Effectuer les petites réparations**\nLe mercredi, une personne responsable répare les couvertures qui peuvent l’être et remet les livres en état sur une tablette réservée. Les ouvrages qui demandent une aide spécialisée restent signalés. La tablette porte une étoile rouge.",
+      "reponse_attendue": "La bibliothèque vérifie chaque mois les livres abîmés et les inscrit dans un registre. Le mercredi, elle effectue les petites réparations possibles et signale les ouvrages demandant une aide spécialisée. La couleur du tiroir et l’étoile sur la tablette sont des détails secondaires.",
+      "criteres": [
+        "Le thème du titre et l’idée principale de chacune des deux sections sont restitués avec fidélité.",
+        "Au moins deux faits précis effectivement présents dans le texte soutiennent les idées; leurs rôles sont expliqués.",
+        "Au moins un détail réellement présent est distingué des idées indispensables avec une justification de son omission.",
+        "La reformulation est cohérente, ne copie pas de longues suites textuelles et n’ajoute aucun fait non présent."
+      ],
+      "feedback": "Si une idée manque, relis le sous-titre correspondant et cherche la phrase qui dit ce que fait le service. Si un détail décoratif prend trop de place, teste sa suppression; si une affirmation est inventée, demande où elle apparaît dans le document. Ne confonds pas une couleur secondaire avec une règle indispensable.",
+      "difficulte": "intermediaire",
+      "representation": "texte documentaire original avec titre, deux sous-titres, deux paragraphes; réponse rédigée/dictée et justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "ancrages_correction": {
+        "idees_principales": [
+          "repérage mensuel et inscription des livres abîmés",
+          "réparations possibles le mercredi et repérage des cas nécessitant une aide spécialisée"
+        ],
+        "faits_citations_courtes": [
+          "chaque mois",
+          "Le mercredi"
+        ],
+        "details_secondaires_citations_courtes": [
+          "tiroir gris",
+          "étoile rouge"
+        ]
+      },
+      "limites_variation": "Stimulus et corrigé fixes. Seuls taille de police, espacement, segmentation, saisie adaptée et dictée neutre peuvent changer; ne pas modifier les faits. Aucun tirage ni génération IA libre.",
+      "securite_accessibilite": "Document fictif, sans donnée privée; affichage lisible, alternative à la production manuscrite; le recours à une oralisation est consigné distinctement du décodage."
+    },
+    {
+      "item_id": "qc-pri-fr-009-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les deux parties du document. Construis un relevé des deux idées principales et des faits qui les justifient; écris une synthèse de 3 à 5 phrases dans tes mots. Identifie un détail secondaire omis et justifie cette décision à partir du texte.",
+      "stimulus": "**Titre : La distribution des fiches de visite**\n\n**Sous-titre : Recevoir les fiches**\nÀ l’accueil du jardin fictif des Voûtes, chaque groupe reçoit une fiche décrivant trois endroits à visiter. Une personne responsable explique le trajet indiqué sur la fiche. Les feuilles sont imprimées sur papier crème.\n\n**Sous-titre : Rapporter les observations**\nAprès la visite, les groupes déposent une fiche remplie dans une boîte à l’accueil. L’équipe les rassemble pour préparer une prochaine activité. La boîte a un couvercle bleu.",
+      "reponse_attendue": "Avant la visite du jardin, les groupes reçoivent une fiche décrivant trois endroits et une explication du trajet. Après la visite, ils déposent leurs observations à l’accueil; l’équipe les utilise pour préparer une activité. La teinte du papier et du couvercle est secondaire.",
+      "criteres": [
+        "Le thème du titre et l’idée principale de chacune des deux sections sont restitués avec fidélité.",
+        "Au moins deux faits précis effectivement présents dans le texte soutiennent les idées; leurs rôles sont expliqués.",
+        "Au moins un détail réellement présent est distingué des idées indispensables avec une justification de son omission.",
+        "La reformulation est cohérente, ne copie pas de longues suites textuelles et n’ajoute aucun fait non présent."
+      ],
+      "feedback": "Si une idée manque, relis le sous-titre correspondant et cherche la phrase qui dit ce que fait le service. Si un détail décoratif prend trop de place, teste sa suppression; si une affirmation est inventée, demande où elle apparaît dans le document. Ne confonds pas une couleur secondaire avec une règle indispensable.",
+      "difficulte": "intermediaire",
+      "representation": "texte documentaire original avec titre, deux sous-titres, deux paragraphes; réponse rédigée/dictée et justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "ancrages_correction": {
+        "idees_principales": [
+          "fiches et trajet expliqués avant la visite",
+          "fiches remplies rapportées pour préparer une prochaine activité"
+        ],
+        "faits_citations_courtes": [
+          "trois endroits",
+          "Après la visite"
+        ],
+        "details_secondaires_citations_courtes": [
+          "papier crème",
+          "couvercle bleu"
+        ]
+      },
+      "limites_variation": "Stimulus et corrigé fixes. Seuls taille de police, espacement, segmentation, saisie adaptée et dictée neutre peuvent changer; ne pas modifier les faits. Aucun tirage ni génération IA libre.",
+      "securite_accessibilite": "Document fictif, sans donnée privée; affichage lisible, alternative à la production manuscrite; le recours à une oralisation est consigné distinctement du décodage."
+    },
+    {
+      "item_id": "qc-pri-fr-009-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les deux parties du document. Construis un relevé des deux idées principales et des faits qui les justifient; écris une synthèse de 3 à 5 phrases dans tes mots. Identifie un détail secondaire omis et justifie cette décision à partir du texte.",
+      "stimulus": "**Titre : Une petite exposition de sciences imaginée**\n\n**Sous-titre : Choisir les expériences à montrer**\nPour l’exposition fictive, chaque groupe sélectionne une expérience déjà réalisée en classe et prépare un carton expliquant la démarche. Une équipe rassemble les cartons avant l’ouverture. Le premier panneau est violet.\n\n**Sous-titre : Présenter au public**\nLe jeudi après-midi, les groupes expliquent leur démarche aux visiteurs et répondent aux questions. Les cartons restent visibles près des présentations. Une guirlande de papier est suspendue à l’entrée.",
+      "reponse_attendue": "Chaque groupe choisit une expérience réalisée en classe et prépare un carton décrivant la démarche. Le jeudi après-midi, il présente son travail aux visiteurs et répond aux questions. La couleur du panneau et la guirlande ne sont pas indispensables.",
+      "criteres": [
+        "Le thème du titre et l’idée principale de chacune des deux sections sont restitués avec fidélité.",
+        "Au moins deux faits précis effectivement présents dans le texte soutiennent les idées; leurs rôles sont expliqués.",
+        "Au moins un détail réellement présent est distingué des idées indispensables avec une justification de son omission.",
+        "La reformulation est cohérente, ne copie pas de longues suites textuelles et n’ajoute aucun fait non présent."
+      ],
+      "feedback": "Si une idée manque, relis le sous-titre correspondant et cherche la phrase qui dit ce que fait le service. Si un détail décoratif prend trop de place, teste sa suppression; si une affirmation est inventée, demande où elle apparaît dans le document. Ne confonds pas une couleur secondaire avec une règle indispensable.",
+      "difficulte": "intermediaire",
+      "representation": "texte documentaire original avec titre, deux sous-titres, deux paragraphes; réponse rédigée/dictée et justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "ancrages_correction": {
+        "idees_principales": [
+          "choix d’une expérience déjà faite et préparation de sa démarche",
+          "explication des démarches et questions au public jeudi après-midi"
+        ],
+        "faits_citations_courtes": [
+          "déjà réalisée en classe",
+          "Le jeudi après-midi"
+        ],
+        "details_secondaires_citations_courtes": [
+          "panneau est violet",
+          "guirlande de papier"
+        ]
+      },
+      "limites_variation": "Stimulus et corrigé fixes. Seuls taille de police, espacement, segmentation, saisie adaptée et dictée neutre peuvent changer; ne pas modifier les faits. Aucun tirage ni génération IA libre.",
+      "securite_accessibilite": "Document fictif, sans donnée privée; affichage lisible, alternative à la production manuscrite; le recours à une oralisation est consigné distinctement du décodage."
+    },
+    {
+      "item_id": "qc-pri-fr-009-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-009-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A — Sans exemple de synthèse ni indice sur le contenu, lis la fiche documentaire de la matériathèque. Écris une synthèse personnelle de 3 à 5 phrases couvrant les deux parties, soutenue par au moins deux faits précis. Après ta synthèse, identifie un détail secondaire du document et explique pourquoi tu l’as omis. Indique de quelle partie provient au moins un de tes faits.",
+      "stimulus": "**Titre : La matériathèque de la Place-des-Rives (lieu fictif)**\n\n**Sous-titre : Mettre des objets à disposition**\nÀ la Place-des-Rives, une matériathèque imaginaire prête des outils simples pour les activités du quartier. Le lundi, l’équipe vérifie les objets et place ceux qui peuvent être empruntés sur des tablettes identifiées. Les personnes choisissent un objet au comptoir et inscrivent son numéro sur une fiche. Les tablettes sont peintes en bleu clair.\n\n**Sous-titre : Organiser le retour**\nChaque objet doit être rapporté au comptoir avant la fin de la semaine de prêt. Une personne responsable compare son numéro avec la fiche et vérifie que les pièces annoncées au départ sont présentes. Si un objet est incomplet, elle le met de côté pour une nouvelle vérification. Une horloge ronde est installée près de la porte.",
+      "reponse_attendue": "La matériathèque fictive permet d’emprunter des outils du quartier après une vérification du matériel. L’équipe les prépare le lundi, et les emprunteurs inscrivent le numéro de l’objet sur une fiche. Avant la fin de la semaine de prêt, ils rapportent les outils au comptoir; une personne vérifie leur numéro et leurs pièces. Les couleurs des tablettes et la forme de l’horloge sont des détails qui n’expliquent pas le service.",
+      "criteres": [
+        "Le thème du titre et l’idée principale de chacune des deux sections sont restitués avec fidélité.",
+        "Au moins deux faits précis effectivement présents dans le texte soutiennent les idées; leurs rôles sont expliqués.",
+        "Au moins un détail réellement présent est distingué des idées indispensables avec une justification de son omission.",
+        "La reformulation est cohérente, ne copie pas de longues suites textuelles et n’ajoute aucun fait non présent.",
+        "L’élève produit sans indice de contenu; les aides d’accès non directives et le choix d’une synthèse dictée sont documentés."
+      ],
+      "feedback": "Si une idée manque, relis le sous-titre correspondant et cherche la phrase qui dit ce que fait le service. Si un détail décoratif prend trop de place, teste sa suppression; si une affirmation est inventée, demande où elle apparaît dans le document. Ne confonds pas une couleur secondaire avec une règle indispensable.",
+      "difficulte": "transfert",
+      "representation": "texte documentaire original avec titre, deux sous-titres, deux paragraphes; réponse rédigée/dictée et justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "ancrages_correction": {
+        "idees_principales": [
+          "mise à disposition d’outils vérifiés avec numéro d’emprunt noté",
+          "retour avant la fin de la semaine et contrôle des numéros/pièces"
+        ],
+        "faits_citations_courtes": [
+          "Le lundi",
+          "inscrivent son numéro",
+          "avant la fin de la semaine",
+          "vérifie que les pièces"
+        ],
+        "details_secondaires_citations_courtes": [
+          "bleu clair",
+          "horloge ronde"
+        ]
+      },
+      "limites_variation": "Stimulus et corrigé fixes. Seuls taille de police, espacement, segmentation, saisie adaptée et dictée neutre peuvent changer; ne pas modifier les faits. Aucun tirage ni génération IA libre.",
+      "securite_accessibilite": "Document fictif, sans donnée privée; affichage lisible, alternative à la production manuscrite; le recours à une oralisation est consigné distinctement du décodage.",
+      "preuve_maitrise": "A_service_de_pret"
+    },
+    {
+      "item_id": "qc-pri-fr-009-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-009-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B — Sur ce nouveau texte de sentier, réalise seul une synthèse de 3 à 5 phrases couvrant les deux sections, avec au moins deux faits fidèles. Distingue un détail secondaire réel du document et justifie sa suppression. Indique un sous-titre qui soutient ta synthèse; ne réemploie pas les phrases du document mot pour mot.",
+      "stimulus": "**Titre : Les repères du Sentier-des-Nuages (lieu fictif)**\n\n**Sous-titre : Installer la signalisation**\nAu début du sentier fictif des Nuages, une équipe place trois panneaux qui expliquent les itinéraires possibles. Chaque panneau indique une direction et une distance à parcourir. Les visiteurs peuvent ainsi choisir un parcours avant de partir. Les panneaux ont une bordure mauve et portent un dessin de feuille.\n\n**Sous-titre : Vérifier les indications**\nUne fois par mois, une personne responsable parcourt le sentier pour vérifier que les panneaux restent lisibles et placés au bon endroit. Si une indication est abîmée, elle la signale à l’équipe, qui prévoit son remplacement. Les observations sont inscrites dans un carnet rangé au pavillon d’accueil. Le carnet est couvert de papier rouge.",
+      "reponse_attendue": "Une équipe installe trois panneaux au départ du Sentier-des-Nuages pour renseigner les visiteurs sur les directions et les distances possibles. Cela leur permet de choisir leur itinéraire. Chaque mois, une personne vérifie les panneaux et signale ceux qui doivent être remplacés. La couleur des bordures et du carnet n’est pas nécessaire pour comprendre l’installation et l’entretien des indications.",
+      "criteres": [
+        "Le thème du titre et l’idée principale de chacune des deux sections sont restitués avec fidélité.",
+        "Au moins deux faits précis effectivement présents dans le texte soutiennent les idées; leurs rôles sont expliqués.",
+        "Au moins un détail réellement présent est distingué des idées indispensables avec une justification de son omission.",
+        "La reformulation est cohérente, ne copie pas de longues suites textuelles et n’ajoute aucun fait non présent.",
+        "L’élève produit sans indice de contenu; les aides d’accès non directives et le choix d’une synthèse dictée sont documentés."
+      ],
+      "feedback": "Si une idée manque, relis le sous-titre correspondant et cherche la phrase qui dit ce que fait le service. Si un détail décoratif prend trop de place, teste sa suppression; si une affirmation est inventée, demande où elle apparaît dans le document. Ne confonds pas une couleur secondaire avec une règle indispensable.",
+      "difficulte": "transfert",
+      "representation": "texte documentaire original avec titre, deux sous-titres, deux paragraphes; réponse rédigée/dictée et justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "ancrages_correction": {
+        "idees_principales": [
+          "signalisation initiale donnant direction et distance pour choisir un parcours",
+          "vérification mensuelle de la lisibilité et signalement des indications abîmées"
+        ],
+        "faits_citations_courtes": [
+          "trois panneaux",
+          "une direction et une distance",
+          "Une fois par mois",
+          "remplacement"
+        ],
+        "details_secondaires_citations_courtes": [
+          "bordure mauve",
+          "papier rouge"
+        ]
+      },
+      "limites_variation": "Stimulus et corrigé fixes. Seuls taille de police, espacement, segmentation, saisie adaptée et dictée neutre peuvent changer; ne pas modifier les faits. Aucun tirage ni génération IA libre.",
+      "securite_accessibilite": "Document fictif, sans donnée privée; affichage lisible, alternative à la production manuscrite; le recours à une oralisation est consigné distinctement du décodage.",
+      "preuve_maitrise": "B_signalisation_du_sentier"
+    }
+  ]
+}

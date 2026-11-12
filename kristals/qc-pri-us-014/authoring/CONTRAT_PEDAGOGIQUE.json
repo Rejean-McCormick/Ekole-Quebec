@@ -1,0 +1,102 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-014",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comparer deux sociétés selon des critères explicites et communs.",
+  "concepts": [
+    "territoire",
+    "activité",
+    "institution",
+    "comparaison"
+  ],
+  "preuve_attendue": "Produire un tableau comparatif avec explication des différences.",
+  "prerequis_bloquants": [
+    "qc-pri-us-004"
+  ],
+  "ordre_conseille": [
+    "qc-pri-us-003",
+    "qc-pri-us-005"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-014-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Produire un tableau comparatif avec explication des différences.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-us-014",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Produire un tableau comparatif avec explication des différences.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "notices historiques fictives datées",
+        "bulletins civiques fictifs",
+        "tableau comparatif textuel ou dicté"
+      ],
+      "variables": {
+        "mode_de_generation": "selection_dans_corpus_verrouille_sans_generation_de_faits",
+        "corpus_autorises": [
+          "qc-pri-us-014-q-001",
+          "qc-pri-us-014-q-002",
+          "qc-pri-us-014-q-003",
+          "qc-pri-us-014-q-004",
+          "qc-pri-us-014-q-005",
+          "qc-pri-us-014-q-006",
+          "qc-pri-us-014-q-007",
+          "qc-pri-us-014-q-008"
+        ],
+        "formes_de_presentation": [
+          "texte",
+          "lecture audio fidèle",
+          "tableau navigable",
+          "dictée transcrite"
+        ],
+        "permutation_admissible": "inverser A/B en inversant toutes les références de la consigne et des éléments du corrigé; une telle version nouvelle nécessite un contrôle de cohérence avant emploi",
+        "variables_factuelles": "aucune permutation des auteurs, dates, activités ou institutions autorisée sans révision humaine"
+      },
+      "contraintes": [
+        "Deux sociétés explicitement nommées, contexte et date identifiables",
+        "Au moins deux critères communs et trois pour les deux preuves de maîtrise",
+        "Corpus, faits, période et rubriques approuvés avant usage; ne jamais produire librement des faits ou des corrigés par IA",
+        "Aucun peuple réel caricaturé, aucune perspective autochtone fabriquée, aucune hiérarchie culturelle",
+        "Accessibilité de forme permise sans modification de charge cognitive ni réponse suggérée",
+        "Deux contextes distincts q-007 (1912) et q-008 (2024), au moins une preuve autonome"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "C1_criteres_communs",
+          "C2_exactitude_et_datation",
+          "C3_explication_justifiee",
+          "C4_limites_et_perspectives",
+          "C5_autonomie"
+        ],
+        "echelle": "0_absent_1_amorce_2_adequat_3_nuance",
+        "decision": "C1-C4>=2 sur deux manifestations A et B; C5>=2 sur au moins une, sans anachronisme majeur; pas de somme unique"
+      },
+      "source": {
+        "items": "evaluation/BANQUE_ITEMS.json",
+        "corpus": "notices_fictives_originales",
+        "sources_reelles_de_modelage": "sources/REFERENCES_CONTENU.md"
+      },
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

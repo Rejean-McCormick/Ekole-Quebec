@@ -1,0 +1,84 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-012",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Communiquer une idée en anglais devant un petit groupe et répondre aux questions.",
+  "concepts": [
+    "oral préparé",
+    "interaction",
+    "clarification"
+  ],
+  "preuve_attendue": "Présenter un thème familier puis répondre à des demandes de précision.",
+  "prerequis_bloquants": [
+    "qc-pri-als-005"
+  ],
+  "ordre_conseille": [
+    "qc-pri-als-006"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-012-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Présenter un thème familier puis répondre à des demandes de précision.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-als-012",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "critere_description": "Présenter un thème familier puis répondre à des demandes de précision.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "oral préparé en anglais",
+        "questions orales/interactions en anglais",
+        "sortie vocale alternative accessible, si applicable"
+      ],
+      "variables": [],
+      "contraintes": {
+        "mode": "fixe",
+        "materiaux": "stimuli textuels originaux, versions auditives/visuelles équivalentes permises",
+        "variation": "aucune génération libre; réponses verbales variées évaluées à la rubrique, situations/questions fixes par item",
+        "autonomie": "trois mots-clés maximum, sans texte rédigé ni indices de contenu aux preuves finales",
+        "passation": "petit groupe, questions d’interlocuteur fixées, répétition neutre autorisée et consignée",
+        "maitrise": "deux contextes distincts, axes tous >=2 sur les deux, sans moyenne compensatrice",
+        "protection": "pas de données privées requises, aucun jugement d’accent natif"
+      },
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "axes": [
+          "idee_et_precisions",
+          "interaction",
+          "clarification",
+          "intelligibilite"
+        ],
+        "echelle": "0,1,2,3 par axe; ancrages et règles documentés",
+        "decision": "aucun verdict de maîtrise fondé sur une seule performance ou moyenne"
+      },
+      "source": {
+        "workspace": [
+          "authoring/PARCOURS.md",
+          "authoring/CONTRAT_PEDAGOGIQUE.json",
+          "registry/GRAPHE_PEDAGOGIQUE_202.json"
+        ],
+        "production": "items et scripts originaux du delta qc-pri-als-012"
+      },
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_banque_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,410 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-007",
+  "family_id": "qc-pri-ma-007-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-007-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Montre les jetons retirés et ceux qui restent, puis écris une soustraction et une addition de vérification.",
+      "stimulus": "Une boîte contient 14 jetons. On en enlève 6. Combien en reste-t-il ?",
+      "reponse_attendue": "8 jetons restent : 14 − 6 = 8. Représentation : 14 jetons séparés en 6 enlevés et 8 restants. Vérification : 8 + 6 = 14.",
+      "criteres": [
+        "S1 : identifier le sens de la différence et la grandeur cherchée.",
+        "S2 : représenter correctement le tout, les parties ou les deux quantités.",
+        "S3 : donner une valeur exacte et son unité.",
+        "S4 : reconstituer la quantité totale ou la plus grande par une addition inverse exacte."
+      ],
+      "feedback": "Si tu as trouvé 20, tu as ajouté les jetons plutôt que de les enlever. Sépare les 6 jetons retirés et vérifie le reste en les recomposant.",
+      "difficulte": "initial",
+      "representation": "matériel + barre partie-partie-tout + écriture",
+      "verification_numerique": {
+        "a": 14,
+        "b": 6,
+        "d": 8,
+        "addition": 14
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sens": "retrait",
+      "unite": "jetons"
+    },
+    {
+      "item_id": "qc-pri-ma-007-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare sans déplacer les objets. Décris deux bandes alignées, trouve l’écart et vérifie avec une addition.",
+      "stimulus": "L’étagère haute porte 23 livres, la basse 15 livres. Combien de livres de plus sur la haute ?",
+      "reponse_attendue": "8 livres de plus : 23 − 15 = 8; deux bandes de 23 et 15 unités ont un dépassement de 8; 15 + 8 = 23.",
+      "criteres": [
+        "S1 : identifier le sens de la différence et la grandeur cherchée.",
+        "S2 : représenter correctement le tout, les parties ou les deux quantités.",
+        "S3 : donner une valeur exacte et son unité.",
+        "S4 : reconstituer la quantité totale ou la plus grande par une addition inverse exacte."
+      ],
+      "feedback": "Le total 38 livres n’est pas la différence. Aligne les deux bandes et cherche uniquement ce qui dépasse.",
+      "difficulte": "initial",
+      "representation": "comparaison à deux bandes + écriture",
+      "verification_numerique": {
+        "a": 23,
+        "b": 15,
+        "d": 8,
+        "addition": 23
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sens": "comparaison",
+      "unite": "livres"
+    },
+    {
+      "item_id": "qc-pri-ma-007-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Représente la place manquante dans une barre-cible, calcule le complément et vérifie par addition.",
+      "stimulus": "Un présentoir peut contenir 17 dessins; il en contient 9. Combien de dessins manque-t-il ?",
+      "reponse_attendue": "Il manque 8 dessins : 17 − 9 = 8, ou 9 + ? = 17; vérification 9 + 8 = 17.",
+      "criteres": [
+        "S1 : identifier le sens de la différence et la grandeur cherchée.",
+        "S2 : représenter correctement le tout, les parties ou les deux quantités.",
+        "S3 : donner une valeur exacte et son unité.",
+        "S4 : reconstituer la quantité totale ou la plus grande par une addition inverse exacte."
+      ],
+      "feedback": "Attention : 17 est la capacité totale. Cherche ce qu’il faut ajouter aux 9 dessins déjà présents.",
+      "difficulte": "initial",
+      "representation": "barre-cible à compléter + équations",
+      "verification_numerique": {
+        "a": 17,
+        "b": 9,
+        "d": 8,
+        "addition": 17
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sens": "complément",
+      "unite": "dessins"
+    },
+    {
+      "item_id": "qc-pri-ma-007-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-007-ev-01",
+      "mode": "parametrique",
+      "consigne": "Utilise la valeur a pour le stock initial et b pour la quantité donnée. Illustre les deux parts, écris le reste et une addition inverse.",
+      "stimulus": "Pour l’instanciation seed 700704 : une boîte contient 30 cartes et on en donne 11. Combien en reste-t-il ?",
+      "reponse_attendue": "Il reste 19 cartes : 30 − 11 = 19; part donnée 11, part restante 19; vérification : 19 + 11 = 30.",
+      "criteres": [
+        "S1 : identifier le sens de la différence et la grandeur cherchée.",
+        "S2 : représenter correctement le tout, les parties ou les deux quantités.",
+        "S3 : donner une valeur exacte et son unité.",
+        "S4 : reconstituer la quantité totale ou la plus grande par une addition inverse exacte."
+      ],
+      "feedback": "Si la somme du reste et des cartes données ne reconstitue pas le stock initial, recommence avec une barre en deux parts.",
+      "difficulte": "intermediaire",
+      "representation": "barre partie-partie-tout + équation",
+      "verification_numerique": {
+        "a": 30,
+        "b": 11,
+        "d": 19,
+        "addition": 30
+      },
+      "seed": 700704,
+      "parametres": {
+        "variables": {
+          "a": "quantité initiale de cartes",
+          "b": "cartes données",
+          "d": "cartes restantes"
+        },
+        "domaines": {
+          "a": [
+            15,
+            30
+          ],
+          "b": [
+            5,
+            14
+          ]
+        },
+        "contraintes": [
+          "15 ≤ a ≤ 30",
+          "5 ≤ b ≤ 14",
+          "a ≥ b",
+          "d=a−b ≥ 1"
+        ],
+        "algorithme": "LCG : x1 = (1664525×seed+1013904223) mod 2^32; x2 = (1664525×x1+1013904223) mod 2^32; a = 15 + (x1 mod 16); b = 5 + (x2 mod 10); d=a−b; vérifier d+b=a.",
+        "exemple_calcule": {
+          "x1": 3417092607,
+          "x2": 3305543506,
+          "a": 30,
+          "b": 11,
+          "d": 19,
+          "addition": 30
+        },
+        "unite": "cartes",
+        "regle_variation": "Aucune modification du texte ou de l’unité sans revue."
+      },
+      "validation_status": "a_revoir",
+      "sens": "retrait",
+      "unite": "cartes"
+    },
+    {
+      "item_id": "qc-pri-ma-007-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-007-ev-01",
+      "mode": "parametrique",
+      "consigne": "Décris les deux bandes de longueurs données; calcule la différence de longueur en cm et vérifie par addition.",
+      "stimulus": "Pour l’instanciation seed 700705 : deux rubans mesurent 44 cm et 21 cm. Quelle est la différence ?",
+      "reponse_attendue": "Différence : 44 − 21 = 23 cm. Bandes alignées de 44 et 21 unités; contrôle 21 cm + 23 cm = 44 cm.",
+      "criteres": [
+        "S1 : identifier le sens de la différence et la grandeur cherchée.",
+        "S2 : représenter correctement le tout, les parties ou les deux quantités.",
+        "S3 : donner une valeur exacte et son unité.",
+        "S4 : reconstituer la quantité totale ou la plus grande par une addition inverse exacte."
+      ],
+      "feedback": "Ne mélange pas les longueurs et les nombres d’objets. La bande courte, augmentée de l’écart, atteint la grande.",
+      "difficulte": "intermediaire",
+      "representation": "deux bandes de longueurs + équations et unités",
+      "verification_numerique": {
+        "a": 44,
+        "b": 21,
+        "d": 23,
+        "addition": 44
+      },
+      "seed": 700705,
+      "parametres": {
+        "variables": {
+          "a": "longueur du ruban long en cm",
+          "b": "longueur du ruban court en cm",
+          "d": "différence de longueur en cm"
+        },
+        "domaines": {
+          "a": [
+            30,
+            50
+          ],
+          "b": [
+            10,
+            25
+          ]
+        },
+        "contraintes": [
+          "30 ≤ a ≤ 50",
+          "10 ≤ b ≤ 25",
+          "a ≥ b",
+          "d=a−b ≥ 5",
+          "même unité cm"
+        ],
+        "algorithme": "LCG : x1 = (1664525×seed+1013904223) mod 2^32; x2 = (1664525×x1+1013904223) mod 2^32; a = 30 + (x1 mod 21); b = 10 + (x2 mod 16); d=a−b; vérifier b+d=a.",
+        "exemple_calcule": {
+          "x1": 3418757132,
+          "x2": 3695113211,
+          "a": 44,
+          "b": 21,
+          "d": 23,
+          "addition": 44
+        },
+        "unite": "cm",
+        "regle_variation": "Conserver deux longueurs positives en cm dans le texte fixé."
+      },
+      "validation_status": "a_revoir",
+      "sens": "comparaison",
+      "unite": "cm"
+    },
+    {
+      "item_id": "qc-pri-ma-007-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Trouve la première erreur, corrige la soustraction et justifie par une addition.",
+      "stimulus": "Une réponse écrite affirme : « 25 − 9 = 14, parce que 14 + 9 = 25. » Vérifie et corrige.",
+      "reponse_attendue": "L’addition annoncée est fausse : 14 + 9 = 23, pas 25. La bonne réponse est 25 − 9 = 16; 16 + 9 = 25.",
+      "criteres": [
+        "Identifier que la vérification 14 + 9 est fausse.",
+        "Corriger le résultat à 16.",
+        "Vérifier explicitement 16 + 9 = 25.",
+        "Expliquer que la somme doit reconstituer 25."
+      ],
+      "feedback": "Calcule réellement 14 + 9. Si la somme n’est pas 25, la soustraction ne peut pas être validée ainsi.",
+      "difficulte": "intermediaire",
+      "representation": "vérification d’égalité et représentation d’une barre 25=9+16",
+      "verification_numerique": {
+        "a": 25,
+        "b": 9,
+        "d": 16,
+        "addition": 25
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sens": "relation inverse",
+      "unite": "unités abstraites"
+    },
+    {
+      "item_id": "qc-pri-ma-007-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Trouve la partie manquante et vérifie par addition; si un autre scénario est fourni, il doit correspondre exactement à la variante B approuvée.",
+      "stimulus": "Une salle prévoit 40 sièges, dont 26 sont déjà occupés. Combien de sièges restent disponibles ?",
+      "reponse_attendue": "14 sièges disponibles : 40 − 26 = 14; modèle de la capacité 40 en 26 occupés et 14 libres; vérification 26 + 14 = 40.",
+      "criteres": [
+        "S1 : identifier le sens de la différence et la grandeur cherchée.",
+        "S2 : représenter correctement le tout, les parties ou les deux quantités.",
+        "S3 : donner une valeur exacte et son unité.",
+        "S4 : reconstituer la quantité totale ou la plus grande par une addition inverse exacte."
+      ],
+      "feedback": "Le nombre de sièges occupés est une partie du total. Ajoute les sièges libres pour vérifier la capacité.",
+      "difficulte": "intermediaire",
+      "representation": "barre de capacité à compléter + équation",
+      "verification_numerique": {
+        "a": 40,
+        "b": 26,
+        "d": 14,
+        "addition": 40
+      },
+      "seed": null,
+      "parametres": {
+        "selection": "A",
+        "alternatives_autorisees": [
+          {
+            "code": "A",
+            "stimulus": "Une salle prévoit 40 sièges, dont 26 sont déjà occupés. Combien de sièges restent disponibles ?",
+            "valeurs": {
+              "a": 40,
+              "b": 26,
+              "d": 14,
+              "addition": 40
+            },
+            "reponse": "14 sièges : 40 − 26 = 14; 26 + 14 = 40."
+          },
+          {
+            "code": "B",
+            "stimulus": "Un atelier vise 45 assemblages et en a terminé 32. Combien reste-t-il d’assemblages à faire ?",
+            "valeurs": {
+              "a": 45,
+              "b": 32,
+              "d": 13,
+              "addition": 45
+            },
+            "reponse": "13 assemblages : 45 − 32 = 13; 32 + 13 = 45."
+          }
+        ],
+        "contraintes": [
+          "Choisir exactement A ou B",
+          "Ne changer aucun nombre, unité ni texte hors corpus fixé",
+          "Chaque variante : 0 ≤ b ≤ a, d=a−b, b+d=a"
+        ],
+        "algorithme_selection": "La lettre A est la valeur par défaut. Le système peut sélectionner B uniquement par valeur explicite parmi {A,B}. Aucune génération textuelle libre ni tirage externe."
+      },
+      "validation_status": "a_revoir",
+      "sens": "complément",
+      "unite": "sièges"
+    },
+    {
+      "item_id": "qc-pri-ma-007-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare les deux quantités égales. Explique pourquoi la différence vaut zéro et vérifie avec une addition.",
+      "stimulus": "Deux boîtes contiennent chacune 19 galets. Combien de galets de plus la première boîte a-t-elle ?",
+      "reponse_attendue": "Aucun : la différence est 0 galet; 19 − 19 = 0. Les bandes ont la même longueur; vérification 19 + 0 = 19.",
+      "criteres": [
+        "S1 : identifier le sens de la différence et la grandeur cherchée.",
+        "S2 : représenter correctement le tout, les parties ou les deux quantités.",
+        "S3 : donner une valeur exacte et son unité.",
+        "S4 : reconstituer la quantité totale ou la plus grande par une addition inverse exacte."
+      ],
+      "feedback": "Si les bandes sont égales, rien ne dépasse. La différence n’est ni 19 ni 38, mais 0.",
+      "difficulte": "intermediaire",
+      "representation": "deux bandes identiques + équation",
+      "verification_numerique": {
+        "a": 19,
+        "b": 19,
+        "d": 0,
+        "addition": 19
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sens": "comparaison",
+      "unite": "galets"
+    },
+    {
+      "item_id": "qc-pri-ma-007-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-007-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A. Sans indice sur la méthode, trouve combien il y a de livres de plus dans la première collection. Montre un modèle et vérifie par addition.",
+      "stimulus": "Une bibliothèque fictive possède 42 livres illustrés sur un présentoir et 27 sur un autre. Combien de livres de plus sur le premier ?",
+      "reponse_attendue": "Différence : 42 − 27 = 15 livres. Deux bandes alignées de 42 et 27, dépassement 15. Addition de vérification : 27 + 15 = 42.",
+      "criteres": [
+        "S1 : identifier le sens de la différence et la grandeur cherchée.",
+        "S2 : représenter correctement le tout, les parties ou les deux quantités.",
+        "S3 : donner une valeur exacte et son unité.",
+        "S4 : reconstituer la quantité totale ou la plus grande par une addition inverse exacte."
+      ],
+      "feedback": "Si tu as additionné 42 et 27, relis « de plus ». Pour vérifier ton écart, ajoute-le à 27 et compare avec 42.",
+      "difficulte": "transfert",
+      "representation": "comparaison de collections : bande ou équation expliquée",
+      "verification_numerique": {
+        "a": 42,
+        "b": 27,
+        "d": 15,
+        "addition": 42
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sens": "comparaison",
+      "unite": "livres",
+      "preuve_maitrise": "A",
+      "condition_autonomie": "aucun indice de contenu; aides d’accès permises"
+    },
+    {
+      "item_id": "qc-pri-ma-007-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-007-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B. Sans indice sur la méthode, trouve la différence de longueur entre les deux rubans. Montre un modèle et vérifie par addition avec cm.",
+      "stimulus": "Pour délimiter un jardin fictif, on dispose de deux rubans de 36 cm et 19 cm. Quelle est leur différence de longueur ?",
+      "reponse_attendue": "Différence : 36 cm − 19 cm = 17 cm. Bandes alignées de 36 cm et 19 cm, dépassement 17 cm. Contrôle : 19 cm + 17 cm = 36 cm.",
+      "criteres": [
+        "S1 : identifier le sens de la différence et la grandeur cherchée.",
+        "S2 : représenter correctement le tout, les parties ou les deux quantités.",
+        "S3 : donner une valeur exacte et son unité.",
+        "S4 : reconstituer la quantité totale ou la plus grande par une addition inverse exacte."
+      ],
+      "feedback": "Compare des longueurs exprimées dans la même unité. La longueur courte plus la différence doit être égale à la longue.",
+      "difficulte": "transfert",
+      "representation": "comparaison de mesures en cm : bandes ou équation expliquée",
+      "verification_numerique": {
+        "a": 36,
+        "b": 19,
+        "d": 17,
+        "addition": 36
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sens": "comparaison",
+      "unite": "cm",
+      "preuve_maitrise": "B",
+      "condition_autonomie": "aucun indice de contenu; aides d’accès permises"
+    }
+  ]
+}

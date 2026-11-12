@@ -1,0 +1,80 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Reconstituer actions, personnages et idées d’un récit en anglais.",
+  "concepts": [
+    "plot",
+    "character",
+    "event",
+    "evidence"
+  ],
+  "preuve_attendue": "Résumer une histoire et citer un détail qui soutient le résumé.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-003"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-004-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Résumer une histoire et citer un détail qui soutient le résumé.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Response modality and faithful wording only; not the passage or key without versioned human review",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": false,
+        "moteur": "12 fixed source-locked stories; no stochastic generation",
+        "banque_ref": "evaluation/BANQUE_ITEMS.json"
+      },
+      "review_status": "items_generes_a_revoir",
+      "kristal_id": "qc-pri-ale-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "narrative_text",
+        "character_event_map",
+        "three_step_timeline",
+        "claim_evidence_pair",
+        "spoken_or_written_summary"
+      ],
+      "variables": {
+        "corpus_id": "fixed original story IDs in BANQUE_ITEMS.json",
+        "item_ids": "qc-pri-ale-004-q-001 through qc-pri-ale-004-q-012",
+        "substitutions": "none without separate human-reviewed version"
+      },
+      "contraintes": [
+        "Use only the complete locked fictional stimulus per item; no external facts necessary.",
+        "No unrestricted AI paraphrase/scene generation and no unreviewed story substitution.",
+        "Judge source-faithfulness, order, main idea and a linked cited detail.",
+        "Two distinct cold-read contexts q-011 and q-012; no scaffold for mastery.",
+        "Allow oral/dictated/typed responses with equivalent comprehension criteria and record reading modality."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "personnage_et_roles",
+          "evenements_et_ordre",
+          "resume_et_idee_centrale",
+          "preuve_textuelle_pertinente"
+        ],
+        "niveaux": "0,1,2,3; mastery >=2 on every dimension in each of two independent contexts, no teacher cues"
+      },
+      "source": "Corpus of 12 original fictional controlled narratives supplied verbatim inside evaluation/BANQUE_ITEMS.json; no external quotations",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_revue_pedagogique_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

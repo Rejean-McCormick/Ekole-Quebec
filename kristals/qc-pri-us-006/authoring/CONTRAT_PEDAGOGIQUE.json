@@ -1,0 +1,96 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire la diversité de sociétés autochtones sur le territoire vers 1500.",
+  "concepts": [
+    "territoire",
+    "modes de vie",
+    "échanges",
+    "diversité"
+  ],
+  "preuve_attendue": "Comparer deux réalités autochtones sans les confondre ni les homogénéiser.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-us-001",
+    "qc-pri-us-002",
+    "qc-pri-us-005"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-006-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Comparer deux réalités autochtones sans les confondre ni les homogénéiser.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-us-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiches_historiques_synthetiques",
+        "tableau_comparatif",
+        "carte_repere_non_georeferencee",
+        "argumentation_sourcée"
+      ],
+      "variables": {
+        "mode": "corpus_ferme",
+        "identifiants_admissibles": [
+          "W",
+          "I",
+          "L",
+          "M"
+        ],
+        "variantes": "Substitution parmi paires de fiches et corrigés éditorialement fixés; jamais génération libre",
+        "seed_selection": "index = seed modulo nombre_de_variantes, ordre des variantes figé pour chaque item scenario_controle"
+      },
+      "contraintes": [
+        "Respecter identifiants et période; distinguer faits, interprétations, manque de données",
+        "Ne pas homogénéiser les sociétés ni confondre Wendat et Iroquoiens du Saint-Laurent",
+        "Ne pas inventer récit d’époque, parole attribuée, échanges précis, ou absence de pratiques",
+        "Deux productions autonomes dans des contextes distincts, revue culturelle et factuelle humaine"
+      ],
+      "barreme_ou_rubrique": {
+        "dimension_par_preuve": [
+          "identification_et_contextualisation",
+          "comparaison_sourcée",
+          "nuance_et_limites",
+          "autonomie"
+        ],
+        "niveaux": [
+          "non_demontre",
+          "en_developpement",
+          "satisfaisant",
+          "solide"
+        ],
+        "decision": "Satisfaisant ou solide sur chacune des 4 dimensions dans 2 preuves distinctes; aucun automatisme par note totale",
+        "fichier": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "Nation Wendat (S1,S2)",
+        "Yale eHRAF (S8)",
+        "Nametau innu (S3,S4,S7)",
+        "Musée canadien de l’histoire (S5,S6)",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": 2406,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

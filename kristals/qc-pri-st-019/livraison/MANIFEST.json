@@ -1,0 +1,25 @@
+{
+  "format": "qc.kristal-delta-manifest/1.0",
+  "kristal_id": "qc-pri-st-019",
+  "base_version": "1.2",
+  "archive_root": "kristals/qc-pri-st-019/",
+  "files": [
+    "kristals/qc-pri-st-019/authoring/PARCOURS.md",
+    "kristals/qc-pri-st-019/authoring/CONTRAT_PEDAGOGIQUE.json",
+    "kristals/qc-pri-st-019/contenu/01_NOTIONS_ET_EXEMPLES.md",
+    "kristals/qc-pri-st-019/contenu/02_DIAGNOSTIC.md",
+    "kristals/qc-pri-st-019/contenu/03_ENSEIGNEMENT_GUIDE.md",
+    "kristals/qc-pri-st-019/contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+    "kristals/qc-pri-st-019/contenu/05_PRATIQUE_AUTONOME.md",
+    "kristals/qc-pri-st-019/contenu/06_REMEDIATION_ET_TRANSFERT.md",
+    "kristals/qc-pri-st-019/evaluation/PLAN_EVALUATION.md",
+    "kristals/qc-pri-st-019/evaluation/BANQUE_ITEMS.json",
+    "kristals/qc-pri-st-019/evaluation/GRILLE_MAITRISE.md",
+    "kristals/qc-pri-st-019/sources/REFERENCES_CONTENU.md",
+    "kristals/qc-pri-st-019/livraison/MANIFEST.json",
+    "kristals/qc-pri-st-019/livraison/VALIDATION.md"
+  ],
+  "statut_validation": "controles_structurels_et_json_reussis_revue_humaine_requise",
+  "revision_contenu": "0.3.0",
+  "nature_livraison": "deux_fichiers_authoring_remplaces_douze_nouveaux_revue_humaine_requise"
+}

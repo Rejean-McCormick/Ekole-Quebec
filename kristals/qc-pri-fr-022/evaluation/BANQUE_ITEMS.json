@@ -1,0 +1,470 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-022",
+  "family_id": "qc-pri-fr-022-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-022-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Place les deux paragraphes dans l’ordre qui permet de suivre la même action. Justifie le lien entre eux et indique à quoi renvoie « cet emplacement ».",
+      "stimulus": "A. Une fois cet emplacement choisi, Hugo y a installé les bacs de culture.\nB. Au printemps, Hugo a choisi un emplacement pour son jardin en bacs.",
+      "reponse_attendue": "Ordre attendu : B → A. Justifications : B→A : l’emplacement doit être choisi avant qu’on y installe les bacs; « cet emplacement » reprend le lieu choisi par Hugo.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si A précède B, le lecteur rencontre « cet emplacement » avant de connaître le lieu visé : chercher d’abord l’antécédent.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "diagnostic",
+      "contexte": "Jardin en bacs",
+      "representation": "texte_deux_paragraphes",
+      "ordre_corrige": [
+        "B",
+        "A"
+      ],
+      "indices_autorises": [],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": null,
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    },
+    {
+      "item_id": "qc-pri-fr-022-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Remets les trois paragraphes en ordre. Explique par deux phrases complètes au moins un lien de reprise et un lien d’ordre.",
+      "stimulus": "C. Enfin, la classe a déposé cette affiche dans le corridor.\nB. Ils ont ensuite dessiné des gouttes et écrit ce message en grosses lettres.\nA. Pour préparer une affiche sur l’économie d’eau, les élèves ont d’abord choisi un message.",
+      "reponse_attendue": "Ordre attendu : A → B → C. Justifications : A→B : « Ils » reprend « les élèves » et « ce message » reprend le message choisi; « ensuite » annonce la suite. B→C : « cette affiche » désigne l’affiche fabriquée; « enfin » présente la dernière étape.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si C est placé au début, « cette affiche » ne peut pas encore être identifiée. Faire repérer la fabrication puis le dépôt.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "diagnostic",
+      "contexte": "Affiche de sensibilisation",
+      "representation": "texte_trois_paragraphes_et_justification_ecrite",
+      "ordre_corrige": [
+        "A",
+        "B",
+        "C"
+      ],
+      "indices_autorises": [],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": null,
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    },
+    {
+      "item_id": "qc-pri-fr-022-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Remets les trois paragraphes en ordre. Explique les deux passages d’un paragraphe à l’autre.",
+      "stimulus": "C. Avant de partir, Nora a placé les romans empruntés dans son sac.\nA. À la bibliothèque, Nora a d’abord choisi deux romans sur une tablette.\nB. Puis, elle a présenté ces romans au comptoir de prêt.",
+      "reponse_attendue": "Ordre attendu : A → B → C. Justifications : A→B : « ces romans » reprend les deux romans choisis; « puis » marque la deuxième action. B→C : les romans deviennent « empruntés » après leur présentation au comptoir; « avant de partir » situe le rangement en dernier.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si C est choisi avant B, demander : les romans peuvent-ils déjà être décrits comme empruntés avant le passage au comptoir?",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "guidee",
+      "contexte": "Emprunt à la bibliothèque",
+      "representation": "texte_trois_paragraphes_avec_indices",
+      "ordre_corrige": [
+        "A",
+        "B",
+        "C"
+      ],
+      "indices_autorises": [
+        "Repère le paragraphe qui ouvre la visite (« d’abord »).",
+        "Trouve ce que remplace « ces romans ».",
+        "Cherche l’action accomplie avant de partir."
+      ],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": null,
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    },
+    {
+      "item_id": "qc-pri-fr-022-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Remets les trois paragraphes en ordre. Justifie la reprise et le passage de la décision à l’organisation.",
+      "stimulus": "B. Cette idée a été retenue parce qu’elle permettait à toutes les classes de participer.\nC. Le comité a ensuite affiché le calendrier des échanges de jeux.\nA. Des élèves ont proposé un échange de jeux de société à l’école.",
+      "reponse_attendue": "Ordre attendu : A → B → C. Justifications : A→B : « cette idée » désigne l’échange proposé; sa pertinence est expliquée. B→C : après la décision, le comité passe à la planification; « ensuite » exprime l’ordre.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si B est en tête, la reprise « cette idée » n’a pas d’antécédent. Si C précède B, vérifier la décision avant la diffusion du calendrier.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "guidee",
+      "contexte": "Échange de jeux",
+      "representation": "texte_trois_paragraphes_avec_indice_minimal",
+      "ordre_corrige": [
+        "A",
+        "B",
+        "C"
+      ],
+      "indices_autorises": [
+        "À quoi renvoie « cette idée »? Vérifie ensuite la place du calendrier."
+      ],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": null,
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    },
+    {
+      "item_id": "qc-pri-fr-022-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans indice préalable, ordonne les quatre paragraphes et explique au moins deux liens différents.",
+      "stimulus": "D. À la fin de l’activité, le groupe a rangé les outils dans la remise.\nC. Puis, ils ont recouvert les graines d’une mince couche de terre.\nB. Les élèves ont d’abord tracé des lignes dans la terre pour semer des haricots.\nA. Ils ont ensuite placé les graines dans ces lignes.",
+      "reponse_attendue": "Ordre attendu : B → A → C → D. Justifications : B→A : « ils » reprend « les élèves » et « ces lignes » reprend les lignes tracées. A→C : les graines doivent être placées avant d’être recouvertes; « puis » marque la suite. C→D : « à la fin de l’activité » signale le rangement après les semis.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si A arrive en tête, souligner la reprise « ces lignes » : aucune ligne n’a encore été mentionnée. Faire reconstruire la chaîne objet→action.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "guidee",
+      "contexte": "Semis de haricots",
+      "representation": "texte_quatre_paragraphes_sans_indice_prealable",
+      "ordre_corrige": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "indices_autorises": [],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": null,
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    },
+    {
+      "item_id": "qc-pri-fr-022-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Ordonne les quatre paragraphes sans indice. Explique deux transitions, dont une reprise.",
+      "stimulus": "B. Les visiteurs ont lu les étiquettes pour connaître le nom de chaque roche.\nD. Après la présentation, la classe a rangé les roches dans des boîtes.\nC. Elle a ensuite disposé ces roches sur une table avec des étiquettes.\nA. La classe a décidé de présenter des roches observées lors d’une sortie.",
+      "reponse_attendue": "Ordre attendu : A → C → B → D. Justifications : A→C : « elle » reprend « la classe »; « ces roches » renvoie aux roches observées; « ensuite » passe de la décision à l’installation. C→B : les visiteurs lisent les étiquettes après qu’elles ont été placées. B→D : le rangement vient après la présentation.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si B précède C, poser après la tentative : sur quoi les visiteurs lisent-ils des noms si les étiquettes ne sont pas encore installées?",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "autonome",
+      "contexte": "Exposition de roches",
+      "representation": "texte_quatre_paragraphes",
+      "ordre_corrige": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "indices_autorises": [],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": null,
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    },
+    {
+      "item_id": "qc-pri-fr-022-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Ordonne les quatre paragraphes. Explique les liens introduits par « cette carte », « ce repère » et le repère temporel final.",
+      "stimulus": "D. À la fin du trajet, Maëva a remis la carte au guide.\nB. Grâce à ce repère, elle a trouvé le bon chemin à l’embranchement.\nA. Avant la promenade, Maëva a reçu une carte du sentier.\nC. Elle a ensuite repéré le pont sur cette carte.",
+      "reponse_attendue": "Ordre attendu : A → C → B → D. Justifications : A→C : « cette carte » reprend la carte reçue; « ensuite » présente son utilisation. C→B : « ce repère » renvoie au pont repéré sur la carte, qui aide au choix du chemin. B→D : « à la fin du trajet » situe la restitution de la carte après la promenade.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si B précède C, demander ce que représente « ce repère » : le pont doit avoir été mentionné.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "autonome",
+      "contexte": "Promenade sur un sentier",
+      "representation": "texte_quatre_paragraphes",
+      "ordre_corrige": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "indices_autorises": [],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": null,
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    },
+    {
+      "item_id": "qc-pri-fr-022-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans indice, remets les quatre paragraphes en ordre. Justifie chaque transition en nommant au moins une reprise et un marqueur d’ordre.",
+      "stimulus": "C. Après le spectacle, ce groupe a salué le public.\nB. Ensuite, les trois élèves ont présenté leur numéro devant les familles.\nD. Avant d’entrer en scène, ils ont vérifié les fils et les décors.\nA. Pour la fête de l’école, trois élèves ont préparé un court numéro de marionnettes.",
+      "reponse_attendue": "Ordre attendu : A → D → B → C. Justifications : A→D : « ils » reprend les trois élèves; la vérification précède l’entrée en scène. D→B : « ensuite » introduit la représentation, après les préparatifs. B→C : « ce groupe » reprend les élèves; « après le spectacle » place les salutations à la fin.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si D vient avant A, « ils » n’a pas d’antécédent explicite. Si C précède B, « après le spectacle » contredit l’ordre.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "autonome",
+      "contexte": "Numéro de marionnettes",
+      "representation": "texte_narratif_quatre_paragraphes",
+      "ordre_corrige": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "indices_autorises": [],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": "M1",
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    },
+    {
+      "item_id": "qc-pri-fr-022-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans indice, remets les quatre paragraphes en ordre et justifie les trois transitions, dont une reprise et une progression vers une décision.",
+      "stimulus": "D. Le comité a finalement choisi de placer le coin lecture près de la fenêtre.\nB. Avec les mesures en main, le comité a comparé ces trois emplacements.\nA. Une classe souhaitait aménager un coin lecture et a proposé trois emplacements.\nC. D’abord, les élèves ont mesuré les trois espaces proposés.",
+      "reponse_attendue": "Ordre attendu : A → C → B → D. Justifications : A→C : « les trois espaces proposés » reprend les emplacements envisagés; « d’abord » lance la vérification. C→B : la comparaison exige des mesures déjà prises; « les mesures » et « ces trois emplacements » reprennent les données et lieux établis. B→D : « finalement » marque le choix qui découle de la comparaison.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si B précède C, les mesures n’existent pas encore. Faire relier une décision à ses informations préparatoires.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "autonome",
+      "contexte": "Aménagement d’un coin lecture",
+      "representation": "texte_explicatif_quatre_paragraphes",
+      "ordre_corrige": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "indices_autorises": [],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": "M2",
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    },
+    {
+      "item_id": "qc-pri-fr-022-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Remets les quatre paragraphes en ordre et justifie deux liens de reprise ou de temps. Propose aussi une phrase de liaison possible entre le deuxième et le troisième paragraphe, sans ajouter un fait nouveau.",
+      "stimulus": "B. Au terme de la soirée, les résidents ont rangé les chaises.\nC. Quand tout était prêt, les voisins se sont installés pour discuter.\nA. Pour accueillir une rencontre entre voisins, des résidents ont sorti des chaises de la réserve.\nD. Ils ont ensuite disposé ces chaises en cercle dans la salle commune.",
+      "reponse_attendue": "Ordre attendu : A → D → C → B. Justifications : A→D : « ils » reprend « des résidents » et « ces chaises » renvoie aux chaises sorties. D→C : « quand tout était prêt » situe le début des échanges après l’installation. C→B : « au terme de la soirée » annonce le rangement final. Phrase possible entre D et C : « Une fois les chaises installées, la rencontre pouvait commencer. » Elle reformule la transition sans introduire de nouveau fait.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si B est au début, « au terme de la soirée » est incompatible avec une rencontre non commencée.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "transfert",
+      "contexte": "Rencontre de voisinage",
+      "representation": "texte_evenement_communautaire_quatre_paragraphes",
+      "ordre_corrige": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "indices_autorises": [],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": null,
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    },
+    {
+      "item_id": "qc-pri-fr-022-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Remets les quatre paragraphes en ordre. Explique à qui renvoie « elle », ce que reprend « ces arrêts » et pourquoi la brochure vient à la fin. Propose un autre organisateur textuel convenable pour la dernière transition.",
+      "stimulus": "C. Ce parcours a ensuite été présenté dans une brochure du quartier.\nB. Puis, des bénévoles ont tracé un parcours reliant ces arrêts.\nA. Une association souhaitait proposer une promenade à pied dans le quartier.\nD. Elle a d’abord choisi trois arrêts proches les uns des autres.",
+      "reponse_attendue": "Ordre attendu : A → D → B → C. Justifications : A→D : « elle » reprend « une association », singulier féminin; « d’abord » annonce une première étape. D→B : « ces arrêts » reprend les trois arrêts retenus; « puis » suit le choix. B→C : « ce parcours » reprend le tracé des bénévoles; sa diffusion vient ensuite. Pour B→C, « Enfin, ce parcours a été présenté dans une brochure du quartier. » est une variante acceptable dans la séquence complète.",
+      "criteres": [
+        "Ordre : tous les blocs placés dans la séquence indiquée, ou une variante défendue sans contradiction (revue humaine).",
+        "Sujet et reprise : au moins un antécédent exact, aucune reprise ambiguë ou contradictoire.",
+        "Progression : les relations de temps, de préparation, de cause ou de décision sont respectées.",
+        "Justification : des indices précis du texte expliquent les transitions (une pour D1; deux pour D2 et les items courants; trois pour A3/A4)."
+      ],
+      "feedback": "Si B précède D, « ces arrêts » ne renvoie à rien. Si C précède B, « ce parcours » n’est pas encore établi.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "transfert",
+      "contexte": "Promenade dans un quartier",
+      "representation": "texte_informatif_quatre_paragraphes",
+      "ordre_corrige": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "indices_autorises": [],
+      "variation_permises": [
+        "changer uniquement l’ordre d’affichage des paragraphes étiquetés; les réponses et étiquettes restent invariantes"
+      ],
+      "variations_interdites": [
+        "générer librement de nouveaux énoncés/corrigés",
+        "modifier les étiquettes sans recoder la clé",
+        "ajouter une information non présente dans le stimulus"
+      ],
+      "rubrique_applicable": "evaluation/GRILLE_MAITRISE.md",
+      "preuve_maitrise": null,
+      "source": "production originale; sources/REFERENCES_CONTENU.md"
+    }
+  ]
+}

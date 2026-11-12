@@ -1,0 +1,39 @@
+{
+  "format": "ekole.portal-page/0.1",
+  "id": "ekole-page-confidentialite",
+  "slug": "confidentialite",
+  "titre": "Confidentialité",
+  "public_cible": "public",
+  "roles_visuels": [
+    "en_tete",
+    "description",
+    "actions",
+    "ressources",
+    "navigation"
+  ],
+  "utterances": [
+    {
+      "id": "confidentialite-phrase-1",
+      "source": "original_edition_candidat",
+      "fr-CA": "La version statique ne collecte aucun profil d’élève.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "confidentialite-phrase-2",
+      "source": "original_edition_candidat",
+      "fr-CA": "Les inscriptions et les résultats relèvent de Moodle et de ses règles d’accès.",
+      "status": "a_revoir_semantik"
+    }
+  ],
+  "component_types": [
+    "utterance",
+    "label_value",
+    "list",
+    "card"
+  ],
+  "access": "public",
+  "language_status": {
+    "fr-CA": "candidat",
+    "en": "non_genere"
+  }
+}

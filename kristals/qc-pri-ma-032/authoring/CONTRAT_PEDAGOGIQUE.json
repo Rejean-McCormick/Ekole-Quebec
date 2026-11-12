@@ -1,0 +1,201 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-032",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire des événements en termes de possibilité et de chance relative.",
+  "concepts": [
+    "certain",
+    "impossible",
+    "probable",
+    "hasard"
+  ],
+  "preuve_attendue": "Classer des événements et expliquer les conditions du classement.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-032-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Classer des événements et expliquer les conditions du classement.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme": "Mixed-radix déterministe sur listes finies : pour chaque item, appliquer seed modulo longueur du domaine ordonné puis diviser la seed par cette longueur avant variable suivante. Corriger par dénombrement explicite et par fractions favorables/total.",
+        "controle": "43 tuples des domaines finis + 16 exemples par seed à vérifier en calculs indépendants; vérifier tous les domaines avant publication et conserver revue humaine",
+        "variation_bornee": "N’utiliser que les huit gabarits paramétriques déclarés avec leur seed et leurs domaines; aucune substitution non vérifiée des contextes."
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ma-032",
+      "objectif_id": "obj-1",
+      "critere": "Classer des événements et expliquer les conditions du classement.",
+      "critere_id": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "jetons_physiques_ou_textuels",
+        "tableau_effectifs",
+        "roue_secteurs_egaux",
+        "cartes_numerotees"
+      ],
+      "variables": {
+        "description": "Effectifs entiers et nombre de secteurs/cartes; domaines finis, ordonnés et propres à chacun des huit items paramétriques. Consulter BANQUE_ITEMS.json/parametres/domaines_discrets_ordonnes.",
+        "domaines_par_item": {
+          "qc-pri-ma-032-q-001": {
+            "variables": [
+              "r",
+              "b"
+            ],
+            "domaines": {
+              "r": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "b": [
+                1,
+                2
+              ]
+            }
+          },
+          "qc-pri-ma-032-q-002": {
+            "variables": [
+              "k"
+            ],
+            "domaines": {
+              "k": [
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          },
+          "qc-pri-ma-032-q-003": {
+            "variables": [
+              "n"
+            ],
+            "domaines": {
+              "n": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            }
+          },
+          "qc-pri-ma-032-q-004": {
+            "variables": [
+              "g"
+            ],
+            "domaines": {
+              "g": [
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            }
+          },
+          "qc-pri-ma-032-q-005": {
+            "variables": [
+              "p",
+              "o"
+            ],
+            "domaines": {
+              "p": [
+                4,
+                5,
+                6
+              ],
+              "o": [
+                1,
+                2
+              ]
+            }
+          },
+          "qc-pri-ma-032-q-006": {
+            "variables": [
+              "k"
+            ],
+            "domaines": {
+              "k": [
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          },
+          "qc-pri-ma-032-q-007": {
+            "variables": [
+              "n"
+            ],
+            "domaines": {
+              "n": [
+                6,
+                8,
+                10,
+                12
+              ]
+            }
+          },
+          "qc-pri-ma-032-q-008": {
+            "variables": [
+              "a",
+              "b",
+              "c"
+            ],
+            "domaines": {
+              "a": [
+                4,
+                5,
+                6
+              ],
+              "b": [
+                2,
+                3
+              ],
+              "c": [
+                1
+              ]
+            }
+          }
+        }
+      },
+      "contraintes": [
+        "Issues élémentaires équiprobables et conditions de tirage explicitement exposées dans chaque item",
+        "Un tirage ou un lancer seulement; aucun tirage libre d’IA",
+        "0≤nombre favorable≤total, total strictement positif",
+        "Probable au sens du module si plus de la moitié des issues équiprobables sont favorables, sans confondre avec certain",
+        "Cas de secteurs inégaux verrouillés en item fixe, exclus des paramètres numériques",
+        "Justification en mots et dénombrement obligatoire pour attester la maîtrise; deux contextes distincts"
+      ],
+      "barreme_ou_rubrique": {
+        "classement_exact": "Événements classés certain/impossible/possible selon le nombre de cas favorables",
+        "comparaison": "Comparaison correcte en utilisant un même total, avec majorité/égalité/minorité lorsque pertinente",
+        "justification": "Cite la composition, le dénombrement et l’hypothèse de chances égales ou la limite de celle-ci",
+        "autonomie_et_transfert": "Deux preuves indépendantes sur sac (q-010) et roue (q-011) sans indice de fond; pas de score unique",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": "production_originale_qc-pri-ma-032_fondee_sur_contrat_et_parcours_v1.2",
+      "seed": 3201,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "items_rediges_a_revoir_pedagogiquement",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

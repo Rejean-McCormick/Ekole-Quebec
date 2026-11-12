@@ -1,0 +1,107 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ad-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Caractériser un personnage et une situation de jeu dramatique.",
+  "concepts": [
+    "personnage",
+    "intention",
+    "relation",
+    "situation"
+  ],
+  "preuve_attendue": "Improviser une entrée en scène manifestant un personnage identifiable.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ad-002-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Improviser une entrée en scène manifestant un personnage identifiable.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ad-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Improviser une entrée en scène manifestant un personnage identifiable.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "prestation_scénique",
+        "jeu_assis",
+        "marionnette_ou_figurine",
+        "trace_orale_ou_ecrite_d_un_choix"
+      ],
+      "variables": {
+        "mode": "fixe ou scenario_controle à corpus fermé (aucune génération libre)",
+        "scenarios_autorises": [
+          "q-003",
+          "q-005",
+          "q-007",
+          "q-011"
+        ],
+        "domaines": {
+          "variante": [
+            0,
+            1
+          ]
+        },
+        "algorithme": "Pour chaque scénario : index = seed % 2. Utiliser sans dissociation stimulus + rubrique de variantes[index].",
+        "seeds_par_item": {
+          "qc-pri-ad-002-q-003": 2403,
+          "qc-pri-ad-002-q-005": 2404,
+          "qc-pri-ad-002-q-007": 2410,
+          "qc-pri-ad-002-q-011": 2421
+        }
+      },
+      "contraintes": [
+        "Objectif obj-1 et critère crit-1 inchangés; aucun nouvel ID de prérequis.",
+        "Scènes fictives non humiliantes, rôle choisi sans divulgation personnelle ni stéréotypes.",
+        "Performance jouée (y compris figurine/marionnette), pas QCM.",
+        "Deux preuves en contextes différents, sans aide individualisée, sans note unique.",
+        "Objets symboliques sûrs; aucune vidéo imposée; aire de jeu et consentement surveillés.",
+        "Toute variante doit avoir sa propre situation, son intention et sa rubrique contrôlées."
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "personnage_identifiable",
+          "intention_perceptible",
+          "situation_et_relation",
+          "choix_justifie",
+          "securite_et_respect"
+        ],
+        "niveaux": [
+          "a_reprendre",
+          "en_developpement",
+          "satisfaisant",
+          "autonome_transferable"
+        ],
+        "seuil_de_sortie": "Deux prestations nouvelles indépendantes q-009 et q-010, toutes deux au moins satisfaisantes sur les quatre premières dimensions, et sécurité respectée; décision qualitative, pas score unique."
+      },
+      "source": "productions originales du delta qc-pri-ad-002; gouvernance interne v1.2 et frame pédagogique source",
+      "seed": {
+        "strategie": "fixe entier par item, variante = seed modulo 2",
+        "seeds": [
+          2403,
+          2404,
+          2410,
+          2421
+        ]
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_a_reviser_avant_qualification",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

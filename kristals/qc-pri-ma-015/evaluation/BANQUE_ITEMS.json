@@ -1,0 +1,783 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-015",
+  "family_id": "qc-pri-ma-015-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-015-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Dessine séparément 0,5 et 0,05 avec deux grilles identiques de 100 cases, puis décompose les deux nombres.",
+      "stimulus": "Chaque grille 10 × 10 entière vaut 1. Compare 0,5 à 0,05, en gardant ce tout identique.",
+      "reponse_attendue": "0,5 = 5/10 + 0/100 = 50/100 : 5 bandes de dix cases. 0,05 = 0/10 + 5/100 : 5 petites cases. 0,5 est dix fois 0,05.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième."
+      ],
+      "feedback": "Si les deux dessins sont identiques, pointe la position des chiffres après la virgule : cinq bandes = 50 cases, cinq cases = 5/100.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": [
+        "quadrillage",
+        "écriture décimale",
+        "décomposition"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Sur une grille de 100 cases, dessine 0,36 et donne sa décomposition; indique également l’emplacement sur une droite 0–1 régulièrement subdivisée en 100 parts.",
+      "stimulus": "Nombre : 0,36. Une grille ou le segment de 0 à 1 vaut une unité.",
+      "reponse_attendue": "36 cases dont 3 bandes complètes et 6 cases supplémentaires; 0,36 = 3/10 + 6/100 = 36/100. Sur une droite 0–1, 36e petit intervalle depuis 0.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième.",
+        "Sur la droite, les intervalles sont réguliers et la position est au nombre exact de centièmes depuis le repère."
+      ],
+      "feedback": "Si tu obtiens 0,63, vérifie les dizaines de cases et les cases restantes avant de réécrire la valeur.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": [
+        "quadrillage",
+        "droite graduée",
+        "décomposition"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Dessine 1,24 en utilisant autant de grilles de 100 cases que nécessaire; écris la décomposition complète.",
+      "stimulus": "Nombre : 1,24; une grille entière représente 1 unité.",
+      "reponse_attendue": "Une grille pleine plus 24 cases (2 bandes et 4 cases) sur une seconde; 1,24 = 1 + 2/10 + 4/100 = 124/100.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième."
+      ],
+      "feedback": "Si le 1 devant la virgule manque, ajoute une grille entièrement remplie avant de représenter les 24 centièmes.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": [
+        "deux quadrillages",
+        "décomposition"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "parametrique",
+      "consigne": "Dessine le décimal 0,85 sur une grille de 100 cases et écris-le comme somme de dixièmes et centièmes.",
+      "stimulus": "Valeur de travail : 0,85; la grille entière de 100 cases vaut 1.",
+      "reponse_attendue": "Réponse contrôlée : 0,85 = 0 unité(s) + 8 dixième(s) + 5 centième(s) = 0 + 8/10 + 5/100 = 85/100. Dessin attendu : 0 grille(s) complète(s) de 100 cases, puis 8 bande(s) de 10 cases et 5 case(s) sur la grille suivante; soit 85 cases-unités de 1/100.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième."
+      ],
+      "feedback": "Attention à inverser bandes de dix cases et cases seules : recompte 10d+c avec l’unité affichée.",
+      "difficulte": "initial",
+      "seed": 15347,
+      "parametres": {
+        "variables": {
+          "N_centiemes": 85,
+          "unite": "1 grille = 100 cases",
+          "domaine_N_autorise": [
+            28,
+            47,
+            63,
+            85
+          ],
+          "u": 0,
+          "d": 8,
+          "c": 5
+        },
+        "contraintes": [
+          "Le tout vaut toujours 100 cases et toutes les parts sont égales.",
+          "Les valeurs sont choisies uniquement dans la liste autorisée; N entier en centièmes, 0 ≤ N ≤ 299.",
+          "Aucune génération de distracteur ou de corrigé par IA libre.",
+          "Les valeurs à 0 centième et à partie entière >0 conservent explicitement leurs rangs."
+        ],
+        "selection_deterministe": "N = domaine_N_autorise[seed % longueur_du_domaine] ; ordre du domaine fixé ici",
+        "algorithme_resolution": "u = N//100; d=(N%100)//10; c=N%10; valeur=N/100=u+d/10+c/100; dessin=u grilles pleines+d bandes de 10 cases+c cases",
+        "borne_variation": "aucune valeur hors de la liste; contexte, représentation, unité et critère inchangés",
+        "exemples_valides": [
+          {
+            "N_centiemes": 28,
+            "ecriture": "0,28",
+            "decomposition": "0 + 2/10 + 8/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 2,
+              "cases_isolees": 8
+            }
+          },
+          {
+            "N_centiemes": 47,
+            "ecriture": "0,47",
+            "decomposition": "0 + 4/10 + 7/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 4,
+              "cases_isolees": 7
+            }
+          },
+          {
+            "N_centiemes": 63,
+            "ecriture": "0,63",
+            "decomposition": "0 + 6/10 + 3/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 6,
+              "cases_isolees": 3
+            }
+          },
+          {
+            "N_centiemes": 85,
+            "ecriture": "0,85",
+            "decomposition": "0 + 8/10 + 5/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 8,
+              "cases_isolees": 5
+            }
+          }
+        ],
+        "verification_independante": "fractions.Fraction(N,100) = u + Fraction(d,10) + Fraction(c,100) pour tous les exemples"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "quadrillage",
+        "décomposition"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "parametrique",
+      "consigne": "À partir de 1 unité(s), 7 dixième(s) et 0 centième(s), écris le nombre à virgule puis fais le dessin complet.",
+      "stimulus": "Matériel : chaque unité est une grille de 100 cases. Données : u=1, d=7, c=0.",
+      "reponse_attendue": "Résultat : 1,70 = 1 unité(s) + 7 dixième(s) + 0 centième(s) = 1 + 7/10 + 0/100 = 170/100. Dessin : 1 grille(s) complète(s) de 100 cases, puis 7 bande(s) de 10 cases et 0 case(s) sur la grille suivante; soit 170 cases-unités de 1/100.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième."
+      ],
+      "feedback": "Si les centièmes sont nuls, le zéro tient quand même sa place dans l’écriture à deux chiffres.",
+      "difficulte": "intermediaire",
+      "seed": 15430,
+      "parametres": {
+        "variables": {
+          "N_centiemes": 170,
+          "unite": "1 grille = 100 cases",
+          "domaine_N_autorise": [
+            126,
+            208,
+            170,
+            234
+          ],
+          "u": 1,
+          "d": 7,
+          "c": 0
+        },
+        "contraintes": [
+          "Le tout vaut toujours 100 cases et toutes les parts sont égales.",
+          "Les valeurs sont choisies uniquement dans la liste autorisée; N entier en centièmes, 0 ≤ N ≤ 299.",
+          "Aucune génération de distracteur ou de corrigé par IA libre.",
+          "Les valeurs à 0 centième et à partie entière >0 conservent explicitement leurs rangs."
+        ],
+        "selection_deterministe": "N = domaine_N_autorise[seed % longueur_du_domaine] ; ordre du domaine fixé ici",
+        "algorithme_resolution": "u = N//100; d=(N%100)//10; c=N%10; valeur=N/100=u+d/10+c/100; dessin=u grilles pleines+d bandes de 10 cases+c cases",
+        "borne_variation": "aucune valeur hors de la liste; contexte, représentation, unité et critère inchangés",
+        "exemples_valides": [
+          {
+            "N_centiemes": 126,
+            "ecriture": "1,26",
+            "decomposition": "1 + 2/10 + 6/100",
+            "dessin": {
+              "grilles_entieres": 1,
+              "bandes_dix_cases": 2,
+              "cases_isolees": 6
+            }
+          },
+          {
+            "N_centiemes": 208,
+            "ecriture": "2,08",
+            "decomposition": "2 + 0/10 + 8/100",
+            "dessin": {
+              "grilles_entieres": 2,
+              "bandes_dix_cases": 0,
+              "cases_isolees": 8
+            }
+          },
+          {
+            "N_centiemes": 170,
+            "ecriture": "1,70",
+            "decomposition": "1 + 7/10 + 0/100",
+            "dessin": {
+              "grilles_entieres": 1,
+              "bandes_dix_cases": 7,
+              "cases_isolees": 0
+            }
+          },
+          {
+            "N_centiemes": 234,
+            "ecriture": "2,34",
+            "decomposition": "2 + 3/10 + 4/100",
+            "dessin": {
+              "grilles_entieres": 2,
+              "bandes_dix_cases": 3,
+              "cases_isolees": 4
+            }
+          }
+        ],
+        "verification_independante": "fractions.Fraction(N,100) = u + Fraction(d,10) + Fraction(c,100) pour tous les exemples"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "manipulation fictive",
+        "quadrillages",
+        "décomposition"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "parametrique",
+      "consigne": "Place 0,36 sur la droite 0–1 en centièmes; fais un schéma des cases représentées et écris une décomposition.",
+      "stimulus": "La droite 0–1 comprend exactement 100 petits intervalles égaux. Une grille de 100 cases représente la même unité.",
+      "reponse_attendue": "Position : 36e pas de 1/100 à partir de zéro. 0,36 = 0 unité(s) + 3 dixième(s) + 6 centième(s) = 0 + 3/10 + 6/100 = 36/100. Quadrillage : 0 grille(s) complète(s) de 100 cases, puis 3 bande(s) de 10 cases et 6 case(s) sur la grille suivante; soit 36 cases-unités de 1/100.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième.",
+        "Sur la droite, les intervalles sont réguliers et la position est au nombre exact de centièmes depuis le repère."
+      ],
+      "feedback": "Ne compte pas seulement les grandes graduations en dixièmes : complète avec les centièmes.",
+      "difficulte": "intermediaire",
+      "seed": 15513,
+      "parametres": {
+        "variables": {
+          "N_centiemes": 36,
+          "unite": "1 grille = 100 cases",
+          "domaine_N_autorise": [
+            7,
+            36,
+            82,
+            94
+          ],
+          "u": 0,
+          "d": 3,
+          "c": 6
+        },
+        "contraintes": [
+          "Le tout vaut toujours 100 cases et toutes les parts sont égales.",
+          "Les valeurs sont choisies uniquement dans la liste autorisée; N entier en centièmes, 0 ≤ N ≤ 299.",
+          "Aucune génération de distracteur ou de corrigé par IA libre.",
+          "Les valeurs à 0 centième et à partie entière >0 conservent explicitement leurs rangs."
+        ],
+        "selection_deterministe": "N = domaine_N_autorise[seed % longueur_du_domaine] ; ordre du domaine fixé ici",
+        "algorithme_resolution": "u = N//100; d=(N%100)//10; c=N%10; valeur=N/100=u+d/10+c/100; dessin=u grilles pleines+d bandes de 10 cases+c cases",
+        "borne_variation": "aucune valeur hors de la liste; contexte, représentation, unité et critère inchangés",
+        "exemples_valides": [
+          {
+            "N_centiemes": 7,
+            "ecriture": "0,07",
+            "decomposition": "0 + 0/10 + 7/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 0,
+              "cases_isolees": 7
+            }
+          },
+          {
+            "N_centiemes": 36,
+            "ecriture": "0,36",
+            "decomposition": "0 + 3/10 + 6/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 3,
+              "cases_isolees": 6
+            }
+          },
+          {
+            "N_centiemes": 82,
+            "ecriture": "0,82",
+            "decomposition": "0 + 8/10 + 2/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 8,
+              "cases_isolees": 2
+            }
+          },
+          {
+            "N_centiemes": 94,
+            "ecriture": "0,94",
+            "decomposition": "0 + 9/10 + 4/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 9,
+              "cases_isolees": 4
+            }
+          }
+        ],
+        "verification_independante": "fractions.Fraction(N,100) = u + Fraction(d,10) + Fraction(c,100) pour tous les exemples"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "droite graduée",
+        "quadrillage",
+        "décomposition"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "parametrique",
+      "consigne": "Dessine 0,90 sur la grille et prouve qu’en supprimant son zéro final on ne change pas le nombre; écris la décomposition.",
+      "stimulus": "La grille entière représente 1. Écriture initiale : 0,90.",
+      "reponse_attendue": "0,90 = 0 unité(s) + 9 dixième(s) + 0 centième(s) = 0 + 9/10 + 0/100 = 90/100. La seconde écriture équivalente est 0,9. Dessin : 0 grille(s) complète(s) de 100 cases, puis 9 bande(s) de 10 cases et 0 case(s) sur la grille suivante; soit 90 cases-unités de 1/100.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième."
+      ],
+      "feedback": "Le zéro final dans le rang des centièmes correspond à 0 case additionnelle, pas à une nouvelle unité.",
+      "difficulte": "intermediaire",
+      "seed": 15596,
+      "parametres": {
+        "variables": {
+          "N_centiemes": 90,
+          "unite": "1 grille = 100 cases",
+          "domaine_N_autorise": [
+            40,
+            70,
+            90
+          ],
+          "u": 0,
+          "d": 9,
+          "c": 0
+        },
+        "contraintes": [
+          "Le tout vaut toujours 100 cases et toutes les parts sont égales.",
+          "Les valeurs sont choisies uniquement dans la liste autorisée; N entier en centièmes, 0 ≤ N ≤ 299.",
+          "Aucune génération de distracteur ou de corrigé par IA libre.",
+          "Les valeurs à 0 centième et à partie entière >0 conservent explicitement leurs rangs."
+        ],
+        "selection_deterministe": "N = domaine_N_autorise[seed % longueur_du_domaine] ; ordre du domaine fixé ici",
+        "algorithme_resolution": "u = N//100; d=(N%100)//10; c=N%10; valeur=N/100=u+d/10+c/100; dessin=u grilles pleines+d bandes de 10 cases+c cases",
+        "borne_variation": "aucune valeur hors de la liste; contexte, représentation, unité et critère inchangés",
+        "exemples_valides": [
+          {
+            "N_centiemes": 40,
+            "ecriture": "0,40",
+            "decomposition": "0 + 4/10 + 0/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 4,
+              "cases_isolees": 0
+            }
+          },
+          {
+            "N_centiemes": 70,
+            "ecriture": "0,70",
+            "decomposition": "0 + 7/10 + 0/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 7,
+              "cases_isolees": 0
+            }
+          },
+          {
+            "N_centiemes": 90,
+            "ecriture": "0,90",
+            "decomposition": "0 + 9/10 + 0/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 9,
+              "cases_isolees": 0
+            }
+          }
+        ],
+        "verification_independante": "fractions.Fraction(N,100) = u + Fraction(d,10) + Fraction(c,100) pour tous les exemples"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "quadrillage",
+        "écritures équivalentes"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "parametrique",
+      "consigne": "Représente 2,05 par plusieurs grilles entières et partielles puis donne la décomposition; précise ce que chaque grille représente.",
+      "stimulus": "Chaque grille comporte 100 cases et vaut toujours 1 unité. Quantité : 2,05.",
+      "reponse_attendue": "2,05 = 2 unité(s) + 0 dixième(s) + 5 centième(s) = 2 + 0/10 + 5/100 = 205/100. Dessin : 2 grille(s) complète(s) de 100 cases, puis 0 bande(s) de 10 cases et 5 case(s) sur la grille suivante; soit 205 cases-unités de 1/100.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième."
+      ],
+      "feedback": "Une grille de 100 cases ne peut pas représenter à elle seule plus de 1 si l’unité ne change pas.",
+      "difficulte": "intermediaire",
+      "seed": 15679,
+      "parametres": {
+        "variables": {
+          "N_centiemes": 205,
+          "unite": "1 grille = 100 cases",
+          "domaine_N_autorise": [
+            101,
+            109,
+            120,
+            205
+          ],
+          "u": 2,
+          "d": 0,
+          "c": 5
+        },
+        "contraintes": [
+          "Le tout vaut toujours 100 cases et toutes les parts sont égales.",
+          "Les valeurs sont choisies uniquement dans la liste autorisée; N entier en centièmes, 0 ≤ N ≤ 299.",
+          "Aucune génération de distracteur ou de corrigé par IA libre.",
+          "Les valeurs à 0 centième et à partie entière >0 conservent explicitement leurs rangs."
+        ],
+        "selection_deterministe": "N = domaine_N_autorise[seed % longueur_du_domaine] ; ordre du domaine fixé ici",
+        "algorithme_resolution": "u = N//100; d=(N%100)//10; c=N%10; valeur=N/100=u+d/10+c/100; dessin=u grilles pleines+d bandes de 10 cases+c cases",
+        "borne_variation": "aucune valeur hors de la liste; contexte, représentation, unité et critère inchangés",
+        "exemples_valides": [
+          {
+            "N_centiemes": 101,
+            "ecriture": "1,01",
+            "decomposition": "1 + 0/10 + 1/100",
+            "dessin": {
+              "grilles_entieres": 1,
+              "bandes_dix_cases": 0,
+              "cases_isolees": 1
+            }
+          },
+          {
+            "N_centiemes": 109,
+            "ecriture": "1,09",
+            "decomposition": "1 + 0/10 + 9/100",
+            "dessin": {
+              "grilles_entieres": 1,
+              "bandes_dix_cases": 0,
+              "cases_isolees": 9
+            }
+          },
+          {
+            "N_centiemes": 120,
+            "ecriture": "1,20",
+            "decomposition": "1 + 2/10 + 0/100",
+            "dessin": {
+              "grilles_entieres": 1,
+              "bandes_dix_cases": 2,
+              "cases_isolees": 0
+            }
+          },
+          {
+            "N_centiemes": 205,
+            "ecriture": "2,05",
+            "decomposition": "2 + 0/10 + 5/100",
+            "dessin": {
+              "grilles_entieres": 2,
+              "bandes_dix_cases": 0,
+              "cases_isolees": 5
+            }
+          }
+        ],
+        "verification_independante": "fractions.Fraction(N,100) = u + Fraction(d,10) + Fraction(c,100) pour tous les exemples"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "plusieurs grilles",
+        "décomposition"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "parametrique",
+      "consigne": "Un élève a représenté 0,75 par 5 bandes de 10 cases et 7 cases isolées. Est-ce juste? Corrige son dessin et donne la bonne décomposition.",
+      "stimulus": "Grille de 100 cases; l’écriture à représenter est 0,75. L’élève a échangé les nombres de bandes et de cases.",
+      "reponse_attendue": "Ce dessin représente 0,57 et non 0,75. Corrigé : 0 grille(s) complète(s) de 100 cases, puis 7 bande(s) de 10 cases et 5 case(s) sur la grille suivante; soit 75 cases-unités de 1/100; 0,75 = 0 unité(s) + 7 dixième(s) + 5 centième(s) = 0 + 7/10 + 5/100 = 75/100.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième."
+      ],
+      "feedback": "Compter les cases du dessin erroné et comparer à 10d+c; remettre le chiffre des dixièmes sur les bandes.",
+      "difficulte": "intermediaire",
+      "seed": 15762,
+      "parametres": {
+        "variables": {
+          "N_centiemes": 75,
+          "unite": "1 grille = 100 cases",
+          "domaine_N_autorise": [
+            38,
+            61,
+            75,
+            92
+          ],
+          "u": 0,
+          "d": 7,
+          "c": 5
+        },
+        "contraintes": [
+          "Le tout vaut toujours 100 cases et toutes les parts sont égales.",
+          "Les valeurs sont choisies uniquement dans la liste autorisée; N entier en centièmes, 0 ≤ N ≤ 299.",
+          "Aucune génération de distracteur ou de corrigé par IA libre.",
+          "Les valeurs à 0 centième et à partie entière >0 conservent explicitement leurs rangs."
+        ],
+        "selection_deterministe": "N = domaine_N_autorise[seed % longueur_du_domaine] ; ordre du domaine fixé ici",
+        "algorithme_resolution": "u = N//100; d=(N%100)//10; c=N%10; valeur=N/100=u+d/10+c/100; dessin=u grilles pleines+d bandes de 10 cases+c cases",
+        "borne_variation": "aucune valeur hors de la liste; contexte, représentation, unité et critère inchangés",
+        "exemples_valides": [
+          {
+            "N_centiemes": 38,
+            "ecriture": "0,38",
+            "decomposition": "0 + 3/10 + 8/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 3,
+              "cases_isolees": 8
+            }
+          },
+          {
+            "N_centiemes": 61,
+            "ecriture": "0,61",
+            "decomposition": "0 + 6/10 + 1/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 6,
+              "cases_isolees": 1
+            }
+          },
+          {
+            "N_centiemes": 75,
+            "ecriture": "0,75",
+            "decomposition": "0 + 7/10 + 5/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 7,
+              "cases_isolees": 5
+            }
+          },
+          {
+            "N_centiemes": 92,
+            "ecriture": "0,92",
+            "decomposition": "0 + 9/10 + 2/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 9,
+              "cases_isolees": 2
+            }
+          }
+        ],
+        "verification_independante": "fractions.Fraction(N,100) = u + Fraction(d,10) + Fraction(c,100) pour tous les exemples"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "diagnostic d’erreur",
+        "quadrillage",
+        "décomposition"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "parametrique",
+      "consigne": "Le dessin d’une unité sur 100 cases comporte exactement 44 cases hachurées. Écris son décimal, regroupe en bandes de dix si possible et refais un dessin lisible.",
+      "stimulus": "Sur une grille 10 × 10, une seule case = 1/100. Il y a 44 cases remplies.",
+      "reponse_attendue": "Nombre : 0,44. 0,44 = 0 unité(s) + 4 dixième(s) + 4 centième(s) = 0 + 4/10 + 4/100 = 44/100. Schéma attendu : 0 grille(s) complète(s) de 100 cases, puis 4 bande(s) de 10 cases et 4 case(s) sur la grille suivante; soit 44 cases-unités de 1/100.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième."
+      ],
+      "feedback": "Faire des groupes de dix pour les dixièmes, puis garder le reste en centièmes.",
+      "difficulte": "transfert",
+      "seed": 15845,
+      "parametres": {
+        "variables": {
+          "N_centiemes": 44,
+          "unite": "1 grille = 100 cases",
+          "domaine_N_autorise": [
+            5,
+            44,
+            90,
+            99
+          ],
+          "u": 0,
+          "d": 4,
+          "c": 4
+        },
+        "contraintes": [
+          "Le tout vaut toujours 100 cases et toutes les parts sont égales.",
+          "Les valeurs sont choisies uniquement dans la liste autorisée; N entier en centièmes, 0 ≤ N ≤ 299.",
+          "Aucune génération de distracteur ou de corrigé par IA libre.",
+          "Les valeurs à 0 centième et à partie entière >0 conservent explicitement leurs rangs."
+        ],
+        "selection_deterministe": "N = domaine_N_autorise[seed % longueur_du_domaine] ; ordre du domaine fixé ici",
+        "algorithme_resolution": "u = N//100; d=(N%100)//10; c=N%10; valeur=N/100=u+d/10+c/100; dessin=u grilles pleines+d bandes de 10 cases+c cases",
+        "borne_variation": "aucune valeur hors de la liste; contexte, représentation, unité et critère inchangés",
+        "exemples_valides": [
+          {
+            "N_centiemes": 5,
+            "ecriture": "0,05",
+            "decomposition": "0 + 0/10 + 5/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 0,
+              "cases_isolees": 5
+            }
+          },
+          {
+            "N_centiemes": 44,
+            "ecriture": "0,44",
+            "decomposition": "0 + 4/10 + 4/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 4,
+              "cases_isolees": 4
+            }
+          },
+          {
+            "N_centiemes": 90,
+            "ecriture": "0,90",
+            "decomposition": "0 + 9/10 + 0/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 9,
+              "cases_isolees": 0
+            }
+          },
+          {
+            "N_centiemes": 99,
+            "ecriture": "0,99",
+            "decomposition": "0 + 9/10 + 9/100",
+            "dessin": {
+              "grilles_entieres": 0,
+              "bandes_dix_cases": 9,
+              "cases_isolees": 9
+            }
+          }
+        ],
+        "verification_independante": "fractions.Fraction(N,100) = u + Fraction(d,10) + Fraction(c,100) pour tous les exemples"
+      },
+      "validation_status": "a_revoir",
+      "representation": [
+        "cases vers notation",
+        "quadrillage",
+        "décomposition"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sans indice conceptuel, représente le motif de mosaïque couvrant 1,26 carré-unité : dessine le(s) carré(s)-unité(s) divisés en 100 cases; donne une décomposition et explique une relation entre tes bandes et tes cases.",
+      "stimulus": "Une artiste décrit une mosaïque couvrant 1,26 carré-unité. Chaque carré-unité est exactement une grille de 10 × 10 cases égales. Toutes les grilles ont la même taille.",
+      "reponse_attendue": "Un carré entièrement hachuré (100 cases) puis 26 cases sur un deuxième (2 bandes complètes + 6 cases) : 1,26 = 1 + 2/10 + 6/100 = 126/100. Le dessin fixe toujours 1 carré entier = 1 unité.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième."
+      ],
+      "feedback": "Si deux grilles sont confondues, encadre la grille entière puis représente seulement les 26 centièmes sur la suivante avant de vérifier 100+20+6.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": [
+        "mosaïque fictive",
+        "dessin de deux grilles",
+        "décomposition"
+      ],
+      "preuve_maitrise": {
+        "numero": 1,
+        "contexte": "représentation d’aire / mosaïque",
+        "autonomie": "sans indices de fond",
+        "condition": "première des deux preuves finales distinctes"
+      },
+      "variation_autorisee": "Aucune pour cette version : valeurs, unité et situation figées; les dispositions équivalentes de cases sont acceptées."
+    },
+    {
+      "item_id": "qc-pri-ma-015-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-015-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sans indice conceptuel, représente un ruban de 0,84 m : dessine un segment-unité de 1 m divisé en 100 parts égales, indique jusqu’où va le ruban puis écris sa décomposition en dixièmes et centièmes de mètre. Justifie.",
+      "stimulus": "Ruban de longueur 0,84 m mesuré sur une bande graduée de 0 à 1 m. Chaque petit intervalle représente 1/100 m (1 cm).",
+      "reponse_attendue": "Depuis 0, le ruban couvre exactement 84 intervalles de 1 cm; le point terminal est 0,84 m. Décomposition : 0,84 m = 8/10 m + 4/100 m = 84/100 m = 84 cm. Bande dessinée ou schéma de 100 parts avec 84 parts identifiées.",
+      "criteres": [
+        "L’unité de référence (une grille de 100 cases, ou un segment égal à 1 unité) est explicite et stable.",
+        "Le dessin ou la représentation graphique montre une quantité exacte, y compris partie entière et éventuels zéros de position.",
+        "La décomposition est numériquement égale à l’écriture décimale, avec dixièmes et centièmes corrects.",
+        "Au moins une justification relie le compte de 10 cases pour un dixième et de 1 case pour un centième.",
+        "Sur la droite, les intervalles sont réguliers et la position est au nombre exact de centièmes depuis le repère."
+      ],
+      "feedback": "Si ton point est à 0,48 m, distingue huit dixièmes (80 intervalles) puis quatre centièmes supplémentaires; recompte depuis zéro.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": [
+        "droite métrique",
+        "schéma à cent parts",
+        "décomposition"
+      ],
+      "preuve_maitrise": {
+        "numero": 2,
+        "contexte": "longueur / mesure de ruban",
+        "autonomie": "sans indices de fond",
+        "condition": "deuxième preuve finale, contexte non interchangeable avec la mosaïque"
+      },
+      "variation_autorisee": "Aucune : valeur 0,84 m, unité et repères fixes; formats équivalents accessibles acceptés."
+    }
+  ]
+}

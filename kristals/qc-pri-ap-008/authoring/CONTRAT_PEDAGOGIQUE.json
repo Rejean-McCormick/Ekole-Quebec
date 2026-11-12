@@ -1,0 +1,100 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ap-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Formuler une appréciation argumentée d’une œuvre sans imposer le goût.",
+  "concepts": [
+    "observation",
+    "effet",
+    "critère",
+    "jugement"
+  ],
+  "preuve_attendue": "Donner un avis distinguant préférence et éléments de l’œuvre.",
+  "prerequis_bloquants": [
+    "qc-pri-ap-007"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ap-008-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Donner un avis distinguant préférence et éléments de l’œuvre.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ap-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "grilles de micro-compositions originales figées avec description textuelle neutre",
+        "oral",
+        "écrit",
+        "dictée ou pointage expliqué"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "corpus": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J"
+        ],
+        "variation_automatique": false
+      },
+      "contraintes": [
+        "Ne jamais modifier couleurs, emplacement, texte alternatif ou nombre de cases d’un stimulus sans nouvelle revue.",
+        "Deux preuves autonomes sur I et J, contextes distincts; adaptation d’accès sans suggestion de jugement.",
+        "Aucun score portant sur goûts, accent, motricité, identité, vécu privé ou interprétation unique.",
+        "Faire vérifier les appréciations par une personne formée; aucune correction déterministe du goût ni validation IA libre."
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": {
+          "O": "Observation : 2 = au moins deux indices visibles exacts et localisables; 1 = un indice exact (ou deux dont un est imprécis); 0 = aucun indice vérifiable ou observations fausses.",
+          "L": "Lien observation–effet : 2 = effet/interprétation présenté comme possible et lié explicitement à un indice; 1 = effet plausible mais lien partiel; 0 = effet ou intention imposée sans indice.",
+          "C": "Critère : 2 = critère visuel explicite, pertinent et mobilisé pour soutenir le jugement; 1 = critère pertinent seulement nommé ou implicite; 0 = aucune base de jugement.",
+          "J": "Jugement et préférence : 2 = avis argumenté, goût explicitement distingué et pas de norme imposée aux autres; 1 = avis personnel sans imposition mais distinction incomplète; 0 = goût imposé ou aucune appréciation."
+        },
+        "max_par_axe": 2,
+        "total_indicatif": 8,
+        "seuil_par_preuve": {
+          "O": 2,
+          "L": 2,
+          "C": 1,
+          "J": 2,
+          "total_min": 7
+        },
+        "decision": "Deux manifestations séparées réussies, contextes distincts, dont au moins une sans indices cognitifs; les deux ici sans canevas. Aucune compensation entre les preuves."
+      },
+      "source": [
+        "kristals/qc-pri-ap-008/authoring/PARCOURS.md (base v1.2)",
+        "kristals/qc-pri-ap-008/contenu/01_NOTIONS_ET_EXEMPLES.md (compositions originales)",
+        "kristals/qc-pri-ap-008/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

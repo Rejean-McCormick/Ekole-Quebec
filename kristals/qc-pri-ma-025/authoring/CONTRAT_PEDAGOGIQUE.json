@@ -1,0 +1,121 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-025",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Mesurer et comparer des longueurs, masses ou capacités avec unités adaptées.",
+  "concepts": [
+    "grandeur",
+    "unité",
+    "instrument",
+    "étalonnage"
+  ],
+  "preuve_attendue": "Choisir l’outil et mesurer un objet réel en justifiant l’unité.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-025-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Choisir l’outil et mesurer un objet réel en justifiant l’unité.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ma-025",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Choisir l’outil et mesurer un objet réel en justifiant l’unité.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "materiel_reel",
+        "schema_gradue",
+        "notation_numerique",
+        "justification_orale_ou_ecrite"
+      ],
+      "variables": [
+        {
+          "item": "q-003",
+          "noms": [
+            "depart_cm",
+            "longueur_cm"
+          ],
+          "domaines": "depart_cm ∈ [1,5] entier; longueur_cm ∈ [8,20] entier",
+          "loi": "depart_cm=1+seed%5; longueur_cm=8+(seed//5)%13; fin_cm=depart_cm+longueur_cm"
+        },
+        {
+          "item": "q-004",
+          "noms": [
+            "tare_g",
+            "net_g"
+          ],
+          "domaines": "tare_g ∈ {40,50,60,70,80}; net_g ∈ {100,125,150,175,200,225,250}",
+          "loi": "tare_g=40+10*(seed%5); net_g=100+25*((seed//5)%7); total_g=tare_g+net_g"
+        },
+        {
+          "item": "q-005",
+          "noms": [
+            "a_ml",
+            "b_ml"
+          ],
+          "domaines": "a_ml∈{300,400,500,600}; b_ml>a_ml et b_ml≤900, par pas de 100",
+          "loi": "a_ml=100*(3+seed%4); b_ml=a_ml+100*(1+(seed//4)%3)"
+        },
+        {
+          "item": "q-006",
+          "noms": [
+            "a_cm",
+            "b_mm"
+          ],
+          "domaines": "a_cm pair de 12 à 32; b_mm inférieur de 10,20,30 ou 40 mm",
+          "loi": "a_cm=12+2*(seed%11); b_mm=10*a_cm-10*(1+(seed//11)%4)"
+        },
+        {
+          "item": "q-007",
+          "noms": [
+            "nb_doses",
+            "dose_ml"
+          ],
+          "domaines": "nb_doses∈{2,3,4,5}; dose_ml=100",
+          "loi": "nb_doses=2+(seed%4); total_ml=nb_doses*100"
+        }
+      ],
+      "contraintes": [
+        "Même grandeur de part et d’autre de chaque comparaison; unités affichées et converties de façon exacte.",
+        "Seeds entiers ≥0; opérateurs % = reste euclidien, // = quotient entier; aucun tirage non déterministe.",
+        "q-003: fin_cm≤25; règle graduée en cm valide, lecture des deux repères.",
+        "q-004: tare_g>0, net_g>0, total_g≤330; balance présentée au pas de 1 g.",
+        "q-005: 300≤a_ml<b_ml≤900 mL; graduation de 100 mL.",
+        "q-006: b_mm>0 et b_mm<10*a_cm; différence multiple de 10 mm.",
+        "q-007: total_ml de 200 à 500 et <1 000 mL; dose constante 100 mL.",
+        "Items réels q-010 à q-012: quantités non connues avant mesure; comparaison à référence locale; ne jamais inventer la valeur d’un objet.",
+        "Variantes de contexte matériel limitées à la liste autorisée dans PLAN_EVALUATION.md; revue humaine obligatoire."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "G1 grandeur/instrument/unite",
+          "G2 preparation, zero, tare et lecture",
+          "G3 mesure et comparaison controlees",
+          "G4 justification et autonomie"
+        ],
+        "decision": "Deux preuves autonomes distinctes q-011 et q-012, chacune avec les quatre dimensions satisfaites; pas de note unique compensatoire."
+      },
+      "source": "sources/REFERENCES_CONTENU.md (norme interne, BIPM, productions originales)",
+      "seed": 25003,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

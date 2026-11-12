@@ -1,0 +1,446 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-001",
+  "family_id": "qc-pri-fr-001-ev-01",
+  "objective": "obj-1",
+  "critere": "crit-1",
+  "mode_generation": "fixe",
+  "statut_banque": "a_revoir",
+  "convention_representations": "Les graphies et transcriptions phonétiques sont réservées à l’adulte. Réponses demandées exclusivement à l’oral. Les frontières indiquées par | sont des syllabes orales, pas graphiques.",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-001-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Répète chaque mot entendu puis dis ses syllabes séparément, sans les épeler.",
+      "stimulus": "Animateur : maman ; lac (prononcés séparément, sans syllabation préalable).",
+      "reponse_attendue": "maman : /ma | mɑ̃/ = 2 syllabes ; lac : /lak/ = 1 syllabe.",
+      "criteres": [
+        "Maman segmenté en deux syllabes orales dans le bon ordre.",
+        "Lac rendu en une seule syllabe; aucune confusion avec les trois lettres."
+      ],
+      "feedback": "Si lac est divisé en l-a-c, expliquer que les lettres ne sont pas des syllabes; faire entendre un nouveau mot monosyllabique.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Mots, ordre et opérations fixés. Autoriser une répétition neutre du mot entier, en la notant. Timbres régionaux ne modifiant pas l’unité visée acceptés après contrôle humain; aucun remplacement de mot sans revue.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "diagnostic",
+      "contexte": "entretien individuel neutre",
+      "corpus_adulte": [
+        {
+          "mot": "maman",
+          "syllabes": [
+            "ma",
+            "mɑ̃"
+          ]
+        },
+        {
+          "mot": "lac",
+          "syllabes": [
+            "lak"
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute les groupes séparés et réunis-les en un mot oral.",
+      "stimulus": "Animateur : /ve/ ... /lo/ ; puis /ka/ ... /fe/.",
+      "reponse_attendue": "/ve/ + /lo/ → vélo ; /ka/ + /fe/ → café.",
+      "criteres": [
+        "Fusionne les deux unités de chacun des deux essais.",
+        "Garde leur ordre et restitue un mot fluide et reconnaissable."
+      ],
+      "feedback": "Si l’élève répète encore avec une pause, rapprocher oralement les groupes en remédiation; retenter une autre paire, sans prétendre à une réussite autonome.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Mots, ordre et opérations fixés. Autoriser une répétition neutre du mot entier, en la notant. Timbres régionaux ne modifiant pas l’unité visée acceptés après contrôle humain; aucun remplacement de mot sans revue.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "diagnostic",
+      "contexte": "écoute de syllabes séparées"
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour chaque mot entendu, dis les syllabes une par une puis redis le mot sans pause.",
+      "stimulus": "Animateur : moto ; papa. Aucun support écrit.",
+      "reponse_attendue": "moto : mo | to → moto (2) ; papa : pa | pa → papa (2).",
+      "criteres": [
+        "Deux frontières syllabiques correctement observées par mot.",
+        "Recomposition audible du mot pour chacun."
+      ],
+      "feedback": "Si les parties sont correctes mais fusion difficile, retirer progressivement les pauses puis vérifier sur un autre mot.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Mots, ordre et opérations fixés. Autoriser une répétition neutre du mot entier, en la notant. Timbres régionaux ne modifiant pas l’unité visée acceptés après contrôle humain; aucun remplacement de mot sans revue.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "formative",
+      "contexte": "mots usuels à deux syllabes"
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Après avoir entendu tapis, dis la dernière syllabe entendue, puis le dernier phonème entendu; recompose le mot.",
+      "stimulus": "Animateur : tapis (prononcé entier, sans affichage de sa graphie).",
+      "reponse_attendue": "Dernière syllabe /pi/ ; dernier phonème /i/ ; recomposition tapis ; le s final graphique est muet.",
+      "criteres": [
+        "Distingue explicitement dernière syllabe /pi/ de dernier son /i/.",
+        "Ne crée pas de /s/ oral final.",
+        "Recompose tapis de façon reconnaissable."
+      ],
+      "feedback": "Si réponse « s », cacher les lettres, faire écouter le mot à nouveau puis opposer son final et dernière lettre.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Mots, ordre et opérations fixés. Autoriser une répétition neutre du mot entier, en la notant. Timbres régionaux ne modifiant pas l’unité visée acceptés après contrôle humain; aucun remplacement de mot sans revue.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "formative",
+      "contexte": "finale syllabique versus phonémique"
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour les deux mots entendus, segmente par syllabes puis recomposes-les à l’oral.",
+      "stimulus": "Animateur : bateau ; dodo.",
+      "reponse_attendue": "bateau : /ba | to/ → bateau ; dodo : /do | do/ → dodo, chacun 2 syllabes.",
+      "criteres": [
+        "Segmente correctement les deux mots.",
+        "Restitue chaque mot dans l’ordre avec une fusion sans pause."
+      ],
+      "feedback": "S’il ne reste que les syllabes isolées, rappeler le sens de « recomposer » après l’essai et reprendre avec un autre stimulus.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Mots, ordre et opérations fixés. Autoriser une répétition neutre du mot entier, en la notant. Timbres régionaux ne modifiant pas l’unité visée acceptés après contrôle humain; aucun remplacement de mot sans revue.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "formative",
+      "contexte": "pratique autonome locale A1"
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute sac puis lac : isole l’attaque de chacun, dis la rime commune et le dernier son de chacun; prononce les mots en entier.",
+      "stimulus": "Animateur : sac, lac, sans montrer les graphies.",
+      "reponse_attendue": "Attaques /s/ et /l/ ; rime commune /ak/ ; dernier son /k/ pour les deux ; deux mots monosyllabiques /sak/, /lak/.",
+      "criteres": [
+        "Attaque de sac = /s/, de lac = /l/.",
+        "Rime commune /ak/ identifiée.",
+        "Dernier phonème /k/ et restitution correcte."
+      ],
+      "feedback": "Si « rime » est réduite au dernier son /k/, faire entendre que la voyelle /a/ fait également partie de la rime /ak/.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Mots, ordre et opérations fixés. Autoriser une répétition neutre du mot entier, en la notant. Timbres régionaux ne modifiant pas l’unité visée acceptés après contrôle humain; aucun remplacement de mot sans revue.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "formative",
+      "contexte": "comparaison des unités intrasyllabiques"
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour chat puis chou, dis les phonèmes entendus et recompose chaque mot; dis si ch fait entendre un ou deux phonèmes au début.",
+      "stimulus": "Animateur : chat ; chou.",
+      "reponse_attendue": "chat /ʃ/ + /a/ → /ʃa/ ; chou /ʃ/ + /u/ → /ʃu/ ; /ʃ/ est un phonème, même si « ch » s’écrit avec deux lettres.",
+      "criteres": [
+        "Identifie /ʃ/ comme un seul phonème initial.",
+        "Associe correctement les finales vocaliques /a/ et /u/.",
+        "Fusionne chaque paire en mot prononçable."
+      ],
+      "feedback": "Si c+h sont comptés comme deux sons, écarter la graphie et prolonger /ʃ/ une seule fois, puis demander un nouvel essai.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Mots, ordre et opérations fixés. Autoriser une répétition neutre du mot entier, en la notant. Timbres régionaux ne modifiant pas l’unité visée acceptés après contrôle humain; aucun remplacement de mot sans revue.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "formative",
+      "contexte": "phonèmes versus lettres"
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute papa. Remplace seulement la deuxième syllabe /pa/ par /pi/. Dis le résultat; segmente puis fusionne le résultat.",
+      "stimulus": "Animateur : papa ; l’unité cible est indiquée oralement dans la consigne.",
+      "reponse_attendue": "papa /pa | pa/ → papi /pa | pi/ → papi. Première syllabe /pa/ intacte.",
+      "criteres": [
+        "Change la deuxième syllabe uniquement.",
+        "Segmente /pa | pi/ et recompose papi.",
+        "Peut dire ou montrer la syllabe conservée."
+      ],
+      "feedback": "Si la première syllabe change, montrer deux jetons lors de la remédiation et ne déplacer que le second; contrôler plus tard sans aide.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Mots, ordre et opérations fixés. Autoriser une répétition neutre du mot entier, en la notant. Timbres régionaux ne modifiant pas l’unité visée acceptés après contrôle humain; aucun remplacement de mot sans revue.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "formative",
+      "contexte": "manipulation de syllabe entière"
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans l’atelier de tri sonore : à partir de boule, remplace /b/ initial par /p/ et prononce le nouveau mot. Explique ce qui reste inchangé.",
+      "stimulus": "Animateur : boule, puis « /b/ devient /p/ ».",
+      "reponse_attendue": "boule /bul/ → poule /pul/ ; attaque /b/ → /p/ ; rime /ul/ conservée ; fusion /p/ + /ul/ = poule.",
+      "criteres": [
+        "Une seule substitution phonémique initiale.",
+        "Rime /ul/ reste identique.",
+        "Mot transformé poule dit oralement et justification portant sur les sons."
+      ],
+      "feedback": "Si toute la syllabe est modifiée, reprendre l’idée « on change seulement le son du début » et comparer /bul/ à /pul/.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Mots, ordre et opérations fixés. Autoriser une répétition neutre du mot entier, en la notant. Timbres régionaux ne modifiant pas l’unité visée acceptés après contrôle humain; aucun remplacement de mot sans revue.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "transfert",
+      "contexte": "bureau de tri d’étiquettes sonores fictives"
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans l’atelier de messages sonores : rassemble /ʃɔ/ ... /kɔ/ ... /la/, donne le mot puis ses trois syllabes. Remplace ensuite la première syllabe par /pa/; redis toute la nouvelle suite sonore.",
+      "stimulus": "Animateur : /ʃɔ/ ... /kɔ/ ... /la/ ; après la fusion, « change /ʃɔ/ en /pa/ ».",
+      "reponse_attendue": "chocolat /ʃɔ | kɔ | la/ → chocolat; nouvelle suite /pa | kɔ | la/ → /pakɔla/ (pseudo-mot permis, sans valeur lexicale exigée).",
+      "criteres": [
+        "Fusionne les trois syllabes dans l’ordre en chocolat.",
+        "Redécoupe chocolat en trois syllabes.",
+        "Remplace uniquement la première syllabe et conserve /kɔ | la/."
+      ],
+      "feedback": "Si l’élève cherche un vrai mot à tout prix, préciser que l’opération sonore peut créer un pseudo-mot; vérifier le maintien des deux syllabes finales.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Mots, ordre et opérations fixés. Autoriser une répétition neutre du mot entier, en la notant. Timbres régionaux ne modifiant pas l’unité visée acceptés après contrôle humain; aucun remplacement de mot sans revue.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "transfert",
+      "contexte": "message à transmettre par un enregistreur fictif"
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour chacun des CINQ mots nouveaux que je vais prononcer ENTIER, répète le mot, dis ses syllabes une par une, puis redis ce mot normalement, sans pause. Aucune démonstration, aucun indice de contenu.",
+      "stimulus": "Contexte P1 — message à une marionnette. Animateur, énonce les cinq mots dans cet ordre, l’un après l’autre (jamais écrits pour l’élève) : puma, tuba, minou, chapeau, domino.",
+      "reponse_attendue": "puma : /py | ma/ (2), puis puma ; tuba : /ty | ba/ (2), puis tuba ; minou : /mi | nu/ (2), puis minou ; chapeau : /ʃa | po/ (2), puis chapeau ; domino : /dɔ | mi | no/ (3), puis domino.",
+      "criteres": [
+        "Pour chacun des cinq mots : segmentation orale complète et syllabes dans le bon ordre.",
+        "Pour chacun : recomposition orale correcte immédiatement après la segmentation.",
+        "Aucune aide de contenu, démonstration, écrit ou segmentation fournie pendant la preuve.",
+        "Une autocorrection spontanée avant toute rétroaction est acceptable; noter son occurrence.",
+        "Une répétition neutre du mot entier est acceptable si elle ne donne aucune frontière syllabique; la consigner."
+      ],
+      "feedback": "Par mot non réussi : décrire si la difficulté touche frontière, ordre, omission ou fusion. Suspendre la conclusion; prévoir remédiation puis nouvelle forme fixe revue, sans enseigner le corrigé de l’autre preuve.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Liste de 5 mots et leur ordre FIXÉS. Débit naturel et répétition du mot entier admis; aucune segmentation ou jeton durant l’épreuve. Prononciations régionales conservant les syllabes acceptées après revue. Si un mot a été enseigné ou sa découpe devient litigieuse : invalider la forme, demander une liste de remplacement revue, ne pas substituer spontanément.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "preuve_de_maitrise",
+      "contexte": "message à une marionnette",
+      "preuve_id": "P1",
+      "corpus_adulte": [
+        {
+          "mot": "puma",
+          "syllabes_orales": [
+            "py",
+            "ma"
+          ],
+          "nombre_syllabes": 2,
+          "fusion_attendue": "puma"
+        },
+        {
+          "mot": "tuba",
+          "syllabes_orales": [
+            "ty",
+            "ba"
+          ],
+          "nombre_syllabes": 2,
+          "fusion_attendue": "tuba"
+        },
+        {
+          "mot": "minou",
+          "syllabes_orales": [
+            "mi",
+            "nu"
+          ],
+          "nombre_syllabes": 2,
+          "fusion_attendue": "minou"
+        },
+        {
+          "mot": "chapeau",
+          "syllabes_orales": [
+            "ʃa",
+            "po"
+          ],
+          "nombre_syllabes": 2,
+          "fusion_attendue": "chapeau"
+        },
+        {
+          "mot": "domino",
+          "syllabes_orales": [
+            "dɔ",
+            "mi",
+            "no"
+          ],
+          "nombre_syllabes": 3,
+          "fusion_attendue": "domino"
+        }
+      ],
+      "grille_application": {
+        "unite": "mot",
+        "verifie": [
+          "segmentation",
+          "recomposition",
+          "autonomie"
+        ],
+        "seuil_forme": "5/5 mots avec segmentation ET recomposition exactes, sans aide de contenu",
+        "decision_finale": "requiert réussite de l’autre contexte distinct et observations des manipulations phonologiques"
+      }
+    },
+    {
+      "item_id": "qc-pri-fr-001-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour chacun des CINQ mots nouveaux que je vais prononcer ENTIER, répète le mot, dis ses syllabes une par une, puis redis ce mot normalement, sans pause. Aucune démonstration, aucun indice de contenu.",
+      "stimulus": "Contexte P2 — radio des mots mystères. Animateur, énonce les cinq mots dans cet ordre, l’un après l’autre (jamais écrits pour l’élève) : joujou, hibou, cadeau, salami, numéro.",
+      "reponse_attendue": "joujou : /ʒu | ʒu/ (2), puis joujou ; hibou : /i | bu/ (2), puis hibou ; cadeau : /ka | do/ (2), puis cadeau ; salami : /sa | la | mi/ (3), puis salami ; numéro : /ny | me | ʁo/ (3), puis numéro.",
+      "criteres": [
+        "Pour chacun des cinq mots : segmentation orale complète et syllabes dans le bon ordre.",
+        "Pour chacun : recomposition orale correcte immédiatement après la segmentation.",
+        "Aucune aide de contenu, démonstration, écrit ou segmentation fournie pendant la preuve.",
+        "Une autocorrection spontanée avant toute rétroaction est acceptable; noter son occurrence.",
+        "Une répétition neutre du mot entier est acceptable si elle ne donne aucune frontière syllabique; la consigner."
+      ],
+      "feedback": "Par mot non réussi : décrire si la difficulté touche frontière, ordre, omission ou fusion. Suspendre la conclusion; prévoir remédiation puis nouvelle forme fixe revue, sans enseigner le corrigé de l’autre preuve.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral; consigne et stimuli lus par animateur sans graphie visible à élève",
+      "limites_variation": "Liste de 5 mots et leur ordre FIXÉS. Débit naturel et répétition du mot entier admis; aucune segmentation ou jeton durant l’épreuve. Prononciations régionales conservant les syllabes acceptées après revue. Si un mot a été enseigné ou sa découpe devient litigieuse : invalider la forme, demander une liste de remplacement revue, ne pas substituer spontanément.",
+      "regle_de_saisie": "Consigner pour chaque mot segmentation et recomposition séparément, aide reçue, répétition neutre, autocorrection et commentaire de procédure si pertinent.",
+      "usage": "preuve_de_maitrise",
+      "contexte": "radio des mots mystères",
+      "preuve_id": "P2",
+      "corpus_adulte": [
+        {
+          "mot": "joujou",
+          "syllabes_orales": [
+            "ʒu",
+            "ʒu"
+          ],
+          "nombre_syllabes": 2,
+          "fusion_attendue": "joujou"
+        },
+        {
+          "mot": "hibou",
+          "syllabes_orales": [
+            "i",
+            "bu"
+          ],
+          "nombre_syllabes": 2,
+          "fusion_attendue": "hibou"
+        },
+        {
+          "mot": "cadeau",
+          "syllabes_orales": [
+            "ka",
+            "do"
+          ],
+          "nombre_syllabes": 2,
+          "fusion_attendue": "cadeau"
+        },
+        {
+          "mot": "salami",
+          "syllabes_orales": [
+            "sa",
+            "la",
+            "mi"
+          ],
+          "nombre_syllabes": 3,
+          "fusion_attendue": "salami"
+        },
+        {
+          "mot": "numéro",
+          "syllabes_orales": [
+            "ny",
+            "me",
+            "ʁo"
+          ],
+          "nombre_syllabes": 3,
+          "fusion_attendue": "numéro"
+        }
+      ],
+      "grille_application": {
+        "unite": "mot",
+        "verifie": [
+          "segmentation",
+          "recomposition",
+          "autonomie"
+        ],
+        "seuil_forme": "5/5 mots avec segmentation ET recomposition exactes, sans aide de contenu",
+        "decision_finale": "requiert réussite de l’autre contexte distinct et observations des manipulations phonologiques"
+      }
+    }
+  ]
+}

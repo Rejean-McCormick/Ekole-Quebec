@@ -1,0 +1,167 @@
+{
+  "format": "ekole.activity/1",
+  "id": "entree-en-scene",
+  "revision": 1,
+  "status": "local_demo",
+  "model": "questions",
+  "course": {
+    "id": "qc-pri-ad-001",
+    "objective": "obj-1",
+    "sha256": "sha256:f9a6fa6ea0e64c89b9769953f08c3310fdc21182b8d62b1a2d36bf0da48fb86f"
+  },
+  "scenario": {
+    "id": "entree-en-scene",
+    "version": "1.0.0",
+    "step": "essai",
+    "sha256": "sha256:d324664b39b5feb8371e86c780a052aa3d521e3f70d7ec85e8764d3cec30b144"
+  },
+  "trame": "spectacle-imprevu",
+  "tasks": {
+    "pratique": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "multiple_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "a",
+            "b"
+          ]
+        }
+      ]
+    },
+    "bilan": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "b"
+          ]
+        },
+        {
+          "id": "expliquer",
+          "kind": "rubric",
+          "criteria": {
+            "preuve": 1
+          }
+        }
+      ]
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "review": "La justification sera lue par une personne.",
+      "title": "Une entrée en scène",
+      "objective": "Choisis des moyens de faire comprendre une intention au public.",
+      "prerequisite": "Reconnaître un geste et une façon de dire une phrase.",
+      "context": "Un personnage cherche quelque chose sans vouloir réveiller les autres. Il entre dans une pièce vide.",
+      "group": "Essaie un déplacement et un volume de voix.",
+      "compare": "Compare ce que chaque choix laisse comprendre au public.",
+      "reflection": "Que pourrait comprendre le public si tu changes seulement la voix ?",
+      "transfer": "Un autre personnage vient annoncer une bonne nouvelle avec enthousiasme.",
+      "subtitle": "Activité de découverte",
+      "heading": "Une entrée en scène",
+      "correct": "Ta réponse correspond à la situation.",
+      "incorrect": "Relis les données de la situation et compare les possibilités.",
+      "next": "Compare ce que chaque choix laisse comprendre au public.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Quels choix peuvent montrer que le personnage veut rester discret ?",
+            "options": {
+              "a": "Avancer sur la pointe des pieds.",
+              "b": "Parler doucement.",
+              "c": "Crier le plus fort possible."
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Quel choix peut rendre l’enthousiasme perceptible ?",
+            "options": {
+              "a": "Rester immobile et parler sans variation.",
+              "b": "Entrer d’un pas vif et donner de l’élan à la voix.",
+              "c": "Quitter la scène avant de parler."
+            }
+          },
+          "expliquer": {
+            "prompt": "Décris un geste et un choix de voix, puis explique ce que le public pourrait comprendre.",
+            "criteria": {
+              "preuve": "La réponse relie deux moyens expressifs à l’intention d’enthousiasme."
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "limits": "Local demonstration activity for review before classroom use.",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "review": "Someone will review your explanation.",
+      "title": "An entrance on stage",
+      "objective": "Choose ways to help an audience understand an intention.",
+      "prerequisite": "Recognise a gesture and a way to deliver a line.",
+      "context": "A character is looking for something without waking the others. The character enters an empty room.",
+      "group": "Try a way to move and a speaking volume.",
+      "compare": "Compare what each choice suggests to the audience.",
+      "reflection": "What might the audience understand if you change only the voice?",
+      "transfer": "Another character enters to share good news with enthusiasm.",
+      "subtitle": "Discovery activity",
+      "heading": "An entrance on stage",
+      "correct": "Your answer fits the situation.",
+      "incorrect": "Read the situation again and compare the options.",
+      "next": "Compare what each choice suggests to the audience.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Which choices might show that the character wants to stay quiet?",
+            "options": {
+              "a": "Walk on tiptoe.",
+              "b": "Speak softly.",
+              "c": "Shout as loudly as possible."
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Which choice might communicate enthusiasm?",
+            "options": {
+              "a": "Stand still and speak without variation.",
+              "b": "Enter quickly and put energy into the voice.",
+              "c": "Leave the stage before speaking."
+            }
+          },
+          "expliquer": {
+            "prompt": "Describe a gesture and a voice choice, then explain what the audience might understand.",
+            "criteria": {
+              "preuve": "The response connects two expressive choices to the intention of enthusiasm."
+            }
+          }
+        }
+      }
+    }
+  }
+}

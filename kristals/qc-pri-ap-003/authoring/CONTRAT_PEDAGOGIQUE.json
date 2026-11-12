@@ -1,0 +1,94 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ap-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Organiser des éléments visuels en une composition intentionnelle.",
+  "concepts": [
+    "espace",
+    "contraste",
+    "rythme",
+    "équilibre"
+  ],
+  "preuve_attendue": "Créer deux compositions différentes et expliquer les choix.",
+  "prerequis_bloquants": [
+    "qc-pri-ap-001"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ap-002"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ap-003-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Créer deux compositions différentes et expliquer les choix.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Seulement support et accessibilité fixés avant l’épreuve; thèmes A et B, noyaux de consigne et critères fermés.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_actif": "fixe_controle; aucun générateur paramétrique exécuté"
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ap-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "observation commentée de formes et espaces",
+        "maquette plane manipulée ou numérique",
+        "production plastique avec justification orale, gestuelle ou écrite"
+      ],
+      "variables": {
+        "generation": "aucune génération aléatoire en v1.2",
+        "scenarios_fixes": [
+          "jardin_de_reperes_affiche",
+          "couverture_carnet_imaginaire"
+        ],
+        "supports_accessibles": [
+          "papier prédécoupé",
+          "planche repositionnable",
+          "outil numérique",
+          "quadrillage décrit avec exécution non directive"
+        ]
+      },
+      "contraintes": [
+        "deux compositions effectivement différentes",
+        "deux contextes distincts et deux explications autonomes",
+        "effets d’espace, contraste, rythme et équilibre observables",
+        "aucune note esthétique ni jugement de style",
+        "matériaux sûrs et adaptations d’accès avant épreuve",
+        "aucun modèle copié ou aides directives pendant les preuves"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "echelle": "0=non_observe,1=partiel,2=observable_et_justifie",
+        "dimensions": [
+          "organisation_intentionnelle",
+          "contraste_et_rythme",
+          "explication_des_choix",
+          "autonomie_et_accessibilite",
+          "differenciation_entre_A_et_B"
+        ],
+        "seuil": "A et B: C1–C4 à 2 sur chacune et C5 à 2 sur la paire; non compensable par une note globale"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/BANQUE_ITEMS.json",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_rediges_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

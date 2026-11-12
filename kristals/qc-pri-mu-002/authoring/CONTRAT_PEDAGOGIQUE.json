@@ -1,0 +1,95 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-mu-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Reproduire et créer des motifs avec pulsation et durées.",
+  "concepts": [
+    "pulsation",
+    "motif",
+    "rythme",
+    "mesure simple"
+  ],
+  "preuve_attendue": "Reproduire puis inventer un motif rythmique stable.",
+  "prerequis_bloquants": [
+    "qc-pri-mu-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-mu-002-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Reproduire puis inventer un motif rythmique stable.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Contextes figés A/B; seuls mode de communication, posture, volume bas, tempo confortable et représentation accessibilité sont adaptables, sans changer les motifs modèles ou la grille.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-mu-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "quatre cases 1–4 avec notation originale A/H/R",
+        "écoute du motif présenté par adulte, signal visuel ou tactile neutre",
+        "production discrète vocale, friction douce ou gestuelle temporelle accessible",
+        "justification orale, écrite, pictographique ou assistée"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "motifs": {
+          "A": "A H R A",
+          "B": "R A A H"
+        },
+        "cases_par_mesure": 4,
+        "regles": [
+          "A = attaque ou début observable d’un événement sur 1 battement",
+          "H = tenue sans nouvelle attaque sur le battement suivant, après A ou H",
+          "R = silence sans nouvelle attaque sur 1 battement"
+        ],
+        "production_personnelle": "toutes permutations valides de A A H R; les motifs inventés diffèrent des modèles et entre les épreuves A/B"
+      },
+      "contraintes": [
+        "aucun tirage ni génération libre",
+        "reproduction du modèle deux fois et motif original joué deux fois pour chacune des deux preuves",
+        "quatre pulsations régulières dans une mesure pédagogique et maintien du temps silencieux",
+        "chaque création possède A,H,R et un second A : 2+1+1 pulsations",
+        "H jamais en première case ou après R",
+        "pas de modèle pendant la production indépendante",
+        "aucune mesure de volume, morphologie, voix ou virtuosité",
+        "dispositif sonore discret ou équivalent gestuel préalablement approuvé"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "pulsation stable",
+          "reproduction et chronologie",
+          "durées, tenue et silence",
+          "création différente et répétition",
+          "autonomie et écoute"
+        ],
+        "cotation": "0/1/2 par dimension, sans moyenne compensatoire",
+        "seuil": "2 sur chacune des cinq dimensions et sur les deux preuves; preuve équivalente adaptée examinée humainement"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_complets_evaluations_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

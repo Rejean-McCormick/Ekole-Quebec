@@ -1,0 +1,753 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-012",
+  "family_id": "qc-pri-ma-012-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-012-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Lis les cases et indique (1) le tout, (2) la fraction colorée, (3) le rôle des deux nombres.",
+      "stimulus": "Un rectangle entier est divisé en 4 zones rectangulaires d’aire égale : [■][■][■][□]. Trois zones sont choisies; le carré □ n’est pas choisi.",
+      "reponse_attendue": "Tout : le rectangle complet. 3/4 du tout; 3 zones choisies (numérateur), 4 zones égales dans le tout (dénominateur).",
+      "criteres": [
+        "Le tout complet est nommé",
+        "Les quatre aires égales sont prises en compte",
+        "La fraction 3/4 et les rôles de 3 et 4 sont justifiés"
+      ],
+      "feedback": "Si tu as écrit 4/3, recompte d’abord toutes les zones de même aire, puis celles choisies.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-012-q-002",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Une bande est partagée en 3 segments de même longueur; 1 segment est marqué. Écris la fraction marquée et explique chaque nombre.",
+      "stimulus": "Tout : une bande complète en 3 segments de même longueur; 1 segments portent un trait et les autres non.",
+      "reponse_attendue": "La fraction marquée est 1/3. Numérateur : 1 segment marqué; dénominateur : 3 segments égaux composant toute la bande.",
+      "criteres": [
+        "Écrit a/b dans le bon ordre",
+        "Nomme la bande complète comme tout",
+        "Explique la longueur égale des b segments"
+      ],
+      "feedback": "Ne confonds pas la quantité totale de segments avec les segments marqués : b sous la barre, a au-dessus.",
+      "difficulte": "initial",
+      "seed": 12012,
+      "parametres": {
+        "methode": "catalogue_ordonne_v1",
+        "variables": {
+          "a": "numérateur entier positif",
+          "b": "dénominateur entier positif",
+          "m": "objets par groupe, entier positif",
+          "N": "taille de collection = b*m",
+          "K": "objets choisis = a*m"
+        },
+        "domaines": {
+          "b": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "a": "1 <= a < b",
+          "m": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "a et b sont entiers et 0 < a < b",
+          "m est entier strictement positif",
+          "N = b*m; K = a*m",
+          "Le tout est nommé et les partitions de surface/longueur sont égales",
+          "Ne jamais inventer une nouvelle variante hors du catalogue"
+        ],
+        "algorithme": "Calculer i = seed % len(catalogue) (seed entier >= 0), choisir catalogue[i] sans aléa. En déduire N=b*m, K=a*m. Correction : numérateur a, dénominateur b; la collection contient K sur N, soit Fraction(K,N)=Fraction(a,b). Construire a parties choisies sur b parts égales pour surface/bande; regrouper les N objets en b groupes de m.",
+        "catalogue": [
+          {
+            "a": 1,
+            "b": 3,
+            "m": 2
+          },
+          {
+            "a": 2,
+            "b": 5,
+            "m": 3
+          },
+          {
+            "a": 3,
+            "b": 4,
+            "m": 2
+          }
+        ],
+        "index_selectionne": 0,
+        "instance": {
+          "a": 1,
+          "b": 3,
+          "m": 2,
+          "N": 6,
+          "K": 2
+        },
+        "formule_controle": "Fraction(K,N) == Fraction(a,b) avec K=a*m et N=b*m; vérifier 0<a<b, b>0, m>=1",
+        "validation_exemples": [
+          {
+            "seed": 12012,
+            "index": 0,
+            "a": 1,
+            "b": 3,
+            "m": 2,
+            "N": 6,
+            "K": 2
+          },
+          {
+            "seed": 12013,
+            "index": 1,
+            "a": 2,
+            "b": 5,
+            "m": 3,
+            "N": 15,
+            "K": 6
+          },
+          {
+            "seed": 12014,
+            "index": 2,
+            "a": 3,
+            "b": 4,
+            "m": 2,
+            "N": 8,
+            "K": 6
+          }
+        ],
+        "variabilite_permise": "Changer seulement les nombres à partir de ces trois variantes; bande toujours en segments égaux.",
+        "statut_controle": "calcul exact teste; revue humaine requise"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-012-q-003",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Sur un lot de 9 jetons de même statut, 6 sont choisis. Forme 3 groupes égaux, indique la fraction de groupes choisis et explique pourquoi.",
+      "stimulus": "Tout : 9 jetons; on peut constituer 3 groupes de 3 jetons; 6 jetons sont choisis et peuvent former 2 groupes complets.",
+      "reponse_attendue": "9=3×3 ; 6=2×3. Donc 2 groupes sur 3 groupes sont choisis : 2/3 du lot. Il s’agit aussi de 6/9 des jetons individuels.",
+      "criteres": [
+        "Délimite la collection entière",
+        "Construit exactement b groupes de m objets",
+        "Sélectionne a groupes, soit K objets",
+        "Écrit a/b et en justifie le sens"
+      ],
+      "feedback": "Ne lis pas a comme un nombre d’objets individuels quand chaque part représente un groupe de m objets.",
+      "difficulte": "intermediaire",
+      "seed": 12013,
+      "parametres": {
+        "methode": "catalogue_ordonne_v1",
+        "variables": {
+          "a": "numérateur entier positif",
+          "b": "dénominateur entier positif",
+          "m": "objets par groupe, entier positif",
+          "N": "taille de collection = b*m",
+          "K": "objets choisis = a*m"
+        },
+        "domaines": {
+          "b": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "a": "1 <= a < b",
+          "m": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "a et b sont entiers et 0 < a < b",
+          "m est entier strictement positif",
+          "N = b*m; K = a*m",
+          "Le tout est nommé et les partitions de surface/longueur sont égales",
+          "Ne jamais inventer une nouvelle variante hors du catalogue"
+        ],
+        "algorithme": "Calculer i = seed % len(catalogue) (seed entier >= 0), choisir catalogue[i] sans aléa. En déduire N=b*m, K=a*m. Correction : numérateur a, dénominateur b; la collection contient K sur N, soit Fraction(K,N)=Fraction(a,b). Construire a parties choisies sur b parts égales pour surface/bande; regrouper les N objets en b groupes de m.",
+        "catalogue": [
+          {
+            "a": 1,
+            "b": 4,
+            "m": 3
+          },
+          {
+            "a": 2,
+            "b": 3,
+            "m": 3
+          },
+          {
+            "a": 3,
+            "b": 5,
+            "m": 2
+          }
+        ],
+        "index_selectionne": 1,
+        "instance": {
+          "a": 2,
+          "b": 3,
+          "m": 3,
+          "N": 9,
+          "K": 6
+        },
+        "formule_controle": "Fraction(K,N) == Fraction(a,b) avec K=a*m et N=b*m; vérifier 0<a<b, b>0, m>=1",
+        "validation_exemples": [
+          {
+            "seed": 12013,
+            "index": 1,
+            "a": 2,
+            "b": 3,
+            "m": 3,
+            "N": 9,
+            "K": 6
+          },
+          {
+            "seed": 12014,
+            "index": 2,
+            "a": 3,
+            "b": 5,
+            "m": 2,
+            "N": 10,
+            "K": 6
+          },
+          {
+            "seed": 12015,
+            "index": 0,
+            "a": 1,
+            "b": 4,
+            "m": 3,
+            "N": 12,
+            "K": 3
+          }
+        ],
+        "variabilite_permise": "Changer uniquement l’un des trois lots du catalogue; aucun fractionnement d’objet individuel.",
+        "statut_controle": "calcul exact teste; revue humaine requise"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-012-q-004",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Construis un modèle de surface de 2/5, puis un modèle de bande de la même fraction. Indique le nombre de parts et celles choisies dans chaque cas.",
+      "stimulus": "Deux touts différents : (1) un rectangle vide; (2) une bande vide. Il faut montrer 2/5 de chacun.",
+      "reponse_attendue": "Rectangle : 5 régions de même aire dont 2 choisies. Bande : 5 segments de même longueur dont 2 marqués. Dans les deux cas : fraction 2/5; préciser le tout complet.",
+      "criteres": [
+        "Surface divisée en b aires réellement égales",
+        "Bande divisée en b longueurs réellement égales",
+        "a parts choisies dans chacun des deux modèles",
+        "Explique que les touts changent mais le rapport reste a/b"
+      ],
+      "feedback": "On ne valide pas deux dessins dont les subdivisions sont inégales, même si le compte des régions est bon.",
+      "difficulte": "intermediaire",
+      "seed": 12014,
+      "parametres": {
+        "methode": "catalogue_ordonne_v1",
+        "variables": {
+          "a": "numérateur entier positif",
+          "b": "dénominateur entier positif",
+          "m": "objets par groupe, entier positif",
+          "N": "taille de collection = b*m",
+          "K": "objets choisis = a*m"
+        },
+        "domaines": {
+          "b": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "a": "1 <= a < b",
+          "m": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "a et b sont entiers et 0 < a < b",
+          "m est entier strictement positif",
+          "N = b*m; K = a*m",
+          "Le tout est nommé et les partitions de surface/longueur sont égales",
+          "Ne jamais inventer une nouvelle variante hors du catalogue"
+        ],
+        "algorithme": "Calculer i = seed % len(catalogue) (seed entier >= 0), choisir catalogue[i] sans aléa. En déduire N=b*m, K=a*m. Correction : numérateur a, dénominateur b; la collection contient K sur N, soit Fraction(K,N)=Fraction(a,b). Construire a parties choisies sur b parts égales pour surface/bande; regrouper les N objets en b groupes de m.",
+        "catalogue": [
+          {
+            "a": 1,
+            "b": 2,
+            "m": 2
+          },
+          {
+            "a": 3,
+            "b": 6,
+            "m": 2
+          },
+          {
+            "a": 2,
+            "b": 5,
+            "m": 3
+          }
+        ],
+        "index_selectionne": 2,
+        "instance": {
+          "a": 2,
+          "b": 5,
+          "m": 3,
+          "N": 15,
+          "K": 6
+        },
+        "formule_controle": "Fraction(K,N) == Fraction(a,b) avec K=a*m et N=b*m; vérifier 0<a<b, b>0, m>=1",
+        "validation_exemples": [
+          {
+            "seed": 12014,
+            "index": 2,
+            "a": 2,
+            "b": 5,
+            "m": 3,
+            "N": 15,
+            "K": 6
+          },
+          {
+            "seed": 12015,
+            "index": 0,
+            "a": 1,
+            "b": 2,
+            "m": 2,
+            "N": 4,
+            "K": 2
+          },
+          {
+            "seed": 12016,
+            "index": 1,
+            "a": 3,
+            "b": 6,
+            "m": 2,
+            "N": 12,
+            "K": 6
+          }
+        ],
+        "variabilite_permise": "Seules les trois fractions de la liste sont permises; ne pas imposer de forme particulière aux régions si les aires sont égales.",
+        "statut_controle": "calcul exact teste; revue humaine requise"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-012-q-005",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Complète trois représentations cohérentes de 2/3 : une surface, une bande et une collection de 12 objets. Indique combien choisir dans la collection.",
+      "stimulus": "Les trois touts sont distincts. Surface et bande : à partager chacune en 3 parts égales. Collection : 12 objets, à regrouper en 3 groupes de 4.",
+      "reponse_attendue": "Surface : 2 aires choisies sur 3; bande : 2 segments égaux marqués sur 3; collection : 8 objets choisis sur 12, soit 2 des 3 groupes de 4 objets. Fraction commune 2/3.",
+      "criteres": [
+        "Désigne chacun des trois touts",
+        "Trois supports distincts surface/bande/collection",
+        "Parts de surface/longueur égales",
+        "Choisit exactement K=a*m objets et justifie",
+        "Fraction commune a/b explicitée"
+      ],
+      "feedback": "Le nombre d’objets choisis n’est pas automatiquement égal au numérateur : compte les groupes égaux.",
+      "difficulte": "intermediaire",
+      "seed": 12015,
+      "parametres": {
+        "methode": "catalogue_ordonne_v1",
+        "variables": {
+          "a": "numérateur entier positif",
+          "b": "dénominateur entier positif",
+          "m": "objets par groupe, entier positif",
+          "N": "taille de collection = b*m",
+          "K": "objets choisis = a*m"
+        },
+        "domaines": {
+          "b": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "a": "1 <= a < b",
+          "m": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "a et b sont entiers et 0 < a < b",
+          "m est entier strictement positif",
+          "N = b*m; K = a*m",
+          "Le tout est nommé et les partitions de surface/longueur sont égales",
+          "Ne jamais inventer une nouvelle variante hors du catalogue"
+        ],
+        "algorithme": "Calculer i = seed % len(catalogue) (seed entier >= 0), choisir catalogue[i] sans aléa. En déduire N=b*m, K=a*m. Correction : numérateur a, dénominateur b; la collection contient K sur N, soit Fraction(K,N)=Fraction(a,b). Construire a parties choisies sur b parts égales pour surface/bande; regrouper les N objets en b groupes de m.",
+        "catalogue": [
+          {
+            "a": 2,
+            "b": 3,
+            "m": 4
+          },
+          {
+            "a": 3,
+            "b": 5,
+            "m": 3
+          },
+          {
+            "a": 1,
+            "b": 6,
+            "m": 2
+          }
+        ],
+        "index_selectionne": 0,
+        "instance": {
+          "a": 2,
+          "b": 3,
+          "m": 4,
+          "N": 12,
+          "K": 8
+        },
+        "formule_controle": "Fraction(K,N) == Fraction(a,b) avec K=a*m et N=b*m; vérifier 0<a<b, b>0, m>=1",
+        "validation_exemples": [
+          {
+            "seed": 12015,
+            "index": 0,
+            "a": 2,
+            "b": 3,
+            "m": 4,
+            "N": 12,
+            "K": 8
+          },
+          {
+            "seed": 12016,
+            "index": 1,
+            "a": 3,
+            "b": 5,
+            "m": 3,
+            "N": 15,
+            "K": 9
+          },
+          {
+            "seed": 12017,
+            "index": 2,
+            "a": 1,
+            "b": 6,
+            "m": 2,
+            "N": 12,
+            "K": 2
+          }
+        ],
+        "variabilite_permise": "Variations numériques limitées aux trois instances validées; modèles matériels/textuels équivalents acceptés.",
+        "statut_controle": "calcul exact teste; revue humaine requise"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-012-q-006",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Examine l’affirmation « deux zones coloriées parmi trois régions valent toujours 2/3 ». Vrai ou faux? Corrige le modèle.",
+      "stimulus": "Une affiche rectangulaire est composée de 6 carreaux égaux. On trace trois régions : R1 = 1 carreau (colorié), R2 = 1 carreau (colorié), R3 = 4 carreaux (blanc).",
+      "reponse_attendue": "Faux : régions de surfaces 1, 1 et 4 carreaux, donc inégales; les 2 carreaux coloriés représentent 2/6 de l’aire, soit 1/3. Pour montrer 2/3, faire 3 régions de 2 carreaux chacune puis en colorier 2, soit 4 carreaux.",
+      "criteres": [
+        "Détecte l’inégalité des aires",
+        "N’assimile pas 2 régions à 2/3 sans égalité",
+        "Propose une partition de trois aires égales avec deux choisies"
+      ],
+      "feedback": "Compter le nombre de régions ne suffit pas : compare leur aire sur les six carreaux.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-012-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Écris la fraction des cartes choisies, puis présente cette part au moyen d’une bande en trois longueurs égales. Explique le regroupement.",
+      "stimulus": "Un ensemble complet de 15 cartes identiques contient 10 cartes marquées. Les cartes peuvent être groupées en trois paquets égaux.",
+      "reponse_attendue": "La part directe est 10/15. On forme trois groupes de 5 cartes; deux groupes (10 cartes) sont marqués, donc 2/3 du tout. Bande de trois segments de même longueur dont deux marqués. Tout = 15 cartes.",
+      "criteres": [
+        "Part directe 10/15 ou description adéquate",
+        "Trois groupes égaux de 5 cartes",
+        "Fraction 2/3 avec justification",
+        "Bande avec deux des trois segments égaux marqués"
+      ],
+      "feedback": "Pour une collection, on peut compter des groupes égaux plutôt que lire le nombre de cartes comme le dénominateur de la représentation finale.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-012-q-008",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Deux personnes parlent chacune de « une moitié ». Est-ce le même nombre de jetons? Représente la même fraction par une surface pour les deux cas et justifie.",
+      "stimulus": "Lot A : 4 jetons au total, 2 choisis. Lot B : 10 jetons au total, 5 choisis. Chaque lot est un tout différent.",
+      "reponse_attendue": "Les deux parts sont 1/2 de leur lot : A = 2 sur 4, B = 5 sur 10; le nombre choisi diffère (2 contre 5). Pour chacun, surface partagée en deux aires égales avec une choisie. La fraction exprime une part relative à chaque tout.",
+      "criteres": [
+        "Identifie deux touts différents",
+        "Affirme correctement 1/2 dans les deux cas",
+        "Ne confond pas 2 et 5 objets avec une différence de fraction",
+        "Modèle de surface correct et justification"
+      ],
+      "feedback": "Même fraction ne signifie pas même nombre d’objets : la taille du tout peut changer.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-012-q-009",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "PREUVE DE MAÎTRISE A — Jardin. Le plan d’un jardin partagé constitue un tout : 5 plates-bandes rectangulaires de même aire, dont 2 réservées aux fleurs. Représente la part réservée par (1) une surface, (2) une bande et (3) une collection de 15 étiquettes. Identifie chaque tout, l’égalité des parts et explique pourquoi c’est la même fraction. Sans indice.",
+      "stimulus": "Contexte jardin (surface). Le jardin contient 5 zones de même aire, 2 réservées. Un lot séparé de 15 étiquettes équivalentes est disponible, à organiser en 5 groupes de 3 pour illustrer la même part.",
+      "reponse_attendue": "Fraction commune 2/5. Surface : 2 des 5 aires égales choisies. Bande : 2 des 5 longueurs égales marquées. Collection : 6 étiquettes sélectionnées sur 15 en 2 groupes choisis parmi 5 groupes de 3. Les touts sont explicités; 6/15 = 2/5.",
+      "criteres": [
+        "Autonome : aucun indice de raisonnement",
+        "Tout complet identifié dans les trois supports",
+        "b parts de même aire et b segments de même longueur",
+        "a parts choisies par modèle et écriture a/b",
+        "K=a*m objets choisis sur N=b*m et regroupement justifié",
+        "Trois modèles de types distincts, mêmes a et b"
+      ],
+      "feedback": "Si la part de jardin et la part d’étiquettes ne coïncident pas, réexamine le découpage en groupes égaux et le dénominateur. Un seul échec conceptuel entraîne reprise ciblée.",
+      "difficulte": "transfert",
+      "seed": 12015,
+      "parametres": {
+        "methode": "catalogue_ordonne_v1",
+        "variables": {
+          "a": "numérateur entier positif",
+          "b": "dénominateur entier positif",
+          "m": "objets par groupe, entier positif",
+          "N": "taille de collection = b*m",
+          "K": "objets choisis = a*m"
+        },
+        "domaines": {
+          "b": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "a": "1 <= a < b",
+          "m": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "a et b sont entiers et 0 < a < b",
+          "m est entier strictement positif",
+          "N = b*m; K = a*m",
+          "Le tout est nommé et les partitions de surface/longueur sont égales",
+          "Ne jamais inventer une nouvelle variante hors du catalogue"
+        ],
+        "algorithme": "Calculer i = seed % len(catalogue) (seed entier >= 0), choisir catalogue[i] sans aléa. En déduire N=b*m, K=a*m. Correction : numérateur a, dénominateur b; la collection contient K sur N, soit Fraction(K,N)=Fraction(a,b). Construire a parties choisies sur b parts égales pour surface/bande; regrouper les N objets en b groupes de m.",
+        "catalogue": [
+          {
+            "a": 2,
+            "b": 5,
+            "m": 3
+          },
+          {
+            "a": 1,
+            "b": 4,
+            "m": 3
+          },
+          {
+            "a": 3,
+            "b": 6,
+            "m": 2
+          }
+        ],
+        "index_selectionne": 0,
+        "instance": {
+          "a": 2,
+          "b": 5,
+          "m": 3,
+          "N": 15,
+          "K": 6
+        },
+        "formule_controle": "Fraction(K,N) == Fraction(a,b) avec K=a*m et N=b*m; vérifier 0<a<b, b>0, m>=1",
+        "validation_exemples": [
+          {
+            "seed": 12015,
+            "index": 0,
+            "a": 2,
+            "b": 5,
+            "m": 3,
+            "N": 15,
+            "K": 6
+          },
+          {
+            "seed": 12016,
+            "index": 1,
+            "a": 1,
+            "b": 4,
+            "m": 3,
+            "N": 12,
+            "K": 3
+          },
+          {
+            "seed": 12017,
+            "index": 2,
+            "a": 3,
+            "b": 6,
+            "m": 2,
+            "N": 12,
+            "K": 6
+          }
+        ],
+        "variabilite_permise": "Seulement les jardins du catalogue; contexte stable et sans réalisation d’activité de jardinage.",
+        "statut_controle": "calcul exact teste; revue humaine requise"
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A",
+      "contexte_maitrise": "plan_de_jardin",
+      "autonomie_requise": true,
+      "rubrique_ref": "evaluation/GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-ma-012-q-010",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "PREUVE DE MAÎTRISE B — Matériel. Une boîte entière de 12 jetons contient 8 jetons prêts pour une activité. Fais trois représentations de cette même part : (1) collection en groupes égaux, (2) surface en aires égales et (3) bande en longueurs égales. Donne la fraction, nomme les touts et justifie sans indice.",
+      "stimulus": "Contexte distribution de matériel (collection). Tout : un lot de 12 jetons équivalents, 8 sélectionnés. Les jetons sont réorganisables en 3 groupes de 4 pour contrôler l’égalité.",
+      "reponse_attendue": "12 jetons = 3 groupes de 4; 8 sélectionnés = 2 groupes. Donc fraction 2/3 du lot (et 8/12 si comptés individuellement). Surface : 2 aires égales sur 3; bande : 2 longueurs égales sur 3. Expliquer que les trois touts ne sont pas physiquement identiques, mais que le rapport 2/3 l’est.",
+      "criteres": [
+        "Autonome : aucun indice de raisonnement",
+        "Collection entière et ses b groupes de m identifiés",
+        "K=a*m sélectionnés sur N=b*m et fraction a/b expliquée",
+        "Surface partagée en b aires égales dont a choisies",
+        "Bande en b longueurs égales dont a marquées",
+        "Trois modèles distincts cohérents et unité nommée"
+      ],
+      "feedback": "Une boîte de N jetons n’est pas automatiquement une fraction K/b : construis d’abord b groupes de m. La preuve doit être reprise sur un autre jeu approuvé si aidée.",
+      "difficulte": "transfert",
+      "seed": 12016,
+      "parametres": {
+        "methode": "catalogue_ordonne_v1",
+        "variables": {
+          "a": "numérateur entier positif",
+          "b": "dénominateur entier positif",
+          "m": "objets par groupe, entier positif",
+          "N": "taille de collection = b*m",
+          "K": "objets choisis = a*m"
+        },
+        "domaines": {
+          "b": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "a": "1 <= a < b",
+          "m": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "contraintes": [
+          "a et b sont entiers et 0 < a < b",
+          "m est entier strictement positif",
+          "N = b*m; K = a*m",
+          "Le tout est nommé et les partitions de surface/longueur sont égales",
+          "Ne jamais inventer une nouvelle variante hors du catalogue"
+        ],
+        "algorithme": "Calculer i = seed % len(catalogue) (seed entier >= 0), choisir catalogue[i] sans aléa. En déduire N=b*m, K=a*m. Correction : numérateur a, dénominateur b; la collection contient K sur N, soit Fraction(K,N)=Fraction(a,b). Construire a parties choisies sur b parts égales pour surface/bande; regrouper les N objets en b groupes de m.",
+        "catalogue": [
+          {
+            "a": 3,
+            "b": 4,
+            "m": 3
+          },
+          {
+            "a": 2,
+            "b": 3,
+            "m": 4
+          },
+          {
+            "a": 1,
+            "b": 6,
+            "m": 3
+          }
+        ],
+        "index_selectionne": 1,
+        "instance": {
+          "a": 2,
+          "b": 3,
+          "m": 4,
+          "N": 12,
+          "K": 8
+        },
+        "formule_controle": "Fraction(K,N) == Fraction(a,b) avec K=a*m et N=b*m; vérifier 0<a<b, b>0, m>=1",
+        "validation_exemples": [
+          {
+            "seed": 12016,
+            "index": 1,
+            "a": 2,
+            "b": 3,
+            "m": 4,
+            "N": 12,
+            "K": 8
+          },
+          {
+            "seed": 12017,
+            "index": 2,
+            "a": 1,
+            "b": 6,
+            "m": 3,
+            "N": 18,
+            "K": 3
+          },
+          {
+            "seed": 12018,
+            "index": 0,
+            "a": 3,
+            "b": 4,
+            "m": 3,
+            "N": 12,
+            "K": 9
+          }
+        ],
+        "variabilite_permise": "Lot de matériel parmi les trois variantes approuvées; aucun échange culturel ou personnel requis.",
+        "statut_controle": "calcul exact teste; revue humaine requise"
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B",
+      "contexte_maitrise": "boite_de_materiel",
+      "autonomie_requise": true,
+      "rubrique_ref": "evaluation/GRILLE_MAITRISE.md"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-da-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Improviser un mouvement en respectant une contrainte expressive.",
+  "concepts": [
+    "improvisation",
+    "écoute",
+    "consigne",
+    "adaptation"
+  ],
+  "preuve_attendue": "Réaliser une improvisation où la contrainte est perceptible.",
+  "prerequis_bloquants": [
+    "qc-pri-da-001"
+  ],
+  "ordre_conseille": [
+    "qc-pri-da-002"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-da-005-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Réaliser une improvisation où la contrainte est perceptible.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "type_effectif": "fixe_controle_sans_seed_et_sans_tirage; le champ natif seed_reproductible du blueprint est conservé, mais la banque n’emploie aucun tirage"
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-da-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "improvisation corporelle volontaire observée",
+        "carte de contrainte visuelle, orale ou écrite",
+        "compte rendu descriptif des indices",
+        "justification orale, gestuelle ou communication assistée"
+      ],
+      "variables": {
+        "mode": "fixe_controle",
+        "scenarios_fixes": [
+          "traces_du_vent",
+          "horloge_imaginaire"
+        ],
+        "aleatoire": false,
+        "variantes_accessibles": [
+          "posture",
+          "amplitude",
+          "zone corporelle",
+          "modalite du signal",
+          "temps de preparation"
+        ]
+      },
+      "contraintes": [
+        "aucune génération de consigne ou de corrigé par IA libre",
+        "contrainte expressive précise, annoncée avant la prestation",
+        "le corps produit un mouvement volontaire observable",
+        "au moins trois occurrences perceptibles de la contrainte pour les deux preuves finales",
+        "aucune imitation simultanée",
+        "adaptations de sécurité non directives",
+        "aucun critère esthétique ou morphologique",
+        "deux contextes distincts et autonomes"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "niveaux": "0 = absent; 1 = partiel; 2 = suffisant",
+        "dimensions": [
+          "contrainte perceptible",
+          "choix improvisés",
+          "écoute et ajustement",
+          "sécurité",
+          "autonomie et communication"
+        ],
+        "decision": "noyau essentiel démontré sur chacune des deux preuves, sans compensation par une note globale"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

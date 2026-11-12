@@ -1,0 +1,86 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Déduire une information implicite en reliant indices du texte et connaissances pertinentes.",
+  "concepts": [
+    "indices",
+    "inférence",
+    "justification"
+  ],
+  "preuve_attendue": "Formuler deux inférences différentes appuyées chacune sur un indice.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-005"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-006-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Formuler deux inférences différentes appuyées chacune sur un indice.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "corpus verrouillé de dix microtextes originaux; formulations équivalentes évaluées à la grille, substitutions d’énoncé non permises sans revue",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-fr-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Formuler deux inférences différentes appuyées chacune sur un indice.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "microtexte narratif",
+        "microtexte fonctionnel",
+        "citation exacte + inférence + justification orale/écrite"
+      ],
+      "variables": {
+        "mode": "corpus_fixe_verrouille",
+        "sources": "evaluation/BANQUE_ITEMS.json",
+        "inferences_par_preuve": 2,
+        "preuves_autonomes": [
+          "qc-pri-fr-006-q-009",
+          "qc-pri-fr-006-q-010"
+        ],
+        "substitution_libre_interdite": true
+      },
+      "contraintes": [
+        "conserver identité v1.2 et préalable qc-pri-fr-005",
+        "questions à partir des seuls textes originaux de l’item",
+        "chacune des deux inférences a son indice distinct",
+        "admettre variantes compatibles mais refuser hypothèses non étayées",
+        "ne pas confondre compréhension littérale, décodage et inférence",
+        "aucun corrigé généré librement par IA",
+        "ne pas dévoiler indices en épreuve autonome"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "deux_inferences_valides_et_distinctes",
+          "indices_exacts_et_distincts",
+          "lien_inferentiel",
+          "autonomie_et_stabilite"
+        ],
+        "decision": "preuves q-009 ET q-010 satisfaisantes sur toutes les dimensions; score unique insuffisant"
+      },
+      "source": [
+        "archive maître v1.2: gouvernance + authoring natif",
+        "sources/REFERENCES_CONTENU.md",
+        "contenus originaux rédigés pour qc-pri-fr-006"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

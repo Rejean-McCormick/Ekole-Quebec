@@ -1,0 +1,95 @@
+{
+  "format": "ekole.kristal-experience/2.0-proposition",
+  "kristal_id": "qc-pri-st-001",
+  "statut": "prototype_revue_pedagogique_requise",
+  "alias_enfant": "Observer avant d’expliquer",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Observer un phénomène et poser une question investigable et précise.",
+    "preuve_attendue": "Décrire un phénomène puis transformer une curiosité en question testable.",
+    "concepts": [
+      "observation",
+      "description",
+      "variable",
+      "question"
+    ],
+    "modules": [
+      "contenu/01_NOTIONS_ET_EXEMPLES.md",
+      "contenu/03_ENSEIGNEMENT_GUIDE.md",
+      "contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+      "contenu/05_PRATIQUE_AUTONOME.md",
+      "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    ]
+  },
+  "modalite_evaluation": "enquete_scientifique",
+  "progression_enfant": {
+    "decouvrir": {
+      "titre_enfant": "Je vois ou je suppose ?",
+      "consigne_enfant": "À partir de deux traces sur une fiche fictive, distingue ce qui est dessiné ou mesuré de ce que tu en déduis.",
+      "statut_validation": "Vérifier la lecture de la fiche",
+      "source_pedagogique": "contenu/03_ENSEIGNEMENT_GUIDE.md"
+    },
+    "essayer": {
+      "titre_enfant": "Trie les affirmations",
+      "consigne_enfant": "Range de courtes phrases dans « information observable » ou « interprétation ». Il peut rester plusieurs questions à explorer.",
+      "statut_validation": "Classement fermé partiel; capacité à formuler une enquête non certifiée",
+      "source_pedagogique": "contenu/03_ENSEIGNEMENT_GUIDE.md"
+    },
+    "expliquer": {
+      "titre_enfant": "Quelle question pourrais-tu tester ?",
+      "consigne_enfant": "Formule une question qui compare un facteur et une trace observable, en gardant des conditions comparables.",
+      "statut_validation": "Nécessite une revue humaine",
+      "source_pedagogique": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    },
+    "explorer": {
+      "titre_enfant": "Une nouvelle investigation",
+      "consigne_enfant": "Imagine une carte d’observation fictive ou un test simple et sûr, sans présenter la simulation comme une expérience réellement menée.",
+      "statut_validation": "Raisonnement scientifique ouvert",
+      "source_pedagogique": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    }
+  },
+  "outils_interactifs": [
+    {
+      "id": "science-observer-interpreter",
+      "statut": "entrainement_candidat_non_certifie",
+      "usage": "pratique_non_notée"
+    }
+  ],
+  "preuves_de_maitrise": {
+    "source": "evaluation/BANQUE_ITEMS.json",
+    "remplacee_par_atelier": false,
+    "decision": "revue_humaine_requise",
+    "commentaire": "Les mini-environnements ne remplacent pas les preuves source."
+  },
+  "difficultes_a_observer": [
+    "Présente une cause supposée comme un fait observé",
+    "Pose une question qui ne peut pas être testée",
+    "N’identifie pas le facteur comparé ni la trace à relever"
+  ],
+  "consignes_enseignant": [
+    "Faire distinguer observation, interprétation et question avant de parler de causalité.",
+    "Demander quel facteur pourrait varier et quelle trace serait mesurée.",
+    "Vérifier sécurité et reproductibilité avant toute manipulation réelle."
+  ],
+  "erreurs_et_relances": [
+    {
+      "observation": "Cause inférée",
+      "relance": "Réécrire « sur la fiche je lis… » avant « je suppose… »"
+    },
+    {
+      "observation": "Question vague",
+      "relance": "Nommer explicitement le facteur et la trace mesurable"
+    },
+    {
+      "observation": "Comparaison injuste",
+      "relance": "Faire choisir ce qui doit rester identique entre deux situations"
+    }
+  ],
+  "limitations": [
+    "Toute donnée simulée doit être explicitement étiquetée comme telle.",
+    "Ne pas prétendre valider automatiquement la qualité d’une question investigable."
+  ],
+  "politique_visuelle": "Description de concept seulement; aucun style imposé; un fichier absent affiche son prompt.",
+  "provenance": "Projet de refonte fondé sur les modules source du Kristal; pas une approbation institutionnelle."
+}

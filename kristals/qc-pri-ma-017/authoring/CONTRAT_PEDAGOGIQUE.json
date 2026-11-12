@@ -1,0 +1,86 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-017",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Relier pourcentage, fraction de cent et situations proportionnelles simples.",
+  "concepts": [
+    "part sur cent",
+    "ratio",
+    "tableau de proportion"
+  ],
+  "preuve_attendue": "Déterminer une quantité correspondant à un pourcentage simple et la vérifier.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-013",
+    "qc-pri-ma-015"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-017-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Déterminer une quantité correspondant à un pourcentage simple et la vérifier.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme_selection": "seed % nombre de paires, ordre publié par item; aucune génération libre",
+        "algorithme_correction": "q = (p × N)/100 en fraction exacte; vérification q/N=p/100 quand N>0",
+        "tests_parametres": "énumération exhaustive des variantes listées par item et vérification des produits croisés"
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ma-017",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "grille de 100 cases",
+        "barre fractionnée et regroupements",
+        "tableau de proportion",
+        "fraction de cent et calcul rationnel exact"
+      ],
+      "variables": {
+        "p": "taux en points de pourcentage, p ∈ {10,20,25,50,75} selon l’item",
+        "N": "nombre entier positif d’unités de la base (corpus fermé propre à chaque item)",
+        "q": "quantité calculée exactement : q = (p × N)/100",
+        "selection": "couple = domaines_paires[seed % len(domaines_paires)] pour chaque item q-004 à q-010, ordre des paires immuable",
+        "domaines": "définis intégralement dans chaque item BANQUE_ITEMS.json; aucune variation libre ou appel IA"
+      },
+      "contraintes": [
+        "100 % correspond exactement à N unités dans la même situation",
+        "p et N sont tirés ensemble dans un corpus fini par item",
+        "N > 0 pour vérifier par q/N",
+        "p × N divisible par 100 pour une quantité entière",
+        "maintenir un résultat 0 ≤ q ≤ N et une unité explicite",
+        "corrigé par Fraction(p*N,100), contrôle par 100*q==p*N et complément N-q",
+        "seeds et liste ordonnée conservés à chaque nouvelle passation",
+        "la preuve de maîtrise exige deux tâches sans indice, contextes différents et vérifications explicites"
+      ],
+      "barreme_ou_rubrique": {
+        "axes": [
+          "choix de la bonne base et unité",
+          "conversion p/100 et raisonnement proportionnel",
+          "résultat numérique exact",
+          "vérification indépendante cohérente"
+        ],
+        "niveaux": "0 absent/incorrect; 1 partiel ou avec aide; 2 juste autonome et explicable; 3 juste, autonome et doublement représenté",
+        "decision": "deux preuves q-009 et q-010 distinctes, chacune tous les 4 axes au moins niveau 2, sans indice; aucune moyenne compensatoire",
+        "grille_ref": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": "matériel et situations originales pour qc-pri-ma-017, source canonique du frame v1.2; vérification arithmétique exacte par Fraction et égalité entière; sources/REFERENCES_CONTENU.md",
+      "seed": 17017,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

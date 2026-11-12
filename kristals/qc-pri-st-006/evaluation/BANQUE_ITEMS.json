@@ -1,0 +1,303 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-006",
+  "family_id": "qc-pri-st-006-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-006-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Distingue observation et interprétation puis nomme le changement décrit.",
+      "stimulus": "Fiche fictive : à 8 h, de la glace solide; à 9 h, une petite quantité d’eau liquide au même endroit dans la soucoupe; aucun ajout signalé.",
+      "reponse_attendue": "Observation : eau initialement solide, puis eau liquide. Interprétation : la glace a subi une fusion (solide → liquide). Il n’est pas démontré que l’eau a disparu ou changé de substance.",
+      "criteres": [
+        "Deux états successifs identifiés exactement.",
+        "Le mot « fusion » est associé à solide → liquide.",
+        "Faits de la fiche séparés de l’explication."
+      ],
+      "feedback": "Si « disparu » est écrit, faire relever l’eau liquide encore présente; si « dissolution », demander quel autre matériau aurait été mélangé.",
+      "difficulte": "initial",
+      "representation": "fiche temporelle + court texte ou dictée; trace avant-après et justification conservées par écrit, dessin annoté ou dictée au choix",
+      "variations_permises": "Support oral, tableau avant/après ou pictogrammes; aucune modification des états mentionnés.",
+      "contraintes": [
+        "Conserver intégralement les données observées et leurs contrôles; ne pas en inventer.",
+        "Une conclusion doit distinguer observation et inférence.",
+        "Évaluation sur raisonnement, pas motricité ni lecture rapide.",
+        "Aucune manipulation risquée, chauffage ou ingestion."
+      ],
+      "generation": "corpus_fixe_ferme_sans_alea",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-006-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique si la baisse de liquide est une observation ou une preuve certaine d’évaporation. Propose une autre cause possible.",
+      "stimulus": "Fiche fictive : le niveau d’eau d’un récipient ouvert est plus bas le lendemain; aucune information supplémentaire n’est donnée.",
+      "reponse_attendue": "Constat : le niveau a baissé. Évaporation seulement possible, non prouvée; fuite, renversement ou absorption sont d’autres hypothèses à examiner. L’eau gazeuse n’a pas été directement vue.",
+      "criteres": [
+        "La baisse de niveau est relevée sans inventer une mesure.",
+        "Évaporation identifiée comme hypothèse et non certitude.",
+        "Au moins une autre explication est proposée."
+      ],
+      "feedback": "Demander : qu’a-t-on réellement vu? Quelle observation supplémentaire écarterait un renversement ou une fuite?",
+      "difficulte": "initial",
+      "representation": "observation incomplète + inférence prudente; trace avant-après et justification conservées par écrit, dessin annoté ou dictée au choix",
+      "variations_permises": "Une hypothèse alternative parmi fuite, renversement ou absorption est suffisante; scénario constant.",
+      "contraintes": [
+        "Conserver intégralement les données observées et leurs contrôles; ne pas en inventer.",
+        "Une conclusion doit distinguer observation et inférence.",
+        "Évaluation sur raisonnement, pas motricité ni lecture rapide.",
+        "Aucune manipulation risquée, chauffage ou ingestion."
+      ],
+      "generation": "corpus_fixe_ferme_sans_alea",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-006-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Nomme le phénomène et explique comment revenir à deux groupes en utilisant les données de la fiche.",
+      "stimulus": "Fiche fictive : de grandes formes rouges et jaunes en carton, intactes, sont regroupées puis brassées. Elles restent solides et visibles.",
+      "reponse_attendue": "Mélange hétérogène de solides; pas de fusion. Séparation par tri manuel possible dans ces conditions (formes distinctes et intactes).",
+      "criteres": [
+        "Mélange reconnu comme rapprochement de deux matériaux.",
+        "Absence de changement d’état justifiée par les solides visibles.",
+        "Tri nommé comme opération de retour applicable ici."
+      ],
+      "feedback": "Si « fusion », demander quelle preuve de passage au liquide existe. Si « impossible de séparer », demander si les couleurs restent reconnaissables.",
+      "difficulte": "initial",
+      "representation": "fiche descriptive + justification et méthode; trace avant-après et justification conservées par écrit, dessin annoté ou dictée au choix",
+      "variations_permises": "Formes colorées remplacées par symboles tactiles distincts sur support; données de visibilité inchangées.",
+      "contraintes": [
+        "Conserver intégralement les données observées et leurs contrôles; ne pas en inventer.",
+        "Une conclusion doit distinguer observation et inférence.",
+        "Évaluation sur raisonnement, pas motricité ni lecture rapide.",
+        "Aucune manipulation risquée, chauffage ou ingestion."
+      ],
+      "generation": "corpus_fixe_ferme_sans_alea",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-006-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare fusion et évaporation par leur état initial/final, sans prétendre observer un gaz invisible.",
+      "stimulus": "Deux modèles conceptuels sont donnés : A eau solide → eau liquide; B eau liquide → vapeur d’eau (gaz), représentation et non photographie.",
+      "reponse_attendue": "A = fusion solide → liquide; B = évaporation liquide → gaz. Point commun : transformations physiques de l’eau; différence : état de départ et d’arrivée. Le passage vers le gaz est représenté par un modèle et pas observé directement ici.",
+      "criteres": [
+        "Changements d’état identifiés.",
+        "Au moins un point commun et une différence exacts.",
+        "Modèle B correctement distingué d’une observation de gaz."
+      ],
+      "feedback": "Ne pas dire « vapeur blanche visible ». Le schéma est un modèle; aucune photo de vapeur d’eau gazeuse n’est présentée.",
+      "difficulte": "intermediaire",
+      "representation": "deux flèches schématiques + argument; trace avant-après et justification conservées par écrit, dessin annoté ou dictée au choix",
+      "variations_permises": "Schéma agrandi ou étiquettes textuelles, interprétation fixe.",
+      "contraintes": [
+        "Conserver intégralement les données observées et leurs contrôles; ne pas en inventer.",
+        "Une conclusion doit distinguer observation et inférence.",
+        "Évaluation sur raisonnement, pas motricité ni lecture rapide.",
+        "Aucune manipulation risquée, chauffage ou ingestion."
+      ],
+      "generation": "corpus_fixe_ferme_sans_alea",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-006-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Décris la transformation sans dire que le sucre fond ou disparaît. Indique si le sucre peut être trié à la main comme de gros objets.",
+      "stimulus": "Fiche fictive : avant, cristaux de sucre visibles et eau liquide; après agitation, liquide transparent d’apparence uniforme et cristaux non distinguables à l’œil nu.",
+      "reponse_attendue": "Le sucre s’est dissous dans l’eau : mélange d’apparence homogène. On n’observe pas du sucre liquide : ce n’est pas une preuve de fusion. Les cristaux ne peuvent pas être retirés par un simple tri manuel visible.",
+      "criteres": [
+        "Dissolution et mélange identifiés.",
+        "Absence de visibilité ≠ disparition expliquée.",
+        "Inadéquation du tri manuel justifiée."
+      ],
+      "feedback": "Comparer avec un mélange de grands morceaux de carton : le sucre est encore présent dans la solution, même s’il est invisible à l’œil nu.",
+      "difficulte": "intermediaire",
+      "representation": "fiche de dissolution + conclusion argumentée; trace avant-après et justification conservées par écrit, dessin annoté ou dictée au choix",
+      "variations_permises": "Réponse orale ou écrite; aucune consommation ni dissolution réelle demandée.",
+      "contraintes": [
+        "Conserver intégralement les données observées et leurs contrôles; ne pas en inventer.",
+        "Une conclusion doit distinguer observation et inférence.",
+        "Évaluation sur raisonnement, pas motricité ni lecture rapide.",
+        "Aucune manipulation risquée, chauffage ou ingestion."
+      ],
+      "generation": "corpus_fixe_ferme_sans_alea",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-006-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris ce que la fiche prouve, puis nomme les conditions nécessaires pour le retour proposé.",
+      "stimulus": "Fiche fictive : un glaçon a fondu en eau liquide. Un ami propose « le même récipient retrouvera une glace » mais aucune étape de refroidissement n’est donnée.",
+      "reponse_attendue": "Fusion observée; solidification possible si refroidissement suffisant. Le retour n’est pas démontré par la fiche et ne peut être annoncé comme déjà arrivé.",
+      "criteres": [
+        "Fusion reconnue à partir des états.",
+        "Condition de refroidissement spécifiée pour la solidification.",
+        "Possibilité distincte de preuve d’un retour effectif."
+      ],
+      "feedback": "« Réversible » ne veut pas dire « retour déjà réalisé ». Distinguer l’opération proposée et la trace fournie.",
+      "difficulte": "intermediaire",
+      "representation": "hypothèse de retour + justification; trace avant-après et justification conservées par écrit, dessin annoté ou dictée au choix",
+      "variations_permises": "Accepter « congeler » ou « refroidir suffisamment »; aucun degré de température imposé.",
+      "contraintes": [
+        "Conserver intégralement les données observées et leurs contrôles; ne pas en inventer.",
+        "Une conclusion doit distinguer observation et inférence.",
+        "Évaluation sur raisonnement, pas motricité ni lecture rapide.",
+        "Aucune manipulation risquée, chauffage ou ingestion."
+      ],
+      "generation": "corpus_fixe_ferme_sans_alea",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-006-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare deux phénomènes en citant une trace pour chacun et une différence de mode de séparation.",
+      "stimulus": "Fiches fictives. C : formes en carton distinctes mélangées et toujours visibles. D : cristaux de sucre ajoutés à l’eau, puis non visibles dans une solution liquide d’apparence uniforme.",
+      "reponse_attendue": "Les deux sont des mélanges; dans C, les constituants visibles se trient; dans D, le sucre s’est dissous et n’est pas récupérable par simple tri manuel. Aucune fiche ne montre un changement d’état d’une substance pure.",
+      "criteres": [
+        "Une observation exacte citée pour C et pour D.",
+        "Deux mélanges identifiés sans fausse fusion.",
+        "Différence de visibilité et de tri argumentée."
+      ],
+      "feedback": "Si « D est une fusion », demander où serait l’état liquide du sucre pur, non montré par la fiche.",
+      "difficulte": "intermediaire",
+      "representation": "double fiche + tableau comparatif; trace avant-après et justification conservées par écrit, dessin annoté ou dictée au choix",
+      "variations_permises": "Ne changer ni constituants ni résultats; accepter justification dictée ou annotée.",
+      "contraintes": [
+        "Conserver intégralement les données observées et leurs contrôles; ne pas en inventer.",
+        "Une conclusion doit distinguer observation et inférence.",
+        "Évaluation sur raisonnement, pas motricité ni lecture rapide.",
+        "Aucune manipulation risquée, chauffage ou ingestion."
+      ],
+      "generation": "corpus_fixe_ferme_sans_alea",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-006-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-006-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir de deux fiches, explique pourquoi une conclusion est plus solidement étayée que l’autre, et propose un contrôle sans danger.",
+      "stimulus": "Fiches fictives. A : niveau d’eau diminué, sans autre donnée. B : niveau d’eau diminué, plateau non absorbant, absence de fuite, d’essuyage et de renversement vérifiée selon la fiche.",
+      "reponse_attendue": "B soutient davantage l’hypothèse d’évaporation car plusieurs causes concurrentes sont écartées. A ne suffit pas à conclure. Contrôle possible : protéger le récipient d’un renversement, observer des repères de niveau, vérifier l’étanchéité. La vapeur d’eau demeure invisible.",
+      "criteres": [
+        "Différence entre les contrôles de A et B citée exactement.",
+        "Conclusion sur B prudente et non fondée sur l’apparition d’un gaz vu.",
+        "Un contrôle concret et sûr proposé."
+      ],
+      "feedback": "Dire « plus probable/compatible » dans B, pas « j’ai vu la vapeur ». Dans A, aucune donnée ne supprime les autres hypothèses.",
+      "difficulte": "transfert",
+      "representation": "deux descriptions + proposition de contrôle; trace avant-après et justification conservées par écrit, dessin annoté ou dictée au choix",
+      "variations_permises": "Contrôle proposé sur papier uniquement; aucun matériel ni essai physique requis.",
+      "contraintes": [
+        "Conserver intégralement les données observées et leurs contrôles; ne pas en inventer.",
+        "Une conclusion doit distinguer observation et inférence.",
+        "Évaluation sur raisonnement, pas motricité ni lecture rapide.",
+        "Aucune manipulation risquée, chauffage ou ingestion."
+      ],
+      "generation": "corpus_fixe_ferme_sans_alea",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-006-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "ÉPREUVE AUTONOME A — Dossier « Patinoire et cour » : compare les deux transformations, consigne pour chacune avant/après et indices, nomme les phénomènes, puis explique une différence, un point commun et un retour possible avec sa condition et sa limite.",
+      "stimulus": "Toutes les données sont fictives. P : 8 h, eau gelée sous forme solide dans une coupelle; 10 h, eau liquide, même coupelle, aucun ajout signalé. Q : 8 h, petite flaque d’eau sur dalle imperméable; lendemain, flaque plus petite; aucun essuyage, renversement ou fuite signalé. Aucun gaz visible ni récupération ultérieure documentés.",
+      "reponse_attendue": "Preuve A attendue : P, solide → liquide, fusion. Q, surface d’eau liquide réduite, compatible avec évaporation (liquide → vapeur non vue) compte tenu des contrôles. Point commun : phénomènes physiques touchant l’eau; différence : P changement solide→liquide, Q liquide→gaz inféré. P peut regeler après refroidissement suffisant (non fait); pour Q, récupération demanderait captage/condensation, non attestés. Tableau deux lignes avant/après + conclusion autonome.",
+      "criteres": [
+        "M1 Deux phénomènes correctement classés sans inventer de gaz observé.",
+        "M2 Deux traces avant/après tirées des données exactes sont consignées.",
+        "M3 Constat et interprétation sont distingués et la conclusion pour Q est conditionnelle.",
+        "M4 Point commun, différence et condition/limite de retour pertinents sont explicités.",
+        "M5 Production autonome sans indices directifs, sur tableau ou modalité accessible."
+      ],
+      "feedback": "Si Q est une certitude absolue, demander au prochain apprentissage de formuler « compatible avec » et d’identifier les contrôles; si P « disparu », revoir la distinction substance/état. Une réépreuve sur nouvelles fiches est nécessaire après remédiation.",
+      "difficulte": "transfert",
+      "representation": "dossier environnement fictif + tableau et comparaison argumentée; trace avant-après et justification conservées par écrit, dessin annoté ou dictée au choix",
+      "variations_permises": "Seuls format, taille des caractères, lecture et modalité de consignation varient; ni données, ni conditions ni corrigé ne changent.",
+      "contraintes": [
+        "Conserver intégralement les données observées et leurs contrôles; ne pas en inventer.",
+        "Une conclusion doit distinguer observation et inférence.",
+        "Évaluation sur raisonnement, pas motricité ni lecture rapide.",
+        "Aucune manipulation risquée, chauffage ou ingestion."
+      ],
+      "generation": "corpus_fixe_ferme_sans_alea",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "manifestation_maitrise": "A: phénomènes de l’eau (fusion/évaporation), distincte de B."
+    },
+    {
+      "item_id": "qc-pri-st-006-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "ÉPREUVE AUTONOME B — Dossier « Atelier d’affiches » : compare les deux transformations décrites, rédige ou dicte leurs traces avant/après, explique ce qui change, puis précise quel retour est possible par tri et quel retour ne peut pas être prouvé par les données.",
+      "stimulus": "Toutes les données sont fictives. R : grandes bandes de papier vert et jaune d’abord en piles séparées puis mélangées, toutes intactes et reconnaissables. S : cristaux de sucre visibles versés dans de l’eau liquide, puis solution liquide uniforme à l’œil nu après agitation; les cristaux ne sont plus visibles; aucune séparation n’a été effectuée.",
+      "reponse_attendue": "Preuve B attendue : R, mélange hétérogène de solides visibles, tri par couleur possible; S, sucre dissous dans l’eau, mélange uniforme à l’œil nu, pas fusion ni disparition. Point commun : deux mélanges de matières; différence : composants visibles et triables dans R, non distinguables et pas triables directement dans S. Retour R par tri si intact; aucune récupération du sucre n’est montrée et un simple tri n’y suffit pas. Tableau avec deux lignes et comparaison autonome.",
+      "criteres": [
+        "M1 Les deux mélanges sont classés sans les confondre avec fusion.",
+        "M2 Deux traces avant/après factuelles sont consignées.",
+        "M3 « Cristaux non visibles » reste un constat; « dissolution » est l’explication, pas une disparition prouvée.",
+        "M4 Point commun, différence et séparation possible/limite de récupération sont explicités.",
+        "M5 Production autonome sans indices directifs, sur tableau ou modalité accessible."
+      ],
+      "feedback": "Si S est décrit comme sucre fondu, reprendre la distinction mélange/dissolution et fusion; si les deux séparations sont identifiées comme des tris, demander ce que l’œil distingue réellement. Nouvelle preuve nécessaire après remédiation.",
+      "difficulte": "transfert",
+      "representation": "dossier d’atelier fictif + tableau et comparaison argumentée; trace avant-après et justification conservées par écrit, dessin annoté ou dictée au choix",
+      "variations_permises": "Lecture orale, dictée et pictogrammes accessibles, mais aucune substitution libre des matériaux ou des observations sans revue.",
+      "contraintes": [
+        "Conserver intégralement les données observées et leurs contrôles; ne pas en inventer.",
+        "Une conclusion doit distinguer observation et inférence.",
+        "Évaluation sur raisonnement, pas motricité ni lecture rapide.",
+        "Aucune manipulation risquée, chauffage ou ingestion."
+      ],
+      "generation": "corpus_fixe_ferme_sans_alea",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "manifestation_maitrise": "B: mélanges et modes de séparation, distincte de A."
+    }
+  ]
+}

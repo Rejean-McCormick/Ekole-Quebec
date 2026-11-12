@@ -1,0 +1,27 @@
+{
+  "format": "ekole.activities-preview/1",
+  "statut": "propositions_non_validees",
+  "avertissement": "Activités pilotes rédigées pour tester l'interface, non approuvées par une équipe pédagogique. Aucun résultat n'est enregistré.",
+  "activites": [
+    {
+      "cours_id": "qc-pri-ma-008", "titre": "Je construis des groupes égaux", "type": "groupes-egaux",
+      "consigne": "Choisis un nombre de groupes et un nombre de jetons par groupe. Observe, compte, puis explique la multiplication."
+    },
+    {
+      "cours_id": "qc-pri-fr-006", "titre": "Je repère les indices d'un texte", "type": "question-choix",
+      "texte": "À la récréation, Émile remet ses mitaines et ferme son manteau avant de sortir. Il souffle un petit nuage blanc.",
+      "question": "Que peut-on raisonnablement déduire du texte?",
+      "choix": ["Il fait probablement froid dehors.", "Émile se rend à la piscine.", "Émile a perdu son manteau."],
+      "reponse": 0,
+      "retroaction": "Les mitaines, le manteau fermé et le souffle visible sont des indices du texte. Il faut les relier à ce que l'on sait du froid."
+    },
+    {
+      "cours_id": "qc-pri-st-008", "titre": "Je décris une transformation d'énergie", "type": "question-choix",
+      "texte": "On allume une petite lampe de poche alimentée par des piles. La lumière apparaît.",
+      "question": "Quelle transformation d'énergie est la plus directement observable ici?",
+      "choix": ["L'énergie chimique de la pile rend possible une émission de lumière.", "La lampe crée de l'énergie à partir de rien.", "La lumière se transforme uniquement en eau."],
+      "reponse": 0,
+      "retroaction": "La pile est une réserve d'énergie chimique qui permet la circulation électrique; la lampe émet ensuite de la lumière et de la chaleur."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Repérer des informations explicites et les restituer fidèlement après lecture ou écoute.",
+  "concepts": [
+    "personnage",
+    "lieu",
+    "temps",
+    "faits explicites"
+  ],
+  "preuve_attendue": "Répondre à des questions littérales en citant un indice présent dans le texte.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-fr-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-005-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Répondre à des questions littérales en citant un indice présent dans le texte.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-fr-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Répondre à des questions littérales en citant un indice présent dans le texte.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "recit_court_ecrit_ou_lu",
+        "avis_fonctionnel_ecrit_ou_lu",
+        "consigne_descriptive_ecrite_ou_lue"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Stimuli fixes originaux; réponses et indices explicitement présents dans chaque stimulus.",
+        "Deux manifestations A (récit) et B (avis) sans feedback intermédiaire; quatre questions chacune.",
+        "Pas de génération libre de nouveaux textes ni de nouveaux corrigés; variantes de modalité contrôlées uniquement.",
+        "La relecture neutre est permise; toute aide pointant vers les mots de la réponse invalide la preuve autonome."
+      ],
+      "barreme_ou_rubrique": {
+        "par_item": {
+          "exactitude_fidele": 1,
+          "indice_textuel_probant": 1
+        },
+        "autonomie": "Condition distincte obligatoire pour chaque contexte, non compensable par des points.",
+        "maitrise": "Deux contextes différents : A 4/4 réponses avec 4/4 indices ET B 4/4 réponses avec 4/4 indices, sans guidage de localisation."
+      },
+      "source": "Textes et tâches originaux rédigés pour qc-pri-fr-005; voir sources/REFERENCES_CONTENU.md.",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_a_revoir_humainement",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

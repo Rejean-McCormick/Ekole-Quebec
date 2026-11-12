@@ -1,0 +1,75 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Extraire le sens d’un court texte écrit anglais adapté.",
+  "concepts": [
+    "mots fréquents",
+    "indices visuels",
+    "sens global"
+  ],
+  "preuve_attendue": "Associer des phrases à des informations et repérer un détail précis.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-als-002"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-007-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Associer des phrases à des informations et repérer un détail précis.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_instrumentes_a_revoir",
+      "kristal_id": "qc-pri-als-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Associer des phrases à des informations et repérer un détail précis.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "courts textes anglais écrits",
+        "annonces structurées avec titres textuels",
+        "tableaux de correspondance avec preuve écrite"
+      ],
+      "variables": {
+        "mode": "corpus_fixe_controle",
+        "banque": "evaluation/BANQUE_ITEMS.json",
+        "substitutions_autorisees": "aucune sans revue des stimuli, corrections et difficulté"
+      },
+      "contraintes": [
+        "textes anglais originaux de longueur et syntaxe adaptées",
+        "réponses déterminées par le texte imprimé",
+        "aucun visuel ou connaissance externe nécessaire",
+        "consignes françaises permises; pas de lecture orale du texte évalué en preuve ordinaire",
+        "correction humaine exigée avant qualification",
+        "deux contextes autonomes distincts"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "preuve_par_contexte": "au moins 2/3 associations correctes + 1 détail exact justifié par un fragment du texte + compréhension globale cohérente",
+        "decision": "deux preuves contextuelles indépendantes réussies; ne pas inférer la maîtrise d’une note unique"
+      },
+      "source": [
+        "governance/Norme_Pedagogique_Autonome_v1.2/CONTRAT_PEDAGOGIQUE_V1.2.md",
+        "authoring/PARCOURS.md",
+        "production_originale_als007_v1.2"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

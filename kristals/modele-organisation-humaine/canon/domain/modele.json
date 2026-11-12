@@ -1,0 +1,161 @@
+{
+  "format": "kristal.modele-organisation-humaine/1.0",
+  "statut": "proposition_a_reviser",
+  "philosophie": "Décrire des sociétés sans imposer gouvernance unique, organisation patriarcale, propriété privée ou hiérarchie. L’analogie système d’exploitation est un outil de compréhension, non une équivalence entre humains et logiciel.",
+  "primitives": {
+    "Societe": {
+      "champs": [
+        "id",
+        "noms_contextuels",
+        "territoire_contextuel",
+        "periode",
+        "acteurs",
+        "institutions",
+        "couches_temporelles",
+        "sources"
+      ],
+      "proprietes": "Une nation, une communauté, une colonie et une coalition événementielle sont des types distincts."
+    },
+    "Role": {
+      "champs": [
+        "id",
+        "nom",
+        "organisation_ref",
+        "periode_ref",
+        "mode_attribution",
+        "sources"
+      ],
+      "proprietes": "Fonction constatée, non identité intrinsèque."
+    },
+    "Tache": {
+      "champs": [
+        "id",
+        "verbe",
+        "objet_ref",
+        "contexte",
+        "sources"
+      ],
+      "proprietes": "Travail ou activité situés."
+    },
+    "Ressource": {
+      "champs": [
+        "id",
+        "type",
+        "usage",
+        "acces",
+        "droits_concernes",
+        "sources"
+      ],
+      "proprietes": "Le partage, l’accès et la propriété sont des relations différentes."
+    },
+    "Regle": {
+      "champs": [
+        "id",
+        "sujet",
+        "role_ref",
+        "modalite",
+        "action",
+        "ressource_ref",
+        "conditions",
+        "periode",
+        "territoire",
+        "reconnu_par",
+        "sources",
+        "statut_epistemique"
+      ],
+      "proprietes": "Un droit revendiqué par X ne devient pas reconnu par Y."
+    },
+    "Interaction": {
+      "champs": [
+        "id",
+        "participants",
+        "type",
+        "periode",
+        "territoire",
+        "pratiques",
+        "effets",
+        "sources"
+      ],
+      "proprietes": "Échange, alliance, diplomatie et conflit ne sont pas exclusifs."
+    },
+    "Evenement": {
+      "champs": [
+        "id",
+        "date",
+        "participants",
+        "action",
+        "sources"
+      ],
+      "proprietes": "Un événement n’est pas une règle permanente."
+    },
+    "Assertion": {
+      "champs": [
+        "id",
+        "sujet",
+        "predicat",
+        "objet",
+        "portee_temporelle",
+        "portee_territoriale",
+        "source_ids",
+        "regime_epistemique",
+        "limites"
+      ],
+      "proprietes": "Absence de preuve != preuve de fausseté."
+    }
+  },
+  "modalites": [
+    "permission",
+    "obligation",
+    "interdiction",
+    "responsabilite",
+    "autorite",
+    "droit_revendique",
+    "droit_reconnu"
+  ],
+  "distinctions": [
+    "règle normative ≠ pratique observée ≠ événement",
+    "droit revendiqué ≠ droit reconnu par un autre acteur",
+    "lien historique ≠ préalable pédagogique",
+    "époque ≠ société immuable",
+    "peuples autochtones ≠ une organisation unique",
+    "colons européens ≠ une société unique",
+    "source coloniale ≠ voix de la nation concernée"
+  ],
+  "invariants": [
+    "Une assertion historique porte une période, un contexte et une source explicite.",
+    "Un modèle peut exprimer plusieurs autorités indépendantes.",
+    "Un lieu d’aujourd’hui ne change pas le nom historique de son territoire.",
+    "Une lacune documentaire reste inconnue.",
+    "Les exercices ne produisent pas de faits par exclusion.",
+    "Les droits historiques sont qualifiés par leur auteur, leur reconnaissance et leur portée."
+  ],
+  "projections": [
+    {
+      "id": "roles-taches",
+      "primary_axis": "role",
+      "secondary_axis": "periode"
+    },
+    {
+      "id": "ressources-relations",
+      "primary_axis": "ressource",
+      "secondary_axis": "periode"
+    },
+    {
+      "id": "chronologie",
+      "primary_axis": "periode",
+      "secondary_axis": "societe"
+    },
+    {
+      "id": "interactions",
+      "primary_axis": "interaction",
+      "secondary_axis": "periode"
+    }
+  ],
+  "relations_cours": [
+    "qc-pri-us-004",
+    "qc-pri-us-006",
+    "qc-pri-us-008",
+    "qc-pri-us-009",
+    "qc-pri-us-014"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ale-002",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Appliquer des correspondances lettres-sons anglaises au décodage.",
+    "concepts": [
+      "phonics",
+      "grapheme",
+      "sound blend"
+    ]
+  },
+  "titre_source": "Phonics et décodage",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [
+      {
+        "type": "associer",
+        "statut": "suggestion_de_composant_a_verifier",
+        "validation": "aucune"
+      }
+    ],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "phonics, grapheme, sound blend",
+      "prompt_conceptuel": "Concept d'image pour le cours « Phonics et décodage ». Représenter une situation d’écoute, de lecture ou de communication en anglais. Mettre en évidence les notions : phonics, grapheme, sound blend. L'image doit aider à comprendre l'objectif « Appliquer des correspondances lettres-sons anglaises au décodage. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Phonics et décodage : phonics, grapheme, sound blend.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "phonics, grapheme, sound blend",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Phonics et décodage » : montrer une situation d’usage concret de l’anglais où des interlocuteurs cherchent à se comprendre. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter phonics, grapheme, sound blend. Cette image sert de point de départ à une activité liée à l'objectif « Appliquer des correspondances lettres-sons anglaises au décodage. ». Ne pas représenter une réponse évaluée comme déjà résolue.",
+      "texte_alternatif": "Situation d’exploration pour Phonics et décodage.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    }
+  ]
+}

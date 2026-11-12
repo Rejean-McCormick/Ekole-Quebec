@@ -1,0 +1,646 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-001",
+  "family_id": "qc-pri-ma-001-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "principes_validite": "Corrigés de la version source contrôlés mathématiquement; aucune qualification humaine ni certification d’item.",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-001-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Compte les disques, produis autant de marques puis vérifie en faisant deux groupes sans répéter un disque.",
+      "stimulus": "Disques : ● ● ● ●",
+      "reponse_attendue": "4 disques. Quatre marques; contrôle possible : 2 + 2 = 4 (groupes disjoints), ou recompter dans un autre ordre en marquant les disques.",
+      "criteres": [
+        "Chaque objet est dénombré une seule fois et aucun n’est omis.",
+        "Le nombre annoncé représente le total de la collection.",
+        "La représentation reproduit chaque élément exactement une fois.",
+        "Une seconde méthode, observable et différente du simple rappel de réponse, confirme le total."
+      ],
+      "feedback": "Si tu dis 5, indique quel disque a été repris. Recommence avec une marque par disque.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "quatre objets schématiques",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": false,
+      "contexte": null
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "parametrique",
+      "consigne": "Combien y a-t-il de jetons? Dessine autant de traits et vérifie par une autre organisation.",
+      "stimulus": "Situation : des jetons ronds sur une table.\n○ ○ ○ ○ ○ ○ ○ ○",
+      "reponse_attendue": "8 jetons; 8 traits. Par exemple deux groupes de 4 et 4 font 8; un comptage avec déplacement peut précéder le groupement.",
+      "criteres": [
+        "Chaque objet est dénombré une seule fois et aucun n’est omis.",
+        "Le nombre annoncé représente le total de la collection.",
+        "La représentation reproduit chaque élément exactement une fois.",
+        "Une seconde méthode, observable et différente du simple rappel de réponse, confirme le total."
+      ],
+      "feedback": "Si ton dessin a une marque de moins, fais correspondre chaque jeton à une marque puis recommence le contrôle.",
+      "difficulte": "initial",
+      "seed": 31002,
+      "parametres": {
+        "variables": {
+          "n": {
+            "type": "entier",
+            "min": 4,
+            "max": 9
+          },
+          "r": {
+            "type": "entier",
+            "min": 0,
+            "max": 96
+          }
+        },
+        "contraintes": [
+          "seed est un entier >= 0; aucun tirage aléatoire",
+          "les objets sont tous distincts malgré un même symbole répété",
+          "une occurrence du symbole compte pour une unité",
+          "les séparateurs | et retours de ligne ne sont pas des objets",
+          "aucun groupe ne chevauche un autre; somme des effectifs = n"
+        ],
+        "formule": "r = (7*seed + 3) % 97; n = min + (r % (max-min+1)); % est le reste entier non négatif",
+        "algorithme_instanciation": "Calculer n; afficher exactement n symboles « ○ »; présentation « line » : un seul rang, n symboles; aucune autre variation textuelle ou d’ordre.",
+        "algorithme_corrige": "Compter les occurrences du seul symbole objet dans le stimulus; ce nombre doit égaler n. Pour le contrôle : recomposer des groupes disjoints dont la somme vaut n, ou recompter dans un autre ordre documenté; vérifier deux méthodes distinctes.",
+        "instance": {
+          "seed": 31002,
+          "r": 28,
+          "n": 8,
+          "groupes_generes": [
+            8
+          ],
+          "stimulus_genere": "○ ○ ○ ○ ○ ○ ○ ○"
+        },
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "r": 3,
+            "n": 7,
+            "nombre_de_symboles_attendu": 7
+          },
+          {
+            "seed": 1,
+            "r": 10,
+            "n": 8,
+            "nombre_de_symboles_attendu": 8
+          },
+          {
+            "seed": 2,
+            "r": 17,
+            "n": 9,
+            "nombre_de_symboles_attendu": 9
+          }
+        ],
+        "limites_variation": "Changer uniquement seed (et donc n et la disposition strictement spécifiée). Ne jamais remplacer les objets, leur nombre, les bornes, la question ni le contexte par génération IA libre.",
+        "validation": "Valeurs, occurrences et partitions soumises aux tests automatiques internes; essai humain requis avant qualification."
+      },
+      "validation_status": "a_revoir",
+      "representation": "collection textuelle en mode line et jetons équivalents",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": false,
+      "contexte": "Situation : des jetons ronds sur une table."
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Le plateau est vide. Combien d’objets? Montre la quantité et vérifie autrement.",
+      "stimulus": "Plateau : ∅ (aucun objet).",
+      "reponse_attendue": "0 objet, un dessin sans aucun jeton et écriture 0; inspection méthodique du plateau vide comme contrôle (ou deux zones vides).",
+      "criteres": [
+        "Chaque objet est dénombré une seule fois et aucun n’est omis.",
+        "Le nombre annoncé représente le total de la collection.",
+        "La représentation reproduit chaque élément exactement une fois.",
+        "Une seconde méthode, observable et différente du simple rappel de réponse, confirme le total."
+      ],
+      "feedback": "Zéro veut dire qu’il n’y a aucun objet dans la collection définie; n’invente pas un premier jeton.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "plateau vide et écriture numérique",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": false,
+      "contexte": null
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compte les cartes en les désignant une fois chacune. Donne le total, trace autant de points puis contrôle autrement.",
+      "stimulus": "Situation : des cartes disposées en deux rangées.\n□ □ □\n□ □ □",
+      "reponse_attendue": "6 cartes, 6 points; contrôle par 3 + 3 = 6, si le premier comptage a été unitaire.",
+      "criteres": [
+        "Chaque objet est dénombré une seule fois et aucun n’est omis.",
+        "Le nombre annoncé représente le total de la collection.",
+        "La représentation reproduit chaque élément exactement une fois.",
+        "Une seconde méthode, observable et différente du simple rappel de réponse, confirme le total."
+      ],
+      "feedback": "Si tu as ignoré une rangée, marque chaque carte sur les deux rangées puis compare les quantités.",
+      "difficulte": "intermediaire",
+      "seed": 31004,
+      "parametres": {
+        "variables": {
+          "n": {
+            "type": "entier",
+            "min": 6,
+            "max": 12
+          },
+          "r": {
+            "type": "entier",
+            "min": 0,
+            "max": 96
+          }
+        },
+        "contraintes": [
+          "seed est un entier >= 0; aucun tirage aléatoire",
+          "les objets sont tous distincts malgré un même symbole répété",
+          "une occurrence du symbole compte pour une unité",
+          "les séparateurs | et retours de ligne ne sont pas des objets",
+          "aucun groupe ne chevauche un autre; somme des effectifs = n"
+        ],
+        "formule": "r = (7*seed + 3) % 97; n = min + (r % (max-min+1)); % est le reste entier non négatif",
+        "algorithme_instanciation": "Calculer n; afficher exactement n symboles « □ »; présentation « two » : deux rangs disjoints de n//2 et n-n//2; aucune autre variation textuelle ou d’ordre.",
+        "algorithme_corrige": "Compter les occurrences du seul symbole objet dans le stimulus; ce nombre doit égaler n. Pour le contrôle : recomposer des groupes disjoints dont la somme vaut n, ou recompter dans un autre ordre documenté; vérifier deux méthodes distinctes.",
+        "instance": {
+          "seed": 31004,
+          "r": 42,
+          "n": 6,
+          "groupes_generes": [
+            3,
+            3
+          ],
+          "stimulus_genere": "□ □ □\n□ □ □"
+        },
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "r": 3,
+            "n": 9,
+            "nombre_de_symboles_attendu": 9
+          },
+          {
+            "seed": 1,
+            "r": 10,
+            "n": 9,
+            "nombre_de_symboles_attendu": 9
+          },
+          {
+            "seed": 2,
+            "r": 17,
+            "n": 9,
+            "nombre_de_symboles_attendu": 9
+          }
+        ],
+        "limites_variation": "Changer uniquement seed (et donc n et la disposition strictement spécifiée). Ne jamais remplacer les objets, leur nombre, les bornes, la question ni le contexte par génération IA libre.",
+        "validation": "Valeurs, occurrences et partitions soumises aux tests automatiques internes; essai humain requis avant qualification."
+      },
+      "validation_status": "a_revoir",
+      "representation": "collection textuelle en mode two et jetons équivalents",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": false,
+      "contexte": "Situation : des cartes disposées en deux rangées."
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compte tous les pions un à un, représente le total et contrôle par les groupes sans compter la barre.",
+      "stimulus": "Situation : des pions séparés visuellement par une barre entre petits paquets (la barre n’est pas un pion).\n● ● ● ● ● | ● ● ● ● ● | ●",
+      "reponse_attendue": "11 pions, 11 unités représentées; contrôle 5 + 5 + 1 = 11, groupes disjoints.",
+      "criteres": [
+        "Chaque objet est dénombré une seule fois et aucun n’est omis.",
+        "Le nombre annoncé représente le total de la collection.",
+        "La représentation reproduit chaque élément exactement une fois.",
+        "Une seconde méthode, observable et différente du simple rappel de réponse, confirme le total."
+      ],
+      "feedback": "Si tu as compté une barre comme un objet ou oublié le reste, vérifie la définition de l’unité et sépare les groupes.",
+      "difficulte": "intermediaire",
+      "seed": 31005,
+      "parametres": {
+        "variables": {
+          "n": {
+            "type": "entier",
+            "min": 7,
+            "max": 15
+          },
+          "r": {
+            "type": "entier",
+            "min": 0,
+            "max": 96
+          }
+        },
+        "contraintes": [
+          "seed est un entier >= 0; aucun tirage aléatoire",
+          "les objets sont tous distincts malgré un même symbole répété",
+          "une occurrence du symbole compte pour une unité",
+          "les séparateurs | et retours de ligne ne sont pas des objets",
+          "aucun groupe ne chevauche un autre; somme des effectifs = n"
+        ],
+        "formule": "r = (7*seed + 3) % 97; n = min + (r % (max-min+1)); % est le reste entier non négatif",
+        "algorithme_instanciation": "Calculer n; afficher exactement n symboles « ● »; présentation « five » : groupes disjoints de 5 et reste éventuel, séparés par |; aucune autre variation textuelle ou d’ordre.",
+        "algorithme_corrige": "Compter les occurrences du seul symbole objet dans le stimulus; ce nombre doit égaler n. Pour le contrôle : recomposer des groupes disjoints dont la somme vaut n, ou recompter dans un autre ordre documenté; vérifier deux méthodes distinctes.",
+        "instance": {
+          "seed": 31005,
+          "r": 49,
+          "n": 11,
+          "groupes_generes": [
+            5,
+            5,
+            1
+          ],
+          "stimulus_genere": "● ● ● ● ● | ● ● ● ● ● | ●"
+        },
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "r": 3,
+            "n": 10,
+            "nombre_de_symboles_attendu": 10
+          },
+          {
+            "seed": 1,
+            "r": 10,
+            "n": 8,
+            "nombre_de_symboles_attendu": 8
+          },
+          {
+            "seed": 2,
+            "r": 17,
+            "n": 15,
+            "nombre_de_symboles_attendu": 15
+          }
+        ],
+        "limites_variation": "Changer uniquement seed (et donc n et la disposition strictement spécifiée). Ne jamais remplacer les objets, leur nombre, les bornes, la question ni le contexte par génération IA libre.",
+        "validation": "Valeurs, occurrences et partitions soumises aux tests automatiques internes; essai humain requis avant qualification."
+      },
+      "validation_status": "a_revoir",
+      "representation": "collection textuelle en mode five et jetons équivalents",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": false,
+      "contexte": "Situation : des pions séparés visuellement par une barre entre petits paquets (la barre n’est pas un pion)."
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Un enfant a annoncé sept en désignant deux fois le même cercle. Vérifie par toi-même : quel est le cardinal, et pourquoi sa stratégie est-elle fausse? Représente la collection et contrôle autrement.",
+      "stimulus": "Cercles : ○ ○ ○ ○ ○ ○",
+      "reponse_attendue": "6 cercles. La désignation répétée ne crée pas un nouvel objet; six marques, et 3 + 3 = 6 (ou un recomptage indépendant).",
+      "criteres": [
+        "Chaque objet est dénombré une seule fois et aucun n’est omis.",
+        "Le nombre annoncé représente le total de la collection.",
+        "La représentation reproduit chaque élément exactement une fois.",
+        "Une seconde méthode, observable et différente du simple rappel de réponse, confirme le total."
+      ],
+      "feedback": "Cherche le cercle réutilisé; un mot-nombre doit correspondre à un seul cercle. Le dernier mot est fiable seulement si le comptage est exact.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "diagnostic d’erreur de correspondance",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": false,
+      "contexte": null
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compte toutes les étoiles, dessine autant de points et contrôle avec deux groupes disjoints.",
+      "stimulus": "Situation : deux plateaux de jetons; chaque étoile est une pièce à dénombrer.\n✦ ✦ ✦\n✦ ✦ ✦",
+      "reponse_attendue": "6 étoiles, 6 points; les deux rangées comportent 3 et 3 étoiles; contrôle : 3 + 3 = 6.",
+      "criteres": [
+        "Chaque objet est dénombré une seule fois et aucun n’est omis.",
+        "Le nombre annoncé représente le total de la collection.",
+        "La représentation reproduit chaque élément exactement une fois.",
+        "Une seconde méthode, observable et différente du simple rappel de réponse, confirme le total."
+      ],
+      "feedback": "Si ton nombre change quand tu commences à l’autre rangée, coche chaque étoile comptée et refais le contrôle.",
+      "difficulte": "intermediaire",
+      "seed": 31007,
+      "parametres": {
+        "variables": {
+          "n": {
+            "type": "entier",
+            "min": 6,
+            "max": 14
+          },
+          "r": {
+            "type": "entier",
+            "min": 0,
+            "max": 96
+          }
+        },
+        "contraintes": [
+          "seed est un entier >= 0; aucun tirage aléatoire",
+          "les objets sont tous distincts malgré un même symbole répété",
+          "une occurrence du symbole compte pour une unité",
+          "les séparateurs | et retours de ligne ne sont pas des objets",
+          "aucun groupe ne chevauche un autre; somme des effectifs = n"
+        ],
+        "formule": "r = (7*seed + 3) % 97; n = min + (r % (max-min+1)); % est le reste entier non négatif",
+        "algorithme_instanciation": "Calculer n; afficher exactement n symboles « ✦ »; présentation « two » : deux rangs disjoints de n//2 et n-n//2; aucune autre variation textuelle ou d’ordre.",
+        "algorithme_corrige": "Compter les occurrences du seul symbole objet dans le stimulus; ce nombre doit égaler n. Pour le contrôle : recomposer des groupes disjoints dont la somme vaut n, ou recompter dans un autre ordre documenté; vérifier deux méthodes distinctes.",
+        "instance": {
+          "seed": 31007,
+          "r": 63,
+          "n": 6,
+          "groupes_generes": [
+            3,
+            3
+          ],
+          "stimulus_genere": "✦ ✦ ✦\n✦ ✦ ✦"
+        },
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "r": 3,
+            "n": 9,
+            "nombre_de_symboles_attendu": 9
+          },
+          {
+            "seed": 1,
+            "r": 10,
+            "n": 7,
+            "nombre_de_symboles_attendu": 7
+          },
+          {
+            "seed": 2,
+            "r": 17,
+            "n": 14,
+            "nombre_de_symboles_attendu": 14
+          }
+        ],
+        "limites_variation": "Changer uniquement seed (et donc n et la disposition strictement spécifiée). Ne jamais remplacer les objets, leur nombre, les bornes, la question ni le contexte par génération IA libre.",
+        "validation": "Valeurs, occurrences et partitions soumises aux tests automatiques internes; essai humain requis avant qualification."
+      },
+      "validation_status": "a_revoir",
+      "representation": "collection textuelle en mode two et jetons équivalents",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": false,
+      "contexte": "Situation : deux plateaux de jetons; chaque étoile est une pièce à dénombrer."
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "parametrique",
+      "consigne": "Pose ou dessine un jeton par carré, puis dis le nombre total et contrôle avec une organisation différente.",
+      "stimulus": "Situation : une collection de carrés à recouvrir avec autant de jetons.\n■ ■ ■\n■ ■ ■\n■ ■ ■\n■ ■ ■\n■ ■ ■",
+      "reponse_attendue": "15 carrés et exactement 15 jetons/points; si on compte unitaire au départ, contrôle 3 + 3 + 3 + 3 + 3 = 15 (groupes ou rangées disjoints).",
+      "criteres": [
+        "Chaque objet est dénombré une seule fois et aucun n’est omis.",
+        "Le nombre annoncé représente le total de la collection.",
+        "La représentation reproduit chaque élément exactement une fois.",
+        "Une seconde méthode, observable et différente du simple rappel de réponse, confirme le total."
+      ],
+      "feedback": "Tu as posé trop de jetons? Apparier un carré à un jeton puis retirer les jetons sans partenaire.",
+      "difficulte": "intermediaire",
+      "seed": 31008,
+      "parametres": {
+        "variables": {
+          "n": {
+            "type": "entier",
+            "min": 8,
+            "max": 16
+          },
+          "r": {
+            "type": "entier",
+            "min": 0,
+            "max": 96
+          }
+        },
+        "contraintes": [
+          "seed est un entier >= 0; aucun tirage aléatoire",
+          "les objets sont tous distincts malgré un même symbole répété",
+          "une occurrence du symbole compte pour une unité",
+          "les séparateurs | et retours de ligne ne sont pas des objets",
+          "aucun groupe ne chevauche un autre; somme des effectifs = n"
+        ],
+        "formule": "r = (7*seed + 3) % 97; n = min + (r % (max-min+1)); % est le reste entier non négatif",
+        "algorithme_instanciation": "Calculer n; afficher exactement n symboles « ■ »; présentation « three » : rangs successifs de 3 et reste éventuel; aucune autre variation textuelle ou d’ordre.",
+        "algorithme_corrige": "Compter les occurrences du seul symbole objet dans le stimulus; ce nombre doit égaler n. Pour le contrôle : recomposer des groupes disjoints dont la somme vaut n, ou recompter dans un autre ordre documenté; vérifier deux méthodes distinctes.",
+        "instance": {
+          "seed": 31008,
+          "r": 70,
+          "n": 15,
+          "groupes_generes": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "stimulus_genere": "■ ■ ■\n■ ■ ■\n■ ■ ■\n■ ■ ■\n■ ■ ■"
+        },
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "r": 3,
+            "n": 11,
+            "nombre_de_symboles_attendu": 11
+          },
+          {
+            "seed": 1,
+            "r": 10,
+            "n": 9,
+            "nombre_de_symboles_attendu": 9
+          },
+          {
+            "seed": 2,
+            "r": 17,
+            "n": 16,
+            "nombre_de_symboles_attendu": 16
+          }
+        ],
+        "limites_variation": "Changer uniquement seed (et donc n et la disposition strictement spécifiée). Ne jamais remplacer les objets, leur nombre, les bornes, la question ni le contexte par génération IA libre.",
+        "validation": "Valeurs, occurrences et partitions soumises aux tests automatiques internes; essai humain requis avant qualification."
+      },
+      "validation_status": "a_revoir",
+      "representation": "collection textuelle en mode three et jetons équivalents",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": false,
+      "contexte": "Situation : une collection de carrés à recouvrir avec autant de jetons."
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Un ensemble de carrés est déjà réparti entre deux boîtes. Le nombre total change-t-il si tu réunis les deux boîtes? Compte, dessine et contrôle.",
+      "stimulus": "Boîte A : □ □ □ □ ; Boîte B : □ □ □ □ □",
+      "reponse_attendue": "9 carrés; dessiner neuf carrés, contrôler 4 + 5 = 9 après comptage pièce par pièce. Les déplacer ne change pas le nombre total.",
+      "criteres": [
+        "Chaque objet est dénombré une seule fois et aucun n’est omis.",
+        "Le nombre annoncé représente le total de la collection.",
+        "La représentation reproduit chaque élément exactement une fois.",
+        "Une seconde méthode, observable et différente du simple rappel de réponse, confirme le total."
+      ],
+      "feedback": "Faire bouger les carrés ne les ajoute ni ne les enlève. Vérifie que ton dessin conserve les neuf unités.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "deux contenants fictifs",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": false,
+      "contexte": null
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compte, écris la quantité en tout, dessine autant de cases et contrôle par un autre regroupement.",
+      "stimulus": "Situation : petits cailloux ramassés en plusieurs rangées (les retours à la ligne séparent des rangées, pas des cailloux).\n● ● ●\n● ● ●\n● ● ●\n● ● ●\n● ●",
+      "reponse_attendue": "14 cailloux, 14 cases; contrôle initial unitaire puis 3 + 3 + 3 + 3 + 2 = 14, ou regroupement alternatif en cinq et reste.",
+      "criteres": [
+        "Chaque objet est dénombré une seule fois et aucun n’est omis.",
+        "Le nombre annoncé représente le total de la collection.",
+        "La représentation reproduit chaque élément exactement une fois.",
+        "Une seconde méthode, observable et différente du simple rappel de réponse, confirme le total."
+      ],
+      "feedback": "Si tu as oublié une rangée, montre la correspondance entre toutes les marques et tous les cailloux.",
+      "difficulte": "transfert",
+      "seed": 31010,
+      "parametres": {
+        "variables": {
+          "n": {
+            "type": "entier",
+            "min": 10,
+            "max": 19
+          },
+          "r": {
+            "type": "entier",
+            "min": 0,
+            "max": 96
+          }
+        },
+        "contraintes": [
+          "seed est un entier >= 0; aucun tirage aléatoire",
+          "les objets sont tous distincts malgré un même symbole répété",
+          "une occurrence du symbole compte pour une unité",
+          "les séparateurs | et retours de ligne ne sont pas des objets",
+          "aucun groupe ne chevauche un autre; somme des effectifs = n"
+        ],
+        "formule": "r = (7*seed + 3) % 97; n = min + (r % (max-min+1)); % est le reste entier non négatif",
+        "algorithme_instanciation": "Calculer n; afficher exactement n symboles « ● »; présentation « three » : rangs successifs de 3 et reste éventuel; aucune autre variation textuelle ou d’ordre.",
+        "algorithme_corrige": "Compter les occurrences du seul symbole objet dans le stimulus; ce nombre doit égaler n. Pour le contrôle : recomposer des groupes disjoints dont la somme vaut n, ou recompter dans un autre ordre documenté; vérifier deux méthodes distinctes.",
+        "instance": {
+          "seed": 31010,
+          "r": 84,
+          "n": 14,
+          "groupes_generes": [
+            3,
+            3,
+            3,
+            3,
+            2
+          ],
+          "stimulus_genere": "● ● ●\n● ● ●\n● ● ●\n● ● ●\n● ●"
+        },
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "r": 3,
+            "n": 13,
+            "nombre_de_symboles_attendu": 13
+          },
+          {
+            "seed": 1,
+            "r": 10,
+            "n": 10,
+            "nombre_de_symboles_attendu": 10
+          },
+          {
+            "seed": 2,
+            "r": 17,
+            "n": 17,
+            "nombre_de_symboles_attendu": 17
+          }
+        ],
+        "limites_variation": "Changer uniquement seed (et donc n et la disposition strictement spécifiée). Ne jamais remplacer les objets, leur nombre, les bornes, la question ni le contexte par génération IA libre.",
+        "validation": "Valeurs, occurrences et partitions soumises aux tests automatiques internes; essai humain requis avant qualification."
+      },
+      "validation_status": "a_revoir",
+      "representation": "collection textuelle en mode three et jetons équivalents",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": false,
+      "contexte": "Situation : petits cailloux ramassés en plusieurs rangées (les retours à la ligne séparent des rangées, pas des cailloux)."
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sans aide pour trouver le nombre : compte toutes les étiquettes à remettre dans la bibliothèque, représente exactement cette quantité et vérifie ton résultat autrement. Explique ou montre tes deux démarches.",
+      "stimulus": "Bibliothèque — étiquettes à ranger (chaque pictogramme des trois rangées est une étiquette; les retours à la ligne ne sont pas des étiquettes) :\n▣ ▣ ▣ ▣\n▣ ▣ ▣ ▣ ▣\n▣ ▣ ▣ ▣ ▣",
+      "reponse_attendue": "14 étiquettes. Première preuve observable : une désignation unique pour chacun des 14 symboles et un cardinal 14. Représentation de 14 points/jetons. Contrôle indépendant possible après recomposition en trois groupes disjoints de 5, 5 et 4 : 5 + 5 + 4 = 14, ou recomptage inverse rigoureusement tracé.",
+      "criteres": [
+        "Compter indépendamment tous les éléments de la collection sans double comptage ni omission (pointage, déplacement, marquage ou équivalent).",
+        "Donner le nombre exact en tout et le traiter comme cardinal.",
+        "Produire une représentation contenant exactement une marque ou un jeton par élément.",
+        "Effectuer un second contrôle effectivement distinct (réorganisation en groupes disjoints, comptage indépendant tracé, appariement exhaustif) conduisant au même total sans indice de calcul."
+      ],
+      "feedback": "Si le total diffère entre les deux démarches, vérifier qu’aucune étiquette n’a été ignorée ni comptée deux fois; reprendre une nouvelle collection après correction, sans annoncer le résultat avant la fin.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "trois rangées textuelles et jetons manipulables",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": true,
+      "contexte": "bibliothèque — classement des étiquettes"
+    },
+    {
+      "item_id": "qc-pri-ma-001-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sans aide pour trouver le nombre : compte tous les pots à placer dans le jardin fictif, représente chaque pot par un jeton ou une marque, puis contrôle le nombre par une autre organisation. Montre les deux démarches.",
+      "stimulus": "Jardin — pots de semis (chaque pictogramme sur les lignes représente un pot; les retours à la ligne séparent les plates-bandes) :\n✿ ✿ ✿ ✿\n✿ ✿ ✿ ✿\n✿ ✿ ✿ ✿\n✿ ✿ ✿ ✿\n✿",
+      "reponse_attendue": "17 pots. Correspondance exacte un mot-nombre par pot, cardinal 17, dix-sept marques/jetons. Contrôle indépendant possible par regroupement en 5 + 5 + 5 + 2 = 17, si première méthode par rangées ou un à un; autre démarche structurée acceptée et observée.",
+      "criteres": [
+        "Compter indépendamment tous les éléments de la collection sans double comptage ni omission (pointage, déplacement, marquage ou équivalent).",
+        "Donner le nombre exact en tout et le traiter comme cardinal.",
+        "Produire une représentation contenant exactement une marque ou un jeton par élément.",
+        "Effectuer un second contrôle effectivement distinct (réorganisation en groupes disjoints, comptage indépendant tracé, appariement exhaustif) conduisant au même total sans indice de calcul."
+      ],
+      "feedback": "Si tu trouves 16, regarde si le pot isolé a été ignoré. Corrige par une seconde stratégie et, pour la maîtrise, réessaie plus tard sur une collection inédite sans aide.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "plates-bandes textuelles et jetons manipulables",
+      "variabilite_permise": "Modalité tactile, orale, par pointage ou jetons équivalente; le total et l’exhaustivité doivent rester invariants.",
+      "preuve_maitrise": true,
+      "contexte": "jardin — comptage des pots de semis"
+    }
+  ]
+}

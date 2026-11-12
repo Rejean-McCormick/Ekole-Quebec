@@ -1,0 +1,827 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-004",
+  "family_id": "qc-pri-ma-004-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "statut": "a_revoir_pedagogiquement",
+  "notes_variation": "Items paramétriques instanciés à seeds fixes; aucune génération libre par IA. Les évaluations humaines ne sont pas déduites d’une note unique.",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-004-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "parametrique",
+      "consigne": "Cette suite suit un pas constant. Complète deux termes et donne une règle vérifiable.",
+      "stimulus": "6, 10, 14, __, __.",
+      "reponse_attendue": "18, 22; règle : partir de 6 et ajouter 4 à chaque rang. Vérifications : 10−6=4, 22−18=4.",
+      "criteres": [
+        "Valeur(s) cachée(s) exacte(s) aux rangs demandés",
+        "Règle complète (premier terme, variation et direction) compatible avec tous les termes visibles",
+        "Justification par au moins deux différences ou calculs successifs"
+      ],
+      "feedback": "Si la valeur est incorrecte, recalcule la différence entre deux termes connus puis vérifie chaque transition; ne saute pas un rang. Si les nombres sont justes mais la règle manque, précise début et ajout/retrait.",
+      "difficulte": "initial",
+      "representation": "notation_numérique",
+      "seed": 1401,
+      "parametres": {
+        "variables": [
+          "a",
+          "d"
+        ],
+        "domaines": {
+          "a_entier_inclusif": [
+            2,
+            12
+          ],
+          "valeur_absolue_d_entier_inclusif": [
+            2,
+            6
+          ],
+          "signe_de_d": 1
+        },
+        "algorithme_de_generation": "À partir de la seed entière s≥0 et des bornes a_min,a_max,d_min,d_max : N=a_max−a_min+1; a=a_min+(s modulo N); m=d_min+(floor(s/N) modulo (d_max−d_min+1)); d=signe_de_d×m. Calculer t(n)=a+(n−1)×d pour n=1..6, sans tirage libre. Remplir exactement les positions indiquées par le gabarit de la famille.",
+        "algorithme_de_correction": "Dériver le pas observé d=t(2)−t(1); reconstruire indépendamment chaque valeur par récurrence u(1)=a, u(n+1)=u(n)+d; contrôler tous les termes visibles et comparer les positions masquées à t(n)=a+(n−1)d. Accepter une règle verbalement équivalente avec valeur de départ.",
+        "formule_mathématique": "t(n)=a+(n−1)d; n entier de 1 à 6",
+        "contraintes": [
+          "a et d entiers",
+          "d non nul",
+          "t(1)..t(5) entiers non négatifs",
+          "un seul pas constant pour les positions montrées",
+          "seed non négative, identité et libellé du contexte figés",
+          "pas de valeurs à virgule ni d’échantillonnage IA libre"
+        ],
+        "variables_instanciees": {
+          "a": 6,
+          "d": 4,
+          "valeurs_rangs_1_a_6": [
+            6,
+            10,
+            14,
+            18,
+            22,
+            26
+          ]
+        },
+        "exemples_verifies": [
+          {
+            "seed": 1401,
+            "variables": {
+              "a": 6,
+              "d": 4
+            },
+            "stimulus": "6, 10, 14, __, __.",
+            "sorties_attendues": [
+              18,
+              22
+            ],
+            "corrige": "18, 22; règle : partir de 6 et ajouter 4 à chaque rang. Vérifications : 10−6=4, 22−18=4."
+          },
+          {
+            "seed": 1502,
+            "variables": {
+              "a": 8,
+              "d": 3
+            },
+            "stimulus": "8, 11, 14, __, __.",
+            "sorties_attendues": [
+              17,
+              20
+            ],
+            "corrige": "17, 20; règle : partir de 8 et ajouter 3 à chaque rang. Vérifications : 11−8=3, 20−17=3."
+          }
+        ],
+        "limites_de_variation": "Seuls a et |d| changent selon domaines et seed; signe, rangs masqués, unité, contexte et consigne restent fixés. Les chaînes sont recalculées automatiquement, jamais inventées par le générateur de langue.",
+        "verification": "Deux seeds indiquées, comparaison t(n) en formule directe et calcul par récurrence; contrôles exécutables consignés dans livraison/VALIDATION.md."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "parametrique",
+      "consigne": "À chaque étape, on place le même nombre de cubes en plus que la précédente. Complète les étapes 4 et 5, puis énonce la règle.",
+      "stimulus": "Étapes 1 à 5 (cubes) : 4, 7, 10, __, __.",
+      "reponse_attendue": "Étape 4 : 13 cubes; étape 5 : 16 cubes. Règle : partir de 4 et ajouter 3 à chaque rang. Différences : 7−4=3; 16−13=3.",
+      "criteres": [
+        "Valeur(s) cachée(s) exacte(s) aux rangs demandés",
+        "Règle complète (premier terme, variation et direction) compatible avec tous les termes visibles",
+        "Justification par au moins deux différences ou calculs successifs"
+      ],
+      "feedback": "Si la valeur est incorrecte, recalcule la différence entre deux termes connus puis vérifie chaque transition; ne saute pas un rang. Si les nombres sont justes mais la règle manque, précise début et ajout/retrait.",
+      "difficulte": "initial",
+      "representation": "matériel_et_tableau",
+      "seed": 1402,
+      "parametres": {
+        "variables": [
+          "a",
+          "d"
+        ],
+        "domaines": {
+          "a_entier_inclusif": [
+            2,
+            6
+          ],
+          "valeur_absolue_d_entier_inclusif": [
+            2,
+            4
+          ],
+          "signe_de_d": 1
+        },
+        "algorithme_de_generation": "À partir de la seed entière s≥0 et des bornes a_min,a_max,d_min,d_max : N=a_max−a_min+1; a=a_min+(s modulo N); m=d_min+(floor(s/N) modulo (d_max−d_min+1)); d=signe_de_d×m. Calculer t(n)=a+(n−1)×d pour n=1..6, sans tirage libre. Remplir exactement les positions indiquées par le gabarit de la famille.",
+        "algorithme_de_correction": "Dériver le pas observé d=t(2)−t(1); reconstruire indépendamment chaque valeur par récurrence u(1)=a, u(n+1)=u(n)+d; contrôler tous les termes visibles et comparer les positions masquées à t(n)=a+(n−1)d. Accepter une règle verbalement équivalente avec valeur de départ.",
+        "formule_mathématique": "t(n)=a+(n−1)d; n entier de 1 à 6",
+        "contraintes": [
+          "a et d entiers",
+          "d non nul",
+          "t(1)..t(5) entiers non négatifs",
+          "un seul pas constant pour les positions montrées",
+          "seed non négative, identité et libellé du contexte figés",
+          "pas de valeurs à virgule ni d’échantillonnage IA libre"
+        ],
+        "variables_instanciees": {
+          "a": 4,
+          "d": 3,
+          "valeurs_rangs_1_a_6": [
+            4,
+            7,
+            10,
+            13,
+            16,
+            19
+          ]
+        },
+        "exemples_verifies": [
+          {
+            "seed": 1402,
+            "variables": {
+              "a": 4,
+              "d": 3
+            },
+            "stimulus": "Étapes 1 à 5 (cubes) : 4, 7, 10, __, __.",
+            "sorties_attendues": [
+              13,
+              16
+            ],
+            "corrige": "Étape 4 : 13 cubes; étape 5 : 16 cubes. Règle : partir de 4 et ajouter 3 à chaque rang. Différences : 7−4=3; 16−13=3."
+          },
+          {
+            "seed": 1503,
+            "variables": {
+              "a": 5,
+              "d": 2
+            },
+            "stimulus": "Étapes 1 à 5 (cubes) : 5, 7, 9, __, __.",
+            "sorties_attendues": [
+              11,
+              13
+            ],
+            "corrige": "Étape 4 : 11 cubes; étape 5 : 13 cubes. Règle : partir de 5 et ajouter 2 à chaque rang. Différences : 7−5=2; 13−11=2."
+          }
+        ],
+        "limites_de_variation": "Seuls a et |d| changent selon domaines et seed; signe, rangs masqués, unité, contexte et consigne restent fixés. Les chaînes sont recalculées automatiquement, jamais inventées par le générateur de langue.",
+        "verification": "Deux seeds indiquées, comparaison t(n) en formule directe et calcul par récurrence; contrôles exécutables consignés dans livraison/VALIDATION.md."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "parametrique",
+      "consigne": "Cette suite a un pas constant. Complète les deux termes et explique le sens du pas.",
+      "stimulus": "29, 25, 21, __, __.",
+      "reponse_attendue": "17, 13; règle : partir de 29 et retirer 4 à chaque rang (pas -4). Vérifications : 25−29=-4; 13−17=-4.",
+      "criteres": [
+        "Valeur(s) cachée(s) exacte(s) aux rangs demandés",
+        "Règle complète (premier terme, variation et direction) compatible avec tous les termes visibles",
+        "Justification par au moins deux différences ou calculs successifs"
+      ],
+      "feedback": "Si la valeur est incorrecte, recalcule la différence entre deux termes connus puis vérifie chaque transition; ne saute pas un rang. Si les nombres sont justes mais la règle manque, précise début et ajout/retrait.",
+      "difficulte": "initial",
+      "representation": "notation_numérique_et_flèches",
+      "seed": 1403,
+      "parametres": {
+        "variables": [
+          "a",
+          "d"
+        ],
+        "domaines": {
+          "a_entier_inclusif": [
+            26,
+            45
+          ],
+          "valeur_absolue_d_entier_inclusif": [
+            2,
+            5
+          ],
+          "signe_de_d": -1
+        },
+        "algorithme_de_generation": "À partir de la seed entière s≥0 et des bornes a_min,a_max,d_min,d_max : N=a_max−a_min+1; a=a_min+(s modulo N); m=d_min+(floor(s/N) modulo (d_max−d_min+1)); d=signe_de_d×m. Calculer t(n)=a+(n−1)×d pour n=1..6, sans tirage libre. Remplir exactement les positions indiquées par le gabarit de la famille.",
+        "algorithme_de_correction": "Dériver le pas observé d=t(2)−t(1); reconstruire indépendamment chaque valeur par récurrence u(1)=a, u(n+1)=u(n)+d; contrôler tous les termes visibles et comparer les positions masquées à t(n)=a+(n−1)d. Accepter une règle verbalement équivalente avec valeur de départ.",
+        "formule_mathématique": "t(n)=a+(n−1)d; n entier de 1 à 6",
+        "contraintes": [
+          "a et d entiers",
+          "d non nul",
+          "t(1)..t(5) entiers non négatifs",
+          "un seul pas constant pour les positions montrées",
+          "seed non négative, identité et libellé du contexte figés",
+          "pas de valeurs à virgule ni d’échantillonnage IA libre"
+        ],
+        "variables_instanciees": {
+          "a": 29,
+          "d": -4,
+          "valeurs_rangs_1_a_6": [
+            29,
+            25,
+            21,
+            17,
+            13,
+            9
+          ]
+        },
+        "exemples_verifies": [
+          {
+            "seed": 1403,
+            "variables": {
+              "a": 29,
+              "d": -4
+            },
+            "stimulus": "29, 25, 21, __, __.",
+            "sorties_attendues": [
+              17,
+              13
+            ],
+            "corrige": "17, 13; règle : partir de 29 et retirer 4 à chaque rang (pas -4). Vérifications : 25−29=-4; 13−17=-4."
+          },
+          {
+            "seed": 1504,
+            "variables": {
+              "a": 30,
+              "d": -5
+            },
+            "stimulus": "30, 25, 20, __, __.",
+            "sorties_attendues": [
+              15,
+              10
+            ],
+            "corrige": "15, 10; règle : partir de 30 et retirer 5 à chaque rang (pas -5). Vérifications : 25−30=-5; 10−15=-5."
+          }
+        ],
+        "limites_de_variation": "Seuls a et |d| changent selon domaines et seed; signe, rangs masqués, unité, contexte et consigne restent fixés. Les chaînes sont recalculées automatiquement, jamais inventées par le générateur de langue.",
+        "verification": "Deux seeds indiquées, comparaison t(n) en formule directe et calcul par récurrence; contrôles exécutables consignés dans livraison/VALIDATION.md."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "parametrique",
+      "consigne": "Un nombre est caché dans cette suite à pas constant. Trouve-le puis prévois le terme du rang 6; justifie la règle.",
+      "stimulus": "Rangs 1 à 6 : 4, 7, __, 13, 16, __.",
+      "reponse_attendue": "Rang 3 : 10; rang 6 : 19; règle : partir de 4 et ajouter 3 à chaque rang. Vérifier 10−7=3 et 13−10=3.",
+      "criteres": [
+        "Valeur(s) cachée(s) exacte(s) aux rangs demandés",
+        "Règle complète (premier terme, variation et direction) compatible avec tous les termes visibles",
+        "Justification par au moins deux différences ou calculs successifs"
+      ],
+      "feedback": "Si la valeur est incorrecte, recalcule la différence entre deux termes connus puis vérifie chaque transition; ne saute pas un rang. Si les nombres sont justes mais la règle manque, précise début et ajout/retrait.",
+      "difficulte": "intermediaire",
+      "representation": "notation_et_cases",
+      "seed": 1404,
+      "parametres": {
+        "variables": [
+          "a",
+          "d"
+        ],
+        "domaines": {
+          "a_entier_inclusif": [
+            4,
+            15
+          ],
+          "valeur_absolue_d_entier_inclusif": [
+            2,
+            5
+          ],
+          "signe_de_d": 1
+        },
+        "algorithme_de_generation": "À partir de la seed entière s≥0 et des bornes a_min,a_max,d_min,d_max : N=a_max−a_min+1; a=a_min+(s modulo N); m=d_min+(floor(s/N) modulo (d_max−d_min+1)); d=signe_de_d×m. Calculer t(n)=a+(n−1)×d pour n=1..6, sans tirage libre. Remplir exactement les positions indiquées par le gabarit de la famille.",
+        "algorithme_de_correction": "Dériver le pas observé d=t(2)−t(1); reconstruire indépendamment chaque valeur par récurrence u(1)=a, u(n+1)=u(n)+d; contrôler tous les termes visibles et comparer les positions masquées à t(n)=a+(n−1)d. Accepter une règle verbalement équivalente avec valeur de départ.",
+        "formule_mathématique": "t(n)=a+(n−1)d; n entier de 1 à 6",
+        "contraintes": [
+          "a et d entiers",
+          "d non nul",
+          "t(1)..t(5) entiers non négatifs",
+          "un seul pas constant pour les positions montrées",
+          "seed non négative, identité et libellé du contexte figés",
+          "pas de valeurs à virgule ni d’échantillonnage IA libre"
+        ],
+        "variables_instanciees": {
+          "a": 4,
+          "d": 3,
+          "valeurs_rangs_1_a_6": [
+            4,
+            7,
+            10,
+            13,
+            16,
+            19
+          ]
+        },
+        "exemples_verifies": [
+          {
+            "seed": 1404,
+            "variables": {
+              "a": 4,
+              "d": 3
+            },
+            "stimulus": "Rangs 1 à 6 : 4, 7, __, 13, 16, __.",
+            "sorties_attendues": [
+              10,
+              19
+            ],
+            "corrige": "Rang 3 : 10; rang 6 : 19; règle : partir de 4 et ajouter 3 à chaque rang. Vérifier 10−7=3 et 13−10=3."
+          },
+          {
+            "seed": 1505,
+            "variables": {
+              "a": 9,
+              "d": 3
+            },
+            "stimulus": "Rangs 1 à 6 : 9, 12, __, 18, 21, __.",
+            "sorties_attendues": [
+              15,
+              24
+            ],
+            "corrige": "Rang 3 : 15; rang 6 : 24; règle : partir de 9 et ajouter 3 à chaque rang. Vérifier 15−12=3 et 18−15=3."
+          }
+        ],
+        "limites_de_variation": "Seuls a et |d| changent selon domaines et seed; signe, rangs masqués, unité, contexte et consigne restent fixés. Les chaînes sont recalculées automatiquement, jamais inventées par le générateur de langue.",
+        "verification": "Deux seeds indiquées, comparaison t(n) en formule directe et calcul par récurrence; contrôles exécutables consignés dans livraison/VALIDATION.md."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Poursuis ce motif répété et dis si un pas constant existe.",
+      "stimulus": "2, 6, 2, 6, __, __.",
+      "reponse_attendue": "2, 6. Règle : répéter dans cet ordre le motif [2,6]. Aucun pas constant : les différences successives alternent +4 et −4.",
+      "criteres": [
+        "Les deux valeurs manquantes sont 2 et 6",
+        "Décrit le motif de deux termes [2,6]",
+        "Justifie l’absence de pas constant par +4 et −4"
+      ],
+      "feedback": "Une différence de +4 n’est pas répétée au passage 6→2 : représente deux blocs [2,6] et observe les deux directions.",
+      "difficulte": "intermediaire",
+      "representation": "motif_écrit",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "parametrique",
+      "consigne": "Lis le tableau de rangs, retrouve les deux valeurs masquées et indique une règle à pas constant.",
+      "stimulus": "Rang : 1 | 2 | 3 | 4 | 5 | 6\nValeur : 4 | 6 | ? | 10 | ? | 14",
+      "reponse_attendue": "Rang 3 : 8; rang 5 : 12. Règle : partir de 4 et ajouter 2 à chaque rang. Vérifier les cinq différences successives, toutes 2.",
+      "criteres": [
+        "Valeur(s) cachée(s) exacte(s) aux rangs demandés",
+        "Règle complète (premier terme, variation et direction) compatible avec tous les termes visibles",
+        "Justification par au moins deux différences ou calculs successifs"
+      ],
+      "feedback": "Si la valeur est incorrecte, recalcule la différence entre deux termes connus puis vérifie chaque transition; ne saute pas un rang. Si les nombres sont justes mais la règle manque, précise début et ajout/retrait.",
+      "difficulte": "intermediaire",
+      "representation": "tableau_des_rangs",
+      "seed": 1406,
+      "parametres": {
+        "variables": [
+          "a",
+          "d"
+        ],
+        "domaines": {
+          "a_entier_inclusif": [
+            2,
+            10
+          ],
+          "valeur_absolue_d_entier_inclusif": [
+            2,
+            5
+          ],
+          "signe_de_d": 1
+        },
+        "algorithme_de_generation": "À partir de la seed entière s≥0 et des bornes a_min,a_max,d_min,d_max : N=a_max−a_min+1; a=a_min+(s modulo N); m=d_min+(floor(s/N) modulo (d_max−d_min+1)); d=signe_de_d×m. Calculer t(n)=a+(n−1)×d pour n=1..6, sans tirage libre. Remplir exactement les positions indiquées par le gabarit de la famille.",
+        "algorithme_de_correction": "Dériver le pas observé d=t(2)−t(1); reconstruire indépendamment chaque valeur par récurrence u(1)=a, u(n+1)=u(n)+d; contrôler tous les termes visibles et comparer les positions masquées à t(n)=a+(n−1)d. Accepter une règle verbalement équivalente avec valeur de départ.",
+        "formule_mathématique": "t(n)=a+(n−1)d; n entier de 1 à 6",
+        "contraintes": [
+          "a et d entiers",
+          "d non nul",
+          "t(1)..t(5) entiers non négatifs",
+          "un seul pas constant pour les positions montrées",
+          "seed non négative, identité et libellé du contexte figés",
+          "pas de valeurs à virgule ni d’échantillonnage IA libre"
+        ],
+        "variables_instanciees": {
+          "a": 4,
+          "d": 2,
+          "valeurs_rangs_1_a_6": [
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ]
+        },
+        "exemples_verifies": [
+          {
+            "seed": 1406,
+            "variables": {
+              "a": 4,
+              "d": 2
+            },
+            "stimulus": "Rang : 1 | 2 | 3 | 4 | 5 | 6\nValeur : 4 | 6 | ? | 10 | ? | 14",
+            "sorties_attendues": [
+              8,
+              12
+            ],
+            "corrige": "Rang 3 : 8; rang 5 : 12. Règle : partir de 4 et ajouter 2 à chaque rang. Vérifier les cinq différences successives, toutes 2."
+          },
+          {
+            "seed": 1507,
+            "variables": {
+              "a": 6,
+              "d": 5
+            },
+            "stimulus": "Rang : 1 | 2 | 3 | 4 | 5 | 6\nValeur : 6 | 11 | ? | 21 | ? | 31",
+            "sorties_attendues": [
+              16,
+              26
+            ],
+            "corrige": "Rang 3 : 16; rang 5 : 26. Règle : partir de 6 et ajouter 5 à chaque rang. Vérifier les cinq différences successives, toutes 5."
+          }
+        ],
+        "limites_de_variation": "Seuls a et |d| changent selon domaines et seed; signe, rangs masqués, unité, contexte et consigne restent fixés. Les chaînes sont recalculées automatiquement, jamais inventées par le générateur de langue.",
+        "verification": "Deux seeds indiquées, comparaison t(n) en formule directe et calcul par récurrence; contrôles exécutables consignés dans livraison/VALIDATION.md."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Vérifie une règle proposée, puis poursuis la suite selon une règle qui convient.",
+      "stimulus": "Suite : 3, 7, 11, 15, __, __. Sam affirme : « Je commence à 3, j’ajoute toujours 3. »",
+      "reponse_attendue": "La règle de Sam est fausse : 7−3=4, 11−7=4, 15−11=4. Compléter par 19, 23; règle qui convient : partir de 3, ajouter 4 chaque fois.",
+      "criteres": [
+        "Rejette explicitement la règle +3 et cite un écart correct",
+        "Complète par 19 puis 23",
+        "Énonce +4 en partant de 3 et vérifie un second intervalle"
+      ],
+      "feedback": "Comparer les écarts consécutifs : si 7−3=4, une règle « toujours +3 » ne peut pas convenir, même si une addition isolée est correcte.",
+      "difficulte": "intermediaire",
+      "representation": "critique_d_une_règle",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "parametrique",
+      "consigne": "La suite a un pas constant. Complète les deux cases intérieures et explique comment trouver le pas à partir des rangs 1 et 3.",
+      "stimulus": "11, __, 15, __, 19.",
+      "reponse_attendue": "Termes manquants : 13, 17; règle : partir de 11 et ajouter 2 à chaque rang. Deux intervalles entre 11 et 15 : (15−11)÷2=2.",
+      "criteres": [
+        "Valeur(s) cachée(s) exacte(s) aux rangs demandés",
+        "Règle complète (premier terme, variation et direction) compatible avec tous les termes visibles",
+        "Justification par au moins deux différences ou calculs successifs"
+      ],
+      "feedback": "Si la valeur est incorrecte, recalcule la différence entre deux termes connus puis vérifie chaque transition; ne saute pas un rang. Si les nombres sont justes mais la règle manque, précise début et ajout/retrait.",
+      "difficulte": "intermediaire",
+      "representation": "notation_et_cases",
+      "seed": 1408,
+      "parametres": {
+        "variables": [
+          "a",
+          "d"
+        ],
+        "domaines": {
+          "a_entier_inclusif": [
+            3,
+            12
+          ],
+          "valeur_absolue_d_entier_inclusif": [
+            2,
+            5
+          ],
+          "signe_de_d": 1
+        },
+        "algorithme_de_generation": "À partir de la seed entière s≥0 et des bornes a_min,a_max,d_min,d_max : N=a_max−a_min+1; a=a_min+(s modulo N); m=d_min+(floor(s/N) modulo (d_max−d_min+1)); d=signe_de_d×m. Calculer t(n)=a+(n−1)×d pour n=1..6, sans tirage libre. Remplir exactement les positions indiquées par le gabarit de la famille.",
+        "algorithme_de_correction": "Dériver le pas observé d=t(2)−t(1); reconstruire indépendamment chaque valeur par récurrence u(1)=a, u(n+1)=u(n)+d; contrôler tous les termes visibles et comparer les positions masquées à t(n)=a+(n−1)d. Accepter une règle verbalement équivalente avec valeur de départ.",
+        "formule_mathématique": "t(n)=a+(n−1)d; n entier de 1 à 6",
+        "contraintes": [
+          "a et d entiers",
+          "d non nul",
+          "t(1)..t(5) entiers non négatifs",
+          "un seul pas constant pour les positions montrées",
+          "seed non négative, identité et libellé du contexte figés",
+          "pas de valeurs à virgule ni d’échantillonnage IA libre"
+        ],
+        "variables_instanciees": {
+          "a": 11,
+          "d": 2,
+          "valeurs_rangs_1_a_6": [
+            11,
+            13,
+            15,
+            17,
+            19,
+            21
+          ]
+        },
+        "exemples_verifies": [
+          {
+            "seed": 1408,
+            "variables": {
+              "a": 11,
+              "d": 2
+            },
+            "stimulus": "11, __, 15, __, 19.",
+            "sorties_attendues": [
+              13,
+              17
+            ],
+            "corrige": "Termes manquants : 13, 17; règle : partir de 11 et ajouter 2 à chaque rang. Deux intervalles entre 11 et 15 : (15−11)÷2=2."
+          },
+          {
+            "seed": 1509,
+            "variables": {
+              "a": 12,
+              "d": 4
+            },
+            "stimulus": "12, __, 20, __, 28.",
+            "sorties_attendues": [
+              16,
+              24
+            ],
+            "corrige": "Termes manquants : 16, 24; règle : partir de 12 et ajouter 4 à chaque rang. Deux intervalles entre 12 et 20 : (20−12)÷2=4."
+          }
+        ],
+        "limites_de_variation": "Seuls a et |d| changent selon domaines et seed; signe, rangs masqués, unité, contexte et consigne restent fixés. Les chaînes sont recalculées automatiquement, jamais inventées par le générateur de langue.",
+        "verification": "Deux seeds indiquées, comparaison t(n) en formule directe et calcul par récurrence; contrôles exécutables consignés dans livraison/VALIDATION.md."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "parametrique",
+      "consigne": "Une salle prépare des rangées de chaises : chaque nouvelle rangée a le même nombre de chaises de plus. Calcule les rangées 4 et 5 et énonce la règle.",
+      "stimulus": "Rangées 1, 2 et 3 : 4, 6, 8 chaises. Rangs 4 et 5 : ?, ?.",
+      "reponse_attendue": "Rangée 4 : 10; rangée 5 : 12. Règle : partir de 4 et ajouter 2 à chaque rang (chaises). Contrôle : 6−4=2 et 12−10=2.",
+      "criteres": [
+        "Valeur(s) cachée(s) exacte(s) aux rangs demandés",
+        "Règle complète (premier terme, variation et direction) compatible avec tous les termes visibles",
+        "Justification par au moins deux différences ou calculs successifs"
+      ],
+      "feedback": "Si la valeur est incorrecte, recalcule la différence entre deux termes connus puis vérifie chaque transition; ne saute pas un rang. Si les nombres sont justes mais la règle manque, précise début et ajout/retrait.",
+      "difficulte": "transfert",
+      "representation": "situation_et_tableau",
+      "seed": 1409,
+      "parametres": {
+        "variables": [
+          "a",
+          "d"
+        ],
+        "domaines": {
+          "a_entier_inclusif": [
+            3,
+            10
+          ],
+          "valeur_absolue_d_entier_inclusif": [
+            2,
+            5
+          ],
+          "signe_de_d": 1
+        },
+        "algorithme_de_generation": "À partir de la seed entière s≥0 et des bornes a_min,a_max,d_min,d_max : N=a_max−a_min+1; a=a_min+(s modulo N); m=d_min+(floor(s/N) modulo (d_max−d_min+1)); d=signe_de_d×m. Calculer t(n)=a+(n−1)×d pour n=1..6, sans tirage libre. Remplir exactement les positions indiquées par le gabarit de la famille.",
+        "algorithme_de_correction": "Dériver le pas observé d=t(2)−t(1); reconstruire indépendamment chaque valeur par récurrence u(1)=a, u(n+1)=u(n)+d; contrôler tous les termes visibles et comparer les positions masquées à t(n)=a+(n−1)d. Accepter une règle verbalement équivalente avec valeur de départ.",
+        "formule_mathématique": "t(n)=a+(n−1)d; n entier de 1 à 6",
+        "contraintes": [
+          "a et d entiers",
+          "d non nul",
+          "t(1)..t(5) entiers non négatifs",
+          "un seul pas constant pour les positions montrées",
+          "seed non négative, identité et libellé du contexte figés",
+          "pas de valeurs à virgule ni d’échantillonnage IA libre"
+        ],
+        "variables_instanciees": {
+          "a": 4,
+          "d": 2,
+          "valeurs_rangs_1_a_6": [
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ]
+        },
+        "exemples_verifies": [
+          {
+            "seed": 1409,
+            "variables": {
+              "a": 4,
+              "d": 2
+            },
+            "stimulus": "Rangées 1, 2 et 3 : 4, 6, 8 chaises. Rangs 4 et 5 : ?, ?.",
+            "sorties_attendues": [
+              10,
+              12
+            ],
+            "corrige": "Rangée 4 : 10; rangée 5 : 12. Règle : partir de 4 et ajouter 2 à chaque rang (chaises). Contrôle : 6−4=2 et 12−10=2."
+          },
+          {
+            "seed": 1510,
+            "variables": {
+              "a": 9,
+              "d": 2
+            },
+            "stimulus": "Rangées 1, 2 et 3 : 9, 11, 13 chaises. Rangs 4 et 5 : ?, ?.",
+            "sorties_attendues": [
+              15,
+              17
+            ],
+            "corrige": "Rangée 4 : 15; rangée 5 : 17. Règle : partir de 9 et ajouter 2 à chaque rang (chaises). Contrôle : 11−9=2 et 17−15=2."
+          }
+        ],
+        "limites_de_variation": "Seuls a et |d| changent selon domaines et seed; signe, rangs masqués, unité, contexte et consigne restent fixés. Les chaînes sont recalculées automatiquement, jamais inventées par le générateur de langue.",
+        "verification": "Deux seeds indiquées, comparaison t(n) en formule directe et calcul par récurrence; contrôles exécutables consignés dans livraison/VALIDATION.md."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans aide, complète les longueurs des rubans successifs et explique une règle qui permet une longueur suivante. Vérifie au moins deux écarts.",
+      "stimulus": "Rubans (rangs 1 à 5) : 12 cm, 15 cm, 18 cm, __ cm, __ cm.",
+      "reponse_attendue": "Rang 4 : 21 cm; rang 5 : 24 cm. Règle : commencer à 12 cm et ajouter 3 cm à chaque nouveau ruban. Contrôles : 15−12=3, 18−15=3, 21−18=3, 24−21=3 cm.",
+      "criteres": [
+        "Écrit 21 cm et 24 cm aux bons rangs",
+        "Énonce une règle complète avec grandeur et unité : 12 cm puis +3 cm",
+        "Justifie par deux écarts cohérents; autonomie sans indice"
+      ],
+      "feedback": "Ne confonds pas numéro du ruban et longueur : les cm sont la valeur de la suite. Reprends les écarts entre longueurs consécutives.",
+      "difficulte": "transfert",
+      "representation": "longueurs_cm",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": true
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "parametrique",
+      "consigne": "Sans aide, complète la suite des chaises par rangée du jardin, puis écris une règle qui permet de prévoir la rangée suivante. Vérifie les écarts.",
+      "stimulus": "Rangée 1 : 9 chaises; rangée 2 : 13; rangée 3 : 17; rangée 4 : ?; rangée 5 : ?.",
+      "reponse_attendue": "Rangées 4 et 5 : 21 et 25 chaises; règle : partir de 9 et ajouter 4 à chaque rang; contrôle : 13−9=4, 21−17=4, 25−21=4.",
+      "criteres": [
+        "Valeur(s) cachée(s) exacte(s) aux rangs demandés",
+        "Règle complète (premier terme, variation et direction) compatible avec tous les termes visibles",
+        "Justification par au moins deux différences ou calculs successifs"
+      ],
+      "feedback": "Si la valeur est incorrecte, recalcule la différence entre deux termes connus puis vérifie chaque transition; ne saute pas un rang. Si les nombres sont justes mais la règle manque, précise début et ajout/retrait.",
+      "difficulte": "transfert",
+      "representation": "situation_et_nombres",
+      "seed": 1411,
+      "parametres": {
+        "variables": [
+          "a",
+          "d"
+        ],
+        "domaines": {
+          "a_entier_inclusif": [
+            6,
+            16
+          ],
+          "valeur_absolue_d_entier_inclusif": [
+            2,
+            4
+          ],
+          "signe_de_d": 1
+        },
+        "algorithme_de_generation": "À partir de la seed entière s≥0 et des bornes a_min,a_max,d_min,d_max : N=a_max−a_min+1; a=a_min+(s modulo N); m=d_min+(floor(s/N) modulo (d_max−d_min+1)); d=signe_de_d×m. Calculer t(n)=a+(n−1)×d pour n=1..6, sans tirage libre. Remplir exactement les positions indiquées par le gabarit de la famille.",
+        "algorithme_de_correction": "Dériver le pas observé d=t(2)−t(1); reconstruire indépendamment chaque valeur par récurrence u(1)=a, u(n+1)=u(n)+d; contrôler tous les termes visibles et comparer les positions masquées à t(n)=a+(n−1)d. Accepter une règle verbalement équivalente avec valeur de départ.",
+        "formule_mathématique": "t(n)=a+(n−1)d; n entier de 1 à 6",
+        "contraintes": [
+          "a et d entiers",
+          "d non nul",
+          "t(1)..t(5) entiers non négatifs",
+          "un seul pas constant pour les positions montrées",
+          "seed non négative, identité et libellé du contexte figés",
+          "pas de valeurs à virgule ni d’échantillonnage IA libre"
+        ],
+        "variables_instanciees": {
+          "a": 9,
+          "d": 4,
+          "valeurs_rangs_1_a_6": [
+            9,
+            13,
+            17,
+            21,
+            25,
+            29
+          ]
+        },
+        "exemples_verifies": [
+          {
+            "seed": 1411,
+            "variables": {
+              "a": 9,
+              "d": 4
+            },
+            "stimulus": "Rangée 1 : 9 chaises; rangée 2 : 13; rangée 3 : 17; rangée 4 : ?; rangée 5 : ?.",
+            "sorties_attendues": [
+              21,
+              25
+            ],
+            "corrige": "Rangées 4 et 5 : 21 et 25 chaises; règle : partir de 9 et ajouter 4 à chaque rang; contrôle : 13−9=4, 21−17=4, 25−21=4."
+          },
+          {
+            "seed": 1512,
+            "variables": {
+              "a": 11,
+              "d": 4
+            },
+            "stimulus": "Rangée 1 : 11 chaises; rangée 2 : 15; rangée 3 : 19; rangée 4 : ?; rangée 5 : ?.",
+            "sorties_attendues": [
+              23,
+              27
+            ],
+            "corrige": "Rangées 4 et 5 : 23 et 27 chaises; règle : partir de 11 et ajouter 4 à chaque rang; contrôle : 15−11=4, 23−19=4, 27−23=4."
+          }
+        ],
+        "limites_de_variation": "Seuls a et |d| changent selon domaines et seed; signe, rangs masqués, unité, contexte et consigne restent fixés. Les chaînes sont recalculées automatiquement, jamais inventées par le générateur de langue.",
+        "verification": "Deux seeds indiquées, comparaison t(n) en formule directe et calcul par récurrence; contrôles exécutables consignés dans livraison/VALIDATION.md."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": true
+    },
+    {
+      "item_id": "qc-pri-ma-004-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète la suite selon une règle simple que tu énonces et explique si les quatre nombres prouvent une unique prolongation.",
+      "stimulus": "2, 4, 6, 8, __, __. Il n’est pas écrit que la suite doit avoir un pas constant.",
+      "reponse_attendue": "Une réponse valable est 10, 12 sous la règle « commencer à 2 et ajouter toujours 2 »; les écarts entre nombres montrés valent +2. Cette suite finie ne prouve pas que la continuation est unique : une autre règle peut convenir aux quatre premiers termes puis changer après.",
+      "criteres": [
+        "Propose 10 et 12 avec la règle +2 OU une autre continuation complètement définie compatible avec les quatre nombres",
+        "Explique et vérifie sa règle sur tous les termes fournis",
+        "N’affirme pas qu’une courte liste démontre une règle unique"
+      ],
+      "feedback": "Quand la consigne ne garantit pas de pas constant, une règle +2 convient mais n’est pas la seule possible : distingue « règle vérifiée » et « règle prouvée unique ».",
+      "difficulte": "transfert",
+      "representation": "argumentation_sur_la_règle",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    }
+  ]
+}

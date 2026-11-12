@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-fr-015",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Construire des phrases compréhensibles en organisant correctement leurs constituants.",
+    "concepts": [
+      "sujet",
+      "prédicat",
+      "compléments",
+      "syntaxe"
+    ]
+  },
+  "titre_source": "Construction des phrases",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "sujet, prédicat, compléments",
+      "prompt_conceptuel": "Concept d'image pour le cours « Construction des phrases ». Représenter une situation de communication, de lecture ou d’écriture liée à la notion. Mettre en évidence les notions : sujet, prédicat, compléments, syntaxe. L'image doit aider à comprendre l'objectif « Construire des phrases compréhensibles en organisant correctement leurs constituants. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Construction des phrases : sujet, prédicat, compléments.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "sujet, prédicat, compléments",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Construction des phrases » : montrer une situation concrète d’échange ou d’usage de l’écrit où la compétence peut être observée. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter sujet, prédicat, compléments, syntaxe. Cette image sert de point de départ à une activité liée à l'objectif « Construire des phrases compréhensibles en organisant correctement leurs constituants. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Exemples entièrement résolus »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Construction des phrases.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Exemples entièrement résolus",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

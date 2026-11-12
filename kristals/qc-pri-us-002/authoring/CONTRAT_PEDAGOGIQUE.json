@@ -1,0 +1,68 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Lire une carte à l’aide de son titre, sa légende et ses repères.",
+  "concepts": [
+    "orientation",
+    "symbole",
+    "échelle simple",
+    "carte"
+  ],
+  "preuve_attendue": "Localiser des lieux et justifier le parcours entre eux sur une carte.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-002-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Localiser des lieux et justifier le parcours entre eux sur une carte.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-us-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Localiser des lieux et justifier le parcours entre eux sur une carte.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "carte fictive à quadrillage",
+        "flèche N et légende textuelle",
+        "trajet en suite de cases",
+        "explication écrite ou orale transcrite"
+      ],
+      "variables": {
+        "catalogue": "Plans fictifs A–D, F et G dans BANQUE_ITEMS.json; plan E dans contenu/06_REMEDIATION_ET_TRANSFERT.md; règles communes dans contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "scenarios_controles": "q-001 à q-004 et q-007 à q-008; deux variantes finies/complètes par item",
+        "graines": "seed entier stable, indice = seed % 2",
+        "niveaux": "initial, intermediaire, transfert"
+      },
+      "contraintes": [
+        "ne modifier aucun titre/légende/flèche/coordonnée/échelle des plans approuvés sans recalcul et revue",
+        "une case X ou # est impraticable; déplacements horizontaux/verticaux, sans diagonale",
+        "distances = nombre de déplacements multiplié par mètres par déplacement",
+        "réponse argumentée, pas uniquement le lieu ou le total",
+        "deux preuves autonomes q-009 et q-010 en contextes distincts et sans indices",
+        "pas de génération libre de plans, faits ou corrigés"
+      ],
+      "barreme_ou_rubrique": "Voir evaluation/GRILLE_MAITRISE.md; dimensions lecture de carte, parcours, justification, autonomie; deux preuves contextuelles requises.",
+      "source": "Productions originales du Kristal; conventions techniques vérifiées dans REFERENCES_CONTENU.md",
+      "seed": 202600,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

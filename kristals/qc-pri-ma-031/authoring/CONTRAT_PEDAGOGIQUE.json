@@ -1,0 +1,97 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-031",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Lire, créer et critiquer une représentation graphique de données.",
+  "concepts": [
+    "axes",
+    "catégories",
+    "échelle",
+    "diagramme"
+  ],
+  "preuve_attendue": "Produire un diagramme et repérer une interprétation incorrecte.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-030"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-031-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Produire un diagramme et repérer une interprétation incorrecte.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode": "catalogue_fini_deterministe",
+        "algorithme": "index = seed mod 3; hauteur en blocs = effectif // echelle; comparaison chiffrée par lecture des entiers",
+        "catalogues_cibles": [
+          "qc-pri-ma-031-q-005",
+          "qc-pri-ma-031-q-006",
+          "qc-pri-ma-031-q-009",
+          "qc-pri-ma-031-q-010"
+        ],
+        "validation_humaine_requise": true
+      },
+      "review_status": "items_rediges_revue_requise",
+      "kristal_id": "qc-pri-ma-031",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Produire un diagramme et repérer une interprétation incorrecte.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "tableau_d_effectifs",
+        "diagramme_a_bandes_vertical",
+        "diagramme_a_bandes_horizontal",
+        "texte_structure_equivalent"
+      ],
+      "variables": {
+        "variante_index": "index entier du catalogue fermé",
+        "categories": "étiquettes de 3 ou 4 groupes distincts selon item",
+        "effectifs": "entiers positifs bornés dans les catalogues",
+        "echelle": "1 ou 2; effectifs compatibles avec le pas"
+      },
+      "contraintes": [
+        "zéro obligatoire pour les diagrammes à bandes d’effectifs",
+        "pas constant, barres proportionnelles, catégories distinctes",
+        "aucune preuve basée sur la couleur seule",
+        "catalogues finis documentés item par item",
+        "deux preuves autonomes en contextes bibliothèque et atelier, q-009/q-010"
+      ],
+      "barreme_ou_rubrique": {
+        "representation": [
+          "titre, axes, catégories et unités lisibles",
+          "zéro, échelle régulière et hauteurs exactes"
+        ],
+        "critique": [
+          "faux énoncé identifié",
+          "correction appuyée par nombres"
+        ],
+        "autonomie": "deux contextes non identiques, sans indice de solution; aucun verdict par score unique",
+        "regle": "Tous les critères essentiels satisfaits pour les deux preuves; remédiation ciblée sinon."
+      },
+      "source": "production_originale_fictive; méthodologie décrite dans sources/REFERENCES_CONTENU.md",
+      "seed": {
+        "regle": "index = seed % 3",
+        "seeds_items": {
+          "qc-pri-ma-031-q-005": 3105,
+          "qc-pri-ma-031-q-006": 3106,
+          "qc-pri-ma-031-q-009": 3109,
+          "qc-pri-ma-031-q-010": 3110
+        }
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_validation_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

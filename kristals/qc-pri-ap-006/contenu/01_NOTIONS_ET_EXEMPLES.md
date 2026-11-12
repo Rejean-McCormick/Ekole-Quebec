@@ -1,0 +1,24 @@
+# 01 — Notions, exemples et contre-exemples
+
+**Kristal :** `qc-pri-ap-006` | `obj-1` : Créer une image destinée à communiquer à un public précis. **Matériel :** feuilles, crayons non toxiques, papier découpé préparé par un adulte, colle scolaire facultative. Tous les scénarios et dessins décrits sont fictifs et créés pour ce Kristal.
+
+## Les quatre notions opératoires
+1. **Destinataire.** Personne ou groupe que l'affiche vise : « élèves qui découvrent le coin lecture », « personnes utilisant l'atelier ». On adapte vocabulaire, signes et taille au public; une catégorie vague « tout le monde » ne suffit pas lorsque le message cible un groupe. *Test :* pouvoir terminer « Je veux que [public] comprenne [action/information] ».
+2. **Image.** Organisation volontaire de signes visibles sur un support : dessin, formes, pictogramme, couleurs, typographie et vides. Une seule grande forme peut être une image; une abondance d'éléments décoratifs sans intention ne rend pas automatiquement un message lisible. *Test :* décrire l'ordre de lecture et la fonction d'au moins un élément.
+3. **Message.** Idée principale que le public doit retenir ou action attendue. Le message doit être précis (« Range les crayons dans ce pot ») et repérable, plutôt qu'un slogan qui ne donne aucun indice de l'action. *Test :* un pair le reformule sans explication préalable.
+4. **Lisibilité.** Facilité à **repérer et interpréter** le message : taille appropriée à la présentation, contraste fond/signe, espace, hiérarchie, mots courts, symbole identifiable. Elle varie selon distance, support et accès sensoriel. *Test :* une personne du public cible trouve le titre et explique la demande; on peut agrandir ou décrire la présentation pour l'accessibilité.
+
+## Exemple résolu A — Coin lecture (invitation, public jeune)
+**Brief fictif :** inviter les élèves qui commencent à lire à visiter le coin lecture de la classe. **Message :** « VIENS CHOISIR UN LIVRE ». **Image à réaliser :** en haut, ce court titre en lettres larges; au centre, un dessin personnel d'un livre ouvert; en bas, une flèche pointant vers une étiquette « COIN LECTURE ». Fond uni clair et lettres foncées; espace autour du titre. **Raisonnement commenté :** le public lit peu de texte, le livre permet une reconnaissance rapide, la flèche donne un indice spatial. La couleur du livre est libre; le contraste compte plus que la teinte. **Vérification :** montrer l'affiche sans présenter le brief; demander « Que peux-tu faire? Où? ». Si le pair comprend « lire ici » mais non « choisir un livre », ajouter une main qui prend un livre ou renforcer le verbe « CHOISIR ». **Production recevable :** dessin personnel + message court + relevé et décision de révision.
+
+## Exemple résolu B — Atelier partagé (règle d'usage, public utilisateur)
+**Brief fictif :** les personnes qui empruntent des crayons dans un atelier doivent les remettre dans un pot identifié. **Message :** « APRÈS USAGE, RANGE LES CRAYONS ICI ». **Image à réaliser :** titre « RANGE LES CRAYONS », illustration personnelle de trois crayons allant vers un pot étiqueté CRAYONS (flèche épaisse), précision en plus petit « après usage ». **Raisonnement commenté :** l'action est dominante, la flèche guide le geste, le pot est distingué des autres contenants par un mot, pas seulement une couleur. **Vérification :** demander « Qu'est-ce que l'image te demande de faire? Où mets-tu les crayons? ». Si « jeter les crayons » est compris, redessiner la flèche pour qu'elle finisse clairement dans le pot et remplacer une forme ressemblant à une poubelle.
+
+## Contre-exemple C — Affiche décorative ambiguë
+Un cadre recouvert d'étoiles, de 5 dessins de livres et de la seule phrase « SUPER JOURNÉE ! », en tout petit. **Défaillance :** on ne connaît ni l'action, ni le public, ni le lieu. Ce n'est pas « mauvais parce que chargé » : il échoue **relativement au brief A**. **Réparation :** conserver éventuellement une étoile, agrandir « VIENS CHOISIR UN LIVRE », centrer un livre signifiant et ajouter l'indication du coin lecture. Le but n'est pas de proscrire une esthétique.
+
+## Contre-exemple D — Pictogramme trompeur
+Un grand pot noir sans étiquette, avec une flèche partant de crayons vers une forme triangulaire, et une légende presque invisible. **Défaillance :** plusieurs interprétations sont plausibles (ranger, jeter, déplacer); un pair devinant ne prouve rien. **Réparation :** pot de rangement clairement dessiné, mot CRAYONS suffisamment visible et flèche terminée au bon endroit; re-test ouvert.
+
+## Méthode pour comparer deux versions
+Formuler d'abord le public et la demande, faire lire chaque version **sans contexte**, relever mot pour mot ce que le pair comprend et ajuster un élément à la fois. Justifier une adaptation par « je change X parce que le pair a compris Y au lieu de Z ». Aucune bonne note liée à la préférence pour une police, une palette ou un courant artistique.

@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-da-004",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Combiner plusieurs phrases dansées en une composition cohérente.",
+    "concepts": [
+      "enchainement",
+      "contraste",
+      "organisation",
+      "intention"
+    ]
+  },
+  "titre_source": "Organiser une composition dansée",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "enchainement, contraste, organisation",
+      "prompt_conceptuel": "Concept d'image pour le cours « Organiser une composition dansée ». Représenter un espace de danse où mouvement et orientation du corps sont perceptibles. Mettre en évidence les notions : enchainement, contraste, organisation, intention. L'image doit aider à comprendre l'objectif « Combiner plusieurs phrases dansées en une composition cohérente. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Organiser une composition dansée : enchainement, contraste, organisation.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "enchainement, contraste, organisation",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Organiser une composition dansée » : montrer une situation montrant une variation de geste, de rythme ou de déplacement. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter enchainement, contraste, organisation, intention. Cette image sert de point de départ à une activité liée à l'objectif « Combiner plusieurs phrases dansées en une composition cohérente. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « « Une fenêtre s'ouvre » (original) »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Organiser une composition dansée.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "« Une fenêtre s'ouvre » (original)",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

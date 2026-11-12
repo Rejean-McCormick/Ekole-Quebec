@@ -1,0 +1,93 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Classer des matières selon leurs propriétés et leurs états.",
+  "concepts": [
+    "solide",
+    "liquide",
+    "gaz",
+    "matériau",
+    "propriétés"
+  ],
+  "preuve_attendue": "Classer des matériaux inconnus en justifiant deux critères.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-st-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-005-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Classer des matériaux inconnus en justifiant deux critères.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-st-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 : Classer des matériaux inconnus en justifiant deux critères.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiches_observation_textuelles",
+        "tableau_critères",
+        "explication_orale_ou_ecrite"
+      ],
+      "variables": {
+        "scenario_id": {
+          "domaine": [
+            "scenario_fixe_01",
+            "scenario_fixe_02",
+            "maitrise_conservation",
+            "maitrise_documentation"
+          ],
+          "type": "ensemble_ferme_revu"
+        },
+        "modalite_reponse": {
+          "domaine": [
+            "oral",
+            "ecrit",
+            "tableau_dactylographie"
+          ],
+          "type": "adaptation_de_presentation"
+        }
+      },
+      "contraintes": [
+        "Scénarios fixes et corpus fermé; aucune génération libre ni énoncé non vérifié.",
+        "Décrire explicitement les comportements d’état et une propriété distincte; ne pas déduire une composition chimique.",
+        "Gaz seulement en observation décrite dans un récipient clos; aucune expérimentation sous pression.",
+        "Exclure les échantillons ambigus à moins de permettre la réponse « données insuffisantes ».",
+        "Maintenir l’identifiant, la preuve crit-1 et la correspondance obj-1 pour chaque item."
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "classification_justifiee",
+          "deux_criteres_independants_observables",
+          "observation_vers_conclusion",
+          "adaptation_et_securite"
+        ],
+        "decision": "Deux manifestations autonomes dans deux contextes; aucune note isolée ne suffit. Voir evaluation/GRILLE_MAITRISE.md."
+      },
+      "source": [
+        "kristals/qc-pri-st-005/contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "kristals/qc-pri-st-005/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

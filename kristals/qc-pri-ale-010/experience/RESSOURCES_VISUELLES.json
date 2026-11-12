@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ale-010",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Construire des phrases anglaises variées et grammaticalement compréhensibles.",
+    "concepts": [
+      "subject",
+      "verb",
+      "complement",
+      "sentence type"
+    ]
+  },
+  "titre_source": "Construire des phrases en anglais",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "subject, verb, complement",
+      "prompt_conceptuel": "Concept d'image pour le cours « Construire des phrases en anglais ». Représenter une situation d’écoute, de lecture ou de communication en anglais. Mettre en évidence les notions : subject, verb, complement, sentence type. L'image doit aider à comprendre l'objectif « Construire des phrases anglaises variées et grammaticalement compréhensibles. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Construire des phrases en anglais : subject, verb, complement.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "subject, verb, complement",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Construire des phrases en anglais » : montrer une situation d’usage concret de l’anglais où des interlocuteurs cherchent à se comprendre. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter subject, verb, complement, sentence type. Cette image sert de point de départ à une activité liée à l'objectif « Construire des phrases anglaises variées et grammaticalement compréhensibles. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Club de dessin »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Construire des phrases en anglais.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Club de dessin",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+﻿id;discipline_officielle;titre_provisoire;phase_conception;references_suggerees;noyau_initial;statut_des_liens
+qc-pri-fr-001;Français, langue d’enseignement;Conscience phonologique et syllabes;0;;oui;proposition_non_validee
+qc-pri-fr-002;Français, langue d’enseignement;Correspondances graphèmes-phonèmes;1;qc-pri-fr-001;non;proposition_non_validee
+qc-pri-fr-003;Français, langue d’enseignement;Décodage et reconnaissance des mots;2;qc-pri-fr-002;non;proposition_non_validee
+qc-pri-fr-004;Français, langue d’enseignement;Fluidité et expressivité en lecture;3;qc-pri-fr-003;non;proposition_non_validee
+qc-pri-fr-005;Français, langue d’enseignement;Compréhension littérale de textes;3;qc-pri-fr-003;non;proposition_non_validee
+qc-pri-fr-006;Français, langue d’enseignement;Inférences en lecture;4;qc-pri-fr-005;non;proposition_non_validee
+qc-pri-fr-007;Français, langue d’enseignement;Stratégies de compréhension et d’autorégulation;4;qc-pri-fr-005;non;proposition_non_validee
+qc-pri-fr-008;Français, langue d’enseignement;Lire un récit;4;qc-pri-fr-005;non;proposition_non_validee
+qc-pri-fr-009;Français, langue d’enseignement;Lire un texte courant ou documentaire;4;qc-pri-fr-005;non;proposition_non_validee
+qc-pri-fr-010;Français, langue d’enseignement;Réagir aux textes et les apprécier;5;qc-pri-fr-008|qc-pri-fr-009;non;proposition_non_validee
+qc-pri-fr-011;Français, langue d’enseignement;Sens des mots et relations lexicales;0;;oui;proposition_non_validee
+qc-pri-fr-012;Français, langue d’enseignement;Orthographe d’usage;2;qc-pri-fr-002;non;proposition_non_validee
+qc-pri-fr-013;Français, langue d’enseignement;Classes de mots;0;;oui;proposition_non_validee
+qc-pri-fr-014;Français, langue d’enseignement;Groupes de mots et fonctions syntaxiques;1;qc-pri-fr-013;non;proposition_non_validee
+qc-pri-fr-015;Français, langue d’enseignement;Construction des phrases;2;qc-pri-fr-013|qc-pri-fr-014;non;proposition_non_validee
+qc-pri-fr-016;Français, langue d’enseignement;Accords dans le groupe nominal;2;qc-pri-fr-013|qc-pri-fr-014;non;proposition_non_validee
+qc-pri-fr-017;Français, langue d’enseignement;Accord du verbe avec le sujet;2;qc-pri-fr-013|qc-pri-fr-014;non;proposition_non_validee
+qc-pri-fr-018;Français, langue d’enseignement;Conjugaison des verbes;1;qc-pri-fr-013;non;proposition_non_validee
+qc-pri-fr-019;Français, langue d’enseignement;Ponctuation et majuscules;3;qc-pri-fr-015;non;proposition_non_validee
+qc-pri-fr-020;Français, langue d’enseignement;Planifier un texte;0;;oui;proposition_non_validee
+qc-pri-fr-021;Français, langue d’enseignement;Rédiger des phrases et des paragraphes;4;qc-pri-fr-015|qc-pri-fr-019;non;proposition_non_validee
+qc-pri-fr-022;Français, langue d’enseignement;Organiser et assurer la cohérence d’un texte;5;qc-pri-fr-021;non;proposition_non_validee
+qc-pri-fr-023;Français, langue d’enseignement;Réviser et corriger un texte;5;qc-pri-fr-021|qc-pri-fr-012|qc-pri-fr-019;non;proposition_non_validee
+qc-pri-fr-024;Français, langue d’enseignement;Comprendre des communications orales;0;;oui;proposition_non_validee
+qc-pri-fr-025;Français, langue d’enseignement;Interagir et écouter activement;1;qc-pri-fr-024;non;proposition_non_validee
+qc-pri-fr-026;Français, langue d’enseignement;Présenter et justifier des idées à l’oral;2;qc-pri-fr-025;non;proposition_non_validee
+qc-pri-ma-001;Mathématique;Dénombrer et représenter des collections;0;;oui;proposition_non_validee
+qc-pri-ma-002;Mathématique;Lire, écrire et comparer des nombres naturels;1;qc-pri-ma-001;non;proposition_non_validee
+qc-pri-ma-003;Mathématique;Valeur de position et regroupements;2;qc-pri-ma-002;non;proposition_non_validee
+qc-pri-ma-004;Mathématique;Suites et régularités numériques;2;qc-pri-ma-002;non;proposition_non_validee
+qc-pri-ma-005;Mathématique;Estimation et arrondissement;3;qc-pri-ma-003;non;proposition_non_validee
+qc-pri-ma-006;Mathématique;Sens et stratégies de l’addition;3;qc-pri-ma-002|qc-pri-ma-003;non;proposition_non_validee
+qc-pri-ma-007;Mathématique;Sens et stratégies de la soustraction;4;qc-pri-ma-002|qc-pri-ma-006;non;proposition_non_validee
+qc-pri-ma-008;Mathématique;Sens et stratégies de la multiplication;4;qc-pri-ma-006|qc-pri-ma-003;non;proposition_non_validee
+qc-pri-ma-009;Mathématique;Sens et stratégies de la division;5;qc-pri-ma-008;non;proposition_non_validee
+qc-pri-ma-010;Mathématique;Calcul mental et propriétés des opérations;5;qc-pri-ma-006|qc-pri-ma-007;non;proposition_non_validee
+qc-pri-ma-011;Mathématique;Algorithmes et vérification des calculs;6;qc-pri-ma-010;non;proposition_non_validee
+qc-pri-ma-012;Mathématique;Fractions : représentations et sens;0;;oui;proposition_non_validee
+qc-pri-ma-013;Mathématique;Fractions : équivalence et comparaison;1;qc-pri-ma-012;non;proposition_non_validee
+qc-pri-ma-014;Mathématique;Fractions : opérations selon la progression;2;qc-pri-ma-013;non;proposition_non_validee
+qc-pri-ma-015;Mathématique;Nombres décimaux : représentations;3;qc-pri-ma-003|qc-pri-ma-012;non;proposition_non_validee
+qc-pri-ma-016;Mathématique;Nombres décimaux : comparaison et calculs;4;qc-pri-ma-015;non;proposition_non_validee
+qc-pri-ma-017;Mathématique;Pourcentages et situations de proportionnalité;4;qc-pri-ma-013|qc-pri-ma-015;non;proposition_non_validee
+qc-pri-ma-018;Mathématique;Relations et égalités numériques;0;;non;proposition_non_validee
+qc-pri-ma-019;Mathématique;Situations-problèmes additives;5;qc-pri-ma-006|qc-pri-ma-007;non;proposition_non_validee
+qc-pri-ma-020;Mathématique;Situations-problèmes multiplicatives;6;qc-pri-ma-008|qc-pri-ma-009;non;proposition_non_validee
+qc-pri-ma-021;Mathématique;Positions, déplacements et repérage;0;;oui;proposition_non_validee
+qc-pri-ma-022;Mathématique;Solides et représentations spatiales;1;qc-pri-ma-021;non;proposition_non_validee
+qc-pri-ma-023;Mathématique;Figures planes et propriétés;1;qc-pri-ma-021;non;proposition_non_validee
+qc-pri-ma-024;Mathématique;Droites, angles et symétrie;2;qc-pri-ma-023;non;proposition_non_validee
+qc-pri-ma-025;Mathématique;Longueurs, masses et capacités;0;;oui;proposition_non_validee
+qc-pri-ma-026;Mathématique;Temps et durées;0;;non;proposition_non_validee
+qc-pri-ma-027;Mathématique;Périmètre;2;qc-pri-ma-023|qc-pri-ma-025;non;proposition_non_validee
+qc-pri-ma-028;Mathématique;Aire et unités d’aire;2;qc-pri-ma-023|qc-pri-ma-025;non;proposition_non_validee
+qc-pri-ma-029;Mathématique;Volume et unités de volume;2;qc-pri-ma-022|qc-pri-ma-025;non;proposition_non_validee
+qc-pri-ma-030;Mathématique;Collecter et organiser des données;0;;oui;proposition_non_validee
+qc-pri-ma-031;Mathématique;Lire et produire des diagrammes;1;qc-pri-ma-030;non;proposition_non_validee
+qc-pri-ma-032;Mathématique;Probabilités et événements aléatoires;0;;non;proposition_non_validee
+qc-pri-ma-033;Mathématique;Justifier et communiquer une démarche mathématique;0;;oui;proposition_non_validee
+qc-pri-als-001;Anglais, langue seconde;Comprendre des consignes et des messages oraux;0;;oui;proposition_non_validee
+qc-pri-als-002;Anglais, langue seconde;Reconnaître et utiliser le vocabulaire quotidien;0;;oui;proposition_non_validee
+qc-pri-als-003;Anglais, langue seconde;Comprendre chansons, comptines et histoires entendues;0;;oui;proposition_non_validee
+qc-pri-als-004;Anglais, langue seconde;Prononciation et rythme de l’anglais;0;;oui;proposition_non_validee
+qc-pri-als-005;Anglais, langue seconde;Interagir par formules et questions simples;1;qc-pri-als-001|qc-pri-als-002;non;proposition_non_validee
+qc-pri-als-006;Anglais, langue seconde;Parler d’expériences et de situations familières;2;qc-pri-als-005;non;proposition_non_validee
+qc-pri-als-007;Anglais, langue seconde;Comprendre des textes écrits adaptés;1;qc-pri-als-002;non;proposition_non_validee
+qc-pri-als-008;Anglais, langue seconde;Stratégies de lecture et d’écoute en anglais;2;qc-pri-als-001|qc-pri-als-007;non;proposition_non_validee
+qc-pri-als-009;Anglais, langue seconde;Réinvestir le contenu de textes lus ou entendus;2;qc-pri-als-003|qc-pri-als-007;non;proposition_non_validee
+qc-pri-als-010;Anglais, langue seconde;Produire de courts textes en anglais;2;qc-pri-als-002|qc-pri-als-007;non;proposition_non_validee
+qc-pri-als-011;Anglais, langue seconde;Réviser les productions écrites en anglais;3;qc-pri-als-010;non;proposition_non_validee
+qc-pri-als-012;Anglais, langue seconde;Présenter et échanger en anglais;3;qc-pri-als-005|qc-pri-als-006;non;proposition_non_validee
+qc-pri-st-001;Science et technologie;Observer et formuler des questions scientifiques;0;;oui;proposition_non_validee
+qc-pri-st-002;Science et technologie;Formuler des hypothèses et planifier une investigation;1;qc-pri-st-001;non;proposition_non_validee
+qc-pri-st-003;Science et technologie;Mesurer et recueillir des données;1;qc-pri-st-001;non;proposition_non_validee
+qc-pri-st-004;Science et technologie;Expliquer et communiquer des résultats;2;qc-pri-st-003;non;proposition_non_validee
+qc-pri-st-005;Science et technologie;Propriétés et états de la matière;1;qc-pri-st-001;non;proposition_non_validee
+qc-pri-st-006;Science et technologie;Transformations de la matière;2;qc-pri-st-005;non;proposition_non_validee
+qc-pri-st-007;Science et technologie;Forces et mouvement;1;qc-pri-st-001;non;proposition_non_validee
+qc-pri-st-008;Science et technologie;Énergie et transformations énergétiques;2;qc-pri-st-007;non;proposition_non_validee
+qc-pri-st-009;Science et technologie;Lumière et son;1;qc-pri-st-001;non;proposition_non_validee
+qc-pri-st-010;Science et technologie;Électricité et magnétisme;3;qc-pri-st-008;non;proposition_non_validee
+qc-pri-st-011;Science et technologie;Objets techniques, mécanismes et fonctions;1;qc-pri-st-001;non;proposition_non_validee
+qc-pri-st-012;Science et technologie;Concevoir et fabriquer un objet technique;2;qc-pri-st-011|qc-pri-st-002|qc-pri-st-003;non;proposition_non_validee
+qc-pri-st-013;Science et technologie;Roches, sols et relief;1;qc-pri-st-001;non;proposition_non_validee
+qc-pri-st-014;Science et technologie;Eau et cycle de l’eau;1;qc-pri-st-001;non;proposition_non_validee
+qc-pri-st-015;Science et technologie;Atmosphère et phénomènes météorologiques;2;qc-pri-st-014;non;proposition_non_validee
+qc-pri-st-016;Science et technologie;Terre, Soleil, Lune et système solaire;1;qc-pri-st-001;non;proposition_non_validee
+qc-pri-st-017;Science et technologie;Caractéristiques et classification du vivant;1;qc-pri-st-001;non;proposition_non_validee
+qc-pri-st-018;Science et technologie;Corps humain et besoins vitaux;2;qc-pri-st-017;non;proposition_non_validee
+qc-pri-st-019;Science et technologie;Cycles de vie et adaptations du vivant;2;qc-pri-st-017;non;proposition_non_validee
+qc-pri-st-020;Science et technologie;Habitats, réseaux alimentaires et environnement;3;qc-pri-st-017|qc-pri-st-019;non;proposition_non_validee
+qc-pri-us-001;Géographie, histoire et éducation à la citoyenneté;Se repérer dans le temps et construire une chronologie;0;;oui;proposition_non_validee
+qc-pri-us-002;Géographie, histoire et éducation à la citoyenneté;Lire des cartes et se repérer dans l’espace;0;;oui;proposition_non_validee
+qc-pri-us-003;Géographie, histoire et éducation à la citoyenneté;Caractériser un territoire et ses ressources;1;qc-pri-us-002;non;proposition_non_validee
+qc-pri-us-004;Géographie, histoire et éducation à la citoyenneté;Lire l’organisation d’une société sur son territoire;2;qc-pri-us-002|qc-pri-us-003;non;proposition_non_validee
+qc-pri-us-005;Géographie, histoire et éducation à la citoyenneté;Utiliser et comparer des sources historiques;0;;oui;proposition_non_validee
+qc-pri-us-006;Géographie, histoire et éducation à la citoyenneté;Sociétés autochtones du territoire vers 1500;1;qc-pri-us-001|qc-pri-us-002|qc-pri-us-005;non;proposition_non_validee
+qc-pri-us-007;Géographie, histoire et éducation à la citoyenneté;Sociétés inuites et milieux nordiques;1;qc-pri-us-001|qc-pri-us-002|qc-pri-us-005;non;proposition_non_validee
+qc-pri-us-008;Géographie, histoire et éducation à la citoyenneté;La Nouvelle-France : territoire et société;1;qc-pri-us-001|qc-pri-us-002|qc-pri-us-005;non;proposition_non_validee
+qc-pri-us-009;Géographie, histoire et éducation à la citoyenneté;Rencontres et échanges entre populations;2;qc-pri-us-006|qc-pri-us-008;non;proposition_non_validee
+qc-pri-us-010;Géographie, histoire et éducation à la citoyenneté;Transformations à l’époque britannique;2;qc-pri-us-008;non;proposition_non_validee
+qc-pri-us-011;Géographie, histoire et éducation à la citoyenneté;Industrialisation, urbanisation et transformations sociales;3;qc-pri-us-010;non;proposition_non_validee
+qc-pri-us-012;Géographie, histoire et éducation à la citoyenneté;Québec au XXe siècle;4;qc-pri-us-011;non;proposition_non_validee
+qc-pri-us-013;Géographie, histoire et éducation à la citoyenneté;Québec contemporain et évolution sociale;5;qc-pri-us-012;non;proposition_non_validee
+qc-pri-us-014;Géographie, histoire et éducation à la citoyenneté;Comparer des sociétés et leurs territoires;3;qc-pri-us-003|qc-pri-us-004|qc-pri-us-005;non;proposition_non_validee
+qc-pri-us-015;Géographie, histoire et éducation à la citoyenneté;Comprendre les changements et les continuités historiques;2;qc-pri-us-001|qc-pri-us-005|qc-pri-us-008;non;proposition_non_validee
+qc-pri-us-016;Géographie, histoire et éducation à la citoyenneté;Diversité culturelle et héritages des sociétés;2;qc-pri-us-005|qc-pri-us-006|qc-pri-us-007;non;proposition_non_validee
+qc-pri-ccq-001;Culture et citoyenneté québécoise;Conscience de soi et construction identitaire;0;;non;proposition_non_validee
+qc-pri-ccq-002;Culture et citoyenneté québécoise;Relations entre humains;0;;non;proposition_non_validee
+qc-pri-ccq-003;Culture et citoyenneté québécoise;Quête de sens;0;;non;proposition_non_validee
+qc-pri-ccq-004;Culture et citoyenneté québécoise;Relations entre humains et environnement;0;;non;proposition_non_validee
+qc-pri-ccq-005;Culture et citoyenneté québécoise;Médias et vie numérique;0;;non;proposition_non_validee
+qc-pri-ccq-006;Culture et citoyenneté québécoise;Observer et décrire des réalités culturelles;0;;oui;proposition_non_validee
+qc-pri-ccq-007;Culture et citoyenneté québécoise;Comparer les réalités culturelles et les points de vue;1;qc-pri-ccq-006;non;proposition_non_validee
+qc-pri-ccq-008;Culture et citoyenneté québécoise;Dialoguer et écouter avec respect;0;;oui;proposition_non_validee
+qc-pri-ccq-009;Culture et citoyenneté québécoise;Réfléchir de façon critique et éthique;2;qc-pri-ccq-007|qc-pri-ccq-008;non;proposition_non_validee
+qc-pri-ccq-010;Culture et citoyenneté québécoise;Éducation à la sexualité : contenus prescrits et adaptés à l’âge;0;;non;proposition_non_validee
+qc-pri-ccq-011;Culture et citoyenneté québécoise;Réalités et perspectives des Premiers Peuples;1;qc-pri-ccq-006;non;proposition_non_validee
+qc-pri-eps-001;Éducation physique et à la santé;Conscience corporelle et schéma corporel;0;;oui;proposition_non_validee
+qc-pri-eps-002;Éducation physique et à la santé;Locomotion et déplacements;1;qc-pri-eps-001;non;proposition_non_validee
+qc-pri-eps-003;Éducation physique et à la santé;Équilibre et coordination;1;qc-pri-eps-001;non;proposition_non_validee
+qc-pri-eps-004;Éducation physique et à la santé;Manipulation d’objets et habiletés motrices;1;qc-pri-eps-001;non;proposition_non_validee
+qc-pri-eps-005;Éducation physique et à la santé;Actions et enchaînements moteurs;2;qc-pri-eps-002|qc-pri-eps-003|qc-pri-eps-004;non;proposition_non_validee
+qc-pri-eps-006;Éducation physique et à la santé;Jeux coopératifs et opposition;2;qc-pri-eps-002|qc-pri-eps-004|qc-pri-eps-008;non;proposition_non_validee
+qc-pri-eps-007;Éducation physique et à la santé;Stratégies d’action collective;3;qc-pri-eps-006;non;proposition_non_validee
+qc-pri-eps-008;Éducation physique et à la santé;Sécurité et prévention des blessures;0;;oui;proposition_non_validee
+qc-pri-eps-009;Éducation physique et à la santé;Condition physique et effort;1;qc-pri-eps-001|qc-pri-eps-008;non;proposition_non_validee
+qc-pri-eps-010;Éducation physique et à la santé;Habitudes de vie actives;2;qc-pri-eps-009|qc-pri-eps-011;non;proposition_non_validee
+qc-pri-eps-011;Éducation physique et à la santé;Santé, repos, hygiène et bien-être;0;;oui;proposition_non_validee
+qc-pri-eps-012;Éducation physique et à la santé;Autoévaluation d’une pratique physique;3;qc-pri-eps-009|qc-pri-eps-010;non;proposition_non_validee
+qc-pri-ap-001;Arts plastiques;Observer formes, lignes, couleurs et textures;0;;oui;proposition_non_validee
+qc-pri-ap-002;Arts plastiques;Expérimenter les gestes et techniques plastiques;0;;oui;proposition_non_validee
+qc-pri-ap-003;Arts plastiques;Composer dans l’espace et sur un support;1;qc-pri-ap-001|qc-pri-ap-002;non;proposition_non_validee
+qc-pri-ap-004;Arts plastiques;Choisir des matériaux et procédés de création;1;qc-pri-ap-002;non;proposition_non_validee
+qc-pri-ap-005;Arts plastiques;Créer des images personnelles;2;qc-pri-ap-003|qc-pri-ap-004;non;proposition_non_validee
+qc-pri-ap-006;Arts plastiques;Créer des images médiatiques;2;qc-pri-ap-003|qc-pri-ap-004;non;proposition_non_validee
+qc-pri-ap-007;Arts plastiques;Analyser les éléments d’une œuvre visuelle;1;qc-pri-ap-001;non;proposition_non_validee
+qc-pri-ap-008;Arts plastiques;Apprécier des œuvres et exprimer sa perception;2;qc-pri-ap-007;non;proposition_non_validee
+qc-pri-ap-009;Arts plastiques;Présenter et expliquer sa démarche artistique;3;qc-pri-ap-005;non;proposition_non_validee
+qc-pri-ad-001;Art dramatique;Explorer corps, voix et espace scénique;0;;oui;proposition_non_validee
+qc-pri-ad-002;Art dramatique;Découvrir personnages et situations dramatiques;0;;oui;proposition_non_validee
+qc-pri-ad-003;Art dramatique;Improviser en interaction;1;qc-pri-ad-001|qc-pri-ad-002;non;proposition_non_validee
+qc-pri-ad-004;Art dramatique;Créer une séquence dramatique;2;qc-pri-ad-003;non;proposition_non_validee
+qc-pri-ad-005;Art dramatique;Organiser une mise en scène simple;3;qc-pri-ad-004;non;proposition_non_validee
+qc-pri-ad-006;Art dramatique;Interpréter un rôle;1;qc-pri-ad-001|qc-pri-ad-002;non;proposition_non_validee
+qc-pri-ad-007;Art dramatique;Observer une œuvre ou une représentation théâtrale;0;;oui;proposition_non_validee
+qc-pri-ad-008;Art dramatique;Apprécier une représentation et argumenter;1;qc-pri-ad-007;non;proposition_non_validee
+qc-pri-ad-009;Art dramatique;Présenter et analyser sa démarche dramatique;3;qc-pri-ad-004|qc-pri-ad-006;non;proposition_non_validee
+qc-pri-da-001;Danse;Explorer le corps et le mouvement;0;;oui;proposition_non_validee
+qc-pri-da-002;Danse;Explorer espace, temps et énergie en mouvement;1;qc-pri-da-001;non;proposition_non_validee
+qc-pri-da-003;Danse;Créer une phrase chorégraphique;2;qc-pri-da-002;non;proposition_non_validee
+qc-pri-da-004;Danse;Organiser une composition dansée;3;qc-pri-da-003;non;proposition_non_validee
+qc-pri-da-005;Danse;Improviser seul ou en groupe;2;qc-pri-da-001|qc-pri-da-002;non;proposition_non_validee
+qc-pri-da-006;Danse;Interpréter une danse;3;qc-pri-da-002|qc-pri-da-003;non;proposition_non_validee
+qc-pri-da-007;Danse;Observer des œuvres chorégraphiques;0;;oui;proposition_non_validee
+qc-pri-da-008;Danse;Apprécier et comparer des œuvres chorégraphiques;1;qc-pri-da-007;non;proposition_non_validee
+qc-pri-da-009;Danse;Présenter et expliquer sa démarche en danse;4;qc-pri-da-004|qc-pri-da-006;non;proposition_non_validee
+qc-pri-mu-001;Musique;Percevoir les sons, leurs qualités et les silences;0;;oui;proposition_non_validee
+qc-pri-mu-002;Musique;Explorer pulsation, rythme et durée;1;qc-pri-mu-001;non;proposition_non_validee
+qc-pri-mu-003;Musique;Explorer hauteur, mélodie et harmonie;1;qc-pri-mu-001;non;proposition_non_validee
+qc-pri-mu-004;Musique;Découvrir timbres et instruments;1;qc-pri-mu-001;non;proposition_non_validee
+qc-pri-mu-005;Musique;Explorer voix et techniques vocales;1;qc-pri-mu-001;non;proposition_non_validee
+qc-pri-mu-006;Musique;Inventer une pièce vocale ou instrumentale;2;qc-pri-mu-002|qc-pri-mu-003|qc-pri-mu-004;non;proposition_non_validee
+qc-pri-mu-007;Musique;Interpréter seul ou en ensemble;2;qc-pri-mu-002|qc-pri-mu-003|qc-pri-mu-005;non;proposition_non_validee
+qc-pri-mu-008;Musique;Écouter et analyser des œuvres musicales;1;qc-pri-mu-001;non;proposition_non_validee
+qc-pri-mu-009;Musique;Apprécier des œuvres et justifier son appréciation;2;qc-pri-mu-008;non;proposition_non_validee
+qc-pri-ale-001;Anglais, langue d’enseignement;Conscience phonologique en anglais;0;;oui;proposition_non_validee
+qc-pri-ale-002;Anglais, langue d’enseignement;Phonics et décodage;1;qc-pri-ale-001;non;proposition_non_validee
+qc-pri-ale-003;Anglais, langue d’enseignement;Lire avec fluidité en anglais;2;qc-pri-ale-002;non;proposition_non_validee
+qc-pri-ale-004;Anglais, langue d’enseignement;Comprendre des textes narratifs;3;qc-pri-ale-003;non;proposition_non_validee
+qc-pri-ale-005;Anglais, langue d’enseignement;Comprendre des textes informatifs;3;qc-pri-ale-003;non;proposition_non_validee
+qc-pri-ale-006;Anglais, langue d’enseignement;Inférences et interprétation en lecture;4;qc-pri-ale-004|qc-pri-ale-005;non;proposition_non_validee
+qc-pri-ale-007;Anglais, langue d’enseignement;Apprécier la littérature de langue anglaise;4;qc-pri-ale-004;non;proposition_non_validee
+qc-pri-ale-008;Anglais, langue d’enseignement;Vocabulaire et morphologie anglaise;0;;oui;proposition_non_validee
+qc-pri-ale-009;Anglais, langue d’enseignement;Orthographe et conventions de l’écrit en anglais;2;qc-pri-ale-002;non;proposition_non_validee
+qc-pri-ale-010;Anglais, langue d’enseignement;Construire des phrases en anglais;3;qc-pri-ale-008|qc-pri-ale-009;non;proposition_non_validee
+qc-pri-ale-011;Anglais, langue d’enseignement;Planifier et produire des textes en anglais;4;qc-pri-ale-010;non;proposition_non_validee
+qc-pri-ale-012;Anglais, langue d’enseignement;Réviser ses textes en anglais;5;qc-pri-ale-011;non;proposition_non_validee
+qc-pri-ale-013;Anglais, langue d’enseignement;Écouter et comprendre des échanges;0;;oui;proposition_non_validee
+qc-pri-ale-014;Anglais, langue d’enseignement;Parler, interagir et présenter à l’oral;1;qc-pri-ale-013;non;proposition_non_validee
+qc-pri-fls-001;Français, langue seconde;Comprendre des messages oraux en français;0;;oui;proposition_non_validee
+qc-pri-fls-002;Français, langue seconde;Vocabulaire et expressions usuelles en français;0;;oui;proposition_non_validee
+qc-pri-fls-003;Français, langue seconde;Prononciation et conscience des sons du français;0;;oui;proposition_non_validee
+qc-pri-fls-004;Français, langue seconde;Interagir dans des situations familières en français;1;qc-pri-fls-001|qc-pri-fls-002;non;proposition_non_validee
+qc-pri-fls-005;Français, langue seconde;Développer l’interaction et la prise de parole;2;qc-pri-fls-004;non;proposition_non_validee
+qc-pri-fls-006;Français, langue seconde;Lire et comprendre des textes adaptés en français;1;qc-pri-fls-002|qc-pri-fls-003;non;proposition_non_validee
+qc-pri-fls-007;Français, langue seconde;Réinvestir des informations lues et entendues;2;qc-pri-fls-001|qc-pri-fls-006;non;proposition_non_validee
+qc-pri-fls-008;Français, langue seconde;Construire et écrire des phrases en français;1;qc-pri-fls-002|qc-pri-fls-003;non;proposition_non_validee
+qc-pri-fls-009;Français, langue seconde;Produire des textes adaptés en français;2;qc-pri-fls-008|qc-pri-fls-006;non;proposition_non_validee
+qc-pri-fls-010;Français, langue seconde;Réviser et améliorer les productions en français;3;qc-pri-fls-009;non;proposition_non_validee
+qc-pri-fls-011;Français, langue seconde;Découvrir et interpréter des références culturelles francophones;2;qc-pri-fls-006;non;proposition_non_validee
+qc-pri-fls-012;Français, langue seconde;Réaliser des projets de communication en français;3;qc-pri-fls-005|qc-pri-fls-009;non;proposition_non_validee
+qc-pri-ilss-001;Intégration linguistique, scolaire et sociale;Comprendre les routines et consignes scolaires;0;;oui;proposition_non_validee
+qc-pri-ilss-002;Intégration linguistique, scolaire et sociale;Interagir oralement dans la classe;1;qc-pri-ilss-001|qc-pri-ilss-003;non;proposition_non_validee
+qc-pri-ilss-003;Intégration linguistique, scolaire et sociale;Développer le vocabulaire scolaire essentiel;0;;oui;proposition_non_validee
+qc-pri-ilss-004;Intégration linguistique, scolaire et sociale;Comprendre des échanges et documents de la vie quotidienne;1;qc-pri-ilss-001|qc-pri-ilss-003;non;proposition_non_validee
+qc-pri-ilss-005;Intégration linguistique, scolaire et sociale;Entrer dans la lecture en français selon le palier;1;qc-pri-ilss-003;non;proposition_non_validee
+qc-pri-ilss-006;Intégration linguistique, scolaire et sociale;Lire et comprendre des textes scolaires;2;qc-pri-ilss-005|qc-pri-ilss-003;non;proposition_non_validee
+qc-pri-ilss-007;Intégration linguistique, scolaire et sociale;Écrire des messages et textes fonctionnels;2;qc-pri-ilss-003|qc-pri-ilss-005;non;proposition_non_validee
+qc-pri-ilss-008;Intégration linguistique, scolaire et sociale;Produire des textes scolaires progressifs;3;qc-pri-ilss-006|qc-pri-ilss-007;non;proposition_non_validee
+qc-pri-ilss-009;Intégration linguistique, scolaire et sociale;Connaître les codes et pratiques de la vie scolaire;0;;oui;proposition_non_validee
+qc-pri-ilss-010;Intégration linguistique, scolaire et sociale;Participer à la vie sociale et culturelle du milieu;2;qc-pri-ilss-002|qc-pri-ilss-009;non;proposition_non_validee

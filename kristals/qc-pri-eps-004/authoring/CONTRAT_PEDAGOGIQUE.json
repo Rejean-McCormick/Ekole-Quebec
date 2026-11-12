@@ -1,0 +1,93 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Contrôler un objet en lançant, recevant, frappant ou conduisant selon le contexte.",
+  "concepts": [
+    "coordination œil-main",
+    "manipulation",
+    "contrôle"
+  ],
+  "preuve_attendue": "Réaliser plusieurs essais mesurables avec ajustement de la technique.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-eps-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-004-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Réaliser plusieurs essais mesurables avec ajustement de la technique.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "options listées dans la banque et validées avant épreuve; même matériel/cible au sein des séries, trace de toute adaptation",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-eps-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Réaliser plusieurs essais mesurables avec ajustement de la technique.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "performance motrice supervisée",
+        "grille descriptive de 4 essais par série",
+        "repères visuels, tactiles ou auditifs accessibles"
+      ],
+      "variables": {
+        "mode": "fixe_ou_scenario_controle",
+        "gestes_permis": [
+          "lancer",
+          "recevoir",
+          "frapper_doucement",
+          "conduire"
+        ],
+        "series_par_preuve": 2,
+        "essais_par_serie": 4,
+        "materiel": [
+          "balle de mousse de taille accessible",
+          "sac souple de grains scellé non petit",
+          "foulard de tissu"
+        ],
+        "choix_adaptation": "enseignant valide et consigne la modalité avant le début de la preuve"
+      },
+      "contraintes": [
+        "surface stable, zone libre, matériel mou et non allergène connu",
+        "aucun projectile dur ni lancer vers une personne",
+        "supervision active et arrêt immédiat si risque, douleur ou malaise",
+        "difficulté et cible restent identiques à travers les deux séries d’une même preuve",
+        "un seul réglage technique entre les deux séries; aucun guidage moteur pendant les essais évalués",
+        "ne pas évaluer morphologie, force brute, vitesse ni succès isolé"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "sécurité",
+          "choix_de_geste_et_repere",
+          "controle_documente",
+          "ajustement_explicite",
+          "autonomie_et_transfert"
+        ],
+        "decision": "deux preuves satisfaisantes en contextes distincts, jamais un score unique"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

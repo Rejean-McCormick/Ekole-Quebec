@@ -1,0 +1,504 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ad-002",
+  "family_id": "qc-pri-ad-002-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "modalite_guide": "observation_ou_production",
+  "items": [
+    {
+      "item_id": "qc-pri-ad-002-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "fixe",
+      "titre": "Lire une entrée jouée",
+      "consigne": "Nomme un personnage possible, son intention, la relation et le lieu. Rejoue avec figurine un bref début de la même situation en rendant perceptibles au moins deux indices, puis justifie un indice.",
+      "stimulus": "Observation d’une mini-scène fictionnelle par l’adulte : dans un kiosque imaginaire, une figurine arrive avec une étiquette « retour », tend une boîte au comptoir et dit « Je rapporte les décorations pour le rangement ».",
+      "reponse_attendue": "Performance recevable : figurine d’une personne chargée du retour des décorations, qui apporte la boîte et s’adresse à la personne du kiosque pour la remettre. Justification : boîte + phrase « Je rapporte » indiquent le but. Ne pas attribuer une identité réelle à l’interprète.",
+      "criteres": [
+        "Décrire une observation de la scène initiale sans la confondre avec l’inférence.",
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "initial",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "fixe",
+      "titre": "Un billet à transmettre",
+      "consigne": "Improviser une entrée de 15–30 s avec un geste utile et une adresse claire; ensuite expliquer ce que le public peut inférer du personnage.",
+      "stimulus": "Dans un bureau scolaire entièrement fictif, un messager imaginaire doit faire parvenir une invitation à la personne qui organise une exposition.",
+      "reponse_attendue": "Exemple recevable : entrer, présenter une invitation imaginaire à l’organisatrice ou à l’organisateur, dire « Voici la lettre pour l’exposition ». Le rôle de messager, son intention de remettre un billet et sa relation à la personne organisatrice se lisent dans l’action. Autres choix cohérents recevables.",
+      "criteres": [
+        "Le geste ou la réplique permet de repérer le destinataire.",
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "initial",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Carte à variantes : demander ou signaler",
+      "consigne": "Joue l’entrée du personnage annoncé dans la carte retenue; fais comprendre le problème ou la demande, adresse-toi à la bonne personne fictive, puis nomme un indice précis.",
+      "stimulus": "Variante B : à la salle de maquettes fictive, une personne responsable de l’éclairage entre pour signaler qu’une lampe symbolique est éteinte. Une collègue imaginaire attend.",
+      "reponse_attendue": "Une entrée qui regarde une lampe imaginaire puis prévient la collègue; explication du regard ou des paroles. Personnage : responsable de l’éclairage; intention : signaler un problème; relation : collègue; situation : salle de maquettes.",
+      "criteres": [
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "intermediaire",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": 2403,
+      "parametres": {
+        "variables": {
+          "variante": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          }
+        },
+        "contraintes": "Seulement les deux variantes fictives pré-rédigées; aucune substitution de personnage, intention ou situation par génération libre.",
+        "algorithme": "Sélection déterministe : index = seed % 2 ; recopier conjointement stimulus et reponse_attendue de variantes[index]; appliquer la grille commune; seed fixe dans cet item.",
+        "variantes": [
+          {
+            "index": 0,
+            "stimulus": "Variante A : à la serre imaginaire, une personne chargée des plantes entre pour demander où placer un pot destiné à la vitrine. La personne responsable est hors scène.",
+            "reponse_attendue": "Une entrée qui montre ou désigne le pot et demande son emplacement à la personne responsable; explication de ce signe. Personnage responsable des plantes; intention : obtenir l’emplacement; relation : responsable de la serre; situation : vitrine à préparer."
+          },
+          {
+            "index": 1,
+            "stimulus": "Variante B : à la salle de maquettes fictive, une personne responsable de l’éclairage entre pour signaler qu’une lampe symbolique est éteinte. Une collègue imaginaire attend.",
+            "reponse_attendue": "Une entrée qui regarde une lampe imaginaire puis prévient la collègue; explication du regard ou des paroles. Personnage : responsable de l’éclairage; intention : signaler un problème; relation : collègue; situation : salle de maquettes."
+          }
+        ],
+        "index_selectionne": 1,
+        "verification_exemples": [
+          {
+            "seed": 2402,
+            "index": 0,
+            "stimulus": "Variante A : à la serre imaginaire, une personne chargée des plantes entre pour demander où placer un pot destiné à la vitrine. La personne responsable est hors scène.",
+            "reponse_attendue": "Une entrée qui montre ou désigne le pot et demande son emplacement à la personne responsable; explication de ce signe. Personnage responsable des plantes; intention : obtenir l’emplacement; relation : responsable de la serre; situation : vitrine à préparer."
+          },
+          {
+            "seed": 2403,
+            "index": 1,
+            "stimulus": "Variante B : à la salle de maquettes fictive, une personne responsable de l’éclairage entre pour signaler qu’une lampe symbolique est éteinte. Une collègue imaginaire attend.",
+            "reponse_attendue": "Une entrée qui regarde une lampe imaginaire puis prévient la collègue; explication du regard ou des paroles. Personnage : responsable de l’éclairage; intention : signaler un problème; relation : collègue; situation : salle de maquettes."
+          }
+        ],
+        "limites_de_variation": "Tâches/critères inchangés; variantes de corpus fermé, revue humaine avant usage réel."
+      },
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "fixe",
+      "titre": "La relation visible",
+      "consigne": "Réalise une mini-entrée qui montre à qui le personnage s’adresse. Explique comment le public reconnaît cette relation de travail sans contact réel.",
+      "stimulus": "Dans un petit théâtre inventé, une figurine « responsable des décors » entre et cherche la personne qui pourra recevoir une maquette. Il y a un comptoir marqué « atelier » sur le plan.",
+      "reponse_attendue": "Figurine orientée vers le comptoir, présentant une maquette imaginaire à la collègue ou au collègue et demandant « Où dois-je laisser cette maquette? ». La relation découle de la demande dirigée, pas d’un stéréotype de métier.",
+      "criteres": [
+        "Une adresse observable fait exister la relation dramatique sans qu’un second élève soit obligé de jouer.",
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "intermediaire",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Carte à variantes : trouver une solution",
+      "consigne": "Improviser une entrée courte, montrer le problème fictif, donner un but et diriger une demande. Nommer ensuite le détail du jeu qui a renseigné le spectateur.",
+      "stimulus": "Variante A : au kiosque de cartes imaginaire, une personne chargée de l’accueil entre parce qu’elle ne trouve plus le plan à offrir au public; le partenaire de kiosque est fictif.",
+      "reponse_attendue": "Cherche un plan à l’emplacement symbolique, s’adresse au partenaire pour en demander un autre; nomme geste et intention. Situation et relation intelligibles.",
+      "criteres": [
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "intermediaire",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": 2404,
+      "parametres": {
+        "variables": {
+          "variante": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          }
+        },
+        "contraintes": "Seulement les deux variantes fictives pré-rédigées; aucune substitution de personnage, intention ou situation par génération libre.",
+        "algorithme": "Sélection déterministe : index = seed % 2 ; recopier conjointement stimulus et reponse_attendue de variantes[index]; appliquer la grille commune; seed fixe dans cet item.",
+        "variantes": [
+          {
+            "index": 0,
+            "stimulus": "Variante A : au kiosque de cartes imaginaire, une personne chargée de l’accueil entre parce qu’elle ne trouve plus le plan à offrir au public; le partenaire de kiosque est fictif.",
+            "reponse_attendue": "Cherche un plan à l’emplacement symbolique, s’adresse au partenaire pour en demander un autre; nomme geste et intention. Situation et relation intelligibles."
+          },
+          {
+            "index": 1,
+            "stimulus": "Variante B : dans une salle de jeux fictive, la responsable des jetons entre parce qu’un récipient est vide et souhaite demander une nouvelle boîte à un collègue imaginaire.",
+            "reponse_attendue": "Montre le contenant vide ou son emplacement, demande une boîte à un collègue; justifie que ce signe fait comprendre l’intention. Aucun matériel réel nécessaire."
+          }
+        ],
+        "index_selectionne": 0,
+        "verification_exemples": [
+          {
+            "seed": 2404,
+            "index": 0,
+            "stimulus": "Variante A : au kiosque de cartes imaginaire, une personne chargée de l’accueil entre parce qu’elle ne trouve plus le plan à offrir au public; le partenaire de kiosque est fictif.",
+            "reponse_attendue": "Cherche un plan à l’emplacement symbolique, s’adresse au partenaire pour en demander un autre; nomme geste et intention. Situation et relation intelligibles."
+          },
+          {
+            "seed": 2405,
+            "index": 1,
+            "stimulus": "Variante B : dans une salle de jeux fictive, la responsable des jetons entre parce qu’un récipient est vide et souhaite demander une nouvelle boîte à un collègue imaginaire.",
+            "reponse_attendue": "Montre le contenant vide ou son emplacement, demande une boîte à un collègue; justifie que ce signe fait comprendre l’intention. Aucun matériel réel nécessaire."
+          }
+        ],
+        "limites_de_variation": "Tâches/critères inchangés; variantes de corpus fermé, revue humaine avant usage réel."
+      },
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "fixe",
+      "titre": "Deux intentions, un même personnage",
+      "consigne": "Joue deux microentrées distinctes avec un même personnage. Change au moins un geste ou une réplique pour signifier l’intention différente, puis compare ces indices.",
+      "stimulus": "Dans une bibliothèque inventée, une personne responsable du comptoir effectue deux entrées : dans la première elle veut trouver une fiche; dans la seconde elle veut annoncer que le livre réservé est disponible.",
+      "reponse_attendue": "Version 1 possible : consulter des fiches et demander « Où est la fiche? »; version 2 : présenter le livre et appeler la personne qui l’a réservé. Les deux buts sont distincts et reconnus par une action ou une adresse pertinente.",
+      "criteres": [
+        "Les deux entrées expriment deux intentions différentes sans confondre la constance du rôle.",
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "intermediaire",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Carte à variantes : faire apparaître le cadre",
+      "consigne": "À partir de la carte choisie, réalise une entrée où une action et une courte adresse révèlent le lieu et ce qui vient de se produire. Explique le signe choisi.",
+      "stimulus": "Variante A : dans une galerie imaginaire, la personne de l’accueil entre après qu’une affiche est tombée, pour demander une attache au collègue fictif.",
+      "reponse_attendue": "Regarde l’emplacement de l’affiche tombée, mime le geste de la ramasser puis demande une attache au collègue : galerie, problème et intention sont perceptibles.",
+      "criteres": [
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "intermediaire",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": 2410,
+      "parametres": {
+        "variables": {
+          "variante": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          }
+        },
+        "contraintes": "Seulement les deux variantes fictives pré-rédigées; aucune substitution de personnage, intention ou situation par génération libre.",
+        "algorithme": "Sélection déterministe : index = seed % 2 ; recopier conjointement stimulus et reponse_attendue de variantes[index]; appliquer la grille commune; seed fixe dans cet item.",
+        "variantes": [
+          {
+            "index": 0,
+            "stimulus": "Variante A : dans une galerie imaginaire, la personne de l’accueil entre après qu’une affiche est tombée, pour demander une attache au collègue fictif.",
+            "reponse_attendue": "Regarde l’emplacement de l’affiche tombée, mime le geste de la ramasser puis demande une attache au collègue : galerie, problème et intention sont perceptibles."
+          },
+          {
+            "index": 1,
+            "stimulus": "Variante B : à un festival fictif de maquettes, une organisatrice ou un organisateur entre lorsque la table d’inscription est déplacée, pour avertir l’équipe imaginaire.",
+            "reponse_attendue": "Montre l’ancien emplacement de la table puis appelle l’équipe pour annoncer le déplacement; situation et intention lisibles, sans course ni vrai mobilier."
+          }
+        ],
+        "index_selectionne": 0,
+        "verification_exemples": [
+          {
+            "seed": 2410,
+            "index": 0,
+            "stimulus": "Variante A : dans une galerie imaginaire, la personne de l’accueil entre après qu’une affiche est tombée, pour demander une attache au collègue fictif.",
+            "reponse_attendue": "Regarde l’emplacement de l’affiche tombée, mime le geste de la ramasser puis demande une attache au collègue : galerie, problème et intention sont perceptibles."
+          },
+          {
+            "seed": 2411,
+            "index": 1,
+            "stimulus": "Variante B : à un festival fictif de maquettes, une organisatrice ou un organisateur entre lorsque la table d’inscription est déplacée, pour avertir l’équipe imaginaire.",
+            "reponse_attendue": "Montre l’ancien emplacement de la table puis appelle l’équipe pour annoncer le déplacement; situation et intention lisibles, sans course ni vrai mobilier."
+          }
+        ],
+        "limites_de_variation": "Tâches/critères inchangés; variantes de corpus fermé, revue humaine avant usage réel."
+      },
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "fixe",
+      "titre": "Corriger une entrée confuse",
+      "consigne": "Explique précisément ce qui manque, puis transforme la scène en une entrée claire de personnage dans un atelier de costumes imaginaire, sans emprunter d’identité personnelle.",
+      "stimulus": "Scène initiale fictive jouée par l’adulte : une figurine traverse une page représentant une salle sans objet, sans regard adressé et sans intention indiquée. On ne sait pas quel rôle elle joue.",
+      "reponse_attendue": "Diagnostic : pas de but ni de situation reconnaissables. Correction possible : figurine de la personne chargée des costumes qui apporte une étiquette à une collègue et dit « Cette étiquette est pour le manteau de la scène ». Autres actions compréhensibles acceptées.",
+      "criteres": [
+        "Nommer au moins un manque observable et y répondre par un signe dramatique fonctionnel.",
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "intermediaire",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "fixe",
+      "titre": "Preuve A — bibliothèque imaginaire",
+      "consigne": "Sans aide individualisée, prépare et improvise une entrée de 15–40 s. Fais comprendre QUI entre, CE QU’IL/ELLE CHERCHE, POURQUOI il/elle s’adresse au collègue, puis identifie un indice que tu as volontairement joué.",
+      "stimulus": "PREUVE DE MAÎTRISE A (contexte bibliothèque fictive). Une personne chargée de l’accueil découvre qu’un document réservé n’est pas au comptoir. Le personnage entre pour en parler à la collègue ou au collègue imaginaire.",
+      "reponse_attendue": "Rubrique, non réplique imposée : rôle d’accueil reconnaissable; recherche du document montrée par regard, vérification de fiche ou demande; collègue fictif clairement interpellé; bibliothèque/ouvrage réservé perceptibles; auto-explication d’un geste ou d’une parole. Toute réalisation sécuritaire équivalente, y compris avec figurine, est recevable.",
+      "criteres": [
+        "Aucune aide sur l’intention et le jeu pendant la prestation : noter l’aide éventuelle comme invalidant l’autonomie.",
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "transfert",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)",
+      "preuve_de_maitrise": "A — entrée autonome à la bibliothèque"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "fixe",
+      "titre": "Preuve B — atelier de réparation fictif",
+      "consigne": "Sans aide individualisée, improvise une entrée de 15–40 s dans ce deuxième contexte. Rends le personnage et sa demande compréhensibles, puis explique un signe du jeu.",
+      "stimulus": "PREUVE DE MAÎTRISE B (contexte technique fictif). Un personnage chargé d’organiser un atelier de réparation de jouets imaginaires apprend qu’une pièce de maquette manque; il entre pour prévenir son équipe fictive et demander un remplacement symbolique. Aucun vrai outil.",
+      "reponse_attendue": "Rubrique, non réplique imposée : rôle d’organisateur d’atelier identifiable; geste vérifiant la maquette ou désignant une case vide; intention d’alerter/demander une pièce; relation dirigée vers l’équipe fictive; cadre d’atelier reconnaissable; explication d’un indice. Version assise/figurine recevable.",
+      "criteres": [
+        "Même grille essentielle que q-009; scènes distinctes, aucun script appris par cœur requis.",
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "transfert",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)",
+      "preuve_de_maitrise": "B — entrée autonome dans un atelier"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Carte à variantes : nouvelle relation",
+      "consigne": "Joue l’entrée du personnage avec une relation claire à une autre personne fictive, en rendant visible un but. Indique ensuite un indice de relation, sans parler de tes proches réels.",
+      "stimulus": "Variante B : au centre d’exposition fictif, une personne préparant les affiches entre pour remettre un numéro de salle à l’agent d’accueil imaginaire.",
+      "reponse_attendue": "Montre une affiche ou un chiffre symbolique et explique à l’agent d’accueil où placer l’indication; intention et relation perceptibles.",
+      "criteres": [
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "transfert",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": 2421,
+      "parametres": {
+        "variables": {
+          "variante": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          }
+        },
+        "contraintes": "Seulement les deux variantes fictives pré-rédigées; aucune substitution de personnage, intention ou situation par génération libre.",
+        "algorithme": "Sélection déterministe : index = seed % 2 ; recopier conjointement stimulus et reponse_attendue de variantes[index]; appliquer la grille commune; seed fixe dans cet item.",
+        "variantes": [
+          {
+            "index": 0,
+            "stimulus": "Variante A : dans une fabrique imaginaire de jeux, une conceptrice ou un concepteur entre pour faire approuver une nouvelle carte par la personne responsable.",
+            "reponse_attendue": "Présente une carte de jeu imaginaire et s’adresse à la personne responsable pour obtenir un avis ou une approbation; relation et intention perceptibles."
+          },
+          {
+            "index": 1,
+            "stimulus": "Variante B : au centre d’exposition fictif, une personne préparant les affiches entre pour remettre un numéro de salle à l’agent d’accueil imaginaire.",
+            "reponse_attendue": "Montre une affiche ou un chiffre symbolique et explique à l’agent d’accueil où placer l’indication; intention et relation perceptibles."
+          }
+        ],
+        "index_selectionne": 1,
+        "verification_exemples": [
+          {
+            "seed": 2420,
+            "index": 0,
+            "stimulus": "Variante A : dans une fabrique imaginaire de jeux, une conceptrice ou un concepteur entre pour faire approuver une nouvelle carte par la personne responsable.",
+            "reponse_attendue": "Présente une carte de jeu imaginaire et s’adresse à la personne responsable pour obtenir un avis ou une approbation; relation et intention perceptibles."
+          },
+          {
+            "seed": 2421,
+            "index": 1,
+            "stimulus": "Variante B : au centre d’exposition fictif, une personne préparant les affiches entre pour remettre un numéro de salle à l’agent d’accueil imaginaire.",
+            "reponse_attendue": "Montre une affiche ou un chiffre symbolique et explique à l’agent d’accueil où placer l’indication; intention et relation perceptibles."
+          }
+        ],
+        "limites_de_variation": "Tâches/critères inchangés; variantes de corpus fermé, revue humaine avant usage réel."
+      },
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)"
+    },
+    {
+      "item_id": "qc-pri-ad-002-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-002-ev-01",
+      "mode": "fixe",
+      "titre": "Transfert : une situation qui change",
+      "consigne": "Improviser l’entrée, faire apparaître la nouvelle situation et l’intention d’informer, puis dire comment ton personnage a adapté sa relation au visiteur.",
+      "stimulus": "Dans un musée de jouets imaginaire, une personne guide les visiteurs. Une salle vient d’être fermée dans la fiction; elle entre pour prévenir un visiteur imaginaire et lui proposer un autre chemin.",
+      "reponse_attendue": "Jeu acceptable : guide entrant, montrant un plan fictif, expliquant « Cette salle est fermée; vous pouvez passer par ici ». Observateur repère le rôle, le changement, le but et l’adresse au visiteur. Les lieux et modalités de jeu peuvent varier si ces indices demeurent observables.",
+      "criteres": [
+        "Le changement de situation est compréhensible sans texte appris ou véritable déplacement physique.",
+        "Personnage identifiable par au moins un indice de jeu (action, adresse ou manipulation) et non seulement une étiquette.",
+        "Intention fictive explicite et cohérente avec le geste ou les paroles observés.",
+        "Situation et/ou relation reconnaissables et compatibles avec la carte fiction.",
+        "Capacité à nommer après le jeu un indice précis et son sens, avec modalité de communication adaptée.",
+        "Jeu fictif sûr, respectueux et sans divulgation personnelle; adaptation d’accès acceptée sans pénalité."
+      ],
+      "feedback": "Retour descriptif : citer un geste ou une réplique effectivement observé, dire ce qu’il rend perceptible, puis proposer une seule modification pour rendre le rôle, l’intention ou la situation plus lisible. Ne pas évaluer l’aisance personnelle.",
+      "difficulte": "transfert",
+      "representation": "prestation_scénique_ou_figurine_et_verbalisation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variabilite_permises": "Gestes, répliques, voix, supports matériels symboliques, personnages non stéréotypés et modalités assis/figurine/marionnette; la situation, le but et les indices observables restent soumis à la même grille.",
+      "conditions": "Temps de préparation équitable; zone dégagée; aucun contact; accessoires sûrs ou imaginaires; aucun rôle imposant l’identité ou la vie privée.",
+      "source": "scénario et rubrique originaux créés pour qc-pri-ad-002 (v1.2)"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "format": "ekole.selection-pedagogique/3.0",
+  "cours": "qc-pri-us-009",
+  "objectif": "Comparer des situations de rencontre et d’échange entre populations.",
+  "preuve": "Analyser une situation à partir de deux points de vue documentés.",
+  "modele_ref": {
+    "kristal": "modele-organisation-humaine",
+    "artifact_id": "urn:kristal:modele-organisation-humaine:modele"
+  },
+  "sources_kristal": [
+    {
+      "kristal": "societes-autochtones-quebec",
+      "state_ref": "urn:kristal:state:societes-autochtones-quebec",
+      "state_logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:9e6a58efd15113c64d82b724c0e2e4a89a1aec2cca00bbf0e66f6544cc39865d"
+      }
+    },
+    {
+      "kristal": "rencontres-coloniales-quebec",
+      "state_ref": "urn:kristal:state:rencontres-coloniales-quebec",
+      "state_logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:cc6b2831d63e5922942dba101026eb3822ff4bc1fa5dfd36215f46e8d5ce46cb"
+      }
+    }
+  ],
+  "selection_faits": {
+    "comprendre_les_societes": [
+      "fait:peuples-avant",
+      "fait:wendat-maisons",
+      "fait:wendat-meres-clan",
+      "fait:innus-saisons",
+      "fait:v3-innu-outils",
+      "fait:v3-wendat-gouvernance"
+    ],
+    "echanges_et_rencontres": [
+      "fait:commerce-fourrures",
+      "fait:commerce-participation",
+      "fait:alliance-1603",
+      "fait:v3-paix-rencontre"
+    ],
+    "diplomatie": [
+      "fait:paix-date",
+      "fait:kondiaronk",
+      "fait:calliere",
+      "fait:v3-paix-kondiaronk",
+      "fait:v3-paix-texte"
+    ],
+    "transformations": [
+      "fait:pouvoir-apres1760",
+      "fait:wendat-1825",
+      "fait:vie-aujourdhui",
+      "fait:wendat-langue-vivante"
+    ],
+    "sources_et_points_de_vue": [
+      "fait:traitement-sources",
+      "fait:v3-paix-38-39",
+      "fait:v3-innu-aine"
+    ]
+  },
+  "politique": "Ce document ne contient pas les assertions; les explications sont compilées depuis les Kristals référencés.",
+  "statut": "selection_a_revoir"
+}

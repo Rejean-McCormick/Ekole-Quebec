@@ -1,0 +1,138 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ma-009",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Représenter le partage et le groupement pour résoudre des divisions.",
+    "concepts": [
+      "quotient",
+      "reste",
+      "partage",
+      "groupement"
+    ]
+  },
+  "titre_source": "Sens et stratégies de la division",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [
+      {
+        "type": "jetons",
+        "statut": "suggestion_de_composant_a_verifier",
+        "validation": "aucune"
+      }
+    ],
+    "scenarios_existants": [
+      {
+        "id": "partage-12",
+        "type": "jetons",
+        "statut": "illustration_candidate_non_validee"
+      },
+      {
+        "id": "partage-14",
+        "type": "jetons",
+        "statut": "illustration_candidate_non_validee"
+      }
+    ]
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "Une distribution de matériel entre plusieurs personnages ou récipients; distinguer le total à répartir et les destinataires.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Sens et stratégies de la division » : Représenter le partage et le groupement pour résoudre des divisions. Une distribution de matériel entre plusieurs personnages ou récipients; distinguer le total à répartir et les destinataires. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Partager ou former des groupes : Une distribution de matériel entre plusieurs personnages ou récipients; distinguer le total à répartir et les destinataires.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "Une situation d’assemblage d’objets en lots identiques, laissant visible la possibilité d’objets qui restent.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Sens et stratégies de la division » : Représenter le partage et le groupement pour résoudre des divisions. Une situation d’assemblage d’objets en lots identiques, laissant visible la possibilité d’objets qui restent. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Partager ou former des groupes : Une situation d’assemblage d’objets en lots identiques, laissant visible la possibilité d’objets qui restent.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Partage (matériel → schéma → notation)",
+        "statut": "source_du_cours"
+      }
+    },
+    {
+      "slot": "support-outil",
+      "placement": "essayer",
+      "role": "contexte_pour_composant_interactif",
+      "concept": "Un espace avec contenants vides et objets à déplacer; ne figer aucune quantité, solution, ni reste dans l’illustration.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Sens et stratégies de la division » : Représenter le partage et le groupement pour résoudre des divisions. Un espace avec contenants vides et objets à déplacer; ne figer aucune quantité, solution, ni reste dans l’illustration. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Partager ou former des groupes : Un espace avec contenants vides et objets à déplacer; ne figer aucune quantité, solution, ni reste dans l’illustration.",
+      "fichier_preferentiel": "experience/images/support-outil.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [
+        {
+          "type": "jetons",
+          "id": "partage-12",
+          "statut": "association_existante_non_validee"
+        },
+        {
+          "type": "jetons",
+          "id": "partage-14",
+          "statut": "association_existante_non_validee"
+        }
+      ],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    }
+  ]
+}

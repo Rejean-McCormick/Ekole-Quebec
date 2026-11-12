@@ -1,0 +1,94 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ilss-010",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Participer à une activité sociale ou culturelle en utilisant les ressources du milieu.",
+  "concepts": [
+    "interaction",
+    "appartenance",
+    "initiative",
+    "respect"
+  ],
+  "preuve_attendue": "Préparer puis réaliser une participation adaptée à un contexte sûr.",
+  "prerequis_bloquants": [
+    "qc-pri-ilss-009"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ilss-002"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ilss-010-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Préparer puis réaliser une participation adaptée à un contexte sûr.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Choix de rôle, supports linguistiques et posture seulement; les scénarios et critères des deux épreuves sont fixes, sans tirage ni génération IA libre.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ilss-010",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "affiche scolaire fixée",
+        "fiche de préparation",
+        "interaction réelle accessible",
+        "trace d’observation de la contribution"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "scenarios": [
+          "atelier_lecture_partagee",
+          "mosaïque_papier_collective"
+        ],
+        "aleatoire": false
+      },
+      "contraintes": [
+        "contribution réelle dans un contexte de classe sûr et autorisé",
+        "partenaire consentant ou interaction équivalente organisée",
+        "ne pas noter accent ou fluidité du français",
+        "ressource utilisable effectivement",
+        "deux preuves distinctes sans aide directive",
+        "choix de rôles et communication plurimodale",
+        "pas de divulgation personnelle ni contact imposé"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "preparation",
+          "ressource",
+          "interaction",
+          "initiative_contribution",
+          "respect_autonomie"
+        ],
+        "echelle": [
+          0,
+          1,
+          2
+        ],
+        "decision": "deux manifestations distinctes, critères essentiels satisfaits dans chacune, aucune moyenne compensatoire"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,40 @@
+{
+  "format": "ekole.kristal-cadre-v12/1.0",
+  "kristal_id": "qc-pri-ma-023",
+  "source": {
+    "file": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Classer des figures planes à partir de propriétés observables.",
+    "preuve_attendue": "Trier de nouvelles figures et expliquer un cas de non-appartenance.",
+    "concepts": [
+      "côtés",
+      "sommets",
+      "parallélisme",
+      "figure"
+    ],
+    "prerequis_bloquants": []
+  },
+  "etat_revision": "plan_de_conception_non_revu",
+  "famille_candidate": "construction_manipulative",
+  "plan_de_conception": {
+    "situation_de_depart": "Concevoir une situation concrète qui rende observable : Classer des figures planes à partir de propriétés observables.",
+    "action_de_lenfant": "Choisir une manipulation ou une production permettant de travailler côtés.",
+    "necessite_de_validation": "Comparer les propriétés vérifiables avec le critère : Trier de nouvelles figures et expliquer un cas de non-appartenance.",
+    "evaluation": "Séparer entraînement automatique partiel et preuves de maîtrise source.",
+    "aide_et_regulation": "Identifier les erreurs de côtés et préparer des relances graduées.",
+    "transfert": "Préparer une autre représentation ou contexte de la même compétence; à rédiger et faire vérifier."
+  },
+  "visuels_conceptuels": {
+    "usage": "mise_en_situation",
+    "prompt": "Représenter une situation concrète permettant d’observer ou de manipuler « côtés » dans le cadre de « Classer des figures planes à partir de propriétés observables. ». Faire comprendre le contexte sans inclure la solution d’une tâche évaluée. Ne pas imposer de style graphique.",
+    "fichier_suggere": "experience/images/situation-v12.webp",
+    "affichage_si_absent": "prompt_en_texte"
+  },
+  "revision_humaine": {
+    "exactitude": false,
+    "erreurs_diagnostiques": false,
+    "ergonomie_enfant": false,
+    "accessibilite": false,
+    "preuver_maitrise": false
+  }
+}

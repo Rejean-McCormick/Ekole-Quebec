@@ -1,0 +1,1030 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-030",
+  "family_id": "qc-pri-ma-030-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-030-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "fixe",
+      "consigne": "Quel est le nombre de symboles de chaque sorte? Construis le tableau puis vérifie les six positions.",
+      "stimulus": "Contexte : diagnostic de symboles. Catégories autorisées et exhaustives : étoile, lune, soleil. Observations brutes numérotées : 01=étoile ; 02=lune ; 03=étoile ; 04=soleil ; 05=lune ; 06=étoile.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| étoile | 3 |\n| lune | 2 |\n| soleil | 1 |\n| **Total** | **6** |\nContrôle par positions : étoile: 1,3,6; lune: 2,5; soleil: 4. Nombre de positions = 6 ; somme des effectifs = 6.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 6, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Si la somme diffère de six, repère l’occurrence oubliée ou pointée deux fois avant de réécrire le tableau.",
+      "difficulte": "initial",
+      "representation": "relevé textuel et tableau",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "fixe",
+      "consigne": "Quels moyens figurent dans les huit trajets fictifs? Établis un tableau et montre un contrôle par les positions.",
+      "stimulus": "Contexte : journal de trajets fictifs. Catégories autorisées et exhaustives : vélo, marche, bus. Observations brutes numérotées : 01=vélo ; 02=marche ; 03=bus ; 04=marche ; 05=vélo ; 06=marche ; 07=bus ; 08=bus.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| vélo | 2 |\n| marche | 3 |\n| bus | 3 |\n| **Total** | **8** |\nContrôle par positions : vélo: 1,5; marche: 2,4,6; bus: 3,7,8. Nombre de positions = 8 ; somme des effectifs = 8.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 8, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Une répétition de « marche » est une nouvelle observation, pas une nouvelle catégorie. Reprends le relevé indice par indice.",
+      "difficulte": "initial",
+      "representation": "liste numérotée et marques de pointage",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "parametrique",
+      "consigne": "Que révèle le classement des rubans selon leur motif? Construis un tableau de fréquences en effectifs (nombres entiers), puis montre ton contrôle.",
+      "stimulus": "Contexte : atelier de rubans étiquetés. Catégories autorisées et exhaustives : lisse, rayé, pointillé. Observations brutes numérotées : 01=pointillé ; 02=rayé ; 03=lisse ; 04=pointillé ; 05=rayé ; 06=lisse ; 07=pointillé ; 08=rayé ; 09=lisse ; 10=pointillé ; 11=rayé ; 12=pointillé ; 13=pointillé.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| lisse | 3 |\n| rayé | 4 |\n| pointillé | 6 |\n| **Total** | **13** |\nContrôle par positions : lisse: 3,6,9; rayé: 2,5,8,11; pointillé: 1,4,7,10,12,13. Nombre de positions = 13 ; somme des effectifs = 13.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 13, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Si le total ou une ligne est incorrect, reprends les positions numérotées; une répétition n’est pas à fusionner. Si une catégorie attendue n’apparaît pas, laisse la ligne avec 0.",
+      "difficulte": "intermediaire",
+      "representation": "liste de motifs puis tableau",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": 3003,
+      "parametres": {
+        "generateur_id": "P-030/1",
+        "version": "1.0",
+        "variables": {
+          "seed": {
+            "type": "entier",
+            "domaine": [
+              3003,
+              3102
+            ]
+          },
+          "n": {
+            "type": "entier",
+            "formule": "10 + (seed % 5)",
+            "domaine": [
+              10,
+              14
+            ]
+          },
+          "categories": {
+            "type": "liste_constante",
+            "valeurs": [
+              "lisse",
+              "rayé",
+              "pointillé"
+            ]
+          },
+          "zero_last": false
+        },
+        "contraintes": [
+          "La question définit exactement les catégories listées; les valeurs brutes appartiennent uniquement à cette liste.",
+          "Chaque indice 1..n désigne une observation, même quand deux valeurs sont identiques.",
+          "Les m catégories actives ont chacune au moins une occurrence.",
+          "Chaque observation est affectée à une catégorie, une seule fois.",
+          "La dernière catégorie reste à effectif 0 lorsque zero_last=true; ne pas la supprimer du tableau."
+        ],
+        "algorithme_resolution": "Soit s=seed, n=min_n+(s mod 5), C la liste des catégories, A=C sauf sa dernière catégorie si zero_last. m=|A|. Pour i=0,...,m-2, poser effectif[A[i]]=2+(floor(s/(i+2)) mod 3). Poser effectif[A[m-1]]=n-somme des m-1 effectifs précédents, strictement positif. Si zero_last, effectif[C[-1]]=0. Tourner A vers la gauche de s mod m places puis inverser ce nouvel ordre si s est impair. Pour j=0,...,max(effectifs)-1, parcourir cet ordre et émettre une occurrence de chaque catégorie active dont effectif>j. Numéroter la liste émise 1..n. Corrigé indépendant : compter les occurrences par catégorie dans la liste brute; total attendu n.",
+        "algorithme_python_reference": "n=min_n+seed%5; a=categories[:-1] if zero_last else categories; x=[2+(seed//(i+2))%3 for i in range(len(a)-1)]; x.append(n-sum(x)); ordre=a[seed%len(a):]+a[:seed%len(a)]; ordre=ordre[::-1] if seed%2 else ordre; observations=[c for j in range(max(x)) for c in ordre if j<x[a.index(c)]]; si zero_last ajouter categorie_finale:0 au tableau.",
+        "resolution": "Tableau des effectifs de toutes les catégories autorisées. Pour chaque étiquette, recompter indépendamment ses occurrences par recherche d’indices dans les observations fournies; vérifier que la somme vaut n. Le corrigé de cette version est figé dans reponse_attendue.",
+        "seed_stable": 3003,
+        "exemples_valides": [
+          {
+            "seed": 3003,
+            "n": 13,
+            "observations_brutes": [
+              "pointillé",
+              "rayé",
+              "lisse",
+              "pointillé",
+              "rayé",
+              "lisse",
+              "pointillé",
+              "rayé",
+              "lisse",
+              "pointillé",
+              "rayé",
+              "pointillé",
+              "pointillé"
+            ],
+            "effectifs": {
+              "lisse": 3,
+              "rayé": 4,
+              "pointillé": 6
+            },
+            "somme": 13
+          },
+          {
+            "seed": 3004,
+            "n": 14,
+            "observations_brutes": [
+              "rayé",
+              "pointillé",
+              "lisse",
+              "rayé",
+              "pointillé",
+              "lisse",
+              "rayé",
+              "pointillé",
+              "lisse",
+              "rayé",
+              "pointillé",
+              "lisse",
+              "pointillé",
+              "pointillé"
+            ],
+            "effectifs": {
+              "lisse": 4,
+              "rayé": 4,
+              "pointillé": 6
+            },
+            "somme": 14
+          },
+          {
+            "seed": 3005,
+            "n": 10,
+            "observations_brutes": [
+              "rayé",
+              "lisse",
+              "pointillé",
+              "rayé",
+              "lisse",
+              "pointillé",
+              "rayé",
+              "lisse",
+              "rayé",
+              "lisse"
+            ],
+            "effectifs": {
+              "lisse": 4,
+              "rayé": 4,
+              "pointillé": 2
+            },
+            "somme": 10
+          }
+        ],
+        "validation_locale": "Pour les graines de ce domaine, comptage de la liste produite et comparaison indépendante au tableau calculé. Voir livraison/VALIDATION.md pour le nombre d’instanciations réellement testées."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "parametrique",
+      "consigne": "Combien de fiches porte chacune des trois tailles? Compte toutes les occurrences et justifie le total.",
+      "stimulus": "Contexte : fiches de rangement fictives. Catégories autorisées et exhaustives : petite, moyenne, grande. Observations brutes numérotées : 01=moyenne ; 02=grande ; 03=petite ; 04=moyenne ; 05=grande ; 06=petite ; 07=moyenne ; 08=grande ; 09=petite ; 10=moyenne ; 11=grande ; 12=petite ; 13=grande ; 14=grande.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| petite | 4 |\n| moyenne | 4 |\n| grande | 6 |\n| **Total** | **14** |\nContrôle par positions : petite: 3,6,9,12; moyenne: 1,4,7,10; grande: 2,5,8,11,13,14. Nombre de positions = 14 ; somme des effectifs = 14.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 14, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Si le total ou une ligne est incorrect, reprends les positions numérotées; une répétition n’est pas à fusionner. Si une catégorie attendue n’apparaît pas, laisse la ligne avec 0.",
+      "difficulte": "intermediaire",
+      "representation": "fiches textuelles vers pointage",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": 3004,
+      "parametres": {
+        "generateur_id": "P-030/1",
+        "version": "1.0",
+        "variables": {
+          "seed": {
+            "type": "entier",
+            "domaine": [
+              3004,
+              3103
+            ]
+          },
+          "n": {
+            "type": "entier",
+            "formule": "10 + (seed % 5)",
+            "domaine": [
+              10,
+              14
+            ]
+          },
+          "categories": {
+            "type": "liste_constante",
+            "valeurs": [
+              "petite",
+              "moyenne",
+              "grande"
+            ]
+          },
+          "zero_last": false
+        },
+        "contraintes": [
+          "La question définit exactement les catégories listées; les valeurs brutes appartiennent uniquement à cette liste.",
+          "Chaque indice 1..n désigne une observation, même quand deux valeurs sont identiques.",
+          "Les m catégories actives ont chacune au moins une occurrence.",
+          "Chaque observation est affectée à une catégorie, une seule fois.",
+          "La dernière catégorie reste à effectif 0 lorsque zero_last=true; ne pas la supprimer du tableau."
+        ],
+        "algorithme_resolution": "Soit s=seed, n=min_n+(s mod 5), C la liste des catégories, A=C sauf sa dernière catégorie si zero_last. m=|A|. Pour i=0,...,m-2, poser effectif[A[i]]=2+(floor(s/(i+2)) mod 3). Poser effectif[A[m-1]]=n-somme des m-1 effectifs précédents, strictement positif. Si zero_last, effectif[C[-1]]=0. Tourner A vers la gauche de s mod m places puis inverser ce nouvel ordre si s est impair. Pour j=0,...,max(effectifs)-1, parcourir cet ordre et émettre une occurrence de chaque catégorie active dont effectif>j. Numéroter la liste émise 1..n. Corrigé indépendant : compter les occurrences par catégorie dans la liste brute; total attendu n.",
+        "algorithme_python_reference": "n=min_n+seed%5; a=categories[:-1] if zero_last else categories; x=[2+(seed//(i+2))%3 for i in range(len(a)-1)]; x.append(n-sum(x)); ordre=a[seed%len(a):]+a[:seed%len(a)]; ordre=ordre[::-1] if seed%2 else ordre; observations=[c for j in range(max(x)) for c in ordre if j<x[a.index(c)]]; si zero_last ajouter categorie_finale:0 au tableau.",
+        "resolution": "Tableau des effectifs de toutes les catégories autorisées. Pour chaque étiquette, recompter indépendamment ses occurrences par recherche d’indices dans les observations fournies; vérifier que la somme vaut n. Le corrigé de cette version est figé dans reponse_attendue.",
+        "seed_stable": 3004,
+        "exemples_valides": [
+          {
+            "seed": 3004,
+            "n": 14,
+            "observations_brutes": [
+              "moyenne",
+              "grande",
+              "petite",
+              "moyenne",
+              "grande",
+              "petite",
+              "moyenne",
+              "grande",
+              "petite",
+              "moyenne",
+              "grande",
+              "petite",
+              "grande",
+              "grande"
+            ],
+            "effectifs": {
+              "petite": 4,
+              "moyenne": 4,
+              "grande": 6
+            },
+            "somme": 14
+          },
+          {
+            "seed": 3005,
+            "n": 10,
+            "observations_brutes": [
+              "moyenne",
+              "petite",
+              "grande",
+              "moyenne",
+              "petite",
+              "grande",
+              "moyenne",
+              "petite",
+              "moyenne",
+              "petite"
+            ],
+            "effectifs": {
+              "petite": 4,
+              "moyenne": 4,
+              "grande": 2
+            },
+            "somme": 10
+          },
+          {
+            "seed": 3006,
+            "n": 11,
+            "observations_brutes": [
+              "petite",
+              "moyenne",
+              "grande",
+              "petite",
+              "moyenne",
+              "grande",
+              "grande",
+              "grande",
+              "grande",
+              "grande",
+              "grande"
+            ],
+            "effectifs": {
+              "petite": 2,
+              "moyenne": 2,
+              "grande": 7
+            },
+            "somme": 11
+          }
+        ],
+        "validation_locale": "Pour les graines de ce domaine, comptage de la liste produite et comparaison indépendante au tableau calculé. Voir livraison/VALIDATION.md pour le nombre d’instanciations réellement testées."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "parametrique",
+      "consigne": "Combien de badges de chaque forme ont été consignés? Utilise quatre lignes de catégories et vérifie deux fois.",
+      "stimulus": "Contexte : badges de formes. Catégories autorisées et exhaustives : étoile, losange, croix, ovale. Observations brutes numérotées : 01=étoile ; 02=ovale ; 03=croix ; 04=losange ; 05=étoile ; 06=ovale ; 07=croix ; 08=losange ; 09=étoile ; 10=croix ; 11=losange ; 12=étoile ; 13=losange.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| étoile | 4 |\n| losange | 4 |\n| croix | 3 |\n| ovale | 2 |\n| **Total** | **13** |\nContrôle par positions : étoile: 1,5,9,12; losange: 4,8,11,13; croix: 3,7,10; ovale: 2,6. Nombre de positions = 13 ; somme des effectifs = 13.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 13, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Si le total ou une ligne est incorrect, reprends les positions numérotées; une répétition n’est pas à fusionner. Si une catégorie attendue n’apparaît pas, laisse la ligne avec 0.",
+      "difficulte": "intermediaire",
+      "representation": "quatre catégories et tableau",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": 3005,
+      "parametres": {
+        "generateur_id": "P-030/1",
+        "version": "1.0",
+        "variables": {
+          "seed": {
+            "type": "entier",
+            "domaine": [
+              3005,
+              3104
+            ]
+          },
+          "n": {
+            "type": "entier",
+            "formule": "13 + (seed % 5)",
+            "domaine": [
+              13,
+              17
+            ]
+          },
+          "categories": {
+            "type": "liste_constante",
+            "valeurs": [
+              "étoile",
+              "losange",
+              "croix",
+              "ovale"
+            ]
+          },
+          "zero_last": false
+        },
+        "contraintes": [
+          "La question définit exactement les catégories listées; les valeurs brutes appartiennent uniquement à cette liste.",
+          "Chaque indice 1..n désigne une observation, même quand deux valeurs sont identiques.",
+          "Les m catégories actives ont chacune au moins une occurrence.",
+          "Chaque observation est affectée à une catégorie, une seule fois.",
+          "La dernière catégorie reste à effectif 0 lorsque zero_last=true; ne pas la supprimer du tableau."
+        ],
+        "algorithme_resolution": "Soit s=seed, n=min_n+(s mod 5), C la liste des catégories, A=C sauf sa dernière catégorie si zero_last. m=|A|. Pour i=0,...,m-2, poser effectif[A[i]]=2+(floor(s/(i+2)) mod 3). Poser effectif[A[m-1]]=n-somme des m-1 effectifs précédents, strictement positif. Si zero_last, effectif[C[-1]]=0. Tourner A vers la gauche de s mod m places puis inverser ce nouvel ordre si s est impair. Pour j=0,...,max(effectifs)-1, parcourir cet ordre et émettre une occurrence de chaque catégorie active dont effectif>j. Numéroter la liste émise 1..n. Corrigé indépendant : compter les occurrences par catégorie dans la liste brute; total attendu n.",
+        "algorithme_python_reference": "n=min_n+seed%5; a=categories[:-1] if zero_last else categories; x=[2+(seed//(i+2))%3 for i in range(len(a)-1)]; x.append(n-sum(x)); ordre=a[seed%len(a):]+a[:seed%len(a)]; ordre=ordre[::-1] if seed%2 else ordre; observations=[c for j in range(max(x)) for c in ordre if j<x[a.index(c)]]; si zero_last ajouter categorie_finale:0 au tableau.",
+        "resolution": "Tableau des effectifs de toutes les catégories autorisées. Pour chaque étiquette, recompter indépendamment ses occurrences par recherche d’indices dans les observations fournies; vérifier que la somme vaut n. Le corrigé de cette version est figé dans reponse_attendue.",
+        "seed_stable": 3005,
+        "exemples_valides": [
+          {
+            "seed": 3005,
+            "n": 13,
+            "observations_brutes": [
+              "étoile",
+              "ovale",
+              "croix",
+              "losange",
+              "étoile",
+              "ovale",
+              "croix",
+              "losange",
+              "étoile",
+              "croix",
+              "losange",
+              "étoile",
+              "losange"
+            ],
+            "effectifs": {
+              "étoile": 4,
+              "losange": 4,
+              "croix": 3,
+              "ovale": 2
+            },
+            "somme": 13
+          },
+          {
+            "seed": 3006,
+            "n": 14,
+            "observations_brutes": [
+              "croix",
+              "ovale",
+              "étoile",
+              "losange",
+              "croix",
+              "ovale",
+              "étoile",
+              "losange",
+              "croix",
+              "ovale",
+              "ovale",
+              "ovale",
+              "ovale",
+              "ovale"
+            ],
+            "effectifs": {
+              "étoile": 2,
+              "losange": 2,
+              "croix": 3,
+              "ovale": 7
+            },
+            "somme": 14
+          },
+          {
+            "seed": 3007,
+            "n": 15,
+            "observations_brutes": [
+              "croix",
+              "losange",
+              "étoile",
+              "ovale",
+              "croix",
+              "losange",
+              "étoile",
+              "ovale",
+              "croix",
+              "ovale",
+              "ovale",
+              "ovale",
+              "ovale",
+              "ovale",
+              "ovale"
+            ],
+            "effectifs": {
+              "étoile": 2,
+              "losange": 2,
+              "croix": 3,
+              "ovale": 8
+            },
+            "somme": 15
+          }
+        ],
+        "validation_locale": "Pour les graines de ce domaine, comptage de la liste produite et comparaison indépendante au tableau calculé. Voir livraison/VALIDATION.md pour le nombre d’instanciations réellement testées."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "parametrique",
+      "consigne": "Classe les cartons par nom d’animal, donne les effectifs et montre que chacune des observations brutes est utilisée une fois.",
+      "stimulus": "Contexte : cartons illustrés d’animaux (noms fournis). Catégories autorisées et exhaustives : chat, chien, oiseau, poisson. Observations brutes numérotées : 01=oiseau ; 02=poisson ; 03=chat ; 04=chien ; 05=oiseau ; 06=poisson ; 07=chat ; 08=chien ; 09=oiseau ; 10=poisson ; 11=poisson ; 12=poisson ; 13=poisson ; 14=poisson.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| chat | 2 |\n| chien | 2 |\n| oiseau | 3 |\n| poisson | 7 |\n| **Total** | **14** |\nContrôle par positions : chat: 3,7; chien: 4,8; oiseau: 1,5,9; poisson: 2,6,10,11,12,13,14. Nombre de positions = 14 ; somme des effectifs = 14.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 14, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Si le total ou une ligne est incorrect, reprends les positions numérotées; une répétition n’est pas à fusionner. Si une catégorie attendue n’apparaît pas, laisse la ligne avec 0.",
+      "difficulte": "transfert",
+      "representation": "liste numérotée et tableau à quatre modalités",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": 3006,
+      "parametres": {
+        "generateur_id": "P-030/1",
+        "version": "1.0",
+        "variables": {
+          "seed": {
+            "type": "entier",
+            "domaine": [
+              3006,
+              3105
+            ]
+          },
+          "n": {
+            "type": "entier",
+            "formule": "13 + (seed % 5)",
+            "domaine": [
+              13,
+              17
+            ]
+          },
+          "categories": {
+            "type": "liste_constante",
+            "valeurs": [
+              "chat",
+              "chien",
+              "oiseau",
+              "poisson"
+            ]
+          },
+          "zero_last": false
+        },
+        "contraintes": [
+          "La question définit exactement les catégories listées; les valeurs brutes appartiennent uniquement à cette liste.",
+          "Chaque indice 1..n désigne une observation, même quand deux valeurs sont identiques.",
+          "Les m catégories actives ont chacune au moins une occurrence.",
+          "Chaque observation est affectée à une catégorie, une seule fois.",
+          "La dernière catégorie reste à effectif 0 lorsque zero_last=true; ne pas la supprimer du tableau."
+        ],
+        "algorithme_resolution": "Soit s=seed, n=min_n+(s mod 5), C la liste des catégories, A=C sauf sa dernière catégorie si zero_last. m=|A|. Pour i=0,...,m-2, poser effectif[A[i]]=2+(floor(s/(i+2)) mod 3). Poser effectif[A[m-1]]=n-somme des m-1 effectifs précédents, strictement positif. Si zero_last, effectif[C[-1]]=0. Tourner A vers la gauche de s mod m places puis inverser ce nouvel ordre si s est impair. Pour j=0,...,max(effectifs)-1, parcourir cet ordre et émettre une occurrence de chaque catégorie active dont effectif>j. Numéroter la liste émise 1..n. Corrigé indépendant : compter les occurrences par catégorie dans la liste brute; total attendu n.",
+        "algorithme_python_reference": "n=min_n+seed%5; a=categories[:-1] if zero_last else categories; x=[2+(seed//(i+2))%3 for i in range(len(a)-1)]; x.append(n-sum(x)); ordre=a[seed%len(a):]+a[:seed%len(a)]; ordre=ordre[::-1] if seed%2 else ordre; observations=[c for j in range(max(x)) for c in ordre if j<x[a.index(c)]]; si zero_last ajouter categorie_finale:0 au tableau.",
+        "resolution": "Tableau des effectifs de toutes les catégories autorisées. Pour chaque étiquette, recompter indépendamment ses occurrences par recherche d’indices dans les observations fournies; vérifier que la somme vaut n. Le corrigé de cette version est figé dans reponse_attendue.",
+        "seed_stable": 3006,
+        "exemples_valides": [
+          {
+            "seed": 3006,
+            "n": 14,
+            "observations_brutes": [
+              "oiseau",
+              "poisson",
+              "chat",
+              "chien",
+              "oiseau",
+              "poisson",
+              "chat",
+              "chien",
+              "oiseau",
+              "poisson",
+              "poisson",
+              "poisson",
+              "poisson",
+              "poisson"
+            ],
+            "effectifs": {
+              "chat": 2,
+              "chien": 2,
+              "oiseau": 3,
+              "poisson": 7
+            },
+            "somme": 14
+          },
+          {
+            "seed": 3007,
+            "n": 15,
+            "observations_brutes": [
+              "oiseau",
+              "chien",
+              "chat",
+              "poisson",
+              "oiseau",
+              "chien",
+              "chat",
+              "poisson",
+              "oiseau",
+              "poisson",
+              "poisson",
+              "poisson",
+              "poisson",
+              "poisson",
+              "poisson"
+            ],
+            "effectifs": {
+              "chat": 2,
+              "chien": 2,
+              "oiseau": 3,
+              "poisson": 8
+            },
+            "somme": 15
+          },
+          {
+            "seed": 3008,
+            "n": 16,
+            "observations_brutes": [
+              "chat",
+              "chien",
+              "oiseau",
+              "poisson",
+              "chat",
+              "chien",
+              "oiseau",
+              "poisson",
+              "chat",
+              "oiseau",
+              "poisson",
+              "oiseau",
+              "poisson",
+              "poisson",
+              "poisson",
+              "poisson"
+            ],
+            "effectifs": {
+              "chat": 3,
+              "chien": 2,
+              "oiseau": 4,
+              "poisson": 7
+            },
+            "somme": 16
+          }
+        ],
+        "validation_locale": "Pour les graines de ce domaine, comptage de la liste produite et comparaison indépendante au tableau calculé. Voir livraison/VALIDATION.md pour le nombre d’instanciations réellement testées."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "parametrique",
+      "consigne": "Les quatre catégories sont prévues, même si une est absente. Quel est l’effectif de chaque motif? Explique pourquoi zéro est une réponse possible.",
+      "stimulus": "Contexte : timbres à motifs. Catégories autorisées et exhaustives : feuille, spirale, flocon, soleil. Observations brutes numérotées : 01=feuille ; 02=flocon ; 03=spirale ; 04=feuille ; 05=flocon ; 06=spirale ; 07=flocon ; 08=flocon ; 09=flocon ; 10=flocon ; 11=flocon ; 12=flocon.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| feuille | 2 |\n| spirale | 2 |\n| flocon | 8 |\n| soleil | 0 |\n| **Total** | **12** |\nContrôle par positions : feuille: 1,4; spirale: 3,6; flocon: 2,5,7,8,9,10,11,12; soleil: aucune. Nombre de positions = 12 ; somme des effectifs = 12.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 12, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Si le total ou une ligne est incorrect, reprends les positions numérotées; une répétition n’est pas à fusionner. Si une catégorie attendue n’apparaît pas, laisse la ligne avec 0.",
+      "difficulte": "transfert",
+      "representation": "catégorie à effectif zéro",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": 3007,
+      "parametres": {
+        "generateur_id": "P-030/1",
+        "version": "1.0",
+        "variables": {
+          "seed": {
+            "type": "entier",
+            "domaine": [
+              3007,
+              3106
+            ]
+          },
+          "n": {
+            "type": "entier",
+            "formule": "10 + (seed % 5)",
+            "domaine": [
+              10,
+              14
+            ]
+          },
+          "categories": {
+            "type": "liste_constante",
+            "valeurs": [
+              "feuille",
+              "spirale",
+              "flocon",
+              "soleil"
+            ]
+          },
+          "zero_last": true
+        },
+        "contraintes": [
+          "La question définit exactement les catégories listées; les valeurs brutes appartiennent uniquement à cette liste.",
+          "Chaque indice 1..n désigne une observation, même quand deux valeurs sont identiques.",
+          "Les m catégories actives ont chacune au moins une occurrence.",
+          "Chaque observation est affectée à une catégorie, une seule fois.",
+          "La dernière catégorie reste à effectif 0 lorsque zero_last=true; ne pas la supprimer du tableau."
+        ],
+        "algorithme_resolution": "Soit s=seed, n=min_n+(s mod 5), C la liste des catégories, A=C sauf sa dernière catégorie si zero_last. m=|A|. Pour i=0,...,m-2, poser effectif[A[i]]=2+(floor(s/(i+2)) mod 3). Poser effectif[A[m-1]]=n-somme des m-1 effectifs précédents, strictement positif. Si zero_last, effectif[C[-1]]=0. Tourner A vers la gauche de s mod m places puis inverser ce nouvel ordre si s est impair. Pour j=0,...,max(effectifs)-1, parcourir cet ordre et émettre une occurrence de chaque catégorie active dont effectif>j. Numéroter la liste émise 1..n. Corrigé indépendant : compter les occurrences par catégorie dans la liste brute; total attendu n.",
+        "algorithme_python_reference": "n=min_n+seed%5; a=categories[:-1] if zero_last else categories; x=[2+(seed//(i+2))%3 for i in range(len(a)-1)]; x.append(n-sum(x)); ordre=a[seed%len(a):]+a[:seed%len(a)]; ordre=ordre[::-1] if seed%2 else ordre; observations=[c for j in range(max(x)) for c in ordre if j<x[a.index(c)]]; si zero_last ajouter categorie_finale:0 au tableau.",
+        "resolution": "Tableau des effectifs de toutes les catégories autorisées. Pour chaque étiquette, recompter indépendamment ses occurrences par recherche d’indices dans les observations fournies; vérifier que la somme vaut n. Le corrigé de cette version est figé dans reponse_attendue.",
+        "seed_stable": 3007,
+        "exemples_valides": [
+          {
+            "seed": 3007,
+            "n": 12,
+            "observations_brutes": [
+              "feuille",
+              "flocon",
+              "spirale",
+              "feuille",
+              "flocon",
+              "spirale",
+              "flocon",
+              "flocon",
+              "flocon",
+              "flocon",
+              "flocon",
+              "flocon"
+            ],
+            "effectifs": {
+              "feuille": 2,
+              "spirale": 2,
+              "flocon": 8,
+              "soleil": 0
+            },
+            "somme": 12
+          },
+          {
+            "seed": 3008,
+            "n": 13,
+            "observations_brutes": [
+              "flocon",
+              "feuille",
+              "spirale",
+              "flocon",
+              "feuille",
+              "spirale",
+              "flocon",
+              "feuille",
+              "flocon",
+              "flocon",
+              "flocon",
+              "flocon",
+              "flocon"
+            ],
+            "effectifs": {
+              "feuille": 3,
+              "spirale": 2,
+              "flocon": 8,
+              "soleil": 0
+            },
+            "somme": 13
+          },
+          {
+            "seed": 3009,
+            "n": 14,
+            "observations_brutes": [
+              "flocon",
+              "spirale",
+              "feuille",
+              "flocon",
+              "spirale",
+              "feuille",
+              "flocon",
+              "spirale",
+              "feuille",
+              "flocon",
+              "flocon",
+              "flocon",
+              "flocon",
+              "flocon"
+            ],
+            "effectifs": {
+              "feuille": 3,
+              "spirale": 3,
+              "flocon": 8,
+              "soleil": 0
+            },
+            "somme": 14
+          }
+        ],
+        "validation_locale": "Pour les graines de ce domaine, comptage de la liste produite et comparaison indépendante au tableau calculé. Voir livraison/VALIDATION.md pour le nombre d’instanciations réellement testées."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "parametrique",
+      "consigne": "Construis le tableau des codes. Sans recopier tes premières marques, relis les positions en sens inverse pour vérifier chaque effectif.",
+      "stimulus": "Contexte : enregistrements anonymes à codes A/B/C. Catégories autorisées et exhaustives : A, B, C. Observations brutes numérotées : 01=C ; 02=A ; 03=B ; 04=C ; 05=A ; 06=B ; 07=C ; 08=A ; 09=C ; 10=C ; 11=C ; 12=C ; 13=C.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| A | 3 |\n| B | 2 |\n| C | 8 |\n| **Total** | **13** |\nContrôle par positions : A: 2,5,8; B: 3,6; C: 1,4,7,9,10,11,12,13. Nombre de positions = 13 ; somme des effectifs = 13.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 13, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Si le total ou une ligne est incorrect, reprends les positions numérotées; une répétition n’est pas à fusionner. Si une catégorie attendue n’apparaît pas, laisse la ligne avec 0.",
+      "difficulte": "transfert",
+      "representation": "codes abstraits puis seconde vérification",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": 3008,
+      "parametres": {
+        "generateur_id": "P-030/1",
+        "version": "1.0",
+        "variables": {
+          "seed": {
+            "type": "entier",
+            "domaine": [
+              3008,
+              3107
+            ]
+          },
+          "n": {
+            "type": "entier",
+            "formule": "10 + (seed % 5)",
+            "domaine": [
+              10,
+              14
+            ]
+          },
+          "categories": {
+            "type": "liste_constante",
+            "valeurs": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          "zero_last": false
+        },
+        "contraintes": [
+          "La question définit exactement les catégories listées; les valeurs brutes appartiennent uniquement à cette liste.",
+          "Chaque indice 1..n désigne une observation, même quand deux valeurs sont identiques.",
+          "Les m catégories actives ont chacune au moins une occurrence.",
+          "Chaque observation est affectée à une catégorie, une seule fois.",
+          "La dernière catégorie reste à effectif 0 lorsque zero_last=true; ne pas la supprimer du tableau."
+        ],
+        "algorithme_resolution": "Soit s=seed, n=min_n+(s mod 5), C la liste des catégories, A=C sauf sa dernière catégorie si zero_last. m=|A|. Pour i=0,...,m-2, poser effectif[A[i]]=2+(floor(s/(i+2)) mod 3). Poser effectif[A[m-1]]=n-somme des m-1 effectifs précédents, strictement positif. Si zero_last, effectif[C[-1]]=0. Tourner A vers la gauche de s mod m places puis inverser ce nouvel ordre si s est impair. Pour j=0,...,max(effectifs)-1, parcourir cet ordre et émettre une occurrence de chaque catégorie active dont effectif>j. Numéroter la liste émise 1..n. Corrigé indépendant : compter les occurrences par catégorie dans la liste brute; total attendu n.",
+        "algorithme_python_reference": "n=min_n+seed%5; a=categories[:-1] if zero_last else categories; x=[2+(seed//(i+2))%3 for i in range(len(a)-1)]; x.append(n-sum(x)); ordre=a[seed%len(a):]+a[:seed%len(a)]; ordre=ordre[::-1] if seed%2 else ordre; observations=[c for j in range(max(x)) for c in ordre if j<x[a.index(c)]]; si zero_last ajouter categorie_finale:0 au tableau.",
+        "resolution": "Tableau des effectifs de toutes les catégories autorisées. Pour chaque étiquette, recompter indépendamment ses occurrences par recherche d’indices dans les observations fournies; vérifier que la somme vaut n. Le corrigé de cette version est figé dans reponse_attendue.",
+        "seed_stable": 3008,
+        "exemples_valides": [
+          {
+            "seed": 3008,
+            "n": 13,
+            "observations_brutes": [
+              "C",
+              "A",
+              "B",
+              "C",
+              "A",
+              "B",
+              "C",
+              "A",
+              "C",
+              "C",
+              "C",
+              "C",
+              "C"
+            ],
+            "effectifs": {
+              "A": 3,
+              "B": 2,
+              "C": 8
+            },
+            "somme": 13
+          },
+          {
+            "seed": 3009,
+            "n": 14,
+            "observations_brutes": [
+              "C",
+              "B",
+              "A",
+              "C",
+              "B",
+              "A",
+              "C",
+              "B",
+              "A",
+              "C",
+              "C",
+              "C",
+              "C",
+              "C"
+            ],
+            "effectifs": {
+              "A": 3,
+              "B": 3,
+              "C": 8
+            },
+            "somme": 14
+          },
+          {
+            "seed": 3010,
+            "n": 10,
+            "observations_brutes": [
+              "B",
+              "C",
+              "A",
+              "B",
+              "C",
+              "A",
+              "B",
+              "C",
+              "A",
+              "A"
+            ],
+            "effectifs": {
+              "A": 4,
+              "B": 3,
+              "C": 3
+            },
+            "somme": 10
+          }
+        ],
+        "validation_locale": "Pour les graines de ce domaine, comptage de la liste produite et comparaison indépendante au tableau calculé. Voir livraison/VALIDATION.md pour le nombre d’instanciations réellement testées."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "fixe",
+      "consigne": "Les catégories autorisées sont P, Q, R et S. Même si un code est absent du relevé, inscris-le. Fabrique le tableau et contrôle les positions.",
+      "stimulus": "Contexte : tableau d’étiquettes de quatre codes. Catégories autorisées et exhaustives : P, Q, R, S. Observations brutes numérotées : 01=P ; 02=Q ; 03=P ; 04=R ; 05=Q ; 06=P.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| P | 3 |\n| Q | 2 |\n| R | 1 |\n| S | 0 |\n| **Total** | **6** |\nContrôle par positions : P: 1,3,6; Q: 2,5; R: 4; S: aucune. Nombre de positions = 6 ; somme des effectifs = 6.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 6, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "La ligne S doit avoir un effectif de 0; ne la supprime pas et ne change pas le total de 6.",
+      "difficulte": "intermediaire",
+      "representation": "codes avec catégorie zéro",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Dans un comptoir imaginaire, chaque billet porte A, B ou C. Fais un relevé contrôlé, un tableau complet et une relecture à rebours.",
+      "stimulus": "Contexte : comptoir de billets fictifs. Catégories autorisées et exhaustives : A, B, C. Observations brutes numérotées : 01=A ; 02=B ; 03=A ; 04=C ; 05=B ; 06=A ; 07=C ; 08=C ; 09=B ; 10=A ; 11=B.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| A | 4 |\n| B | 4 |\n| C | 3 |\n| **Total** | **11** |\nContrôle par positions : A: 1,3,6,10; B: 2,5,9,11; C: 4,7,8. Nombre de positions = 11 ; somme des effectifs = 11.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 11, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Compare A aux positions 1,3,6,10, B aux positions 2,5,9,11, C aux positions 4,7,8; contrôle le total de onze billets.",
+      "difficulte": "transfert",
+      "representation": "relevé de billets, contrôle inverse",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Preuve autonome 1 — Reçois ces quinze enregistrements bruts du matériel sportif. Pose la question « Combien d’objets de chaque sorte? », relève chaque occurrence, crée un tableau exact et contrôle ton résultat autrement (positions de droite à gauche, par exemple). Aucun indice de classement ne sera donné.",
+      "stimulus": "Contexte : réserve de matériel sportif. Catégories autorisées et exhaustives : corde, cône, ballon. Observations brutes numérotées : 01=corde ; 02=cône ; 03=ballon ; 04=corde ; 05=ballon ; 06=cône ; 07=corde ; 08=ballon ; 09=ballon ; 10=cône ; 11=corde ; 12=cône ; 13=ballon ; 14=corde ; 15=ballon.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| corde | 5 |\n| cône | 4 |\n| ballon | 6 |\n| **Total** | **15** |\nContrôle par positions : corde: 1,4,7,11,14; cône: 2,6,10,12; ballon: 3,5,8,9,13,15. Nombre de positions = 15 ; somme des effectifs = 15.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 15, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Si une des quinze positions manque ou est classée deux fois, reconstruis un pointage unique pour chaque occurrence, puis recommence sur une autre liste.",
+      "difficulte": "transfert",
+      "representation": "liste brute, tableau et contrôle autonome",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": {
+        "critere_id": "crit-1",
+        "objectif_id": "obj-1",
+        "contexte": "réserve de matériel sportif",
+        "conditions": "Énoncé nouveau; aucune aide sur les catégories, le comptage ni la somme; matériel ou dictée neutres permis. Conserver tableau, pointage et justification.",
+        "decisions": "Nécessite aussi une seconde preuve distincte, et non un score isolé."
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-030-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-030-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Preuve autonome 2 — Un relevé fictif contient seize véhicules, dans un contexte distinct de l’inventaire sportif. Produis le tableau des quatre catégories et démontre, sans aide de comptage, que les seize positions ont été utilisées chacune une fois. Refaire le relevé dans un nouvel ordre est permis.",
+      "stimulus": "Contexte : passage de véhicules fictifs. Catégories autorisées et exhaustives : vélo, auto, bus, camion. Observations brutes numérotées : 01=vélo ; 02=auto ; 03=bus ; 04=vélo ; 05=camion ; 06=auto ; 07=bus ; 08=auto ; 09=vélo ; 10=camion ; 11=auto ; 12=bus ; 13=vélo ; 14=camion ; 15=auto ; 16=bus.",
+      "reponse_attendue": "| Catégorie | Effectif |\n|---|---:|\n| vélo | 4 |\n| auto | 5 |\n| bus | 4 |\n| camion | 3 |\n| **Total** | **16** |\nContrôle par positions : vélo: 1,4,9,13; auto: 2,6,8,11,15; bus: 3,7,12,16; camion: 5,10,14. Nombre de positions = 16 ; somme des effectifs = 16.",
+      "criteres": [
+        "Formuler ou appliquer la question de collecte et garder les catégories indiquées, sans les mélanger.",
+        "Classer chacune des observations numérotées exactement une fois, y compris les répétitions.",
+        "Écrire une ligne par catégorie (y compris un zéro éventuel), avec les effectifs exacts et les en-têtes du tableau.",
+        "Justifier la somme des effectifs, égale à 16, par un contrôle des positions ou un second classement.",
+        "Rendre le tableau lisible et expliquer la démarche de manière accessible."
+      ],
+      "feedback": "Contrôle chaque véhicule par ses positions; le total correct n’excuse pas une erreur dans deux catégories qui se compensent.",
+      "difficulte": "transfert",
+      "representation": "observation fictive de véhicules et contrôle autonome",
+      "limites_variation": "Respecter exactement les catégories imposées, les occurrences et leur multiplicité; aucune observation inventée ou omise. Réponse possible par texte, tableau dicté ou jetons décrits, à critères mathématiques inchangés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": {
+        "critere_id": "crit-1",
+        "objectif_id": "obj-1",
+        "contexte": "passage de véhicules fictifs",
+        "conditions": "Énoncé nouveau; aucune aide sur les catégories, le comptage ni la somme; matériel ou dictée neutres permis. Conserver tableau, pointage et justification.",
+        "decisions": "Nécessite aussi une seconde preuve distincte, et non un score isolé."
+      }
+    }
+  ]
+}

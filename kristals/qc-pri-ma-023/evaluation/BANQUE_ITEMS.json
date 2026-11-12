@@ -1,0 +1,1150 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-023",
+  "family_id": "qc-pri-ma-023-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-023-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans « exactement trois côtés polygonaux », classe T et R, puis explique pourquoi R est exclu.",
+      "stimulus": "T : A(0,0),B(4,0),C(1,3). R : A(0,0),B(4,0),C(4,2),D(0,2). Relier les sommets dans l’ordre et fermer.",
+      "reponse_attendue": "T appartient : trois côtés et trois sommets. R est exclu : quatre côtés et quatre sommets, et non trois.",
+      "criteres": [
+        "Classe toutes les figures selon la règle énoncée, sans erreur.",
+        "Nomme la propriété observée (côtés, sommets ou paires parallèles).",
+        "Explique au moins une non-appartenance par la propriété géométrique manquante."
+      ],
+      "feedback": "Si tu as inclus R, suis son contour en comptant chaque segment une seule fois. Si tu as exclu T, compte AB, BC et CA.",
+      "difficulte": "initial",
+      "representation": "sommets sur quadrillage et compte de segments",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucune variation libre : stimulus et réponse fixés.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe P et C en « polygone » ou « figure plane non polygonale ». Justifie pourquoi C ne peut être dans le premier groupe.",
+      "stimulus": "P : A(0,0),B(4,0),C(5,2),D(2,4),E(-1,2). C : cercle de centre O(0,0), rayon 2. Joindre les sommets de P dans l’ordre, fermer.",
+      "reponse_attendue": "P est un polygone simple à cinq côtés droits. C est une figure plane à contour courbe, sans côté polygonal ni sommet; il n’est donc pas un polygone.",
+      "criteres": [
+        "Classe toutes les figures selon la règle énoncée, sans erreur.",
+        "Nomme la propriété observée (côtés, sommets ou paires parallèles).",
+        "Explique au moins une non-appartenance par la propriété géométrique manquante."
+      ],
+      "feedback": "Un contour fermé n’est pas nécessairement polygonal. Regarde si les morceaux du bord sont des segments droits.",
+      "difficulte": "initial",
+      "representation": "liste de sommets et cercle décrit textuellement",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucune variation libre : stimulus et réponse fixés.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "fixe",
+      "consigne": "Trie T, R et P en groupes « trois, quatre, cinq côtés » et exclue P du groupe « quatre côtés » en donnant la raison.",
+      "stimulus": "T : (0,0),(4,0),(1,3); R : (0,0),(4,0),(4,2),(0,2); P : (0,0),(4,0),(5,2),(2,4),(-1,2). Polygones fermés.",
+      "reponse_attendue": "3 côtés : T. 4 côtés : R. 5 côtés : P. P n’appartient pas aux figures à 4 côtés car son contour comporte 5 segments et 5 sommets.",
+      "criteres": [
+        "Classe toutes les figures selon la règle énoncée, sans erreur.",
+        "Nomme la propriété observée (côtés, sommets ou paires parallèles).",
+        "Explique au moins une non-appartenance par la propriété géométrique manquante."
+      ],
+      "feedback": "Chaque changement de direction au sommet marque un côté suivant. Recompte tout le tour, y compris le segment de fermeture.",
+      "difficulte": "initial",
+      "representation": "coordonnées et tri à trois classes",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucune variation libre : stimulus et réponse fixés.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "fixe",
+      "consigne": "Trie I, Q et R selon 0, exactement 1 ou exactement 2 paires de côtés opposés parallèles. Explique pourquoi Q n’a pas deux paires.",
+      "stimulus": "I : A(0,0),B(4,0),C(3,3),D(0,2). Q : A(0,0),B(5,0),C(4,2),D(1,2). R : A(0,0),B(4,0),C(4,2),D(0,2).",
+      "reponse_attendue": "0 paire : I; exactement 1 : Q (AB // CD); exactement 2 : R (AB // CD et BC // DA). Dans Q, BC et DA ne sont pas parallèles.",
+      "criteres": [
+        "Classe toutes les figures selon la règle énoncée, sans erreur.",
+        "Nomme la propriété observée (côtés, sommets ou paires parallèles).",
+        "Explique au moins une non-appartenance par la propriété géométrique manquante."
+      ],
+      "feedback": "Deux côtés qui ne se touchent pas ne sont pas forcément parallèles : prolonge leurs supports ou compare leurs directions.",
+      "difficulte": "intermediaire",
+      "representation": "coordonnées et schéma",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucune variation libre : stimulus et réponse fixés.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "fixe",
+      "consigne": "K est incliné. Décide s’il appartient au groupe « quadrilatères avec exactement deux paires opposées parallèles ». Explique pourquoi l’inclinaison ne le disqualifie pas.",
+      "stimulus": "K : A(1,1),B(3,3),C(2,4),D(0,2). Refermer A-B-C-D-A.",
+      "reponse_attendue": "Oui. K possède 4 côtés, et AB // CD (déplacements (2,2) et (-2,-2)) ainsi que BC // DA (déplacements (-1,1) et (1,-1)). La rotation ne détruit pas le parallélisme.",
+      "criteres": [
+        "Identifie les 4 côtés.",
+        "Nomme exactement les 2 paires opposées parallèles.",
+        "Argumente à partir des directions, non de l’orientation sur la feuille."
+      ],
+      "feedback": "Vérifie la direction de chaque couple de côtés opposés, même si rien n’est horizontal.",
+      "difficulte": "intermediaire",
+      "representation": "coordonnées et schéma",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucune variation libre : stimulus et réponse fixés.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe R et L au critère « quatre côtés et deux paires opposées parallèles », puis explique pourquoi l’aspect oblique de L n’est pas un motif d’exclusion.",
+      "stimulus": "R : A(0,0),B(4,0),C(4,2),D(0,2). L : A(0,0),B(4,0),C(5,2),D(1,2).",
+      "reponse_attendue": "R et L appartiennent tous les deux : 4 côtés et 2 paires parallèles AB // CD, BC // DA. L est oblique mais satisfait la propriété.",
+      "criteres": [
+        "Inclut R et L.",
+        "Identifie au moins une paire parallèle par nom dans chacune.",
+        "Explique que l’orientation n’est pas un critère géométrique."
+      ],
+      "feedback": "L ne doit pas être une copie visuelle de R pour être classé avec R; compare les propriétés et non la forme perçue.",
+      "difficulte": "intermediaire",
+      "representation": "coordonnées et schéma",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucune variation libre : stimulus et réponse fixés.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour le groupe « quatre côtés polygonaux », classe T, R, P et C; explique pourquoi C n’appartient pas au groupe.",
+      "stimulus": "T : (0,0),(4,0),(1,3); R : (0,0),(4,0),(4,2),(0,2); P : (0,0),(4,0),(5,2),(2,4),(-1,2); C : cercle centre (0,0), rayon 2.",
+      "reponse_attendue": "R seul appartient. T a trois côtés, P cinq; C a un contour courbe et zéro côté polygonal : il n’entre pas dans « quatre côtés ».",
+      "criteres": [
+        "Classe toutes les figures selon la règle énoncée, sans erreur.",
+        "Nomme la propriété observée (côtés, sommets ou paires parallèles).",
+        "Explique au moins une non-appartenance par la propriété géométrique manquante."
+      ],
+      "feedback": "Une figure plane à contour courbe est bien une figure; elle n’a pas, pour autant, des côtés formés de segments droits.",
+      "difficulte": "intermediaire",
+      "representation": "coordonnées et schéma",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucune variation libre : stimulus et réponse fixés.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "fixe",
+      "consigne": "Trie Q, R et I sous « exactement une paire de côtés opposés parallèles »; justifie l’exclusion de R et de I.",
+      "stimulus": "Q : A(0,0),B(5,0),C(4,2),D(1,2); R : A(0,0),B(4,0),C(4,2),D(0,2); I : A(0,0),B(4,0),C(3,3),D(0,2).",
+      "reponse_attendue": "Q seul appartient : AB // CD, BC non // DA. R est exclu car il a deux paires opposées parallèles, et I est exclu car il n’en a aucune.",
+      "criteres": [
+        "Classe Q seul dans « exactement une ».",
+        "Distingue 0/1/2 paires avec justification.",
+        "Explique deux rejets exacts, sans confusion « exactement »/« au moins »."
+      ],
+      "feedback": "« Exactement une » exclut à la fois zéro paire et deux paires. Commence par les deux couples de côtés opposés.",
+      "difficulte": "intermediaire",
+      "representation": "coordonnées et schéma",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Aucune variation libre : stimulus et réponse fixés.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "parametrique",
+      "consigne": "Classe J, K, L et M selon « quadrilatère avec exactement deux paires de côtés opposés parallèles » et justifie pourquoi K est exclu.",
+      "stimulus": "Atelier de figures nouvelles, version paramétrique bornée.\nJ : A(14,15), B(14,23), C(10,23), D(10,15).\nK : A(14,15), B(14,25), C(10,23), D(10,17).\nL : A(14,15), B(14,23), C(8,21), D(10,15).\nM : A(14,15), B(14,23), C(8,17).\nChaque figure est le polygone fermé obtenu en reliant les sommets dans l’ordre, puis le dernier au premier.",
+      "reponse_attendue": "Appartiennent : J. N’appartiennent pas : K, L, M. J : 4 côtés, 2 paire(s) de côtés opposés parallèles; K : 4 côtés, 1 paire(s) de côtés opposés parallèles; L : 4 côtés, 0 paire(s) de côtés opposés parallèles; M : 3 côtés, 0 paire(s) de côtés opposés parallèles. K est exclu : il a quatre côtés, mais exactement une paire de côtés opposés parallèles (pas deux).",
+      "criteres": [
+        "Tri exact des inclus et exclus, y compris les figures moins typiques.",
+        "Compte/nomme pour chaque quadrilatère les côtés opposés parallèles nécessaires.",
+        "Justification vérifiable du rejet de K, sans utiliser l’apparence."
+      ],
+      "feedback": "Refais le tour de chaque contour pour vérifier quatre côtés, puis compare les deux couples opposés; « exactement » exige le nombre précis de paires.",
+      "difficulte": "intermediaire",
+      "representation": "coordonnées entières (quadrillage ou tracé tactile), justification orale/écrite",
+      "seed": 245,
+      "parametres": {
+        "modele": "similarite_entiere_bornee/1.0",
+        "variables": {
+          "seed": {
+            "type": "entier",
+            "min": 0,
+            "max": 1023
+          },
+          "t": {
+            "domaine": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "k": {
+            "domaine": [
+              1,
+              2
+            ]
+          },
+          "a": {
+            "domaine": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          "b": {
+            "domaine": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        },
+        "gabarits_origine": {
+          "J": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "K": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "L": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "M": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        "algorithme_generation": "t = seed mod 4; k = 1 + (floor(seed/4) mod 2); a = 14 + (floor(seed/8) mod 5); b = 14 + (floor(seed/40) mod 5); R0(x,y)=(x,y), R1(x,y)=(-y,x), R2(x,y)=(-x,-y), R3(x,y)=(y,-x); nouveau sommet = (a,b)+k*Rt(ancien sommet).",
+        "algorithme_resolution": "Relier les sommets du gabarit dans l’ordre et fermer. Pour chaque quadrilatère ABCD, tester les deux couples opposés AB/CD et BC/DA : vecteurs u,v parallèles ssi ux*vy - uy*vx = 0. Compter 0/1/2; classer selon l’égalité demandée. Vérification indépendante par directions entières normalisées (PGCD) ; contrôles de non-dégénérescence/convexité.",
+        "contraintes": [
+          "seed entier 0..1023",
+          "sommets entiers distincts dans l’ordre de leur contour",
+          "polygones simples et strictement convexes",
+          "aucun changement de cardinalité ou de parallélisme sous la similitude",
+          "aucune donnée ni classification générée par IA libre"
+        ],
+        "instanciation": {
+          "seed": 245,
+          "parametres": {
+            "t": 1,
+            "k": 2,
+            "a": 14,
+            "b": 15
+          },
+          "coordonnees": {
+            "J": [
+              [
+                14,
+                15
+              ],
+              [
+                14,
+                23
+              ],
+              [
+                10,
+                23
+              ],
+              [
+                10,
+                15
+              ]
+            ],
+            "K": [
+              [
+                14,
+                15
+              ],
+              [
+                14,
+                25
+              ],
+              [
+                10,
+                23
+              ],
+              [
+                10,
+                17
+              ]
+            ],
+            "L": [
+              [
+                14,
+                15
+              ],
+              [
+                14,
+                23
+              ],
+              [
+                8,
+                21
+              ],
+              [
+                10,
+                15
+              ]
+            ],
+            "M": [
+              [
+                14,
+                15
+              ],
+              [
+                14,
+                23
+              ],
+              [
+                8,
+                17
+              ]
+            ]
+          },
+          "paires_comptees": {
+            "J": 2,
+            "K": 1,
+            "L": 0,
+            "M": 0
+          },
+          "acceptes": [
+            "J"
+          ],
+          "rejet_explique": "K"
+        },
+        "variation_autorisee": "Changer uniquement le seed entier borné pour calculer les sommets; conserver labels/prototypes/consigne et corriger par algorithme exact."
+      },
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Uniquement les paramètres t, k, a, b issus du seed; sommets ordonnés, corpus fermé; aucun changement de gabarit ni d’étiquette.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "parametrique",
+      "consigne": "Trie U, V, W et X sous « quadrilatères avec exactement une paire de côtés opposés parallèles ». Justifie l’exclusion de W.",
+      "stimulus": "Jeu de cartes à trier, version paramétrique bornée.\nU : A(17,16), B(12,16), C(13,14), D(16,14).\nV : A(17,16), B(11,16), C(13,13), D(16,13).\nW : A(17,16), B(13,16), C(13,14), D(17,14).\nX : A(17,16), B(13,16), C(14,13), D(17,14).\nChaque figure est le polygone fermé obtenu en reliant les sommets dans l’ordre, puis le dernier au premier.",
+      "reponse_attendue": "Appartiennent : U, V. N’appartiennent pas : W, X. U : 4 côtés, 1 paire(s) de côtés opposés parallèles; V : 4 côtés, 1 paire(s) de côtés opposés parallèles; W : 4 côtés, 2 paire(s) de côtés opposés parallèles; X : 4 côtés, 0 paire(s) de côtés opposés parallèles. W est exclu : il possède deux paires parallèles, et non exactement une.",
+      "criteres": [
+        "Tri exact des inclus et exclus, y compris les figures moins typiques.",
+        "Compte/nomme pour chaque quadrilatère les côtés opposés parallèles nécessaires.",
+        "Justification vérifiable du rejet de W, sans utiliser l’apparence."
+      ],
+      "feedback": "Refais le tour de chaque contour pour vérifier quatre côtés, puis compare les deux couples opposés; « exactement » exige le nombre précis de paires.",
+      "difficulte": "intermediaire",
+      "representation": "coordonnées entières (quadrillage ou tracé tactile), justification orale/écrite",
+      "seed": 306,
+      "parametres": {
+        "modele": "similarite_entiere_bornee/1.0",
+        "variables": {
+          "seed": {
+            "type": "entier",
+            "min": 0,
+            "max": 1023
+          },
+          "t": {
+            "domaine": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "k": {
+            "domaine": [
+              1,
+              2
+            ]
+          },
+          "a": {
+            "domaine": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          "b": {
+            "domaine": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        },
+        "gabarits_origine": {
+          "U": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "V": [
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "W": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "X": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        "algorithme_generation": "t = seed mod 4; k = 1 + (floor(seed/4) mod 2); a = 14 + (floor(seed/8) mod 5); b = 14 + (floor(seed/40) mod 5); R0(x,y)=(x,y), R1(x,y)=(-y,x), R2(x,y)=(-x,-y), R3(x,y)=(y,-x); nouveau sommet = (a,b)+k*Rt(ancien sommet).",
+        "algorithme_resolution": "Relier les sommets du gabarit dans l’ordre et fermer. Pour chaque quadrilatère ABCD, tester les deux couples opposés AB/CD et BC/DA : vecteurs u,v parallèles ssi ux*vy - uy*vx = 0. Compter 0/1/2; classer selon l’égalité demandée. Vérification indépendante par directions entières normalisées (PGCD) ; contrôles de non-dégénérescence/convexité.",
+        "contraintes": [
+          "seed entier 0..1023",
+          "sommets entiers distincts dans l’ordre de leur contour",
+          "polygones simples et strictement convexes",
+          "aucun changement de cardinalité ou de parallélisme sous la similitude",
+          "aucune donnée ni classification générée par IA libre"
+        ],
+        "instanciation": {
+          "seed": 306,
+          "parametres": {
+            "t": 2,
+            "k": 1,
+            "a": 17,
+            "b": 16
+          },
+          "coordonnees": {
+            "U": [
+              [
+                17,
+                16
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                16,
+                14
+              ]
+            ],
+            "V": [
+              [
+                17,
+                16
+              ],
+              [
+                11,
+                16
+              ],
+              [
+                13,
+                13
+              ],
+              [
+                16,
+                13
+              ]
+            ],
+            "W": [
+              [
+                17,
+                16
+              ],
+              [
+                13,
+                16
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                17,
+                14
+              ]
+            ],
+            "X": [
+              [
+                17,
+                16
+              ],
+              [
+                13,
+                16
+              ],
+              [
+                14,
+                13
+              ],
+              [
+                17,
+                14
+              ]
+            ]
+          },
+          "paires_comptees": {
+            "U": 1,
+            "V": 1,
+            "W": 2,
+            "X": 0
+          },
+          "acceptes": [
+            "U",
+            "V"
+          ],
+          "rejet_explique": "W"
+        },
+        "variation_autorisee": "Changer uniquement le seed entier borné pour calculer les sommets; conserver labels/prototypes/consigne et corriger par algorithme exact."
+      },
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Uniquement les paramètres t, k, a, b issus du seed; sommets ordonnés, corpus fermé; aucun changement de gabarit ni d’étiquette.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "parametrique",
+      "consigne": "MOSAÏQUE : pour la frise de classe, retiens seulement les quadrilatères ayant exactement deux paires de côtés opposés parallèles. Trie A/B/C/D et explique précisément pourquoi B est rejeté, en nommant ses côtés. Réalise cette tâche sans indices.",
+      "stimulus": "Contexte de maîtrise 1 — motifs géométriques d’une mosaïque fictive.\nA : A(15,14), B(15,6), C(19,6), D(19,14).\nB : A(15,14), B(15,4), C(19,6), D(19,12).\nC : A(15,14), B(15,6), C(19,4), D(19,12).\nD : A(15,14), B(15,6), C(21,8), D(19,14).\nChaque figure est le polygone fermé obtenu en reliant les sommets dans l’ordre, puis le dernier au premier.",
+      "reponse_attendue": "Appartiennent : A, C. N’appartiennent pas : B, D. A : 4 côtés, 2 paire(s) de côtés opposés parallèles; B : 4 côtés, 1 paire(s) de côtés opposés parallèles; C : 4 côtés, 2 paire(s) de côtés opposés parallèles; D : 4 côtés, 0 paire(s) de côtés opposés parallèles. B est exclu : une seule paire de côtés opposés est parallèle (AB // CD) : BC et DA ne sont pas parallèles.",
+      "criteres": [
+        "Tri exact des inclus et exclus, y compris les figures moins typiques.",
+        "Compte/nomme pour chaque quadrilatère les côtés opposés parallèles nécessaires.",
+        "Justification vérifiable du rejet de B, sans utiliser l’apparence."
+      ],
+      "feedback": "Refais le tour de chaque contour pour vérifier quatre côtés, puis compare les deux couples opposés; « exactement » exige le nombre précis de paires.",
+      "difficulte": "transfert",
+      "representation": "coordonnées entières (quadrillage ou tracé tactile), justification orale/écrite",
+      "seed": 415,
+      "parametres": {
+        "modele": "similarite_entiere_bornee/1.0",
+        "variables": {
+          "seed": {
+            "type": "entier",
+            "min": 0,
+            "max": 1023
+          },
+          "t": {
+            "domaine": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "k": {
+            "domaine": [
+              1,
+              2
+            ]
+          },
+          "a": {
+            "domaine": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          "b": {
+            "domaine": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        },
+        "gabarits_origine": {
+          "A": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "B": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "D": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        "algorithme_generation": "t = seed mod 4; k = 1 + (floor(seed/4) mod 2); a = 14 + (floor(seed/8) mod 5); b = 14 + (floor(seed/40) mod 5); R0(x,y)=(x,y), R1(x,y)=(-y,x), R2(x,y)=(-x,-y), R3(x,y)=(y,-x); nouveau sommet = (a,b)+k*Rt(ancien sommet).",
+        "algorithme_resolution": "Relier les sommets du gabarit dans l’ordre et fermer. Pour chaque quadrilatère ABCD, tester les deux couples opposés AB/CD et BC/DA : vecteurs u,v parallèles ssi ux*vy - uy*vx = 0. Compter 0/1/2; classer selon l’égalité demandée. Vérification indépendante par directions entières normalisées (PGCD) ; contrôles de non-dégénérescence/convexité.",
+        "contraintes": [
+          "seed entier 0..1023",
+          "sommets entiers distincts dans l’ordre de leur contour",
+          "polygones simples et strictement convexes",
+          "aucun changement de cardinalité ou de parallélisme sous la similitude",
+          "aucune donnée ni classification générée par IA libre"
+        ],
+        "instanciation": {
+          "seed": 415,
+          "parametres": {
+            "t": 3,
+            "k": 2,
+            "a": 15,
+            "b": 14
+          },
+          "coordonnees": {
+            "A": [
+              [
+                15,
+                14
+              ],
+              [
+                15,
+                6
+              ],
+              [
+                19,
+                6
+              ],
+              [
+                19,
+                14
+              ]
+            ],
+            "B": [
+              [
+                15,
+                14
+              ],
+              [
+                15,
+                4
+              ],
+              [
+                19,
+                6
+              ],
+              [
+                19,
+                12
+              ]
+            ],
+            "C": [
+              [
+                15,
+                14
+              ],
+              [
+                15,
+                6
+              ],
+              [
+                19,
+                4
+              ],
+              [
+                19,
+                12
+              ]
+            ],
+            "D": [
+              [
+                15,
+                14
+              ],
+              [
+                15,
+                6
+              ],
+              [
+                21,
+                8
+              ],
+              [
+                19,
+                14
+              ]
+            ]
+          },
+          "paires_comptees": {
+            "A": 2,
+            "B": 1,
+            "C": 2,
+            "D": 0
+          },
+          "acceptes": [
+            "A",
+            "C"
+          ],
+          "rejet_explique": "B"
+        },
+        "variation_autorisee": "Changer uniquement le seed entier borné pour calculer les sommets; conserver labels/prototypes/consigne et corriger par algorithme exact."
+      },
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Uniquement les paramètres t, k, a, b issus du seed; sommets ordonnés, corpus fermé; aucun changement de gabarit ni d’étiquette.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    },
+    {
+      "item_id": "qc-pri-ma-023-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-023-ev-01",
+      "mode": "parametrique",
+      "consigne": "JARDIN : dans le plan d’un jardin fictif, retiens seulement les bordures quadrilatérales ayant exactement une paire de côtés opposés parallèles. Trie E/F/G/H et explique pourquoi G ne convient pas, en nommant ses côtés. Réalise cette tâche sans indices.",
+      "stimulus": "Contexte de maîtrise 2 — contours de plates-bandes d’un jardin fictif.\nE : A(15,17), B(15,22), C(13,21), D(13,18).\nF : A(15,17), B(15,23), C(12,21), D(12,18).\nG : A(15,17), B(15,21), C(13,22), D(13,18).\nH : A(15,17), B(15,21), C(12,20), D(13,17).\nChaque figure est le polygone fermé obtenu en reliant les sommets dans l’ordre, puis le dernier au premier.",
+      "reponse_attendue": "Appartiennent : E, F. N’appartiennent pas : G, H. E : 4 côtés, 1 paire(s) de côtés opposés parallèles; F : 4 côtés, 1 paire(s) de côtés opposés parallèles; G : 4 côtés, 2 paire(s) de côtés opposés parallèles; H : 4 côtés, 0 paire(s) de côtés opposés parallèles. G est exclu : ses deux paires de côtés opposés sont parallèles (AB // CD et BC // DA), alors qu’on en exige exactement une.",
+      "criteres": [
+        "Tri exact des inclus et exclus, y compris les figures moins typiques.",
+        "Compte/nomme pour chaque quadrilatère les côtés opposés parallèles nécessaires.",
+        "Justification vérifiable du rejet de G, sans utiliser l’apparence."
+      ],
+      "feedback": "Refais le tour de chaque contour pour vérifier quatre côtés, puis compare les deux couples opposés; « exactement » exige le nombre précis de paires.",
+      "difficulte": "transfert",
+      "representation": "coordonnées entières (quadrillage ou tracé tactile), justification orale/écrite",
+      "seed": 729,
+      "parametres": {
+        "modele": "similarite_entiere_bornee/1.0",
+        "variables": {
+          "seed": {
+            "type": "entier",
+            "min": 0,
+            "max": 1023
+          },
+          "t": {
+            "domaine": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "k": {
+            "domaine": [
+              1,
+              2
+            ]
+          },
+          "a": {
+            "domaine": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          "b": {
+            "domaine": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        },
+        "gabarits_origine": {
+          "E": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "F": [
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "G": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "H": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        "algorithme_generation": "t = seed mod 4; k = 1 + (floor(seed/4) mod 2); a = 14 + (floor(seed/8) mod 5); b = 14 + (floor(seed/40) mod 5); R0(x,y)=(x,y), R1(x,y)=(-y,x), R2(x,y)=(-x,-y), R3(x,y)=(y,-x); nouveau sommet = (a,b)+k*Rt(ancien sommet).",
+        "algorithme_resolution": "Relier les sommets du gabarit dans l’ordre et fermer. Pour chaque quadrilatère ABCD, tester les deux couples opposés AB/CD et BC/DA : vecteurs u,v parallèles ssi ux*vy - uy*vx = 0. Compter 0/1/2; classer selon l’égalité demandée. Vérification indépendante par directions entières normalisées (PGCD) ; contrôles de non-dégénérescence/convexité.",
+        "contraintes": [
+          "seed entier 0..1023",
+          "sommets entiers distincts dans l’ordre de leur contour",
+          "polygones simples et strictement convexes",
+          "aucun changement de cardinalité ou de parallélisme sous la similitude",
+          "aucune donnée ni classification générée par IA libre"
+        ],
+        "instanciation": {
+          "seed": 729,
+          "parametres": {
+            "t": 1,
+            "k": 1,
+            "a": 15,
+            "b": 17
+          },
+          "coordonnees": {
+            "E": [
+              [
+                15,
+                17
+              ],
+              [
+                15,
+                22
+              ],
+              [
+                13,
+                21
+              ],
+              [
+                13,
+                18
+              ]
+            ],
+            "F": [
+              [
+                15,
+                17
+              ],
+              [
+                15,
+                23
+              ],
+              [
+                12,
+                21
+              ],
+              [
+                12,
+                18
+              ]
+            ],
+            "G": [
+              [
+                15,
+                17
+              ],
+              [
+                15,
+                21
+              ],
+              [
+                13,
+                22
+              ],
+              [
+                13,
+                18
+              ]
+            ],
+            "H": [
+              [
+                15,
+                17
+              ],
+              [
+                15,
+                21
+              ],
+              [
+                12,
+                20
+              ],
+              [
+                13,
+                17
+              ]
+            ]
+          },
+          "paires_comptees": {
+            "E": 1,
+            "F": 1,
+            "G": 2,
+            "H": 0
+          },
+          "acceptes": [
+            "E",
+            "F"
+          ],
+          "rejet_explique": "G"
+        },
+        "variation_autorisee": "Changer uniquement le seed entier borné pour calculer les sommets; conserver labels/prototypes/consigne et corriger par algorithme exact."
+      },
+      "validation_status": "a_revoir",
+      "variation_autorisee": "Uniquement les paramètres t, k, a, b issus du seed; sommets ordonnés, corpus fermé; aucun changement de gabarit ni d’étiquette.",
+      "source": "création originale et vérification mathématique locale (voir sources/REFERENCES_CONTENU.md)"
+    }
+  ]
+}

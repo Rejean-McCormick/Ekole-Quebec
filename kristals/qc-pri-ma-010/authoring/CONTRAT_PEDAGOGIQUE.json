@@ -1,0 +1,117 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-010",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Choisir une stratégie de calcul mental et mobiliser une propriété opératoire.",
+  "concepts": [
+    "commutativité",
+    "associativité",
+    "compensation"
+  ],
+  "preuve_attendue": "Comparer deux stratégies mentales et expliquer laquelle convient le mieux.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-006"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ma-007"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-010-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Comparer deux stratégies mentales et expliquer laquelle convient le mieux.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "moteur": "formules déterministes en entiers, sans tirage libre ni appels externes",
+        "tests_prevus": "comparaison solution directe/transformée, bornes des paramètres et tests sur seeds 0..1023 pour les quatre gabarits",
+        "banque_ref": "evaluation/BANQUE_ITEMS.json"
+      },
+      "review_status": "items_generes_a_revoir",
+      "kristal_id": "qc-pri-ma-010",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "notation_symbolique",
+        "schema_dizaines_unites",
+        "droite_numerique_textuelle",
+        "scenario_textuel"
+      ],
+      "variables": {
+        "p-assoc": {
+          "seed": "entier>=0",
+          "a": "18 + (seed % 9)",
+          "b": "29 + ((seed // 9) % 8)",
+          "c": "100 - b"
+        },
+        "p-comp-somme": {
+          "seed": "entier>=0",
+          "a": "41 + (seed % 8)",
+          "b": "23 + ((seed // 8) % 37)",
+          "k": "10 - (a % 10)"
+        },
+        "p-comp-diff": {
+          "seed": "entier>=0",
+          "a": "200 + (seed % 80)",
+          "b": "95 + ((seed // 80) % 5)",
+          "k": "100 - b"
+        },
+        "p-quatre-termes": {
+          "seed": "entier>=0",
+          "a": "30 + (seed % 29)",
+          "b": "100 - a",
+          "c": "15 + ((seed // 29) % 34)",
+          "d": "100 - c"
+        }
+      },
+      "contraintes": [
+        "Seeds non négatives fixées dans les items; opérations sur entiers naturels uniquement.",
+        "Addition compensée : 0 < k <= b; soustraction : deux termes augmentés du même k.",
+        "Résultat original et résultat transformé identiques, contrôlés par arithmétique indépendante.",
+        "Les scénarios q-011 et q-012 sont fixes; aucune variation libre de contexte ou de corrigé.",
+        "Réponses alternatives exactes et justification cohérente admises."
+      ],
+      "barreme_ou_rubrique": {
+        "axes": [
+          "resultat_exact",
+          "equivalence_ou_propriete",
+          "comparaison_des_strategies",
+          "justification_du_choix"
+        ],
+        "points_par_axe": [
+          0,
+          1,
+          2
+        ],
+        "maximum": 8,
+        "seuil_decision": "Deux preuves indépendantes (q-011, q-012) : 7/8 ou 8/8 chacune, résultat exact (axe1=2), équivalence vérifiée (axe2=2), justification de choix >=1, aucune propriété fausse retenue. Pas de score isolé."
+      },
+      "source": [
+        "frame auteur qc-pri-ma-010 (v1.2)",
+        "gouvernance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "production_originale_et_egalites_derivees"
+      ],
+      "seed": {
+        "q-007": 137,
+        "q-008": 428,
+        "q-009": 515,
+        "q-010": 772
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

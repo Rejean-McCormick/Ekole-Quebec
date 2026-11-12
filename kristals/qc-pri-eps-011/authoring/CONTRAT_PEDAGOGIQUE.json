@@ -1,0 +1,88 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-011",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Reconnaître les pratiques quotidiennes qui soutiennent santé et bien-être.",
+  "concepts": [
+    "repos",
+    "hygiène",
+    "hydratation",
+    "prévention"
+  ],
+  "preuve_attendue": "Sélectionner des choix sains dans des situations scolaires fictives.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-011-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Sélectionner des choix sains dans des situations scolaires fictives.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "uniquement les variantes A/B explicites dans BANQUE_ITEMS.json pour q-011 et q-012; 10 items fixes immuables",
+        "interdiction": "aucun contenu ou corrigé clinique généré librement; pas de score sur habitudes personnelles",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_revue_humaine_requise",
+      "kristal_id": "qc-pri-eps-011",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Sélectionner des choix sains dans des situations scolaires fictives.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "scenario_fictif_texte",
+        "cartes_a_description_textuelle",
+        "oral_ou_ecrit_ou_communication_assistee"
+      ],
+      "variables": {
+        "mode_fixe": "10 cas texte préétablis, aucun tirage",
+        "mode_scenario_controle": "2 familles de scènes avec variantes A/B pré-rédigées; seed entière, A si pair, B si impair",
+        "banque_ref": "evaluation/BANQUE_ITEMS.json",
+        "contexte_maitrise": [
+          "atelier_bibliotheque",
+          "fete_sportive_scolaire"
+        ]
+      },
+      "contraintes": [
+        "ne pas exiger de vraie performance ou divulgation de santé",
+        "aucune affirmation médicale personnelle",
+        "eau potable et règles de sécurité de l’établissement",
+        "ne pas noter morphologie, habitudes familiales ou ressources",
+        "deux preuves autonomes en situations distinctes; absence de décision dangereuse",
+        "variations exclusivement dans corpus A/B, aucun tirage IA libre"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "D_choix_0_3",
+          "E_justification_0_3",
+          "S_securite_et_adaptation_0_3",
+          "A_autonomie_et_transfert_0_3"
+        ],
+        "seuil_local": "dans q-011 et q-012 D,E,S,A ≥2 et aucune action dangereuse; revue humaine requise",
+        "interdit": "inférer maîtrise d’un total unique"
+      },
+      "source": [
+        "governance/Norme_Pedagogique_Autonome_v1.2/CONTRAT_PEDAGOGIQUE_V1.2.md",
+        "sources/REFERENCES_CONTENU.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md"
+      ],
+      "seed": {
+        "q-011": 11010,
+        "q-012": 12010,
+        "regle": "pair=A, impair=B; uniquement variantes inscrites dans BANQUE_ITEMS.json"
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

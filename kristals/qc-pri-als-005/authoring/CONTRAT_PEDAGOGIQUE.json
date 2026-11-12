@@ -1,0 +1,91 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Poser et répondre à des questions simples en interaction.",
+  "concepts": [
+    "salutations",
+    "questions fréquentes",
+    "réponses"
+  ],
+  "preuve_attendue": "Soutenir un échange de quatre tours avec un partenaire.",
+  "prerequis_bloquants": [
+    "qc-pri-als-001",
+    "qc-pri-als-002"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-005-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Soutenir un échange de quatre tours avec un partenaire.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Jeu fermé de rôles, questions et réponses fixées dans la banque; seules identité fictive, préférence inventée, position et modalités de soutien non directif peuvent varier. Aucun scénario libre généré par IA.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-als-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "interaction orale en anglais avec partenaire",
+        "observation de quatre tours P/E/P/E",
+        "fiche d’observation formative"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "scenarios_controles": [
+          "accueil",
+          "couleur",
+          "coin lecture",
+          "cour de récréation"
+        ],
+        "tours": 4,
+        "format_reponse": "oral intelligible"
+      },
+      "contraintes": [
+        "quatre tours alternés du partenaire et de l’élève",
+        "au moins une question et une réponse de l’élève",
+        "questions et réponses en anglais adaptées au contexte",
+        "pas d’information personnelle réelle exigée",
+        "deux contextes de maîtrise distincts",
+        "partenaire préparé; pas de guidage oral pendant les tours",
+        "intelligibilité plutôt qu’accent natif",
+        "accessibilité examinée humainement"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "pertinence_reponse",
+          "question_initiative",
+          "alternance_quatre_tours",
+          "intelligibilite",
+          "autonomie_et_transfert"
+        ],
+        "echelle": "0 non démontré; 1 partiel; 2 suffisant",
+        "decision": "deux contextes distincts, tous critères essentiels à 2 séparément"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

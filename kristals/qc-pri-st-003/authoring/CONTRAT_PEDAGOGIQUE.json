@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Choisir un instrument et relever des mesures traçables et reproductibles.",
+  "concepts": [
+    "mesure",
+    "unité",
+    "tableau",
+    "répétition"
+  ],
+  "preuve_attendue": "Tenir un tableau de données sur deux essais comparables.",
+  "prerequis_bloquants": [
+    "qc-pri-st-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-003-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Tenir un tableau de données sur deux essais comparables.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Items 007–008 : exclusivement trois paires de données simulées approuvées par item, choisies par seed modulo 3; épreuves 009–010 : observations physiques non prédéterminées.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme": "index = seed % 3; corrections par soustraction abs(v2-v1) et comparaison exacte; aucun tirage ni IA libre."
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-st-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "choix réel d’instrument",
+        "mesure instrumentée observée",
+        "tableau à deux lignes et unités",
+        "justification observation/inférence"
+      ],
+      "variables": {
+        "types": [
+          "fixe",
+          "parametrique"
+        ],
+        "parametrique_autorise_uniquement_pour": [
+          "qc-pri-st-003-q-007",
+          "qc-pri-st-003-q-008"
+        ],
+        "regle": "cas=cas_approuves[seed % len(cas_approuves)]",
+        "domaines": "listes finies de trois paires de lectures, en cm ou en s, explicitement archivées dans les items",
+        "libre_IA": false
+      },
+      "contraintes": [
+        "même phénomène ou objet pour les deux essais",
+        "même instrument et unité entre essais",
+        "tableau avec 2 lignes distinctes",
+        "aucune valeur observée inventée",
+        "scénarios simulés signalés",
+        "sécurité du matériel",
+        "2 manifestations autonomes sur grandeurs différentes"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "choix_instrument_unite",
+          "protocole_conditions",
+          "tableau_deux_essais",
+          "observation_et_conclusion",
+          "autonomie_securite"
+        ],
+        "seuil": "2 sur chaque dimension dans chacun des deux contextes 009 et 010"
+      },
+      "source": [
+        "kristals/qc-pri-st-003/authoring/PARCOURS.md",
+        "kristals/qc-pri-st-003/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_complets_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

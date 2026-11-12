@@ -1,0 +1,698 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-031",
+  "family_id": "qc-pri-ma-031-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-031-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Lis les valeurs sur le diagramme textuel; indique la catégorie maximale et le total.",
+      "stimulus": "Titre : matériels de dessin (fiction). Axe catégorie : Crayons, Gommes, Règles. Axe effectif : objets, origine 0, échelle 1 objet/bloc. Crayons |■■■ ; Gommes |■■■■■ ; Règles |■■.",
+      "reponse_attendue": "Crayons = 3, Gommes = 5, Règles = 2; maximum Gommes = 5; total = 10.",
+      "criteres": [
+        "Chaque valeur correcte est reliée à son étiquette.",
+        "Maximum identifié par comparaison numérique.",
+        "Total 3+5+2=10 vérifié."
+      ],
+      "feedback": "Si tu écris 5 pour les crayons, relis l’étiquette au début de chaque bande; recompte les blocs.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-031-ev-01",
+      "critere_id": "crit-1",
+      "representation": "diagramme_horiz_textuel",
+      "source": "production_originale_donnees_fictives",
+      "variabilite_permises": "Aucune modification des valeurs/énoncés avant nouvelle validation; adaptation de modalité uniquement.",
+      "securite_accessibilite": "Texte structuré, données explicites et interprétation non tributaire des couleurs. Aucune donnée personnelle recueillie."
+    },
+    {
+      "item_id": "qc-pri-ma-031-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Convertis les blocs en effectifs et explique le pas utilisé.",
+      "stimulus": "Paniers fictifs. Échelle 1 bloc = 2 objets; axe effectif gradué 0,2,4,6,8. A |■■■ ; B |■■ ; C |■■■■.",
+      "reponse_attendue": "A=6, B=4, C=8 objets; un bloc vaut 2 objets, donc 3×2=6, 2×2=4, 4×2=8.",
+      "criteres": [
+        "Respect de l’échelle 2.",
+        "Lecture des trois valeurs 6,4,8.",
+        "Justification par multiplication du nombre de blocs par 2."
+      ],
+      "feedback": "Trois blocs ne sont pas trois objets : multiplie par les deux objets que représente chaque bloc.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-031-ev-01",
+      "critere_id": "crit-1",
+      "representation": "barres_horiz_textuelles",
+      "source": "production_originale_donnees_fictives",
+      "variabilite_permises": "Aucune modification des valeurs/énoncés avant nouvelle validation; adaptation de modalité uniquement.",
+      "securite_accessibilite": "Texte structuré, données explicites et interprétation non tributaire des couleurs. Aucune donnée personnelle recueillie."
+    },
+    {
+      "item_id": "qc-pri-ma-031-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Explique précisément pourquoi cette échelle est incorrecte puis réécris-la.",
+      "stimulus": "Axe vertical d’un diagramme à bandes : quatre traits également espacés étiquetés 0, 2, 4, 8.",
+      "reponse_attendue": "Les intervalles égaux ont des différences 2, 2, puis 4 : échelle irrégulière. Étiquettes correctes pour quatre traits : 0, 2, 4, 6. On peut prolonger avec 8 sur un cinquième trait.",
+      "criteres": [
+        "Repère le saut de 4 entre 4 et 8.",
+        "Propose des graduations de pas constant.",
+        "Explique le risque d’une lecture faussée."
+      ],
+      "feedback": "Compare les écarts entre nombres successifs : chaque trait doit ajouter la même quantité.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-031-ev-01",
+      "critere_id": "crit-1",
+      "representation": "axe_numerique_textuel",
+      "source": "production_originale_donnees_fictives",
+      "variabilite_permises": "Aucune modification des valeurs/énoncés avant nouvelle validation; adaptation de modalité uniquement.",
+      "securite_accessibilite": "Texte structuré, données explicites et interprétation non tributaire des couleurs. Aucune donnée personnelle recueillie."
+    },
+    {
+      "item_id": "qc-pri-ma-031-q-004",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Construis un diagramme à bandes verticales et indique le total.",
+      "stimulus": "Inventaire fictif de trousses : Bleue = 2, Rouge = 4, Jaune = 5. Un carreau = 1 trousse.",
+      "reponse_attendue": "Axe horizontal : Bleue/Rouge/Jaune; axe vertical : nombre de trousses de 0 à 5 par pas de 1; bandes de hauteurs 2,4,5; titre pertinent; total = 11.",
+      "criteres": [
+        "Catégories et titre lisibles, unité mentionnée.",
+        "Origine zéro et échelle 1 régulière.",
+        "Trois hauteurs exactes 2,4,5.",
+        "Total 11 correctement justifié."
+      ],
+      "feedback": "Avant de comparer les barres, vérifie que chaque hauteur correspond au tableau et que le zéro est indiqué.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-031-ev-01",
+      "critere_id": "crit-1",
+      "representation": "tableau_vers_diagramme",
+      "source": "production_originale_donnees_fictives",
+      "variabilite_permises": "Aucune modification des valeurs/énoncés avant nouvelle validation; adaptation de modalité uniquement.",
+      "securite_accessibilite": "Texte structuré, données explicites et interprétation non tributaire des couleurs. Aucune donnée personnelle recueillie."
+    },
+    {
+      "item_id": "qc-pri-ma-031-q-005",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-ma-031-ev-01",
+      "critere_id": "crit-1",
+      "mode": "parametrique",
+      "consigne": "Lis les effectifs de chaque catégorie à partir de ce diagramme horizontal à échelle 2; calcule le total et identifie le maximum.",
+      "stimulus": "Activités d’un atelier fictif.\nAxe des quantités : 0, 2, 4, 6, 8 (pas 2); 1 bloc ■ = 2 unités.\nAtelier A |■■\nAtelier B |■■■■\nAtelier C |■■■",
+      "reponse_attendue": "Valeurs : Atelier A = 4, Atelier B = 8, Atelier C = 6. Lecture des barres (1 bloc = 2) : 2, 4, 3 blocs; total = 18 unités; maximum = Atelier B (8).",
+      "criteres": [
+        "Effectifs calculés par nombre de blocs × échelle.",
+        "Quantité totale ou comparaison chiffrée correcte.",
+        "Conclusion bornée au relevé fictif."
+      ],
+      "feedback": "Chaque bloc représente deux unités; refais le calcul avant de chercher le maximum.",
+      "difficulte": "intermediaire",
+      "seed": 3105,
+      "parametres": {
+        "variables": [
+          "variante_index",
+          "categories",
+          "effectifs",
+          "echelle"
+        ],
+        "domaines": {
+          "variante_index": [
+            0,
+            1,
+            2
+          ],
+          "effectifs": "entiers de 2 à 10 pour q-005; entiers de 2 à 7 pour q-006",
+          "echelle": [
+            2
+          ]
+        },
+        "contraintes": [
+          "trois catégories distinctes par variante",
+          "effectifs entiers positifs",
+          "effectifs multiples de echelle",
+          "maximum unique dans chaque variante",
+          "aucune modification libre des labels et nombres"
+        ],
+        "algorithme": "Catalogue fini de 3 variantes; sélection sans hasard par index = seed mod 3. Pour chaque ligne, hauteur = effectif // echelle; somme = somme(effectifs); maximum = plus grand effectif. Le corrigé est calculé sur cette variante.",
+        "catalogue": [
+          {
+            "donnees": [
+              {
+                "categorie": "Atelier A",
+                "effectif": 4
+              },
+              {
+                "categorie": "Atelier B",
+                "effectif": 8
+              },
+              {
+                "categorie": "Atelier C",
+                "effectif": 6
+              }
+            ],
+            "echelle": 2,
+            "affirmation_incorrecte": null,
+            "index": 0,
+            "corrigé": "Valeurs : Atelier A = 4, Atelier B = 8, Atelier C = 6. Lecture des barres (1 bloc = 2) : 2, 4, 3 blocs; total = 18 unités; maximum = Atelier B (8)."
+          },
+          {
+            "donnees": [
+              {
+                "categorie": "Atelier A",
+                "effectif": 2
+              },
+              {
+                "categorie": "Atelier B",
+                "effectif": 6
+              },
+              {
+                "categorie": "Atelier C",
+                "effectif": 8
+              }
+            ],
+            "echelle": 2,
+            "affirmation_incorrecte": null,
+            "index": 1,
+            "corrigé": "Valeurs : Atelier A = 2, Atelier B = 6, Atelier C = 8. Lecture des barres (1 bloc = 2) : 1, 3, 4 blocs; total = 16 unités; maximum = Atelier C (8)."
+          },
+          {
+            "donnees": [
+              {
+                "categorie": "Atelier A",
+                "effectif": 10
+              },
+              {
+                "categorie": "Atelier B",
+                "effectif": 4
+              },
+              {
+                "categorie": "Atelier C",
+                "effectif": 6
+              }
+            ],
+            "echelle": 2,
+            "affirmation_incorrecte": null,
+            "index": 2,
+            "corrigé": "Valeurs : Atelier A = 10, Atelier B = 4, Atelier C = 6. Lecture des barres (1 bloc = 2) : 5, 2, 3 blocs; total = 20 unités; maximum = Atelier A (10)."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "index": 0,
+            "exemple": "Valeurs : Atelier A = 4, Atelier B = 8, Atelier C = 6. Lecture des barres (1 bloc = 2) : 2, 4, 3 blocs; total = 18 unités; maximum = Atelier B (8)."
+          },
+          {
+            "index": 1,
+            "exemple": "Valeurs : Atelier A = 2, Atelier B = 6, Atelier C = 8. Lecture des barres (1 bloc = 2) : 1, 3, 4 blocs; total = 16 unités; maximum = Atelier C (8)."
+          }
+        ],
+        "index_retenu": 0,
+        "limites_variation": "Seules les 3 variantes du catalogue fermé peuvent être sélectionnées, sans réécriture libre.",
+        "verification": "Toutes les variantes sont vérifiées par calcul dans les tests du build; revue humaine nécessaire."
+      },
+      "validation_status": "a_revoir",
+      "representation": "diagramme_horiz_textuel_accessible",
+      "source": "catalogue_original_fictif",
+      "variabilite_permises": "Seulement variante_index = seed mod 3; pas de nouveau tirage ni IA libre.",
+      "securite_accessibilite": "Diagramme transcrit sous forme de texte, alternative en tableau et sans dépendance à la couleur."
+    },
+    {
+      "item_id": "qc-pri-ma-031-q-006",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-ma-031-ev-01",
+      "critere_id": "crit-1",
+      "mode": "parametrique",
+      "consigne": "Lis les effectifs et critique la phrase « Le verre est la catégorie la plus importante » avec deux nombres.",
+      "stimulus": "Relevé fictif de matières classées.\nAxe des quantités : 0, 1, 2, 3, 4, 5, 6 (pas 1); 1 bloc ■ = 1 unités.\nPapier |■■■■\nCarton |■■■■■■\nVerre |■■\nProposition à évaluer : Le verre est la catégorie la plus importante.",
+      "reponse_attendue": "Valeurs : Papier = 4, Carton = 6, Verre = 2. Affirmation fausse : Verre = 2 < Carton = 6; Carton est maximal (6). Total = 12.",
+      "criteres": [
+        "Effectifs calculés par nombre de blocs × échelle.",
+        "Quantité totale ou comparaison chiffrée correcte.",
+        "Conclusion bornée au relevé fictif."
+      ],
+      "feedback": "Compare la barre Verre à celle de Carton et donne les deux effectifs.",
+      "difficulte": "intermediaire",
+      "seed": 3106,
+      "parametres": {
+        "variables": [
+          "variante_index",
+          "categories",
+          "effectifs",
+          "echelle"
+        ],
+        "domaines": {
+          "variante_index": [
+            0,
+            1,
+            2
+          ],
+          "effectifs": "entiers de 2 à 10 pour q-005; entiers de 2 à 7 pour q-006",
+          "echelle": [
+            1
+          ]
+        },
+        "contraintes": [
+          "trois catégories distinctes par variante",
+          "effectifs entiers positifs",
+          "effectifs multiples de echelle",
+          "maximum unique dans chaque variante",
+          "aucune modification libre des labels et nombres"
+        ],
+        "algorithme": "Catalogue fini de 3 variantes; sélection sans hasard par index = seed mod 3. Pour chaque ligne, hauteur = effectif // echelle; somme = somme(effectifs); maximum = plus grand effectif. Le corrigé est calculé sur cette variante.",
+        "catalogue": [
+          {
+            "donnees": [
+              {
+                "categorie": "Papier",
+                "effectif": 3
+              },
+              {
+                "categorie": "Carton",
+                "effectif": 5
+              },
+              {
+                "categorie": "Verre",
+                "effectif": 2
+              }
+            ],
+            "echelle": 1,
+            "affirmation_incorrecte": "Le verre est la catégorie la plus importante.",
+            "index": 0,
+            "corrigé": "Valeurs : Papier = 3, Carton = 5, Verre = 2. Affirmation fausse : Verre = 2 < Carton = 5; Carton est maximal (5). Total = 10."
+          },
+          {
+            "donnees": [
+              {
+                "categorie": "Papier",
+                "effectif": 4
+              },
+              {
+                "categorie": "Carton",
+                "effectif": 6
+              },
+              {
+                "categorie": "Verre",
+                "effectif": 2
+              }
+            ],
+            "echelle": 1,
+            "affirmation_incorrecte": "Le verre est la catégorie la plus importante.",
+            "index": 1,
+            "corrigé": "Valeurs : Papier = 4, Carton = 6, Verre = 2. Affirmation fausse : Verre = 2 < Carton = 6; Carton est maximal (6). Total = 12."
+          },
+          {
+            "donnees": [
+              {
+                "categorie": "Papier",
+                "effectif": 5
+              },
+              {
+                "categorie": "Carton",
+                "effectif": 7
+              },
+              {
+                "categorie": "Verre",
+                "effectif": 3
+              }
+            ],
+            "echelle": 1,
+            "affirmation_incorrecte": "Le verre est la catégorie la plus importante.",
+            "index": 2,
+            "corrigé": "Valeurs : Papier = 5, Carton = 7, Verre = 3. Affirmation fausse : Verre = 3 < Carton = 7; Carton est maximal (7). Total = 15."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "index": 0,
+            "exemple": "Valeurs : Papier = 3, Carton = 5, Verre = 2. Affirmation fausse : Verre = 2 < Carton = 5; Carton est maximal (5). Total = 10."
+          },
+          {
+            "index": 1,
+            "exemple": "Valeurs : Papier = 4, Carton = 6, Verre = 2. Affirmation fausse : Verre = 2 < Carton = 6; Carton est maximal (6). Total = 12."
+          }
+        ],
+        "index_retenu": 1,
+        "limites_variation": "Seules les 3 variantes du catalogue fermé peuvent être sélectionnées, sans réécriture libre.",
+        "verification": "Toutes les variantes sont vérifiées par calcul dans les tests du build; revue humaine nécessaire."
+      },
+      "validation_status": "a_revoir",
+      "representation": "diagramme_horiz_textuel_accessible",
+      "source": "catalogue_original_fictif",
+      "variabilite_permises": "Seulement variante_index = seed mod 3; pas de nouveau tirage ni IA libre.",
+      "securite_accessibilite": "Diagramme transcrit sous forme de texte, alternative en tableau et sans dépendance à la couleur."
+    },
+    {
+      "item_id": "qc-pri-ma-031-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Explique pourquoi la phrase ne découle pas des données, puis propose une conclusion vraie et chiffrée.",
+      "stimulus": "Une seule classe fictive a enregistré les prêts suivants : Robots = 8, Animaux = 5, Espace = 3. Phrase : « Tous les enfants du Québec préfèrent les livres sur les robots. »",
+      "reponse_attendue": "Conclusion excessive : le tableau porte seulement sur une classe fictive et non tous les enfants du Québec. Conclusion défendable : Robots compte 8 prêts, Animaux 5 et Espace 3; Robots dépasse Animaux de 3 prêts dans ce tableau.",
+      "criteres": [
+        "Repère la portée limitée de la source.",
+        "Refuse la généralisation non justifiée.",
+        "Propose au moins deux valeurs et une comparaison exacte."
+      ],
+      "feedback": "Les mots « tous » et « Québec » n’apparaissent pas dans le champ des données recueillies; formule une phrase limitée à ce relevé.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-031-ev-01",
+      "critere_id": "crit-1",
+      "representation": "tableau_critique",
+      "source": "production_originale_donnees_fictives",
+      "variabilite_permises": "Aucune modification des valeurs/énoncés avant nouvelle validation; adaptation de modalité uniquement.",
+      "securite_accessibilite": "Texte structuré, données explicites et interprétation non tributaire des couleurs. Aucune donnée personnelle recueillie."
+    },
+    {
+      "item_id": "qc-pri-ma-031-q-008",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Deux diagrammes représentent le même tableau; explique si une barre plus longue signifie ici plus de données, et justifie.",
+      "stimulus": "Tableau fictif : A=6, B=4, C=2. Diagramme D1 : 1 bloc = 1 objet, A = ■■■■■■, B = ■■■■, C = ■■. Diagramme D2 : 1 bloc = 2 objets, A = ■■■, B = ■■, C = ■. Affirmation : « D1 compte deux fois plus d’objets que D2. »",
+      "reponse_attendue": "Affirmation fausse : D1 et D2 donnent A=6, B=4, C=2. La différence de longueur vient de l’échelle; les deux totaux valent 12. Les axes et légendes permettent de comparer.",
+      "criteres": [
+        "Compare des valeurs et non seulement des longueurs.",
+        "Justifie par les échelles 1 et 2.",
+        "Reconnaît les totaux identiques 12."
+      ],
+      "feedback": "Lis la légende de chaque diagramme : il est impossible de comparer le nombre de blocs directement lorsque les échelles diffèrent.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ma-031-ev-01",
+      "critere_id": "crit-1",
+      "representation": "double_diagramme_et_tableau",
+      "source": "production_originale_donnees_fictives",
+      "variabilite_permises": "Aucune modification des valeurs/énoncés avant nouvelle validation; adaptation de modalité uniquement.",
+      "securite_accessibilite": "Texte structuré, données explicites et interprétation non tributaire des couleurs. Aucune donnée personnelle recueillie."
+    },
+    {
+      "item_id": "qc-pri-ma-031-q-009",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-ma-031-ev-01",
+      "critere_id": "crit-1",
+      "mode": "parametrique",
+      "consigne": "Épreuve autonome : construis un diagramme à bandes complet à partir du tableau, puis identifie et corrige l’affirmation fausse en citant des valeurs. Explique pourquoi tu as choisi/accepté cette échelle.",
+      "stimulus": "Bibliothèque fictive — prêts de livres. Tableau : BD = 6; Contes = 2; Documentaires = 4; Albums = 8. Échelle imposée : 1 carré = 2 prêts. Proposition à évaluer : « Les contes sont plus empruntés que les BD. »",
+      "reponse_attendue": "Valeurs : BD = 6, Contes = 2, Documentaires = 4, Albums = 8. Diagramme : 4 catégories nommées, zéro, unité 'prêts', échelle 2, bandes de 3, 1, 2, 4 blocs dans l'ordre du tableau. L'affirmation est fausse : BD = 6 > Contes = 2 de 4 prêts. Total = 20.",
+      "criteres": [
+        "Titre pertinent, quatre catégories identifiées et unité prêts.",
+        "Axe des quantités à zéro, pas régulier de 2, barres de largeurs uniformes.",
+        "Quatre hauteurs exactes par conversion effectif / 2.",
+        "Interprétation incorrecte repérée et corrigée par deux effectifs chiffrés.",
+        "Choix d’échelle expliqué, vérification autonome contre tableau, aucun indice solution."
+      ],
+      "feedback": "Vérifie d’abord chaque couple catégorie/effectif, puis détermine le nombre de carrés en divisant par 2. Pour la critique, compare les deux valeurs réellement mentionnées.",
+      "difficulte": "transfert",
+      "seed": 3109,
+      "parametres": {
+        "variables": [
+          "variante_index",
+          "categories",
+          "effectifs",
+          "echelle",
+          "affirmation_incorrecte"
+        ],
+        "domaines": {
+          "variante_index": [
+            0,
+            1,
+            2
+          ],
+          "effectifs": "entiers positifs pairs, maximum 10",
+          "echelle": [
+            2
+          ]
+        },
+        "contraintes": [
+          "4 catégories exactement et distinctes",
+          "effectifs entiers positifs et pairs",
+          "échelle 2 obligatoire; zéro indiqué",
+          "largeur des bandes uniforme et hauteurs exactes",
+          "affirmation incorrecte dans chaque variante du catalogue",
+          "aucun contexte réel ni données personnelles"
+        ],
+        "algorithme": "Sélection déterministe index = seed mod 3 dans un catalogue fermé. Construire une bande par catégorie avec hauteur effectif / 2 en carrés et axe 0,2,...,maximum. Recalculer total et les deux nombres pertinents pour réfuter la phrase. Comparer à l’affirmation : aucune génération ouverte.",
+        "catalogue": [
+          {
+            "donnees": [
+              {
+                "categorie": "BD",
+                "effectif": 8
+              },
+              {
+                "categorie": "Contes",
+                "effectif": 4
+              },
+              {
+                "categorie": "Documentaires",
+                "effectif": 6
+              },
+              {
+                "categorie": "Albums",
+                "effectif": 2
+              }
+            ],
+            "echelle": 2,
+            "affirmation_incorrecte": "Les contes sont plus empruntés que les BD.",
+            "index": 0,
+            "corrigé": "Valeurs : BD = 8, Contes = 4, Documentaires = 6, Albums = 2. Diagramme : 4 catégories nommées, zéro, unité 'prêts', échelle 2, bandes de 4, 2, 3, 1 blocs dans l'ordre du tableau. L'affirmation est fausse : BD = 8 > Contes = 4 de 4 prêts. Total = 20."
+          },
+          {
+            "donnees": [
+              {
+                "categorie": "BD",
+                "effectif": 6
+              },
+              {
+                "categorie": "Contes",
+                "effectif": 2
+              },
+              {
+                "categorie": "Documentaires",
+                "effectif": 4
+              },
+              {
+                "categorie": "Albums",
+                "effectif": 8
+              }
+            ],
+            "echelle": 2,
+            "affirmation_incorrecte": "Les contes sont plus empruntés que les BD.",
+            "index": 1,
+            "corrigé": "Valeurs : BD = 6, Contes = 2, Documentaires = 4, Albums = 8. Diagramme : 4 catégories nommées, zéro, unité 'prêts', échelle 2, bandes de 3, 1, 2, 4 blocs dans l'ordre du tableau. L'affirmation est fausse : BD = 6 > Contes = 2 de 4 prêts. Total = 20."
+          },
+          {
+            "donnees": [
+              {
+                "categorie": "BD",
+                "effectif": 10
+              },
+              {
+                "categorie": "Contes",
+                "effectif": 6
+              },
+              {
+                "categorie": "Documentaires",
+                "effectif": 8
+              },
+              {
+                "categorie": "Albums",
+                "effectif": 4
+              }
+            ],
+            "echelle": 2,
+            "affirmation_incorrecte": "Les contes sont plus empruntés que les BD.",
+            "index": 2,
+            "corrigé": "Valeurs : BD = 10, Contes = 6, Documentaires = 8, Albums = 4. Diagramme : 4 catégories nommées, zéro, unité 'prêts', échelle 2, bandes de 5, 3, 4, 2 blocs dans l'ordre du tableau. L'affirmation est fausse : BD = 10 > Contes = 6 de 4 prêts. Total = 28."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "index": 0,
+            "exemple": "Valeurs : BD = 8, Contes = 4, Documentaires = 6, Albums = 2. Diagramme : 4 catégories nommées, zéro, unité 'prêts', échelle 2, bandes de 4, 2, 3, 1 blocs dans l'ordre du tableau. L'affirmation est fausse : BD = 8 > Contes = 4 de 4 prêts. Total = 20."
+          },
+          {
+            "index": 1,
+            "exemple": "Valeurs : BD = 6, Contes = 2, Documentaires = 4, Albums = 8. Diagramme : 4 catégories nommées, zéro, unité 'prêts', échelle 2, bandes de 3, 1, 2, 4 blocs dans l'ordre du tableau. L'affirmation est fausse : BD = 6 > Contes = 2 de 4 prêts. Total = 20."
+          }
+        ],
+        "index_retenu": 1,
+        "limites_variation": "Uniquement l’une des trois variantes validées; seed stable entier; ne pas changer les nombres sans réexécuter le contrôle de corrigé.",
+        "verification": "Validation exhaustive du catalogue de trois variantes par calcul et assertions contre les fausses propositions."
+      },
+      "validation_status": "a_revoir",
+      "representation": "tableau_vers_diagramme_a_bandes",
+      "source": "catalogue_original_fictif",
+      "variabilite_permises": "Seulement la variante déterminée par seed modulo 3 dans le catalogue fourni.",
+      "securite_accessibilite": "Papier quadrillé, barres tactiles, tableau texte ou équivalent structuré. Aucune obligation d’écriture fine; l’élève choisit et justifie. Aucune donnée personnelle.",
+      "preuve_maitrise": {
+        "manifestation": 1,
+        "contexte": "Bibliothèque fictive — prêts de livres",
+        "autonomie": "aucune aide portant sur valeurs, échelle, faux énoncé ou décision",
+        "tache": "production complète et critique chiffrée",
+        "conditions": "Tous les critères essentiels observés; verdict ne peut être compensé par une moyenne."
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-031-q-010",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-ma-031-ev-01",
+      "critere_id": "crit-1",
+      "mode": "parametrique",
+      "consigne": "Épreuve autonome : construis un diagramme à bandes complet à partir du tableau, puis identifie et corrige l’affirmation fausse en citant des valeurs. Explique pourquoi tu as choisi/accepté cette échelle.",
+      "stimulus": "Atelier fictif de réparation — interventions. Tableau : Roues = 8; Freins = 4; Chaînes = 6; Selles = 2. Échelle imposée : 1 carré = 2 interventions. Proposition à évaluer : « Il y a exactement deux fois plus de freins que de roues. »",
+      "reponse_attendue": "Valeurs : Roues = 8, Freins = 4, Chaînes = 6, Selles = 2. Diagramme : 4 catégories nommées, zéro, unité 'interventions', échelle 2, bandes de 4, 2, 3, 1 blocs dans l'ordre du tableau. Affirmation fausse : 2 × Roues = 16, et Freins = 4; ces nombres diffèrent. Total = 20.",
+      "criteres": [
+        "Titre pertinent, quatre catégories identifiées et unité interventions.",
+        "Axe des quantités à zéro, pas régulier de 2, barres de largeurs uniformes.",
+        "Quatre hauteurs exactes par conversion effectif / 2.",
+        "Interprétation incorrecte repérée et corrigée par deux effectifs chiffrés.",
+        "Choix d’échelle expliqué, vérification autonome contre tableau, aucun indice solution."
+      ],
+      "feedback": "Vérifie d’abord chaque couple catégorie/effectif, puis détermine le nombre de carrés en divisant par 2. Pour la critique, compare les deux valeurs réellement mentionnées.",
+      "difficulte": "transfert",
+      "seed": 3110,
+      "parametres": {
+        "variables": [
+          "variante_index",
+          "categories",
+          "effectifs",
+          "echelle",
+          "affirmation_incorrecte"
+        ],
+        "domaines": {
+          "variante_index": [
+            0,
+            1,
+            2
+          ],
+          "effectifs": "entiers positifs pairs, maximum 8",
+          "echelle": [
+            2
+          ]
+        },
+        "contraintes": [
+          "4 catégories exactement et distinctes",
+          "effectifs entiers positifs et pairs",
+          "échelle 2 obligatoire; zéro indiqué",
+          "largeur des bandes uniforme et hauteurs exactes",
+          "affirmation incorrecte dans chaque variante du catalogue",
+          "aucun contexte réel ni données personnelles"
+        ],
+        "algorithme": "Sélection déterministe index = seed mod 3 dans un catalogue fermé. Construire une bande par catégorie avec hauteur effectif / 2 en carrés et axe 0,2,...,maximum. Recalculer total et les deux nombres pertinents pour réfuter la phrase. Comparer à l’affirmation : aucune génération ouverte.",
+        "catalogue": [
+          {
+            "donnees": [
+              {
+                "categorie": "Roues",
+                "effectif": 4
+              },
+              {
+                "categorie": "Freins",
+                "effectif": 6
+              },
+              {
+                "categorie": "Chaînes",
+                "effectif": 2
+              },
+              {
+                "categorie": "Selles",
+                "effectif": 8
+              }
+            ],
+            "echelle": 2,
+            "affirmation_incorrecte": "Il y a exactement deux fois plus de freins que de roues.",
+            "index": 0,
+            "corrigé": "Valeurs : Roues = 4, Freins = 6, Chaînes = 2, Selles = 8. Diagramme : 4 catégories nommées, zéro, unité 'interventions', échelle 2, bandes de 2, 3, 1, 4 blocs dans l'ordre du tableau. Affirmation fausse : 2 × Roues = 8, et Freins = 6; ces nombres diffèrent. Total = 20."
+          },
+          {
+            "donnees": [
+              {
+                "categorie": "Roues",
+                "effectif": 6
+              },
+              {
+                "categorie": "Freins",
+                "effectif": 8
+              },
+              {
+                "categorie": "Chaînes",
+                "effectif": 4
+              },
+              {
+                "categorie": "Selles",
+                "effectif": 2
+              }
+            ],
+            "echelle": 2,
+            "affirmation_incorrecte": "Il y a exactement deux fois plus de freins que de roues.",
+            "index": 1,
+            "corrigé": "Valeurs : Roues = 6, Freins = 8, Chaînes = 4, Selles = 2. Diagramme : 4 catégories nommées, zéro, unité 'interventions', échelle 2, bandes de 3, 4, 2, 1 blocs dans l'ordre du tableau. Affirmation fausse : 2 × Roues = 12, et Freins = 8; ces nombres diffèrent. Total = 20."
+          },
+          {
+            "donnees": [
+              {
+                "categorie": "Roues",
+                "effectif": 8
+              },
+              {
+                "categorie": "Freins",
+                "effectif": 4
+              },
+              {
+                "categorie": "Chaînes",
+                "effectif": 6
+              },
+              {
+                "categorie": "Selles",
+                "effectif": 2
+              }
+            ],
+            "echelle": 2,
+            "affirmation_incorrecte": "Il y a exactement deux fois plus de freins que de roues.",
+            "index": 2,
+            "corrigé": "Valeurs : Roues = 8, Freins = 4, Chaînes = 6, Selles = 2. Diagramme : 4 catégories nommées, zéro, unité 'interventions', échelle 2, bandes de 4, 2, 3, 1 blocs dans l'ordre du tableau. Affirmation fausse : 2 × Roues = 16, et Freins = 4; ces nombres diffèrent. Total = 20."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "index": 0,
+            "exemple": "Valeurs : Roues = 4, Freins = 6, Chaînes = 2, Selles = 8. Diagramme : 4 catégories nommées, zéro, unité 'interventions', échelle 2, bandes de 2, 3, 1, 4 blocs dans l'ordre du tableau. Affirmation fausse : 2 × Roues = 8, et Freins = 6; ces nombres diffèrent. Total = 20."
+          },
+          {
+            "index": 1,
+            "exemple": "Valeurs : Roues = 6, Freins = 8, Chaînes = 4, Selles = 2. Diagramme : 4 catégories nommées, zéro, unité 'interventions', échelle 2, bandes de 3, 4, 2, 1 blocs dans l'ordre du tableau. Affirmation fausse : 2 × Roues = 12, et Freins = 8; ces nombres diffèrent. Total = 20."
+          }
+        ],
+        "index_retenu": 2,
+        "limites_variation": "Uniquement l’une des trois variantes validées; seed stable entier; ne pas changer les nombres sans réexécuter le contrôle de corrigé.",
+        "verification": "Validation exhaustive du catalogue de trois variantes par calcul et assertions contre les fausses propositions."
+      },
+      "validation_status": "a_revoir",
+      "representation": "tableau_vers_diagramme_a_bandes",
+      "source": "catalogue_original_fictif",
+      "variabilite_permises": "Seulement la variante déterminée par seed modulo 3 dans le catalogue fourni.",
+      "securite_accessibilite": "Papier quadrillé, barres tactiles, tableau texte ou équivalent structuré. Aucune obligation d’écriture fine; l’élève choisit et justifie. Aucune donnée personnelle.",
+      "preuve_maitrise": {
+        "manifestation": 2,
+        "contexte": "Atelier fictif de réparation — interventions",
+        "autonomie": "aucune aide portant sur valeurs, échelle, faux énoncé ou décision",
+        "tache": "production complète et critique chiffrée",
+        "conditions": "Tous les critères essentiels observés; verdict ne peut être compensé par une moyenne."
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "format": "ekole.activity/1",
+  "id": "invitations-mila",
+  "revision": 2,
+  "status": "local_demo",
+  "course": {
+    "id": "qc-pri-ma-009",
+    "objective": "obj-1",
+    "sha256": "sha256:dff9d7bd836bb471c60c705ca9dce62f186dbceb93cd6b4e0a16fdbba3f6d4c7"
+  },
+  "scenario": {
+    "id": "fete-sorciere",
+    "version": "1.0.0",
+    "step": "repartition",
+    "sha256": "sha256:a48cbf749c4f065afcad256181e75b6130e3dcb23a62665b5ff25047a1a8ba60"
+  },
+  "tasks": {
+    "pratique": {
+      "invitations": 6,
+      "per_sheet": 2,
+      "stock": 2
+    },
+    "bilan": {
+      "invitations": 9,
+      "per_sheet": 2,
+      "stock": 3
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "title": "Les invitations de Mila",
+      "subtitle": "Division · 3e année",
+      "objective": "Forme des groupes égaux pour trouver combien de feuilles il faut.",
+      "prerequisite": "Tu peux compter par bonds de deux et comparer deux nombres.",
+      "context": "Mila prépare {invitations} invitations. Une feuille donne {per_sheet} invitations. Il lui reste {stock} feuilles.",
+      "group": "Dessine les invitations ou utilise des jetons. Forme un groupe par feuille.",
+      "compare": "Compare le nombre de feuilles nécessaires au nombre de feuilles en stock.",
+      "reflection": "Explique comment tu as compté. Que ferais-tu si une dernière feuille ne donnait qu’une invitation utilisée ?",
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "heading": "Préparer les invitations",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "needed": "Combien de feuilles Mila doit-elle utiliser ?",
+      "missing": "Combien de feuilles lui manquent ?",
+      "explain": "Explique pourquoi il faut une feuille pour un groupe incomplet.",
+      "correct": "Ta réponse correspond à la situation.",
+      "incorrect": "Représente les groupes, puis compare ton dessin à la question.",
+      "next": "Vérifie que chaque invitation a une place.",
+      "review": "La justification sera lue par une personne.",
+      "criterion": "La justification relie le groupe incomplet à l’utilisation d’une feuille supplémentaire.",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "add_sheet": "Ajouter une feuille",
+      "undo_sheet": "Retirer une feuille",
+      "placement": "{placed} sur {total} invitations placées"
+    },
+    "en": {
+      "title": "Mila’s invitations",
+      "subtitle": "Division · Grade 3",
+      "objective": "Make equal groups to work out how many sheets are needed.",
+      "prerequisite": "You can count by twos and compare two numbers.",
+      "context": "Mila is preparing {invitations} invitations. One sheet makes {per_sheet} invitations. She has {stock} sheets left.",
+      "group": "Draw the invitations or use counters. Make one group for each sheet.",
+      "compare": "Compare the number of sheets needed with the number of sheets available.",
+      "reflection": "Explain how you counted. What would you do if only one invitation on the last sheet were used?",
+      "limits": "Local demonstration activity for review before classroom use.",
+      "heading": "Preparing the invitations",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "needed": "How many sheets does Mila need to use?",
+      "missing": "How many more sheets does she need?",
+      "explain": "Explain why a group with fewer invitations still needs a sheet.",
+      "correct": "Your answer matches the situation.",
+      "incorrect": "Show the groups and compare your drawing with the question.",
+      "next": "Check that every invitation has a place.",
+      "review": "Someone will review your explanation.",
+      "criterion": "The explanation connects the incomplete group to using one extra sheet.",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "add_sheet": "Add a sheet",
+      "undo_sheet": "Remove a sheet",
+      "placement": "{placed} of {total} invitations placed"
+    }
+  },
+  "trame": "fete-commune",
+  "character": {
+    "fr-CA": {
+      "format": "karacter.ekole-character/1",
+      "status": "candidate",
+      "locale": "fr-CA",
+      "character": {
+        "name": "Mila",
+        "role": "Organisatrice de la fête",
+        "intention": "Elle veut que chaque personne reçoive une invitation."
+      }
+    },
+    "en": {
+      "format": "karacter.ekole-character/1",
+      "status": "candidate",
+      "locale": "en",
+      "character": {
+        "name": "Mila",
+        "role": "Party organiser",
+        "intention": "She wants everyone to receive an invitation."
+      }
+    }
+  }
+}

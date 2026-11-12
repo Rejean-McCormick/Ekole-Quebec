@@ -1,0 +1,42 @@
+{
+  "format": "ekole.kristal-cadre-v12/1.0",
+  "kristal_id": "qc-pri-ma-006",
+  "source": {
+    "file": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Modéliser l’addition et choisir une stratégie efficace pour calculer.",
+    "preuve_attendue": "Résoudre deux additions distinctes et expliquer la stratégie adoptée.",
+    "concepts": [
+      "réunion",
+      "augmentation",
+      "décomposition",
+      "somme"
+    ],
+    "prerequis_bloquants": [
+      "qc-pri-ma-002"
+    ]
+  },
+  "etat_revision": "plan_de_conception_non_revu",
+  "famille_candidate": "construction_manipulative",
+  "plan_de_conception": {
+    "situation_de_depart": "Concevoir une situation concrète qui rende observable : Modéliser l’addition et choisir une stratégie efficace pour calculer.",
+    "action_de_lenfant": "Choisir une manipulation ou une production permettant de travailler réunion.",
+    "necessite_de_validation": "Comparer les propriétés vérifiables avec le critère : Résoudre deux additions distinctes et expliquer la stratégie adoptée.",
+    "evaluation": "Séparer entraînement automatique partiel et preuves de maîtrise source.",
+    "aide_et_regulation": "Identifier les erreurs de réunion et préparer des relances graduées.",
+    "transfert": "Préparer une autre représentation ou contexte de la même compétence; à rédiger et faire vérifier."
+  },
+  "visuels_conceptuels": {
+    "usage": "mise_en_situation",
+    "prompt": "Représenter une situation concrète permettant d’observer ou de manipuler « réunion » dans le cadre de « Modéliser l’addition et choisir une stratégie efficace pour calculer. ». Faire comprendre le contexte sans inclure la solution d’une tâche évaluée. Ne pas imposer de style graphique.",
+    "fichier_suggere": "experience/images/situation-v12.webp",
+    "affichage_si_absent": "prompt_en_texte"
+  },
+  "revision_humaine": {
+    "exactitude": false,
+    "erreurs_diagnostiques": false,
+    "ergonomie_enfant": false,
+    "accessibilite": false,
+    "preuver_maitrise": false
+  }
+}

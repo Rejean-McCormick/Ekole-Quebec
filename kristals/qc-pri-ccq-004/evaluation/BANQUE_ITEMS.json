@@ -1,0 +1,331 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ccq-004",
+  "family_id": "qc-pri-ccq-004-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ccq-004-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère une ressource et une relation possible au vivant sans inventer un effet certain.",
+      "stimulus": "Le jardin fictif du Parc-des-Petites-Nues a trois bacs de fleurs. Option A : les arroser avec deux arrosoirs chaque lundi. Option B : ne pas ajouter de nouveaux bacs. On ne connaît pas le nombre d’insectes.",
+      "reponse_attendue": "L’eau est une ressource de A; les plantes sont des êtres vivants concernés. A entretient trois bacs et mobilise deux arrosoirs par semaine; le nombre d’insectes et leur évolution sont inconnus.",
+      "criteres": [
+        "Employer au moins un fait exact du dossier.",
+        "Distinguer les données fournies d’une supposition.",
+        "Ne pas juger une personne, croyance ou identité.",
+        "Identifier l’eau et les plantes sans conclure sur les insectes."
+      ],
+      "feedback": "Si tu annonces un effet certain sur tous les insectes, vérifie : aucune observation chiffrée n’est donnée.",
+      "difficulte": "initial",
+      "representation": "vignette textuelle; réponse structurée",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "variabilite_permise": "Aucune",
+      "securite_accessibilite": "Personnages et lieux fictifs, aucune donnée personnelle, texte lisible ou lu; réponse écrite/orale/dictée neutre, même grille; ne pas noter les convictions."
+    },
+    {
+      "item_id": "qc-pri-ccq-004-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les trois phrases en fait, inférence prudente ou affirmation non démontrée; explique.",
+      "stimulus": "Une coopérative fictive prévoit A : réparer huit sacs durant deux heures; B : acheter huit sacs neufs. Phrases : (1) A prévoit deux heures de réparation. (2) A peut nécessiter de la disponibilité bénévole. (3) A supprimera tous les déchets de la ville.",
+      "reponse_attendue": "(1) fait donné; (2) inférence raisonnable, la réparation demande du temps humain; (3) non démontré et disproportionné. Aucune donnée ne porte sur les déchets de la ville.",
+      "criteres": [
+        "Employer au moins un fait exact du dossier.",
+        "Distinguer les données fournies d’une supposition.",
+        "Ne pas juger une personne, croyance ou identité.",
+        "Classer correctement les trois phrases et expliquer au moins une limite."
+      ],
+      "feedback": "Le mot « peut » exprime une conséquence possible; « tous » exige une preuve absente.",
+      "difficulte": "initial",
+      "representation": "vignette textuelle; réponse structurée",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "variabilite_permise": "Aucune",
+      "securite_accessibilite": "Personnages et lieux fictifs, aucune donnée personnelle, texte lisible ou lu; réponse écrite/orale/dictée neutre, même grille; ne pas noter les convictions."
+    },
+    {
+      "item_id": "qc-pri-ccq-004-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Associe une valeur et un critère explicite à chaque priorité attribuée aux personnages fictifs.",
+      "stimulus": "Au comité imaginaire de la Place-des-Tulipes, personnage L dit « Nous voulons économiser l’eau », personnage M dit « Il faut conserver l’accès aux bancs ». A ajoute quatre bacs arrosés; B conserve la place telle quelle. L’accès aux bancs est inchangé dans les deux options.",
+      "reponse_attendue": "Pour L : valeur de sobriété des ressources; critère quantité d’eau/arrosage. Pour M : valeur d’accès équitable; critère maintien des bancs. Le second critère ne départage pas A/B puisque les deux conservent les bancs. Aucune croyance de l’élève n’est demandée.",
+      "criteres": [
+        "Employer au moins un fait exact du dossier.",
+        "Distinguer les données fournies d’une supposition.",
+        "Ne pas juger une personne, croyance ou identité.",
+        "Différencier valeur et critère de décision.",
+        "Constater le critère à égalité."
+      ],
+      "feedback": "Un critère identique pour A/B peut aboutir à une égalité : ce n’est pas une erreur.",
+      "difficulte": "initial",
+      "representation": "vignette textuelle; réponse structurée",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "variabilite_permise": "Aucune",
+      "securite_accessibilite": "Personnages et lieux fictifs, aucune donnée personnelle, texte lisible ou lu; réponse écrite/orale/dictée neutre, même grille; ne pas noter les convictions."
+    },
+    {
+      "item_id": "qc-pri-ccq-004-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare réellement deux options avec deux critères, puis donne une limite de l’information.",
+      "stimulus": "Le club fictif des jeux a 20 boîtes. A : les réparer pendant trois heures, puis les réutiliser. B : acheter 20 boîtes neuves, prêtes le lendemain; les vieilles restent stockées. Les deux permettent de jouer.",
+      "reponse_attendue": "Critère réemploi : A réutilise 20 boîtes; B fait entrer 20 neuves et conserve les anciennes. Critère rapidité/temps : A exige trois heures; B est prêt le lendemain, durée de travail non précisée. Une préférence conditionnelle A ou B est recevable. Il est incorrect d’affirmer que B a jeté les vieilles boîtes.",
+      "criteres": [
+        "Employer au moins un fait exact du dossier.",
+        "Distinguer les données fournies d’une supposition.",
+        "Ne pas juger une personne, croyance ou identité.",
+        "Comparer A et B sous deux critères identiques.",
+        "Indiquer une limite ou un compromis."
+      ],
+      "feedback": "Le dossier ne dit jamais que les boîtes stockées sont jetées; retire toute affirmation contraire.",
+      "difficulte": "intermediaire",
+      "representation": "vignette textuelle; réponse structurée",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "variabilite_permise": "Aucune",
+      "securite_accessibilite": "Personnages et lieux fictifs, aucune donnée personnelle, texte lisible ou lu; réponse écrite/orale/dictée neutre, même grille; ne pas noter les convictions."
+    },
+    {
+      "item_id": "qc-pri-ccq-004-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "À partir du seul dossier sélectionné, compare les deux possibilités selon ressources et temps; justifie et reconnais une limite.",
+      "stimulus": "Centre fictif des Pivoines : A fabrique 6 affiches avec du carton conservé, 60 min de préparation; B achète 6 affiches neuves, 15 min de préparation. Les deux sont lisibles; aucun devenir des affiches B n’est indiqué.",
+      "reponse_attendue": "A réemploie du carton et demande 60 min; B achète du neuf et demande 15 min. Valeurs possibles du comité : réemploi et mise en place rapide; A ou B justifié avec compromis. Impossible de dire que B finit obligatoirement à la poubelle.",
+      "criteres": [
+        "Employer au moins un fait exact du dossier.",
+        "Distinguer les données fournies d’une supposition.",
+        "Ne pas juger une personne, croyance ou identité.",
+        "Utiliser précisément les nombres du scénario retenu.",
+        "Présenter deux critères et une limite."
+      ],
+      "feedback": "Tu peux prioriser le temps ou le réemploi; décris les deux avant de choisir.",
+      "difficulte": "intermediaire",
+      "representation": "vignette contrôlée et tableau A/B",
+      "seed": 102,
+      "parametres": {
+        "catalogue": [
+          {
+            "code": "q5-a",
+            "stimulus": "Centre fictif des Pivoines : A fabrique 6 affiches avec du carton conservé, 60 min de préparation; B achète 6 affiches neuves, 15 min de préparation. Les deux sont lisibles; aucun devenir des affiches B n’est indiqué.",
+            "reponse": "A réemploie du carton et demande 60 min; B achète du neuf et demande 15 min. Valeurs possibles du comité : réemploi et mise en place rapide; A ou B justifié avec compromis. Impossible de dire que B finit obligatoirement à la poubelle."
+          },
+          {
+            "code": "q5-b",
+            "stimulus": "Centre fictif des Mélodies : A fabrique 5 affiches avec du carton conservé, 50 min de préparation; B achète 5 affiches neuves, 20 min de préparation. Les deux sont lisibles; aucun devenir des affiches B n’est indiqué.",
+            "reponse": "A réemploie du carton et demande 50 min; B achète du neuf et demande 20 min. Valeurs possibles du comité : réemploi et mise en place rapide; A ou B justifié avec compromis. Impossible de dire que B finit obligatoirement à la poubelle."
+          }
+        ],
+        "algorithme": "Index Python zéro = seed modulo nombre de variantes; sélectionner stimulus et reponse liés au même code.",
+        "domaine_seed": "entier >= 0",
+        "n_variantes": 2,
+        "selectionne": "q5-a",
+        "contraintes": [
+          "aucun nombre hors catalogue",
+          "A réemploie toujours le carton; B achète neuf",
+          "ne jamais inventer la destination finale de B"
+        ],
+        "exemples_controles": [
+          {
+            "seed": 102,
+            "index": 0,
+            "code": "q5-a"
+          },
+          {
+            "seed": 103,
+            "index": 1,
+            "code": "q5-b"
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "variabilite_permise": "Variantes finies explicitement décrites dans parametres; aucun nouveau fait inventé.",
+      "securite_accessibilite": "Personnages et lieux fictifs, aucune donnée personnelle, texte lisible ou lu; réponse écrite/orale/dictée neutre, même grille; ne pas noter les convictions."
+    },
+    {
+      "item_id": "qc-pri-ccq-004-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Compare les effets sur les arbustes et sur l’usage humain, puis précise une donnée manquante.",
+      "stimulus": "Parc fictif des Érables : A entretient 4 arbustes déjà en place, deux heures/mois; B déplace 4 arbustes en jardinières et installe 3 bancs, trois heures/mois. Aucune donnée ne garantit la survie des arbustes déplacés.",
+      "reponse_attendue": "A garde quatre arbustes en place et exige 2 h/mois; B déplace quatre arbustes, ajoute trois bancs et exige 3 h/mois. Les conséquences pour le vivant du déplacement sont incertaines; une préférence conditionnelle et une question de suivi sont nécessaires.",
+      "criteres": [
+        "Employer au moins un fait exact du dossier.",
+        "Distinguer les données fournies d’une supposition.",
+        "Ne pas juger une personne, croyance ou identité.",
+        "Comparer le vivant, le temps d’entretien et l’usage humain.",
+        "Reconnaître une incertitude factuelle."
+      ],
+      "feedback": "Le déplacement d’un arbuste ne prouve pas sa mort. Quelle donnée permettrait de connaître sa survie ?",
+      "difficulte": "intermediaire",
+      "representation": "vignette contrôlée et justification orale/écrite",
+      "seed": 205,
+      "parametres": {
+        "catalogue": [
+          {
+            "code": "q6-a",
+            "stimulus": "Parc fictif du Bonvent : A entretient 3 arbustes déjà en place, une heure/mois; B déplace 3 arbustes en jardinières et installe 2 bancs, deux heures/mois. Aucune donnée ne garantit la survie des arbustes déplacés.",
+            "reponse": "A garde trois arbustes en place et exige 1 h/mois; B déplace trois arbustes, ajoute deux bancs et exige 2 h/mois. Les conséquences pour le vivant du déplacement sont incertaines; une préférence conditionnelle et une question de suivi sont nécessaires."
+          },
+          {
+            "code": "q6-b",
+            "stimulus": "Parc fictif des Érables : A entretient 4 arbustes déjà en place, deux heures/mois; B déplace 4 arbustes en jardinières et installe 3 bancs, trois heures/mois. Aucune donnée ne garantit la survie des arbustes déplacés.",
+            "reponse": "A garde quatre arbustes en place et exige 2 h/mois; B déplace quatre arbustes, ajoute trois bancs et exige 3 h/mois. Les conséquences pour le vivant du déplacement sont incertaines; une préférence conditionnelle et une question de suivi sont nécessaires."
+          }
+        ],
+        "algorithme": "Index Python zéro = seed modulo nombre de variantes; garder inséparables fiche et corrigé du même code.",
+        "domaine_seed": "entier >= 0",
+        "n_variantes": 2,
+        "selectionne": "q6-b",
+        "contraintes": [
+          "aucun nombre hors catalogue",
+          "survie des végétaux inconnue",
+          "ne pas promettre un impact écologique certain"
+        ],
+        "exemples_controles": [
+          {
+            "seed": 204,
+            "index": 0,
+            "code": "q6-a"
+          },
+          {
+            "seed": 205,
+            "index": 1,
+            "code": "q6-b"
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "variabilite_permise": "Variantes finies explicitement décrites dans parametres; aucun nouveau fait inventé.",
+      "securite_accessibilite": "Personnages et lieux fictifs, aucune donnée personnelle, texte lisible ou lu; réponse écrite/orale/dictée neutre, même grille; ne pas noter les convictions."
+    },
+    {
+      "item_id": "qc-pri-ccq-004-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Produis un petit tableau A/B sur deux critères et propose deux décisions recevables selon des priorités différentes.",
+      "stimulus": "Maison communautaire imaginaire : A prête dix lampes rechargeables disponibles le lendemain, 35 minutes de préparation; B achète dix lampes neuves disponibles aujourd’hui, 10 minutes de préparation. Les lampes prêtées seront retournées; les lampes achetées resteront dans la maison. La consommation d’électricité n’est pas donnée.",
+      "reponse_attendue": "Tableau : A = prêt/35 min/demain; B = achat/10 min/aujourd’hui. Décision A possible si priorité au partage des biens; B possible si urgence de disponibilité. Éviter toute affirmation sur l’électricité, la pollution ou le devenir des lampes après usage, données absentes.",
+      "criteres": [
+        "Employer au moins un fait exact du dossier.",
+        "Distinguer les données fournies d’une supposition.",
+        "Ne pas juger une personne, croyance ou identité.",
+        "Deux critères appliqués symétriquement.",
+        "Deux conclusions conditionnelles cohérentes."
+      ],
+      "feedback": "Les deux réponses peuvent être acceptables. Montre les critères, pas un jugement moral sur les personnages.",
+      "difficulte": "intermediaire",
+      "representation": "vignette textuelle; réponse structurée",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "variabilite_permise": "Aucune",
+      "securite_accessibilite": "Personnages et lieux fictifs, aucune donnée personnelle, texte lisible ou lu; réponse écrite/orale/dictée neutre, même grille; ne pas noter les convictions."
+    },
+    {
+      "item_id": "qc-pri-ccq-004-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "mode": "fixe",
+      "consigne": "Réponds respectueusement à une objection en t’appuyant sur deux critères du scénario, sans juger la personne.",
+      "stimulus": "Fête fictive des Étoiles : A sert le goûter dans 25 bols déjà disponibles; nettoyage annoncé de 40 min. B sert le même goûter dans 25 bols jetables; ramassage annoncé de 15 min. Personnage 1 privilégie A pour le réemploi; personnage 2 privilégie B pour le temps. Les deux permettent de manger assis.",
+      "reponse_attendue": "« Je comprends que B demande moins de temps annoncé (15 min contre 40 min). Je privilégierais A si l’objectif est de réutiliser les 25 bols déjà disponibles; il faut toutefois organiser 40 min de lavage. Si le comité manque de temps, B a cet avantage, mais exige 25 objets à ramasser. » Inversion de préférence recevable avec mêmes critères et faits.",
+      "criteres": [
+        "Employer au moins un fait exact du dossier.",
+        "Distinguer les données fournies d’une supposition.",
+        "Ne pas juger une personne, croyance ou identité.",
+        "Reformuler loyalement la raison opposée.",
+        "Appuyer deux critères sur les données de A et B."
+      ],
+      "feedback": "Ne dis pas « le personnage a tort parce qu’il est paresseux »; discute de la tâche et du temps.",
+      "difficulte": "intermediaire",
+      "representation": "vignette textuelle; réponse structurée",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": false,
+      "variabilite_permise": "Aucune",
+      "securite_accessibilite": "Personnages et lieux fictifs, aucune donnée personnelle, texte lisible ou lu; réponse écrite/orale/dictée neutre, même grille; ne pas noter les convictions."
+    },
+    {
+      "item_id": "qc-pri-ccq-004-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 1 — Évalue A et B selon les critères explicites « place au vivant », « ressources/entretien » et « usage de la cour ». Présente un tableau A/B, une conséquence prudente, la priorité d’un comité fictif et une conclusion avec limite. Aucune aide sur les arguments.",
+      "stimulus": "COUR DES MÉLÈZES (école entièrement fictive). La cour dispose déjà d’un passage libre de 2 m et d’un banc accessible. A : installer 4 bacs avec plantes; 4 arrosoirs d’eau et 2 h de soin par semaine; passage et banc conservés. B : ajouter 4 jeux peints au sol; aucun arrosage du projet; 30 min d’inspection par semaine; passage et banc conservés. Les bacs peuvent accueillir de petits êtres vivants, sans comptage annoncé. Les jeux augmentent les possibilités d’activité au sol. Les deux options coûtent le même montant dans la fiction.",
+      "reponse_attendue": "Réponse exemplaire (A défendable) : « Sur la place au vivant, A ajoute quatre bacs alors que B n’ajoute pas de plantes. Sur l’eau et le temps, A demande quatre arrosoirs et deux heures par semaine; B n’exige pas d’arrosage et demande 30 minutes d’inspection. Pour l’usage, le banc et le passage restent accessibles dans les deux cas et B ajoute des jeux. Si le comité donne priorité aux plantes et peut assumer l’entretien, je choisis A; sinon B mérite examen. Je ne sais pas si les bacs feront augmenter les insectes. » Réponse B également recevable si mêmes faits, critères et nuance. Rubrique 4 dimensions × 0–2, ne pas noter l’opinion.",
+      "criteres": [
+        "Comparer chaque option sur au moins deux critères annoncés, dont place au vivant/ressource.",
+        "Mobiliser correctement au moins deux données distinctes pour chaque option (nombre/temps/eau/usages).",
+        "Distinguer observation donnée et conséquence possible concernant le vivant.",
+        "Justifier un choix conditionnel et sa limite sans attaquer la personne; autonomie sans indices de fond."
+      ],
+      "feedback": "Si une option manque du tableau, recommence par mettre A et B sous la même question; si les insectes sont annoncés certains, relève que ce n’est pas mesuré.",
+      "difficulte": "transfert",
+      "representation": "tableau comparatif ou production orale transcrite",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": true,
+      "variabilite_permise": "Aucune",
+      "securite_accessibilite": "Personnages et lieux fictifs, aucune donnée personnelle, texte lisible ou lu; réponse écrite/orale/dictée neutre, même grille; ne pas noter les convictions."
+    },
+    {
+      "item_id": "qc-pri-ccq-004-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-004-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 2 — Évalue les deux options d’une fête fictive avec les critères « usage de ressources et objets », « temps/service » et « lien avec le milieu vivant ». Cite faits, effet plausible et limite; donne une décision justifiée sans demander les pratiques personnelles. Sans indice de contenu.",
+      "stimulus": "FÊTE DE L’ÉTANG-CLAIR (quartier entièrement fictif). Les participants restent sur une aire aménagée près d’un étang où des grenouilles ont été observées par les organisateurs. Les organisateurs prévoient un ménage des lieux après la fête, quelle que soit l’option. A : prêter 60 gobelets réutilisables; nettoyage de 75 min avec de l’eau du réseau; les 60 gobelets sont rapportés au centre après nettoyage. B : distribuer 60 gobelets à usage unique; collecte de 35 min; les 60 gobelets collectés vont dans le bac municipal prévu. Le dossier ne précise pas leur traitement final ni les volumes d’eau. Les deux offrent de l’eau potable aux visiteurs. L’aire près de l’étang reste inaccessible aux invités pour protéger le milieu.",
+      "reponse_attendue": "Réponse exemplaire (B défendable sous condition) : « Sur les objets, A remet en circulation 60 gobelets et exige de l’eau pour le nettoyage; B implique 60 gobelets à usage unique collectés, sans preuve qu’ils seront recyclés. Sur le temps, A demande 75 min et B 35 min. Sur le vivant, les grenouilles sont observées à proximité, mais les deux options prévoient une aire interdite d’accès et une collecte; le scénario ne mesure aucune conséquence directe sur elles. Si la disponibilité des bénévoles est très réduite, B peut être choisi, mais il crée 60 contenants à traiter. Si le réemploi est prioritaire et l’eau de lavage disponible, A est défendable. » Un choix A est tout aussi admissible si justifié. Aucun classement moral des personnes.",
+      "criteres": [
+        "Comparer explicitement A et B selon les mêmes critères, dont ressources et relation au vivant.",
+        "Employer fidèlement au moins deux faits distincts par option (60, temps, destination indiquée, règles).",
+        "Ne pas inférer la pollution de l’étang, le recyclage garanti ou une quantité d’eau de lavage non donnée.",
+        "Formuler une décision conditionnelle et une limite; autonomie sans indices de fond, sans conviction intime."
+      ],
+      "feedback": "Le bac municipal ne prouve pas le recyclage final. Les grenouilles observées ne suffisent pas à conclure que l’une des options leur nuira.",
+      "difficulte": "transfert",
+      "representation": "dossier d’événement communautaire; oral ou écrit",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": true,
+      "variabilite_permise": "Aucune",
+      "securite_accessibilite": "Personnages et lieux fictifs, aucune donnée personnelle, texte lisible ou lu; réponse écrite/orale/dictée neutre, même grille; ne pas noter les convictions."
+    }
+  ]
+}

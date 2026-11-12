@@ -1,0 +1,100 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Formuler une prédiction motivée et concevoir un test simple et sûr.",
+  "concepts": [
+    "hypothèse",
+    "variable",
+    "comparaison",
+    "sécurité"
+  ],
+  "preuve_attendue": "Proposer un protocole avec paramètres observables et mesures prévues.",
+  "prerequis_bloquants": [
+    "qc-pri-st-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-002-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Proposer un protocole avec paramètres observables et mesures prévues.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Uniquement corpus de 10 scènes verrouillées et adaptations d’accès non directives; la banque ne génère ni fait ni mesure aléatoire.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme_selection": "Trier lexicographiquement item_id (q-001 à q-010); dérouler q-001–008 en formative; présenter q-009 et q-010 séparément; aucune valeur tirée au hasard.",
+        "selection_reproductible": "st002_corpus_fixe_v1_20261008; corpus déterministe de scénarios et barèmes validables, pas de RNG exécuté."
+      },
+      "review_status": "redige_revue_humaine_requise",
+      "kristal_id": "qc-pri-st-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "protocole écrit ou dicté",
+        "tableau de variables",
+        "schéma annoté",
+        "argumentation orale enregistrée par scribe"
+      ],
+      "variables": {
+        "selection": "corpus_ferme_revu_humainement",
+        "parametriques_generes": false,
+        "conditions_fixes": [
+          "q-009: deux types de papier et tache après 20 secondes",
+          "q-010: deux distances LED-objet et largeur d’ombre sur écran fixe"
+        ],
+        "parametres_autorisables": [
+          "support de réponse",
+          "taille du texte",
+          "temps de préparation"
+        ],
+        "banque_size": 10
+      },
+      "contraintes": [
+        "question scientifique mesurable",
+        "hypothèse et prédiction justifiées",
+        "une variable indépendante entre deux conditions",
+        "mesure dépendante avec unité et moment",
+        "deux constantes minimum",
+        "au moins deux essais par condition dans les tâches de maîtrise",
+        "aucun résultat supposé obtenu",
+        "matériel non dangereux et aucune expérience obligatoire",
+        "deux preuves indépendantes en contextes distincts",
+        "aucune génération IA libre"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "M1_hypothese",
+          "M2_variables",
+          "M3_comparabilite",
+          "M4_mesures_traces",
+          "M5_securite",
+          "M6_autonomie_transfert"
+        ],
+        "echelle": "0_1_2",
+        "regle": "niveau 2 sur M1-M6 dans q-009 ET q-010; absence de moyenne compensatoire"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": "st002_corpus_fixe_v1_20261008",
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_banque_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

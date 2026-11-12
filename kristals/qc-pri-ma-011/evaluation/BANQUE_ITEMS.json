@@ -1,0 +1,771 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-011",
+  "family_id": "qc-pri-ma-011-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "statut": "banque_redigee_revision_humaine_requise",
+  "regle_generation": "pour mode parametrique, index = seed % len(couples_autorises), calcul entier selon formule de chaque item, validation indépendante de toutes les entrées autorisées",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-011-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Calcule 268+157. Audite la procédure proposée dans l’ordre des colonnes. Corrige le premier pas faux et vérifie par une soustraction.",
+      "stimulus": "Copie : unités 8+7=15 → 5 et report 1 D; dizaines 6+5+1=12 → 2 et report 1 C; centaines 2+1=3; résultat annoncé 325.",
+      "reponse_attendue": "425. Les unités et dizaines sont correctes; premier pas faux aux centaines : 2+1+1=4, pas 2+1=3. Contrôle 425−157=268.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Si 325 est accepté, faire matérialiser les 12 dizaines (1 centaine et 2 dizaines) puis recommencer un cas différent.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "C-D-U et colonne",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "entrainement_et_ancrage",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Calcule 602−175, critique la procédure d’échanges de la copie et vérifie par addition.",
+      "stimulus": "Copie : 602 devient 6 C, 9 D et 12 U; 12−5=7, 9−7=2, 6−1=5; résultat annoncé 527.",
+      "reponse_attendue": "427. L’échange exact est 5 C, 9 D, 12 U, non 6 C; premier faux pas : conserver 6 centaines au moment de les échanger. Contrôle 427+175=602.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Revenir à 602=5 C+9 D+12 U; contrôler le total des regroupements.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "matériel regroupable et tableau C-D-U",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "entrainement_et_ancrage",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Effectue 835−279. Une copie a donné une bonne différence mais un contrôle inverse erroné : repère son premier faux pas et écris le contrôle exact.",
+      "stimulus": "Copie : 835−279=556. Vérification proposée : 556+279, unités 6+9=15 →5, report1; dizaines 5+7+1=13→3, report1; centaines 5+2=7 → total 735.",
+      "reponse_attendue": "Différence 556 exacte; erreur uniquement dans la vérification aux centaines : 5+2+1=8, non 5+2=7. Le contrôle correct est 556+279=835.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Une bonne réponse sans contrôle correct est une réussite partielle; reprendre les retenues de la vérification.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "double procédure",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "entrainement_et_ancrage",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Effectue 46×3. Relis le calcul proposé, indique le premier pas incorrect puis vérifie par addition répétée.",
+      "stimulus": "Copie : 6×3=18, j’écris 8 et retiens 1 dizaine; 4×3=12 dizaines (j’ignore la dizaine reportée); résultat annoncé 128.",
+      "reponse_attendue": "138. Premier faux pas : la dizaine reportée n’a pas été ajoutée à 12 dizaines; 12+1=13 dizaines. Contrôle 46+46+46=138.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Représenter 18 unités en 1 dizaine et 8 unités; puis multiplier les dizaines et ajouter le report.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "matériel / distributivité",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "entrainement_et_ancrage",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule et contrôle 584+257. La copie pose 584+257 et annonce 741 après avoir omis la retenue des dizaines vers les centaines. Décris le premier pas incorrect.",
+      "stimulus": "Variante de graine 11005 — nombres figés a=584, b=257; réponse de la copie = 741. Il s’agit d’une copie fictive volontairement incorrecte; analyser sa première transformation invalide.",
+      "reponse_attendue": "841. La retenue de 1 centaine issue des dizaines n’est pas ajoutée aux centaines. Contrôle exact : 841−257=584.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Quel rang perd une centaine créée par les dizaines ? En cas de difficulté, reprendre la représentation du rang fautif, puis exiger une nouvelle variante sans indice.",
+      "difficulte": "intermediaire",
+      "seed": 11005,
+      "parametres": {
+        "variables": {
+          "a": "première valeur entière",
+          "b": "deuxième valeur entière"
+        },
+        "domaines": {
+          "couples_autorises": [
+            [
+              268,
+              157
+            ],
+            [
+              486,
+              278
+            ],
+            [
+              359,
+              467
+            ],
+            [
+              675,
+              189
+            ],
+            [
+              738,
+              196
+            ],
+            [
+              584,
+              257
+            ],
+            [
+              476,
+              358
+            ],
+            [
+              287,
+              564
+            ]
+          ]
+        },
+        "contraintes": [
+          "3 chiffres par opérande; report des unités vers dizaines et des dizaines vers centaines",
+          "aucun autre couple et aucun autre texte d’erreur ne peut être tiré hors du jeu fermé",
+          "résultats en entiers naturels; contrôles inverses exacts sur entiers"
+        ],
+        "selection": "index_0_base = seed % len(couples_autorises); a,b = couples_autorises[index_0_base]; aucun aléa",
+        "formule_correction": "correct = a+b; wrong = correct−100",
+        "algorithme_erreur": "addition_oubli_retenue_centaines",
+        "controle_independant": "addition → soustraction; soustraction → addition; multiplication → somme répétée; variante inverse → reprise exacte du contrôle",
+        "exemple_verifie": {
+          "seed": 11005,
+          "indice": 5,
+          "a": 584,
+          "b": 257,
+          "resultat_exact": 841,
+          "resultat_copie": 741,
+          "controle_exact": "841−257=584"
+        },
+        "tous_les_couples_controles": true,
+        "variabilite_permises": "seulement seed entier choisi et couple du jeu énuméré; représentation orale/écrite/matériel avec même exigence",
+        "seed_stable": true
+      },
+      "validation_status": "a_revoir",
+      "representation": "C-D-U, calcul en colonnes",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "exercice_controle",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision",
+      "contextualisation": "Addition avec retenue omise"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule 702−465; une copie indique 337 en gardant les centaines initiales après avoir transformé une centaine en dizaines. Nomme le premier pas erroné et contrôle.",
+      "stimulus": "Variante de graine 11006 — nombres figés a=702, b=465; réponse de la copie = 337. Il s’agit d’une copie fictive volontairement incorrecte; analyser sa première transformation invalide.",
+      "reponse_attendue": "237. La centaine initiale a été conservée alors qu’elle a été échangée en dizaines (puis unités). Contrôle exact : 237+465=702.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Peux-tu obtenir des dizaines d’un zéro sans diminuer les centaines ? En cas de difficulté, reprendre la représentation du rang fautif, puis exiger une nouvelle variante sans indice.",
+      "difficulte": "intermediaire",
+      "seed": 11006,
+      "parametres": {
+        "variables": {
+          "a": "première valeur entière",
+          "b": "deuxième valeur entière"
+        },
+        "domaines": {
+          "couples_autorises": [
+            [
+              602,
+              175
+            ],
+            [
+              704,
+              268
+            ],
+            [
+              803,
+              456
+            ],
+            [
+              901,
+              384
+            ],
+            [
+              506,
+              178
+            ],
+            [
+              605,
+              287
+            ],
+            [
+              702,
+              465
+            ],
+            [
+              804,
+              576
+            ]
+          ]
+        },
+        "contraintes": [
+          "a>b, a à trois chiffres et chiffre des dizaines de a égal à 0; emprunt à travers zéro nécessaire",
+          "aucun autre couple et aucun autre texte d’erreur ne peut être tiré hors du jeu fermé",
+          "résultats en entiers naturels; contrôles inverses exacts sur entiers"
+        ],
+        "selection": "index_0_base = seed % len(couples_autorises); a,b = couples_autorises[index_0_base]; aucun aléa",
+        "formule_correction": "correct = a−b; wrong = correct+100",
+        "algorithme_erreur": "soustraction_zero_centaines_non_diminuees",
+        "controle_independant": "addition → soustraction; soustraction → addition; multiplication → somme répétée; variante inverse → reprise exacte du contrôle",
+        "exemple_verifie": {
+          "seed": 11006,
+          "indice": 6,
+          "a": 702,
+          "b": 465,
+          "resultat_exact": 237,
+          "resultat_copie": 337,
+          "controle_exact": "237+465=702"
+        },
+        "tous_les_couples_controles": true,
+        "variabilite_permises": "seulement seed entier choisi et couple du jeu énuméré; représentation orale/écrite/matériel avec même exigence",
+        "seed_stable": true
+      },
+      "validation_status": "a_revoir",
+      "representation": "échanges C-D-U",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "exercice_controle",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision",
+      "contextualisation": "Soustraction avec zéro et échange oublié"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule 806+47. Une copie place les dizaines de 47 sous les centaines et les unités de 47 sous les dizaines; elle annonce 1276. Détecte le premier problème et vérifie.",
+      "stimulus": "Variante de graine 11007 — nombres figés a=806, b=47; réponse de la copie = 1276. Il s’agit d’une copie fictive volontairement incorrecte; analyser sa première transformation invalide.",
+      "reponse_attendue": "853. Le nombre à deux chiffres est décalé d’une colonne, donc multiplié par 10. Contrôle exact : 853−47=806.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Quel nombre a-t-elle réellement ajouté ? En cas de difficulté, reprendre la représentation du rang fautif, puis exiger une nouvelle variante sans indice.",
+      "difficulte": "intermediaire",
+      "seed": 11007,
+      "parametres": {
+        "variables": {
+          "a": "première valeur entière",
+          "b": "deuxième valeur entière"
+        },
+        "domaines": {
+          "couples_autorises": [
+            [
+              507,
+              68
+            ],
+            [
+              421,
+              59
+            ],
+            [
+              806,
+              47
+            ],
+            [
+              739,
+              26
+            ],
+            [
+              604,
+              85
+            ]
+          ]
+        },
+        "contraintes": [
+          "a à trois chiffres, b à deux chiffres, b non nul; la copie aligne b une colonne trop à gauche",
+          "aucun autre couple et aucun autre texte d’erreur ne peut être tiré hors du jeu fermé",
+          "résultats en entiers naturels; contrôles inverses exacts sur entiers"
+        ],
+        "selection": "index_0_base = seed % len(couples_autorises); a,b = couples_autorises[index_0_base]; aucun aléa",
+        "formule_correction": "correct = a+b; wrong = a+10*b",
+        "algorithme_erreur": "addition_decalage_de_colonne",
+        "controle_independant": "addition → soustraction; soustraction → addition; multiplication → somme répétée; variante inverse → reprise exacte du contrôle",
+        "exemple_verifie": {
+          "seed": 11007,
+          "indice": 2,
+          "a": 806,
+          "b": 47,
+          "resultat_exact": 853,
+          "resultat_copie": 1276,
+          "controle_exact": "853−47=806"
+        },
+        "tous_les_couples_controles": true,
+        "variabilite_permises": "seulement seed entier choisi et couple du jeu énuméré; représentation orale/écrite/matériel avec même exigence",
+        "seed_stable": true
+      },
+      "validation_status": "a_revoir",
+      "representation": "quadrillage U-D-C",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "exercice_controle",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision",
+      "contextualisation": "Alignement de valeurs de position"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule 847−325. La copie a ajouté une dizaine de trop au résultat et annonce 532. Dis quel calcul de colonne pourrait expliquer ce résultat et contrôle.",
+      "stimulus": "Variante de graine 11008 — nombres figés a=847, b=325; réponse de la copie = 532. Il s’agit d’une copie fictive volontairement incorrecte; analyser sa première transformation invalide.",
+      "reponse_attendue": "522. Le chiffre des dizaines du résultat est augmenté de 1 au lieu de soustraire exactement les dizaines. Contrôle exact : 522+325=847.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Compare la dizaine de la copie avec la différence des dizaines. En cas de difficulté, reprendre la représentation du rang fautif, puis exiger une nouvelle variante sans indice.",
+      "difficulte": "initial",
+      "seed": 11008,
+      "parametres": {
+        "variables": {
+          "a": "première valeur entière",
+          "b": "deuxième valeur entière"
+        },
+        "domaines": {
+          "couples_autorises": [
+            [
+              864,
+              322
+            ],
+            [
+              975,
+              431
+            ],
+            [
+              758,
+              216
+            ],
+            [
+              693,
+              251
+            ],
+            [
+              847,
+              325
+            ],
+            [
+              986,
+              432
+            ]
+          ]
+        },
+        "contraintes": [
+          "a≥b et soustraction possible sans échange pour chaque colonne; erreur exactement +1 dizaine",
+          "aucun autre couple et aucun autre texte d’erreur ne peut être tiré hors du jeu fermé",
+          "résultats en entiers naturels; contrôles inverses exacts sur entiers"
+        ],
+        "selection": "index_0_base = seed % len(couples_autorises); a,b = couples_autorises[index_0_base]; aucun aléa",
+        "formule_correction": "correct = a−b; wrong = correct+10",
+        "algorithme_erreur": "soustraction_dizaine_augmente_un",
+        "controle_independant": "addition → soustraction; soustraction → addition; multiplication → somme répétée; variante inverse → reprise exacte du contrôle",
+        "exemple_verifie": {
+          "seed": 11008,
+          "indice": 4,
+          "a": 847,
+          "b": 325,
+          "resultat_exact": 522,
+          "resultat_copie": 532,
+          "controle_exact": "522+325=847"
+        },
+        "tous_les_couples_controles": true,
+        "variabilite_permises": "seulement seed entier choisi et couple du jeu énuméré; représentation orale/écrite/matériel avec même exigence",
+        "seed_stable": true
+      },
+      "validation_status": "a_revoir",
+      "representation": "tableau C-D-U",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "exercice_controle",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision",
+      "contextualisation": "Détection d’une dizaine mal soustraite"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule 37×4. La copie multiplie les unités, écrit l’unité du produit, mais oublie d’ajouter la retenue des unités aux dizaines; elle annonce 128. Nomme le premier pas faux et vérifie autrement.",
+      "stimulus": "Variante de graine 11009 — nombres figés a=37, b=4; réponse de la copie = 128. Il s’agit d’une copie fictive volontairement incorrecte; analyser sa première transformation invalide.",
+      "reponse_attendue": "148. Le report de 2 dizaine(s) créé par 7×4 n’est pas ajouté au produit des dizaines. Contrôle indépendant par addition répétée : 37 + 37 + 37 + 37 = 148.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Le produit des unités peut former des dizaines. En cas de difficulté, reprendre la représentation du rang fautif, puis exiger une nouvelle variante sans indice.",
+      "difficulte": "intermediaire",
+      "seed": 11009,
+      "parametres": {
+        "variables": {
+          "a": "première valeur entière",
+          "b": "deuxième valeur entière"
+        },
+        "domaines": {
+          "couples_autorises": [
+            [
+              26,
+              3
+            ],
+            [
+              37,
+              4
+            ],
+            [
+              48,
+              3
+            ],
+            [
+              59,
+              2
+            ],
+            [
+              67,
+              3
+            ],
+            [
+              78,
+              2
+            ],
+            [
+              86,
+              3
+            ],
+            [
+              95,
+              3
+            ]
+          ]
+        },
+        "contraintes": [
+          "a entre 20 et 99, b entre 2 et 4; produit des unités ≥10, retenue des unités non nulle",
+          "aucun autre couple et aucun autre texte d’erreur ne peut être tiré hors du jeu fermé",
+          "résultats en entiers naturels; contrôles inverses exacts sur entiers"
+        ],
+        "selection": "index_0_base = seed % len(couples_autorises); a,b = couples_autorises[index_0_base]; aucun aléa",
+        "formule_correction": "correct = a*b; wrong = correct−10*floor((a%10)*b/10)",
+        "algorithme_erreur": "multiplication_oubli_report_dizaines",
+        "controle_independant": "addition → soustraction; soustraction → addition; multiplication → somme répétée; variante inverse → reprise exacte du contrôle",
+        "exemple_verifie": {
+          "seed": 11009,
+          "indice": 1,
+          "a": 37,
+          "b": 4,
+          "resultat_exact": 148,
+          "resultat_copie": 128,
+          "controle_exact": "37 + 37 + 37 + 37 = 148"
+        },
+        "tous_les_couples_controles": true,
+        "variabilite_permises": "seulement seed entier choisi et couple du jeu énuméré; représentation orale/écrite/matériel avec même exigence",
+        "seed_stable": true
+      },
+      "validation_status": "a_revoir",
+      "representation": "distributivité et colonnes",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "exercice_controle",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision",
+      "contextualisation": "Multiplication avec report des unités"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule 437+286. La copie trouve correctement 723, mais son contrôle donne à tort « 723−437=296 ». Où se trouve la première erreur du contrôle ? Vérifie exactement.",
+      "stimulus": "Variante de graine 11010 — nombres figés a=437, b=286; réponse de la copie = 296. La copie a bien calculé la somme mais a mal exécuté le contrôle inverse.",
+      "reponse_attendue": "723. Le calcul principal est correct; première erreur dans la soustraction inverse, au rang des dizaines. Contrôle exact : 723−286=437.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : distinguer somme correcte et premier pas faux dans le contrôle inverse; le corriger",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Un contrôle doit retrouver le second terme, pas celui-ci augmenté de dix. En cas de difficulté, reprendre la représentation du rang fautif, puis exiger une nouvelle variante sans indice.",
+      "difficulte": "intermediaire",
+      "seed": 11010,
+      "parametres": {
+        "variables": {
+          "a": "première valeur entière",
+          "b": "deuxième valeur entière"
+        },
+        "domaines": {
+          "couples_autorises": [
+            [
+              437,
+              286
+            ],
+            [
+              569,
+              174
+            ],
+            [
+              658,
+              217
+            ],
+            [
+              395,
+              468
+            ],
+            [
+              786,
+              159
+            ],
+            [
+              647,
+              238
+            ]
+          ]
+        },
+        "contraintes": [
+          "2 nombres à 3 chiffres, la somme est correcte mais la vérification inverse annoncée diffère de 10",
+          "aucun autre couple et aucun autre texte d’erreur ne peut être tiré hors du jeu fermé",
+          "résultats en entiers naturels; contrôles inverses exacts sur entiers"
+        ],
+        "selection": "index_0_base = seed % len(couples_autorises); a,b = couples_autorises[index_0_base]; aucun aléa",
+        "formule_correction": "correct = a+b; wrong = b+10 (dans le contrôle inverse annoncé)",
+        "algorithme_erreur": "controle_inverse_plus_dix",
+        "controle_independant": "addition → soustraction; soustraction → addition; multiplication → somme répétée; variante inverse → reprise exacte du contrôle",
+        "exemple_verifie": {
+          "seed": 11010,
+          "indice": 0,
+          "a": 437,
+          "b": 286,
+          "resultat_exact": 723,
+          "resultat_copie": 296,
+          "controle_exact": "723−286=437"
+        },
+        "tous_les_couples_controles": true,
+        "variabilite_permises": "seulement seed entier choisi et couple du jeu énuméré; représentation orale/écrite/matériel avec même exigence",
+        "seed_stable": true
+      },
+      "validation_status": "a_revoir",
+      "representation": "addition + soustraction inverse",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "exercice_controle",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision",
+      "contextualisation": "Contrôle inverse fautif"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "parametrique",
+      "consigne": "À la bibliothèque, on a rangé 567 livres le matin et 178 l’après-midi. Une copie compte 645 livres : elle écrit correctement les unités et les dizaines, mais omet de reporter une centaine. Calcule le vrai total, trouve le premier pas faux et vérifie par opération inverse, sans aide.",
+      "stimulus": "Variante de graine 11011 — nombres figés a=567, b=178; réponse de la copie = 645. Il s’agit d’une copie fictive volontairement incorrecte; analyser sa première transformation invalide.",
+      "reponse_attendue": "745. La retenue de 1 centaine issue des dizaines n’est pas ajoutée aux centaines. Contrôle exact : 745−178=567.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Ton résultat doit être supérieur à chacun des deux lots. En cas de difficulté, reprendre la représentation du rang fautif, puis exiger une nouvelle variante sans indice.",
+      "difficulte": "transfert",
+      "seed": 11011,
+      "parametres": {
+        "variables": {
+          "a": "première valeur entière",
+          "b": "deuxième valeur entière"
+        },
+        "domaines": {
+          "couples_autorises": [
+            [
+              459,
+              286
+            ],
+            [
+              567,
+              178
+            ],
+            [
+              638,
+              275
+            ],
+            [
+              374,
+              489
+            ],
+            [
+              726,
+              197
+            ],
+            [
+              458,
+              367
+            ]
+          ]
+        },
+        "contraintes": [
+          "2 nombres à 3 chiffres avec reports unités→dizaines puis dizaines→centaines; contexte livres",
+          "aucun autre couple et aucun autre texte d’erreur ne peut être tiré hors du jeu fermé",
+          "résultats en entiers naturels; contrôles inverses exacts sur entiers"
+        ],
+        "selection": "index_0_base = seed % len(couples_autorises); a,b = couples_autorises[index_0_base]; aucun aléa",
+        "formule_correction": "correct = a+b; wrong = correct−100",
+        "algorithme_erreur": "preuve_bibliotheque_oubli_retenue",
+        "controle_independant": "addition → soustraction; soustraction → addition; multiplication → somme répétée; variante inverse → reprise exacte du contrôle",
+        "exemple_verifie": {
+          "seed": 11011,
+          "indice": 1,
+          "a": 567,
+          "b": 178,
+          "resultat_exact": 745,
+          "resultat_copie": 645,
+          "controle_exact": "745−178=567"
+        },
+        "tous_les_couples_controles": true,
+        "variabilite_permises": "seulement seed entier choisi et couple du jeu énuméré; représentation orale/écrite/matériel avec même exigence",
+        "seed_stable": true
+      },
+      "validation_status": "a_revoir",
+      "representation": "situation / addition posée",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "preuve_autonome_A",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision",
+      "contextualisation": "Preuve A — inventaire de bibliothèque"
+    },
+    {
+      "item_id": "qc-pri-ma-011-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-011-ev-01",
+      "mode": "parametrique",
+      "consigne": "Un centre communautaire avait 901 billets; il en distribue 487. Une copie annonce 514 billets restants, après avoir oublié de diminuer la centaine lors de l’échange à travers zéro. Calcule le reste, trouve le premier pas faux et vérifie par l’inverse, sans aide.",
+      "stimulus": "Variante de graine 11012 — nombres figés a=901, b=487; réponse de la copie = 514. Il s’agit d’une copie fictive volontairement incorrecte; analyser sa première transformation invalide.",
+      "reponse_attendue": "414. La centaine initiale a été conservée alors qu’elle a été échangée en dizaines (puis unités). Contrôle exact : 414+487=901.",
+      "criteres": [
+        "C1 : résultat exact et rangs correctement traités",
+        "C2 : première étape erronée localisée et corrigée (ou constat explicite que la procédure calculée était exacte)",
+        "C3 : explication en termes de valeur de position / échange",
+        "C4 : contrôle inverse exact, différent de la démarche initiale"
+      ],
+      "feedback": "Les billets restants, ajoutés aux billets distribués, doivent rendre le stock initial. En cas de difficulté, reprendre la représentation du rang fautif, puis exiger une nouvelle variante sans indice.",
+      "difficulte": "transfert",
+      "seed": 11012,
+      "parametres": {
+        "variables": {
+          "a": "première valeur entière",
+          "b": "deuxième valeur entière"
+        },
+        "domaines": {
+          "couples_autorises": [
+            [
+              703,
+              258
+            ],
+            [
+              804,
+              376
+            ],
+            [
+              901,
+              487
+            ],
+            [
+              605,
+              279
+            ],
+            [
+              702,
+              386
+            ],
+            [
+              503,
+              176
+            ]
+          ]
+        },
+        "contraintes": [
+          "a>b, chiffre des dizaines de a égal à 0, emprunt nécessaire; contexte billets",
+          "aucun autre couple et aucun autre texte d’erreur ne peut être tiré hors du jeu fermé",
+          "résultats en entiers naturels; contrôles inverses exacts sur entiers"
+        ],
+        "selection": "index_0_base = seed % len(couples_autorises); a,b = couples_autorises[index_0_base]; aucun aléa",
+        "formule_correction": "correct = a−b; wrong = correct+100",
+        "algorithme_erreur": "preuve_centre_oubli_echange",
+        "controle_independant": "addition → soustraction; soustraction → addition; multiplication → somme répétée; variante inverse → reprise exacte du contrôle",
+        "exemple_verifie": {
+          "seed": 11012,
+          "indice": 2,
+          "a": 901,
+          "b": 487,
+          "resultat_exact": 414,
+          "resultat_copie": 514,
+          "controle_exact": "414+487=901"
+        },
+        "tous_les_couples_controles": true,
+        "variabilite_permises": "seulement seed entier choisi et couple du jeu énuméré; représentation orale/écrite/matériel avec même exigence",
+        "seed_stable": true
+      },
+      "validation_status": "a_revoir",
+      "representation": "situation / soustraction à travers zéro",
+      "source": "production_originale_controle_arithmetique",
+      "role_preuve": "preuve_autonome_B",
+      "bareme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision",
+      "contextualisation": "Preuve B — billets du centre communautaire"
+    }
+  ]
+}

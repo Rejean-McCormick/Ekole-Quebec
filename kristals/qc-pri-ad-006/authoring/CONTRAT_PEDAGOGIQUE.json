@@ -1,0 +1,91 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ad-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Interpréter un rôle en maintenant une intention et une relation de jeu.",
+  "concepts": [
+    "personnage",
+    "émotion représentée",
+    "continuité"
+  ],
+  "preuve_attendue": "Jouer une scène courte avec constance des choix interprétatifs.",
+  "prerequis_bloquants": [
+    "qc-pri-ad-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ad-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ad-006-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Jouer une scène courte avec constance des choix interprétatifs.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Scénarios et répliques de partenaire fixes; variation seulement des choix expressifs de l’élève et accommodements non directifs.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_scenarios": "deux situations fixes q-009 et q-010, sans sélection aléatoire ni génération libre"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-ad-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "prestation dramatique observable à trois temps",
+        "carte de choix personnage-intention-relation",
+        "grille d’observation des indices et réponses du partenaire",
+        "communication verbale, gestuelle ou assistée"
+      ],
+      "variables": {
+        "mode": "corpus_fixe",
+        "scenarios": [
+          "bibliotheque_imaginaire_q009",
+          "station_spatiale_fictive_q010"
+        ],
+        "generation_aleatoire": false
+      },
+      "contraintes": [
+        "choix libre de personnage/intention compatible avec le thème",
+        "scène en trois moments au minimum",
+        "deux propositions prédéfinies du partenaire",
+        "deux indices interprétatifs reconnaissables",
+        "relation et intention maintenues",
+        "aucun rôle menaçant ni divulgation personnelle",
+        "adulte / pair donne seulement déclencheurs prédéfinis",
+        "aucune note sur accent/volume/corps/personnalité",
+        "deux contextes autonomes distincts"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "personnage_et_intention",
+          "indices_et_continuite",
+          "relation_et_ecoute",
+          "emotion_representee_ou_registre_neutre",
+          "autonomie_et_respect"
+        ],
+        "echelle": "0 absent, 1 émergent, 2 observable",
+        "decision": "deux preuves q-009 et q-010 satisfont chacune les cinq noyaux au niveau 2"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_banque_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

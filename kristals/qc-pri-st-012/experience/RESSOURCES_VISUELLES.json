@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-st-012",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Prototyper un objet répondant à un besoin avec tests et améliorations.",
+    "concepts": [
+      "critères",
+      "matériau",
+      "prototype",
+      "itération"
+    ]
+  },
+  "titre_source": "Concevoir et fabriquer un objet technique",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "critères, matériau, prototype",
+      "prompt_conceptuel": "Concept d'image pour le cours « Concevoir et fabriquer un objet technique ». Représenter un environnement d’observation scientifique avec des objets ou phénomènes pertinents. Mettre en évidence les notions : critères, matériau, prototype, itération. L'image doit aider à comprendre l'objectif « Prototyper un objet répondant à un besoin avec tests et améliorations. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Concevoir et fabriquer un objet technique : critères, matériau, prototype.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "critères, matériau, prototype",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Concevoir et fabriquer un objet technique » : montrer une situation d’investigation où l’on peut comparer un phénomène avant et après une action. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter critères, matériau, prototype, itération. Cette image sert de point de départ à une activité liée à l'objectif « Prototyper un objet répondant à un besoin avec tests et améliorations. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Objectif et situation »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Concevoir et fabriquer un objet technique.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Objectif et situation",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

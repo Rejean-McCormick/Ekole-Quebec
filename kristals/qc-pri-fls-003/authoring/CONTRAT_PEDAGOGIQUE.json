@@ -1,0 +1,85 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Distinguer et produire les sons pertinents du français à un niveau intelligible.",
+  "concepts": [
+    "syllabe",
+    "phonème",
+    "rythme",
+    "prosodie"
+  ],
+  "preuve_attendue": "Produire un message oral intelligible après comparaison de modèles.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-003-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Produire un message oral intelligible après comparaison de modèles.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-fls-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 : Produire un message oral intelligible après comparaison de modèles.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "consigne orale",
+        "dialogue de situation fictive",
+        "observation descriptive",
+        "script écrit réservé à la personne enseignante"
+      ],
+      "variables": {
+        "strategie": "corpus_ferme_A_B",
+        "items_variables": [
+          "qc-pri-fls-003-q-007",
+          "qc-pri-fls-003-q-008"
+        ],
+        "selection": "index = seed % 2 ; 0=A, 1=B",
+        "prohibition": "aucune génération libre de stimulus ni de corrigé"
+      },
+      "contraintes": [
+        "intelligibilité plutôt que conformité à un accent",
+        "comparaison de deux modèles avant les épreuves intégratrices",
+        "pas de lecture obligatoire",
+        "deux contextes et deux preuves indépendantes",
+        "pas de capteur automatique de parole comme correcteur",
+        "modèles oraux humains en direct, aucun audio inclus"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "information_essentielle_comprise",
+          "sons_distinctifs_utiles",
+          "rythme_et_intention_prosodique",
+          "autonomie_et_reparation"
+        ],
+        "niveaux": [
+          "0_non_observable",
+          "1_a_reprendre",
+          "2_satisfaisant",
+          "3_stable_en_transfert"
+        ],
+        "regle_maitrise": "niveau >=2 pour toutes dimensions pertinentes dans q-009 ET q-010 sans indices pendant l’essai coté ; preuve orale directe et compréhension validée par destinataire"
+      },
+      "source": "kristals/qc-pri-fls-003/sources/REFERENCES_CONTENU.md ; corpus original enseignant",
+      "seed": 12003,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

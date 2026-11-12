@@ -1,0 +1,395 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-eps-003",
+  "family_id": "qc-pri-eps-003-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-eps-003-q-001",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-eps-003-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Montre un appui utile puis change-le volontairement, sans aller vite. Tu peux utiliser la version assise choisie avec l’adulte.",
+      "stimulus": "Sur une surface plane sécurisée, une marque A et une marque B à petite distance confortable; variante adaptée : appui initial et appui fixe à portée.",
+      "reponse_attendue": "Exemple au sol : deux pieds à A → petit pas avec repositionnement vers B, puis pause maîtrisée. Exemple assis : main sur cuisse → appui main sur support fixe, pause. Le changement de soutien doit être fonctionnel; un simple mouvement des bras ne suffit pas.",
+      "criteres": [
+        "Appuis de départ et d’arrivée identifiables",
+        "Changement fonctionnel contrôlé",
+        "Support stable et arrêt volontaire"
+      ],
+      "feedback": "Si tu touches le support sans modifier ton soutien, cherche où se trouvent tes vrais appuis. Si tu accélères, ralentis et stabilise.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "securite": "Adulte responsable présent, zone et appuis validés, aide habituelle acceptée; interrompre immédiatement en cas de danger. Aucun chronomètre ni compétition.",
+      "accessibilite": "Version debout, assise ou avec aide habituelle validée à l’avance; observer les deux transitions fonctionnelles et le contrôle sans comparer les amplitudes."
+    },
+    {
+      "item_id": "qc-pri-eps-003-q-002",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-eps-003-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Montre comment tu t’arrêtes ou retrouves une position stable après un petit transfert d’appui, avec la supervision prévue.",
+      "stimulus": "Deux marques sur surface non glissante; l’observateur demande une pause où tu le souhaites.",
+      "reponse_attendue": "Exemple : transfert d’appui lent → arrêt volontaire; si un ajustement est nécessaire, replacer l’appui sans se jeter contre un obstacle. En mode assis, transférer une main vers un appui fixe puis se recentrer.",
+      "criteres": [
+        "Arrêt ou récupération intentionnels",
+        "Gestion sûre de la distance/support",
+        "Aucune vitesse ou durée imposée"
+      ],
+      "feedback": "Un arrêt par collision n’est pas contrôlé : réduis l’amplitude et décide de ta pause avant le geste.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "securite": "Adulte responsable présent, zone et appuis validés, aide habituelle acceptée; interrompre immédiatement en cas de danger. Aucun chronomètre ni compétition.",
+      "accessibilite": "Version debout, assise ou avec aide habituelle validée à l’avance; observer les deux transitions fonctionnelles et le contrôle sans comparer les amplitudes."
+    },
+    {
+      "item_id": "qc-pri-eps-003-q-003",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-eps-003-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Réalise une séquence de trois actions avec deux changements d’appui que l’observateur pourra décrire.",
+      "stimulus": "Départ repère D, pause repère P, fin repère F, disposés au sol sans obstacle ou convertis en configurations d’appui adaptées.",
+      "reponse_attendue": "Exemple : D deux pieds stables → P après premier petit transfert → F après deuxième transfert → arrêt. Acceptable en assis : appuis sur cuisses → main sur support fixe → mains reviennent sur cuisses avec contrôle; les deux modifications doivent soutenir réellement.",
+      "criteres": [
+        "Trois actions liées",
+        "Deux changements fonctionnels et distincts",
+        "Arrêt maîtrisé",
+        "Surface et appuis sûrs"
+      ],
+      "feedback": "Si je n’observe qu’un changement, montre l’appui avant et après la deuxième transition.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "securite": "Adulte responsable présent, zone et appuis validés, aide habituelle acceptée; interrompre immédiatement en cas de danger. Aucun chronomètre ni compétition.",
+      "accessibilite": "Version debout, assise ou avec aide habituelle validée à l’avance; observer les deux transitions fonctionnelles et le contrôle sans comparer les amplitudes."
+    },
+    {
+      "item_id": "qc-pri-eps-003-q-004",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-eps-003-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "Prépare un parcours sûr à ton rythme puis exécute-le avec deux changements d’appui. Dis ou montre où tu pourrais t’arrêter.",
+      "stimulus": "Trois pictogrammes neutres « début », « milieu », « arrivée » dans un espace dégagé. Aucun parcours imposant la vitesse.",
+      "reponse_attendue": "Séquence admissible : partir stable, changer l’organisation du soutien pour « milieu », second changement pour « arrivée », pause prévue. Choix d’adaptation avant l’essai; aucune perte de contrôle dangereuse.",
+      "criteres": [
+        "Choix d’ordre et d’appuis appropriés",
+        "Deux changements observables",
+        "Pause ou récupération prévue",
+        "Autonomie de séquençage avec supervision"
+      ],
+      "feedback": "Prépare d’abord les appuis et la zone de pause; n’ajoute pas de difficulté si le trajet n’est pas encore contrôlé.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "securite": "Adulte responsable présent, zone et appuis validés, aide habituelle acceptée; interrompre immédiatement en cas de danger. Aucun chronomètre ni compétition.",
+      "accessibilite": "Version debout, assise ou avec aide habituelle validée à l’avance; observer les deux transitions fonctionnelles et le contrôle sans comparer les amplitudes."
+    },
+    {
+      "item_id": "qc-pri-eps-003-q-005",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-eps-003-ev-01",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir du scénario « trois images d’appui », réalise une suite de trois actions avec deux changements fonctionnels d’appui, en montrant un arrêt ou une récupération volontaire. Tu peux utiliser la version motrice sûre préparée avec l’adulte.",
+      "stimulus": "Variante A : repères bleus A, B, C sur le sol plat. Prépare une suite de petits transferts A→B→C.",
+      "reponse_attendue": "A : départ stable à A; transfert fonctionnel 1 pour B; transfert 2 pour C; arrêt contrôlé, sans course. Un équivalent assis validé est acceptable.",
+      "criteres": [
+        "Sécurité et support contrôlés",
+        "Deux changements fonctionnels distincts, repérables avant/après",
+        "Maintien ou récupération de l’équilibre",
+        "Ordre cohérent sans vitesse demandée"
+      ],
+      "feedback": "Si tu suis un seul transfert, repère où le deuxième appui change avant l’arrivée.",
+      "difficulte": "intermediaire",
+      "seed": 330310,
+      "parametres": {
+        "schema": "catalogue_ferme/1.0",
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "domaines": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "scenes_pre-ecrites_avec_adulte_et_support_stable",
+          "deux_changements_fonctionnels_d_appuis",
+          "aucun_jeu_de_vitesse",
+          "adaptations_equivalentes_autorisees"
+        ],
+        "algorithme_selection": "Pour un numéro de passage n entier >= 0, index = (seed + n) modulo 2; index 0 = A, index 1 = B. Aucun tirage IA.",
+        "seed": 330310,
+        "exemple_execution": {
+          "numero_passage": 0,
+          "index": 0,
+          "variante_id": "A"
+        },
+        "variantes": [
+          {
+            "variante_id": "A",
+            "stimulus": "Variante A : repères bleus A, B, C sur le sol plat. Prépare une suite de petits transferts A→B→C.",
+            "reponse_attendue": "A : départ stable à A; transfert fonctionnel 1 pour B; transfert 2 pour C; arrêt contrôlé, sans course. Un équivalent assis validé est acceptable."
+          },
+          {
+            "variante_id": "B",
+            "stimulus": "Variante B : repères oranges C, B, A sur le sol plat. Prépare une suite de petits transferts C→B→A.",
+            "reponse_attendue": "B : départ stable à C; transfert fonctionnel 1 pour B; transfert 2 pour A; arrêt contrôlé; ordre inversé respecté. Un équivalent assis validé est acceptable."
+          }
+        ],
+        "validation_variantes": "corriges_rubriques_ecrits_et_comparables_non_essayes_aupres_deleves"
+      },
+      "validation_status": "a_revoir",
+      "securite": "Adulte responsable présent, zone et appuis validés, aide habituelle acceptée; interrompre immédiatement en cas de danger. Aucun chronomètre ni compétition.",
+      "accessibilite": "Version debout, assise ou avec aide habituelle validée à l’avance; observer les deux transitions fonctionnelles et le contrôle sans comparer les amplitudes."
+    },
+    {
+      "item_id": "qc-pri-eps-003-q-006",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-eps-003-ev-01",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir du scénario « pause à un signal visuel », réalise une suite de trois actions avec deux changements fonctionnels d’appui, en montrant un arrêt ou une récupération volontaire. Tu peux utiliser la version motrice sûre préparée avec l’adulte.",
+      "stimulus": "Variante A : trois repères (cercle, carré, triangle) sur une surface dégagée; un pictogramme pause est au carré.",
+      "reponse_attendue": "A : position cercle → premier changement d’appuis vers carré → pause volontaire → second changement vers triangle et contrôle final.",
+      "criteres": [
+        "Sécurité et support contrôlés",
+        "Deux changements fonctionnels distincts, repérables avant/après",
+        "Maintien ou récupération de l’équilibre",
+        "Ordre cohérent sans vitesse demandée"
+      ],
+      "feedback": "Si la pause t’échappe, fais une plus petite transition et décide de l’arrêt avant de changer encore.",
+      "difficulte": "intermediaire",
+      "seed": 330312,
+      "parametres": {
+        "schema": "catalogue_ferme/1.0",
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "domaines": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "scenes_pre-ecrites_avec_adulte_et_support_stable",
+          "deux_changements_fonctionnels_d_appuis",
+          "aucun_jeu_de_vitesse",
+          "adaptations_equivalentes_autorisees"
+        ],
+        "algorithme_selection": "Pour un numéro de passage n entier >= 0, index = (seed + n) modulo 2; index 0 = A, index 1 = B. Aucun tirage IA.",
+        "seed": 330312,
+        "exemple_execution": {
+          "numero_passage": 0,
+          "index": 0,
+          "variante_id": "A"
+        },
+        "variantes": [
+          {
+            "variante_id": "A",
+            "stimulus": "Variante A : trois repères (cercle, carré, triangle) sur une surface dégagée; un pictogramme pause est au carré.",
+            "reponse_attendue": "A : position cercle → premier changement d’appuis vers carré → pause volontaire → second changement vers triangle et contrôle final."
+          },
+          {
+            "variante_id": "B",
+            "stimulus": "Variante B : trois repères (étoile, rond, feuille) sur une surface dégagée; un pictogramme pause est au rond.",
+            "reponse_attendue": "B : position étoile → premier changement d’appuis vers rond → pause volontaire → second changement vers feuille et contrôle final."
+          }
+        ],
+        "validation_variantes": "corriges_rubriques_ecrits_et_comparables_non_essayes_aupres_deleves"
+      },
+      "validation_status": "a_revoir",
+      "securite": "Adulte responsable présent, zone et appuis validés, aide habituelle acceptée; interrompre immédiatement en cas de danger. Aucun chronomètre ni compétition.",
+      "accessibilite": "Version debout, assise ou avec aide habituelle validée à l’avance; observer les deux transitions fonctionnelles et le contrôle sans comparer les amplitudes."
+    },
+    {
+      "item_id": "qc-pri-eps-003-q-007",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-eps-003-ev-01",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir du scénario « relais des appuis adaptés », réalise une suite de trois actions avec deux changements fonctionnels d’appui, en montrant un arrêt ou une récupération volontaire. Tu peux utiliser la version motrice sûre préparée avec l’adulte.",
+      "stimulus": "Variante A : version préparée avec support fixe : départ mains sur cuisses ou appuis autorisés, transfert vers un appui fixe, retour à la configuration initiale.",
+      "reponse_attendue": "A : deux changements effectifs de soutien (appui initial → appui fixe → appui initial), tronc/surface stable, sans siège mobile. Une autre version validée équivalente est admissible.",
+      "criteres": [
+        "Sécurité et support contrôlés",
+        "Deux changements fonctionnels distincts, repérables avant/après",
+        "Maintien ou récupération de l’équilibre",
+        "Ordre cohérent sans vitesse demandée"
+      ],
+      "feedback": "Le soutien nécessaire est autorisé. Rends visibles le premier et le deuxième changement sans étirer le mouvement.",
+      "difficulte": "intermediaire",
+      "seed": 330314,
+      "parametres": {
+        "schema": "catalogue_ferme/1.0",
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "domaines": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "scenes_pre-ecrites_avec_adulte_et_support_stable",
+          "deux_changements_fonctionnels_d_appuis",
+          "aucun_jeu_de_vitesse",
+          "adaptations_equivalentes_autorisees"
+        ],
+        "algorithme_selection": "Pour un numéro de passage n entier >= 0, index = (seed + n) modulo 2; index 0 = A, index 1 = B. Aucun tirage IA.",
+        "seed": 330314,
+        "exemple_execution": {
+          "numero_passage": 0,
+          "index": 0,
+          "variante_id": "A"
+        },
+        "variantes": [
+          {
+            "variante_id": "A",
+            "stimulus": "Variante A : version préparée avec support fixe : départ mains sur cuisses ou appuis autorisés, transfert vers un appui fixe, retour à la configuration initiale.",
+            "reponse_attendue": "A : deux changements effectifs de soutien (appui initial → appui fixe → appui initial), tronc/surface stable, sans siège mobile. Une autre version validée équivalente est admissible."
+          },
+          {
+            "variante_id": "B",
+            "stimulus": "Variante B : version préparée au sol : départ avec deux appuis stables, petit pas contrôlé vers une marque latérale, retour à la base de départ.",
+            "reponse_attendue": "B : deux changements effectifs de soutien (base initiale → nouvelle base après pas → retour à base), pause et équilibre contrôlés. Une autre version validée équivalente est admissible."
+          }
+        ],
+        "validation_variantes": "corriges_rubriques_ecrits_et_comparables_non_essayes_aupres_deleves"
+      },
+      "validation_status": "a_revoir",
+      "securite": "Adulte responsable présent, zone et appuis validés, aide habituelle acceptée; interrompre immédiatement en cas de danger. Aucun chronomètre ni compétition.",
+      "accessibilite": "Version debout, assise ou avec aide habituelle validée à l’avance; observer les deux transitions fonctionnelles et le contrôle sans comparer les amplitudes."
+    },
+    {
+      "item_id": "qc-pri-eps-003-q-008",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-eps-003-ev-01",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir du scénario « aller-retour avec espace réduit », réalise une suite de trois actions avec deux changements fonctionnels d’appui, en montrant un arrêt ou une récupération volontaire. Tu peux utiliser la version motrice sûre préparée avec l’adulte.",
+      "stimulus": "Variante A : espace préparé court, points A et B au sol; aller à B puis revenir à A en deux transitions distinctes.",
+      "reponse_attendue": "A : A stable → premier changement pour aller à B → second changement pour revenir à A → arrêt sûr. La distance n’est pas une mesure de performance.",
+      "criteres": [
+        "Sécurité et support contrôlés",
+        "Deux changements fonctionnels distincts, repérables avant/après",
+        "Maintien ou récupération de l’équilibre",
+        "Ordre cohérent sans vitesse demandée"
+      ],
+      "feedback": "Si le retour devient brusque, ralentis ou réduis le trajet. Deux transferts sont nécessaires, pas une vitesse élevée.",
+      "difficulte": "intermediaire",
+      "seed": 330316,
+      "parametres": {
+        "schema": "catalogue_ferme/1.0",
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "domaines": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "scenes_pre-ecrites_avec_adulte_et_support_stable",
+          "deux_changements_fonctionnels_d_appuis",
+          "aucun_jeu_de_vitesse",
+          "adaptations_equivalentes_autorisees"
+        ],
+        "algorithme_selection": "Pour un numéro de passage n entier >= 0, index = (seed + n) modulo 2; index 0 = A, index 1 = B. Aucun tirage IA.",
+        "seed": 330316,
+        "exemple_execution": {
+          "numero_passage": 0,
+          "index": 0,
+          "variante_id": "A"
+        },
+        "variantes": [
+          {
+            "variante_id": "A",
+            "stimulus": "Variante A : espace préparé court, points A et B au sol; aller à B puis revenir à A en deux transitions distinctes.",
+            "reponse_attendue": "A : A stable → premier changement pour aller à B → second changement pour revenir à A → arrêt sûr. La distance n’est pas une mesure de performance."
+          },
+          {
+            "variante_id": "B",
+            "stimulus": "Variante B : espace préparé court, points M et N au sol; aller à N puis revenir à M en deux transitions distinctes, avec pause possible à N.",
+            "reponse_attendue": "B : M stable → premier changement pour aller à N → pause choisie → second changement pour revenir à M → arrêt sûr. La distance n’est pas une mesure de performance."
+          }
+        ],
+        "validation_variantes": "corriges_rubriques_ecrits_et_comparables_non_essayes_aupres_deleves"
+      },
+      "validation_status": "a_revoir",
+      "securite": "Adulte responsable présent, zone et appuis validés, aide habituelle acceptée; interrompre immédiatement en cas de danger. Aucun chronomètre ni compétition.",
+      "accessibilite": "Version debout, assise ou avec aide habituelle validée à l’avance; observer les deux transitions fonctionnelles et le contrôle sans comparer les amplitudes."
+    },
+    {
+      "item_id": "qc-pri-eps-003-q-009",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-eps-003-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "**PREUVE P1, autonome.** Dans une station « messager des symboles » jamais montrée pendant le modelage, construis et réalise seul le séquençage de trois actions reliant deux panneaux puis le point final; change tes appuis deux fois. Termine en contrôle. L’adulte reste présent pour la sécurité, sans conseil sur l’ordre.",
+      "stimulus": "CONTEXTE 1 : espace d’atelier avec trois affiches fictives (lune, soleil, nuage) disposées à distance confortable dans un chemin au sol dégagé. Version adaptée : trois états de soutien fonctionnels prédéfinis avec l’adulte; les panneaux désignent l’ordre, non une distance. Pas d’objet à porter.",
+      "reponse_attendue": "Production motrice observable, pas réponse verbale seule. Ex. départ lune stable → premier changement d’appui en allant vers soleil → second vers nuage → pause/récupération contrôlée. Accepter tout enchaînement équivalent sûr avec deux transitions fonctionnelles; observer sécurité, deux transitions, équilibre maintenu/retrouvé, autonomie sans indices de séquençage.",
+      "criteres": [
+        "P1: deux changements fonctionnels dans trois actions liées",
+        "P1: maintien/récupération observable",
+        "P1: sécurité et aides préautorisées",
+        "P1: autonomie sans indices de séquençage; supervision toujours active"
+      ],
+      "feedback": "Si la seconde transition n’est pas observable, on reprend spécifiquement les changements d’appuis dans une autre tentative sécurisée; aucun score compensatoire.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "securite": "Adulte responsable présent, zone et appuis validés, aide habituelle acceptée; interrompre immédiatement en cas de danger. Aucun chronomètre ni compétition.",
+      "accessibilite": "Version debout, assise ou avec aide habituelle validée à l’avance; observer les deux transitions fonctionnelles et le contrôle sans comparer les amplitudes."
+    },
+    {
+      "item_id": "qc-pri-eps-003-q-010",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-eps-003-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "**PREUVE P2, autonome.** Dans une situation nouvelle « choix de sentier », construis et réalise un second enchaînement de trois actions avec deux changements d’appui pour rejoindre la zone finale en évitant une zone interdite annoncée avant le départ. Termine en contrôle, sans indice de séquençage.",
+      "stimulus": "CONTEXTE 2 : parcours au sol en embranchement Y, avec repère de départ « feuille », option latérale « galet » autorisée et zone « branche » fermée par panneau avant l’essai; zone d’arrivée « étoile ». Version adaptée : trois configurations d’appui autorisées et une voie exclue dans un schéma à portée; l’élève choisit l’ordre des changements. Aucun obstacle à enjamber.",
+      "reponse_attendue": "Production motrice observable. Ex. feuille stable → premier changement d’appui vers galet, en restant hors branche interdite → deuxième changement vers étoile → arrêt/récupération volontaire. D’autres trajectoires sûres autorisées sont acceptées. Vérifier sécurité, deux changements effectifs, contrôle et autonomie; distinguer P2 de P1 par contrainte d’itinéraire et disposition différente.",
+      "criteres": [
+        "P2: deux changements fonctionnels dans trois actions liées",
+        "P2: maintien/récupération observable et zone interdite respectée",
+        "P2: sécurité et aides préautorisées",
+        "P2: autonomie sans indices de séquençage; supervision toujours active"
+      ],
+      "feedback": "Si la voie interdite est engagée ou si le support devient dangereux : arrêt immédiat, ajustement, nouvelle preuve sans pénaliser le besoin d’adaptation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "securite": "Adulte responsable présent, zone et appuis validés, aide habituelle acceptée; interrompre immédiatement en cas de danger. Aucun chronomètre ni compétition.",
+      "accessibilite": "Version debout, assise ou avec aide habituelle validée à l’avance; observer les deux transitions fonctionnelles et le contrôle sans comparer les amplitudes."
+    }
+  ]
+}

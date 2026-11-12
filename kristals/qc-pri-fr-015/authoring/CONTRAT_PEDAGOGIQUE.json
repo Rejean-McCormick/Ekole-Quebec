@@ -1,0 +1,83 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-015",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Construire des phrases compréhensibles en organisant correctement leurs constituants.",
+  "concepts": [
+    "sujet",
+    "prédicat",
+    "compléments",
+    "syntaxe"
+  ],
+  "preuve_attendue": "Transformer des mots désordonnés en phrases correctes et varier leur structure.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-fr-013",
+    "qc-pri-fr-014"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-015-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Transformer des mots désordonnés en phrases correctes et varier leur structure.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-fr-015",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "cartes_de_groupes_textuelles",
+        "phrase_ecrite_ou_dictee_transcrite",
+        "justification_courte"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Banque fixe seulement : aucune génération aléatoire ou substitution automatique",
+        "Employer les groupes du stimulus une fois chacun sans modifier la personne, le nombre, le sens ni les relations argumentales",
+        "Variante: déplacer seulement le complément de phrase indiqué; préserver sujet et prédicat complets",
+        "Aucune correction automatisée par égalité textuelle seule : accepter ordre inverse et justifications sémantiquement équivalentes après revue humaine",
+        "Deux preuves autonomes séparées, sans aide, en contextes distincts et avec mêmes critères essentiels"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "constitution_sujet_predicat",
+          "conservation_sens_et_informations",
+          "variation_correcte_du_complement_de_phrase",
+          "justification_et_autonomie"
+        ],
+        "niveaux": [
+          "non_demontré",
+          "en_progression",
+          "satisfaisant",
+          "solide"
+        ],
+        "decision": "Satisfaisant aux critères essentiels pour chacune des deux preuves contextuellement distinctes; ne pas décider sur score unique",
+        "reference": "../evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "../contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "../sources/REFERENCES_CONTENU.md",
+        "../evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

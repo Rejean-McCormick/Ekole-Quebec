@@ -1,0 +1,223 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-026",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Lire des horaires et déterminer des durées entre deux événements.",
+  "concepts": [
+    "heure",
+    "minute",
+    "calendrier",
+    "durée"
+  ],
+  "preuve_attendue": "Calculer une durée et vérifier le sens du résultat dans un horaire.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-026-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Calculer une durée et vérifier le sens du résultat dans un horaire.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode": "parametrique_controle",
+        "banque_ref": "evaluation/BANQUE_ITEMS.json",
+        "algorithme_tirage": "Entier x=seed; pour chaque variable ordonnée sélectionner domaine[x % taille]; x=floor(x/taille), sans aléa externe.",
+        "algorithme_solution": "Convertir date/heure initiale en objet grégorien; additionner durée totale en minutes; vérifier par différence ordinale indépendante.",
+        "statut_validation": "a_revoir"
+      },
+      "review_status": "items_produits_a_revoir",
+      "kristal_id": "qc-pri-ma-026",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "horaire textuel ou tabulaire 24 h",
+        "frise ou horloge",
+        "calendrier grégorien",
+        "durée en minutes et h/min"
+      ],
+      "variables": [
+        {
+          "item": "q002",
+          "domaines": {
+            "H": [
+              8,
+              9,
+              10
+            ],
+            "M": [
+              10,
+              25,
+              40
+            ],
+            "D": [
+              35,
+              50,
+              75
+            ],
+            "G": [
+              10,
+              20,
+              30
+            ]
+          }
+        },
+        {
+          "item": "q004",
+          "domaines": {
+            "H": [
+              12,
+              14,
+              16
+            ],
+            "M": [
+              5,
+              20,
+              35
+            ],
+            "D1": [
+              20,
+              35
+            ],
+            "D2": [
+              10,
+              20
+            ]
+          }
+        },
+        {
+          "item": "q006",
+          "domaines": {
+            "H": [
+              9,
+              12,
+              15
+            ],
+            "M": [
+              45,
+              50,
+              55
+            ],
+            "D": [
+              20,
+              30,
+              40
+            ]
+          }
+        },
+        {
+          "item": "q008",
+          "domaines": {
+            "date": [
+              "2024-02-28",
+              "2025-02-28",
+              "2025-12-31"
+            ],
+            "M": [
+              35,
+              45,
+              55
+            ],
+            "D": [
+              30,
+              40,
+              50
+            ]
+          }
+        },
+        {
+          "item": "q009",
+          "domaines": {
+            "date": [
+              "2024-02-29",
+              "2025-04-30",
+              "2025-12-31"
+            ],
+            "H": [
+              8,
+              11,
+              17
+            ],
+            "M": [
+              5,
+              20,
+              40
+            ],
+            "X": [
+              15,
+              35,
+              80
+            ]
+          }
+        },
+        {
+          "item": "q012",
+          "domaines": {
+            "date": [
+              "2024-02-28",
+              "2025-06-30",
+              "2025-12-31"
+            ],
+            "M": [
+              35,
+              40,
+              45
+            ],
+            "D": [
+              30,
+              40,
+              50
+            ],
+            "G": [
+              5,
+              10,
+              20
+            ]
+          }
+        }
+      ],
+      "contraintes": [
+        "dates valides du calendrier grégorien",
+        "heures 00 h 00 à 23 h 59",
+        "durées strictement positives en minutes entières pour les items paramétriques",
+        "aucun changement légal d’heure ni fuseau; jours de 1440 minutes",
+        "corrigé recalculé par addition d’instants et différence indépendante sur ordinal"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "lecture des instants",
+          "calcul et unité",
+          "vérification et plausibilité",
+          "autonomie et communication"
+        ],
+        "decision": "au moins deux preuves autonomes A et B, non un score unique"
+      },
+      "source": "sources/REFERENCES_CONTENU.md (modèles mathématiques dérivés; scénarios originaux)",
+      "seed": 26026,
+      "validation_status": "a_revoir",
+      "item_bank_ref": "evaluation/BANQUE_ITEMS.json",
+      "plan_evaluation_ref": "evaluation/PLAN_EVALUATION.md",
+      "validation_deterministe": {
+        "algorithme_tirage": "décomposition base mixte seed par modulo et division entière",
+        "algorithme_solution": "datetime grégorien avec timedelta en minutes",
+        "contre_calcul": "différence des dates ordinales × 1440 + différence en minutes du jour",
+        "portee": "toutes les combinaisons finies des six schémas plus trois seeds exemples par schéma"
+      }
+    }
+  ],
+  "statut": "contenus_et_items_prepares_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

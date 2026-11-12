@@ -1,0 +1,42 @@
+{
+  "format": "ekole.kristal-cadre-v12/1.0",
+  "kristal_id": "qc-pri-eps-012",
+  "source": {
+    "file": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Analyser une pratique physique à partir de critères observables et personnels non comparatifs.",
+    "preuve_attendue": "Comparer deux essais personnels et identifier une prochaine adaptation.",
+    "concepts": [
+      "objectif",
+      "effort",
+      "amélioration",
+      "sécurité"
+    ],
+    "prerequis_bloquants": [
+      "qc-pri-eps-009"
+    ]
+  },
+  "etat_revision": "plan_de_conception_non_revu",
+  "famille_candidate": "production_observation_humaine",
+  "plan_de_conception": {
+    "situation_de_depart": "Concevoir une situation concrète qui rende observable : Analyser une pratique physique à partir de critères observables et personnels non comparatifs.",
+    "action_de_lenfant": "Choisir une manipulation ou une production permettant de travailler objectif.",
+    "necessite_de_validation": "Comparer les propriétés vérifiables avec le critère : Comparer deux essais personnels et identifier une prochaine adaptation.",
+    "evaluation": "Séparer entraînement automatique partiel et preuves de maîtrise source.",
+    "aide_et_regulation": "Identifier les erreurs de objectif et préparer des relances graduées.",
+    "transfert": "Préparer une autre représentation ou contexte de la même compétence; à rédiger et faire vérifier."
+  },
+  "visuels_conceptuels": {
+    "usage": "mise_en_situation",
+    "prompt": "Représenter une situation concrète permettant d’observer ou de manipuler « objectif » dans le cadre de « Analyser une pratique physique à partir de critères observables et personnels non comparatifs. ». Faire comprendre le contexte sans inclure la solution d’une tâche évaluée. Ne pas imposer de style graphique.",
+    "fichier_suggere": "experience/images/situation-v12.webp",
+    "affichage_si_absent": "prompt_en_texte"
+  },
+  "revision_humaine": {
+    "exactitude": false,
+    "erreurs_diagnostiques": false,
+    "ergonomie_enfant": false,
+    "accessibilite": false,
+    "preuver_maitrise": false
+  }
+}

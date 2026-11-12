@@ -1,0 +1,394 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-015",
+  "family_id": "qc-pri-fr-015-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-015-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir des groupes donnés, écris une phrase déclarative complète, puis identifie le sujet et le prédicat. Explique en une phrase pourquoi cet ordre est correct.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : le soleil / cachent / Les nuages. Situation : ciel.",
+      "reponse_attendue": "Les nuages cachent le soleil. Les nuages sont le sujet; « cachent le soleil » est le prédicat.",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel."
+      ],
+      "feedback": "Trouve le verbe « cachent » puis demande qui cache quoi.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "ciel",
+      "variantes_admises": [
+        "Les nuages cachent le soleil."
+      ],
+      "limites_variation": "Réponse fixe : formulation syntaxiquement identique après rétablissement majuscule/ponctuation et explication équivalente; pas de substitution de mots ou inversion des rôles.",
+      "representation": "cartes_textuelles_et_production_justifiee",
+      "rubrique_ref": "GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : le courrier / ce matin / distribue / Le facteur. Situation : courrier.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « Le facteur distribue le courrier ce matin. » et « Ce matin, le facteur distribue le courrier. » Justification : « ce matin » est le groupe de temps mobile; « le courrier » reste lié à « distribue ».",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Tu as peut-être déplacé l’objet à la place du temps. Garde « distribue le courrier » ensemble.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "courrier",
+      "variantes_admises": [
+        "Le facteur distribue le courrier ce matin. / Ce matin, le facteur distribue le courrier.",
+        "Ce matin, le facteur distribue le courrier. / Le facteur distribue le courrier ce matin."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : les voisins / ce soir / aident / Les enfants. Situation : entraide.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « Ce soir, les enfants aident les voisins. » et « Les enfants aident les voisins ce soir. » Justification : Ce sont les enfants qui aident et les voisins qui reçoivent l’aide; le CP « ce soir » bouge.",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Relis qui aide qui. Une phrase grammaticalement plausible peut inverser le sens imposé.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "entraide",
+      "variantes_admises": [
+        "Ce soir, les enfants aident les voisins. / Les enfants aident les voisins ce soir.",
+        "Les enfants aident les voisins ce soir. / Ce soir, les enfants aident les voisins."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : des affiches / demain / préparent / Les élèves. Situation : école.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « Les élèves préparent des affiches demain. » et « Demain, les élèves préparent des affiches. » Justification : « préparent des affiches » doit rester le prédicat; « demain » est un CP.",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Assemble verbe et complément du verbe avant de bouger le groupe de temps.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "école",
+      "variantes_admises": [
+        "Les élèves préparent des affiches demain. / Demain, les élèves préparent des affiches.",
+        "Demain, les élèves préparent des affiches. / Les élèves préparent des affiches demain."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : un gant / sur la patinoire / ramasse / Alex. Situation : patinage.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « Sur la patinoire, Alex ramasse un gant. » et « Alex ramasse un gant sur la patinoire. » Justification : « sur la patinoire » indique où l’action se passe; « un gant » complète le verbe.",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Repère le lieu, déplace-le seulement, puis contrôle la ponctuation après le CP initial.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "patinage",
+      "variantes_admises": [
+        "Sur la patinoire, Alex ramasse un gant. / Alex ramasse un gant sur la patinoire.",
+        "Alex ramasse un gant sur la patinoire. / Sur la patinoire, Alex ramasse un gant."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : leurs feuilles / en automne / perdent / Les érables. Situation : arbres.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « Les érables perdent leurs feuilles en automne. » et « En automne, les érables perdent leurs feuilles. » Justification : Le sujet pluriel est « Les érables »; prédicat « perdent leurs feuilles »; CP « en automne ».",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Vérifie l’accord pluriel de « perdent » et garde « leurs feuilles » avec le verbe.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "arbres",
+      "variantes_admises": [
+        "Les érables perdent leurs feuilles en automne. / En automne, les érables perdent leurs feuilles.",
+        "En automne, les érables perdent leurs feuilles. / Les érables perdent leurs feuilles en automne."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : des dons / le jeudi / trient / Les bénévoles. Situation : solidarité.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « Le jeudi, les bénévoles trient des dons. » et « Les bénévoles trient des dons le jeudi. » Justification : « le jeudi » situe l’activité et se déplace; « des dons » reste dans le prédicat.",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Tu dois varier la place du temps, non le sujet ou l’objet.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "solidarité",
+      "variantes_admises": [
+        "Le jeudi, les bénévoles trient des dons. / Les bénévoles trient des dons le jeudi.",
+        "Les bénévoles trient des dons le jeudi. / Le jeudi, les bénévoles trient des dons."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : son filet / près du quai / vérifie / Le pêcheur. Situation : port.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « Le pêcheur vérifie son filet près du quai. » et « Près du quai, le pêcheur vérifie son filet. » Justification : « près du quai » désigne le lieu de la vérification; « son filet » est le complément du verbe.",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Conserve qui vérifie quoi; le groupe de lieu n’est pas un sujet.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "port",
+      "variantes_admises": [
+        "Le pêcheur vérifie son filet près du quai. / Près du quai, le pêcheur vérifie son filet.",
+        "Près du quai, le pêcheur vérifie son filet. / Le pêcheur vérifie son filet près du quai."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : des roches / pendant l’atelier / classe / Jade. Situation : atelier scientifique.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « Jade classe des roches pendant l’atelier. » et « Pendant l’atelier, Jade classe des roches. » Justification : « Jade » est sujet; « classe des roches » prédicat; « pendant l’atelier » CP; même événement dans les deux phrases.",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Le moment peut bouger; ne sépare pas « classe des roches ». Corrige ton propre ordre et justifie.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "atelier_scientifique",
+      "variantes_admises": [
+        "Jade classe des roches pendant l’atelier. / Pendant l’atelier, Jade classe des roches.",
+        "Pendant l’atelier, Jade classe des roches. / Jade classe des roches pendant l’atelier."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md",
+      "preuve_maitrise": {
+        "usage": "manifestation_autonome_distincte",
+        "contexte_id": "atelier_scientifique",
+        "condition": "Passation sans indice et en séance distincte de l’autre manifestation; variante structurelle exigée",
+        "aide_permises": [
+          "lecture neutre de la consigne",
+          "transcription littérale sans conseil syntaxique"
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : les cônes / après le match / rangent / Les équipes. Situation : sport collectif.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « Après le match, les équipes rangent les cônes. » et « Les équipes rangent les cônes après le match. » Justification : « Les équipes » est sujet pluriel, « rangent les cônes » prédicat; « après le match » CP; les deux structures gardent le même sens.",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Replace l’action avec son objet; garde le temps dans les deux versions et explique ton déplacement.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "sport_collectif",
+      "variantes_admises": [
+        "Après le match, les équipes rangent les cônes. / Les équipes rangent les cônes après le match.",
+        "Les équipes rangent les cônes après le match. / Après le match, les équipes rangent les cônes."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md",
+      "preuve_maitrise": {
+        "usage": "manifestation_autonome_distincte",
+        "contexte_id": "sport_collectif",
+        "condition": "Passation sans indice et en séance distincte de l’autre manifestation; variante structurelle exigée",
+        "aide_permises": [
+          "lecture neutre de la consigne",
+          "transcription littérale sans conseil syntaxique"
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : les horaires / à la gare / consultent / Les voyageurs. Situation : transports.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « À la gare, les voyageurs consultent les horaires. » et « Les voyageurs consultent les horaires à la gare. » Justification : Le lieu « à la gare » bouge; « consultent les horaires » forme le prédicat.",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Tu dois déplacer le lieu, pas intervertir les groupes qui indiquent les personnes et l’objet consulté.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "transports",
+      "variantes_admises": [
+        "À la gare, les voyageurs consultent les horaires. / Les voyageurs consultent les horaires à la gare.",
+        "Les voyageurs consultent les horaires à la gare. / À la gare, les voyageurs consultent les horaires."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-fr-015-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-015-ev-01",
+      "mode": "fixe",
+      "consigne": "Réorganise chaque groupe une fois en une phrase déclarative correcte. Écris ensuite une deuxième phrase qui conserve exactement le sens en déplaçant uniquement le complément de phrase; explique quel groupe tu as déplacé et ce qui reste dans le prédicat.",
+      "stimulus": "Groupes non ponctués, à employer chacun exactement une fois : les lumières / avant le spectacle / vérifie / Le technicien. Situation : spectacle.",
+      "reponse_attendue": "Formulations attendues (ordre libre) : « Le technicien vérifie les lumières avant le spectacle. » et « Avant le spectacle, le technicien vérifie les lumières. » Justification : Le temps « avant le spectacle » est mobile; « vérifie les lumières » reste dans le prédicat.",
+      "criteres": [
+        "Tous les groupes du stimulus sont intégrés une seule fois et la phrase est compréhensible.",
+        "Sujet correctement associé au verbe; prédicat conservé sans dislocation.",
+        "Le sens voulu et la relation sujet-verbe-objet sont préservés.",
+        "Justification identifiant au minimum le sujet et le groupe verbal, ou leur rôle fonctionnel.",
+        "Deux formulations de même sens, avec complément de phrase déplacé entre le début et la fin.",
+        "Complément du verbe non traité comme complément de phrase mobile."
+      ],
+      "feedback": "Réunis « vérifie les lumières » puis place la circonstance avant ou après la proposition.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte": "spectacle",
+      "variantes_admises": [
+        "Le technicien vérifie les lumières avant le spectacle. / Avant le spectacle, le technicien vérifie les lumières.",
+        "Avant le spectacle, le technicien vérifie les lumières. / Le technicien vérifie les lumières avant le spectacle."
+      ],
+      "limites_variation": "Réponse fixe : accepter une justification linguistiquement équivalente et une ponctuation accessoirement différente, mais pas l’oubli de groupes, le changement de temps/acteur/objet, le remplacement lexical, la dislocation du prédicat, ni une variation sans déplacement du CP.",
+      "representation": "cartes_textuelles_et_production_deux_phrases_justifiees",
+      "rubrique_ref": "GRILLE_MAITRISE.md"
+    }
+  ]
+}

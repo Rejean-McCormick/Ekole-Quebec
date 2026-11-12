@@ -1,0 +1,551 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-als-007",
+  "family_id": "qc-pri-als-007-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-als-007-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–C : (1) « Heure d’ouverture » (2) « Emplacement des balles rouges ». Quel jour le magasin est-il fermé? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "TOY SHOP\nA. The toy shop opens at ten.\nB. The red balls are on the top shelf.\nC. The shop is closed on Sunday.",
+      "reponse_attendue": "1→A (The toy shop opens at ten.); 2→B (The red balls are on the top shelf.); détail : Sunday — preuve dans C : « closed on Sunday »; sens global : un avis sur le magasin de jouets",
+      "criteres": [
+        "Associer correctement 2 descriptions françaises à leurs repères anglais A–C en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « closed on Sunday » dans le repère C. Ne remplace pas le texte par une supposition.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "entrainement_ou_formation",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B"
+        },
+        "detail": {
+          "question": "Quel jour le magasin est-il fermé?",
+          "valeur": "Sunday",
+          "repere": "C",
+          "preuve": "closed on Sunday"
+        },
+        "sens_global_accepte": "un avis sur le magasin de jouets",
+        "repere_anglais": {
+          "A": "The toy shop opens at ten.",
+          "B": "The red balls are on the top shelf.",
+          "C": "The shop is closed on Sunday."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–C : (1) « Date de la fête » (2) « Lieu du rendez-vous ». De quelle couleur doit être la tasse? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "PARTY INVITATION\nA. My party is on Friday.\nB. We meet in the garden.\nC. Please bring a blue cup.",
+      "reponse_attendue": "1→A (My party is on Friday.); 2→B (We meet in the garden.); détail : blue — preuve dans C : « blue cup »; sens global : une invitation à une fête",
+      "criteres": [
+        "Associer correctement 2 descriptions françaises à leurs repères anglais A–C en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « blue cup » dans le repère C. Ne remplace pas le texte par une supposition.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "entrainement_ou_formation",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B"
+        },
+        "detail": {
+          "question": "De quelle couleur doit être la tasse?",
+          "valeur": "blue",
+          "repere": "C",
+          "preuve": "blue cup"
+        },
+        "sens_global_accepte": "une invitation à une fête",
+        "repere_anglais": {
+          "A": "My party is on Friday.",
+          "B": "We meet in the garden.",
+          "C": "Please bring a blue cup."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–C : (1) « Jour de plantation » (2) « Moment de l’arrosage ». Où sont les pots? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "CLASS GARDEN\nA. Our class plants beans on Tuesday.\nB. We water the plants after lunch.\nC. The pots are near the window.",
+      "reponse_attendue": "1→A (Our class plants beans on Tuesday.); 2→B (We water the plants after lunch.); détail : near the window — preuve dans C : « near the window »; sens global : le travail au potager de la classe",
+      "criteres": [
+        "Associer correctement 2 descriptions françaises à leurs repères anglais A–C en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « near the window » dans le repère C. Ne remplace pas le texte par une supposition.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "entrainement_ou_formation",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B"
+        },
+        "detail": {
+          "question": "Où sont les pots?",
+          "valeur": "near the window",
+          "repere": "C",
+          "preuve": "near the window"
+        },
+        "sens_global_accepte": "le travail au potager de la classe",
+        "repere_anglais": {
+          "A": "Our class plants beans on Tuesday.",
+          "B": "We water the plants after lunch.",
+          "C": "The pots are near the window."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–C : (1) « Fruits disponibles » (2) « Prix du jus ». À quelle heure ferme le comptoir? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "SNACK BAR\nA. The snack bar has apples and pears.\nB. Juice costs one dollar.\nC. The bar closes at three.",
+      "reponse_attendue": "1→A (The snack bar has apples and pears.); 2→B (Juice costs one dollar.); détail : at three — preuve dans C : « closes at three »; sens global : les offres et les horaires d’un comptoir de collations",
+      "criteres": [
+        "Associer correctement 2 descriptions françaises à leurs repères anglais A–C en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « closes at three » dans le repère C. Ne remplace pas le texte par une supposition.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "entrainement_ou_formation",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B"
+        },
+        "detail": {
+          "question": "À quelle heure ferme le comptoir?",
+          "valeur": "at three",
+          "repere": "C",
+          "preuve": "closes at three"
+        },
+        "sens_global_accepte": "les offres et les horaires d’un comptoir de collations",
+        "repere_anglais": {
+          "A": "The snack bar has apples and pears.",
+          "B": "Juice costs one dollar.",
+          "C": "The bar closes at three."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–C : (1) « Moment où Maya nourrit le chat » (2) « Lieu où dort le chat ». De quelle couleur est le bol d’eau? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "CAT CARE\nA. Maya feeds her cat in the morning.\nB. The cat sleeps under the chair.\nC. Its water bowl is green.",
+      "reponse_attendue": "1→A (Maya feeds her cat in the morning.); 2→B (The cat sleeps under the chair.); détail : green — preuve dans C : « bowl is green »; sens global : les soins au chat de Maya",
+      "criteres": [
+        "Associer correctement 2 descriptions françaises à leurs repères anglais A–C en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « bowl is green » dans le repère C. Ne remplace pas le texte par une supposition.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "entrainement_ou_formation",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B"
+        },
+        "detail": {
+          "question": "De quelle couleur est le bol d’eau?",
+          "valeur": "green",
+          "repere": "C",
+          "preuve": "bowl is green"
+        },
+        "sens_global_accepte": "les soins au chat de Maya",
+        "repere_anglais": {
+          "A": "Maya feeds her cat in the morning.",
+          "B": "The cat sleeps under the chair.",
+          "C": "Its water bowl is green."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–C : (1) « Jour de la promenade » (2) « Lieu du rendez-vous s’il pleut ». Quelle couleur de manteau est demandée? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "RAIN NOTICE\nA. The school walk is on Monday.\nB. If it rains, we meet inside the gym.\nC. Bring your yellow raincoat.",
+      "reponse_attendue": "1→A (The school walk is on Monday.); 2→B (If it rains, we meet inside the gym.); détail : yellow — preuve dans C : « yellow raincoat »; sens global : une annonce sur la promenade de l’école",
+      "criteres": [
+        "Associer correctement 2 descriptions françaises à leurs repères anglais A–C en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « yellow raincoat » dans le repère C. Ne remplace pas le texte par une supposition.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "entrainement_ou_formation",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B"
+        },
+        "detail": {
+          "question": "Quelle couleur de manteau est demandée?",
+          "valeur": "yellow",
+          "repere": "C",
+          "preuve": "yellow raincoat"
+        },
+        "sens_global_accepte": "une annonce sur la promenade de l’école",
+        "repere_anglais": {
+          "A": "The school walk is on Monday.",
+          "B": "If it rains, we meet inside the gym.",
+          "C": "Bring your yellow raincoat."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–C : (1) « Heure du départ » (2) « Destination du train ». Où Nora est-elle assise? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "TRAIN TRIP\nA. The train leaves the station at eight.\nB. It goes to Lake Town.\nC. Nora sits by the window.",
+      "reponse_attendue": "1→A (The train leaves the station at eight.); 2→B (It goes to Lake Town.); détail : by the window — preuve dans C : « sits by the window »; sens global : un petit trajet en train",
+      "criteres": [
+        "Associer correctement 2 descriptions françaises à leurs repères anglais A–C en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « sits by the window » dans le repère C. Ne remplace pas le texte par une supposition.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "entrainement_ou_formation",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B"
+        },
+        "detail": {
+          "question": "Où Nora est-elle assise?",
+          "valeur": "by the window",
+          "repere": "C",
+          "preuve": "sits by the window"
+        },
+        "sens_global_accepte": "un petit trajet en train",
+        "repere_anglais": {
+          "A": "The train leaves the station at eight.",
+          "B": "It goes to Lake Town.",
+          "C": "Nora sits by the window."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–C : (1) « Lieu du match » (2) « Jour et heure de début ». De quelle couleur sont les chandails des joueurs? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "SOCCER GAME\nA. The soccer game is at the south field.\nB. The game starts on Saturday at two.\nC. The players wear white shirts.",
+      "reponse_attendue": "1→A (The soccer game is at the south field.); 2→B (The game starts on Saturday at two.); détail : white — preuve dans C : « white shirts »; sens global : les renseignements sur un match de soccer",
+      "criteres": [
+        "Associer correctement 2 descriptions françaises à leurs repères anglais A–C en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « white shirts » dans le repère C. Ne remplace pas le texte par une supposition.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "entrainement_ou_formation",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B"
+        },
+        "detail": {
+          "question": "De quelle couleur sont les chandails des joueurs?",
+          "valeur": "white",
+          "repere": "C",
+          "preuve": "white shirts"
+        },
+        "sens_global_accepte": "les renseignements sur un match de soccer",
+        "repere_anglais": {
+          "A": "The soccer game is at the south field.",
+          "B": "The game starts on Saturday at two.",
+          "C": "The players wear white shirts."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–C : (1) « Salle du club » (2) « Jour de création de jeux ». À quelle heure finit le club? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "COMPUTER CLUB\nA. The computer club meets in Room 6.\nB. We make small games on Wednesday.\nC. The club ends at five.",
+      "reponse_attendue": "1→A (The computer club meets in Room 6.); 2→B (We make small games on Wednesday.); détail : at five — preuve dans C : « ends at five »; sens global : les activités et l’horaire d’un club d’ordinateur",
+      "criteres": [
+        "Associer correctement 2 descriptions françaises à leurs repères anglais A–C en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « ends at five » dans le repère C. Ne remplace pas le texte par une supposition.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "entrainement_ou_formation",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B"
+        },
+        "detail": {
+          "question": "À quelle heure finit le club?",
+          "valeur": "at five",
+          "repere": "C",
+          "preuve": "ends at five"
+        },
+        "sens_global_accepte": "les activités et l’horaire d’un club d’ordinateur",
+        "repere_anglais": {
+          "A": "The computer club meets in Room 6.",
+          "B": "We make small games on Wednesday.",
+          "C": "The club ends at five."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–C : (1) « Jour du nettoyage » (2) « Consigne pour le plastique ». Où a lieu le rendez-vous? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "BEACH CLEAN-UP\nA. The beach clean-up is on Sunday.\nB. Put plastic in the blue bags.\nC. We meet at the wooden bench.",
+      "reponse_attendue": "1→A (The beach clean-up is on Sunday.); 2→B (Put plastic in the blue bags.); détail : at the wooden bench — preuve dans C : « at the wooden bench »; sens global : les consignes d’un nettoyage de plage",
+      "criteres": [
+        "Associer correctement 2 descriptions françaises à leurs repères anglais A–C en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « at the wooden bench » dans le repère C. Ne remplace pas le texte par une supposition.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "entrainement_ou_formation",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B"
+        },
+        "detail": {
+          "question": "Où a lieu le rendez-vous?",
+          "valeur": "at the wooden bench",
+          "repere": "C",
+          "preuve": "at the wooden bench"
+        },
+        "sens_global_accepte": "les consignes d’un nettoyage de plage",
+        "repere_anglais": {
+          "A": "The beach clean-up is on Sunday.",
+          "B": "Put plastic in the blue bags.",
+          "C": "We meet at the wooden bench."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–D : (1) « Jour et heure d’ouverture » (2) « Prix des billets pour les enfants » (3) « Étage de la salle d’art ». Où doit-on retrouver le guide? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "CITY MUSEUM\nA. The city museum opens on Saturday at ten.\nB. Tickets are free for children.\nC. The art room is on the second floor.\nD. Meet the guide by the front desk.",
+      "reponse_attendue": "1→A (The city museum opens on Saturday at ten.); 2→B (Tickets are free for children.); 3→C (The art room is on the second floor.); détail : by the front desk — preuve dans D : « Meet the guide by the front desk »; sens global : une annonce destinée aux visiteurs d’un musée",
+      "criteres": [
+        "Associer correctement 3 descriptions françaises à leurs repères anglais A–D en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « Meet the guide by the front desk » dans le repère D. Ne remplace pas le texte par une supposition. Après correction, utiliser un nouveau contexte pour la preuve autonome, jamais répéter le même stimulus.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "preuve_maitrise_1",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B",
+          "3": "C"
+        },
+        "detail": {
+          "question": "Où doit-on retrouver le guide?",
+          "valeur": "by the front desk",
+          "repere": "D",
+          "preuve": "Meet the guide by the front desk"
+        },
+        "sens_global_accepte": "une annonce destinée aux visiteurs d’un musée",
+        "repere_anglais": {
+          "A": "The city museum opens on Saturday at ten.",
+          "B": "Tickets are free for children.",
+          "C": "The art room is on the second floor.",
+          "D": "Meet the guide by the front desk."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    },
+    {
+      "item_id": "qc-pri-als-007-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis seul le texte anglais écrit. Associe ces descriptions aux repères A–D : (1) « Lieu et jour du rendez-vous » (2) « Outil pour observer les oiseaux » (3) « Objet à apporter ». À quelle heure finit la marche? Montre le groupe de mots anglais qui justifie ta réponse. Indique en quelques mots de quoi parle le texte (en français ou par une étiquette de sujet).",
+      "stimulus": "NATURE CLUB\nA. The nature club meets at the river on Thursday.\nB. We watch birds with binoculars.\nC. Members bring a small notebook.\nD. The walk ends at four.",
+      "reponse_attendue": "1→A (The nature club meets at the river on Thursday.); 2→B (We watch birds with binoculars.); 3→C (Members bring a small notebook.); détail : at four — preuve dans D : « The walk ends at four »; sens global : les consignes et l’horaire d’une sortie du club de nature",
+      "criteres": [
+        "Associer correctement 3 descriptions françaises à leurs repères anglais A–D en utilisant les phrases complètes.",
+        "Répondre au détail précis demandé avec la valeur exacte, sans ajouter d’information absente.",
+        "Repérer (pointer, surligner ou citer) les mots anglais qui justifient le détail.",
+        "Comprendre le thème global sans confondre le titre avec une preuve de détail."
+      ],
+      "feedback": "Si une association est erronée, relis toute la phrase et repère son rôle (jour, lieu, objet, action); pour le détail, vérifie « The walk ends at four » dans le repère D. Ne remplace pas le texte par une supposition. Après correction, utiliser un nouveau contexte pour la preuve autonome, jamais répéter le même stimulus.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_role": "preuve_maitrise_2",
+      "corrige_structure": {
+        "associations": {
+          "1": "A",
+          "2": "B",
+          "3": "C"
+        },
+        "detail": {
+          "question": "À quelle heure finit la marche?",
+          "valeur": "at four",
+          "repere": "D",
+          "preuve": "The walk ends at four"
+        },
+        "sens_global_accepte": "les consignes et l’horaire d’une sortie du club de nature",
+        "repere_anglais": {
+          "A": "The nature club meets at the river on Thursday.",
+          "B": "We watch birds with binoculars.",
+          "C": "Members bring a small notebook.",
+          "D": "The walk ends at four."
+        }
+      },
+      "variabilite": {
+        "autorisee": false,
+        "motif": "stimulus et corrigé verrouillés; toute substitution exige une nouvelle revue",
+        "reponses_equivalentes": "réponses françaises ou anglaises sémantiquement identiques et appuyées par les mots du texte"
+      }
+    }
+  ]
+}

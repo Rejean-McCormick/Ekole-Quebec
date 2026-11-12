@@ -1,0 +1,412 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-008",
+  "family_id": "qc-pri-us-008-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-us-008-q-001",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-us-008-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "titre": "Attribuer les notions aux faits",
+      "consigne": "Pour chaque fiche, écris la notion principale et justifie en dix à vingt mots.",
+      "stimulus": "Voici quatre notices: H1 établissement à Québec (1608), H7 compagnie des Cent-Associés (1627), H4 gouvernement royal (1663), H5 dénombrement colonial (1666).",
+      "reponse_attendue": "H1 établissement (implantation française); H7 économie et/ou administration (monopole commercial et concessions); H4 administration (gouverneur/intendant/Conseil souverain); H5 population (3 215 colons européens, portée limitée).",
+      "criteres": [
+        "4 associations justifiées par les indices de la notice",
+        "aucune affirmation de territoire inhabité",
+        "le périmètre de H5 est précisé"
+      ],
+      "feedback": "Si H5 est classée comme le total de tous les habitants, reprendre la définition du groupe recensé; si H7 est dite seulement démographique, revenir à son mandat économique.",
+      "difficulte": "initial",
+      "representation": "cartes H1–H9, chronologie commentée écrite ou orale avec citation des codes sources",
+      "variables": {
+        "corpus_id": "NF-H-1.2",
+        "cartes": [
+          "H1",
+          "H7",
+          "H4",
+          "H5"
+        ],
+        "ordre_de_presentation": "modifiable sans changer le corrigé",
+        "domaine_des_faits": "fermé"
+      },
+      "contraintes": [
+        "aucune substitution factuelle libre",
+        "dates et notices identiques aux fiches H",
+        "source et limite évaluées",
+        "modalités accessibles mais critère identique"
+      ],
+      "conditions_accessibilite": "Lecture fidèle à voix haute; bande visuelle/tactile ou dictée à un scribe neutre; aucun indice de classement ou d’analyse durant la preuve.",
+      "limites_variation": "Variation de modalité et permutation d’affichage seulement; corrigé de faits verrouillé. Aucun tirage de faits par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-008-q-002",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-us-008-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "titre": "Ordonner trois fondations",
+      "consigne": "Crée trois jalons croissants avec codes H et décris en une phrase la continuité observable.",
+      "stimulus": "Les cartes de faits H3 Montréal 1642, H1 Québec 1608, H2 Trois-Rivières 1634 sont mélangées.",
+      "reponse_attendue": "1608 H1 Québec → 1634 H2 Trois-Rivières → 1642 H3 Montréal. Trois implantations coloniales françaises se constituent le long de voies d’eau et s’inscrivent dans des réseaux autochtones préexistants.",
+      "criteres": [
+        "ordre numérique et appariement corrects",
+        "commentaire portant sur implantation française, pas occupation totale",
+        "les trois codes H figurent"
+      ],
+      "feedback": "Si les années sont inversées, placer les chiffres sur une ligne graduée; ne pas appeler l’un d’eux « premier peuplement du territoire ».",
+      "difficulte": "initial",
+      "representation": "cartes H1–H9, chronologie commentée écrite ou orale avec citation des codes sources",
+      "variables": {
+        "corpus_id": "NF-H-1.2",
+        "cartes": [
+          "H3",
+          "H1",
+          "H2"
+        ],
+        "ordre_de_presentation": "modifiable sans changer le corrigé",
+        "domaine_des_faits": "fermé"
+      },
+      "contraintes": [
+        "aucune substitution factuelle libre",
+        "dates et notices identiques aux fiches H",
+        "source et limite évaluées",
+        "modalités accessibles mais critère identique"
+      ],
+      "conditions_accessibilite": "Lecture fidèle à voix haute; bande visuelle/tactile ou dictée à un scribe neutre; aucun indice de classement ou d’analyse durant la preuve.",
+      "limites_variation": "Variation de modalité et permutation d’affichage seulement; corrigé de faits verrouillé. Aucun tirage de faits par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-008-q-003",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-us-008-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "titre": "Vérifier une légende de population",
+      "consigne": "Corrige la légende suivante : « En 1666, la Nouvelle-France comptait exactement 3 215 personnes, Autochtones compris ». Cite la limite du document.",
+      "stimulus": "H5: Statistique Canada explique que 3 215 colons européens ont été recensés en 1666 dans des centres de la colonie; les populations autochtones et les troupes du roi n’entrent pas dans ce total.",
+      "reponse_attendue": "Correction d’après H5 : « En 1666, le recensement de Jean Talon dénombrait 3 215 colons européens à Québec, Trois-Rivières et Montréal. Les populations autochtones et les troupes du roi ne sont pas incluses dans ce nombre. »",
+      "criteres": [
+        "Chiffre 3 215 et date 1666 inscrits correctement",
+        "Population coloniale européenne du recensement définie explicitement",
+        "Limite reconnue sans spéculation sur le nombre de peuples autochtones"
+      ],
+      "feedback": "Si la réponse conserve « tous les habitants », lui demander de préciser qui était inclus dans le dénombrement.",
+      "difficulte": "initial",
+      "representation": "cartes H1–H9, chronologie commentée écrite ou orale avec citation des codes sources",
+      "variables": {
+        "corpus_id": "NF-H-1.2",
+        "cartes": [
+          "H5"
+        ],
+        "ordre_de_presentation": "modifiable sans changer le corrigé",
+        "domaine_des_faits": "fermé"
+      },
+      "contraintes": [
+        "aucune substitution factuelle libre",
+        "dates et notices identiques aux fiches H",
+        "source et limite évaluées",
+        "modalités accessibles mais critère identique"
+      ],
+      "conditions_accessibilite": "Lecture fidèle à voix haute; bande visuelle/tactile ou dictée à un scribe neutre; aucun indice de classement ou d’analyse durant la preuve.",
+      "limites_variation": "Variation de modalité et permutation d’affichage seulement; corrigé de faits verrouillé. Aucun tirage de faits par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-008-q-004",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-us-008-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "titre": "Associer un changement administratif",
+      "consigne": "Réalise une chronologie à trois jalons et décris un changement de pouvoir entre chacun.",
+      "stimulus": "Notices H7 1627 compagnie des Cent-Associés, H4 1663 gouvernement royal direct, H8 1763 traité de Paris après conquête.",
+      "reponse_attendue": "1627 H7 : société commerçante avec droits et responsabilités coloniaux; 1663 H4 : roi de France reprend le gouvernement direct et nomme des administrateurs; 1763 H8 : traité de Paris officialisant le passage du Canada à la Grande-Bretagne. Il s’agit de pouvoirs coloniaux, pas du gouvernement de toutes les nations autochtones.",
+      "criteres": [
+        "trois années et faits concordants",
+        "comparaison de deux transformations institutionnelles",
+        "reconnaissance des limites de l’administration coloniale"
+      ],
+      "feedback": "Si 1760 et 1763 sont confondus, rappeler qu’une conquête militaire et un traité sont des événements différents.",
+      "difficulte": "intermediaire",
+      "representation": "cartes H1–H9, chronologie commentée écrite ou orale avec citation des codes sources",
+      "variables": {
+        "corpus_id": "NF-H-1.2",
+        "cartes": [
+          "H7",
+          "H4",
+          "H8"
+        ],
+        "ordre_de_presentation": "modifiable sans changer le corrigé",
+        "domaine_des_faits": "fermé"
+      },
+      "contraintes": [
+        "aucune substitution factuelle libre",
+        "dates et notices identiques aux fiches H",
+        "source et limite évaluées",
+        "modalités accessibles mais critère identique"
+      ],
+      "conditions_accessibilite": "Lecture fidèle à voix haute; bande visuelle/tactile ou dictée à un scribe neutre; aucun indice de classement ou d’analyse durant la preuve.",
+      "limites_variation": "Variation de modalité et permutation d’affichage seulement; corrigé de faits verrouillé. Aucun tirage de faits par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-008-q-005",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-us-008-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "titre": "Expliquer les échanges et alliances",
+      "consigne": "Ordonne ces événements; relie-les à économie et diplomatie et donne une conclusion que ces notices NE prouvent PAS.",
+      "stimulus": "H3 Montréal fondée en 1642, centre de traite; H6 1701 Grande Paix de Montréal négociée avec des nations autochtones; Musée canadien de l’histoire, histoire de la traite.",
+      "reponse_attendue": "1642 H3 : développement d’un établissement français situé dans des routes d’échange; 1701 H6 : traité négocié entre la France et de nombreuses nations. Les réseaux commerciaux reposaient sur des partenaires autochtones. Ces deux fiches ne démontrent pas une paix permanente de toutes les nations.",
+      "criteres": [
+        "Ordre chronologique 1642 puis 1701 respecté exactement",
+        "Distinction des échanges économiques et des négociations diplomatiques",
+        "Réserve historique explicite sans généralisation à toutes les nations"
+      ],
+      "feedback": "Si l’élève affirme que 1701 met fin à toutes les guerres, distinguer les participants au traité d’un ensemble indéfini.",
+      "difficulte": "intermediaire",
+      "representation": "cartes H1–H9, chronologie commentée écrite ou orale avec citation des codes sources",
+      "variables": {
+        "corpus_id": "NF-H-1.2",
+        "cartes": [
+          "H3",
+          "H6"
+        ],
+        "ordre_de_presentation": "modifiable sans changer le corrigé",
+        "domaine_des_faits": "fermé"
+      },
+      "contraintes": [
+        "aucune substitution factuelle libre",
+        "dates et notices identiques aux fiches H",
+        "source et limite évaluées",
+        "modalités accessibles mais critère identique"
+      ],
+      "conditions_accessibilite": "Lecture fidèle à voix haute; bande visuelle/tactile ou dictée à un scribe neutre; aucun indice de classement ou d’analyse durant la preuve.",
+      "limites_variation": "Variation de modalité et permutation d’affichage seulement; corrigé de faits verrouillé. Aucun tirage de faits par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-008-q-006",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-us-008-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "titre": "Distinguer date du fait et notice moderne",
+      "consigne": "Identifie deux dates de faits, les auteurs institutionnels des données et la raison pour laquelle ces fiches ne sont pas deux lettres originales du XVIIe siècle.",
+      "stimulus": "Notices H1 sur 1608 et H5 sur 1666, rédigées aujourd’hui à partir de pages du Musée canadien de l’histoire et de Statistique Canada. Leur date de publication d’origine n’est pas indiquée dans la fiche.",
+      "reponse_attendue": "Faits datés 1608 et 1666; institutions citées : Musée canadien de l’histoire pour H1 et Statistique Canada pour H5. Les formulations H1/H5 sont des paraphrases pédagogiques modernes, sans auteur témoin de ces années. Ne pas inventer une date de publication.",
+      "criteres": [
+        "Deux années historiques 1608 et 1666 correctement identifiées",
+        "Deux institutions sources attribuées correctement à leurs fiches",
+        "Distinction des notices modernes et documents du XVIIe siècle explicitée"
+      ],
+      "feedback": "Si l’élève invente « lettre de Champlain datée 1608 », montrer l’en-tête de la notice actuelle et distinguer source secondaire et archive primaire.",
+      "difficulte": "intermediaire",
+      "representation": "cartes H1–H9, chronologie commentée écrite ou orale avec citation des codes sources",
+      "variables": {
+        "corpus_id": "NF-H-1.2",
+        "cartes": [
+          "H1",
+          "H5"
+        ],
+        "ordre_de_presentation": "modifiable sans changer le corrigé",
+        "domaine_des_faits": "fermé"
+      },
+      "contraintes": [
+        "aucune substitution factuelle libre",
+        "dates et notices identiques aux fiches H",
+        "source et limite évaluées",
+        "modalités accessibles mais critère identique"
+      ],
+      "conditions_accessibilite": "Lecture fidèle à voix haute; bande visuelle/tactile ou dictée à un scribe neutre; aucun indice de classement ou d’analyse durant la preuve.",
+      "limites_variation": "Variation de modalité et permutation d’affichage seulement; corrigé de faits verrouillé. Aucun tirage de faits par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-008-q-007",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-us-008-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "titre": "Rédiger un mini-commentaire sur le changement",
+      "consigne": "Classe les trois cartes puis commente le rôle d’une décision institutionnelle, d’une intervention militaire et d’un recensement, sans attribuer une « paix totale » aux événements.",
+      "stimulus": "H4 1663 gouvernement direct; H9 1665 régiment et fortifications sur le Richelieu; H5 1666 recensement des colons européens.",
+      "reponse_attendue": "1663 H4 administration royale, 1665 H9 renforcement militaire dans un contexte conflictuel, 1666 H5 recensement de 3 215 colons européens. Ces dimensions de gouvernement sont distinctes. Il serait erroné de présenter la campagne comme disparition de l’autonomie haudenosaunee ou du conflit.",
+      "criteres": [
+        "trois dates et fonctions exactes",
+        "comparaison explicite institutions / militaires / recensement",
+        "aucune généralisation coloniale abusive"
+      ],
+      "feedback": "Si l’élève traite les guerres comme unilatéralement « civilisatrices », retourner à H9 et présenter les acteurs et les enjeux sans euphémisme.",
+      "difficulte": "intermediaire",
+      "representation": "cartes H1–H9, chronologie commentée écrite ou orale avec citation des codes sources",
+      "variables": {
+        "corpus_id": "NF-H-1.2",
+        "cartes": [
+          "H4",
+          "H9",
+          "H5"
+        ],
+        "ordre_de_presentation": "modifiable sans changer le corrigé",
+        "domaine_des_faits": "fermé"
+      },
+      "contraintes": [
+        "aucune substitution factuelle libre",
+        "dates et notices identiques aux fiches H",
+        "source et limite évaluées",
+        "modalités accessibles mais critère identique"
+      ],
+      "conditions_accessibilite": "Lecture fidèle à voix haute; bande visuelle/tactile ou dictée à un scribe neutre; aucun indice de classement ou d’analyse durant la preuve.",
+      "limites_variation": "Variation de modalité et permutation d’affichage seulement; corrigé de faits verrouillé. Aucun tirage de faits par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-008-q-008",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-us-008-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "titre": "Comparer un événement et ses limites",
+      "consigne": "Construis trois jalons et écris: un fait établi par chaque source, une transition prudente entre eux et une affirmation qu’aucune de ces fiches ne permet de vérifier.",
+      "stimulus": "H1 1608 Québec, H6 1701 Grande Paix, H8 1763 traité de Paris; voir fiches et leurs institutions.",
+      "reponse_attendue": "1608 H1 habitation coloniale à Québec; 1701 H6 négociations diplomatiques avec des nations autochtones; 1763 H8 cession de contrôle colonial par traité. Transition : les rapports diplomatiques et le gouvernement colonial ont évolué. Affirmation non vérifiable : « toutes les nations autochtones acceptent de céder leur territoire en 1763 ».",
+      "criteres": [
+        "ordre et exactitude de trois jalons",
+        "transition sans causalité non démontrée",
+        "une limite explicitement reconnue avec codes H"
+      ],
+      "feedback": "S’il y a une conclusion sans appui, distinguer « la source atteste » de « il faudrait d’autres preuves ».",
+      "difficulte": "transfert",
+      "representation": "cartes H1–H9, chronologie commentée écrite ou orale avec citation des codes sources",
+      "variables": {
+        "corpus_id": "NF-H-1.2",
+        "cartes": [
+          "H1",
+          "H6",
+          "H8"
+        ],
+        "ordre_de_presentation": "modifiable sans changer le corrigé",
+        "domaine_des_faits": "fermé"
+      },
+      "contraintes": [
+        "aucune substitution factuelle libre",
+        "dates et notices identiques aux fiches H",
+        "source et limite évaluées",
+        "modalités accessibles mais critère identique"
+      ],
+      "conditions_accessibilite": "Lecture fidèle à voix haute; bande visuelle/tactile ou dictée à un scribe neutre; aucun indice de classement ou d’analyse durant la preuve.",
+      "limites_variation": "Variation de modalité et permutation d’affichage seulement; corrigé de faits verrouillé. Aucun tirage de faits par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-008-q-009",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-us-008-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "titre": "Épreuve A — parcours d’établissements et d’échanges",
+      "consigne": "Sans aide ni modèle de classement, réalise une chronologie commentée de QUATRE jalons; chaque jalon date le fait, nomme une notion et explique une fonction ou transformation. Rédige/conte ensuite une transition entre établissement et économie, et une limite concernant les nations déjà présentes. Nomme au moins deux codes H.",
+      "stimulus": "Jeu A fermé, affiché en désordre : H3 (1642, Montréal), H7 (1627, Cent-Associés), H1 (1608, Québec), H2 (1634, Trois-Rivières). Ces fiches sont les paraphrases institutionnelles intégrales disponibles au contenu/01.",
+      "reponse_attendue": "Rubrique fixe, réponses ouvertes encadrées : 1608 H1 Québec fondation coloniale, 1627 H7 Cent-Associés commerce/concessions, 1634 H2 établissement Trois-Rivières, 1642 H3 fondation Ville-Marie/Montréal. Transition valable : multiplication de pôles le long du fleuve et rôle organisé du commerce, qui s’appuie sur des réseaux autochtones préexistants. Limite requise : fondations françaises ≠ commencement de la présence humaine. Toute paraphrase équivalente et exacte est admise; inventer une « découverte d’un territoire vide » est incorrect.",
+      "criteres": [
+        "M1 dates 1608–1627–1634–1642 ordonnées et correctement appariées",
+        "M2 chaque jalon explicite un fait exact et sa fonction ou évolution",
+        "M3 au moins deux notions et une transition cohérente économie/établissement",
+        "M4 deux codes de fiches et limite concernant les sociétés autochtones",
+        "M5 autonomie sans indices directifs sur ordre ou commentaires"
+      ],
+      "feedback": "Si A est insuffisante : entraîner dates H1/H7/H2/H3, comparer établissement et économie et reformuler le territoire préexistant. Programmer une nouvelle preuve indépendante approuvée humainement, pas un 2e passage corrigé de A.",
+      "difficulte": "transfert",
+      "representation": "cartes H1–H9, chronologie commentée écrite ou orale avec citation des codes sources",
+      "variables": {
+        "corpus_id": "NF-H-1.2",
+        "cartes": [
+          "H3",
+          "H7",
+          "H1",
+          "H2"
+        ],
+        "ordre_de_presentation": "modifiable sans changer le corrigé",
+        "domaine_des_faits": "fermé"
+      },
+      "contraintes": [
+        "aucune substitution factuelle libre",
+        "dates et notices identiques aux fiches H",
+        "source et limite évaluées",
+        "modalités accessibles mais critère identique"
+      ],
+      "conditions_accessibilite": "Lecture fidèle à voix haute; bande visuelle/tactile ou dictée à un scribe neutre; aucun indice de classement ou d’analyse durant la preuve.",
+      "limites_variation": "Variation de modalité et permutation d’affichage seulement; corrigé de faits verrouillé. Aucun tirage de faits par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A — établissements et échanges"
+    },
+    {
+      "item_id": "qc-pri-us-008-q-010",
+      "objectif_id": "obj-1",
+      "family_id": "qc-pri-us-008-ev-01",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "titre": "Épreuve B — administration, population et diplomatie",
+      "consigne": "Sans aide ni modèle, réalise une NOUVELLE chronologie commentée à QUATRE jalons; pour chacun donne année, fait, transformation ou fonction et code H. Explique le périmètre des 3 215 colons recensés, le caractère diplomatique de 1701 et la différence entre conquête militaire et traité.",
+      "stimulus": "Jeu B fermé, autre contexte : H8 (1763, traité de Paris), H5 (1666, recensement), H6 (1701, Grande Paix), H4 (1663, gouvernement royal). Aucun jalon de A n’est repris.",
+      "reponse_attendue": "Rubrique fixe : 1663 H4 gouvernement royal direct; 1666 H5 recensement de 3 215 colons européens **hors Autochtones et troupes du roi**; 1701 H6 Grande Paix négociée entre la France et plusieurs nations, sans portée universelle; 1763 H8 traité officialisant le contrôle britannique sur le Canada après les événements militaires de 1759–1760. Commentaire transversal : la gestion politique, le dénombrement et les relations diplomatiques se transforment de manières différentes. Ne pas confondre paix négociée avec la soumission de toutes les nations.",
+      "criteres": [
+        "M1 dates 1663–1666–1701–1763 ordonnées et faits correctement appariés",
+        "M2 chaque jalon expose fonction ou changement historiquement exact",
+        "M3 relie administration, population, diplomatie et transformation politique",
+        "M4 cite codes H, limite du recensement et de la Grande Paix sans généralisation",
+        "M5 production réellement autonome, distincte de A, sans indices directifs"
+      ],
+      "feedback": "Si B est insuffisante : remédiation individualisée sur rôle du roi, définition de la population recensée, portée du traité ou distinction 1760/1763; nouvelle épreuve de transfert approuvée après instruction.",
+      "difficulte": "transfert",
+      "representation": "cartes H1–H9, chronologie commentée écrite ou orale avec citation des codes sources",
+      "variables": {
+        "corpus_id": "NF-H-1.2",
+        "cartes": [
+          "H8",
+          "H5",
+          "H6",
+          "H4"
+        ],
+        "ordre_de_presentation": "modifiable sans changer le corrigé",
+        "domaine_des_faits": "fermé"
+      },
+      "contraintes": [
+        "aucune substitution factuelle libre",
+        "dates et notices identiques aux fiches H",
+        "source et limite évaluées",
+        "modalités accessibles mais critère identique"
+      ],
+      "conditions_accessibilite": "Lecture fidèle à voix haute; bande visuelle/tactile ou dictée à un scribe neutre; aucun indice de classement ou d’analyse durant la preuve.",
+      "limites_variation": "Variation de modalité et permutation d’affichage seulement; corrigé de faits verrouillé. Aucun tirage de faits par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B — administration et diplomatie"
+    }
+  ]
+}

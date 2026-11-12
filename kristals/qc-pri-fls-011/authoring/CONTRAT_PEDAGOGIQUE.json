@@ -1,0 +1,82 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-011",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire et comparer des éléments culturels francophones situés et documentés.",
+  "concepts": [
+    "pratiques",
+    "langue",
+    "diversité",
+    "contexte"
+  ],
+  "preuve_attendue": "Présenter une référence culturelle sans généralisation abusive.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-fls-006"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-011-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Présenter une référence culturelle sans généralisation abusive.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-fls-011",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte_documentaire_court",
+        "production_orale_ou_ecrite",
+        "capsule_radio",
+        "cartel_exposition"
+      ],
+      "variables": [],
+      "contraintes": [
+        "faits, lieu, dates et attributions figés dans le corpus S1–S4; aucune substitution générative libre",
+        "variations permises : modalité orale, écrite ou dictée fidèle; temps et formats accessibles",
+        "comparaison sur un axe commun; interdit d’inférer les identités et habitudes de tous les individus",
+        "deux preuves indépendantes distinctes q-009 (radio) et q-010 (bibliothèque)",
+        "rubrique D1/D2/D3 = 2 et D4 >= 1 séparément pour chacune des deux preuves"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#quatre-dimensions-notees-separement",
+      "source": "sources/REFERENCES_CONTENU.md#A-sources-consultees-et-faits-verifies",
+      "seed": null,
+      "validation_status": "a_revoir",
+      "items_lies": [
+        "qc-pri-fls-011-q-001",
+        "qc-pri-fls-011-q-002",
+        "qc-pri-fls-011-q-003",
+        "qc-pri-fls-011-q-004",
+        "qc-pri-fls-011-q-005",
+        "qc-pri-fls-011-q-006",
+        "qc-pri-fls-011-q-007",
+        "qc-pri-fls-011-q-008",
+        "qc-pri-fls-011-q-009",
+        "qc-pri-fls-011-q-010",
+        "qc-pri-fls-011-q-011",
+        "qc-pri-fls-011-q-012"
+      ],
+      "preuves_maitrise": [
+        "qc-pri-fls-011-q-009",
+        "qc-pri-fls-011-q-010"
+      ]
+    }
+  ],
+  "statut": "cours_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

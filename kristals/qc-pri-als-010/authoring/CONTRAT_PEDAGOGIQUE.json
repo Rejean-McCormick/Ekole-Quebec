@@ -1,0 +1,87 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-010",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Rédiger un texte anglais bref, intelligible et adapté à une consigne.",
+  "concepts": [
+    "phrases simples",
+    "vocabulaire",
+    "enchaînement"
+  ],
+  "preuve_attendue": "Produire un message de quatre phrases sur une situation donnée.",
+  "prerequis_bloquants": [
+    "qc-pri-als-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-als-007"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-010-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Produire un message de quatre phrases sur une situation donnée.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Stimuli et situations fixes q-001 a q-010 ; accommodations du support seulement, aucun changement du corrigé pendant l’épreuve",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-als-010",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "message ecrit en anglais",
+        "quatre cases de planification",
+        "trace de revision et explication a posteriori"
+      ],
+      "variables": {
+        "mode": "items_fixes",
+        "variantes_approuvees": [
+          "stimuli q-001 a q-010 uniquement"
+        ],
+        "tirage_aleatoire": false,
+        "generateur_IA_libre": false
+      },
+      "contraintes": [
+        "quatre phrases anglaises pour les preuves q-009 et q-010",
+        "coherence du destinataire et de la situation",
+        "informations du stimulus respectées",
+        "texte de l’eleve sans dictee de phrases par l’adulte",
+        "deux contextes distincts sans modele simultane",
+        "accessibilite sans aide a la formulation des phrases"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "nombre_et_phrases",
+          "adequation_et_fidelite",
+          "intelligibilite",
+          "enchaînement",
+          "autonomie"
+        ],
+        "echelle": "0 absent/errone; 1 partiel; 2 suffisant",
+        "decision": "seuils essentiels atteints sur les deux epreuves, sans compensation par moyenne"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

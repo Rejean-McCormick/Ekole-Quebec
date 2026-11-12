@@ -1,0 +1,1409 @@
+{
+  "format": "ekole.societes-graphe-contextualise/2.0",
+  "kristal_id": "qc-pri-us-009",
+  "titre": "Sociétés autochtones et établissements français : rencontres, échanges et transformations",
+  "objectif_existant": "Comparer des situations de rencontre et d’échange entre populations.",
+  "preuve_existante": "Analyser une situation à partir de deux points de vue documentés.",
+  "territoire": "Territoire de l’actuel Québec et espaces de relation pertinents au nord-est de l’Amérique du Nord",
+  "modele_ref": "urn:kristal:modele-organisation-humaine:modele",
+  "periodes": [
+    {
+      "id": "periode:avant-contact",
+      "label": "Avant l’implantation coloniale française dans la vallée du Saint-Laurent",
+      "start": null,
+      "end": 1599,
+      "note": "Ne signifie pas avant tout contact européen ni début des sociétés autochtones; le territoire est habité depuis des millénaires."
+    },
+    {
+      "id": "periode:traditions-historiques",
+      "label": "Organisations historiques — datation à préciser",
+      "start": null,
+      "end": null,
+      "note": "Pratiques décrites comme historiques ou traditionnelles : ne pas les assigner à 1500 sans précision de la source."
+    },
+    {
+      "id": "periode:1600-1650",
+      "label": "Début du XVIIe siècle — échanges et établissements",
+      "start": 1600,
+      "end": 1650,
+      "note": "Les relations et leurs acteurs changent selon les lieux et moments."
+    },
+    {
+      "id": "periode:1701",
+      "label": "1701 — Grande Paix de Montréal",
+      "start": 1701,
+      "end": 1701,
+      "note": "Événement diplomatique contextualisé, pas relation identique pour toutes les nations."
+    },
+    {
+      "id": "periode:1700-1799",
+      "label": "XVIIIe siècle — alliances et rivalités",
+      "start": 1700,
+      "end": 1799,
+      "note": "Cette période recouvre 1701 mais représente des processus plus étendus, pas un événement unique."
+    },
+    {
+      "id": "periode:actuel",
+      "label": "Aujourd’hui",
+      "start": 2025,
+      "end": null,
+      "note": "Les nations autochtones sont contemporaines. Les données actuelles sont datées, et non projetées vers le passé."
+    },
+    {
+      "id": "periode:1760-1830",
+      "label": "Après 1760 — changement de régime et revendications",
+      "start": 1760,
+      "end": 1830,
+      "note": "Comprend le changement de régime colonial et des démarches politiques autochtones documentées."
+    },
+    {
+      "id": "periode:19e-20e",
+      "label": "XIXe et XXe siècles — politiques coloniales",
+      "start": 1800,
+      "end": 1999,
+      "note": "Période large choisie pour étudier des politiques successives, et non un événement unique."
+    }
+  ],
+  "societes": [
+    {
+      "id": "soc:peuples-autochtones-anterieurs",
+      "type": "ensemble_historique_non_uniforme",
+      "label": "Sociétés autochtones présentes sur le territoire avant les établissements coloniaux français",
+      "periode_ref": "periode:avant-contact",
+      "note": "Ensemble analytique de peuples différents, non une organisation ou une nation unique."
+    },
+    {
+      "id": "soc:nations-autochtones-actuelles",
+      "type": "collection",
+      "label": "Les onze nations autochtones reconnues au Québec",
+      "periode_ref": "periode:actuel",
+      "note": "Collection descriptive de nations distinctes, pas une seule société ou un organe de décision."
+    },
+    {
+      "id": "soc:innus",
+      "type": "nation",
+      "label": "Nation innue",
+      "periode_ref": null,
+      "note": "Nation distincte; éviter de déduire son organisation du terme historique utilisé par certains observateurs."
+    },
+    {
+      "id": "soc:anishinaabeg",
+      "type": "nation",
+      "label": "Anichinabés / Algonquins",
+      "periode_ref": null,
+      "note": "Nom actuel et dénominations historiques demandent une validation nation-spécifique."
+    },
+    {
+      "id": "soc:wendat",
+      "type": "nation",
+      "label": "Nation wendat",
+      "periode_ref": null,
+      "note": "Peuple distinct. Les rôles de Kondiaronk concernent un contexte temporel et diplomatique précis."
+    },
+    {
+      "id": "soc:mikmaq",
+      "type": "nation",
+      "label": "Nation mi’kmaq",
+      "periode_ref": null,
+      "note": "Les relations diplomatiques varient avec les époques et les lieux."
+    },
+    {
+      "id": "soc:francais-traite",
+      "type": "collectif_contextuel",
+      "label": "Commerçants et explorateurs français au début du XVIIe siècle",
+      "periode_ref": "periode:1600-1650",
+      "note": "N’est pas toute la population européenne ni toute la France."
+    },
+    {
+      "id": "soc:etablissement-quebec",
+      "type": "etablissement_colonial",
+      "label": "Établissement colonial français de Québec, en 1608",
+      "periode_ref": "periode:1600-1650",
+      "note": "Établissement situé sur des territoires habités de longue date."
+    },
+    {
+      "id": "soc:delegations-1701",
+      "type": "assemblee_evenementielle",
+      "label": "Délégations de plusieurs nations autochtones à Montréal en 1701",
+      "periode_ref": "periode:1701",
+      "note": "Ne forme pas un gouvernement unique."
+    },
+    {
+      "id": "soc:autorites-francaises-1701",
+      "type": "administration_coloniale",
+      "label": "Autorités de la Nouvelle-France représentées en 1701",
+      "periode_ref": "periode:1701",
+      "note": "Autorité revendiquée et exercée dans son système, non reconnue automatiquement par chaque nation."
+    },
+    {
+      "id": "soc:autorites-britanniques-apres1760",
+      "type": "administration_coloniale",
+      "label": "Autorités britanniques après 1760",
+      "periode_ref": "periode:1760-1830",
+      "note": "Administration coloniale distincte des institutions autochtones."
+    },
+    {
+      "id": "soc:institutions-coloniales-canadiennes-19e-20e",
+      "type": "institution_coloniale_historique",
+      "label": "Gouvernements et institutions responsables des pensionnats autochtones (XIXe–XXe siècles)",
+      "periode_ref": "periode:19e-20e",
+      "note": "Catégorie institutionnelle composite, pas une nation ni un acteur unique: responsabilité des gouvernements et de diverses organisations administrant des pensionnats à contextualiser selon le lieu et la date. Ne pas confondre avec les autorités britanniques de 1760."
+    },
+    {
+      "id": "soc:kiskakons-1701",
+      "type": "delegation_historique",
+      "label": "Représentants kiskakons lors des négociations de 1701",
+      "periode_ref": "periode:1701",
+      "note": "Mention dans le traité, nom et représentation tels que transcrits par les archives coloniales."
+    },
+    {
+      "id": "soc:conseil-wendat-2026",
+      "type": "institution_nation_contemporaine",
+      "label": "Conseil des élus de la Nation Wendat",
+      "periode_ref": "periode:actuel",
+      "note": "Institution actuelle, distincte des gouvernances historiques."
+    },
+    {
+      "id": "soc:communautes-innues-traditionnelles",
+      "type": "ensemble_historique_contextuel",
+      "label": "Familles et campements innus décrits dans le cycle traditionnel",
+      "periode_ref": "periode:traditions-historiques",
+      "note": "Description contextualisée du point de vue scientifique Nametau innu, pas ensemble politique homogène."
+    }
+  ],
+  "roles": [
+    {
+      "id": "role:commercant",
+      "label": "Commerçante ou commerçant",
+      "taches": [
+        "tache:echanger"
+      ],
+      "ressources": [
+        "ress:fourrures",
+        "ress:objets-manufactures"
+      ],
+      "note": "Rôle économique situé; pas une propriété de tous les Français."
+    },
+    {
+      "id": "role:delegue",
+      "label": "Déléguée ou délégué aux négociations",
+      "taches": [
+        "tache:negocier"
+      ],
+      "ressources": [
+        "ress:paroles",
+        "ress:accord"
+      ],
+      "note": "Les délégations autochtones sont distinctes et représentent des intérêts spécifiques."
+    },
+    {
+      "id": "role:dirigeant-wendat",
+      "label": "Dirigeant diplomatique wendat (Kondiaronk, en 1701)",
+      "taches": [
+        "tache:negocier"
+      ],
+      "ressources": [
+        "ress:accord"
+      ],
+      "note": "Rôle historique d’une personne, ne définit pas la gouvernance wendat intemporelle."
+    },
+    {
+      "id": "role:gouverneur",
+      "label": "Gouverneur colonial français (Callière, en 1701)",
+      "taches": [
+        "tache:negocier"
+      ],
+      "ressources": [
+        "ress:accord"
+      ],
+      "note": "Autorité coloniale historiquement située."
+    },
+    {
+      "id": "role:mere-clan-wendat",
+      "label": "Mère de clan dans l’organisation traditionnelle wendat",
+      "taches": [
+        "tache:transmettre-appartenance"
+      ],
+      "ressources": [
+        "ress:liens-familiaux"
+      ],
+      "note": "Rôle décrit par la Nation Wendat; ne pas généraliser à toutes les nations ou époques."
+    },
+    {
+      "id": "role:conseil-wendat-actuel",
+      "label": "Conseil des élus de la Nation Wendat (aujourd’hui)",
+      "taches": [
+        "tache:defendre-interets"
+      ],
+      "ressources": [
+        "ress:services-institutions"
+      ],
+      "note": "Gouvernance de la Nation Wendat aujourd’hui, selon son site officiel."
+    },
+    {
+      "id": "role:familles-innues-mobilite",
+      "label": "Familles innues en déplacement saisonnier (description historique)",
+      "taches": [
+        "tache:parcourir-territoire"
+      ],
+      "ressources": [
+        "ress:nitassinan"
+      ],
+      "note": "Pas un poste fixe: mode d’organisation saisonnier décrit pour des contextes historiques."
+    },
+    {
+      "id": "role:delegations-wendat-1825",
+      "label": "Représentants wendat portant des revendications territoriales",
+      "taches": [
+        "tache:defendre-interets"
+      ],
+      "ressources": [
+        "ress:territoire"
+      ],
+      "note": "Selon le centre d’archives de la Nation Wendat, démarche documentée en 1825."
+    },
+    {
+      "id": "role:aines-innus",
+      "label": "Aînées et aînés transmettant des récits dans les campements d’été",
+      "taches": [
+        "tache:raconter"
+      ],
+      "ressources": [
+        "ress:savoirs-transmis"
+      ],
+      "note": "Description de la ressource Nametau; non un rôle obligatoirement identique partout."
+    },
+    {
+      "id": "role:artisans-innus",
+      "label": "Personnes qui fabriquent ou réparent outils et moyens de transport",
+      "taches": [
+        "tache:entretenir-outils"
+      ],
+      "ressources": [
+        "ress:outils-innu"
+      ],
+      "note": "Activités décrites pour la saison estivale, aucun rôle réservé selon le genre inféré."
+    },
+    {
+      "id": "role:pecheurs-innus",
+      "label": "Personnes pratiquant la pêche saisonnière",
+      "taches": [
+        "tache:pecher-saumon"
+      ],
+      "ressources": [
+        "ress:saumon"
+      ],
+      "note": "La source nomme la pêche; pas une permission juridique de pêche."
+    },
+    {
+      "id": "role:conseil-wendat",
+      "label": "Conseil d’élus wendat (aujourd’hui)",
+      "taches": [
+        "tache:representer-nation"
+      ],
+      "ressources": [
+        "ress:institutions"
+      ],
+      "note": "Responsabilités décrites publiquement sur le site de la Nation."
+    },
+    {
+      "id": "role:grand-chef-wendat",
+      "label": "Grand Chef wendat (aujourd’hui)",
+      "taches": [
+        "tache:presider-conseil"
+      ],
+      "ressources": [
+        "ress:conseil"
+      ],
+      "note": "Fonction institutionnelle actuelle; ne pas projeter sur le XVIIe siècle."
+    },
+    {
+      "id": "role:ambassadeur-kiskakon-1701",
+      "label": "Chef kiskakon s’exprimant lors de la Grande Paix",
+      "taches": [
+        "tache:ratifier-paix"
+      ],
+      "ressources": [
+        "ress:entente-1701"
+      ],
+      "note": "La transcription fait parler ce représentant. Attribution coloniale à examiner."
+    },
+    {
+      "id": "role:porte-parole-wendat",
+      "label": "Porte-parole et négociateurs wendat à travers des contextes distincts",
+      "taches": [
+        "tache:negocier"
+      ],
+      "ressources": [
+        "ress:diplomatie"
+      ],
+      "note": "Catégorie analytique prudente, non fonction uniforme de toutes les périodes."
+    }
+  ],
+  "taches": [
+    {
+      "id": "tache:echanger",
+      "label": "Échanger des biens",
+      "verbe": "échanger"
+    },
+    {
+      "id": "tache:negocier",
+      "label": "Négocier une entente",
+      "verbe": "négocier"
+    },
+    {
+      "id": "tache:construire",
+      "label": "Établir un lieu de peuplement",
+      "verbe": "établir"
+    },
+    {
+      "id": "tache:transmettre-appartenance",
+      "label": "Transmettre une appartenance familiale et des responsabilités",
+      "verbe": "transmettre"
+    },
+    {
+      "id": "tache:defendre-interets",
+      "label": "Défendre des intérêts collectifs et veiller aux services",
+      "verbe": "représenter"
+    },
+    {
+      "id": "tache:parcourir-territoire",
+      "label": "Se déplacer avec les saisons et les ressources",
+      "verbe": "se déplacer"
+    },
+    {
+      "id": "tache:transmettre-langue",
+      "label": "Transmettre la langue entre les générations",
+      "verbe": "transmettre"
+    },
+    {
+      "id": "tache:raconter",
+      "label": "Transmettre des récits et savoirs",
+      "verbe": "raconter"
+    },
+    {
+      "id": "tache:entretenir-outils",
+      "label": "Entretenir et fabriquer des outils",
+      "verbe": "entretenir"
+    },
+    {
+      "id": "tache:pecher-saumon",
+      "label": "Pêcher le saumon dans les rivières",
+      "verbe": "pêcher"
+    },
+    {
+      "id": "tache:representer-nation",
+      "label": "Représenter la Nation et défendre ses intérêts",
+      "verbe": "représenter"
+    },
+    {
+      "id": "tache:presider-conseil",
+      "label": "Présider le Conseil des élus",
+      "verbe": "présider"
+    },
+    {
+      "id": "tache:ratifier-paix",
+      "label": "Présenter une ratification diplomatique",
+      "verbe": "ratifier"
+    },
+    {
+      "id": "tache:apaiser-conflit",
+      "label": "Chercher à régler un conflit sans vengeance",
+      "verbe": "régler"
+    },
+    {
+      "id": "tache:negocier-chasse",
+      "label": "S’entendre sur les pratiques de chasse dans un cadre diplomatique",
+      "verbe": "s’entendre"
+    }
+  ],
+  "ressources": [
+    {
+      "id": "ress:fourrures",
+      "label": "Fourrures",
+      "type": "bien_materiel"
+    },
+    {
+      "id": "ress:objets-manufactures",
+      "label": "Objets manufacturés en Europe",
+      "type": "bien_materiel"
+    },
+    {
+      "id": "ress:paroles",
+      "label": "Discours et paroles diplomatiques",
+      "type": "savoir_communication"
+    },
+    {
+      "id": "ress:accord",
+      "label": "Accord de paix",
+      "type": "artefact_politique"
+    },
+    {
+      "id": "ress:territoire",
+      "label": "Territoire",
+      "type": "milieu_et_droits",
+      "note": "Habiter, circuler, utiliser et posséder sont des rapports différents; ne pas inférer un droit à partir d’une carte coloniale."
+    },
+    {
+      "id": "ress:maison-longue",
+      "label": "Maison longue de villages historiques wendat",
+      "type": "lieu_de_vie_commun"
+    },
+    {
+      "id": "ress:liens-familiaux",
+      "label": "Liens de famille et de clan",
+      "type": "lien_social"
+    },
+    {
+      "id": "ress:services-institutions",
+      "label": "Services et institutions de la Nation",
+      "type": "organisation_collective"
+    },
+    {
+      "id": "ress:nitassinan",
+      "label": "Nitassinan (territoire innu)",
+      "type": "territoire_et_relations",
+      "note": "Ne pas interpréter ce terme comme une propriété privée ou une frontière unique."
+    },
+    {
+      "id": "ress:langue-innue",
+      "label": "Langue innue et transmission",
+      "type": "patrimoine_vivant"
+    },
+    {
+      "id": "ress:savoirs-transmis",
+      "label": "Récits et savoirs transmis",
+      "type": "savoir_relationnel"
+    },
+    {
+      "id": "ress:outils-innu",
+      "label": "Canots, pièges et autres outils de déplacement ou de chasse",
+      "type": "materiel"
+    },
+    {
+      "id": "ress:saumon",
+      "label": "Saumon des cours d’eau",
+      "type": "ressource_vivriere"
+    },
+    {
+      "id": "ress:institutions",
+      "label": "Services et institutions de la Nation Wendat",
+      "type": "institution"
+    },
+    {
+      "id": "ress:conseil",
+      "label": "Conseil de la Nation Wendat",
+      "type": "organe_decision"
+    },
+    {
+      "id": "ress:entente-1701",
+      "label": "Entente documentée en 1701",
+      "type": "accord_contextuel"
+    },
+    {
+      "id": "ress:parole-ratifiee",
+      "label": "Paroles diplomatiques consignées en 1701",
+      "type": "source_historique"
+    }
+  ],
+  "evenements": [
+    {
+      "id": "evenement:grande-paix",
+      "label": "La Grande Paix de Montréal",
+      "date": "1701-08-04",
+      "type": "diplomatie",
+      "participants": [
+        "soc:delegations-1701",
+        "soc:autorites-francaises-1701"
+      ],
+      "source_ids": [
+        "src:pac-grande-paix",
+        "src:pac-traite"
+      ]
+    },
+    {
+      "id": "evenement:fondation-1608",
+      "label": "Établissement colonial français à Québec",
+      "date": "1608",
+      "type": "fondation_coloniale",
+      "participants": [
+        "soc:francais-traite"
+      ],
+      "source_ids": [
+        "src:pc-champlain"
+      ]
+    }
+  ],
+  "liaisons_role_tache": [
+    {
+      "societe_ref": "soc:francais-traite",
+      "role_ref": "role:commercant",
+      "tache_ref": "tache:echanger",
+      "ressource_ref": "ress:fourrures",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:pc-champlain"
+      ]
+    },
+    {
+      "societe_ref": "soc:delegations-1701",
+      "role_ref": "role:delegue",
+      "tache_ref": "tache:negocier",
+      "ressource_ref": "ress:accord",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-grande-paix"
+      ]
+    },
+    {
+      "societe_ref": "soc:autorites-francaises-1701",
+      "role_ref": "role:gouverneur",
+      "tache_ref": "tache:negocier",
+      "ressource_ref": "ress:accord",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-grande-paix"
+      ]
+    },
+    {
+      "societe_ref": "soc:wendat",
+      "role_ref": "role:mere-clan-wendat",
+      "tache_ref": "tache:transmettre-appartenance",
+      "ressource_ref": "ress:liens-familiaux",
+      "periode_ref": "periode:traditions-historiques",
+      "source_ids": [
+        "src:wendat-histoire"
+      ]
+    },
+    {
+      "societe_ref": "soc:wendat",
+      "role_ref": "role:conseil-wendat-actuel",
+      "tache_ref": "tache:defendre-interets",
+      "ressource_ref": "ress:services-institutions",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:wendat-gouvernance"
+      ]
+    },
+    {
+      "societe_ref": "soc:innus",
+      "role_ref": "role:familles-innues-mobilite",
+      "tache_ref": "tache:parcourir-territoire",
+      "ressource_ref": "ress:nitassinan",
+      "periode_ref": "periode:traditions-historiques",
+      "source_ids": [
+        "src:nametau-territoire"
+      ]
+    },
+    {
+      "societe_ref": "soc:wendat",
+      "role_ref": "role:delegations-wendat-1825",
+      "tache_ref": "tache:defendre-interets",
+      "ressource_ref": "ress:territoire",
+      "periode_ref": "periode:1760-1830",
+      "source_ids": [
+        "src:wendat-archives"
+      ]
+    }
+  ],
+  "regles_attestees": [
+    {
+      "id": "norme:1701-eviter-vengeance",
+      "modalite": "engagement_declare",
+      "sujet_ref": "soc:autorites-francaises-1701",
+      "action_ref": "tache:apaiser-conflit",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "fact_ids": [
+        "fait:1701-appel-non-vengeance"
+      ],
+      "portee": "exhortation coloniale de Callière telle que transcrite",
+      "statut": "discours_historique_pas_regle_universelle",
+      "interpretation": "Demande d’éviter une vengeance immédiate et de recourir à une médiation; le texte ne prouve pas l’accord de tous ni une application uniforme."
+    },
+    {
+      "id": "norme:1701-eviter-conflits-chasse",
+      "modalite": "engagement_declare",
+      "sujet_ref": "soc:autorites-francaises-1701",
+      "action_ref": "tache:negocier-chasse",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "fact_ids": [
+        "fait:1701-chasse-accord"
+      ],
+      "portee": "exhortation au règlement des difficultés de chasse dans le discours de Callière",
+      "statut": "discours_historique_pas_regle_universelle",
+      "interpretation": "Ne confère aucun titre foncier et ne remplace pas les règles ou droits des différentes nations."
+    },
+    {
+      "id": "norme:wendat-conseil-representer",
+      "modalite": "responsabilite_decrite",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "action_ref": "tache:representer-nation",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "fact_ids": [
+        "fait:wendat-conseil-redevabilite"
+      ],
+      "portee": "mandat d’élus wendat contemporains",
+      "statut": "autodescription_institutionnelle_a_reconfirmer",
+      "interpretation": "Le Conseil présente sa responsabilité de défendre les intérêts et droits de la Nation; il ne définit pas à lui seul chaque droit territorial."
+    },
+    {
+      "id": "norme:wendat-grand-chef-preside",
+      "modalite": "autorite_reconnue_dans_source",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "action_ref": "tache:presider-conseil",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "fact_ids": [
+        "fait:wendat-grand-chef-preside"
+      ],
+      "portee": "composition et fonctionnement actuels du Conseil",
+      "statut": "autodescription_institutionnelle_a_reconfirmer",
+      "interpretation": "Fonction institutionnelle actuelle, pas une attribution historique intemporelle."
+    }
+  ],
+  "regles_candidates": [],
+  "assertions": [
+    {
+      "id": "fait:peuples-avant",
+      "enonce_fr": "Les peuples autochtones habitent le territoire de l’actuel Québec bien avant l’établissement colonial français de 1608.",
+      "periode_ref": "periode:avant-contact",
+      "source_ids": [
+        "src:quebec-nations",
+        "src:pc-champlain"
+      ],
+      "predicat": "presence",
+      "sujet_ref": "soc:peuples-autochtones-anterieurs",
+      "objet_ref": "ress:territoire",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Description générale; ne pas projeter les onze structures administratives actuelles sur 1500."
+    },
+    {
+      "id": "fait:diversite-actuelle",
+      "enonce_fr": "Le Québec reconnaît aujourd’hui onze nations autochtones distinctes, dont dix Premières Nations et la nation inuite.",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:quebec-nations"
+      ],
+      "predicat": "pluralite",
+      "sujet_ref": "soc:nations-autochtones-actuelles",
+      "objet_ref": "val:11-nations",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Cadre provincial actuel; ne constitue pas une liste des peuples présents aux mêmes lieux en 1600."
+    },
+    {
+      "id": "fait:champlain-1608",
+      "enonce_fr": "Samuel de Champlain a fondé l’établissement français de Québec en 1608.",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:pc-champlain"
+      ],
+      "predicat": "fonder",
+      "sujet_ref": "personne:champlain",
+      "objet_ref": "soc:etablissement-quebec",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Le terme fondation désigne un établissement colonial, pas la découverte d’un territoire vide."
+    },
+    {
+      "id": "fait:commerce-fourrures",
+      "enonce_fr": "Au début du XVIIe siècle, des commerçants français ont échangé des biens manufacturés avec des partenaires autochtones contre des fourrures.",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:dnd-rencontres",
+        "src:pc-champlain"
+      ],
+      "predicat": "echanger",
+      "sujet_ref": "soc:francais-traite",
+      "objet_ref": "ress:fourrures",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Les échanges ne décrivent ni tous les peuples ni des conditions immuables."
+    },
+    {
+      "id": "fait:alliance-1603",
+      "enonce_fr": "En 1603, à Tadoussac, des représentants français concluent des alliances avec des partenaires autochtones nommés dans les sources historiques.",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:dnd-rencontres"
+      ],
+      "predicat": "alliance",
+      "sujet_ref": "soc:francais-traite",
+      "objet_ref": "relation:alliance-1603",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Les ethnonymes archivistiques exigent contextualisation et recoupement nation-spécifique."
+    },
+    {
+      "id": "fait:commerce-participation",
+      "enonce_fr": "Des partenaires autochtones ont joué des rôles essentiels de fournisseurs et d’intermédiaires du commerce des fourrures en Nouvelle-France.",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:pc-champlain"
+      ],
+      "predicat": "participer",
+      "sujet_ref": "role:commercant",
+      "objet_ref": "ress:fourrures",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Ne jamais cantonner tous les Autochtones à un rôle économique unique."
+    },
+    {
+      "id": "fait:paix-date",
+      "enonce_fr": "La Grande Paix de Montréal a été conclue le 4 août 1701.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-grande-paix",
+        "src:pac-traite"
+      ],
+      "predicat": "date",
+      "sujet_ref": "evenement:grande-paix",
+      "objet_ref": "val:1701-08-04",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Une date ponctuelle ne qualifie pas à elle seule les conséquences du traité."
+    },
+    {
+      "id": "fait:paix-participants",
+      "enonce_fr": "La Grande Paix de Montréal a réuni des délégations de nombreuses nations autochtones et des représentants français.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-grande-paix",
+        "src:pac-traite"
+      ],
+      "predicat": "participer",
+      "sujet_ref": "soc:delegations-1701",
+      "objet_ref": "evenement:grande-paix",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Les délégations représentent des nations distinctes, pas un bloc homogène."
+    },
+    {
+      "id": "fait:paix-39",
+      "enonce_fr": "Le musée Pointe-à-Callière indique que des représentants de 39 nations autochtones se sont rendus à Montréal pour la Grande Paix de 1701.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-grande-paix"
+      ],
+      "predicat": "quantite",
+      "sujet_ref": "evenement:grande-paix",
+      "objet_ref": "val:39-nations",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Nombre attribué explicitement au musée; différentes sources peuvent arrondir."
+    },
+    {
+      "id": "fait:kondiaronk",
+      "enonce_fr": "Kondiaronk, dirigeant wendat, a joué un rôle déterminant dans les négociations menant à la Grande Paix de Montréal.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pc-kondiaronk",
+        "src:pac-grande-paix"
+      ],
+      "predicat": "role",
+      "sujet_ref": "personne:kondiaronk",
+      "objet_ref": "role:dirigeant-wendat",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Ne pas le présenter comme représentant de toutes les nations autochtones."
+    },
+    {
+      "id": "fait:calliere",
+      "enonce_fr": "Louis-Hector de Callière, gouverneur de la Nouvelle-France, a participé aux négociations conduisant à la Grande Paix de 1701.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-grande-paix"
+      ],
+      "predicat": "role",
+      "sujet_ref": "personne:calliere",
+      "objet_ref": "role:gouverneur",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Rôle colonial précis; les autorités autochtones ne relèvent pas de son autorité politique interne."
+    },
+    {
+      "id": "fait:traitement-sources",
+      "enonce_fr": "Le traité conservé est un document historique dont les mots et les perspectives doivent être contextualisés.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-traite",
+        "src:quebec-ccq"
+      ],
+      "predicat": "critique_source",
+      "sujet_ref": "document:traite-1701",
+      "objet_ref": "concept:point-de-vue",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Ne pas présenter la transcription coloniale comme témoignage autochtone direct ou comme texte neutre."
+    },
+    {
+      "id": "fait:vie-aujourdhui",
+      "enonce_fr": "Les nations autochtones sont des peuples vivants aujourd’hui, avec leurs langues, leurs cultures et leurs institutions distinctes.",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:quebec-nations"
+      ],
+      "predicat": "continuité",
+      "sujet_ref": "soc:nations-autochtones-actuelles",
+      "objet_ref": "concept:continuite",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Ne pas raconter ces peuples seulement au passé."
+    },
+    {
+      "id": "fait:relations-varient",
+      "enonce_fr": "Les relations entre nations autochtones et puissances coloniales ont compris commerce, alliances, conflits et négociations, selon les époques et acteurs.",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:dnd-rencontres",
+        "src:pc-mikmaq"
+      ],
+      "predicat": "interaction",
+      "sujet_ref": "concept:relations-historiques",
+      "objet_ref": "concept:diversite-relations",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Synthèse limitée à des cas documentés; elle ne décrit pas l’expérience de toutes les nations."
+    },
+    {
+      "id": "fait:mi-kmaq-alliances",
+      "enonce_fr": "Les Mi’kmaq ont entretenu des relations avec les Français, dont des échanges commerciaux et des alliances politiques et militaires dans leur territoire et à certaines époques.",
+      "periode_ref": "periode:1700-1799",
+      "source_ids": [
+        "src:pc-mikmaq"
+      ],
+      "predicat": "interaction",
+      "sujet_ref": "soc:mikmaq",
+      "objet_ref": "soc:francais-traite",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Les relations ont commencé plus tôt; les alliances politiques et militaires évoquées concernent aussi le XVIIIe siècle."
+    },
+    {
+      "id": "fait:wendat-maisons",
+      "enonce_fr": "Selon le Conseil de la Nation Wendat, des villages historiques wendat regroupaient plusieurs familles et clans dans des maisons longues.",
+      "periode_ref": "periode:traditions-historiques",
+      "source_ids": [
+        "src:wendat-histoire"
+      ],
+      "predicat": "habiter",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "ress:maison-longue",
+      "regime": "document_de_la_nation_ou_temoignage_situe",
+      "statut": "source_nation_etudiee_revue_pedagogique_requise",
+      "limites": "L’organisation et la taille des communautés ont changé dans le temps; ne pas généraliser à toutes les nations."
+    },
+    {
+      "id": "fait:wendat-meres-clan",
+      "enonce_fr": "Le Conseil de la Nation Wendat décrit une transmission traditionnelle de l’appartenance familiale par la lignée maternelle, avec des mères de clan jouant un rôle central.",
+      "periode_ref": "periode:traditions-historiques",
+      "source_ids": [
+        "src:wendat-histoire"
+      ],
+      "predicat": "organiser",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "role:mere-clan-wendat",
+      "regime": "document_de_la_nation_ou_temoignage_situe",
+      "statut": "source_nation_etudiee_revue_pedagogique_requise",
+      "limites": "Ces rôles sont documentés pour la Nation Wendat; pas un système universel autochtone."
+    },
+    {
+      "id": "fait:innus-saisons",
+      "enonce_fr": "La ressource Nametau innu décrit, dans des contextes traditionnels, des déplacements de familles innues suivant les saisons et les ressources du Nitassinan.",
+      "periode_ref": "periode:traditions-historiques",
+      "source_ids": [
+        "src:nametau-territoire"
+      ],
+      "predicat": "parcourir",
+      "sujet_ref": "soc:innus",
+      "objet_ref": "ress:nitassinan",
+      "regime": "document_de_la_nation_ou_temoignage_situe",
+      "statut": "source_nation_etudiee_revue_pedagogique_requise",
+      "limites": "Il ne faut pas qualifier une nation entière de nomade éternellement; pratiques et modes de vie évoluent."
+    },
+    {
+      "id": "fait:wendat-conseil-actuel",
+      "enonce_fr": "Le Conseil de la Nation Wendat décrit aujourd’hui un conseil d’élus chargé notamment de défendre les intérêts de ses membres et d’assurer des services.",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:wendat-gouvernance"
+      ],
+      "predicat": "gouverner",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "role:conseil-wendat-actuel",
+      "regime": "document_de_la_nation_ou_temoignage_situe",
+      "statut": "source_nation_etudiee_revue_pedagogique_requise",
+      "limites": "Une description du présent ne s’applique pas automatiquement au XVIIe siècle."
+    },
+    {
+      "id": "fait:innu-transmission",
+      "enonce_fr": "Dans un témoignage présenté par Nametau innu, des membres de la communauté expriment l’importance de transmettre la langue innue aux générations suivantes.",
+      "periode_ref": "periode:actuel",
+      "source_ids": [
+        "src:nametau-temoignage"
+      ],
+      "predicat": "transmettre",
+      "sujet_ref": "soc:innus",
+      "objet_ref": "ress:langue-innue",
+      "regime": "document_de_la_nation_ou_temoignage_situe",
+      "statut": "source_nation_etudiee_revue_pedagogique_requise",
+      "limites": "Un témoignage individuel ne prétend pas représenter chaque Innu ou tous les enjeux linguistiques."
+    },
+    {
+      "id": "fait:pouvoir-apres1760",
+      "enonce_fr": "Après 1760, la Nouvelle-France passe sous autorité britannique et de nouveaux acteurs britanniques prennent place dans le commerce des fourrures.",
+      "periode_ref": "periode:1760-1830",
+      "source_ids": [
+        "src:pc-apres1760"
+      ],
+      "predicat": "transition",
+      "sujet_ref": "soc:autorites-britanniques-apres1760",
+      "objet_ref": "ress:fourrures",
+      "regime": "synthese_de_source_historique",
+      "statut": "source_documentee_revue_enseignant_et_nation_a_faire",
+      "limites": "Ce changement de gouvernement colonial ne signifie pas que les nations autochtones disparaissent ou acceptent les mêmes autorités.",
+      "audience": "tous"
+    },
+    {
+      "id": "fait:wendat-1825",
+      "enonce_fr": "En 1825, des chefs de la Nation Wendat ont présenté des revendications territoriales au roi George IV en Grande-Bretagne.",
+      "periode_ref": "periode:1760-1830",
+      "source_ids": [
+        "src:wendat-archives"
+      ],
+      "predicat": "revendiquer",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "ress:territoire",
+      "regime": "synthese_de_source_historique",
+      "statut": "source_documentee_revue_enseignant_et_nation_a_faire",
+      "limites": "Exemple d’action politique wendat, pas de consentement à la dépossession.",
+      "audience": "tous"
+    },
+    {
+      "id": "fait:pensionnats",
+      "enonce_fr": "Aux XIXe et XXe siècles, des politiques coloniales ont séparé de nombreux enfants autochtones de leurs familles dans des pensionnats, portant atteinte à leurs langues et à leurs cultures.",
+      "periode_ref": "periode:19e-20e",
+      "source_ids": [
+        "src:pc-pensionnats"
+      ],
+      "predicat": "politique_assimilation",
+      "sujet_ref": "soc:institutions-coloniales-canadiennes-19e-20e",
+      "objet_ref": "concept:separation-et-atteintes",
+      "regime": "synthese_de_source_historique",
+      "statut": "source_documentee_revue_enseignant_et_nation_a_faire",
+      "limites": "Les responsabilités des gouvernements et des institutions administratrices varient selon l’établissement et l’époque. Enseigner avec tact et sous supervision adulte; ne pas ramener cette politique à une seule administration.",
+      "audience": "enseignant_et_discussion_guidee"
+    },
+    {
+      "id": "fait:wendat-conseil-electif",
+      "enonce_fr": "Selon la Nation Wendat, son Grand Chef et ses huit Chefs sont élus; leur Conseil représente la Nation aujourd’hui.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "objet_ref": "role:grand-chef-wendat",
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "regime": "autodescription_actuelle",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Pas une règle historique projetable à 1701.",
+      "ancrage_documentaire": "Nation Wendat / Grand Chef et Chefs / description du Conseil"
+    },
+    {
+      "id": "fait:wendat-conseil-redevabilite",
+      "enonce_fr": "Le Conseil des élus wendat indique qu’il défend les droits et intérêts de la Nation, fournit des services et est redevable envers ses membres.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "objet_ref": "tache:representer-nation",
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "regime": "autodescription_actuelle",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "La formulation indique les responsabilités déclarées de l’institution, pas une évaluation externe de ses résultats.",
+      "ancrage_documentaire": "Nation Wendat / Grand Chef et Chefs / Une voix pour tous"
+    },
+    {
+      "id": "fait:wendat-grand-chef-preside",
+      "enonce_fr": "La Nation Wendat précise que le Grand Chef préside son Conseil des élus et est son porte-parole officiel.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "objet_ref": "tache:presider-conseil",
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "regime": "autodescription_actuelle",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Description institutionnelle actuelle.",
+      "ancrage_documentaire": "Nation Wendat / Grand Chef & Chefs"
+    },
+    {
+      "id": "fait:wendat-transmission-familles",
+      "enonce_fr": "La Nation Wendat décrit des maisons longues historiques regroupant plusieurs familles et permettant la transmission de savoirs.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "ress:maison-longue",
+      "source_ids": [
+        "src:wendat-histoire-2026"
+      ],
+      "regime": "autodescription_histoire",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Le site ne donne pas ici de datation précise ni de plan architectural à reproduire automatiquement.",
+      "ancrage_documentaire": "Nation Wendat / Yahwatsira’ — la famille"
+    },
+    {
+      "id": "fait:wendat-responsabilite-transmission",
+      "enonce_fr": "La Nation Wendat présente la transmission des savoirs et des traditions comme une responsabilité envers les générations suivantes.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "ress:liens-familiaux",
+      "source_ids": [
+        "src:wendat-histoire-2026"
+      ],
+      "regime": "autodescription_valeurs",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Valeur déclarée, non obligation juridique codifiée.",
+      "ancrage_documentaire": "Nation Wendat / Les valeurs qui nous guident / Responsabilité, Partage"
+    },
+    {
+      "id": "fait:innus-recits-ete",
+      "enonce_fr": "La ressource Nametau innu décrit des rassemblements estivaux où des aînés transmettent des récits aux plus jeunes.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "objet_ref": "tache:raconter",
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "description_scientifique_contextualisee",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Pratique décrite dans un cycle traditionnel, pas règle générale pour toutes les communautés actuelles.",
+      "ancrage_documentaire": "Nametau innu / Territoire et cycle de vie traditionnels / été"
+    },
+    {
+      "id": "fait:innus-reparation-ete",
+      "enonce_fr": "Nametau innu indique que la période estivale pouvait permettre de réparer ou fabriquer des canots, raquettes, contenants et autres outils.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "objet_ref": "tache:entretenir-outils",
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "description_scientifique_contextualisee",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "L’outil ne permet pas de déduire quelles personnes effectuaient chaque tâche dans toutes les familles.",
+      "ancrage_documentaire": "Nametau innu / Territoire et cycle de vie traditionnels / été"
+    },
+    {
+      "id": "fait:innus-saumon",
+      "enonce_fr": "Nametau innu décrit une pêche saisonnière du saumon, notamment au filet ou au flambeau, dans certains cours d’eau de la Côte-Nord.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "objet_ref": "ress:saumon",
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "description_scientifique_contextualisee",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Ne définit pas le régime juridique de la ressource ou des droits de pêche.",
+      "ancrage_documentaire": "Nametau innu / Territoire et cycle de vie traditionnels / juin"
+    },
+    {
+      "id": "fait:1701-discours-kiskakons",
+      "enonce_fr": "Dans la transcription du traité de 1701, le chef des Kiskakons présente des prisonniers et exprime son adhésion à l’accord de paix.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:kiskakons-1701",
+      "objet_ref": "tache:ratifier-paix",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "transcription_document_colonial",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Paroles rapportées par la transcription coloniale; ne pas traiter la formulation comme une traduction neutre de la position de la nation.",
+      "ancrage_documentaire": "Pointe-à-Callière / Le Chef des Kiskakons"
+    },
+    {
+      "id": "fait:1701-colliers-diplomatiques",
+      "enonce_fr": "La transcription de 1701 mentionne des colliers et des paroles échangés dans les négociations diplomatiques.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "objet_ref": "ress:parole-ratifiee",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "transcription_document_colonial",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Ne pas dessiner de symboles particuliers sans validation culturelle.",
+      "ancrage_documentaire": "Pointe-à-Callière / Discours et signes des représentants"
+    },
+    {
+      "id": "fait:1701-appel-non-vengeance",
+      "enonce_fr": "Dans le texte de 1701, Callière demande que certains différends soient portés à son arbitrage plutôt que réglés par vengeance.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:autorites-francaises-1701",
+      "objet_ref": "tache:apaiser-conflit",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "discours_normatif_colonial",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Proposition d’arbitrage par une autorité coloniale : ne prouve pas une autorité unanimement acceptée ni la réalité de sa mise en œuvre.",
+      "ancrage_documentaire": "Pointe-à-Callière / discours de Callière / tranquillité et différends"
+    },
+    {
+      "id": "fait:1701-chasse-accord",
+      "enonce_fr": "Le texte de 1701 présente une exhortation à s’entendre lors de la chasse pour éviter des disputes.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:autorites-francaises-1701",
+      "objet_ref": "tache:negocier-chasse",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "discours_normatif_colonial",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Il ne définit pas toutes les règles territoriales des nations ni leurs droits de chasse.",
+      "ancrage_documentaire": "Pointe-à-Callière / discours de Callière / chasse"
+    },
+    {
+      "id": "fait:1701-musee-entente",
+      "enonce_fr": "Pointe-à-Callière présente la Grande Paix comme le fruit de négociations entre de nombreuses nations et les autorités françaises.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "objet_ref": "ress:entente-1701",
+      "source_ids": [
+        "src:pac-contexte-1701"
+      ],
+      "regime": "synthese_museale",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "La description d’une entente générale ne résume pas toutes les positions nationales.",
+      "ancrage_documentaire": "Pointe-à-Callière / La Grande Paix de Montréal / entente"
+    },
+    {
+      "id": "fait:wendat-langue-vivante",
+      "enonce_fr": "La Nation Wendat décrit des efforts contemporains pour revitaliser et transmettre sa langue.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "ress:liens-familiaux",
+      "source_ids": [
+        "src:wendat-histoire-2026"
+      ],
+      "regime": "autodescription_actuelle",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "La transmission et la vitalité changent avec le temps; ne pas dire que tous les locuteurs ont la même expérience.",
+      "ancrage_documentaire": "Nation Wendat / Une renaissance linguistique vivante"
+    }
+  ],
+  "lacunes": [
+    "Droits territoriaux historiques non modélisés sans sources et reconnaissances propres à chaque nation.",
+    "Vocabulaire et représentations politiques provenant de sources écrites coloniales nécessitant recoupement avec sources produites par les nations.",
+    "Ne pas attribuer un système de gouvernance unique à tous les peuples autochtones.",
+    "Les relations à d’autres périodes demeurent ouvertes et doivent être ajoutées seulement avec sources.",
+    "Les règles autochtones historiques restent à rechercher avec les nations concernées; seules des normes contemporaines décrites et des exhortations coloniales précisément attribuées ont été encodées.",
+    "Les ancrages exacts des 23 assertions héritées restent à documenter.",
+    "Le corpus ne permet aucune conclusion exhaustive sur des droits fonciers ou politiques.",
+    "Participation de personnes ressources des nations concernées non réalisée."
+  ],
+  "statut": "candidate_documentaire_sources_verifiees_revues_nations_a_faire",
+  "herite_de": "canon/domain/societes-rencontres-v1.json",
+  "relations_situees_v2": [
+    {
+      "id": "relation:innus-ainés",
+      "societe_ref": "soc:communautes-innues-traditionnelles",
+      "role_ref": "role:aines-innus",
+      "tache_ref": "tache:raconter",
+      "ressource_ref": "ress:savoirs-transmis",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:innus-recits-ete"
+      ],
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "pratique_decrite",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:innus-outils",
+      "societe_ref": "soc:communautes-innues-traditionnelles",
+      "role_ref": "role:artisans-innus",
+      "tache_ref": "tache:entretenir-outils",
+      "ressource_ref": "ress:outils-innu",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:innus-reparation-ete"
+      ],
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "pratique_decrite",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:innus-peche",
+      "societe_ref": "soc:communautes-innues-traditionnelles",
+      "role_ref": "role:pecheurs-innus",
+      "tache_ref": "tache:pecher-saumon",
+      "ressource_ref": "ress:saumon",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:innus-saumon"
+      ],
+      "source_ids": [
+        "src:nametau-cycle-2026"
+      ],
+      "regime": "pratique_decrite",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:wendat-mandat",
+      "societe_ref": "soc:conseil-wendat-2026",
+      "role_ref": "role:conseil-wendat",
+      "tache_ref": "tache:representer-nation",
+      "ressource_ref": "ress:institutions",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:wendat-conseil-redevabilite"
+      ],
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "regime": "mandat_contemporain",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:wendat-grand-chef",
+      "societe_ref": "soc:conseil-wendat-2026",
+      "role_ref": "role:grand-chef-wendat",
+      "tache_ref": "tache:presider-conseil",
+      "ressource_ref": "ress:conseil",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:wendat-grand-chef-preside"
+      ],
+      "source_ids": [
+        "src:wendat-conseil-2026"
+      ],
+      "regime": "mandat_contemporain",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:kiskakons-paix",
+      "societe_ref": "soc:kiskakons-1701",
+      "role_ref": "role:ambassadeur-kiskakon-1701",
+      "tache_ref": "tache:ratifier-paix",
+      "ressource_ref": "ress:entente-1701",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:1701-discours-kiskakons"
+      ],
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "evenement_atteste",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:colonial-reglement",
+      "societe_ref": "soc:autorites-francaises-1701",
+      "role_ref": "role:gouverneur",
+      "tache_ref": "tache:apaiser-conflit",
+      "ressource_ref": "ress:accord",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:1701-appel-non-vengeance"
+      ],
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "norme_documentee",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:colonial-chasse",
+      "societe_ref": "soc:autorites-francaises-1701",
+      "role_ref": "role:gouverneur",
+      "tache_ref": "tache:negocier-chasse",
+      "ressource_ref": "ress:territoire",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:1701-chasse-accord"
+      ],
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "norme_documentee",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    }
+  ],
+  "metadata_revue": {
+    "modifie_le": "2026-10-09",
+    "revue_nation": "non_realisee",
+    "revue_pedagogique": "non_realisee",
+    "preuve_externe": "ancrages_pour_nouvelles_assertions; ancien corpus v1 à ancrer",
+    "avertissement": "Le rapport source ne prouve jamais un droit absent; les règles coloniales ne représentent pas le consentement de toutes les nations."
+  },
+  "interactions_v2": [
+    {
+      "id": "interaction:paix-1701",
+      "periode_ref": "periode:1701",
+      "participants": [
+        "soc:delegations-1701",
+        "soc:autorites-francaises-1701"
+      ],
+      "nature": [
+        "négociation",
+        "diplomatie"
+      ],
+      "fact_ids": [
+        "fait:paix-participants",
+        "fait:1701-musee-entente"
+      ],
+      "statut": "fait_documente_contexte_a_nuancer"
+    },
+    {
+      "id": "interaction:trois-regimes-de-relation",
+      "periode_ref": "periode:1600-1650",
+      "participants": [
+        "soc:francais-traite",
+        "soc:peuples-autochtones-anterieurs"
+      ],
+      "nature": [
+        "commerce",
+        "alliances",
+        "conflits_variables"
+      ],
+      "fact_ids": [
+        "fait:commerce-fourrures",
+        "fait:alliance-1603"
+      ],
+      "statut": "collection_de_relations_non_uniformes"
+    },
+    {
+      "id": "interaction:colonial-pouvoir",
+      "periode_ref": "periode:1760-1830",
+      "participants": [
+        "soc:autorites-britanniques-apres1760",
+        "soc:wendat"
+      ],
+      "nature": [
+        "transformations_du_pouvoir",
+        "représentations_et_revndications"
+      ],
+      "fact_ids": [
+        "fait:pouvoir-apres1760",
+        "fait:wendat-1825"
+      ],
+      "statut": "juxtaposition_historique_pas_interaction_unique"
+    }
+  ]
+}

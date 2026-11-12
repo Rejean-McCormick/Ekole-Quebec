@@ -1,0 +1,166 @@
+{
+  "format": "ekole.activity/1",
+  "id": "affiche-accueil",
+  "revision": 1,
+  "status": "local_demo",
+  "model": "questions",
+  "course": {
+    "id": "qc-pri-ap-003",
+    "objective": "obj-1",
+    "sha256": "sha256:fad5b4eca8aff4cb2d43c89aef7c8c0bc63c5971101fef5da7e7f0e555ffa06c"
+  },
+  "scenario": {
+    "id": "affiche-accueil",
+    "version": "1.0.0",
+    "step": "essai",
+    "sha256": "sha256:f026c2942032cf7dde2469e79139b96be675cd03cf17c665c1d0d792f6efabc9"
+  },
+  "trame": "affiche-service",
+  "tasks": {
+    "pratique": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "a"
+          ]
+        }
+      ]
+    },
+    "bilan": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "b"
+          ]
+        },
+        {
+          "id": "expliquer",
+          "kind": "rubric",
+          "criteria": {
+            "preuve": 1
+          }
+        }
+      ]
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "review": "La justification sera lue par une personne.",
+      "title": "Une affiche qui guide",
+      "objective": "Organise les éléments visuels pour guider le regard.",
+      "prerequisite": "Identifier un titre et une image.",
+      "context": "Une affiche doit aider les nouveaux à trouver l’atelier. Elle contient le titre « Atelier », une flèche et quelques détails.",
+      "group": "Dessine deux placements pour le titre et la flèche.",
+      "compare": "Compare ce que tu regardes en premier dans chaque composition.",
+      "reflection": "Comment une taille différente change-t-elle l’attention ?",
+      "transfer": "Une deuxième affiche doit surtout indiquer une direction dans un corridor.",
+      "subtitle": "Activité de découverte",
+      "heading": "Une affiche qui guide",
+      "correct": "Ta réponse correspond à la situation.",
+      "incorrect": "Relis les données de la situation et compare les possibilités.",
+      "next": "Compare ce que tu regardes en premier dans chaque composition.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Quel choix rend le titre plus facile à repérer ?",
+            "options": {
+              "a": "Un titre bien visible séparé des détails.",
+              "b": "Un titre caché derrière la flèche.",
+              "c": "Tous les mots et formes superposés."
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Quel élément devrait attirer le regard en premier ?",
+            "options": {
+              "a": "Une bordure décorative.",
+              "b": "La flèche qui montre la direction.",
+              "c": "Une petite note de fabrication."
+            }
+          },
+          "expliquer": {
+            "prompt": "Décris où tu places la flèche et ce qui la rend visible.",
+            "criteria": {
+              "preuve": "La réponse relie un placement ou un contraste à l’intention de guider."
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "limits": "Local demonstration activity for review before classroom use.",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "review": "Someone will review your explanation.",
+      "title": "A sign that guides visitors",
+      "objective": "Arrange visual elements to guide the viewer’s attention.",
+      "prerequisite": "Identify a title and an image.",
+      "context": "A sign helps newcomers find the workshop. It contains the title “Workshop”, an arrow and a few details.",
+      "group": "Sketch two placements for the title and arrow.",
+      "compare": "Compare what you notice first in each design.",
+      "reflection": "How does a change in size affect what you notice?",
+      "transfer": "A second sign needs to show the direction down a hallway.",
+      "subtitle": "Discovery activity",
+      "heading": "A sign that guides visitors",
+      "correct": "Your answer fits the situation.",
+      "incorrect": "Read the situation again and compare the options.",
+      "next": "Compare what you notice first in each design.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Which choice makes the title easier to find?",
+            "options": {
+              "a": "A clear title separated from the details.",
+              "b": "A title hidden behind the arrow.",
+              "c": "All words and shapes overlapping."
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Which element should draw attention first?",
+            "options": {
+              "a": "A decorative border.",
+              "b": "The arrow showing the direction.",
+              "c": "A small note about making the sign."
+            }
+          },
+          "expliquer": {
+            "prompt": "Describe where you would place the arrow and what would make it visible.",
+            "criteria": {
+              "preuve": "The response connects placement or contrast to the purpose of guiding."
+            }
+          }
+        }
+      }
+    }
+  }
+}

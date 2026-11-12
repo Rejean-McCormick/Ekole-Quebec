@@ -1,0 +1,481 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-025",
+  "family_id": "qc-pri-ma-025-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-025-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "fixe",
+      "consigne": "On te demande la longueur d’une gomme à effacer, la masse d’une petite boîte et le volume d’eau dans une tasse. Pour chaque grandeur, nomme un instrument et une unité adaptée, puis explique un de tes choix.",
+      "stimulus": "Choix sur la table : règle graduée en cm; balance en g; récipient gradué en mL. Il s’agit du choix de méthode, pas de mesures d’objets présents.",
+      "reponse_attendue": "Longueur : règle en cm (ou mm). Masse : balance en g. Volume de liquide : tasse/éprouvette graduée en mL. Exemple de justification : la règle mesure une distance, pas une masse.",
+      "criteres": [
+        "Trois correspondances grandeur–outil correctes.",
+        "Une unité adéquate pour chacune.",
+        "Au moins une justification physiquement valide."
+      ],
+      "feedback": "Si « g » est donné pour une longueur, demande : « mesure-t-on une distance ou une masse? »; reprendre le tri grandeur/outil/unité.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "representation": "tableau_textuel",
+      "variation_permises": "Exemples d’objets fixés; changement d’objet seulement après revue.",
+      "role": "exercice",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "fixe",
+      "consigne": "Sur une règle, une bande part du repère 5 cm et finit au repère 21 cm. Trouve sa longueur et explique pourquoi on ne répond pas 21 cm.",
+      "stimulus": "Schéma textuel : début de la bande : 5 cm; fin de la bande : 21 cm; les deux sont sur la même règle graduée sans défaut.",
+      "reponse_attendue": "21 − 5 = 16 cm. Le 21 cm indique la position du bord droit sur la règle; la longueur est la différence entre les deux positions.",
+      "criteres": [
+        "Calcul 21−5=16 exact.",
+        "Unité cm donnée.",
+        "Distinction position/longueur expliquée."
+      ],
+      "feedback": "Réponse 21 cm? Marque les deux repères et compte les intervalles, puis réessaie avec 3 cm et 14 cm → 11 cm.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "representation": "schema_textuel",
+      "variation_permises": "Données numériques verrouillées.",
+      "role": "exercice",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "parametrique",
+      "consigne": "Une bande est posée sur une règle graduée en cm, mais son bord gauche n’est pas à zéro. Détermine sa longueur en cm; nomme l’outil et justifie l’unité.",
+      "stimulus": "Départ = 4 cm; arrivée = 20 cm (graduations en cm).",
+      "reponse_attendue": "20 − 4 = 16 cm; outil = règle; unité cm pour un petit objet. Pour toute seed admise : longueur_cm = fin_cm − depart_cm.",
+      "criteres": [
+        "Différence des positions calculée.",
+        "Unité cm et outil indiqués.",
+        "Point zéro décalé reconnu."
+      ],
+      "feedback": "Si l’arrivée est donnée comme longueur, rappeler que les extrémités représentent deux positions; mesurer l’écart.",
+      "difficulte": "intermediaire",
+      "seed": 25003,
+      "parametres": {
+        "variables": [
+          {
+            "nom": "a",
+            "domaine": "entier [1,5] cm"
+          },
+          {
+            "nom": "L",
+            "domaine": "entier [8,20] cm"
+          },
+          {
+            "nom": "b",
+            "domaine": "entier [9,25] cm"
+          }
+        ],
+        "domaines_et_contraintes": [
+          "seed entier ≥0",
+          "0<a<b≤25",
+          "graduations au cm, intervalle ≤ règle de 30 cm"
+        ],
+        "seed_stable": 25003,
+        "algorithme": "a=1+seed%5; L=8+(seed//5)%13; b=a+L; réponse L=b−a | `%` signifie modulo; `//` division entière sur entier non négatif; aucune source de hasard.",
+        "generation": {
+          "entree": "seed entier non négatif",
+          "sortie": "un jeu unique de données; aucune génération IA libre",
+          "ensemble_validation": [
+            25003,
+            25016,
+            25040
+          ],
+          "bornes": "les bornes calculées sont démontrées dans les contraintes et testées exhaustivement dans livraison/VALIDATION.md"
+        },
+        "exemple_calcule": {
+          "depart_cm": 4,
+          "longueur_cm": 16,
+          "fin_cm": 20
+        },
+        "controle_independant": "recalcul arithmétique par conversions/inversions de la formule et tests Python documentés dans livraison/VALIDATION.md"
+      },
+      "representation": "regle_schema_et_notation",
+      "variation_permises": "Uniquement seeds entiers ≥0; contexte « bande rectiligne » fixe.",
+      "role": "exercice",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "parametrique",
+      "consigne": "Une balance affiche la masse d’un bol vide, puis la masse du bol avec des objets. Quelle est la masse des objets seuls? Explique comment vérifier avec la tare.",
+      "stimulus": "Bol vide : 80 g; bol et objets : 230 g. Résolution de la balance : 1 g.",
+      "reponse_attendue": "230 − 80 = 150 g; une balance tarée avec le bol vide afficherait 150 g après ajout. Pour toute seed : net = total − tare.",
+      "criteres": [
+        "Soustraction de la masse du contenant exacte.",
+        "Résultat en g et balance reconnue.",
+        "Tare expliquée correctement, sans la confondre avec étalonnage."
+      ],
+      "feedback": "Si la masse totale est choisie, refaire la mesure avec bol vide puis tare; expliquer ce qu’elle annule.",
+      "difficulte": "intermediaire",
+      "seed": 25004,
+      "parametres": {
+        "variables": [
+          {
+            "nom": "t",
+            "domaine": "{40,50,60,70,80} g"
+          },
+          {
+            "nom": "n",
+            "domaine": "{100,125,150,175,200,225,250} g"
+          },
+          {
+            "nom": "total",
+            "domaine": "[140,330] g"
+          }
+        ],
+        "domaines_et_contraintes": [
+          "seed entier ≥0",
+          "t>0, n>0",
+          "total≤330 g",
+          "lecture affichée par pas de 1 g"
+        ],
+        "seed_stable": 25004,
+        "algorithme": "t=40+10*(seed%5); n=100+25*((seed//5)%7); total=t+n; réponse n=total−t | `%` signifie modulo; `//` division entière sur entier non négatif; aucune source de hasard.",
+        "generation": {
+          "entree": "seed entier non négatif",
+          "sortie": "un jeu unique de données; aucune génération IA libre",
+          "ensemble_validation": [
+            25004,
+            25017,
+            25041
+          ],
+          "bornes": "les bornes calculées sont démontrées dans les contraintes et testées exhaustivement dans livraison/VALIDATION.md"
+        },
+        "exemple_calcule": {
+          "tare_g": 80,
+          "net_g": 150,
+          "total_g": 230
+        },
+        "controle_independant": "recalcul arithmétique par conversions/inversions de la formule et tests Python documentés dans livraison/VALIDATION.md"
+      },
+      "representation": "balances_chiffrees",
+      "variation_permises": "Nombres calculés uniquement, contenant fixé.",
+      "role": "exercice",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "parametrique",
+      "consigne": "Deux récipients gradués indiquent des volumes d’eau différents. Compare les volumes et calcule l’écart en mL; précise l’outil choisi.",
+      "stimulus": "Récipient A : 400 mL; récipient B : 700 mL; graduations de 100 mL.",
+      "reponse_attendue": "B contient 300 mL de plus que A, car 700 − 400 = 300 mL. Outil : récipient gradué en mL. Ne pas conclure à la capacité maximale sans indication de remplissage maximal.",
+      "criteres": [
+        "Sens de comparaison correct.",
+        "Soustraction exacte en mL.",
+        "Instrument de volume de liquide indiqué."
+      ],
+      "feedback": "Si les nombres sont comparés sans unité, faire nommer la grandeur; si « capacité maximale » est avancée, demander si le contenant est rempli à sa limite.",
+      "difficulte": "intermediaire",
+      "seed": 25005,
+      "parametres": {
+        "variables": [
+          {
+            "nom": "A",
+            "domaine": "{300,400,500,600} mL"
+          },
+          {
+            "nom": "B",
+            "domaine": "{400,500,600,700,800,900} mL"
+          },
+          {
+            "nom": "écart",
+            "domaine": "{100,200,300} mL"
+          }
+        ],
+        "domaines_et_contraintes": [
+          "seed entier ≥0",
+          "300≤A<B≤900",
+          "graduations de 100 mL",
+          "contenus mesurés ≠ capacités maximales présumées"
+        ],
+        "seed_stable": 25005,
+        "algorithme": "A=100*(3+seed%4); B=A+100*(1+(seed//4)%3); écart=B−A | `%` signifie modulo; `//` division entière sur entier non négatif; aucune source de hasard.",
+        "generation": {
+          "entree": "seed entier non négatif",
+          "sortie": "un jeu unique de données; aucune génération IA libre",
+          "ensemble_validation": [
+            25005,
+            25018,
+            25042
+          ],
+          "bornes": "les bornes calculées sont démontrées dans les contraintes et testées exhaustivement dans livraison/VALIDATION.md"
+        },
+        "exemple_calcule": {
+          "a_ml": 400,
+          "b_ml": 700,
+          "difference_ml": 300
+        },
+        "controle_independant": "recalcul arithmétique par conversions/inversions de la formule et tests Python documentés dans livraison/VALIDATION.md"
+      },
+      "representation": "schema_recipient",
+      "variation_permises": "Réservoirs et unités fixés; valeurs déterministes.",
+      "role": "exercice",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "parametrique",
+      "consigne": "Deux bandes sont mesurées avec une règle. Compare-les après conversion en millimètres. Laquelle est la plus longue et de combien? Justifie l’outil et l’unité.",
+      "stimulus": "Bande A : 18 cm; bande B : 160 mm. On sait que 1 cm = 10 mm.",
+      "reponse_attendue": "A = 180 mm; B = 160 mm; A est plus longue de 20 mm = 2 cm. Règle en cm/mm : même grandeur, unités comparables après conversion.",
+      "criteres": [
+        "Conversion cm→mm exacte.",
+        "Bande gagnante et écart exacts.",
+        "Choix de règle et conversion justifiés."
+      ],
+      "feedback": "Si les nombres bruts sont comparés, rappeler 1 cm = 10 mm; convertir les deux longueurs avant de décider.",
+      "difficulte": "transfert",
+      "seed": 25006,
+      "parametres": {
+        "variables": [
+          {
+            "nom": "A_cm",
+            "domaine": "{12,14,…,32} cm"
+          },
+          {
+            "nom": "B_mm",
+            "domaine": "[80,310] mm selon seed"
+          },
+          {
+            "nom": "écart",
+            "domaine": "{10,20,30,40} mm"
+          }
+        ],
+        "domaines_et_contraintes": [
+          "seed entier ≥0",
+          "B_mm>0",
+          "B_mm<A_mm",
+          "écart multiple de 10 mm"
+        ],
+        "seed_stable": 25006,
+        "algorithme": "A_cm=12+2*(seed%11); A_mm=10*A_cm; B_mm=A_mm−10*(1+(seed//11)%4); écart=A_mm−B_mm | `%` signifie modulo; `//` division entière sur entier non négatif; aucune source de hasard.",
+        "generation": {
+          "entree": "seed entier non négatif",
+          "sortie": "un jeu unique de données; aucune génération IA libre",
+          "ensemble_validation": [
+            25006,
+            25019,
+            25043
+          ],
+          "bornes": "les bornes calculées sont démontrées dans les contraintes et testées exhaustivement dans livraison/VALIDATION.md"
+        },
+        "exemple_calcule": {
+          "a_cm": 18,
+          "a_mm": 180,
+          "b_mm": 160,
+          "difference_mm": 20
+        },
+        "controle_independant": "recalcul arithmétique par conversions/inversions de la formule et tests Python documentés dans livraison/VALIDATION.md"
+      },
+      "representation": "notations_et_regle",
+      "variation_permises": "Seules valeurs cohérentes converties en millimètres.",
+      "role": "exercice",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "parametrique",
+      "consigne": "Pour une activité, on verse plusieurs doses entières identiques d’eau mesurées avec une tasse graduée. Quel volume total a été mesuré? Donne-le en mL et en L, puis justifie ton outil.",
+      "stimulus": "5 doses de 100 mL chacune, chacune lue à la graduation 100 mL.",
+      "reponse_attendue": "5 × 100 = 500 mL = 0,5 L. Tasse graduée adaptée; mesurer chaque dose au même repère avec lecture horizontale.",
+      "criteres": [
+        "Produit exact en mL.",
+        "Conversion en L exacte.",
+        "Tasse graduée retenue et utilisation expliquée."
+      ],
+      "feedback": "Si le résultat est en g, rappeler la grandeur; si la conversion en L est erronée, utiliser 1 L = 1 000 mL.",
+      "difficulte": "intermediaire",
+      "seed": 25007,
+      "parametres": {
+        "variables": [
+          {
+            "nom": "n",
+            "domaine": "{2,3,4,5}"
+          },
+          {
+            "nom": "dose",
+            "domaine": "100 mL"
+          },
+          {
+            "nom": "total_ml",
+            "domaine": "{200,300,400,500} mL"
+          }
+        ],
+        "domaines_et_contraintes": [
+          "seed entier ≥0",
+          "dose positive",
+          "total_ml<1 000",
+          "toutes les doses à 100 mL"
+        ],
+        "seed_stable": 25007,
+        "algorithme": "n=2+(seed%4); dose=100 mL; total_ml=100*n; total_L=total_ml/1000 (division rationnelle exacte) | `%` signifie modulo; `//` division entière sur entier non négatif; aucune source de hasard.",
+        "generation": {
+          "entree": "seed entier non négatif",
+          "sortie": "un jeu unique de données; aucune génération IA libre",
+          "ensemble_validation": [
+            25007,
+            25020,
+            25044
+          ],
+          "bornes": "les bornes calculées sont démontrées dans les contraintes et testées exhaustivement dans livraison/VALIDATION.md"
+        },
+        "exemple_calcule": {
+          "nb_doses": 5,
+          "dose_ml": 100,
+          "total_ml": 500
+        },
+        "controle_independant": "recalcul arithmétique par conversions/inversions de la formule et tests Python documentés dans livraison/VALIDATION.md"
+      },
+      "representation": "materiel_tasse_et_notation",
+      "variation_permises": "Seul n varie, dose fixée à 100 mL.",
+      "role": "exercice",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique la différence entre « mettre une balance à zéro », « tarer un bol » et « étalonner une balance », puis choisis la préparation pour mesurer la masse de farine dans un bol.",
+      "stimulus": "Balance avec touche zéro/tare; bol vide; une masse de référence connue pour vérifier l’indication.",
+      "reponse_attendue": "Zéro : affichage nul sans charge pertinente; tare : annuler l’indication due au bol vide; étalonnage : comparaison avec une référence connue pour vérifier/corriger la justesse. Pour farine dans bol, poser le bol et tarer avant ajout; une balance tarée n’est pas automatiquement étalonnée.",
+      "criteres": [
+        "Trois opérations distinctes sans confusion.",
+        "Tare appliquée correctement.",
+        "Unité de masse g ou kg indiquée."
+      ],
+      "feedback": "Si « tare = étalonnage », confronter l’affichage à une masse étalon connue; on peut tarer une balance qui comporte néanmoins une erreur de justesse.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "representation": "explication_orale_ou_ecrite",
+      "variation_permises": "Texte verrouillé, réponse équivalente acceptée.",
+      "role": "exercice",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "fixe",
+      "consigne": "Une éprouvette graduée verticale (traits tous les 50 mL) contient de l’eau : le bas du ménisque est au trait 350 mL. Une deuxième indique 0,4 L. Quel volume est le plus grand, de combien, et comment faut-il lire l’éprouvette?",
+      "stimulus": "Première lecture 350 mL; deuxième 0,4 L; récipients posés à plat, liquide transparent avec ménisque concave.",
+      "reponse_attendue": "0,4 L = 400 mL; la deuxième mesure dépasse la première de 400 − 350 = 50 mL. Lire au niveau des yeux le bas du ménisque, récipient vertical stable. Les lectures ne décrivent pas nécessairement la capacité maximale.",
+      "criteres": [
+        "Conversion L→mL exacte.",
+        "Comparaison et différence exactes.",
+        "Protocole de lecture physiquement pertinent."
+      ],
+      "feedback": "Une comparaison de 0,4 et 350 sans conversion ne répond pas à la question; recommencer avec 400 mL et 350 mL.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "representation": "description_de_graduations",
+      "variation_permises": "Données verrouillées; ne pas extrapoler la capacité maximale.",
+      "role": "exercice",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Avec la boîte et le petit lot d’objets réellement fournis, mesure la masse du lot seul sans compter la boîte. Note ton choix d’instrument, son unité, la tare ou la soustraction, la valeur lue et la résolution.",
+      "stimulus": "Matériel réel : balance au pas de 1 g, boîte stable non cassante, gomme(s) à effacer ou blocs identiques non dangereux. L’évaluateur relève séparément la masse de référence du lot.",
+      "reponse_attendue": "Pas de nombre unique avant manipulation. Preuve : balance, g, zéro/tare ou différence valide, masse du contenu observée, lecture au pas réel. Contrôle : référence indépendante de l’évaluateur sur le même lot, tolérance ±1 g pour l’instrument indiqué (à modifier explicitement si résolution différente). Si tare impossible, mesurer boîte seule et ensemble puis soustraire.",
+      "criteres": [
+        "Grandeur, instrument et unité choisis et justifiés sans indice décisionnel.",
+        "Instrument préparé (zéro, tare, stabilité, repère); gestes et lecture corrects.",
+        "Lecture notée avec unité et précision conforme à l’outil; écart à la référence locale dans la tolérance annoncée.",
+        "Trace des deux étapes et justification expliquant pourquoi cet outil mesure la grandeur visée."
+      ],
+      "feedback": "Si la masse inclut la boîte, demander après l’essai comment vérifier la contribution du contenant; proposer R3, puis une autre mesure sans indice.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "representation": "objet_reel_balance_et_trace",
+      "variation_permises": "Substitution autorisée : petite boîte et objets non dangereux; même famille d’instrument, tolérance fixée avant mesure.",
+      "role": "observation_pratique",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE DE MAÎTRISE A (sans indice) : choisis toi-même l’instrument et l’unité pour mesurer le plus long côté d’un livre ou cahier réel inconnu. Réalise la mesure, note ta valeur, justifie tes choix et fais un croquis des deux repères.",
+      "stimulus": "Livre ou cahier réel non utilisé dans les activités guidées; règle graduée au millimètre ou ruban gradué adapté, au choix. L’évaluateur mesure indépendamment le même côté et consigne la résolution.",
+      "reponse_attendue": "Aucune longueur numérique fixée. Attendu : longueur, règle/ruban adapté, unité cm ou mm motivée, zéro aligné (ou différence de repères), résultat à résolution justifiée, croquis et justification. Critère numérique : ±1 graduation de l’outil effectivement utilisé pour des bords nets, comparé à la lecture indépendante de l’évaluateur. Vérifier que les deux personnes mesurent le même côté.",
+      "criteres": [
+        "Grandeur, instrument et unité choisis et justifiés sans indice décisionnel.",
+        "Instrument préparé (zéro, tare, stabilité, repère); gestes et lecture corrects.",
+        "Lecture notée avec unité et précision conforme à l’outil; écart à la référence locale dans la tolérance annoncée.",
+        "Trace des deux étapes et justification expliquant pourquoi cet outil mesure la grandeur visée."
+      ],
+      "feedback": "Une extrémité lue sans différence? Revoir le zéro avec R2, puis recommencer sur un autre livre, sans indice; une réponse dictée demeure recevable.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "representation": "objet_reel_longueur_croquis",
+      "variation_permises": "Autres livres/cahiers réels à bords nets; pas de dimensions présupposées, tolérance instrumentale documentée.",
+      "role": "preuve_maitrise_A",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-025-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-025-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE DE MAÎTRISE B (sans indice) : choisis toi-même l’outil et l’unité pour mesurer la capacité utile d’un petit récipient en plastique jusqu’au repère de remplissage visible. Réalise la mesure à l’aide d’eau à température ambiante, indique la valeur et explique comment tu as lu les graduations.",
+      "stimulus": "Récipient plastique réel, transparent si possible, avec un trait-repère à moins de 500 mL; eau tempérée; choix entre tasse graduée plastique (graduation 25 ou 50 mL), balance et règle. L’évaluateur mesure indépendamment le même volume au même trait.",
+      "reponse_attendue": "Aucune capacité numérique fixée. Preuve : volume/capacité utile jusqu’au repère identifié, tasse/éprouvette graduée en mL, stable et lisible, transfert prudent, lecture horizontale selon le ménisque, valeur accompagnée d’une unité et de la résolution. Si besoin, doses additionnées. Tolérance : ± une graduation du récipient gradué choisi par rapport à une mesure indépendante au même repère; documenter les pertes visibles avant décision. La valeur mesurée jusqu’au trait n’est pas nécessairement la capacité maximale.",
+      "criteres": [
+        "Grandeur, instrument et unité choisis et justifiés sans indice décisionnel.",
+        "Instrument préparé (zéro, tare, stabilité, repère); gestes et lecture corrects.",
+        "Lecture notée avec unité et précision conforme à l’outil; écart à la référence locale dans la tolérance annoncée.",
+        "Trace des deux étapes et justification expliquant pourquoi cet outil mesure la grandeur visée."
+      ],
+      "feedback": "Si l’élève donne des grammes, reprendre R1; si lecture de travers, reprendre R4; recueillir une nouvelle mesure sur un autre récipient, sans indice.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "representation": "objet_reel_capacite_eau",
+      "variation_permises": "Autres contenants plastiques avec repère visible, ≤500 mL; liquide = eau tempérée; graduation connue et tolérance fixée localement.",
+      "role": "preuve_maitrise_B",
+      "validation_status": "a_revoir"
+    }
+  ]
+}

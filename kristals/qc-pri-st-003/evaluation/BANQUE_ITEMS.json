@@ -1,0 +1,394 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-003",
+  "family_id": "qc-pri-st-003-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-003-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour mesurer la largeur de cette feuille, choisis la règle, le chronomètre ou la loupe. Indique ce que tu écrirais comme en-tête de mesure et pourquoi.",
+      "stimulus": "Une feuille posée à plat est offerte avec une règle graduée en cm, un chronomètre en s et une loupe non graduée. Aucune valeur n’est préremplie.",
+      "reponse_attendue": "Réponse attendue : règle graduée; « largeur (cm) » ou « largeur (mm) » selon l’instrument; la largeur est une longueur et non une durée. Le nombre dépend de la feuille réelle, donc aucun nombre inventé.",
+      "criteres": [
+        "Choisit la règle pour la longueur.",
+        "Associe une unité de longueur correctement écrite à l’en-tête.",
+        "Explique le lien entre grandeur et instrument sans supposer une valeur."
+      ],
+      "feedback": "Si chronomètre choisi : demander quelle grandeur il mesure et réessayer avec une nouvelle dimension d’objet.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "instruments matériels et explication orale/écrite; choix documenté de la grandeur, de l’instrument, de l’unité et des conditions, avec trace d’observation ou tableau accessible",
+      "variations_permises": "Forme et dimensions de la feuille libres, choix des trois instruments inchangé.",
+      "conditions_surete_accessibilite": "Objets légers sur table ou données simulées explicitement annoncées; grille accessible, règle/chronomètre à gros caractères; personne aidante non directive admise; aucune manipulation dangereuse ni valeur fictive qualifiée d’observation réelle.",
+      "limites_variation": "Objectif, unité, preuve sur deux essais comparables, source des données et rubriques inchangés. Aucune génération IA libre ni correction automatique fondée sur un jugement causal."
+    },
+    {
+      "item_id": "qc-pri-st-003-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis ce jeu de données entièrement fictif et présente-le dans un tableau à deux lignes : même cube mesuré en largeur, essai 1 = 5 cm, essai 2 = 5 cm.",
+      "stimulus": "Données simulées : cube C; même règle, zéro aligné, même dimension; deux lectures fournies 5 cm et 5 cm, sans expérimentation réalisée.",
+      "reponse_attendue": "Tableau avec en-têtes « essai », « objet », « largeur (cm) », « instrument », « conditions » et lignes 1, cube C, 5, règle, zéro aligné ; 2, cube C, 5, même règle, mêmes conditions. Conclusion : les lectures concordent dans la simulation.",
+      "criteres": [
+        "Deux lignes correspondant aux essais 1 et 2.",
+        "Valeurs 5 et 5 reproduites fidèlement avec unité cm dans l’en-tête.",
+        "Même objet, instrument et conditions indiqués.",
+        "N’attribue pas ces valeurs à une mesure personnelle."
+      ],
+      "feedback": "S’il manque une unité : ajouter la grandeur et cm à l’en-tête, puis contrôler un nouveau tableau.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "tableau à construire à partir de valeurs explicitement simulées; choix documenté de la grandeur, de l’instrument, de l’unité et des conditions, avec trace d’observation ou tableau accessible",
+      "variations_permises": "Format du tableau et mode de réponse peuvent varier, données 5 cm et 5 cm verrouillées.",
+      "conditions_surete_accessibilite": "Objets légers sur table ou données simulées explicitement annoncées; grille accessible, règle/chronomètre à gros caractères; personne aidante non directive admise; aucune manipulation dangereuse ni valeur fictive qualifiée d’observation réelle.",
+      "limites_variation": "Objectif, unité, preuve sur deux essais comparables, source des données et rubriques inchangés. Aucune génération IA libre ni correction automatique fondée sur un jugement causal."
+    },
+    {
+      "item_id": "qc-pri-st-003-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe une observation et une hypothèse à partir de deux mesures fictives, sans inventer la cause.",
+      "stimulus": "Scénario simulé : même bande lue 9 cm puis 10 cm avec la même règle. Phrases : A « la seconde lecture dépasse la première de 1 cm »; B « la bande s’est allongée pendant la mesure ».",
+      "reponse_attendue": "A est une observation dérivée du tableau : 10 − 9 = 1 cm. B est une hypothèse/inférence non établie par deux lectures; vérifications possibles : départ au zéro, même bord, lecture de graduation, troisième essai.",
+      "criteres": [
+        "Identifie A comme constat arithmétique lié aux lectures.",
+        "Identifie B comme cause supposée non démontrée.",
+        "Calcule correctement l’écart 1 cm.",
+        "Propose un contrôle de protocole sans changer les données."
+      ],
+      "feedback": "Si B est appelée observation, demander quelles données vérifient directement un allongement réel plutôt qu’une erreur de lecture.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "phrases + deux mesures fictives; choix documenté de la grandeur, de l’instrument, de l’unité et des conditions, avec trace d’observation ou tableau accessible",
+      "variations_permises": "Formulation des explications libre, valeurs 9 et 10 et statut simulé fixes.",
+      "conditions_surete_accessibilite": "Objets légers sur table ou données simulées explicitement annoncées; grille accessible, règle/chronomètre à gros caractères; personne aidante non directive admise; aucune manipulation dangereuse ni valeur fictive qualifiée d’observation réelle.",
+      "limites_variation": "Objectif, unité, preuve sur deux essais comparables, source des données et rubriques inchangés. Aucune génération IA libre ni correction automatique fondée sur un jugement causal."
+    },
+    {
+      "item_id": "qc-pri-st-003-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis ce tableau fictif et décide si les deux essais portent sur une même mesure reproductible. Corrige le protocole sans inventer de chiffres.",
+      "stimulus": "Essai 1 : longueur du crayon A, 12 cm, règle R. Essai 2 : longueur du crayon B, 15 cm, règle R. Objets différents malgré la même unité.",
+      "reponse_attendue": "Non : on a mesuré deux objets différents. Pour deux essais comparables, mesurer deux fois le crayon A avec même règle, mêmes extrémités et même orientation, puis relever deux valeurs effectivement mesurées; le 15 cm ne peut pas être transformé en seconde mesure de A.",
+      "criteres": [
+        "Explique pourquoi deux objets différents invalident la répétition sur une même grandeur.",
+        "Propose le même objet, instrument, repères et unité pour les deux essais.",
+        "N’utilise pas la valeur du crayon B comme valeur inventée pour A."
+      ],
+      "feedback": "Si les 2 lignes sont acceptées, demander quelle propriété du crayon A a été effectivement mesurée au second essai.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "tableau fictif à critiquer et protocole à corriger; choix documenté de la grandeur, de l’instrument, de l’unité et des conditions, avec trace d’observation ou tableau accessible",
+      "variations_permises": "Objet A remplaçable par autre objet sûr si la relation d’identité est conservée; chiffres de la vignette non modifiés.",
+      "conditions_surete_accessibilite": "Objets légers sur table ou données simulées explicitement annoncées; grille accessible, règle/chronomètre à gros caractères; personne aidante non directive admise; aucune manipulation dangereuse ni valeur fictive qualifiée d’observation réelle.",
+      "limites_variation": "Objectif, unité, preuve sur deux essais comparables, source des données et rubriques inchangés. Aucune génération IA libre ni correction automatique fondée sur un jugement causal."
+    },
+    {
+      "item_id": "qc-pri-st-003-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique comment corriger une erreur de zéro sur une règle : même segment commence à la graduation 2 cm et finit à 9 cm.",
+      "stimulus": "Schéma décrit en mots : début de l’objet exactement à 2 cm, fin exactement à 9 cm; lecture fictive sans incertitude graphique.",
+      "reponse_attendue": "Longueur du segment = 9 cm − 2 cm = 7 cm. Le résultat n’est pas 9 cm. Si possible réaligner le début à zéro puis refaire la lecture. Écrire l’unité cm.",
+      "criteres": [
+        "Soustrait la graduation de départ de la graduation finale.",
+        "Trouve exactement 7 cm.",
+        "Conserve l’unité et justifie le rôle du zéro."
+      ],
+      "feedback": "Si réponse 9 cm : montrer que la distance commence à 2 et non à 0, puis proposer 3 à 8 pour vérifier 5 cm.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "lecture de règle par graduations expliquées; choix documenté de la grandeur, de l’instrument, de l’unité et des conditions, avec trace d’observation ou tableau accessible",
+      "variations_permises": "Graduations initiales 2 et 9 fixes; explication orale ou dessin annoté admis.",
+      "conditions_surete_accessibilite": "Objets légers sur table ou données simulées explicitement annoncées; grille accessible, règle/chronomètre à gros caractères; personne aidante non directive admise; aucune manipulation dangereuse ni valeur fictive qualifiée d’observation réelle.",
+      "limites_variation": "Objectif, unité, preuve sur deux essais comparables, source des données et rubriques inchangés. Aucune génération IA libre ni correction automatique fondée sur un jugement causal."
+    },
+    {
+      "item_id": "qc-pri-st-003-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Construis un tableau de deux essais de durée fictifs pour le même petit trajet et écris une conclusion descriptive.",
+      "stimulus": "Données simulées et contraintes annoncées : même jouet, même piste et mêmes marques; chronomètre; premier essai 4,1 s, second 4,3 s. Causes de l’écart inconnues.",
+      "reponse_attendue": "Colonnes : essai, trajet, instrument, durée (s), conditions; lignes 1 : 4,1 ; 2 : 4,3. Écart exactement 0,2 s; conclusion : seconde lecture supérieure de 0,2 s, sans affirmation sur la cause.",
+      "criteres": [
+        "Tableau contient deux lignes, une unité s et le même trajet.",
+        "Reproduit 4,1 et 4,3 sans les modifier.",
+        "Calcule l’écart absolu 0,2 s.",
+        "N’assimile pas une différence de durée à une cause prouvée."
+      ],
+      "feedback": "Si l’élève déclare un problème de piste prouvé, distinguer l’hypothèse d’une donnée observée et proposer de répéter le protocole.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "chronomètre fictif + tableau + phrase de conclusion; choix documenté de la grandeur, de l’instrument, de l’unité et des conditions, avec trace d’observation ou tableau accessible",
+      "variations_permises": "Présentation de la table libre; valeurs 4,1 et 4,3 verrouillées.",
+      "conditions_surete_accessibilite": "Objets légers sur table ou données simulées explicitement annoncées; grille accessible, règle/chronomètre à gros caractères; personne aidante non directive admise; aucune manipulation dangereuse ni valeur fictive qualifiée d’observation réelle.",
+      "limites_variation": "Objectif, unité, preuve sur deux essais comparables, source des données et rubriques inchangés. Aucune génération IA libre ni correction automatique fondée sur un jugement causal."
+    },
+    {
+      "item_id": "qc-pri-st-003-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-003-ev-01",
+      "mode": "parametrique",
+      "consigne": "À partir de ce jeu de données simulées choisi par graine fixe, indique l’instrument, complète un tableau de deux essais, calcule leur écart et formule un constat sans hypothèse imposée.",
+      "stimulus": "Données SIMULÉES (cas fermé index 2): largeur du carton C. Même règle graduée et mêmes conditions pour les deux essais. Unité cm; essai 1 = 12,7 cm, essai 2 = 12,5 cm. Aucune expérimentation réelle n’a eu lieu.",
+      "reponse_attendue": "Instrument à choisir/justifier : règle graduée. Tableau avec deux lignes et colonne « largeur (cm) »: essai 1 = 12,7; essai 2 = 12,5. Écart absolu |12,5 − 12,7| = 0,2 cm; lectures deuxième inférieure. Les valeurs sont simulées; aucune cause d’écart n’est prouvée.",
+      "criteres": [
+        "Choisit un instrument adapté à la grandeur fournie et conserve une unité explicite.",
+        "Rédige deux lignes distinctes avec les lectures du cas fixé sans les modifier.",
+        "Calcule et exprime l’écart en unité correcte.",
+        "Décrit uniquement le constat et distingue la cause hypothétique.",
+        "Indique sans ambiguïté que les données sont simulées."
+      ],
+      "feedback": "Si l’écart est incorrect, soustraire les deux lectures en dixièmes d’unité; si une cause est affirmée, demander une observation supplémentaire qui serait nécessaire.",
+      "difficulte": "intermediaire",
+      "seed": 2026100807,
+      "parametres": {
+        "corpus_ferme": [
+          {
+            "objet": "largeur de la fiche A",
+            "grandeur": "largeur",
+            "instrument": "règle graduée",
+            "unite": "cm",
+            "a_dixiemes": 115,
+            "b_dixiemes": 115
+          },
+          {
+            "objet": "longueur de la bande B",
+            "grandeur": "longueur",
+            "instrument": "règle graduée",
+            "unite": "cm",
+            "a_dixiemes": 83,
+            "b_dixiemes": 84
+          },
+          {
+            "objet": "largeur du carton C",
+            "grandeur": "largeur",
+            "instrument": "règle graduée",
+            "unite": "cm",
+            "a_dixiemes": 127,
+            "b_dixiemes": 125
+          }
+        ],
+        "domaines": {
+          "a_dixiemes": "entier >= 0, cas approuvés seulement",
+          "b_dixiemes": "entier >= 0, cas approuvés seulement",
+          "unite": [
+            "cm"
+          ],
+          "unite_de_lecture": "dixième de l’unité"
+        },
+        "algorithme": "index = seed % 3; a = corpus[index].a_dixiemes / 10; b = corpus[index].b_dixiemes / 10; ecart = abs(a_dixiemes - b_dixiemes) / 10; produire deux lignes et une conclusion de comparaison; aucune valeur aléatoire ni affirmation causale.",
+        "contraintes": [
+          "exactement 3 cas approuvés",
+          "une même grandeur et une seule unité par cas",
+          "même instrument et conditions déclarés entre les 2 essais",
+          "lectures simulées explicites",
+          "entiers de dixièmes pour arithmétique exacte",
+          "seed stable et entier positif"
+        ],
+        "index_attendu": 2,
+        "unite_solution": "cm",
+        "ecart_dixiemes_attendu": 2,
+        "validation_exemples": [
+          {
+            "index": 0,
+            "a_dixiemes": 115,
+            "b_dixiemes": 115,
+            "ecart_dixiemes": 0
+          },
+          {
+            "index": 1,
+            "a_dixiemes": 83,
+            "b_dixiemes": 84,
+            "ecart_dixiemes": 1
+          },
+          {
+            "index": 2,
+            "a_dixiemes": 127,
+            "b_dixiemes": 125,
+            "ecart_dixiemes": 2
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "representation": "tableau chiffré avec trois contextes fermés de longueur; choix documenté de la grandeur, de l’instrument, de l’unité et des conditions, avec trace d’observation ou tableau accessible",
+      "variations_permises": "Seuls les trois cas archivés peuvent être sélectionnés par seed % 3, sans tirage ni génération libre.",
+      "conditions_surete_accessibilite": "Objets légers sur table ou données simulées explicitement annoncées; grille accessible, règle/chronomètre à gros caractères; personne aidante non directive admise; aucune manipulation dangereuse ni valeur fictive qualifiée d’observation réelle.",
+      "limites_variation": "Objectif, unité, preuve sur deux essais comparables, source des données et rubriques inchangés. Aucune génération IA libre ni correction automatique fondée sur un jugement causal."
+    },
+    {
+      "item_id": "qc-pri-st-003-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-003-ev-01",
+      "mode": "parametrique",
+      "consigne": "À partir de ce jeu simulé de durée sélectionné par la graine entière fixée, choisis l’instrument de durée, complète un tableau des deux essais, calcule la différence absolue et signale une limite.",
+      "stimulus": "Données SIMULÉES (cas fermé index 0): durée d’un parcours de jouet D. Même chronomètre et mêmes conditions pour les deux essais. Unité s; essai 1 = 2,9 s, essai 2 = 3,1 s. Aucune expérimentation réelle n’a eu lieu.",
+      "reponse_attendue": "Instrument à choisir/justifier : chronomètre. Tableau avec deux lignes et colonne « durée (s) »: essai 1 = 2,9; essai 2 = 3,1. Écart absolu |3,1 − 2,9| = 0,2 s; lectures deuxième supérieure. Les valeurs sont simulées; aucune cause d’écart n’est prouvée.",
+      "criteres": [
+        "Choisit un instrument adapté à la grandeur fournie et conserve une unité explicite.",
+        "Rédige deux lignes distinctes avec les lectures du cas fixé sans les modifier.",
+        "Calcule et exprime l’écart en unité correcte.",
+        "Décrit uniquement le constat et distingue la cause hypothétique.",
+        "Indique sans ambiguïté que les données sont simulées."
+      ],
+      "feedback": "Si l’écart est incorrect, soustraire les deux lectures en dixièmes d’unité; si une cause est affirmée, demander une observation supplémentaire qui serait nécessaire.",
+      "difficulte": "transfert",
+      "seed": 2026100808,
+      "parametres": {
+        "corpus_ferme": [
+          {
+            "objet": "durée d’un parcours de jouet D",
+            "grandeur": "durée",
+            "instrument": "chronomètre",
+            "unite": "s",
+            "a_dixiemes": 29,
+            "b_dixiemes": 31
+          },
+          {
+            "objet": "durée d’un parcours de jouet E",
+            "grandeur": "durée",
+            "instrument": "chronomètre",
+            "unite": "s",
+            "a_dixiemes": 40,
+            "b_dixiemes": 40
+          },
+          {
+            "objet": "durée d’un parcours de jouet F",
+            "grandeur": "durée",
+            "instrument": "chronomètre",
+            "unite": "s",
+            "a_dixiemes": 38,
+            "b_dixiemes": 36
+          }
+        ],
+        "domaines": {
+          "a_dixiemes": "entier >= 0, cas approuvés seulement",
+          "b_dixiemes": "entier >= 0, cas approuvés seulement",
+          "unite": [
+            "s"
+          ],
+          "unite_de_lecture": "dixième de l’unité"
+        },
+        "algorithme": "index = seed % 3; a = corpus[index].a_dixiemes / 10; b = corpus[index].b_dixiemes / 10; ecart = abs(a_dixiemes - b_dixiemes) / 10; produire deux lignes et une conclusion de comparaison; aucune valeur aléatoire ni affirmation causale.",
+        "contraintes": [
+          "exactement 3 cas approuvés",
+          "une même grandeur et une seule unité par cas",
+          "même instrument et conditions déclarés entre les 2 essais",
+          "lectures simulées explicites",
+          "entiers de dixièmes pour arithmétique exacte",
+          "seed stable et entier positif"
+        ],
+        "index_attendu": 0,
+        "unite_solution": "s",
+        "ecart_dixiemes_attendu": 2,
+        "validation_exemples": [
+          {
+            "index": 0,
+            "a_dixiemes": 29,
+            "b_dixiemes": 31,
+            "ecart_dixiemes": 2
+          },
+          {
+            "index": 1,
+            "a_dixiemes": 40,
+            "b_dixiemes": 40,
+            "ecart_dixiemes": 0
+          },
+          {
+            "index": 2,
+            "a_dixiemes": 38,
+            "b_dixiemes": 36,
+            "ecart_dixiemes": 2
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "representation": "tableau de durées simulées dans des contextes fermés; choix documenté de la grandeur, de l’instrument, de l’unité et des conditions, avec trace d’observation ou tableau accessible",
+      "variations_permises": "Seuls les trois cas archivés peuvent être sélectionnés par seed % 3, sans tirage ni génération libre.",
+      "conditions_surete_accessibilite": "Objets légers sur table ou données simulées explicitement annoncées; grille accessible, règle/chronomètre à gros caractères; personne aidante non directive admise; aucune manipulation dangereuse ni valeur fictive qualifiée d’observation réelle.",
+      "limites_variation": "Objectif, unité, preuve sur deux essais comparables, source des données et rubriques inchangés. Aucune génération IA libre ni correction automatique fondée sur un jugement causal."
+    },
+    {
+      "item_id": "qc-pri-st-003-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-003-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A — Une petite équipe doit noter la largeur d’un cahier réel. Choisis parmi une règle, un chronomètre et une loupe l’instrument pertinent, relève DEUX mesures de la MÊME largeur du MÊME cahier en repositionnant le dispositif entre les essais, puis produis sans modèle un tableau documentant unité, instrument, conditions, deux valeurs et un commentaire prudent. Les valeurs doivent venir de tes lectures, pas de cette consigne.",
+      "stimulus": "Station « coin des fournitures » : cahier fermé, règle graduée en centimètres, chronomètre, loupe non graduée, table stable. Aucune longueur affichée. L’apprenant choisit et applique la méthode. Le surveillant sécurise sans souffler les valeurs, le choix ni l’ordre.",
+      "reponse_attendue": "Corrigé PROCÉDURAL observé : règle pour largeur; unité cm ou mm indiquée; lignes 1 et 2 avec les DEUX lectures réelles de la même largeur; note même cahier, mêmes bords, même règle, zéro réaligné; comparaison des valeurs et éventuel écart sans prétendre prouver une cause. Aucun nombre unique n’est correct pour tous les cahiers. Si l’élève lit deux nombres légèrement distincts et les consigne honnêtement, cela ne constitue pas une erreur.",
+      "criteres": [
+        "M1 Instrument de longueur adapté et unité explicitée.",
+        "M2 Protocole retraçable : même cahier, mêmes bords et réalignement entre essais.",
+        "M3 Tableau comportant deux mesures authentiques, essai 1 et essai 2, unité et instrument.",
+        "M4 Comparaison fondée sur les lectures; hypothèse distinguée du constat.",
+        "M5 Autonomie dans le choix et la lecture; manipulations sûres, aides non directives seulement."
+      ],
+      "feedback": "Si l’unité manque, retravailler les en-têtes; si un autre objet a été mesuré, réapprendre la comparabilité; si un chiffre a été inventé pour rendre les lectures identiques, reprendre un cas de mesure réel avant nouvelle évaluation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "instrument réellement choisi + mesures réelles + tableau de deux essais + justification; choix documenté de la grandeur, de l’instrument, de l’unité et des conditions, avec trace d’observation ou tableau accessible",
+      "variations_permises": "L’objet peut être un autre cahier stable ou une pochette plate; posture, aide pour tenir l’instrument, format du tableau adaptés avant l’épreuve, sans fournir ni choisir les valeurs.",
+      "conditions_surete_accessibilite": "Objets légers sur table ou données simulées explicitement annoncées; grille accessible, règle/chronomètre à gros caractères; personne aidante non directive admise; aucune manipulation dangereuse ni valeur fictive qualifiée d’observation réelle.",
+      "limites_variation": "Objectif, unité, preuve sur deux essais comparables, source des données et rubriques inchangés. Aucune génération IA libre ni correction automatique fondée sur un jugement causal.",
+      "preuve_maitrise": "A: contexte matériel de classe, grandeur longueur; crit-1 intégral et autonomie évalués."
+    },
+    {
+      "item_id": "qc-pri-st-003-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-003-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B — Un petit véhicule doit parcourir deux fois le MÊME trajet sur une piste horizontale. Choisis un instrument de mesure de la durée parmi une règle, un chronomètre et une loupe. Détermine un protocole de départ/arrivée comparable; relève DEUX durées réelles, note-les dans un tableau avec l’unité et explique ce qui est observé sans imposer la cause d’un écart. Aucune durée attendue n’est donnée.",
+      "stimulus": "Station « atelier des déplacements » : petit jouet à roulettes sans mécanisme dangereux, piste stable et plate avec deux marques, règle, chronomètre et loupe. Même jouet, même parcours et mode de lâcher autant que possible. L’adulte veille à la sécurité; aide au déclenchement à la demande possible sans dicter la réponse.",
+      "reponse_attendue": "Corrigé PROCÉDURAL observé : chronomètre choisi pour durée, secondes s; deux lignes pour essai 1 et essai 2 contenant les temps réellement observés; mêmes marques, jouet, surface et mode de départ; note sur les conditions et une comparaison limitée aux résultats. Deux durées différentes restent recevables si l’écart et les limites de déclenchement sont décrits. Pas de chiffre théorique unique : les durées dépendent du montage et de la procédure.",
+      "criteres": [
+        "M1 Chronomètre choisi pour durée et unité s correctement déclarée.",
+        "M2 Protocole documenté et répétable : même trajet, même jouet, même départ/arrivée.",
+        "M3 Tableau à deux essais avec lectures de durées réellement relevées, unités et conditions.",
+        "M4 Comparaison des résultats et distinction entre observation et cause plausible non démontrée.",
+        "M5 Conduite sûre, autonome et sans indices directifs sur instrument, données ou tableau."
+      ],
+      "feedback": "Si les deux essais concernent des trajets différents, stabiliser les marques et reprendre; si durée inventée, privilégier la consignation à la volée; si difficulté de déclenchement, utiliser un partenaire instrumentiste exécutant les consignes de l’apprenant.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "sélection réelle de chronomètre + deux essais de durée + tableau + conclusion; choix documenté de la grandeur, de l’instrument, de l’unité et des conditions, avec trace d’observation ou tableau accessible",
+      "variations_permises": "Longueur de piste, jouet léger, vitesse et posture peuvent varier d’une administration à l’autre; pendant les deux essais, la configuration et les marques doivent rester identiques. Aucune vidéo ni déplacement de l’élève exigés.",
+      "conditions_surete_accessibilite": "Objets légers sur table ou données simulées explicitement annoncées; grille accessible, règle/chronomètre à gros caractères; personne aidante non directive admise; aucune manipulation dangereuse ni valeur fictive qualifiée d’observation réelle.",
+      "limites_variation": "Objectif, unité, preuve sur deux essais comparables, source des données et rubriques inchangés. Aucune génération IA libre ni correction automatique fondée sur un jugement causal.",
+      "preuve_maitrise": "B: contexte de mouvement d’objet, grandeur durée; nouvelle méthode et deuxième manifestation indépendante de A."
+    }
+  ]
+}

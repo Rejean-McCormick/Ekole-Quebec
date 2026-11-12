@@ -1,0 +1,32 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:societes-autochtones-quebec",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:9dba7b4ce3b267e2862a48180f506b79fdc7af84137b615b3f324500e310ed80"
+  },
+  "subject": {
+    "id": null,
+    "label": "Nations et sociétés autochtones sur le territoire du Québec"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "assertions contextualisées, relations, normes et sources de societes-autochtones-quebec",
+      "Fiches encyclopédiques v4, réponses contextualisées, questions et intentions visuelles non générées"
+    ],
+    "does_not_own": [
+      "scénarios scolaires, notes, parcours, évaluations",
+      "vérités non attestées sur des nations",
+      "Fiche de progression et affectations du cours Ekole qc-pri-us-009"
+    ]
+  },
+  "canonical_artifact_count": 2,
+  "source_count": 70,
+  "external_reference_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

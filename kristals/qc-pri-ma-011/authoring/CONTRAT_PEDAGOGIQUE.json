@@ -1,0 +1,98 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-011",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Exécuter, vérifier et expliquer une procédure de calcul écrit.",
+  "concepts": [
+    "algorithme",
+    "valeur de position",
+    "contrôle inverse"
+  ],
+  "preuve_attendue": "Calculer puis détecter une erreur dans une procédure proposée.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-003"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ma-010"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-011-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Calculer puis détecter une erreur dans une procédure proposée.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "regle_effective": "jeu fini de couples par item; indice = seed % cardinalité, construction explicite de la copie erronée, solution par entiers exacts et contrôle inverse",
+        "contre_exemples_verifies": "tous les couples énumérés testés et comparés aux opérations inverses indépendantes par script local"
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-ma-011",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "tableau C-D-U",
+        "écriture en colonnes",
+        "matériel regroupable",
+        "contrôle inverse",
+        "contextes bibliothèque et centre communautaire"
+      ],
+      "variables": [
+        "couples entiers (a,b) appartenant exclusivement aux jeux fermés de BANQUE_ITEMS.json pour les items q-005 à q-012",
+        "seed entier constant par item; index = seed % longueur du jeu"
+      ],
+      "contraintes": [
+        "objectif et preuve inchangés",
+        "algorithmes d’addition et soustraction des entiers naturels; multiplication courte de deux chiffres par un chiffre",
+        "contrôle inverse requis; les copies erronées sont déterministes",
+        "aucun générateur de corrigé par tirage IA libre",
+        "deux preuves de maîtrise indépendantes q-011 et q-012 en contextes distincts et sans indices",
+        "aucune certification sans revue humaine"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md#dimensions-et-decision",
+      "source": "sources/REFERENCES_CONTENU.md#provenance-et-controles",
+      "seed": {
+        "principe": "seed entier figé dans chaque item paramétrique; aucun aléa non contrôlé",
+        "items": {
+          "qc-pri-ma-011-q-005": 11005,
+          "qc-pri-ma-011-q-006": 11006,
+          "qc-pri-ma-011-q-007": 11007,
+          "qc-pri-ma-011-q-008": 11008,
+          "qc-pri-ma-011-q-009": 11009,
+          "qc-pri-ma-011-q-010": 11010,
+          "qc-pri-ma-011-q-011": 11011,
+          "qc-pri-ma-011-q-012": 11012
+        }
+      },
+      "validation_status": "a_revoir",
+      "items_lies": [
+        "qc-pri-ma-011-q-001",
+        "qc-pri-ma-011-q-002",
+        "qc-pri-ma-011-q-003",
+        "qc-pri-ma-011-q-004",
+        "qc-pri-ma-011-q-005",
+        "qc-pri-ma-011-q-006",
+        "qc-pri-ma-011-q-007",
+        "qc-pri-ma-011-q-008",
+        "qc-pri-ma-011-q-009",
+        "qc-pri-ma-011-q-010",
+        "qc-pri-ma-011-q-011",
+        "qc-pri-ma-011-q-012"
+      ]
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

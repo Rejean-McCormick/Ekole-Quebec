@@ -1,0 +1,39 @@
+{
+  "format": "ekole.kristal-cadre-v12/1.0",
+  "kristal_id": "qc-pri-als-007",
+  "source": {
+    "file": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Extraire le sens d’un court texte écrit anglais adapté.",
+    "preuve_attendue": "Associer des phrases à des informations et repérer un détail précis.",
+    "concepts": [
+      "mots fréquents",
+      "indices visuels",
+      "sens global"
+    ],
+    "prerequis_bloquants": []
+  },
+  "etat_revision": "plan_de_conception_non_revu",
+  "famille_candidate": "langage_lecture_expression",
+  "plan_de_conception": {
+    "situation_de_depart": "Concevoir une situation concrète qui rende observable : Extraire le sens d’un court texte écrit anglais adapté.",
+    "action_de_lenfant": "Choisir une manipulation ou une production permettant de travailler mots fréquents.",
+    "necessite_de_validation": "Comparer les propriétés vérifiables avec le critère : Associer des phrases à des informations et repérer un détail précis.",
+    "evaluation": "Séparer entraînement automatique partiel et preuves de maîtrise source.",
+    "aide_et_regulation": "Identifier les erreurs de mots fréquents et préparer des relances graduées.",
+    "transfert": "Préparer une autre représentation ou contexte de la même compétence; à rédiger et faire vérifier."
+  },
+  "visuels_conceptuels": {
+    "usage": "mise_en_situation",
+    "prompt": "Représenter une situation concrète permettant d’observer ou de manipuler « mots fréquents » dans le cadre de « Extraire le sens d’un court texte écrit anglais adapté. ». Faire comprendre le contexte sans inclure la solution d’une tâche évaluée. Ne pas imposer de style graphique.",
+    "fichier_suggere": "experience/images/situation-v12.webp",
+    "affichage_si_absent": "prompt_en_texte"
+  },
+  "revision_humaine": {
+    "exactitude": false,
+    "erreurs_diagnostiques": false,
+    "ergonomie_enfant": false,
+    "accessibilite": false,
+    "preuver_maitrise": false
+  }
+}

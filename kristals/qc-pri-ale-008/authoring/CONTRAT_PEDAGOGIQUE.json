@@ -1,0 +1,64 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Déduire le sens de mots anglais en utilisant contexte et morphologie.",
+  "concepts": [
+    "prefix",
+    "suffix",
+    "root",
+    "context"
+  ],
+  "preuve_attendue": "Expliquer le sens de mots nouveaux dans deux phrases.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-008-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Expliquer le sens de mots nouveaux dans deux phrases.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ale-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Expliquer le sens de mots nouveaux dans deux phrases.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "deux_phrases_en_anglais",
+        "annotation_des_morphemes",
+        "justification_contextuelle_ecrite_ou_dictee"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Deux phrases originales par item; deux mots-cibles distincts",
+        "Sens ancré dans le contexte et découpage morphologique valide",
+        "Aucune variation libre au moment de la passation",
+        "Deux preuves indépendantes dans des contextes distincts"
+      ],
+      "barreme_ou_rubrique": "Pour chaque cible : sens dans le contexte 2, morphologie pertinente 1, indice textuel 1; 8 points par paire; critère de maîtrise non déduit du total seul.",
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir",
+      "restrictions_effectives_livraison": "Les douze items sont fixes; aucune variation automatique des énoncés ni aucun tirage libre, malgré les possibilités génériques du blueprint v1.2."
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,166 @@
+{
+  "format": "ekole.activity/1",
+  "id": "recit-du-spectacle",
+  "revision": 1,
+  "status": "local_demo",
+  "model": "questions",
+  "course": {
+    "id": "qc-pri-fr-008",
+    "objective": "obj-1",
+    "sha256": "sha256:5b40f473d90b1abfb950188f58b17c3614336806b490d88b2b703af6c40c2e6b"
+  },
+  "scenario": {
+    "id": "recit-du-spectacle",
+    "version": "1.0.0",
+    "step": "essai",
+    "sha256": "sha256:3a663aa21261b19ae140fa879373f816d66f19cfbdb281f540e2d6a8a3ce8c54"
+  },
+  "trame": "conte-partage",
+  "tasks": {
+    "pratique": {
+      "items": [
+        {
+          "id": "choisir",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "a"
+          ]
+        }
+      ]
+    },
+    "bilan": {
+      "items": [
+        {
+          "id": "choisir",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "b"
+          ]
+        },
+        {
+          "id": "justifier",
+          "kind": "rubric",
+          "criteria": {
+            "raison": 1
+          }
+        }
+      ]
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "correct": "Ce lien correspond au récit.",
+      "incorrect": "Relis les événements et cherche ce qui rend la suite possible.",
+      "next": "Explique le lien entre deux actions.",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "review": "La justification sera lue par une personne.",
+      "subtitle": "Lecture · ordre et causes",
+      "heading": "Relier les événements",
+      "objective": "Retrouve l’ordre du récit et justifie le lien entre deux événements.",
+      "prerequisite": "Repérer le début et la fin d’un court récit.",
+      "context": "Le rideau est coincé. Léo dégage la corde. Le rideau s’ouvre et le spectacle commence.",
+      "group": "Trace une flèche entre les actions qui se succèdent.",
+      "compare": "Repère l’action qui permet à la suivante d’arriver.",
+      "reflection": "Est-ce que deux événements qui se suivent se causent toujours ?",
+      "transfer": "Avant la représentation, les cartes du récit sont dispersées. Mila les numérote. Le lecteur les retrouve dans l’ordre.",
+      "title": "Le récit du spectacle",
+      "questions": {
+        "pratique": {
+          "choisir": {
+            "prompt": "Quel ordre correspond au récit ?",
+            "options": {
+              "a": "Corde dégagée → rideau ouvert → spectacle",
+              "b": "Spectacle → corde dégagée → rideau ouvert",
+              "c": "Rideau ouvert → spectacle → corde dégagée"
+            }
+          }
+        },
+        "bilan": {
+          "choisir": {
+            "prompt": "Quel événement explique que le lecteur retrouve l’ordre ?",
+            "options": {
+              "a": "Les cartes sont dispersées.",
+              "b": "Mila numérote les cartes.",
+              "c": "Le spectacle est prévu."
+            }
+          },
+          "justifier": {
+            "prompt": "Explique comment le lecteur utilise les numéros.",
+            "criteria": {
+              "raison": "La justification relie la numérotation à la remise en ordre des cartes."
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "limits": "Local demonstration activity for review before classroom use.",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "correct": "That connection matches the story.",
+      "incorrect": "Read the events again and find what makes the next one possible.",
+      "next": "Explain the connection between two actions.",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "review": "Someone will review your explanation.",
+      "subtitle": "Reading · sequence and causes",
+      "heading": "Connect the events",
+      "objective": "Put the story in order and explain how two events are connected.",
+      "prerequisite": "Find the beginning and end of a short story.",
+      "context": "The curtain is stuck. Leo frees the rope. The curtain opens and the show begins.",
+      "group": "Draw arrows between the actions in sequence.",
+      "compare": "Find the action that makes the next one possible.",
+      "reflection": "Do two events always cause each other just because they follow one another?",
+      "transfer": "Before the show, the story cards are scattered. Mila numbers them. The reader finds them in the right order.",
+      "title": "The story of the show",
+      "questions": {
+        "pratique": {
+          "choisir": {
+            "prompt": "Which order matches the story?",
+            "options": {
+              "a": "Rope freed → curtain opens → show",
+              "b": "Show → rope freed → curtain opens",
+              "c": "Curtain opens → show → rope freed"
+            }
+          }
+        },
+        "bilan": {
+          "choisir": {
+            "prompt": "Which event explains how the reader finds the right order?",
+            "options": {
+              "a": "The cards are scattered.",
+              "b": "Mila numbers the cards.",
+              "c": "The show is planned."
+            }
+          },
+          "justifier": {
+            "prompt": "Explain how the reader uses the numbers.",
+            "criteria": {
+              "raison": "The explanation connects the numbering to putting the cards in order."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1052 @@
+{
+  "format": "kristal.societes-contextualisees/3.0",
+  "slug": "rencontres-coloniales-quebec",
+  "statut": "candidate_sans_approbation_culturelle",
+  "titre": "Rencontres, diplomatie et politiques coloniales au Québec",
+  "description": "Relations entre acteurs et sociétés au fil des époques; ne possède pas les représentations internes des nations.",
+  "modele_ref": "urn:kristal:modele-organisation-humaine:modele",
+  "politique": {
+    "sources": "Chaque fait conserve sa source et sa portée, aucune inférence par absence.",
+    "consentement": "Pas de reconstitution de savoir protégé ni d’approbation autochtone présumée.",
+    "temporalisations": "Description d’une époque ne s’applique pas à une autre sans preuve."
+  },
+  "societes": [
+    {
+      "id": "soc:francais-traite",
+      "type": "collectif_contextuel",
+      "label": "Commerçants et explorateurs français au début du XVIIe siècle",
+      "periode_ref": "periode:1600-1650",
+      "note": "N’est pas toute la population européenne ni toute la France."
+    },
+    {
+      "id": "soc:etablissement-quebec",
+      "type": "etablissement_colonial",
+      "label": "Établissement colonial français de Québec, en 1608",
+      "periode_ref": "periode:1600-1650",
+      "note": "Établissement situé sur des territoires habités de longue date."
+    },
+    {
+      "id": "soc:delegations-1701",
+      "type": "assemblee_evenementielle",
+      "label": "Délégations de plusieurs nations autochtones à Montréal en 1701",
+      "periode_ref": "periode:1701",
+      "note": "Ne forme pas un gouvernement unique."
+    },
+    {
+      "id": "soc:autorites-francaises-1701",
+      "type": "administration_coloniale",
+      "label": "Autorités de la Nouvelle-France représentées en 1701",
+      "periode_ref": "periode:1701",
+      "note": "Autorité revendiquée et exercée dans son système, non reconnue automatiquement par chaque nation."
+    },
+    {
+      "id": "soc:autorites-britanniques-apres1760",
+      "type": "administration_coloniale",
+      "label": "Autorités britanniques après 1760",
+      "periode_ref": "periode:1760-1830",
+      "note": "Administration coloniale distincte des institutions autochtones."
+    },
+    {
+      "id": "soc:institutions-coloniales-canadiennes-19e-20e",
+      "type": "institution_coloniale_historique",
+      "label": "Gouvernements et institutions responsables des pensionnats autochtones (XIXe–XXe siècles)",
+      "periode_ref": "periode:19e-20e",
+      "note": "Catégorie institutionnelle composite, pas une nation ni un acteur unique: responsabilité des gouvernements et de diverses organisations administrant des pensionnats à contextualiser selon le lieu et la date. Ne pas confondre avec les autorités britanniques de 1760."
+    }
+  ],
+  "periodes": [
+    {
+      "id": "periode:avant-contact",
+      "label": "Avant l’implantation coloniale française dans la vallée du Saint-Laurent",
+      "start": null,
+      "end": 1599,
+      "note": "Ne signifie pas avant tout contact européen ni début des sociétés autochtones; le territoire est habité depuis des millénaires."
+    },
+    {
+      "id": "periode:traditions-historiques",
+      "label": "Organisations historiques — datation à préciser",
+      "start": null,
+      "end": null,
+      "note": "Pratiques décrites comme historiques ou traditionnelles : ne pas les assigner à 1500 sans précision de la source."
+    },
+    {
+      "id": "periode:1600-1650",
+      "label": "Début du XVIIe siècle — échanges et établissements",
+      "start": 1600,
+      "end": 1650,
+      "note": "Les relations et leurs acteurs changent selon les lieux et moments."
+    },
+    {
+      "id": "periode:1701",
+      "label": "1701 — Grande Paix de Montréal",
+      "start": 1701,
+      "end": 1701,
+      "note": "Événement diplomatique contextualisé, pas relation identique pour toutes les nations."
+    },
+    {
+      "id": "periode:1700-1799",
+      "label": "XVIIIe siècle — alliances et rivalités",
+      "start": 1700,
+      "end": 1799,
+      "note": "Cette période recouvre 1701 mais représente des processus plus étendus, pas un événement unique."
+    },
+    {
+      "id": "periode:actuel",
+      "label": "Aujourd’hui",
+      "start": 2025,
+      "end": null,
+      "note": "Les nations autochtones sont contemporaines. Les données actuelles sont datées, et non projetées vers le passé."
+    },
+    {
+      "id": "periode:1760-1830",
+      "label": "Après 1760 — changement de régime et revendications",
+      "start": 1760,
+      "end": 1830,
+      "note": "Comprend le changement de régime colonial et des démarches politiques autochtones documentées."
+    },
+    {
+      "id": "periode:19e-20e",
+      "label": "XIXe et XXe siècles — politiques coloniales",
+      "start": 1800,
+      "end": 1999,
+      "note": "Période large choisie pour étudier des politiques successives, et non un événement unique."
+    }
+  ],
+  "roles": [
+    {
+      "id": "role:gouverneur",
+      "label": "Gouverneur colonial français (Callière, en 1701)",
+      "taches": [
+        "tache:negocier"
+      ],
+      "ressources": [
+        "ress:accord"
+      ],
+      "note": "Autorité coloniale historiquement située."
+    },
+    {
+      "id": "role:v3-diplomate-wendat",
+      "label": "Diplomate wendat dans une négociation historique"
+    },
+    {
+      "id": "role:v3-representant-francais",
+      "label": "Représentant colonial français"
+    },
+    {
+      "id": "role:v3-delegation",
+      "label": "Déléguées et délégués de nations réunies"
+    }
+  ],
+  "taches": [
+    {
+      "id": "tache:apaiser-conflit",
+      "label": "Chercher à régler un conflit sans vengeance",
+      "verbe": "régler"
+    },
+    {
+      "id": "tache:negocier-chasse",
+      "label": "S’entendre sur les pratiques de chasse dans un cadre diplomatique",
+      "verbe": "s’entendre"
+    },
+    {
+      "id": "tache:v3-negocier-paix",
+      "label": "Négocier une entente de paix"
+    },
+    {
+      "id": "tache:v3-exprimer-engagement",
+      "label": "Exprimer un engagement dans une négociation"
+    }
+  ],
+  "ressources": [
+    {
+      "id": "ress:fourrures",
+      "label": "Fourrures",
+      "type": "bien_materiel"
+    },
+    {
+      "id": "ress:accord",
+      "label": "Accord de paix",
+      "type": "artefact_politique"
+    },
+    {
+      "id": "ress:territoire",
+      "label": "Territoire",
+      "type": "milieu_et_droits",
+      "note": "Habiter, circuler, utiliser et posséder sont des rapports différents; ne pas inférer un droit à partir d’une carte coloniale."
+    },
+    {
+      "id": "ress:entente-1701",
+      "label": "Entente documentée en 1701",
+      "type": "accord_contextuel"
+    },
+    {
+      "id": "ress:parole-ratifiee",
+      "label": "Paroles diplomatiques consignées en 1701",
+      "type": "source_historique"
+    },
+    {
+      "id": "ress:v3-negociation",
+      "label": "Paroles et négociations"
+    },
+    {
+      "id": "ress:v3-document",
+      "label": "Document écrit de 1701"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "fait:champlain-1608",
+      "enonce_fr": "Samuel de Champlain a fondé l’établissement français de Québec en 1608.",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:pc-champlain"
+      ],
+      "predicat": "fonder",
+      "sujet_ref": "personne:champlain",
+      "objet_ref": "soc:etablissement-quebec",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Le terme fondation désigne un établissement colonial, pas la découverte d’un territoire vide."
+    },
+    {
+      "id": "fait:commerce-fourrures",
+      "enonce_fr": "Au début du XVIIe siècle, des commerçants français ont échangé des biens manufacturés avec des partenaires autochtones contre des fourrures.",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:dnd-rencontres",
+        "src:pc-champlain"
+      ],
+      "predicat": "echanger",
+      "sujet_ref": "soc:francais-traite",
+      "objet_ref": "ress:fourrures",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Les échanges ne décrivent ni tous les peuples ni des conditions immuables."
+    },
+    {
+      "id": "fait:alliance-1603",
+      "enonce_fr": "En 1603, à Tadoussac, des représentants français concluent des alliances avec des partenaires autochtones nommés dans les sources historiques.",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:dnd-rencontres"
+      ],
+      "predicat": "alliance",
+      "sujet_ref": "soc:francais-traite",
+      "objet_ref": "relation:alliance-1603",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Les ethnonymes archivistiques exigent contextualisation et recoupement nation-spécifique."
+    },
+    {
+      "id": "fait:commerce-participation",
+      "enonce_fr": "Des partenaires autochtones ont joué des rôles essentiels de fournisseurs et d’intermédiaires du commerce des fourrures en Nouvelle-France.",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:pc-champlain"
+      ],
+      "predicat": "participer",
+      "sujet_ref": "role:commercant",
+      "objet_ref": "ress:fourrures",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Ne jamais cantonner tous les Autochtones à un rôle économique unique."
+    },
+    {
+      "id": "fait:paix-date",
+      "enonce_fr": "La Grande Paix de Montréal a été conclue le 4 août 1701.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-grande-paix",
+        "src:pac-traite"
+      ],
+      "predicat": "date",
+      "sujet_ref": "evenement:grande-paix",
+      "objet_ref": "val:1701-08-04",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Une date ponctuelle ne qualifie pas à elle seule les conséquences du traité."
+    },
+    {
+      "id": "fait:paix-participants",
+      "enonce_fr": "La Grande Paix de Montréal a réuni des délégations de nombreuses nations autochtones et des représentants français.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-grande-paix",
+        "src:pac-traite"
+      ],
+      "predicat": "participer",
+      "sujet_ref": "soc:delegations-1701",
+      "objet_ref": "evenement:grande-paix",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Les délégations représentent des nations distinctes, pas un bloc homogène."
+    },
+    {
+      "id": "fait:paix-39",
+      "enonce_fr": "Le musée Pointe-à-Callière indique que des représentants de 39 nations autochtones se sont rendus à Montréal pour la Grande Paix de 1701.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-grande-paix"
+      ],
+      "predicat": "quantite",
+      "sujet_ref": "evenement:grande-paix",
+      "objet_ref": "val:39-nations",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Nombre attribué explicitement au musée; différentes sources peuvent arrondir."
+    },
+    {
+      "id": "fait:kondiaronk",
+      "enonce_fr": "Kondiaronk, dirigeant wendat, a joué un rôle déterminant dans les négociations menant à la Grande Paix de Montréal.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pc-kondiaronk",
+        "src:pac-grande-paix"
+      ],
+      "predicat": "role",
+      "sujet_ref": "personne:kondiaronk",
+      "objet_ref": "role:dirigeant-wendat",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Ne pas le présenter comme représentant de toutes les nations autochtones."
+    },
+    {
+      "id": "fait:calliere",
+      "enonce_fr": "Louis-Hector de Callière, gouverneur de la Nouvelle-France, a participé aux négociations conduisant à la Grande Paix de 1701.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-grande-paix"
+      ],
+      "predicat": "role",
+      "sujet_ref": "personne:calliere",
+      "objet_ref": "role:gouverneur",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Rôle colonial précis; les autorités autochtones ne relèvent pas de son autorité politique interne."
+    },
+    {
+      "id": "fait:traitement-sources",
+      "enonce_fr": "Le traité conservé est un document historique dont les mots et les perspectives doivent être contextualisés.",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-traite",
+        "src:quebec-ccq"
+      ],
+      "predicat": "critique_source",
+      "sujet_ref": "document:traite-1701",
+      "objet_ref": "concept:point-de-vue",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Ne pas présenter la transcription coloniale comme témoignage autochtone direct ou comme texte neutre."
+    },
+    {
+      "id": "fait:relations-varient",
+      "enonce_fr": "Les relations entre nations autochtones et puissances coloniales ont compris commerce, alliances, conflits et négociations, selon les époques et acteurs.",
+      "periode_ref": "periode:1600-1650",
+      "source_ids": [
+        "src:dnd-rencontres",
+        "src:pc-mikmaq"
+      ],
+      "predicat": "interaction",
+      "sujet_ref": "concept:relations-historiques",
+      "objet_ref": "concept:diversite-relations",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Synthèse limitée à des cas documentés; elle ne décrit pas l’expérience de toutes les nations."
+    },
+    {
+      "id": "fait:mi-kmaq-alliances",
+      "enonce_fr": "Les Mi’kmaq ont entretenu des relations avec les Français, dont des échanges commerciaux et des alliances politiques et militaires dans leur territoire et à certaines époques.",
+      "periode_ref": "periode:1700-1799",
+      "source_ids": [
+        "src:pc-mikmaq"
+      ],
+      "predicat": "interaction",
+      "sujet_ref": "soc:mikmaq",
+      "objet_ref": "soc:francais-traite",
+      "regime": "synthese_de_source_institutionnelle",
+      "statut": "revue_documentaire_effectuee_validation_pedagogique_et_nation_a_faire",
+      "limites": "Les relations ont commencé plus tôt; les alliances politiques et militaires évoquées concernent aussi le XVIIIe siècle."
+    },
+    {
+      "id": "fait:pouvoir-apres1760",
+      "enonce_fr": "Après 1760, la Nouvelle-France passe sous autorité britannique et de nouveaux acteurs britanniques prennent place dans le commerce des fourrures.",
+      "periode_ref": "periode:1760-1830",
+      "source_ids": [
+        "src:pc-apres1760"
+      ],
+      "predicat": "transition",
+      "sujet_ref": "soc:autorites-britanniques-apres1760",
+      "objet_ref": "ress:fourrures",
+      "regime": "synthese_de_source_historique",
+      "statut": "source_documentee_revue_enseignant_et_nation_a_faire",
+      "limites": "Ce changement de gouvernement colonial ne signifie pas que les nations autochtones disparaissent ou acceptent les mêmes autorités.",
+      "audience": "tous"
+    },
+    {
+      "id": "fait:wendat-1825",
+      "enonce_fr": "En 1825, des chefs de la Nation Wendat ont présenté des revendications territoriales au roi George IV en Grande-Bretagne.",
+      "periode_ref": "periode:1760-1830",
+      "source_ids": [
+        "src:wendat-archives"
+      ],
+      "predicat": "revendiquer",
+      "sujet_ref": "soc:wendat",
+      "objet_ref": "ress:territoire",
+      "regime": "synthese_de_source_historique",
+      "statut": "source_documentee_revue_enseignant_et_nation_a_faire",
+      "limites": "Exemple d’action politique wendat, pas de consentement à la dépossession.",
+      "audience": "tous"
+    },
+    {
+      "id": "fait:pensionnats",
+      "enonce_fr": "Aux XIXe et XXe siècles, des politiques coloniales ont séparé de nombreux enfants autochtones de leurs familles dans des pensionnats, portant atteinte à leurs langues et à leurs cultures.",
+      "periode_ref": "periode:19e-20e",
+      "source_ids": [
+        "src:pc-pensionnats"
+      ],
+      "predicat": "politique_assimilation",
+      "sujet_ref": "soc:institutions-coloniales-canadiennes-19e-20e",
+      "objet_ref": "concept:separation-et-atteintes",
+      "regime": "synthese_de_source_historique",
+      "statut": "source_documentee_revue_enseignant_et_nation_a_faire",
+      "limites": "Les responsabilités des gouvernements et des institutions administratrices varient selon l’établissement et l’époque. Enseigner avec tact et sous supervision adulte; ne pas ramener cette politique à une seule administration.",
+      "audience": "enseignant_et_discussion_guidee"
+    },
+    {
+      "id": "fait:1701-colliers-diplomatiques",
+      "enonce_fr": "La transcription de 1701 mentionne des colliers et des paroles échangés dans les négociations diplomatiques.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "objet_ref": "ress:parole-ratifiee",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "transcription_document_colonial",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Ne pas dessiner de symboles particuliers sans validation culturelle.",
+      "ancrage_documentaire": "Pointe-à-Callière / Discours et signes des représentants"
+    },
+    {
+      "id": "fait:1701-appel-non-vengeance",
+      "enonce_fr": "Dans le texte de 1701, Callière demande que certains différends soient portés à son arbitrage plutôt que réglés par vengeance.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:autorites-francaises-1701",
+      "objet_ref": "tache:apaiser-conflit",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "discours_normatif_colonial",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Proposition d’arbitrage par une autorité coloniale : ne prouve pas une autorité unanimement acceptée ni la réalité de sa mise en œuvre.",
+      "ancrage_documentaire": "Pointe-à-Callière / discours de Callière / tranquillité et différends"
+    },
+    {
+      "id": "fait:1701-chasse-accord",
+      "enonce_fr": "Le texte de 1701 présente une exhortation à s’entendre lors de la chasse pour éviter des disputes.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:autorites-francaises-1701",
+      "objet_ref": "tache:negocier-chasse",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "discours_normatif_colonial",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "Il ne définit pas toutes les règles territoriales des nations ni leurs droits de chasse.",
+      "ancrage_documentaire": "Pointe-à-Callière / discours de Callière / chasse"
+    },
+    {
+      "id": "fait:1701-musee-entente",
+      "enonce_fr": "Pointe-à-Callière présente la Grande Paix comme le fruit de négociations entre de nombreuses nations et les autorités françaises.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "objet_ref": "ress:entente-1701",
+      "source_ids": [
+        "src:pac-contexte-1701"
+      ],
+      "regime": "synthese_museale",
+      "statut": "candidate_documentee_revue_nation_a_faire",
+      "limites": "La description d’une entente générale ne résume pas toutes les positions nationales.",
+      "ancrage_documentaire": "Pointe-à-Callière / La Grande Paix de Montréal / entente"
+    },
+    {
+      "id": "fait:v3-paix-rencontre",
+      "enonce_fr": "Pointe-à-Callière présente la Grande Paix de Montréal comme une négociation entre plusieurs nations autochtones et des représentants français en août 1701.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "regime": "interpretation_museale",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-paix",
+          "ancrage": "La Grande Paix de Montréal",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "diplomatie",
+      "limites": "Chaque délégation conserve sa propre identité et ses intérêts.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-kondiaronk",
+      "enonce_fr": "Pointe-à-Callière souligne le rôle diplomatique du dirigeant wendat Kondiaronk dans les négociations de 1701.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "regime": "interpretation_museale",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-paix",
+          "ancrage": "La Grande Paix de Montréal",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "diplomatie et acteur",
+      "limites": "Ne pas attribuer toutes les décisions d’un traité à un seul acteur.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-calliere",
+      "enonce_fr": "Pointe-à-Callière présente Louis-Hector de Callière comme un responsable français des négociations de 1701.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:autorites-francaises-1701",
+      "regime": "interpretation_museale",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-paix",
+          "ancrage": "La Grande Paix de Montréal",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "diplomatie et acteur",
+      "limites": "La source exprime une lecture du rôle d’un représentant colonial.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-texte",
+      "enonce_fr": "Une transcription du traité de 1701 conserve les paroles attribuées à plusieurs délégations.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "regime": "archive_coloniale_transcrite",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-traite",
+          "ancrage": "Ratification de la Paix / Le Chef des Kiskakons",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "archives et perspective",
+      "limites": "La transcription passe par une conservation et une écriture coloniales; ce n’est pas une parole directe enregistrée.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-colliers",
+      "enonce_fr": "La transcription du traité de 1701 mentionne des colliers remis lors de prises de parole diplomatiques.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "regime": "archive_coloniale_transcrite",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-traite",
+          "ancrage": "Les Iroquois / Le Chef des Kiskakons",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "diplomatie matérielle",
+      "limites": "Ne pas générer d’objets cérémoniels supposés exacts à partir de cette seule description.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-38-39",
+      "enonce_fr": "Des publications de Pointe-à-Callière ne donnent pas toutes le même nombre de nations participantes : des pages indiquent 38 et d’autres 39.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "regime": "divergence_de_publications",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-325",
+          "ancrage": "Communiqué du 17 juin 2026",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "critique des sources",
+      "limites": "Il faut examiner les catégories et conventions de dénombrement avant de fixer un chiffre; aucune correction automatique.",
+      "eligible_exercice": false,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:colonial-reglement",
+      "societe_ref": "soc:autorites-francaises-1701",
+      "role_ref": "role:gouverneur",
+      "tache_ref": "tache:apaiser-conflit",
+      "ressource_ref": "ress:accord",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:1701-appel-non-vengeance"
+      ],
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "norme_documentee",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:colonial-chasse",
+      "societe_ref": "soc:autorites-francaises-1701",
+      "role_ref": "role:gouverneur",
+      "tache_ref": "tache:negocier-chasse",
+      "ressource_ref": "ress:territoire",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:1701-chasse-accord"
+      ],
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "regime": "norme_documentee",
+      "statut": "candidate_documentee_revue_nation_a_faire"
+    },
+    {
+      "id": "relation:v3-wendat-diplomatie",
+      "societe_ref": "soc:delegations-1701",
+      "role_ref": "role:v3-diplomate-wendat",
+      "tache_ref": "tache:v3-negocier-paix",
+      "ressource_ref": "ress:v3-negociation",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:v3-paix-kondiaronk"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "rôle de Kondiaronk dans la négociation"
+    },
+    {
+      "id": "relation:v3-francais-diplomatie",
+      "societe_ref": "soc:autorites-francaises-1701",
+      "role_ref": "role:v3-representant-francais",
+      "tache_ref": "tache:v3-negocier-paix",
+      "ressource_ref": "ress:v3-negociation",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:v3-paix-calliere"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "rôle de Callière selon lecture muséale"
+    },
+    {
+      "id": "relation:v3-delegation-paix",
+      "societe_ref": "soc:delegations-1701",
+      "role_ref": "role:v3-delegation",
+      "tache_ref": "tache:v3-exprimer-engagement",
+      "ressource_ref": "ress:v3-document",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:v3-paix-texte"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "le document colonial conserve les paroles attribuées"
+    }
+  ],
+  "normes": [
+    {
+      "id": "norme:1701-eviter-vengeance",
+      "modalite": "engagement_declare",
+      "sujet_ref": "soc:autorites-francaises-1701",
+      "action_ref": "tache:apaiser-conflit",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "fact_ids": [
+        "fait:1701-appel-non-vengeance"
+      ],
+      "portee": "exhortation coloniale de Callière telle que transcrite",
+      "statut": "discours_historique_pas_regle_universelle",
+      "interpretation": "Demande d’éviter une vengeance immédiate et de recourir à une médiation; le texte ne prouve pas l’accord de tous ni une application uniforme."
+    },
+    {
+      "id": "norme:1701-eviter-conflits-chasse",
+      "modalite": "engagement_declare",
+      "sujet_ref": "soc:autorites-francaises-1701",
+      "action_ref": "tache:negocier-chasse",
+      "periode_ref": "periode:1701",
+      "source_ids": [
+        "src:pac-texte-1701"
+      ],
+      "fact_ids": [
+        "fait:1701-chasse-accord"
+      ],
+      "portee": "exhortation au règlement des difficultés de chasse dans le discours de Callière",
+      "statut": "discours_historique_pas_regle_universelle",
+      "interpretation": "Ne confère aucun titre foncier et ne remplace pas les règles ou droits des différentes nations."
+    }
+  ],
+  "interactions": [
+    {
+      "id": "interaction:paix-1701",
+      "periode_ref": "periode:1701",
+      "participants": [
+        "soc:delegations-1701",
+        "soc:autorites-francaises-1701"
+      ],
+      "nature": [
+        "négociation",
+        "diplomatie"
+      ],
+      "fact_ids": [
+        "fait:paix-participants",
+        "fait:1701-musee-entente"
+      ],
+      "statut": "fait_documente_contexte_a_nuancer"
+    },
+    {
+      "id": "interaction:trois-regimes-de-relation",
+      "periode_ref": "periode:1600-1650",
+      "participants": [
+        "soc:francais-traite",
+        "soc:peuples-autochtones-anterieurs"
+      ],
+      "nature": [
+        "commerce",
+        "alliances",
+        "conflits_variables"
+      ],
+      "fact_ids": [
+        "fait:commerce-fourrures",
+        "fait:alliance-1603"
+      ],
+      "statut": "collection_de_relations_non_uniformes"
+    },
+    {
+      "id": "interaction:colonial-pouvoir",
+      "periode_ref": "periode:1760-1830",
+      "participants": [
+        "soc:autorites-britanniques-apres1760",
+        "soc:wendat"
+      ],
+      "nature": [
+        "transformations_du_pouvoir",
+        "représentations_et_revndications"
+      ],
+      "fact_ids": [
+        "fait:pouvoir-apres1760",
+        "fait:wendat-1825"
+      ],
+      "statut": "juxtaposition_historique_pas_interaction_unique"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src:dnd-rencontres",
+      "title": "Gouvernement du Canada — L’arrivée des Européens : guerres du XVIIe siècle",
+      "kind": "institutional_web",
+      "locator": "https://www.canada.ca/fr/ministere-defense-nationale/services/histoire-militaire/histoire-patrimoine/ouvrages-grand-public/autochtones-militaire-canadienne/arrivee-europeens-guerres-XVIIe-siecle.html",
+      "authority_scope": "1603 alliances, échanges et conflits; contexte d’histoire militaire à recouper",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pac-contexte-1701",
+      "title": "Pointe-à-Callière — La Grande Paix de Montréal : contextualisation",
+      "kind": "interpretation_museale",
+      "locator": "https://pacmusee.qc.ca/fr/histoires-de-montreal/article/la-grande-paix-de-montreal/",
+      "authority_scope": "contexte du traité et rôle des représentants",
+      "limitations": "Synthèse muséale; vérifier les interprétations et distinguer chaque nation."
+    },
+    {
+      "id": "src:pac-grande-paix",
+      "title": "Pointe-à-Callière — La Grande Paix de Montréal",
+      "kind": "institutional_web",
+      "locator": "https://pacmusee.qc.ca/fr/histoires-de-montreal/article/la-grande-paix-de-montreal/",
+      "authority_scope": "événement 1701 et protagonistes; synthèse muséale",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pac-texte-1701",
+      "title": "Pointe-à-Callière — Transcription du traité de la Grande Paix de Montréal",
+      "kind": "document_colonial_historique_transcrit",
+      "locator": "https://pacmusee.qc.ca/fr/traite-grande-paix-montreal/",
+      "authority_scope": "les propos consignés dans le document; ne pas confondre attribution du rédacteur et adhésion de toutes les nations",
+      "limitations": "Texte transcrit d’un document colonial; ses catégories, ses formulations et sa voix demandent une lecture critique."
+    },
+    {
+      "id": "src:pac-traite",
+      "title": "Pointe-à-Callière — Le traité de la Grande Paix de Montréal (transcription)",
+      "kind": "historical_document_transcription",
+      "locator": "https://pacmusee.qc.ca/fr/traite-grande-paix-montreal/",
+      "authority_scope": "archive écrite coloniale, vocabulaire daté et point de vue situés",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pc-apres1760",
+      "title": "Parcs Canada — Une histoire tapissée de fourrures (Lachine)",
+      "kind": "institutional_history_web",
+      "locator": "https://parcs.canada.ca/lhn-nhs/qc/lachine/culture/histoire-history/site/trappe-trapping",
+      "authority_scope": "changement de pouvoir après 1760 et économie de la traite",
+      "limitations": "Résumé institutionnel; ne résume pas les positions des nations."
+    },
+    {
+      "id": "src:pc-champlain",
+      "title": "Parcs Canada — Samuel de Champlain, premier Français à Chambly",
+      "kind": "institutional_web",
+      "locator": "https://parcs.canada.ca/lhn-nhs/qc/fortchambly/culture/histoire-history/site/samuel-de-champlain",
+      "authority_scope": "1608, commerces et relations avec des interlocuteurs autochtones; récit institutionnel",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pc-kondiaronk",
+      "title": "Parcs Canada — Kondiaronk",
+      "kind": "institutional_web",
+      "locator": "https://www.pc.gc.ca/apps/dfhd/page_nhs_fra.aspx?i=69214&id=1938",
+      "authority_scope": "importance diplomatique de Kondiaronk; commémoration institutionnelle",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pc-mikmaq",
+      "title": "Parcs Canada — L’alliance entre les Mi’kmaq et les Français au XVIIIe siècle",
+      "kind": "institutional_web",
+      "locator": "https://www.canada.ca/fr/parcs-canada/nouvelles/2019/08/lalliance-entre-les-mikmaq-et-les-francais-au-xviiiesiecle.html",
+      "authority_scope": "illustration d’alliances variables, commerce, territoire",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pc-pensionnats",
+      "title": "Parcs Canada — Le système de pensionnats autochtones",
+      "kind": "institutional_history_web",
+      "locator": "https://www.canada.ca/fr/parcs-canada/nouvelles/2020/09/le-systeme-de-pensionnats-autochtones.html",
+      "authority_scope": "politiques de séparation forcée d’enfants et effets durables du système colonial",
+      "limitations": "Sujet sensible. À présenter selon l’âge, avec un enseignant et sans visuels traumatisants ni gamification des souffrances."
+    },
+    {
+      "id": "src:quebec-ccq",
+      "title": "Gouvernement du Québec — Culture et citoyenneté québécoise au primaire",
+      "kind": "institutional_web",
+      "locator": "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/programmes-formations-evaluation/programme-formation-ecole-quebecoise/primaire/culture-citoyennete-quebecoise",
+      "authority_scope": "réalités culturelles, dialogue, perspective",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:v3-pac-325",
+      "title": "Pointe-à-Callière — 325e anniversaire de la Grande Paix",
+      "locator": "https://pacmusee.qc.ca/fr/medias/communiques-de-presse/communique-presse-grande-paix-montreal-1701/",
+      "voix": "Communication muséale publiée en 2026",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:v3-pac-paix",
+      "title": "Pointe-à-Callière — La Grande Paix de Montréal",
+      "locator": "https://pacmusee.qc.ca/fr/histoires-de-montreal/article/la-grande-paix-de-montreal/",
+      "voix": "Interprétation muséale",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:v3-pac-traite",
+      "title": "Pointe-à-Callière — Transcription de la Grande Paix de Montréal",
+      "locator": "https://pacmusee.qc.ca/fr/traite-grande-paix-montreal/",
+      "voix": "Archives coloniales / transcription historique",
+      "acces": "lien distant ; données essentielles embarquées dans le Kristal",
+      "licence": "citation et lien, pas de redistribution intégrale"
+    },
+    {
+      "id": "src:wendat-archives",
+      "title": "Conseil de la Nation Wendat — Centre d’archives",
+      "kind": "nation_authored_web",
+      "locator": "https://www.wendake.ca/etablissements/centre-darchives",
+      "authority_scope": "démarches diplomatiques territoriales wendat de 1825",
+      "limitations": "Le site documente l’histoire de la Nation Wendat, pas toutes les revendications territoriales."
+    }
+  ],
+  "tracabilite_v2": [
+    {
+      "assertion_id": "fait:champlain-1608",
+      "source_id": "src:pc-champlain",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:commerce-fourrures",
+      "source_id": "src:pc-champlain",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:alliance-1603",
+      "source_id": "src:dnd-rencontres",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:commerce-participation",
+      "source_id": "src:pc-champlain",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:paix-date",
+      "source_id": "src:pac-traite",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:paix-participants",
+      "source_id": "src:pac-traite",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:paix-39",
+      "source_id": "src:pac-grande-paix",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:kondiaronk",
+      "source_id": "src:pac-grande-paix",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:calliere",
+      "source_id": "src:pac-grande-paix",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:traitement-sources",
+      "source_id": "src:quebec-ccq",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:relations-varient",
+      "source_id": "src:pc-mikmaq",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:mi-kmaq-alliances",
+      "source_id": "src:pc-mikmaq",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_institutionnelle",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:pouvoir-apres1760",
+      "source_id": "src:pc-apres1760",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_historique",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:wendat-1825",
+      "source_id": "src:wendat-archives",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_historique",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:pensionnats",
+      "source_id": "src:pc-pensionnats",
+      "ancrage_section": "Fiche existante v1 — section à préciser",
+      "perspective": "synthese_de_source_historique",
+      "type_document": "publication_documentaire",
+      "statut_revue": "ancrage_precis_a_completer",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:1701-colliers-diplomatiques",
+      "source_id": "src:pac-texte-1701",
+      "ancrage_section": "Pointe-à-Callière / Discours et signes des représentants",
+      "perspective": "transcription_document_colonial",
+      "type_document": "source_historique_contextualisee",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:1701-appel-non-vengeance",
+      "source_id": "src:pac-texte-1701",
+      "ancrage_section": "Pointe-à-Callière / discours de Callière / tranquillité et différends",
+      "perspective": "discours_normatif_colonial",
+      "type_document": "source_historique_contextualisee",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:1701-chasse-accord",
+      "source_id": "src:pac-texte-1701",
+      "ancrage_section": "Pointe-à-Callière / discours de Callière / chasse",
+      "perspective": "discours_normatif_colonial",
+      "type_document": "source_historique_contextualisee",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    },
+    {
+      "assertion_id": "fait:1701-musee-entente",
+      "source_id": "src:pac-contexte-1701",
+      "ancrage_section": "Pointe-à-Callière / La Grande Paix de Montréal / entente",
+      "perspective": "synthese_museale",
+      "type_document": "source_historique_contextualisee",
+      "statut_revue": "documentaire_exploree",
+      "revue_par_nation": "a_solliciter"
+    }
+  ],
+  "limites": [
+    "Une fiche ne décrit pas une nation entière.",
+    "Les affirmations de documents coloniaux sont marquées comme telles.",
+    "Une absence de donnée ne démontre jamais une impossibilité historique."
+  ],
+  "historique_migration": {
+    "source": "societes-rencontres-v2.json + societes-rencontres-v3.json",
+    "note": "Données reformées en deux propriétaires sémantiques; le cours ne contient plus le corpus v3."
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ap-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Expérimenter des gestes, supports et procédés plastiques de façon sûre.",
+  "concepts": [
+    "outil",
+    "geste",
+    "technique",
+    "trace"
+  ],
+  "preuve_attendue": "Produire une planche d’essais légendée et comparer les effets.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ap-002-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Produire une planche d’essais légendée et comparer les effets.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "a_revoir",
+      "kristal_id": "qc-pri-ap-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "planche de traces papier légendée",
+        "observation de gestes documentée",
+        "comparaison orale ou écrite de deux effets"
+      ],
+      "variables": {
+        "mode": "corpus_de_scenarios_fixes",
+        "identifiants_items": [
+          "qc-pri-ap-002-q-001",
+          "qc-pri-ap-002-q-002",
+          "qc-pri-ap-002-q-003",
+          "qc-pri-ap-002-q-004",
+          "qc-pri-ap-002-q-005",
+          "qc-pri-ap-002-q-006",
+          "qc-pri-ap-002-q-007",
+          "qc-pri-ap-002-q-008",
+          "qc-pri-ap-002-q-009",
+          "qc-pri-ap-002-q-010",
+          "qc-pri-ap-002-q-011",
+          "qc-pri-ap-002-q-012"
+        ],
+        "materiaux_autorises": [
+          "crayon à mine adapté",
+          "crayon de cire adapté",
+          "feutre lavable approprié aux enfants",
+          "papier lisse",
+          "papier texturé non abrasif",
+          "carton sécuritaire"
+        ],
+        "dimensions_a_explorer": [
+          "direction",
+          "espacement",
+          "répétition",
+          "type de geste",
+          "texture du support"
+        ],
+        "regle": "sélection parmi les scénarios décrits; toute substitution nécessite une revue humaine"
+      },
+      "contraintes": [
+        "réaliser une trace observable et légendée",
+        "comparer au moins deux traces réellement produites",
+        "ne jamais évaluer la beauté ou le style",
+        "aucun matériau inconnu, dangereux, coupant, irritant, volatil ou en poudre",
+        "aide motrice possible sans fournir l’analyse",
+        "deux contextes d’épreuve sans indices"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "exploration contrôlée",
+          "légendes exactes",
+          "comparaison fondée",
+          "sécurité et autonomie"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "decision": "chaque preuve finale atteint au moins le niveau 2 sur les trois dimensions de production et 3 sur la sécurité; répétition dans deux contextes"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md",
+        "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

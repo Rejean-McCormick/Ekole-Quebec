@@ -1,0 +1,83 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décomposer et recomposer des nombres grâce aux valeurs de position.",
+  "concepts": [
+    "unités",
+    "dizaines",
+    "centaines",
+    "base dix"
+  ],
+  "preuve_attendue": "Décomposer un nombre de deux façons puis effectuer un regroupement inverse.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-002"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-003-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Décomposer un nombre de deux façons puis effectuer un regroupement inverse.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_items_a_revoir",
+      "kristal_id": "qc-pri-ma-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "matériel de base dix (ou texte équivalent)",
+        "schéma légendé C-D-U",
+        "notation arithmétique",
+        "justification orale, écrite ou tactile transcrite"
+      ],
+      "variables": {
+        "H": "nombre de centaines entières, entier de 1 à 8 selon item",
+        "T": "nombre de dizaines canoniques, entier de 0 à 9; T>=1 pour échange D vers U",
+        "U": "nombre d’unités canoniques, entier de 0 à 9",
+        "N": "100*H+10*T+U, entier de 100 à 899 pour instances de générateurs décrites",
+        "sens_echange": [
+          "1D -> 10U si T>=1",
+          "1C -> 10D si H>=1"
+        ]
+      },
+      "contraintes": [
+        "N toujours entier naturel à trois chiffres; aucun nombre négatif ni décimal",
+        "décomposition canonique H C + T D + U U; somme exactement conservée",
+        "seconde décomposition obtenue par un échange réel; inverse restaure la première",
+        "item paramétrique à graine stable et formule explicite avec exemples testés",
+        "deux contextes de maîtrise distincts sans indice (q-007, q-008)"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "valeur_totale_et_valeurs_de_position",
+          "deux_decompositions_distinctes_equivalentes",
+          "regroupement_inverse_explicite",
+          "justification_autonome"
+        ],
+        "echelle": "0=non démontré, 1=partiel/avec erreur, 2=exact et autonome pour chaque dimension",
+        "decision": "deux preuves, chacune à 2 pour les 4 dimensions, en contextes distincts sans aide de calcul; ne pas conclure sur une note unique",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": "production_originale_qc-pri-ma-003_v1.2_fondee_sur_workspace_v1.2",
+      "seed": 3003,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_en_revision_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

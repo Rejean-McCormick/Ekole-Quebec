@@ -1,0 +1,21 @@
+{
+  "format": "ekole.repartition-semantiques-v3/1.0",
+  "proprietaires": {
+    "societes-autochtones-quebec": {
+      "assertions": 30,
+      "relations": 13,
+      "regles": 4,
+      "societes": 11
+    },
+    "rencontres-coloniales-quebec": {
+      "assertions": 25,
+      "relations": 5,
+      "regles": 2,
+      "societes": 6
+    }
+  },
+  "cours": "qc-pri-us-009",
+  "assertions_total": 55,
+  "selection_cours": 22,
+  "limites": "Les extractions v3 sont des propositions candidates; revue des nations et essai classe manquants."
+}

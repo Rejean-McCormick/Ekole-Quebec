@@ -1,0 +1,71 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Orthographier et ponctuer des phrases anglaises ciblées.",
+  "concepts": [
+    "spelling patterns",
+    "capitals",
+    "punctuation"
+  ],
+  "preuve_attendue": "Corriger un message en repérant et justifiant les corrections.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-002"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-009-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Corriger un message en repérant et justifiant les corrections.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-ale-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "phrase_ecrite",
+        "message_ecrit_deux_phrases",
+        "message_ecrit_multiligne"
+      ],
+      "variables": {
+        "mode": "corpus_fixe_et_scenarios_controles",
+        "variables_parametriques": [],
+        "textes_de_preuve_figes": [
+          "qc-pri-ale-009-q-009",
+          "qc-pri-ale-009-q-010"
+        ]
+      },
+      "contraintes": [
+        "Seuls les 10 messages et corrigés fermés de BANQUE_ITEMS.json sont autorisés dans cette version.",
+        "Cibles: rain/train/paint, day/play/stay, make/write/smile + ing, capitales et ponctuation finale.",
+        "Aucune reformulation IA libre ni ajout/suppression automatique d’erreurs.",
+        "Deux manifestations distinctes autonomes avec repérage et justification; toutes accommodations conservent la décision linguistique de l’élève."
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md : contrôle des changements ciblés, justifications S/C/P, stabilité et autonomie entre bibliothèque et projet de jardin.",
+      "source": {
+        "interne": "Contenu original du delta; gouvernance v1.2 et graphe v1.2 consultés.",
+        "ressources_externes": "sources/REFERENCES_CONTENU.md (British Council; Cambridge Dictionary)"
+      },
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

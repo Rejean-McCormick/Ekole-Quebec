@@ -1,0 +1,94 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-da-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Composer une phrase dansée structurée avec un début et une fin.",
+  "concepts": [
+    "motif",
+    "répétition",
+    "transition",
+    "structure"
+  ],
+  "preuve_attendue": "Présenter une phrase chorégraphique originale mémorisable.",
+  "prerequis_bloquants": [
+    "qc-pri-da-002"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-da-003-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Présenter une phrase chorégraphique originale mémorisable.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-da-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "presentation_en_mouvement",
+        "carte_de_sequence",
+        "description_orale_ou_ecrite",
+        "observation_directe"
+      ],
+      "variables": {
+        "selection": "aucun_tirage_libre",
+        "contextes_fixes": [
+          "jardin_imaginaire",
+          "atelier_formes_geometriques"
+        ],
+        "adaptations": [
+          "assis",
+          "debout",
+          "avec_appui_stable"
+        ],
+        "motifs": "conçus librement par la personne, sans modifier les critères observables"
+      },
+      "contraintes": [
+        "début et fin identifiables",
+        "motif repris reconnaissable",
+        "liaison intentionnelle",
+        "séquence mémorisable et reproductible",
+        "mouvements sûrs choisis",
+        "aucune évaluation de la morphologie ni de la virtuosité",
+        "deux contextes de preuve distincts",
+        "aucune génération libre sans revue humaine"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "niveaux": {
+          "0": "non observable",
+          "1": "en construction",
+          "2": "observable de manière autonome"
+        },
+        "dimensions": [
+          "E1_debut_et_fin",
+          "E2_motif_et_repetition",
+          "E3_transition_et_structure",
+          "E4_memoire_reproductibilite",
+          "E5_intention_et_initiative"
+        ],
+        "decision": "deux observations dans deux contextes avec E1-E4 niveau 2 et E5 documenté; pas de moyenne ni score unique"
+      },
+      "source": "sources/REFERENCES_CONTENU.md (gouvernance interne consultée et création originale)",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_en_attente_de_revue_humaine",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

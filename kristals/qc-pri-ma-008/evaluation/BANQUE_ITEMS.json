@@ -1,0 +1,528 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-008",
+  "family_id": "qc-pri-ma-008-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-008-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Dessine trois groupes contenant chacun quatre boutons. Écris la somme répétée et la multiplication, puis le total avec unité.",
+      "stimulus": "Trois petits sacs; quatre boutons dans chaque sac.",
+      "reponse_attendue": "Trois groupes de quatre points; 4 + 4 + 4 = 12; 3 × 4 = 12 boutons.",
+      "criteres": [
+        "Trois groupes distincts et égaux de quatre points.",
+        "Addition répétée de trois termes 4.",
+        "Produit 12 avec unité boutons."
+      ],
+      "feedback": "Si tu as fait 3 + 4, tu as additionné le nombre de groupes à leur taille. Dessine 4 points dans chacun des 3 groupes et compte-les.",
+      "difficulte": "initial",
+      "representation": "groupes_et_addition",
+      "seed": null,
+      "parametres": null,
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Dessine quatre rangées de trois étoiles, puis donne la multiplication et le total.",
+      "stimulus": "Tableau rectangulaire : 4 rangées; 3 étoiles dans chaque rangée.",
+      "reponse_attendue": "Quatre lignes de trois étoiles; 4 × 3 = 12 étoiles. Vérification : 3 + 3 + 3 + 3 = 12.",
+      "criteres": [
+        "4 rangées clairement séparées.",
+        "3 étoiles dans chaque rangée.",
+        "Produit 12 et unité étoiles."
+      ],
+      "feedback": "Si ton dessin a trois rangées de quatre, tu as conservé le produit mais inversé le rôle des rangées. Reconstruis les quatre lignes demandées.",
+      "difficulte": "initial",
+      "representation": "tableau",
+      "seed": null,
+      "parametres": null,
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "parametrique",
+      "consigne": "Une école prépare 4 trousses contenant chacune 6 autocollants. Représente les trousses par des groupes, écris la somme itérée et calcule le total.",
+      "stimulus": "INSTANCE PARAMÉTRIQUE VERROUILLÉE — seed 17: g=4 trousses, n=6 autocollants par trousse.",
+      "reponse_attendue": "4 groupes de 6 points; 6 + 6 + 6 + 6 = 24; 4 × 6 = 24 autocollants.",
+      "criteres": [
+        "g groupes visibles de n points chacun.",
+        "Somme de n répétée g fois.",
+        "Produit g × n correct et unité."
+      ],
+      "feedback": "Si le nombre d’autocollants diffère du nombre de points dessinés, recompte un groupe et répète sa taille exactement g fois.",
+      "difficulte": "intermediaire",
+      "representation": "groupes_egaux",
+      "seed": 17,
+      "parametres": {
+        "variables": {
+          "g": {
+            "entiers": [
+              2,
+              6
+            ]
+          },
+          "n": {
+            "entiers": [
+              3,
+              8
+            ]
+          }
+        },
+        "contraintes": [
+          "seed entier ≥ 0",
+          "g × n ≤ 48",
+          "tous les g groupes de même taille n",
+          "pas de négatifs ni de données personnelles"
+        ],
+        "algorithme_instanciation": "g = 2 + (seed % 5); n = 3 + ((seed // 5) % 6)",
+        "formule_corrige": "total = g × n; vérification = somme de g occurrences de n",
+        "instance_verrouillee": {
+          "g": 4,
+          "n": 6
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "g": 2,
+            "n": 3,
+            "seed": 0,
+            "resultat": 6
+          },
+          {
+            "g": 4,
+            "n": 4,
+            "seed": 7,
+            "resultat": 16
+          },
+          {
+            "g": 6,
+            "n": 8,
+            "seed": 29,
+            "resultat": 48
+          }
+        ],
+        "verification": "Comparer produit g*n au total obtenu par addition itérée dans l’ensemble des 30 couples (g,n).",
+        "regle_seed": "La seed entière inscrite dans le champ seed est stable. Chaque formule ci-dessus est évaluée en arithmétique entière avec % (reste) et // (quotient entier); une autre seed doit respecter les mêmes contraintes et être recalculée avant utilisation."
+      },
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Ces trois bols contiennent respectivement 2, 3 et 2 biscuits. Peux-tu représenter exactement la situation comme « 3 groupes de 2 »? Justifie et calcule le total réel.",
+      "stimulus": "Bol A : ●● ; bol B : ●●● ; bol C : ●●.",
+      "reponse_attendue": "Non : les tailles des groupes sont 2, 3, 2, donc inégales. Total réel : 2 + 3 + 2 = 7 biscuits; 3 × 2 = 6 ne décrit pas cette situation.",
+      "criteres": [
+        "Identifie l’inégalité des tailles.",
+        "Explique pourquoi 3 × 2 n’est pas fidèle.",
+        "Addition et total réel 7 biscuits."
+      ],
+      "feedback": "Même si deux bols contiennent 2 biscuits, le bol de 3 empêche de dire que chaque groupe en contient 2.",
+      "difficulte": "intermediaire",
+      "representation": "contre_exemple_et_addition",
+      "seed": null,
+      "parametres": null,
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Dessine quatre groupes de sept jetons et partage chaque groupe en 5 et 2. Utilise la distributivité pour calculer le total.",
+      "stimulus": "Quatre lots égaux de sept jetons; décomposition 7 = 5 + 2.",
+      "reponse_attendue": "4 × 7 = 4 × (5 + 2) = 4 × 5 + 4 × 2 = 20 + 8 = 28 jetons; quatre groupes de sept points partagés 5|2.",
+      "criteres": [
+        "Quatre groupes de sept montrés.",
+        "Distributivité appliquée aux deux parties.",
+        "20 + 8 = 28 avec unité."
+      ],
+      "feedback": "Si tu écris 4 × 5 + 2, tu comptes la deuxième partie une seule fois. Les 2 jetons sont répétés dans chacun des quatre groupes.",
+      "difficulte": "intermediaire",
+      "representation": "distributivite_dessin",
+      "seed": null,
+      "parametres": null,
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "parametrique",
+      "consigne": "Trace un tableau de 5 rangées et 4 colonnes de points. Écris deux façons d’obtenir le total.",
+      "stimulus": "INSTANCE PARAMÉTRIQUE VERROUILLÉE — seed 38: r=5 rangées, c=4 colonnes.",
+      "reponse_attendue": "5 lignes de 4 points; 5 × 4 = 20 points; 4 + 4 + 4 + 4 + 4 = 20. Lecture en colonnes : 4 × 5 = 20.",
+      "criteres": [
+        "Exactement r rangées et c points dans chaque rangée.",
+        "Produit r × c exact.",
+        "Deuxième vérification par somme ou colonnes."
+      ],
+      "feedback": "Ne confonds pas le nombre de rangées et le nombre de points par rangée; le produit est égal après rotation mais le dessin doit suivre l’énoncé.",
+      "difficulte": "intermediaire",
+      "representation": "tableau_et_equivalence",
+      "seed": 38,
+      "parametres": {
+        "variables": {
+          "r": {
+            "entiers": [
+              2,
+              6
+            ]
+          },
+          "c": {
+            "entiers": [
+              3,
+              8
+            ]
+          }
+        },
+        "contraintes": [
+          "seed entier ≥ 0",
+          "r × c ≤ 48",
+          "tableau à r rangées exactement",
+          "chaque rangée a c points"
+        ],
+        "algorithme_instanciation": "r = 2 + (seed % 5); c = 3 + ((seed // 5) % 6)",
+        "formule_corrige": "total = r × c; vérification = c additionné r fois",
+        "instance_verrouillee": {
+          "r": 5,
+          "c": 4
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "r": 2,
+            "c": 3,
+            "seed": 0,
+            "resultat": 6
+          },
+          {
+            "r": 5,
+            "c": 4,
+            "seed": 8,
+            "resultat": 20
+          },
+          {
+            "r": 6,
+            "c": 8,
+            "seed": 29,
+            "resultat": 48
+          }
+        ],
+        "verification": "Tester 30 couples (r,c), compter les cellules r*c et vérifier la somme répétée.",
+        "regle_seed": "La seed entière inscrite dans le champ seed est stable. Chaque formule ci-dessus est évaluée en arithmétique entière avec % (reste) et // (quotient entier); une autre seed doit respecter les mêmes contraintes et être recalculée avant utilisation."
+      },
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare un dessin de trois paquets de cinq jetons et un dessin de cinq paquets de trois. Quelle multiplication représente chaque dessin? Pourquoi les totaux sont-ils égaux?",
+      "stimulus": "Situation A : 3 paquets de 5 jetons. Situation B : 5 paquets de 3 jetons.",
+      "reponse_attendue": "Dessin A : 3 groupes de 5, 3 × 5 = 15; dessin B : 5 groupes de 3, 5 × 3 = 15. Le nombre total de jetons est le même (15), mais le nombre de paquets et leur taille changent.",
+      "criteres": [
+        "Chaque dessin suit son propre énoncé.",
+        "Deux produits égaux à 15.",
+        "Explique la différence des groupements et l’égalité des totaux."
+      ],
+      "feedback": "Le changement d’ordre des facteurs conserve le produit, mais pas le nombre de paquets mentionné dans une histoire.",
+      "difficulte": "intermediaire",
+      "representation": "deux_representations",
+      "seed": null,
+      "parametres": null,
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "parametrique",
+      "consigne": "Des rangées de points sont organisées en 3 rangées identiques de 4 points et 3 points côte à côte. Dessine un tableau et calcule par distributivité.",
+      "stimulus": "INSTANCE PARAMÉTRIQUE VERROUILLÉE — seed 31: g=3, b=4, c=3; chaque rangée a b+c=7 points.",
+      "reponse_attendue": "Dessiner 3 lignes partagées 4|3; 3 × (4 + 3) = 3 × 4 + 3 × 3 = 12 + 9 = 21 points.",
+      "criteres": [
+        "g lignes de b+c points partagées en b et c.",
+        "Développement complet des deux produits.",
+        "Total exact et unité points."
+      ],
+      "feedback": "Les deux parties de chaque rangée se répètent g fois. Multiplie donc b et c par g avant d’additionner.",
+      "difficulte": "transfert",
+      "representation": "tableau_distributivite",
+      "seed": 31,
+      "parametres": {
+        "variables": {
+          "g": {
+            "entiers": [
+              2,
+              6
+            ]
+          },
+          "b": {
+            "entiers": [
+              2,
+              5
+            ]
+          },
+          "c": {
+            "entiers": [
+              2,
+              4
+            ]
+          }
+        },
+        "contraintes": [
+          "seed entier ≥ 0",
+          "g × (b+c) ≤ 54",
+          "b et c sont des parties distinctes dans chaque rangée",
+          "aucune fraction/valeur négative"
+        ],
+        "algorithme_instanciation": "g = 2 + (seed % 5); b = 2 + ((seed // 5) % 4); c = 2 + ((seed // 20) % 3)",
+        "formule_corrige": "total = g × (b+c) = g×b + g×c; contrôle par (b+c) répété g fois",
+        "instance_verrouillee": {
+          "g": 3,
+          "b": 4,
+          "c": 3
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "g": 2,
+            "b": 2,
+            "c": 2,
+            "seed": 0,
+            "resultat": 8
+          },
+          {
+            "g": 4,
+            "b": 5,
+            "c": 2,
+            "seed": 17,
+            "resultat": 28
+          },
+          {
+            "g": 3,
+            "b": 5,
+            "c": 4,
+            "seed": 56,
+            "resultat": 27
+          }
+        ],
+        "verification": "Tester les 5×4×3=60 triplets, égalité g*(b+c) = g*b+g*c et somme répétée.",
+        "regle_seed": "La seed entière inscrite dans le champ seed est stable. Chaque formule ci-dessus est évaluée en arithmétique entière avec % (reste) et // (quotient entier); une autre seed doit respecter les mêmes contraintes et être recalculée avant utilisation."
+      },
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "parametrique",
+      "consigne": "PREUVE AUTONOME 1 — Atelier. L’atelier dispose de 5 boîtes, chacune contenant 6 pièces identiques pour monter des jeux. Sans indice, dessine les boîtes et leurs pièces, écris une multiplication et calcule le nombre total de pièces. Explique comment ton dessin prouve le calcul.",
+      "stimulus": "CONTEXT 1 ATELIER — INSTANCE PARAMÉTRIQUE VERROUILLÉE, seed 74: g=5 boîtes, n=6 pièces par boîte; aucune aide de contenu.",
+      "reponse_attendue": "Dessin : 5 boîtes distinctes contenant chacune 6 points ou symboles de pièces; 5 × 6 = 30 pièces. Vérification : 6 + 6 + 6 + 6 + 6 = 30 pièces. Explication : g est le nombre de boîtes, n la taille de chaque boîte.",
+      "criteres": [
+        "Sans aide : g groupes égaux de n pièces explicitement visibles.",
+        "Correspondance exacte entre énoncé et g × n.",
+        "Produit et unité pièces exacts.",
+        "Explication ou vérification indépendante cohérente."
+      ],
+      "feedback": "Si ton résultat est correct mais que le dessin ne montre pas les boîtes et leur contenu, recommence avec une boîte par groupe puis une somme contenant exactement g termes.",
+      "difficulte": "transfert",
+      "representation": "groupes_dessines_calcul_atelier",
+      "seed": 74,
+      "parametres": {
+        "variables": {
+          "g": {
+            "entiers": [
+              3,
+              6
+            ]
+          },
+          "n": {
+            "entiers": [
+              4,
+              7
+            ]
+          }
+        },
+        "contraintes": [
+          "seed entier ≥ 0",
+          "g × n ≤ 42",
+          "chaque boîte contient n pièces",
+          "contexte fixe atelier; aucune substitution de contexte non révisée"
+        ],
+        "algorithme_instanciation": "g = 3 + (seed % 4); n = 4 + ((seed // 4) % 4)",
+        "formule_corrige": "total = g × n; preuve indépendante = somme de g occurrences de n",
+        "instance_verrouillee": {
+          "g": 5,
+          "n": 6
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "g": 3,
+            "n": 4,
+            "seed": 0,
+            "resultat": 12
+          },
+          {
+            "g": 4,
+            "n": 4,
+            "seed": 17,
+            "resultat": 16
+          },
+          {
+            "g": 6,
+            "n": 7,
+            "seed": 63,
+            "resultat": 42
+          }
+        ],
+        "verification": "Tester les 16 couples g,n possibles pour corriger produit et addition; même grille sur deux représentations.",
+        "regle_seed": "La seed entière inscrite dans le champ seed est stable. Chaque formule ci-dessus est évaluée en arithmétique entière avec % (reste) et // (quotient entier); une autre seed doit respecter les mêmes contraintes et être recalculée avant utilisation."
+      },
+      "preuve_maitrise": true,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "parametrique",
+      "consigne": "PREUVE AUTONOME 2 — Jardin. Dans un jardin scolaire, 5 rangées de 8 jeunes plants sont disposées régulièrement. Sans indice, dessine le jardin en tableau de points, écris la multiplication, donne le total de plants et montre une autre façon de vérifier.",
+      "stimulus": "CONTEXTE 2 JARDIN — INSTANCE PARAMÉTRIQUE VERROUILLÉE, seed 94: r=5 rangées, c=8 plants par rangée; aucune aide de contenu.",
+      "reponse_attendue": "Tableau de 5 rangées de 8 points; 5 × 8 = 40 jeunes plants; vérification 8 + 8 + 8 + 8 + 8 = 40. Lecture : r lignes et c plants par ligne.",
+      "criteres": [
+        "Sans aide : exactement r rangées contenant chacune c plants.",
+        "Correspondance exacte entre le tableau et r × c.",
+        "Total et unité jeunes plants exacts.",
+        "Deuxième calcul justifié par addition répétée ou décomposition correcte."
+      ],
+      "feedback": "Si tu as seulement donné un total, ajoute le tableau exigé : il doit montrer le nombre de rangées et leur taille, pas seulement une collection de points.",
+      "difficulte": "transfert",
+      "representation": "tableau_dessine_calcul_jardin",
+      "seed": 94,
+      "parametres": {
+        "variables": {
+          "r": {
+            "entiers": [
+              4,
+              6
+            ]
+          },
+          "c": {
+            "entiers": [
+              5,
+              8
+            ]
+          }
+        },
+        "contraintes": [
+          "seed entier ≥ 0",
+          "r × c ≤ 48",
+          "r lignes identiques; c plants dans chacune",
+          "contexte jardin fixe; ne pas substituer la situation d’atelier"
+        ],
+        "algorithme_instanciation": "r = 4 + (seed % 3); c = 5 + ((seed // 3) % 4)",
+        "formule_corrige": "total = r × c; vérification = c additionné r fois",
+        "instance_verrouillee": {
+          "r": 5,
+          "c": 8
+        },
+        "exemples_alternatifs_verifies": [
+          {
+            "r": 4,
+            "c": 5,
+            "seed": 0,
+            "resultat": 20
+          },
+          {
+            "r": 5,
+            "c": 8,
+            "seed": 10,
+            "resultat": 40
+          },
+          {
+            "r": 6,
+            "c": 8,
+            "seed": 35,
+            "resultat": 48
+          }
+        ],
+        "verification": "Tester les 12 couples r,c possibles pour produit et addition; valider des contextes indépendants de q-009.",
+        "regle_seed": "La seed entière inscrite dans le champ seed est stable. Chaque formule ci-dessus est évaluée en arithmétique entière avec % (reste) et // (quotient entier); une autre seed doit respecter les mêmes contraintes et être recalculée avant utilisation."
+      },
+      "preuve_maitrise": true,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Un élève calcule « 6 boîtes de 2 cartes » en faisant 6 + 2 = 8. Dessine une correction et écris la bonne multiplication.",
+      "stimulus": "Six boîtes contenant chacune deux cartes; réponse erronée proposée : 8 cartes.",
+      "reponse_attendue": "Six groupes de 2 cartes; 2 + 2 + 2 + 2 + 2 + 2 = 12; 6 × 2 = 12 cartes. 6 + 2 n’exprime pas six répétitions.",
+      "criteres": [
+        "Repère et explique la confusion addition/multiplication.",
+        "Dessine six groupes égaux de 2.",
+        "Obtient 12 cartes avec une expression appropriée."
+      ],
+      "feedback": "Le 6 dénombre les boîtes et le 2 dénombre les cartes par boîte. On répète le 2 six fois, pas une seule fois.",
+      "difficulte": "intermediaire",
+      "representation": "contre_exemple_corrige",
+      "seed": null,
+      "parametres": null,
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-008-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Une scène comporte trois rangées de dix sièges. Chaque rangée a 6 sièges à gauche et 4 à droite. Dessine le tableau en deux parties et calcule le total avec la distributivité.",
+      "stimulus": "Trois rangées de 10 sièges, découpage identique 6|4 dans chaque rangée.",
+      "reponse_attendue": "Trois lignes de 6|4 points; 3 × (6 + 4) = 3 × 6 + 3 × 4 = 18 + 12 = 30 sièges; vérification 10 + 10 + 10 = 30.",
+      "criteres": [
+        "Dessine trois lignes contenant chacune 6 + 4 places.",
+        "Distribution sur les deux parties des trois lignes.",
+        "Produit 30 et unité sièges; contrôle cohérent."
+      ],
+      "feedback": "Si le deuxième produit manque, chaque rangée a pourtant quatre sièges à droite. Reconstitue les trois groupes de quatre.",
+      "difficulte": "transfert",
+      "representation": "tableau_distributivite",
+      "seed": null,
+      "parametres": null,
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

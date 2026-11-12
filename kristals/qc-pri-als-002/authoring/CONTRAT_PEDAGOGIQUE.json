@@ -1,0 +1,116 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Employer un lexique anglais ciblé dans des échanges authentiques.",
+  "concepts": [
+    "lexique fréquent",
+    "catégorisation",
+    "expressions"
+  ],
+  "preuve_attendue": "Nommer et utiliser correctement des mots nouveaux dans un mini-dialogue.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-002-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Nommer et utiliser correctement des mots nouveaux dans un mini-dialogue.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_produits_a_revoir",
+      "kristal_id": "qc-pri-als-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "objet_ou_carte_sans_etiquette",
+        "scene_ecrite_decrite",
+        "mini_dialogue_oral_ou_CAA"
+      ],
+      "variables": {
+        "mode": "fixe_et_scenario_controle_sans_aleatoire",
+        "corpus_lexical_ferme": {
+          "classe": [
+            "pencil",
+            "ruler",
+            "notebook",
+            "eraser"
+          ],
+          "collation": [
+            "apple",
+            "banana",
+            "water",
+            "sandwich"
+          ],
+          "quartier": [
+            "library",
+            "park",
+            "school",
+            "store"
+          ]
+        },
+        "scenarios_variants_approuves": {
+          "preuve_A": [
+            "pencil",
+            "notebook",
+            "ruler"
+          ],
+          "preuve_A_variante": [
+            "eraser",
+            "notebook",
+            "ruler"
+          ],
+          "preuve_B": [
+            "apple",
+            "water",
+            "banana"
+          ],
+          "preuve_B_variante": [
+            "sandwich",
+            "water",
+            "apple"
+          ]
+        },
+        "selection": "manuelle_par_evaluateur;aucun_tirage_ni_generation_IA_libre"
+      },
+      "contraintes": [
+        "conserver obj-1 et crit-1; chaque réponse doit identifier un référent du scénario",
+        "aucun mot anglais cible affiché en banque lors des preuves",
+        "deux contextes de maîtrise distincts et à deux occasions",
+        "trois mots cibles distincts produits par preuve; deux tours de parole de l’élève et réponse à une relance",
+        "variantes limitées aux scènes et groupes de mots du corpus approuvé; toute nouvelle variante exige revue humaine",
+        "ne pas évaluer l’accent natif, les préférences alimentaires ou les données personnelles"
+      ],
+      "barreme_ou_rubrique": {
+        "fichier": "../evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "pertinence_lexicale",
+          "adequation_contextuelle",
+          "interaction_autonome",
+          "intelligibilite"
+        ],
+        "preuve": "deux_dossiers_independants_q-009_et_q-010",
+        "regle": "3 mots distincts exacts par contexte, deux prises de parole dont réponse à relance; contexte adéquat et intelligible; sans indice lexical/semantique"
+      },
+      "source": "production_originale_locale_2026-10-09_sur_frame_v1.2",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_produit_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

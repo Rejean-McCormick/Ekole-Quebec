@@ -1,0 +1,83 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-als-001",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Exécuter et reformuler des consignes orales courantes en anglais.",
+    "concepts": [
+      "formules usuelles",
+      "consignes",
+      "contexte"
+    ]
+  },
+  "titre_source": "Comprendre des consignes et des messages oraux",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "formules usuelles, consignes, contexte",
+      "prompt_conceptuel": "Concept d'image pour le cours « Comprendre des consignes et des messages oraux ». Représenter une situation d’apprentissage de l’anglais en contexte. Mettre en évidence les notions : formules usuelles, consignes, contexte. L'image doit aider à comprendre l'objectif « Exécuter et reformuler des consignes orales courantes en anglais. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Comprendre des consignes et des messages oraux : formules usuelles, consignes, contexte.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "formules usuelles, consignes, contexte",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Comprendre des consignes et des messages oraux » : montrer une interaction où des indices contextuels soutiennent la compréhension en anglais. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter formules usuelles, consignes, contexte. Cette image sert de point de départ à une activité liée à l'objectif « Exécuter et reformuler des consignes orales courantes en anglais. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Exemples originaux résolus »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Comprendre des consignes et des messages oraux.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Exemples originaux résolus",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

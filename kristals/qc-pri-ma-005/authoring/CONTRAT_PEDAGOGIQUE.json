@@ -1,0 +1,74 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Produire une estimation défendable et arrondir selon un rang annoncé.",
+  "concepts": [
+    "ordre de grandeur",
+    "arrondi",
+    "approximation"
+  ],
+  "preuve_attendue": "Estimer puis vérifier une quantité en signalant l’écart observé.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-003"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-005-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Estimer puis vérifier une quantité en signalant l’écart observé.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ma-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "droite graduée",
+        "matériel en paquets",
+        "calcul écrit et justification orale ou écrite"
+      ],
+      "variables": {
+        "types_de_cas": [
+          "quantity",
+          "add",
+          "sub"
+        ],
+        "rang": [
+          10,
+          100,
+          1000
+        ],
+        "valeurs": "entiers non négatifs parmi cas_finis de BANQUE_ITEMS.json"
+      },
+      "contraintes": [
+        "0<=n, a, b; a>=b pour sub",
+        "arrondi du milieu vers le haut pour nombres entiers non négatifs",
+        "E et T non négatifs, unités constantes",
+        "choix déterministe seed modulo longueur de la liste de cas",
+        "contrôle oracle Decimal ROUND_HALF_UP sur chaque cas fini"
+      ],
+      "barreme_ou_rubrique": "Critères : rang, stratégie, estimation, exact, E−T, |E−T| et interprétation; deux preuves autonomes M-A et M-B, sans moyenne unique. Voir GRILLE_MAITRISE.md.",
+      "source": "Calculs et cas originaux du microparcours; règles arithmétiques exactes vérifiées dans VALIDATION.md.",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

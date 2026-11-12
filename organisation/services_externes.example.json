@@ -1,0 +1,21 @@
+{
+  "format": "ekole.external-services/0.1",
+  "services": [
+    {
+      "id": "ecole-konnaxion",
+      "label": "Service scolaire Konnaxion",
+      "url": "https://ecole.konnaxion.com",
+      "enabled": false,
+      "verification": "non_verifie",
+      "mode": "link_only",
+      "data_transfer": "none"
+    },
+    {
+      "id": "mediatheque",
+      "label": "Médiathèque",
+      "reference_scheme": "koa-media://",
+      "enabled": false,
+      "verification": "adapter_et_droits_a_confirmer"
+    }
+  ]
+}

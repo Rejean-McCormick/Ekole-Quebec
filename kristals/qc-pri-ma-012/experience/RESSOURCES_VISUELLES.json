@@ -1,0 +1,138 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ma-012",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Représenter une fraction comme partie d’un tout ou d’une collection.",
+    "concepts": [
+      "tout",
+      "parts égales",
+      "numérateur",
+      "dénominateur"
+    ]
+  },
+  "titre_source": "Fractions : représentations et sens",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [
+      {
+        "type": "fraction",
+        "statut": "suggestion_de_composant_a_verifier",
+        "validation": "aucune"
+      }
+    ],
+    "scenarios_existants": [
+      {
+        "id": "fractions-3-8",
+        "type": "fraction",
+        "statut": "illustration_candidate_non_validee"
+      },
+      {
+        "id": "fractions-2-5",
+        "type": "fraction",
+        "statut": "illustration_candidate_non_validee"
+      }
+    ]
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "Un support manipulable montrant un tout bien délimité avant tout partage, afin de pouvoir observer la différence entre tout, parts et sélection.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Fractions : représentations et sens » : Représenter une fraction comme partie d’un tout ou d’une collection. Un support manipulable montrant un tout bien délimité avant tout partage, afin de pouvoir observer la différence entre tout, parts et sélection. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Des parts égales, plusieurs représentations : Un support manipulable montrant un tout bien délimité avant tout partage, afin de pouvoir observer la différence entre tout, parts et sélection.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "Une situation de regroupement d’une collection d’objets ordinaires où il est utile de désigner d’abord la collection entière puis d’organiser des groupes égaux.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Fractions : représentations et sens » : Représenter une fraction comme partie d’un tout ou d’une collection. Une situation de regroupement d’une collection d’objets ordinaires où il est utile de désigner d’abord la collection entière puis d’organiser des groupes égaux. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Des parts égales, plusieurs représentations : Une situation de regroupement d’une collection d’objets ordinaires où il est utile de désigner d’abord la collection entière puis d’organiser des groupes égaux.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Trois façons de montrer 2/5",
+        "statut": "source_du_cours"
+      }
+    },
+    {
+      "slot": "support-outil",
+      "placement": "essayer",
+      "role": "contexte_pour_composant_interactif",
+      "concept": "Un espace de manipulation autour d’une bande et de collections; réserver les subdivisions, quantités et sélections exactes au composant déterministe.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Fractions : représentations et sens » : Représenter une fraction comme partie d’un tout ou d’une collection. Un espace de manipulation autour d’une bande et de collections; réserver les subdivisions, quantités et sélections exactes au composant déterministe. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Des parts égales, plusieurs représentations : Un espace de manipulation autour d’une bande et de collections; réserver les subdivisions, quantités et sélections exactes au composant déterministe.",
+      "fichier_preferentiel": "experience/images/support-outil.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [
+        {
+          "type": "fraction",
+          "id": "fractions-3-8",
+          "statut": "association_existante_non_validee"
+        },
+        {
+          "type": "fraction",
+          "id": "fractions-2-5",
+          "statut": "association_existante_non_validee"
+        }
+      ],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    }
+  ]
+}

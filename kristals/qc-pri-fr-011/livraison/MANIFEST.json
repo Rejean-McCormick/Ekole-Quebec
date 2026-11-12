@@ -1,0 +1,23 @@
+{
+  "format": "qc.kristal-delivery-manifest/1.2",
+  "kristal_id": "qc-pri-fr-011",
+  "base_version": "1.2",
+  "archive_root": "kristals/qc-pri-fr-011/",
+  "files": [
+    "kristals/qc-pri-fr-011/authoring/PARCOURS.md",
+    "kristals/qc-pri-fr-011/authoring/CONTRAT_PEDAGOGIQUE.json",
+    "kristals/qc-pri-fr-011/contenu/01_NOTIONS_ET_EXEMPLES.md",
+    "kristals/qc-pri-fr-011/contenu/02_DIAGNOSTIC.md",
+    "kristals/qc-pri-fr-011/contenu/03_ENSEIGNEMENT_GUIDE.md",
+    "kristals/qc-pri-fr-011/contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+    "kristals/qc-pri-fr-011/contenu/05_PRATIQUE_AUTONOME.md",
+    "kristals/qc-pri-fr-011/contenu/06_REMEDIATION_ET_TRANSFERT.md",
+    "kristals/qc-pri-fr-011/evaluation/PLAN_EVALUATION.md",
+    "kristals/qc-pri-fr-011/evaluation/BANQUE_ITEMS.json",
+    "kristals/qc-pri-fr-011/evaluation/GRILLE_MAITRISE.md",
+    "kristals/qc-pri-fr-011/sources/REFERENCES_CONTENU.md",
+    "kristals/qc-pri-fr-011/livraison/MANIFEST.json",
+    "kristals/qc-pri-fr-011/livraison/VALIDATION.md"
+  ],
+  "statut_validation": "tests_locaux_reussis_revue_humaine_requise"
+}

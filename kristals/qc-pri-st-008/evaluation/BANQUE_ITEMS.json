@@ -1,0 +1,527 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-008",
+  "family_id": "qc-pri-st-008-ev-01",
+  "statut": "banque_redigee_a_revoir",
+  "generation_policy": {
+    "type": "catalogues_fermes_et_items_fixes",
+    "methode": "scenario_controle: deux scénarios pré-écrits avec réponse par scénario; seed modulo 2; les réponses sont évaluées par critères sous supervision humaine.",
+    "interdictions": [
+      "variation IA libre sans revue",
+      "production d’affirmations factuelles non contrôlées",
+      "faire manipuler piles, courant, appareils ou éléments dangereux"
+    ]
+  },
+  "items": [
+    {
+      "item_id": "qc-pri-st-008-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-008-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Trace une chaîne d’énergie de la scène décrite et indique le rôle de la source et l’usage.",
+      "stimulus": "Une lampe de poche à pile s’allume quand son bouton est activé. On voit la lumière, mais pas son circuit interne.",
+      "reponse_attendue": "Pile (énergie chimique stockée) → transfert électrique → lampe (électrique → lumineuse + thermique possible) → lumière visible; usage éclairer.",
+      "criteres": [
+        "Source et forme initiale correctement identifiées pour la frontière décrite.",
+        "Sens des flèches correct; transfert et transformation différenciés; convertisseurs justifiés.",
+        "Effet observé distinct du fonctionnement interne modélisé; usage pertinent."
+      ],
+      "feedback": "Si une flèche est erronée, repars du fournisseur; nomme l’entrée et la sortie du convertisseur. Pour toute explication invisible, écris « modèle » plutôt qu’« observation ».",
+      "difficulte": "initial",
+      "representation": "schema_annote_et_justification",
+      "seed": 44002,
+      "parametres": {
+        "type_variation": "catalogue_ferme_de_scenarios",
+        "variables": {
+          "scenario_index": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          }
+        },
+        "contraintes": [
+          "contexte fictif fixé; aucun ajout d’appareil ou de source non décrite",
+          "scénarios matériels non manipulés; réponses préparées et fermées",
+          "mêmes objectifs et critères pour les 2 scénarios",
+          "correction humaine des formulations équivalentes"
+        ],
+        "algorithme": "index = seed modulo 2; accepter seulement une graine entière dans {seed_base, seed_base+1}; sélectionner catalogue[index] sans modification ni paraphrase automatique; fournir la réponse_attendue associée à la variante. Une éventuelle évaluation des réponses rédigées nécessite la grille et une revue humaine.",
+        "seed_base": 44002,
+        "catalogue": [
+          {
+            "index": 0,
+            "seed": 44002,
+            "stimulus": "Une lampe de poche à pile s’allume quand son bouton est activé. On voit la lumière, mais pas son circuit interne.",
+            "reponse_attendue": "Pile (énergie chimique stockée) → transfert électrique → lampe (électrique → lumineuse + thermique possible) → lumière visible; usage éclairer.",
+            "observation_attendue": "Lumière de la lampe allumée.",
+            "inference_attendue": "Réserve chimique et transfert électrique."
+          },
+          {
+            "index": 1,
+            "seed": 44003,
+            "stimulus": "Une sonnette à pile se met à sonner lorsqu’on presse le bouton. On entend une sonnerie; la pile n’est pas ouverte.",
+            "reponse_attendue": "Pile (réserve chimique) → transfert électrique → sonnette (électrique → sonore + thermique possible) → son audible; usage avertir.",
+            "observation_attendue": "Son entendu.",
+            "inference_attendue": "Énergie de la pile et courant dans l’appareil."
+          }
+        ],
+        "verification_exemples": [
+          {
+            "seed": 44002,
+            "index_attendu": 0,
+            "reponse": "Pile (énergie chimique stockée) → transfert électrique → lampe (électrique → lumineuse + thermique possible) → lumière visible; usage éclairer."
+          },
+          {
+            "seed": 44003,
+            "index_attendu": 1,
+            "reponse": "Pile (réserve chimique) → transfert électrique → sonnette (électrique → sonore + thermique possible) → son audible; usage avertir."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-008-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-008-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Dessine qui donne et qui reçoit de l’énergie; justifie si la scène prouve une transformation électrique.",
+      "stimulus": "Une brise entraîne les pales d’un moulinet de papier. Aucun générateur et aucun fil ne figurent dans la description.",
+      "reponse_attendue": "Air en mouvement → transfert de mouvement par interaction → pales en mouvement. Rotation observée; usage faire tourner le moulinet. Aucune production électrique établie.",
+      "criteres": [
+        "Source et forme initiale correctement identifiées pour la frontière décrite.",
+        "Sens des flèches correct; transfert et transformation différenciés; convertisseurs justifiés.",
+        "Effet observé distinct du fonctionnement interne modélisé; usage pertinent."
+      ],
+      "feedback": "Si une flèche est erronée, repars du fournisseur; nomme l’entrée et la sortie du convertisseur. Pour toute explication invisible, écris « modèle » plutôt qu’« observation ».",
+      "difficulte": "initial",
+      "representation": "schema_annote_et_justification",
+      "seed": 44004,
+      "parametres": {
+        "type_variation": "catalogue_ferme_de_scenarios",
+        "variables": {
+          "scenario_index": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          }
+        },
+        "contraintes": [
+          "contexte fictif fixé; aucun ajout d’appareil ou de source non décrite",
+          "scénarios matériels non manipulés; réponses préparées et fermées",
+          "mêmes objectifs et critères pour les 2 scénarios",
+          "correction humaine des formulations équivalentes"
+        ],
+        "algorithme": "index = seed modulo 2; accepter seulement une graine entière dans {seed_base, seed_base+1}; sélectionner catalogue[index] sans modification ni paraphrase automatique; fournir la réponse_attendue associée à la variante. Une éventuelle évaluation des réponses rédigées nécessite la grille et une revue humaine.",
+        "seed_base": 44004,
+        "catalogue": [
+          {
+            "index": 0,
+            "seed": 44004,
+            "stimulus": "Une brise entraîne les pales d’un moulinet de papier. Aucun générateur et aucun fil ne figurent dans la description.",
+            "reponse_attendue": "Air en mouvement → transfert de mouvement par interaction → pales en mouvement. Rotation observée; usage faire tourner le moulinet. Aucune production électrique établie.",
+            "observation_attendue": "Pales tournent.",
+            "inference_attendue": "Transfert d’énergie cinétique de l’air vers le moulinet."
+          },
+          {
+            "index": 1,
+            "seed": 44005,
+            "stimulus": "Un courant d’eau entraîne une petite roue de démonstration. La scène ne comporte aucun générateur.",
+            "reponse_attendue": "Eau en mouvement → transfert mécanique → roue en mouvement. Rotation observée; pas de transformation électrique justifiée.",
+            "observation_attendue": "La roue tourne.",
+            "inference_attendue": "Transfert d’énergie de mouvement de l’eau à la roue."
+          }
+        ],
+        "verification_exemples": [
+          {
+            "seed": 44004,
+            "index_attendu": 0,
+            "reponse": "Air en mouvement → transfert de mouvement par interaction → pales en mouvement. Rotation observée; usage faire tourner le moulinet. Aucune production électrique établie."
+          },
+          {
+            "seed": 44005,
+            "index_attendu": 1,
+            "reponse": "Eau en mouvement → transfert mécanique → roue en mouvement. Rotation observée; pas de transformation électrique justifiée."
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "notes_correcteur": "Ne pas appeler une transmission de mouvement « production électrique » sans convertisseur."
+    },
+    {
+      "item_id": "qc-pri-st-008-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-008-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Construis une chaîne en distinguant la source lumineuse, le panneau et le récepteur final.",
+      "stimulus": "Une calculatrice solaire sans pile affiche des nombres quand son panneau reçoit une lumière suffisante; l’affichage disparaît quand le panneau est couvert.",
+      "reponse_attendue": "Lumière reçue → panneau photovoltaïque (lumineuse → électrique) → transfert électrique au circuit de la calculatrice → fonctionnement et affichage; usage calculer. On ne détaille pas une forme de conversion propre au type d’écran non donné.",
+      "criteres": [
+        "Source et forme initiale correctement identifiées pour la frontière décrite.",
+        "Sens des flèches correct; transfert et transformation différenciés; convertisseurs justifiés.",
+        "Effet observé distinct du fonctionnement interne modélisé; usage pertinent."
+      ],
+      "feedback": "Si une flèche est erronée, repars du fournisseur; nomme l’entrée et la sortie du convertisseur. Pour toute explication invisible, écris « modèle » plutôt qu’« observation ».",
+      "difficulte": "intermediaire",
+      "representation": "schema_annote_et_justification",
+      "seed": 44006,
+      "parametres": {
+        "type_variation": "catalogue_ferme_de_scenarios",
+        "variables": {
+          "scenario_index": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          }
+        },
+        "contraintes": [
+          "contexte fictif fixé; aucun ajout d’appareil ou de source non décrite",
+          "scénarios matériels non manipulés; réponses préparées et fermées",
+          "mêmes objectifs et critères pour les 2 scénarios",
+          "correction humaine des formulations équivalentes"
+        ],
+        "algorithme": "index = seed modulo 2; accepter seulement une graine entière dans {seed_base, seed_base+1}; sélectionner catalogue[index] sans modification ni paraphrase automatique; fournir la réponse_attendue associée à la variante. Une éventuelle évaluation des réponses rédigées nécessite la grille et une revue humaine.",
+        "seed_base": 44006,
+        "catalogue": [
+          {
+            "index": 0,
+            "seed": 44006,
+            "stimulus": "Une calculatrice solaire sans pile affiche des nombres quand son panneau reçoit une lumière suffisante; l’affichage disparaît quand le panneau est couvert.",
+            "reponse_attendue": "Lumière reçue → panneau photovoltaïque (lumineuse → électrique) → transfert électrique au circuit de la calculatrice → fonctionnement et affichage; usage calculer. On ne détaille pas une forme de conversion propre au type d’écran non donné.",
+            "observation_attendue": "Affichage présent/disparaît.",
+            "inference_attendue": "Conversion photovoltaïque et alimentation électrique."
+          },
+          {
+            "index": 1,
+            "seed": 44007,
+            "stimulus": "Un petit panneau photovoltaïque sans batterie fournit l’énergie d’une balise DEL qui brille sous la lumière et s’éteint quand le panneau est masqué.",
+            "reponse_attendue": "Rayonnement lumineux → panneau (lumineuse → électrique) → transfert électrique → DEL (électrique → lumière + thermique possible) → signal lumineux; usage signaler.",
+            "observation_attendue": "Balise brille/s’éteint.",
+            "inference_attendue": "Conversion photovoltaïque et transfert électrique."
+          }
+        ],
+        "verification_exemples": [
+          {
+            "seed": 44006,
+            "index_attendu": 0,
+            "reponse": "Lumière reçue → panneau photovoltaïque (lumineuse → électrique) → transfert électrique au circuit de la calculatrice → fonctionnement et affichage; usage calculer. On ne détaille pas une forme de conversion propre au type d’écran non donné."
+          },
+          {
+            "seed": 44007,
+            "index_attendu": 1,
+            "reponse": "Rayonnement lumineux → panneau (lumineuse → électrique) → transfert électrique → DEL (électrique → lumière + thermique possible) → signal lumineux; usage signaler."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-008-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-008-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Montre deux conversions successives et une observation qui appuie ton schéma.",
+      "stimulus": "Une lampe de secours est actionnée à la main par une manivelle; un générateur est explicitement présent, puis la lampe éclaire.",
+      "reponse_attendue": "Main/manivelle en mouvement → générateur (mouvement → électrique) → transfert électrique → lampe (électrique → lumineux + thermique possible) → lumière visible; usage éclairer.",
+      "criteres": [
+        "Source et forme initiale correctement identifiées pour la frontière décrite.",
+        "Sens des flèches correct; transfert et transformation différenciés; convertisseurs justifiés.",
+        "Effet observé distinct du fonctionnement interne modélisé; usage pertinent."
+      ],
+      "feedback": "Si une flèche est erronée, repars du fournisseur; nomme l’entrée et la sortie du convertisseur. Pour toute explication invisible, écris « modèle » plutôt qu’« observation ».",
+      "difficulte": "intermediaire",
+      "representation": "schema_annote_et_justification",
+      "seed": 44008,
+      "parametres": {
+        "type_variation": "catalogue_ferme_de_scenarios",
+        "variables": {
+          "scenario_index": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          }
+        },
+        "contraintes": [
+          "contexte fictif fixé; aucun ajout d’appareil ou de source non décrite",
+          "scénarios matériels non manipulés; réponses préparées et fermées",
+          "mêmes objectifs et critères pour les 2 scénarios",
+          "correction humaine des formulations équivalentes"
+        ],
+        "algorithme": "index = seed modulo 2; accepter seulement une graine entière dans {seed_base, seed_base+1}; sélectionner catalogue[index] sans modification ni paraphrase automatique; fournir la réponse_attendue associée à la variante. Une éventuelle évaluation des réponses rédigées nécessite la grille et une revue humaine.",
+        "seed_base": 44008,
+        "catalogue": [
+          {
+            "index": 0,
+            "seed": 44008,
+            "stimulus": "Une lampe de secours est actionnée à la main par une manivelle; un générateur est explicitement présent, puis la lampe éclaire.",
+            "reponse_attendue": "Main/manivelle en mouvement → générateur (mouvement → électrique) → transfert électrique → lampe (électrique → lumineux + thermique possible) → lumière visible; usage éclairer.",
+            "observation_attendue": "Manivelle tourne; lumière visible.",
+            "inference_attendue": "Conversion électromécanique du générateur."
+          },
+          {
+            "index": 1,
+            "seed": 44009,
+            "stimulus": "Une radio de secours à manivelle comprend un générateur; on tourne la manivelle et on entend ensuite un message par son haut-parleur.",
+            "reponse_attendue": "Mouvement de la main/manivelle → générateur (mouvement → électrique) → transfert électrique → haut-parleur (électrique → sonore + thermique possible) → message audible; usage informer.",
+            "observation_attendue": "Mouvement manuel et message audible.",
+            "inference_attendue": "Génération électrique et conversion acoustique interne."
+          }
+        ],
+        "verification_exemples": [
+          {
+            "seed": 44008,
+            "index_attendu": 0,
+            "reponse": "Main/manivelle en mouvement → générateur (mouvement → électrique) → transfert électrique → lampe (électrique → lumineux + thermique possible) → lumière visible; usage éclairer."
+          },
+          {
+            "seed": 44009,
+            "index_attendu": 1,
+            "reponse": "Mouvement de la main/manivelle → générateur (mouvement → électrique) → transfert électrique → haut-parleur (électrique → sonore + thermique possible) → message audible; usage informer."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-008-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-008-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Repère l’énergie disponible avant le mouvement, une conversion et l’effet observé.",
+      "stimulus": "Une personne remonte un petit jouet à ressort; une fois lâché sur une table, il roule et émet un cliquetis. Aucun moteur électrique n’est décrit.",
+      "reponse_attendue": "Énergie apportée par la main lors du remontage → réserve élastique du ressort → mécanisme (énergie élastique → mouvement, avec son possible) → le jouet roule; usage jouer. Aucune électricité inférée.",
+      "criteres": [
+        "Source et forme initiale correctement identifiées pour la frontière décrite.",
+        "Sens des flèches correct; transfert et transformation différenciés; convertisseurs justifiés.",
+        "Effet observé distinct du fonctionnement interne modélisé; usage pertinent."
+      ],
+      "feedback": "Si une flèche est erronée, repars du fournisseur; nomme l’entrée et la sortie du convertisseur. Pour toute explication invisible, écris « modèle » plutôt qu’« observation ».",
+      "difficulte": "intermediaire",
+      "representation": "schema_annote_et_justification",
+      "seed": 44010,
+      "parametres": {
+        "type_variation": "catalogue_ferme_de_scenarios",
+        "variables": {
+          "scenario_index": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          }
+        },
+        "contraintes": [
+          "contexte fictif fixé; aucun ajout d’appareil ou de source non décrite",
+          "scénarios matériels non manipulés; réponses préparées et fermées",
+          "mêmes objectifs et critères pour les 2 scénarios",
+          "correction humaine des formulations équivalentes"
+        ],
+        "algorithme": "index = seed modulo 2; accepter seulement une graine entière dans {seed_base, seed_base+1}; sélectionner catalogue[index] sans modification ni paraphrase automatique; fournir la réponse_attendue associée à la variante. Une éventuelle évaluation des réponses rédigées nécessite la grille et une revue humaine.",
+        "seed_base": 44010,
+        "catalogue": [
+          {
+            "index": 0,
+            "seed": 44010,
+            "stimulus": "Une personne remonte un petit jouet à ressort; une fois lâché sur une table, il roule et émet un cliquetis. Aucun moteur électrique n’est décrit.",
+            "reponse_attendue": "Énergie apportée par la main lors du remontage → réserve élastique du ressort → mécanisme (énergie élastique → mouvement, avec son possible) → le jouet roule; usage jouer. Aucune électricité inférée.",
+            "observation_attendue": "Jouet roule et cliquetis entendu.",
+            "inference_attendue": "Énergie potentielle élastique emmagasinée par le remontage."
+          },
+          {
+            "index": 1,
+            "seed": 44011,
+            "stimulus": "Un élastique est étiré lentement puis libéré à distance de toute personne et de tout objet fragile dans un dessin fictif; il se rétracte.",
+            "reponse_attendue": "Travail de la main lors de l’étirement → énergie potentielle élastique emmagasinée → mouvement de rétraction (+ échauffement éventuel). Observation : rétraction; aucun circuit électrique.",
+            "observation_attendue": "Élastique se rétracte.",
+            "inference_attendue": "Stockage et libération d’énergie élastique."
+          }
+        ],
+        "verification_exemples": [
+          {
+            "seed": 44010,
+            "index_attendu": 0,
+            "reponse": "Énergie apportée par la main lors du remontage → réserve élastique du ressort → mécanisme (énergie élastique → mouvement, avec son possible) → le jouet roule; usage jouer. Aucune électricité inférée."
+          },
+          {
+            "seed": 44011,
+            "index_attendu": 1,
+            "reponse": "Travail de la main lors de l’étirement → énergie potentielle élastique emmagasinée → mouvement de rétraction (+ échauffement éventuel). Observation : rétraction; aucun circuit électrique."
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "notes_correcteur": "Texte uniquement : ne jamais réaliser le lâcher d’un élastique comme expérience en classe."
+    },
+    {
+      "item_id": "qc-pri-st-008-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-008-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sépare effet perceptible et mécanisme invisible; nomme l’usage et une sortie éventuelle non recherchée.",
+      "stimulus": "Un avertisseur portatif à piles émet un bip au moment où le bouton est pressé. L’intérieur de l’appareil reste fermé.",
+      "reponse_attendue": "Pile (réserve chimique) → transfert électrique → avertisseur (électrique → sonore, thermique possible) → bip entendu; usage signaler. Observation : bip; modèle : circuit électrique.",
+      "criteres": [
+        "Source et forme initiale correctement identifiées pour la frontière décrite.",
+        "Sens des flèches correct; transfert et transformation différenciés; convertisseurs justifiés.",
+        "Effet observé distinct du fonctionnement interne modélisé; usage pertinent."
+      ],
+      "feedback": "Si une flèche est erronée, repars du fournisseur; nomme l’entrée et la sortie du convertisseur. Pour toute explication invisible, écris « modèle » plutôt qu’« observation ».",
+      "difficulte": "intermediaire",
+      "representation": "schema_annote_et_justification",
+      "seed": 44012,
+      "parametres": {
+        "type_variation": "catalogue_ferme_de_scenarios",
+        "variables": {
+          "scenario_index": {
+            "domaine": [
+              0,
+              1
+            ],
+            "type": "entier"
+          }
+        },
+        "contraintes": [
+          "contexte fictif fixé; aucun ajout d’appareil ou de source non décrite",
+          "scénarios matériels non manipulés; réponses préparées et fermées",
+          "mêmes objectifs et critères pour les 2 scénarios",
+          "correction humaine des formulations équivalentes"
+        ],
+        "algorithme": "index = seed modulo 2; accepter seulement une graine entière dans {seed_base, seed_base+1}; sélectionner catalogue[index] sans modification ni paraphrase automatique; fournir la réponse_attendue associée à la variante. Une éventuelle évaluation des réponses rédigées nécessite la grille et une revue humaine.",
+        "seed_base": 44012,
+        "catalogue": [
+          {
+            "index": 0,
+            "seed": 44012,
+            "stimulus": "Un avertisseur portatif à piles émet un bip au moment où le bouton est pressé. L’intérieur de l’appareil reste fermé.",
+            "reponse_attendue": "Pile (réserve chimique) → transfert électrique → avertisseur (électrique → sonore, thermique possible) → bip entendu; usage signaler. Observation : bip; modèle : circuit électrique.",
+            "observation_attendue": "Bip audible.",
+            "inference_attendue": "Énergie électrique et transformation interne."
+          },
+          {
+            "index": 1,
+            "seed": 44013,
+            "stimulus": "Un petit afficheur lumineux alimenté par pile s’éclaire lorsque son bouton est activé; aucun composant interne n’est visible.",
+            "reponse_attendue": "Pile (énergie chimique stockée) → transfert électrique → afficheur lumineux (électrique → lumière, thermique possible) → affichage visible; usage montrer une information. Observation : affichage; modèle : transfert électrique.",
+            "observation_attendue": "Afficheur lumineux visible.",
+            "inference_attendue": "Transfert électrique et conversion à l’intérieur."
+          }
+        ],
+        "verification_exemples": [
+          {
+            "seed": 44012,
+            "index_attendu": 0,
+            "reponse": "Pile (réserve chimique) → transfert électrique → avertisseur (électrique → sonore, thermique possible) → bip entendu; usage signaler. Observation : bip; modèle : circuit électrique."
+          },
+          {
+            "seed": 44013,
+            "index_attendu": 1,
+            "reponse": "Pile (énergie chimique stockée) → transfert électrique → afficheur lumineux (électrique → lumière, thermique possible) → affichage visible; usage montrer une information. Observation : affichage; modèle : transfert électrique."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-008-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Corrige l’affirmation proposée et dessine le schéma minimal qui est réellement soutenu par la description.",
+      "stimulus": "Un élève écrit : « Quand le vent fait tourner un moulinet de papier sans générateur, l’énergie du vent est transformée directement en énergie électrique. »",
+      "reponse_attendue": "Faux/non justifié : l’air en mouvement transfère de l’énergie au moulinet qui tourne. Chaîne : air en mouvement → transfert de mouvement → pales en mouvement. Il manque un générateur pour soutenir une sortie électrique. Observation : rotation; l’électricité n’a pas été observée.",
+      "criteres": [
+        "Refuse explicitement la production électrique non documentée.",
+        "Présente le transfert de mouvement sans conversion électrique inventée.",
+        "Sépare observation et inférence et explique ce que la description ne permet pas de conclure."
+      ],
+      "feedback": "Ta chaîne ajoute un appareil qui n’existe pas dans la scène; efface-le et pars seulement de ce qui est décrit.",
+      "difficulte": "intermediaire",
+      "representation": "analyse_critique_et_schema",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-008-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Distingue « source », « transfert », « transformation », « usage » et « observation » pour l’appareil décrit.",
+      "stimulus": "Une lampe à piles est posée sur une table. Elle éclaire une carte, puis reste un peu tiède après usage. Un commentaire affirme : « Éclairer est la source, et l’énergie disparaît en chaleur. »",
+      "reponse_attendue": "Source = pile (énergie chimique stockée); transfert = électrique au dispositif lumineux; transformation = électrique → lumière et thermique; usage = éclairer la carte; observations données = éclaire, lampe tiède. Faux : éclairer est un usage, et la chaleur est une forme de sortie, non une disparition d’énergie.",
+      "criteres": [
+        "Nomme correctement les quatre notions et les situe dans la chaîne.",
+        "Ne confond pas usage et origine de l’énergie; mentionne plusieurs sorties.",
+        "Corrige l’affirmation de disparition d’énergie et distingue ce qui est vu ou senti du modèle."
+      ],
+      "feedback": "« Éclairer » décrit le but. Remonte avant la lampe pour trouver ce qui lui fournit de l’énergie. La chaleur ne signifie pas disparition.",
+      "difficulte": "intermediaire",
+      "representation": "classement_et_schema",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-008-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-008-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 1 : sans indice, construis un schéma complet de chaîne énergétique, indique source, transferts, transformations, usage et un constat distingué de ton modèle. Aucune forme d’énergie n’est suggérée dans ta réponse.",
+      "stimulus": "Dans une description de démonstration, la roue d’un vélo tourne; elle entraîne une dynamo (générateur). Une lampe reliée à la dynamo s’allume quand la roue tourne et s’éteint quand elle s’arrête. Aucun circuit n’est ouvert et aucun montage n’est réalisé. Dessine la chaîne, puis explique quel élément de ton schéma est observé et lequel est déduit.",
+      "reponse_attendue": "Roue en mouvement → dynamo (énergie mécanique/de mouvement → énergie électrique) → transfert électrique → lampe (électrique → lumière + part thermique possible) → lampe allumée; usage éclairer/être visible. Constats : roue tourne, lampe s’allume/s’éteint. Inférences/modèle : production et circulation électriques et conversion dans la lampe. La roue est la source immédiate pour la frontière retenue; si l’on remonte plus loin, la personne qui pédale fournit de l’énergie.",
+      "criteres": [
+        "Roue comme origine immédiate avec forme « mouvement »; dynamo et lampe correctement situées.",
+        "Deux conversions/transfert étiquetés et ordre physiquement défendable; pas de création d’énergie.",
+        "Constats distingués du modèle invisible, effet et usage explicites.",
+        "Schéma cohérent fourni sans aucun indice de contenu; formulation alternative scientifiquement équivalente admise."
+      ],
+      "feedback": "Reviens à la roue qui tourne : quel élément est entraîné avant que la lampe brille? Distingue ce que tu vois de ce que le schéma explique.",
+      "difficulte": "transfert",
+      "representation": "schema_integral_et_justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "notes_correcteur": "Preuve A indépendante, contexte mobilité. Ne pas réutiliser une séance guidée comme preuve. Coter avec la grille à 4 axes."
+    },
+    {
+      "item_id": "qc-pri-st-008-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-008-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 2 : sans indice et dans ce nouveau contexte, construis une chaîne énergétique, commente le statut de tes affirmations et conclus sur l’usage.",
+      "stimulus": "Dans un jardin pédagogique fictif, un petit panneau photovoltaïque alimente directement, sans batterie, un ventilateur motorisé. Sous un éclairage suffisant, ses pales tournent et brassent l’air. Quand le panneau est masqué, elles s’arrêtent. On ne touche pas au ventilateur ni au câblage. Fournis un schéma de la source au mouvement et nomme une observation et une inférence.",
+      "reponse_attendue": "Rayonnement lumineux du Soleil/lumière reçue → panneau photovoltaïque (lumineuse → électrique) → transfert électrique → moteur du ventilateur (électrique → mouvement des pales, thermique possible) → pales tournent/brassent l’air; usage faire circuler l’air. Observations décrites : pales tournent sous lumière et s’arrêtent quand le panneau est masqué. Inférences : conversions photovoltaïque et moteur; pas d’affirmation de production d’énergie à partir de rien.",
+      "criteres": [
+        "Source lumineuse, panneau et moteur identifiés dans le bon ordre.",
+        "Transformations lumineuse→électrique et électrique→mouvement, plus transfert électrique, exacts.",
+        "Observation et modèle distingués; usage d’aération/brassage pertinent.",
+        "Production autonome sans indice dans un contexte différent du vélo; équivalences scientifiquement valables acceptées."
+      ],
+      "feedback": "Décris le trajet depuis la lumière jusqu’aux pales : que fait chacun des deux dispositifs? Ce qui se passe dans les circuits relève du modèle.",
+      "difficulte": "transfert",
+      "representation": "schema_integral_et_justification",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "notes_correcteur": "Preuve B indépendante, jardin/photovoltaïque; ni variante de l’item 9 ni démonstration répétée."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "format": "qc.kristal-delta-manifest/1.0",
+  "kristal_id": "qc-pri-ilss-004",
+  "base_version": "1.2",
+  "archive_root": "kristals/qc-pri-ilss-004/",
+  "files": [
+    "kristals/qc-pri-ilss-004/authoring/PARCOURS.md",
+    "kristals/qc-pri-ilss-004/authoring/CONTRAT_PEDAGOGIQUE.json",
+    "kristals/qc-pri-ilss-004/contenu/01_NOTIONS_ET_EXEMPLES.md",
+    "kristals/qc-pri-ilss-004/contenu/02_DIAGNOSTIC.md",
+    "kristals/qc-pri-ilss-004/contenu/03_ENSEIGNEMENT_GUIDE.md",
+    "kristals/qc-pri-ilss-004/contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+    "kristals/qc-pri-ilss-004/contenu/05_PRATIQUE_AUTONOME.md",
+    "kristals/qc-pri-ilss-004/contenu/06_REMEDIATION_ET_TRANSFERT.md",
+    "kristals/qc-pri-ilss-004/evaluation/PLAN_EVALUATION.md",
+    "kristals/qc-pri-ilss-004/evaluation/BANQUE_ITEMS.json",
+    "kristals/qc-pri-ilss-004/evaluation/GRILLE_MAITRISE.md",
+    "kristals/qc-pri-ilss-004/sources/REFERENCES_CONTENU.md",
+    "kristals/qc-pri-ilss-004/livraison/MANIFEST.json",
+    "kristals/qc-pri-ilss-004/livraison/VALIDATION.md"
+  ],
+  "statut_validation": "controle_technique_ok_revue_humaine_requise",
+  "remplacements": [
+    "authoring/PARCOURS.md",
+    "authoring/CONTRAT_PEDAGOGIQUE.json"
+  ],
+  "ajouts": [
+    "contenu/01_NOTIONS_ET_EXEMPLES.md",
+    "contenu/02_DIAGNOSTIC.md",
+    "contenu/03_ENSEIGNEMENT_GUIDE.md",
+    "contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+    "contenu/05_PRATIQUE_AUTONOME.md",
+    "contenu/06_REMEDIATION_ET_TRANSFERT.md",
+    "evaluation/PLAN_EVALUATION.md",
+    "evaluation/BANQUE_ITEMS.json",
+    "evaluation/GRILLE_MAITRISE.md",
+    "sources/REFERENCES_CONTENU.md",
+    "livraison/MANIFEST.json",
+    "livraison/VALIDATION.md"
+  ],
+  "qualification_pedagogique": "a_revoir"
+}

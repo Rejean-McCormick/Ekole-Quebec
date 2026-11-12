@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-als-011",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Relire et améliorer un texte anglais court à partir de critères ciblés.",
+    "concepts": [
+      "révision",
+      "sens",
+      "mots fréquents",
+      "structure"
+    ]
+  },
+  "titre_source": "Réviser les productions écrites en anglais",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "révision, sens, mots fréquents",
+      "prompt_conceptuel": "Concept d'image pour le cours « Réviser les productions écrites en anglais ». Représenter une situation d’apprentissage de l’anglais en contexte. Mettre en évidence les notions : révision, sens, mots fréquents, structure. L'image doit aider à comprendre l'objectif « Relire et améliorer un texte anglais court à partir de critères ciblés. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Réviser les productions écrites en anglais : révision, sens, mots fréquents.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "révision, sens, mots fréquents",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Réviser les productions écrites en anglais » : montrer une interaction où des indices contextuels soutiennent la compréhension en anglais. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter révision, sens, mots fréquents, structure. Cette image sert de point de départ à une activité liée à l'objectif « Relire et améliorer un texte anglais court à partir de critères ciblés. ». Ne pas représenter une réponse évaluée comme déjà résolue. Contexte concret tiré de la rubrique du cours « Invitation (message fictif) »; rester ouvert sur les détails de représentation et ne pas montrer sa correction.",
+      "texte_alternatif": "Situation d’exploration pour Réviser les productions écrites en anglais.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Invitation (message fictif)",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

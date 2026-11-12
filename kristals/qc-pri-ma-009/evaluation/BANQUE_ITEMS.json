@@ -1,0 +1,568 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-009",
+  "family_id": "qc-pri-ma-009-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-009-q-001",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Partage également les jetons entre les équipes. Dessine ou décris la répartition; écris quotient, reste, égalité et unités.",
+      "stimulus": "Une classe possède 83 jetons à partager également entre 9 équipes. Les jetons restent entiers.",
+      "reponse_attendue": "Quotient q=9 (objets par destinataire), reste r=2 objets non distribués/non groupés. Vérification : 83=9×9+2, avec 0≤2<9. Une représentation recevable montre 9 groupes égaux de 9 objets + 2 libres.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "Si le reste atteint le nombre d’équipes, une autre distribution complète est possible. Vérifie N=d×q+r.",
+      "difficulte": "initial",
+      "seed": 2101,
+      "parametres": {
+        "variables": {
+          "N": "quantité totale entière, calculée et affichée",
+          "d": "diviseur entier (destinataires OU taille du groupe)",
+          "q": "quotient entier",
+          "r": "reste entier"
+        },
+        "domaines": {
+          "seed": "entier stable de 1 à 999999",
+          "d": "3..10",
+          "q": "3..12",
+          "r": "0 si exact; sinon 1..d-1",
+          "N": "9..130"
+        },
+        "contraintes": [
+          "d >= 1",
+          "N = d*q + r",
+          "0 <= r < d",
+          "une seule interprétation de d par scénario",
+          "aucune division par zéro",
+          "conserver unités et représentation",
+          "aucun tirage IA"
+        ],
+        "algorithme": "d = 3 + ((7*seed+3) % 8); q = 3 + ((5*seed+1) % 10); r = 0 si type_reste=exact, sinon 1 + ((11*seed+2) % (d-1)); N = d*q+r. Ne pas changer les unités; seule la situation approuvée peut varier.",
+        "type_reste": "reste",
+        "representation_imposee": "partage",
+        "seed_stable": 2101,
+        "instance_principale": {
+          "N": 83,
+          "d": 9,
+          "q": 9,
+          "r": 2
+        },
+        "exemples_verifies": [
+          {
+            "seed": 2101,
+            "N": 83,
+            "d": 9,
+            "q": 9,
+            "r": 2
+          },
+          {
+            "seed": 2102,
+            "N": 36,
+            "d": 8,
+            "q": 4,
+            "r": 4
+          },
+          {
+            "seed": 2103,
+            "N": 69,
+            "d": 7,
+            "q": 9,
+            "r": 6
+          }
+        ],
+        "controle_independant": "Pour chaque seed et instance, calculer divmod(N,d) indépendamment de la génération et exiger égalité avec (q,r); vérifier N=d*q+r et 0<=r<d."
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "partage",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Forme le maximum de pochettes complètes. Donne le nombre de pochettes, le reste et une vérification.",
+      "stimulus": "26 cartes, pochettes contenant 6 cartes chacune. Combien de pochettes complètes et de cartes libres?",
+      "reponse_attendue": "Quotient q=4 groupes complets de 6 objets, reste r=2 objets libres. Vérification : 26=6×4+2, avec 0≤2<6. Une représentation recevable montre 4 groupes de 6 objets + 2 libres.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "Si tu trouves 5 pochettes, vérifie 5×6 : cela dépasse les 26 cartes.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "groupement",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Représente le groupement, trouve q et r et vérifie pourquoi le groupe suivant est impossible.",
+      "stimulus": "38 autocollants, feuilles contenant 7 autocollants chacune; on cherche les feuilles complètes.",
+      "reponse_attendue": "Quotient q=5 groupes complets de 7 objets, reste r=3 objets libres. Vérification : 38=7×5+3, avec 0≤3<7. Une représentation recevable montre 5 groupes de 7 objets + 3 libres.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "Un reste 3 est accepté si 7×5+3=38 et 3<7; explique le nombre de feuilles.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "groupement",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-004",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Fais des groupes complets, puis explique pourquoi aucun objet ne reste. Écris les deux contrôles.",
+      "stimulus": "Un atelier range 24 cubes dans des sachets de 6 cubes. Aucun cube n'est découpé.",
+      "reponse_attendue": "Quotient q=4 groupes complets de 6 objets, reste r=0 objets libres. Vérification : 24=6×4+0, avec 0≤0<6. Une représentation recevable montre 4 groupes de 6 objets + 0 libres.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "Reste zéro est possible; ne soustrais pas un sachet complet simplement parce que le problème emploie le mot « reste ».",
+      "difficulte": "intermediaire",
+      "seed": 2104,
+      "parametres": {
+        "variables": {
+          "N": "quantité totale entière, calculée et affichée",
+          "d": "diviseur entier (destinataires OU taille du groupe)",
+          "q": "quotient entier",
+          "r": "reste entier"
+        },
+        "domaines": {
+          "seed": "entier stable de 1 à 999999",
+          "d": "3..10",
+          "q": "3..12",
+          "r": "0 si exact; sinon 1..d-1",
+          "N": "9..130"
+        },
+        "contraintes": [
+          "d >= 1",
+          "N = d*q + r",
+          "0 <= r < d",
+          "une seule interprétation de d par scénario",
+          "aucune division par zéro",
+          "conserver unités et représentation",
+          "aucun tirage IA"
+        ],
+        "algorithme": "d = 3 + ((7*seed+3) % 8); q = 3 + ((5*seed+1) % 10); r = 0 si type_reste=exact, sinon 1 + ((11*seed+2) % (d-1)); N = d*q+r. Ne pas changer les unités; seule la situation approuvée peut varier.",
+        "type_reste": "exact",
+        "representation_imposee": "groupement",
+        "seed_stable": 2104,
+        "instance_principale": {
+          "N": 24,
+          "d": 6,
+          "q": 4,
+          "r": 0
+        },
+        "exemples_verifies": [
+          {
+            "seed": 2104,
+            "N": 24,
+            "d": 6,
+            "q": 4,
+            "r": 0
+          },
+          {
+            "seed": 2105,
+            "N": 45,
+            "d": 5,
+            "q": 9,
+            "r": 0
+          },
+          {
+            "seed": 2106,
+            "N": 16,
+            "d": 4,
+            "q": 4,
+            "r": 0
+          }
+        ],
+        "controle_independant": "Pour chaque seed et instance, calculer divmod(N,d) indépendamment de la génération et exiger égalité avec (q,r); vérifier N=d*q+r et 0<=r<d."
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "groupement",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-005",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Évalue une proposition, relève la première erreur puis corrige quotient, reste, schéma et égalité.",
+      "stimulus": "On a 31 rubans à placer par lots de 6. Proposition d’un élève : « 4 lots et 7 rubans restants, car 6×4+7=31 ».",
+      "reponse_attendue": "Quotient q=5 groupes complets de 6 objets, reste r=1 objets libres. Vérification : 31=6×5+1, avec 0≤1<6. Une représentation recevable montre 5 groupes de 6 objets + 1 libres. La proposition 4 reste 7 n’est pas finale : le reste doit être inférieur à 6.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "L’égalité proposée est vraie mais le reste 7≥6 est invalide; reforme un lot, donc 5 lots et 1 ruban libre.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "groupement",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-006",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Répartis la quantité équitablement en parts entières. Expose une représentation et vérifie que le reste ne permet pas un nouveau tour.",
+      "stimulus": "19 jetons de présence doivent être répartis équitablement entre 4 tables.",
+      "reponse_attendue": "Quotient q=4 (objets par destinataire), reste r=3 objets non distribués/non groupés. Vérification : 19=4×4+3, avec 0≤3<4. Une représentation recevable montre 4 groupes égaux de 4 objets + 3 libres.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "Vérifie ce que reçoit chaque table, pas le nombre de tables; un reste trop grand se redistribue.",
+      "difficulte": "intermediaire",
+      "seed": 2106,
+      "parametres": {
+        "variables": {
+          "N": "quantité totale entière, calculée et affichée",
+          "d": "diviseur entier (destinataires OU taille du groupe)",
+          "q": "quotient entier",
+          "r": "reste entier"
+        },
+        "domaines": {
+          "seed": "entier stable de 1 à 999999",
+          "d": "3..10",
+          "q": "3..12",
+          "r": "0 si exact; sinon 1..d-1",
+          "N": "9..130"
+        },
+        "contraintes": [
+          "d >= 1",
+          "N = d*q + r",
+          "0 <= r < d",
+          "une seule interprétation de d par scénario",
+          "aucune division par zéro",
+          "conserver unités et représentation",
+          "aucun tirage IA"
+        ],
+        "algorithme": "d = 3 + ((7*seed+3) % 8); q = 3 + ((5*seed+1) % 10); r = 0 si type_reste=exact, sinon 1 + ((11*seed+2) % (d-1)); N = d*q+r. Ne pas changer les unités; seule la situation approuvée peut varier.",
+        "type_reste": "reste",
+        "representation_imposee": "partage",
+        "seed_stable": 2106,
+        "instance_principale": {
+          "N": 19,
+          "d": 4,
+          "q": 4,
+          "r": 3
+        },
+        "exemples_verifies": [
+          {
+            "seed": 2106,
+            "N": 19,
+            "d": 4,
+            "q": 4,
+            "r": 3
+          },
+          {
+            "seed": 2107,
+            "N": 29,
+            "d": 3,
+            "q": 9,
+            "r": 2
+          },
+          {
+            "seed": 2108,
+            "N": 47,
+            "d": 10,
+            "q": 4,
+            "r": 7
+          }
+        ],
+        "controle_independant": "Pour chaque seed et instance, calculer divmod(N,d) indépendamment de la génération et exiger égalité avec (q,r); vérifier N=d*q+r et 0<=r<d."
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "partage",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Trouve combien de groupes complets peuvent être formés; fais un schéma et vérifie la taille du reste.",
+      "stimulus": "53 fiches sont rangées par pochettes de 8 fiches. Combien de pochettes pleines et de fiches seules?",
+      "reponse_attendue": "Quotient q=6 groupes complets de 8 objets, reste r=5 objets libres. Vérification : 53=8×6+5, avec 0≤5<8. Une représentation recevable montre 6 groupes de 8 objets + 5 libres.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "Le quotient est le nombre de pochettes; vérifier 8×6=48 et 53−48=5.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "groupement",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-008",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Fais des groupes de taille fixe et justifie pourquoi aucun groupe complet supplémentaire n’est possible.",
+      "stimulus": "Le local de sciences possède 47 étiquettes pour des ensembles de 10 étiquettes chacun.",
+      "reponse_attendue": "Quotient q=4 groupes complets de 10 objets, reste r=7 objets libres. Vérification : 47=10×4+7, avec 0≤7<10. Une représentation recevable montre 4 groupes de 10 objets + 7 libres.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "La comparaison avec d×(q+1) sert à confirmer que le reste est inférieur au diviseur.",
+      "difficulte": "intermediaire",
+      "seed": 2108,
+      "parametres": {
+        "variables": {
+          "N": "quantité totale entière, calculée et affichée",
+          "d": "diviseur entier (destinataires OU taille du groupe)",
+          "q": "quotient entier",
+          "r": "reste entier"
+        },
+        "domaines": {
+          "seed": "entier stable de 1 à 999999",
+          "d": "3..10",
+          "q": "3..12",
+          "r": "0 si exact; sinon 1..d-1",
+          "N": "9..130"
+        },
+        "contraintes": [
+          "d >= 1",
+          "N = d*q + r",
+          "0 <= r < d",
+          "une seule interprétation de d par scénario",
+          "aucune division par zéro",
+          "conserver unités et représentation",
+          "aucun tirage IA"
+        ],
+        "algorithme": "d = 3 + ((7*seed+3) % 8); q = 3 + ((5*seed+1) % 10); r = 0 si type_reste=exact, sinon 1 + ((11*seed+2) % (d-1)); N = d*q+r. Ne pas changer les unités; seule la situation approuvée peut varier.",
+        "type_reste": "reste",
+        "representation_imposee": "groupement",
+        "seed_stable": 2108,
+        "instance_principale": {
+          "N": 47,
+          "d": 10,
+          "q": 4,
+          "r": 7
+        },
+        "exemples_verifies": [
+          {
+            "seed": 2108,
+            "N": 47,
+            "d": 10,
+            "q": 4,
+            "r": 7
+          },
+          {
+            "seed": 2109,
+            "N": 83,
+            "d": 9,
+            "q": 9,
+            "r": 2
+          },
+          {
+            "seed": 2110,
+            "N": 33,
+            "d": 8,
+            "q": 4,
+            "r": 1
+          }
+        ],
+        "controle_independant": "Pour chaque seed et instance, calculer divmod(N,d) indépendamment de la génération et exiger égalité avec (q,r); vérifier N=d*q+r et 0<=r<d."
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "groupement",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-009",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Décris le même calcul dans deux situations différentes : un partage entre 8 équipes et un groupement par paquets de 8. Nomme les unités.",
+      "stimulus": "43 jetons et le nombre 8 : invente deux phrases-problèmes, résous-les et dessine un schéma distinct pour chacune.",
+      "reponse_attendue": "Quotient q=5 (objets par destinataire), reste r=3 objets non distribués/non groupés. Vérification : 43=8×5+3, avec 0≤3<8. Une représentation recevable montre 8 groupes égaux de 5 objets + 3 libres. Pour le second scénario (groupement), 5 paquets de 8 et 3 jetons libres; les deux utilisent 43=8×5+3.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "L’égalité est la même, mais « jetons/équipe » et « paquets » ne sont pas des unités interchangeables.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "partage",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-010",
+      "objectif_id": "obj-1",
+      "mode": "parametrique",
+      "consigne": "Distingue partage et groupement avec les mêmes données. Explique l’unité de q dans les deux cas et vérifie q et r.",
+      "stimulus": "Avec 33 jetons et le nombre 8, propose (A) un partage entre 8 personnes et (B) des sachets de 8 jetons.",
+      "reponse_attendue": "Quotient q=4 (objets par destinataire), reste r=1 objets non distribués/non groupés. Vérification : 33=8×4+1, avec 0≤1<8. Une représentation recevable montre 8 groupes égaux de 4 objets + 1 libres. Dans le groupement : 4 sachets complets de 8 jetons, 1 jetons à part.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "Ne change pas la valeur q selon le scénario : seules les unités changent; vérifier le reste dans les deux.",
+      "difficulte": "intermediaire",
+      "seed": 2110,
+      "parametres": {
+        "variables": {
+          "N": "quantité totale entière, calculée et affichée",
+          "d": "diviseur entier (destinataires OU taille du groupe)",
+          "q": "quotient entier",
+          "r": "reste entier"
+        },
+        "domaines": {
+          "seed": "entier stable de 1 à 999999",
+          "d": "3..10",
+          "q": "3..12",
+          "r": "0 si exact; sinon 1..d-1",
+          "N": "9..130"
+        },
+        "contraintes": [
+          "d >= 1",
+          "N = d*q + r",
+          "0 <= r < d",
+          "une seule interprétation de d par scénario",
+          "aucune division par zéro",
+          "conserver unités et représentation",
+          "aucun tirage IA"
+        ],
+        "algorithme": "d = 3 + ((7*seed+3) % 8); q = 3 + ((5*seed+1) % 10); r = 0 si type_reste=exact, sinon 1 + ((11*seed+2) % (d-1)); N = d*q+r. Ne pas changer les unités; seule la situation approuvée peut varier.",
+        "type_reste": "reste",
+        "representation_imposee": "partage",
+        "seed_stable": 2110,
+        "instance_principale": {
+          "N": 33,
+          "d": 8,
+          "q": 4,
+          "r": 1
+        },
+        "exemples_verifies": [
+          {
+            "seed": 2110,
+            "N": 33,
+            "d": 8,
+            "q": 4,
+            "r": 1
+          },
+          {
+            "seed": 2111,
+            "N": 67,
+            "d": 7,
+            "q": 9,
+            "r": 4
+          },
+          {
+            "seed": 2112,
+            "N": 29,
+            "d": 6,
+            "q": 4,
+            "r": 5
+          }
+        ],
+        "controle_independant": "Pour chaque seed et instance, calculer divmod(N,d) indépendamment de la génération et exiger égalité avec (q,r); vérifier N=d*q+r et 0<=r<d."
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "partage",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-011",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A (sans indice de procédure). Présente un partage équitable par schéma, matériel ou description orale. Donne les valeurs avec unités et les deux vérifications, puis justifie.",
+      "stimulus": "Dans une activité de correspondance, une équipe-école doit partager 74 fiches également entre 6 équipes. Les fiches doivent rester entières. Que reçoit chaque équipe? Que reste-t-il?",
+      "reponse_attendue": "Quotient q=12 (objets par destinataire), reste r=2 objets non distribués/non groupés. Vérification : 74=6×12+2, avec 0≤2<6. Une représentation recevable montre 6 groupes égaux de 12 objets + 2 libres. Preuve autonome A : 6 groupes de 12 fiches et 2 fiches en dehors. À recueillir sans indice de calcul.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "Vérifie que les 6 équipes reçoivent chacune 12 fiches et que les 2 restantes ne forment pas un autre tour complet; réexplique les unités.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "partage",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    },
+    {
+      "item_id": "qc-pri-ma-009-q-012",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B (sans indice de procédure). Choisis un schéma ou un raisonnement oral; identifie les lots complets, le reste et justifie que ce reste ne suffit pas pour un lot supplémentaire.",
+      "stimulus": "Pour une journée de marche, 91 gourdes sont à préparer par caisses contenant 8 gourdes chacune. Combien de caisses pleines et de gourdes hors caisse?",
+      "reponse_attendue": "Quotient q=11 groupes complets de 8 objets, reste r=3 objets libres. Vérification : 91=8×11+3, avec 0≤3<8. Une représentation recevable montre 11 groupes de 8 objets + 3 libres. Preuve autonome B : 11 caisses pleines, 3 gourdes seules. À réaliser indépendamment de A sur une autre occasion.",
+      "criteres": [
+        "La représentation correspond à la situation (partage ou groupement) et les unités du quotient sont justes.",
+        "Le quotient et le reste sont exactement calculés.",
+        "La reconstruction N=d×q+r et la borne 0≤r<d sont explicitement vérifiées.",
+        "Une phrase explique le résultat en lien avec les objets et le contexte."
+      ],
+      "feedback": "Contrôle que 8×11=88, trois gourdes libres, et qu’une douzième caisse demanderait 96 gourdes.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-009-ev-01",
+      "representation": "groupement",
+      "validation_math": "recalcul divmod et identité entière exécutés pour l’instance; revue humaine de clarté restante"
+    }
+  ]
+}

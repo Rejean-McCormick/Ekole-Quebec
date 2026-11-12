@@ -1,0 +1,25 @@
+{
+  "format": "qc.kristal-delivery-manifest/1.2",
+  "kristal_id": "qc-pri-ma-026",
+  "base_version": "1.2",
+  "archive_root": "kristals/qc-pri-ma-026/",
+  "files": [
+    "kristals/qc-pri-ma-026/authoring/PARCOURS.md",
+    "kristals/qc-pri-ma-026/authoring/CONTRAT_PEDAGOGIQUE.json",
+    "kristals/qc-pri-ma-026/contenu/01_NOTIONS_ET_EXEMPLES.md",
+    "kristals/qc-pri-ma-026/contenu/02_DIAGNOSTIC.md",
+    "kristals/qc-pri-ma-026/contenu/03_ENSEIGNEMENT_GUIDE.md",
+    "kristals/qc-pri-ma-026/contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+    "kristals/qc-pri-ma-026/contenu/05_PRATIQUE_AUTONOME.md",
+    "kristals/qc-pri-ma-026/contenu/06_REMEDIATION_ET_TRANSFERT.md",
+    "kristals/qc-pri-ma-026/evaluation/PLAN_EVALUATION.md",
+    "kristals/qc-pri-ma-026/evaluation/BANQUE_ITEMS.json",
+    "kristals/qc-pri-ma-026/evaluation/GRILLE_MAITRISE.md",
+    "kristals/qc-pri-ma-026/sources/REFERENCES_CONTENU.md",
+    "kristals/qc-pri-ma-026/livraison/MANIFEST.json",
+    "kristals/qc-pri-ma-026/livraison/VALIDATION.md"
+  ],
+  "statut_validation": "a_revoir",
+  "fusion": "Extraire directement à la racine Frames_202_Kristals_Primaire_Qc_v1.2_Enrichis/, jamais dans un dossier englobant.",
+  "portee": "2 fichiers authoring/ remplacés; 12 fichiers nouveaux; aucun fichier canon, state, runtime, docs, governance ou registry inclus."
+}

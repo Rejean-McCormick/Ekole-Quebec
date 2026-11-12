@@ -1,0 +1,74 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-024",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Reformuler les points essentiels d’une communication orale suivie.",
+  "concepts": [
+    "écoute",
+    "indices sonores",
+    "reformulation"
+  ],
+  "preuve_attendue": "Restituer un message oral et répondre à des questions de vérification.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-024-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Restituer un message oral et répondre à des questions de vérification.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-fr-024",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": "script oral fixe joué deux fois; restitution en mots propres et réponses à trois questions factuelles",
+      "variables": [],
+      "contraintes": [
+        "Scripts et questions fixes; aucune substitution de faits non révisée",
+        "Deux écoutes sans pause d’explication; corrigé caché avant la réponse",
+        "Aucune pénalité pour accent, orthographe ou débit de l’élève",
+        "Deux preuves autonomes en contextes distincts: q-007 et q-008",
+        "Ne pas modifier la négation, les temps, l’ordre ni les conditions",
+        "Aucune IA libre comme juge ou producteur non revu de solutions"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "../evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "sujet",
+          "faits_essentiels",
+          "relations",
+          "questions",
+          "reformulation_fidele_autonome"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seuil_propose": ">= 2 dans chacune des 5 dimensions pour q-007 ET q-008, et aucune contradiction critique non corrigée; pas de score unique",
+        "conditions": "deux contextes distincts; deux écoutes; sans aide sémantique"
+      },
+      "source": "scripts originaux du présent delta; provenance décrite dans ../sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "banque_preparee_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

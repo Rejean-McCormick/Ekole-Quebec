@@ -1,0 +1,74 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décoder des mots inconnus en mobilisant les correspondances apprises.",
+  "concepts": [
+    "assemblage phonémique",
+    "décodage",
+    "reconnaissance orthographique"
+  ],
+  "preuve_attendue": "Lire à voix haute une série de mots nouveaux et expliquer la stratégie employée.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-002"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-003-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Lire à voix haute une série de mots nouveaux et expliquer la stratégie employée.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-fr-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "mot_imprime_isole",
+        "lecture_orale_observee",
+        "justification_orale_ou_dictee"
+      ],
+      "variables": [],
+      "contraintes": {
+        "modes_admis": [
+          "fixe",
+          "scenario_controle"
+        ],
+        "corpus_fermes": "Les mots et les réponses de BANQUE_ITEMS.json ne sont pas remplacés automatiquement.",
+        "usage": "Série de mots nouveaux; graphèmes préalablement enseignés; sans indice sonore ni illustration pendant la preuve; mots différents dans deux contextes.",
+        "variation": "Changements d’habillage de support uniquement, sans altérer la graphie, l’ordre lexical ou la correction; toute nouvelle liste exige revue humaine.",
+        "acces": "Variantes régionales examinées par lecteur francophone québécois; production orale observée; consentement avant tout enregistrement."
+      },
+      "barreme_ou_rubrique": {
+        "unite": "deux preuves observées, non une note unique",
+        "par_preuve": {
+          "exactitude": "au moins 3 des 4 mots lus correctement, autocorrection indépendante admise",
+          "strategie": "justification des correspondances et de leur assemblage sur au moins 1 mot",
+          "autonomie": "aucun indice, aucune modélisation pendant la tâche"
+        },
+        "decision": "maîtrise seulement si deux contextes distincts atteignent les critères et aucune confusion graphémique systématique ne persiste",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": "sources/REFERENCES_CONTENU.md (items et corpus originaux, revue humaine requise)",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_reviser",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

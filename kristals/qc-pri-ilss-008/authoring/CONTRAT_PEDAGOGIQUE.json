@@ -1,0 +1,96 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ilss-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Produire un texte scolaire progressif avec structure compréhensible.",
+  "concepts": [
+    "idée principale",
+    "phrases",
+    "enchaînement"
+  ],
+  "preuve_attendue": "Rédiger un texte court répondant à une consigne disciplinaire.",
+  "prerequis_bloquants": [
+    "qc-pri-ilss-006",
+    "qc-pri-ilss-007"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Rédiger un texte court répondant à une consigne disciplinaire.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ilss-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Rédiger un texte court répondant à une consigne disciplinaire.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "documents scolaires fictifs textuels",
+        "relevés chiffrés autoportants",
+        "procédures ordonnées",
+        "production écrite autonome"
+      ],
+      "variables": [],
+      "contraintes": [
+        "12 stimuli fixes; aucun générateur libre ou tirage aléatoire",
+        "respecter strictement les nombres, jours et associations indiqués",
+        "deux preuves de maîtrise autonomes en sciences et en mathématique",
+        "consignes accessibles sans contenu biographique imposé",
+        "correction humaine sur texte original et trace des aides"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "C1_consigne_et_donnees",
+          "C2_idee_principale",
+          "C3_phrases_comprehensibles",
+          "C4_enchainement"
+        ],
+        "echelle_par_dimension": [
+          0,
+          1,
+          2
+        ],
+        "descripteurs_ref": "evaluation/GRILLE_MAITRISE.md",
+        "preuve_seuils": {
+          "C1": 2,
+          "C2": 2,
+          "C3": 1,
+          "C4": 2
+        },
+        "preuves_requises": [
+          "qc-pri-ilss-008-q-011",
+          "qc-pri-ilss-008-q-012"
+        ],
+        "regle": "Chaque preuve atteint les seuils dans un contexte distinct sans aide de formulation. Ne jamais inférer la maîtrise du seul total."
+      },
+      "source": [
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "contenu/02_DIAGNOSTIC.md",
+        "contenu/03_ENSEIGNEMENT_GUIDE.md",
+        "contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+        "contenu/05_PRATIQUE_AUTONOME.md",
+        "contenu/06_REMEDIATION_ET_TRANSFERT.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

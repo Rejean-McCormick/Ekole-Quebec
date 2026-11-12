@@ -1,0 +1,297 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-013",
+  "family_id": "qc-pri-st-013-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-013-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Sépare les constats de ce qui est supposé. Donne une phrase observée et une phrase seulement inférée, avec raison.",
+      "stimulus": "Fiche d’un sol préparé : « Le contenant fermé montre des particules de plusieurs tailles, dont cinq grains bien visibles. Aucune origine du prélèvement n’est précisée. » Phrases proposées : A « Il y a des grains de tailles différentes »; B « Le sol a été déposé par une rivière ».",
+      "reponse_attendue": "A est observation rapportée par la fiche; B est inférence non étayée. Il manque une preuve de provenance et de transport fluvial.",
+      "criteres": [
+        "Sélectionne A comme observation",
+        "Identifie B comme interprétation non vérifiée",
+        "Justifie par la présence de tailles diverses et l’absence de donnée de provenance"
+      ],
+      "feedback": "Si B est choisie comme un fait, recherche une donnée sur le lieu ou le transport : rien de tel n’est donné.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-013-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-st-013-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Définis les quatre notions en phrases brèves, puis distingue « relief » et « rugosité d’un caillou ».",
+      "stimulus": "Quatre termes : roche, sol, granulométrie, relief. Aucun objet à manipuler.",
+      "reponse_attendue": "Roche : matériau naturel fait d’un ou plusieurs minéraux ou de matière minérale; sol : milieu de surface avec particules minérales, matière organique, pores, air/eau et organismes en proportions variables; granulométrie : distribution des tailles des particules; relief : formes et variations de hauteur du terrain. Une pierre rugueuse n’est pas, à elle seule, une montagne ou une vallée.",
+      "criteres": [
+        "Donne le sens central des quatre mots sans contrevérité",
+        "Définit granulométrie par tailles et répartition, non par couleur",
+        "Sépare échelle du paysage et aspect d’un fragment"
+      ],
+      "feedback": "Si granulométrie est confondue avec couleur, revenir à deux sols de même teinte dont les grains ont des tailles différentes.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-013-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-st-013-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Compare seulement la granulométrie apparente décrite, puis indique ce qu’on ne peut pas conclure.",
+      "stimulus": "Fiche U : « sol préparé, particules visibles presque toutes fines ». Fiche V : « sol préparé, plusieurs grains grossiers parmi de nombreux grains fins ». Aucune mesure de tamisage.",
+      "reponse_attendue": "U : aspect principalement fin; V : mélange apparent de tailles, avec grains grossiers visibles. On ne peut ni chiffrer les proportions de tailles ni déterminer la classe texturale sable/limon/argile sur ces seules descriptions.",
+      "criteres": [
+        "Décrit correctement la finesse apparente de U",
+        "Décrit correctement le mélange de tailles de V",
+        "Énonce une limite de mesure/identification"
+      ],
+      "feedback": "Dire « argile à 80 % » invente une mesure; garder « surtout fin » et « mélange apparent ».",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-013-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-st-013-q-004",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Crée un tableau R/S avec structure, tailles apparentes et traces organiques; formule une différence appuyée et une limite.",
+      "stimulus": "Fiche R : « fragment rocheux déclaré, plaque cohérente, bandes claires, grains internes non observés ». Fiche S : « sol préparé déclaré, meuble, mélange apparent de tailles, deux fragments de feuille visibles ».",
+      "reponse_attendue": "R : cohérent, tailles internes indéterminables, organique non indiqué. S : meuble, mélange de tailles, deux fragments de feuille visibles. R est plus cohérent que S dans les fiches; aucune identification minéralogique de R n’est autorisée.",
+      "criteres": [
+        "Trois mêmes lignes renseignées pour R et S",
+        "Affirmations étayées et emploi de « indéterminable/non indiqué »",
+        "Comparaison cohésion et limite explicite"
+      ],
+      "feedback": "Si tu écris « R sans grains », corrige pour « grains internes indéterminables ».",
+      "difficulte": "intermediaire",
+      "seed": 13004,
+      "parametres": {
+        "modele": "corpus_ferme_de_fiches",
+        "variables": [
+          {
+            "nom": "variante",
+            "domaine": [
+              "a",
+              "b"
+            ],
+            "description": "index de l’un des deux scénarios entièrement écrits"
+          }
+        ],
+        "selection": "index = seed % 2; 0 => a; 1 => b (calcul entier, sans aléa ni LLM)",
+        "contraintes": [
+          "seules les variantes a/b ci-dessous sont autorisées",
+          "aucun matériau réel ni hypothèse de provenance n’est ajouté",
+          "question et critères identiques pour les variantes"
+        ],
+        "variantes": [
+          {
+            "code": "a",
+            "stimulus": "Fiche R : « fragment rocheux déclaré, plaque cohérente, bandes claires, grains internes non observés ». Fiche S : « sol préparé déclaré, meuble, mélange apparent de tailles, deux fragments de feuille visibles ».",
+            "reponse_attendue": "R : cohérent, tailles internes indéterminables, organique non indiqué. S : meuble, mélange de tailles, deux fragments de feuille visibles. R est plus cohérent que S dans les fiches; aucune identification minéralogique de R n’est autorisée."
+          },
+          {
+            "code": "b",
+            "stimulus": "Fiche R : « fragment rocheux déclaré, bloc cohérent tacheté, particules internes non décrites ». Fiche S : « sol préparé déclaré, meuble, particules visibles surtout fines, une fibre végétale signalée ».",
+            "reponse_attendue": "R : cohérent, tailles internes indéterminables, organique non indiqué. S : meuble, grains surtout fins, une fibre visible. R est cohérent et S meuble; l’origine ou le nom de R reste indéterminé."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "seed": 13004,
+            "code": "a"
+          },
+          {
+            "seed": 13005,
+            "code": "b"
+          }
+        ],
+        "validation": "vérifier correspondance index/fiche/corrigé pour les deux variantes; revue humaine requise"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-013-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-st-013-q-005",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Complète un tableau comparatif à partir de deux fiches de sols. Écris une similitude et une différence, puis nomme une donnée absente.",
+      "stimulus": "Sol L : « meuble, grains majoritairement fins, une racine photographiée ». Sol M : « meuble, grains fins et grossiers visibles, racines non mentionnées ». Colonnes : structure / grains / indices de racines.",
+      "reponse_attendue": "L : meuble / surtout fin / une racine visible; M : meuble / mélange apparent de tailles / non indiqué. Similitude : les deux sont meubles. Différence : tailles apparentes décrites différentes. Donnée inconnue : présence ou absence réelle de racines dans M.",
+      "criteres": [
+        "Remplit les trois lignes des deux colonnes",
+        "Formule similitude et différence pertinentes",
+        "Ne transforme pas « non indiqué » en « absent »"
+      ],
+      "feedback": "La fiche M ne parle pas de racines : cela ne signifie pas qu’elle n’en contient pas.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-013-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-st-013-q-006",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Distingue le relief des propriétés d’un échantillon; indique une hypothèse non démontrée.",
+      "stimulus": "Dessin décrit : « Une colline est suivie d’une pente descendant vers une vallée ». Fiche X : « sol meuble à grains fins et grossiers ». Aucun lieu d’origine de X n’est fourni.",
+      "reponse_attendue": "Relief : colline, pente et vallée. Propriété du sol X : meuble et mélange apparent de tailles. Non démontré : que X provient de la colline ou a été transporté jusqu’à la vallée; ce serait une hypothèse.",
+      "criteres": [
+        "Nomme au moins deux formes de relief",
+        "Caractérise X sans prendre le grain pour du relief",
+        "Refuse une origine/causalité non documentée"
+      ],
+      "feedback": "Une description de pente ne prouve pas le trajet de chaque grain.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-013-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-st-013-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Corrige ces deux affirmations et explique pourquoi elles ne sont pas soutenues.",
+      "stimulus": "Affirmation A : « Cette roche grise est forcément du granite. » Affirmation B : « Ce sol pâle ne contient aucune matière organique. » Observations réelles des fiches : gris pour la roche; pâle pour le sol; aucune analyse ni mesure.",
+      "reponse_attendue": "A : on ne peut pas nommer une roche à partir de sa seule teinte. B : la couleur pâle ne prouve pas l’absence de matière organique. On peut seulement noter les couleurs et demander d’autres indices ou analyses.",
+      "criteres": [
+        "Corrige A sans attribuer de type de roche",
+        "Corrige B sans déduire absence de matière organique",
+        "Distingue observation couleur et interprétation"
+      ],
+      "feedback": "Une couleur est un indice descriptif; elle n’est pas une analyse de composition.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-013-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-st-013-q-008",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Repère le geste dangereux; propose une méthode sûre qui permet quand même une comparaison scientifiquement valable.",
+      "stimulus": "L’enseignant a préparé deux contenants transparents propres, fermés et étiquetés. Un élève propose : « Ouvrons-les et soufflons sur le sol pour voir les petites particules. »",
+      "reponse_attendue": "Refuser d’ouvrir et de souffler : dispersion de poussières et exposition évitables. Observer à travers les contenants fermés ou lire les fiches fournies. Consigner uniquement les tailles déjà décrites.",
+      "criteres": [
+        "Identifie précisément le geste à éviter",
+        "Propose observation sous couvercle ou fiches sans contact",
+        "Maintient l’objectif de comparaison et la prudence sur les données"
+      ],
+      "feedback": "La sécurité fait partie de la méthode scientifique : ne pas ouvrir ni disperser les particules.",
+      "difficulte": "transfert",
+      "seed": 13008,
+      "parametres": {
+        "modele": "corpus_ferme_de_protocoles",
+        "variables": [
+          {
+            "nom": "variante",
+            "domaine": [
+              "a",
+              "b"
+            ]
+          }
+        ],
+        "selection": "index = seed % 2; 0 => a; 1 => b",
+        "contraintes": [
+          "seules les deux fiches de situation prédéfinies",
+          "aucune manipulation, aucune collecte, aucune substance ajoutée"
+        ],
+        "variantes": [
+          {
+            "code": "a",
+            "stimulus": "L’enseignant a préparé deux contenants transparents propres, fermés et étiquetés. Un élève propose : « Ouvrons-les et soufflons sur le sol pour voir les petites particules. »",
+            "reponse_attendue": "Refuser d’ouvrir et de souffler : dispersion de poussières et exposition évitables. Observer à travers les contenants fermés ou lire les fiches fournies. Consigner uniquement les tailles déjà décrites."
+          },
+          {
+            "code": "b",
+            "stimulus": "On reçoit deux fiches textuelles décrivant une roche et un sol. Un élève propose : « Allons prendre à mains nues de la terre inconnue au bord du stationnement pour vérifier les fiches. »",
+            "reponse_attendue": "Refuser le prélèvement non supervisé et le contact avec une matière inconnue. Utiliser les fiches ou les échantillons propres, scellés et préparés par l’adulte; comparer sans contact."
+          }
+        ],
+        "exemples_valides": [
+          {
+            "seed": 13008,
+            "code": "a"
+          },
+          {
+            "seed": 13009,
+            "code": "b"
+          }
+        ],
+        "validation": "exactitude des deux remplacements déterministes contrôlée localement, revue sécurité humaine requise"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-013-ev-01",
+      "critere_id": "crit-1"
+    },
+    {
+      "item_id": "qc-pri-st-013-q-009",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "**PREUVE AUTONOME 1, jardin scolaire.** À partir des trois fiches entièrement fournies, crée *sans indices de contenu* un tableau J1/J2/J3 d’au moins trois lignes de critères communs (structure, tailles apparentes, traces végétales/limites sont pertinents). Donne deux comparaisons avec leur indice et une limite explicite. Utilise seulement les données; aucun objet à ouvrir.",
+      "stimulus": "Situation : la responsable d’un jardin scolaire a préparé des fiches de spécimens fictifs. J1 « fragment de roche déclaré; plaque cohérente à bandes grises; grains internes non observés; aucun renseignement sur des traces organiques ». J2 « sol préparé déclaré; matériau meuble; certains grains grossiers et d’autres fins visibles; deux fragments de feuille visibles ». J3 « sol préparé déclaré; matériau meuble; particules visibles surtout fines; aucune information donnée sur des traces végétales ». Les étiquettes de provenance sont des informations de fiche, pas une analyse géologique.",
+      "reponse_attendue": "TABLEAU attendu : lignes communes possibles — structure : J1 cohérent / J2 meuble / J3 meuble; granulométrie apparente : J1 indéterminable à partir de la fiche / J2 mélange apparent de tailles / J3 surtout fines; végétal : J1 non indiqué / J2 deux fragments visibles / J3 non indiqué; autre ligne admissible : aspect J1 à bandes grises / J2 ou J3 non indiqué. DEUX COMPARAISONS justifiées : (a) J1 est cohérent alors que J2 et J3 sont meubles, selon les descriptions; (b) J2 présente des grains grossiers et fins alors que J3 présente surtout des particules fines. LIMITE : impossible d’affirmer la composition, la proportion réelle d’argile ou l’absence de végétal en J1/J3. Tout tableau scientifiquement équivalent avec >=3 lignes communes, >=2 comparaisons exactes, >=1 limite est recevable.",
+      "criteres": [
+        "C1 : tableau comparatif avec au moins trois critères communs renseignés pour J1/J2/J3",
+        "C2 : observations exactes, emploi approprié de « non indiqué/indéterminable »",
+        "C3 : deux comparaisons explicitement reliées aux fiches",
+        "C4 : au moins une limite et aucune identification non fondée",
+        "C5 : production indépendante, sans manipulation dangereuse, avec adaptation de communication permise"
+      ],
+      "feedback": "Réussite : compare structure et distribution *apparente*; si tu inventes des proportions de grains ou l’absence de végétal, relis les limites de la fiche. En cas d’aide sur les réponses, cette preuve n’est pas autonome.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-013-ev-01",
+      "critere_id": "crit-1",
+      "contexte_maitrise": "jardin_scolaire",
+      "preuve": "preuve_1",
+      "rubrique_ref": "../evaluation/GRILLE_MAITRISE.md"
+    },
+    {
+      "item_id": "qc-pri-st-013-q-010",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "**PREUVE AUTONOME 2, sentier municipal.** Sans réutiliser la correction du jardin et sans indices de contenu, présente dans un tableau les trois fiches T1/T2/T3, au moins trois critères communs, deux comparaisons argumentées et une limite; indique ce que la mention « vallée » ne permet pas de conclure. Aucun prélèvement ni toucher.",
+      "stimulus": "Situation : un sentier municipal longe une pente qui rejoint une vallée. L’équipe présente des fiches de trois spécimens fictifs préparés. T1 « fragment de roche déclaré; bloc cohérent sombre, présentant de fines bandes claires; ses grains internes ne sont pas documentés; aucune trace végétale mentionnée ». T2 « sol préparé déclaré; mélange meuble avec grains majoritairement fins; une petite fibre végétale visible ». T3 « fragment de roche déclaré; bloc cohérent brun à points pâles; ses grains internes ne sont pas décrits; aucune mention de matière organique ». La carte du sentier n’indique pas leur trajet ni leur provenance.",
+      "reponse_attendue": "TABLEAU attendu : structure T1 bloc cohérent / T2 meuble / T3 bloc cohérent; particules T1 indéterminables / T2 principalement fines / T3 indéterminables; végétal T1 non indiqué / T2 une fibre visible / T3 non indiqué; aspect T1 sombre à bandes claires / T2 non indiqué / T3 brun à points pâles. COMPARAISONS : (a) T1 et T3 sont tous deux cohérents tandis que T2 est meuble; (b) T1 présente des bandes, T3 des points pâles; ou T2 seul possède des grains fins explicitement décrits. LIMITE : le relief en vallée ne démontre pas que les grains de T2 proviennent de la pente, et les descriptions ne donnent ni classe texturale mesurée ni nom des deux roches. Accepter toute justification équivalente fondée sur les fiches.",
+      "criteres": [
+        "C1 : tableau à >=3 lignes de critères identiques et 3 colonnes remplies",
+        "C2 : exactitude des données et usage de « non indiqué/indéterminable »",
+        "C3 : >=2 comparaisons justifiées en citant des indices des fiches",
+        "C4 : limite explicite, y compris refus d’une provenance inférée de la vallée",
+        "C5 : autonomie et protocole entièrement sans risque"
+      ],
+      "feedback": "Réussite : appuie tes comparaisons sur les fiches, pas sur une histoire imaginaire de la vallée. Ne déduis pas la composition exacte de l’aspect des roches.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-013-ev-01",
+      "critere_id": "crit-1",
+      "contexte_maitrise": "sentier_municipal",
+      "preuve": "preuve_2",
+      "rubrique_ref": "../evaluation/GRILLE_MAITRISE.md"
+    }
+  ]
+}

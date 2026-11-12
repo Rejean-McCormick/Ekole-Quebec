@@ -1,0 +1,79 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-st-011",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Identifier la fonction d’éléments d’un objet technique usuel.",
+    "concepts": [
+      "besoin",
+      "fonction",
+      "mécanisme",
+      "contrainte"
+    ]
+  },
+  "titre_source": "Objets techniques, mécanismes et fonctions",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "besoin, fonction, mécanisme",
+      "prompt_conceptuel": "Concept d'image pour le cours « Objets techniques, mécanismes et fonctions ». Représenter un environnement d’observation scientifique avec des objets ou phénomènes pertinents. Mettre en évidence les notions : besoin, fonction, mécanisme, contrainte. L'image doit aider à comprendre l'objectif « Identifier la fonction d’éléments d’un objet technique usuel. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Objets techniques, mécanismes et fonctions : besoin, fonction, mécanisme.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "besoin, fonction, mécanisme",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Objets techniques, mécanismes et fonctions » : montrer une situation d’investigation où l’on peut comparer un phénomène avant et après une action. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter besoin, fonction, mécanisme, contrainte. Cette image sert de point de départ à une activité liée à l'objectif « Identifier la fonction d’éléments d’un objet technique usuel. ». Ne pas représenter une réponse évaluée comme déjà résolue.",
+      "texte_alternatif": "Situation d’exploration pour Objets techniques, mécanismes et fonctions.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    }
+  ]
+}

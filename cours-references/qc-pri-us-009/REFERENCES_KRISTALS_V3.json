@@ -1,0 +1,87 @@
+{
+  "format": "ekole.references-kristals-pedagogiques/3.0",
+  "kristal_cours": "qc-pri-us-009",
+  "statut": "selection_candidate_validation_enseignant_requise",
+  "objectif": "Comparer des situations de rencontre et d’échange entre populations.",
+  "preuve": "Analyser une situation à partir de deux points de vue documentés.",
+  "modele_ref": {
+    "kristal": "modele-organisation-humaine",
+    "artifact_id": "urn:kristal:modele-organisation-humaine:modele"
+  },
+  "dependances": [
+    {
+      "kristal": "societes-autochtones-quebec",
+      "artifact_id": "urn:kristal:societes-autochtones-quebec:graphe-v3",
+      "local_path": "kristals/societes-autochtones-quebec/canon/domain/graphe-v3.json",
+      "role": "connaissances_nations_et_societes",
+      "mode": "reference_lecture_seule",
+      "state_ref": "urn:kristal:state:societes-autochtones-quebec",
+      "state_logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:9e6a58efd15113c64d82b724c0e2e4a89a1aec2cca00bbf0e66f6544cc39865d"
+      },
+      "artifact_logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:97a6fd8a81f480ab6d9a35ad1cbad7ee210d9f29e98880f43394129677566de9"
+      },
+      "file_sha256": "d0b3183bf6f585b26f863dbffcc2f3ef1974660bceb3ef46ee9578a398e61751"
+    },
+    {
+      "kristal": "rencontres-coloniales-quebec",
+      "artifact_id": "urn:kristal:rencontres-coloniales-quebec:graphe-v3",
+      "local_path": "kristals/rencontres-coloniales-quebec/canon/domain/graphe-v3.json",
+      "role": "rencontres_coloniales_interactions",
+      "mode": "reference_lecture_seule",
+      "state_ref": "urn:kristal:state:rencontres-coloniales-quebec",
+      "state_logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:cc6b2831d63e5922942dba101026eb3822ff4bc1fa5dfd36215f46e8d5ce46cb"
+      },
+      "artifact_logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:02dc1275ff5ca68aa39f62f3ab2a0c0c171812de3fa67d72d75250c8f4351b27"
+      },
+      "file_sha256": "a11090b236413eb8842d9e5ff5af82cef459c5809f748dd43332d13e5c705bc6"
+    }
+  ],
+  "selection_faits": {
+    "comprendre_les_societes": [
+      "fait:peuples-avant",
+      "fait:wendat-maisons",
+      "fait:wendat-meres-clan",
+      "fait:innus-saisons",
+      "fait:v3-innu-outils",
+      "fait:v3-wendat-gouvernance"
+    ],
+    "echanges_et_rencontres": [
+      "fait:commerce-fourrures",
+      "fait:commerce-participation",
+      "fait:alliance-1603",
+      "fait:v3-paix-rencontre"
+    ],
+    "diplomatie": [
+      "fait:paix-date",
+      "fait:kondiaronk",
+      "fait:calliere",
+      "fait:v3-paix-kondiaronk",
+      "fait:v3-paix-texte"
+    ],
+    "transformations": [
+      "fait:pouvoir-apres1760",
+      "fait:wendat-1825",
+      "fait:vie-aujourdhui",
+      "fait:wendat-langue-vivante"
+    ],
+    "sources_et_points_de_vue": [
+      "fait:traitement-sources",
+      "fait:v3-paix-38-39",
+      "fait:v3-innu-aine"
+    ]
+  },
+  "principes": [
+    "Le cours résume et référence; les faits et sources vivent uniquement dans les Kristals autonomes.",
+    "Aucune affirmation ne devient officielle par simple intégration scolaire.",
+    "Comparaison de deux points de vue documentés exige une observation humaine."
+  ],
+  "anciennes_versions": "v1 et v2 conservées sans suppression; v3 ne lit pas leurs copies du cours."
+}

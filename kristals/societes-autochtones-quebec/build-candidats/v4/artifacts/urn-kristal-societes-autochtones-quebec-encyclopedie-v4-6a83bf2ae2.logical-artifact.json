@@ -1,0 +1,4142 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_logical_artifact",
+  "artifact_id": "urn:kristal:societes-autochtones-quebec:encyclopedie-v4",
+  "logical_contract": {
+    "id": "ekole.encyclopedie-societes",
+    "version": "4.0"
+  },
+  "payload": {
+    "format": "kristal.encyclopedie-societes/4.0",
+    "slug": "societes-autochtones-quebec",
+    "titre": "Encyclopédie contextualisée des sociétés autochtones au Québec",
+    "propriete_semantique": "kristal_autonome_independant_du_cours",
+    "statut": "candidat_documente_sans_revue_par_nations",
+    "politique": {
+      "exactitude": "Chaque réponse exige un contexte temporel, une société et des références.",
+      "absence": "Absent du corpus ne veut pas dire faux.",
+      "comparaison": "Les groupes de langues, les nations et les catégories administratives ne sont pas interchangeables.",
+      "validation": "Aucune activité auto-corrigée ne prouve seule une compétence historique.",
+      "prompt": "Concept sans style; afficher prompt quand le fichier manque.",
+      "prerequis": "Dépendances pédagogiques explicites dans les articles, distinctes des relations historiques du graphe v3."
+    },
+    "themes": [
+      {
+        "id": "peuples",
+        "titre": "Peuples, territoires et époques"
+      },
+      {
+        "id": "habiter",
+        "titre": "Villages, habitations et familles"
+      },
+      {
+        "id": "se_nourrir",
+        "titre": "Se nourrir et produire"
+      },
+      {
+        "id": "techniques",
+        "titre": "Objets, matériaux et techniques"
+      },
+      {
+        "id": "voyages",
+        "titre": "Voyages, cours d’eau et saisons"
+      },
+      {
+        "id": "gouvernance",
+        "titre": "Rôles, clans, décisions et droits"
+      },
+      {
+        "id": "savoirs",
+        "titre": "Langues, connaissances et loisirs"
+      },
+      {
+        "id": "echanges",
+        "titre": "Échanges et rencontres"
+      },
+      {
+        "id": "innus",
+        "titre": "Les Innus et le Nitassinan"
+      },
+      {
+        "id": "vivants",
+        "titre": "Les nations et communautés aujourd’hui"
+      },
+      {
+        "id": "enquete",
+        "titre": "Enquêter et éviter les pièges historiques"
+      }
+    ],
+    "sources": [
+      {
+        "id": "recit-village",
+        "titre": "RÉCIT — Un mode de vie sédentaire",
+        "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/un-mode-de-vie-sedentaire",
+        "ancrage": "Vie villageoise, choix de site et déplacements",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-maison",
+        "titre": "RÉCIT — La vie dans une maison longue",
+        "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/la-vie-dans-une-maison-longue",
+        "ancrage": "Maison longue, foyers, organisation, capacité",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-femmes",
+        "titre": "RÉCIT — Les femmes",
+        "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/les-femmes",
+        "ancrage": "Répartition des tâches décrite dans une ressource scolaire",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-hommes",
+        "titre": "RÉCIT — Les hommes",
+        "url": "https://primaire.recitus.qc.ca/changement/comparaison/iroquoiens-1500-et-iroquoiens-1745/A/content/les-hommes",
+        "ancrage": "Pêche, chasse, défrichement, diplomatie",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-clan",
+        "titre": "RÉCIT — L’importance du clan",
+        "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/l-importance-du-clan",
+        "ancrage": "Clans, symboles, décisions",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-vetements",
+        "titre": "RÉCIT — Des vêtements pour toutes les saisons",
+        "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/des-vetements-pour-toutes-les-saisons",
+        "ancrage": "Peaux, vêtements, décoration",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-objets",
+        "titre": "RÉCIT — Des objets pour répondre à leurs besoins",
+        "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/des-objects-pour-repondre-a-leurs-besoins?gpc=2",
+        "ancrage": "Matériaux et objets",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-cultures",
+        "titre": "RÉCIT — Cueillir, chasser, pêcher et cultiver",
+        "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/cueillir-chasser-pecher-et-cultiver",
+        "ancrage": "Agriculture et subsistance",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-troc",
+        "titre": "RÉCIT — Le troc : échanges entre nations",
+        "url": "https://primaire.recitus.qc.ca/changement/comparaison/algonquiens-1500-et-iroquoiens-1500/B/content/le-troc-des-echanges-entre-nations",
+        "ancrage": "Réseaux précoloniaux",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-jeux",
+        "titre": "RÉCIT — Jouer et se divertir",
+        "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/jouer-et-se-divertir",
+        "ancrage": "Jeux et festivités",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-oral",
+        "titre": "RÉCIT — La tradition orale",
+        "url": "https://primaire.recitus.qc.ca/changement/comparaison/iroquoiens-1500-et-incas-1500/A/content/la-tradition-orale-la-parole-est-reine",
+        "ancrage": "Transmission orale (vocabulaire historique d’une ressource scolaire)",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-transport",
+        "titre": "RÉCIT — Un territoire riche en ressources",
+        "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1500/content/ressources-naturelles",
+        "ancrage": "Basses terres, canot, agriculture",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "recit-1745",
+        "titre": "RÉCIT — Le rôle des femmes et des hommes vers 1745",
+        "url": "https://primaire.recitus.qc.ca/sujet/organisation/iroquoiens-1745/content/le-role-des-femmes-et-des-hommes",
+        "ancrage": "Changements liés à la traite et aux guerres",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "nametau-cycle",
+        "titre": "Nametau innu — Territoire et cycle de vie traditionnels",
+        "url": "https://www.nametauinnu.ca/fr/accueil/science/outil/cycle.html",
+        "ancrage": "Cycles historiques, territoires et vie innue",
+        "provenance": "source_produite_par_nation_ou_projet_collaboratif",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "nametau-printemps",
+        "titre": "Nametau innu — Saison : Printemps",
+        "url": "https://www.nametauinnu.ca/fr/visite/detail/79.html",
+        "ancrage": "Récit et transmission autour des saisons",
+        "provenance": "source_produite_par_nation_ou_projet_collaboratif",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "nametau-saumon",
+        "titre": "Nametau innu — Pêche aux saumons",
+        "url": "https://www.nametauinnu.ca/fr/nomade/P.html",
+        "ancrage": "Pêche et droits",
+        "provenance": "source_produite_par_nation_ou_projet_collaboratif",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "nametau-ressources",
+        "titre": "Nametau innu — Ressources naturelles",
+        "url": "https://www.nametauinnu.ca/fr/accueil/science/territoire/ressource.html",
+        "ancrage": "Diversité des milieux nord-côtiers",
+        "provenance": "source_produite_par_nation_ou_projet_collaboratif",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "nametau-natashquan",
+        "titre": "Nametau innu — Innucadie et échanges avec les Acadiens",
+        "url": "https://www.nametauinnu.ca/fr/culture/nation/detail/68/86.html",
+        "ancrage": "Récit d’échanges culturels",
+        "provenance": "source_produite_par_nation_ou_projet_collaboratif",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "nametau-europeens",
+        "titre": "Nametau innu — L’occupation allochtone du territoire",
+        "url": "https://www.nametauinnu.ca/fr/accueil/science/histoire/anglais.html",
+        "ancrage": "Présences et concessions coloniales sur la Côte-Nord",
+        "provenance": "source_produite_par_nation_ou_projet_collaboratif",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "wendat-nation",
+        "titre": "Conseil de la Nation Wendat — Histoire et culture",
+        "url": "https://www.wendake.ca/histoire-et-culture",
+        "ancrage": "Autoreprésentation historique et institutionnelle",
+        "provenance": "source_produite_par_nation_ou_projet_collaboratif",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "wendat-conseil",
+        "titre": "Conseil de la Nation Wendat — Grand Chef et Chefs familiaux",
+        "url": "https://www.wendake.ca/grand-chef-et-chefs-familiaux",
+        "ancrage": "Gouvernance contemporaine",
+        "provenance": "source_produite_par_nation_ou_projet_collaboratif",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "qc-nations",
+        "titre": "Gouvernement du Québec — Les 11 nations autochtones",
+        "url": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/a-propos-nations",
+        "ancrage": "Classification administrative contemporaine",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "qc-innus",
+        "titre": "Gouvernement du Québec — Innus",
+        "url": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/innus",
+        "ancrage": "Langue, histoire, communautés",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "qc-inuit",
+        "titre": "Gouvernement du Québec — Inuit",
+        "url": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/inuit",
+        "ancrage": "Nunavik, langue et vie contemporaine",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "qc-anish",
+        "titre": "Gouvernement du Québec — Anichinabés",
+        "url": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/algonquins",
+        "ancrage": "Territoires, déplacements et langue",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "qc-eeyou",
+        "titre": "Gouvernement du Québec — Cris (Eeyou)",
+        "url": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/cris",
+        "ancrage": "Relations territoriales et présent",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      },
+      {
+        "id": "museum-iroquoian",
+        "titre": "Musée canadien de l’histoire — Description des Iroquoiens",
+        "url": "https://www.historymuseum.ca/cmc/vmnf/premieres_nations/fr/iroquoiens/description.html",
+        "ancrage": "Distinction entre groupes de langues iroquoiennes",
+        "provenance": "ressource_educative_ou_institutionnelle",
+        "consultation": "2026-10-10",
+        "licence_reproduction": "non_confirmee_texte_original_non_reproduit"
+      }
+    ],
+    "articles": [
+      {
+        "id": "ens-v4:diversite",
+        "theme": "peuples",
+        "societe": "ensemble:qc",
+        "epoque": "actuel",
+        "question": "Est-ce que tous les peuples autochtones du Québec sont pareils ?",
+        "formulations": [
+          "Combien y a-t-il de nations autochtones au Québec ?"
+        ],
+        "reponse_courte": "Non. Les nations autochtones possèdent des histoires, des langues, des territoires et des institutions différents.",
+        "explication_detaillee": "Le Québec reconnaît aujourd’hui dix Premières Nations et la nation inuit. Ce regroupement administratif contemporain ne veut pas dire qu’il existait onze sociétés identiques dans le passé. Pour comprendre une pratique, il faut nommer la nation et l’époque.",
+        "sources": [
+          {
+            "id": "qc-nations",
+            "section": "Classification administrative contemporaine"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "peuples",
+          "nations",
+          "onze",
+          "differences"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "nombre_administratif_de_nations",
+            "objet": "11_autochtones_dont_inuit",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:iroquoien",
+        "theme": "peuples",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Que signifie « Iroquoiens » ?",
+        "formulations": [
+          "Qui sont les iroquoiens ?"
+        ],
+        "reponse_courte": "« Iroquoien » désigne une famille de langues et plusieurs sociétés, pas une seule nation.",
+        "explication_detaillee": "Les Wendat, les Haudenosaunee et les Iroquoiens du Saint-Laurent ne sont pas trois noms interchangeables. Le Musée canadien de l’histoire explique que plusieurs nations parlent des langues iroquoiennes. On doit éviter d’attribuer à toutes les nations une coutume connue chez une seule.",
+        "sources": [
+          {
+            "id": "museum-iroquoian",
+            "section": "Distinction entre groupes de langues iroquoiennes"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "iroquoiens",
+          "iroquois",
+          "langue",
+          "wendat",
+          "haudenosaunee"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "iroquoien",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:saint-laurent",
+        "theme": "peuples",
+        "societe": "soc:iroquoiens-saint-laurent",
+        "epoque": "vers:1500",
+        "question": "Qui étaient les Iroquoiens du Saint-Laurent ?",
+        "formulations": [
+          "Qui vivait à Hochelaga ?"
+        ],
+        "reponse_courte": "Ce sont des populations de langue iroquoienne établies notamment dans la vallée du Saint-Laurent au XVIe siècle.",
+        "explication_detaillee": "Jacques Cartier a rencontré des communautés iroquoiennes dans la vallée du Saint-Laurent en 1535-1536. Ces populations ne doivent pas être automatiquement identifiées à toutes les nations iroquoiennes connues aujourd’hui; leur histoire après le XVIe siècle fait l’objet de recherches et de débats.",
+        "sources": [
+          {
+            "id": "museum-iroquoian",
+            "section": "Distinction entre groupes de langues iroquoiennes"
+          }
+        ],
+        "precision": "Ne pas affirmer de filiation unique ou de disparition simple; historiographie complexe.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "saint-laurent",
+          "cartier",
+          "1535",
+          "hochelaga"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:iroquoiens-saint-laurent",
+            "predicat": "description",
+            "objet": "saint-laurent",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:avant-colonies",
+        "theme": "peuples",
+        "societe": "ensemble:qc",
+        "epoque": "avant:1600",
+        "question": "Les nations autochtones vivaient-elles ici avant les Français ?",
+        "formulations": [],
+        "reponse_courte": "Oui. Des peuples autochtones vivaient sur ces territoires bien avant la fondation de Québec en 1608.",
+        "explication_detaillee": "La présence autochtone est antérieure de nombreux siècles aux établissements coloniaux français. Les routes, les villages et les échanges entre nations existaient avant ces installations européennes. L’expression « territoire de l’actuel Québec » est une référence géographique moderne, pas une frontière de 1500.",
+        "sources": [
+          {
+            "id": "recit-troc",
+            "section": "Réseaux précoloniaux"
+          },
+          {
+            "id": "qc-nations",
+            "section": "Classification administrative contemporaine"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "avant",
+          "francais",
+          "colonisation",
+          "1608"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "description",
+            "objet": "avant-colonies",
+            "epoque": "avant:1600"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:territoire-innu",
+        "theme": "peuples",
+        "societe": "soc:innus",
+        "epoque": "historique",
+        "question": "Que signifie Nitassinan ?",
+        "formulations": [
+          "C’est quoi le Nitassinan ?"
+        ],
+        "reponse_courte": "Nitassinan signifie « notre terre » dans les sources sur le territoire des Innus.",
+        "explication_detaillee": "Le projet Nametau innu décrit un vaste territoire historique reliant des régions du Saint-Laurent, de la Côte-Nord et du Labrador. Il ne faut pas réduire ce territoire à l'emplacement d'une communauté actuelle ni interpréter une carte scolaire comme une décision sur les droits territoriaux.",
+        "sources": [
+          {
+            "id": "nametau-cycle",
+            "section": "Cycles historiques, territoires et vie innue"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "nitassinan",
+          "innu",
+          "territoire"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "territoire-innu",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:inuit",
+        "theme": "peuples",
+        "societe": "soc:inuit",
+        "epoque": "actuel",
+        "question": "Les Inuit sont-ils une Première Nation ?",
+        "formulations": [],
+        "reponse_courte": "Dans la présentation administrative québécoise, les Inuit forment une nation autochtone distincte des dix Premières Nations.",
+        "explication_detaillee": "Les Inuit vivent notamment au Nunavik; ils ont leurs langues, institutions et histoires propres. Les regrouper dans un cours sur les peuples autochtones est pertinent, mais il ne faut pas leur attribuer les maisons longues des Iroquoiens ou le cycle territorial des Innus.",
+        "sources": [
+          {
+            "id": "qc-nations",
+            "section": "Classification administrative contemporaine"
+          },
+          {
+            "id": "qc-inuit",
+            "section": "Nunavik, langue et vie contemporaine"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "inuit",
+          "premiere nation",
+          "nunavik"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:inuit",
+            "predicat": "description",
+            "objet": "inuit",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:aujourdhui",
+        "theme": "peuples",
+        "societe": "ensemble:qc",
+        "epoque": "actuel",
+        "question": "Est-ce que les peuples autochtones existent encore aujourd’hui ?",
+        "formulations": [],
+        "reponse_courte": "Oui. Les nations autochtones sont des sociétés vivantes, avec des gouvernements, des langues, des familles et des projets actuels.",
+        "explication_detaillee": "Les documents du gouvernement du Québec décrivent leurs communautés contemporaines; la Nation Wendat présente également ses institutions, son territoire et sa culture actuelle. Un cours ne doit pas présenter les Autochtones uniquement au passé.",
+        "sources": [
+          {
+            "id": "qc-nations",
+            "section": "Classification administrative contemporaine"
+          },
+          {
+            "id": "wendat-nation",
+            "section": "Autoreprésentation historique et institutionnelle"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "aujourdhui",
+          "actuel",
+          "modernes",
+          "vivants"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "description",
+            "objet": "aujourdhui",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:lieux",
+        "theme": "peuples",
+        "societe": "ensemble:qc",
+        "epoque": "actuel",
+        "question": "Est-ce que tous les Autochtones vivent en communauté ou en réserve ?",
+        "formulations": [],
+        "reponse_courte": "Non. Des personnes autochtones vivent dans des communautés, des villages nordiques et aussi dans les villes.",
+        "explication_detaillee": "Les formes d’habitation varient selon les nations et les choix des personnes. La page québécoise sur les nations souligne l’importance des résidences en milieu urbain. Une réserve, une ville et un territoire ancestral ne désignent pas la même réalité.",
+        "sources": [
+          {
+            "id": "qc-nations",
+            "section": "Classification administrative contemporaine"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "ville",
+          "reserve",
+          "communaute",
+          "habitent"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "description",
+            "objet": "lieux",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:maisons-longues",
+        "theme": "habiter",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Qui habitait dans les maisons longues ?",
+        "formulations": [],
+        "reponse_courte": "Dans plusieurs sociétés iroquoiennes, des familles apparentées par la mère vivaient ensemble dans une maison longue.",
+        "explication_detaillee": "Ces habitations collectives étaient faites notamment de bois et d’écorce. Les familles disposaient d’espaces et partageaient certains foyers. Il serait faux d’imaginer que toutes les nations du territoire vivaient dans de telles maisons.",
+        "sources": [
+          {
+            "id": "recit-maison",
+            "section": "Maison longue, foyers, organisation, capacité"
+          },
+          {
+            "id": "recit-clan",
+            "section": "Clans, symboles, décisions"
+          },
+          {
+            "id": "wendat-nation",
+            "section": "Autoreprésentation historique et institutionnelle"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "maison longue",
+          "familles",
+          "habitation",
+          "parents"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "maisons-longues",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:nombre-maison",
+        "theme": "habiter",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Combien de personnes vivaient dans une maison longue ?",
+        "formulations": [
+          "25 à 80 personnes par maison, vrai ou faux ?"
+        ],
+        "reponse_courte": "RÉCIT donne l’ordre de grandeur de 25 à 60 personnes pour certaines maisons longues iroquoiennes.",
+        "explication_detaillee": "Le nombre dépendait notamment de la taille de l’habitation et des familles présentes. Une estimation scolaire n’est pas la capacité universelle de chaque maison longue. Dire systématiquement « de 25 à 80 » sans préciser la source serait trop catégorique.",
+        "sources": [
+          {
+            "id": "recit-maison",
+            "section": "Maison longue, foyers, organisation, capacité"
+          }
+        ],
+        "precision": "25–60 est une fourchette pédagogique de RÉCIT; ne pas en faire une norme archéologique universelle.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "25",
+          "60",
+          "80",
+          "population",
+          "personnes"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "nombre-maison",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:maisons-longues"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:maisons-longues"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:longueur-maison",
+        "theme": "habiter",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Les maisons longues mesuraient-elles toujours 40 mètres ?",
+        "formulations": [
+          "C’était 40 mètres par 8 mètres ?"
+        ],
+        "reponse_courte": "Non. Les maisons longues étaient de tailles diverses; 40 mètres n’est pas une mesure obligatoire.",
+        "explication_detaillee": "Les sources scolaires expliquent qu’elles pouvaient être agrandies et qu’elles abritaient plusieurs familles. La dimension précise doit venir de la description d’un site archéologique ou d’une maison particulière. Le Kristal refuse donc le vrai/faux absolu « 40 sur 8 mètres pour toutes ».",
+        "sources": [
+          {
+            "id": "recit-maison",
+            "section": "Maison longue, foyers, organisation, capacité"
+          }
+        ],
+        "precision": "L’archive courante ne contient pas de mesure archéologique site par site : aucune cote exacte n’est certifiée.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "40 metres",
+          "8 metres",
+          "dimensions",
+          "longueur",
+          "largeur"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "longueur-maison",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:maisons-longues"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:maisons-longues"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:interieur-maison",
+        "theme": "habiter",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Comment était organisée une maison longue ?",
+        "formulations": [],
+        "reponse_courte": "Une allée et des foyers occupaient le centre; les espaces des familles se trouvaient sur les côtés.",
+        "explication_detaillee": "RÉCIT décrit une allée centrale, des foyers, des ouvertures d’évacuation de la fumée ainsi que des plateformes latérales pour dormir et ranger. Cette description est un modèle d’habitation scolaire, qui peut varier selon la nation et la période.",
+        "sources": [
+          {
+            "id": "recit-maison",
+            "section": "Maison longue, foyers, organisation, capacité"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "interieur",
+          "foyer",
+          "fumee",
+          "dormir",
+          "lits"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "interieur-maison",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:maisons-longues"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:maisons-longues"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:dormir-ensemble",
+        "theme": "habiter",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Est-ce que toutes les familles dormaient en même temps ?",
+        "formulations": [],
+        "reponse_courte": "On ne peut pas l’affirmer. Vivre dans une même maison ne veut pas dire que chacun dormait au même moment.",
+        "explication_detaillee": "Une maison longue logeait de nombreuses personnes qui avaient leurs activités. La documentation consultée décrit les espaces et les foyers, mais pas un horaire unique du sommeil. Le système n’en fait donc pas un fait historique vérifié.",
+        "sources": [
+          {
+            "id": "recit-maison",
+            "section": "Maison longue, foyers, organisation, capacité"
+          }
+        ],
+        "precision": "Réponse de raisonnement : aucun horaire de sommeil collectif prouvé dans les sources consultées.",
+        "statut_revue": "inference_pedagogique_non_fait_documente",
+        "mots_cles": [
+          "dormaient",
+          "sommeil",
+          "nuit",
+          "meme temps"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "dormir-ensemble",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:interieur-maison"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:interieur-maison"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:palissades",
+        "theme": "habiter",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "À quoi servaient les palissades ?",
+        "formulations": [
+          "Les palissades protégeaient-elles contre les animaux ?"
+        ],
+        "reponse_courte": "Elles entouraient certains villages iroquoiens, surtout comme protection contre les attaques.",
+        "explication_detaillee": "RÉCIT décrit plusieurs grands villages entourés d’une palissade, mais pas tous. Le rôle défensif est documenté. L’idée qu’elles auraient été construites principalement pour arrêter les animaux ne peut pas être confirmée avec les sources utilisées ici.",
+        "sources": [
+          {
+            "id": "recit-village",
+            "section": "Vie villageoise, choix de site et déplacements"
+          }
+        ],
+        "precision": "Éviter de certifier sans source la fonction « protection contre les animaux ».",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "palissade",
+          "ennemis",
+          "animaux",
+          "cloture",
+          "defense"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "palissades",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:riviere-village"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:riviere-village"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:riviere-village",
+        "theme": "habiter",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Pourquoi construire un village près d’une rivière ?",
+        "formulations": [],
+        "reponse_courte": "Les voies d’eau facilitaient les déplacements et donnaient accès à des ressources importantes.",
+        "explication_detaillee": "L’emplacement d’un village tenait aussi compte des sols propices à l’agriculture, du bois et de l’eau potable. Un village pouvait se trouver un peu en hauteur, pas nécessairement au bord immédiat d’une rivière.",
+        "sources": [
+          {
+            "id": "recit-village",
+            "section": "Vie villageoise, choix de site et déplacements"
+          },
+          {
+            "id": "recit-transport",
+            "section": "Basses terres, canot, agriculture"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "riviere",
+          "village",
+          "transport",
+          "routes",
+          "eau"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "riviere-village",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:riviere-route"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:riviere-route"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:deplacement-village",
+        "theme": "habiter",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Les villages iroquoiens déménageaient-ils ?",
+        "formulations": [
+          "Déménageaient-ils tous les 10 ou 20 ans ?"
+        ],
+        "reponse_courte": "Oui. Des villages pouvaient être rebâtis ailleurs après de nombreuses années d’occupation.",
+        "explication_detaillee": "RÉCIT décrit une occupation d’environ dix à vingt ans dans certains cas, selon les besoins agricoles et l’approvisionnement en bois. Ce ne sont pas des déplacements annuels de toute la communauté, ni une fréquence immuable.",
+        "sources": [
+          {
+            "id": "recit-village",
+            "section": "Vie villageoise, choix de site et déplacements"
+          }
+        ],
+        "precision": "10–20 ans est une généralisation scolaire conditionnelle; pas un calendrier universel.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "demenagement",
+          "10",
+          "20",
+          "annees",
+          "sols"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "deplacement-village",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:riviere-village"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:riviere-village"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:trois-soeurs",
+        "theme": "se_nourrir",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Quelles plantes cultivaient les sociétés iroquoiennes ?",
+        "formulations": [],
+        "reponse_courte": "Le maïs, les haricots et les courges, souvent appelés les « trois sœurs ».",
+        "explication_detaillee": "L’agriculture était importante pour plusieurs sociétés iroquoiennes. Le rôle relatif du maïs, de la pêche, de la chasse et de la cueillette variait selon les régions et les nations. Les plantes cultivées ne racontent donc pas à elles seules tout le régime alimentaire.",
+        "sources": [
+          {
+            "id": "recit-cultures",
+            "section": "Agriculture et subsistance"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "mais",
+          "haricots",
+          "courges",
+          "agriculture"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "trois-soeurs",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:saint-laurent"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:saint-laurent"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:peche-iroquoiens",
+        "theme": "se_nourrir",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Les Iroquoiens pêchaient-ils ?",
+        "formulations": [],
+        "reponse_courte": "Oui. La pêche complétait les produits de l’agriculture, de la chasse et de la cueillette.",
+        "explication_detaillee": "RÉCIT décrit la pêche dans les activités de subsistance des Iroquoiens. Elle ne permet pas de conclure qu’un outil unique, comme une canne moderne, servait dans tous les villages.",
+        "sources": [
+          {
+            "id": "recit-cultures",
+            "section": "Agriculture et subsistance"
+          },
+          {
+            "id": "recit-hommes",
+            "section": "Pêche, chasse, défrichement, diplomatie"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "peche",
+          "poisson",
+          "iroquoiens",
+          "pechaient"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "peche-iroquoiens",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:saint-laurent"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:saint-laurent"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:chasse-iroquoiens",
+        "theme": "se_nourrir",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "La chasse était-elle importante chez les Iroquoiens ?",
+        "formulations": [],
+        "reponse_courte": "Oui, mais son importance variait selon les nations et les territoires.",
+        "explication_detaillee": "RÉCIT indique que la chasse et la pêche complétaient l’alimentation fondée en bonne partie sur l’agriculture. Il faut éviter de décrire toutes les sociétés iroquoiennes comme uniquement chasseuses ou uniquement agricoles.",
+        "sources": [
+          {
+            "id": "recit-hommes",
+            "section": "Pêche, chasse, défrichement, diplomatie"
+          },
+          {
+            "id": "recit-cultures",
+            "section": "Agriculture et subsistance"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "chasse",
+          "cerf",
+          "alimentation"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "chasse-iroquoiens",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:saint-laurent"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:saint-laurent"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:preparer-peaux",
+        "theme": "se_nourrir",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Qui préparait et tannait les peaux ?",
+        "formulations": [
+          "Est-ce que les hommes tannaient les peaux ?"
+        ],
+        "reponse_courte": "Dans les descriptions scolaires des Iroquoiens vers 1500, les femmes préparaient les peaux et fabriquaient des vêtements.",
+        "explication_detaillee": "RÉCIT présente une répartition historique des tâches entre femmes et hommes pour ce contexte précis. Cela n’autorise ni à affirmer que toutes les femmes le faisaient, ni que jamais un homme n’a participé à la préparation d’une peau, ni à généraliser cette pratique à toutes les nations.",
+        "sources": [
+          {
+            "id": "recit-vetements",
+            "section": "Peaux, vêtements, décoration"
+          },
+          {
+            "id": "recit-femmes",
+            "section": "Répartition des tâches décrite dans une ressource scolaire"
+          }
+        ],
+        "precision": "Ne jamais transformer une tendance documentée en interdiction ou règle absolue.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "tanner",
+          "peaux",
+          "femmes",
+          "hommes",
+          "cuir"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "preparer-peaux",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:chasse-iroquoiens"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:chasse-iroquoiens"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:ecorcher",
+        "theme": "se_nourrir",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Qui enlevait la peau des animaux après la chasse ?",
+        "formulations": [],
+        "reponse_courte": "Les sources consultées ne permettent pas d’attribuer cette tâche à un sexe dans tous les cas.",
+        "explication_detaillee": "RÉCIT indique généralement que les hommes chassaient et que les femmes préparaient les peaux dans la société iroquoienne étudiée. Mais chasser, dépouiller un animal, préparer la viande et tanner une peau sont des actions différentes. Nous ne disposons pas ici d’une preuve suffisante de la répartition exacte de chacune.",
+        "sources": [
+          {
+            "id": "recit-hommes",
+            "section": "Pêche, chasse, défrichement, diplomatie"
+          },
+          {
+            "id": "recit-vetements",
+            "section": "Peaux, vêtements, décoration"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "limite_documentaire_explicitement_reconnue",
+        "mots_cles": [
+          "ecorcher",
+          "depecer",
+          "viande",
+          "peau",
+          "animal"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "ecorcher",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:preparer-peaux"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:preparer-peaux"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:preparer-repas",
+        "theme": "se_nourrir",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Qui préparait les repas dans les villages iroquoiens ?",
+        "formulations": [],
+        "reponse_courte": "RÉCIT décrit principalement les femmes dans la préparation des repas, pour son portrait des Iroquoiens vers 1500.",
+        "explication_detaillee": "Cette description scolaire accompagne l’agriculture, la cueillette et le travail des peaux. Elle représente une organisation historique étudiée et non une règle valable pour chaque personne, chaque village, chaque société ou la vie actuelle.",
+        "sources": [
+          {
+            "id": "recit-femmes",
+            "section": "Répartition des tâches décrite dans une ressource scolaire"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "repas",
+          "cuisine",
+          "viande",
+          "femmes"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "preparer-repas",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:trois-soeurs"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:trois-soeurs"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:poisson-innu",
+        "theme": "se_nourrir",
+        "societe": "soc:innus",
+        "epoque": "historique",
+        "question": "Les Innus pêchaient-ils le saumon ?",
+        "formulations": [],
+        "reponse_courte": "Oui. Dans les descriptions du cycle saisonnier innu, la pêche au saumon joue un rôle important près des rivières nord-côtières.",
+        "explication_detaillee": "Nametau innu décrit le retour des saumons dans plusieurs rivières en fin de printemps et au début de l’été. Cette pêche permet aussi de rassembler des familles et de transmettre des savoirs. Les pratiques varient selon la région et l’époque.",
+        "sources": [
+          {
+            "id": "nametau-cycle",
+            "section": "Cycles historiques, territoires et vie innue"
+          },
+          {
+            "id": "nametau-printemps",
+            "section": "Récit et transmission autour des saisons"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "innu",
+          "saumon",
+          "rivieres",
+          "peche"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "poisson-innu",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:deplacements-innus"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:deplacements-innus"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:outils-naturels",
+        "theme": "techniques",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Avec quoi fabriquait-on des outils et des objets ?",
+        "formulations": [],
+        "reponse_courte": "Avec diverses ressources, notamment du bois, de l’écorce, de la pierre, de l’argile et des matières animales.",
+        "explication_detaillee": "Ces matières servaient à produire des habitations, des contenants, des vêtements, des outils et des moyens de transport. Il ne faut pas confondre la matière d’un objet attesté avec celle de tous les objets ayant la même fonction.",
+        "sources": [
+          {
+            "id": "recit-objets",
+            "section": "Matériaux et objets"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "outils",
+          "bois",
+          "os",
+          "argile",
+          "pierre",
+          "ecorce"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "outils-naturels",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:vases",
+        "theme": "techniques",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Comment fabriquait-on des récipients pour les aliments ?",
+        "formulations": [],
+        "reponse_courte": "Des récipients en argile servaient notamment à cuire et à entreposer des aliments.",
+        "explication_detaillee": "RÉCIT décrit des pots et des vases en argile, parfois décorés. Les usages des contenants étaient variés; les paniers en écorce répondaient à d’autres besoins. Les sources archéologiques aident à connaître ces objets.",
+        "sources": [
+          {
+            "id": "recit-objets",
+            "section": "Matériaux et objets"
+          },
+          {
+            "id": "recit-femmes",
+            "section": "Répartition des tâches décrite dans une ressource scolaire"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "poterie",
+          "argile",
+          "vases",
+          "pots"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "vases",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:outils-naturels"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:outils-naturels"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:vetements",
+        "theme": "techniques",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Comment s’habillait-on selon les saisons ?",
+        "formulations": [],
+        "reponse_courte": "Les vêtements pouvaient être fabriqués avec des peaux et des fourrures adaptées à la saison.",
+        "explication_detaillee": "RÉCIT décrit des vêtements plus légers pendant l’été et plus chauds pendant l’hiver. Les vêtements pouvaient être ornés; leurs formes et usages dépendaient des régions et des périodes. La peau de cerf est citée parmi les matières utilisées.",
+        "sources": [
+          {
+            "id": "recit-vetements",
+            "section": "Peaux, vêtements, décoration"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "vetements",
+          "hiver",
+          "ete",
+          "mocassins",
+          "cuir"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "vetements",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:outils-naturels"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:outils-naturels"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:fil-peche",
+        "theme": "techniques",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "De quoi était fait exactement le fil à pêche ?",
+        "formulations": [
+          "Est-ce qu’il y avait des cannes et des fils de pêche ?"
+        ],
+        "reponse_courte": "Je ne peux pas certifier un matériau précis du fil pour chaque village iroquoien vers 1500 avec ce corpus.",
+        "explication_detaillee": "Des sociétés autochtones fabriquaient une grande variété de cordages et d’outils, mais les références ici ne documentent pas la fibre exacte d’une ligne de pêche associée à un site précis. Il faudrait consulter une étude archéologique ou ethnographique détaillée avant d’affirmer « ortie », « chanvre » ou « tilleul » comme réponse certaine.",
+        "sources": [
+          {
+            "id": "recit-objets",
+            "section": "Matériaux et objets"
+          },
+          {
+            "id": "recit-cultures",
+            "section": "Agriculture et subsistance"
+          }
+        ],
+        "precision": "Lacune documentaire conservée; ne pas compléter par analogie.",
+        "statut_revue": "insuffisamment_documente_pour_reponse_materiau",
+        "mots_cles": [
+          "fil",
+          "canne",
+          "fibres",
+          "chanvre",
+          "ortie",
+          "hamecon"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "fil-peche",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:peche-iroquoiens"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:peche-iroquoiens"
+          }
+        ],
+        "types_de_connaissance": [
+          "lacune_documentaire"
+        ]
+      },
+      {
+        "id": "ens-v4:canne-peche",
+        "theme": "techniques",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Avaient-ils des cannes à pêche comme aujourd’hui ?",
+        "formulations": [],
+        "reponse_courte": "Il faut distinguer la pêche historique de la canne à pêche moderne; les sources utilisées ne décrivent pas un modèle unique.",
+        "explication_detaillee": "Le corpus établit que les Iroquoiens pêchaient, mais ne prouve pas que chaque pêcheur utilisait une canne équipée d’un moulinet ni ne donne l’inventaire exact des hameçons pour une communauté donnée. Il faut demander une époque, un lieu et un site archéologique.",
+        "sources": [
+          {
+            "id": "recit-cultures",
+            "section": "Agriculture et subsistance"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "limite_documentaire_explicitement_reconnue",
+        "mots_cles": [
+          "canne",
+          "ligne",
+          "moulinet",
+          "hamecon"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "canne-peche",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:peche-iroquoiens"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:peche-iroquoiens"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:construire-maison",
+        "theme": "techniques",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Comment construisait-on une maison longue ?",
+        "formulations": [],
+        "reponse_courte": "Avec une structure en bois et des matériaux comme l’écorce, adaptés à une habitation familiale collective.",
+        "explication_detaillee": "RÉCIT décrit des maisons robustes, pouvant être agrandies, et des ressources locales servant à les bâtir. La répartition exacte de chaque étape du chantier entre hommes et femmes n’est pas établie ici pour chaque nation.",
+        "sources": [
+          {
+            "id": "recit-maison",
+            "section": "Maison longue, foyers, organisation, capacité"
+          },
+          {
+            "id": "recit-objets",
+            "section": "Matériaux et objets"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "construction",
+          "maison",
+          "longue",
+          "palissade",
+          "abri"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "construire-maison",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:maisons-longues",
+          "ens-v4:outils-naturels"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:maisons-longues"
+          },
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:outils-naturels"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:decorations",
+        "theme": "techniques",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Les objets étaient-ils seulement utilitaires ?",
+        "formulations": [],
+        "reponse_courte": "Non. Certains vêtements, pots et autres objets étaient aussi décorés.",
+        "explication_detaillee": "RÉCIT explique que les poteries et les vêtements pouvaient porter des ornements. Il faut cependant éviter d’inventer des symboles sacrés ou de reproduire des motifs propres à une nation sans documentation et revue appropriée.",
+        "sources": [
+          {
+            "id": "recit-objets",
+            "section": "Matériaux et objets"
+          },
+          {
+            "id": "recit-vetements",
+            "section": "Peaux, vêtements, décoration"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "decoration",
+          "motifs",
+          "objets",
+          "arts"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "decorations",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:vases"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:vases"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:riviere-route",
+        "theme": "voyages",
+        "societe": "ensemble:qc",
+        "epoque": "historique",
+        "question": "Les rivières étaient-elles des routes ?",
+        "formulations": [],
+        "reponse_courte": "Oui. Les cours d’eau facilitaient les déplacements et les échanges en canot.",
+        "explication_detaillee": "Les réseaux de rivières et de lacs reliaient de nombreux lieux de vie. RÉCIT montre aussi l’importance du canot et des échanges lointains. Une rivière était une voie de circulation, mais elle n’explique pas à elle seule l’emplacement de chaque village.",
+        "sources": [
+          {
+            "id": "recit-transport",
+            "section": "Basses terres, canot, agriculture"
+          },
+          {
+            "id": "recit-troc",
+            "section": "Réseaux précoloniaux"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "riviere",
+          "route",
+          "canot",
+          "voyage"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "description",
+            "objet": "riviere-route",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [],
+        "liens_semantiques": [],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:portage",
+        "theme": "voyages",
+        "societe": "ensemble:qc",
+        "epoque": "historique",
+        "question": "Comment passait-on d’un cours d’eau à un autre ?",
+        "formulations": [],
+        "reponse_courte": "On pouvait transporter le canot et le matériel sur la terre entre deux passages navigables : c’est le portage.",
+        "explication_detaillee": "Marcher et naviguer faisaient partie des déplacements sur de longues distances. Ce concept permet de comprendre comment les réseaux de rivières étaient reliés; les chemins précis dépendaient du territoire parcouru.",
+        "sources": [
+          {
+            "id": "recit-troc",
+            "section": "Réseaux précoloniaux"
+          },
+          {
+            "id": "recit-transport",
+            "section": "Basses terres, canot, agriculture"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "portage",
+          "canot",
+          "marche"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "description",
+            "objet": "portage",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:riviere-route"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:riviere-route"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:deplacements-innus",
+        "theme": "voyages",
+        "societe": "soc:innus",
+        "epoque": "historique",
+        "question": "Les Innus se déplaçaient-ils selon les saisons ?",
+        "formulations": [],
+        "reponse_courte": "Oui. Nametau innu documente des déplacements liés aux ressources, avec des regroupements estivaux et des séjours dans l’intérieur du territoire.",
+        "explication_detaillee": "Les familles et groupes innus pouvaient se déplacer plusieurs fois pendant une année, selon les régions et les ressources. Il ne faut pas les opposer de manière rigide à des « sédentaires » qui ne bougeaient jamais, ni utiliser « nomade » pour décrire la vie de chaque personne innue aujourd’hui.",
+        "sources": [
+          {
+            "id": "nametau-cycle",
+            "section": "Cycles historiques, territoires et vie innue"
+          },
+          {
+            "id": "qc-innus",
+            "section": "Langue, histoire, communautés"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "innu",
+          "nomade",
+          "saisons",
+          "campement"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "deplacements-innus",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:territoire-innu"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:territoire-innu"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:retour-printemps",
+        "theme": "voyages",
+        "societe": "soc:innus",
+        "epoque": "historique",
+        "question": "Pourquoi revenir vers le littoral au printemps ?",
+        "formulations": [],
+        "reponse_courte": "Les saisons amenaient notamment les oiseaux migrateurs et le saumon, ainsi que des occasions de rassemblement.",
+        "explication_detaillee": "Nametau innu décrit le retour vers la côte au printemps et les rencontres entre familles. Ce calendrier traditionnel est présenté comme un cycle documenté, pas comme l’emploi du temps fixe de tous les Innus.",
+        "sources": [
+          {
+            "id": "nametau-printemps",
+            "section": "Récit et transmission autour des saisons"
+          },
+          {
+            "id": "nametau-cycle",
+            "section": "Cycles historiques, territoires et vie innue"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "printemps",
+          "cote",
+          "rassemblement",
+          "outarde"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "retour-printemps",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:deplacements-innus"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:deplacements-innus"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:hivernage-innus",
+        "theme": "voyages",
+        "societe": "soc:innus",
+        "epoque": "historique",
+        "question": "Que faisaient des familles innues pendant l’hiver ?",
+        "formulations": [],
+        "reponse_courte": "Dans des descriptions traditionnelles, elles vivaient aussi à l’intérieur du Nitassinan et s’adaptaient aux ressources disponibles.",
+        "explication_detaillee": "Nametau innu présente les déplacements vers l’intérieur des terres et le rôle des activités de subsistance saisonnières. Les itinéraires variaient selon les familles, les années et les territoires; on ne peut pas assigner un unique campement d’hiver à toute la nation.",
+        "sources": [
+          {
+            "id": "nametau-cycle",
+            "section": "Cycles historiques, territoires et vie innue"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "innu",
+          "hiver",
+          "caribou",
+          "bois"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "hivernage-innus",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:deplacements-innus"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:deplacements-innus"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:mere-clan",
+        "theme": "gouvernance",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Quel rôle jouaient les mères de clan ?",
+        "formulations": [],
+        "reponse_courte": "Dans les descriptions iroquoiennes étudiées, les mères de clan jouent un rôle important dans la filiation et le choix de dirigeants.",
+        "explication_detaillee": "RÉCIT décrit la transmission de l’appartenance au clan par la mère, et un rôle des mères de clan dans le choix des chefs civils. La Nation Wendat présente aussi l’importance durable de l’héritage matrilinéaire dans sa propre histoire.",
+        "sources": [
+          {
+            "id": "recit-clan",
+            "section": "Clans, symboles, décisions"
+          },
+          {
+            "id": "wendat-nation",
+            "section": "Autoreprésentation historique et institutionnelle"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "mere de clan",
+          "femmes",
+          "chef",
+          "matrilineaire"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "mere-clan",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:clan-symbole"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:clan-symbole"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:clan-symbole",
+        "theme": "gouvernance",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Les clans étaient-ils associés à des animaux ?",
+        "formulations": [
+          "Dessinaient-ils des animaux sur les maisons longues ?"
+        ],
+        "reponse_courte": "Oui. RÉCIT décrit des symboles de clan pouvant représenter des animaux ou des oiseaux.",
+        "explication_detaillee": "Des symboles comme la tortue, le loup, le cerf ou le héron figurent dans la documentation pédagogique. Mais l’existence d’un symbole clanique ne prouve pas que chaque maison longue portait un dessin de cet animal sur sa façade.",
+        "sources": [
+          {
+            "id": "recit-clan",
+            "section": "Clans, symboles, décisions"
+          }
+        ],
+        "precision": "Symboles de clans attestés par la source; décoration systématique des maisons non attestée.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "clan",
+          "animal",
+          "totem",
+          "tortue",
+          "loup",
+          "dessin"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "clan-symbole",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:maisons-longues"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:maisons-longues"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:choisir-chef",
+        "theme": "gouvernance",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Les chefs décidaient-ils tout seuls ?",
+        "formulations": [],
+        "reponse_courte": "Non. Les descriptions des sociétés iroquoiennes insistent sur les discussions, les conseils et le rôle des clans.",
+        "explication_detaillee": "RÉCIT décrit les mères de clan comme participantes au choix des chefs civils et le chef comme porte-parole. Les décisions ne devraient pas être réduites à l’ordre d’un chef unique. Les mécanismes varient selon la nation et la période.",
+        "sources": [
+          {
+            "id": "recit-clan",
+            "section": "Clans, symboles, décisions"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "chef",
+          "conseil",
+          "decisions",
+          "gouvernance"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "choisir-chef",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:mere-clan"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:mere-clan"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:responsabilites",
+        "theme": "gouvernance",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Les rôles et les tâches étaient-ils partagés ?",
+        "formulations": [],
+        "reponse_courte": "Oui. Les ressources scolaires décrivent des tâches complémentaires, notamment l’agriculture, la chasse et la préparation des peaux.",
+        "explication_detaillee": "Le portrait scolaire utilise souvent une division entre femmes et hommes. Pour apprendre correctement, il faut présenter cette organisation comme une description de certaines sociétés à une époque, non comme une règle naturelle ou universelle interdisant toute exception.",
+        "sources": [
+          {
+            "id": "recit-hommes",
+            "section": "Pêche, chasse, défrichement, diplomatie"
+          },
+          {
+            "id": "recit-femmes",
+            "section": "Répartition des tâches décrite dans une ressource scolaire"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "hommes",
+          "femmes",
+          "roles",
+          "taches"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "responsabilites",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:preparer-peaux"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:preparer-peaux"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:chef-deplacement",
+        "theme": "gouvernance",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Un chef décidait-il seul de déplacer le village ?",
+        "formulations": [],
+        "reponse_courte": "Ce serait trop simplifier : les décisions collectives et la situation des ressources comptaient.",
+        "explication_detaillee": "La documentation scolaire met en avant les conseils et les clans; elle décrit aussi des déplacements de village quand les terres et ressources de proximité ne convenaient plus. On ne peut pas inventer une règle unique sur l’autorité de déménager pour toutes les communautés.",
+        "sources": [
+          {
+            "id": "recit-clan",
+            "section": "Clans, symboles, décisions"
+          },
+          {
+            "id": "recit-village",
+            "section": "Vie villageoise, choix de site et déplacements"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "chef",
+          "demenager",
+          "decider",
+          "village"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "chef-deplacement",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:choisir-chef",
+          "ens-v4:deplacement-village"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:choisir-chef"
+          },
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:deplacement-village"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:gouvernance-wendat",
+        "theme": "gouvernance",
+        "societe": "soc:wendat",
+        "epoque": "actuel",
+        "question": "Comment est gouvernée la Nation Wendat aujourd’hui ?",
+        "formulations": [],
+        "reponse_courte": "La Nation Wendat décrit une gouvernance exercée par un Conseil d’élus, comprenant un Grand Chef et des Chefs familiaux.",
+        "explication_detaillee": "Le Conseil de la Nation Wendat présente la défense des intérêts et droits de la Nation ainsi que la représentation politique parmi ses responsabilités. Cette institution contemporaine ne doit pas être projetée sans preuve telle quelle sur un village du XVIe siècle.",
+        "sources": [
+          {
+            "id": "wendat-conseil",
+            "section": "Gouvernance contemporaine"
+          },
+          {
+            "id": "wendat-nation",
+            "section": "Autoreprésentation historique et institutionnelle"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "wendat",
+          "gouvernement",
+          "conseil",
+          "grand chef"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:wendat",
+            "predicat": "description",
+            "objet": "gouvernance-wendat",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:wendat-vivants"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:wendat-vivants"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:transmission-orale",
+        "theme": "savoirs",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Comment les enfants apprenaient-ils les histoires et les savoirs ?",
+        "formulations": [],
+        "reponse_courte": "La transmission orale, les récits et l’observation des personnes plus expérimentées avaient une grande importance.",
+        "explication_detaillee": "RÉCIT explique la place des récits dans la transmission intergénérationnelle. Éviter d’en déduire qu’il n’existait aucun autre moyen de conserver ou de communiquer des connaissances.",
+        "sources": [
+          {
+            "id": "recit-oral",
+            "section": "Transmission orale (vocabulaire historique d’une ressource scolaire)"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "ecole",
+          "enfants",
+          "histoires",
+          "apprendre",
+          "oral"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "transmission-orale",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:saint-laurent"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:saint-laurent"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:jeux",
+        "theme": "savoirs",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Les enfants iroquoiens jouaient-ils ?",
+        "formulations": [],
+        "reponse_courte": "Oui. RÉCIT décrit notamment des jeux, des activités physiques et des moments de fête.",
+        "explication_detaillee": "Jouer, imiter les adultes, courir et participer à des fêtes faisaient partie de la vie des enfants dans ce portrait pédagogique. Les activités exactes peuvent varier selon l’époque et la communauté.",
+        "sources": [
+          {
+            "id": "recit-jeux",
+            "section": "Jeux et festivités"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "jeu",
+          "enfants",
+          "fetes",
+          "loisirs"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "jeux",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:transmission-orale"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:transmission-orale"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:crosse",
+        "theme": "savoirs",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "historique",
+        "question": "Pratiquait-on des jeux de balle ?",
+        "formulations": [],
+        "reponse_courte": "Oui. RÉCIT mentionne notamment la crosse parmi les jeux pratiqués par les Iroquoiens.",
+        "explication_detaillee": "La crosse est un jeu collectif avec bâton et balle, attesté dans le dossier scolaire. Il ne faut pas supposer que les règles étaient identiques à celles du sport contemporain.",
+        "sources": [
+          {
+            "id": "recit-jeux",
+            "section": "Jeux et festivités"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "crosse",
+          "sport",
+          "balle"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "crosse",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:jeux"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:jeux"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:innus-recits",
+        "theme": "savoirs",
+        "societe": "soc:innus",
+        "epoque": "historique",
+        "question": "Qui transmettait des savoirs dans les rassemblements innus ?",
+        "formulations": [],
+        "reponse_courte": "Nametau innu décrit le rôle de personnes aînées et de membres de la famille dans la transmission de récits et d’expériences.",
+        "explication_detaillee": "Pendant certains rassemblements, des récits, des activités et des explications permettaient aux plus jeunes d’apprendre. Nametau innu inclut aussi des témoignages et des voix innues; elles méritent d’être reconnues comme des sources et non comme une simple illustration.",
+        "sources": [
+          {
+            "id": "nametau-cycle",
+            "section": "Cycles historiques, territoires et vie innue"
+          },
+          {
+            "id": "nametau-printemps",
+            "section": "Récit et transmission autour des saisons"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "ainés",
+          "recits",
+          "transmission",
+          "innu"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "innus-recits",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:deplacements-innus"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:deplacements-innus"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:langue-innu",
+        "theme": "savoirs",
+        "societe": "soc:innus",
+        "epoque": "actuel",
+        "question": "Les Innus parlent-ils encore leur langue ?",
+        "formulations": [],
+        "reponse_courte": "Oui. L’innu-aimun est une langue autochtone vivante, utilisée et transmise aujourd’hui.",
+        "explication_detaillee": "Le profil de la nation innue du Québec décrit la langue et des initiatives culturelles contemporaines. Une langue autochtone n’est pas un élément disparu avec le passé colonial.",
+        "sources": [
+          {
+            "id": "qc-innus",
+            "section": "Langue, histoire, communautés"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "innu-aimun",
+          "langue",
+          "parler",
+          "aujoudhui"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "langue-innu",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:culture-innu"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:culture-innu"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:reseaux-avant",
+        "theme": "echanges",
+        "societe": "ensemble:qc",
+        "epoque": "vers:1500",
+        "question": "Y avait-il du commerce avant les Européens ?",
+        "formulations": [],
+        "reponse_courte": "Oui. Des réseaux d’échanges existaient déjà entre différentes nations autochtones.",
+        "explication_detaillee": "RÉCIT explique que des matières et objets ont circulé sur de grandes distances, et que l’archéologie en garde des traces. Il serait faux de présenter l’échange comme une invention apportée par les Européens.",
+        "sources": [
+          {
+            "id": "recit-troc",
+            "section": "Réseaux précoloniaux"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "commerce",
+          "troc",
+          "avant",
+          "européens"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "description",
+            "objet": "reseaux-avant",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:avant-colonies"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:avant-colonies"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:cuivre",
+        "theme": "echanges",
+        "societe": "soc:iroquoiens-saint-laurent",
+        "epoque": "xvie_siecle",
+        "question": "Comment un objet en cuivre pouvait-il arriver près de Québec ?",
+        "formulations": [],
+        "reponse_courte": "Les réseaux d’échanges entre nations permettaient à des objets de voyager sur de grandes distances.",
+        "explication_detaillee": "RÉCIT cite notamment un couteau de cuivre observé au temps de Cartier, alors que le cuivre provenait d’une région éloignée. Cet exemple montre que les réseaux précoloniaux n’étaient pas confinés à un seul village.",
+        "sources": [
+          {
+            "id": "recit-troc",
+            "section": "Réseaux précoloniaux"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "cuivre",
+          "cartier",
+          "echange",
+          "couteau"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:iroquoiens-saint-laurent",
+            "predicat": "description",
+            "objet": "cuivre",
+            "epoque": "xvie_siecle"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:reseaux-avant"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:reseaux-avant"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:troc-equitable",
+        "theme": "echanges",
+        "societe": "ensemble:qc",
+        "epoque": "periode_coloniale",
+        "question": "Les échanges avec les Européens étaient-ils toujours des tromperies ?",
+        "formulations": [
+          "Les Blancs donnaient-ils des babioles contre des fourrures ?"
+        ],
+        "reponse_courte": "Non. Certains échanges répondaient à des besoins réels des deux côtés, mais les rapports de pouvoir ont aussi produit des inégalités.",
+        "explication_detaillee": "Le troc entre nations existait avant la colonisation. Les contacts européens ont ajouté des réseaux commerciaux et des pressions coloniales. Il faut analyser une transaction selon sa période, ses participants, les biens échangés et les contraintes, plutôt que déclarer tous les échanges « équitables » ou « trompeurs ».",
+        "sources": [
+          {
+            "id": "recit-troc",
+            "section": "Réseaux précoloniaux"
+          },
+          {
+            "id": "nametau-europeens",
+            "section": "Présences et concessions coloniales sur la Côte-Nord"
+          }
+        ],
+        "precision": "Synthèse analytique prudente; ne prétend pas quantifier les abus.",
+        "statut_revue": "synthese_interpretative_revue_historique_a_faire",
+        "mots_cles": [
+          "babioles",
+          "fourrures",
+          "abus",
+          "troc",
+          "commerce"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "description",
+            "objet": "troc-equitable",
+            "epoque": "periode_coloniale"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:reseaux-avant",
+          "ens-v4:colonial-cote-nord"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:reseaux-avant"
+          },
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:colonial-cote-nord"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:innus-acadiens",
+        "theme": "echanges",
+        "societe": "soc:innus",
+        "epoque": "periode_modernes",
+        "question": "Y a-t-il eu des échanges entre Innus et Acadiens ?",
+        "formulations": [],
+        "reponse_courte": "Oui. Nametau innu raconte des échanges et des relations entre des Innus de Natashquan et des Acadiens.",
+        "explication_detaillee": "Un récit du projet Nametau innu présente des échanges de produits et l’histoire du festival Innucadie. Ces relations montrent que l’histoire des rencontres n’est pas seulement une succession de conflits, sans effacer les injustices coloniales ailleurs.",
+        "sources": [
+          {
+            "id": "nametau-natashquan",
+            "section": "Récit d’échanges culturels"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "acadiens",
+          "innucadie",
+          "natashquan",
+          "fourrures"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "innus-acadiens",
+            "epoque": "periode_modernes"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:reseaux-avant"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:reseaux-avant"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:colonial-cote-nord",
+        "theme": "echanges",
+        "societe": "soc:innus",
+        "epoque": "xviie_xixe_siecles",
+        "question": "Quels établissements les Européens ont-ils créés sur la Côte-Nord ?",
+        "formulations": [],
+        "reponse_courte": "Nametau innu décrit des postes de pêche et des comptoirs de traite, plutôt qu’un peuplement uniforme de tout le territoire.",
+        "explication_detaillee": "Les descriptions scientifiques du projet évoquent les concessions et les postes liés au commerce des ressources. Les établissements coloniaux ont modifié des relations territoriales et économiques, mais leur extension différait selon les régions et les périodes.",
+        "sources": [
+          {
+            "id": "nametau-europeens",
+            "section": "Présences et concessions coloniales sur la Côte-Nord"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "cote nord",
+          "francais",
+          "postes",
+          "colonies"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "colonial-cote-nord",
+            "epoque": "xviie_xixe_siecles"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:territoire-innu"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:territoire-innu"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:innu-ete",
+        "theme": "innus",
+        "societe": "soc:innus",
+        "epoque": "historique",
+        "question": "Que faisaient les familles innues lors des rassemblements d’été ?",
+        "formulations": [],
+        "reponse_courte": "Elles pouvaient se retrouver pour pêcher, échanger, réparer des objets et transmettre des récits.",
+        "explication_detaillee": "Nametau innu présente ces rassemblements comme des moments de travail, de partage et de transmission. Ils étaient aussi liés à la présence saisonnière des ressources, sans être identiques pour toutes les communautés.",
+        "sources": [
+          {
+            "id": "nametau-cycle",
+            "section": "Cycles historiques, territoires et vie innue"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "ete",
+          "innu",
+          "rassemblements"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "innu-ete",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:deplacements-innus"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:deplacements-innus"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:filets-innu",
+        "theme": "innus",
+        "societe": "soc:innus",
+        "epoque": "historique",
+        "question": "Les Innus utilisaient-ils des filets pour pêcher ?",
+        "formulations": [],
+        "reponse_courte": "Oui. Nametau innu documente la pêche au saumon avec des filets dans certaines pratiques historiques.",
+        "explication_detaillee": "Le projet mentionne aussi la pêche au flambeau selon les circonstances. On ne doit pas en déduire que toutes les techniques avaient les mêmes matériaux ni qu’elles ont été pratiquées partout de la même façon.",
+        "sources": [
+          {
+            "id": "nametau-cycle",
+            "section": "Cycles historiques, territoires et vie innue"
+          },
+          {
+            "id": "nametau-saumon",
+            "section": "Pêche et droits"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "filets",
+          "pêche",
+          "innu",
+          "saumon"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "filets-innu",
+            "epoque": "historique"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:poisson-innu"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:poisson-innu"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:droit-peche",
+        "theme": "innus",
+        "societe": "soc:innus",
+        "epoque": "xxe_siecle",
+        "question": "Les Innus ont-ils toujours pu pêcher librement dans leurs rivières ?",
+        "formulations": [],
+        "reponse_courte": "Non. Des conflits et des restrictions concernant les droits de pêche sont documentés.",
+        "explication_detaillee": "Le témoignage du projet Nametau innu consacré au saumon rapporte des contestations et des démarches concernant les rivières nord-côtières au XXe siècle. Il faut distinguer l’usage historique du territoire, l’accès réglementé et les droits revendiqués ou reconnus.",
+        "sources": [
+          {
+            "id": "nametau-saumon",
+            "section": "Pêche et droits"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "droits",
+          "rivieres",
+          "conflits",
+          "peche"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "droit-peche",
+            "epoque": "xxe_siecle"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:poisson-innu"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:poisson-innu"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:culture-innu",
+        "theme": "innus",
+        "societe": "soc:innus",
+        "epoque": "actuel",
+        "question": "Les Innus ne vivent-ils plus que dans le passé ?",
+        "formulations": [],
+        "reponse_courte": "Non. Les communautés innues actuelles portent des cultures, langues, organisations et projets bien vivants.",
+        "explication_detaillee": "Le gouvernement du Québec décrit une diversité de communautés innues; Nametau innu donne accès à des récits et expériences. On peut étudier leurs techniques historiques sans réduire les personnes innues actuelles à ces seules activités.",
+        "sources": [
+          {
+            "id": "qc-innus",
+            "section": "Langue, histoire, communautés"
+          },
+          {
+            "id": "nametau-printemps",
+            "section": "Récit et transmission autour des saisons"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "innus",
+          "moderne",
+          "culture",
+          "actuel"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:innus",
+            "predicat": "description",
+            "objet": "culture-innu",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:territoire-innu"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:territoire-innu"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:wendat-vivants",
+        "theme": "vivants",
+        "societe": "soc:wendat",
+        "epoque": "actuel",
+        "question": "La Nation Wendat existe-t-elle aujourd’hui ?",
+        "formulations": [],
+        "reponse_courte": "Oui. La Nation Wendat possède des institutions et une vie culturelle contemporaines.",
+        "explication_detaillee": "Son propre site présente sa gouvernance, ses familles et son patrimoine vivant. Le terme « Wendat » ne doit pas être réduit à une image figée de maisons longues du passé.",
+        "sources": [
+          {
+            "id": "wendat-nation",
+            "section": "Autoreprésentation historique et institutionnelle"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "wendat",
+          "aujourdhui",
+          "wendake"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:wendat",
+            "predicat": "description",
+            "objet": "wendat-vivants",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:diversite"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:diversite"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:inuit-nunavik",
+        "theme": "vivants",
+        "societe": "soc:inuit",
+        "epoque": "actuel",
+        "question": "Où vivent notamment les Inuit au Québec ?",
+        "formulations": [],
+        "reponse_courte": "De nombreux Inuit vivent au Nunavik, dans le nord du Québec.",
+        "explication_detaillee": "Le gouvernement du Québec présente les communautés du Nunavik et la langue inuktitut. Cette réalité contemporaine ne peut pas être décrite par les mêmes outils historiques que les villages iroquoiens du Saint-Laurent.",
+        "sources": [
+          {
+            "id": "qc-inuit",
+            "section": "Nunavik, langue et vie contemporaine"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "inuit",
+          "nunavik",
+          "inuktitut"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:inuit",
+            "predicat": "description",
+            "objet": "inuit-nunavik",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:inuit"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:inuit"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:anishinaabeg",
+        "theme": "vivants",
+        "societe": "soc:anichinabeg",
+        "epoque": "actuel",
+        "question": "Qui sont les Anichinabés ?",
+        "formulations": [],
+        "reponse_courte": "Les Anichinabés forment une nation autochtone avec sa langue, ses communautés et ses territoires.",
+        "explication_detaillee": "Le profil québécois présente notamment l’anishinaabemowin et des communautés de l’Outaouais et de l’Abitibi-Témiscamingue. La mobilité historique décrite dans les ressources ne constitue pas une définition de leur vie actuelle.",
+        "sources": [
+          {
+            "id": "qc-anish",
+            "section": "Territoires, déplacements et langue"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "anishinabe",
+          "algonquin",
+          "outaouais",
+          "abitibi"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:anichinabeg",
+            "predicat": "description",
+            "objet": "anishinaabeg",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:diversite"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:diversite"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:eeyou",
+        "theme": "vivants",
+        "societe": "soc:eeyou",
+        "epoque": "actuel",
+        "question": "Qui sont les Eeyou ?",
+        "formulations": [],
+        "reponse_courte": "Les Eeyou, ou Cris, constituent une nation autochtone présente notamment en Eeyou Istchee, dans le Nord-du-Québec.",
+        "explication_detaillee": "Le profil québécois décrit des communautés et des institutions actuelles. La chasse et la pêche font partie de certains savoirs et pratiques, mais ne résument pas la vie politique, culturelle ou économique contemporaine.",
+        "sources": [
+          {
+            "id": "qc-eeyou",
+            "section": "Relations territoriales et présent"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "cris",
+          "eeyou",
+          "eeyou istchee"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "soc:eeyou",
+            "predicat": "description",
+            "objet": "eeyou",
+            "epoque": "actuel"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:diversite"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:diversite"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:pas-un-vrai-faux",
+        "theme": "enquete",
+        "societe": "ensemble:qc",
+        "epoque": "transversal",
+        "question": "Peut-on toujours répondre vrai ou faux à une question historique ?",
+        "formulations": [],
+        "reponse_courte": "Non. Parfois il faut préciser la nation, le siècle ou le sens des mots avant de décider.",
+        "explication_detaillee": "Par exemple, « les maisons longues mesuraient 40 mètres » est trop général pour être évalué comme toujours vrai ou toujours faux. Une bonne réponse historique garde le contexte et reconnaît ce que les documents ne démontrent pas.",
+        "sources": [
+          {
+            "id": "recit-maison",
+            "section": "Maison longue, foyers, organisation, capacité"
+          },
+          {
+            "id": "recit-village",
+            "section": "Vie villageoise, choix de site et déplacements"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "principe_de_methode_historique",
+        "mots_cles": [
+          "vrai faux",
+          "nuance",
+          "histoire",
+          "source"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "description",
+            "objet": "pas-un-vrai-faux",
+            "epoque": "transversal"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:diversite"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:diversite"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:symboles-maison",
+        "theme": "enquete",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Les symboles de clans étaient-ils toujours peints sur les maisons longues ?",
+        "formulations": [],
+        "reponse_courte": "Le corpus confirme des symboles de clan, mais ne confirme pas qu’ils étaient toujours peints sur les maisons.",
+        "explication_detaillee": "RÉCIT donne des exemples de symboles animaliers pour les clans. Cette information ne suffit pas à établir où ils étaient représentés sur chaque habitation. Une image non sourcée d’une façade décorée ne constitue pas une preuve générale.",
+        "sources": [
+          {
+            "id": "recit-clan",
+            "section": "Clans, symboles, décisions"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "limite_documentaire_explicitement_reconnue",
+        "mots_cles": [
+          "clan",
+          "maison",
+          "dessin",
+          "peints"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "symboles-maison",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:clan-symbole"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:clan-symbole"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:chiffres-village",
+        "theme": "enquete",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Peut-on affirmer que chaque village comptait exactement 200 à 950 habitants ?",
+        "formulations": [],
+        "reponse_courte": "Non. La taille des villages variait; cette fourchette ne décrit pas chaque village.",
+        "explication_detaillee": "RÉCIT parle de villages de quelques maisons longues et de grands villages pouvant en compter davantage. Pour une population exacte, il faut un site et une estimation archéologique datée, pas une fourchette répétée comme loi générale.",
+        "sources": [
+          {
+            "id": "recit-village",
+            "section": "Vie villageoise, choix de site et déplacements"
+          }
+        ],
+        "precision": "Aucune valeur précise de 200–950 n’est certifiée par l’article cité.",
+        "statut_revue": "source_localisee_revue_culturelle_a_faire",
+        "mots_cles": [
+          "200",
+          "950",
+          "village",
+          "population"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "chiffres-village",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:nombre-maison"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:nombre-maison"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:role-femmes-hommes",
+        "theme": "enquete",
+        "societe": "ensemble:iroquoiens",
+        "epoque": "vers:1500",
+        "question": "Est-ce que seuls les hommes pouvaient accomplir certaines tâches ?",
+        "formulations": [],
+        "reponse_courte": "Les documents scolaires décrivent des tâches souvent réparties, mais le mot « seuls » exige une preuve plus précise.",
+        "explication_detaillee": "Une description du travail des femmes et des hommes vers 1500 renseigne sur des pratiques générales. Elle ne permet pas de transformer chaque activité en interdiction universelle, ni de projeter les rôles du passé sur les personnes d’aujourd’hui.",
+        "sources": [
+          {
+            "id": "recit-femmes",
+            "section": "Répartition des tâches décrite dans une ressource scolaire"
+          },
+          {
+            "id": "recit-hommes",
+            "section": "Pêche, chasse, défrichement, diplomatie"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "principe_de_methode_historique",
+        "mots_cles": [
+          "toujours",
+          "jamais",
+          "hommes",
+          "femmes"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:iroquoiens",
+            "predicat": "description",
+            "objet": "role-femmes-hommes",
+            "epoque": "vers:1500"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:responsabilites"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:responsabilites"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:sources-ecrites",
+        "theme": "enquete",
+        "societe": "ensemble:qc",
+        "epoque": "transversal",
+        "question": "Comment savoir ce qui s’est passé avant la photographie ?",
+        "formulations": [],
+        "reponse_courte": "En croisant des objets archéologiques, des récits, des traditions orales et des documents datés.",
+        "explication_detaillee": "Les objets et sites décrits par RÉCIT renseignent sur les habitations, matériaux et échanges; les témoignages et récits de Nametau innu transmettent aussi des perspectives. Une source doit être lue en tenant compte de qui l’a produite, quand et dans quel but.",
+        "sources": [
+          {
+            "id": "recit-troc",
+            "section": "Réseaux précoloniaux"
+          },
+          {
+            "id": "nametau-printemps",
+            "section": "Récit et transmission autour des saisons"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "principe_de_methode_historique",
+        "mots_cles": [
+          "preuves",
+          "sources",
+          "archeologie",
+          "temoignages"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "description",
+            "objet": "sources-ecrites",
+            "epoque": "transversal"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:reseaux-avant"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:reseaux-avant"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      },
+      {
+        "id": "ens-v4:lacunes",
+        "theme": "enquete",
+        "societe": "ensemble:qc",
+        "epoque": "transversal",
+        "question": "Que fait Ekole quand il ne sait pas ?",
+        "formulations": [],
+        "reponse_courte": "Il devrait dire « je ne peux pas le confirmer » et proposer les sources ou une question plus précise.",
+        "explication_detaillee": "Le système ne transforme pas l’absence d’une donnée en preuve qu’elle est fausse. Pour répondre correctement, il peut demander la nation, l’époque, le lieu ou l’objet archéologique. C’est une règle de qualité du moteur, pas une lacune à masquer par une phrase inventée.",
+        "sources": [
+          {
+            "id": "recit-maison",
+            "section": "Maison longue, foyers, organisation, capacité"
+          },
+          {
+            "id": "nametau-cycle",
+            "section": "Cycles historiques, territoires et vie innue"
+          }
+        ],
+        "precision": "Réponse située dans la société et la période indiquées.",
+        "statut_revue": "principe_du_moteur_epistemique",
+        "mots_cles": [
+          "je ne sais pas",
+          "incertain",
+          "absence",
+          "preuve"
+        ],
+        "faits_semantiques": [
+          {
+            "sujet": "ensemble:qc",
+            "predicat": "description",
+            "objet": "lacunes",
+            "epoque": "transversal"
+          }
+        ],
+        "prerequis": [
+          "ens-v4:pas-un-vrai-faux"
+        ],
+        "liens_semantiques": [
+          {
+            "relation": "prerequis_pedagogique",
+            "cible": "ens-v4:pas-un-vrai-faux"
+          }
+        ],
+        "types_de_connaissance": [
+          "constat_contextualise"
+        ]
+      }
+    ],
+    "entrainements": [
+      {
+        "id": "pratique-01",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:nombre-maison",
+        "theme": "habiter",
+        "enonce": "Quelle réponse évite de généraliser ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Certaines maisons longues pouvaient loger de 25 à 60 personnes."
+          },
+          {
+            "id": "b",
+            "label": "Toutes les maisons longues avaient exactement 80 habitants."
+          },
+          {
+            "id": "c",
+            "label": "Personne ne vivait dans les maisons longues."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "RÉCIT donne l’ordre de grandeur de 25 à 60 personnes pour certaines maisons longues iroquoiennes.",
+        "explication_longue_ref": "ens-v4:nombre-maison",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-maison"
+        ]
+      },
+      {
+        "id": "pratique-02",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:palissades",
+        "theme": "habiter",
+        "enonce": "Pourquoi trouve-t-on des palissades autour de certains villages ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Pour se protéger notamment contre des attaques."
+          },
+          {
+            "id": "b",
+            "label": "Uniquement pour protéger le vin."
+          },
+          {
+            "id": "c",
+            "label": "Toutes les familles innues en construisaient à chaque saison."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Elles entouraient certains villages iroquoiens, surtout comme protection contre les attaques.",
+        "explication_longue_ref": "ens-v4:palissades",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-village"
+        ]
+      },
+      {
+        "id": "pratique-03",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:riviere-route",
+        "theme": "voyages",
+        "enonce": "Quel était l’intérêt des rivières ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Circuler et relier des lieux."
+          },
+          {
+            "id": "b",
+            "label": "Empêcher tout déplacement."
+          },
+          {
+            "id": "c",
+            "label": "Toujours construire sur l’eau."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Oui. Les cours d’eau facilitaient les déplacements et les échanges en canot.",
+        "explication_longue_ref": "ens-v4:riviere-route",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-transport",
+          "recit-troc"
+        ]
+      },
+      {
+        "id": "pratique-04",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:trois-soeurs",
+        "theme": "se_nourrir",
+        "enonce": "Quelles sont les « trois sœurs » ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Maïs, haricots et courges."
+          },
+          {
+            "id": "b",
+            "label": "Blé, pommes et olives."
+          },
+          {
+            "id": "c",
+            "label": "Or, argent et cuivre."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Le maïs, les haricots et les courges, souvent appelés les « trois sœurs ».",
+        "explication_longue_ref": "ens-v4:trois-soeurs",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-cultures"
+        ]
+      },
+      {
+        "id": "pratique-05",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:peche-iroquoiens",
+        "theme": "se_nourrir",
+        "enonce": "La pêche faisait-elle partie des activités iroquoiennes ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Oui, avec d’autres formes de subsistance."
+          },
+          {
+            "id": "b",
+            "label": "Non, jamais."
+          },
+          {
+            "id": "c",
+            "label": "Uniquement avec des moulinets modernes."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Oui. La pêche complétait les produits de l’agriculture, de la chasse et de la cueillette.",
+        "explication_longue_ref": "ens-v4:peche-iroquoiens",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-cultures",
+          "recit-hommes"
+        ]
+      },
+      {
+        "id": "pratique-06",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:clan-symbole",
+        "theme": "gouvernance",
+        "enonce": "Quel énoncé est documenté ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Certains clans avaient des symboles d’animaux."
+          },
+          {
+            "id": "b",
+            "label": "Chaque maison avait toujours une tortue peinte."
+          },
+          {
+            "id": "c",
+            "label": "Tous les clans du Québec portaient le même symbole."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Oui. RÉCIT décrit des symboles de clan pouvant représenter des animaux ou des oiseaux.",
+        "explication_longue_ref": "ens-v4:clan-symbole",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-clan"
+        ]
+      },
+      {
+        "id": "pratique-07",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:deplacement-village",
+        "theme": "habiter",
+        "enonce": "Comment parler du déplacement de villages iroquoiens ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Après plusieurs années, selon les besoins et les lieux."
+          },
+          {
+            "id": "b",
+            "label": "Tous les jours, sans exception."
+          },
+          {
+            "id": "c",
+            "label": "Jamais, dans aucun cas."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Oui. Des villages pouvaient être rebâtis ailleurs après de nombreuses années d’occupation.",
+        "explication_longue_ref": "ens-v4:deplacement-village",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-village"
+        ]
+      },
+      {
+        "id": "pratique-08",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:filets-innu",
+        "theme": "innus",
+        "enonce": "Quel outil de pêche est mentionné par Nametau innu ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Le filet."
+          },
+          {
+            "id": "b",
+            "label": "Le moulinet électrique."
+          },
+          {
+            "id": "c",
+            "label": "Le radar de bord."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Oui. Nametau innu documente la pêche au saumon avec des filets dans certaines pratiques historiques.",
+        "explication_longue_ref": "ens-v4:filets-innu",
+        "aide_ref": [],
+        "source_refs": [
+          "nametau-cycle",
+          "nametau-saumon"
+        ]
+      },
+      {
+        "id": "pratique-09",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:deplacements-innus",
+        "theme": "voyages",
+        "enonce": "Quel énoncé rend mieux les déplacements saisonniers innus ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Des itinéraires liés aux ressources et aux familles."
+          },
+          {
+            "id": "b",
+            "label": "Tous habitaient un village iroquoien."
+          },
+          {
+            "id": "c",
+            "label": "Chaque famille suivait le même trajet obligatoire."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Oui. Nametau innu documente des déplacements liés aux ressources, avec des regroupements estivaux et des séjours dans l’intérieur du territoire.",
+        "explication_longue_ref": "ens-v4:deplacements-innus",
+        "aide_ref": [],
+        "source_refs": [
+          "nametau-cycle",
+          "qc-innus"
+        ]
+      },
+      {
+        "id": "pratique-10",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:gouvernance-wendat",
+        "theme": "gouvernance",
+        "enonce": "Quelle institution se présente comme gouvernant la Nation Wendat aujourd’hui ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Le Conseil de la Nation Wendat."
+          },
+          {
+            "id": "b",
+            "label": "Le conseil d’Hochelaga en 1500."
+          },
+          {
+            "id": "c",
+            "label": "La Compagnie de la Baie d’Hudson."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "La Nation Wendat décrit une gouvernance exercée par un Conseil d’élus, comprenant un Grand Chef et des Chefs familiaux.",
+        "explication_longue_ref": "ens-v4:gouvernance-wendat",
+        "aide_ref": [],
+        "source_refs": [
+          "wendat-conseil",
+          "wendat-nation"
+        ]
+      },
+      {
+        "id": "pratique-11",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:inuit",
+        "theme": "peuples",
+        "enonce": "Quelle formule est la plus exacte aujourd’hui ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "La nation inuit se distingue des dix Premières Nations."
+          },
+          {
+            "id": "b",
+            "label": "Les Inuit sont tous des Iroquoiens."
+          },
+          {
+            "id": "c",
+            "label": "Il n’y a plus d’Inuit au Québec."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Dans la présentation administrative québécoise, les Inuit forment une nation autochtone distincte des dix Premières Nations.",
+        "explication_longue_ref": "ens-v4:inuit",
+        "aide_ref": [],
+        "source_refs": [
+          "qc-nations",
+          "qc-inuit"
+        ]
+      },
+      {
+        "id": "pratique-12",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:fil-peche",
+        "theme": "techniques",
+        "enonce": "Que faire si la matière exacte d’une ligne historique n’est pas attestée ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Reconnaître la limite et chercher une source précise."
+          },
+          {
+            "id": "b",
+            "label": "Inventer le nom d’une plante."
+          },
+          {
+            "id": "c",
+            "label": "Dire que tout matériau était impossible."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Je ne peux pas certifier un matériau précis du fil pour chaque village iroquoien vers 1500 avec ce corpus.",
+        "explication_longue_ref": "ens-v4:fil-peche",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-objets",
+          "recit-cultures"
+        ]
+      },
+      {
+        "id": "pratique-13",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:symboles-maison",
+        "theme": "enquete",
+        "enonce": "Que sait-on sur les emblèmes de clan et les maisons ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Des symboles claniques sont documentés; chaque façade peinte ne l’est pas."
+          },
+          {
+            "id": "b",
+            "label": "Toutes les maisons portaient toujours un ours."
+          },
+          {
+            "id": "c",
+            "label": "Les clans ne connaissaient aucun symbole."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Le corpus confirme des symboles de clan, mais ne confirme pas qu’ils étaient toujours peints sur les maisons.",
+        "explication_longue_ref": "ens-v4:symboles-maison",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-clan"
+        ]
+      },
+      {
+        "id": "pratique-14",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:role-femmes-hommes",
+        "theme": "enquete",
+        "enonce": "Quel énoncé évite un cliché ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Des tâches sont décrites selon le contexte; éviter les interdictions absolues."
+          },
+          {
+            "id": "b",
+            "label": "Aucun homme ne pouvait toucher une peau."
+          },
+          {
+            "id": "c",
+            "label": "Les femmes ne faisaient jamais de travail manuel."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Les documents scolaires décrivent des tâches souvent réparties, mais le mot « seuls » exige une preuve plus précise.",
+        "explication_longue_ref": "ens-v4:role-femmes-hommes",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-femmes",
+          "recit-hommes"
+        ]
+      },
+      {
+        "id": "pratique-15",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:troc-equitable",
+        "theme": "echanges",
+        "enonce": "Comment examiner un échange de fourrures ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Considérer besoins, rapports de pouvoir et époque."
+          },
+          {
+            "id": "b",
+            "label": "Toujours conclure à une tromperie."
+          },
+          {
+            "id": "c",
+            "label": "Toujours conclure à une égalité parfaite."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Non. Certains échanges répondaient à des besoins réels des deux côtés, mais les rapports de pouvoir ont aussi produit des inégalités.",
+        "explication_longue_ref": "ens-v4:troc-equitable",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-troc",
+          "nametau-europeens"
+        ]
+      },
+      {
+        "id": "pratique-16",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:dormir-ensemble",
+        "theme": "habiter",
+        "enonce": "Le fait de vivre dans une maison longue prouve-t-il que tous dormaient simultanément ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Non, cette conclusion n’est pas documentée."
+          },
+          {
+            "id": "b",
+            "label": "Oui, exactement à 20 h."
+          },
+          {
+            "id": "c",
+            "label": "Oui, toute l’année."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "On ne peut pas l’affirmer. Vivre dans une même maison ne veut pas dire que chacun dormait au même moment.",
+        "explication_longue_ref": "ens-v4:dormir-ensemble",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-maison"
+        ]
+      },
+      {
+        "id": "pratique-17",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:innus-recits",
+        "theme": "savoirs",
+        "enonce": "Que transmettaient notamment les aînés dans des rassemblements ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Des récits et des savoirs."
+          },
+          {
+            "id": "b",
+            "label": "Uniquement des chiffres de population."
+          },
+          {
+            "id": "c",
+            "label": "La même langue que toutes les nations."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Nametau innu décrit le rôle de personnes aînées et de membres de la famille dans la transmission de récits et d’expériences.",
+        "explication_longue_ref": "ens-v4:innus-recits",
+        "aide_ref": [],
+        "source_refs": [
+          "nametau-cycle",
+          "nametau-printemps"
+        ]
+      },
+      {
+        "id": "pratique-18",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:reseaux-avant",
+        "theme": "echanges",
+        "enonce": "Les échanges existaient-ils avant l’arrivée des Européens ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Oui, entre des nations."
+          },
+          {
+            "id": "b",
+            "label": "Non, ils sont apparus en 1608."
+          },
+          {
+            "id": "c",
+            "label": "Oui, mais seulement à Montréal après 1800."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Oui. Des réseaux d’échanges existaient déjà entre différentes nations autochtones.",
+        "explication_longue_ref": "ens-v4:reseaux-avant",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-troc"
+        ]
+      },
+      {
+        "id": "pratique-19",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:chiffres-village",
+        "theme": "enquete",
+        "enonce": "Comment traiter une population de village donnée sans site précis ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Comme une estimation qui varie selon le site."
+          },
+          {
+            "id": "b",
+            "label": "Comme le même chiffre pour toutes les époques."
+          },
+          {
+            "id": "c",
+            "label": "Comme une preuve de la taille de chaque maison."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Non. La taille des villages variait; cette fourchette ne décrit pas chaque village.",
+        "explication_longue_ref": "ens-v4:chiffres-village",
+        "aide_ref": [],
+        "source_refs": [
+          "recit-village"
+        ]
+      },
+      {
+        "id": "pratique-20",
+        "type": "choix_ferme",
+        "niveau": "entrainement_non_certificatif",
+        "entree_ref": "ens-v4:aujourdhui",
+        "theme": "peuples",
+        "enonce": "Les nations autochtones sont-elles seulement un sujet du passé ?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Non, ce sont des sociétés contemporaines."
+          },
+          {
+            "id": "b",
+            "label": "Oui, elles n’existent plus."
+          },
+          {
+            "id": "c",
+            "label": "Oui, leurs langues ont toutes disparu."
+          }
+        ],
+        "bonne_option": "a",
+        "explication_courte": "Oui. Les nations autochtones sont des sociétés vivantes, avec des gouvernements, des langues, des familles et des projets actuels.",
+        "explication_longue_ref": "ens-v4:aujourdhui",
+        "aide_ref": [],
+        "source_refs": [
+          "qc-nations",
+          "wendat-nation"
+        ]
+      }
+    ],
+    "visuels": [
+      {
+        "id": "visuel-v4:peuples",
+        "theme": "peuples",
+        "concept": "Schéma conceptuel qui aide à distinguer des peuples, langues, territoires et époques sans les représenter comme une société homogène; utiliser des zones clairement différenciées et laisser à la carte interactive le tracé précis des frontières et des lieux.",
+        "prompt": "Schéma conceptuel qui aide à distinguer des peuples, langues, territoires et époques sans les représenter comme une société homogène; utiliser des zones clairement différenciées et laisser à la carte interactive le tracé précis des frontières et des lieux.",
+        "image_attendue": "images/peuples.webp",
+        "alt": "Illustration conceptuelle du thème Peuples, territoires et époques",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      },
+      {
+        "id": "visuel-v4:habiter",
+        "theme": "habiter",
+        "concept": "Vue didactique des fonctions d’une maison longue : espaces familiaux, allée, foyers et enveloppe constructive. Montrer des relations fonctionnelles sans imposer une longueur ni un nombre fixe d’occupants; ne pas attribuer de motifs culturels non documentés.",
+        "prompt": "Vue didactique des fonctions d’une maison longue : espaces familiaux, allée, foyers et enveloppe constructive. Montrer des relations fonctionnelles sans imposer une longueur ni un nombre fixe d’occupants; ne pas attribuer de motifs culturels non documentés.",
+        "image_attendue": "images/habiter.webp",
+        "alt": "Illustration conceptuelle du thème Villages, habitations et familles",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      },
+      {
+        "id": "visuel-v4:se_nourrir",
+        "theme": "se_nourrir",
+        "concept": "Ensemble de situations permettant de distinguer agriculture, pêche, chasse et cueillette. Chaque action et ressource doit pouvoir être associée à une société et une époque explicites; éviter les quantités numériques non vérifiées.",
+        "prompt": "Ensemble de situations permettant de distinguer agriculture, pêche, chasse et cueillette. Chaque action et ressource doit pouvoir être associée à une société et une époque explicites; éviter les quantités numériques non vérifiées.",
+        "image_attendue": "images/se_nourrir.webp",
+        "alt": "Illustration conceptuelle du thème Se nourrir et produire",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      },
+      {
+        "id": "visuel-v4:techniques",
+        "theme": "techniques",
+        "concept": "Présentation comparative de matériaux naturels et d’objets utiles (bois, écorce, argile, peau, fibre) pour comprendre des fonctions; ne pas inventer la matière d’un fil ou d’un hameçon déterminé.",
+        "prompt": "Présentation comparative de matériaux naturels et d’objets utiles (bois, écorce, argile, peau, fibre) pour comprendre des fonctions; ne pas inventer la matière d’un fil ou d’un hameçon déterminé.",
+        "image_attendue": "images/techniques.webp",
+        "alt": "Illustration conceptuelle du thème Objets, matériaux et techniques",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      },
+      {
+        "id": "visuel-v4:voyages",
+        "theme": "voyages",
+        "concept": "Enchaînement conceptuel de rivière, canot, portage, campement et ressources saisonnières. Différencier déplacement de familles et déplacement de village; aucun itinéraire réel non sourcé.",
+        "prompt": "Enchaînement conceptuel de rivière, canot, portage, campement et ressources saisonnières. Différencier déplacement de familles et déplacement de village; aucun itinéraire réel non sourcé.",
+        "image_attendue": "images/voyages.webp",
+        "alt": "Illustration conceptuelle du thème Voyages, cours d’eau et saisons",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      },
+      {
+        "id": "visuel-v4:gouvernance",
+        "theme": "gouvernance",
+        "concept": "Relations entre clan, membres, personne porte-parole, conseil et décisions; montrer une organisation non strictement verticale. Ne pas inventer d’emblèmes, de vêtements cérémoniels ou de rituels.",
+        "prompt": "Relations entre clan, membres, personne porte-parole, conseil et décisions; montrer une organisation non strictement verticale. Ne pas inventer d’emblèmes, de vêtements cérémoniels ou de rituels.",
+        "image_attendue": "images/gouvernance.webp",
+        "alt": "Illustration conceptuelle du thème Rôles, clans, décisions et droits",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      },
+      {
+        "id": "visuel-v4:savoirs",
+        "theme": "savoirs",
+        "concept": "Situation d’apprentissage intergénérationnelle avec récits, démonstrations et jeux; mettre l’attention sur les interactions et la transmission, sans produire de contenu culturel fermé ou sacré.",
+        "prompt": "Situation d’apprentissage intergénérationnelle avec récits, démonstrations et jeux; mettre l’attention sur les interactions et la transmission, sans produire de contenu culturel fermé ou sacré.",
+        "image_attendue": "images/savoirs.webp",
+        "alt": "Illustration conceptuelle du thème Langues, connaissances et loisirs",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      },
+      {
+        "id": "visuel-v4:echanges",
+        "theme": "echanges",
+        "concept": "Carte d’échanges de ressources avec trajets et flux conceptuels entre organisations à périodes identifiées; ne pas suggérer qu’une nation n’a découvert le commerce qu’avec les Européens.",
+        "prompt": "Carte d’échanges de ressources avec trajets et flux conceptuels entre organisations à périodes identifiées; ne pas suggérer qu’une nation n’a découvert le commerce qu’avec les Européens.",
+        "image_attendue": "images/echanges.webp",
+        "alt": "Illustration conceptuelle du thème Échanges et rencontres",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      },
+      {
+        "id": "visuel-v4:innus",
+        "theme": "innus",
+        "concept": "Cycle temporel conceptuel de déplacements innus et des ressources autour du Nitassinan; ne pas en faire un itinéraire imposé à toutes les familles ni une reconstruction d’un rituel.",
+        "prompt": "Cycle temporel conceptuel de déplacements innus et des ressources autour du Nitassinan; ne pas en faire un itinéraire imposé à toutes les familles ni une reconstruction d’un rituel.",
+        "image_attendue": "images/innus.webp",
+        "alt": "Illustration conceptuelle du thème Les Innus et le Nitassinan",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      },
+      {
+        "id": "visuel-v4:vivants",
+        "theme": "vivants",
+        "concept": "Montrer des nations autochtones comme des sociétés contemporaines : langue, école, institutions, création et territoire; éviter les représentations uniquement anciennes.",
+        "prompt": "Montrer des nations autochtones comme des sociétés contemporaines : langue, école, institutions, création et territoire; éviter les représentations uniquement anciennes.",
+        "image_attendue": "images/vivants.webp",
+        "alt": "Illustration conceptuelle du thème Les nations et communautés aujourd’hui",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      },
+      {
+        "id": "visuel-v4:enquete",
+        "theme": "enquete",
+        "concept": "Schéma distinguant fait documenté, hypothèse, information manquante et généralisation abusive; relations visibles avec la nation, l’époque, la source et l’incertitude.",
+        "prompt": "Schéma distinguant fait documenté, hypothèse, information manquante et généralisation abusive; relations visibles avec la nation, l’époque, la source et l’incertitude.",
+        "image_attendue": "images/enquete.webp",
+        "alt": "Illustration conceptuelle du thème Enquêter et éviter les pièges historiques",
+        "statut": "non_generee",
+        "style": "non_defini",
+        "droits": "a_renseigner_avant_publication"
+      }
+    ],
+    "heritage": {
+      "graphe_v3": "canon/domain/graphe-v3.json",
+      "note": "Le graphe v3 et ses engagements v9 restent intacts; aucun cours ne migre automatiquement vers la v4."
+    },
+    "chapitres": [
+      {
+        "theme": "peuples",
+        "titre": "Des noms qui ne veulent pas tous dire la même chose",
+        "sections": [
+          "Pour comprendre les sociétés autochtones, la première question est : de qui parle-t-on ? « Autochtones » est un terme général. « Iroquoiens » désigne une famille de langues et de sociétés. « Iroquoiens du Saint-Laurent », « Wendat » et « Haudenosaunee » n'ont pas le même sens, même si leurs histoires se rencontrent. Aujourd'hui, le Québec présente administrativement onze nations autochtones, soit dix Premières Nations et la nation inuit. Ce dénombrement contemporain n'est pas une carte politique du XVIe siècle.",
+          "Un même territoire a été habité, parcouru, partagé, défendu et transformé de nombreuses façons. Pour répondre correctement, le Kristal garde toujours un nom de société, une époque et une source. Il ne raconte pas l'histoire comme si les nations apparaissaient seulement à l'arrivée des Européens. L'histoire se poursuit aujourd'hui dans les langues, les familles, les gouvernements et les créations contemporaines."
+        ],
+        "source_ids": [
+          "qc-nations",
+          "museum-iroquoian"
+        ]
+      },
+      {
+        "theme": "habiter",
+        "titre": "Habiter ensemble, choisir un lieu",
+        "sections": [
+          "Certaines sociétés iroquoiennes ont bâti des villages de maisons longues abritant des familles apparentées. L'intérieur comprenait des foyers et des espaces réservés aux familles. Les maisons pouvaient être agrandies; une mesure prise pour une maison ne décrit pas toutes les autres. Des villages importants pouvaient avoir des palissades de défense, mais tous n'en possédaient pas.",
+          "Choisir un lieu pour vivre demandait d'observer l'eau, les terres cultivables, les forêts et les possibilités de déplacement. Après de nombreuses années, une communauté pouvait reconstruire un village ailleurs. Rien de cela ne signifie que toutes les nations possédaient la même maison. Les modèles de campement, les matériaux et la mobilité dépendaient aussi des milieux et des saisons."
+        ],
+        "source_ids": [
+          "recit-maison",
+          "recit-village"
+        ]
+      },
+      {
+        "theme": "se_nourrir",
+        "titre": "Se nourrir : plusieurs connaissances à la fois",
+        "sections": [
+          "Les Iroquoiens pratiquaient notamment l'agriculture, la pêche, la chasse et la cueillette. Le maïs, les haricots et les courges occupaient une place importante dans plusieurs sociétés iroquoiennes. Ces activités demandaient de connaître les sols, les plantes, les poissons, les animaux et les saisons. D'autres sociétés du territoire, comme les Innus, organisaient différemment leurs activités selon les milieux traversés.",
+          "Les sources scolaires présentent aussi des répartitions historiques de tâches. Elles indiquent, pour des sociétés iroquoiennes vers 1500, une participation majeure des femmes à l'agriculture et à la préparation des peaux, et des hommes à la chasse et à la pêche. Ce portrait ne doit pas devenir une règle absolue qui exclut toute autre contribution ou décrit la vie actuelle. Les gestes précis comme écorcher, découper, cuisiner, préparer et tanner ne sont pas interchangeables."
+        ],
+        "source_ids": [
+          "recit-cultures",
+          "recit-femmes",
+          "recit-hommes"
+        ]
+      },
+      {
+        "theme": "techniques",
+        "titre": "Fabriquer : transformer les ressources",
+        "sections": [
+          "Il fallait connaître les propriétés des matières : le bois permettait de construire, l'écorce pouvait servir à couvrir ou à contenir, l'argile à faire des pots, les peaux à produire des vêtements et d'autres objets. Les sources scolaires montrent des objets conçus pour l'habitation, les déplacements, le transport, l'alimentation et les loisirs. Plusieurs étaient aussi décorés; l'utilité n'épuise pas leur signification.",
+          "Une question précise exige parfois un objet précisément décrit. Savoir qu'un peuple pêchait ne nous dit pas automatiquement avec quelle fibre une ligne était faite dans tel village. Le Kristal conserve cette distinction entre la pratique générale prouvée et le matériau particulier non attesté. Une image future peut aider à comprendre la fonction, mais ne doit pas inventer une technique ou un motif réservé."
+        ],
+        "source_ids": [
+          "recit-objets",
+          "recit-vetements"
+        ]
+      },
+      {
+        "theme": "voyages",
+        "titre": "L'eau, les chemins et les saisons",
+        "sections": [
+          "Les rivières formaient des voies de circulation, de communication et d'échange. Les canots permettaient de franchir certains parcours d'eau et les portages reliaient des tronçons séparés par la terre. Cependant, un village n'était pas forcément construit exactement sur la rive : la qualité des sols, le bois et la sécurité entraient aussi dans la décision.",
+          "Nametau innu décrit un cycle traditionnel de déplacements sur le Nitassinan, avec des rassemblements côtiers lorsque reviennent certaines ressources et des séjours à l'intérieur du territoire à d'autres saisons. Il faut distinguer le déplacement régulier d'un campement d'une reconstruction de village après une décennie. Les deux situations ne décrivent ni les mêmes sociétés ni les mêmes choix."
+        ],
+        "source_ids": [
+          "recit-troc",
+          "recit-village",
+          "nametau-cycle"
+        ]
+      },
+      {
+        "theme": "gouvernance",
+        "titre": "Rôles, clans et décisions",
+        "sections": [
+          "Dans plusieurs descriptions de sociétés iroquoiennes, la parenté et le clan jouent un rôle structurant. L'appartenance au clan peut suivre la lignée maternelle, et les mères de clan interviennent dans le choix des dirigeants. Le chef ne doit pas être réduit à un personnage donnant seul tous les ordres. Les décisions, les conseils et les responsabilités s'organisaient selon des règles propres aux communautés.",
+          "La Nation Wendat décrit aujourd'hui un conseil d'élus avec un Grand Chef et des Chefs familiaux. Ce présent institutionnel est important, mais il ne faut pas le copier tel quel sur une époque ancienne. Le modèle des rôles, tâches et ressources sert à comparer des organisations tout en préservant leurs différences. Enfin, un symbole animal associé à un clan ne signifie pas que toutes les maisons portaient ce dessin."
+        ],
+        "source_ids": [
+          "recit-clan",
+          "wendat-nation",
+          "wendat-conseil"
+        ]
+      },
+      {
+        "theme": "savoirs",
+        "titre": "Apprendre, raconter, célébrer",
+        "sections": [
+          "La connaissance d'un territoire, d'un objet ou d'une activité ne se transmet pas seulement par une liste de faits. Les récits, les démonstrations, les jeux, les fêtes et le contact entre générations permettent de construire et de partager des savoirs. Les ressources éducatives sur les Iroquoiens décrivent des activités de jeu et la tradition orale. Nametau innu présente aussi des aînés et des familles transmettant des récits et des expériences.",
+          "Une tradition orale n'est pas un manque de savoir. Il faut toutefois distinguer un témoignage publié que l'on peut citer d'un savoir dont la transmission exige une autorisation, un contexte ou un protocole particulier. Le cours ne doit pas inventer de cérémonies, de récits sacrés ou de mots dans une langue qu'il ne maîtrise pas."
+        ],
+        "source_ids": [
+          "recit-oral",
+          "recit-jeux",
+          "nametau-cycle"
+        ]
+      },
+      {
+        "theme": "echanges",
+        "titre": "Les échanges : besoins, relations et pouvoirs",
+        "sections": [
+          "Des réseaux d'échange reliaient des nations autochtones bien avant les établissements européens. Les ressources n'étaient pas disponibles partout dans les mêmes quantités. RÉCIT présente des objets en cuivre ayant parcouru de grandes distances. Les échanges permettaient d'acquérir des produits, mais pouvaient aussi être liés à des alliances et à des rencontres collectives.",
+          "Avec l'implantation coloniale, les échanges ont changé. Ils pouvaient répondre à de vrais besoins des participants, tout en devenant marqués par des monopoles, des inégalités et des contraintes. Il serait trompeur de qualifier systématiquement les objets européens de babioles inutiles ou d'affirmer que tous les échanges furent équitables. Pour avancer, il faut relier chaque cas à sa région, à son époque et à ses sources."
+        ],
+        "source_ids": [
+          "recit-troc",
+          "nametau-europeens"
+        ]
+      },
+      {
+        "theme": "innus",
+        "titre": "Le Nitassinan et les savoirs innus",
+        "sections": [
+          "Les Innus possèdent une histoire et des territoires propres. Le projet Nametau innu présente le Nitassinan et décrit des mobilités traditionnelles liées aux saisons et aux ressources. La pêche au saumon, la chasse, les déplacements, les rassemblements et la transmission de récits font partie de ces descriptions. Chaque communauté, chaque famille et chaque période peuvent toutefois présenter leurs propres expériences.",
+          "Les documents sur les rivières nord-côtières rappellent également que la pêche est une question de droits, d'accès et de gouvernance, et non seulement une technique. Le fait de connaître une pratique historique ne signifie pas que les Innus auraient cessé d'innover et de vivre leur culture aujourd'hui : leur langue, leurs artistes et leurs institutions sont bien vivants."
+        ],
+        "source_ids": [
+          "nametau-cycle",
+          "nametau-saumon",
+          "qc-innus"
+        ]
+      },
+      {
+        "theme": "vivants",
+        "titre": "Des nations vivantes aujourd’hui",
+        "sections": [
+          "L'encyclopédie ne s'arrête pas en 1500 ou en 1701. Les Premières Nations et les Inuit du Québec possèdent des communautés, des langues et des institutions contemporaines. Les profils du Québec décrivent, entre autres, les Innus, les Anichinabés, les Eeyou et les Inuit du Nunavik. Les personnes autochtones peuvent vivre dans des communautés d'origine, des villes ou d'autres lieux.",
+          "On peut étudier une maison longue, un canot ou une pratique ancestrale, mais il faut aussi apprendre qui prend des décisions aujourd'hui, comment les langues sont transmises, comment les nations défendent leurs droits et quels projets elles construisent. Le site de la Nation Wendat constitue par exemple une source de première main sur sa gouvernance actuelle."
+        ],
+        "source_ids": [
+          "qc-nations",
+          "wendat-nation",
+          "qc-inuit",
+          "qc-innus"
+        ]
+      },
+      {
+        "theme": "enquete",
+        "titre": "Apprendre à dire « cela dépend »",
+        "sections": [
+          "L'histoire ne consiste pas seulement à mémoriser des réponses vraies et fausses. On demande aussi : « Quelle nation ? Quelle époque ? Qui raconte ? Avec quelles preuves ? » Une fourchette d'habitants, la longueur d'une maison ou la répartition d'une tâche n'est pas automatiquement une règle pour toute une population.",
+          "Dans ce Kristal, les sources sont citées, les périodes sont identifiées, et certaines fiches disent explicitement que l'information manque. La bonne attitude est parfois de comparer deux documents ou de chercher une étude archéologique supplémentaire. Un outil hors ligne peut trouver la meilleure fiche disponible; il ne devrait jamais fabriquer une réponse seulement pour avoir l'air sûr de lui."
+        ],
+        "source_ids": [
+          "recit-maison",
+          "recit-clan",
+          "nametau-cycle"
+        ]
+      }
+    ]
+  },
+  "scope": {
+    "domain": "encyclopedie_contextualisee"
+  },
+  "logical_commitment": {
+    "profile": "kristal.logical/jcs-sha256-v1",
+    "digest": "sha256:f76935688c7ab650395027355ed799f70832165b0764b7e91051dc7eaebba024"
+  }
+}

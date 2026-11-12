@@ -1,0 +1,92 @@
+{
+  "format": "ekole.activity/1",
+  "id": "gouter-partage",
+  "revision": 1,
+  "status": "local_demo",
+  "course": {
+    "id": "qc-pri-ma-009",
+    "objective": "obj-1",
+    "sha256": "sha256:dff9d7bd836bb471c60c705ca9dce62f186dbceb93cd6b4e0a16fdbba3f6d4c7"
+  },
+  "scenario": {
+    "id": "cuisine-partage",
+    "version": "1.0.0",
+    "step": "groupement",
+    "sha256": "sha256:13ed0bd5d0fd242d4d0578007f8d68f0eb80cd3300b6446f9a6c46b55c606f09"
+  },
+  "tasks": {
+    "pratique": {
+      "invitations": 12,
+      "per_sheet": 3,
+      "stock": 2
+    },
+    "bilan": {
+      "invitations": 14,
+      "per_sheet": 3,
+      "stock": 2
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "title": "Le goûter à partager",
+      "subtitle": "Division · 3e année",
+      "objective": "Forme des groupes égaux pour déterminer le nombre d’assiettes.",
+      "prerequisite": "Tu peux compter par bonds de trois et comparer deux nombres.",
+      "context": "Il y a {invitations} portions pour le goûter. Une assiette contient au plus {per_sheet} portions. Il y a {stock} assiettes sur la table.",
+      "group": "Dessine les portions ou prends des jetons. Forme un groupe par assiette.",
+      "compare": "Compare le nombre d’assiettes nécessaires avec le nombre d’assiettes sur la table.",
+      "reflection": "Explique ton choix. Que fais-tu s’il reste des portions quand tu as rempli les autres assiettes ?",
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "heading": "Préparer les assiettes",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "needed": "Combien d’assiettes faut-il pour toutes les portions ?",
+      "missing": "Combien d’assiettes manquent sur la table ?",
+      "explain": "Explique pourquoi un groupe incomplet a besoin de son assiette.",
+      "correct": "Ta réponse correspond à la situation.",
+      "incorrect": "Représente les groupes, puis compare ton dessin à la question.",
+      "next": "Vérifie que chaque portion est dans une assiette.",
+      "review": "La justification sera lue par une personne.",
+      "criterion": "La justification relie le groupe incomplet à l’utilisation d’une assiette supplémentaire.",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "add_sheet": "Ajouter une assiette",
+      "undo_sheet": "Retirer une assiette",
+      "placement": "{placed} sur {total} portions placées"
+    },
+    "en": {
+      "title": "Sharing a snack",
+      "subtitle": "Division · Grade 3",
+      "objective": "Make equal groups to determine how many plates are needed.",
+      "prerequisite": "You can count by threes and compare two numbers.",
+      "context": "There are {invitations} portions for the snack. A plate holds up to {per_sheet} portions. There are {stock} plates on the table.",
+      "group": "Draw the portions or use counters. Make one group per plate.",
+      "compare": "Compare the number of plates needed with the number already on the table.",
+      "reflection": "Explain your choice. What do you do if there are portions left after filling the other plates?",
+      "limits": "Local demonstration activity for review before classroom use.",
+      "heading": "Preparing the plates",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "needed": "How many plates are needed for all the portions?",
+      "missing": "How many more plates are needed on the table?",
+      "explain": "Explain why an incomplete group still needs a plate.",
+      "correct": "Your answer matches the situation.",
+      "incorrect": "Show the groups and compare your drawing with the question.",
+      "next": "Check that every portion is on a plate.",
+      "review": "Someone will review your explanation.",
+      "criterion": "The explanation connects the incomplete group to using one extra plate.",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "add_sheet": "Add a plate",
+      "undo_sheet": "Remove a plate",
+      "placement": "{placed} of {total} portions placed"
+    }
+  },
+  "trame": "repas-partage"
+}

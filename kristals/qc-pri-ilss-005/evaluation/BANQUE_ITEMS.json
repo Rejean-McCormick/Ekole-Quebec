@@ -1,0 +1,291 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ilss-005",
+  "family_id": "qc-pri-ilss-005-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ilss-005-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis l’étiquette imprimée « sac », puis repère ce même mot parmi « sac », « lac », « sol ». Montre ce que tu as regardé.",
+      "stimulus": "Étiquette de l’objet : sac. Trois cartes en ordre fixe : sac | lac | sol. Aucun dessin ne fournit la réponse.",
+      "reponse_attendue": "La carte « sac » (première) correspond exactement à l’étiquette. Indice : même ordre des lettres s-a-c; reconnaître orthographiquement le mot connu est recevable.",
+      "criteres": [
+        "Preuve personnelle de lecture de l’écrit, non seulement écoute du texte lu par un tiers.",
+        "Réponse appuyée sur une information réellement présente dans le support écrit.",
+        "Une stratégie (repérer, décoder les unités apprises, relire, vérifier) est montrée ou indiquée de façon crédible.",
+        "Distinction de la suite écrite cible et des deux distracteurs."
+      ],
+      "feedback": "Si « lac » est montré, comparer la première lettre avant de revérifier le mot entier; ne pas compter l’écoute seule comme lecture.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "representation": "carte écrite + lecture personnelle + pointage de comparaison; observation du traitement personnel des mots écrits, avec trace des actions et du sens dans la grille",
+      "variations_permises": "Taille et contraste des mots variables, cartes identiques et ordre conservé.",
+      "conditions_accessibilite": "Affichage agrandi, repère de ligne, temps souple, communication gestuelle, écrite brève ou assistée pour expliquer; pas de jugement sur accent, langue première, vitesse ou origine. L’enseignant ne lit pas le texte cible pendant la preuve.",
+      "limites_variation": "Texte et corrigé fixés, aucun tirage automatique; seules adaptations d’affichage, communication et temps non directives autorisées. Lecture intégrale par un tiers non recevable comme preuve de lecture autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-005-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les trois phrases sur Lina et réponds : quel objet a-t-elle ? Retrouve une occurrence écrite de l’objet et décris la stratégie utilisée.",
+      "stimulus": "Lina a un sac. Le sac est là. Lina a le sac. Le texte est présenté sans dessin ou lecture du modèle.",
+      "reponse_attendue": "Objet : un sac. Une occurrence de « sac » dans chacune des trois phrases; action valable : identifier puis relire les occurrences pour confirmer.",
+      "criteres": [
+        "Preuve personnelle de lecture de l’écrit, non seulement écoute du texte lu par un tiers.",
+        "Réponse appuyée sur une information réellement présente dans le support écrit.",
+        "Une stratégie (repérer, décoder les unités apprises, relire, vérifier) est montrée ou indiquée de façon crédible.",
+        "Identification du même nom écrit récurrent dans le texte."
+      ],
+      "feedback": "Si l’objet est deviné sans pointer le texte, demander après coup quelle série de lettres soutient la réponse; fournir un autre texte pour une nouvelle observation.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "representation": "lecture A de texte répété + preuve de mot; observation du traitement personnel des mots écrits, avec trace des actions et du sens dans la grille",
+      "variations_permises": "Palier A fixe, changement de format typographique possible.",
+      "conditions_accessibilite": "Affichage agrandi, repère de ligne, temps souple, communication gestuelle, écrite brève ou assistée pour expliquer; pas de jugement sur accent, langue première, vitesse ou origine. L’enseignant ne lit pas le texte cible pendant la preuve.",
+      "limites_variation": "Texte et corrigé fixés, aucun tirage automatique; seules adaptations d’affichage, communication et temps non directives autorisées. Lecture intégrale par un tiers non recevable comme preuve de lecture autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-005-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les phrases sur Mila et indique quelle couleur est mentionnée pour l’objet. Appuie la réponse sur le mot ou le groupe de mots pertinent.",
+      "stimulus": "Mila a un bol. Le bol est bleu. Mila voit le bol. Le texte est présenté sans illustration donnant la couleur.",
+      "reponse_attendue": "La couleur est bleu; la deuxième phrase contient « Le bol est bleu. » Le lecteur peut relire cette phrase et pointer le mot « bleu ».",
+      "criteres": [
+        "Preuve personnelle de lecture de l’écrit, non seulement écoute du texte lu par un tiers.",
+        "Réponse appuyée sur une information réellement présente dans le support écrit.",
+        "Une stratégie (repérer, décoder les unités apprises, relire, vérifier) est montrée ou indiquée de façon crédible.",
+        "Repère « bleu » comme propriété explicitement écrite, sans suggestion de l’adulte."
+      ],
+      "feedback": "Si l’élève nomme une couleur provenant d’une image mentale, lui faire vérifier la deuxième phrase sur un nouvel essai formatif.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "representation": "texte A + reconnaissance de mot de sens; observation du traitement personnel des mots écrits, avec trace des actions et du sens dans la grille",
+      "variations_permises": "Affichage adapté; nul besoin de nommer le procédé en métalangage. ",
+      "conditions_accessibilite": "Affichage agrandi, repère de ligne, temps souple, communication gestuelle, écrite brève ou assistée pour expliquer; pas de jugement sur accent, langue première, vitesse ou origine. L’enseignant ne lit pas le texte cible pendant la preuve.",
+      "limites_variation": "Texte et corrigé fixés, aucun tirage automatique; seules adaptations d’affichage, communication et temps non directives autorisées. Lecture intégrale par un tiers non recevable comme preuve de lecture autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-005-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les deux phrases sur Nino. Où pose-t-il la gourde au début ? Indique le passage et la stratégie qui permet de vérifier.",
+      "stimulus": "Dans la classe, Nino pose sa gourde près du livre. Après la pause, il reprend la gourde.",
+      "reponse_attendue": "Il pose la gourde « près du livre » ; preuve dans la première phrase. Stratégie : revenir à la proposition « pose sa gourde près du livre ».",
+      "criteres": [
+        "Preuve personnelle de lecture de l’écrit, non seulement écoute du texte lu par un tiers.",
+        "Réponse appuyée sur une information réellement présente dans le support écrit.",
+        "Une stratégie (repérer, décoder les unités apprises, relire, vérifier) est montrée ou indiquée de façon crédible.",
+        "Ne confond pas le premier lieu avec l’action ultérieure « reprend la gourde »."
+      ],
+      "feedback": "Si la réponse est « après la pause », distinguer lieu et temps; revenir au groupe de mots après « pose » pour contrôler.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "representation": "texte B relié + lieu explicite; observation du traitement personnel des mots écrits, avec trace des actions et du sens dans la grille",
+      "variations_permises": "Temps de lecture et communication variés, même texte et relation spatiale.",
+      "conditions_accessibilite": "Affichage agrandi, repère de ligne, temps souple, communication gestuelle, écrite brève ou assistée pour expliquer; pas de jugement sur accent, langue première, vitesse ou origine. L’enseignant ne lit pas le texte cible pendant la preuve.",
+      "limites_variation": "Texte et corrigé fixés, aucun tirage automatique; seules adaptations d’affichage, communication et temps non directives autorisées. Lecture intégrale par un tiers non recevable comme preuve de lecture autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-005-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis le petit avis et indique la salle où a lieu l’atelier. Montre quel mot ou chiffre tu as utilisé pour en être sûr.",
+      "stimulus": "À la porte, un avis dit : « Atelier dans la salle 2 ». Amine relit le numéro avant de partir.",
+      "reponse_attendue": "Réponse : salle 2, indiquée textuellement dans l’avis. Stratégie utile : repérer le chiffre 2 après le mot « salle » puis relire la citation.",
+      "criteres": [
+        "Preuve personnelle de lecture de l’écrit, non seulement écoute du texte lu par un tiers.",
+        "Réponse appuyée sur une information réellement présente dans le support écrit.",
+        "Une stratégie (repérer, décoder les unités apprises, relire, vérifier) est montrée ou indiquée de façon crédible.",
+        "Ne remplace pas le numéro écrit par le numéro habituel de sa classe."
+      ],
+      "feedback": "Si « salle 1 » est répondu, faire distinguer l’habitude personnelle de l’indice écrit : l’avis indique « salle 2 ».",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "representation": "avis scolaire B + lecture d’information fonctionnelle; observation du traitement personnel des mots écrits, avec trace des actions et du sens dans la grille",
+      "variations_permises": "Le support peut être rendu accessible sur papier ou écran, sans changer le chiffre.",
+      "conditions_accessibilite": "Affichage agrandi, repère de ligne, temps souple, communication gestuelle, écrite brève ou assistée pour expliquer; pas de jugement sur accent, langue première, vitesse ou origine. L’enseignant ne lit pas le texte cible pendant la preuve.",
+      "limites_variation": "Texte et corrigé fixés, aucun tirage automatique; seules adaptations d’affichage, communication et temps non directives autorisées. Lecture intégrale par un tiers non recevable comme preuve de lecture autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-005-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis la description de Nora et dis où elle pose la boîte. Montre la phrase qui appuie cette réponse et quelle stratégie a été utile.",
+      "stimulus": "Nora apporte ses crayons au coin dessin. Elle pose la boîte sur la table puis choisit un crayon vert.",
+      "reponse_attendue": "Réponse : « sur la table ». Preuve dans la deuxième phrase, qui précise « Elle pose la boîte sur la table » ; relecture localisée recevable.",
+      "criteres": [
+        "Preuve personnelle de lecture de l’écrit, non seulement écoute du texte lu par un tiers.",
+        "Réponse appuyée sur une information réellement présente dans le support écrit.",
+        "Une stratégie (repérer, décoder les unités apprises, relire, vérifier) est montrée ou indiquée de façon crédible.",
+        "Sépare l’emplacement de la boîte et la couleur du crayon, deux informations distinctes."
+      ],
+      "feedback": "Si « coin dessin » est donné comme lieu précis de la boîte, distinguer contexte général et position sur la table.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "representation": "texte B + sélection d’un indice spatial; observation du traitement personnel des mots écrits, avec trace des actions et du sens dans la grille",
+      "variations_permises": "Choix du mode de présentation visuelle, sens et mots inchangés.",
+      "conditions_accessibilite": "Affichage agrandi, repère de ligne, temps souple, communication gestuelle, écrite brève ou assistée pour expliquer; pas de jugement sur accent, langue première, vitesse ou origine. L’enseignant ne lit pas le texte cible pendant la preuve.",
+      "limites_variation": "Texte et corrigé fixés, aucun tirage automatique; seules adaptations d’affichage, communication et temps non directives autorisées. Lecture intégrale par un tiers non recevable comme preuve de lecture autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-005-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis la note sur Malik. Où trouve-t-il le ballon ? Reviens à la phrase qui le dit et identifie une stratégie employée.",
+      "stimulus": "Au gymnase, Malik cherche un ballon. Il regarde sous le banc et voit le ballon. Il le rapporte au groupe.",
+      "reponse_attendue": "Réponse : « sous le banc ». Phrase preuve : « Il regarde sous le banc et voit le ballon » ; stratégie : repérer « ballon » puis relire son contexte.",
+      "criteres": [
+        "Preuve personnelle de lecture de l’écrit, non seulement écoute du texte lu par un tiers.",
+        "Réponse appuyée sur une information réellement présente dans le support écrit.",
+        "Une stratégie (repérer, décoder les unités apprises, relire, vérifier) est montrée ou indiquée de façon crédible.",
+        "Différencie le lieu de découverte de la destination ultérieure du ballon."
+      ],
+      "feedback": "Si « au groupe » est répondu, expliquer après correction que le groupe reçoit le ballon ensuite, puis entraîner le repérage des mots « sous le banc ».",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "representation": "texte B à trois phrases + distinction temporelle; observation du traitement personnel des mots écrits, avec trace des actions et du sens dans la grille",
+      "variations_permises": "Option de repère-ligne non directif et oralisation individuelle sans pression de rapidité.",
+      "conditions_accessibilite": "Affichage agrandi, repère de ligne, temps souple, communication gestuelle, écrite brève ou assistée pour expliquer; pas de jugement sur accent, langue première, vitesse ou origine. L’enseignant ne lit pas le texte cible pendant la preuve.",
+      "limites_variation": "Texte et corrigé fixés, aucun tirage automatique; seules adaptations d’affichage, communication et temps non directives autorisées. Lecture intégrale par un tiers non recevable comme preuve de lecture autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-005-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis l’horaire. À quelle heure le local ouvre-t-il, et comment as-tu évité de confondre cette heure avec l’arrivée d’Aya ?",
+      "stimulus": "Le local ouvre à 10 h. Aya arrive à 9 h et attend devant la porte.",
+      "reponse_attendue": "Réponse : 10 h, dans la première phrase. 9 h est l’heure d’arrivée d’Aya, non l’ouverture. Stratégie : relire la première phrase et l’associer explicitement au verbe « ouvre ».",
+      "criteres": [
+        "Preuve personnelle de lecture de l’écrit, non seulement écoute du texte lu par un tiers.",
+        "Réponse appuyée sur une information réellement présente dans le support écrit.",
+        "Une stratégie (repérer, décoder les unités apprises, relire, vérifier) est montrée ou indiquée de façon crédible.",
+        "Associe correctement une information de l’écrit à l’action demandée, sans confusion entre deux heures."
+      ],
+      "feedback": "Si « 9 h » est donné, faire chercher après l’essai le verbe de la question et la phrase correspondante, sur un autre horaire d’entraînement.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "representation": "horaire B + interprétation contrôlée de deux heures; observation du traitement personnel des mots écrits, avec trace des actions et du sens dans la grille",
+      "variations_permises": "Grossissement des chiffres, lecture tactile ou autre modalité adaptée à valider humainement; ne pas lire le texte pour le lecteur.",
+      "conditions_accessibilite": "Affichage agrandi, repère de ligne, temps souple, communication gestuelle, écrite brève ou assistée pour expliquer; pas de jugement sur accent, langue première, vitesse ou origine. L’enseignant ne lit pas le texte cible pendant la preuve.",
+      "limites_variation": "Texte et corrigé fixés, aucun tirage automatique; seules adaptations d’affichage, communication et temps non directives autorisées. Lecture intégrale par un tiers non recevable comme preuve de lecture autonome.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-005-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME A — Coin lecture. Lis toi-même la fiche de ton palier (A ou B) sans modèle simultané. Réponds à la question de la fiche en montrant les mots pertinents, puis indique ou montre la stratégie que tu as réellement utilisée.",
+      "stimulus": "Palier A : « Lila a un livre. Le livre est là. Lila lit. » Question : quel objet a Lila ? Palier B : « Au coin lecture, Mira choisit un livre sur les animaux. Elle le lit près de la fenêtre, puis le remet sur l’étagère. » Question : où Mira lit-elle ?",
+      "reponse_attendue": "A : un livre; preuve « Lila a un livre » et mot « livre » repris; stratégie repérer puis relire ce mot. B : près de la fenêtre; preuve « Elle le lit près de la fenêtre »; stratégie relire le groupe de mots qui indique le lieu. Les réponses écrites exactes sont distinctes selon la fiche.",
+      "criteres": [
+        "Preuve personnelle de lecture de l’écrit, non seulement écoute du texte lu par un tiers.",
+        "Réponse appuyée sur une information réellement présente dans le support écrit.",
+        "Une stratégie (repérer, décoder les unités apprises, relire, vérifier) est montrée ou indiquée de façon crédible.",
+        "Le palier fixé est déclaré avant l’épreuve; aucune aide directive de lecture, réponse ou stratégie pendant le passage.",
+        "Le lecteur relie sa stratégie réellement utilisée aux mots de sa fiche, sans que l’adulte les prononce à sa place."
+      ],
+      "feedback": "Si seul le sens oral est visible, ne pas déclarer la lecture maîtrisée. Proposer entraînement de décodage/repérage puis nouvelle épreuve originale; si réponse non justifiée, entraîner la relecture avec un autre texte.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "representation": "PREUVE A : lecture autonome d’une fiche A ou B + extraction + stratégie démontrée; observation du traitement personnel des mots écrits, avec trace des actions et du sens dans la grille",
+      "variations_permises": "Catalogue de exactement deux textes contrôlés, version A ou B choisie par diagnostic avant l’épreuve; le contenu de chaque version et son corrigé ne varient pas.",
+      "conditions_accessibilite": "Affichage agrandi, repère de ligne, temps souple, communication gestuelle, écrite brève ou assistée pour expliquer; pas de jugement sur accent, langue première, vitesse ou origine. L’enseignant ne lit pas le texte cible pendant la preuve.",
+      "limites_variation": "Texte et corrigé fixés, aucun tirage automatique; seules adaptations d’affichage, communication et temps non directives autorisées. Lecture intégrale par un tiers non recevable comme preuve de lecture autonome.",
+      "validation_status": "a_revoir",
+      "variantes_controlees": {
+        "selection": "Choix humain documenté du palier A ou B selon diagnostic; aucune randomisation. Même palier pour q-009 et q-010; ne pas présenter l’autre fiche en aide pendant l’essai.",
+        "A": {
+          "texte": "Lila a un livre. Le livre est là. Lila lit.",
+          "question": "Quel objet a Lila ?",
+          "reponse": "Un livre.",
+          "indice_exact": "Lila a un livre."
+        },
+        "B": {
+          "texte": "Au coin lecture, Mira choisit un livre sur les animaux. Elle le lit près de la fenêtre, puis le remet sur l’étagère.",
+          "question": "Où Mira lit-elle ?",
+          "reponse": "Près de la fenêtre.",
+          "indice_exact": "Elle le lit près de la fenêtre"
+        },
+        "controle": "Correction par recherche exacte de l’indice dans le texte attribué et grille de lecture personnelle/stratégie."
+      }
+    },
+    {
+      "item_id": "qc-pri-ilss-005-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-005-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME B — Jardin scolaire fictif. Lis toi-même une NOUVELLE fiche de ton même palier A ou B. Réponds à la question de la fiche à partir des caractères écrits, puis montre ou indique une stratégie effectivement utilisée.",
+      "stimulus": "Palier A : « Noé a un pot. Le pot est là. Noé lave le pot. » Question : quel objet a Noé ? Palier B : « Dans le jardin de l’école, Sami lit une étiquette : « menthe ». Il apporte de l’eau et arrose la plante. » Question : quel nom de plante lit Sami ?",
+      "reponse_attendue": "A : un pot, étayé par « Noé a un pot » et mot répété « pot »; stratégie repérer et relire. B : « menthe », présent sur l’étiquette citée; stratégie vérifier le mot écrit entre guillemets, sans le deviner à partir de la plante dessinée. Le contexte est différent de q-009.",
+      "criteres": [
+        "Preuve personnelle de lecture de l’écrit, non seulement écoute du texte lu par un tiers.",
+        "Réponse appuyée sur une information réellement présente dans le support écrit.",
+        "Une stratégie (repérer, décoder les unités apprises, relire, vérifier) est montrée ou indiquée de façon crédible.",
+        "La prestation utilise un texte et un contexte différents de la preuve A, sans imitation de sa réponse.",
+        "Une stratégie utile est montrée sur les mots du texte nouveau et choisie par le lecteur."
+      ],
+      "feedback": "Si l’élève réutilise un mot de la preuve A malgré le nouveau texte, revenir après l’essai à la vérification des lettres. Aucune note unique ne compense une absence de lecture personnelle sur B.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "representation": "PREUVE B : lecture autonome dans un jardin fictif + information + stratégie; observation du traitement personnel des mots écrits, avec trace des actions et du sens dans la grille",
+      "variations_permises": "Catalogue de deux fiches fixes seulement, A et B; même palier initial que pour q-009, sauf adaptation d’équivalence documentée humainement et nouvelle série de preuves.",
+      "conditions_accessibilite": "Affichage agrandi, repère de ligne, temps souple, communication gestuelle, écrite brève ou assistée pour expliquer; pas de jugement sur accent, langue première, vitesse ou origine. L’enseignant ne lit pas le texte cible pendant la preuve.",
+      "limites_variation": "Texte et corrigé fixés, aucun tirage automatique; seules adaptations d’affichage, communication et temps non directives autorisées. Lecture intégrale par un tiers non recevable comme preuve de lecture autonome.",
+      "validation_status": "a_revoir",
+      "variantes_controlees": {
+        "selection": "Choix A ou B selon diagnostic conservé depuis q-009; aucune IA ni aléa.",
+        "A": {
+          "texte": "Noé a un pot. Le pot est là. Noé lave le pot.",
+          "question": "Quel objet a Noé ?",
+          "reponse": "Un pot.",
+          "indice_exact": "Noé a un pot."
+        },
+        "B": {
+          "texte": "Dans le jardin de l’école, Sami lit une étiquette : « menthe ». Il apporte de l’eau et arrose la plante.",
+          "question": "Quel nom de plante lit Sami ?",
+          "reponse": "Menthe.",
+          "indice_exact": "menthe"
+        },
+        "controle": "Correction par recherche exacte de l’indice dans le texte attribué et grille de lecture personnelle/stratégie."
+      }
+    }
+  ]
+}

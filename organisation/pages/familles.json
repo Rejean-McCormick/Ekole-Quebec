@@ -1,0 +1,39 @@
+{
+  "format": "ekole.portal-page/0.1",
+  "id": "ekole-page-familles",
+  "slug": "familles",
+  "titre": "Espace familles",
+  "public_cible": "famille",
+  "roles_visuels": [
+    "en_tete",
+    "description",
+    "actions",
+    "ressources",
+    "navigation"
+  ],
+  "utterances": [
+    {
+      "id": "familles-phrase-1",
+      "source": "original_edition_candidat",
+      "fr-CA": "Les familles peuvent explorer les apprentissages sans accéder aux données individuelles des enfants.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "familles-phrase-2",
+      "source": "original_edition_candidat",
+      "fr-CA": "Les préalables et les activités sont consultables par parcours.",
+      "status": "a_revoir_semantik"
+    }
+  ],
+  "component_types": [
+    "utterance",
+    "label_value",
+    "list",
+    "card"
+  ],
+  "access": "information_publique_sans_donnees_personnelles",
+  "language_status": {
+    "fr-CA": "candidat",
+    "en": "non_genere"
+  }
+}

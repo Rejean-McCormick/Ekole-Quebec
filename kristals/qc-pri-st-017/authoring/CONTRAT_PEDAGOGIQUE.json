@@ -1,0 +1,72 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-017",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Classer des organismes par caractéristiques observables plutôt que par préférences.",
+  "concepts": [
+    "vivant",
+    "organisme",
+    "caractère",
+    "classification"
+  ],
+  "preuve_attendue": "Justifier une classification de plusieurs êtres vivants.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-st-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-017-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Justifier une classification de plusieurs êtres vivants.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_items": "scenario_controle",
+        "filtre_variations": "corpus fermé; aucune generation IA libre sans correction humaine",
+        "regle_correction": "grille critériée avec critères factuels liés aux cartes, pas de mot unique attendu"
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-st-017",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiches_textuelles",
+        "tableau_caracteres",
+        "ensemble_annoté",
+        "justification_orale_ou_ecrite"
+      ],
+      "variables": {
+        "type": "selection_dans_corpus_ferme",
+        "corpus": "12_stimuli_fixes_dans_evaluation/BANQUE_ITEMS.json",
+        "regles": "Aucune nouvelle assertion biologique ni modification de caractere sans revue humaine; seul l ordre des cartes peut changer si le sens et les corrigés sont inchanges."
+      },
+      "contraintes": [
+        "minimum 3 organismes par tâche de classification",
+        "caractère documenté pour chaque placement",
+        "une règle cohérente sur toutes les cartes",
+        "aucun score sur une préférence",
+        "deux contextes distincts de maîtrise",
+        "sécurité: aucune collecte ou manipulation requise"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md : A-D, quatre dimensions 0-2; conditions des deux preuves",
+      "source": "sources/REFERENCES_CONTENU.md et evaluation/BANQUE_ITEMS.json (corpus original contrôlé)",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

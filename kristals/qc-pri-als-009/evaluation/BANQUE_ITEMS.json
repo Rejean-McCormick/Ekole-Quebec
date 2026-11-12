@@ -1,0 +1,395 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-als-009",
+  "family_id": "qc-pri-als-009-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-als-009-q-001",
+      "family_id": "qc-pri-als-009-ev-01",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "difficulte": "initial",
+      "titre": "Le sac à la bibliothèque",
+      "consigne": "Lis ou écoute le récit anglais. Présente en deux courtes phrases en anglais qui est Maya, où elle va et ce qu’elle y fait; utilise tes mots plutôt que de tout copier.",
+      "stimulus": "Maya took her blue bag to the library. She found a book about dogs and borrowed it.",
+      "reponse_attendue": "Présentation acceptable (une parmi plusieurs, non à réciter) : « Maya went to the library with a blue bag. She found a book about dogs and checked it out. » Trois faits-source essentiels à conserver : Maya va à la bibliothèque avec son sac bleu ; elle y trouve un livre sur les chiens ; elle emprunte ce livre. Contresens/inventions à exclure : Dire qu’elle emprunte son sac ou achète le livre. Les formulations équivalentes sont recevables si les mêmes faits et liens restent vérifiables.",
+      "faits_verifies": [
+        "Maya va à la bibliothèque avec son sac bleu",
+        "elle y trouve un livre sur les chiens",
+        "elle emprunte ce livre"
+      ],
+      "contresens_a_exclure": "Dire qu’elle emprunte son sac ou achète le livre",
+      "criteres": [
+        "Repérer et sélectionner au moins trois faits essentiels précisément soutenus par le récit, incluant l’action et la suite/le résultat.",
+        "Réemployer ces faits en anglais en préservant les acteurs, les lieux, les événements et les relations mentionnés; ne pas ajouter de faits non attestés.",
+        "Transformer au moins une relation ou formulation de manière personnelle, sans réciter le texte source mot à mot.",
+        "Présenter un propos compréhensible et organisé pour quelqu’un qui n’a pas lu/entendu le récit, en réponse orale ou écrite.",
+        "Construire la présentation sans aide directive sur la sélection ou les phrases; l’accent natif, la vitesse et l’orthographe mineure non ambiguë ne sont pas cotés."
+      ],
+      "feedback": "Si le livre est confondu avec le sac, pointer le référent de « it » dans la source; après feedback demander une nouvelle phrase entière sans modèle.",
+      "representation": "texte anglais imprimé → présentation personnelle anglaise orale ou écrite",
+      "conditions_passation": "Consigne explicative en français admise, source authentiquement anglophone originale et fixe; lecture personnelle ou lecture à voix haute du même script deux fois au choix du protocole. Production en anglais, orale ou écrite selon modalité décidée avant passation; source consultable pour vérification, aucun corrigé ou sélection proposée pendant l’essai.",
+      "variabilite_permises": [
+        "présentation orale ou écrite en anglais",
+        "temps adapté, transcription pour accessibilité ou lecture identique du script",
+        "réorganisation sémantiquement fidèle",
+        "formulations anglaises équivalentes et intelligibles"
+      ],
+      "limites_variation": "Les personnages, actions, lieux, résultats et textes sources sont fixes. Aucune substitution non approuvée du récit, aucun générateur IA, aucune variation du nombre de faits requis ou assistance directive. Les noms propres peuvent être conservés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-009-q-002",
+      "family_id": "qc-pri-als-009-ev-01",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "difficulte": "initial",
+      "titre": "Le bus suivant",
+      "consigne": "Après avoir lu/entendu le mini-récit, explique en anglais à un camarade pourquoi Noah a attendu et comment il est allé à l’école; formule la situation à ta façon.",
+      "stimulus": "Noah missed the first bus. He waited and took the next bus to school.",
+      "reponse_attendue": "Présentation acceptable (une parmi plusieurs, non à réciter) : « Noah missed his bus, so he waited for another one and took it to school. » Trois faits-source essentiels à conserver : Noah rate le premier autobus ; il attend le prochain autobus ; il prend cet autobus pour aller à l’école. Contresens/inventions à exclure : Il marche jusqu’à l’école, rentre chez lui ou prend un taxi. Les formulations équivalentes sont recevables si les mêmes faits et liens restent vérifiables.",
+      "faits_verifies": [
+        "Noah rate le premier autobus",
+        "il attend le prochain autobus",
+        "il prend cet autobus pour aller à l’école"
+      ],
+      "contresens_a_exclure": "Il marche jusqu’à l’école, rentre chez lui ou prend un taxi",
+      "criteres": [
+        "Repérer et sélectionner au moins trois faits essentiels précisément soutenus par le récit, incluant l’action et la suite/le résultat.",
+        "Réemployer ces faits en anglais en préservant les acteurs, les lieux, les événements et les relations mentionnés; ne pas ajouter de faits non attestés.",
+        "Transformer au moins une relation ou formulation de manière personnelle, sans réciter le texte source mot à mot.",
+        "Présenter un propos compréhensible et organisé pour quelqu’un qui n’a pas lu/entendu le récit, en réponse orale ou écrite.",
+        "Construire la présentation sans aide directive sur la sélection ou les phrases; l’accent natif, la vitesse et l’orthographe mineure non ambiguë ne sont pas cotés."
+      ],
+      "feedback": "Si la conséquence est inventée, relire « took the next bus » puis recomposer le message dans une phrase nouvelle.",
+      "representation": "texte anglais imprimé → présentation personnelle anglaise orale ou écrite",
+      "conditions_passation": "Consigne explicative en français admise, source authentiquement anglophone originale et fixe; lecture personnelle ou lecture à voix haute du même script deux fois au choix du protocole. Production en anglais, orale ou écrite selon modalité décidée avant passation; source consultable pour vérification, aucun corrigé ou sélection proposée pendant l’essai.",
+      "variabilite_permises": [
+        "présentation orale ou écrite en anglais",
+        "temps adapté, transcription pour accessibilité ou lecture identique du script",
+        "réorganisation sémantiquement fidèle",
+        "formulations anglaises équivalentes et intelligibles"
+      ],
+      "limites_variation": "Les personnages, actions, lieux, résultats et textes sources sont fixes. Aucune substitution non approuvée du récit, aucun générateur IA, aucune variation du nombre de faits requis ou assistance directive. Les noms propres peuvent être conservés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-009-q-003",
+      "family_id": "qc-pri-als-009-ev-01",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "difficulte": "initial",
+      "titre": "Une affiche de concert",
+      "consigne": "Présente en anglais à une personne absente ce qu’Omar a créé, ce qu’il a mis sur son affiche et à quoi elle sert; sélectionne seulement ce que dit le texte.",
+      "stimulus": "Omar made a poster for the school concert. He drew a guitar and wrote the date on it. He put the poster by the classroom door so students could see it.",
+      "reponse_attendue": "Présentation acceptable (une parmi plusieurs, non à réciter) : « Omar made a concert poster with a guitar picture and the date. He placed it by the classroom door for students to see. » Trois faits-source essentiels à conserver : Omar a fait une affiche pour un concert scolaire ; il a dessiné une guitare et écrit la date ; il a mis l’affiche près de la porte afin que les élèves la voient. Contresens/inventions à exclure : Il a joué de la guitare au concert ou accroché le poster avec un clou. Les formulations équivalentes sont recevables si les mêmes faits et liens restent vérifiables.",
+      "faits_verifies": [
+        "Omar a fait une affiche pour un concert scolaire",
+        "il a dessiné une guitare et écrit la date",
+        "il a mis l’affiche près de la porte afin que les élèves la voient"
+      ],
+      "contresens_a_exclure": "Il a joué de la guitare au concert ou accroché le poster avec un clou",
+      "criteres": [
+        "Repérer et sélectionner au moins trois faits essentiels précisément soutenus par le récit, incluant l’action et la suite/le résultat.",
+        "Réemployer ces faits en anglais en préservant les acteurs, les lieux, les événements et les relations mentionnés; ne pas ajouter de faits non attestés.",
+        "Transformer au moins une relation ou formulation de manière personnelle, sans réciter le texte source mot à mot.",
+        "Présenter un propos compréhensible et organisé pour quelqu’un qui n’a pas lu/entendu le récit, en réponse orale ou écrite.",
+        "Construire la présentation sans aide directive sur la sélection ou les phrases; l’accent natif, la vitesse et l’orthographe mineure non ambiguë ne sont pas cotés."
+      ],
+      "feedback": "Si « played a guitar » apparaît, demander si le texte dit « drew » ou « played »; corriger le fait avant toute erreur de conjugaison.",
+      "representation": "texte anglais imprimé → présentation personnelle anglaise orale ou écrite",
+      "conditions_passation": "Consigne explicative en français admise, source authentiquement anglophone originale et fixe; lecture personnelle ou lecture à voix haute du même script deux fois au choix du protocole. Production en anglais, orale ou écrite selon modalité décidée avant passation; source consultable pour vérification, aucun corrigé ou sélection proposée pendant l’essai.",
+      "variabilite_permises": [
+        "présentation orale ou écrite en anglais",
+        "temps adapté, transcription pour accessibilité ou lecture identique du script",
+        "réorganisation sémantiquement fidèle",
+        "formulations anglaises équivalentes et intelligibles"
+      ],
+      "limites_variation": "Les personnages, actions, lieux, résultats et textes sources sont fixes. Aucune substitution non approuvée du récit, aucun générateur IA, aucune variation du nombre de faits requis ou assistance directive. Les noms propres peuvent être conservés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-009-q-004",
+      "family_id": "qc-pri-als-009-ev-01",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "difficulte": "intermediaire",
+      "titre": "Un dîner à l’école",
+      "consigne": "Transforme en une courte présentation anglaise le dîner de Nina, son problème et l’aide proposée. Ne décris pas ce qu’elle a mangé si le texte ne le dit pas.",
+      "stimulus": "Nina packed an apple and a sandwich for lunch. At school, she noticed that her water bottle was still at home. A classmate offered her a cup of water.",
+      "reponse_attendue": "Présentation acceptable (une parmi plusieurs, non à réciter) : « Nina packed lunch, but she left her water bottle at home. A classmate offered her some water at school. » Trois faits-source essentiels à conserver : Nina prépare une pomme et un sandwich ; sa bouteille d’eau est restée à la maison ; une camarade lui offre une tasse d’eau. Contresens/inventions à exclure : Elle mange effectivement son sandwich, accepte l’eau ou renverse sa bouteille. Les formulations équivalentes sont recevables si les mêmes faits et liens restent vérifiables.",
+      "faits_verifies": [
+        "Nina prépare une pomme et un sandwich",
+        "sa bouteille d’eau est restée à la maison",
+        "une camarade lui offre une tasse d’eau"
+      ],
+      "contresens_a_exclure": "Elle mange effectivement son sandwich, accepte l’eau ou renverse sa bouteille",
+      "criteres": [
+        "Repérer et sélectionner au moins trois faits essentiels précisément soutenus par le récit, incluant l’action et la suite/le résultat.",
+        "Réemployer ces faits en anglais en préservant les acteurs, les lieux, les événements et les relations mentionnés; ne pas ajouter de faits non attestés.",
+        "Transformer au moins une relation ou formulation de manière personnelle, sans réciter le texte source mot à mot.",
+        "Présenter un propos compréhensible et organisé pour quelqu’un qui n’a pas lu/entendu le récit, en réponse orale ou écrite.",
+        "Construire la présentation sans aide directive sur la sélection ou les phrases; l’accent natif, la vitesse et l’orthographe mineure non ambiguë ne sont pas cotés."
+      ],
+      "feedback": "Si « drank » apparaît, distinguer « was offered » du fait d’avoir effectivement bu; conserver la simple offre.",
+      "representation": "texte anglais imprimé → présentation personnelle anglaise orale ou écrite",
+      "conditions_passation": "Consigne explicative en français admise, source authentiquement anglophone originale et fixe; lecture personnelle ou lecture à voix haute du même script deux fois au choix du protocole. Production en anglais, orale ou écrite selon modalité décidée avant passation; source consultable pour vérification, aucun corrigé ou sélection proposée pendant l’essai.",
+      "variabilite_permises": [
+        "présentation orale ou écrite en anglais",
+        "temps adapté, transcription pour accessibilité ou lecture identique du script",
+        "réorganisation sémantiquement fidèle",
+        "formulations anglaises équivalentes et intelligibles"
+      ],
+      "limites_variation": "Les personnages, actions, lieux, résultats et textes sources sont fixes. Aucune substitution non approuvée du récit, aucun générateur IA, aucune variation du nombre de faits requis ou assistance directive. Les noms propres peuvent être conservés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-009-q-005",
+      "family_id": "qc-pri-als-009-ev-01",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "difficulte": "intermediaire",
+      "titre": "Le cerf-volant",
+      "consigne": "Raconte en anglais le projet de Ben : construction, essai, difficulté et décision. Retire le détail de couleur si tu veux, mais garde ce qui arrive.",
+      "stimulus": "Ben built a small kite with green paper. He took it to the field with his cousin. The wind was too weak, so the kite did not fly. They decided to try again another day.",
+      "reponse_attendue": "Présentation acceptable (une parmi plusieurs, non à réciter) : « Ben made a paper kite and tried it at the field with his cousin. There was not enough wind for it to fly, so they planned to try later. » Trois faits-source essentiels à conserver : Ben construit un cerf-volant en papier ; il va au terrain avec son cousin ; le vent trop faible empêche le cerf-volant de voler ; ils décident de réessayer un autre jour. Contresens/inventions à exclure : Le cerf-volant vole très haut, tombe dans un arbre ou le cousin le casse. Les formulations équivalentes sont recevables si les mêmes faits et liens restent vérifiables.",
+      "faits_verifies": [
+        "Ben construit un cerf-volant en papier",
+        "il va au terrain avec son cousin",
+        "le vent trop faible empêche le cerf-volant de voler",
+        "ils décident de réessayer un autre jour"
+      ],
+      "contresens_a_exclure": "Le cerf-volant vole très haut, tombe dans un arbre ou le cousin le casse",
+      "criteres": [
+        "Repérer et sélectionner au moins trois faits essentiels précisément soutenus par le récit, incluant l’action et la suite/le résultat.",
+        "Réemployer ces faits en anglais en préservant les acteurs, les lieux, les événements et les relations mentionnés; ne pas ajouter de faits non attestés.",
+        "Transformer au moins une relation ou formulation de manière personnelle, sans réciter le texte source mot à mot.",
+        "Présenter un propos compréhensible et organisé pour quelqu’un qui n’a pas lu/entendu le récit, en réponse orale ou écrite.",
+        "Construire la présentation sans aide directive sur la sélection ou les phrases; l’accent natif, la vitesse et l’orthographe mineure non ambiguë ne sont pas cotés."
+      ],
+      "feedback": "Si le problème est inversé, revenir à « too weak » et reformuler le lien cause-résultat; pas de pénalité pour accent.",
+      "representation": "texte anglais imprimé → présentation personnelle anglaise orale ou écrite",
+      "conditions_passation": "Consigne explicative en français admise, source authentiquement anglophone originale et fixe; lecture personnelle ou lecture à voix haute du même script deux fois au choix du protocole. Production en anglais, orale ou écrite selon modalité décidée avant passation; source consultable pour vérification, aucun corrigé ou sélection proposée pendant l’essai.",
+      "variabilite_permises": [
+        "présentation orale ou écrite en anglais",
+        "temps adapté, transcription pour accessibilité ou lecture identique du script",
+        "réorganisation sémantiquement fidèle",
+        "formulations anglaises équivalentes et intelligibles"
+      ],
+      "limites_variation": "Les personnages, actions, lieux, résultats et textes sources sont fixes. Aucune substitution non approuvée du récit, aucun générateur IA, aucune variation du nombre de faits requis ou assistance directive. Les noms propres peuvent être conservés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-009-q-006",
+      "family_id": "qc-pri-als-009-ev-01",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "difficulte": "intermediaire",
+      "titre": "Un livre rendu",
+      "consigne": "Présente en anglais la petite inquiétude d’Ava, la recherche et la fin de l’histoire, avec un ordre clair et des mots différents.",
+      "stimulus": "On Friday, Ava looked for her library book at home but could not find it. She checked her backpack again and found the book in a side pocket. She returned it to the library that afternoon.",
+      "reponse_attendue": "Présentation acceptable (une parmi plusieurs, non à réciter) : « Ava thought her library book was missing. She found it in a side pocket of her backpack and brought it back to the library later that day. » Trois faits-source essentiels à conserver : Ava ne trouve pas son livre à la maison ; elle le trouve dans une poche latérale de son sac ; elle le rend à la bibliothèque cet après-midi-là. Contresens/inventions à exclure : Un ami trouve le livre, elle paie une amende ou le livre se trouve dans la salle de classe. Les formulations équivalentes sont recevables si les mêmes faits et liens restent vérifiables.",
+      "faits_verifies": [
+        "Ava ne trouve pas son livre à la maison",
+        "elle le trouve dans une poche latérale de son sac",
+        "elle le rend à la bibliothèque cet après-midi-là"
+      ],
+      "contresens_a_exclure": "Un ami trouve le livre, elle paie une amende ou le livre se trouve dans la salle de classe",
+      "criteres": [
+        "Repérer et sélectionner au moins trois faits essentiels précisément soutenus par le récit, incluant l’action et la suite/le résultat.",
+        "Réemployer ces faits en anglais en préservant les acteurs, les lieux, les événements et les relations mentionnés; ne pas ajouter de faits non attestés.",
+        "Transformer au moins une relation ou formulation de manière personnelle, sans réciter le texte source mot à mot.",
+        "Présenter un propos compréhensible et organisé pour quelqu’un qui n’a pas lu/entendu le récit, en réponse orale ou écrite.",
+        "Construire la présentation sans aide directive sur la sélection ou les phrases; l’accent natif, la vitesse et l’orthographe mineure non ambiguë ne sont pas cotés."
+      ],
+      "feedback": "Si le lieu de découverte change, demander de pointer « in a side pocket »; ensuite refaire la présentation avec un nouveau tour de phrase.",
+      "representation": "texte anglais imprimé → présentation personnelle anglaise orale ou écrite",
+      "conditions_passation": "Consigne explicative en français admise, source authentiquement anglophone originale et fixe; lecture personnelle ou lecture à voix haute du même script deux fois au choix du protocole. Production en anglais, orale ou écrite selon modalité décidée avant passation; source consultable pour vérification, aucun corrigé ou sélection proposée pendant l’essai.",
+      "variabilite_permises": [
+        "présentation orale ou écrite en anglais",
+        "temps adapté, transcription pour accessibilité ou lecture identique du script",
+        "réorganisation sémantiquement fidèle",
+        "formulations anglaises équivalentes et intelligibles"
+      ],
+      "limites_variation": "Les personnages, actions, lieux, résultats et textes sources sont fixes. Aucune substitution non approuvée du récit, aucun générateur IA, aucune variation du nombre de faits requis ou assistance directive. Les noms propres peuvent être conservés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-009-q-007",
+      "family_id": "qc-pri-als-009-ev-01",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "difficulte": "transfert",
+      "titre": "Un club d’art change de plan",
+      "consigne": "Tu présentes en anglais le changement de plan d’un club scolaire à une personne arrivée plus tard : explique le projet, l’obstacle et la solution, sans embellissement.",
+      "stimulus": "The school art club planned to paint a mural on Monday. The room was closed for repairs. The students met in the library instead and drew ideas for the mural on paper.",
+      "reponse_attendue": "Présentation acceptable (une parmi plusieurs, non à réciter) : « The school art club wanted to paint a mural, but the room was closed for repairs. They met in the library to draw mural ideas on paper. » Trois faits-source essentiels à conserver : le club veut peindre une fresque lundi ; la salle est fermée pour réparations ; les élèves se réunissent à la bibliothèque pour dessiner des idées sur papier. Contresens/inventions à exclure : La fresque a été peinte dans la bibliothèque ou l’école annule le projet. Les formulations équivalentes sont recevables si les mêmes faits et liens restent vérifiables.",
+      "faits_verifies": [
+        "le club veut peindre une fresque lundi",
+        "la salle est fermée pour réparations",
+        "les élèves se réunissent à la bibliothèque pour dessiner des idées sur papier"
+      ],
+      "contresens_a_exclure": "La fresque a été peinte dans la bibliothèque ou l’école annule le projet",
+      "criteres": [
+        "Repérer et sélectionner au moins trois faits essentiels précisément soutenus par le récit, incluant l’action et la suite/le résultat.",
+        "Réemployer ces faits en anglais en préservant les acteurs, les lieux, les événements et les relations mentionnés; ne pas ajouter de faits non attestés.",
+        "Transformer au moins une relation ou formulation de manière personnelle, sans réciter le texte source mot à mot.",
+        "Présenter un propos compréhensible et organisé pour quelqu’un qui n’a pas lu/entendu le récit, en réponse orale ou écrite.",
+        "Construire la présentation sans aide directive sur la sélection ou les phrases; l’accent natif, la vitesse et l’orthographe mineure non ambiguë ne sont pas cotés."
+      ],
+      "feedback": "Si « painted the mural » est affirmé, faire confronter à « drew ideas »; la préparation n’est pas la réalisation.",
+      "representation": "texte anglais imprimé → présentation personnelle anglaise orale ou écrite",
+      "conditions_passation": "Consigne explicative en français admise, source authentiquement anglophone originale et fixe; lecture personnelle ou lecture à voix haute du même script deux fois au choix du protocole. Production en anglais, orale ou écrite selon modalité décidée avant passation; source consultable pour vérification, aucun corrigé ou sélection proposée pendant l’essai.",
+      "variabilite_permises": [
+        "présentation orale ou écrite en anglais",
+        "temps adapté, transcription pour accessibilité ou lecture identique du script",
+        "réorganisation sémantiquement fidèle",
+        "formulations anglaises équivalentes et intelligibles"
+      ],
+      "limites_variation": "Les personnages, actions, lieux, résultats et textes sources sont fixes. Aucune substitution non approuvée du récit, aucun générateur IA, aucune variation du nombre de faits requis ou assistance directive. Les noms propres peuvent être conservés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-009-q-008",
+      "family_id": "qc-pri-als-009-ev-01",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "difficulte": "transfert",
+      "titre": "Le relais de Kim",
+      "consigne": "Prépare en anglais un court compte rendu oral ou écrit de la course pour une radio scolaire; garde l’événement, la réaction de Kim et la conclusion exacte.",
+      "stimulus": "During a school relay race, Kim dropped the baton. She picked it up and kept running. Her team finished the race and cheered for one another, even though they did not win.",
+      "reponse_attendue": "Présentation acceptable (une parmi plusieurs, non à réciter) : « Kim dropped the baton during a relay race, but she picked it up and kept running. Her team finished and cheered, although they did not win. » Trois faits-source essentiels à conserver : Kim échappe le témoin pendant une course de relais ; elle le ramasse et continue de courir ; son équipe termine la course et s’encourage ; l’équipe ne gagne pas. Contresens/inventions à exclure : L’équipe gagne la course ou Kim abandonne après la chute du témoin. Les formulations équivalentes sont recevables si les mêmes faits et liens restent vérifiables.",
+      "faits_verifies": [
+        "Kim échappe le témoin pendant une course de relais",
+        "elle le ramasse et continue de courir",
+        "son équipe termine la course et s’encourage",
+        "l’équipe ne gagne pas"
+      ],
+      "contresens_a_exclure": "L’équipe gagne la course ou Kim abandonne après la chute du témoin",
+      "criteres": [
+        "Repérer et sélectionner au moins trois faits essentiels précisément soutenus par le récit, incluant l’action et la suite/le résultat.",
+        "Réemployer ces faits en anglais en préservant les acteurs, les lieux, les événements et les relations mentionnés; ne pas ajouter de faits non attestés.",
+        "Transformer au moins une relation ou formulation de manière personnelle, sans réciter le texte source mot à mot.",
+        "Présenter un propos compréhensible et organisé pour quelqu’un qui n’a pas lu/entendu le récit, en réponse orale ou écrite.",
+        "Construire la présentation sans aide directive sur la sélection ou les phrases; l’accent natif, la vitesse et l’orthographe mineure non ambiguë ne sont pas cotés."
+      ],
+      "feedback": "Si la victoire est annoncée, demander de retrouver « they did not win » et de corriger la conclusion.",
+      "representation": "texte anglais imprimé → présentation personnelle anglaise orale ou écrite",
+      "conditions_passation": "Consigne explicative en français admise, source authentiquement anglophone originale et fixe; lecture personnelle ou lecture à voix haute du même script deux fois au choix du protocole. Production en anglais, orale ou écrite selon modalité décidée avant passation; source consultable pour vérification, aucun corrigé ou sélection proposée pendant l’essai.",
+      "variabilite_permises": [
+        "présentation orale ou écrite en anglais",
+        "temps adapté, transcription pour accessibilité ou lecture identique du script",
+        "réorganisation sémantiquement fidèle",
+        "formulations anglaises équivalentes et intelligibles"
+      ],
+      "limites_variation": "Les personnages, actions, lieux, résultats et textes sources sont fixes. Aucune substitution non approuvée du récit, aucun générateur IA, aucune variation du nombre de faits requis ou assistance directive. Les noms propres peuvent être conservés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-als-009-q-009",
+      "family_id": "qc-pri-als-009-ev-01",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "difficulte": "transfert",
+      "titre": "Preuve A — Jardin communautaire lu",
+      "consigne": "PREUVE AUTONOME A — Lis ce récit de jardin communautaire en anglais, puis prépare une présentation personnelle en anglais (orale ou écrite) pour quelqu’un qui ne l’a pas lu. Sélectionne au moins trois faits importants qui comprennent une action et son résultat; utilise ton organisation et tes mots sans inventer.",
+      "stimulus": "On Saturday, Priya and her neighbour visited an empty lot beside their apartment building. They planted four tomato seedlings in wooden boxes. After a hot afternoon, the soil felt dry, so Priya carried water from a tap. They placed a sign asking visitors to use the path between the boxes. By evening, the seedlings were watered and the path was clear.",
+      "reponse_attendue": "Présentation acceptable (une parmi plusieurs, non à réciter) : « Today I will tell you about Priya and her neighbour. They planted tomato seedlings in boxes near their apartment building. When the soil was dry, Priya brought water. They put up a sign asking people to use the path, and by evening the plants were watered and the path was clear. » Trois faits-source essentiels à conserver : Priya et sa voisine/son voisin visitent un terrain vacant près de leur immeuble ; ils plantent quatre plants de tomates dans des caisses en bois ; le sol devient sec après une après-midi chaude et Priya apporte de l’eau du robinet ; ils installent un panneau demandant d’emprunter le passage entre les caisses ; au soir les plants sont arrosés et le passage est dégagé. Contresens/inventions à exclure : Le texte ne dit pas que des tomates ont été récoltées, qu’il a plu, que le terrain appartient à Priya ou que le passage était dangereux. Les formulations équivalentes sont recevables si les mêmes faits et liens restent vérifiables.",
+      "faits_verifies": [
+        "Priya et sa voisine/son voisin visitent un terrain vacant près de leur immeuble",
+        "ils plantent quatre plants de tomates dans des caisses en bois",
+        "le sol devient sec après une après-midi chaude et Priya apporte de l’eau du robinet",
+        "ils installent un panneau demandant d’emprunter le passage entre les caisses",
+        "au soir les plants sont arrosés et le passage est dégagé"
+      ],
+      "contresens_a_exclure": "Le texte ne dit pas que des tomates ont été récoltées, qu’il a plu, que le terrain appartient à Priya ou que le passage était dangereux",
+      "criteres": [
+        "Repérer et sélectionner au moins trois faits essentiels précisément soutenus par le récit, incluant l’action et la suite/le résultat.",
+        "Réemployer ces faits en anglais en préservant les acteurs, les lieux, les événements et les relations mentionnés; ne pas ajouter de faits non attestés.",
+        "Transformer au moins une relation ou formulation de manière personnelle, sans réciter le texte source mot à mot.",
+        "Présenter un propos compréhensible et organisé pour quelqu’un qui n’a pas lu/entendu le récit, en réponse orale ou écrite.",
+        "Construire la présentation sans aide directive sur la sélection ou les phrases; l’accent natif, la vitesse et l’orthographe mineure non ambiguë ne sont pas cotés."
+      ],
+      "feedback": "Si une récolte est inventée, rappeler après l’épreuve le contraste entre planted et harvested; si le résultat est omis, entraîner la structure action → conséquence sur une autre source.",
+      "representation": "récit imprimé fixe en anglais → présentation personnelle anglaise orale ou écrite; preuve A source lue",
+      "conditions_passation": "Preuve autonome : texte-source verrouillé et consigne seulement, préparation sans aide au choix des faits; 2 lectures identiques possibles lorsque source entendue. Mode oral/écrit fixé avec l’apprenant avant l’épreuve. Aucun exemple ni correction pendant la production. Documenter les faits effectivement retenus et leur reformulation; ne pas diffuser d’enregistrement personnel.",
+      "variabilite_permises": [
+        "présentation orale ou écrite en anglais",
+        "temps adapté, transcription pour accessibilité ou lecture identique du script",
+        "réorganisation sémantiquement fidèle",
+        "formulations anglaises équivalentes et intelligibles"
+      ],
+      "limites_variation": "Les personnages, actions, lieux, résultats et textes sources sont fixes. Aucune substitution non approuvée du récit, aucun générateur IA, aucune variation du nombre de faits requis ou assistance directive. Les noms propres peuvent être conservés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "manifestation_maitrise": "A : récit communautaire lu, composition propre et autonome; évaluée séparément de B."
+    },
+    {
+      "item_id": "qc-pri-als-009-q-010",
+      "family_id": "qc-pri-als-009-ev-01",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "difficulte": "transfert",
+      "titre": "Preuve B — Trajet vers le centre des sciences entendu",
+      "consigne": "PREUVE AUTONOME B — Écoute deux fois ce récit anglais lu exactement comme écrit (ou consulte sa transcription si c’est ton aménagement prévu). Fais ensuite une NOUVELLE présentation personnelle en anglais pour une classe qui ne connaît pas l’histoire : au moins trois faits exacts, un changement de parcours et le résultat, reformulés avec tes mots.",
+      "stimulus": "On Wednesday, Alex and his class took a bus to the science centre. Halfway there, the bus stopped because a road was closed. The driver followed a different street. They reached the centre ten minutes late, but the group still saw the robot exhibit. Alex wrote three notes about the exhibit for a class display.",
+      "reponse_attendue": "Présentation acceptable (une parmi plusieurs, non à réciter) : « Here is a story about Alex’s class trip. Their bus had to take another street because a road was closed. They arrived ten minutes late, but they still visited the robot exhibit. Alex wrote notes for a class display. » Trois faits-source essentiels à conserver : Alex et sa classe prennent l’autobus pour aller au centre des sciences mercredi ; une route fermée fait arrêter l’autobus en chemin ; le conducteur prend une autre rue ; le groupe arrive avec dix minutes de retard mais voit l’exposition de robots ; Alex écrit trois notes sur l’exposition pour une présentation en classe. Contresens/inventions à exclure : Le texte ne dit pas que le groupe a manqué l’exposition, que l’autobus était en panne ni qu’Alex a construit un robot. Les formulations équivalentes sont recevables si les mêmes faits et liens restent vérifiables.",
+      "faits_verifies": [
+        "Alex et sa classe prennent l’autobus pour aller au centre des sciences mercredi",
+        "une route fermée fait arrêter l’autobus en chemin",
+        "le conducteur prend une autre rue",
+        "le groupe arrive avec dix minutes de retard mais voit l’exposition de robots",
+        "Alex écrit trois notes sur l’exposition pour une présentation en classe"
+      ],
+      "contresens_a_exclure": "Le texte ne dit pas que le groupe a manqué l’exposition, que l’autobus était en panne ni qu’Alex a construit un robot",
+      "criteres": [
+        "Repérer et sélectionner au moins trois faits essentiels précisément soutenus par le récit, incluant l’action et la suite/le résultat.",
+        "Réemployer ces faits en anglais en préservant les acteurs, les lieux, les événements et les relations mentionnés; ne pas ajouter de faits non attestés.",
+        "Transformer au moins une relation ou formulation de manière personnelle, sans réciter le texte source mot à mot.",
+        "Présenter un propos compréhensible et organisé pour quelqu’un qui n’a pas lu/entendu le récit, en réponse orale ou écrite.",
+        "Construire la présentation sans aide directive sur la sélection ou les phrases; l’accent natif, la vitesse et l’orthographe mineure non ambiguë ne sont pas cotés."
+      ],
+      "feedback": "Si l’élève affirme avoir raté l’exposition, demander après la passation de revoir « still saw the robot exhibit »; si la réorganisation est copiée mot à mot, pratiquer sur un troisième récit vérifié.",
+      "representation": "script original fixe anglais lu deux fois → présentation personnelle anglaise orale ou écrite; transcription d’accès permise; preuve B source entendue",
+      "conditions_passation": "Preuve autonome : texte-source verrouillé et consigne seulement, préparation sans aide au choix des faits; 2 lectures identiques possibles lorsque source entendue. Mode oral/écrit fixé avec l’apprenant avant l’épreuve. Aucun exemple ni correction pendant la production. Documenter les faits effectivement retenus et leur reformulation; ne pas diffuser d’enregistrement personnel.",
+      "variabilite_permises": [
+        "présentation orale ou écrite en anglais",
+        "temps adapté, transcription pour accessibilité ou lecture identique du script",
+        "réorganisation sémantiquement fidèle",
+        "formulations anglaises équivalentes et intelligibles"
+      ],
+      "limites_variation": "Les personnages, actions, lieux, résultats et textes sources sont fixes. Aucune substitution non approuvée du récit, aucun générateur IA, aucune variation du nombre de faits requis ou assistance directive. Les noms propres peuvent être conservés.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "manifestation_maitrise": "B : excursion scolaire entendue, contenu non identique à A; autonome sans indices sur les faits."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-021",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Rédiger des phrases reliées en paragraphes porteurs d’une idée centrale.",
+  "concepts": [
+    "unité du paragraphe",
+    "enchaînement",
+    "formulation"
+  ],
+  "preuve_attendue": "Rédiger deux paragraphes complets à partir d’un plan.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-015"
+  ],
+  "ordre_conseille": [
+    "qc-pri-fr-019"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-021-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Rédiger deux paragraphes complets à partir d’un plan.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Seuls les dix plans/scénarios fixes et leurs rubriques de la banque; aucune substitution libre au moment de l’épreuve.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "redige_a_revoir",
+      "kristal_id": "qc-pri-fr-021",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Rédiger deux paragraphes complets à partir d’un plan.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "plan textuel en deux rubriques",
+        "texte en deux paragraphes",
+        "justification brève d’un choix de liaison"
+      ],
+      "variables": {
+        "mode": "banque_fixe",
+        "nombre_items": 10,
+        "nombre_preuves_maitrise": 2,
+        "nombre_paragraphes_par_preuve": 2,
+        "support": "plans différents dont les faits sont explicités dans les stimuli",
+        "generateur_libre": false
+      },
+      "contraintes": [
+        "conserver chaque plan et son corrigé ensemble",
+        "chaque preuve: deux paragraphes distincts à partir d’un plan",
+        "une idée principale et deux phrases de détail pertinentes par paragraphe",
+        "accepter les variantes de rédaction dont les critères sont observables",
+        "aucun récit personnel obligatoire, aucune correction automatique libre considérée fiable",
+        "deux contextes indépendants et autonomie documentée"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "niveaux": "0 / 1 / 2 par dimension",
+        "dimensions": [
+          "complétude_plan",
+          "unité_des_paragraphes",
+          "enchaînement",
+          "formulation_et_autonomie"
+        ],
+        "decision": "deux preuves distinctes; dimensions essentielles complètes sur chacune, non moyenne unique"
+      },
+      "source": [
+        "workspace maître v1.2, authoring natif et gouvernance",
+        "sources/REFERENCES_CONTENU.md",
+        "contenu et banque originaux qc-pri-fr-021"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

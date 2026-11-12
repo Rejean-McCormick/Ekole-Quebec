@@ -1,0 +1,644 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-028",
+  "family_id": "qc-pri-ma-028-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-028-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-028-ev-01",
+      "mode": "fixe",
+      "consigne": "Compte les cases carrées entièrement occupées et donne l’aire en unités carrées; explique comment tu as compté.",
+      "stimulus": "Grille :\n```text\n###\n###\n```\nChaque case vaut 1 unité carrée non métrée.",
+      "reponse_attendue": "3 + 3 = 6 cases, donc 6 u². Vérification : rectangle de 2 rangées × 3 colonnes = 6.",
+      "criteres": [
+        "Exactement six # dénombrés.",
+        "Réponse 6 u², et non 6 cm².",
+        "Démarche par deux rangées ou multiplication."
+      ],
+      "feedback": "Si la réponse est 5, recompter la deuxième rangée; si elle est en cm², constater que le côté n’est pas indiqué.",
+      "difficulte": "initial",
+      "representation": "grille régulière rectangulaire et dénombrement",
+      "variations_permises": "Présentation visuelle, tactile ou orale strictement équivalente; aucune variation numérique ou de l’unité de l’item fixe.",
+      "contraintes_accessibilite": "Lecture ligne par ligne, police monospacée ou jetons tactiles, réponse dictée ou écrite; aucune aide sur le comptage pendant l’épreuve.",
+      "limites_variation": "Grille #/. et dimensions sont verrouillées; tout nouveau cas exige un nouveau corrigé vérifié.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-028-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-028-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère les cases vides puis mesure l’aire de la partie occupée en unités carrées.",
+      "stimulus": "Grille :\n```text\n##.#\n####\n.###\n```\nToutes les cases pleines valent 1 u².",
+      "reponse_attendue": "Rangées : 3 + 4 + 3 = 10 u². Contrôle : boîte 4×3=12 cases, moins deux cases vides = 10 u².",
+      "criteres": [
+        "Ne compter que les dix #.",
+        "Aire exacte = 10 u².",
+        "Vérification par complément 12−2=10."
+      ],
+      "feedback": "Si 12, ne pas compter les deux points; si 11, pointer la case vide de la première et celle de la dernière rangée.",
+      "difficulte": "initial",
+      "representation": "grille avec deux vides non alignés",
+      "variations_permises": "Présentation visuelle, tactile ou orale strictement équivalente; aucune variation numérique ou de l’unité de l’item fixe.",
+      "contraintes_accessibilite": "Lecture ligne par ligne, police monospacée ou jetons tactiles, réponse dictée ou écrite; aucune aide sur le comptage pendant l’épreuve.",
+      "limites_variation": "Grille #/. et dimensions sont verrouillées; tout nouveau cas exige un nouveau corrigé vérifié.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-028-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-028-ev-01",
+      "mode": "fixe",
+      "consigne": "Calcule en cm² l’aire de cette surface rectangulaire; justifie la mesure d’une case et le calcul global.",
+      "stimulus": "Grille :\n```text\n####\n####\n```\nLe côté de chaque carré vaut exactement 1 cm.",
+      "reponse_attendue": "2×4=8 cases; 1 cm×1 cm=1 cm² par case; aire totale = 8×1 = 8 cm².",
+      "criteres": [
+        "Huit cases identifiées.",
+        "L’aire d’une case est explicitement 1 cm².",
+        "Résultat et unité exacts : 8 cm²."
+      ],
+      "feedback": "Si 8 cm, rappeler que l’aire s’écrit en centimètres carrés; si 6, constater que l’addition 4+2 porte sur les longueurs des côtés, non sur les 8 cases occupées.",
+      "difficulte": "initial",
+      "representation": "grille, conversion unité carrée métrique",
+      "variations_permises": "Présentation visuelle, tactile ou orale strictement équivalente; aucune variation numérique ou de l’unité de l’item fixe.",
+      "contraintes_accessibilite": "Lecture ligne par ligne, police monospacée ou jetons tactiles, réponse dictée ou écrite; aucune aide sur le comptage pendant l’épreuve.",
+      "limites_variation": "Grille #/. et dimensions sont verrouillées; tout nouveau cas exige un nouveau corrigé vérifié.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-028-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-028-ev-01",
+      "mode": "parametrique",
+      "consigne": "Détermine l’aire du rectangle de cases carrées de côté 1 cm; explique la multiplication et vérifie par addition.",
+      "stimulus": "Feuille rectangulaire. Chaque case a un côté de 1 cm; son aire vaut 1 cm².\n\n```text\n####\n####\n####\n####\n####\n```\n\nLégende : # case pleine; . case vide. Toutes les rangées ont la même largeur de grille.",
+      "reponse_attendue": "4+4+4+4+4 = 20 cases pleines. Aire = 20 × 1 cm² = 20 cm². Vérification indépendante : rectangle englobant 4 × 5 = 20 cases moins 0 vides = 20 cases; multiplier ensuite par 1 cm² par case. L’explication doit préciser pourquoi les cases vides ne comptent pas. Chaque carré unité est de 1 cm²; 20 cm² est aussi le total des cases.",
+      "criteres": [
+        "L’élève identifie exactement toutes les cases pleines et seulement elles.",
+        "L’aire numérique donnée est exacte, avec une unité carrée appropriée et justifiée.",
+        "La méthode est explicitée (somme des rangées ou morceaux disjoints) et permet de retrouver le nombre.",
+        "Une vérification indépendante (rectangle moins vides ou autre regroupement sans recouvrement) est montrée."
+      ],
+      "feedback": "Si l’aire ne correspond pas : reprendre chaque rangée, pointer les cases vides puis vérifier W×H−points. Si l’unité est fausse, distinguer le côté de la case et l’aire de la case. Donner un nouveau cas prévalidé après enseignement, pas une réponse soufflée pendant la maîtrise.",
+      "difficulte": "intermediaire",
+      "representation": "grilles rectangulaires bornées, rangées et notation cm²",
+      "variations_permises": "Uniquement les instances explicites du catalogue; l’index calculé avec la graine fixe détermine le cas affiché. Modalités tactile/orale/grands caractères adaptées, sans changer la géométrie ni la mesure.",
+      "contraintes_accessibilite": "La grille et les dimensions doivent être accessibles visuellement, oralement ou tactilement; un scribe ne choisit ni calcul ni réponse. Temps adapté, sans indices directifs.",
+      "limites_variation": "Aucune nouvelle valeur hors de la table, ni grille générée librement; même légende, même échelle et même barème. Les tableaux de cas et leurs corrigés sont testés.",
+      "preuve_maitrise": null,
+      "seed": 2028,
+      "parametres": {
+        "mode_generation": "indexation_dans_table_finie_validee",
+        "algorithme_selection": "indice = seed % len(instances); indices dans [0, N−1], sans PRNG, aucun tirage IA",
+        "seed_stable": 2028,
+        "indice_selectionne": 0,
+        "N": 3,
+        "variables": {
+          "largeurs_rangees": "liste d’entiers strictement positifs; 2 à 5 rangées et 1 à 6 colonnes occupées par rangée",
+          "cote_case_cm": 1,
+          "grille": "chaque rangée contient largeur # suivie de points vides jusqu’à la largeur maximale"
+        },
+        "domaines": {
+          "nombre_rangees": [
+            2,
+            5
+          ],
+          "largeur_pleine_par_rangee": [
+            1,
+            6
+          ],
+          "cote_case_cm_autorise": [
+            1
+          ],
+          "indices_cas": [
+            0,
+            1,
+            2
+          ]
+        },
+        "contraintes": [
+          "une grille ne peut contenir que # et .",
+          "les points sont des cases vides non comptées",
+          "toutes les cases sont carrées et identiques",
+          "aucune aire négative ni fraction de case",
+          "aucun cas hors table sans révision humaine"
+        ],
+        "formule_solution": "S = somme(largeurs_rangees) ; A = S × (cote_case_cm)^2 cm² si cote connu, sinon S u²; vérification indépendante S = H×W − nombre_points",
+        "algorithme_reproductible": "Lire la liste indexée, générer chaque rangée #*largeur + .*(max_largeur−largeur), additionner les largeurs, calculer W×H−points, vérifier les deux nombres identiques; aire = nombre_cases × aire_case.",
+        "instances": [
+          {
+            "indice": 0,
+            "largeurs_rangees": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "grille": "####\n####\n####\n####\n####",
+            "nombre_cases": 20,
+            "aire_case": 1,
+            "unite": "cm²",
+            "aire_attendue": 20,
+            "controle_independant": {
+              "boite_cases": 20,
+              "vides": 0,
+              "cases_pleines": 20
+            }
+          },
+          {
+            "indice": 1,
+            "largeurs_rangees": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "grille": "###\n###\n###\n###",
+            "nombre_cases": 12,
+            "aire_case": 1,
+            "unite": "cm²",
+            "aire_attendue": 12,
+            "controle_independant": {
+              "boite_cases": 12,
+              "vides": 0,
+              "cases_pleines": 12
+            }
+          },
+          {
+            "indice": 2,
+            "largeurs_rangees": [
+              5,
+              5,
+              5
+            ],
+            "grille": "#####\n#####\n#####",
+            "nombre_cases": 15,
+            "aire_case": 1,
+            "unite": "cm²",
+            "aire_attendue": 15,
+            "controle_independant": {
+              "boite_cases": 15,
+              "vides": 0,
+              "cases_pleines": 15
+            }
+          }
+        ],
+        "verification_exemples": "Les trois instances et le cas retenu doivent tous être recalculés par le validateur externe au présent JSON."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-028-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-028-ev-01",
+      "mode": "fixe",
+      "consigne": "Trouve l’aire de cette figure en L; explique comment tu évites de compter deux fois la case du coin.",
+      "stimulus": "Grille :\n```text\n###.\n#...\n#...\n```\nL’aire d’une case est 1 u².",
+      "reponse_attendue": "3+1+1=5 u². Autre preuve : barre de 3 cases + 2 cases sous le coin = 5; ou 3+3−1 = 5.",
+      "criteres": [
+        "Réponse exacte 5 u².",
+        "Coin compté une seule fois.",
+        "Justification par rangées ou découpage sans chevauchement."
+      ],
+      "feedback": "Si 6, le coin a été compté deux fois; découper en barre supérieure et prolongement vertical inférieur.",
+      "difficulte": "intermediaire",
+      "representation": "grille composée non rectangulaire, décomposition",
+      "variations_permises": "Présentation visuelle, tactile ou orale strictement équivalente; aucune variation numérique ou de l’unité de l’item fixe.",
+      "contraintes_accessibilite": "Lecture ligne par ligne, police monospacée ou jetons tactiles, réponse dictée ou écrite; aucune aide sur le comptage pendant l’épreuve.",
+      "limites_variation": "Grille #/. et dimensions sont verrouillées; tout nouveau cas exige un nouveau corrigé vérifié.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-028-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-028-ev-01",
+      "mode": "fixe",
+      "consigne": "Mesure l’aire du plateau en tenant compte des cases vides, puis vérifie avec une deuxième stratégie.",
+      "stimulus": "Grille :\n```text\n####\n##..\n##..\n```\nLe côté d’une case n’est pas précisé.",
+      "reponse_attendue": "4+2+2=8 u². Contrôle : rectangle englobant 4×3=12 cases, moins quatre vides = 8 u².",
+      "criteres": [
+        "Aire exacte 8 u².",
+        "Seules les cases occupées sont dénombrées.",
+        "Deux stratégies valides et cohérentes."
+      ],
+      "feedback": "Si 12, éliminer les quatre points; si la réponse est en cm², supprimer l’échelle non donnée.",
+      "difficulte": "intermediaire",
+      "representation": "grille avec complément rectangulaire",
+      "variations_permises": "Présentation visuelle, tactile ou orale strictement équivalente; aucune variation numérique ou de l’unité de l’item fixe.",
+      "contraintes_accessibilite": "Lecture ligne par ligne, police monospacée ou jetons tactiles, réponse dictée ou écrite; aucune aide sur le comptage pendant l’épreuve.",
+      "limites_variation": "Grille #/. et dimensions sont verrouillées; tout nouveau cas exige un nouveau corrigé vérifié.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-028-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-028-ev-01",
+      "mode": "parametrique",
+      "consigne": "Détermine l’aire totale de la figure composée; sépare mentalement en bandes disjointes et démontre ton calcul.",
+      "stimulus": "Planche de fabrication en bandes. Chaque case représente 1 unité carrée non métrée; aucun côté réel n’est indiqué.\n\n```text\n###\n###\n###\n#..\n```\n\nLégende : # case pleine; . case vide. Toutes les rangées ont la même largeur de grille.",
+      "reponse_attendue": "3+3+3+1 = 10 cases pleines. Aire = 10 × 1 u² = 10 u². Vérification indépendante : rectangle englobant 3 × 4 = 12 cases moins 2 vides = 10 cases; multiplier ensuite par 1 u² par case. L’explication doit préciser pourquoi les cases vides ne comptent pas.",
+      "criteres": [
+        "L’élève identifie exactement toutes les cases pleines et seulement elles.",
+        "L’aire numérique donnée est exacte, avec une unité carrée appropriée et justifiée.",
+        "La méthode est explicitée (somme des rangées ou morceaux disjoints) et permet de retrouver le nombre.",
+        "Une vérification indépendante (rectangle moins vides ou autre regroupement sans recouvrement) est montrée."
+      ],
+      "feedback": "Si l’aire ne correspond pas : reprendre chaque rangée, pointer les cases vides puis vérifier W×H−points. Si l’unité est fausse, distinguer le côté de la case et l’aire de la case. Donner un nouveau cas prévalidé après enseignement, pas une réponse soufflée pendant la maîtrise.",
+      "difficulte": "intermediaire",
+      "representation": "composite par bandes de largeurs entières, sans échelle métrique",
+      "variations_permises": "Uniquement les instances explicites du catalogue; l’index calculé avec la graine fixe détermine le cas affiché. Modalités tactile/orale/grands caractères adaptées, sans changer la géométrie ni la mesure.",
+      "contraintes_accessibilite": "La grille et les dimensions doivent être accessibles visuellement, oralement ou tactilement; un scribe ne choisit ni calcul ni réponse. Temps adapté, sans indices directifs.",
+      "limites_variation": "Aucune nouvelle valeur hors de la table, ni grille générée librement; même légende, même échelle et même barème. Les tableaux de cas et leurs corrigés sont testés.",
+      "preuve_maitrise": null,
+      "seed": 2030,
+      "parametres": {
+        "mode_generation": "indexation_dans_table_finie_validee",
+        "algorithme_selection": "indice = seed % len(instances); indices dans [0, N−1], sans PRNG, aucun tirage IA",
+        "seed_stable": 2030,
+        "indice_selectionne": 2,
+        "N": 3,
+        "variables": {
+          "largeurs_rangees": "liste d’entiers strictement positifs; 2 à 5 rangées et 1 à 6 colonnes occupées par rangée",
+          "cote_case_cm": null,
+          "grille": "chaque rangée contient largeur # suivie de points vides jusqu’à la largeur maximale"
+        },
+        "domaines": {
+          "nombre_rangees": [
+            2,
+            5
+          ],
+          "largeur_pleine_par_rangee": [
+            1,
+            6
+          ],
+          "cote_case_cm_autorise": [
+            "unite_abstraite"
+          ],
+          "indices_cas": [
+            0,
+            1,
+            2
+          ]
+        },
+        "contraintes": [
+          "une grille ne peut contenir que # et .",
+          "les points sont des cases vides non comptées",
+          "toutes les cases sont carrées et identiques",
+          "aucune aire négative ni fraction de case",
+          "aucun cas hors table sans révision humaine"
+        ],
+        "formule_solution": "S = somme(largeurs_rangees) ; A = S × (cote_case_cm)^2 cm² si cote connu, sinon S u²; vérification indépendante S = H×W − nombre_points",
+        "algorithme_reproductible": "Lire la liste indexée, générer chaque rangée #*largeur + .*(max_largeur−largeur), additionner les largeurs, calculer W×H−points, vérifier les deux nombres identiques; aire = nombre_cases × aire_case.",
+        "instances": [
+          {
+            "indice": 0,
+            "largeurs_rangees": [
+              4,
+              4,
+              2
+            ],
+            "grille": "####\n####\n##..",
+            "nombre_cases": 10,
+            "aire_case": 1,
+            "unite": "u²",
+            "aire_attendue": 10,
+            "controle_independant": {
+              "boite_cases": 12,
+              "vides": 2,
+              "cases_pleines": 10
+            }
+          },
+          {
+            "indice": 1,
+            "largeurs_rangees": [
+              5,
+              5,
+              3
+            ],
+            "grille": "#####\n#####\n###..",
+            "nombre_cases": 13,
+            "aire_case": 1,
+            "unite": "u²",
+            "aire_attendue": 13,
+            "controle_independant": {
+              "boite_cases": 15,
+              "vides": 2,
+              "cases_pleines": 13
+            }
+          },
+          {
+            "indice": 2,
+            "largeurs_rangees": [
+              3,
+              3,
+              3,
+              1
+            ],
+            "grille": "###\n###\n###\n#..",
+            "nombre_cases": 10,
+            "aire_case": 1,
+            "unite": "u²",
+            "aire_attendue": 10,
+            "controle_independant": {
+              "boite_cases": 12,
+              "vides": 2,
+              "cases_pleines": 10
+            }
+          }
+        ],
+        "verification_exemples": "Les trois instances et le cas retenu doivent tous être recalculés par le validateur externe au présent JSON."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-028-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-028-ev-01",
+      "mode": "fixe",
+      "consigne": "Calcule en cm² la surface occupée, puis compare avec une réponse qui compterait chaque case comme 1 cm².",
+      "stimulus": "Grille :\n```text\n###\n###\n```\nChaque case carrée a un côté de 2 cm, et non de 1 cm.",
+      "reponse_attendue": "Six cases de côté 2 cm; une case vaut 2×2=4 cm²; total 6×4=24 cm². Le faux résultat 6 cm² confond nombre de cases et aire physique.",
+      "criteres": [
+        "Six cases identifiées et échelle de 2 cm lue correctement.",
+        "Aire par case 4 cm².",
+        "Résultat 24 cm² justifié."
+      ],
+      "feedback": "Si 12, le côté de 2 cm a été utilisé comme une aire; représenter la case par un carré 2×2 de petits cm².",
+      "difficulte": "transfert",
+      "representation": "changement d’échelle et unité cm²",
+      "variations_permises": "Présentation visuelle, tactile ou orale strictement équivalente; aucune variation numérique ou de l’unité de l’item fixe.",
+      "contraintes_accessibilite": "Lecture ligne par ligne, police monospacée ou jetons tactiles, réponse dictée ou écrite; aucune aide sur le comptage pendant l’épreuve.",
+      "limites_variation": "Grille #/. et dimensions sont verrouillées; tout nouveau cas exige un nouveau corrigé vérifié.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-028-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-028-ev-01",
+      "mode": "parametrique",
+      "consigne": "Sans indice : une affiche pour une exposition est entièrement recouverte de cases carrées. Calcule son aire en cm², explique par rangées ET par multiplication, puis vérifie le résultat. C’est la première preuve autonome de maîtrise.",
+      "stimulus": "Épreuve A — panneau d’exposition. Chaque case a un côté de 1 cm; son aire vaut 1 cm².\n\n```text\n###\n###\n###\n###\n###\n```\n\nLégende : # case pleine; . case vide. Toutes les rangées ont la même largeur de grille.",
+      "reponse_attendue": "3+3+3+3+3 = 15 cases pleines. Aire = 15 × 1 cm² = 15 cm². Vérification indépendante : rectangle englobant 3 × 5 = 15 cases moins 0 vides = 15 cases; multiplier ensuite par 1 cm² par case. L’explication doit préciser pourquoi les cases vides ne comptent pas. Chaque carré unité est de 1 cm²; 15 cm² est aussi le total des cases.",
+      "criteres": [
+        "L’élève identifie exactement toutes les cases pleines et seulement elles.",
+        "L’aire numérique donnée est exacte, avec une unité carrée appropriée et justifiée.",
+        "La méthode est explicitée (somme des rangées ou morceaux disjoints) et permet de retrouver le nombre.",
+        "Une vérification indépendante (rectangle moins vides ou autre regroupement sans recouvrement) est montrée.",
+        "Deux passages de résolution sans indication pendant l’épreuve; autonomie et explication de la méthode observables indépendamment du contexte d’entraînement."
+      ],
+      "feedback": "Si l’aire ne correspond pas : reprendre chaque rangée, pointer les cases vides puis vérifier W×H−points. Si l’unité est fausse, distinguer le côté de la case et l’aire de la case. Donner un nouveau cas prévalidé après enseignement, pas une réponse soufflée pendant la maîtrise.",
+      "difficulte": "transfert",
+      "representation": "preuve A : quadrillage rectangulaire métrique d’une affiche, raisonnement et contrôle",
+      "variations_permises": "Uniquement les instances explicites du catalogue; l’index calculé avec la graine fixe détermine le cas affiché. Modalités tactile/orale/grands caractères adaptées, sans changer la géométrie ni la mesure.",
+      "contraintes_accessibilite": "La grille et les dimensions doivent être accessibles visuellement, oralement ou tactilement; un scribe ne choisit ni calcul ni réponse. Temps adapté, sans indices directifs.",
+      "limites_variation": "Aucune nouvelle valeur hors de la table, ni grille générée librement; même légende, même échelle et même barème. Les tableaux de cas et leurs corrigés sont testés.",
+      "preuve_maitrise": "Épreuve A — panneau d’exposition — épreuve autonome dans un contexte inédit, différente de l’autre épreuve; calcul + unité + justification.",
+      "seed": 2027,
+      "parametres": {
+        "mode_generation": "indexation_dans_table_finie_validee",
+        "algorithme_selection": "indice = seed % len(instances); indices dans [0, N−1], sans PRNG, aucun tirage IA",
+        "seed_stable": 2027,
+        "indice_selectionne": 2,
+        "N": 3,
+        "variables": {
+          "largeurs_rangees": "liste d’entiers strictement positifs; 2 à 5 rangées et 1 à 6 colonnes occupées par rangée",
+          "cote_case_cm": 1,
+          "grille": "chaque rangée contient largeur # suivie de points vides jusqu’à la largeur maximale"
+        },
+        "domaines": {
+          "nombre_rangees": [
+            2,
+            5
+          ],
+          "largeur_pleine_par_rangee": [
+            1,
+            6
+          ],
+          "cote_case_cm_autorise": [
+            1
+          ],
+          "indices_cas": [
+            0,
+            1,
+            2
+          ]
+        },
+        "contraintes": [
+          "une grille ne peut contenir que # et .",
+          "les points sont des cases vides non comptées",
+          "toutes les cases sont carrées et identiques",
+          "aucune aire négative ni fraction de case",
+          "aucun cas hors table sans révision humaine"
+        ],
+        "formule_solution": "S = somme(largeurs_rangees) ; A = S × (cote_case_cm)^2 cm² si cote connu, sinon S u²; vérification indépendante S = H×W − nombre_points",
+        "algorithme_reproductible": "Lire la liste indexée, générer chaque rangée #*largeur + .*(max_largeur−largeur), additionner les largeurs, calculer W×H−points, vérifier les deux nombres identiques; aire = nombre_cases × aire_case.",
+        "instances": [
+          {
+            "indice": 0,
+            "largeurs_rangees": [
+              5,
+              5,
+              5
+            ],
+            "grille": "#####\n#####\n#####",
+            "nombre_cases": 15,
+            "aire_case": 1,
+            "unite": "cm²",
+            "aire_attendue": 15,
+            "controle_independant": {
+              "boite_cases": 15,
+              "vides": 0,
+              "cases_pleines": 15
+            }
+          },
+          {
+            "indice": 1,
+            "largeurs_rangees": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "grille": "####\n####\n####\n####",
+            "nombre_cases": 16,
+            "aire_case": 1,
+            "unite": "cm²",
+            "aire_attendue": 16,
+            "controle_independant": {
+              "boite_cases": 16,
+              "vides": 0,
+              "cases_pleines": 16
+            }
+          },
+          {
+            "indice": 2,
+            "largeurs_rangees": [
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "grille": "###\n###\n###\n###\n###",
+            "nombre_cases": 15,
+            "aire_case": 1,
+            "unite": "cm²",
+            "aire_attendue": 15,
+            "controle_independant": {
+              "boite_cases": 15,
+              "vides": 0,
+              "cases_pleines": 15
+            }
+          }
+        ],
+        "verification_exemples": "Les trois instances et le cas retenu doivent tous être recalculés par le validateur externe au présent JSON."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-028-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-028-ev-01",
+      "mode": "parametrique",
+      "consigne": "Sans indice : le plan quadrillé d’une jardinière comporte des cases cultivées (#) et des cases vides (.). Calcule l’aire occupée en unités carrées; explique par rangées ET par rectangle englobant moins les vides. C’est la deuxième preuve autonome et un autre contexte que le panneau.",
+      "stimulus": "Épreuve B — jardinière communautaire. Chaque case représente 1 unité carrée non métrée; aucun côté réel n’est indiqué.\n\n```text\n#####\n####.\n###..\n```\n\nLégende : # case pleine; . case vide. Toutes les rangées ont la même largeur de grille.",
+      "reponse_attendue": "5+4+3 = 12 cases pleines. Aire = 12 × 1 u² = 12 u². Vérification indépendante : rectangle englobant 5 × 3 = 15 cases moins 3 vides = 12 cases; multiplier ensuite par 1 u² par case. L’explication doit préciser pourquoi les cases vides ne comptent pas.",
+      "criteres": [
+        "L’élève identifie exactement toutes les cases pleines et seulement elles.",
+        "L’aire numérique donnée est exacte, avec une unité carrée appropriée et justifiée.",
+        "La méthode est explicitée (somme des rangées ou morceaux disjoints) et permet de retrouver le nombre.",
+        "Une vérification indépendante (rectangle moins vides ou autre regroupement sans recouvrement) est montrée.",
+        "Deux passages de résolution sans indication pendant l’épreuve; autonomie et explication de la méthode observables indépendamment du contexte d’entraînement."
+      ],
+      "feedback": "Si l’aire ne correspond pas : reprendre chaque rangée, pointer les cases vides puis vérifier W×H−points. Si l’unité est fausse, distinguer le côté de la case et l’aire de la case. Donner un nouveau cas prévalidé après enseignement, pas une réponse soufflée pendant la maîtrise.",
+      "difficulte": "transfert",
+      "representation": "preuve B : figure quadrillée irrégulière avec vides, autre contexte et unité non métrée",
+      "variations_permises": "Uniquement les instances explicites du catalogue; l’index calculé avec la graine fixe détermine le cas affiché. Modalités tactile/orale/grands caractères adaptées, sans changer la géométrie ni la mesure.",
+      "contraintes_accessibilite": "La grille et les dimensions doivent être accessibles visuellement, oralement ou tactilement; un scribe ne choisit ni calcul ni réponse. Temps adapté, sans indices directifs.",
+      "limites_variation": "Aucune nouvelle valeur hors de la table, ni grille générée librement; même légende, même échelle et même barème. Les tableaux de cas et leurs corrigés sont testés.",
+      "preuve_maitrise": "Épreuve B — jardinière communautaire — épreuve autonome dans un contexte inédit, différente de l’autre épreuve; calcul + unité + justification.",
+      "seed": 2029,
+      "parametres": {
+        "mode_generation": "indexation_dans_table_finie_validee",
+        "algorithme_selection": "indice = seed % len(instances); indices dans [0, N−1], sans PRNG, aucun tirage IA",
+        "seed_stable": 2029,
+        "indice_selectionne": 1,
+        "N": 3,
+        "variables": {
+          "largeurs_rangees": "liste d’entiers strictement positifs; 2 à 5 rangées et 1 à 6 colonnes occupées par rangée",
+          "cote_case_cm": null,
+          "grille": "chaque rangée contient largeur # suivie de points vides jusqu’à la largeur maximale"
+        },
+        "domaines": {
+          "nombre_rangees": [
+            2,
+            5
+          ],
+          "largeur_pleine_par_rangee": [
+            1,
+            6
+          ],
+          "cote_case_cm_autorise": [
+            "unite_abstraite"
+          ],
+          "indices_cas": [
+            0,
+            1,
+            2
+          ]
+        },
+        "contraintes": [
+          "une grille ne peut contenir que # et .",
+          "les points sont des cases vides non comptées",
+          "toutes les cases sont carrées et identiques",
+          "aucune aire négative ni fraction de case",
+          "aucun cas hors table sans révision humaine"
+        ],
+        "formule_solution": "S = somme(largeurs_rangees) ; A = S × (cote_case_cm)^2 cm² si cote connu, sinon S u²; vérification indépendante S = H×W − nombre_points",
+        "algorithme_reproductible": "Lire la liste indexée, générer chaque rangée #*largeur + .*(max_largeur−largeur), additionner les largeurs, calculer W×H−points, vérifier les deux nombres identiques; aire = nombre_cases × aire_case.",
+        "instances": [
+          {
+            "indice": 0,
+            "largeurs_rangees": [
+              4,
+              4,
+              2
+            ],
+            "grille": "####\n####\n##..",
+            "nombre_cases": 10,
+            "aire_case": 1,
+            "unite": "u²",
+            "aire_attendue": 10,
+            "controle_independant": {
+              "boite_cases": 12,
+              "vides": 2,
+              "cases_pleines": 10
+            }
+          },
+          {
+            "indice": 1,
+            "largeurs_rangees": [
+              5,
+              4,
+              3
+            ],
+            "grille": "#####\n####.\n###..",
+            "nombre_cases": 12,
+            "aire_case": 1,
+            "unite": "u²",
+            "aire_attendue": 12,
+            "controle_independant": {
+              "boite_cases": 15,
+              "vides": 3,
+              "cases_pleines": 12
+            }
+          },
+          {
+            "indice": 2,
+            "largeurs_rangees": [
+              4,
+              3,
+              3
+            ],
+            "grille": "####\n###.\n###.",
+            "nombre_cases": 10,
+            "aire_case": 1,
+            "unite": "u²",
+            "aire_attendue": 10,
+            "controle_independant": {
+              "boite_cases": 12,
+              "vides": 2,
+              "cases_pleines": 10
+            }
+          }
+        ],
+        "verification_exemples": "Les trois instances et le cas retenu doivent tous être recalculés par le validateur externe au présent JSON."
+      },
+      "validation_status": "a_revoir"
+    }
+  ]
+}

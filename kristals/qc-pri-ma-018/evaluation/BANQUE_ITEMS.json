@@ -1,0 +1,410 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-018",
+  "family_id": "qc-pri-ma-018-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-018-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète, justifie avec des mots ou un dessin, puis vérifie.",
+      "stimulus": "9 + 6 = 8 + □",
+      "reponse_attendue": "□ = 7 : 9 + 6 = 15 et 8 + 7 = 15; 8 est 1 de moins que 9, donc 7 est 1 de plus que 6.",
+      "criteres": [
+        "La case donne une égalité numériquement vraie.",
+        "Une relation entre les termes ou les deux totaux est expliquée.",
+        "La substitution recalcule les deux membres."
+      ],
+      "feedback": "Si tu as écrit 15 dans la case, c’est le total; retrouve ce qui manque à 8 pour obtenir 15.",
+      "difficulte": "initial",
+      "representation": "notation_symbolique",
+      "contexte": "egalite_additive",
+      "preuve_maitrise": false,
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Aucune : énoncé et corrigé verrouillés.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-018-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-018-ev-01",
+      "mode": "parametrique",
+      "consigne": "Trouve la case, nomme les deux changements qui se compensent et vérifie.",
+      "stimulus": "16 + 11 = 17 + □",
+      "reponse_attendue": "□ = 10; le premier terme augmente de 1, le second diminue de 1; contrôle 27 = 27.",
+      "criteres": [
+        "La case donne une égalité numériquement vraie.",
+        "Une relation entre les termes ou les deux totaux est expliquée.",
+        "La substitution recalcule les deux membres."
+      ],
+      "feedback": "Les deux termes ne peuvent pas augmenter si le total doit rester inchangé : inverse le second changement.",
+      "difficulte": "initial",
+      "representation": "schema_en_barres_et_notation",
+      "contexte": "compensation_addition",
+      "preuve_maitrise": false,
+      "seed": 18002,
+      "parametres": {
+        "version": "1.0",
+        "grille_generation": "un entier seed >= 0; quotient entier // et reste %; aucun aléa",
+        "ordre_variables": [
+          "a",
+          "b",
+          "d"
+        ],
+        "variables": {
+          "a": "6..18",
+          "b": "4..12",
+          "d": "1..3"
+        },
+        "contraintes": [
+          "seed entier non négatif",
+          "solution unique entière dans les entiers non négatifs",
+          "égalité exacte sans dépassement des domaines"
+        ],
+        "algorithme": "a=6+(seed % 13); b=4+((seed // 13) % 9); d=1+((seed // 117) % 3); x=b-d; substitution obligatoire.",
+        "equation_formelle": "a+b=(a+d)+□",
+        "algorithme_resolution": "x=b-d",
+        "exemple_calcule": {
+          "variables": {
+            "a": 16,
+            "b": 11,
+            "d": 1
+          },
+          "equation": "16 + 11 = 17 + □",
+          "solution": 10,
+          "verification": "27 = 27"
+        },
+        "cardinalite_combinations": 351,
+        "verification_attendue": "énumérer exhaustivement les combinaisons finies; calculer les deux membres avec la solution; tester unicité algébrique et invariants; voir livraison/VALIDATION.md"
+      },
+      "limites_variation": "Exclusivement les entiers des domaines et la formule spécifiés dans parametres; conserver libellé et logique.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-018-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète et explique pourquoi la case ne représente pas le total.",
+      "stimulus": "□ + 11 = 23",
+      "reponse_attendue": "□ = 12 car 23 − 11 = 12; substitution : 12 + 11 = 23.",
+      "criteres": [
+        "La case donne une égalité numériquement vraie.",
+        "Une relation entre les termes ou les deux totaux est expliquée.",
+        "La substitution recalcule les deux membres."
+      ],
+      "feedback": "Si tu as écrit 23, il faut encore ajouter 11 : la case représente seulement la partie manquante.",
+      "difficulte": "initial",
+      "representation": "notation_symbolique",
+      "contexte": "inconnue_a_gauche",
+      "preuve_maitrise": false,
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Aucune : énoncé et corrigé verrouillés.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-018-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-018-ev-01",
+      "mode": "parametrique",
+      "consigne": "Calcule la valeur manquante; explique l’usage du total puis remplace la case.",
+      "stimulus": "□ + 8 = 21 + 5",
+      "reponse_attendue": "□ = 18; membre droit 26; retrancher 8; contrôle 26 = 26.",
+      "criteres": [
+        "La case donne une égalité numériquement vraie.",
+        "Une relation entre les termes ou les deux totaux est expliquée.",
+        "La substitution recalcule les deux membres."
+      ],
+      "feedback": "Calcule d’abord le membre connu : la case n’est pas égale au total puisqu’un terme lui est ajouté.",
+      "difficulte": "intermediaire",
+      "representation": "notation_symbolique",
+      "contexte": "partie_manquante",
+      "preuve_maitrise": false,
+      "seed": 18004,
+      "parametres": {
+        "version": "1.0",
+        "grille_generation": "un entier seed >= 0; quotient entier // et reste %; aucun aléa",
+        "ordre_variables": [
+          "p",
+          "q",
+          "r"
+        ],
+        "variables": {
+          "p": "4..12",
+          "q": "10..22",
+          "r": "5..13"
+        },
+        "contraintes": [
+          "seed entier non négatif",
+          "solution unique entière dans les entiers non négatifs",
+          "égalité exacte sans dépassement des domaines"
+        ],
+        "algorithme": "p=4+(seed % 9); q=10+((seed // 9) % 13); r=5+((seed // 117) % 9); x=q+r-p.",
+        "equation_formelle": "□+p=q+r",
+        "algorithme_resolution": "x=q+r-p",
+        "exemple_calcule": {
+          "variables": {
+            "p": 8,
+            "q": 21,
+            "r": 5
+          },
+          "equation": "□ + 8 = 21 + 5",
+          "solution": 18,
+          "verification": "26 = 26"
+        },
+        "cardinalite_combinations": 1053,
+        "verification_attendue": "énumérer exhaustivement les combinaisons finies; calculer les deux membres avec la solution; tester unicité algébrique et invariants; voir livraison/VALIDATION.md"
+      },
+      "limites_variation": "Exclusivement les entiers des domaines et la formule spécifiés dans parametres; conserver libellé et logique.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-018-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète l’égalité ouverte en corrigeant la proposition □ = 9 d’un élève; explique pourquoi son choix est faux.",
+      "stimulus": "7 + 8 = 7 + □ (proposition incorrecte : □ = 9)",
+      "reponse_attendue": "□ = 8 : 7 + 8 = 7 + 8, soit 15 = 15. Le même premier terme impose la même valeur au second terme.",
+      "criteres": [
+        "La case correcte rend l’égalité ouverte vraie.",
+        "Le maintien d’un premier terme égal et l’ajustement du second sont expliqués.",
+        "Les deux nouveaux membres sont vérifiés : 15 = 15."
+      ],
+      "feedback": "Le même terme 7 figure des deux côtés : compare les autres termes et vérifie 15 des deux côtés.",
+      "difficulte": "intermediaire",
+      "representation": "notation_symbolique",
+      "contexte": "reparation_egalite",
+      "preuve_maitrise": false,
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Aucune : énoncé et corrigé verrouillés.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-018-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-018-ev-01",
+      "mode": "parametrique",
+      "consigne": "Trouve la quantité retirée et explique la différence entre le départ et le reste.",
+      "stimulus": "38 − □ = 7",
+      "reponse_attendue": "□ = 31; écart 38 − 7 = 31; contrôle 38 − 31 = 7.",
+      "criteres": [
+        "La case donne une égalité numériquement vraie.",
+        "Une relation entre les termes ou les deux totaux est expliquée.",
+        "La substitution recalcule les deux membres."
+      ],
+      "feedback": "Ne fais pas la somme du départ et du reste : la case est ce qu’on retire.",
+      "difficulte": "intermediaire",
+      "representation": "droite_graduee_et_notation",
+      "contexte": "soustraction_quantite_retiree",
+      "preuve_maitrise": false,
+      "seed": 18006,
+      "parametres": {
+        "version": "1.0",
+        "grille_generation": "un entier seed >= 0; quotient entier // et reste %; aucun aléa",
+        "ordre_variables": [
+          "m",
+          "n"
+        ],
+        "variables": {
+          "m": "18..40",
+          "n": "5..17"
+        },
+        "contraintes": [
+          "seed entier non négatif",
+          "solution unique entière dans les entiers non négatifs",
+          "égalité exacte sans dépassement des domaines"
+        ],
+        "algorithme": "m=18+(seed % 23); n=5+((seed // 23) % 13); x=m-n; le domaine garantit m>n.",
+        "equation_formelle": "m−□=n",
+        "algorithme_resolution": "x=m-n",
+        "exemple_calcule": {
+          "variables": {
+            "m": 38,
+            "n": 7
+          },
+          "equation": "38 − □ = 7",
+          "solution": 31,
+          "verification": "38 − 31 = 7"
+        },
+        "cardinalite_combinations": 299,
+        "verification_attendue": "énumérer exhaustivement les combinaisons finies; calculer les deux membres avec la solution; tester unicité algébrique et invariants; voir livraison/VALIDATION.md"
+      },
+      "limites_variation": "Exclusivement les entiers des domaines et la formule spécifiés dans parametres; conserver libellé et logique.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-018-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans indice, complète la quantité du plateau B, exprime la relation choisie et vérifie les deux plateaux.",
+      "stimulus": "Dans un atelier fictif de jetons, le plateau A contient 17 jetons ronds et 8 carrés. Le plateau B contient 19 jetons ronds et □ carrés. Les plateaux doivent contenir le même total. Écris et complète 17 + 8 = 19 + □.",
+      "reponse_attendue": "□ = 6 jetons carrés; 17 + 8 = 25 et 19 + 6 = 25; on ajoute 2 au groupe rond et retire 2 au groupe carré.",
+      "criteres": [
+        "La case donne une égalité numériquement vraie.",
+        "Une relation entre les termes ou les deux totaux est expliquée.",
+        "La substitution recalcule les deux membres."
+      ],
+      "feedback": "Vérifie le total de chaque plateau, et non seulement le nombre de jetons ronds. Le second groupe doit compenser.",
+      "difficulte": "transfert",
+      "representation": "materiel_jetons_et_equation",
+      "contexte": "plateaux_jetons",
+      "preuve_maitrise": true,
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Aucune : énoncé et corrigé verrouillés.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-018-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-018-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans indice, modélise avec une égalité, trouve l’inconnue, explique ta relation et vérifie.",
+      "stimulus": "Jardin collectif fictif : la parcelle A donne 13 tomates lors d’une première cueillette et □ lors de la seconde. La parcelle B donne 9 tomates puis 12. Les totaux sont égaux. Combien de tomates dans la seconde cueillette de A?",
+      "reponse_attendue": "13 + □ = 9 + 12; □ = 8 tomates; 13 + 8 = 21 et 9 + 12 = 21; A en a 4 de plus au premier passage, donc 4 de moins au second.",
+      "criteres": [
+        "L’égalité traduit correctement les cueillettes de chaque parcelle.",
+        "La case donne une égalité numériquement vraie.",
+        "Une relation entre les termes ou les deux totaux est expliquée.",
+        "La substitution recalcule les deux membres."
+      ],
+      "feedback": "Associe d’abord chaque cueillette à sa parcelle; retrouve le total de B, puis la partie manquante de A.",
+      "difficulte": "transfert",
+      "representation": "situation_textuelle_et_equation",
+      "contexte": "jardin_recoltes",
+      "preuve_maitrise": true,
+      "seed": null,
+      "parametres": null,
+      "limites_variation": "Aucune : énoncé et corrigé verrouillés.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-018-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-018-ev-01",
+      "mode": "parametrique",
+      "consigne": "Trouve la case et justifie pourquoi retirer le même terme des deux membres conserve la relation.",
+      "stimulus": "□ + 6 = (3 + 5) + 6",
+      "reponse_attendue": "□ = 8; retrancher 6 de chaque membre laisse □ = 3+5 = 8; contrôle 14 = 14.",
+      "criteres": [
+        "La case donne une égalité numériquement vraie.",
+        "Une relation entre les termes ou les deux totaux est expliquée.",
+        "La substitution recalcule les deux membres."
+      ],
+      "feedback": "Tu peux enlever le même terme des deux membres pour retrouver la valeur inconnue, mais pas d’un seul côté.",
+      "difficulte": "transfert",
+      "representation": "notation_et_schemas_equivalents",
+      "contexte": "equivalence_par_meme_ajout",
+      "preuve_maitrise": false,
+      "seed": 18009,
+      "parametres": {
+        "version": "1.0",
+        "grille_generation": "un entier seed >= 0; quotient entier // et reste %; aucun aléa",
+        "ordre_variables": [
+          "u",
+          "v",
+          "c"
+        ],
+        "variables": {
+          "u": "3..11",
+          "v": "4..13",
+          "c": "2..8"
+        },
+        "contraintes": [
+          "seed entier non négatif",
+          "solution unique entière dans les entiers non négatifs",
+          "égalité exacte sans dépassement des domaines"
+        ],
+        "algorithme": "u=3+(seed % 9); v=4+((seed // 9) % 10); c=2+((seed // 90) % 7); x=u+v.",
+        "equation_formelle": "□+c=(u+v)+c",
+        "algorithme_resolution": "x=u+v",
+        "exemple_calcule": {
+          "variables": {
+            "u": 3,
+            "v": 5,
+            "c": 6
+          },
+          "equation": "□ + 6 = (3 + 5) + 6",
+          "solution": 8,
+          "verification": "14 = 14"
+        },
+        "cardinalite_combinations": 630,
+        "verification_attendue": "énumérer exhaustivement les combinaisons finies; calculer les deux membres avec la solution; tester unicité algébrique et invariants; voir livraison/VALIDATION.md"
+      },
+      "limites_variation": "Exclusivement les entiers des domaines et la formule spécifiés dans parametres; conserver libellé et logique.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-018-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-018-ev-01",
+      "mode": "parametrique",
+      "consigne": "Trouve la case, explique la compensation et vérifie sans utiliser de tirage libre.",
+      "stimulus": "29 + 14 = (29 − 2) + □",
+      "reponse_attendue": "□ = 16; premier terme diminue de 2, l’autre augmente de 2; contrôle 43 = 43.",
+      "criteres": [
+        "La case donne une égalité numériquement vraie.",
+        "Une relation entre les termes ou les deux totaux est expliquée.",
+        "La substitution recalcule les deux membres."
+      ],
+      "feedback": "Si le premier terme perd une quantité, le second doit gagner exactement cette quantité pour préserver la somme.",
+      "difficulte": "transfert",
+      "representation": "notation_et_bandes",
+      "contexte": "compensation_diminution",
+      "preuve_maitrise": false,
+      "seed": 18010,
+      "parametres": {
+        "version": "1.0",
+        "grille_generation": "un entier seed >= 0; quotient entier // et reste %; aucun aléa",
+        "ordre_variables": [
+          "p",
+          "q",
+          "r"
+        ],
+        "variables": {
+          "p": "12..30",
+          "q": "3..14",
+          "r": "1..7"
+        },
+        "contraintes": [
+          "seed entier non négatif",
+          "solution unique entière dans les entiers non négatifs",
+          "égalité exacte sans dépassement des domaines"
+        ],
+        "algorithme": "p=12+(seed % 19); q=3+((seed // 19) % 12); r=1+((seed // 228) % 7); x=q+r; p−r >= 5.",
+        "equation_formelle": "p+q=(p−r)+□",
+        "algorithme_resolution": "x=q+r",
+        "exemple_calcule": {
+          "variables": {
+            "p": 29,
+            "q": 14,
+            "r": 2
+          },
+          "equation": "29 + 14 = (29 − 2) + □",
+          "solution": 16,
+          "verification": "43 = 43"
+        },
+        "cardinalite_combinations": 1596,
+        "verification_attendue": "énumérer exhaustivement les combinaisons finies; calculer les deux membres avec la solution; tester unicité algébrique et invariants; voir livraison/VALIDATION.md"
+      },
+      "limites_variation": "Exclusivement les entiers des domaines et la formule spécifiés dans parametres; conserver libellé et logique.",
+      "validation_status": "a_revoir"
+    }
+  ]
+}

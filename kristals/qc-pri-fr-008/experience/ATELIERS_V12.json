@@ -1,0 +1,106 @@
+{
+  "format": "ekole.kristal-atelier-v12/1.0",
+  "kristal_id": "qc-pri-fr-008",
+  "source_immutable": {
+    "file": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Reconstituer les éléments d’un récit et leurs liens de cause à effet.",
+    "preuve_attendue": "Produire un schéma narratif et justifier l’ordre des événements."
+  },
+  "statut": "prototype_revue_pedagogique_requise",
+  "micro_mondes": [
+    {
+      "id": "recit-liens-causaux",
+      "kristal_id": "qc-pri-fr-008",
+      "type": "causalite",
+      "title": "Une histoire qui se tient",
+      "instruction": "Remets ces événements d’un petit récit inventé dans l’ordre. Puis décide quels liens de cause à effet sont justifiés par l’histoire.",
+      "parameters": {
+        "events": [
+          {
+            "id": "e1",
+            "text": "Lina prépare des semences pour le jardin."
+          },
+          {
+            "id": "e2",
+            "text": "Un coup de vent emporte le sachet de semences."
+          },
+          {
+            "id": "e3",
+            "text": "Lina cherche les semences près de la clôture."
+          },
+          {
+            "id": "e4",
+            "text": "Lina les retrouve et peut commencer à planter."
+          }
+        ],
+        "order": [
+          "e1",
+          "e2",
+          "e3",
+          "e4"
+        ],
+        "links": [
+          {
+            "from": "e2",
+            "to": "e3",
+            "valid": true,
+            "statement": "Le vent provoque la recherche."
+          },
+          {
+            "from": "e1",
+            "to": "e4",
+            "valid": false,
+            "statement": "Préparer un sachet garantit de retrouver les semences."
+          }
+        ]
+      },
+      "objective_id": "obj-1",
+      "representation": "sequence_et_liens",
+      "diagnostics": [
+        "ordre",
+        "causalite_non_justifiee"
+      ],
+      "visual_slot": "decouvrir",
+      "format": "ekole.micro-monde/1.0",
+      "evaluation": "entrainement_non_certifiant",
+      "source_review": "revue_requise",
+      "premisse": "Scénario d’entraînement original aligné sur un objectif source; ne constitue pas une évaluation officielle.",
+      "prompt_visuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Une histoire qui se tient ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif.",
+      "image_path": "experience/images/recit-liens-causaux.webp"
+    }
+  ],
+  "evaluation_et_decision": {
+    "entrainement_ne_certifie_jamais": true,
+    "preuver_source_requise": true,
+    "validation_ouverte": "revue_humaine",
+    "aide_consigne_apres_erreur": "indices_degressifs"
+  },
+  "teacher_review": {
+    "puiser_dans_modules": [
+      "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "experience/SCENARIO_APPRENTISSAGE.json"
+    ],
+    "axes": [
+      "exactitude_du_concept",
+      "qualite_des_erreurs",
+      "pertinence_de_la_retroaction",
+      "accessibilite_des_actions",
+      "transfert_de_contexte"
+    ],
+    "etat": "non_effectue",
+    "observations": ""
+  },
+  "visuels": {
+    "regle": "Concept sans style. Prompt toujours visible si fichier absent.",
+    "etats_evalues": "dessin_deterministe",
+    "assets": [
+      {
+        "scenario_id": "recit-liens-causaux",
+        "fichier_attendu": "experience/images/recit-liens-causaux.webp",
+        "prompt_conceptuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Une histoire qui se tient ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif."
+      }
+    ]
+  },
+  "source_curation": "Atelier nouveau; aucune réécriture non validée des items et preuves d’origine."
+}

@@ -1,0 +1,413 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-als-003",
+  "family_id": "qc-pri-als-003-ev-01",
+  "langue_instruction": "fr-CA",
+  "langue_stimulus": "en",
+  "nature": "corpus_fixe_original_a_lire_ou_faire_entendre",
+  "items": [
+    {
+      "item_id": "qc-pri-als-003-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Question : De quoi parle surtout la comptine? Nomme un objet préparé.",
+      "stimulus": "I pack my bag, I put on my shoes.\nOff to school — good morning to you!\nI wave goodbye and walk away.\nI go to school, I go to school today.",
+      "representation": "texte_oral_rythme_comptine",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "Idée générale : une personne se prépare et va à l'école. Objet : bag/sac ou shoes/chaussures.",
+      "criteres": [
+        "Dit l'action globale de se préparer et aller à l'école (pas seulement 'shoes').",
+        "Cite bag ou shoes explicitement entendu."
+      ],
+      "feedback": "Si la réponse est seulement 'shoes', demander en rétroaction formative : 'Que fait la personne avec ses affaires?'",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "idee_generale",
+        "detail"
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-003-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Questions : Où s'assoit le lapin? Que fait-il à la fin?",
+      "stimulus": "A rabbit runs across the yard.\nIt sees a big tree.\nThe rabbit sits under the tree.\nThen it closes its eyes and sleeps.",
+      "representation": "texte_oral_rythme_histoire",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "Under the tree / sous l'arbre; it sleeps / il dort.",
+      "criteres": [
+        "Lieu : sous l'arbre, pas sur l'arbre.",
+        "Action finale : dort; accepter 's'endort'."
+      ],
+      "feedback": "Si 'in the tree', reprendre la distinction auditive under/in sur un nouveau contexte après l'épreuve.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "details"
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-003-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Questions : Quelle suite de sons ou mots revient? Que fait la personne?",
+      "stimulus": "Rain on my window, splash, splash, splash.\nRain on the road, splash, splash, splash.\nI wear my boots and jump with joy.",
+      "representation": "texte_oral_rythme_comptine",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "splash, splash, splash ; elle met des bottes et saute / jumps.",
+      "criteres": [
+        "Identifie splash, splash, splash répété dans deux lignes.",
+        "Identifie au moins une action réelle, boots/wear ou jump."
+      ],
+      "feedback": "Si l'élève devine qu'il nage : revenir à wear my boots et jump, pas à une image de piscine.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "repetitions",
+        "details"
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-003-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Question : Quels mots en fin des deux premières lignes riment? De quoi parle la comptine en général?",
+      "stimulus": "I see a cat.\nIt wears a hat.\nI see a bee.\nIt flies by a tree.",
+      "representation": "texte_oral_rythme_comptine",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "cat / hat; des animaux (un chat et une abeille) observés et décrits.",
+      "criteres": [
+        "Repère cat et hat en tant que paire de fins riment.",
+        "Énonce une idée générale englobant le chat et l'abeille, et non seulement hat."
+      ],
+      "feedback": "Si l'élève répond bee/tree, reconnaître qu'ils riment aussi, mais rappeler que la question ciblait les deux premières lignes.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "rimes",
+        "idee_generale"
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-003-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Questions : De quelle couleur est la tasse de May? Que boivent-ils? Que font-ils après?",
+      "stimulus": "At the table, May fills a blue cup with water.\nHer brother takes a yellow cup.\nThey drink together, then wash the cups.",
+      "representation": "texte_oral_rythme_histoire",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "May: blue/bleue; water/eau; wash the cups/lavent les tasses.",
+      "criteres": [
+        "Attribue blue à May, et non yellow.",
+        "Reconnait water.",
+        "Reconnait wash the cups comme action finale."
+      ],
+      "feedback": "Si jaune est attribué à May, retravailler les personnages et leurs possessions sur un autre texte.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "details"
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-003-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Questions : Que font-ils surtout? De quoi parle le livre? Quelle phrase entend-on deux fois?",
+      "stimulus": "A girl named Tess goes to the library.\nShe finds a book about the moon.\n'Look at the moon!' she says.\n'Look at the moon!' her friend says too.\nThey read the book together.",
+      "representation": "texte_oral_rythme_histoire",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "Ils trouvent/lisent ensemble un livre à la bibliothèque; the moon/la Lune; Look at the moon!",
+      "criteres": [
+        "Idée générale : partager/lire un livre à la bibliothèque.",
+        "Détail : livre sur la Lune.",
+        "Repetition : Look at the moon!"
+      ],
+      "feedback": "Si la réponse 'ils vont sur la Lune' apparaît, distinguer le sujet du livre de l'action réelle.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "idee_generale",
+        "details",
+        "repetitions"
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-003-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Questions : Où se déplace le bateau? Avec qui? Quels mots se répètent?",
+      "stimulus": "Row, row, row, little boat.\nRow, row, row, stay afloat.\nWe cross the pond with Dad today.\nThen we turn the boat away.",
+      "representation": "texte_oral_rythme_comptine",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "Across the pond / sur un étang; with Dad / avec papa; Row, row, row.",
+      "criteres": [
+        "Lieu : pond/étang, pas océan.",
+        "Personne : Dad/papa.",
+        "Repetition audible: Row, row, row."
+      ],
+      "feedback": "Si le lieu est inventé, inviter à repérer pond lors d'un nouvel entraînement.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "details",
+        "repetitions"
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-003-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Questions : Quelle phrase revient? Donne une paire de fins de lignes qui riment. De quoi parle le chant?",
+      "stimulus": "Come and play, come and play!\nWe run outside on a sunny day.\nCome and play, come and play!\nWe jump and laugh along the way.",
+      "representation": "texte_oral_rythme_comptine",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "Come and play; play/day ou day/way (aussi play/way); des enfants jouent dehors et s'amusent.",
+      "criteres": [
+        "Répétition : come and play.",
+        "Rime correcte et audible parmi play/day/way.",
+        "Idée générale : jouer/s'amuser dehors."
+      ],
+      "feedback": "Si les mots sont seulement orthographiquement proches, refaire écouter leurs fins sonores.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "rimes",
+        "repetitions",
+        "idee_generale"
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-003-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Questions : Quelle activité réalisent les enfants? Nomme une couleur. Où mettent-ils le cerf-volant?",
+      "stimulus": "We cut blue paper, we cut red.\nWe make a kite with string and thread.\nFold, fold, fold with care.\nWe hang our kite by the classroom chair.",
+      "representation": "texte_oral_rythme_comptine",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "Ils fabriquent un cerf-volant en papier; blue/bleu ou red/rouge; ils le suspendent près de la chaise de la classe.",
+      "criteres": [
+        "Idée générale : fabriquer un cerf-volant, pas le faire voler dehors.",
+        "Couleur explicitement citée : blue ou red.",
+        "Lieu final : by the classroom chair / près de la chaise de la classe."
+      ],
+      "feedback": "Si on répond 'ils le font voler au parc', distinguer création dans la classe et événement imaginé.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "idee_generale",
+        "details"
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-003-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Questions : Quel est le thème? Combien de chèvres? Que leur donne Ali? Quelle phrase revient?",
+      "stimulus": "On the farm, Ali sees two small goats.\n'Come here, goats!' he calls.\nThe goats walk to a wooden gate.\n'Come here, goats!' Ali calls again.\nHe gives them clean water.",
+      "representation": "texte_oral_rythme_histoire",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "Ali s'occupe de deux petites chèvres à la ferme; two/deux; water/eau; Come here, goats!",
+      "criteres": [
+        "Idée générale : soins aux chèvres à la ferme.",
+        "Nombre : 2.",
+        "Détail : eau.",
+        "Repetition : Come here, goats!"
+      ],
+      "feedback": "Si 'food' remplace water, corriger en opposant ce qui est entendu à une attente habituelle sur les fermes.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "idee_generale",
+        "details",
+        "repetitions"
+      ]
+    },
+    {
+      "item_id": "qc-pri-als-003-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Après l'écoute, réponds : (1) De quoi parle surtout la comptine? (2) Qui apporte l'arrosoir jaune? (3) Dans quoi Tom apporte-t-il l'eau? (4) Que fait-on après avoir arrosé? (5) Quelle ligne est répétée? Facultatif : nomme deux mots qui riment.",
+      "stimulus": "In our garden, plant a seed.\nA little water is what we need.\nDig, dig, dig today.\nWatch the tiny leaves at play.\nMia brings a yellow watering can.\nTom brings water in a pan.\nDig, dig, dig today.\nWe water plants, then put tools away.",
+      "representation": "texte_oral_rythme_comptine",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "(1) Planter/entretenir les plantes d'un jardin; (2) Mia; (3) pan (récipient/plat); (4) ranger les outils; (5) Dig, dig, dig today. Rimes admises : seed/need, can/pan, today/away.",
+      "criteres": [
+        "P1 idée globale juste : semer et arroser/entretenir un jardin (1).",
+        "P1 détail A : Mia apporte un contenant jaune (1).",
+        "P1 détail B : Tom porte de l'eau dans un pan / récipient (1).",
+        "P1 détail C : les outils sont rangés après l'arrosage (1).",
+        "P1 indice sonore : Dig, dig, dig today (ou paire de rimes attestée) (1)."
+      ],
+      "feedback": "Si l'élève choisit Tom pour l'arrosoir jaune, retravailler la liaison personne-objet en remédiation puis proposer un autre texte. Ne pas souffler les réponses en situation probante.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "idee_generale",
+        "details",
+        "repetitions",
+        "rimes"
+      ],
+      "preuve_maitrise": {
+        "identifiant": "preuve-1",
+        "contexte": "comptine de jardinage communautaire",
+        "autonomie": "deux écoutes complètes sans aide sur le contenu",
+        "seuil_local": "idée globale correcte + au moins 2/3 détails exacts + au moins un indice sonore exact",
+        "score_max": 5
+      }
+    },
+    {
+      "item_id": "qc-pri-als-003-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-als-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux fois le texte anglais entier sans voir la transcription. Réponds après l’écoute; français, anglais simple ou pointage documenté acceptés. Après l'écoute, réponds : (1) De quoi parle surtout l'histoire? (2) De quelle couleur est la mitaine trouvée? (3) Où se trouvait-elle? (4) À qui Ben la rend-il? (5) Quelle question revient deux fois?",
+      "stimulus": "At the bus stop, Ben sees a blue mitten on the bench.\n'Whose mitten?' Ben asks.\nAna says, 'Not mine. Mine are green.'\n'Whose mitten?' Ben asks again.\nKim walks back to the bench and says, 'My mitten!'\nBen gives the blue mitten to Kim.\n'Back to you, back to you,' Ben sings.",
+      "representation": "texte_oral_rythme_histoire",
+      "protocole": {
+        "presentation": "Lecture ou chant parlé par l’adulte; le stimulus est réservé à l’évaluateur. Deux écoutes entières; débit naturel clair, sans mimique révélatrice ni transcription visible.",
+        "reponse": "orale / courte phrase / pointage non indicatif documenté",
+        "aides_autonomes": "aucune aide de contenu; consignes françaises permises"
+      },
+      "reponse_attendue": "(1) Ben trouve la personne à qui appartient une mitaine perdue et la lui rend; (2) blue/bleue; (3) on the bench / sur le banc de l'arrêt; (4) Kim; (5) Whose mitten?",
+      "criteres": [
+        "P2 idée globale juste : restituer une mitaine perdue (1).",
+        "P2 détail A : mitten blue, pas green (1).",
+        "P2 détail B : découverte on the bench à l'arrêt (1).",
+        "P2 détail C : rendue à Kim (1).",
+        "P2 indice sonore : question Whose mitten? répétée deux fois (1)."
+      ],
+      "feedback": "Si la réponse 'Ana' vient de la première personne nommée, réenseigner qui possède l'objet puis reprendre avec un récit inédit. Green qualifie les mitaines d'Ana, pas la trouvaille.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "variation_permise": "Voix, genre vocal, accent intelligible, débit adapté sans perte de mots ni de pauses structurantes; consigne en français/anglais avec même sens. Aucune substitution de mots, faits, nombres, couleurs, noms, lieux, ordre des lignes ou réponses.",
+      "validation_status": "a_revoir",
+      "source": "Script anglais original rédigé pour ce Kristal; aucune mélodie ou parole tierce copiée.",
+      "notions_cibles": [
+        "idee_generale",
+        "details",
+        "repetitions"
+      ],
+      "preuve_maitrise": {
+        "identifiant": "preuve-2",
+        "contexte": "histoire rythmée d’entraide à un arrêt d’autobus",
+        "autonomie": "deux écoutes complètes sans aide sur le contenu",
+        "seuil_local": "idée globale correcte + au moins 2/3 détails exacts + au moins un indice sonore exact",
+        "score_max": 5
+      }
+    }
+  ]
+}

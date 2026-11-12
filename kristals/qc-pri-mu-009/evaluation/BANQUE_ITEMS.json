@@ -1,0 +1,229 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-mu-009",
+  "family_id": "qc-pri-mu-009-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-mu-009-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Écoute S01 deux fois. Dis comment évolue la hauteur, repère un deuxième fait audible différent, puis explique brièvement si cet enchaînement te plaît et pourquoi. Tu peux pointer les départs des notes.",
+      "stimulus": "Diagnostic hauteur + temps. Écouter la mini-œuvre originale S01 « Montée tranquille » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S01, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "Une appréciation personnelle (oui/non/nuancée), deux faits distincts : 4 départs plutôt réguliers et successifs; chaque note est plus aiguë que la précédente. L’élève relie au moins un de ces faits à son impression. Toute préférence cohérente est recevable.",
+      "criteres": [
+        "Repère la montée des quatre hauteurs et ne la confond pas avec une hausse d’intensité.",
+        "Indique les attaques séparées par des intervalles temporels assez réguliers comme second indice.",
+        "Formule une préférence ou un effet personnel et explique un lien audible; le goût n’est pas évalué.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "Si « de plus en plus fort », réécouter le premier et le dernier son en distinguant hauteur et intensité; si un seul indice, compter les départs puis refaire une formulation sur une autre piste.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-009-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Écoute S02 puis S01. Laquelle enchaîne les sons les plus rapprochés? Décris aussi ce qui se répète dans S02. Donne ton impression personnelle sur cette répétition et appuie-la sur ces deux indices.",
+      "stimulus": "Diagnostic comparaison et répétition. Écouter la mini-œuvre originale S02 « Petits pas répétés » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S02, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "S02 : huit notes brèves et rapprochées par rapport à S01 (quatre départs plus espacés); sa hauteur est répétée sans changement audible important. Une réponse telle que « Je trouve S02 pressante parce que les sons sont rapprochés et reprennent la même hauteur » est adéquate; toute appréciation inverse motivée convient.",
+      "criteres": [
+        "Compare correctement les espacements S02 vs S01.",
+        "Identifie la répétition d’une même hauteur S02 comme second élément distinct.",
+        "Relie deux observations au jugement personnel sans généralisation culturelle.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "Si l’élève dit que la piste plus aiguë est nécessairement la plus rapide, compter les attaques et réécouter les deux pistes à la même vitesse de lecture.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-009-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Écoute S03. Termine « J’aime / je n’aime pas parce que j’entends une même note qui revient et aussi … ; cela me donne l’impression de … ». Vérifie le deuxième fait par réécoute.",
+      "stimulus": "Guidée 1 avec amorce. Écouter la mini-œuvre originale S03 « Écho décroissant » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S03, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "La même hauteur revient trois fois et l’intensité diminue progressivement. Exemple : « J’aime cette répétition parce que la note revient trois fois et devient moins forte; cela me paraît délicat. » Rejet ou nuance également permis.",
+      "criteres": [
+        "Exprime une appréciation non imposée.",
+        "Associe la répétition (premier indice fourni) à la diminution d’intensité (second indice trouvé).",
+        "Explique un effet ou un jugement en lien avec les faits, aidé par l’amorce.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "Si le deuxième indice n’est que « la note se répète encore », réécouter le troisième son et comparer son intensité avec le premier.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-009-q-004",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Écoute S04. Exprime ton appréciation en justifiant avec deux faits. Question facultative du guide : « qu’est-ce qui change entre deux sons voisins? » Ne déduis pas automatiquement que haut veut dire rapide.",
+      "stimulus": "Guidée 2 question partielle. Écouter la mini-œuvre originale S04 « Question de hauteurs » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S04, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "Alternance de notes graves et aiguës répétée trois fois; notes brèves d’environ 0,28 s. Exemple : « J’aime cette alternance, car les sons passent de grave à aigu et chaque note s’interrompt vite; cela me paraît joueur. » Un désaccord est valide.",
+      "criteres": [
+        "Relève l’alternance de hauteur et un deuxième fait de durée.",
+        "Formule un argument explicite au-delà de deux qualificatifs identiques.",
+        "L’aide en question est consignée, donc pas de maîtrise autonome sur cet item.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "Si « fort/aigu » sont confondus, écouter deux notes de mêmes amplitudes mais de hauteurs différentes et remplacer les mots inexacts.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-009-q-005",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Écoute S11 et dis ton appréciation avec deux éléments auditifs différents. Aucun indice ne sera donné avant ta première réponse; après, on pourra te demander de les localiser.",
+      "stimulus": "Guidée 3, dernier indice retiré. Écouter la mini-œuvre originale S11 « Battements contrastés » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S11, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "Quatre premières notes alternent intensités fortes et faibles; dernière note plus longue et plus aiguë. Exemple : « La fin me surprend parce que j’entends un fort-faible alterné et que la dernière note tient plus longtemps. » Valider deux propriétés réellement distinctes.",
+      "criteres": [
+        "Décrit précisément l’alternance d’intensité ou son repérage.",
+        "Relève comme deuxième fait la dernière durée ou sa hauteur plus aiguë.",
+        "Relie les faits à un avis et différencie aide rétrospective et première tentative.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "Si la réponse se limite à une intensité, rejouer la fin sans dire « long »; demander ce qui change, puis un nouveau transfert.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-009-q-006",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Pour une capsule radio, tu peux recommander S05 ou non. Écoute sans voir la partition et explique ton avis en citant deux éléments sonores différents et leur rôle pour ton impression.",
+      "stimulus": "Autonomie 1, capsule radio. Écouter la mini-œuvre originale S05 « Pluie de notes » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S05, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "Faits possibles : quatre notes initiales brèves; pause nettement plus longue avant la quatrième (départ à 1,84 s); note finale nettement plus longue et un peu plus aiguë. Exemple positif : « J’aime les petites attaques répétées et la longue dernière note; cette fin me surprend. » Accepter avis contraires avec deux faits exacts distincts.",
+      "criteres": [
+        "Deux indices distincts parmi répétition / pause / note finale longue / changement de hauteur, corrects.",
+        "Préférence/effet présenté comme personnel.",
+        "Explication causale au moins pour l’impression principale et réponse autonome.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "S’il affirme que tous les silences sont égaux, réécouter entre troisième et quatrième départs; comparer les durées.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-009-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Pour accompagner une promenade imaginaire, choisirais-tu S06? Exprime un jugement personnel et défends-le grâce à deux caractéristiques auditives différentes, sans indices de l’adulte.",
+      "stimulus": "Autonomie 2, promenade imaginée. Écouter la mini-œuvre originale S06 « Sentier descendant » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S06, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "La ligne de cinq notes descend en hauteur; chaque note dure près d’une demi-seconde, avec des départs à intervalles réguliers. Exemple négatif : « Je ne la choisirais pas pour une marche excitante : la mélodie descend progressivement et les sons sont longs et espacés; elle me paraît trop posée. » Autre jugement justifié recevable.",
+      "criteres": [
+        "Repère la descente des hauteurs.",
+        "Identifie comme second fait la durée ou l’espacement régulier des notes.",
+        "Lie les observations à une appréciation libre sans aide de contenu.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "Si le candidat entend une montée, opposer début et fin à volume confortable; reprendre sur une autre piste sans modèle.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-009-q-008",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Un coin lecture aimerait choisir cette petite œuvre S07. Après écoute, dis ce que tu en penses (oui, non ou nuancé) et explique **sans aide** grâce à deux indices sonores différents et vérifiables. L’effet ressenti peut être personnel.",
+      "stimulus": "PREUVE DE MAÎTRISE A — coin lecture. Écouter la mini-œuvre originale S07 « Lumière du coin lecture » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S07, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "Quatre sons plutôt doux, longs et assez espacés; hauteurs successives descendantes. Exemple possible : « Cette œuvre convient à mon avis parce que les notes sont longues et séparées et que les hauteurs descendent; cela crée une ambiance tranquille pour moi. » Un avis opposé est valide avec deux faits corrects et un raisonnement.",
+      "criteres": [
+        "Expression claire d’un jugement ou d’un effet personnel; ne pas noter le goût.",
+        "Au moins deux faits distincts fiables : organisation temporelle et descente de hauteur, ou intensité relative documentée et hauteur.",
+        "Argument explicite reliant ces deux faits à l’avis; pas de suggestion de critères ni de lecture du corrigé.",
+        "Preuve A autonome, à rapprocher de la preuve B q-009 sans moyenne compensatoire.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "Si un fait est inventé, indiquer le passage à réécouter et offrir une nouvelle preuve après remédiation; ne pas transformer l’essai aidé en preuve autonome.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-009-q-009",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Pour une course solidaire, on propose S08. Formule librement ton appréciation et justifie **sans aide** à l’aide de deux éléments auditifs distincts. Une réaction négative peut être tout aussi recevable qu’une positive.",
+      "stimulus": "PREUVE DE MAÎTRISE B — course solidaire. Écouter la mini-œuvre originale S08 « Élan de la course solidaire » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S08, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "Douze notes courtes très rapprochées; alternance entre grave et aigu; accent plus fort sur les sons 1, 5 et 9. Exemple : « Je la choisirais, parce que les notes arrivent très vite et que des accents plus forts reviennent à intervalles réguliers; cela me donne une impression d’élan. » Avis contraire argumenté validé.",
+      "criteres": [
+        "Appréciation explicite non imposée.",
+        "Deux propriétés exactes et différentes : rythme/durée + accentuation ou hauteur alternante.",
+        "Lien argumentatif de ces deux faits vers le jugement ou l’effet personnel.",
+        "Preuve B réalisée indépendamment dans un autre contexte que q-008, avec trace de l’aide éventuelle.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "Si « fort » est répété comme deuxième fait « bruyant », demander une autre catégorie de preuve sur un nouvel essai; aucune correction soufflée pendant la preuve.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-009-q-010",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Une troupe présente une apparition d’ombre sur scène. Après écoute de S09, expliquer si tu choisirais cette musique pour la scène et citer deux propriétés sonores différentes qui soutiennent ta réponse.",
+      "stimulus": "Transfert 1 — théâtre de marionnettes. Écouter la mini-œuvre originale S09 « Ombres en scène » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S09, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "Trois premiers sons brefs et de plus en plus aigus; pause prolongée; note finale aiguë tenue. Exemple : « Je la choisirais : trois notes montent et, après une pause, la dernière tient longtemps; pour moi cela crée du suspense. » Préférence négative motivée également acceptable.",
+      "criteres": [
+        "Au moins deux indices vérifiables de catégories différentes (hauteur montante + contraste temporel).",
+        "Explique le lien avec le théâtre sans confondre intention supposée et fait sonore.",
+        "Réponse autonome ou aide documentée; aucun jugement de goût.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "Si la pause est appelée « un autre instrument », rejouer l’espace vide et identifier le silence comme élément d’organisation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-mu-009-q-011",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Pour une exposition sur les sons, on te fait entendre S10. Apprécie-la ou critique-la et donne deux indices entendus différents pour justifier ton choix.",
+      "stimulus": "Transfert 2 — exposition scientifique. Écouter la mini-œuvre originale S10 « Atelier de sons » dans `contenu/01_NOTIONS_ET_EXEMPLES.md` (section S10, lecteur audio intégré WAV). Ne pas exposer la description de correcteur avant la réponse. Conditions : volume confortable; réécoutes permises. Partition et empreinte dans le même fichier pour correction. Aucune œuvre tierce.",
+      "reponse_attendue": "Même hauteur et même niveau approximatif pour les quatre départs; timbre électronique doux/clair alternant à chaque note; espacement régulier. Exemple : « Je trouve ce motif intéressant pour comparer des sons, car la hauteur reste constante et le timbre alterne entre doux et brillant; j’ai l’impression d’une expérience. » Avis inverse recevable.",
+      "criteres": [
+        "Identifie la hauteur stable (ou espacement régulier) comme premier fait.",
+        "Identifie l’alternance du timbre comme second fait, sans affirmer « deux vrais instruments ».",
+        "Relie correctement les indices à l’appréciation du contexte.",
+        "Objet unique : qc-pri-mu-009, obj-1, crit-1, famille qc-pri-mu-009-ev-01.",
+        "La grille de maîtrise décrit les niveaux, les modes d’expression équivalents et les décisions; une appréciation contraire à la réponse témoin reste valable si elle est justifiée."
+      ],
+      "feedback": "Si « un violon et une guitare » sont nommés, revenir au timbre perçu plutôt qu’aux identités d’instruments invérifiables.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comprendre et exécuter des messages oraux courants en français.",
+  "concepts": [
+    "consignes",
+    "indices contextuels",
+    "compréhension"
+  ],
+  "preuve_attendue": "Effectuer plusieurs consignes inédites puis les reformuler.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-001-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Effectuer plusieurs consignes inédites puis les reformuler.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_contraint": "variantes_contextuelles_fermees",
+        "algorithme": "Pour q-007 à q-010, indice = (seed + indice_session)%2 et lecture de catalogue_variantes[indice] sans réécriture; aucun générateur de texte libre.",
+        "exemples_verifies": "Voir validation_exemple pour les quatre items fermés; vérification automatisée décrite dans livraison/VALIDATION.md."
+      },
+      "review_status": "banque_redigee_a_revoir_humainement",
+      "kristal_id": "qc-pri-fls-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Effectuer plusieurs consignes inédites puis les reformuler.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "message oral lu par adulte",
+        "objets manipulables ou pointage équivalent",
+        "reformulation intelligible du sens"
+      ],
+      "variables": {
+        "corpus": "scripts fixes et deux variantes fermées pour q-007..q-010",
+        "parametrage": "indice = (seed + indice_session) % 2, indice_session entier 0..999",
+        "semantique": "verbe, objet, lieu et ordre figés pour chaque version"
+      },
+      "contraintes": [
+        "Scripts présentés oralement; ne pas montrer la réponse ni le texte à l'élève.",
+        "Une seule répétition strictement identique selon protocole commun; documenter l'usage.",
+        "Matériel sûr, à portée; aucune observation de l'accent comme critère.",
+        "Chaque variante est exclusivement issue du catalogue fermé de BANQUE_ITEMS.json.",
+        "Deux preuves de maîtrise indépendantes dans des contextes distincts, q-011 et q-012."
+      ],
+      "barreme_ou_rubrique": {
+        "unite": "couple exécution et reformulation pour chaque consigne",
+        "dimensions": [
+          "objet_et_verbe",
+          "relation_spatiale_et_ordre",
+          "reformulation_fidele",
+          "autonomie_et_accessibilite"
+        ],
+        "preuve": "Au moins 2 sur 3 couples complets dans chacun des 2 contextes, aucun type d'erreur essentiel persistant, sans aide sémantique; décision qualitative et possibilité de contre-épreuve après revue."
+      },
+      "source": "scénarios et scripts originaux de qc-pri-fls-001; gouvernance interne v1.2; guide d'accessibilité CAST UDL 3.0 (référence de méthode)",
+      "seed": {
+        "q-007": 1007,
+        "q-008": 1008,
+        "q-009": 1009,
+        "q-010": 1010,
+        "autres": null
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

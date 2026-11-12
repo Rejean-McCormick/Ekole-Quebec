@@ -1,0 +1,86 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-014",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Repérer des groupes de mots et expliquer leurs principales fonctions dans une phrase.",
+  "concepts": [
+    "groupe nominal",
+    "groupe verbal",
+    "fonctions"
+  ],
+  "preuve_attendue": "Segmenter plusieurs phrases et expliciter le rôle de leurs groupes.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-013"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-014-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Segmenter plusieurs phrases et expliciter le rôle de leurs groupes.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Stimuli fixes dans la banque seulement; tout remplacement doit être revu, analysé et ajouté explicitement à une nouvelle version.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-fr-014",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Segmenter plusieurs phrases et expliciter le rôle de leurs groupes.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "phrase écrite délimitée par accolades imbriquées",
+        "étiquettes GN/GV et sujet/prédicat/CD",
+        "réponse argumentative avec manipulation syntaxique"
+      ],
+      "variables": {
+        "mode": "corpus_fixe_controle",
+        "substitution": "aucune sélection aléatoire",
+        "banque": "evaluation/BANQUE_ITEMS.json",
+        "structure": "GN sujet + GV prédicat incluant le GN CD",
+        "contexts_maitrise": [
+          "projets_ecole",
+          "jardin_collectif"
+        ]
+      },
+      "contraintes": [
+        "conserver la phrase entière et les frontières du noyau nominal",
+        "inclure le complément direct nominal dans le GV",
+        "distinguer nature GN/GV de fonction sujet/prédicat/CD",
+        "utiliser uniquement des phrases contrôlées sans ambiguïté",
+        "un seul préalable strict qc-pri-fr-013 avec équivalence attestable au diagnostic",
+        "réponses orales et écrites équivalentes sur l analyse syntaxique",
+        "aucun générateur IA libre ne corrige les réponses"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "segmentation_constituants",
+          "groupes_imbriques_et_nature",
+          "fonctions_et_justification",
+          "autonomie_sur_deux_contextes"
+        ],
+        "decision": "deux preuves distinctes; chaque phrase correctement segmentée et fonctions justifiées; pas de note unique"
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

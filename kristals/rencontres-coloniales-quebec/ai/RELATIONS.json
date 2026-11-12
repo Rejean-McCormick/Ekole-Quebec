@@ -1,0 +1,34 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:rencontres-coloniales-quebec",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:d7f0ba7fdcdc552d4a8c42d943373e8bf8b61b48b4b7a6f2e85628bea2e86c14"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:rencontres-coloniales-quebec:graphe-v3",
+      "logical_contract": {
+        "id": "ekole.societes-contextualisees",
+        "version": "3.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:02dc1275ff5ca68aa39f62f3ab2a0c0c171812de3fa67d72d75250c8f4351b27"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:rencontres-coloniales-quebec:encyclopedie-comportement-v1",
+      "logical_contract": {
+        "id": "ekole.encyclopedie-comportement",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:132aa66b5f9800de6a83137f89883aa5351419aa272f63f57a3c30a4241768e2"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

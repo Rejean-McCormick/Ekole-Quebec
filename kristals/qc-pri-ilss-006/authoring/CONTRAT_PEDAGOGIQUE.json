@@ -1,0 +1,75 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ilss-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier et organiser les informations principales de documents scolaires.",
+  "concepts": [
+    "titre",
+    "consigne",
+    "idée principale",
+    "donnée"
+  ],
+  "preuve_attendue": "Restituer le sens d’un court document pédagogique.",
+  "prerequis_bloquants": [
+    "qc-pri-ilss-005"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ilss-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ilss-006-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Restituer le sens d’un court document pédagogique.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ilss-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Restituer le sens d’un court document pédagogique.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "affiche scolaire courte",
+        "fiche à consigne et paragraphe",
+        "document scolaire avec tableau de données"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Fixe : 10 documents fictifs figés, aucune substitution libre ou paramétrique; stimulus et grille contrôlés.",
+        "Sujet, consigne, idée et données doivent provenir du document; aucune inférence disciplinaire ni anecdote personnelle exigée.",
+        "Accepter des formulations de français émergent et des supports de restitution différents sans changer les critères de compréhension.",
+        "Tracer aide de lecture et étayage; audio intégral seul ne suffit pas à attester une lecture autonome du français.",
+        "Deux contextes indépendants q-009/q-010 avec appréciation par dimensions; jamais maîtrise par note unique."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "repérage_titre_et_consigne",
+          "idée_principale_fidele",
+          "deux_données_exactes",
+          "organisation_et_preuve_textuelle",
+          "autonomie_tracee"
+        ],
+        "decision": "Deux contextes q-009 et q-010, chacun satisfaisant sur repérage, idée, données et organisation, réalisé sans indice de solution; autonomie de navigation vérifiée et conditions consignées."
+      },
+      "source": "documents_pedagogiques_originaux_qc-pri-ilss-006; governance interne v1.2 consultée; sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "cours_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

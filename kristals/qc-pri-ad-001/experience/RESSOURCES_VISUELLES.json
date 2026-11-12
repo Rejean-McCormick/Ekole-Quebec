@@ -1,0 +1,84 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ad-001",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Utiliser corps, voix et espace pour exprimer une intention théâtrale.",
+    "concepts": [
+      "geste",
+      "posture",
+      "voix",
+      "espace"
+    ]
+  },
+  "titre_source": "Explorer corps, voix et espace scénique",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "Un petit plateau de théâtre imaginaire montrant plusieurs places possibles pour entrer, attendre, se déplacer et rencontrer un autre personnage.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Explorer corps, voix et espace scénique » : Utiliser corps, voix et espace pour exprimer une intention théâtrale. Un petit plateau de théâtre imaginaire montrant plusieurs places possibles pour entrer, attendre, se déplacer et rencontrer un autre personnage. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Exprimer une intention par le théâtre : Un petit plateau de théâtre imaginaire montrant plusieurs places possibles pour entrer, attendre, se déplacer et rencontrer un autre personnage.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "Deux personnages fictifs dans une situation de rencontre où l’on peut imaginer plusieurs intentions, sans indiquer l’émotion ou le jugement attendu.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Explorer corps, voix et espace scénique » : Utiliser corps, voix et espace pour exprimer une intention théâtrale. Deux personnages fictifs dans une situation de rencontre où l’on peut imaginer plusieurs intentions, sans indiquer l’émotion ou le jugement attendu. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Exprimer une intention par le théâtre : Deux personnages fictifs dans une situation de rencontre où l’on peut imaginer plusieurs intentions, sans indiquer l’émotion ou le jugement attendu.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Accueillir au jardin de papier",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

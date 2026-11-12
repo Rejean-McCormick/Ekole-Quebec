@@ -1,0 +1,39 @@
+{
+  "format": "ekole.portal-page/0.1",
+  "id": "ekole-page-langues",
+  "slug": "langues",
+  "titre": "Langues et accessibilité",
+  "public_cible": "public",
+  "roles_visuels": [
+    "en_tete",
+    "description",
+    "actions",
+    "ressources",
+    "navigation"
+  ],
+  "utterances": [
+    {
+      "id": "langues-phrase-1",
+      "source": "original_edition_candidat",
+      "fr-CA": "Le contenu pédagogique original est rédigé en français québécois.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "langues-phrase-2",
+      "source": "original_edition_candidat",
+      "fr-CA": "Les autres langues exigent une réalisation et une revue linguistique vérifiables.",
+      "status": "a_revoir_semantik"
+    }
+  ],
+  "component_types": [
+    "utterance",
+    "label_value",
+    "list",
+    "card"
+  ],
+  "access": "public",
+  "language_status": {
+    "fr-CA": "candidat",
+    "en": "non_genere"
+  }
+}

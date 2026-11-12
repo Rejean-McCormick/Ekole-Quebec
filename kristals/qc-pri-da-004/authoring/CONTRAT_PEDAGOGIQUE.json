@@ -1,0 +1,62 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-da-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Combiner plusieurs phrases dansées en une composition cohérente.",
+  "concepts": [
+    "enchainement",
+    "contraste",
+    "organisation",
+    "intention"
+  ],
+  "preuve_attendue": "Créer une courte composition et justifier l’ordre des motifs.",
+  "prerequis_bloquants": [
+    "qc-pri-da-003"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-da-004-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Créer une courte composition et justifier l’ordre des motifs.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-da-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Créer une courte composition et justifier l’ordre des motifs.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "mouvements corporels accessibles",
+        "composition dirigée auprès d’un interprète volontaire",
+        "cartes-schéma et justification multimodale"
+      ],
+      "variables": [],
+      "contraintes": [
+        "banque non paramétrique : supports et gestes accessibles variables, mais scénarios fixés",
+        "au moins trois phrases distinguables de deux actions; deux transitions; contraste; justification de l’ordre",
+        "deux preuves distinctes q-009 (temps) et q-010 (espace), sans indices de contenu",
+        "pas de capture imposée, acrobatie ou barème fondé sur morphologie/virtuosité"
+      ],
+      "barreme_ou_rubrique": "Échelle 0–3 par dimension A organisation, B enchainement, C contraste, D justification; seuil 2/3 dans CHAQUE dimension sur q-009 ET q-010, avec autonomie.",
+      "source": "kristals/qc-pri-da-004/evaluation/PLAN_EVALUATION.md et kristals/qc-pri-da-004/contenu/01_NOTIONS_ET_EXEMPLES.md — productions originales, revue à faire",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

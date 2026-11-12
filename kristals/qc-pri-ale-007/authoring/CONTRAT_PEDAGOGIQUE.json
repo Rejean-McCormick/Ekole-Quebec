@@ -1,0 +1,94 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Formuler une appréciation littéraire fondée sur des éléments de l’œuvre.",
+  "concepts": [
+    "theme",
+    "narrative choice",
+    "textual evidence"
+  ],
+  "preuve_attendue": "Défendre une appréciation et reconnaître une autre lecture possible.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-004"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-007-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Défendre une appréciation et reconnaître une autre lecture possible.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ale-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Défendre une appréciation et reconnaître une autre lecture possible.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "récit court original",
+        "poème original",
+        "comparaison de deux fins"
+      ],
+      "variables": [],
+      "contraintes": {
+        "mode": "fixe",
+        "textes_autorises": [
+          "The Shared Pencil",
+          "After the Rain",
+          "The Painted Sign",
+          "The Tin Box",
+          "Cloud Ladder",
+          "The Bench Map",
+          "Two Endings",
+          "Small Compass",
+          "The Unfinished Mural",
+          "The Empty Pocket"
+        ],
+        "invariants": [
+          "objectif obj-1",
+          "critère crit-1",
+          "line numbers of each stimulus",
+          "source text",
+          "no free-generative substitutions"
+        ],
+        "reponses_variantes": "opinion personnelle libre mais lien précis et cohérent aux passages imposé",
+        "conditions": "q-009 and q-010 in different genres, independently, with no scaffolding"
+      },
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "interprétation du thème",
+          "analyse du choix narratif ou poétique",
+          "preuves textuelles expliquées",
+          "autre lecture possible appuyée"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "maitrise": "au moins deux preuves distinctes satisfaisantes et autonomes; une note isolée ne suffit pas"
+      },
+      "source": "corpus original qc-pri-ale-007; autorités de méthode internes v1.2 et référence Purdue OWL vérifiée",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

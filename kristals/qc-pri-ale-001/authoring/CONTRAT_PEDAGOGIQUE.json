@@ -1,0 +1,74 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Segmenter et manipuler syllabes et phonèmes de mots anglais oraux.",
+  "concepts": [
+    "syllable",
+    "phoneme",
+    "onset",
+    "rime"
+  ],
+  "preuve_attendue": "Recomposer oralement des mots nouveaux après segmentation.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-001-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Recomposer oralement des mots nouveaux après segmentation.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ale-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Recomposer oralement des mots nouveaux après segmentation.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "script vocal bref lu par adulte",
+        "unités sonores orales avec pauses",
+        "jetons sans lettres facultatifs"
+      ],
+      "variables": {
+        "mode_fixe": "stimulus et réponse verrouillés",
+        "mode_scenario_controle": "variante A ou B définie dans BANQUE_ITEMS.json; seed entier et choix A si pair, B si impair"
+      },
+      "contraintes": [
+        "aucun mot écrit montré à l’élève pendant la réponse",
+        "aucun mot entier prononcé avant fusion pour un item de synthèse",
+        "scripts A/B présents, vocabulaire anglais courant, corrigés fournis",
+        "évaluer au moins deux contextes et une preuve sans indice",
+        "aucune génération IA libre comme arbitre des réponses"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md : segmentation et synthèse audibles, exactitude des mots, processus et autonomie, deux contextes séparés; envoi à revue humaine",
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": {
+        "regle": "pair -> A ; impair -> B",
+        "graines_stables": [
+          410,
+          421
+        ]
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_produits_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

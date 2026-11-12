@@ -1,0 +1,605 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ilss-008",
+  "family_id": "qc-pri-ilss-008-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ilss-008-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris deux ou trois phrases qui informent une autre classe des livres remis chaque jour.",
+      "stimulus": "Tableau fictif — livres remis au chariot : lundi = 4, mardi = 6.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Le chariot reçoit des livres. Lundi, 4 livres ont été remis. Mardi, 6 livres ont été remis. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Nommer le relevé et associer lundi à 4, mardi à 6.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Nommer le relevé et associer lundi à 4, mardi à 6.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "Un jour et son nombre ont été mélangés : souligne les deux couples jour-nombre avant de réécrire.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "diagnostic",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/02_DIAGNOSTIC.md"
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Dis oralement ce qui est observé, puis écris une phrase qui annonce le sujet et une phrase donnant les deux relevés.",
+      "stimulus": "Activité fictive, classe B : lundi = 3 pots observés; mercredi = 5 pots observés.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « La classe B observe des pots. Elle en compte 3 lundi et 5 mercredi. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Nommer les pots, écrire les nombres 3 et 5 avec les jours corrects.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Nommer les pots, écrire les nombres 3 et 5 avec les jours corrects.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "Si tu comprends les nombres oralement mais ne les écris pas, travaille une phrase courte sur les données.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "diagnostic",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/02_DIAGNOSTIC.md"
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir des données et de l’aide proposée, écris deux ou trois phrases présentant les deux jours.",
+      "stimulus": "Relevé fictif de livres lus : lundi = 5; jeudi = 7. Aide proposée : « Le relevé concerne ___. Lundi, ___. Jeudi, ___. »; mots : livres, lundi, jeudi.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Le relevé concerne les livres lus. Lundi, 5 livres ont été lus. Jeudi, 7 livres ont été lus. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Associer lundi à 5 et jeudi à 7 et rédiger des phrases informatives.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Associer lundi à 5 et jeudi à 7 et rédiger des phrases informatives.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "Le gabarit aide à démarrer; vérifie chaque valeur et explique ton ordre avant un essai sans gabarit.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "guidage_fort",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/04_PRATIQUE_ACCOMPAGNEE.md"
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris deux à quatre phrases qui expliquent les étapes du tri à une autre équipe dans un ordre utile.",
+      "stimulus": "Étapes fictives à expliquer : 1. Regrouper les cartes par couleur. 2. Compter les cartes de chaque groupe. 3. Noter les quantités sur une feuille. Les numéros sont fournis comme indice visuel.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Nous suivons trois étapes pour trier les cartes. D’abord, nous regroupons les cartes par couleur. Ensuite, nous comptons chaque groupe. Enfin, nous notons les quantités. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Conserver la séquence grouper, compter, noter sans modifier les actions.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Conserver la séquence grouper, compter, noter sans modifier les actions.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "La dernière action dépend du comptage : place les étapes dans l’ordre avant de rédiger à nouveau.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "guidage_moyen",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/04_PRATIQUE_ACCOMPAGNEE.md"
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige un texte présentant les deux indications de cette affiche fictive.",
+      "stimulus": "Affiche de tri entièrement fictive : papier → bac bleu; déchets alimentaires → bac brun. Question préparatoire unique : « Quel est ton sujet principal ? ».",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Cette affiche explique où déposer deux matières. Le papier va dans le bac bleu. Les déchets alimentaires vont dans le bac brun. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Respecter les deux associations de cette seule affiche, sans prétendre décrire toutes les municipalités.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Respecter les deux associations de cette seule affiche, sans prétendre décrire toutes les municipalités.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "Ta phrase centrale doit annoncer l’affiche, puis chaque phrase doit relier une matière à son bac.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "guidage_minimal",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/04_PRATIQUE_ACCOMPAGNEE.md"
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige trois ou quatre phrases présentant les relevés et précise quel jour est le plus chaud.",
+      "stimulus": "Relevé météorologique fictif d’une classe : lundi = 12 °C; mercredi = 15 °C; vendredi = 13 °C.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Nous avons noté trois températures. Lundi, la température est de 12 °C. Mercredi, elle est de 15 °C et vendredi de 13 °C. Mercredi est le jour le plus chaud. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Associer jours/températures et identifier mercredi, 15 °C, comme maximum.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Associer jours/températures et identifier mercredi, 15 °C, comme maximum.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "Reprends ton tableau : 15 °C est la plus grande valeur et elle correspond à mercredi.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "autonomie",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/05_PRATIQUE_AUTONOME.md"
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige un court texte qui présente toutes les catégories au responsable du coin lecture.",
+      "stimulus": "Inventaire fictif du coin lecture : 6 albums, 4 bandes dessinées, 3 documentaires.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Le coin lecture possède trois catégories de livres. On y trouve 6 albums et 4 bandes dessinées. Il contient aussi 3 documentaires. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Faire apparaître les trois catégories et leurs nombres exacts dans un texte organisé.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Faire apparaître les trois catégories et leurs nombres exacts dans un texte organisé.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "Relis la liste : chaque catégorie a-t-elle été nommée avec son nombre ?",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "autonomie",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/05_PRATIQUE_AUTONOME.md"
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris un court compte rendu présentant les deux mesures et la différence observée.",
+      "stimulus": "Deux mesures fictives d’un ruban : avant la coupe = 30 cm; après la coupe = 20 cm.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Nous avons mesuré le ruban avant et après une coupe. Avant, il mesure 30 cm. Après, il mesure 20 cm : il est plus court de 10 cm. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Présenter avant 30 cm puis après 20 cm; constater raccourcissement (différence de 10 cm facultative).",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Présenter avant 30 cm puis après 20 cm; constater raccourcissement (différence de 10 cm facultative).",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "Reviens aux mesures : 30 puis 20; le ruban est plus court après, de 10 cm si tu le calcules.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "autonomie",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/05_PRATIQUE_AUTONOME.md"
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "En trois à cinq phrases, explique la distribution au responsable du matériel.",
+      "stimulus": "Liste fictive de crayons : équipe A = 5; équipe B = 7; équipe C = 6.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Trois équipes vont recevoir des crayons. L’équipe A doit en avoir 5. L’équipe B en reçoit 7 et l’équipe C en reçoit 6. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Associer A à 5, B à 7 et C à 6, avec un destinataire et une idée centrale clairs.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Associer A à 5, B à 7 et C à 6, avec un destinataire et une idée centrale clairs.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "Une quantité a changé d’équipe : relie chaque étiquette à son nombre avant de réviser.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "autonomie",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/05_PRATIQUE_AUTONOME.md"
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Après avoir rappelé oralement l’idée principale, écris de façon personnelle deux ou trois phrases qui présentent les deux relevés dans l’ordre.",
+      "stimulus": "Relevé fictif de production d’affiches : jour 2 = 2 affiches; jour 4 = 4 affiches.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Nous comptons les affiches produites. Au jour 2, 2 affiches sont prêtes. Au jour 4, il y en a 4, donc davantage qu’au jour 2. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Évoquer le sujet et ordonner deux dates et deux nombres sans ajout inexistant.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Évoquer le sujet et ordonner deux dates et deux nombres sans ajout inexistant.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "Si ton texte commence par un chiffre sans sujet, écris une phrase qui annonce ce qui est compté.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "consolidation",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans plan rédigé ni phrase suggérée, écris un court compte rendu indiquant ce qui est observé, les deux relevés et leur évolution.",
+      "stimulus": "Compte rendu scientifique — données fictives : plante C, nombre de feuilles : jour 1 = 3, jour 6 = 5. Ces données ne renseignent pas sur la cause du changement.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Nous observons les feuilles de la plante C. Au jour 1, elle a 3 feuilles. Au jour 6, elle en a 5. Le nombre de feuilles a augmenté. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Associer plante C, jour 1 = 3 et jour 6 = 5; dire augmentation et non cause supposée.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Associer plante C, jour 1 = 3 et jour 6 = 5; dire augmentation et non cause supposée.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "L’évolution se décrit avec les deux relevés; n’invente pas ce qui a causé le changement.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "preuve_autonome_1_sciences",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/06_REMEDIATION_ET_TRANSFERT.md",
+      "preuve_maitrise": {
+        "contexte": "sciences_observation",
+        "autonomie_requise": true,
+        "seuil": {
+          "C1": 2,
+          "C2": 2,
+          "C3": 1,
+          "C4": 2
+        },
+        "condition": "Texte formulé par élève sans plan ni phrase fournis, source correctement exploitée, sans fait inventé, trace des aménagements et du processus."
+      }
+    },
+    {
+      "item_id": "qc-pri-ilss-008-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-008-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans plan rédigé ni phrase suggérée, écris à une autre classe un court texte présentant les relevés et indiquant quel jour compte le plus d’emprunts.",
+      "stimulus": "Communication mathématique — données fictives : emprunts de livres à la bibliothèque de classe : lundi = 8, mercredi = 11, vendredi = 9.",
+      "reponse_attendue": "Exemple de texte recevable, non unique : « Nous comparons les emprunts de livres de trois jours. Lundi, 8 livres ont été empruntés. Mercredi, il y en a eu 11 et vendredi 9. Le plus grand nombre d’emprunts a été noté mercredi. » Aucune reprise mot pour mot exigée. Justesse à contrôler : Associer lundi à 8, mercredi à 11, vendredi à 9; conclure que mercredi a le maximum.",
+      "criteres": [
+        "C1 — Respecter la consigne et les faits : Associer lundi à 8, mercredi à 11, vendredi à 9; conclure que mercredi a le maximum.",
+        "C2 — Énoncer une idée principale identifiable.",
+        "C3 — Produire des phrases compréhensibles; erreurs de forme tolérées si le sens reste clair.",
+        "C4 — Ordonner les informations pour un lecteur qui ne connaît pas le contexte."
+      ],
+      "rubrique": {
+        "C1": {
+          "0": "Hors sujet ou données majeures inexacts/inventées.",
+          "1": "Sujet présent mais donnée demandée omise ou imprécise.",
+          "2": "Consigne respectée, informations pertinentes exactes, aucun fait inventé."
+        },
+        "C2": {
+          "0": "Absence de sujet reconnaissable.",
+          "1": "Sujet vague ou devinable.",
+          "2": "Idée principale compréhensible sans intervention."
+        },
+        "C3": {
+          "0": "Fragments empêchant la compréhension.",
+          "1": "Au moins deux propositions intelligibles malgré erreurs de forme.",
+          "2": "Phrases claires et suffisamment délimitées; erreurs mineures tolérées."
+        },
+        "C4": {
+          "0": "Informations contradictoires ou sans ordre.",
+          "1": "Ordre partiellement compréhensible.",
+          "2": "Annonce et détails organisés selon la temporalité ou la comparaison."
+        }
+      },
+      "feedback": "Compare 8, 11 et 9 : le plus grand est 11; vérifie que ta conclusion nomme mercredi.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "phase": "preuve_autonome_2_mathematique",
+      "representation": "consigne écrite et document scolaire fictif textuel, accessible en lecture orale sans solution",
+      "variabilite_permise": "Formulation personnelle, synonymes et nombre de phrases variable lorsque les critères C1–C4 sont observables; adaptation de saisie documentée.",
+      "limites_variation": "Stimulus, faits, nombres, jours et consigne verrouillés; aucun remplacement par génération IA libre; ne pas montrer la réponse témoin avant remise.",
+      "source": "contenu/06_REMEDIATION_ET_TRANSFERT.md",
+      "preuve_maitrise": {
+        "contexte": "mathematique_communication",
+        "autonomie_requise": true,
+        "seuil": {
+          "C1": 2,
+          "C2": 2,
+          "C3": 1,
+          "C4": 2
+        },
+        "condition": "Texte formulé par élève sans plan ni phrase fournis, source correctement exploitée, sans fait inventé, trace des aménagements et du processus."
+      }
+    }
+  ]
+}

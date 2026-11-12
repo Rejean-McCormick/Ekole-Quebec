@@ -1,0 +1,96 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Représenter le partage et le groupement pour résoudre des divisions.",
+  "concepts": [
+    "quotient",
+    "reste",
+    "partage",
+    "groupement"
+  ],
+  "preuve_attendue": "Effectuer un partage justifié et vérifier quotient et reste.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-008"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-009-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Effectuer un partage justifié et vérifier quotient et reste.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ma-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "partage_concret",
+        "groupement_schematique",
+        "notation_et_justification"
+      ],
+      "variables": {
+        "N": "total entier calculé",
+        "d": "diviseur entier positif, 3..10",
+        "q": "quotient entier, 3..12",
+        "r": "reste 0 ou 1..d-1",
+        "seed": "entier 1..999999"
+      },
+      "contraintes": [
+        "N=d×q+r",
+        "0≤r<d",
+        "diviseur non nul",
+        "arrondis non permis",
+        "unités adaptées au sens partage ou groupement",
+        "contextes verrouillés et approuvés seulement",
+        "aucun tirage libre IA"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "representation_et_unites",
+          "exactitude_q_r",
+          "verification_egalite_et_reste",
+          "justification_contextuelle"
+        ],
+        "maitrise": "4 dimensions satisfaites dans deux preuves autonomes de contextes distincts; aucune note unique"
+      },
+      "source": "situations numériques originales produites pour qc-pri-ma-009; frame pédagogique interne v1.2",
+      "seed": [
+        2101,
+        2104,
+        2106,
+        2108,
+        2110
+      ],
+      "validation_status": "a_revoir",
+      "generation_regles": {
+        "mode": "parametrique_deterministe",
+        "algorithme": "d = 3 + ((7*seed+3) % 8); q = 3 + ((5*seed+1) % 10); r = 0 si type_reste=exact, sinon 1 + ((11*seed+2) % (d-1)); N = d*q+r. Ne pas changer les unités; seule la situation approuvée peut varier.",
+        "seed_domaine": "1..999999; arithmétique entière seulement",
+        "validation": "pour chaque instance, contrôler divmod(N,d)==(q,r), N=d*q+r et 0≤r<d",
+        "instances_approuvees": "celles fixées dans evaluation/BANQUE_ITEMS.json; toute nouvelle variante exige revue humaine"
+      },
+      "preuves_maitrise": [
+        "qc-pri-ma-009-q-011",
+        "qc-pri-ma-009-q-012"
+      ]
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

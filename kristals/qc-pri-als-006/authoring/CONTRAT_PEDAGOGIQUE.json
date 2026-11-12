@@ -1,0 +1,71 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire une expérience proche en phrases anglaises simples.",
+  "concepts": [
+    "personnes",
+    "actions",
+    "temps présent",
+    "connecteurs"
+  ],
+  "preuve_attendue": "Raconter oralement une situation familière avec trois informations pertinentes.",
+  "prerequis_bloquants": [
+    "qc-pri-als-005"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-006-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Raconter oralement une situation familière avec trois informations pertinentes.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-als-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Raconter oralement une situation familière avec trois informations pertinentes.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "scène fictive décrite oralement et/ou par pictogrammes accessibles",
+        "production orale observable en anglais",
+        "notes critériées de l’évaluateur"
+      ],
+      "variables": [],
+      "contraintes": [
+        "items fixes : ne pas substituer librement les scènes en évaluation",
+        "scènes fictives sans divulgation personnelle obligatoire",
+        "minimum de trois informations distinctes pertinentes, dont au moins une personne et une action",
+        "présent simple ou progressif sémantiquement adéquat",
+        "intelligibilité jugée sans accent natif exigé",
+        "preuves de maîtrise : deux scènes nouvelles distinctes sans formulation ni traduction soufflée",
+        "relecture humaine et adaptation d’accès documentées"
+      ],
+      "barreme_ou_rubrique": {
+        "dimension_1": "trois informations distinctes et pertinentes à la scène",
+        "dimension_2": "personne(s) identifiable(s) et au moins une action exprimée en anglais au présent pertinent",
+        "dimension_3": "message oral intelligible et cohérent; lien compréhensible, sans exigence de prononciation native",
+        "dimension_4": "autonomie sans indice lexical ni modèle pendant la preuve",
+        "decision": "deux prestations satisfaisantes en contextes différents (items 007 et 008), chacune avec 3 informations, présent intelligible et autonomie; pas de note unique"
+      },
+      "source": "sources/REFERENCES_CONTENU.md — stimuli et productions originales, gouvernance v1.2 consultée localement",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

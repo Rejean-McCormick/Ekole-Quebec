@@ -1,0 +1,151 @@
+{
+  "format": "ekole.kristal-visuels-conceptuels/2.1",
+  "aucune_generation_dans_ce_lot": true,
+  "politique": "Descriptions sans style, aucun fichier généré. Pour les ressources à forte sensibilité culturelle, revue par une personne ressource de la nation concernée avant publication.",
+  "images": [
+    {
+      "id": "visuel:territoires-presences",
+      "moment": "Découvrir",
+      "titre": "Territoires habités",
+      "concept_prompt": "Représenter plusieurs lieux habités et plusieurs communautés autochtones distinctes sur le territoire de l’actuel Québec avant les établissements coloniaux français. Mettre en évidence l’ancienneté de la présence, la pluralité des nations et leurs relations avec le territoire. Éviter une carte qui prétend délimiter exactement tous les droits territoriaux ou des costumes attribués à une nation sans source. Aucun texte ni réponse.",
+      "expected_path": "assets/territoires-presences.webp",
+      "alt_fr": "Territoires habités",
+      "contraintes": "aucune carte historique factuelle sans données géographiques validées",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:echanges-et-ressources",
+      "moment": "Essayer",
+      "titre": "Échange de ressources",
+      "concept_prompt": "Représenter une situation historique d’échange entre des partenaires autochtones et des commerçants français, où les fourrures et des objets manufacturés sont des ressources présentes. Rendre visibles les acteurs et la circulation des biens sans hiérarchie implicite. Éviter d’affirmer qu’une transaction unique décrit toutes les relations. Aucun mot ni quantité évaluée.",
+      "expected_path": "assets/echanges-et-ressources.webp",
+      "alt_fr": "Échange de ressources",
+      "contraintes": "les quantités et la validation d’échanges appartiennent au MiniLab",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:diplomatie-1701",
+      "moment": "Comparer",
+      "titre": "Négociations entre délégations",
+      "concept_prompt": "Illustrer une réunion diplomatique rassemblant des représentants de plusieurs nations autochtones distinctes et des autorités françaises autour d’une négociation en 1701 à Montréal. Montrer la pluralité des interlocuteurs et le rôle des paroles et des accords. Éviter les reproductions supposées exactes de personnes, objets cérémoniels ou symboles sacrés sans sources. Sans texte et sans réponses visibles.",
+      "expected_path": "assets/diplomatie-1701.webp",
+      "alt_fr": "Négociations entre délégations",
+      "contraintes": "toute image présentée comme document historique doit avoir provenance et révision",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:sources-et-voix",
+      "moment": "Enquêter",
+      "titre": "Des documents et leurs perspectives",
+      "concept_prompt": "Représenter deux documents historiques étudiés côte à côte, avec des repères indiquant qu’ils proviennent d’époques ou d’auteurs différents, et des espaces libres pour questionner ce qu’ils montrent et ce qui manque. Ne pas simuler une citation autochtone ni inventer des mots d’archives. Sans texte dans l’image.",
+      "expected_path": "assets/sources-et-voix.webp",
+      "alt_fr": "Des documents et leurs perspectives",
+      "contraintes": "les deux sources réelles sont consultables séparément",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:aujourdhui-nations",
+      "moment": "Découvrir",
+      "titre": "Les nations aujourd’hui",
+      "concept_prompt": "Représenter la vie contemporaine et la diversité de plusieurs communautés autochtones du Québec, en mettant en évidence qu’elles existent aujourd’hui et évoluent. Ne pas mettre toutes les nations dans une seule représentation culturelle; éviter les traits génériques et les vêtements dits « traditionnels » imposés. Sans texte.",
+      "expected_path": "assets/aujourdhui-nations.webp",
+      "alt_fr": "Les nations aujourd’hui",
+      "contraintes": "à soumettre à des représentantes et représentants des nations avant diffusion",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:transitions-droits",
+      "moment": "Explorer",
+      "titre": "Des régimes et des droits",
+      "concept_prompt": "Représenter une continuité de sociétés autochtones à travers des changements d’autorités coloniales et des démarches de défense de leur territoire. Faire comprendre que changer de régime politique ne fait pas disparaître les nations et que leurs représentants prennent des initiatives. Ne pas imposer une carte de propriété, une frontière non documentée ou des vêtements identitaires fictifs. Ne pas représenter la souffrance d’enfants ni des pensionnats. Aucun texte et aucune réponse.",
+      "expected_path": "assets/transitions-droits.webp",
+      "alt_fr": "Sociétés vivantes et changements politiques",
+      "contraintes": "pas de reconstitution historique présentée comme document authentique",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:roles-taches-ressources",
+      "moment": "Exploration des sources et relations",
+      "titre": "Relier le travail, le rôle et la ressource",
+      "concept_prompt": "Représenter trois catégories reconnaissables dans une scène pédagogique : une personne exerçant un rôle, une action accomplie et une ressource utilisée. Prévoir des zones distinctes où l’interface pourra superposer des étiquettes exactes générées par le moteur. Les exemples spécifiques à une nation doivent être référencés dans le corpus du cours. Ne pas attribuer d’objets ou vêtements culturellement précis sans documentation. Ne pas afficher de solution.",
+      "expected_path": "assets/roles-taches-ressources.webp",
+      "alt_fr": "Schéma général des liens entre rôle, action et ressource.",
+      "contraintes": "aucune image historique présentée comme preuve sans vérification",
+      "statut": "description_sans_image",
+      "source_fact_ids": [],
+      "media_role": "contexte_conceptuel_non_evaluatif"
+    },
+    {
+      "id": "visuel:wendat-conseil-actuel",
+      "moment": "Exploration des sources et relations",
+      "titre": "Des responsabilités de gouvernance contemporaines",
+      "concept_prompt": "Représenter la notion de conseil d’élus, de représentation des membres, de discussion et de services collectifs dans le contexte contemporain de la Nation Wendat. Les éléments institutionnels doivent être génériques tant qu’aucune référence visuelle validée par la Nation n’est fournie. Ne pas simuler un portrait d’une personne réelle ni inventer de symboles sacrés. Prévoir des emplacements libres pour les étiquettes interactives.",
+      "expected_path": "assets/wendat-conseil-actuel.webp",
+      "alt_fr": "Concept d’un conseil actuel représentant une communauté.",
+      "contraintes": "aucune image historique présentée comme preuve sans vérification",
+      "statut": "description_sans_image",
+      "source_fact_ids": [],
+      "media_role": "contexte_conceptuel_non_evaluatif"
+    },
+    {
+      "id": "visuel:innus-recits",
+      "moment": "Exploration des sources et relations",
+      "titre": "Transmission intergénérationnelle de récits",
+      "concept_prompt": "Faire comprendre que des personnes de différentes générations peuvent transmettre des récits et des connaissances lors de rassemblements saisonniers décrits dans une source innue. Ne pas suggérer que toutes les familles et toutes les époques suivent la même pratique. Ne pas imaginer des motifs culturels, des vêtements traditionnels spécifiques ou des cérémonies sans document de référence autorisé. L’espace doit permettre l’ajout de mots-clés séparés par Ekole.",
+      "expected_path": "assets/innus-recits.webp",
+      "alt_fr": "Situation conceptuelle de transmission de savoirs entre générations.",
+      "contraintes": "aucune image historique présentée comme preuve sans vérification",
+      "statut": "description_sans_image",
+      "source_fact_ids": [],
+      "media_role": "contexte_conceptuel_non_evaluatif"
+    },
+    {
+      "id": "visuel:innus-ressources",
+      "moment": "Exploration des sources et relations",
+      "titre": "Tâches saisonnières et ressources",
+      "concept_prompt": "Décrire la relation entre une saison, une activité d’entretien d’outils, une activité de pêche et les ressources environnementales dans la ressource Nametau innu. Préparer trois zones d’observation distinctes, sans transformer le montage en une chronologie universelle ni prétendre restituer une scène historique exacte. Ne pas afficher de données de capture ou de droits non documentés.",
+      "expected_path": "assets/innus-ressources.webp",
+      "alt_fr": "Concept de trois activités et ressources saisonnières documentées.",
+      "contraintes": "aucune image historique présentée comme preuve sans vérification",
+      "statut": "description_sans_image",
+      "source_fact_ids": [],
+      "media_role": "contexte_conceptuel_non_evaluatif"
+    },
+    {
+      "id": "visuel:traite-1701-sources",
+      "moment": "Exploration des sources et relations",
+      "titre": "Traité et provenance des paroles",
+      "concept_prompt": "Illustrer la différence conceptuelle entre une rencontre diplomatique de plusieurs délégations et un document colonial qui en conserve une transcription. Montrer la relation entre événement, source et interprétation, sans reproduire de signatures, wampums, emblèmes ou symboles historiques spécifiques sans droits et validation. Ne présenter aucune parole inventée comme citation authentique.",
+      "expected_path": "assets/traite-1701-sources.webp",
+      "alt_fr": "Schéma des liens entre négociations de 1701 et document historique.",
+      "contraintes": "aucune image historique présentée comme preuve sans vérification",
+      "statut": "description_sans_image",
+      "source_fact_ids": [],
+      "media_role": "contexte_conceptuel_non_evaluatif"
+    },
+    {
+      "id": "visuel:comparaison-temporelle",
+      "moment": "Exploration des sources et relations",
+      "titre": "Lire une même société à plusieurs époques",
+      "concept_prompt": "Représenter une comparaison en colonnes : pratiques historiquement décrites, événements coloniaux, responsabilités institutionnelles contemporaines. Les colonnes ne doivent pas suggérer que l’une remplace totalement l’autre ni que les nations auraient cessé d’exister. Aucun repère de date ou carte non sourcé; l’interface superposera la chronologie validée.",
+      "expected_path": "assets/comparaison-temporelle.webp",
+      "alt_fr": "Comparaison conceptuelle entre périodes sans effacer les continuités.",
+      "contraintes": "aucune image historique présentée comme preuve sans vérification",
+      "statut": "description_sans_image",
+      "source_fact_ids": [],
+      "media_role": "contexte_conceptuel_non_evaluatif"
+    },
+    {
+      "id": "visuel:relations-reciproques",
+      "moment": "Exploration des sources et relations",
+      "titre": "Relations multiples entre organisations",
+      "concept_prompt": "Représenter un réseau de plusieurs communautés et institutions reliées par des échanges, négociations, alliances et désaccords, sans hiérarchie implicite et sans associer une nation à un cliché visuel. Les étiquettes, noms et directions de relations doivent provenir du graphe plutôt que de l’image, qui ne doit pas imposer d’affirmations historiques précises.",
+      "expected_path": "assets/relations-reciproques.webp",
+      "alt_fr": "Réseau conceptuel de relations multiples entre organisations.",
+      "contraintes": "aucune image historique présentée comme preuve sans vérification",
+      "statut": "description_sans_image",
+      "source_fact_ids": [],
+      "media_role": "contexte_conceptuel_non_evaluatif"
+    }
+  ]
+}

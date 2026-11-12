@@ -1,0 +1,100 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier ses segments corporels et coordonner un mouvement simple.",
+  "concepts": [
+    "corps",
+    "posture",
+    "latéralité",
+    "perception"
+  ],
+  "preuve_attendue": "Exécuter un mouvement ciblé en décrivant ses repères corporels.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-001-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Exécuter un mouvement ciblé en décrivant ses repères corporels.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-eps-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Exécuter un mouvement ciblé en décrivant ses repères corporels.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "geste observe directement",
+        "schema corporel/affiche de segments",
+        "consigne orale et pictogrammes",
+        "description par parole, pointage ou aide a la communication"
+      ],
+      "variables": {
+        "modalites_acceptees": [
+          "assis avec soutien",
+          "debout avec appui si sûr",
+          "autre position stabilisee",
+          "segment alternatif accessible et volontaire"
+        ],
+        "segments_autorises": [
+          "avant-bras",
+          "main",
+          "bras",
+          "pied",
+          "jambe",
+          "tete selon securite"
+        ],
+        "reperes": [
+          "pastille de depart",
+          "pastille d arrivee",
+          "direction de fleche",
+          "articulation nommee"
+        ],
+        "contextes_finaux": [
+          "atelier de pastilles colorees",
+          "poste de carte gestuelle"
+        ]
+      },
+      "contraintes": [
+        "Aucune performance physique brute, vitesse, amplitude, force ou morphologie notee.",
+        "Un mouvement volontaire et ciblé observable; aucune imitation de geste douloureux ou dangereux.",
+        "Deux contextes independants; aide logistique non decisionnelle autorisee.",
+        "Variantes seulement parmi scenarios approuves dans BANQUE_ITEMS.json; aucune generation IA libre."
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "segment_cible_identifie",
+          "mouvement_volontaire_coordonne_et_sur",
+          "deux_reperes_explicites",
+          "autonomie_et_transfert"
+        ],
+        "echelle": "0 non observable / 1 avec indice / 2 autonome adapté; securite condition eliminatoire en cas de danger non resolu",
+        "decision": "2 preuves en contextes distincts; toutes les dimensions essentielles a 2 sans guidage decisionnel; pas de note unique; voir GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": 2026001,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

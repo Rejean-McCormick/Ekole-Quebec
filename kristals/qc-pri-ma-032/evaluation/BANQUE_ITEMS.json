@@ -1,0 +1,879 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-032",
+  "family_id": "qc-pri-ma-032-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "statut": "a_revoir_pedagogiquement",
+  "notes_variation": "Huit items paramétriques strictement déterministes, quatre scénarios fixes; justification obligatoire. Deux manifestations distinctes q-010 et q-011 sans indice. Aucune génération libre ni certification.",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-032-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "parametrique",
+      "consigne": "Classe R, B, V et « R ou B »; compare les chances de R et B. Justifie à partir des effectifs et des conditions.",
+      "stimulus": "Sac : 5 jetons R, 1 jetons B, aucun V; jetons identiques au toucher, tirés à l’aveugle et bien mélangés; un seul tirage. Total : 6.",
+      "reponse_attendue": "R : probable et plus probable que B (5/6), mais non certain; B : possible et moins probable (1/6); V : impossible (0/6); R ou B : certain (6/6). Même chance par jeton.",
+      "criteres": [
+        "Classe chacun des événements selon zéro, quelques ou toutes les issues favorables",
+        "Compare les chances à partir des cas favorables sur un total commun et distingue égalité, majorité et minorité",
+        "Justifie avec la composition complète et l’hypothèse de mêmes chances pour chaque issue; n’infère jamais un tirage particulier"
+      ],
+      "feedback": "Si la classification est fausse, recompte d’abord les issues réellement présentes : 0 = impossible, toutes = certain, sinon possible. Pour comparer, compte les issues favorables sur le même total; un événement rare reste possible et un événement majoritaire reste non certain si une autre issue existe.",
+      "difficulte": "initial",
+      "representation": "objets_et_tableau",
+      "seed": 3201,
+      "parametres": {
+        "variables": [
+          "r",
+          "b"
+        ],
+        "domaines_discrets_ordonnes": {
+          "r": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "b": [
+            1,
+            2
+          ]
+        },
+        "contraintes": [
+          "Chacune des issues élémentaires est équiprobable : jetons/cartes identiques mélangés ou secteurs égaux sur roue non biaisée",
+          "Un seul tirage/lancer; aucune hypothèse de tirages successifs",
+          "Effectifs entiers positifs pour les étiquettes présentes, zéro pour les absentes",
+          "Pour comparer les événements, utiliser le même total et les mêmes conditions",
+          "Pour cet item, tous les tuples cartésiens du domaine respectent les contraintes de la catégorie demandée"
+        ],
+        "algorithme_de_generation": "Pour seed entière s≥0, initialiser r=s; pour chaque variable dans l’ordre de variables, prendre la liste ordonnée D, sélectionner D[r modulo len(D)], remplacer r par floor(r/len(D)); rendre stimulus par gabarit de type sac_majoritaire sans tirage aléatoire. La seed du champ externe est la seed de cette instance. Si plusieurs seeds donnent le même tuple, elles reproduisent exactement la même instance.",
+        "algorithme_de_correction": "Construire indépendamment la liste ou le comptage des issues élémentaires équiprobables (somme des effectifs ou numéros de 1 à n); pour chaque événement E compter k(E) cases favorables; contrôler 0≤k(E)≤N, N>0; impossible si k=0, certain si k=N, possible non certain sinon. Comparer deux événements E,F dans la même expérience par k(E) et k(F); qualifier strictement probable (majorité) uniquement si 2k(E)>N. Les fractions affichées sont k(E)/N, non arrondies. Contrôler que l’événement complémentaire a N−k issues.",
+        "formules": "p(E)=k(E)/N quand toutes les N issues sont équiprobables; p(E)>p(F) ⇔ k(E)>k(F); p(E)=1 ⇔ k(E)=N; p(E)=0 ⇔ k(E)=0; convention « probable » : 2k(E)>N et k(E)<N pour les items non certains.",
+        "variables_instanciees": {
+          "r": 5,
+          "b": 1
+        },
+        "exemples_verifies": [
+          {
+            "seed": 3201,
+            "variables": {
+              "r": 5,
+              "b": 1
+            },
+            "stimulus": "Sac : 5 jetons R, 1 jetons B, aucun V; jetons identiques au toucher, tirés à l’aveugle et bien mélangés; un seul tirage. Total : 6.",
+            "corrige": "R : probable et plus probable que B (5/6), mais non certain; B : possible et moins probable (1/6); V : impossible (0/6); R ou B : certain (6/6). Même chance par jeton.",
+            "verification_numerique": {
+              "total": 6,
+              "evenements": {
+                "R": 5,
+                "B": 1,
+                "V": 0,
+                "R_ou_B": 6
+              },
+              "plus_probable": [
+                "R",
+                "B"
+              ],
+              "majoritaire": "R"
+            }
+          },
+          {
+            "seed": 3302,
+            "variables": {
+              "r": 6,
+              "b": 2
+            },
+            "stimulus": "Sac : 6 jetons R, 2 jetons B, aucun V; jetons identiques au toucher, tirés à l’aveugle et bien mélangés; un seul tirage. Total : 8.",
+            "corrige": "R : probable et plus probable que B (6/8), mais non certain; B : possible et moins probable (2/8); V : impossible (0/8); R ou B : certain (8/8). Même chance par jeton.",
+            "verification_numerique": {
+              "total": 8,
+              "evenements": {
+                "R": 6,
+                "B": 2,
+                "V": 0,
+                "R_ou_B": 8
+              },
+              "plus_probable": [
+                "R",
+                "B"
+              ],
+              "majoritaire": "R"
+            }
+          }
+        ],
+        "limites_de_variation": "Seules les valeurs de variables des domaines fournis peuvent varier; type de matériel, définition d’équiprobabilité, question, classes à justifier et niveau de difficulté restent fixes. Génération linguistique libre interdite. Contre-exemples et cas non équiprobables exclus du générateur.",
+        "controle_independant": "Validation exhaustive annoncée uniquement après exécution des tests sur toutes les combinaisons admissibles; vérifier à la fois recomptage explicite des issues et formule k/N."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "parametrique",
+      "consigne": "Classe A, B, C et « A ou B »; compare A et B. Explique si A est certain.",
+      "stimulus": "Boîte de 8 cubes identiques au toucher : 4 A et 4 B, aucun C. Choix d’un cube au hasard, un essai.",
+      "reponse_attendue": "A : possible non certain (4/8); B : possible non certain (4/8); A et B aussi probables, chacun la moitié; C impossible (0/8); A ou B certain (8/8). A n’est pas certain car B existe.",
+      "criteres": [
+        "Classe chacun des événements selon zéro, quelques ou toutes les issues favorables",
+        "Compare les chances à partir des cas favorables sur un total commun et distingue égalité, majorité et minorité",
+        "Justifie avec la composition complète et l’hypothèse de mêmes chances pour chaque issue; n’infère jamais un tirage particulier"
+      ],
+      "feedback": "Si la classification est fausse, recompte d’abord les issues réellement présentes : 0 = impossible, toutes = certain, sinon possible. Pour comparer, compte les issues favorables sur le même total; un événement rare reste possible et un événement majoritaire reste non certain si une autre issue existe.",
+      "difficulte": "initial",
+      "representation": "tableau_d_effectifs",
+      "seed": 3202,
+      "parametres": {
+        "variables": [
+          "k"
+        ],
+        "domaines_discrets_ordonnes": {
+          "k": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "contraintes": [
+          "Chacune des issues élémentaires est équiprobable : jetons/cartes identiques mélangés ou secteurs égaux sur roue non biaisée",
+          "Un seul tirage/lancer; aucune hypothèse de tirages successifs",
+          "Effectifs entiers positifs pour les étiquettes présentes, zéro pour les absentes",
+          "Pour comparer les événements, utiliser le même total et les mêmes conditions",
+          "Pour cet item, tous les tuples cartésiens du domaine respectent les contraintes de la catégorie demandée"
+        ],
+        "algorithme_de_generation": "Pour seed entière s≥0, initialiser r=s; pour chaque variable dans l’ordre de variables, prendre la liste ordonnée D, sélectionner D[r modulo len(D)], remplacer r par floor(r/len(D)); rendre stimulus par gabarit de type boite_egalite sans tirage aléatoire. La seed du champ externe est la seed de cette instance. Si plusieurs seeds donnent le même tuple, elles reproduisent exactement la même instance.",
+        "algorithme_de_correction": "Construire indépendamment la liste ou le comptage des issues élémentaires équiprobables (somme des effectifs ou numéros de 1 à n); pour chaque événement E compter k(E) cases favorables; contrôler 0≤k(E)≤N, N>0; impossible si k=0, certain si k=N, possible non certain sinon. Comparer deux événements E,F dans la même expérience par k(E) et k(F); qualifier strictement probable (majorité) uniquement si 2k(E)>N. Les fractions affichées sont k(E)/N, non arrondies. Contrôler que l’événement complémentaire a N−k issues.",
+        "formules": "p(E)=k(E)/N quand toutes les N issues sont équiprobables; p(E)>p(F) ⇔ k(E)>k(F); p(E)=1 ⇔ k(E)=N; p(E)=0 ⇔ k(E)=0; convention « probable » : 2k(E)>N et k(E)<N pour les items non certains.",
+        "variables_instanciees": {
+          "k": 4
+        },
+        "exemples_verifies": [
+          {
+            "seed": 3202,
+            "variables": {
+              "k": 4
+            },
+            "stimulus": "Boîte de 8 cubes identiques au toucher : 4 A et 4 B, aucun C. Choix d’un cube au hasard, un essai.",
+            "corrige": "A : possible non certain (4/8); B : possible non certain (4/8); A et B aussi probables, chacun la moitié; C impossible (0/8); A ou B certain (8/8). A n’est pas certain car B existe.",
+            "verification_numerique": {
+              "total": 8,
+              "evenements": {
+                "A": 4,
+                "B": 4,
+                "C": 0,
+                "A_ou_B": 8
+              },
+              "egalite": [
+                "A",
+                "B"
+              ]
+            }
+          },
+          {
+            "seed": 3303,
+            "variables": {
+              "k": 5
+            },
+            "stimulus": "Boîte de 10 cubes identiques au toucher : 5 A et 5 B, aucun C. Choix d’un cube au hasard, un essai.",
+            "corrige": "A : possible non certain (5/10); B : possible non certain (5/10); A et B aussi probables, chacun la moitié; C impossible (0/10); A ou B certain (10/10). A n’est pas certain car B existe.",
+            "verification_numerique": {
+              "total": 10,
+              "evenements": {
+                "A": 5,
+                "B": 5,
+                "C": 0,
+                "A_ou_B": 10
+              },
+              "egalite": [
+                "A",
+                "B"
+              ]
+            }
+          }
+        ],
+        "limites_de_variation": "Seules les valeurs de variables des domaines fournis peuvent varier; type de matériel, définition d’équiprobabilité, question, classes à justifier et niveau de difficulté restent fixes. Génération linguistique libre interdite. Contre-exemples et cas non équiprobables exclus du générateur.",
+        "controle_independant": "Validation exhaustive annoncée uniquement après exécution des tests sur toutes les combinaisons admissibles; vérifier à la fois recomptage explicite des issues et formule k/N."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "parametrique",
+      "consigne": "Classe obtenir L et obtenir Z; peux-tu prévoir la lettre même si le jeton précis dépend du hasard? Justifie.",
+      "stimulus": "Sac de 8 jetons identiques, tous marqués L et aucun Z. Mélange puis choix d’un seul jeton.",
+      "reponse_attendue": "Obtenir L est certain (8/8); obtenir Z impossible (0/8). La lettre L est prévisible malgré l’incertitude sur l’identité matérielle du jeton sélectionné.",
+      "criteres": [
+        "Classe chacun des événements selon zéro, quelques ou toutes les issues favorables",
+        "Compare les chances à partir des cas favorables sur un total commun et distingue égalité, majorité et minorité",
+        "Justifie avec la composition complète et l’hypothèse de mêmes chances pour chaque issue; n’infère jamais un tirage particulier"
+      ],
+      "feedback": "Si la classification est fausse, recompte d’abord les issues réellement présentes : 0 = impossible, toutes = certain, sinon possible. Pour comparer, compte les issues favorables sur le même total; un événement rare reste possible et un événement majoritaire reste non certain si une autre issue existe.",
+      "difficulte": "initial",
+      "representation": "cases_et_denombrement",
+      "seed": 3203,
+      "parametres": {
+        "variables": [
+          "n"
+        ],
+        "domaines_discrets_ordonnes": {
+          "n": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "contraintes": [
+          "Chacune des issues élémentaires est équiprobable : jetons/cartes identiques mélangés ou secteurs égaux sur roue non biaisée",
+          "Un seul tirage/lancer; aucune hypothèse de tirages successifs",
+          "Effectifs entiers positifs pour les étiquettes présentes, zéro pour les absentes",
+          "Pour comparer les événements, utiliser le même total et les mêmes conditions",
+          "Pour cet item, tous les tuples cartésiens du domaine respectent les contraintes de la catégorie demandée"
+        ],
+        "algorithme_de_generation": "Pour seed entière s≥0, initialiser r=s; pour chaque variable dans l’ordre de variables, prendre la liste ordonnée D, sélectionner D[r modulo len(D)], remplacer r par floor(r/len(D)); rendre stimulus par gabarit de type sac_unique sans tirage aléatoire. La seed du champ externe est la seed de cette instance. Si plusieurs seeds donnent le même tuple, elles reproduisent exactement la même instance.",
+        "algorithme_de_correction": "Construire indépendamment la liste ou le comptage des issues élémentaires équiprobables (somme des effectifs ou numéros de 1 à n); pour chaque événement E compter k(E) cases favorables; contrôler 0≤k(E)≤N, N>0; impossible si k=0, certain si k=N, possible non certain sinon. Comparer deux événements E,F dans la même expérience par k(E) et k(F); qualifier strictement probable (majorité) uniquement si 2k(E)>N. Les fractions affichées sont k(E)/N, non arrondies. Contrôler que l’événement complémentaire a N−k issues.",
+        "formules": "p(E)=k(E)/N quand toutes les N issues sont équiprobables; p(E)>p(F) ⇔ k(E)>k(F); p(E)=1 ⇔ k(E)=N; p(E)=0 ⇔ k(E)=0; convention « probable » : 2k(E)>N et k(E)<N pour les items non certains.",
+        "variables_instanciees": {
+          "n": 8
+        },
+        "exemples_verifies": [
+          {
+            "seed": 3203,
+            "variables": {
+              "n": 8
+            },
+            "stimulus": "Sac de 8 jetons identiques, tous marqués L et aucun Z. Mélange puis choix d’un seul jeton.",
+            "corrige": "Obtenir L est certain (8/8); obtenir Z impossible (0/8). La lettre L est prévisible malgré l’incertitude sur l’identité matérielle du jeton sélectionné.",
+            "verification_numerique": {
+              "total": 8,
+              "evenements": {
+                "L": 8,
+                "Z": 0
+              }
+            }
+          },
+          {
+            "seed": 3304,
+            "variables": {
+              "n": 7
+            },
+            "stimulus": "Sac de 7 jetons identiques, tous marqués L et aucun Z. Mélange puis choix d’un seul jeton.",
+            "corrige": "Obtenir L est certain (7/7); obtenir Z impossible (0/7). La lettre L est prévisible malgré l’incertitude sur l’identité matérielle du jeton sélectionné.",
+            "verification_numerique": {
+              "total": 7,
+              "evenements": {
+                "L": 7,
+                "Z": 0
+              }
+            }
+          }
+        ],
+        "limites_de_variation": "Seules les valeurs de variables des domaines fournis peuvent varier; type de matériel, définition d’équiprobabilité, question, classes à justifier et niveau de difficulté restent fixes. Génération linguistique libre interdite. Contre-exemples et cas non équiprobables exclus du générateur.",
+        "controle_independant": "Validation exhaustive annoncée uniquement après exécution des tests sur toutes les combinaisons admissibles; vérifier à la fois recomptage explicite des issues et formule k/N."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "parametrique",
+      "consigne": "Classe T, S, X et « T ou S »; compare T et S, puis dis si S est impossible. Justifie.",
+      "stimulus": "Enveloppe : 7 tickets T et un ticket S, aucun X, tous identiques au toucher; mélange, puis tirer une fois (total 8).",
+      "reponse_attendue": "T : probable et plus probable (7/8), pas certain; S : possible mais moins probable (1/8), pas impossible; X : impossible (0/8); T ou S : certain (8/8). Chaque ticket est équiprobable.",
+      "criteres": [
+        "Classe chacun des événements selon zéro, quelques ou toutes les issues favorables",
+        "Compare les chances à partir des cas favorables sur un total commun et distingue égalité, majorité et minorité",
+        "Justifie avec la composition complète et l’hypothèse de mêmes chances pour chaque issue; n’infère jamais un tirage particulier"
+      ],
+      "feedback": "Si la classification est fausse, recompte d’abord les issues réellement présentes : 0 = impossible, toutes = certain, sinon possible. Pour comparer, compte les issues favorables sur le même total; un événement rare reste possible et un événement majoritaire reste non certain si une autre issue existe.",
+      "difficulte": "intermediaire",
+      "representation": "objets_et_comparaison",
+      "seed": 3204,
+      "parametres": {
+        "variables": [
+          "g"
+        ],
+        "domaines_discrets_ordonnes": {
+          "g": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "contraintes": [
+          "Chacune des issues élémentaires est équiprobable : jetons/cartes identiques mélangés ou secteurs égaux sur roue non biaisée",
+          "Un seul tirage/lancer; aucune hypothèse de tirages successifs",
+          "Effectifs entiers positifs pour les étiquettes présentes, zéro pour les absentes",
+          "Pour comparer les événements, utiliser le même total et les mêmes conditions",
+          "Pour cet item, tous les tuples cartésiens du domaine respectent les contraintes de la catégorie demandée"
+        ],
+        "algorithme_de_generation": "Pour seed entière s≥0, initialiser r=s; pour chaque variable dans l’ordre de variables, prendre la liste ordonnée D, sélectionner D[r modulo len(D)], remplacer r par floor(r/len(D)); rendre stimulus par gabarit de type etiquette_rare sans tirage aléatoire. La seed du champ externe est la seed de cette instance. Si plusieurs seeds donnent le même tuple, elles reproduisent exactement la même instance.",
+        "algorithme_de_correction": "Construire indépendamment la liste ou le comptage des issues élémentaires équiprobables (somme des effectifs ou numéros de 1 à n); pour chaque événement E compter k(E) cases favorables; contrôler 0≤k(E)≤N, N>0; impossible si k=0, certain si k=N, possible non certain sinon. Comparer deux événements E,F dans la même expérience par k(E) et k(F); qualifier strictement probable (majorité) uniquement si 2k(E)>N. Les fractions affichées sont k(E)/N, non arrondies. Contrôler que l’événement complémentaire a N−k issues.",
+        "formules": "p(E)=k(E)/N quand toutes les N issues sont équiprobables; p(E)>p(F) ⇔ k(E)>k(F); p(E)=1 ⇔ k(E)=N; p(E)=0 ⇔ k(E)=0; convention « probable » : 2k(E)>N et k(E)<N pour les items non certains.",
+        "variables_instanciees": {
+          "g": 7
+        },
+        "exemples_verifies": [
+          {
+            "seed": 3204,
+            "variables": {
+              "g": 7
+            },
+            "stimulus": "Enveloppe : 7 tickets T et un ticket S, aucun X, tous identiques au toucher; mélange, puis tirer une fois (total 8).",
+            "corrige": "T : probable et plus probable (7/8), pas certain; S : possible mais moins probable (1/8), pas impossible; X : impossible (0/8); T ou S : certain (8/8). Chaque ticket est équiprobable.",
+            "verification_numerique": {
+              "total": 8,
+              "evenements": {
+                "T": 7,
+                "S": 1,
+                "X": 0,
+                "T_ou_S": 8
+              },
+              "plus_probable": [
+                "T",
+                "S"
+              ],
+              "majoritaire": "T"
+            }
+          },
+          {
+            "seed": 3305,
+            "variables": {
+              "g": 3
+            },
+            "stimulus": "Enveloppe : 3 tickets T et un ticket S, aucun X, tous identiques au toucher; mélange, puis tirer une fois (total 4).",
+            "corrige": "T : probable et plus probable (3/4), pas certain; S : possible mais moins probable (1/4), pas impossible; X : impossible (0/4); T ou S : certain (4/4). Chaque ticket est équiprobable.",
+            "verification_numerique": {
+              "total": 4,
+              "evenements": {
+                "T": 3,
+                "S": 1,
+                "X": 0,
+                "T_ou_S": 4
+              },
+              "plus_probable": [
+                "T",
+                "S"
+              ],
+              "majoritaire": "T"
+            }
+          }
+        ],
+        "limites_de_variation": "Seules les valeurs de variables des domaines fournis peuvent varier; type de matériel, définition d’équiprobabilité, question, classes à justifier et niveau de difficulté restent fixes. Génération linguistique libre interdite. Contre-exemples et cas non équiprobables exclus du générateur.",
+        "controle_independant": "Validation exhaustive annoncée uniquement après exécution des tests sur toutes les combinaisons admissibles; vérifier à la fois recomptage explicite des issues et formule k/N."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "parametrique",
+      "consigne": "Classe P, O, Q et « P ou O »; compare P à O et explique pourquoi probable ne veut pas dire certain.",
+      "stimulus": "Roue non biaisée de 6 secteurs égaux : 5 marqués P, 1 marqués O et aucun Q. Un lancer.",
+      "reponse_attendue": "P : probable et plus probable que O (5/6) mais non certain; O : possible, moins probable (1/6); Q : impossible (0/6); P ou O : certain (6/6). Secteurs de même taille et même chance.",
+      "criteres": [
+        "Classe chacun des événements selon zéro, quelques ou toutes les issues favorables",
+        "Compare les chances à partir des cas favorables sur un total commun et distingue égalité, majorité et minorité",
+        "Justifie avec la composition complète et l’hypothèse de mêmes chances pour chaque issue; n’infère jamais un tirage particulier"
+      ],
+      "feedback": "Si la classification est fausse, recompte d’abord les issues réellement présentes : 0 = impossible, toutes = certain, sinon possible. Pour comparer, compte les issues favorables sur le même total; un événement rare reste possible et un événement majoritaire reste non certain si une autre issue existe.",
+      "difficulte": "intermediaire",
+      "representation": "roue_textuelle_a_secteurs_egaux",
+      "seed": 3205,
+      "parametres": {
+        "variables": [
+          "p",
+          "o"
+        ],
+        "domaines_discrets_ordonnes": {
+          "p": [
+            4,
+            5,
+            6
+          ],
+          "o": [
+            1,
+            2
+          ]
+        },
+        "contraintes": [
+          "Chacune des issues élémentaires est équiprobable : jetons/cartes identiques mélangés ou secteurs égaux sur roue non biaisée",
+          "Un seul tirage/lancer; aucune hypothèse de tirages successifs",
+          "Effectifs entiers positifs pour les étiquettes présentes, zéro pour les absentes",
+          "Pour comparer les événements, utiliser le même total et les mêmes conditions",
+          "Pour cet item, tous les tuples cartésiens du domaine respectent les contraintes de la catégorie demandée"
+        ],
+        "algorithme_de_generation": "Pour seed entière s≥0, initialiser r=s; pour chaque variable dans l’ordre de variables, prendre la liste ordonnée D, sélectionner D[r modulo len(D)], remplacer r par floor(r/len(D)); rendre stimulus par gabarit de type roue_majoritaire sans tirage aléatoire. La seed du champ externe est la seed de cette instance. Si plusieurs seeds donnent le même tuple, elles reproduisent exactement la même instance.",
+        "algorithme_de_correction": "Construire indépendamment la liste ou le comptage des issues élémentaires équiprobables (somme des effectifs ou numéros de 1 à n); pour chaque événement E compter k(E) cases favorables; contrôler 0≤k(E)≤N, N>0; impossible si k=0, certain si k=N, possible non certain sinon. Comparer deux événements E,F dans la même expérience par k(E) et k(F); qualifier strictement probable (majorité) uniquement si 2k(E)>N. Les fractions affichées sont k(E)/N, non arrondies. Contrôler que l’événement complémentaire a N−k issues.",
+        "formules": "p(E)=k(E)/N quand toutes les N issues sont équiprobables; p(E)>p(F) ⇔ k(E)>k(F); p(E)=1 ⇔ k(E)=N; p(E)=0 ⇔ k(E)=0; convention « probable » : 2k(E)>N et k(E)<N pour les items non certains.",
+        "variables_instanciees": {
+          "p": 5,
+          "o": 1
+        },
+        "exemples_verifies": [
+          {
+            "seed": 3205,
+            "variables": {
+              "p": 5,
+              "o": 1
+            },
+            "stimulus": "Roue non biaisée de 6 secteurs égaux : 5 marqués P, 1 marqués O et aucun Q. Un lancer.",
+            "corrige": "P : probable et plus probable que O (5/6) mais non certain; O : possible, moins probable (1/6); Q : impossible (0/6); P ou O : certain (6/6). Secteurs de même taille et même chance.",
+            "verification_numerique": {
+              "total": 6,
+              "evenements": {
+                "P": 5,
+                "O": 1,
+                "Q": 0,
+                "P_ou_O": 6
+              },
+              "plus_probable": [
+                "P",
+                "O"
+              ],
+              "majoritaire": "P"
+            }
+          },
+          {
+            "seed": 3306,
+            "variables": {
+              "p": 4,
+              "o": 1
+            },
+            "stimulus": "Roue non biaisée de 5 secteurs égaux : 4 marqués P, 1 marqués O et aucun Q. Un lancer.",
+            "corrige": "P : probable et plus probable que O (4/5) mais non certain; O : possible, moins probable (1/5); Q : impossible (0/5); P ou O : certain (5/5). Secteurs de même taille et même chance.",
+            "verification_numerique": {
+              "total": 5,
+              "evenements": {
+                "P": 4,
+                "O": 1,
+                "Q": 0,
+                "P_ou_O": 5
+              },
+              "plus_probable": [
+                "P",
+                "O"
+              ],
+              "majoritaire": "P"
+            }
+          }
+        ],
+        "limites_de_variation": "Seules les valeurs de variables des domaines fournis peuvent varier; type de matériel, définition d’équiprobabilité, question, classes à justifier et niveau de difficulté restent fixes. Génération linguistique libre interdite. Contre-exemples et cas non équiprobables exclus du générateur.",
+        "controle_independant": "Validation exhaustive annoncée uniquement après exécution des tests sur toutes les combinaisons admissibles; vérifier à la fois recomptage explicite des issues et formule k/N."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compare M et N; classe M, Z et « M ou N ». Explique l’égalité des chances.",
+      "stimulus": "Roue non biaisée à 8 secteurs égaux : 4 M, 4 N et aucun Z; un lancer.",
+      "reponse_attendue": "M et N ont des chances égales (4/8 chacun) et sont possibles non certains; Z impossible (0/8); M ou N certain (8/8). Aucun de M ou N n’est strictement majoritaire.",
+      "criteres": [
+        "Classe chacun des événements selon zéro, quelques ou toutes les issues favorables",
+        "Compare les chances à partir des cas favorables sur un total commun et distingue égalité, majorité et minorité",
+        "Justifie avec la composition complète et l’hypothèse de mêmes chances pour chaque issue; n’infère jamais un tirage particulier"
+      ],
+      "feedback": "Si la classification est fausse, recompte d’abord les issues réellement présentes : 0 = impossible, toutes = certain, sinon possible. Pour comparer, compte les issues favorables sur le même total; un événement rare reste possible et un événement majoritaire reste non certain si une autre issue existe.",
+      "difficulte": "intermediaire",
+      "representation": "roue_et_tableau",
+      "seed": 3206,
+      "parametres": {
+        "variables": [
+          "k"
+        ],
+        "domaines_discrets_ordonnes": {
+          "k": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "contraintes": [
+          "Chacune des issues élémentaires est équiprobable : jetons/cartes identiques mélangés ou secteurs égaux sur roue non biaisée",
+          "Un seul tirage/lancer; aucune hypothèse de tirages successifs",
+          "Effectifs entiers positifs pour les étiquettes présentes, zéro pour les absentes",
+          "Pour comparer les événements, utiliser le même total et les mêmes conditions",
+          "Pour cet item, tous les tuples cartésiens du domaine respectent les contraintes de la catégorie demandée"
+        ],
+        "algorithme_de_generation": "Pour seed entière s≥0, initialiser r=s; pour chaque variable dans l’ordre de variables, prendre la liste ordonnée D, sélectionner D[r modulo len(D)], remplacer r par floor(r/len(D)); rendre stimulus par gabarit de type roue_egalite sans tirage aléatoire. La seed du champ externe est la seed de cette instance. Si plusieurs seeds donnent le même tuple, elles reproduisent exactement la même instance.",
+        "algorithme_de_correction": "Construire indépendamment la liste ou le comptage des issues élémentaires équiprobables (somme des effectifs ou numéros de 1 à n); pour chaque événement E compter k(E) cases favorables; contrôler 0≤k(E)≤N, N>0; impossible si k=0, certain si k=N, possible non certain sinon. Comparer deux événements E,F dans la même expérience par k(E) et k(F); qualifier strictement probable (majorité) uniquement si 2k(E)>N. Les fractions affichées sont k(E)/N, non arrondies. Contrôler que l’événement complémentaire a N−k issues.",
+        "formules": "p(E)=k(E)/N quand toutes les N issues sont équiprobables; p(E)>p(F) ⇔ k(E)>k(F); p(E)=1 ⇔ k(E)=N; p(E)=0 ⇔ k(E)=0; convention « probable » : 2k(E)>N et k(E)<N pour les items non certains.",
+        "variables_instanciees": {
+          "k": 4
+        },
+        "exemples_verifies": [
+          {
+            "seed": 3206,
+            "variables": {
+              "k": 4
+            },
+            "stimulus": "Roue non biaisée à 8 secteurs égaux : 4 M, 4 N et aucun Z; un lancer.",
+            "corrige": "M et N ont des chances égales (4/8 chacun) et sont possibles non certains; Z impossible (0/8); M ou N certain (8/8). Aucun de M ou N n’est strictement majoritaire.",
+            "verification_numerique": {
+              "total": 8,
+              "evenements": {
+                "M": 4,
+                "N": 4,
+                "Z": 0,
+                "M_ou_N": 8
+              },
+              "egalite": [
+                "M",
+                "N"
+              ]
+            }
+          },
+          {
+            "seed": 3307,
+            "variables": {
+              "k": 5
+            },
+            "stimulus": "Roue non biaisée à 10 secteurs égaux : 5 M, 5 N et aucun Z; un lancer.",
+            "corrige": "M et N ont des chances égales (5/10 chacun) et sont possibles non certains; Z impossible (0/10); M ou N certain (10/10). Aucun de M ou N n’est strictement majoritaire.",
+            "verification_numerique": {
+              "total": 10,
+              "evenements": {
+                "M": 5,
+                "N": 5,
+                "Z": 0,
+                "M_ou_N": 10
+              },
+              "egalite": [
+                "M",
+                "N"
+              ]
+            }
+          }
+        ],
+        "limites_de_variation": "Seules les valeurs de variables des domaines fournis peuvent varier; type de matériel, définition d’équiprobabilité, question, classes à justifier et niveau de difficulté restent fixes. Génération linguistique libre interdite. Contre-exemples et cas non équiprobables exclus du générateur.",
+        "controle_independant": "Validation exhaustive annoncée uniquement après exécution des tests sur toutes les combinaisons admissibles; vérifier à la fois recomptage explicite des issues et formule k/N."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "parametrique",
+      "consigne": "Classe « nombre pair », « nombre dans 1 à 12 inclus » et « obtenir 0 ». Compare « pair » et « nombre supérieur à 10 ». Cite les issues favorables.",
+      "stimulus": "12 cartes identiques numérotées de 1 à 12, mélangées à l’aveugle; un tirage. Chaque numéro a la même chance.",
+      "reponse_attendue": "Pair : possible, ni certain ni majoritaire (6/12); dans 1 à 12 : certain (12/12); 0 : impossible (0/12); supérieur à 10 : 11,12 soit 2/12; pair plus probable que supérieur à 10, car 6>2. Les numéros pairs sont 2, 4, 6, 8, 10, 12.",
+      "criteres": [
+        "Classe chacun des événements selon zéro, quelques ou toutes les issues favorables",
+        "Compare les chances à partir des cas favorables sur un total commun et distingue égalité, majorité et minorité",
+        "Justifie avec la composition complète et l’hypothèse de mêmes chances pour chaque issue; n’infère jamais un tirage particulier"
+      ],
+      "feedback": "Si la classification est fausse, recompte d’abord les issues réellement présentes : 0 = impossible, toutes = certain, sinon possible. Pour comparer, compte les issues favorables sur le même total; un événement rare reste possible et un événement majoritaire reste non certain si une autre issue existe.",
+      "difficulte": "transfert",
+      "representation": "ensemble_numerique_et_comptage",
+      "seed": 3207,
+      "parametres": {
+        "variables": [
+          "n"
+        ],
+        "domaines_discrets_ordonnes": {
+          "n": [
+            6,
+            8,
+            10,
+            12
+          ]
+        },
+        "contraintes": [
+          "Chacune des issues élémentaires est équiprobable : jetons/cartes identiques mélangés ou secteurs égaux sur roue non biaisée",
+          "Un seul tirage/lancer; aucune hypothèse de tirages successifs",
+          "Effectifs entiers positifs pour les étiquettes présentes, zéro pour les absentes",
+          "Pour comparer les événements, utiliser le même total et les mêmes conditions",
+          "Pour cet item, tous les tuples cartésiens du domaine respectent les contraintes de la catégorie demandée"
+        ],
+        "algorithme_de_generation": "Pour seed entière s≥0, initialiser r=s; pour chaque variable dans l’ordre de variables, prendre la liste ordonnée D, sélectionner D[r modulo len(D)], remplacer r par floor(r/len(D)); rendre stimulus par gabarit de type cartes_numerotees sans tirage aléatoire. La seed du champ externe est la seed de cette instance. Si plusieurs seeds donnent le même tuple, elles reproduisent exactement la même instance.",
+        "algorithme_de_correction": "Construire indépendamment la liste ou le comptage des issues élémentaires équiprobables (somme des effectifs ou numéros de 1 à n); pour chaque événement E compter k(E) cases favorables; contrôler 0≤k(E)≤N, N>0; impossible si k=0, certain si k=N, possible non certain sinon. Comparer deux événements E,F dans la même expérience par k(E) et k(F); qualifier strictement probable (majorité) uniquement si 2k(E)>N. Les fractions affichées sont k(E)/N, non arrondies. Contrôler que l’événement complémentaire a N−k issues.",
+        "formules": "p(E)=k(E)/N quand toutes les N issues sont équiprobables; p(E)>p(F) ⇔ k(E)>k(F); p(E)=1 ⇔ k(E)=N; p(E)=0 ⇔ k(E)=0; convention « probable » : 2k(E)>N et k(E)<N pour les items non certains.",
+        "variables_instanciees": {
+          "n": 12
+        },
+        "exemples_verifies": [
+          {
+            "seed": 3207,
+            "variables": {
+              "n": 12
+            },
+            "stimulus": "12 cartes identiques numérotées de 1 à 12, mélangées à l’aveugle; un tirage. Chaque numéro a la même chance.",
+            "corrige": "Pair : possible, ni certain ni majoritaire (6/12); dans 1 à 12 : certain (12/12); 0 : impossible (0/12); supérieur à 10 : 11,12 soit 2/12; pair plus probable que supérieur à 10, car 6>2. Les numéros pairs sont 2, 4, 6, 8, 10, 12.",
+            "verification_numerique": {
+              "total": 12,
+              "evenements": {
+                "pair": 6,
+                "superieur_a_n_moins_2": 2,
+                "dans_1_a_n": 12,
+                "zero": 0
+              },
+              "plus_probable": [
+                "pair",
+                "superieur_a_n_moins_2"
+              ]
+            }
+          },
+          {
+            "seed": 3308,
+            "variables": {
+              "n": 6
+            },
+            "stimulus": "6 cartes identiques numérotées de 1 à 6, mélangées à l’aveugle; un tirage. Chaque numéro a la même chance.",
+            "corrige": "Pair : possible, ni certain ni majoritaire (3/6); dans 1 à 6 : certain (6/6); 0 : impossible (0/6); supérieur à 4 : 5,6 soit 2/6; pair plus probable que supérieur à 4, car 3>2. Les numéros pairs sont 2, 4, 6.",
+            "verification_numerique": {
+              "total": 6,
+              "evenements": {
+                "pair": 3,
+                "superieur_a_n_moins_2": 2,
+                "dans_1_a_n": 6,
+                "zero": 0
+              },
+              "plus_probable": [
+                "pair",
+                "superieur_a_n_moins_2"
+              ]
+            }
+          }
+        ],
+        "limites_de_variation": "Seules les valeurs de variables des domaines fournis peuvent varier; type de matériel, définition d’équiprobabilité, question, classes à justifier et niveau de difficulté restent fixes. Génération linguistique libre interdite. Contre-exemples et cas non équiprobables exclus du générateur.",
+        "controle_independant": "Validation exhaustive annoncée uniquement après exécution des tests sur toutes les combinaisons admissibles; vérifier à la fois recomptage explicite des issues et formule k/N."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "parametrique",
+      "consigne": "Classe A, B, C, D et « A ou B ou C »; compare A à B puis explique pourquoi C n’est pas impossible.",
+      "stimulus": "9 jetons identiques : 5 A, 3 B, 1 C, aucun D. Tirage unique, uniforme parmi les jetons mélangés.",
+      "reponse_attendue": "A : possible, probable au sens de majorité, non certain (5/9); B : possible, moins probable que son contraire (3/9); C : possible, non certain (1/9); D : impossible (0/9); A ou B ou C : certain (9/9). A plus probable que B (5>3); C est possible puisqu’un jeton C existe.",
+      "criteres": [
+        "Classe chacun des événements selon zéro, quelques ou toutes les issues favorables",
+        "Compare les chances à partir des cas favorables sur un total commun et distingue égalité, majorité et minorité",
+        "Justifie avec la composition complète et l’hypothèse de mêmes chances pour chaque issue; n’infère jamais un tirage particulier"
+      ],
+      "feedback": "Si la classification est fausse, recompte d’abord les issues réellement présentes : 0 = impossible, toutes = certain, sinon possible. Pour comparer, compte les issues favorables sur le même total; un événement rare reste possible et un événement majoritaire reste non certain si une autre issue existe.",
+      "difficulte": "transfert",
+      "representation": "tableau_a_trois_categories",
+      "seed": 3208,
+      "parametres": {
+        "variables": [
+          "a",
+          "b",
+          "c"
+        ],
+        "domaines_discrets_ordonnes": {
+          "a": [
+            4,
+            5,
+            6
+          ],
+          "b": [
+            2,
+            3
+          ],
+          "c": [
+            1
+          ]
+        },
+        "contraintes": [
+          "Chacune des issues élémentaires est équiprobable : jetons/cartes identiques mélangés ou secteurs égaux sur roue non biaisée",
+          "Un seul tirage/lancer; aucune hypothèse de tirages successifs",
+          "Effectifs entiers positifs pour les étiquettes présentes, zéro pour les absentes",
+          "Pour comparer les événements, utiliser le même total et les mêmes conditions",
+          "Pour cet item, tous les tuples cartésiens du domaine respectent les contraintes de la catégorie demandée"
+        ],
+        "algorithme_de_generation": "Pour seed entière s≥0, initialiser r=s; pour chaque variable dans l’ordre de variables, prendre la liste ordonnée D, sélectionner D[r modulo len(D)], remplacer r par floor(r/len(D)); rendre stimulus par gabarit de type trois_etiquettes sans tirage aléatoire. La seed du champ externe est la seed de cette instance. Si plusieurs seeds donnent le même tuple, elles reproduisent exactement la même instance.",
+        "algorithme_de_correction": "Construire indépendamment la liste ou le comptage des issues élémentaires équiprobables (somme des effectifs ou numéros de 1 à n); pour chaque événement E compter k(E) cases favorables; contrôler 0≤k(E)≤N, N>0; impossible si k=0, certain si k=N, possible non certain sinon. Comparer deux événements E,F dans la même expérience par k(E) et k(F); qualifier strictement probable (majorité) uniquement si 2k(E)>N. Les fractions affichées sont k(E)/N, non arrondies. Contrôler que l’événement complémentaire a N−k issues.",
+        "formules": "p(E)=k(E)/N quand toutes les N issues sont équiprobables; p(E)>p(F) ⇔ k(E)>k(F); p(E)=1 ⇔ k(E)=N; p(E)=0 ⇔ k(E)=0; convention « probable » : 2k(E)>N et k(E)<N pour les items non certains.",
+        "variables_instanciees": {
+          "a": 5,
+          "b": 3,
+          "c": 1
+        },
+        "exemples_verifies": [
+          {
+            "seed": 3208,
+            "variables": {
+              "a": 5,
+              "b": 3,
+              "c": 1
+            },
+            "stimulus": "9 jetons identiques : 5 A, 3 B, 1 C, aucun D. Tirage unique, uniforme parmi les jetons mélangés.",
+            "corrige": "A : possible, probable au sens de majorité, non certain (5/9); B : possible, moins probable que son contraire (3/9); C : possible, non certain (1/9); D : impossible (0/9); A ou B ou C : certain (9/9). A plus probable que B (5>3); C est possible puisqu’un jeton C existe.",
+            "verification_numerique": {
+              "total": 9,
+              "evenements": {
+                "A": 5,
+                "B": 3,
+                "C": 1,
+                "D": 0,
+                "A_ou_B_ou_C": 9
+              },
+              "plus_probable": [
+                "A",
+                "B"
+              ],
+              "plus_probable_que_C": [
+                "A",
+                "B"
+              ]
+            }
+          },
+          {
+            "seed": 3309,
+            "variables": {
+              "a": 4,
+              "b": 3,
+              "c": 1
+            },
+            "stimulus": "8 jetons identiques : 4 A, 3 B, 1 C, aucun D. Tirage unique, uniforme parmi les jetons mélangés.",
+            "corrige": "A : possible, aussi probable que son contraire (4/8); B : possible, moins probable que son contraire (3/8); C : possible, non certain (1/8); D : impossible (0/8); A ou B ou C : certain (8/8). A plus probable que B (4>3); C est possible puisqu’un jeton C existe.",
+            "verification_numerique": {
+              "total": 8,
+              "evenements": {
+                "A": 4,
+                "B": 3,
+                "C": 1,
+                "D": 0,
+                "A_ou_B_ou_C": 8
+              },
+              "plus_probable": [
+                "A",
+                "B"
+              ],
+              "plus_probable_que_C": [
+                "A",
+                "B"
+              ]
+            }
+          }
+        ],
+        "limites_de_variation": "Seules les valeurs de variables des domaines fournis peuvent varier; type de matériel, définition d’équiprobabilité, question, classes à justifier et niveau de difficulté restent fixes. Génération linguistique libre interdite. Contre-exemples et cas non équiprobables exclus du générateur.",
+        "controle_independant": "Validation exhaustive annoncée uniquement après exécution des tests sur toutes les combinaisons admissibles; vérifier à la fois recomptage explicite des issues et formule k/N."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "fixe",
+      "consigne": "Un élève dit qu’un événement très probable est nécessairement certain. Vérifie avec la boîte donnée; classe les trois événements et explique la différence.",
+      "stimulus": "Boîte : 9 cartes U et 1 carte V, même taille, mélangées face cachée; un seul tirage. Événements : U; V; W (absent).",
+      "reponse_attendue": "U : probable, 9/10, mais non certain car V est possible; V : possible et moins probable, 1/10; W : impossible, 0/10. U ou V serait certain (10/10). Un événement très probable ne devient certain que si aucune autre issue n’existe.",
+      "criteres": [
+        "Classe correctement les événements, en citant les issues présentes et absentes",
+        "Justifie la comparaison ou la limite par les chances sous les conditions du stimulus",
+        "Distingue « très probable » de « certain »; donne une explication autonome contrôlable"
+      ],
+      "feedback": "Si le classement est incorrect, identifier les issues du support; un résultat minoritaire demeure possible tant qu’il existe. Distinguer les événements certains de ceux qui sont seulement majoritaires.",
+      "difficulte": "initial",
+      "representation": "critique_d_une_affirmation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A. Sans indice, classe les événements R, B, J et « R ou B » (certain / impossible / possible); précise lequel de R et B est le plus probable et pourquoi. Explique les conditions permettant ta conclusion.",
+      "stimulus": "Au local de classe, un sac opaque contient 5 jetons R et 2 jetons B, aucun J. Les 7 jetons ont la même taille et la même texture; ils sont brassés, puis on en choisit UN sans voir la marque.",
+      "reponse_attendue": "R : probable, 5/7, plus probable que B mais non certain; B : possible non certain, 2/7, moins probable; J : impossible, 0/7; R ou B : certain, 7/7. Justification : sept jetons équiprobables, cinq R et deux B, et la présence de B exclut une certitude de R.",
+      "criteres": [
+        "Classe correctement les événements, en citant les issues présentes et absentes",
+        "Justifie la comparaison ou la limite par les chances sous les conditions du stimulus",
+        "Distingue « très probable » de « certain »; donne une explication autonome contrôlable"
+      ],
+      "feedback": "Si le classement est incorrect, identifier les issues du support; un résultat minoritaire demeure possible tant qu’il existe. Distinguer les événements certains de ceux qui sont seulement majoritaires.",
+      "difficulte": "transfert",
+      "representation": "sac_de_jetons_et_argumentation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": true
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B. Sans indice, classe obtenir V, obtenir O, obtenir N et « V ou O »; compare V et O; explique pourquoi l’événement le plus probable n’est pas certain.",
+      "stimulus": "Dans un jeu fictif sans enjeu, une roue non biaisée comporte six secteurs DE MÊME TAILLE : V | V | O | O | O | O; aucun secteur N. On la fait tourner une fois.",
+      "reponse_attendue": "V : possible non certain, 2/6, moins probable que O; O : probable et plus probable, 4/6, mais non certain (V existe); N : impossible, 0/6; V ou O : certain, 6/6. Justification : six secteurs de même angle et chance, les quatre O dominent les deux V sans les éliminer.",
+      "criteres": [
+        "Classe correctement les événements, en citant les issues présentes et absentes",
+        "Justifie la comparaison ou la limite par les chances sous les conditions du stimulus",
+        "Distingue « très probable » de « certain »; donne une explication autonome contrôlable"
+      ],
+      "feedback": "Si le classement est incorrect, identifier les issues du support; un résultat minoritaire demeure possible tant qu’il existe. Distinguer les événements certains de ceux qui sont seulement majoritaires.",
+      "difficulte": "transfert",
+      "representation": "roue_equitable_et_argumentation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": true
+    },
+    {
+      "item_id": "qc-pri-ma-032-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-032-ev-01",
+      "mode": "fixe",
+      "consigne": "Une roue peut-elle être analysée simplement en comptant ses secteurs? Décide quels événements sont certain et impossible; explique la limite de la comparaison rouge/bleu.",
+      "stimulus": "Roue A non biaisée : 3 secteurs rouges de 90° et 1 bleu de 90°. Roue B non biaisée : 3 secteurs rouges de 10° et 1 bleu de 330°. Chaque roue totalise 360°.",
+      "reponse_attendue": "Sur les deux roues, obtenir rouge ou bleu est certain, obtenir vert impossible. Sur A, rouge plus probable (270°/360° = 3/4 vs 1/4). Sur B, rouge moins probable (30°/360° = 1/12 vs bleu 330°/360° = 11/12). Compter les secteurs seuls est trompeur si leurs tailles diffèrent; utiliser l’angle sous hypothèse de rotation non biaisée.",
+      "criteres": [
+        "Identifie les événements toujours possibles et jamais possibles sur chaque roue",
+        "Compare correctement en fonction de la mesure angulaire, sans confondre nombre de secteurs et part de cercle",
+        "Justifie le changement de classement en nommant la condition de secteurs inégaux"
+      ],
+      "feedback": "Les secteurs de la roue B ne sont pas équiprobables : observer la part du cercle couverte, non le nombre de secteurs. Revenir aux secteurs égaux pour exercer la méthode de base.",
+      "difficulte": "transfert",
+      "representation": "cas_limite_secteurs_inegaux",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    }
+  ]
+}

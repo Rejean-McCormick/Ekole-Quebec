@@ -1,0 +1,554 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-004",
+  "family_id": "qc-pri-st-004-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-004-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Distingue le constat et l’interprétation, présente un résultat avec l’indice chiffré, puis une limite empêchant de présenter la cause comme prouvée.",
+      "stimulus": "Données fictives : à 9 h, une fiche indique 18 cm pour une ombre; à midi, 12 cm. Une personne affirme : « Le Soleil a forcément causé tout le changement. » Aucun protocole de mesure n’est donné.",
+      "reponse_attendue": "Constat : l’ombre mesurée passe de 18 cm à 9 h à 12 cm à midi, donc le second relevé est plus court de 6 cm. Indice : 18 cm et 12 cm inscrits sur la fiche. Interprétation : une différence est observée entre ces horaires. La phrase sur le Soleil propose une explication, elle n’est pas une mesure. Limite : protocole, orientation ou répétitions non donnés; impossible de démontrer la cause précise avec cette seule fiche.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "Si la cause est présentée comme vue, demander où figure sa mesure; si une valeur disparaît, faire relire les deux horaires. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Diagnostic — ombre du poteau",
+      "representation": "texte_chronologique",
+      "etape": "diagnostic",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "18 cm",
+          "12 cm"
+        ],
+        "limite_admise": "Méthode de mesure absente ou un jour seulement",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Présente le résultat des deux essais avec un indice, donne une conclusion limitée au relevé et nomme une limite.",
+      "stimulus": "Données fictives en cm : essai 1 — roulette X : 60, Y : 50; essai 2 — X : 65, Y : 45. Départ et matériel non décrits.",
+      "reponse_attendue": "Résultat : X a parcouru 60 et 65 cm, Y 50 et 45 cm. Indice : 60 > 50 et 65 > 45 dans les essais correspondants. Conclusion : X a parcouru une plus grande distance dans les deux essais décrits. Limite : deux essais et conditions de lancement inconnues; il serait abusif d’en faire une règle générale ou d’annoncer une cause.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "Replacer les nombres dans leurs essais, conserver cm et remplacer « toujours » par « dans ces deux essais ». Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Diagnostic — deux roulettes",
+      "representation": "mesures_par_essai",
+      "etape": "diagnostic",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "60 cm",
+          "65 cm",
+          "50 cm",
+          "45 cm"
+        ],
+        "limite_admise": "Départ et nombre d’essais insuffisamment documentés",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Donne le résultat, l’indice exact, une conclusion sans généraliser et une limite précise. N’invente pas la cause de la différence.",
+      "stimulus": "Simulation unique : une bande de papier A retient 3 mL, une bande B retient 1 mL. Leurs largeurs sont inconnues.",
+      "reponse_attendue": "Résultat : A = 3 mL, B = 1 mL. Indice : 3 > 1 mL. Interprétation prudente : A a retenu davantage dans cet essai. Limite : largeur des bandes non renseignée et essai unique; impossible de conclure à la supériorité universelle d’un matériau.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "Préciser les mL; ne pas transformer la bande plus absorbante ici en meilleur matériau dans tous les cas. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Pratique guidée — papier absorbant",
+      "representation": "fiche_de_mesures",
+      "etape": "guidee",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "3 mL",
+          "1 mL"
+        ],
+        "limite_admise": "Bandes non nécessairement comparables",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-004",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Explique ce que le résultat permet de dire, avec indice et limite. Distingue le nombre de jetons observé de la raison supposée.",
+      "stimulus": "Simulation unique : avant instabilité, le bateau X porte 8 petits jetons et le bateau Y 5 petits jetons. Aucune masse ni taille de jeton n’est indiquée.",
+      "reponse_attendue": "Le bateau X a porté 8 jetons contre 5 pour Y; 8 > 5 appuie ce constat. Dans cet essai, X a porté plus de jetons. La masse/taille des jetons n’est pas connue, donc la capacité maximale dans d’autres conditions ne peut être établie, ni une cause attribuée.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "Les données dénombrent des jetons, pas des kilogrammes; éviter de transformer une comparaison locale en propriété générale. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Pratique guidée — bateaux de papier",
+      "representation": "phrase_de_donnees",
+      "etape": "guidee",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "8 jetons",
+          "5 jetons"
+        ],
+        "limite_admise": "Masse des jetons non décrite et essai unique",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-005",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Présente le résultat et son indice, une conclusion prudente et une limite; explique si « T est toujours stable » est acceptable.",
+      "stimulus": "Simulation de 5 essais pour deux tours : T reste debout 4 fois sur 5; U reste debout 2 fois sur 5. On ignore les mouvements d’air.",
+      "reponse_attendue": "T est restée debout 4/5 fois, U 2/5 fois. Les comptes 4 > 2 appuient une stabilité plus fréquente de T sur ces cinq essais; « toujours stable » est faux puisqu’un essai de T a échoué, et non généralisable. Limite : courants d’air ou autres conditions d’essai non décrits.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "4/5 n’est ni 5/5 ni « toujours »; reconnaître l’essai où T n’est pas restée debout. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Pratique guidée — tours en papier",
+      "representation": "comptage_sur_cinq",
+      "etape": "guidee",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "4/5",
+          "2/5"
+        ],
+        "limite_admise": "Conditions de chaque essai inconnues",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-006",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Énonce une comparaison, l’indice, l’interprétation et une limite qui empêche d’expliquer avec certitude le résultat.",
+      "stimulus": "Dans 3 essais simulés, le pont A porte la charge-test 2 fois, le pont B 1 fois. La charge exacte et sa constance ne sont pas indiquées.",
+      "reponse_attendue": "Résultat : pont A, 2 essais réussis sur 3; pont B, 1 sur 3. Indice : 2/3 > 1/3. Conclusion : A a réussi plus souvent dans ces essais. Limite : la charge exacte et son égalité entre essais ne sont pas connues; on ne démontre aucune cause ou supériorité universelle.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "La fiche indique des réussites, pas l’épaisseur du papier; le mécanisme reste une hypothèse. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Pratique autonome — ponts en papier",
+      "representation": "ratio_et_texte",
+      "etape": "autonome_entrainement",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "2/3",
+          "1/3"
+        ],
+        "limite_admise": "Charge non spécifiée ni vérifiée égale",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Distingue ce qui est constaté de toute proposition sur la lumière; formule résultat, indice, conclusion prudente et limite.",
+      "stimulus": "Sur une observation fictive, la plante M a 6 feuilles vertes sur 8; N en a 4 sur 8. Les expositions à la lumière ne sont pas consignées.",
+      "reponse_attendue": "Le relevé indique 6/8 feuilles vertes pour M et 4/8 pour N; 6 > 4 soutient que M en présente davantage parmi les huit examinées. La lumière pourrait être une explication, mais son exposition n’a pas été mesurée; observation unique, donc pas de cause démontrée.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "Le tableau parle de feuilles vertes, non de quantité de lumière; ne pas confondre donnée et hypothèse. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Pratique autonome — feuilles de plantes",
+      "representation": "ratio_et_texte",
+      "etape": "autonome_entrainement",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "6/8",
+          "4/8"
+        ],
+        "limite_admise": "Lumière non mesurée et observation unique",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-008",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Que peut-on conclure des deux durées? Citer l’indice et préciser une limite. Ne déduis ni masses, ni températures inconnues.",
+      "stimulus": "Fiche fictive : un glaçon R a disparu visuellement au bout de 7 min, un glaçon S au bout de 11 min. La taille au départ n’est pas indiquée.",
+      "reponse_attendue": "L’observation note 7 min pour R et 11 min pour S; 7 < 11. Dans les observations décrites, R a disparu visuellement en moins de temps. La masse/taille initiale manque, les conditions ne sont pas décrites; impossible d’attribuer l’écart à une cause certaine.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "« Plus vite dans cet essai » est défendable; « eau plus chaude » n’est pas une mesure disponible. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Pratique autonome — glaçons",
+      "representation": "horodatage_narratif",
+      "etape": "autonome_entrainement",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "7 min",
+          "11 min"
+        ],
+        "limite_admise": "Taille/masse initiale inconnue",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-009",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Sans aide, prépare un compte rendu pour un groupe : (1) résultat fidèle; (2) indice précis; (3) conclusion/interprétation dont la portée est adaptée aux observations; (4) une limite méthodologique. Sépare explicitement constat et interprétation.",
+      "stimulus": "TABLEAU FICTIF — même durée d’observation de 10 minutes, une seule visite. Jardin A : 7 coccinelles notées; jardin B : 3 coccinelles notées. L’heure et les conditions du relevé ne sont pas précisées. Ces données ne sont pas un recensement réel.",
+      "reponse_attendue": "Constat/résultat : pendant une visite de 10 minutes, 7 coccinelles sont notées dans A et 3 dans B. Indice : 7 > 3 pour des durées identiques. Conclusion : davantage de coccinelles ont été *observées pendant ces deux visites* dans A, sans inférer que A en héberge toujours plus. Limite : visite unique et heure/conditions non renseignées; impossible d’estimer l’abondance habituelle ou une cause.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "Si l’élève écrit « population plus grande », reformuler en « observées pendant la visite » et citer 7 contre 3. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "ST004-C009",
+        "corpus_version": "st004-situations-fermees-v1",
+        "variables_permises": [
+          "format_de_presentation"
+        ],
+        "domaine_format_de_presentation": [
+          "texte_lineaire",
+          "tableau_ou_liste_fidele"
+        ],
+        "contraintes": [
+          "Les valeurs, unités, conditions, question, réponse et critères restent identiques.",
+          "La version alternative doit être relue humainement avant distribution."
+        ],
+        "selection": "stimulus_immuable; aucune génération libre ni tirage stochastique"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "PREUVE M-1 — insectes de jardin (vivant)",
+      "representation": "tableau",
+      "etape": "preuve_maitrise",
+      "manifestation_maitrise": true,
+      "correction_controle": {
+        "observations_attendues": [
+          "7",
+          "3",
+          "10 minutes"
+        ],
+        "limite_admise": "Une visite et conditions inconnues",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-010",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Sans aide, communique à une équipe les distances constatées, l’indice qui soutient ton interprétation, la conclusion prudente et une limite; signale clairement la différence entre constat et explication supposée.",
+      "stimulus": "NOTES FICTIVES — avion de papier X : 140 cm au lancer 1 et 130 cm au lancer 2. Avion Y : 105 cm au lancer 1 et 100 cm au lancer 2. La force et l’angle de lancement ne sont pas décrits.",
+      "reponse_attendue": "Constat : X = 140 puis 130 cm; Y = 105 puis 100 cm. Indices : 140 > 105 et 130 > 100, en cm. Interprétation : X a parcouru plus de distance dans les deux lancers rapportés. Limite : deux lancers seulement et force/angle inconnus; on ne prouve pas que X ira toujours plus loin, ni pourquoi.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "Remplacer toute attribution certaine à la forme de l’avion par une hypothèse à tester; conserver les deux paires de distances. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "ST004-C010",
+        "corpus_version": "st004-situations-fermees-v1",
+        "variables_permises": [
+          "format_de_presentation"
+        ],
+        "domaine_format_de_presentation": [
+          "texte_lineaire",
+          "tableau_ou_liste_fidele"
+        ],
+        "contraintes": [
+          "Les valeurs, unités, conditions, question, réponse et critères restent identiques.",
+          "La version alternative doit être relue humainement avant distribution."
+        ],
+        "selection": "stimulus_immuable; aucune génération libre ni tirage stochastique"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "PREUVE M-2 — avions de papier (technologie)",
+      "representation": "liste_chronologique",
+      "etape": "preuve_maitrise",
+      "manifestation_maitrise": true,
+      "correction_controle": {
+        "observations_attendues": [
+          "140 cm",
+          "130 cm",
+          "105 cm",
+          "100 cm"
+        ],
+        "limite_admise": "Deux lancers avec conditions inconnues",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-011",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Rédige une brève note pour le journal de l’école : résultat, indice, conclusion circonscrite et limite. N’affirme pas qu’un étang compte une plus grande population.",
+      "stimulus": "Simulation de deux visites de 10 min, une seule par endroit : étang A, 5 oiseaux vus; étang B, 3. Les heures de visite ne sont pas indiquées.",
+      "reponse_attendue": "Au cours de ces visites de 10 minutes, 5 oiseaux ont été notés à A et 3 à B; 5 > 3 est l’indice. Donc davantage ont été *vus durant ces visites* à A. Une visite à chacun et l’heure inconnue ne permettent pas d’inférer une population plus grande en tout temps.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "Le comptage n’est pas un recensement; la conclusion porte seulement sur les visites. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "ST004-C011",
+        "corpus_version": "st004-situations-fermees-v1",
+        "variables_permises": [
+          "format_de_presentation"
+        ],
+        "domaine_format_de_presentation": [
+          "texte_lineaire",
+          "tableau_ou_liste_fidele"
+        ],
+        "contraintes": [
+          "Les valeurs, unités, conditions, question, réponse et critères restent identiques.",
+          "La version alternative doit être relue humainement avant distribution."
+        ],
+        "selection": "stimulus_immuable; aucune génération libre ni tirage stochastique"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Transfert — étangs et oiseaux (environnement)",
+      "representation": "note_de_terrain",
+      "etape": "transfert",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "5",
+          "3",
+          "10 min"
+        ],
+        "limite_admise": "Une visite par étang et heures non comparées",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-012",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Prépare une explication orale ou écrite à une équipe : constats, indice, interprétation mesurée et une limite; distingue une éventuelle hypothèse de cause.",
+      "stimulus": "Dans 4 essais fictifs, la maquette X reste en place 3 fois; Y 1 fois. Aucune force de l’air n’a été mesurée.",
+      "reponse_attendue": "X est restée en place 3/4 fois, Y 1/4 fois; 3 > 1 justifie que X a tenu plus souvent sur ces quatre essais. Les vitesses/forces de l’air ne sont pas indiquées, donc rien n’autorise une cause mécanique certaine ou une supériorité universelle.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "La force du vent n’a pas été mesurée; dire « peut-être » pour toute explication de cause. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "ST004-C012",
+        "corpus_version": "st004-situations-fermees-v1",
+        "variables_permises": [
+          "format_de_presentation"
+        ],
+        "domaine_format_de_presentation": [
+          "texte_lineaire",
+          "tableau_ou_liste_fidele"
+        ],
+        "contraintes": [
+          "Les valeurs, unités, conditions, question, réponse et critères restent identiques.",
+          "La version alternative doit être relue humainement avant distribution."
+        ],
+        "selection": "stimulus_immuable; aucune génération libre ni tirage stochastique"
+      },
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Transfert — mini-pare-vent (technologie)",
+      "representation": "compte_rendu_oral",
+      "etape": "transfert",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "3/4",
+          "1/4"
+        ],
+        "limite_admise": "Force de l’air inconnue",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    },
+    {
+      "item_id": "qc-pri-st-004-q-013",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Présente une observation, sa comparaison chiffrée, une interprétation prudente et une limite concernant la mesure. Distingue de la proposition sur les causes.",
+      "stimulus": "Relevés fictifs sur le même objet : 10 h — longueur de l’ombre 18 cm; 13 h — longueur 12 cm. Orientation du mètre non décrite.",
+      "reponse_attendue": "À 10 h la longueur notée est 18 cm, à 13 h 12 cm; la seconde est plus courte de 6 cm. Indice : 18 > 12 cm. Dans ces relevés, l’ombre indiquée est plus courte à 13 h. L’orientation et la méthode de mesure sont inconnues; la cause précise n’est pas démontrée.",
+      "criteres": [
+        "C1 Résultat : reprend correctement les observations nécessaires et leurs unités/conditions; aucune valeur inventée.",
+        "C2 Indice : désigne une trace exacte et pertinente qui soutient la comparaison ou la conclusion.",
+        "C3 Interprétation : formule une conclusion défendable et circonscrite aux essais observés, sans causalité non justifiée.",
+        "C4 Distinction épistémique : différencie explicitement ou sans ambiguïté constat et interprétation; nomme une cause hypothétique comme telle.",
+        "C5 Limite : identifie un aspect précis non établi de la collecte/comparaison et en explique la conséquence sur la portée de la conclusion."
+      ],
+      "feedback": "Ne pas affirmer que l’ombre mesure 6 cm : la différence est 6 cm, la longueur du second relevé est 12 cm. Feedback commun : demander de citer un indice exact et de corriger la portée de la conclusion, puis vérifier sur un autre cas.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-004-ev-01",
+      "critere_id": "crit-1",
+      "contexte": "Pratique autonome — ombre sur la cour",
+      "representation": "note_avec_unites",
+      "etape": "autonome_entrainement",
+      "manifestation_maitrise": false,
+      "correction_controle": {
+        "observations_attendues": [
+          "18 cm",
+          "12 cm"
+        ],
+        "limite_admise": "Orientation/méthode de mesure non indiquées",
+        "rubrique": "evaluation/GRILLE_MAITRISE.md",
+        "evaluateur": "humain_ou_rubrique_validee; pas_de_juge_IA_libre",
+        "variabilite_reponses": "reformulation equivalente autorisee, chiffres et portée non modifiables"
+      },
+      "source": "original_donnees_fictives_st004_2026-10-08"
+    }
+  ]
+}

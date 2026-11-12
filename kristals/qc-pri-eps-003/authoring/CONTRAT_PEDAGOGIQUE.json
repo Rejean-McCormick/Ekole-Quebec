@@ -1,0 +1,76 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-003",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Maintenir ou retrouver l’équilibre lors d’actions motrices de difficulté graduée.",
+  "concepts": [
+    "équilibre",
+    "coordination",
+    "appuis"
+  ],
+  "preuve_attendue": "Réussir deux enchaînements avec changement d’appuis.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-eps-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-003-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Réussir deux enchaînements avec changement d’appuis.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-eps-003",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Réussir deux enchaînements avec changement d’appuis.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "observation_de_gestes",
+        "tracé_d_appuis",
+        "sequence_de_pictogrammes",
+        "commentaire_oral_facultatif"
+      ],
+      "variables": {
+        "mode": "catalogue_de_scenarios_controles",
+        "domaines": [
+          "au_sol",
+          "assise_avec_support_stable",
+          "avec_aide_habituelle",
+          "station_balisee"
+        ],
+        "variantes": "uniquement les cas écrits dans BANQUE_ITEMS.json; aucun tirage génératif libre"
+      },
+      "contraintes": [
+        "supervision_adulte_constante",
+        "aucune_hauteur_saut_course_obligatoire",
+        "deux_changements_fonctionnels_d_appuis_par_preceuve",
+        "adaptations_individuelles_autorisees_sans_modifier_les_criteres",
+        "aucune_comparaison_corporelle_ou_chronometrique"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md — 4 dimensions observables sur niveaux 0-1-2; maîtrise: 2 dans chaque dimension lors de deux preuves indépendantes et contextualisées; sécurité non compensable",
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": "catalogue_fixe_seed_3303_items_005_a_008",
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,86 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-da-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Explorer les possibilités de mouvements du corps en sécurité.",
+  "concepts": [
+    "parties du corps",
+    "action",
+    "mobilité",
+    "expression"
+  ],
+  "preuve_attendue": "Créer puis répéter une séquence courte explorant deux types de mouvements.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-da-001-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Créer puis répéter une séquence courte explorant deux types de mouvements.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Seulement conditions matérielles accessibles non directives (position, amplitude, tempo, partie disponible), scénarios 009 et 010 fixes; pas de génération libre.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_scenarios": "fixe, 009 et 010; aucune sélection aléatoire ni formule"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-da-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "performance corporelle observée",
+        "quatre cases d’actions",
+        "explication orale, gestuelle ou communication assistée"
+      ],
+      "variables": {
+        "mode": "scenarios_fixes_uniquement",
+        "scenarios_autorises": [
+          "feuille_dans_le_vent",
+          "atelier_de_mecanismes"
+        ],
+        "modele_parametrique": false
+      },
+      "contraintes": [
+        "mouvement corporel volontaire et accessible",
+        "deux types discernables",
+        "quatre étapes choisies",
+        "deux passages reconnaissables",
+        "aucune pression d’amplitude ou de vitesse",
+        "supervision et espace dégagé",
+        "deux preuves dans des contextes distincts",
+        "aucune note sur la morphologie ou le goût"
+      ],
+      "bareme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "deux_actions_distinctes",
+          "composition_quatre_etapes",
+          "repetition_reconnaissable",
+          "intention_documentee",
+          "securite_et_autonomie"
+        ],
+        "echelle": "0=non_observe;1=en_developpement;2=observe",
+        "regle": "deux preuves indépendantes avec noyau complet sur chacune, aucune moyenne unique"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_evaluations_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

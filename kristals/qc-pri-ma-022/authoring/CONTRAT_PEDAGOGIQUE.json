@@ -1,0 +1,90 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-022",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Reconnaître et décrire des solides grâce à leurs éléments constitutifs.",
+  "concepts": [
+    "face",
+    "arête",
+    "sommet",
+    "patrons"
+  ],
+  "preuve_attendue": "Associer une description à un solide et justifier à l’aide de ses propriétés.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-ma-021"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-022-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Associer une description à un solide et justifier à l’aide de ses propriétés.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "strictement les cas fermés des items q-007 à q-009, tirés par seed modulo 3 ou 4, avec corrigés tabulés; autres scénarios fixes sauf nouvelle validation",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_tests_techniques_revue_humaine_requise",
+      "kristal_id": "qc-pri-ma-022",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Associer une description à un solide et justifier à l’aide de ses propriétés.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte_structuré",
+        "maquette_ou_description_accessible",
+        "tableau_faces_aretes_sommets",
+        "patron_textuel_controle"
+      ],
+      "variables": {
+        "strategie": "catalogues fermés et seeds entières",
+        "items_parametriques": [
+          "qc-pri-ma-022-q-007",
+          "qc-pri-ma-022-q-008",
+          "qc-pri-ma-022-q-009"
+        ],
+        "domaines": "voir parametres complets des trois items; seed modulo 3 ou 4"
+      },
+      "contraintes": [
+        "polyèdres convexes bornés aux cinq types documentés",
+        "F/A/S vérifiés par décompte indépendant",
+        "patrons contrôlés par pliage théorique et contrôle manuel requis",
+        "ne pas créer de variations libres sans nouveaux tests",
+        "deux preuves autonomes q-011 et q-012 indépendantes"
+      ],
+      "barreme_ou_rubrique": {
+        "identification": "1 critère obligatoire sur chaque preuve",
+        "proprietes": "au moins deux justifications pertinentes, dont une discriminante",
+        "comptages": "F, A et S exacts et expliqués au besoin",
+        "patron": "proposition compatible avec les faces et le pliage",
+        "decision": "deux preuves concordantes en contextes distincts sans indices, jamais note unique",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": {
+        "nature": "entier positif stable documenté au niveau item",
+        "valeurs_par_defaut": {
+          "qc-pri-ma-022-q-007": 22007,
+          "qc-pri-ma-022-q-008": 22008,
+          "qc-pri-ma-022-q-009": 22009
+        }
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_banque_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

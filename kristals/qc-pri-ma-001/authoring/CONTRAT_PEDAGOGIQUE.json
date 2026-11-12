@@ -1,0 +1,91 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Associer une quantité à un dénombrement exact et en représenter les éléments.",
+  "concepts": [
+    "correspondance terme à terme",
+    "cardinalité",
+    "groupement"
+  ],
+  "preuve_attendue": "Dénombrer deux collections inédites et contrôler le résultat autrement.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-001-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Dénombrer deux collections inédites et contrôler le résultat autrement.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme": "r=(7*seed+3)%97; n=min+(r%(max-min+1)); matérialiser exactement n jetons, puis vérifier le cardinal indépendamment et la somme des groupes",
+        "domaines": "n de 0 à 20; paramètres par item plus restrictifs dans BANQUE_ITEMS.json",
+        "validation": "générateur et instances à vérifier par script indépendant; les items restent a_revoir"
+      },
+      "review_status": "a_revoir",
+      "kristal_id": "qc-pri-ma-001",
+      "objectif_id": "obj-1",
+      "critere": "Dénombrer deux collections inédites et contrôler le résultat autrement.",
+      "critere_id": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "matériel manipulable",
+        "points schématiques explicitement distincts",
+        "écriture numérique et groupements"
+      ],
+      "variables": {
+        "n": {
+          "domaine_entiers": [
+            0,
+            20
+          ],
+          "definition": "nombre total de pièces distinctes"
+        },
+        "g": {
+          "domaine_entiers": [
+            2,
+            5
+          ],
+          "definition": "taille cible optionnelle de groupes"
+        }
+      },
+      "contraintes": [
+        "Chaque objet appartient à la collection exactement une fois.",
+        "Chaque groupe est disjoint; la somme de ses effectifs est n.",
+        "Aucune substitution par un tirage IA.",
+        "Les collections de maîtrise sont inédites et les aides au résultat sont exclues."
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "correspondance sans oubli ni double comptage",
+          "cardinal exact",
+          "représentation exhaustive",
+          "contrôle par une autre organisation"
+        ],
+        "regle": "quatre dimensions observées sur deux contextes distincts; la maîtrise ne résulte pas d’une note unique",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": 31001,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_produit_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

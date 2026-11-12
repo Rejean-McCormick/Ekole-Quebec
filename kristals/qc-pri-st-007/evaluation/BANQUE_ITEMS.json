@@ -1,0 +1,633 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-007",
+  "family_id": "qc-pri-st-007-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-007-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Identifier une poussée et distinguer prédiction et observation. Distingue la prédiction (si elle figure dans la trace), le constat observé, puis une explication mesurée. Justifie avec les conditions de la trace.",
+      "stimulus": "Avant : une boîte vide est au repère A. Aya écrit : « Si je pousse vers B, elle ira près de B ». Après une très légère poussée sur table dégagée : la boîte est toujours au repère A.",
+      "reponse_attendue": "Geste : poussée tentée vers B. Prédiction : rapprochement de B, non confirmé. Observation : boîte restée à A. On ne peut pas déduire l’absence de force; résistance du contact possible, sans valeur d’intensité connue.",
+      "criteres": [
+        "Nomme et situe le geste ou la force pertinente sans confusion de direction",
+        "Cite correctement un fait observé de la trace plutôt que sa prédiction",
+        "Décrit l’effet sur la position ou la forme, ou l’absence de changement visible, sans inventer de mesure",
+        "Justifie une explication compatible avec le constat et indique une limite si nécessaire"
+      ],
+      "feedback": "Vérifie ce qui était annoncé AVANT et ce qui est donné APRÈS. Le constat seul est une donnée; une cause proposée doit respecter les conditions du texte. Pour la friction de glissement, repère le sens du glissement relatif. Ne déduis ni intensité ni certitude sans mesure.",
+      "difficulte": "initial",
+      "representation": "trace_textuelle_avec_repere",
+      "seed": 7001,
+      "parametres": {
+        "type": "corpus_fini_valide_a_revoir",
+        "variables": {
+          "indice_scenario": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "Choisir une seule trace entièrement prédéfinie du même item",
+          "Le stimulus et son corrigé sont appariés et non recombinables",
+          "Interdiction de générer librement des phénomènes, mesures ou résultats expérimentaux",
+          "Le corpus contient uniquement des traces fictives explicitement présentées comme telles; aucun essai réel revendiqué"
+        ],
+        "algorithme": "Pour seed entière non négative s, indice_scenario = s modulo 2; utiliser le stimulus et le corrigé d’indice correspondant (indexation à partir de 0). Répéter avec la même seed renvoie le même couple. Aucun tirage libre.",
+        "algorithme_de_correction": "Récupérer uniquement corrige du scénario indexé; faire appliquer la grille d’observation / inférence à la réponse de l’élève. Rejeter les directions, valeurs et résultats physiques absents de la trace.",
+        "seed_initiale": 7001,
+        "indice_instancie": 1,
+        "limites_de_variation": "Deux scénarios verrouillés seulement; pas de substitution de matériau, de texte, de résultat ni de force sans revue humaine.",
+        "catalogue": [
+          {
+            "stimulus": "Avant : une boîte vide est au repère A. Aya écrit : « Si je pousse vers B, elle ira près de B ». Après une poussée douce sur table dégagée : la boîte est plus près de B.",
+            "corrige": "Geste : poussée vers B. Prédiction : « elle ira près de B », écrite avant. Observation : boîte plus près de B après. Effet décrit : mouvement relatif au repère. Dire que la poussée a contribué au mouvement est une explication; force exacte inconnue.",
+            "indice": 0
+          },
+          {
+            "stimulus": "Avant : une boîte vide est au repère A. Aya écrit : « Si je pousse vers B, elle ira près de B ». Après une très légère poussée sur table dégagée : la boîte est toujours au repère A.",
+            "corrige": "Geste : poussée tentée vers B. Prédiction : rapprochement de B, non confirmé. Observation : boîte restée à A. On ne peut pas déduire l’absence de force; résistance du contact possible, sans valeur d’intensité connue.",
+            "indice": 1
+          }
+        ],
+        "validation_exemples": [
+          {
+            "seed": 7001,
+            "indice": 1,
+            "attendu": "Geste : poussée tentée vers B. Prédiction : rapprochement de B, non confirmé. Observation : boîte restée à A. On ne peut pas déduire l’absence de force; résistance du contact possible, sans valeur d’intensité connue."
+          },
+          {
+            "seed": 7002,
+            "indice": 0,
+            "attendu": "Geste : poussée vers B. Prédiction : « elle ira près de B », écrite avant. Observation : boîte plus près de B après. Effet décrit : mouvement relatif au repère. Dire que la poussée a contribué au mouvement est une explication; force exacte inconnue."
+          }
+        ],
+        "controle": "Index contrôlable mécaniquement; rubriques, réalisme des traces et adéquation à la population nécessitent une relecture humaine."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-st-007-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Identifier une traction et décrire un déplacement constaté. Distingue la prédiction (si elle figure dans la trace), le constat observé, puis une explication mesurée. Justifie avec les conditions de la trace.",
+      "stimulus": "Un plateau léger est à gauche de la carte X. Il possède une poignée plate intégrée. Avant : « Je pense qu’en tirant vers la droite, le plateau ira vers X ». Après le tirage doux : le plateau est près de X.",
+      "reponse_attendue": "Traction vers la droite; prédiction = aller vers X, observation = position près de X après. Effet : changement de position vers la droite. Le geste contribue vraisemblablement au déplacement; aucune vitesse chiffrée prouvée.",
+      "criteres": [
+        "Nomme et situe le geste ou la force pertinente sans confusion de direction",
+        "Cite correctement un fait observé de la trace plutôt que sa prédiction",
+        "Décrit l’effet sur la position ou la forme, ou l’absence de changement visible, sans inventer de mesure",
+        "Justifie une explication compatible avec le constat et indique une limite si nécessaire"
+      ],
+      "feedback": "Vérifie ce qui était annoncé AVANT et ce qui est donné APRÈS. Le constat seul est une donnée; une cause proposée doit respecter les conditions du texte. Pour la friction de glissement, repère le sens du glissement relatif. Ne déduis ni intensité ni certitude sans mesure.",
+      "difficulte": "initial",
+      "representation": "trace_et_direction_de_la_main",
+      "seed": 7002,
+      "parametres": {
+        "type": "corpus_fini_valide_a_revoir",
+        "variables": {
+          "indice_scenario": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "Choisir une seule trace entièrement prédéfinie du même item",
+          "Le stimulus et son corrigé sont appariés et non recombinables",
+          "Interdiction de générer librement des phénomènes, mesures ou résultats expérimentaux",
+          "Le corpus contient uniquement des traces fictives explicitement présentées comme telles; aucun essai réel revendiqué"
+        ],
+        "algorithme": "Pour seed entière non négative s, indice_scenario = s modulo 2; utiliser le stimulus et le corrigé d’indice correspondant (indexation à partir de 0). Répéter avec la même seed renvoie le même couple. Aucun tirage libre.",
+        "algorithme_de_correction": "Récupérer uniquement corrige du scénario indexé; faire appliquer la grille d’observation / inférence à la réponse de l’élève. Rejeter les directions, valeurs et résultats physiques absents de la trace.",
+        "seed_initiale": 7002,
+        "indice_instancie": 0,
+        "limites_de_variation": "Deux scénarios verrouillés seulement; pas de substitution de matériau, de texte, de résultat ni de force sans revue humaine.",
+        "catalogue": [
+          {
+            "stimulus": "Un plateau léger est à gauche de la carte X. Il possède une poignée plate intégrée. Avant : « Je pense qu’en tirant vers la droite, le plateau ira vers X ». Après le tirage doux : le plateau est près de X.",
+            "corrige": "Traction vers la droite; prédiction = aller vers X, observation = position près de X après. Effet : changement de position vers la droite. Le geste contribue vraisemblablement au déplacement; aucune vitesse chiffrée prouvée.",
+            "indice": 0
+          },
+          {
+            "stimulus": "Un plateau léger est à droite de la carte X. Il possède une poignée plate intégrée. Avant : « Je pense qu’en tirant vers la gauche, le plateau ira vers X ». Après le tirage doux : le plateau est près de X.",
+            "corrige": "Traction vers la gauche; prédiction = aller vers X, observation = position près de X après. Effet : changement de position vers la gauche. Le geste contribue vraisemblablement au déplacement; aucune vitesse chiffrée prouvée.",
+            "indice": 1
+          }
+        ],
+        "validation_exemples": [
+          {
+            "seed": 7002,
+            "indice": 0,
+            "attendu": "Traction vers la droite; prédiction = aller vers X, observation = position près de X après. Effet : changement de position vers la droite. Le geste contribue vraisemblablement au déplacement; aucune vitesse chiffrée prouvée."
+          },
+          {
+            "seed": 7003,
+            "indice": 1,
+            "attendu": "Traction vers la gauche; prédiction = aller vers X, observation = position près de X après. Effet : changement de position vers la gauche. Le geste contribue vraisemblablement au déplacement; aucune vitesse chiffrée prouvée."
+          }
+        ],
+        "controle": "Index contrôlable mécaniquement; rubriques, réalisme des traces et adéquation à la population nécessitent une relecture humaine."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-st-007-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Distinguer changement de forme et changement de position après une pression. Distingue la prédiction (si elle figure dans la trace), le constat observé, puis une explication mesurée. Justifie avec les conditions de la trace.",
+      "stimulus": "Éponge souple posée sur un repère A. Avant : « Je pense qu’elle se tassera si je l’appuie doucement ». Après : pendant la pression, l’éponge se tasse; elle reste au-dessus de A; au relâchement, elle reprend presque sa forme.",
+      "reponse_attendue": "Action : pression/poussée sur l’éponge. Prédiction : tassement. Observation : changement de forme pendant le geste, reprise presque complète après; aucun déplacement de position rapporté. Déformation ≠ translation; ne pas inventer une distance.",
+      "criteres": [
+        "Nomme et situe le geste ou la force pertinente sans confusion de direction",
+        "Cite correctement un fait observé de la trace plutôt que sa prédiction",
+        "Décrit l’effet sur la position ou la forme, ou l’absence de changement visible, sans inventer de mesure",
+        "Justifie une explication compatible avec le constat et indique une limite si nécessaire"
+      ],
+      "feedback": "Vérifie ce qui était annoncé AVANT et ce qui est donné APRÈS. Le constat seul est une donnée; une cause proposée doit respecter les conditions du texte. Pour la friction de glissement, repère le sens du glissement relatif. Ne déduis ni intensité ni certitude sans mesure.",
+      "difficulte": "initial",
+      "representation": "contours_avant_pendant_apres",
+      "seed": 7003,
+      "parametres": {
+        "type": "corpus_fini_valide_a_revoir",
+        "variables": {
+          "indice_scenario": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "Choisir une seule trace entièrement prédéfinie du même item",
+          "Le stimulus et son corrigé sont appariés et non recombinables",
+          "Interdiction de générer librement des phénomènes, mesures ou résultats expérimentaux",
+          "Le corpus contient uniquement des traces fictives explicitement présentées comme telles; aucun essai réel revendiqué"
+        ],
+        "algorithme": "Pour seed entière non négative s, indice_scenario = s modulo 2; utiliser le stimulus et le corrigé d’indice correspondant (indexation à partir de 0). Répéter avec la même seed renvoie le même couple. Aucun tirage libre.",
+        "algorithme_de_correction": "Récupérer uniquement corrige du scénario indexé; faire appliquer la grille d’observation / inférence à la réponse de l’élève. Rejeter les directions, valeurs et résultats physiques absents de la trace.",
+        "seed_initiale": 7003,
+        "indice_instancie": 1,
+        "limites_de_variation": "Deux scénarios verrouillés seulement; pas de substitution de matériau, de texte, de résultat ni de force sans revue humaine.",
+        "catalogue": [
+          {
+            "stimulus": "Balle en mousse posée sur un repère A. Avant : « Je pense qu’elle sera aplatie si je l’appuie doucement ». Après : pendant la pression, la balle s’aplatit légèrement; elle reste au-dessus de A; au relâchement, elle reprend sa forme.",
+            "corrige": "Action : pression/poussée sur la balle. Prédiction : aplatissement. Observation : changement de forme pendant le geste, retour ensuite; aucun déplacement de position rapporté. Déformation ≠ translation; ne pas inventer une distance.",
+            "indice": 0
+          },
+          {
+            "stimulus": "Éponge souple posée sur un repère A. Avant : « Je pense qu’elle se tassera si je l’appuie doucement ». Après : pendant la pression, l’éponge se tasse; elle reste au-dessus de A; au relâchement, elle reprend presque sa forme.",
+            "corrige": "Action : pression/poussée sur l’éponge. Prédiction : tassement. Observation : changement de forme pendant le geste, reprise presque complète après; aucun déplacement de position rapporté. Déformation ≠ translation; ne pas inventer une distance.",
+            "indice": 1
+          }
+        ],
+        "validation_exemples": [
+          {
+            "seed": 7003,
+            "indice": 1,
+            "attendu": "Action : pression/poussée sur l’éponge. Prédiction : tassement. Observation : changement de forme pendant le geste, reprise presque complète après; aucun déplacement de position rapporté. Déformation ≠ translation; ne pas inventer une distance."
+          },
+          {
+            "seed": 7004,
+            "indice": 0,
+            "attendu": "Action : pression/poussée sur la balle. Prédiction : aplatissement. Observation : changement de forme pendant le geste, retour ensuite; aucun déplacement de position rapporté. Déformation ≠ translation; ne pas inventer une distance."
+          }
+        ],
+        "controle": "Index contrôlable mécaniquement; rubriques, réalisme des traces et adéquation à la population nécessitent une relecture humaine."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-st-007-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Orienter la friction de glissement dans un cas horizontal explicitement défini. Distingue la prédiction (si elle figure dans la trace), le constat observé, puis une explication mesurée. Justifie avec les conditions de la trace.",
+      "stimulus": "Une boîte glisse vers la DROITE relativement à un plateau immobile horizontal. Deux flèches possibles pour la friction DU PLATEAU SUR LA BOÎTE : ← ou →. Le plateau reste en place.",
+      "reponse_attendue": "La friction de glissement du plateau sur la boîte agit vers la GAUCHE (←), opposée au glissement relatif de la boîte vers la droite. Cette direction ne prouve pas l’arrêt instantané.",
+      "criteres": [
+        "Nomme et situe le geste ou la force pertinente sans confusion de direction",
+        "Cite correctement un fait observé de la trace plutôt que sa prédiction",
+        "Décrit l’effet sur la position ou la forme, ou l’absence de changement visible, sans inventer de mesure",
+        "Justifie une explication compatible avec le constat et indique une limite si nécessaire"
+      ],
+      "feedback": "Vérifie ce qui était annoncé AVANT et ce qui est donné APRÈS. Le constat seul est une donnée; une cause proposée doit respecter les conditions du texte. Pour la friction de glissement, repère le sens du glissement relatif. Ne déduis ni intensité ni certitude sans mesure.",
+      "difficulte": "intermediaire",
+      "representation": "schema_textuel_fleches",
+      "seed": 7004,
+      "parametres": {
+        "type": "corpus_fini_valide_a_revoir",
+        "variables": {
+          "indice_scenario": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "Choisir une seule trace entièrement prédéfinie du même item",
+          "Le stimulus et son corrigé sont appariés et non recombinables",
+          "Interdiction de générer librement des phénomènes, mesures ou résultats expérimentaux",
+          "Le corpus contient uniquement des traces fictives explicitement présentées comme telles; aucun essai réel revendiqué"
+        ],
+        "algorithme": "Pour seed entière non négative s, indice_scenario = s modulo 2; utiliser le stimulus et le corrigé d’indice correspondant (indexation à partir de 0). Répéter avec la même seed renvoie le même couple. Aucun tirage libre.",
+        "algorithme_de_correction": "Récupérer uniquement corrige du scénario indexé; faire appliquer la grille d’observation / inférence à la réponse de l’élève. Rejeter les directions, valeurs et résultats physiques absents de la trace.",
+        "seed_initiale": 7004,
+        "indice_instancie": 0,
+        "limites_de_variation": "Deux scénarios verrouillés seulement; pas de substitution de matériau, de texte, de résultat ni de force sans revue humaine.",
+        "catalogue": [
+          {
+            "stimulus": "Une boîte glisse vers la DROITE relativement à un plateau immobile horizontal. Deux flèches possibles pour la friction DU PLATEAU SUR LA BOÎTE : ← ou →. Le plateau reste en place.",
+            "corrige": "La friction de glissement du plateau sur la boîte agit vers la GAUCHE (←), opposée au glissement relatif de la boîte vers la droite. Cette direction ne prouve pas l’arrêt instantané.",
+            "indice": 0
+          },
+          {
+            "stimulus": "Une boîte glisse vers la GAUCHE relativement à un plateau immobile horizontal. Deux flèches possibles pour la friction DU PLATEAU SUR LA BOÎTE : ← ou →. Le plateau reste en place.",
+            "corrige": "La friction de glissement du plateau sur la boîte agit vers la DROITE (→), opposée au glissement relatif de la boîte vers la gauche. Cette direction ne prouve pas l’arrêt instantané.",
+            "indice": 1
+          }
+        ],
+        "validation_exemples": [
+          {
+            "seed": 7004,
+            "indice": 0,
+            "attendu": "La friction de glissement du plateau sur la boîte agit vers la GAUCHE (←), opposée au glissement relatif de la boîte vers la droite. Cette direction ne prouve pas l’arrêt instantané."
+          },
+          {
+            "seed": 7005,
+            "indice": 1,
+            "attendu": "La friction de glissement du plateau sur la boîte agit vers la DROITE (→), opposée au glissement relatif de la boîte vers la gauche. Cette direction ne prouve pas l’arrêt instantané."
+          }
+        ],
+        "controle": "Index contrôlable mécaniquement; rubriques, réalisme des traces et adéquation à la population nécessitent une relecture humaine."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-st-007-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Refuser la fausse déduction absence de mouvement = absence de forces. Distingue la prédiction (si elle figure dans la trace), le constat observé, puis une explication mesurée. Justifie avec les conditions de la trace.",
+      "stimulus": "Une personne tire très doucement vers la droite un plateau léger posé sur un tapis. La marque indique qu’il reste au même endroit pendant l’essai. Quel est le constat et que peut-on inférer?",
+      "reponse_attendue": "Observation : aucun changement visible de position. Une traction vers la droite a pourtant été exercée. Une force de contact résistante, telle que la friction statique, peut empêcher le glissement. On ne peut ni nier toute force ni calculer leur intensité.",
+      "criteres": [
+        "Nomme et situe le geste ou la force pertinente sans confusion de direction",
+        "Cite correctement un fait observé de la trace plutôt que sa prédiction",
+        "Décrit l’effet sur la position ou la forme, ou l’absence de changement visible, sans inventer de mesure",
+        "Justifie une explication compatible avec le constat et indique une limite si nécessaire"
+      ],
+      "feedback": "Vérifie ce qui était annoncé AVANT et ce qui est donné APRÈS. Le constat seul est une donnée; une cause proposée doit respecter les conditions du texte. Pour la friction de glissement, repère le sens du glissement relatif. Ne déduis ni intensité ni certitude sans mesure.",
+      "difficulte": "intermediaire",
+      "representation": "trace_d_immobilite",
+      "seed": 7005,
+      "parametres": {
+        "type": "corpus_fini_valide_a_revoir",
+        "variables": {
+          "indice_scenario": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "Choisir une seule trace entièrement prédéfinie du même item",
+          "Le stimulus et son corrigé sont appariés et non recombinables",
+          "Interdiction de générer librement des phénomènes, mesures ou résultats expérimentaux",
+          "Le corpus contient uniquement des traces fictives explicitement présentées comme telles; aucun essai réel revendiqué"
+        ],
+        "algorithme": "Pour seed entière non négative s, indice_scenario = s modulo 2; utiliser le stimulus et le corrigé d’indice correspondant (indexation à partir de 0). Répéter avec la même seed renvoie le même couple. Aucun tirage libre.",
+        "algorithme_de_correction": "Récupérer uniquement corrige du scénario indexé; faire appliquer la grille d’observation / inférence à la réponse de l’élève. Rejeter les directions, valeurs et résultats physiques absents de la trace.",
+        "seed_initiale": 7005,
+        "indice_instancie": 1,
+        "limites_de_variation": "Deux scénarios verrouillés seulement; pas de substitution de matériau, de texte, de résultat ni de force sans revue humaine.",
+        "catalogue": [
+          {
+            "stimulus": "Une personne pousse très doucement un étui vers la gauche sur un tapis. La marque indique que l’étui reste au même endroit pendant l’essai. Quel est le constat et que peut-on inférer?",
+            "corrige": "Observation : aucun changement visible de position. Une poussée vers la gauche a pourtant été exercée. Une force de contact résistante, telle que la friction statique, peut empêcher le glissement. On ne peut ni nier toute force ni calculer leur intensité.",
+            "indice": 0
+          },
+          {
+            "stimulus": "Une personne tire très doucement vers la droite un plateau léger posé sur un tapis. La marque indique qu’il reste au même endroit pendant l’essai. Quel est le constat et que peut-on inférer?",
+            "corrige": "Observation : aucun changement visible de position. Une traction vers la droite a pourtant été exercée. Une force de contact résistante, telle que la friction statique, peut empêcher le glissement. On ne peut ni nier toute force ni calculer leur intensité.",
+            "indice": 1
+          }
+        ],
+        "validation_exemples": [
+          {
+            "seed": 7005,
+            "indice": 1,
+            "attendu": "Observation : aucun changement visible de position. Une traction vers la droite a pourtant été exercée. Une force de contact résistante, telle que la friction statique, peut empêcher le glissement. On ne peut ni nier toute force ni calculer leur intensité."
+          },
+          {
+            "seed": 7006,
+            "indice": 0,
+            "attendu": "Observation : aucun changement visible de position. Une poussée vers la gauche a pourtant été exercée. Une force de contact résistante, telle que la friction statique, peut empêcher le glissement. On ne peut ni nier toute force ni calculer leur intensité."
+          }
+        ],
+        "controle": "Index contrôlable mécaniquement; rubriques, réalisme des traces et adéquation à la population nécessitent une relecture humaine."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-st-007-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Comparer deux traces de glissement et limiter la conclusion sur la friction. Distingue la prédiction (si elle figure dans la trace), le constat observé, puis une explication mesurée. Justifie avec les conditions de la trace.",
+      "stimulus": "Même étui, même départ A, surface horizontale. Essai 1 sur TABLE LISSE : après une poussée, l’étui atteint la carte C. Essai 2 sur TISSU SEC : après une poussée, l’étui s’arrête avant C. L’intensité des deux poussées manuelles N’A PAS été mesurée.",
+      "reponse_attendue": "Observation : dans ces essais, distance parcourue plus grande sur table lisse que sur tissu, d’après la carte C. Hypothèse : différences de friction de contact possibles. Limite essentielle : poussées non mesurées et peut-être différentes; pas de conclusion universelle ni de mesure des forces.",
+      "criteres": [
+        "Nomme et situe le geste ou la force pertinente sans confusion de direction",
+        "Cite correctement un fait observé de la trace plutôt que sa prédiction",
+        "Décrit l’effet sur la position ou la forme, ou l’absence de changement visible, sans inventer de mesure",
+        "Justifie une explication compatible avec le constat et indique une limite si nécessaire"
+      ],
+      "feedback": "Vérifie ce qui était annoncé AVANT et ce qui est donné APRÈS. Le constat seul est une donnée; une cause proposée doit respecter les conditions du texte. Pour la friction de glissement, repère le sens du glissement relatif. Ne déduis ni intensité ni certitude sans mesure.",
+      "difficulte": "intermediaire",
+      "representation": "tableau_d_observations",
+      "seed": 7006,
+      "parametres": {
+        "type": "corpus_fini_valide_a_revoir",
+        "variables": {
+          "indice_scenario": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "Choisir une seule trace entièrement prédéfinie du même item",
+          "Le stimulus et son corrigé sont appariés et non recombinables",
+          "Interdiction de générer librement des phénomènes, mesures ou résultats expérimentaux",
+          "Le corpus contient uniquement des traces fictives explicitement présentées comme telles; aucun essai réel revendiqué"
+        ],
+        "algorithme": "Pour seed entière non négative s, indice_scenario = s modulo 2; utiliser le stimulus et le corrigé d’indice correspondant (indexation à partir de 0). Répéter avec la même seed renvoie le même couple. Aucun tirage libre.",
+        "algorithme_de_correction": "Récupérer uniquement corrige du scénario indexé; faire appliquer la grille d’observation / inférence à la réponse de l’élève. Rejeter les directions, valeurs et résultats physiques absents de la trace.",
+        "seed_initiale": 7006,
+        "indice_instancie": 0,
+        "limites_de_variation": "Deux scénarios verrouillés seulement; pas de substitution de matériau, de texte, de résultat ni de force sans revue humaine.",
+        "catalogue": [
+          {
+            "stimulus": "Même étui, même départ A, surface horizontale. Essai 1 sur TABLE LISSE : après une poussée, l’étui atteint la carte C. Essai 2 sur TISSU SEC : après une poussée, l’étui s’arrête avant C. L’intensité des deux poussées manuelles N’A PAS été mesurée.",
+            "corrige": "Observation : dans ces essais, distance parcourue plus grande sur table lisse que sur tissu, d’après la carte C. Hypothèse : différences de friction de contact possibles. Limite essentielle : poussées non mesurées et peut-être différentes; pas de conclusion universelle ni de mesure des forces.",
+            "indice": 0
+          },
+          {
+            "stimulus": "Même étui, même départ A, surface horizontale. Essai 1 sur TISSU SEC : après une poussée, l’étui atteint la carte C. Essai 2 sur TABLE LISSE : après une poussée, l’étui s’arrête avant C. L’intensité des deux poussées manuelles N’A PAS été mesurée.",
+            "corrige": "Observation : dans ces essais, distance parcourue plus grande sur tissu que sur table lisse, d’après la carte C. On ne peut pas affirmer que le tissu donne toujours moins de friction : poussées manuelles non mesurées, autres conditions potentiellement différentes. La friction peut jouer un rôle; il faut refaire des essais comparables.",
+            "indice": 1
+          }
+        ],
+        "validation_exemples": [
+          {
+            "seed": 7006,
+            "indice": 0,
+            "attendu": "Observation : dans ces essais, distance parcourue plus grande sur table lisse que sur tissu, d’après la carte C. Hypothèse : différences de friction de contact possibles. Limite essentielle : poussées non mesurées et peut-être différentes; pas de conclusion universelle ni de mesure des forces."
+          },
+          {
+            "seed": 7007,
+            "indice": 1,
+            "attendu": "Observation : dans ces essais, distance parcourue plus grande sur tissu que sur table lisse, d’après la carte C. On ne peut pas affirmer que le tissu donne toujours moins de friction : poussées manuelles non mesurées, autres conditions potentiellement différentes. La friction peut jouer un rôle; il faut refaire des essais comparables."
+          }
+        ],
+        "controle": "Index contrôlable mécaniquement; rubriques, réalisme des traces et adéquation à la population nécessitent une relecture humaine."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-st-007-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Reconnaître un mouvement à l’aide de deux positions observées. Distingue la prédiction (si elle figure dans la trace), le constat observé, puis une explication mesurée. Justifie avec les conditions de la trace.",
+      "stimulus": "Une balle en mousse est photographiée au repère B à t0 puis au repère A, plus à gauche, à t1. Entre les deux images, une personne a doucement poussé la balle vers la gauche. Aucune photo intermédiaire.",
+      "reponse_attendue": "La balle a changé de position de B vers A entre t0 et t1 : elle a été en mouvement relativement aux repères; poussée vers la gauche décrite. Les photos ne permettent pas d’affirmer une accélération précise ni une trajectoire détaillée.",
+      "criteres": [
+        "Nomme et situe le geste ou la force pertinente sans confusion de direction",
+        "Cite correctement un fait observé de la trace plutôt que sa prédiction",
+        "Décrit l’effet sur la position ou la forme, ou l’absence de changement visible, sans inventer de mesure",
+        "Justifie une explication compatible avec le constat et indique une limite si nécessaire"
+      ],
+      "feedback": "Vérifie ce qui était annoncé AVANT et ce qui est donné APRÈS. Le constat seul est une donnée; une cause proposée doit respecter les conditions du texte. Pour la friction de glissement, repère le sens du glissement relatif. Ne déduis ni intensité ni certitude sans mesure.",
+      "difficulte": "intermediaire",
+      "representation": "trace_positionnelle",
+      "seed": 7007,
+      "parametres": {
+        "type": "corpus_fini_valide_a_revoir",
+        "variables": {
+          "indice_scenario": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "Choisir une seule trace entièrement prédéfinie du même item",
+          "Le stimulus et son corrigé sont appariés et non recombinables",
+          "Interdiction de générer librement des phénomènes, mesures ou résultats expérimentaux",
+          "Le corpus contient uniquement des traces fictives explicitement présentées comme telles; aucun essai réel revendiqué"
+        ],
+        "algorithme": "Pour seed entière non négative s, indice_scenario = s modulo 2; utiliser le stimulus et le corrigé d’indice correspondant (indexation à partir de 0). Répéter avec la même seed renvoie le même couple. Aucun tirage libre.",
+        "algorithme_de_correction": "Récupérer uniquement corrige du scénario indexé; faire appliquer la grille d’observation / inférence à la réponse de l’élève. Rejeter les directions, valeurs et résultats physiques absents de la trace.",
+        "seed_initiale": 7007,
+        "indice_instancie": 1,
+        "limites_de_variation": "Deux scénarios verrouillés seulement; pas de substitution de matériau, de texte, de résultat ni de force sans revue humaine.",
+        "catalogue": [
+          {
+            "stimulus": "Une balle en mousse est photographiée au repère A à t0 puis au repère B, plus à droite, à t1. Entre les deux images, une personne a doucement poussé la balle vers la droite. Aucune photo intermédiaire.",
+            "corrige": "La balle a changé de position de A vers B entre t0 et t1 : elle a été en mouvement relativement aux repères; poussée vers la droite décrite. Les photos ne permettent pas d’affirmer une accélération précise ni une trajectoire détaillée.",
+            "indice": 0
+          },
+          {
+            "stimulus": "Une balle en mousse est photographiée au repère B à t0 puis au repère A, plus à gauche, à t1. Entre les deux images, une personne a doucement poussé la balle vers la gauche. Aucune photo intermédiaire.",
+            "corrige": "La balle a changé de position de B vers A entre t0 et t1 : elle a été en mouvement relativement aux repères; poussée vers la gauche décrite. Les photos ne permettent pas d’affirmer une accélération précise ni une trajectoire détaillée.",
+            "indice": 1
+          }
+        ],
+        "validation_exemples": [
+          {
+            "seed": 7007,
+            "indice": 1,
+            "attendu": "La balle a changé de position de B vers A entre t0 et t1 : elle a été en mouvement relativement aux repères; poussée vers la gauche décrite. Les photos ne permettent pas d’affirmer une accélération précise ni une trajectoire détaillée."
+          },
+          {
+            "seed": 7008,
+            "indice": 0,
+            "attendu": "La balle a changé de position de A vers B entre t0 et t1 : elle a été en mouvement relativement aux repères; poussée vers la droite décrite. Les photos ne permettent pas d’affirmer une accélération précise ni une trajectoire détaillée."
+          }
+        ],
+        "controle": "Index contrôlable mécaniquement; rubriques, réalisme des traces et adéquation à la population nécessitent une relecture humaine."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-st-007-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Comparer deux forces et séparer deux effets sur un seul objet. Distingue la prédiction (si elle figure dans la trace), le constat observé, puis une explication mesurée. Justifie avec les conditions de la trace.",
+      "stimulus": "Une grosse balle en mousse est au repère A. Avant : « La presser la déformera; la pousser librement la déplacera ». Observation fournie : pression douce ⇒ contour aplati, balle toujours à A; une fois libre, poussée vers B ⇒ balle arrive près de B.",
+      "reponse_attendue": "Prédiction en deux parties avant essai. Observation 1 : forme aplatie à A, donc déformation sans déplacement rapporté. Observation 2 : position près de B après poussée libre, donc mouvement. Ne pas confondre l’action pressante avec la translation; conclusions appuyées sur traces.",
+      "criteres": [
+        "Nomme et situe le geste ou la force pertinente sans confusion de direction",
+        "Cite correctement un fait observé de la trace plutôt que sa prédiction",
+        "Décrit l’effet sur la position ou la forme, ou l’absence de changement visible, sans inventer de mesure",
+        "Justifie une explication compatible avec le constat et indique une limite si nécessaire"
+      ],
+      "feedback": "Vérifie ce qui était annoncé AVANT et ce qui est donné APRÈS. Le constat seul est une donnée; une cause proposée doit respecter les conditions du texte. Pour la friction de glissement, repère le sens du glissement relatif. Ne déduis ni intensité ni certitude sans mesure.",
+      "difficulte": "transfert",
+      "representation": "deux_actions_un_objet",
+      "seed": 7008,
+      "parametres": {
+        "type": "corpus_fini_valide_a_revoir",
+        "variables": {
+          "indice_scenario": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "Choisir une seule trace entièrement prédéfinie du même item",
+          "Le stimulus et son corrigé sont appariés et non recombinables",
+          "Interdiction de générer librement des phénomènes, mesures ou résultats expérimentaux",
+          "Le corpus contient uniquement des traces fictives explicitement présentées comme telles; aucun essai réel revendiqué"
+        ],
+        "algorithme": "Pour seed entière non négative s, indice_scenario = s modulo 2; utiliser le stimulus et le corrigé d’indice correspondant (indexation à partir de 0). Répéter avec la même seed renvoie le même couple. Aucun tirage libre.",
+        "algorithme_de_correction": "Récupérer uniquement corrige du scénario indexé; faire appliquer la grille d’observation / inférence à la réponse de l’élève. Rejeter les directions, valeurs et résultats physiques absents de la trace.",
+        "seed_initiale": 7008,
+        "indice_instancie": 0,
+        "limites_de_variation": "Deux scénarios verrouillés seulement; pas de substitution de matériau, de texte, de résultat ni de force sans revue humaine.",
+        "catalogue": [
+          {
+            "stimulus": "Une grosse balle en mousse est au repère A. Avant : « La presser la déformera; la pousser librement la déplacera ». Observation fournie : pression douce ⇒ contour aplati, balle toujours à A; une fois libre, poussée vers B ⇒ balle arrive près de B.",
+            "corrige": "Prédiction en deux parties avant essai. Observation 1 : forme aplatie à A, donc déformation sans déplacement rapporté. Observation 2 : position près de B après poussée libre, donc mouvement. Ne pas confondre l’action pressante avec la translation; conclusions appuyées sur traces.",
+            "indice": 0
+          },
+          {
+            "stimulus": "Une grosse éponge souple est au repère A. Avant : « La presser la déformera; la pousser librement la déplacera ». Observation fournie : pression douce ⇒ contour tassé, éponge toujours à A; une fois libre, poussée vers B ⇒ éponge est plus près de B.",
+            "corrige": "Prédiction en deux parties avant essai. Observation 1 : forme tassée à A, donc déformation sans déplacement rapporté. Observation 2 : position plus près de B après poussée libre, donc mouvement. Ne pas confondre pression et translation; conclusions appuyées sur traces.",
+            "indice": 1
+          }
+        ],
+        "validation_exemples": [
+          {
+            "seed": 7008,
+            "indice": 0,
+            "attendu": "Prédiction en deux parties avant essai. Observation 1 : forme aplatie à A, donc déformation sans déplacement rapporté. Observation 2 : position près de B après poussée libre, donc mouvement. Ne pas confondre l’action pressante avec la translation; conclusions appuyées sur traces."
+          },
+          {
+            "seed": 7009,
+            "indice": 1,
+            "attendu": "Prédiction en deux parties avant essai. Observation 1 : forme tassée à A, donc déformation sans déplacement rapporté. Observation 2 : position plus près de B après poussée libre, donc mouvement. Ne pas confondre pression et translation; conclusions appuyées sur traces."
+          }
+        ],
+        "controle": "Index contrôlable mécaniquement; rubriques, réalisme des traces et adéquation à la population nécessitent une relecture humaine."
+      },
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-st-007-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Un camarade dit : « Si je pousse une boîte qui ne bouge pas, je n’ai exercé aucune force. » Explique pourquoi cette conclusion n’est pas fondée. Distingue une observation d’une explication et propose un contrôle sûr.",
+      "stimulus": "Trace fixée : sur une table, une boîte légère reste au repère A pendant qu’une personne appuie doucement sur sa paroi dans l’intention de la faire glisser. Aucune mesure de force.",
+      "reponse_attendue": "Observation : la boîte reste à A pendant le geste. Action : poussée légère appliquée. Explication possible : la friction statique ou d’autres interactions ont pu s’opposer au départ; l’immobilité ne signifie pas absence de force. Contrôle sûr : répéter avec repère clair et gestes modérés, sans pousser fort ni imposer un résultat.",
+      "criteres": [
+        "Distingue la présence d’une poussée et l’absence de mouvement visible",
+        "Ne transforme pas une hypothèse de friction en mesure prouvée",
+        "Propose un test sûr avec repère et prédiction antérieure"
+      ],
+      "feedback": "Le repère raconte ce qui a changé ou non; il ne mesure pas toutes les forces. Décris le fait d’abord et laisse l’hypothèse séparée.",
+      "difficulte": "intermediaire",
+      "representation": "critique_de_raisonnement",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-st-007-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis deux observations de la même boîte. Quelle observation montre une modification de position? Laquelle montre uniquement une modification de forme? Dans quelle situation une poussée ou traction est-elle appliquée? Justifie sans ajouter d’informations.",
+      "stimulus": "Scène A : une main pousse doucement une boîte de carton vide vers une carte et la boîte passe du repère A au repère B. Scène B : une main presse doucement les deux côtés d’une boîte en carton souple qui reste au repère C; ses parois se courbent pendant la pression. Les scènes sont de courtes traces fictives, pas des essais en classe.",
+      "reponse_attendue": "Scène A : poussée, mouvement observé car passage de A à B. Scène B : pression par poussées opposées sur les parois, déformation visible tandis que la position de la boîte au repère C reste inchangée. On ne peut pas déduire l’intensité des forces ni une vitesse dans A.",
+      "criteres": [
+        "Identifie l’effet de position dans A et la déformation dans B",
+        "Relie les gestes au fait réellement décrit",
+        "Distingue les limites de la trace et refuse une intensité inventée"
+      ],
+      "feedback": "Compare les repères de position A/B/C et l’état des parois; ne confonds pas deux effets différents d’une force.",
+      "difficulte": "transfert",
+      "representation": "deux_scenes_a_comparer",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": false
+    },
+    {
+      "item_id": "qc-pri-st-007-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A — Sans indice conceptuel, sur la même boîte de carton légère, prédis d’abord l’effet d’une poussée douce vers le repère B, puis observe et note le résultat; prédis ensuite l’effet d’une traction douce par la poignée plate intégrée vers A, puis observe. Pour chaque geste, précise les repères, l’effet constaté ou son absence, et une explication qui tient compte des limites. Ne corrige jamais le constat pour faire correspondre ta prédiction.",
+      "stimulus": "Matériel réel préparé par l’adulte : boîte en carton vide à bords souples avec poignée plate intégrée, repères A et B sur une table horizontale dégagée. Départ de chaque essai annoncé et consigné. Geste de faible amplitude, sans corde, sans objet qui puisse tomber. Trace requise : tableau AVANT (prédiction) / APRÈS (observation), éventuellement réalisé avec partenaire exécutant les gestes dictés par l’élève.",
+      "reponse_attendue": "Preuve attendue à l’observation : (1) deux prédictions enregistrées AVANT chaque geste; (2) poussée et traction correctement identifiées; (3) deux constats observables relatifs aux repères, qu’il y ait déplacement ou non; (4) une explication prudente reliant gestes et effets et nommant au moins une limite; (5) aucune manipulation risquée, aucune aide sur le concept. La position finale est variable et ne possède PAS de « bonne distance » prédéterminée. Le jugement relève de la grille, pas d’un corrigé de distance.",
+      "criteres": [
+        "Deux prédictions indépendantes et antérieures aux actions",
+        "Deux observations propres, situées à A/B et distinctes des prédictions",
+        "Actions poussée / traction identifiées, effets décrits correctement",
+        "Inférence prudente, autonomie effective et sécurité"
+      ],
+      "feedback": "Si une observation est absente, consigne ce qui a été vu après le geste; si elle diffère de la prédiction, garde le constat réel. Les deux gestes doivent être comparés, sans intensité inventée.",
+      "difficulte": "transfert",
+      "representation": "manipulation_reelle_boite_legere",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": true
+    },
+    {
+      "item_id": "qc-pri-st-007-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-007-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B — Sans indice conceptuel, sur une grande balle en mousse, prédis l’effet d’une pression douce qui tend à changer sa forme; observe pendant et après. Prédis ensuite l’effet d’une petite poussée sur la balle libre placée au repère A; observe sa position par rapport à B. Compare changement de forme et changement de position (ou leur absence); donne une limite liée aux conditions.",
+      "stimulus": "Matériel réel préparé par l’adulte : grande balle en mousse non friable, table ou tapis stable sans pente, repères de papier A et B, espace libre. Pression très légère avec paume, aucune projection ou geste brusque. Trace AVANT/APRÈS pour les deux gestes; manipulation par un adulte possible sur instruction de l’élève, sans soutien à la prédiction ni à la conclusion.",
+      "reponse_attendue": "Preuve attendue à l’observation : (1) deux prédictions avant action, l’une sur la forme, l’autre sur la position; (2) observation du contour pendant/après la pression; (3) observation du repère avant/après la poussée libre; (4) distinction de la déformation et du mouvement même si un effet attendu n’est pas visible; (5) explication prudente et limite (matière, contact, intensité non mesurée), autonomie, sécurité. AUCUN contour ni point d’arrêt imposé : appliquer la grille aux constats effectivement rapportés.",
+      "criteres": [
+        "Deux prédictions datées et distinctes avant les gestes",
+        "Constats fidèles de forme et de position, même en l’absence de changement visible",
+        "Différencie pression/déformation et poussée/mouvement sans surinterprétation",
+        "Justifie la conclusion, cite une limite, travaille en sécurité de façon autonome"
+      ],
+      "feedback": "Décrire un changement constaté de forme ne demande pas de mouvement; si la balle ne roule pas, note-le. L’observation honnête prime sur la prédiction.",
+      "difficulte": "transfert",
+      "representation": "manipulation_reelle_balle_mousse",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_autonome_cible": true
+    }
+  ]
+}

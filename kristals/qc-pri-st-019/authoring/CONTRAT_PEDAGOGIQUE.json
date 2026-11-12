@@ -1,0 +1,91 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-019",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comparer des étapes de cycles de vie et des adaptations à un milieu.",
+  "concepts": [
+    "croissance",
+    "reproduction",
+    "adaptation",
+    "cycle"
+  ],
+  "preuve_attendue": "Ordonner un cycle de vie et justifier une adaptation observable.",
+  "prerequis_bloquants": [
+    "qc-pri-st-017"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-019-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Ordonner un cycle de vie et justifier une adaptation observable.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Corpus fini validé: seules modalités de présentation et d’accès varient; les stades, stimuli et corrigés des 10 scénarios sont fixes.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_scenarios": "sélection indexée des dix items sans tirage libre; aucun texte factuel généré"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-st-019",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "cartes de stades textuelles",
+        "frise fléchée ou tableau ordonné",
+        "justification observation → fonction → milieu"
+      ],
+      "variables": {
+        "selection": "corpus_fixe_de_10_items_non_generatif",
+        "contexts_maitrise": [
+          "papillon_jardin_fleuri",
+          "pissenlit_friche_venteuse"
+        ],
+        "parametrique": false
+      },
+      "contraintes": [
+        "respecter ordres des stades validés et boucle intergénérationnelle",
+        "lier une structure observable à une fonction expliquée",
+        "ne pas interpréter une action individuelle comme adaptation apparue à volonté",
+        "ne substituer aucune espèce ou fait par génération IA libre",
+        "proposer au moins deux contextes de maîtrise autonomes",
+        "adapter la présentation sans modifier les critères",
+        "aucun animal vivant ni cueillette obligatoire"
+      ],
+      "barreme_ou_rubrique": {
+        "fichier": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "C1_ordre_stades",
+          "C2_reproduction_generation",
+          "C3_caractere_observe",
+          "C4_lien_fonction_milieu",
+          "C5_autonomie_prudence"
+        ],
+        "echelle": [
+          "0_non_observe",
+          "1_partiel",
+          "2_satisfaisant"
+        ],
+        "decision": "C1,C2,C3,C4,C5 au niveau 2 pour chacune des épreuves 009 et 010; aucune moyenne unique"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

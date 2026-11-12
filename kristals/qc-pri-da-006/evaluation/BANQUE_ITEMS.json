@@ -1,0 +1,247 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-da-006",
+  "family_id": "qc-pri-da-006-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-da-006-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Interprète deux fois la partition « Éclat au réveil ». Avant l’essai 1, choisis ta façon sûre de faire les gestes; après l’essai 1, choisis une correction précise. À l’essai 2, aucun camarade ne montre les mouvements.",
+      "stimulus": "Éclat au réveil — partition textuelle de quatre repères sur huit pulsations avec quatre cartes offertes seulement avant les essais. Partition contrôlée: A (1–2) ouvre puis rapproche la main; B (3–4) fais deux accents doux; C (5–6) réalise une vague continue; D (7–8) pause au 7 puis orientation finale au 8. Intention annoncée: début vif puis fin calme. Avant les essais: fixer une position sûre et le mode de pulsation, identiques dans la paire. D'abord essai 1, un retour descriptif et une correction choisie, puis essai 2. Toutes les actions admettent la traduction mains/doigts/haut du corps sans déplacement imposé.",
+      "reponse_attendue": "PRODUCTION À OBSERVER (pas de QCM ni de phrase unique): dans chaque essai, repères A→B→C→D et quatre fenêtres 1–2/3–4/5–6/7–8; intention « début vif puis fin calme » perceptible par contraste; sécurité. Exemple commenté recevable: Essai 1: ordre 4/4, temps 3/4 (C écourtée). Essai 2: ordre 4/4, temps 4/4 en étirant C sur 5–6; contraste vif/calme perceptible; sécurité oui. Progrès rythmique 3→4 fenêtres. La seule affirmation d'un progrès ou une différence esthétique ne constitue pas de preuve.",
+      "criteres": [
+        "Ordre/mémorisation: A, B, C, D dans la succession annoncée; observer et compter les repères 0–4 à chacun des deux essais.",
+        "Rythme: vérifier séparément les fenêtres 1–2, 3–4, 5–6, 7–8; compter les 0–4 fenêtres conformes aux durées prévues.",
+        "Présence/intention: identifier un indice visible ou perceptible de contraste d’énergie, de continuité ou de direction prévu dans la partition (pas de note esthétique).",
+        "Processus: noter essai 1, retour descriptif, un ajustement choisi, puis essai 2 sans rappel des gestes pendant la performance; préciser le progrès constaté ou son absence.",
+        "Sécurité et accessibilité: appuis sûrs, espace dégagé, amplitude confortable, arrêt si douleur; geste assis, main/doigt, signal sonore/visuel/tactile consenti équivalents."
+      ],
+      "feedback": "Si C n’occupe que 5, garder la vague active aussi pendant 6; si D manque, immobiliser le geste sur 7. En cas de difficulté, choisir un seul repère à retravailler et réévaluer une paire; expliquer le résultat sans juger la personne ou la morphologie.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "partition textuelle de quatre repères sur huit pulsations avec quatre cartes offertes seulement avant les essais",
+      "variabilite_permise": "Choisir amplitude sûre, position assise/debout/avec appui, main/doigt et signal de pulsation sonore/visuel/tactile consenti avant essai 1; rester sur les mêmes fonctions A–D, durées, intention et critères dans la paire. Aucun tirage, aucune variation non contrôlée de partition par IA.",
+      "grille_observation": {
+        "echelles": "Mémorisation: 0–4 repères respectés; rythme: 0–4 fenêtres conformes; intention: 0 absente/1 peu perceptible/2 clairement perceptible par contraste documenté; progression: changement entre les essais justifié par un indice observable; sécurité: oui/non obligatoire.",
+        "seuil_essai_2": "≥3/4 repères, ≥3/4 fenêtres, intention ≥2, sécurité oui, essai 2 sans indices instantanés; progrès factuel entre deux essais de même partition requis.",
+        "preuve_maitrise": "Cet item seul ne suffit pas: associer q-007 et q-008, deux contextes distincts, chacun avec deux essais et seuil final.",
+        "trace": "Pour essais 1 et 2, inscrire repères, fenêtres, indice de contraste, sécurité, rétroaction et ajustement choisi; aucune vidéo obligatoire."
+      }
+    },
+    {
+      "item_id": "qc-pri-da-006-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Interprète deux fois le signal discret. Prépare ton mouvement confortable et un signal de temps constant; entre les essais, cible la pause si elle manque. La seconde interprétation se déroule sans modèle.",
+      "stimulus": "Petit signal et silence — partition écrite et compte de huit pulsations, pause finale explicitement annoncée. Partition contrôlée: A (1–2) deux gestes près du corps; B (3–4) deux orientations distinctes; C (5–6) main qui se déplace lentement et sans interruption; D (7–8) pause nette sur 7 puis geste de fin sur 8. Intention annoncée: appel discret suivi d’un repos. Avant les essais: fixer une position sûre et le mode de pulsation, identiques dans la paire. D'abord essai 1, un retour descriptif et une correction choisie, puis essai 2. Toutes les actions admettent la traduction mains/doigts/haut du corps sans déplacement imposé.",
+      "reponse_attendue": "PRODUCTION À OBSERVER (pas de QCM ni de phrase unique): dans chaque essai, repères A→B→C→D et quatre fenêtres 1–2/3–4/5–6/7–8; intention « appel discret suivi d’un repos » perceptible par contraste; sécurité. Exemple commenté recevable: Essai 1: ordre 4/4, fenêtres 3/4, pause 7 remplacée par un geste. Essai 2: arrêt visible au 7, quatre fenêtres conformes; intention appel/repos perceptible, sécurité oui. La seule affirmation d'un progrès ou une différence esthétique ne constitue pas de preuve.",
+      "criteres": [
+        "Ordre/mémorisation: A, B, C, D dans la succession annoncée; observer et compter les repères 0–4 à chacun des deux essais.",
+        "Rythme: vérifier séparément les fenêtres 1–2, 3–4, 5–6, 7–8; compter les 0–4 fenêtres conformes aux durées prévues.",
+        "Présence/intention: identifier un indice visible ou perceptible de contraste d’énergie, de continuité ou de direction prévu dans la partition (pas de note esthétique).",
+        "Processus: noter essai 1, retour descriptif, un ajustement choisi, puis essai 2 sans rappel des gestes pendant la performance; préciser le progrès constaté ou son absence.",
+        "Sécurité et accessibilité: appuis sûrs, espace dégagé, amplitude confortable, arrêt si douleur; geste assis, main/doigt, signal sonore/visuel/tactile consenti équivalents."
+      ],
+      "feedback": "Le repos est un événement rythmé: arrêter nettement au 7, sans agrandir le geste ni accélérer. En cas de difficulté, choisir un seul repère à retravailler et réévaluer une paire; expliquer le résultat sans juger la personne ou la morphologie.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "partition écrite et compte de huit pulsations, pause finale explicitement annoncée",
+      "variabilite_permise": "Choisir amplitude sûre, position assise/debout/avec appui, main/doigt et signal de pulsation sonore/visuel/tactile consenti avant essai 1; rester sur les mêmes fonctions A–D, durées, intention et critères dans la paire. Aucun tirage, aucune variation non contrôlée de partition par IA.",
+      "grille_observation": {
+        "echelles": "Mémorisation: 0–4 repères respectés; rythme: 0–4 fenêtres conformes; intention: 0 absente/1 peu perceptible/2 clairement perceptible par contraste documenté; progression: changement entre les essais justifié par un indice observable; sécurité: oui/non obligatoire.",
+        "seuil_essai_2": "≥3/4 repères, ≥3/4 fenêtres, intention ≥2, sécurité oui, essai 2 sans indices instantanés; progrès factuel entre deux essais de même partition requis.",
+        "preuve_maitrise": "Cet item seul ne suffit pas: associer q-007 et q-008, deux contextes distincts, chacun avec deux essais et seuil final.",
+        "trace": "Pour essais 1 et 2, inscrire repères, fenêtres, indice de contraste, sécurité, rétroaction et ajustement choisi; aucune vidéo obligatoire."
+      }
+    },
+    {
+      "item_id": "qc-pri-da-006-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Montre un vent imaginaire par gestes dans ta zone personnelle, deux essais. Choisis un détail d’intention à préciser au deuxième, sans changer l’ordre prévu.",
+      "stimulus": "Vent continu puis arrêt — partition des durées et intention de contraste fluide/arrêt. Partition contrôlée: A (1–2) mains proches puis légèrement éloignées; B (3–4) deux petits changements de direction; C (5–6) flot régulier du geste; D (7–8) immobilité au 7 et repos au 8. Intention annoncée: mouvement fluide vers immobilité. Avant les essais: fixer une position sûre et le mode de pulsation, identiques dans la paire. D'abord essai 1, un retour descriptif et une correction choisie, puis essai 2. Toutes les actions admettent la traduction mains/doigts/haut du corps sans déplacement imposé.",
+      "reponse_attendue": "PRODUCTION À OBSERVER (pas de QCM ni de phrase unique): dans chaque essai, repères A→B→C→D et quatre fenêtres 1–2/3–4/5–6/7–8; intention « mouvement fluide vers immobilité » perceptible par contraste; sécurité. Exemple commenté recevable: Essai 1: 4/4 repères et 4/4 fenêtres, pause temporelle réalisée au 7 mais peu de contraste de qualité entre le geste continu C et le retour D. Essai 2: même pause à 7, transition C–D clairement contrastée par l’énergie et le maintien; progrès expressif sans augmentation d’amplitude. La seule affirmation d'un progrès ou une différence esthétique ne constitue pas de preuve.",
+      "criteres": [
+        "Ordre/mémorisation: A, B, C, D dans la succession annoncée; observer et compter les repères 0–4 à chacun des deux essais.",
+        "Rythme: vérifier séparément les fenêtres 1–2, 3–4, 5–6, 7–8; compter les 0–4 fenêtres conformes aux durées prévues.",
+        "Présence/intention: identifier un indice visible ou perceptible de contraste d’énergie, de continuité ou de direction prévu dans la partition (pas de note esthétique).",
+        "Processus: noter essai 1, retour descriptif, un ajustement choisi, puis essai 2 sans rappel des gestes pendant la performance; préciser le progrès constaté ou son absence.",
+        "Sécurité et accessibilité: appuis sûrs, espace dégagé, amplitude confortable, arrêt si douleur; geste assis, main/doigt, signal sonore/visuel/tactile consenti équivalents."
+      ],
+      "feedback": "Une intention annoncée n’est pas une preuve; rends visible le contraste entre C continu et le compte 7 immobile. En cas de difficulté, choisir un seul repère à retravailler et réévaluer une paire; expliquer le résultat sans juger la personne ou la morphologie.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "partition des durées et intention de contraste fluide/arrêt",
+      "variabilite_permise": "Choisir amplitude sûre, position assise/debout/avec appui, main/doigt et signal de pulsation sonore/visuel/tactile consenti avant essai 1; rester sur les mêmes fonctions A–D, durées, intention et critères dans la paire. Aucun tirage, aucune variation non contrôlée de partition par IA.",
+      "grille_observation": {
+        "echelles": "Mémorisation: 0–4 repères respectés; rythme: 0–4 fenêtres conformes; intention: 0 absente/1 peu perceptible/2 clairement perceptible par contraste documenté; progression: changement entre les essais justifié par un indice observable; sécurité: oui/non obligatoire.",
+        "seuil_essai_2": "≥3/4 repères, ≥3/4 fenêtres, intention ≥2, sécurité oui, essai 2 sans indices instantanés; progrès factuel entre deux essais de même partition requis.",
+        "preuve_maitrise": "Cet item seul ne suffit pas: associer q-007 et q-008, deux contextes distincts, chacun avec deux essais et seuil final.",
+        "trace": "Pour essais 1 et 2, inscrire repères, fenêtres, indice de contraste, sécurité, rétroaction et ajustement choisi; aucune vidéo obligatoire."
+      }
+    },
+    {
+      "item_id": "qc-pri-da-006-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Interprète deux fois les quatre directions symboliques, sans déplacement obligatoire. Après l’essai 1, choisis de rendre une orientation plus facile à reconnaître.",
+      "stimulus": "Chemins de la main — quatre directions relatives, sans déplacement du corps. Partition contrôlée: A (1–2) pointe une direction devant toi; B (3–4) deux accents vers un côté confortable; C (5–6) trace un chemin continu vers un autre point; D (7–8) pause puis retour à une direction neutre. Intention annoncée: chercher puis trouver un chemin. Avant les essais: fixer une position sûre et le mode de pulsation, identiques dans la paire. D'abord essai 1, un retour descriptif et une correction choisie, puis essai 2. Toutes les actions admettent la traduction mains/doigts/haut du corps sans déplacement imposé.",
+      "reponse_attendue": "PRODUCTION À OBSERVER (pas de QCM ni de phrase unique): dans chaque essai, repères A→B→C→D et quatre fenêtres 1–2/3–4/5–6/7–8; intention « chercher puis trouver un chemin » perceptible par contraste; sécurité. Exemple commenté recevable: Essai 1: ordre 3/4 (B et C inversés), 2/4 fenêtres exactes; essai 2: A–B–C–D 4/4, 4/4 fenêtres; distinction chercher/trouver visible; sécurité oui. La seule affirmation d'un progrès ou une différence esthétique ne constitue pas de preuve.",
+      "criteres": [
+        "Ordre/mémorisation: A, B, C, D dans la succession annoncée; observer et compter les repères 0–4 à chacun des deux essais.",
+        "Rythme: vérifier séparément les fenêtres 1–2, 3–4, 5–6, 7–8; compter les 0–4 fenêtres conformes aux durées prévues.",
+        "Présence/intention: identifier un indice visible ou perceptible de contraste d’énergie, de continuité ou de direction prévu dans la partition (pas de note esthétique).",
+        "Processus: noter essai 1, retour descriptif, un ajustement choisi, puis essai 2 sans rappel des gestes pendant la performance; préciser le progrès constaté ou son absence.",
+        "Sécurité et accessibilité: appuis sûrs, espace dégagé, amplitude confortable, arrêt si douleur; geste assis, main/doigt, signal sonore/visuel/tactile consenti équivalents."
+      ],
+      "feedback": "Si B et C sont inversés, compter « deux accents d’abord, trajet continu ensuite » entre les essais, sans souffler pendant le second. En cas de difficulté, choisir un seul repère à retravailler et réévaluer une paire; expliquer le résultat sans juger la personne ou la morphologie.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "quatre directions relatives, sans déplacement du corps",
+      "variabilite_permise": "Choisir amplitude sûre, position assise/debout/avec appui, main/doigt et signal de pulsation sonore/visuel/tactile consenti avant essai 1; rester sur les mêmes fonctions A–D, durées, intention et critères dans la paire. Aucun tirage, aucune variation non contrôlée de partition par IA.",
+      "grille_observation": {
+        "echelles": "Mémorisation: 0–4 repères respectés; rythme: 0–4 fenêtres conformes; intention: 0 absente/1 peu perceptible/2 clairement perceptible par contraste documenté; progression: changement entre les essais justifié par un indice observable; sécurité: oui/non obligatoire.",
+        "seuil_essai_2": "≥3/4 repères, ≥3/4 fenêtres, intention ≥2, sécurité oui, essai 2 sans indices instantanés; progrès factuel entre deux essais de même partition requis.",
+        "preuve_maitrise": "Cet item seul ne suffit pas: associer q-007 et q-008, deux contextes distincts, chacun avec deux essais et seuil final.",
+        "trace": "Pour essais 1 et 2, inscrire repères, fenêtres, indice de contraste, sécurité, rétroaction et ajustement choisi; aucune vidéo obligatoire."
+      }
+    },
+    {
+      "item_id": "qc-pri-da-006-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Fais deux interprétations avec une main ou un doigt si tu le souhaites. Conserve les huit pulsations. Entre les essais, choisis une fenêtre à clarifier.",
+      "stimulus": "Gouttes sur la vitre — quatre repères perceptibles à faible amplitude. Partition contrôlée: A (1–2) effleure l’air devant soi sans contact obligatoire; B (3–4) deux petits tapotements dans l’air; C (5–6) dessine une goutte lente; D (7–8) pause puis ramène le doigt. Intention annoncée: gouttes nettes puis écoulement calme. Avant les essais: fixer une position sûre et le mode de pulsation, identiques dans la paire. D'abord essai 1, un retour descriptif et une correction choisie, puis essai 2. Toutes les actions admettent la traduction mains/doigts/haut du corps sans déplacement imposé.",
+      "reponse_attendue": "PRODUCTION À OBSERVER (pas de QCM ni de phrase unique): dans chaque essai, repères A→B→C→D et quatre fenêtres 1–2/3–4/5–6/7–8; intention « gouttes nettes puis écoulement calme » perceptible par contraste; sécurité. Exemple commenté recevable: Essai 1: ordre 4/4; C fini trop tôt, 3/4 fenêtres. Essai 2: C continue pendant 5–6; 4/4 fenêtres, contraste net/fluide visible; aucun geste plus grand requis. La seule affirmation d'un progrès ou une différence esthétique ne constitue pas de preuve.",
+      "criteres": [
+        "Ordre/mémorisation: A, B, C, D dans la succession annoncée; observer et compter les repères 0–4 à chacun des deux essais.",
+        "Rythme: vérifier séparément les fenêtres 1–2, 3–4, 5–6, 7–8; compter les 0–4 fenêtres conformes aux durées prévues.",
+        "Présence/intention: identifier un indice visible ou perceptible de contraste d’énergie, de continuité ou de direction prévu dans la partition (pas de note esthétique).",
+        "Processus: noter essai 1, retour descriptif, un ajustement choisi, puis essai 2 sans rappel des gestes pendant la performance; préciser le progrès constaté ou son absence.",
+        "Sécurité et accessibilité: appuis sûrs, espace dégagé, amplitude confortable, arrêt si douleur; geste assis, main/doigt, signal sonore/visuel/tactile consenti équivalents."
+      ],
+      "feedback": "Ne pas demander d’amplitude supérieure: étendre seulement la durée de la goutte sur deux comptes. En cas de difficulté, choisir un seul repère à retravailler et réévaluer une paire; expliquer le résultat sans juger la personne ou la morphologie.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "quatre repères perceptibles à faible amplitude",
+      "variabilite_permise": "Choisir amplitude sûre, position assise/debout/avec appui, main/doigt et signal de pulsation sonore/visuel/tactile consenti avant essai 1; rester sur les mêmes fonctions A–D, durées, intention et critères dans la paire. Aucun tirage, aucune variation non contrôlée de partition par IA.",
+      "grille_observation": {
+        "echelles": "Mémorisation: 0–4 repères respectés; rythme: 0–4 fenêtres conformes; intention: 0 absente/1 peu perceptible/2 clairement perceptible par contraste documenté; progression: changement entre les essais justifié par un indice observable; sécurité: oui/non obligatoire.",
+        "seuil_essai_2": "≥3/4 repères, ≥3/4 fenêtres, intention ≥2, sécurité oui, essai 2 sans indices instantanés; progrès factuel entre deux essais de même partition requis.",
+        "preuve_maitrise": "Cet item seul ne suffit pas: associer q-007 et q-008, deux contextes distincts, chacun avec deux essais et seuil final.",
+        "trace": "Pour essais 1 et 2, inscrire repères, fenêtres, indice de contraste, sécurité, rétroaction et ajustement choisi; aucune vidéo obligatoire."
+      }
+    },
+    {
+      "item_id": "qc-pri-da-006-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Interprète la scène d’une porte imaginaire qui s’ouvre puis se ferme. Après essai 1, choisis une amélioration et montre-la dans essai 2 sans imitation simultanée.",
+      "stimulus": "Une porte imaginaire — quatre actions évocatrices sans accessoire ni vraie porte. Partition contrôlée: A (1–2) ouverture symbolique douce; B (3–4) deux gestes d’accueil; C (5–6) fermeture imaginaire lente; D (7–8) pause puis retour calme. Intention annoncée: accueil puis silence. Avant les essais: fixer une position sûre et le mode de pulsation, identiques dans la paire. D'abord essai 1, un retour descriptif et une correction choisie, puis essai 2. Toutes les actions admettent la traduction mains/doigts/haut du corps sans déplacement imposé.",
+      "reponse_attendue": "PRODUCTION À OBSERVER (pas de QCM ni de phrase unique): dans chaque essai, repères A→B→C→D et quatre fenêtres 1–2/3–4/5–6/7–8; intention « accueil puis silence » perceptible par contraste; sécurité. Exemple commenté recevable: Essai 1: 4/4 repères, 4/4 fenêtres, mais absence de nuance accueil/silence. Essai 2: geste C continu et D immobile, nuance perceptible, sans changement de sécurité. La seule affirmation d'un progrès ou une différence esthétique ne constitue pas de preuve.",
+      "criteres": [
+        "Ordre/mémorisation: A, B, C, D dans la succession annoncée; observer et compter les repères 0–4 à chacun des deux essais.",
+        "Rythme: vérifier séparément les fenêtres 1–2, 3–4, 5–6, 7–8; compter les 0–4 fenêtres conformes aux durées prévues.",
+        "Présence/intention: identifier un indice visible ou perceptible de contraste d’énergie, de continuité ou de direction prévu dans la partition (pas de note esthétique).",
+        "Processus: noter essai 1, retour descriptif, un ajustement choisi, puis essai 2 sans rappel des gestes pendant la performance; préciser le progrès constaté ou son absence.",
+        "Sécurité et accessibilité: appuis sûrs, espace dégagé, amplitude confortable, arrêt si douleur; geste assis, main/doigt, signal sonore/visuel/tactile consenti équivalents."
+      ],
+      "feedback": "Séparer l’intention « accueil » de « silence » par une pause perceptible au 7; la qualité n’est pas l’amplitude. En cas de difficulté, choisir un seul repère à retravailler et réévaluer une paire; expliquer le résultat sans juger la personne ou la morphologie.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "quatre actions évocatrices sans accessoire ni vraie porte",
+      "variabilite_permise": "Choisir amplitude sûre, position assise/debout/avec appui, main/doigt et signal de pulsation sonore/visuel/tactile consenti avant essai 1; rester sur les mêmes fonctions A–D, durées, intention et critères dans la paire. Aucun tirage, aucune variation non contrôlée de partition par IA.",
+      "grille_observation": {
+        "echelles": "Mémorisation: 0–4 repères respectés; rythme: 0–4 fenêtres conformes; intention: 0 absente/1 peu perceptible/2 clairement perceptible par contraste documenté; progression: changement entre les essais justifié par un indice observable; sécurité: oui/non obligatoire.",
+        "seuil_essai_2": "≥3/4 repères, ≥3/4 fenêtres, intention ≥2, sécurité oui, essai 2 sans indices instantanés; progrès factuel entre deux essais de même partition requis.",
+        "preuve_maitrise": "Cet item seul ne suffit pas: associer q-007 et q-008, deux contextes distincts, chacun avec deux essais et seuil final.",
+        "trace": "Pour essais 1 et 2, inscrire repères, fenêtres, indice de contraste, sécurité, rétroaction et ajustement choisi; aucune vidéo obligatoire."
+      }
+    },
+    {
+      "item_id": "qc-pri-da-006-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-006-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A. Imagine la lumière d’une bibliothèque qui s’allume puis baisse. Observe la partition avant de commencer; fais essai 1, reçois un seul retour sur un fait visible, choisis une correction, puis fais essai 2 sans rappel d’ordre, de durée ni geste montré pendant l’action. Note précisément le changement.",
+      "stimulus": "Preuve A — Lumière de bibliothèque — séquence expressive sans musique en espace silencieux symbolique, deux essais observés. Partition contrôlée: A (1–2) main s’ouvre comme une lumière; B (3–4) deux points lumineux; C (5–6) geste continu qui se referme; D (7–8) pause sur 7 et retour neutre au 8. Intention annoncée: éclairage bref puis discrétion. Avant les essais: fixer une position sûre et le mode de pulsation, identiques dans la paire. D'abord essai 1, un retour descriptif et une correction choisie, puis essai 2. Toutes les actions admettent la traduction mains/doigts/haut du corps sans déplacement imposé.",
+      "reponse_attendue": "PRODUCTION À OBSERVER (pas de QCM ni de phrase unique): dans chaque essai, repères A→B→C→D et quatre fenêtres 1–2/3–4/5–6/7–8; intention « éclairage bref puis discrétion » perceptible par contraste; sécurité. Exemple commenté recevable: Essai 1: 4/4 ordre, 3/4 durée (C trop court), contraste visible. Retour « prolonge C sur 5 et 6 ». Essai 2 autonome: 4/4 ordre, 4/4 fenêtres, contraste visible, sécurité oui; progrès temporel explicite. Preuve A acceptable. La seule affirmation d'un progrès ou une différence esthétique ne constitue pas de preuve.",
+      "criteres": [
+        "Ordre/mémorisation: A, B, C, D dans la succession annoncée; observer et compter les repères 0–4 à chacun des deux essais.",
+        "Rythme: vérifier séparément les fenêtres 1–2, 3–4, 5–6, 7–8; compter les 0–4 fenêtres conformes aux durées prévues.",
+        "Présence/intention: identifier un indice visible ou perceptible de contraste d’énergie, de continuité ou de direction prévu dans la partition (pas de note esthétique).",
+        "Processus: noter essai 1, retour descriptif, un ajustement choisi, puis essai 2 sans rappel des gestes pendant la performance; préciser le progrès constaté ou son absence.",
+        "Sécurité et accessibilité: appuis sûrs, espace dégagé, amplitude confortable, arrêt si douleur; geste assis, main/doigt, signal sonore/visuel/tactile consenti équivalents."
+      ],
+      "feedback": "Si la progression n’est pas établie, consigner C ou D à chacun des essais et refaire une paire autonome sur une partition de bibliothèque équivalente; ne pas accorder la maîtrise avec A seule. En cas de difficulté, choisir un seul repère à retravailler et réévaluer une paire; expliquer le résultat sans juger la personne ou la morphologie.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "séquence expressive sans musique en espace silencieux symbolique, deux essais observés",
+      "variabilite_permise": "Choisir amplitude sûre, position assise/debout/avec appui, main/doigt et signal de pulsation sonore/visuel/tactile consenti avant essai 1; rester sur les mêmes fonctions A–D, durées, intention et critères dans la paire. Aucun tirage, aucune variation non contrôlée de partition par IA.",
+      "grille_observation": {
+        "echelles": "Mémorisation: 0–4 repères respectés; rythme: 0–4 fenêtres conformes; intention: 0 absente/1 peu perceptible/2 clairement perceptible par contraste documenté; progression: changement entre les essais justifié par un indice observable; sécurité: oui/non obligatoire.",
+        "seuil_essai_2": "≥3/4 repères, ≥3/4 fenêtres, intention ≥2, sécurité oui, essai 2 sans indices instantanés; progrès factuel entre deux essais de même partition requis.",
+        "preuve_maitrise": "Cet item seul ne suffit pas: associer q-007 et q-008, deux contextes distincts, chacun avec deux essais et seuil final.",
+        "trace": "Pour essais 1 et 2, inscrire repères, fenêtres, indice de contraste, sécurité, rétroaction et ajustement choisi; aucune vidéo obligatoire."
+      }
+    },
+    {
+      "item_id": "qc-pri-da-006-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-006-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B. Imagine une marée qui arrive puis se retire. En position sûre, mémorise la nouvelle partition et fais essai 1, puis sélectionne un détail à corriger entre les essais. Fais essai 2 sans aide gestuelle ou verbale pendant l’interprétation; documente le progrès. Cette preuve est distincte de la lumière de bibliothèque.",
+      "stimulus": "Preuve B — Marée imaginaire — séquence expressive évoquant une marée, contexte distinct et partition nouvelle, deux essais observés. Partition contrôlée: A (1–2) un geste avance dans l’espace personnel; B (3–4) deux petites vagues nettes; C (5–6) geste recule sans interruption; D (7–8) arrêt au 7 puis orientation de repos au 8. Intention annoncée: arrivée de l’eau, retrait puis calme. Avant les essais: fixer une position sûre et le mode de pulsation, identiques dans la paire. D'abord essai 1, un retour descriptif et une correction choisie, puis essai 2. Toutes les actions admettent la traduction mains/doigts/haut du corps sans déplacement imposé.",
+      "reponse_attendue": "PRODUCTION À OBSERVER (pas de QCM ni de phrase unique): dans chaque essai, repères A→B→C→D et quatre fenêtres 1–2/3–4/5–6/7–8; intention « arrivée de l’eau, retrait puis calme » perceptible par contraste; sécurité. Exemple commenté recevable: Essai 1: ordre 3/4 (B omis), fenêtres 3/4, arrêt présent. Après retour, essai 2 autonome: A–B–C–D 4/4, fenêtres 4/4, contraste vague/arrêt perceptible, sécurité oui. Progrès d’ordre et de temps documenté. Preuve B acceptable. La seule affirmation d'un progrès ou une différence esthétique ne constitue pas de preuve.",
+      "criteres": [
+        "Ordre/mémorisation: A, B, C, D dans la succession annoncée; observer et compter les repères 0–4 à chacun des deux essais.",
+        "Rythme: vérifier séparément les fenêtres 1–2, 3–4, 5–6, 7–8; compter les 0–4 fenêtres conformes aux durées prévues.",
+        "Présence/intention: identifier un indice visible ou perceptible de contraste d’énergie, de continuité ou de direction prévu dans la partition (pas de note esthétique).",
+        "Processus: noter essai 1, retour descriptif, un ajustement choisi, puis essai 2 sans rappel des gestes pendant la performance; préciser le progrès constaté ou son absence.",
+        "Sécurité et accessibilité: appuis sûrs, espace dégagé, amplitude confortable, arrêt si douleur; geste assis, main/doigt, signal sonore/visuel/tactile consenti équivalents."
+      ],
+      "feedback": "Si B manque, revoir les « deux petites vagues » avant le deuxième essai; ne jamais dicter B pendant ce deuxième essai. Avec A seule, la maîtrise reste non décidée. En cas de difficulté, choisir un seul repère à retravailler et réévaluer une paire; expliquer le résultat sans juger la personne ou la morphologie.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "séquence expressive évoquant une marée, contexte distinct et partition nouvelle, deux essais observés",
+      "variabilite_permise": "Choisir amplitude sûre, position assise/debout/avec appui, main/doigt et signal de pulsation sonore/visuel/tactile consenti avant essai 1; rester sur les mêmes fonctions A–D, durées, intention et critères dans la paire. Aucun tirage, aucune variation non contrôlée de partition par IA.",
+      "grille_observation": {
+        "echelles": "Mémorisation: 0–4 repères respectés; rythme: 0–4 fenêtres conformes; intention: 0 absente/1 peu perceptible/2 clairement perceptible par contraste documenté; progression: changement entre les essais justifié par un indice observable; sécurité: oui/non obligatoire.",
+        "seuil_essai_2": "≥3/4 repères, ≥3/4 fenêtres, intention ≥2, sécurité oui, essai 2 sans indices instantanés; progrès factuel entre deux essais de même partition requis.",
+        "preuve_maitrise": "Cet item seul ne suffit pas: associer q-007 et q-008, deux contextes distincts, chacun avec deux essais et seuil final.",
+        "trace": "Pour essais 1 et 2, inscrire repères, fenêtres, indice de contraste, sécurité, rétroaction et ajustement choisi; aucune vidéo obligatoire."
+      }
+    }
+  ]
+}

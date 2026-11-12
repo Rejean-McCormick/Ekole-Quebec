@@ -1,0 +1,91 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-030",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Collecter des données selon une question et produire un tableau fiable.",
+  "concepts": [
+    "catégorie",
+    "relevé",
+    "effectif",
+    "tableau"
+  ],
+  "preuve_attendue": "Construire un tableau sans omission à partir d’observations brutes.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-030-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Construire un tableau sans omission à partir d’observations brutes.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "generateur": "P-030/1",
+        "banque": "evaluation/BANQUE_ITEMS.json",
+        "parametres_detailles": "evaluation/PLAN_EVALUATION.md"
+      },
+      "review_status": "banque_produite_a_revoir",
+      "kristal_id": "qc-pri-ma-030",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "observations brutes textuelles numérotées",
+        "pointage ou manipulation concrète",
+        "tableau catégories/effectifs avec total et justification"
+      ],
+      "variables": {
+        "seed": "entier stable par item q-003..008",
+        "n": "min_n + (seed % 5)",
+        "categories": "liste bornée par item, trois ou quatre étiquettes",
+        "zero_last": "booléen, uniquement sur q-007"
+      },
+      "contraintes": [
+        "aucun item hors des catégories et occurrences annoncées",
+        "effectifs entiers >= 0, chaque observation comptée une fois",
+        "somme des effectifs = nombre d’observations",
+        "contrôle indépendant des positions obligatoire",
+        "deux contextes indépendants q-011 et q-012"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "choix des catégories et pertinence à la question",
+          "relevé exhaustif sans doublon",
+          "effectifs exacts par catégorie et total",
+          "tableau compréhensible",
+          "contrôle indépendant et autonomie"
+        ],
+        "decision": "Deux preuves en contextes distincts; toute omission ou double affectation non corrigée empêche la maîtrise, même si le total est correct."
+      },
+      "source": [
+        "governance/Norme_Pedagogique_Autonome_v1.2/CONTRAT_PEDAGOGIQUE_V1.2.md",
+        "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "kristals/qc-pri-ma-030/authoring/PARCOURS.md",
+        "production_originale_qc-pri-ma-030"
+      ],
+      "seed": {
+        "q-003": 3003,
+        "q-004": 3004,
+        "q-005": 3005,
+        "q-006": 3006,
+        "q-007": 3007,
+        "q-008": 3008
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_produit_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

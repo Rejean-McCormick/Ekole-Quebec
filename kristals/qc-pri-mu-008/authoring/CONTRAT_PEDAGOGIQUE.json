@@ -1,0 +1,95 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-mu-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Écouter un extrait et en décrire des caractéristiques musicales observables.",
+  "concepts": [
+    "rythme",
+    "timbre",
+    "structure",
+    "contraste"
+  ],
+  "preuve_attendue": "Présenter une analyse d’écoute justifiée par des moments précis.",
+  "prerequis_bloquants": [
+    "qc-pri-mu-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-mu-008-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Présenter une analyse d’écoute justifiée par des moments précis.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Énoncés fixes; adaptables seulement volume, mode de réponse et répétition non directive. Pas de génération libre de stimulus ni de corrigé.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_scenarios": "épreuves A et B fixes, distinctes, ordre de passation libre sans permutation du contenu"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-mu-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "écoute d’une exécution contrôlée",
+        "bande chronologique à 16 pulsations",
+        "description orale ou écrite indexée"
+      ],
+      "variables": {
+        "generation": "fixe_sans_tirage",
+        "corpus_autorise": [
+          "S-A-Pluie-sur-la-cour",
+          "S-B-Jardin-du-matin",
+          "G1",
+          "G2",
+          "G3",
+          "A1",
+          "A2",
+          "A3",
+          "A4"
+        ],
+        "vitesse_pulsation": "1 pulsation par seconde, délai humain toléré; repères ordonnés prioritaires",
+        "tirage_libre_IA": false
+      },
+      "contraintes": [
+        "pulsations et timbres explicités et fixes",
+        "écoute/perception effective à documenter",
+        "au moins deux manifestations autonomes A et B",
+        "repères de pulsations obligatoires",
+        "corrigé descriptif et sources visibles à l’évaluateur",
+        "aucun enregistrement tiers ni volume excessif",
+        "accès visuel ou tactile à décider humainement"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "constats_exactitude",
+          "repères_temporels",
+          "concepts_et_contrastes",
+          "autonomie_et_modes_accessibles"
+        ],
+        "niveau": "0-1-2",
+        "decision": "Deux preuves distinctes réussies séparément, aucun score unique compensatoire"
+      },
+      "source": [
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_validation_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

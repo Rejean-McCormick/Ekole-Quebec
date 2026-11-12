@@ -1,0 +1,311 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-010",
+  "family_id": "qc-pri-fr-010-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-010-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne ton appréciation de ce texte. Nomme un aspect (critère) sur lequel porte ton avis. Appuie ton appréciation sur deux éléments différents du texte et explique comment chacun soutient ton avis.",
+      "stimulus": "Pendant la récréation, Romy dessina un plan de la cour. Elle y traça un chemin vers le terrain de ballon. Eli remarqua que l'entrée du jardin n'apparaissait pas. Romy ajouta cette entrée au dessin, puis ils affichèrent le plan près de la porte de l'école. Deux élèves le consultèrent avant de sortir.",
+      "reponse_attendue": "Exemple de production recevable, non exclusive : « Je trouve le récit encourageant, car les personnages travaillent ensemble à rendre le plan utile. » Critère : coopération et utilité du plan. Indice 1 : « Eli remarqua que l'entrée du jardin n'apparaissait pas » ; lien : Eli vérifie une information utile et signale ce qui manque. Indice 2 : « Romy ajouta cette entrée au dessin » ; lien : Romy tient compte de la remarque et améliore le plan. Une opinion opposée ou nuancée est acceptée si elle comporte un critère pertinent, deux indices textuels fidèles non redondants et leurs deux liens.",
+      "preuves_reperables": [
+        {
+          "extrait_exact": "Eli remarqua que l'entrée du jardin n'apparaissait pas",
+          "lien_avec_critere": "Eli vérifie une information utile et signale ce qui manque"
+        },
+        {
+          "extrait_exact": "Romy ajouta cette entrée au dessin",
+          "lien_avec_critere": "Romy tient compte de la remarque et améliore le plan"
+        }
+      ],
+      "criteres": [
+        "A/2 : avis personnel identifiable et critère pertinent, sans notation de l’orientation du goût",
+        "B/2 : deux éléments distincts et fidèles au stimulus (citation ou paraphrase fidèle)",
+        "C/2 : explication claire du lien de chaque élément avec l’appréciation",
+        "D : autonomie consignée séparément; aucun guidage sur les indices pendant une preuve autonome"
+      ],
+      "feedback": "Si tu dis seulement que le plan est joli, précise quel fait du texte soutient ce critère. Une suggestion d'Eli et la correction de Romy constituent deux actions distinctes.",
+      "feedback_si_manque": "Si l’avis manque : demander le jugement sans le suggérer; si un fait est faux : demander de retrouver le passage; si les deux preuves se répètent : rechercher un autre élément; si le lien est vague : expliciter pourquoi ce détail soutient l’avis. Refaire sur un stimulus nouveau, sans modèle exposé.",
+      "difficulte": "initial",
+      "representation": "récit scolaire — coopération",
+      "variabilite_permise": "Orientation et formulation de l’avis, critère compatible, autres preuves vérifiables et distinctes, paraphrase fidèle et modalités orales/écrites; le texte stimulus reste inchangé.",
+      "variabilite_interdite": "Substitution, réécriture automatique ou ajout de faits au texte; correction unique de l’opinion; crédit à un indice inventé ou à deux doublons.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise_reservee": false,
+      "conditions_de_passation": "Évaluation formative à texte fixe; noter toute aide et s’assurer que les deux indices proviennent du texte.",
+      "limites_du_corrige": "Exemple non exhaustif; validation humaine des paraphrases, autres indices recevables et interprétations contraires."
+    },
+    {
+      "item_id": "qc-pri-fr-010-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne ton appréciation de ce texte. Nomme un aspect (critère) sur lequel porte ton avis. Appuie ton appréciation sur deux éléments différents du texte et explique comment chacun soutient ton avis.",
+      "stimulus": "Dans la classe, les livres du coin lecture sont rangés dans trois paniers : histoires, documentaires et bandes dessinées. Une étiquette indique le type de livres dans chaque panier. Après la lecture, les élèves déposent les ouvrages sur une petite table pour qu'un responsable vérifie où les remettre.",
+      "reponse_attendue": "Exemple de production recevable, non exclusive : « Je trouve ces consignes faciles à suivre. » Critère : clarté de l’organisation. Indice 1 : « Une étiquette indique le type de livres dans chaque panier » ; lien : Les étiquettes aident à reconnaître les catégories. Indice 2 : « les élèves déposent les ouvrages sur une petite table » ; lien : La table donne une procédure simple avant le rangement final. Une opinion opposée ou nuancée est acceptée si elle comporte un critère pertinent, deux indices textuels fidèles non redondants et leurs deux liens.",
+      "preuves_reperables": [
+        {
+          "extrait_exact": "Une étiquette indique le type de livres dans chaque panier",
+          "lien_avec_critere": "Les étiquettes aident à reconnaître les catégories"
+        },
+        {
+          "extrait_exact": "les élèves déposent les ouvrages sur une petite table",
+          "lien_avec_critere": "La table donne une procédure simple avant le rangement final"
+        }
+      ],
+      "criteres": [
+        "A/2 : avis personnel identifiable et critère pertinent, sans notation de l’orientation du goût",
+        "B/2 : deux éléments distincts et fidèles au stimulus (citation ou paraphrase fidèle)",
+        "C/2 : explication claire du lien de chaque élément avec l’appréciation",
+        "D : autonomie consignée séparément; aucun guidage sur les indices pendant une preuve autonome"
+      ],
+      "feedback": "Si tu affirmes que les livres sont classés par couleur, vérifie le texte : il les classe par type. Relie chaque des deux règles à la clarté.",
+      "feedback_si_manque": "Si l’avis manque : demander le jugement sans le suggérer; si un fait est faux : demander de retrouver le passage; si les deux preuves se répètent : rechercher un autre élément; si le lien est vague : expliciter pourquoi ce détail soutient l’avis. Refaire sur un stimulus nouveau, sans modèle exposé.",
+      "difficulte": "initial",
+      "representation": "texte informatif — fonctionnement d’un coin lecture",
+      "variabilite_permise": "Orientation et formulation de l’avis, critère compatible, autres preuves vérifiables et distinctes, paraphrase fidèle et modalités orales/écrites; le texte stimulus reste inchangé.",
+      "variabilite_interdite": "Substitution, réécriture automatique ou ajout de faits au texte; correction unique de l’opinion; crédit à un indice inventé ou à deux doublons.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise_reservee": false,
+      "conditions_de_passation": "Évaluation formative à texte fixe; noter toute aide et s’assurer que les deux indices proviennent du texte.",
+      "limites_du_corrige": "Exemple non exhaustif; validation humaine des paraphrases, autres indices recevables et interprétations contraires."
+    },
+    {
+      "item_id": "qc-pri-fr-010-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne ton appréciation de ce texte. Nomme un aspect (critère) sur lequel porte ton avis. Appuie ton appréciation sur deux éléments différents du texte et explique comment chacun soutient ton avis.",
+      "stimulus": "Au parc, Jules lança son cerf-volant rouge. Une rafale le fit tomber derrière un petit arbuste. Jules alla le récupérer, mais une baguette était fendue. Son amie Clara sortit du ruban de son sac et ils réparèrent la baguette. Plus tard, le cerf-volant reprit de la hauteur.",
+      "reponse_attendue": "Exemple de production recevable, non exclusive : « J'ai trouvé ce récit intéressant parce que les personnages affrontent un problème, puis trouvent une solution. » Critère : enchaînement des actions. Indice 1 : « Une rafale le fit tomber derrière un petit arbuste » ; lien : La chute crée une difficulté dans le récit. Indice 2 : « ils réparèrent la baguette » ; lien : La réparation fait avancer l’action après l’obstacle. Une opinion opposée ou nuancée est acceptée si elle comporte un critère pertinent, deux indices textuels fidèles non redondants et leurs deux liens.",
+      "preuves_reperables": [
+        {
+          "extrait_exact": "Une rafale le fit tomber derrière un petit arbuste",
+          "lien_avec_critere": "La chute crée une difficulté dans le récit"
+        },
+        {
+          "extrait_exact": "ils réparèrent la baguette",
+          "lien_avec_critere": "La réparation fait avancer l’action après l’obstacle"
+        }
+      ],
+      "criteres": [
+        "A/2 : avis personnel identifiable et critère pertinent, sans notation de l’orientation du goût",
+        "B/2 : deux éléments distincts et fidèles au stimulus (citation ou paraphrase fidèle)",
+        "C/2 : explication claire du lien de chaque élément avec l’appréciation",
+        "D : autonomie consignée séparément; aucun guidage sur les indices pendant une preuve autonome"
+      ],
+      "feedback": "Si tu parles d'une corde cassée, reviens à la baguette : le texte ne dit rien d'une corde. Une chute et une réparation forment deux étapes distinctes.",
+      "feedback_si_manque": "Si l’avis manque : demander le jugement sans le suggérer; si un fait est faux : demander de retrouver le passage; si les deux preuves se répètent : rechercher un autre élément; si le lien est vague : expliciter pourquoi ce détail soutient l’avis. Refaire sur un stimulus nouveau, sans modèle exposé.",
+      "difficulte": "intermediaire",
+      "representation": "récit — succession de difficultés",
+      "variabilite_permise": "Orientation et formulation de l’avis, critère compatible, autres preuves vérifiables et distinctes, paraphrase fidèle et modalités orales/écrites; le texte stimulus reste inchangé.",
+      "variabilite_interdite": "Substitution, réécriture automatique ou ajout de faits au texte; correction unique de l’opinion; crédit à un indice inventé ou à deux doublons.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise_reservee": false,
+      "conditions_de_passation": "Évaluation formative à texte fixe; noter toute aide et s’assurer que les deux indices proviennent du texte.",
+      "limites_du_corrige": "Exemple non exhaustif; validation humaine des paraphrases, autres indices recevables et interprétations contraires."
+    },
+    {
+      "item_id": "qc-pri-fr-010-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne ton appréciation de ce texte. Nomme un aspect (critère) sur lequel porte ton avis. Appuie ton appréciation sur deux éléments différents du texte et explique comment chacun soutient ton avis.",
+      "stimulus": "Le sentier des Pins commence derrière la bibliothèque. De petits panneaux jaunes indiquent la direction aux intersections. À mi-parcours, un banc permet de faire une pause. Près de la sortie, un tableau présente le nom de trois arbres observables le long du sentier.",
+      "reponse_attendue": "Exemple de production recevable, non exclusive : « Je trouve cette description pratique pour préparer une promenade. » Critère : utilité des renseignements. Indice 1 : « De petits panneaux jaunes indiquent la direction aux intersections » ; lien : La signalisation aide à se diriger. Indice 2 : « un tableau présente le nom de trois arbres observables le long du sentier » ; lien : Le tableau fournit des choses précises à observer. Une opinion opposée ou nuancée est acceptée si elle comporte un critère pertinent, deux indices textuels fidèles non redondants et leurs deux liens.",
+      "preuves_reperables": [
+        {
+          "extrait_exact": "De petits panneaux jaunes indiquent la direction aux intersections",
+          "lien_avec_critere": "La signalisation aide à se diriger"
+        },
+        {
+          "extrait_exact": "un tableau présente le nom de trois arbres observables le long du sentier",
+          "lien_avec_critere": "Le tableau fournit des choses précises à observer"
+        }
+      ],
+      "criteres": [
+        "A/2 : avis personnel identifiable et critère pertinent, sans notation de l’orientation du goût",
+        "B/2 : deux éléments distincts et fidèles au stimulus (citation ou paraphrase fidèle)",
+        "C/2 : explication claire du lien de chaque élément avec l’appréciation",
+        "D : autonomie consignée séparément; aucun guidage sur les indices pendant une preuve autonome"
+      ],
+      "feedback": "Une affirmation sur la durée de la promenade serait inventée : aucune durée n’est fournie. Utilise deux informations effectivement données.",
+      "feedback_si_manque": "Si l’avis manque : demander le jugement sans le suggérer; si un fait est faux : demander de retrouver le passage; si les deux preuves se répètent : rechercher un autre élément; si le lien est vague : expliciter pourquoi ce détail soutient l’avis. Refaire sur un stimulus nouveau, sans modèle exposé.",
+      "difficulte": "intermediaire",
+      "representation": "description — promenade sur un sentier",
+      "variabilite_permise": "Orientation et formulation de l’avis, critère compatible, autres preuves vérifiables et distinctes, paraphrase fidèle et modalités orales/écrites; le texte stimulus reste inchangé.",
+      "variabilite_interdite": "Substitution, réécriture automatique ou ajout de faits au texte; correction unique de l’opinion; crédit à un indice inventé ou à deux doublons.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise_reservee": false,
+      "conditions_de_passation": "Évaluation formative à texte fixe; noter toute aide et s’assurer que les deux indices proviennent du texte.",
+      "limites_du_corrige": "Exemple non exhaustif; validation humaine des paraphrases, autres indices recevables et interprétations contraires."
+    },
+    {
+      "item_id": "qc-pri-fr-010-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne ton appréciation de ce texte. Nomme un aspect (critère) sur lequel porte ton avis. Appuie ton appréciation sur deux éléments différents du texte et explique comment chacun soutient ton avis.",
+      "stimulus": "**Échange de graines du voisinage.** Rendez-vous dimanche à 11 h dans la salle du centre communautaire. Apporte des sachets de graines étiquetés avec le nom des plantes. Une table sera réservée aux graines de fleurs, une autre aux graines de légumes. On peut participer sans apporter de graines, dans la limite des sachets disponibles.",
+      "reponse_attendue": "Exemple de production recevable, non exclusive : « Je trouve cette annonce claire pour organiser la visite. » Critère : clarté des informations pratiques. Indice 1 : « Rendez-vous dimanche à 11 h dans la salle du centre communautaire » ; lien : La date, l’heure et le lieu permettent de savoir où et quand aller. Indice 2 : « Une table sera réservée aux graines de fleurs, une autre aux graines de légumes » ; lien : La distinction des deux tables indique comment l’échange sera organisé. Une opinion opposée ou nuancée est acceptée si elle comporte un critère pertinent, deux indices textuels fidèles non redondants et leurs deux liens.",
+      "preuves_reperables": [
+        {
+          "extrait_exact": "Rendez-vous dimanche à 11 h dans la salle du centre communautaire",
+          "lien_avec_critere": "La date, l’heure et le lieu permettent de savoir où et quand aller"
+        },
+        {
+          "extrait_exact": "Une table sera réservée aux graines de fleurs, une autre aux graines de légumes",
+          "lien_avec_critere": "La distinction des deux tables indique comment l’échange sera organisé"
+        }
+      ],
+      "criteres": [
+        "A/2 : avis personnel identifiable et critère pertinent, sans notation de l’orientation du goût",
+        "B/2 : deux éléments distincts et fidèles au stimulus (citation ou paraphrase fidèle)",
+        "C/2 : explication claire du lien de chaque élément avec l’appréciation",
+        "D : autonomie consignée séparément; aucun guidage sur les indices pendant une preuve autonome"
+      ],
+      "feedback": "Si tu prétends qu'il faut payer, vérifie : aucun prix n’est annoncé. Tu peux choisir un avis critique, mais il doit reposer sur deux faits présents.",
+      "feedback_si_manque": "Si l’avis manque : demander le jugement sans le suggérer; si un fait est faux : demander de retrouver le passage; si les deux preuves se répètent : rechercher un autre élément; si le lien est vague : expliciter pourquoi ce détail soutient l’avis. Refaire sur un stimulus nouveau, sans modèle exposé.",
+      "difficulte": "transfert",
+      "representation": "annonce — échange de graines",
+      "variabilite_permise": "Orientation et formulation de l’avis, critère compatible, autres preuves vérifiables et distinctes, paraphrase fidèle et modalités orales/écrites; le texte stimulus reste inchangé.",
+      "variabilite_interdite": "Substitution, réécriture automatique ou ajout de faits au texte; correction unique de l’opinion; crédit à un indice inventé ou à deux doublons.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise_reservee": false,
+      "conditions_de_passation": "Évaluation formative à texte fixe; noter toute aide et s’assurer que les deux indices proviennent du texte.",
+      "limites_du_corrige": "Exemple non exhaustif; validation humaine des paraphrases, autres indices recevables et interprétations contraires."
+    },
+    {
+      "item_id": "qc-pri-fr-010-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne ton appréciation de ce texte. Nomme un aspect (critère) sur lequel porte ton avis. Appuie ton appréciation sur deux éléments différents du texte et explique comment chacun soutient ton avis.",
+      "stimulus": "**Carnet de la classe.** À 9 h, nous avons tracé au sol le contour de l'ombre d'un bâton planté dans un bac de sable. À midi, nous avons refait le contour. Sur notre feuille, les deux contours n'avaient pas la même longueur. Nous avons noté l'heure à côté de chaque dessin pour garder la trace des observations.",
+      "reponse_attendue": "Exemple de production recevable, non exclusive : « Cette note me paraît utile pour comprendre le suivi d'une observation. » Critère : précision de la démarche. Indice 1 : « À 9 h, nous avons tracé au sol le contour de l'ombre » ; lien : Le premier contour fixe une trace à comparer. Indice 2 : « Nous avons noté l'heure à côté de chaque dessin » ; lien : Le relevé de l’heure permet de distinguer les mesures dans le temps. Une opinion opposée ou nuancée est acceptée si elle comporte un critère pertinent, deux indices textuels fidèles non redondants et leurs deux liens.",
+      "preuves_reperables": [
+        {
+          "extrait_exact": "À 9 h, nous avons tracé au sol le contour de l'ombre",
+          "lien_avec_critere": "Le premier contour fixe une trace à comparer"
+        },
+        {
+          "extrait_exact": "Nous avons noté l'heure à côté de chaque dessin",
+          "lien_avec_critere": "Le relevé de l’heure permet de distinguer les mesures dans le temps"
+        }
+      ],
+      "criteres": [
+        "A/2 : avis personnel identifiable et critère pertinent, sans notation de l’orientation du goût",
+        "B/2 : deux éléments distincts et fidèles au stimulus (citation ou paraphrase fidèle)",
+        "C/2 : explication claire du lien de chaque élément avec l’appréciation",
+        "D : autonomie consignée séparément; aucun guidage sur les indices pendant une preuve autonome"
+      ],
+      "feedback": "Ne transforme pas cette description en explication scientifique non présentée, comme une mesure chiffrée des angles. Défends ton avis sur la précision avec deux gestes distincts.",
+      "feedback_si_manque": "Si l’avis manque : demander le jugement sans le suggérer; si un fait est faux : demander de retrouver le passage; si les deux preuves se répètent : rechercher un autre élément; si le lien est vague : expliciter pourquoi ce détail soutient l’avis. Refaire sur un stimulus nouveau, sans modèle exposé.",
+      "difficulte": "transfert",
+      "representation": "note d’observation — comparaison d’ombres",
+      "variabilite_permise": "Orientation et formulation de l’avis, critère compatible, autres preuves vérifiables et distinctes, paraphrase fidèle et modalités orales/écrites; le texte stimulus reste inchangé.",
+      "variabilite_interdite": "Substitution, réécriture automatique ou ajout de faits au texte; correction unique de l’opinion; crédit à un indice inventé ou à deux doublons.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise_reservee": false,
+      "conditions_de_passation": "Évaluation formative à texte fixe; noter toute aide et s’assurer que les deux indices proviennent du texte.",
+      "limites_du_corrige": "Exemple non exhaustif; validation humaine des paraphrases, autres indices recevables et interprétations contraires."
+    },
+    {
+      "item_id": "qc-pri-fr-010-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne ton appréciation de ce texte. Nomme un aspect (critère) sur lequel porte ton avis. Appuie ton appréciation sur deux éléments différents du texte et explique comment chacun soutient ton avis.",
+      "stimulus": "Le vendredi, la classe devait présenter une courte pièce dans la cour. Quelques minutes avant le début, une pluie soudaine mouilla les chaises. Inès proposa de jouer dans le gymnase plutôt que d'annuler. Les autres élèves déplacèrent les accessoires à l'intérieur. La représentation commença un peu plus tard, devant les familles assises au sec.",
+      "reponse_attendue": "Exemple de production recevable, non exclusive : « J'ai apprécié la capacité du groupe à s'adapter. » Critère : réaction des personnages à un imprévu. Indice 1 : « Inès proposa de jouer dans le gymnase plutôt que d'annuler » ; lien : Inès propose une solution réaliste pour maintenir la représentation. Indice 2 : « Les autres élèves déplacèrent les accessoires à l'intérieur » ; lien : Les camarades réalisent le changement au lieu d’abandonner. Une opinion opposée ou nuancée est acceptée si elle comporte un critère pertinent, deux indices textuels fidèles non redondants et leurs deux liens.",
+      "preuves_reperables": [
+        {
+          "extrait_exact": "Inès proposa de jouer dans le gymnase plutôt que d'annuler",
+          "lien_avec_critere": "Inès propose une solution réaliste pour maintenir la représentation"
+        },
+        {
+          "extrait_exact": "Les autres élèves déplacèrent les accessoires à l'intérieur",
+          "lien_avec_critere": "Les camarades réalisent le changement au lieu d’abandonner"
+        }
+      ],
+      "criteres": [
+        "A/2 : avis personnel identifiable et critère pertinent, sans notation de l’orientation du goût",
+        "B/2 : deux éléments distincts et fidèles au stimulus (citation ou paraphrase fidèle)",
+        "C/2 : explication claire du lien de chaque élément avec l’appréciation",
+        "D : autonomie consignée séparément; aucun guidage sur les indices pendant une preuve autonome"
+      ],
+      "feedback": "Si tu dis que le spectacle a été annulé, relis le dénouement : il commence plus tard. Deux gestes différents soutiennent l’appréciation; le goût choisi reste libre.",
+      "feedback_si_manque": "Si l’avis manque : demander le jugement sans le suggérer; si un fait est faux : demander de retrouver le passage; si les deux preuves se répètent : rechercher un autre élément; si le lien est vague : expliciter pourquoi ce détail soutient l’avis. Refaire sur un stimulus nouveau, sans modèle exposé.",
+      "difficulte": "transfert",
+      "representation": "récit inédit réservé — adaptation collective",
+      "variabilite_permise": "Orientation et formulation de l’avis, critère compatible, autres preuves vérifiables et distinctes, paraphrase fidèle et modalités orales/écrites; le texte stimulus reste inchangé.",
+      "variabilite_interdite": "Substitution, réécriture automatique ou ajout de faits au texte; correction unique de l’opinion; crédit à un indice inventé ou à deux doublons.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise_reservee": true,
+      "conditions_de_passation": "Contexte inédit réservé; aucun indice sur le critère ou les passages; noter adaptation d’accès, aides de raisonnement et deux liens.",
+      "limites_du_corrige": "Exemple non exhaustif; validation humaine des paraphrases, autres indices recevables et interprétations contraires."
+    },
+    {
+      "item_id": "qc-pri-fr-010-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne ton appréciation de ce texte. Nomme un aspect (critère) sur lequel porte ton avis. Appuie ton appréciation sur deux éléments différents du texte et explique comment chacun soutient ton avis.",
+      "stimulus": "Pour observer la pluie, les élèves ont placé un récipient gradué dans un espace dégagé de la cour. Chaque matin de classe, ils lisent la quantité d'eau recueillie et l'inscrivent dans un tableau daté. Quand le récipient est plein, ils le vident après avoir noté la mesure. À la fin du mois, ils comparent les valeurs inscrites.",
+      "reponse_attendue": "Exemple de production recevable, non exclusive : « Je trouve ce texte précis pour expliquer comment tenir un relevé. » Critère : clarté des étapes d’observation. Indice 1 : « ils lisent la quantité d'eau recueillie et l'inscrivent dans un tableau daté » ; lien : Le tableau daté permet de suivre les données selon le jour. Indice 2 : « ils le vident après avoir noté la mesure » ; lien : La consigne de noter avant de vider établit l’ordre de deux gestes sans perdre le relevé. Une opinion opposée ou nuancée est acceptée si elle comporte un critère pertinent, deux indices textuels fidèles non redondants et leurs deux liens.",
+      "preuves_reperables": [
+        {
+          "extrait_exact": "ils lisent la quantité d'eau recueillie et l'inscrivent dans un tableau daté",
+          "lien_avec_critere": "Le tableau daté permet de suivre les données selon le jour"
+        },
+        {
+          "extrait_exact": "ils le vident après avoir noté la mesure",
+          "lien_avec_critere": "La consigne de noter avant de vider établit l’ordre de deux gestes sans perdre le relevé"
+        }
+      ],
+      "criteres": [
+        "A/2 : avis personnel identifiable et critère pertinent, sans notation de l’orientation du goût",
+        "B/2 : deux éléments distincts et fidèles au stimulus (citation ou paraphrase fidèle)",
+        "C/2 : explication claire du lien de chaque élément avec l’appréciation",
+        "D : autonomie consignée séparément; aucun guidage sur les indices pendant une preuve autonome"
+      ],
+      "feedback": "N'invente pas une prévision météo : le texte décrit des relevés. Un avis critique est possible, mais doit s'appuyer sur deux éléments réellement présents.",
+      "feedback_si_manque": "Si l’avis manque : demander le jugement sans le suggérer; si un fait est faux : demander de retrouver le passage; si les deux preuves se répètent : rechercher un autre élément; si le lien est vague : expliciter pourquoi ce détail soutient l’avis. Refaire sur un stimulus nouveau, sans modèle exposé.",
+      "difficulte": "transfert",
+      "representation": "information inédite réservée — observation des pluies",
+      "variabilite_permise": "Orientation et formulation de l’avis, critère compatible, autres preuves vérifiables et distinctes, paraphrase fidèle et modalités orales/écrites; le texte stimulus reste inchangé.",
+      "variabilite_interdite": "Substitution, réécriture automatique ou ajout de faits au texte; correction unique de l’opinion; crédit à un indice inventé ou à deux doublons.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise_reservee": true,
+      "conditions_de_passation": "Contexte inédit réservé; aucun indice sur le critère ou les passages; noter adaptation d’accès, aides de raisonnement et deux liens.",
+      "limites_du_corrige": "Exemple non exhaustif; validation humaine des paraphrases, autres indices recevables et interprétations contraires."
+    }
+  ]
+}

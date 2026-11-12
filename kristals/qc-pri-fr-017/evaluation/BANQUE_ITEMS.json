@@ -1,0 +1,445 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-017",
+  "family_id": "qc-pri-fr-017-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-017-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète le verbe au présent de l’indicatif. Nomme le sujet entier et, s’il s’agit d’un groupe nominal, son noyau; donne la personne et le nombre, puis justifie la forme écrite.",
+      "stimulus": "Le renard ___ (traverser) le sentier.",
+      "reponse_attendue": "Le renard traverse le sentier. Sujet : Le renard. Noyau : renard. Personne : 3e; nombre : singulier. Forme : traverse. Le nom renard est singulier; le verbe régulier en -er prend -e à la 3e personne du singulier.",
+      "criteres": [
+        "S : sujet complet repéré exactement",
+        "PN : personne et nombre du sujet exacts",
+        "V : forme verbale écrite au présent exacte",
+        "J : lien explicite sujet → personne/nombre → forme"
+      ],
+      "feedback": "Si tu écris traversent, remplace Le renard par il et corrige -e.",
+      "difficulte": "initial",
+      "representation": "phrase_ecrite_avec_infinitif",
+      "limites_variation": "Stimulus, infinitif, sujet, forme et nombre de phrases fixes; accepter une justification reformulée si elle désigne exactement le même sujet et les mêmes traits.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        {
+          "sujet": "Le renard",
+          "noyau": "renard",
+          "personne": "3e",
+          "nombre": "singulier",
+          "forme": "traverse",
+          "justification": "Le nom renard est singulier; le verbe régulier en -er prend -e à la 3e personne du singulier.",
+          "phrase_corrigee": "Le renard traverse le sentier."
+        }
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-017-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète le verbe au présent de l’indicatif. Nomme le sujet entier et, s’il s’agit d’un groupe nominal, son noyau; donne la personne et le nombre, puis justifie la forme écrite.",
+      "stimulus": "Tu ___ (dessiner) une carte.",
+      "reponse_attendue": "Tu dessines une carte. Sujet : Tu. Noyau : sans objet (pronom ou groupe coordonné). Personne : 2e; nombre : singulier. Forme : dessines. Tu commande la 2e personne du singulier; le verbe régulier en -er prend -es.",
+      "criteres": [
+        "S : sujet complet repéré exactement",
+        "PN : personne et nombre du sujet exacts",
+        "V : forme verbale écrite au présent exacte",
+        "J : lien explicite sujet → personne/nombre → forme"
+      ],
+      "feedback": "Si tu écris dessine, rappelle-toi que tu demande -es.",
+      "difficulte": "initial",
+      "representation": "phrase_ecrite_avec_infinitif",
+      "limites_variation": "Stimulus, infinitif, sujet, forme et nombre de phrases fixes; accepter une justification reformulée si elle désigne exactement le même sujet et les mêmes traits.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        {
+          "sujet": "Tu",
+          "noyau": null,
+          "personne": "2e",
+          "nombre": "singulier",
+          "forme": "dessines",
+          "justification": "Tu commande la 2e personne du singulier; le verbe régulier en -er prend -es.",
+          "phrase_corrigee": "Tu dessines une carte."
+        }
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-017-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète le verbe au présent de l’indicatif. Nomme le sujet entier et, s’il s’agit d’un groupe nominal, son noyau; donne la personne et le nombre, puis justifie la forme écrite.",
+      "stimulus": "Nous ___ (préparer) un spectacle.",
+      "reponse_attendue": "Nous préparons un spectacle. Sujet : Nous. Noyau : sans objet (pronom ou groupe coordonné). Personne : 1re; nombre : pluriel. Forme : préparons. Nous commande la 1re personne du pluriel; la terminaison est -ons.",
+      "criteres": [
+        "S : sujet complet repéré exactement",
+        "PN : personne et nombre du sujet exacts",
+        "V : forme verbale écrite au présent exacte",
+        "J : lien explicite sujet → personne/nombre → forme"
+      ],
+      "feedback": "Ne confonds pas -ons (nous) et -ent (ils/elles).",
+      "difficulte": "initial",
+      "representation": "phrase_ecrite_avec_infinitif",
+      "limites_variation": "Stimulus, infinitif, sujet, forme et nombre de phrases fixes; accepter une justification reformulée si elle désigne exactement le même sujet et les mêmes traits.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        {
+          "sujet": "Nous",
+          "noyau": null,
+          "personne": "1re",
+          "nombre": "pluriel",
+          "forme": "préparons",
+          "justification": "Nous commande la 1re personne du pluriel; la terminaison est -ons.",
+          "phrase_corrigee": "Nous préparons un spectacle."
+        }
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-017-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète le verbe au présent de l’indicatif. Nomme le sujet entier et, s’il s’agit d’un groupe nominal, son noyau; donne la personne et le nombre, puis justifie la forme écrite.",
+      "stimulus": "Vous ___ (ranger) les crayons.",
+      "reponse_attendue": "Vous rangez les crayons. Sujet : Vous. Noyau : sans objet (pronom ou groupe coordonné). Personne : 2e; nombre : pluriel. Forme : rangez. Vous commande la 2e personne du pluriel; terminaison -ez.",
+      "criteres": [
+        "S : sujet complet repéré exactement",
+        "PN : personne et nombre du sujet exacts",
+        "V : forme verbale écrite au présent exacte",
+        "J : lien explicite sujet → personne/nombre → forme"
+      ],
+      "feedback": "Si tu écris rangent, compare vous rangez et ils rangent.",
+      "difficulte": "initial",
+      "representation": "phrase_ecrite_avec_infinitif",
+      "limites_variation": "Stimulus, infinitif, sujet, forme et nombre de phrases fixes; accepter une justification reformulée si elle désigne exactement le même sujet et les mêmes traits.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        {
+          "sujet": "Vous",
+          "noyau": null,
+          "personne": "2e",
+          "nombre": "pluriel",
+          "forme": "rangez",
+          "justification": "Vous commande la 2e personne du pluriel; terminaison -ez.",
+          "phrase_corrigee": "Vous rangez les crayons."
+        }
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-017-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète le verbe au présent de l’indicatif. Nomme le sujet entier et, s’il s’agit d’un groupe nominal, son noyau; donne la personne et le nombre, puis justifie la forme écrite.",
+      "stimulus": "Le panier de pommes ___ (rouler) sur la pente.",
+      "reponse_attendue": "Le panier de pommes roule sur la pente. Sujet : Le panier de pommes. Noyau : panier. Personne : 3e; nombre : singulier. Forme : roule. Le sujet complet a pour noyau panier, singulier; pommes est son complément. La forme est roule (-e).",
+      "criteres": [
+        "S : sujet complet repéré exactement",
+        "PN : personne et nombre du sujet exacts",
+        "V : forme verbale écrite au présent exacte",
+        "J : lien explicite sujet → personne/nombre → forme"
+      ],
+      "feedback": "Repère le noyau panier, et non le complément pommes; remplace le groupe par il.",
+      "difficulte": "intermediaire",
+      "representation": "phrase_ecrite_avec_infinitif",
+      "limites_variation": "Stimulus, infinitif, sujet, forme et nombre de phrases fixes; accepter une justification reformulée si elle désigne exactement le même sujet et les mêmes traits.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        {
+          "sujet": "Le panier de pommes",
+          "noyau": "panier",
+          "personne": "3e",
+          "nombre": "singulier",
+          "forme": "roule",
+          "justification": "Le sujet complet a pour noyau panier, singulier; pommes est son complément. La forme est roule (-e).",
+          "phrase_corrigee": "Le panier de pommes roule sur la pente."
+        }
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-017-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète le verbe au présent de l’indicatif. Nomme le sujet entier et, s’il s’agit d’un groupe nominal, son noyau; donne la personne et le nombre, puis justifie la forme écrite.",
+      "stimulus": "Les outils du voisin ___ (rester) dans le coffre.",
+      "reponse_attendue": "Les outils du voisin restent dans le coffre. Sujet : Les outils du voisin. Noyau : outils. Personne : 3e; nombre : pluriel. Forme : restent. Le noyau outils est pluriel; voisin est un complément au singulier. La forme est restent (-ent).",
+      "criteres": [
+        "S : sujet complet repéré exactement",
+        "PN : personne et nombre du sujet exacts",
+        "V : forme verbale écrite au présent exacte",
+        "J : lien explicite sujet → personne/nombre → forme"
+      ],
+      "feedback": "Remplace Les outils du voisin par ils, pas par il.",
+      "difficulte": "intermediaire",
+      "representation": "phrase_ecrite_avec_infinitif",
+      "limites_variation": "Stimulus, infinitif, sujet, forme et nombre de phrases fixes; accepter une justification reformulée si elle désigne exactement le même sujet et les mêmes traits.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        {
+          "sujet": "Les outils du voisin",
+          "noyau": "outils",
+          "personne": "3e",
+          "nombre": "pluriel",
+          "forme": "restent",
+          "justification": "Le noyau outils est pluriel; voisin est un complément au singulier. La forme est restent (-ent).",
+          "phrase_corrigee": "Les outils du voisin restent dans le coffre."
+        }
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-017-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète le verbe au présent de l’indicatif. Nomme le sujet entier et, s’il s’agit d’un groupe nominal, son noyau; donne la personne et le nombre, puis justifie la forme écrite.",
+      "stimulus": "Maya et Hugo ___ (planter) un arbre.",
+      "reponse_attendue": "Maya et Hugo plantent un arbre. Sujet : Maya et Hugo. Noyau : sans objet (pronom ou groupe coordonné). Personne : 3e; nombre : pluriel. Forme : plantent. Maya et Hugo sont deux personnes distinctes liées par et : sujet coordonné à la 3e personne du pluriel; plantent (-ent).",
+      "criteres": [
+        "S : sujet complet repéré exactement",
+        "PN : personne et nombre du sujet exacts",
+        "V : forme verbale écrite au présent exacte",
+        "J : lien explicite sujet → personne/nombre → forme"
+      ],
+      "feedback": "Deux personnes reliées par et commandent le pluriel ici; écrire plantent, pas plante.",
+      "difficulte": "intermediaire",
+      "representation": "phrase_ecrite_avec_infinitif",
+      "limites_variation": "Stimulus, infinitif, sujet, forme et nombre de phrases fixes; accepter une justification reformulée si elle désigne exactement le même sujet et les mêmes traits.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        {
+          "sujet": "Maya et Hugo",
+          "noyau": null,
+          "personne": "3e",
+          "nombre": "pluriel",
+          "forme": "plantent",
+          "justification": "Maya et Hugo sont deux personnes distinctes liées par et : sujet coordonné à la 3e personne du pluriel; plantent (-ent).",
+          "phrase_corrigee": "Maya et Hugo plantent un arbre."
+        }
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-017-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète le verbe au présent de l’indicatif. Nomme le sujet entier et, s’il s’agit d’un groupe nominal, son noyau; donne la personne et le nombre, puis justifie la forme écrite.",
+      "stimulus": "Au bout du chemin ___ (arriver) deux cyclistes.",
+      "reponse_attendue": "Au bout du chemin arrivent deux cyclistes. Sujet : deux cyclistes. Noyau : cyclistes. Personne : 3e; nombre : pluriel. Forme : arrivent. Le sujet deux cyclistes suit le verbe mais reste pluriel; arrivent porte -ent.",
+      "criteres": [
+        "S : sujet complet repéré exactement",
+        "PN : personne et nombre du sujet exacts",
+        "V : forme verbale écrite au présent exacte",
+        "J : lien explicite sujet → personne/nombre → forme"
+      ],
+      "feedback": "Le sujet peut venir après le verbe; remets mentalement Deux cyclistes arrivent au bout du chemin.",
+      "difficulte": "transfert",
+      "representation": "phrase_ecrite_avec_infinitif",
+      "limites_variation": "Stimulus, infinitif, sujet, forme et nombre de phrases fixes; accepter une justification reformulée si elle désigne exactement le même sujet et les mêmes traits.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        {
+          "sujet": "deux cyclistes",
+          "noyau": "cyclistes",
+          "personne": "3e",
+          "nombre": "pluriel",
+          "forme": "arrivent",
+          "justification": "Le sujet deux cyclistes suit le verbe mais reste pluriel; arrivent porte -ent.",
+          "phrase_corrigee": "Au bout du chemin arrivent deux cyclistes."
+        }
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-017-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans indice, pour chacune des six phrases du dossier : conjugue le verbe au présent, recopie exactement son sujet (et son noyau si c’est un groupe nominal), indique personne et nombre, puis justifie le choix de la forme écrite. Six justifications distinctes sont requises.",
+      "stimulus": "Contexte : bibliothèque scolaire (préparation d’une activité en classe)\n1. La bibliothécaire ___ (préparer) des livres.\n2. Les élèves de la classe ___ (consulter) un atlas.\n3. Nous ___ (dessiner) une affiche.\n4. Tu ___ (classer) les images.\n5. Émile et Nora ___ (présenter) le projet.\n6. Le carton de feuilles ___ (tomber) près de la porte.",
+      "reponse_attendue": "1. La bibliothécaire prépare des livres. Sujet : La bibliothécaire; noyau : bibliothécaire; 3e personne du singulier; forme : prépare. Justification : bibliothécaire est le noyau singulier : -e.\n2. Les élèves de la classe consultent un atlas. Sujet : Les élèves de la classe; noyau : élèves; 3e personne du pluriel; forme : consultent. Justification : élèves est pluriel, classe ne commande pas : -ent.\n3. Nous dessinons une affiche. Sujet : Nous; noyau : s.o.; 1re personne du pluriel; forme : dessinons. Justification : nous commande -ons.\n4. Tu classes les images. Sujet : Tu; noyau : s.o.; 2e personne du singulier; forme : classes. Justification : tu commande -es.\n5. Émile et Nora présentent le projet. Sujet : Émile et Nora; noyau : s.o.; 3e personne du pluriel; forme : présentent. Justification : deux personnes distinctes reliées par et commandent -ent.\n6. Le carton de feuilles tombe près de la porte. Sujet : Le carton de feuilles; noyau : carton; 3e personne du singulier; forme : tombe. Justification : carton est le noyau singulier : -e.",
+      "criteres": [
+        "Six phrases distinctes et entièrement traitées",
+        "S : pour chaque phrase, groupe sujet complet exact; noyau exact s’il y a lieu",
+        "PN : pour chaque phrase, personne et nombre corrects",
+        "V : pour chaque phrase, forme verbale écrite exacte au présent",
+        "J : pour chaque phrase, justification reliant le sujet à la personne et au nombre",
+        "Dossier réalisé en autonomie, sans indice cognitif; aide d’accès documentée et neutre"
+      ],
+      "feedback": "Vérifie chacun des six sujets, y compris classe et feuilles qui ne sont pas des noyaux. Au besoin : réviser le repérage du groupe nominal avant une nouvelle preuve.",
+      "difficulte": "transfert",
+      "representation": "dossier_six_phrases_ecrites_avec_justifications",
+      "manifestation_id": "A",
+      "contexte": "bibliothèque scolaire (préparation d’une activité en classe)",
+      "limites_variation": "Ces six phrases, leur ordre, leurs infinitifs et leurs solutions sont fixes. Toute substitution de phrase ou de contexte exige un nouvel item revu; seules des justifications équivalentes sur le fond sont admissibles.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        {
+          "sujet": "La bibliothécaire",
+          "noyau": "bibliothécaire",
+          "personne": "3e",
+          "nombre": "singulier",
+          "forme": "prépare",
+          "justification": "bibliothécaire est le noyau singulier : -e.",
+          "phrase_corrigee": "La bibliothécaire prépare des livres."
+        },
+        {
+          "sujet": "Les élèves de la classe",
+          "noyau": "élèves",
+          "personne": "3e",
+          "nombre": "pluriel",
+          "forme": "consultent",
+          "justification": "élèves est pluriel, classe ne commande pas : -ent.",
+          "phrase_corrigee": "Les élèves de la classe consultent un atlas."
+        },
+        {
+          "sujet": "Nous",
+          "noyau": null,
+          "personne": "1re",
+          "nombre": "pluriel",
+          "forme": "dessinons",
+          "justification": "nous commande -ons.",
+          "phrase_corrigee": "Nous dessinons une affiche."
+        },
+        {
+          "sujet": "Tu",
+          "noyau": null,
+          "personne": "2e",
+          "nombre": "singulier",
+          "forme": "classes",
+          "justification": "tu commande -es.",
+          "phrase_corrigee": "Tu classes les images."
+        },
+        {
+          "sujet": "Émile et Nora",
+          "noyau": null,
+          "personne": "3e",
+          "nombre": "pluriel",
+          "forme": "présentent",
+          "justification": "deux personnes distinctes reliées par et commandent -ent.",
+          "phrase_corrigee": "Émile et Nora présentent le projet."
+        },
+        {
+          "sujet": "Le carton de feuilles",
+          "noyau": "carton",
+          "personne": "3e",
+          "nombre": "singulier",
+          "forme": "tombe",
+          "justification": "carton est le noyau singulier : -e.",
+          "phrase_corrigee": "Le carton de feuilles tombe près de la porte."
+        }
+      ]
+    },
+    {
+      "item_id": "qc-pri-fr-017-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-017-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans indice, pour chacune des six phrases du dossier : conjugue le verbe au présent, recopie exactement son sujet (et son noyau si c’est un groupe nominal), indique personne et nombre, puis justifie le choix de la forme écrite. Six justifications distinctes sont requises.",
+      "stimulus": "Contexte : jardin de quartier (organisation d’un atelier communautaire)\n1. Les voisins du quartier ___ (organiser) un atelier.\n2. La boîte de semences ___ (rester) sur la table.\n3. Vous ___ (planter) des graines.\n4. Je ___ (dessiner) un plan du jardin.\n5. Samira et Malik ___ (arroser) les semis.\n6. Près du portail ___ (arriver) deux bénévoles.",
+      "reponse_attendue": "1. Les voisins du quartier organisent un atelier. Sujet : Les voisins du quartier; noyau : voisins; 3e personne du pluriel; forme : organisent. Justification : voisins, pluriel, commande -ent.\n2. La boîte de semences reste sur la table. Sujet : La boîte de semences; noyau : boîte; 3e personne du singulier; forme : reste. Justification : boîte est singulier malgré semences : -e.\n3. Vous plantez des graines. Sujet : Vous; noyau : s.o.; 2e personne du pluriel; forme : plantez. Justification : vous commande -ez.\n4. Je dessine un plan du jardin. Sujet : Je; noyau : s.o.; 1re personne du singulier; forme : dessine. Justification : je commande -e.\n5. Samira et Malik arrosent les semis. Sujet : Samira et Malik; noyau : s.o.; 3e personne du pluriel; forme : arrosent. Justification : deux personnes distinctes reliées par et commandent -ent.\n6. Près du portail arrivent deux bénévoles. Sujet : deux bénévoles; noyau : bénévoles; 3e personne du pluriel; forme : arrivent. Justification : le sujet postposé deux bénévoles est pluriel : -ent.",
+      "criteres": [
+        "Six phrases distinctes et entièrement traitées",
+        "S : pour chaque phrase, groupe sujet complet exact; noyau exact s’il y a lieu",
+        "PN : pour chaque phrase, personne et nombre corrects",
+        "V : pour chaque phrase, forme verbale écrite exacte au présent",
+        "J : pour chaque phrase, justification reliant le sujet à la personne et au nombre",
+        "Dossier réalisé en autonomie, sans indice cognitif; aide d’accès documentée et neutre"
+      ],
+      "feedback": "Vérifie les six accords dans un contexte nouveau, surtout le sujet postposé deux bénévoles. En cas de difficulté : remets la phrase en ordre sujet–verbe avant un nouvel essai.",
+      "difficulte": "transfert",
+      "representation": "dossier_six_phrases_ecrites_avec_justifications",
+      "manifestation_id": "B",
+      "contexte": "jardin de quartier (organisation d’un atelier communautaire)",
+      "limites_variation": "Ces six phrases, leur ordre, leurs infinitifs et leurs solutions sont fixes. Toute substitution de phrase ou de contexte exige un nouvel item revu; seules des justifications équivalentes sur le fond sont admissibles.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        {
+          "sujet": "Les voisins du quartier",
+          "noyau": "voisins",
+          "personne": "3e",
+          "nombre": "pluriel",
+          "forme": "organisent",
+          "justification": "voisins, pluriel, commande -ent.",
+          "phrase_corrigee": "Les voisins du quartier organisent un atelier."
+        },
+        {
+          "sujet": "La boîte de semences",
+          "noyau": "boîte",
+          "personne": "3e",
+          "nombre": "singulier",
+          "forme": "reste",
+          "justification": "boîte est singulier malgré semences : -e.",
+          "phrase_corrigee": "La boîte de semences reste sur la table."
+        },
+        {
+          "sujet": "Vous",
+          "noyau": null,
+          "personne": "2e",
+          "nombre": "pluriel",
+          "forme": "plantez",
+          "justification": "vous commande -ez.",
+          "phrase_corrigee": "Vous plantez des graines."
+        },
+        {
+          "sujet": "Je",
+          "noyau": null,
+          "personne": "1re",
+          "nombre": "singulier",
+          "forme": "dessine",
+          "justification": "je commande -e.",
+          "phrase_corrigee": "Je dessine un plan du jardin."
+        },
+        {
+          "sujet": "Samira et Malik",
+          "noyau": null,
+          "personne": "3e",
+          "nombre": "pluriel",
+          "forme": "arrosent",
+          "justification": "deux personnes distinctes reliées par et commandent -ent.",
+          "phrase_corrigee": "Samira et Malik arrosent les semis."
+        },
+        {
+          "sujet": "deux bénévoles",
+          "noyau": "bénévoles",
+          "personne": "3e",
+          "nombre": "pluriel",
+          "forme": "arrivent",
+          "justification": "le sujet postposé deux bénévoles est pluriel : -ent.",
+          "phrase_corrigee": "Près du portail arrivent deux bénévoles."
+        }
+      ]
+    }
+  ]
+}

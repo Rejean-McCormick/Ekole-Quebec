@@ -1,0 +1,109 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ap-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Choisir matériaux et procédés en fonction d’une intention créative.",
+  "concepts": [
+    "matériau",
+    "texture",
+    "outil",
+    "effet"
+  ],
+  "preuve_attendue": "Tester deux matériaux puis justifier celui qui convient à l’intention.",
+  "prerequis_bloquants": [
+    "qc-pri-ap-002"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ap-004-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Tester deux matériaux puis justifier celui qui convient à l’intention.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Corpus des 10 tâches fixes du BANQUE_ITEMS.json; accommodements physiques non directifs, aucun choix automatisé de produit.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection": "fixe, sans tirage ni corrigé génératif IA"
+      },
+      "review_status": "banque_rédigée_à_revoir",
+      "kristal_id": "qc-pri-ap-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "échantillons physiques A/B",
+        "fiche de tests comparatifs",
+        "justification orale, écrite ou communication assistée"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "parametrisation_active": false,
+        "scenarios": [
+          {
+            "item_id": "qc-pri-ap-004-q-009",
+            "intention": "relief perceptible",
+            "matériaux": [
+              "papier lisse",
+              "carton ondulé"
+            ]
+          },
+          {
+            "item_id": "qc-pri-ap-004-q-010",
+            "intention": "trait lisible",
+            "matériaux": [
+              "papier de soie",
+              "carte lisse"
+            ]
+          }
+        ],
+        "ajustements": [
+          "dimensions échantillons",
+          "outil accessible de fonction équivalente",
+          "modalité de communication et de manipulation"
+        ]
+      },
+      "contraintes": [
+        "deux matériaux distincts réellement comparés",
+        "un même test/procédé sur chacun",
+        "intention annoncée avant le choix",
+        "effets observés sur chacun",
+        "justification reliée à des traces",
+        "deux contextes distincts",
+        "produits d’art sûrs, sous supervision",
+        "aucun jugement esthétique",
+        "indépendance des décisions malgré adaptations"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "intention_et_critere",
+          "deux_essais_comparables",
+          "observations_distinctes",
+          "choix_justifie",
+          "autonomie_securite"
+        ],
+        "echelle": "0 non attesté, 1 émergent, 2 attesté",
+        "decision": "2 par dimension dans les deux contextes, aucun total unique"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_rédigé_items_à_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

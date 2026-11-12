@@ -1,0 +1,364 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ccq-009",
+  "family_id": "qc-pri-ccq-009-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ccq-009-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère deux options de répartition et nomme un critère utilisable pour comparer ces deux options sans juger les groupes.",
+      "stimulus": "Cas inventé : une classe dispose de deux trousses et deux groupes demandent chacun les deux trousses pendant la même période. Aucune priorité n'est donnée.",
+      "reponse_attendue": "Exemple : option A = une trousse par groupe; option B = deux trousses à un groupe, zéro à l'autre. Critère commun : équité d'accès. Il est également valable de mentionner un critère de besoin à vérifier, sans inventer qu'un besoin existe. La préférence n'est pas exigée dans cet item diagnostique.",
+      "criteres": [
+        "Le fait de deux trousses et les demandes concurrentes sont fidèlement repris.",
+        "Deux options réalisables avec deux trousses sont distinguées.",
+        "Le critère peut être posé à chacune des options sans étiqueter une personne."
+      ],
+      "feedback": "Si l'élève attribue quatre trousses, rappeler le total fixé à deux. Si un besoin urgent est affirmé, demander où le texte l'indique.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "tri des faits, deux options et un critère, à l’oral ou en grille; présentation orale, écrite ou assistée avec observation de la qualité argumentative",
+      "contexte_id": "classe_deux_trousses",
+      "variations_permises": "On peut répondre avec pictogrammes ou texte; ne pas modifier le nombre de trousses.",
+      "contraintes": [
+        "cas fictif fixe; faits et options inchangés",
+        "plusieurs décisions argumentées recevables; croyances, identités et style jamais notés",
+        "une hypothèse doit être distinguée d’un fait",
+        "objection loyale liée à un coût ou un critère concurrent"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "cotation": "0 absent; 1 partiel; 2 suffisant selon critères observés; aucune somme ne décide seule la maîtrise"
+      },
+      "securite_et_accessibilite": "Scénario inventé; voix basse ou écrit/pictogrammes/scribe neutre; aucune divulgation personnelle; aucun débat public obligatoire."
+    },
+    {
+      "item_id": "qc-pri-ccq-009-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Formule une raison appuyée sur le fait donné pour accepter ce partage, puis nomme une conséquence moins favorable.",
+      "stimulus": "Cas fictif : deux groupes veulent la seule table disponible pour 20 minutes. Un groupe propose 10 minutes chacun.",
+      "reponse_attendue": "Production recevable : ‘Je choisirais dix minutes pour chaque groupe, parce qu'ils peuvent ainsi tous les deux utiliser la table selon un critère d'accès égal; chaque groupe aura moins de vingt minutes.’ Autre raison correctement reliée aux faits recevable.",
+      "criteres": [
+        "La raison nomme la proposition de partage.",
+        "Elle rattache un fait concret et un critère cohérent au choix.",
+        "La conséquence est plausible et reconnait une limite de l’option."
+      ],
+      "feedback": "Si la raison est ‘c'est mieux’, demander quelle donnée soutient ‘mieux’. Si une durée inventée apparait, revenir aux vingt minutes fournies.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "argument en deux phrases et conséquence; présentation orale, écrite ou assistée avec observation de la qualité argumentative",
+      "contexte_id": "table_20_minutes",
+      "variations_permises": "Temps de réponse adapté; valeur et justification, non élocution, sont notées.",
+      "contraintes": [
+        "cas fictif fixe; faits et options inchangés",
+        "plusieurs décisions argumentées recevables; croyances, identités et style jamais notés",
+        "une hypothèse doit être distinguée d’un fait",
+        "objection loyale liée à un coût ou un critère concurrent"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "cotation": "0 absent; 1 partiel; 2 suffisant selon critères observés; aucune somme ne décide seule la maîtrise"
+      },
+      "securite_et_accessibilite": "Scénario inventé; voix basse ou écrit/pictogrammes/scribe neutre; aucune divulgation personnelle; aucun débat public obligatoire."
+    },
+    {
+      "item_id": "qc-pri-ccq-009-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique quelle partie est un fait, quelle partie serait une supposition et propose une façon prudente de communiquer l'incertitude.",
+      "stimulus": "Fait fourni : l'heure d'un concert fictif n'est pas confirmée. Proposition de personnage : ‘On peut écrire dans l'affiche que le spectacle est à midi.’",
+      "reponse_attendue": "Fait = heure non confirmée. Supposition = midi, non indiqué. Réponse possible = ‘heure à confirmer’, ou attendre l'information vérifiée; reconnaitre qu'annoncer une heure comme certaine serait injustifié. Ce n'est pas la croyance de l'élève qui est cotée.",
+      "criteres": [
+        "Le fait de l’absence d’heure confirmée est identifié.",
+        "L’affirmation ‘midi’ est reconnue comme non établie.",
+        "Une action de communication cohérente avec l’incertitude est proposée."
+      ],
+      "feedback": "Si l'élève veut publier ‘midi’, demander la ligne qui le confirme : aucune. Modéliser la distinction ‘je sais’/‘je suppose’.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "faits, hypothèses et annonce adaptée; présentation orale, écrite ou assistée avec observation de la qualité argumentative",
+      "contexte_id": "affiche_heure_inconnue",
+      "variations_permises": "Lecture accompagnée autorisée; ne pas ajouter une heure au dossier.",
+      "contraintes": [
+        "cas fictif fixe; faits et options inchangés",
+        "plusieurs décisions argumentées recevables; croyances, identités et style jamais notés",
+        "une hypothèse doit être distinguée d’un fait",
+        "objection loyale liée à un coût ou un critère concurrent"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "cotation": "0 absent; 1 partiel; 2 suffisant selon critères observés; aucune somme ne décide seule la maîtrise"
+      },
+      "securite_et_accessibilite": "Scénario inventé; voix basse ou écrit/pictogrammes/scribe neutre; aucune divulgation personnelle; aucun débat public obligatoire."
+    },
+    {
+      "item_id": "qc-pri-ccq-009-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris la meilleure objection possible à cette proposition et réponds-y avec respect, sans juger l'élève.",
+      "stimulus": "Dans un centre fictif, une salle sert soit au groupe de lecture pendant 30 minutes, soit à deux groupes pendant 15 minutes chacun. Une élève propose le partage égal pour permettre l'accès aux deux groupes.",
+      "reponse_attendue": "Objection recevable : ‘Quinze minutes peuvent ne pas suffire pour terminer la lecture ou l'activité.’ Réponse nuancée : ‘C'est un risque réel; on pourrait vérifier la durée nécessaire avant de figer la décision.’ Objection non recevable : ‘Elle est incapable de choisir.’",
+      "criteres": [
+        "L’objection cible un effet possible de l’option de partage.",
+        "L’élève reformule loyalement la raison de l’autre solution.",
+        "La réponse nuance ou reconnait la limite sans attaquer une personne."
+      ],
+      "feedback": "Si l'objection est une attaque personnelle, reformuler : ‘Cette option risque de…’; si elle n'a aucun rapport au temps, relire la contrainte de trente minutes.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "objection argumentée et réponse nuancée; présentation orale, écrite ou assistée avec observation de la qualité argumentative",
+      "contexte_id": "salle_de_lecture",
+      "variations_permises": "Réponse privée permise; objection à l’option, jamais à l’identité.",
+      "contraintes": [
+        "cas fictif fixe; faits et options inchangés",
+        "plusieurs décisions argumentées recevables; croyances, identités et style jamais notés",
+        "une hypothèse doit être distinguée d’un fait",
+        "objection loyale liée à un coût ou un critère concurrent"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "cotation": "0 absent; 1 partiel; 2 suffisant selon critères observés; aucune somme ne décide seule la maîtrise"
+      },
+      "securite_et_accessibilite": "Scénario inventé; voix basse ou écrit/pictogrammes/scribe neutre; aucune divulgation personnelle; aucun débat public obligatoire."
+    },
+    {
+      "item_id": "qc-pri-ccq-009-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Choisis provisoirement une option et utilise un critère qui peut s'appliquer aux deux. Donne un effet défavorable et une objection pertinente.",
+      "stimulus": "Faits fictifs : cinq trousses sont disponibles; deux ateliers en demandent trois chacun, au même moment. Options : attribution de trois et deux, ou échange des trousses à mi-parcours.",
+      "reponse_attendue": "Exemple : ‘Je préfère l'échange au milieu, parce qu'il peut répartir l'accès selon un critère d'équité. Conséquence : il faut interrompre les activités. Objection : certains travaux supportent mal une interruption.’ Autre solution défendable : attribuer trois/deux avec une règle de priorité énoncée comme choix, et reconnaitre la pénurie pour l'autre groupe; ne pas inventer une urgence.",
+      "criteres": [
+        "Le total de cinq trousses et deux demandes de trois n’est pas contredit.",
+        "Une option et un principe comparatif sont reliés par une raison.",
+        "Une conséquence et une objection non redondante sont reconnues.",
+        "Les hypothèses ne sont pas annoncées comme faits."
+      ],
+      "feedback": "Si l'élève dit que les deux reçoivent trois trousses simultanément, corriger la faisabilité avant de commenter les valeurs. Si l'objection est faible, demander un coût pour l'autre groupe.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "mini-dilemme documenté, production écrite ou orale; présentation orale, écrite ou assistée avec observation de la qualité argumentative",
+      "contexte_id": "cinq_trousses",
+      "variations_permises": "Noms des groupes non essentiels; faits, nombres et options demeurent fixés.",
+      "contraintes": [
+        "cas fictif fixe; faits et options inchangés",
+        "plusieurs décisions argumentées recevables; croyances, identités et style jamais notés",
+        "une hypothèse doit être distinguée d’un fait",
+        "objection loyale liée à un coût ou un critère concurrent"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "cotation": "0 absent; 1 partiel; 2 suffisant selon critères observés; aucune somme ne décide seule la maîtrise"
+      },
+      "securite_et_accessibilite": "Scénario inventé; voix basse ou écrit/pictogrammes/scribe neutre; aucune divulgation personnelle; aucun débat public obligatoire."
+    },
+    {
+      "item_id": "qc-pri-ccq-009-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare les deux options selon le critère de fiabilité, choisis-en une et formule la conséquence qui soutient le choix opposé.",
+      "stimulus": "Scène fictive : un bulletin scolaire voudrait annoncer dès maintenant une activité; l'heure ne sera confirmée que demain. Deux options : afficher ‘heure à confirmer’ aujourd'hui ou attendre demain.",
+      "reponse_attendue": "Exemple A : ‘Je publierais en indiquant l'incertitude; le public connaitrait l'activité tôt. Toutefois des lecteurs pourraient ne pas voir l'heure ajoutée demain.’ Exemple B : ‘J'attendrais l'information vérifiée pour éviter une annonce incomplète; objection : le public aurait moins de temps pour s'organiser.’ Les deux sont acceptables si aucune heure n'est inventée.",
+      "criteres": [
+        "Un même critère de fiabilité est appliqué aux deux options.",
+        "La décision est étayée par des faits explicitement fournis.",
+        "L’argument adverse est décrit loyalement sans caricature.",
+        "La temporalité aujourd’hui/demain est respectée."
+      ],
+      "feedback": "Une affirmation ‘le spectacle est à 14 heures’ contredit l'absence d'information; demander de remplacer l'heure par une réserve explicite.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "comparaison à deux colonnes et argument adverse; présentation orale, écrite ou assistée avec observation de la qualité argumentative",
+      "contexte_id": "bulletin_incomplet",
+      "variations_permises": "Deux colonnes en gros caractères ou dictée neutre permises.",
+      "contraintes": [
+        "cas fictif fixe; faits et options inchangés",
+        "plusieurs décisions argumentées recevables; croyances, identités et style jamais notés",
+        "une hypothèse doit être distinguée d’un fait",
+        "objection loyale liée à un coût ou un critère concurrent"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "cotation": "0 absent; 1 partiel; 2 suffisant selon critères observés; aucune somme ne décide seule la maîtrise"
+      },
+      "securite_et_accessibilite": "Scénario inventé; voix basse ou écrit/pictogrammes/scribe neutre; aucune divulgation personnelle; aucun débat public obligatoire."
+    },
+    {
+      "item_id": "qc-pri-ccq-009-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Reformule cette phrase en objection critiquable sur les idées plutôt que sur les personnes, puis explique pourquoi cette formulation est plus utile au débat.",
+      "stimulus": "Une personne fictive affirme : ‘Tous ceux qui préfèrent l'option B sont égoïstes; je ne les écoute pas.’ Les options A et B concernent le partage d'une même salle entre deux équipes.",
+      "reponse_attendue": "Exemple : ‘L'option B donne la salle entière à une équipe pendant la seule période disponible; l'autre pourrait devoir attendre, ce qui pose une question d'équité.’ Justification : la critique vise un effet testable de l'option, pas un trait d'identité ou une intention attribuée aux participants. Les opinions privées ne sont pas inférées.",
+      "criteres": [
+        "Les étiquettes personnelles et le refus d’écouter ont disparu.",
+        "La critique mentionne une conséquence ou un critère lié à l’option.",
+        "La personne explique le caractère vérifiable et respectueux de l’objection."
+      ],
+      "feedback": "Si la reformulation garde ‘ils sont mauvais’, ramener l’élève à ‘cette option peut avoir pour effet…’. Ne noter ni loyauté ni identité.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "transformation de formulation et argument justifié; présentation orale, écrite ou assistée avec observation de la qualité argumentative",
+      "contexte_id": "critique_sans_personne",
+      "variations_permises": "Le texte peut être lu par l’adulte; ne pas demander de révélation intime.",
+      "contraintes": [
+        "cas fictif fixe; faits et options inchangés",
+        "plusieurs décisions argumentées recevables; croyances, identités et style jamais notés",
+        "une hypothèse doit être distinguée d’un fait",
+        "objection loyale liée à un coût ou un critère concurrent"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "cotation": "0 absent; 1 partiel; 2 suffisant selon critères observés; aucune somme ne décide seule la maîtrise"
+      },
+      "securite_et_accessibilite": "Scénario inventé; voix basse ou écrit/pictogrammes/scribe neutre; aucune divulgation personnelle; aucun débat public obligatoire."
+    },
+    {
+      "item_id": "qc-pri-ccq-009-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Propose une décision possible, une raison fondée sur un principe, un effet probable, une objection valable et une réponse qui reconnaît la limite de ton option.",
+      "stimulus": "Un comité fictif prépare une exposition de dessins et souhaite annoncer les résultats aujourd'hui. Un tableau des prix est prêt, mais une ligne n'a pas été revérifiée. A : afficher un classement marqué ‘provisoire’; B : attendre la vérification de toutes les lignes.",
+      "reponse_attendue": "Exemple : ‘J'attendrais la vérification par souci de justesse, car une ligne reste incertaine. Le résultat sera communiqué plus tard. Objection : les élèves attendent les résultats dès aujourd'hui; je reconnais ce délai et proposerais une annonce sans classement.’ Autre choix recevable : afficher clairement ‘provisoire’ tout en admettant une confusion possible.",
+      "criteres": [
+        "La ligne non revérifiée reste identifiée comme incertitude, non erreur prouvée.",
+        "Une décision et un principe sont explicités.",
+        "Une conséquence plausible est nommée.",
+        "Une objection réelle à sa propre option et une réponse nuancée apparaissent."
+      ],
+      "feedback": "Si l'élève affirme que le classement est faux, montrer que seule l'absence de vérification est connue. Si l'objection critique une personne, revenir à l'effet de l'option.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "dilemme d’information, justification complète; présentation orale, écrite ou assistée avec observation de la qualité argumentative",
+      "contexte_id": "exposition_provisoire",
+      "variations_permises": "Les deux options et l’incertitude restent fixées; aucun verdict imposé.",
+      "contraintes": [
+        "cas fictif fixe; faits et options inchangés",
+        "plusieurs décisions argumentées recevables; croyances, identités et style jamais notés",
+        "une hypothèse doit être distinguée d’un fait",
+        "objection loyale liée à un coût ou un critère concurrent"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "cotation": "0 absent; 1 partiel; 2 suffisant selon critères observés; aucune somme ne décide seule la maîtrise"
+      },
+      "securite_et_accessibilite": "Scénario inventé; voix basse ou écrit/pictogrammes/scribe neutre; aucune divulgation personnelle; aucun débat public obligatoire."
+    },
+    {
+      "item_id": "qc-pri-ccq-009-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans aide sur le choix, remplis ta grille commune : indique deux faits et les deux options; choisis une répartition possible, justifie-la avec un critère/principe applicable aux deux groupes, indique une conséquence probable, puis présente l'objection la plus solide contre ta propre décision et réponds-y avec nuance. Ne suppose pas de faits absents.",
+      "stimulus": "PREUVE A — ÉCOLE FICTIVE DES TILLEULS. Un coin lecture compte SIX places pour une période de VINGT minutes; aucun autre espace n'est disponible durant cette période. Le groupe Affiche demande QUATRE places pour préparer une démonstration aujourd'hui; le groupe Lecture demande QUATRE places pour préparer une séance demain. Les deux groupes en ont besoin pendant la même période. Options connues : A = trois places à chacun; B = quatre places au groupe Affiche et deux au groupe Lecture. Aucune autre priorité institutionnelle n'est précisée.",
+      "reponse_attendue": "Exemple recevable pour A : ‘Il y a six places et deux demandes de quatre. Je choisis 3–3 selon l'équité d'accès : chaque groupe participe. Conséquence : il manque une place à chacun par rapport à sa demande. Objection valable : Affiche présente aujourd'hui, donc une quatrième place pourrait aider la préparation; je reconnais cette urgence relative, mais l'accès de Lecture serait diminué par 4–2.’ Exemple également recevable pour B : ‘Je choisis 4–2 en donnant du poids à la présentation d'aujourd'hui, documentée. Conséquence : Lecture n'obtient que deux des quatre places voulues. Objection : cette répartition diminue son accès; je reconnais cette limite et une révision serait souhaitable si la préparation de demain en souffre.’ Aucune réponse n'est ‘juste’ par opinion seule. Dire qu'un autre espace existe ou que Lecture consent est inventé.",
+      "criteres": [
+        "E1 Deux faits exacts, deux options réalisables et au moins une limite des données sont observés.",
+        "E2 Une décision est reliée à un principe/critère commun et à au moins un fait fourni.",
+        "E3 Une conséquence concrète et plausible est donnée sans supposition annoncée comme fait.",
+        "E4 Une objection sérieuse contre son propre choix est reconnue et reçoit une réponse nuancée et respectueuse.",
+        "E5 Argumentation autonome et non directive, aucune note portée aux opinions ou identités privées."
+      ],
+      "feedback": "Si E1 manque, retravailler la lecture du dossier fermé; si E2 manque, réenseigner le lien fait–principe–décision; si E3 manque, distinguer effet et préférence; si E4 manque, pratiquer l'objection loyale sur un autre cas; si E5 manque, refaire dans des conditions autonomes sûres. Toute nouvelle preuve sera organisée après une remédiation, pas améliorée par indice pendant l'épreuve.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "grille commune sur répartition fictive des places, production écrite/orale/assistée; présentation orale, écrite ou assistée avec observation de la qualité argumentative",
+      "contexte_id": "preuve_A_coin_lecture",
+      "variations_permises": "Temps, taille du support et modalité d’expression adaptés avant la passation; faits, chiffres, options et cinq critères inchangés. Pas de variante de scénario non approuvée.",
+      "contraintes": [
+        "cas fictif fixe; faits et options inchangés",
+        "plusieurs décisions argumentées recevables; croyances, identités et style jamais notés",
+        "une hypothèse doit être distinguée d’un fait",
+        "objection loyale liée à un coût ou un critère concurrent"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "cotation": "0 absent; 1 partiel; 2 suffisant selon critères observés; aucune somme ne décide seule la maîtrise"
+      },
+      "securite_et_accessibilite": "Scénario inventé; voix basse ou écrit/pictogrammes/scribe neutre; aucune divulgation personnelle; aucun débat public obligatoire.",
+      "preuve_maitrise": {
+        "manifestation": "A",
+        "seuils": "E1, E2, E3, E4, E5 tous à 2 dans cette épreuve; deux preuves distinctes requises",
+        "conditions": "autonome, sans relance sur le contenu; aides d’accès convenues avant uniquement"
+      }
+    },
+    {
+      "item_id": "qc-pri-ccq-009-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans ce deuxième contexte indépendant, remplis une nouvelle grille commune : indique les faits et les deux options, propose une décision possible, fonde une raison sur un principe (p. ex. fiabilité ou transparence), déduis une conséquence prudente, puis reconnais la meilleure objection contre ton choix et réponds-y sans dénigrer les personnes. Ne fais aucune affirmation sur le véritable classement.",
+      "stimulus": "PREUVE B — JOURNAL FICTIF DE L'ATELIER DES MAQUETTES. Le journal doit annoncer aujourd'hui les résultats d'un concours de maquettes. Un classement initial est prêt, mais UNE fiche d'évaluation du concours n'a pas encore été vérifiée; sa justesse n'est donc pas établie. La vérification peut être faite DEMAIN. Options connues : A = publier aujourd'hui en écrivant visiblement ‘classement provisoire, vérification demain’; B = attendre la vérification de demain avant de publier le classement. On ne sait pas si la fiche contient une erreur.",
+      "reponse_attendue": "Exemple recevable pour B : ‘Une fiche n'a pas encore été vérifiée; je reporte le classement au lendemain selon le principe de fiabilité. Conséquence : les participants attendront davantage. Objection : un délai peut frustrer ceux qui attendent une annonce aujourd'hui; je le reconnais et je proposerais un message expliquant la vérification.’ Exemple recevable pour A : ‘Je publierais le classement avec la mention claire “provisoire” pour informer rapidement tout en signalant l'incertitude. Conséquence : un éventuel changement demain obligerait à corriger l'annonce. Objection : certaines personnes pourraient prendre le classement pour définitif malgré la mention; je reconnais ce risque et j'utiliserais un avertissement visible.’ Dire que la fiche est réellement fausse n'est pas justifié.",
+      "criteres": [
+        "E1 Deux faits exacts, les deux options et l’incertitude sur la fiche non vérifiée sont présentés.",
+        "E2 Décision fondée sur un principe publiquement explicable, avec raison reliée au dossier.",
+        "E3 Conséquence probable présentée comme possible si elle dépend d’une éventuelle erreur.",
+        "E4 Objection pertinente contre son propre choix et réponse nuancée portant sur l’idée et ses effets.",
+        "E5 Autonomie, respect, confidentialité et absence de jugement sur la conviction de l’élève."
+      ],
+      "feedback": "Si l'élève présente l'erreur comme prouvée, ramener à fait/hypothèse lors d'une remédiation ultérieure; si l'objection est superficielle, trouver le meilleur argument de l'autre option; si le principe est absent, reconstruire le lien avec les faits puis réévaluer sur un nouveau contexte approuvé.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "grille commune sur publication d’un résultat provisoire, production écrite/orale/assistée; présentation orale, écrite ou assistée avec observation de la qualité argumentative",
+      "contexte_id": "preuve_B_resultat_maquettes",
+      "variations_permises": "Seuls supports d’accès, temps et mode de communication varient; classement incertain, calendrier, options et critères verrouillés. Pas de réponse imposée par le correcteur.",
+      "contraintes": [
+        "cas fictif fixe; faits et options inchangés",
+        "plusieurs décisions argumentées recevables; croyances, identités et style jamais notés",
+        "une hypothèse doit être distinguée d’un fait",
+        "objection loyale liée à un coût ou un critère concurrent"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "cotation": "0 absent; 1 partiel; 2 suffisant selon critères observés; aucune somme ne décide seule la maîtrise"
+      },
+      "securite_et_accessibilite": "Scénario inventé; voix basse ou écrit/pictogrammes/scribe neutre; aucune divulgation personnelle; aucun débat public obligatoire.",
+      "preuve_maitrise": {
+        "manifestation": "B",
+        "seuils": "E1, E2, E3, E4, E5 tous à 2 dans cette épreuve; deux preuves distinctes requises",
+        "conditions": "autonome, sans relance sur le contenu; aides d’accès convenues avant uniquement"
+      }
+    }
+  ]
+}

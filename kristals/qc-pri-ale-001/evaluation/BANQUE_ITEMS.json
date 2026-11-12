@@ -1,0 +1,491 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ale-001",
+  "family_id": "qc-pri-ale-001-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ale-001-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen to the word. Say the beats, then put them back together.",
+      "stimulus": "Adulte dit oralement « rocket » /ˈrɑ.kɪt/, sans texte et sans montrer le mot.",
+      "reponse_attendue": "Deux syllabes : /rɑ/ | /kɪt/ ; fusion : « rocket » ; variations vocaliques anglaises conservant deux syllabes acceptées.",
+      "criteres": [
+        "Deux battements syllabiques audibles.",
+        "Les syllabes sont dans l’ordre.",
+        "Mot anglais complet reconstitué."
+      ],
+      "feedback": "If you made only one beat, listen again for two vowel beats, then join them.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral seul — syllable, script adulte non visible à l’élève",
+      "variabilite_permise": "Réécoute neutre des mêmes segments seulement; pas de nouvel indice phonétique.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen and count the beats. Say both parts and the whole word.",
+      "stimulus": "Adulte dit « helmet » /ˈhɛl.mət/; aucune écriture ni geste indiciel.",
+      "reponse_attendue": "Deux syllabes /hɛl/ | /mət/ → « helmet » ; possibilité de réalisation réduite du second noyau.",
+      "criteres": [
+        "Compte deux syllabes.",
+        "Segmente oralement ou par deux jetons.",
+        "Recompose correctement « helmet »."
+      ],
+      "feedback": "The word has two spoken parts; say them slowly, then blend.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral seul — syllable, script adulte non visible à l’élève",
+      "variabilite_permise": "Réécoute neutre des mêmes segments seulement; pas de nouvel indice phonétique.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen to the sounds. Repeat each sound and say the word.",
+      "stimulus": "Adulte émet /n/ ... /ɛ/ ... /t/ à intervalles réguliers.",
+      "reponse_attendue": "Trois phonèmes /n ɛ t/ → « net ».",
+      "criteres": [
+        "Identifie trois unités sans en ajouter.",
+        "Conserve l’ordre /n ɛ t/.",
+        "Prononce « net » de manière intelligible."
+      ],
+      "feedback": "Keep the middle sound /ɛ/ and slide the sounds together.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral seul — phoneme, script adulte non visible à l’élève",
+      "variabilite_permise": "Réécoute neutre des mêmes segments seulement; pas de nouvel indice phonétique.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen: three sounds. What word do they make? Show how you joined them.",
+      "stimulus": "Adulte émet /b/ ... /ɪ/ ... /ɡ/ (pas le nom des lettres).",
+      "reponse_attendue": "Trois phonèmes /b ɪ ɡ/ → « big ».",
+      "criteres": [
+        "Reproduit les trois phonèmes dans l’ordre.",
+        "Fusionne en « big ».",
+        "Démontre le lien unités→mot avec voix ou jetons sans lettres."
+      ],
+      "feedback": "Hear the vowel /ɪ/ between the two consonants; blend without adding another beat.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral seul — phoneme, script adulte non visible à l’élève",
+      "variabilite_permise": "Réécoute neutre des mêmes segments seulement; pas de nouvel indice phonétique.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen to the beginning and ending sounds. Join the two parts.",
+      "stimulus": "Adulte émet onset /r/ ... rime /ɛd/; question orale « What word? ».",
+      "reponse_attendue": "Onset /r/, rime /ɛd/ → « red » /rɛd/.",
+      "criteres": [
+        "Différencie onset et rime dans cette syllabe.",
+        "Reconstitue « red » sans prononcer deux syllabes.",
+        "Présente une justification orale ou gestuelle des deux unités."
+      ],
+      "feedback": "The first part ends before the vowel. Join /r/ to /ɛd/.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral seul — onset-rime, script adulte non visible à l’élève",
+      "variabilite_permise": "Réécoute neutre des mêmes segments seulement; pas de nouvel indice phonétique.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen to the word. Is there a consonant onset? Say the rime.",
+      "stimulus": "Adulte prononce « in » /ɪn/ oralement, sans texte.",
+      "reponse_attendue": "Onset consonantique absent; rime = /ɪn/; mot « in ».",
+      "criteres": [
+        "Indique correctement « no consonant onset ».",
+        "Identifie /ɪn/ comme noyau et coda.",
+        "Ne classe pas /ɪ/ comme consonne initiale."
+      ],
+      "feedback": "Some words begin with a vowel sound, so the onset can be empty.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral seul — onset-rime, script adulte non visible à l’élève",
+      "variabilite_permise": "Réécoute neutre des mêmes segments seulement; pas de nouvel indice phonétique.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen. Change just the first sound /k/ in /k æ t/ to /r/. What word now?",
+      "stimulus": "Adulte dit les phonèmes /k/ ... /æ/ ... /t/ puis, sans dire le mot entier : « Change /k/ to /r/. »",
+      "reponse_attendue": "La substitution /k/→/r/ produit /r æ t/ = « rat »; la rime /æt/ reste inchangée.",
+      "criteres": [
+        "Retire le premier phonème /k/.",
+        "Le remplace par /r/ sans changer /æt/.",
+        "Fusionne « rat » à l’oral."
+      ],
+      "feedback": "Keep /æt/ the same; only the beginning sound changes.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral seul — phoneme manipulation, script adulte non visible à l’élève",
+      "variabilite_permise": "Réécoute neutre des mêmes segments seulement; pas de nouvel indice phonétique.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen to three sounds. Say the whole word and tell how many sounds you heard.",
+      "stimulus": "Adulte émet /ʃ/ ... /ɪ/ ... /p/. Ne pas afficher « sh ».",
+      "reponse_attendue": "Trois phonèmes → « ship » /ʃɪp/ (le phonème /ʃ/ est un seul son malgré deux lettres possibles).",
+      "criteres": [
+        "Compte trois phonèmes, non les graphèmes.",
+        "Reconstitue « ship ».",
+        "La démonstration du /ʃ/ unique est cohérente."
+      ],
+      "feedback": "The first sound /ʃ/ is one sound; do not split it into letter names.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral seul — phoneme, script adulte non visible à l’élève",
+      "variabilite_permise": "Réécoute neutre des mêmes segments seulement; pas de nouvel indice phonétique.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen to two spoken parts. Say each and then the whole word.",
+      "stimulus": "Adulte émet /kɪt/ ... /ən/ avec pauses cohérentes; réalisation anglaise de « kitten ».",
+      "reponse_attendue": "Deux syllabes /kɪt/ | /ən/ → « kitten »; la seconde peut avoir une consonne syllabique selon l’accent, sans pénalité.",
+      "criteres": [
+        "Deux parties syllabiques reconnues.",
+        "Aucun ordre inversé.",
+        "Fusion intelligible « kitten » même avec réduction de voyelle."
+      ],
+      "feedback": "You heard two beats, not two individual phonemes.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral seul — syllable, script adulte non visible à l’élève",
+      "variabilite_permise": "Réécoute neutre des mêmes segments seulement; pas de nouvel indice phonétique.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Listen: /d/ ... /ɪ/ ... /ɡ/. What word? Repeat the sounds in order.",
+      "stimulus": "Adulte émet /d/ ... /ɪ/ ... /ɡ/ sans orthographe.",
+      "reponse_attendue": "Trois phonèmes → « dig » /dɪɡ/.",
+      "criteres": [
+        "Trois phonèmes dans l’ordre.",
+        "Fusion en mot « dig ».",
+        "Au besoin, auto-correction sans indice de réponse."
+      ],
+      "feedback": "Join /d/, /ɪ/, and /ɡ/ without adding a fourth sound.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "oral seul — phoneme, script adulte non visible à l’élève",
+      "variabilite_permise": "Réécoute neutre des mêmes segments seulement; pas de nouvel indice phonétique.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "This is a sound detective game. Listen to each group of sounds. Say the parts, join them, and tell how you did it. Work on all three words.",
+      "stimulus": "Adult reads ONLY the three spoken groups of the selected approved variant. Selected by seed 410 → variant A: phoneme: /p/ ... /ɛ/ ... /n/; onset-rime: /b/ ... /æɡ/; syllable: /noʊt/ ... /bʊk/. Do not reveal whole words first.",
+      "reponse_attendue": "Réponses sélectionnées : phoneme: pen (/p/ /ɛ/ /n/); onset-rime: bag (/b/ /æɡ/); syllable: notebook (/noʊt/ /bʊk/). Autre variante : pin; rag; backpack.",
+      "criteres": [
+        "Pour le mot phonémique : répète trois phonèmes ordonnés et les fusionne correctement.",
+        "Pour onset/rime : reconnaît les deux segments et obtient le mot correct.",
+        "Pour les syllabes : distingue deux syllabes et reconstitue le mot.",
+        "Justifie ou démontre oralement la méthode pour au moins deux cibles.",
+        "Sans indice de réponse; une simple répétition identique est permise."
+      ],
+      "feedback": "If you did not join the sounds, try a slower neutral replay; once a hint identifies the word, record the attempt as guided and retest on a different held-out word.",
+      "difficulte": "transfert",
+      "seed": 410,
+      "parametres": {
+        "variable": "variante",
+        "domaine": [
+          "A",
+          "B"
+        ],
+        "selection": "if seed % 2 == 0 then A else B",
+        "seed_stable": 410,
+        "contraintes": [
+          "Trois mots par variante",
+          "1 phoneme + 1 onset-rime + 1 syllable",
+          "mots anglais authentiques",
+          "3 unités / 2 unités / 2 unités respectivement",
+          "mots complets cachés à l’élève avant fusion"
+        ],
+        "variants": {
+          "A": {
+            "context": "Classroom supply shelf — classroom objects",
+            "targets": [
+              {
+                "operation": "phoneme",
+                "spoken": "/p/ ... /ɛ/ ... /n/",
+                "word": "pen",
+                "units": [
+                  "/p/",
+                  "/ɛ/",
+                  "/n/"
+                ],
+                "justification": "Three phonemes joined, in order."
+              },
+              {
+                "operation": "onset-rime",
+                "spoken": "/b/ ... /æɡ/",
+                "word": "bag",
+                "units": [
+                  "/b/",
+                  "/æɡ/"
+                ],
+                "justification": "/b/ is onset and /æɡ/ is rime."
+              },
+              {
+                "operation": "syllable",
+                "spoken": "/noʊt/ ... /bʊk/",
+                "word": "notebook",
+                "units": [
+                  "/noʊt/",
+                  "/bʊk/"
+                ],
+                "justification": "Two spoken syllable units fused."
+              }
+            ]
+          },
+          "B": {
+            "context": "Classroom supply shelf — different objects",
+            "targets": [
+              {
+                "operation": "phoneme",
+                "spoken": "/p/ ... /ɪ/ ... /n/",
+                "word": "pin",
+                "units": [
+                  "/p/",
+                  "/ɪ/",
+                  "/n/"
+                ],
+                "justification": "Three phonemes joined, in order."
+              },
+              {
+                "operation": "onset-rime",
+                "spoken": "/r/ ... /æɡ/",
+                "word": "rag",
+                "units": [
+                  "/r/",
+                  "/æɡ/"
+                ],
+                "justification": "/r/ is onset and /æɡ/ is rime."
+              },
+              {
+                "operation": "syllable",
+                "spoken": "/bæk/ ... /pæk/",
+                "word": "backpack",
+                "units": [
+                  "/bæk/",
+                  "/pæk/"
+                ],
+                "justification": "Two spoken syllables fused."
+              }
+            ]
+          }
+        },
+        "exemple_valide": {
+          "seed": 410,
+          "variante": "A",
+          "reponses": [
+            "pen",
+            "bag",
+            "notebook"
+          ]
+        },
+        "algorithme_resolution": "Pour chaque cible, concaténer acoustiquement les segments dans l’ordre; comparer le mot oral résultant à la forme attendue de la variante. Ne pas simplement concaténer la graphie IPA pour noter un élève; jugement humain d’intelligibilité et d’ordre.",
+        "rubrique_cible": "evaluation/GRILLE_MAITRISE.md; trois productions observées séparément; pas de score fondé sur une seule variante",
+        "exigence_preuve": "Test autonome et non répétition d’un mot entier présenté par l’adulte.",
+        "contexte": "classroom"
+      },
+      "validation_status": "a_revoir",
+      "representation": "oral seul — mixte : phoneme / onset-rime / syllable, script adulte non visible à l’élève",
+      "variabilite_permise": "Variante A/B uniquement, sélection déterministe seed % 2. Aucune création de mots, changement d’unités, orthographe visible ou génération IA libre.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    },
+    {
+      "item_id": "qc-pri-ale-001-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "This is a sound detective game. Listen to each group of sounds. Say the parts, join them, and tell how you did it. Work on all three words.",
+      "stimulus": "Adult reads ONLY the three spoken groups of the selected approved variant. Selected by seed 421 → variant B: phoneme: /b/ ... /ʌ/ ... /ɡ/; onset-rime: /t/ ... /ɛnt/; syllable: /sʌn/ ... /ʃaɪn/. Do not reveal whole words first.",
+      "reponse_attendue": "Réponses sélectionnées : phoneme: bug (/b/ /ʌ/ /ɡ/); onset-rime: tent (/t/ /ɛnt/); syllable: sunshine (/sʌn/ /ʃaɪn/). Autre variante : rug; ham; pancake.",
+      "criteres": [
+        "Pour le mot phonémique : répète trois phonèmes ordonnés et les fusionne correctement.",
+        "Pour onset/rime : reconnaît les deux segments et obtient le mot correct.",
+        "Pour les syllabes : distingue deux syllabes et reconstitue le mot.",
+        "Justifie ou démontre oralement la méthode pour au moins deux cibles.",
+        "Sans indice de réponse; une simple répétition identique est permise."
+      ],
+      "feedback": "If you did not join the sounds, try a slower neutral replay; once a hint identifies the word, record the attempt as guided and retest on a different held-out word.",
+      "difficulte": "transfert",
+      "seed": 421,
+      "parametres": {
+        "variable": "variante",
+        "domaine": [
+          "A",
+          "B"
+        ],
+        "selection": "if seed % 2 == 0 then A else B",
+        "seed_stable": 421,
+        "contraintes": [
+          "Trois mots par variante",
+          "1 phoneme + 1 onset-rime + 1 syllable",
+          "mots anglais authentiques",
+          "3 unités / 2 unités / 2 unités respectivement",
+          "mots complets cachés à l’élève avant fusion"
+        ],
+        "variants": {
+          "A": {
+            "context": "School picnic planning — outdoor words",
+            "targets": [
+              {
+                "operation": "phoneme",
+                "spoken": "/r/ ... /ʌ/ ... /ɡ/",
+                "word": "rug",
+                "units": [
+                  "/r/",
+                  "/ʌ/",
+                  "/ɡ/"
+                ],
+                "justification": "Three phonemes in order."
+              },
+              {
+                "operation": "onset-rime",
+                "spoken": "/h/ ... /æm/",
+                "word": "ham",
+                "units": [
+                  "/h/",
+                  "/æm/"
+                ],
+                "justification": "/h/ onset and /æm/ rime."
+              },
+              {
+                "operation": "syllable",
+                "spoken": "/pæn/ ... /keɪk/",
+                "word": "pancake",
+                "units": [
+                  "/pæn/",
+                  "/keɪk/"
+                ],
+                "justification": "Two syllables fused."
+              }
+            ]
+          },
+          "B": {
+            "context": "School picnic planning — other outdoor words",
+            "targets": [
+              {
+                "operation": "phoneme",
+                "spoken": "/b/ ... /ʌ/ ... /ɡ/",
+                "word": "bug",
+                "units": [
+                  "/b/",
+                  "/ʌ/",
+                  "/ɡ/"
+                ],
+                "justification": "Three phonemes in order."
+              },
+              {
+                "operation": "onset-rime",
+                "spoken": "/t/ ... /ɛnt/",
+                "word": "tent",
+                "units": [
+                  "/t/",
+                  "/ɛnt/"
+                ],
+                "justification": "/t/ onset and /ɛnt/ rime."
+              },
+              {
+                "operation": "syllable",
+                "spoken": "/sʌn/ ... /ʃaɪn/",
+                "word": "sunshine",
+                "units": [
+                  "/sʌn/",
+                  "/ʃaɪn/"
+                ],
+                "justification": "Two syllables fused."
+              }
+            ]
+          }
+        },
+        "exemple_valide": {
+          "seed": 421,
+          "variante": "B",
+          "reponses": [
+            "bug",
+            "tent",
+            "sunshine"
+          ]
+        },
+        "algorithme_resolution": "Pour chaque cible, concaténer acoustiquement les segments dans l’ordre; comparer le mot oral résultant à la forme attendue de la variante. Ne pas simplement concaténer la graphie IPA pour noter un élève; jugement humain d’intelligibilité et d’ordre.",
+        "rubrique_cible": "evaluation/GRILLE_MAITRISE.md; trois productions observées séparément; pas de score fondé sur une seule variante",
+        "exigence_preuve": "Test autonome et non répétition d’un mot entier présenté par l’adulte.",
+        "contexte": "picnic"
+      },
+      "validation_status": "a_revoir",
+      "representation": "oral seul — mixte : phoneme / onset-rime / syllable, script adulte non visible à l’élève",
+      "variabilite_permise": "Variante A/B uniquement, sélection déterministe seed % 2. Aucune création de mots, changement d’unités, orthographe visible ou génération IA libre.",
+      "limites_de_validation": "Aucune vérification phonétique audio ni essai auprès d’élèves effectué; décision humaine sur la production orale."
+    }
+  ]
+}

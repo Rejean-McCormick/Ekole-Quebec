@@ -1,0 +1,87 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-025",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Prendre part à un échange en écoutant, reformulant et poursuivant le propos d’autrui.",
+  "concepts": [
+    "tour de parole",
+    "écoute active",
+    "question"
+  ],
+  "preuve_attendue": "Participer à une discussion guidée avec deux relances pertinentes.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-024"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-025-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Participer à une discussion guidée avec deux relances pertinentes.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Seuls le débit raisonnable, les pauses, la présentation orale accessible, l’ordre de parole neutre et les accommodations non directives peuvent varier; dialogues des preuves et critères verrouillés.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_revision_humaine_requise",
+      "kristal_id": "qc-pri-fr-025",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Participer à une discussion guidée avec deux relances pertinentes.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "écoute d’une intervention orale standardisée",
+        "dialogue oral en tours de parole",
+        "trace d’observation de reformulation et de relances",
+        "modalité de communication orale assistée si nécessaire"
+      ],
+      "variables": {
+        "mode": "items_fixes_controles",
+        "corpus": "evaluation/BANQUE_ITEMS.json",
+        "episodes_maitrise": [
+          "q-009 : préparation d’une activité à la bibliothèque",
+          "q-010 : organisation d’un jeu de cour"
+        ],
+        "selection": "énoncés et répliques du partenaire verrouillés; pas de générateur IA libre"
+      },
+      "contraintes": [
+        "au moins deux relances pertinentes distinctes pendant chaque discussion de maîtrise",
+        "reformulation fidèle distincte des deux relances",
+        "répartition équitable de la parole; attente du tour, sans exiger de contact visuel",
+        "aucune question privée ni jugement de l’accent québécois",
+        "aucune phrase corrective soufflée pendant les preuves",
+        "un partenaire suit le protocole sans improviser un indice",
+        "deux contextes et deux occasions d’observation distincts"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "écoute_et_reformulation",
+          "deux_relances_pertinentes",
+          "tours_de_parole",
+          "poursuite_cohérente_et_autonomie"
+        ],
+        "niveaux": "0 absent; 1 partiel; 2 observable",
+        "decision": "deux preuves indépendantes q-009 et q-010 atteignant toutes les dimensions essentielles, sans moyenne unique"
+      },
+      "source": [
+        "archive maître v1.2 : contrat, parcours, graphe et gouvernance",
+        "sources/REFERENCES_CONTENU.md",
+        "situations et répliques originales des dix items"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_validation_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

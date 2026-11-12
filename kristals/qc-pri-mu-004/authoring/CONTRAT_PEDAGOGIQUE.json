@@ -1,0 +1,93 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-mu-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Reconnaître des timbres instrumentaux et expliquer leur différence.",
+  "concepts": [
+    "timbre",
+    "famille d’instruments",
+    "source sonore"
+  ],
+  "preuve_attendue": "Identifier et comparer plusieurs sons instrumentaux.",
+  "prerequis_bloquants": [
+    "qc-pri-mu-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-mu-004-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Identifier et comparer plusieurs sons instrumentaux.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Seulement adaptation de niveau sonore confortable, position, temps de pause et réponse, après prévalidation; pas de remplacement libre des sources ni des stimuli des épreuves A/B.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "corpus_ferme": "Triangle T (frappé), maraca M (secouée), petit tambour D (frappé doucement); voir PLAN_EVALUATION.md pour séquences et vérification."
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-mu-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "écoute réelle en direct avec source masquée",
+        "réponse par mots, cartes ou communication assistée",
+        "tableau comparatif des indices de timbre",
+        "observation non obligatoire de la source durant l’enseignement"
+      ],
+      "variables": {
+        "generation_active": false,
+        "mode": "fixe",
+        "sons": "instruments physiques prévalidés triangle/maraca/tambour",
+        "variations_admissibles": [
+          "distance compatible avec l’audition",
+          "temps de pause",
+          "modalité de réponse",
+          "niveau modéré stable après prévalidation"
+        ],
+        "seed": null
+      },
+      "contraintes": [
+        "aucune piste audio tierce ni réemploi sans droits",
+        "trois instruments précis et accessibles prévalidés avant l’épreuve",
+        "ordre T-M-D-M pour preuve A",
+        "ordre D-T-M-T pour preuve B",
+        "source masquée durant reconnaissance",
+        "un indice auditif pour chaque comparaison",
+        "ne pas juger le goût ni la physiologie",
+        "confort auditif et pause possible",
+        "deux contextes autonomes non compensatoires"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "identification_de_plusieurs_sources",
+          "indices_audibles_de_comparaison",
+          "famille_et_source",
+          "autonomie",
+          "accessibilite_et_conditions"
+        ],
+        "decision": "A et B atteignent chaque critère essentiel séparément, sans score total compensatoire",
+        "niveau": "0_non_observe,1_partiel,2_suffisant"
+      },
+      "source": [
+        "kristals/qc-pri-mu-004/authoring/PARCOURS.md",
+        "kristals/qc-pri-mu-004/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_rediges_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

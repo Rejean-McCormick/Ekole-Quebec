@@ -1,0 +1,325 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fls-012",
+  "family_id": "qc-pri-fls-012-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "type_famille": "observation_ou_production",
+  "notes_passation": "Q001–Q010 formatives sur situations fictives; Q011–Q012 preuves distinctes en contextes réels, avec vérification humaine des faits. Les productions ne sont pas des textes à copier, elles sont notées à partir de la grille. Aucune pénalité d’accent.",
+  "items": [
+    {
+      "item_id": "qc-pri-fls-012-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis la note fictive, indique son intention et à qui elle s’adresse.",
+      "stimulus": "« Bonjour les élèves de la classe! Mardi, à 11 h, la boîte de crayons est disponible sur la table 4. »",
+      "reponse_attendue": "Intention : informer les élèves de la classe de la disponibilité de la boîte. Audience : élèves de la classe. La note ne demande pas d’apporter un crayon.",
+      "criteres": [
+        "Identifie l’intention informative",
+        "Nomme explicitement l’audience de la classe",
+        "Ne transforme pas l’information en obligation"
+      ],
+      "feedback": "Tu as identifié le thème des crayons; précise maintenant ce que le message veut faire savoir et à qui il s’adresse.",
+      "difficulte": "initial",
+      "representation": "note_ecrite_courte",
+      "seed": null,
+      "parametres": null,
+      "preuve_role": "formatif",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour un message adressé à la responsable du matériel afin de demander deux boîtes, choisis une ouverture adaptée et explique ton choix.",
+      "stimulus": "Propositions fictives : A) « Bonjour Madame, pourrions-nous emprunter deux boîtes pour notre projet? » B) « Salut tout le monde, c’est génial! »",
+      "reponse_attendue": "A convient : formule polie à la bonne personne, demande de deux boîtes explicite. B s’adresse au mauvais public et ne formule aucune demande.",
+      "criteres": [
+        "Choisit A avec raison liée à l’audience",
+        "Justifie la demande et la quantité",
+        "Reconnaît qu’aucun prêt n’est encore accordé"
+      ],
+      "feedback": "Demande-toi qui a le pouvoir de prêter les boîtes et ce que cette personne doit connaître.",
+      "difficulte": "initial",
+      "representation": "comparaison_textuelle",
+      "seed": null,
+      "parametres": null,
+      "preuve_role": "formatif",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Choisis un support accessible pour rappeler une règle aux deux coéquipiers présents. Justifie-le.",
+      "stimulus": "Situation fictive : deux coéquipiers sont devant toi; ils doivent savoir que les images vont dans la pochette bleue après l’activité. Choix : billet lu et remis aux deux; affiche destinée à tout le quartier; message publié sur un réseau social.",
+      "reponse_attendue": "Billet remis et lu aux deux coéquipiers. Raison : public limité, support directement accessible, absence de diffusion inutile. Contenu attendu : « Après l’activité, mettez les images dans la pochette bleue. »",
+      "criteres": [
+        "Choisit un support direct et proportionné",
+        "Relie la justification à l’audience",
+        "Conserve la consigne exacte sans ajout"
+      ],
+      "feedback": "Pense à l’endroit où les destinataires sont réellement et au nombre de personnes à joindre.",
+      "difficulte": "initial",
+      "representation": "support_et_texte",
+      "seed": null,
+      "parametres": null,
+      "preuve_role": "formatif",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Sépare les faits indispensables de l’information à ne pas partager.",
+      "stimulus": "Carte fictive : atelier à 14 h vendredi, local 7; le cousin d’une élève habite au 19 rue du Lac (adresse inventée). Avis destiné à la classe.",
+      "reponse_attendue": "Garder : vendredi 14 h, local 7 (et indiquer l’atelier). Exclure : adresse privée du cousin. Ne pas copier l’adresse sur une affiche.",
+      "criteres": [
+        "Sélectionne heure, jour et lieu exacts",
+        "Écarte l’adresse privée",
+        "Explique que l’adresse n’aide pas le message"
+      ],
+      "feedback": "Une information peut figurer sur une fiche sans avoir sa place dans un message destiné à la classe.",
+      "difficulte": "initial",
+      "representation": "tri_de_faits",
+      "seed": null,
+      "parametres": null,
+      "preuve_role": "formatif",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Répare un message incohérent puis lis-le oralement.",
+      "stimulus": "Carte fictive : rencontre mardi à 9 h, salle 2. Mauvaise note : « Rendez-vous jeudi à 9 h, salle 5. »",
+      "reponse_attendue": "Écrit attendu : « Rendez-vous mardi à 9 h, salle 2. » ou équivalent; présentation orale indiquant mardi, 9 h, salle 2 sans divergence.",
+      "criteres": [
+        "Corrige le jour mardi et le lieu salle 2",
+        "Conserve 9 h",
+        "Fait concorder écrit et oral"
+      ],
+      "feedback": "Compare chaque détail avec la carte de faits avant de présenter; une belle phrase avec des faits faux ne suffit pas.",
+      "difficulte": "intermediaire",
+      "representation": "correction_ecrit_et_oral",
+      "seed": null,
+      "parametres": null,
+      "preuve_role": "formatif",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige une invitation de 2 à 4 phrases, puis présente-la à un camarade. Indique le support choisi.",
+      "stimulus": "Scène fictive : invitation à un atelier de bricolage lundi à 13 h dans la salle 3; participation facultative; public : élèves de la classe.",
+      "reponse_attendue": "Production recevable : « Bonjour! Nous vous invitons à un atelier de bricolage lundi à 13 h, salle 3. Vous pouvez participer si vous le souhaitez. » Oral compréhensible et support bref remis/lu en classe; variantes de phrases admises.",
+      "criteres": [
+        "But d’inviter exprimé",
+        "Public identifié et support accessible",
+        "Lundi 13 h, salle 3, option facultative exacts",
+        "Trace écrite et présentation orale concordantes"
+      ],
+      "feedback": "Vérifie que tu invites sans obliger, et qu’on connaît le lieu et le moment.",
+      "difficulte": "intermediaire",
+      "representation": "billet_plus_presentation",
+      "seed": null,
+      "parametres": null,
+      "preuve_role": "formatif",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Formule une demande écrite et orale à un adulte, sans supposer que ta demande est acceptée.",
+      "stimulus": "Scène fictive : besoin de deux marqueurs pour dessiner une affiche mercredi; personne visée : adulte qui gère le matériel; disponibilité inconnue.",
+      "reponse_attendue": "Une réponse recevable : « Bonjour, pourrions-nous emprunter deux marqueurs pour faire notre affiche mercredi, si c’est possible? Merci. » Oral de même sens, sans affirmer l’accord.",
+      "criteres": [
+        "Demande explicite et polie",
+        "Quantité deux, raison et échéance mercredi",
+        "N’invente pas l’acceptation",
+        "Présente la demande oralement au destinataire simulé"
+      ],
+      "feedback": "Une demande pose une question; elle ne dit pas que l’autre personne a déjà dit oui.",
+      "difficulte": "intermediaire",
+      "representation": "demande_ecrite_plus_oral",
+      "seed": null,
+      "parametres": null,
+      "preuve_role": "formatif",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare deux messages puis adapte celui qui a le mauvais destinataire.",
+      "stimulus": "Scène fictive : demander à la bibliothécaire un livre de démonstration. Version 1 : « Salut toute l’école! Donnez-moi un livre! » Version 2 : « Bonjour, pourriez-vous nous prêter un livre de démonstration, s’il est disponible? Merci. »",
+      "reponse_attendue": "Version 2 convient : destinataire compatible, demande polie, disponibilité non présumée. Corriger la version 1 pour l’adresser à la bibliothécaire sans exiger son consentement. La réponse doit pouvoir se dire oralement.",
+      "criteres": [
+        "Choisit la deuxième version",
+        "Explique destinataire, intention et ton sans stéréotype",
+        "Réécrit une demande compréhensible",
+        "Présente sa révision oralement"
+      ],
+      "feedback": "Regarde à qui on écrit et quelle réponse la personne doit donner, plutôt que de chercher seulement de beaux mots.",
+      "difficulte": "intermediaire",
+      "representation": "analyse_et_reformulation",
+      "seed": null,
+      "parametres": null,
+      "preuve_role": "formatif",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Conçois un avis de fonctionnement et explique ton choix de support, puis présente-le.",
+      "stimulus": "Scène fictive : des élèves peuvent emprunter des jeux dans la salle 5 chaque jeudi; ils doivent les remettre dans la boîte orange à la fin du jeu. Public : membres de ce groupe.",
+      "reponse_attendue": "Exemple recevable : « Bonjour! Chaque jeudi, vous pouvez emprunter des jeux dans la salle 5. À la fin, remettez-les dans la boîte orange. » Support : note lisible dans la salle et annonce orale au groupe; ne pas inventer d’autres règles.",
+      "criteres": [
+        "Communique lieu, jeudi et retour dans boîte orange",
+        "Support et public cohérents",
+        "Écrit structuré puis présenté oralement",
+        "N’ajoute pas de règles sans source"
+      ],
+      "feedback": "Si ton destinataire ne sait pas où remettre les jeux, il manque une information qui change l’action.",
+      "difficulte": "transfert",
+      "representation": "avis_avec_regle",
+      "seed": null,
+      "parametres": null,
+      "preuve_role": "formatif",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Produis deux variantes courtes d’un même renseignement : une pour deux partenaires et une pour l’adulte responsable; présente oralement la variante qui convient au destinataire.",
+      "stimulus": "Scène fictive : trois feuilles de couleur nécessaires pour l’activité de vendredi; partenaires doivent connaître le besoin; adulte responsable peut prêter les feuilles, disponibilité inconnue.",
+      "reponse_attendue": "Aux partenaires : « Il nous faut trois feuilles de couleur pour vendredi. » À l’adulte : « Bonjour, pourrions-nous emprunter trois feuilles de couleur pour vendredi, si elles sont disponibles? » Une autre formulation claire est recevable; présentation orale de la bonne variante.",
+      "criteres": [
+        "Conserve les trois feuilles et vendredi dans les deux versions",
+        "Adapte l’intention : informer les partenaires / demander à l’adulte",
+        "Choisit un support direct, sûr et accessible",
+        "Présente une version oralement sans en changer les faits"
+      ],
+      "feedback": "Une même information n’entraîne pas le même acte de langage : les partenaires apprennent un besoin, l’adulte reçoit une demande.",
+      "difficulte": "transfert",
+      "representation": "deux_messages_plus_oral",
+      "seed": null,
+      "parametres": null,
+      "preuve_role": "formatif",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE A — Informe réellement tes camarades du fonctionnement d’un coin de lecture ou d’un espace de consultation scolaire existant et autorisé. Crée un message écrit court, présente-le oralement à des destinataires réels, puis explique intention, audience et support.",
+      "stimulus": "Scénario contrôlé A : avant l’épreuve, l’enseignant choisit un espace réellement utilisé par le groupe et consigne sur une fiche datée au moins trois faits vérifiés : nom ou fonction de l’espace, emplacement accessible et moment ou règle d’accès. Il identifie les camarades destinataires et autorise la remise d’un avis en classe. Si ces conditions ne sont pas vraies, reporter la preuve A. Ne fournir ni texte rédigé ni informations privées.",
+      "reponse_attendue": "Production attendue (non texte à copier) : avis écrit qui informe le vrai public du lieu/accès/règle confirmés; présentation orale fidèle au message; justification orale du support et du public; observation de réception ou reformulation par les destinataires; fiche source datée et vérifiée. Aucun horaire ou lieu n’est inventé par l’évaluateur.",
+      "criteres": [
+        "C1 intention informer clairement les vrais destinataires",
+        "C2 faits opérationnels vérifiés; aucune donnée personnelle",
+        "C3 message écrit compréhensible et organisé",
+        "C4 support adapté et accessible à ces camarades",
+        "C5 présentation orale intelligible ou communication orale assistée",
+        "C6 décision de contenu autonome, sans amorce de phrases; outils d’accès permis"
+      ],
+      "feedback": "Si une donnée est absente de la fiche validée, ne la devine pas : demande la confirmation de l’adulte puis reformule ton message. Si le groupe ne peut pas restituer les informations importantes, révise l’ordre des phrases.",
+      "difficulte": "transfert",
+      "representation": "avis_ecrit_et_presentation_orale",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "FLS012-A-informer",
+        "corpus_version": "1.0",
+        "variables_autorisees": [
+          "espace réel confirmé",
+          "emplacement scolaire confirmé",
+          "horaire ou règle d’accès confirmé",
+          "destinataires internes autorisés"
+        ],
+        "source_faits": "fiche datée et validée par adulte responsable",
+        "contraintes": [
+          "espace existant et accès autorisé",
+          "3 faits utiles vérifiés avant épreuve",
+          "aucun renseignement personnel",
+          "aucune aide de contenu pendant la preuve",
+          "aucune diffusion publique obligatoire"
+        ],
+        "variation": "Choix local contrôlé du lieu et des faits; pas de génération de texte de solution",
+        "absence_de_contexte_reel": "épreuve à différer, pas de maîtrise"
+      },
+      "preuve_role": "maitrise_A",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fls-012-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fls-012-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE B — Adresse réellement une demande utile à l’adulte responsable d’un matériel commun nécessaire à une activité actuelle autorisée. Écris ta demande, présente-la oralement au destinataire réel et explique ton choix de formulation/support.",
+      "stimulus": "Scénario contrôlé B : avant l’épreuve, l’enseignant confirme un besoin réel de matériel commun (ex. feuilles pour afficher un travail existant), sa nature et la quantité, le délai et le rôle de l’adulte autorisé à recevoir la demande. L’élève demande un prêt éventuel sans présenter l’acceptation comme acquise. L’adulte peut recevoir la demande en personne dans un cadre supervisé. Si aucun besoin réel n’existe, reporter la preuve B.",
+      "reponse_attendue": "Production attendue (non texte à copier) : billet adressé à l’adulte concerné indiquant matériel, quantité, échéance, besoin et demande non présumée acceptée; présentation orale intelligible de la demande; choix expliqué du support; réception observée par l’adulte; fiche de faits validés. Ne pas exiger l’accord de l’adulte comme résultat évalué.",
+      "criteres": [
+        "C1 intention demander explicitement à un adulte réel",
+        "C2 quantité, besoin et délai vrais, sans prétendre un accord",
+        "C3 billet cohérent et compréhensible",
+        "C4 support direct, adapté et confidentiel",
+        "C5 demande orale intelligible ou assistée",
+        "C6 autonomie de conception et de formulation sans intervention de contenu"
+      ],
+      "feedback": "Le résultat évalué est une demande claire, pas l’accord obtenu. Si l’adulte ne sait pas exactement ce qu’on lui demande, reformule matériel, quantité et délai après rétroaction.",
+      "difficulte": "transfert",
+      "representation": "billet_de_demande_et_presentation_orale",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "FLS012-B-demander",
+        "corpus_version": "1.0",
+        "variables_autorisees": [
+          "matériel réellement requis",
+          "quantité vérifiée",
+          "raison précise et activité autorisée",
+          "délai confirmé",
+          "adulte responsable disponible"
+        ],
+        "source_faits": "fiche datée et validée par adulte responsable",
+        "contraintes": [
+          "besoin authentique",
+          "adulte consent à recevoir une demande",
+          "aucune promesse de prêt inventée",
+          "aucune donnée privée ou publication publique",
+          "aucune aide sur la formulation durant la preuve"
+        ],
+        "variation": "Choix local contrôlé de matériel et raison; aucune génération IA de corrigé",
+        "absence_de_contexte_reel": "épreuve à différer, pas de maîtrise"
+      },
+      "preuve_role": "maitrise_B",
+      "validation_status": "a_revoir"
+    }
+  ]
+}

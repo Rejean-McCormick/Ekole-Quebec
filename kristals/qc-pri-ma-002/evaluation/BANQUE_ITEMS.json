@@ -1,0 +1,735 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-002",
+  "family_id": "qc-pri-ma-002-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-002-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis le nombre 3 047, indique ses milliers, centaines, dizaines et unités, puis écris-le en somme de valeurs de position.",
+      "stimulus": "Carte « 3 047 » et tableau vide M/C/D/U.",
+      "reponse_attendue": "Lecture : « trois mille quarante-sept »; M=3, C=0, D=4, U=7; 3 047 = 3 000 + 40 + 7.",
+      "criteres": [
+        "Lecture et écriture du nombre exactes.",
+        "Zéro au rang des centaines conservé.",
+        "Somme 3 000+40+7 correcte."
+      ],
+      "feedback": "Le zéro signale qu’aucun groupe de cent n’est présent à la position des centaines; il ne faut pas déplacer le 4 au rang des centaines.",
+      "difficulte": "initial",
+      "representation": "carte en chiffres + tableau M/C/D/U",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite_securite": "Données fictives, aucun déplacement réel; police agrandie, lecture audio, tableaux tactiles ou nombres dictés avec accès cognitif inchangé; pas de données personnelles. Corrigé numérique déterministe, revue pédagogique humaine encore requise.",
+      "variabilite_permise": "fixe et verrouillé"
+    },
+    {
+      "item_id": "qc-pri-ma-002-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-002-ev-01",
+      "mode": "parametrique",
+      "consigne": "Écris le nombre représenté par les quatre chiffres du tableau de positions, puis décompose-le et justifie le rôle du zéro s’il est présent.",
+      "stimulus": "Tableau M/C/D/U : M=4 ; C=0 ; D=7 ; U=2.",
+      "reponse_attendue": "N = 4 072 = 4×1 000 + 0×100 + 7×10 + 2 ; soit 4 000 + 0 + 70 + 2. Chaque chiffre correspond à une position et 0 indique une position sans groupe.",
+      "criteres": [
+        "Valeur N correcte.",
+        "Décomposition exacte en milliers/centaines/dizaines/unités.",
+        "Explication des zéros du tableau sans omission de rang."
+      ],
+      "feedback": "Vérifie les milliers puis chaque position; additionne les contributions et ne traite pas 0 comme une valeur qui décale les autres chiffres.",
+      "difficulte": "initial",
+      "representation": "tableau M/C/D/U vers notation et décomposition",
+      "seed": 2433,
+      "parametres": {
+        "algorithme_id": "compose",
+        "seed_domaine": "0 ≤ seed ≤ 8 999, entier ; même seed = même instance; calcul entier uniquement; pas de tirage IA.",
+        "variables": "T=1+(s mod 9), H=⌊s/9⌋ mod 10, D=⌊s/90⌋ mod 10, U=⌊s/900⌋ mod 10",
+        "formule_solution": "N=1000*T+100*H+10*D+U",
+        "contraintes": "T dans [1,9]; H,D,U dans [0,9]; N dans [1 000,9 999]; zéro interne autorisé, pas de zéro initial.",
+        "procedure_reproductible": "Calculer les variables entières avec la seed; formater N, A, B...; reconstruire simultanément le stimulus et le corrigé; vérifier arithmétiquement les relations et l’ordre; ne jamais utiliser la sortie d’une IA comme vérificateur.",
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "resultat": {
+              "M": 1,
+              "C": 0,
+              "D": 0,
+              "U": 0,
+              "n": 1000
+            }
+          },
+          {
+            "seed": 1,
+            "resultat": {
+              "M": 2,
+              "C": 0,
+              "D": 0,
+              "U": 0,
+              "n": 2000
+            }
+          },
+          {
+            "seed": 8999,
+            "resultat": {
+              "M": 9,
+              "C": 9,
+              "D": 9,
+              "U": 9,
+              "n": 9999
+            }
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "accessibilite_securite": "Données fictives, aucun déplacement réel; police agrandie, lecture audio, tableaux tactiles ou nombres dictés avec accès cognitif inchangé; pas de données personnelles. Corrigé numérique déterministe, revue pédagogique humaine encore requise.",
+      "variabilite_permise": "s entier dans [0,8999] selon les formules ci-jointes seulement; représenter nombres avec espaces de milliers; aucun changement de libellé par génération IA libre.",
+      "validation_exemple_instance": {
+        "M": 4,
+        "C": 0,
+        "D": 7,
+        "U": 2,
+        "n": 4072
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-002-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-002-ev-01",
+      "mode": "parametrique",
+      "consigne": "Choisis < ou > entre A et B; nomme la première position différente et compare ses chiffres.",
+      "stimulus": "A = 9 111 ; B = 9 411. Les milliers, dizaines et unités coïncident.",
+      "reponse_attendue": "9 111 < 9 411 ; première différence aux centaines : 1 contre 4. Les rangs supérieurs sont identiques, donc la relation suit celle des centaines.",
+      "criteres": [
+        "Symbole correct.",
+        "Mention du premier rang différent, les centaines.",
+        "Justification par les chiffres de position, sans comparer les unités d’abord."
+      ],
+      "feedback": "Ignore les chiffres plus à droite après la première différence; ici les milliers sont égaux et ce sont les centaines qui décident.",
+      "difficulte": "initial",
+      "representation": "deux cartes à quatre chiffres / argument",
+      "seed": 1007,
+      "parametres": {
+        "algorithme_id": "hundreds",
+        "seed_domaine": "0 ≤ seed ≤ 8 999, entier ; même seed = même instance; calcul entier uniquement; pas de tirage IA.",
+        "variables": "T=1+s mod 9; H=⌊s/9⌋ mod 10; D=⌊s/90⌋ mod 10; U=⌊s/900⌋ mod 10; H2=(H+1+(s mod 3)) mod 10",
+        "formule_solution": "A=1000T+100H+10D+U; B=1000T+100H2+10D+U; relation signe(A−B).",
+        "contraintes": "T≥1; H2≠H; A,B dans [1 000,9 999]; milliers, dizaines et unités identiques; première différence aux centaines.",
+        "procedure_reproductible": "Calculer les variables entières avec la seed; formater N, A, B...; reconstruire simultanément le stimulus et le corrigé; vérifier arithmétiquement les relations et l’ordre; ne jamais utiliser la sortie d’une IA comme vérificateur.",
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "resultat": {
+              "a": 1000,
+              "b": 1100,
+              "M": 1,
+              "C1": 0,
+              "C2": 1,
+              "D": 0,
+              "U": 0,
+              "relation": "<"
+            }
+          },
+          {
+            "seed": 1,
+            "resultat": {
+              "a": 2000,
+              "b": 2200,
+              "M": 2,
+              "C1": 0,
+              "C2": 2,
+              "D": 0,
+              "U": 0,
+              "relation": "<"
+            }
+          },
+          {
+            "seed": 8999,
+            "resultat": {
+              "a": 9999,
+              "b": 9299,
+              "M": 9,
+              "C1": 9,
+              "C2": 2,
+              "D": 9,
+              "U": 9,
+              "relation": ">"
+            }
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "accessibilite_securite": "Données fictives, aucun déplacement réel; police agrandie, lecture audio, tableaux tactiles ou nombres dictés avec accès cognitif inchangé; pas de données personnelles. Corrigé numérique déterministe, revue pédagogique humaine encore requise.",
+      "variabilite_permise": "s entier dans [0,8999] selon les formules ci-jointes seulement; représenter nombres avec espaces de milliers; aucun changement de libellé par génération IA libre.",
+      "validation_exemple_instance": {
+        "a": 9111,
+        "b": 9411,
+        "M": 9,
+        "C1": 1,
+        "C2": 4,
+        "D": 1,
+        "U": 1,
+        "relation": "<"
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-002-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les nombres du plus petit au plus grand; compare ensuite 1 009 et 1 090 par le premier rang différent.",
+      "stimulus": "Quatre cartes numériques : 1 200, 1 030, 1 090, 1 009.",
+      "reponse_attendue": "1 009 < 1 030 < 1 090 < 1 200. Pour 1 009 et 1 090, milliers et centaines sont égaux, dizaines 0 < 9, donc 1 009 < 1 090.",
+      "criteres": [
+        "Quatre nombres classés sans omission ni doublon.",
+        "Relation 1 009 < 1 090 exacte.",
+        "Critère du premier rang différent explicite."
+      ],
+      "feedback": "Rassemble les nombres ayant 1 millier, puis compare les centaines et les dizaines avant les unités.",
+      "difficulte": "intermediaire",
+      "representation": "quatre cartes et justification verbale",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite_securite": "Données fictives, aucun déplacement réel; police agrandie, lecture audio, tableaux tactiles ou nombres dictés avec accès cognitif inchangé; pas de données personnelles. Corrigé numérique déterministe, revue pédagogique humaine encore requise.",
+      "variabilite_permise": "fixe et verrouillé"
+    },
+    {
+      "item_id": "qc-pri-ma-002-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-002-ev-01",
+      "mode": "parametrique",
+      "consigne": "Compare les deux entiers A et B : donne le symbole et justifie sans comparer seulement leurs premiers chiffres.",
+      "stimulus": "A = 879 ; B = 1 287.",
+      "reponse_attendue": "879 < 1 287 ; A a 3 chiffres significatifs et B en a 4. Tout entier positif à quatre chiffres est plus grand qu’un entier à trois chiffres.",
+      "criteres": [
+        "Relation A<B.",
+        "Justification par la longueur significative 3 contre 4.",
+        "Absence de comparaison trompeuse des seuls premiers chiffres."
+      ],
+      "feedback": "Le nombre de chiffres significatifs décide avant les chiffres de même rang quand les longueurs sont différentes.",
+      "difficulte": "intermediaire",
+      "representation": "deux écritures de longueurs différentes",
+      "seed": 41,
+      "parametres": {
+        "algorithme_id": "digits",
+        "seed_domaine": "0 ≤ seed ≤ 8 999, entier ; même seed = même instance; calcul entier uniquement; pas de tirage IA.",
+        "variables": "A=100+(19*s mod 900); B=1000+(7*s mod 9000)",
+        "formule_solution": "A trois chiffres (100..999), B quatre chiffres (1 000..9 999): A<B toujours.",
+        "contraintes": "A dans [100,999], B dans [1 000,9 999]; aucune retenue ou ambiguïté sur la longueur.",
+        "procedure_reproductible": "Calculer les variables entières avec la seed; formater N, A, B...; reconstruire simultanément le stimulus et le corrigé; vérifier arithmétiquement les relations et l’ordre; ne jamais utiliser la sortie d’une IA comme vérificateur.",
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "resultat": {
+              "a": 100,
+              "b": 1000,
+              "relation": "<",
+              "len_a": 3,
+              "len_b": 4
+            }
+          },
+          {
+            "seed": 1,
+            "resultat": {
+              "a": 119,
+              "b": 1007,
+              "relation": "<",
+              "len_a": 3,
+              "len_b": 4
+            }
+          },
+          {
+            "seed": 8999,
+            "resultat": {
+              "a": 981,
+              "b": 9993,
+              "relation": "<",
+              "len_a": 3,
+              "len_b": 4
+            }
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "accessibilite_securite": "Données fictives, aucun déplacement réel; police agrandie, lecture audio, tableaux tactiles ou nombres dictés avec accès cognitif inchangé; pas de données personnelles. Corrigé numérique déterministe, revue pédagogique humaine encore requise.",
+      "variabilite_permise": "s entier dans [0,8999] selon les formules ci-jointes seulement; représenter nombres avec espaces de milliers; aucun changement de libellé par génération IA libre.",
+      "validation_exemple_instance": {
+        "a": 879,
+        "b": 1287,
+        "relation": "<",
+        "len_a": 3,
+        "len_b": 4
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-002-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-002-ev-01",
+      "mode": "parametrique",
+      "consigne": "Encadre strictement N par les deux centaines consécutives qui l’entourent; indique sur une droite de ces deux bornes où se trouve N et explique sa position.",
+      "stimulus": "N = 4 904 ; droite horizontale croissante avec les bornes centenaires à déterminer, graduée tous les 1 ou au moins repérée à l’échelle écrite.",
+      "reponse_attendue": "4 900 < 4 904 < 5 000 ; N est 4 unités après 4 900 sur une longueur totale de 100 unités. Sur une droite proportionnelle de longueur L, sa position est 4/100 de L depuis le bord gauche.",
+      "criteres": [
+        "Les deux centaines successives exactes.",
+        "Inégalités strictes correctes.",
+        "Position décrite comme fraction reste/100 et non approximée sans raison."
+      ],
+      "feedback": "Repère la centaine immédiatement inférieure, puis la suivante; N n’est jamais sur une borne dans les valeurs permises.",
+      "difficulte": "intermediaire",
+      "representation": "droite graduée + encadrement",
+      "seed": 279,
+      "parametres": {
+        "algorithme_id": "between",
+        "seed_domaine": "0 ≤ seed ≤ 8 999, entier ; même seed = même instance; calcul entier uniquement; pas de tirage IA.",
+        "variables": "h=10+(s mod 80); r=1+(⌊s/80⌋ mod 99)",
+        "formule_solution": "N=100*h+r; G=100*h; D=100*(h+1); donc G<N<D.",
+        "contraintes": "r dans [1,99], N entre 1001 et 8999, N jamais multiple de cent; deux centaines qui encadrent strictement.",
+        "procedure_reproductible": "Calculer les variables entières avec la seed; formater N, A, B...; reconstruire simultanément le stimulus et le corrigé; vérifier arithmétiquement les relations et l’ordre; ne jamais utiliser la sortie d’une IA comme vérificateur.",
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "resultat": {
+              "n": 1001,
+              "gauche": 1000,
+              "droite": 1100,
+              "reste": 1
+            }
+          },
+          {
+            "seed": 1,
+            "resultat": {
+              "n": 1101,
+              "gauche": 1100,
+              "droite": 1200,
+              "reste": 1
+            }
+          },
+          {
+            "seed": 8999,
+            "resultat": {
+              "n": 4914,
+              "gauche": 4900,
+              "droite": 5000,
+              "reste": 14
+            }
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "accessibilite_securite": "Données fictives, aucun déplacement réel; police agrandie, lecture audio, tableaux tactiles ou nombres dictés avec accès cognitif inchangé; pas de données personnelles. Corrigé numérique déterministe, revue pédagogique humaine encore requise.",
+      "variabilite_permise": "s entier dans [0,8999] selon les formules ci-jointes seulement; représenter nombres avec espaces de milliers; aucun changement de libellé par génération IA libre.",
+      "validation_exemple_instance": {
+        "n": 4904,
+        "gauche": 4900,
+        "droite": 5000,
+        "reste": 4
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-002-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète les deux relations avec les symboles justes et justifie l’égalité sans calcul inutile.",
+      "stimulus": "708 __ 780 ; 780 __ 780.",
+      "reponse_attendue": "708 < 780 : 7 centaines égales, dizaines 0 < 8; 780 = 780 : mêmes chiffres dans chaque position.",
+      "criteres": [
+        "Symboles < et = exacts.",
+        "Justification des dizaines pour la première relation.",
+        "Égalité reconnue lorsque toutes les positions coïncident."
+      ],
+      "feedback": "Si deux écritures sont identiques, le signe = est indispensable; ne force pas toujours une inégalité.",
+      "difficulte": "intermediaire",
+      "representation": "deux comparaisons symboliques",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite_securite": "Données fictives, aucun déplacement réel; police agrandie, lecture audio, tableaux tactiles ou nombres dictés avec accès cognitif inchangé; pas de données personnelles. Corrigé numérique déterministe, revue pédagogique humaine encore requise.",
+      "variabilite_permise": "fixe et verrouillé"
+    },
+    {
+      "item_id": "qc-pri-ma-002-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-002-ev-01",
+      "mode": "parametrique",
+      "consigne": "Ordonne les trois cartes du plus petit au plus grand et du plus grand au plus petit; indique pourquoi un écart de 100 domine un écart de 10 ici.",
+      "stimulus": "Cartes non classées : 4 727, 4 627, 4 637.",
+      "reponse_attendue": "Croissant : 4 627 < 4 637 < 4 727 ; décroissant : 4 727 > 4 637 > 4 627. Les valeurs sont N, N+10 et N+100 avec N=4 627 : le plus grand est N+100, pas N+10.",
+      "criteres": [
+        "Croissant exact.",
+        "Décroissant exact.",
+        "Explication du classement par les écarts numériques/valeurs de position."
+      ],
+      "feedback": "Lis les chiffres à gauche, ou soustrais les valeurs proches pour vérifier l’ordre; le corrigé n’est pas obtenu en triant des chaînes de caractères.",
+      "difficulte": "intermediaire",
+      "representation": "cartes numériques + suite de relations",
+      "seed": 117,
+      "parametres": {
+        "algorithme_id": "order3",
+        "seed_domaine": "0 ≤ seed ≤ 8 999, entier ; même seed = même instance; calcul entier uniquement; pas de tirage IA.",
+        "variables": "N=1000+(31*s mod 8500), nombres [N,N+10,N+100]; p=s mod 3; permutations p0=[2,0,1], p1=[1,2,0], p2=[0,1,2] (index base 0).",
+        "formule_solution": "Afficher [N,N+10,N+100] permutés; corrigé croissant N<N+10<N+100.",
+        "contraintes": "1 000≤N≤9 499; N+100≤9 599; trois entiers distincts; ne jamais trier des libellés textuels.",
+        "procedure_reproductible": "Calculer les variables entières avec la seed; formater N, A, B...; reconstruire simultanément le stimulus et le corrigé; vérifier arithmétiquement les relations et l’ordre; ne jamais utiliser la sortie d’une IA comme vérificateur.",
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "resultat": {
+              "n": 1000,
+              "cartes": [
+                1100,
+                1000,
+                1010
+              ],
+              "croissant": [
+                1000,
+                1010,
+                1100
+              ],
+              "decroissant": [
+                1100,
+                1010,
+                1000
+              ],
+              "perm_index": 0
+            }
+          },
+          {
+            "seed": 1,
+            "resultat": {
+              "n": 1031,
+              "cartes": [
+                1041,
+                1131,
+                1031
+              ],
+              "croissant": [
+                1031,
+                1041,
+                1131
+              ],
+              "decroissant": [
+                1131,
+                1041,
+                1031
+              ],
+              "perm_index": 1
+            }
+          },
+          {
+            "seed": 8999,
+            "resultat": {
+              "n": 7969,
+              "cartes": [
+                7969,
+                7979,
+                8069
+              ],
+              "croissant": [
+                7969,
+                7979,
+                8069
+              ],
+              "decroissant": [
+                8069,
+                7979,
+                7969
+              ],
+              "perm_index": 2
+            }
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "accessibilite_securite": "Données fictives, aucun déplacement réel; police agrandie, lecture audio, tableaux tactiles ou nombres dictés avec accès cognitif inchangé; pas de données personnelles. Corrigé numérique déterministe, revue pédagogique humaine encore requise.",
+      "variabilite_permise": "s entier dans [0,8999] selon les formules ci-jointes seulement; représenter nombres avec espaces de milliers; aucun changement de libellé par génération IA libre.",
+      "validation_exemple_instance": {
+        "n": 4627,
+        "cartes": [
+          4727,
+          4627,
+          4637
+        ],
+        "croissant": [
+          4627,
+          4637,
+          4727
+        ],
+        "decroissant": [
+          4727,
+          4637,
+          4627
+        ],
+        "perm_index": 0
+      }
+    },
+    {
+      "item_id": "qc-pri-ma-002-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-002-ev-01",
+      "mode": "parametrique",
+      "consigne": "PREUVE AUTONOME 1 — Dans une bibliothèque fictive, classe les quatre numéros de livres du plus petit au plus grand et reporte-les dans cet ordre sur une flèche croissante (sans prétendre que les intervalles sont égaux). Complète la comparaison des deux numéros demandés, puis explique la première position différente.",
+      "stimulus": "Étiquettes de livres (en désordre) : 9 872, 9 772, 9 782, 9 773. Question : 9 782 __ 9 872. Flèche de rangement croissante →.",
+      "reponse_attendue": "Classement sur flèche : 9 772 < 9 773 < 9 782 < 9 872. Comparaison : 9 782 < 9 872. Justification : comparer les nombres entiers de gauche à droite, la centaine supplémentaire dans N+100 dépasse la dizaine supplémentaire de N+10; s’il y a une retenue, partir de leurs décompositions ou repérer directement le premier chiffre différent. Pour un placement à distances exactes, utiliser une échelle graduée de 1, pas des intervalles visuellement égaux.",
+      "criteres": [
+        "Les quatre étiquettes classées correctement et placées dans l’ordre sur la flèche.",
+        "Relation symbolique demandée exacte.",
+        "Critère de comparaison valide au premier rang différent ou par décomposition exacte.",
+        "Autonomie sans indice sur le rangement ni sur le signe."
+      ],
+      "feedback": "Une flèche d’ordre indique le classement, pas automatiquement les distances. Si la relation est juste sans explication, préciser quel rang diffère et comparer sa valeur.",
+      "difficulte": "transfert",
+      "representation": "bibliothèque fictive : étiquettes + flèche d’ordre",
+      "seed": 204,
+      "parametres": {
+        "algorithme_id": "shelf",
+        "seed_domaine": "0 ≤ seed ≤ 8 999, entier ; même seed = même instance; calcul entier uniquement; pas de tirage IA.",
+        "variables": "N=1000+(43*s mod 8800), valeurs [N,N+1,N+10,N+100]; p=s mod 4; permutations p0=[3,0,2,1], p1=[2,3,1,0], p2=[1,2,0,3], p3=[0,3,1,2].",
+        "formule_solution": "Afficher valeurs permutées; ordre croissant N<N+1<N+10<N+100; comparaison N+10<N+100; valeurs du tableau de la droite graduée traitées comme points ordonnés (espaces non proportionnels si aucun pas fixe donné).",
+        "contraintes": "1 000≤N≤9 799, N+100≤9 899, quatre nombres distincts; pour placement proportionnel, autoriser une droite graduée unité 1 ou échelle écrite et signaler les distances.",
+        "procedure_reproductible": "Calculer les variables entières avec la seed; formater N, A, B...; reconstruire simultanément le stimulus et le corrigé; vérifier arithmétiquement les relations et l’ordre; ne jamais utiliser la sortie d’une IA comme vérificateur.",
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "resultat": {
+              "n": 1000,
+              "etiquettes": [
+                1100,
+                1000,
+                1010,
+                1001
+              ],
+              "croissant": [
+                1000,
+                1001,
+                1010,
+                1100
+              ],
+              "premiere": 1000,
+              "derniere": 1100,
+              "comparaison": "1 010 < 1 100",
+              "perm_index": 0
+            }
+          },
+          {
+            "seed": 1,
+            "resultat": {
+              "n": 1043,
+              "etiquettes": [
+                1053,
+                1143,
+                1044,
+                1043
+              ],
+              "croissant": [
+                1043,
+                1044,
+                1053,
+                1143
+              ],
+              "premiere": 1043,
+              "derniere": 1143,
+              "comparaison": "1 053 < 1 143",
+              "perm_index": 1
+            }
+          },
+          {
+            "seed": 8999,
+            "resultat": {
+              "n": 9557,
+              "etiquettes": [
+                9557,
+                9657,
+                9558,
+                9567
+              ],
+              "croissant": [
+                9557,
+                9558,
+                9567,
+                9657
+              ],
+              "premiere": 9557,
+              "derniere": 9657,
+              "comparaison": "9 567 < 9 657",
+              "perm_index": 3
+            }
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "accessibilite_securite": "Données fictives, aucun déplacement réel; police agrandie, lecture audio, tableaux tactiles ou nombres dictés avec accès cognitif inchangé; pas de données personnelles. Corrigé numérique déterministe, revue pédagogique humaine encore requise.",
+      "variabilite_permise": "s entier dans [0,8999] selon les formules ci-jointes seulement; représenter nombres avec espaces de milliers; aucun changement de libellé par génération IA libre.",
+      "validation_exemple_instance": {
+        "n": 9772,
+        "etiquettes": [
+          9872,
+          9772,
+          9782,
+          9773
+        ],
+        "croissant": [
+          9772,
+          9773,
+          9782,
+          9872
+        ],
+        "premiere": 9772,
+        "derniere": 9872,
+        "comparaison": "9 782 < 9 872",
+        "perm_index": 0
+      },
+      "preuve_maitrise": "preuve_autonome_1"
+    },
+    {
+      "item_id": "qc-pri-ma-002-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-002-ev-01",
+      "mode": "parametrique",
+      "consigne": "PREUVE AUTONOME 2 — Dans un atelier d’inventaire fictif, mets les quatre codes dans l’ordre croissant, puis compare le plus petit code au troisième code du classement. Écris le troisième code dans un tableau milliers/centaines/dizaines/unités pour étayer ton explication.",
+      "stimulus": "Codes de boîtes non classés : 3 546, 3 544, 3 555, 3 545. Utilise une fiche M/C/D/U vierge, sans aide pour la remplir.",
+      "reponse_attendue": "Ordre croissant : 3 544 < 3 545 < 3 546 < 3 555. Comparaison entre plus petit et troisième : 3 544 < 3 546. Troisième code = 3 546, tableau M=3, C=5, D=4, U=6. Le troisième dépasse le premier de 2 unités; en présence d’une retenue, comparer d’abord la valeur du nombre à rang supérieur. Les zéros de remplissage du tableau ne sont pas des zéros initiaux de l’écriture canonique.",
+      "criteres": [
+        "Quatre codes classés exactement.",
+        "Relation exacte entre première et troisième valeur.",
+        "Tableau M/C/D/U correct pour la troisième valeur et justification adaptée, y compris une éventuelle retenue.",
+        "Autonomie sans révélation du classement ou du tableau."
+      ],
+      "feedback": "Recompose le code par 1 000 M + 100 C + 10 D + U et confronte-le au troisième nombre de ton ordre, puis vérifie la relation demandée.",
+      "difficulte": "transfert",
+      "representation": "atelier d’inventaire fictif : fiches codes et tableau de position",
+      "seed": 415,
+      "parametres": {
+        "algorithme_id": "inventory",
+        "seed_domaine": "0 ≤ seed ≤ 8 999, entier ; même seed = même instance; calcul entier uniquement; pas de tirage IA.",
+        "variables": "N=1000+(23*s mod 7000); A=N−1, B=N, C=N+1, D=N+10; afficher [C,A,D,B].",
+        "formule_solution": "Ordre A<B<C<D, comparaison A<C; décomposition de C par milliers/centaines/dizaines/unités obtenue de divisions entières et modulos.",
+        "contraintes": "999≤A, D≤8 009; nombres distincts, parfois franchissement d’une dizaine/centaine/millier; ne pas supposer que tous ont quatre chiffres; calcul des positions avec 0 de remplissage pour 999.",
+        "procedure_reproductible": "Calculer les variables entières avec la seed; formater N, A, B...; reconstruire simultanément le stimulus et le corrigé; vérifier arithmétiquement les relations et l’ordre; ne jamais utiliser la sortie d’une IA comme vérificateur.",
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "resultat": {
+              "n": 1000,
+              "codes": [
+                1001,
+                999,
+                1010,
+                1000
+              ],
+              "croissant": [
+                999,
+                1000,
+                1001,
+                1010
+              ],
+              "plus_petit": 999,
+              "plus_grand": 1010,
+              "comparaison": "999 < 1 001",
+              "decomposition": {
+                "M": 1,
+                "C": 0,
+                "D": 0,
+                "U": 1
+              }
+            }
+          },
+          {
+            "seed": 1,
+            "resultat": {
+              "n": 1023,
+              "codes": [
+                1024,
+                1022,
+                1033,
+                1023
+              ],
+              "croissant": [
+                1022,
+                1023,
+                1024,
+                1033
+              ],
+              "plus_petit": 1022,
+              "plus_grand": 1033,
+              "comparaison": "1 022 < 1 024",
+              "decomposition": {
+                "M": 1,
+                "C": 0,
+                "D": 2,
+                "U": 4
+              }
+            }
+          },
+          {
+            "seed": 8999,
+            "resultat": {
+              "n": 4977,
+              "codes": [
+                4978,
+                4976,
+                4987,
+                4977
+              ],
+              "croissant": [
+                4976,
+                4977,
+                4978,
+                4987
+              ],
+              "plus_petit": 4976,
+              "plus_grand": 4987,
+              "comparaison": "4 976 < 4 978",
+              "decomposition": {
+                "M": 4,
+                "C": 9,
+                "D": 7,
+                "U": 8
+              }
+            }
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "accessibilite_securite": "Données fictives, aucun déplacement réel; police agrandie, lecture audio, tableaux tactiles ou nombres dictés avec accès cognitif inchangé; pas de données personnelles. Corrigé numérique déterministe, revue pédagogique humaine encore requise.",
+      "variabilite_permise": "s entier dans [0,8999] selon les formules ci-jointes seulement; représenter nombres avec espaces de milliers; aucun changement de libellé par génération IA libre.",
+      "validation_exemple_instance": {
+        "n": 3545,
+        "codes": [
+          3546,
+          3544,
+          3555,
+          3545
+        ],
+        "croissant": [
+          3544,
+          3545,
+          3546,
+          3555
+        ],
+        "plus_petit": 3544,
+        "plus_grand": 3555,
+        "comparaison": "3 544 < 3 546",
+        "decomposition": {
+          "M": 3,
+          "C": 5,
+          "D": 4,
+          "U": 6
+        }
+      },
+      "preuve_maitrise": "preuve_autonome_2"
+    }
+  ]
+}

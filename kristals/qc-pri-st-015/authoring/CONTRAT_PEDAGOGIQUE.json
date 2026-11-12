@@ -1,0 +1,89 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-015",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire des phénomènes météorologiques à partir de mesures et observations.",
+  "concepts": [
+    "température",
+    "vent",
+    "pluie",
+    "nuages"
+  ],
+  "preuve_attendue": "Interpréter une courte série de relevés météorologiques.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-st-014"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-015-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Interpréter une courte série de relevés météorologiques.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_instance": "instantiation_deterministe_sans_IA_libre",
+        "banque_ref": "evaluation/BANQUE_ITEMS.json",
+        "semence_domaine": "entier [0,4095] pour q-010, q-011, q-012",
+        "controle_requis": "calculs et assertions sur toutes les graines + revue humaine; rapport livré sous livraison/VALIDATION.md"
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-st-015",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 : Interpréter une courte série de relevés météorologiques.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "tableau_textuel",
+        "notation_et_texte",
+        "intervalles_texte",
+        "serie_horaire_ecole",
+        "serie_quotidienne_jardin"
+      ],
+      "variables": {
+        "fixe": "stimuli, lieux, unités, valeurs, plages temporelles figés pour q-001 à q-009",
+        "parametrique": "q-010 à q-012 : s entier [0,4095] ; tableaux entièrement instanciés et équations dans BANQUE_ITEMS.json"
+      },
+      "contraintes": [
+        "Température en °C, vent en km/h, pluie en mm pour une période décrite, ciel en dixièmes",
+        "Aucune inférence de causalité ou de prévision sans preuve",
+        "Pluie additionnée seulement sur périodes disjointes explicitement nommées",
+        "0 mm (mesure nulle) != — (donnée manquante)",
+        "Deux contextes pour maîtrise (q-011 et q-012), sans indices de contenu",
+        "Corrigé et rubriques revus avant certification; pas de génération libre IA"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "lecture_mesures_et_unites",
+          "comparaison_ou_cumul_exact",
+          "justification_et_limites",
+          "autonomie_et_transfert"
+        ],
+        "decision": "Deux preuves satisfaisantes indépendantes sur q-011 et q-012, pas score unique"
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "production_originale:contenu_et_items_fictifs"
+      ],
+      "seed": {
+        "q-010": 1010,
+        "q-011": 1011,
+        "q-012": 1012
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,1830 @@
+{
+  "format": "ekole.plan-de-transformation/2.0",
+  "total": 202,
+  "repartition": {
+    "pilote_prototype_non_approuve": 5,
+    "plan_de_conception_non_revu": 195,
+    "source_complete_absente": 2
+  },
+  "publication_pedagogique": "bloquee_tant_que_non_revue",
+  "cours": [
+    {
+      "kristal_id": "qc-pri-ad-001",
+      "discipline": "Art dramatique",
+      "etat": "pilote_prototype_non_approuve",
+      "objectif": "Utiliser corps, voix et espace pour exprimer une intention théâtrale.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ad-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 1
+    },
+    {
+      "kristal_id": "qc-pri-ad-002",
+      "discipline": "Art dramatique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Caractériser un personnage et une situation de jeu dramatique.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ad-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ad-003",
+      "discipline": "Art dramatique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Improviser une interaction en respectant les propositions des partenaires.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ad-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ad-004",
+      "discipline": "Art dramatique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Construire une brève séquence dramatique comportant une évolution.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ad-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ad-005",
+      "discipline": "Art dramatique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Organiser les éléments d’une mise en scène simple pour un public.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ad-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ad-006",
+      "discipline": "Art dramatique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Interpréter un rôle en maintenant une intention et une relation de jeu.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ad-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ad-007",
+      "discipline": "Art dramatique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire ce qui se passe dans une représentation théâtrale.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ad-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ad-008",
+      "discipline": "Art dramatique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Apprécier une représentation à partir de critères observables.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ad-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ad-009",
+      "discipline": "Art dramatique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Analyser les étapes de sa démarche de création ou d’interprétation.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ad-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-001",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Segmenter et manipuler syllabes et phonèmes de mots anglais oraux.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-002",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Appliquer des correspondances lettres-sons anglaises au décodage.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-003",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Lire un passage anglais avec précision et rythme permettant la compréhension.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-004",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Reconstituer actions, personnages et idées d’un récit en anglais.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-005",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Repérer et organiser les informations d’un texte informatif en anglais.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-006",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Inférer une intention ou une information non explicite dans un texte anglais.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-007",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Formuler une appréciation littéraire fondée sur des éléments de l’œuvre.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-008",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Déduire le sens de mots anglais en utilisant contexte et morphologie.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-009",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Orthographier et ponctuer des phrases anglaises ciblées.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-010",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Construire des phrases anglaises variées et grammaticalement compréhensibles.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-010/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-011",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Planifier puis rédiger un texte anglais pour un public explicite.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-011/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-012",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Réviser un texte anglais selon un ordre de contrôle du sens puis de la forme.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-012/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-013",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Écouter un échange anglais et en restituer les idées essentielles.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-013/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ale-014",
+      "discipline": "Anglais, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Participer à un échange oral puis présenter une idée argumentée en anglais.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ale-014/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-001",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Exécuter et reformuler des consignes orales courantes en anglais.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-002",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Employer un lexique anglais ciblé dans des échanges authentiques.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-003",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier le sens global et quelques détails d’un texte oral rythmé.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-004",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Produire de manière intelligible des sons, accents et rythmes élémentaires.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-005",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Poser et répondre à des questions simples en interaction.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-006",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire une expérience proche en phrases anglaises simples.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-007",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Extraire le sens d’un court texte écrit anglais adapté.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-008",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Choisir une stratégie adaptée pour comprendre un message anglais.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-009",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Réemployer à l’oral ou à l’écrit des informations comprises dans un message.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-010",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Rédiger un texte anglais bref, intelligible et adapté à une consigne.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-010/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-011",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Relire et améliorer un texte anglais court à partir de critères ciblés.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-011/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-als-012",
+      "discipline": "Anglais, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Communiquer une idée en anglais devant un petit groupe et répondre aux questions.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-als-012/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ap-001",
+      "discipline": "Arts plastiques",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier et décrire des éléments visuels dans des images et objets.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ap-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ap-002",
+      "discipline": "Arts plastiques",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Expérimenter des gestes, supports et procédés plastiques de façon sûre.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ap-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ap-003",
+      "discipline": "Arts plastiques",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Organiser des éléments visuels en une composition intentionnelle.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ap-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ap-004",
+      "discipline": "Arts plastiques",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Choisir matériaux et procédés en fonction d’une intention créative.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ap-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ap-005",
+      "discipline": "Arts plastiques",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Créer une image personnelle cohérente avec un projet expressif.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ap-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ap-006",
+      "discipline": "Arts plastiques",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Créer une image destinée à communiquer à un public précis.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ap-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ap-007",
+      "discipline": "Arts plastiques",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire l’organisation et les moyens expressifs d’une œuvre visuelle.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ap-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ap-008",
+      "discipline": "Arts plastiques",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Formuler une appréciation argumentée d’une œuvre sans imposer le goût.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ap-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ap-009",
+      "discipline": "Arts plastiques",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Expliquer son processus de création et des ajustements apportés.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-ap-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-001",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire des éléments de l’identité et expliquer leur diversité dans la société.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-002",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comparer des façons de vivre les relations et les responsabilités partagées.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-003",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Explorer plusieurs réponses possibles à une question de sens.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-004",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Analyser une situation où des choix humains touchent l’environnement.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-005",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Distinguer informations, opinions et influences dans des contenus médiatiques.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-006",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire une réalité culturelle à partir d’éléments observables et contextualisés.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-007",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comparer des perspectives culturelles sans généralisation abusive.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-008",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Conduire un échange avec écoute active, questions ouvertes et respect.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-009",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Examiner un choix et argumenter à partir de conséquences et de principes.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-010",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Reconnaître les limites personnelles, le respect et les règles de sécurité dans des situations adaptées à l’âge.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-010/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ccq-011",
+      "discipline": "Culture et citoyenneté québécoise",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Présenter de manière respectueuse différentes perspectives de Premiers Peuples.",
+      "famille": "raisonnement_dialogue_cooperation",
+      "chemin": "kristals/qc-pri-ccq-011/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-da-001",
+      "discipline": "Danse",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Explorer les possibilités de mouvements du corps en sécurité.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-da-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-da-002",
+      "discipline": "Danse",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Faire varier espace, temps et énergie dans un même motif dansé.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-da-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-da-003",
+      "discipline": "Danse",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Composer une phrase dansée structurée avec un début et une fin.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-da-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-da-004",
+      "discipline": "Danse",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Combiner plusieurs phrases dansées en une composition cohérente.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-da-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-da-005",
+      "discipline": "Danse",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Improviser un mouvement en respectant une contrainte expressive.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-da-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-da-006",
+      "discipline": "Danse",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Interpréter une danse avec précision relative et intention expressive.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-da-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-da-007",
+      "discipline": "Danse",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Observer et décrire les choix de mouvement dans une œuvre dansée.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-da-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-da-008",
+      "discipline": "Danse",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comparer deux propositions chorégraphiques à partir de critères explicites.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-da-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-da-009",
+      "discipline": "Danse",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Présenter et expliquer les étapes de sa création dansée.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-da-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-001",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier ses segments corporels et coordonner un mouvement simple.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-002",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Adapter marche, course, saut ou déplacement à un espace et une consigne.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-003",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Maintenir ou retrouver l’équilibre lors d’actions motrices de difficulté graduée.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-004",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Contrôler un objet en lançant, recevant, frappant ou conduisant selon le contexte.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-005",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Assembler plusieurs habiletés motrices en une séquence contrôlée.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-006",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Jouer selon des règles partagées en coopérant et en gérant l’opposition.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-007",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Choisir une stratégie collective simple puis l’adapter après observation.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-008",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Reconnaître une situation à risque et appliquer les consignes de prévention.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-009",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Réguler son effort en fonction d’une activité et des signes corporels usuels.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-010",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Planifier des occasions d’activité physique variées et réalistes.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-010/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-011",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Reconnaître les pratiques quotidiennes qui soutiennent santé et bien-être.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-011/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-eps-012",
+      "discipline": "Éducation physique et à la santé",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Analyser une pratique physique à partir de critères observables et personnels non comparatifs.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-eps-012/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-001",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comprendre et exécuter des messages oraux courants en français.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-002",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Employer un lexique français usuel dans des phrases contextualisées.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-003",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Distinguer et produire les sons pertinents du français à un niveau intelligible.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-004",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Échanger en français dans une situation quotidienne préparée.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-005",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Développer et relancer un échange oral en français au-delà des routines.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-006",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Lire un texte français adapté et en identifier sens global et détails.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-007",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Réinvestir en situation nouvelle des informations lues ou entendues.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-008",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Écrire des phrases simples en français adaptées à une intention.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-009",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Rédiger un court texte en français répondant à une consigne précise.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-010",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Améliorer un texte en français grâce à une relecture guidée par critères.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-010/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-011",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire et comparer des éléments culturels francophones situés et documentés.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-011/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fls-012",
+      "discipline": "Français, langue seconde",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Mener un projet de communication orale et écrite simple en français.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fls-012/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-001",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Segmenter, fusionner et transformer des syllabes et sons de mots entendus.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-002",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Associer les graphèmes courants aux phonèmes et effectuer la conversion dans les deux sens.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-003",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décoder des mots inconnus en mobilisant les correspondances apprises.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-004",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "source_complete_absente",
+      "objectif": "Lire un court passage adapté avec exactitude, continuité et prosodie pertinente.",
+      "famille": null,
+      "chemin": null,
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-005",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Repérer des informations explicites et les restituer fidèlement après lecture ou écoute.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-006",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Déduire une information implicite en reliant indices du texte et connaissances pertinentes.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-007",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Choisir une stratégie de compréhension et en vérifier les effets sur un texte.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-008",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "pilote_prototype_non_approuve",
+      "objectif": "Reconstituer les éléments d’un récit et leurs liens de cause à effet.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 1
+    },
+    {
+      "kristal_id": "qc-pri-fr-009",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Extraire, organiser et reformuler les informations principales d’un texte documentaire.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-010",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Exprimer une réaction argumentée à une lecture en distinguant goûts et indices textuels.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-010/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-011",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Déduire et expliquer le sens de mots en contexte puis réutiliser ce vocabulaire.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-011/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-012",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Écrire correctement un ensemble ciblé de mots et expliquer une stratégie de mémorisation.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-012/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-013",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier la classe grammaticale de mots selon leur fonctionnement en phrase.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-013/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-014",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Repérer des groupes de mots et expliquer leurs principales fonctions dans une phrase.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-014/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-015",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Construire des phrases compréhensibles en organisant correctement leurs constituants.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-015/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-016",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Réaliser les accords à l’intérieur d’un groupe nominal et expliquer les marques utilisées.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-016/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-017",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Accorder le verbe avec son sujet dans des phrases simples puis enrichies.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-017/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-018",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Employer les formes verbales étudiées selon la personne et la valeur temporelle.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-018/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-019",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Utiliser majuscules et signes de ponctuation pour segmenter et clarifier un écrit.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-019/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-020",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Organiser les idées d’un texte en fonction d’un destinataire et d’un but explicites.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-020/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-021",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Rédiger des phrases reliées en paragraphes porteurs d’une idée centrale.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-021/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-022",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Relier des paragraphes en maintenant le sujet et l’ordre logique du texte.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-022/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-023",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Améliorer un texte en révisant sens, structure puis orthographe et grammaire.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-023/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-024",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Reformuler les points essentiels d’une communication orale suivie.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-024/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-025",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Prendre part à un échange en écoutant, reformulant et poursuivant le propos d’autrui.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-025/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-fr-026",
+      "discipline": "Français, langue d’enseignement",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Présenter une idée structurée et la défendre à l’aide de raisons audibles.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-fr-026/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ilss-001",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comprendre les règles et consignes scolaires indispensables.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ilss-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ilss-002",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Échanger des informations nécessaires à la vie de classe.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ilss-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ilss-003",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Reconnaître et utiliser les mots clés des activités scolaires.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ilss-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ilss-004",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comprendre des messages et documents fonctionnels du quotidien.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ilss-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ilss-005",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Utiliser des stratégies de lecture adaptées à son palier de littératie.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ilss-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ilss-006",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier et organiser les informations principales de documents scolaires.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ilss-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ilss-007",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Écrire un message fonctionnel compréhensible pour un destinataire.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ilss-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ilss-008",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Produire un texte scolaire progressif avec structure compréhensible.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ilss-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ilss-009",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier les pratiques de classe et les ressources permettant d’obtenir de l’aide.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ilss-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ilss-010",
+      "discipline": "Intégration linguistique, scolaire et sociale",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Participer à une activité sociale ou culturelle en utilisant les ressources du milieu.",
+      "famille": "langage_lecture_expression",
+      "chemin": "kristals/qc-pri-ilss-010/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-001",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Associer une quantité à un dénombrement exact et en représenter les éléments.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-002",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Lire, écrire, ordonner et comparer des nombres naturels dans un champ adapté.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-003",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décomposer et recomposer des nombres grâce aux valeurs de position.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-004",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier, poursuivre et décrire une régularité numérique.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-005",
+      "discipline": "Mathématique",
+      "etat": "source_complete_absente",
+      "objectif": "Produire une estimation défendable et arrondir selon un rang annoncé.",
+      "famille": null,
+      "chemin": null,
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-006",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Modéliser l’addition et choisir une stratégie efficace pour calculer.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-007",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Modéliser la soustraction comme retrait, différence ou complément.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-008",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Représenter la multiplication comme groupes égaux et calculer des produits.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-009",
+      "discipline": "Mathématique",
+      "etat": "pilote_prototype_non_approuve",
+      "objectif": "Représenter le partage et le groupement pour résoudre des divisions.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 2
+    },
+    {
+      "kristal_id": "qc-pri-ma-010",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Choisir une stratégie de calcul mental et mobiliser une propriété opératoire.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-010/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-011",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Exécuter, vérifier et expliquer une procédure de calcul écrit.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-011/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-012",
+      "discipline": "Mathématique",
+      "etat": "pilote_prototype_non_approuve",
+      "objectif": "Représenter une fraction comme partie d’un tout ou d’une collection.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-012/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 2
+    },
+    {
+      "kristal_id": "qc-pri-ma-013",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Construire des fractions équivalentes et comparer des fractions de référence.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-013/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-014",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Effectuer des opérations élémentaires sur les fractions en conservant leur sens.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-014/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-015",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Relier les écritures décimales aux décompositions en dixièmes et centièmes.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-015/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-016",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comparer et calculer avec des décimaux en utilisant les valeurs de position.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-016/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-017",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Relier pourcentage, fraction de cent et situations proportionnelles simples.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-017/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-018",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Établir et expliquer des égalités ou relations numériques correctes.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-018/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-019",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Modéliser et résoudre une situation additive en distinguant les données utiles.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-019/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-020",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Modéliser une situation multiplicative ou de partage et contrôler la solution.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-020/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-021",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire un trajet ou une position au moyen de repères spatiaux stables.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-021/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-022",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Reconnaître et décrire des solides grâce à leurs éléments constitutifs.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-022/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-023",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Classer des figures planes à partir de propriétés observables.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-023/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-024",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier et construire des angles, des droites et des symétries simples.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-024/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-025",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Mesurer et comparer des longueurs, masses ou capacités avec unités adaptées.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-025/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-026",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Lire des horaires et déterminer des durées entre deux événements.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-026/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-027",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Calculer et interpréter le périmètre d’une figure comme longueur du contour.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-027/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-028",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Mesurer ou calculer une aire en unités carrées adaptées.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-028/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-029",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Déterminer un volume par comptage ou structuration d’unités cubiques.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-029/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-030",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Collecter des données selon une question et produire un tableau fiable.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-030/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-031",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Lire, créer et critiquer une représentation graphique de données.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-031/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-032",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire des événements en termes de possibilité et de chance relative.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-032/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-ma-033",
+      "discipline": "Mathématique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Communiquer un raisonnement mathématique vérifiable, au-delà du résultat.",
+      "famille": "construction_manipulative",
+      "chemin": "kristals/qc-pri-ma-033/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-mu-001",
+      "discipline": "Musique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Discriminer sons et silences selon des propriétés audibles.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-mu-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-mu-002",
+      "discipline": "Musique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Reproduire et créer des motifs avec pulsation et durées.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-mu-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-mu-003",
+      "discipline": "Musique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comparer des motifs mélodiques selon les mouvements de hauteur.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-mu-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-mu-004",
+      "discipline": "Musique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Reconnaître des timbres instrumentaux et expliquer leur différence.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-mu-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-mu-005",
+      "discipline": "Musique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Utiliser sa voix de façon sûre et expressive dans un motif simple.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-mu-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-mu-006",
+      "discipline": "Musique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Composer une courte pièce sonore selon une intention donnée.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-mu-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-mu-007",
+      "discipline": "Musique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Interpréter une pièce avec écoute mutuelle et cohérence collective.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-mu-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-mu-008",
+      "discipline": "Musique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Écouter un extrait et en décrire des caractéristiques musicales observables.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-mu-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-mu-009",
+      "discipline": "Musique",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Exprimer une appréciation musicale reliée à des indices entendus.",
+      "famille": "production_observation_humaine",
+      "chemin": "kristals/qc-pri-mu-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-001",
+      "discipline": "Science et technologie",
+      "etat": "pilote_prototype_non_approuve",
+      "objectif": "Observer un phénomène et poser une question investigable et précise.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 1
+    },
+    {
+      "kristal_id": "qc-pri-st-002",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Formuler une prédiction motivée et concevoir un test simple et sûr.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-003",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Choisir un instrument et relever des mesures traçables et reproductibles.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-004",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Relier des observations à une conclusion en distinguant constat et interprétation.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-005",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Classer des matières selon leurs propriétés et leurs états.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-006",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier et comparer des changements physiques observables de la matière.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-007",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire l’effet d’une force sur le mouvement ou la forme d’un objet.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-008",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Repérer des sources d’énergie et décrire les transformations observées.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-009",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Relier des phénomènes lumineux ou sonores à leurs sources et propriétés.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-010",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Construire un circuit très simple et distinguer circuit fermé et ouvert.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-010/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-011",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier la fonction d’éléments d’un objet technique usuel.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-011/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-012",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Prototyper un objet répondant à un besoin avec tests et améliorations.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-012/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-013",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comparer roches et sols à partir de caractéristiques observables.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-013/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-014",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Expliquer par un schéma les principaux changements d’état et déplacements de l’eau.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-014/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-015",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire des phénomènes météorologiques à partir de mesures et observations.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-015/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-016",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Expliquer par un modèle simple des phénomènes Terre-Soleil-Lune.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-016/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-017",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Classer des organismes par caractéristiques observables plutôt que par préférences.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-017/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-018",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Relier besoins vitaux et fonctions d’organes ou systèmes étudiés.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-018/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-019",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comparer des étapes de cycles de vie et des adaptations à un milieu.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-019/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-st-020",
+      "discipline": "Science et technologie",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Représenter des interactions alimentaires et environnementales d’un habitat.",
+      "famille": "investigation_observation",
+      "chemin": "kristals/qc-pri-st-020/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-001",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Positionner et ordonner des événements selon une échelle temporelle cohérente.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-001/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-002",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Lire une carte à l’aide de son titre, sa légende et ses repères.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-002/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-003",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Caractériser un territoire par ses ressources et les usages humains observables.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-003/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-004",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire comment une société organise ses activités et son territoire.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-004/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-005",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Distinguer source, affirmation et interprétation dans un document historique.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-005/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-006",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire la diversité de sociétés autochtones sur le territoire vers 1500.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-006/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-007",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire des aspects des sociétés inuites et leurs relations aux milieux nordiques.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-007/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-008",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Présenter l’organisation et des évolutions de la Nouvelle-France.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-008/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-009",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comparer des situations de rencontre et d’échange entre populations.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-009/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-010",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Identifier des transformations sociales et politiques sous le régime britannique.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-010/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-011",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Expliquer des conséquences de l’industrialisation sur la vie quotidienne.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-011/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-012",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Ordonner des changements marquants du Québec au XXe siècle.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-012/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-013",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Décrire un enjeu du Québec contemporain à partir d’informations croisées.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-013/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-014",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Comparer deux sociétés selon des critères explicites et communs.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-014/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-015",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Distinguer ce qui change de ce qui perdure au fil d’une période.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-015/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    },
+    {
+      "kristal_id": "qc-pri-us-016",
+      "discipline": "Géographie, histoire et éducation à la citoyenneté",
+      "etat": "plan_de_conception_non_revu",
+      "objectif": "Expliquer la pluralité des héritages culturels dans les sociétés étudiées.",
+      "famille": "cartes_chronologie_sources",
+      "chemin": "kristals/qc-pri-us-016/experience/CADRE_PEDAGOGIQUE_V12.json",
+      "scenarios": 0
+    }
+  ]
+}

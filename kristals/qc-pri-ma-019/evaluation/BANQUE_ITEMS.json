@@ -1,0 +1,566 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-019",
+  "family_id": "qc-pri-ma-019-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-019-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "fixe",
+      "consigne": "Indique le total de cartes; présente les données retenues, une égalité et une vérification.",
+      "stimulus": "Lina possède 24 cartes, en reçoit 19; trois pochettes se trouvent sur la table. Combien de cartes possède-t-elle ?",
+      "reponse_attendue": "24 + 19 = 43 cartes; les 3 pochettes sont inutiles. Contrôle : 43 − 19 = 24.",
+      "criteres": [
+        "Identifie l’inconnue et la bonne unité.",
+        "Repère les quantités utiles et écarte la donnée non pertinente en expliquant pourquoi.",
+        "Présente une relation ou un schéma correct.",
+        "Effectue le calcul exact et vérifie le sens du résultat."
+      ],
+      "feedback": "Si tu as additionné 3, distingue « pochettes » et « cartes ». Sinon contrôle la somme par 43 − 19.",
+      "difficulte": "initial",
+      "representation": "barres parties-tout et équation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "fixe",
+      "consigne": "Trouve le nombre de graines restantes et explique ta soustraction.",
+      "stimulus": "Un sachet contient 80 graines; 27 sont plantées. On utilise 5 étiquettes. Combien reste-t-il de graines ?",
+      "reponse_attendue": "80 − 27 = 53 graines; 5 étiquettes inutiles. Contrôle : 53 + 27 = 80.",
+      "criteres": [
+        "Identifie l’inconnue et la bonne unité.",
+        "Repère les quantités utiles et écarte la donnée non pertinente en expliquant pourquoi.",
+        "Présente une relation ou un schéma correct.",
+        "Effectue le calcul exact et vérifie le sens du résultat."
+      ],
+      "feedback": "« Plantées » signifie ici retirées du sachet : les graines restantes sont une partie du total.",
+      "difficulte": "initial",
+      "representation": "jetons ou barre totale/parties",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "fixe",
+      "consigne": "Trouve le nombre initial, indique ton inconnue et vérifie.",
+      "stimulus": "Après avoir donné 16 crayons, Adam en a encore 39. Deux trousses sont disponibles. Combien de crayons possédait-il au départ ?",
+      "reponse_attendue": "Départ ? − 16 = 39; 39 + 16 = 55 crayons. Test : 55 − 16 = 39. Les trousses sont inutiles.",
+      "criteres": [
+        "Identifie l’inconnue et la bonne unité.",
+        "Repère les quantités utiles et écarte la donnée non pertinente en expliquant pourquoi.",
+        "Présente une relation ou un schéma correct.",
+        "Effectue le calcul exact et vérifie le sens du résultat."
+      ],
+      "feedback": "Si tu as écrit 39 − 16, reconstruis le groupe initial en ajoutant les 16 donnés.",
+      "difficulte": "intermediaire",
+      "representation": "relation état initial-inconnu",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "fixe",
+      "consigne": "Trouve la différence; explique ce que représente le résultat.",
+      "stimulus": "Une classe a lu 67 livres et une autre 43 livres. Leur bibliothèque possède 6 tables. Combien de livres de plus la première classe a-t-elle lus ?",
+      "reponse_attendue": "67 − 43 = 24 livres de plus. Les 6 tables n’interviennent pas. Test 43 + 24 = 67.",
+      "criteres": [
+        "Identifie l’inconnue et la bonne unité.",
+        "Repère les quantités utiles et écarte la donnée non pertinente en expliquant pourquoi.",
+        "Présente une relation ou un schéma correct.",
+        "Effectue le calcul exact et vérifie le sens du résultat."
+      ],
+      "feedback": "L’expression « de plus » décrit une comparaison : la question porte sur l’écart, pas sur la somme.",
+      "difficulte": "intermediaire",
+      "representation": "barres comparatives",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "fixe",
+      "consigne": "Détermine combien de badges ont été distribués; écris une relation.",
+      "stimulus": "Un groupe a fabriqué 72 badges et il en reste 29 après distribution. Il dispose de 3 boîtes. Combien a-t-il distribué de badges ?",
+      "reponse_attendue": "72 − ? = 29, donc 72 − 29 = 43 badges distribués. Test : 43 + 29 = 72. Trois boîtes inutiles.",
+      "criteres": [
+        "Identifie l’inconnue et la bonne unité.",
+        "Repère les quantités utiles et écarte la donnée non pertinente en expliquant pourquoi.",
+        "Présente une relation ou un schéma correct.",
+        "Effectue le calcul exact et vérifie le sens du résultat."
+      ],
+      "feedback": "La quantité distribuée est une partie du total; vérifie que distribués + restants = fabriqués.",
+      "difficulte": "intermediaire",
+      "representation": "barre partagée avec partie inconnue",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "parametrique",
+      "consigne": "Combien d’affiches maintenant ? Écarte les cadres, écris un schéma parties-tout et vérifie.",
+      "stimulus": "Une salle possède 28 affiches et en reçoit 17. Elle a aussi 3 cadres décoratifs. Combien d’affiches possède-t-elle ?",
+      "reponse_attendue": "28 + 17 = 45 affiches. Les 3 cadres sont inutiles; contrôle 45 − 17 = 28.",
+      "criteres": [
+        "Identifie l’inconnue et la bonne unité.",
+        "Repère les quantités utiles et écarte la donnée non pertinente en expliquant pourquoi.",
+        "Présente une relation ou un schéma correct.",
+        "Effectue le calcul exact et vérifie le sens du résultat."
+      ],
+      "feedback": "Vérifie que tu réunis deux groupes d’affiches, sans compter les cadres.",
+      "difficulte": "initial",
+      "representation": "schéma parties-tout et égalité",
+      "seed": 19004,
+      "parametres": {
+        "version": "table_fermee/1.0",
+        "variables": {
+          "a": "quantité principale : entier positif",
+          "b": "quantité d’évolution : entier positif",
+          "d": "objet distracteur : entier positif"
+        },
+        "domaines": {
+          "a": [
+            28,
+            62
+          ],
+          "b": [
+            15,
+            26
+          ],
+          "d": [
+            3,
+            6
+          ]
+        },
+        "ensemble_autorise": [
+          [
+            28,
+            17,
+            3
+          ],
+          [
+            41,
+            26,
+            5
+          ],
+          [
+            35,
+            19,
+            4
+          ],
+          [
+            62,
+            15,
+            6
+          ]
+        ],
+        "contraintes": [
+          "Utiliser uniquement une ligne de ensemble_autorise; pas de combinaison cartésienne arbitraire.",
+          "Nombres naturels et résultat positif; même unité pour a et b.",
+          "d désigne un objet distinct de l’unité de réponse et n’entre pas dans le calcul.",
+          "Aucun tirage libre ni génération IA de chiffres/énoncés."
+        ],
+        "selection": "indice = seed entier non négatif modulo 4; ligne du tableau à cet indice, numérotation à partir de zéro",
+        "algorithme": "Lire (a,b,d); calculer résultat = a + b; remplacer exactement dans les gabarits stimulus et reponse_attendue. Recalculer et vérifier par l’opération inverse.",
+        "gabarit_stimulus": "Une salle possède {a} affiches et en reçoit {b}. Elle a aussi {d} cadres décoratifs. Combien d’affiches possède-t-elle ?",
+        "gabarit_reponse": "{a} + {b} = {result} affiches. Les {d} cadres sont inutiles; contrôle {result} − {b} = {a}.",
+        "exemples_calcules": [
+          {
+            "variables": {
+              "a": 28,
+              "b": 17,
+              "d": 3
+            },
+            "stimulus": "Une salle possède 28 affiches et en reçoit 17. Elle a aussi 3 cadres décoratifs. Combien d’affiches possède-t-elle ?",
+            "reponse_attendue": "28 + 17 = 45 affiches. Les 3 cadres sont inutiles; contrôle 45 − 17 = 28.",
+            "resultat": 45
+          },
+          {
+            "variables": {
+              "a": 41,
+              "b": 26,
+              "d": 5
+            },
+            "stimulus": "Une salle possède 41 affiches et en reçoit 26. Elle a aussi 5 cadres décoratifs. Combien d’affiches possède-t-elle ?",
+            "reponse_attendue": "41 + 26 = 67 affiches. Les 5 cadres sont inutiles; contrôle 67 − 26 = 41.",
+            "resultat": 67
+          },
+          {
+            "variables": {
+              "a": 35,
+              "b": 19,
+              "d": 4
+            },
+            "stimulus": "Une salle possède 35 affiches et en reçoit 19. Elle a aussi 4 cadres décoratifs. Combien d’affiches possède-t-elle ?",
+            "reponse_attendue": "35 + 19 = 54 affiches. Les 4 cadres sont inutiles; contrôle 54 − 19 = 35.",
+            "resultat": 54
+          },
+          {
+            "variables": {
+              "a": 62,
+              "b": 15,
+              "d": 6
+            },
+            "stimulus": "Une salle possède 62 affiches et en reçoit 15. Elle a aussi 6 cadres décoratifs. Combien d’affiches possède-t-elle ?",
+            "reponse_attendue": "62 + 15 = 77 affiches. Les 6 cadres sont inutiles; contrôle 77 − 15 = 62.",
+            "resultat": 77
+          }
+        ],
+        "cas_selectionne": 0,
+        "controle": "Pour les quatre cas, le corrigé a été recalculé avec la formule a + b et contrôlé par l’inverse. Énoncé de q-006 = cas sélectionné."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "parametrique",
+      "consigne": "Combien de cahiers restent ? Présente une barre total/parties et un contrôle inverse.",
+      "stimulus": "Une réserve contient 94 cahiers. On en utilise 37. Il y a 4 classeurs. Combien reste-t-il de cahiers ?",
+      "reponse_attendue": "94 − 37 = 57 cahiers. Les 4 classeurs sont inutiles; contrôle 57 + 37 = 94.",
+      "criteres": [
+        "Identifie l’inconnue et la bonne unité.",
+        "Repère les quantités utiles et écarte la donnée non pertinente en expliquant pourquoi.",
+        "Présente une relation ou un schéma correct.",
+        "Effectue le calcul exact et vérifie le sens du résultat."
+      ],
+      "feedback": "Le restant plus les cahiers utilisés doit redonner le départ; ne compte pas les classeurs.",
+      "difficulte": "intermediaire",
+      "representation": "schéma parties-tout et égalité",
+      "seed": 19008,
+      "parametres": {
+        "version": "table_fermee/1.0",
+        "variables": {
+          "a": "quantité principale : entier positif",
+          "b": "quantité d’évolution : entier positif",
+          "d": "objet distracteur : entier positif"
+        },
+        "domaines": {
+          "a": [
+            65,
+            94
+          ],
+          "b": [
+            18,
+            37
+          ],
+          "d": [
+            2,
+            6
+          ]
+        },
+        "ensemble_autorise": [
+          [
+            94,
+            37,
+            4
+          ],
+          [
+            86,
+            29,
+            6
+          ],
+          [
+            73,
+            18,
+            2
+          ],
+          [
+            65,
+            26,
+            5
+          ]
+        ],
+        "contraintes": [
+          "Utiliser uniquement une ligne de ensemble_autorise; pas de combinaison cartésienne arbitraire.",
+          "Nombres naturels et résultat positif; même unité pour a et b.",
+          "d désigne un objet distinct de l’unité de réponse et n’entre pas dans le calcul.",
+          "Aucun tirage libre ni génération IA de chiffres/énoncés."
+        ],
+        "selection": "indice = seed entier non négatif modulo 4; ligne du tableau à cet indice, numérotation à partir de zéro",
+        "algorithme": "Lire (a,b,d); calculer résultat = a - b; remplacer exactement dans les gabarits stimulus et reponse_attendue. Recalculer et vérifier par l’opération inverse.",
+        "gabarit_stimulus": "Une réserve contient {a} cahiers. On en utilise {b}. Il y a {d} classeurs. Combien reste-t-il de cahiers ?",
+        "gabarit_reponse": "{a} − {b} = {result} cahiers. Les {d} classeurs sont inutiles; contrôle {result} + {b} = {a}.",
+        "exemples_calcules": [
+          {
+            "variables": {
+              "a": 94,
+              "b": 37,
+              "d": 4
+            },
+            "stimulus": "Une réserve contient 94 cahiers. On en utilise 37. Il y a 4 classeurs. Combien reste-t-il de cahiers ?",
+            "reponse_attendue": "94 − 37 = 57 cahiers. Les 4 classeurs sont inutiles; contrôle 57 + 37 = 94.",
+            "resultat": 57
+          },
+          {
+            "variables": {
+              "a": 86,
+              "b": 29,
+              "d": 6
+            },
+            "stimulus": "Une réserve contient 86 cahiers. On en utilise 29. Il y a 6 classeurs. Combien reste-t-il de cahiers ?",
+            "reponse_attendue": "86 − 29 = 57 cahiers. Les 6 classeurs sont inutiles; contrôle 57 + 29 = 86.",
+            "resultat": 57
+          },
+          {
+            "variables": {
+              "a": 73,
+              "b": 18,
+              "d": 2
+            },
+            "stimulus": "Une réserve contient 73 cahiers. On en utilise 18. Il y a 2 classeurs. Combien reste-t-il de cahiers ?",
+            "reponse_attendue": "73 − 18 = 55 cahiers. Les 2 classeurs sont inutiles; contrôle 55 + 18 = 73.",
+            "resultat": 55
+          },
+          {
+            "variables": {
+              "a": 65,
+              "b": 26,
+              "d": 5
+            },
+            "stimulus": "Une réserve contient 65 cahiers. On en utilise 26. Il y a 5 classeurs. Combien reste-t-il de cahiers ?",
+            "reponse_attendue": "65 − 26 = 39 cahiers. Les 5 classeurs sont inutiles; contrôle 39 + 26 = 65.",
+            "resultat": 39
+          }
+        ],
+        "cas_selectionne": 0,
+        "controle": "Pour les quatre cas, le corrigé a été recalculé avec la formule a - b et contrôlé par l’inverse. Énoncé de q-007 = cas sélectionné."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "parametrique",
+      "consigne": "Combien d’objets y avait-il avant la distribution ? Pose une inconnue initiale et explique.",
+      "stimulus": "Après avoir distribué 25 objets, une équipe en possède encore 46. Elle utilise 3 paniers. Combien en avait-elle au départ ?",
+      "reponse_attendue": "? − 25 = 46; ? = 46 + 25 = 71 objets au départ. Les 3 paniers sont inutiles; contrôle 71 − 25 = 46.",
+      "criteres": [
+        "Identifie l’inconnue et la bonne unité.",
+        "Repère les quantités utiles et écarte la donnée non pertinente en expliquant pourquoi.",
+        "Présente une relation ou un schéma correct.",
+        "Effectue le calcul exact et vérifie le sens du résultat."
+      ],
+      "feedback": "Pour retrouver le départ après un retrait, ajoute les objets distribués au reste; ne compte pas les paniers.",
+      "difficulte": "intermediaire",
+      "representation": "schéma parties-tout et égalité",
+      "seed": 19012,
+      "parametres": {
+        "version": "table_fermee/1.0",
+        "variables": {
+          "a": "quantité principale : entier positif",
+          "b": "quantité d’évolution : entier positif",
+          "d": "objet distracteur : entier positif"
+        },
+        "domaines": {
+          "a": [
+            32,
+            57
+          ],
+          "b": [
+            16,
+            27
+          ],
+          "d": [
+            2,
+            5
+          ]
+        },
+        "ensemble_autorise": [
+          [
+            46,
+            25,
+            3
+          ],
+          [
+            32,
+            18,
+            4
+          ],
+          [
+            57,
+            16,
+            5
+          ],
+          [
+            41,
+            27,
+            2
+          ]
+        ],
+        "contraintes": [
+          "Utiliser uniquement une ligne de ensemble_autorise; pas de combinaison cartésienne arbitraire.",
+          "Nombres naturels et résultat positif; même unité pour a et b.",
+          "d désigne un objet distinct de l’unité de réponse et n’entre pas dans le calcul.",
+          "Aucun tirage libre ni génération IA de chiffres/énoncés."
+        ],
+        "selection": "indice = seed entier non négatif modulo 4; ligne du tableau à cet indice, numérotation à partir de zéro",
+        "algorithme": "Lire (a,b,d); calculer résultat = a + b; remplacer exactement dans les gabarits stimulus et reponse_attendue. Recalculer et vérifier par l’opération inverse.",
+        "gabarit_stimulus": "Après avoir distribué {b} objets, une équipe en possède encore {a}. Elle utilise {d} paniers. Combien en avait-elle au départ ?",
+        "gabarit_reponse": "? − {b} = {a}; ? = {a} + {b} = {result} objets au départ. Les {d} paniers sont inutiles; contrôle {result} − {b} = {a}.",
+        "exemples_calcules": [
+          {
+            "variables": {
+              "a": 46,
+              "b": 25,
+              "d": 3
+            },
+            "stimulus": "Après avoir distribué 25 objets, une équipe en possède encore 46. Elle utilise 3 paniers. Combien en avait-elle au départ ?",
+            "reponse_attendue": "? − 25 = 46; ? = 46 + 25 = 71 objets au départ. Les 3 paniers sont inutiles; contrôle 71 − 25 = 46.",
+            "resultat": 71
+          },
+          {
+            "variables": {
+              "a": 32,
+              "b": 18,
+              "d": 4
+            },
+            "stimulus": "Après avoir distribué 18 objets, une équipe en possède encore 32. Elle utilise 4 paniers. Combien en avait-elle au départ ?",
+            "reponse_attendue": "? − 18 = 32; ? = 32 + 18 = 50 objets au départ. Les 4 paniers sont inutiles; contrôle 50 − 18 = 32.",
+            "resultat": 50
+          },
+          {
+            "variables": {
+              "a": 57,
+              "b": 16,
+              "d": 5
+            },
+            "stimulus": "Après avoir distribué 16 objets, une équipe en possède encore 57. Elle utilise 5 paniers. Combien en avait-elle au départ ?",
+            "reponse_attendue": "? − 16 = 57; ? = 57 + 16 = 73 objets au départ. Les 5 paniers sont inutiles; contrôle 73 − 16 = 57.",
+            "resultat": 73
+          },
+          {
+            "variables": {
+              "a": 41,
+              "b": 27,
+              "d": 2
+            },
+            "stimulus": "Après avoir distribué 27 objets, une équipe en possède encore 41. Elle utilise 2 paniers. Combien en avait-elle au départ ?",
+            "reponse_attendue": "? − 27 = 41; ? = 41 + 27 = 68 objets au départ. Les 2 paniers sont inutiles; contrôle 68 − 27 = 41.",
+            "resultat": 68
+          }
+        ],
+        "cas_selectionne": 0,
+        "controle": "Pour les quatre cas, le corrigé a été recalculé avec la formule a + b et contrôlé par l’inverse. Énoncé de q-008 = cas sélectionné."
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "fixe",
+      "consigne": "Résous les deux étapes; nomme la donnée superflue et vérifie.",
+      "stimulus": "Le centre d’activités a 54 rubans; il en reçoit 23 et en utilise 31. Il dispose de 5 paires de ciseaux. Combien de rubans restent ?",
+      "reponse_attendue": "54 + 23 = 77, puis 77 − 31 = 46 rubans. Contrôles : 46 + 31 = 77 et 77 − 23 = 54. Ciseaux inutiles.",
+      "criteres": [
+        "Identifie l’inconnue et la bonne unité.",
+        "Repère les quantités utiles et écarte la donnée non pertinente en expliquant pourquoi.",
+        "Présente une relation ou un schéma correct.",
+        "Effectue le calcul exact et vérifie le sens du résultat.",
+        "Respecte la chronologie des deux événements."
+      ],
+      "feedback": "Si tu as fait une seule opération, note d’abord l’état après réception puis l’état après utilisation.",
+      "difficulte": "intermediaire",
+      "representation": "ligne du temps à deux changements",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE A SANS INDICE : résous, schématise les deux étapes, explique les opérations et la donnée inutile.",
+      "stimulus": "Un centre de prêt possède 126 livres. Il reçoit 38 nouveaux livres, puis en prête 47. Quatre chariots sont disponibles. Combien de livres sont encore au centre ?",
+      "reponse_attendue": "Après réception : 126 + 38 = 164 livres; après prêt : 164 − 47 = 117 livres. Vérification 117 + 47 = 164 puis 164 − 38 = 126. Les 4 chariots sont sans effet sur le nombre de livres.",
+      "criteres": [
+        "Identifie précisément l’inconnue demandée et les unités.",
+        "Écarte explicitement la donnée inutile en justifiant son exclusion.",
+        "Propose un schéma/une relation cohérente pour chacune des étapes.",
+        "Calcule chaque résultat exactement et vérifie par une opération inverse ou une recomposition.",
+        "Explique spontanément pourquoi chaque addition ou soustraction répond à la relation."
+      ],
+      "feedback": "Si le résultat ne passe pas le contrôle inverse, reprends la chronologie « reçoit » puis « prête »; distinguer chariots de livres.",
+      "difficulte": "transfert",
+      "representation": "schéma de flux + deux équations",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE B SANS INDICE : réponds aux deux questions, illustre les relations et explique pourquoi les opérations sont différentes.",
+      "stimulus": "Un jardin compte 168 plants après l’arrivée de 45 nouveaux plants. Le lendemain, 26 plants sont déplacés hors du jardin. Il y a 4 arrosoirs. Combien de plants y avait-il avant l’arrivée et combien en reste-t-il après le déplacement ?",
+      "reponse_attendue": "Avant l’arrivée : ? + 45 = 168, donc ? = 168 − 45 = 123 plants; après déplacement : 168 − 26 = 142 plants. Vérifications 123 + 45 = 168 et 142 + 26 = 168. Les 4 arrosoirs sont inutiles. Il serait erroné de soustraire 26 à 123.",
+      "criteres": [
+        "Identifie précisément l’inconnue demandée et les unités.",
+        "Écarte explicitement la donnée inutile en justifiant son exclusion.",
+        "Propose un schéma/une relation cohérente pour chacune des étapes.",
+        "Calcule chaque résultat exactement et vérifie par une opération inverse ou une recomposition.",
+        "Explique spontanément pourquoi chaque addition ou soustraction répond à la relation."
+      ],
+      "feedback": "Ne confonds pas les deux instants. Pour le départ, retire les 45 arrivés du total 168; pour le restant, retire les 26 déplacés du total APRÈS arrivée.",
+      "difficulte": "transfert",
+      "representation": "états avant/après et deux relations",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-019-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-019-ev-01",
+      "mode": "fixe",
+      "consigne": "Analyse la démarche proposée : localise l’erreur, corrige le modèle et vérifie.",
+      "stimulus": "Après avoir distribué 21 billets, Sara en a encore 48. Un élève calcule 48 − 21 = 27 comme quantité initiale. Il y a aussi 3 boîtes. Explique l’erreur et trouve le vrai nombre initial.",
+      "reponse_attendue": "La quantité initiale doit être plus grande que 48 : ? − 21 = 48, donc 48 + 21 = 69 billets; 69 − 21 = 48. Les 3 boîtes sont inutiles. 48 − 21 = 27 est le mauvais sens de la relation.",
+      "criteres": [
+        "Identifie l’inconnue et la bonne unité.",
+        "Repère les quantités utiles et écarte la donnée non pertinente en expliquant pourquoi.",
+        "Présente une relation ou un schéma correct.",
+        "Effectue le calcul exact et vérifie le sens du résultat.",
+        "Identifie l’erreur de position de l’inconnue au lieu de corriger seulement le calcul."
+      ],
+      "feedback": "Si tu maintiens 27, essaie de retirer 21 à 27 : il resterait 6, pas 48.",
+      "difficulte": "transfert",
+      "representation": "critique de schéma/équation",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

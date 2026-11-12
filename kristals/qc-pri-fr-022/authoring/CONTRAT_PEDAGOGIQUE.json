@@ -1,0 +1,73 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-022",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Relier des paragraphes en maintenant le sujet et l’ordre logique du texte.",
+  "concepts": [
+    "connecteurs",
+    "reprise",
+    "progression des idées"
+  ],
+  "preuve_attendue": "Réorganiser un texte fragmenté et expliquer les liens créés.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-021"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-022-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Réorganiser un texte fragmenté et expliquer les liens créés.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-fr-022",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "critere_description": "Réorganiser un texte fragmenté et expliquer les liens créés.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte_fragmenté_étiqueté",
+        "réponse_écrite_argumentée",
+        "réponse_orale_documentée_par_transcription"
+      ],
+      "variables": [],
+      "contraintes": {
+        "mode": "fixe_controle",
+        "corpus": "11 textes originaux fixés dans evaluation/BANQUE_ITEMS.json",
+        "ordre": "la séquence contrôlée associe étiquettes stables et antécédents de reprise",
+        "variation_permise": "ordre de présentation des blocs uniquement, en gardant les étiquettes, les formulations et le corrigé indexé sur celles-ci; revue obligatoire de toute autre variante",
+        "variation_interdite": "inventer automatiquement des paragraphes ou de nouveaux corrigés; modifier les relations temporelles, les référents ou la grammaire sans nouvelle validation",
+        "decision": "revue humaine des explications et de l’accessibilité; aucune décision de maîtrise par IA libre ou note unique"
+      },
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "ordre_logique",
+          "reprises_non_ambigues",
+          "progression_et_connecteurs",
+          "justification_des_liens"
+        ],
+        "niveaux": "0=absent/inexact; 1=partiel; 2=exact et explicité pour chaque dimension",
+        "preuve_minimale": "deux réalisations autonomes, q-008 et q-009, contextes narratif et explicatif, avec grille détaillée dans evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": "sources/REFERENCES_CONTENU.md; corpus original du Kristal qc-pri-fr-022",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

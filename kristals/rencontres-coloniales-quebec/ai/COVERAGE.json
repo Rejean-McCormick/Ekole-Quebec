@@ -1,0 +1,31 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:rencontres-coloniales-quebec",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:d7f0ba7fdcdc552d4a8c42d943373e8bf8b61b48b4b7a6f2e85628bea2e86c14"
+  },
+  "subject": {
+    "id": null,
+    "label": "Rencontres, diplomatie et politiques coloniales au Québec"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "assertions contextualisées, relations, normes et sources de rencontres-coloniales-quebec",
+      "Encyclopédie coloniale comportement v1, fiches, entraînements et sources contextualisées."
+    ],
+    "does_not_own": [
+      "scénarios scolaires, notes, parcours, évaluations",
+      "vérités non attestées sur des nations"
+    ]
+  },
+  "canonical_artifact_count": 2,
+  "source_count": 27,
+  "external_reference_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

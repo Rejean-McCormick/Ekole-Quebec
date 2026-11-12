@@ -1,0 +1,89 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-st-001",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Observer un phénomène et poser une question investigable et précise.",
+    "concepts": [
+      "observation",
+      "description",
+      "variable",
+      "question"
+    ]
+  },
+  "titre_source": "Observer et formuler des questions scientifiques",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [],
+    "scenarios_existants": [
+      {
+        "id": "science-observer-interpreter",
+        "statut": "illustration_candidate_non_validee"
+      }
+    ]
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "Deux bandes de papier identifiées comme supports d’observation; proposer une comparaison visuelle qui distingue traces relevées et causes supposées.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Observer et formuler des questions scientifiques » : Observer un phénomène et poser une question investigable et précise. Deux bandes de papier identifiées comme supports d’observation; proposer une comparaison visuelle qui distingue traces relevées et causes supposées. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Observer avant d’expliquer : Deux bandes de papier identifiées comme supports d’observation; proposer une comparaison visuelle qui distingue traces relevées et causes supposées.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "Une table d’observation avec deux matériaux ordinaires, conçue pour donner envie de poser une question testable sans présenter de résultat scientifique inventé comme réel.",
+      "prompt_conceptuel": "Illustrer le concept du cours « Observer et formuler des questions scientifiques » : Observer un phénomène et poser une question investigable et précise. Une table d’observation avec deux matériaux ordinaires, conçue pour donner envie de poser une question testable sans présenter de résultat scientifique inventé comme réel. Montrer les relations pertinentes entre les objets ou les personnages, sans imposer de style, palette, technique ou composition fixe. Ne pas afficher de réponse, de correction, ni de données mathématiques exactes évaluées. Laisser la manipulation et les états vérifiables aux composants d'activité.",
+      "texte_alternatif": "Support conceptuel pour Observer avant d’expliquer : Une table d’observation avec deux matériaux ordinaires, conçue pour donner envie de poser une question testable sans présenter de résultat scientifique inventé comme réel.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "revue_humaine_requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes.",
+      "ancrage_contenu": {
+        "fichier": "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "rubrique": "Gouttes sur papier",
+        "statut": "source_du_cours"
+      }
+    }
+  ]
+}

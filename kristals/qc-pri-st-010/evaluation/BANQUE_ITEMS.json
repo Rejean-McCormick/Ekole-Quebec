@@ -1,0 +1,327 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-010",
+  "family_id": "qc-pri-st-010-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-010-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour chacun des deux dessins, dis si la boucle passant par l’ampoule est ouverte ou fermée; prédis le résultat pour un kit fonctionnel.",
+      "stimulus": "A: (+) boîtier 3 V → ampoule 3 V → interrupteur fermé → (−). B: (+) → ampoule → interrupteur ouvert → (−).",
+      "reponse_attendue": "A : fermé; lampe normalement allumée si le matériel est en bon état. B : ouvert; lampe éteinte.",
+      "criteres": [
+        "Identifie A fermé et B ouvert",
+        "Explique la continuité ou la coupure",
+        "Ne présente pas une prédiction comme une observation"
+      ],
+      "feedback": "Suivre la ligne entière par le récepteur jusqu’à l’autre borne; repérer la coupure du commutateur.",
+      "difficulte": "initial",
+      "representation": "schéma annoté et justification",
+      "limites_variation": "Énoncé et schéma gelés; reformulation linguistique sans changement scientifique; pas de variation libre de source ou matériel.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite": "Lecture orale, gros caractères, pointage ou dictée d’une explication; toute démonstration réelle requiert supervision adulte."
+    },
+    {
+      "item_id": "qc-pri-st-010-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Sur la coupe décrite d’un fil, indique le conducteur utile et l’isolant, avec leur fonction.",
+      "stimulus": "Fil éducatif non branché : au centre une âme de cuivre; autour une gaine de plastique intacte.",
+      "reponse_attendue": "Cuivre : partie conductrice des liaisons. Plastique : isolant extérieur protecteur; il ne remplace pas le cuivre pour établir la liaison.",
+      "criteres": [
+        "Désigne l’âme métallique",
+        "Explique le rôle de la gaine sans confusion"
+      ],
+      "feedback": "Une gaine de fil ne sert pas de conducteur dans le montage.",
+      "difficulte": "initial",
+      "representation": "description d’objet et explication",
+      "limites_variation": "Énoncé et schéma gelés; reformulation linguistique sans changement scientifique; pas de variation libre de source ou matériel.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite": "Lecture orale, gros caractères, pointage ou dictée d’une explication; toute démonstration réelle requiert supervision adulte."
+    },
+    {
+      "item_id": "qc-pri-st-010-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les trois phrases en observation, prédiction ou inférence et explique une différence.",
+      "stimulus": "A. « Je vois la lampe allumée. » B. « Le circuit devrait éclairer quand on ferme. » C. « Le trajet était vraisemblablement continu pendant l’essai. »",
+      "reponse_attendue": "A : observation; B : prédiction; C : inférence. L’observation rapporte une trace déjà constatée; la prédiction précède le test; l’inférence propose une explication.",
+      "criteres": [
+        "Classe correctement les trois",
+        "Explique la distinction entre constat et interprétation"
+      ],
+      "feedback": "Ne transforme pas un événement prévu en événement constaté.",
+      "difficulte": "initial",
+      "representation": "classement écrit ou oral",
+      "limites_variation": "Énoncé et schéma gelés; reformulation linguistique sans changement scientifique; pas de variation libre de source ou matériel.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite": "Lecture orale, gros caractères, pointage ou dictée d’une explication; toute démonstration réelle requiert supervision adulte."
+    },
+    {
+      "item_id": "qc-pri-st-010-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-010-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Lis la fiche de situation contrôlée; indique l’état réel du circuit, la prédiction et la correction sûre.",
+      "stimulus": "Source 3 V et ampoule 3 V en série; l’interrupteur est fermé; tous les composants sont fonctionnels.",
+      "reponse_attendue": "Circuit fermé, ampoule allumée; ouvrir l’interrupteur interrompt le courant.",
+      "criteres": [
+        "Établit l’état à partir de tous les faits fournis",
+        "Prédit l’éclairage à conditions précisées",
+        "Propose un contrôle sans intervention dangereuse"
+      ],
+      "feedback": "Distinguer le bouton du reste du circuit; une liaison débranchée est une coupure même si le bouton est fermé.",
+      "difficulte": "intermediaire",
+      "representation": "fiche de scénario et dessin",
+      "limites_variation": "Choisir uniquement une variante du catalogue sous parametres; mêmes critères et matériel approuvé.",
+      "seed": 20261008,
+      "parametres": {
+        "variable": "etat",
+        "domaine": [
+          "ouvert",
+          "ferme",
+          "faux_contact"
+        ],
+        "catalogue": [
+          {
+            "code": "ouvert",
+            "stimulus": "Source 3 V et ampoule 3 V en série; l’interrupteur est ouvert; tous les autres composants sont fonctionnels.",
+            "solution": "Circuit ouvert, ampoule éteinte; fermer l’interrupteur serait la seule modification nécessaire."
+          },
+          {
+            "code": "ferme",
+            "stimulus": "Source 3 V et ampoule 3 V en série; l’interrupteur est fermé; tous les composants sont fonctionnels.",
+            "solution": "Circuit fermé, ampoule allumée; ouvrir l’interrupteur interrompt le courant."
+          },
+          {
+            "code": "faux_contact",
+            "stimulus": "Source 3 V et ampoule 3 V en série; interrupteur fermé, mais un fil a un connecteur débranché (photo de fiche seulement).",
+            "solution": "Circuit réellement ouvert au connecteur, ampoule éteinte; prévenir l’adulte et demander un contrôle hors tension."
+          }
+        ],
+        "regle_selection": "indice = seed % 3 dans le catalogue ordonné; sélectionner stimulus et solution de la même entrée; aucune autre substitution",
+        "indice_choisi": 1,
+        "contraintes": [
+          "kit 3 V nominal, ampoule 3 V",
+          "aucune expérience de panne volontaire",
+          "aucun court-circuit"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "accessibilite": "Lecture orale, gros caractères, pointage ou dictée d’une explication; toute démonstration réelle requiert supervision adulte."
+    },
+    {
+      "item_id": "qc-pri-st-010-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Dessine un trajet simple alimentant une ampoule 3 V au moyen d’un boîtier de deux piles AA et d’un interrupteur. Indique où couper sans risque.",
+      "stimulus": "Matériel sur papier : boîtier 3 V, ampoule 3 V avec douille, interrupteur et deux liaisons isolées.",
+      "reponse_attendue": "Schéma de boucle : (+) → interrupteur → ampoule → (−), sans dérivation directe; ouvrir le commutateur coupe le trajet. Le schéma peut être géométriquement différent si ses liaisons sont identiques.",
+      "criteres": [
+        "Deux bornes reliées uniquement via ampoule et interrupteur",
+        "Interrupteur identifié comme coupure",
+        "Aucun trajet de court-circuit proposé"
+      ],
+      "feedback": "Un schéma est correct par ses connexions, non par sa forme rectangulaire.",
+      "difficulte": "intermediaire",
+      "representation": "schéma original",
+      "limites_variation": "Énoncé et schéma gelés; reformulation linguistique sans changement scientifique; pas de variation libre de source ou matériel.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite": "Lecture orale, gros caractères, pointage ou dictée d’une explication; toute démonstration réelle requiert supervision adulte."
+    },
+    {
+      "item_id": "qc-pri-st-010-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Réagis au projet de raccorder directement les deux bornes du support par un fil sans récepteur : que décides-tu et pourquoi ?",
+      "stimulus": "Croquis barré : (+) ─────── (−), sans ampoule; proposition d’essai direct « très court ».",
+      "reponse_attendue": "Refuser même un essai court : un court-circuit peut causer un fort courant et une surchauffe. Avertir l’adulte; réaliser un circuit passant par l’ampoule avec le kit approuvé seulement après inspection.",
+      "criteres": [
+        "Refuse sans hésitation le branchement",
+        "Nomme court-circuit et risque",
+        "Propose recours à l’adulte et montage avec récepteur"
+      ],
+      "feedback": "Une absence de récepteur dans une connexion directe entre bornes est un danger, pas un test.",
+      "difficulte": "intermediaire",
+      "representation": "critique de croquis de sécurité",
+      "limites_variation": "Énoncé et schéma gelés; reformulation linguistique sans changement scientifique; pas de variation libre de source ou matériel.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite": "Lecture orale, gros caractères, pointage ou dictée d’une explication; toute démonstration réelle requiert supervision adulte."
+    },
+    {
+      "item_id": "qc-pri-st-010-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-010-ev-01",
+      "mode": "fixe",
+      "consigne": "Un schéma sur papier représente une boucle fermée passant par l’ampoule. La lampe ne s’allume pas lors d’un essai réel rapporté par l’enseignant. Donne deux hypothèses et une vérification sûre.",
+      "stimulus": "Observation rapportée : lampe éteinte; interrupteur dessiné fermé; statut du matériel inconnu.",
+      "reponse_attendue": "Pile épuisée, ampoule cassée ou mauvais contact possible; observation « éteinte » ne prouve pas ouverture. Demander à l’enseignant de contrôler le matériel hors tension et d’effectuer l’essai sûr.",
+      "criteres": [
+        "Ne conclut pas à une seule cause",
+        "Propose deux hypothèses compatibles",
+        "Confie contrôle au responsable"
+      ],
+      "feedback": "Un dessin fermé et une lampe éteinte peuvent être compatibles si un composant ne fonctionne pas.",
+      "difficulte": "intermediaire",
+      "representation": "raisonnement fondé sur une trace",
+      "limites_variation": "Énoncé et schéma gelés; reformulation linguistique sans changement scientifique; pas de variation libre de source ou matériel.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite": "Lecture orale, gros caractères, pointage ou dictée d’une explication; toute démonstration réelle requiert supervision adulte."
+    },
+    {
+      "item_id": "qc-pri-st-010-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-010-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Analyse cette commande du signal lumineux : explique la prédiction et la façon de modifier l’état du circuit sans changer de source.",
+      "stimulus": "Un bouton-poussoir normalement ouvert est relâché; le reste du circuit 3 V avec ampoule 3 V est fonctionnel.",
+      "reponse_attendue": "Circuit ouvert au bouton; lampe éteinte. Appuyer (avec supervision) fermerait momentanément le trajet.",
+      "criteres": [
+        "Identifie correctement position et état",
+        "Relie le changement de commande à la boucle",
+        "Garde les opérations dans le kit supervisé"
+      ],
+      "feedback": "Une commande ne fournit pas l’énergie : elle ouvre ou ferme le chemin.",
+      "difficulte": "transfert",
+      "representation": "description fonctionnelle de commande",
+      "limites_variation": "Choisir uniquement une variante du catalogue sous parametres; mêmes critères et matériel approuvé.",
+      "seed": 20261010,
+      "parametres": {
+        "variable": "commande",
+        "domaine": [
+          "poussoir_releve",
+          "poussoir_appuye",
+          "interrupteur_bascule"
+        ],
+        "catalogue": [
+          {
+            "code": "poussoir_releve",
+            "stimulus": "Un bouton-poussoir normalement ouvert est relâché; le reste du circuit 3 V avec ampoule 3 V est fonctionnel.",
+            "solution": "Circuit ouvert au bouton; lampe éteinte. Appuyer (avec supervision) fermerait momentanément le trajet."
+          },
+          {
+            "code": "poussoir_appuye",
+            "stimulus": "Un bouton-poussoir normalement ouvert est maintenu enfoncé; le reste du circuit est fonctionnel.",
+            "solution": "Circuit fermé pendant l’appui; lampe allumée. Relâcher coupe le trajet."
+          },
+          {
+            "code": "interrupteur_bascule",
+            "stimulus": "Un interrupteur à bascule est placé sur ARRÊT et coupe un des deux fils du circuit fonctionnel.",
+            "solution": "Circuit ouvert; lampe éteinte. Mettre sur MARCHE fermerait le trajet si tout reste fonctionnel."
+          }
+        ],
+        "regle_selection": "indice = seed % 3, catalogue ordonné, solution intégralement associée à sa variante, sans substitution de matériel",
+        "indice_choisi": 0,
+        "contraintes": [
+          "kit scolaire 3 V",
+          "aucune connexion libre aux bornes",
+          "commande électrique protégée"
+        ]
+      },
+      "validation_status": "a_revoir",
+      "accessibilite": "Lecture orale, gros caractères, pointage ou dictée d’une explication; toute démonstration réelle requiert supervision adulte."
+    },
+    {
+      "item_id": "qc-pri-st-010-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-010-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME E1 — Dessine la veilleuse du coin lecture, puis vérifie en présence de l’adulte les deux états du commutateur. Présente prédiction, observation et explication.",
+      "stimulus": "Coin lecture fictif. Kit prêt et inspecté par adulte : boîtier fermé de deux piles AA alcalines de 1,5 V (3 V nominal), ampoule incandescente 3 V en douille, interrupteur à bascule et fils à fiches isolées. Procédure : schéma initial avant toucher à la commande; essai « arrêt » puis « marche » si adulte autorise. Aucun dépannage par élève.",
+      "reponse_attendue": "Production attendue : schéma (+) → interrupteur à bascule → ampoule → (−); état ARRÊT = coupure et lampe attendue éteinte; état MARCHE = boucle fermée et lampe attendue allumée si kit sain. L’élève consigne les observations véritablement constatées (ou signale un échec/absence de test), puis explique. L’adulte inscrit gestes observés et incidents; pas de résultat inventé.",
+      "criteres": [
+        "Schéma nomme source, ampoule, commande et trajet complet par l’ampoule, sans liaison dangereuse.",
+        "Annonce avant test une prédiction exacte pour état fermé et état ouvert, conditionnée à du matériel fonctionnel.",
+        "Réalise ou dirige en sécurité deux états sur kit supervisé et consigne deux observations réelles sans les inventer.",
+        "Explique différence entre observation et interprétation; associe état du trajet et effet observé.",
+        "Suit protocole de sécurité, utilise les commandes prévues, sollicite l’adulte pour tout défaut."
+      ],
+      "feedback": "Si la lampe reste éteinte en état fermé, consigner le constat et demander à l’adulte de vérifier : ne pas affirmer que la boucle est ouverte.",
+      "difficulte": "transfert",
+      "representation": "schéma + manipulations supervisées + fiche de trace",
+      "limites_variation": "Énoncé et schéma gelés; reformulation linguistique sans changement scientifique; pas de variation libre de source ou matériel.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite": "Lecture orale, gros caractères, pointage ou dictée d’une explication; toute démonstration réelle requiert supervision adulte.",
+      "preuve_maitrise": {
+        "preuve": "E1",
+        "contexte": "coin lecture fictif",
+        "commande": "interrupteur à bascule",
+        "sans_indices_de_contenu": true,
+        "materiel": "kit vérifié par adulte",
+        "attestations": [
+          "deux essais observés",
+          "schéma autonome",
+          "justification autonome",
+          "sécurité"
+        ]
+      }
+    },
+    {
+      "item_id": "qc-pri-st-010-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-010-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME E2 — Prépare le schéma d’un signal lumineux pour une maquette d’atelier et vérifie le circuit au moyen d’un bouton-poussoir normalement ouvert, sous supervision. Explique deux états.",
+      "stimulus": "Atelier fictif de maquettes. Kit 3 V fourni/inspecté par adulte, douille avec ampoule incandescente nominale 3 V, fils isolés à fiches protégées et **bouton-poussoir normalement ouvert** préassemblé. Relâché = coupure; pressé = liaison. Tracer le schéma sans reprise du coin lecture. L’adulte installe les piles et autorise seulement l’usage du poussoir.",
+      "reponse_attendue": "Production attendue : boucle source → poussoir → ampoule → retour; poussoir relâché = circuit ouvert / lumière attendue absente; poussoir pressé = circuit fermé / lumière attendue si kit sain; observation des deux positions réellement consignée; justification du chemin et séparation du constat de la prédiction. L’élève ne débranche rien et refuse tout court-circuit.",
+      "criteres": [
+        "Schéma nomme source, ampoule, commande et trajet complet par l’ampoule, sans liaison dangereuse.",
+        "Annonce avant test une prédiction exacte pour état fermé et état ouvert, conditionnée à du matériel fonctionnel.",
+        "Réalise ou dirige en sécurité deux états sur kit supervisé et consigne deux observations réelles sans les inventer.",
+        "Explique différence entre observation et interprétation; associe état du trajet et effet observé.",
+        "Suit protocole de sécurité, utilise les commandes prévues, sollicite l’adulte pour tout défaut."
+      ],
+      "feedback": "Si tu n’as pas réellement observé la lumière, note « non testé »; une explication correcte ne transforme pas une simulation en preuve matérielle.",
+      "difficulte": "transfert",
+      "representation": "schéma + essai de commande adapté + explication",
+      "limites_variation": "Énoncé et schéma gelés; reformulation linguistique sans changement scientifique; pas de variation libre de source ou matériel.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "accessibilite": "Lecture orale, gros caractères, pointage ou dictée d’une explication; toute démonstration réelle requiert supervision adulte.",
+      "preuve_maitrise": {
+        "preuve": "E2",
+        "contexte": "signal d’atelier fictif",
+        "commande": "bouton-poussoir normalement ouvert",
+        "sans_indices_de_contenu": true,
+        "materiel": "kit vérifié par adulte",
+        "attestations": [
+          "deux essais observés",
+          "schéma autonome",
+          "justification autonome",
+          "sécurité"
+        ]
+      }
+    }
+  ]
+}

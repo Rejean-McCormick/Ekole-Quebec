@@ -1,0 +1,102 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-029",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Déterminer un volume par comptage ou structuration d’unités cubiques.",
+  "concepts": [
+    "espace occupé",
+    "cube unité",
+    "couche"
+  ],
+  "preuve_attendue": "Évaluer le volume d’un assemblage de cubes en montrant le comptage.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-022",
+    "qc-pri-ma-025"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-029-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Évaluer le volume d’un assemblage de cubes en montrant le comptage.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Uniquement formules et contraintes des items q-009 et q-010; L,P,H calcules par seed; aucune variation libre par IA.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_calculs_controles_revue_humaine_requise",
+      "kristal_id": "qc-pri-ma-029",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "cube unite tangible",
+        "grille de couches orientee",
+        "equation ou somme avec unite"
+      ],
+      "variables": {
+        "items_parametriques": [
+          "qc-pri-ma-029-q-009",
+          "qc-pri-ma-029-q-010"
+        ],
+        "parametres_entiers": "voir BANQUE_ITEMS.json",
+        "domaines": {
+          "L": [
+            2,
+            4
+          ],
+          "P": [
+            2,
+            3
+          ],
+          "H": [
+            2,
+            3
+          ]
+        },
+        "algorithme": "modulo et division entiere des seeds entiers; complet en q009, couches inegales en q010"
+      },
+      "contraintes": [
+        "Cubes de même arête dans chaque item",
+        "aucun chevauchement ni trou implicite",
+        "niveaux explicitement décrits",
+        "une place occupée = un cube unité",
+        "pas de tirage libre IA",
+        "vérification par comptage indépendant de positions",
+        "deux preuves autonomes contextuelles distinctes"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "unite",
+          "representation_complete",
+          "comptage_calcul_exact",
+          "justification_autonome"
+        ],
+        "regle": "chacune des preuves 009 et 010 doit atteindre les criteres essentiels; aucune moyenne globale"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": {
+        "q-009": 290038,
+        "q-010": 290035
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

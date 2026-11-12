@@ -1,0 +1,89 @@
+{
+  "format": "ekole.kristal-experience/2.0-proposition",
+  "kristal_id": "qc-pri-ad-001",
+  "statut": "prototype_revue_pedagogique_requise",
+  "alias_enfant": "Exprimer une intention par le théâtre",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Utiliser corps, voix et espace pour exprimer une intention théâtrale.",
+    "preuve_attendue": "Interpréter une consigne d’expression par deux moyens différents.",
+    "concepts": [
+      "geste",
+      "posture",
+      "voix",
+      "espace"
+    ],
+    "modules": [
+      "contenu/01_NOTIONS_ET_EXEMPLES.md",
+      "contenu/03_ENSEIGNEMENT_GUIDE.md",
+      "contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+      "contenu/05_PRATIQUE_AUTONOME.md",
+      "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    ]
+  },
+  "modalite_evaluation": "performance_observee",
+  "progression_enfant": {
+    "decouvrir": {
+      "titre_enfant": "Que veut dire le personnage ?",
+      "consigne_enfant": "Explore les intentions « inviter », « prévenir » et « chercher ». On peut les exprimer de plusieurs façons.",
+      "statut_validation": "Observation de choix d’expression",
+      "source_pedagogique": "contenu/03_ENSEIGNEMENT_GUIDE.md"
+    },
+    "essayer": {
+      "titre_enfant": "Crée une petite scène",
+      "consigne_enfant": "Choisis une intention; joue-la avec deux moyens différents : geste, posture, voix ou espace. Tu peux utiliser une figurine.",
+      "statut_validation": "Aucune correction automatique de la performance",
+      "source_pedagogique": "contenu/03_ENSEIGNEMENT_GUIDE.md"
+    },
+    "expliquer": {
+      "titre_enfant": "Qu’est-ce qui fait comprendre ?",
+      "consigne_enfant": "Nomme les deux moyens choisis et explique comment ils font comprendre l’intention du personnage.",
+      "statut_validation": "Grille humaine centrée sur indices observables",
+      "source_pedagogique": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    },
+    "explorer": {
+      "titre_enfant": "Change le moyen, garde l’intention",
+      "consigne_enfant": "Rejoue la même intention avec un autre geste, une voix différente ou un trajet nouveau.",
+      "statut_validation": "Création et transfert libre",
+      "source_pedagogique": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    }
+  },
+  "outils_interactifs": [],
+  "preuves_de_maitrise": {
+    "source": "evaluation/BANQUE_ITEMS.json",
+    "remplacee_par_atelier": false,
+    "decision": "revue_humaine_requise",
+    "commentaire": "Les mini-environnements ne remplacent pas les preuves source."
+  },
+  "difficultes_a_observer": [
+    "Confond le geste avec l’intention à communiquer",
+    "Utilise un seul moyen alors que deux sont attendus",
+    "Ne tient pas compte de la sécurité, du confort et de l’espace partagé"
+  ],
+  "consignes_enseignant": [
+    "Offrir les modalités debout, assis, avec figurines, avec gestes minimaux ou avec voix assistée.",
+    "Observer l’intention exprimée et deux moyens distincts, sans juger la personnalité ni l’émotion réelle de l’enfant.",
+    "Garder les rétroactions descriptives plutôt que des jugements de valeur."
+  ],
+  "erreurs_et_relances": [
+    {
+      "observation": "Un seul moyen",
+      "relance": "Demander « peux-tu ajouter un moyen différent sans changer l’intention ? »"
+    },
+    {
+      "observation": "Intention indistincte",
+      "relance": "Faire choisir entre deux intentions, puis proposer un indice observable"
+    },
+    {
+      "observation": "Inconfort",
+      "relance": "Réduire l’amplitude du mouvement ou utiliser une figurine et un espace sûr"
+    }
+  ],
+  "limitations": [
+    "L’IA ne doit ni noter la voix, ni inférer une émotion réelle à partir du visage ou du corps.",
+    "Ne pas demander d’enregistrement, de caméra ni de prestation publique pour réussir."
+  ],
+  "politique_visuelle": "Description de concept seulement; aucun style imposé; un fichier absent affiche son prompt.",
+  "provenance": "Projet de refonte fondé sur les modules source du Kristal; pas une approbation institutionnelle."
+}

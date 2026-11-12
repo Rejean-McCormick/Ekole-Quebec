@@ -1,0 +1,166 @@
+{
+  "format": "ekole.activity/1",
+  "id": "lumiere-et-energie",
+  "revision": 1,
+  "status": "local_demo",
+  "model": "questions",
+  "course": {
+    "id": "qc-pri-st-008",
+    "objective": "obj-1",
+    "sha256": "sha256:634476797bbde1ebfe2ccb24e27ff601a51caab98ef1a6a50b4f5c26c6ad121f"
+  },
+  "scenario": {
+    "id": "lumiere-et-energie",
+    "version": "1.0.0",
+    "step": "essai",
+    "sha256": "sha256:78338f6566e811318cbbddda017a61d9a76e1334c94609b692134480629f69cb"
+  },
+  "trame": "lumiere-et-couleurs",
+  "tasks": {
+    "pratique": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "a"
+          ]
+        }
+      ]
+    },
+    "bilan": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "single_choice",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_ids": [
+            "b"
+          ]
+        },
+        {
+          "id": "expliquer",
+          "kind": "rubric",
+          "criteria": {
+            "preuve": 1
+          }
+        }
+      ]
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "review": "La justification sera lue par une personne.",
+      "title": "Une lampe et ses effets",
+      "objective": "Repère une source d’énergie et décris un effet observé.",
+      "prerequisite": "Décrire ce qui change lorsqu’un objet est allumé.",
+      "context": "Mila allume une petite lampe de poche à piles et voit une tache de lumière sur le mur.",
+      "group": "Nomme ce qui alimente la lampe.",
+      "compare": "Distingue ce qui fournit l’énergie de l’effet visible.",
+      "reflection": "Que peux-tu observer si tu éteins la lampe ?",
+      "transfer": "Un petit ventilateur à piles est arrêté. On l’allume et ses pales se mettent à tourner.",
+      "subtitle": "Activité de découverte",
+      "heading": "Une lampe et ses effets",
+      "correct": "Ta réponse correspond à la situation.",
+      "incorrect": "Relis les données de la situation et compare les possibilités.",
+      "next": "Distingue ce qui fournit l’énergie de l’effet visible.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Quel effet peut-on observer directement ?",
+            "options": {
+              "a": "Une tache de lumière apparaît sur le mur.",
+              "b": "Les piles grossissent visiblement.",
+              "c": "Le mur produit les piles."
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Quel effet observe-t-on lorsque le ventilateur est allumé ?",
+            "options": {
+              "a": "La pièce s’éclaire grâce aux pales.",
+              "b": "Les pales se mettent à tourner.",
+              "c": "Les piles se déplacent autour des pales."
+            }
+          },
+          "expliquer": {
+            "prompt": "Nomme ce qui alimente le ventilateur et décris l’effet observé.",
+            "criteria": {
+              "preuve": "La réponse identifie les piles et le mouvement observable des pales."
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "limits": "Local demonstration activity for review before classroom use.",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "review": "Someone will review your explanation.",
+      "title": "A torch and its effects",
+      "objective": "Identify an energy source and describe an observed effect.",
+      "prerequisite": "Describe what changes when an object is switched on.",
+      "context": "Mila switches on a small battery-powered torch and sees a patch of light on the wall.",
+      "group": "Name what powers the torch.",
+      "compare": "Distinguish what provides energy from the visible effect.",
+      "reflection": "What can you observe if you switch the torch off?",
+      "transfer": "A small battery-powered fan is stopped. When it is switched on, its blades start turning.",
+      "subtitle": "Discovery activity",
+      "heading": "A torch and its effects",
+      "correct": "Your answer fits the situation.",
+      "incorrect": "Read the situation again and compare the options.",
+      "next": "Distinguish what provides energy from the visible effect.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Which effect can be observed directly?",
+            "options": {
+              "a": "A patch of light appears on the wall.",
+              "b": "The batteries visibly grow bigger.",
+              "c": "The wall produces batteries."
+            }
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "What effect do you observe when the fan is switched on?",
+            "options": {
+              "a": "The room lights up because of the blades.",
+              "b": "The blades start turning.",
+              "c": "The batteries move around the blades."
+            }
+          },
+          "expliquer": {
+            "prompt": "Name what powers the fan and describe the observed effect.",
+            "criteria": {
+              "preuve": "The response identifies the batteries and the observable movement of the blades."
+            }
+          }
+        }
+      }
+    }
+  }
+}

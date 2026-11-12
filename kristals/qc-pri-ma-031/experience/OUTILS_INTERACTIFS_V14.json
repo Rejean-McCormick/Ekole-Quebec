@@ -1,0 +1,21 @@
+{
+  "format": "ekole.kristal-interactions/1.0",
+  "kristal_id": "qc-pri-ma-031",
+  "cours_annee_proposee": 3,
+  "annee_statut": "proposition_non_validee",
+  "etat": "proposition_non_validee",
+  "activites": [
+    {
+      "id": "diagramme-lectures",
+      "type": "diagramme",
+      "competence_ciblee": "Interpréter un diagramme et comparer les données",
+      "usage": "entrainement_non_certifiant"
+    },
+    {
+      "id": "diagramme-sports",
+      "type": "diagramme",
+      "competence_ciblee": "Faire parler un tableau de données",
+      "usage": "entrainement_non_certifiant"
+    }
+  ]
+}

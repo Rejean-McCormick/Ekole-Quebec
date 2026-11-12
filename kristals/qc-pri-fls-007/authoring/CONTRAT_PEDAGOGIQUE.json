@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Réinvestir en situation nouvelle des informations lues ou entendues.",
+  "concepts": [
+    "sélection",
+    "reformulation",
+    "transfert"
+  ],
+  "preuve_attendue": "Préparer une consigne ou présentation à partir de deux messages.",
+  "prerequis_bloquants": [
+    "qc-pri-fls-001"
+  ],
+  "ordre_conseille": [
+    "qc-pri-fls-006"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-007-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Préparer une consigne ou présentation à partir de deux messages.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Corpus fixe validable de 10 paires écrit/oral; seules adaptations matérielles et modes de réponse sans altérer les faits ni le corrigé.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_operatoire": "fixe_controle; pas de texte ou corrigé produit aléatoirement"
+      },
+      "review_status": "banque_redigee_revision_humaine_requise",
+      "kristal_id": "qc-pri-fls-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "message écrit A",
+        "message oral B : script lu identiquement par l’adulte",
+        "consigne ou présentation produite oralement, par écrit ou avec outil de communication"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "corpus_ferme": "10 paires A/B originales documentées dans la banque",
+        "generation_aleatoire": false,
+        "adaptations": [
+          "taille du texte",
+          "répétition du script oral à l’identique",
+          "temps supplémentaire",
+          "réponse dictée ou orale ou écrite"
+        ]
+      },
+      "contraintes": [
+        "Deux messages réellement distincts pour chaque tâche",
+        "faits vérifiables directement dans les stimuli",
+        "aucune invention ou inversion de données",
+        "reformulation adaptée à un public fictif",
+        "deux manifestations de maîtrise dans des contextes distincts",
+        "aucune pénalité sur accent légitime ou vitesse d’écriture",
+        "aides d’accès non directives seulement lors des épreuves"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "echelle": "0 non observé / 1 partiel / 2 démontré",
+        "criteres": [
+          "S sélection des deux messages",
+          "F fidélité factuelle",
+          "R reformulation intelligible",
+          "T transfert au destinataire",
+          "A autonomie et traçabilité"
+        ],
+        "seuil": "S=F=R=T=A=2 à q-009 ET q-010; aucune moyenne compensatoire"
+      },
+      "source": [
+        "gouvernance et sources internes v1.2 réellement lues",
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

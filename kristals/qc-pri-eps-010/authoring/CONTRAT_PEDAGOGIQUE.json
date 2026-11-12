@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-010",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Planifier des occasions d’activité physique variées et réalistes.",
+  "concepts": [
+    "routine active",
+    "motivation",
+    "contexte",
+    "continuité"
+  ],
+  "preuve_attendue": "Élaborer un plan hebdomadaire flexible d’activités plaisantes.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-eps-009",
+    "qc-pri-eps-011"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-010-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Élaborer un plan hebdomadaire flexible d’activités plaisantes.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "a_revoir",
+      "kristal_id": "qc-pri-eps-010",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Élaborer un plan hebdomadaire flexible d’activités plaisantes.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "calendrier de sept jours",
+        "cartes activité / moment / lieu / plan B",
+        "fiche de situation fictive",
+        "explication dictée ou écrite"
+      ],
+      "variables": {
+        "mode": "corpus_ferme",
+        "items_fixes": [
+          "q-001",
+          "q-002",
+          "q-003",
+          "q-004",
+          "q-005",
+          "q-006",
+          "q-008",
+          "q-009",
+          "q-010",
+          "q-011",
+          "q-012"
+        ],
+        "items_scenarios_controles": [
+          "q-007"
+        ],
+        "aucune_variation_libre": true
+      },
+      "contraintes": [
+        "tous les contextes et équipements entièrement explicités et fictifs",
+        "aucune collecte de données médicales, familiales ou corporelles",
+        "sécurité, surveillance, accessibilité et adaptations explicites",
+        "deux plans autonomes dans deux contextes différents q-011 et q-012",
+        "aucune note liée à capacité physique, intensité atteinte ou nombre de minutes",
+        "aucune génération IA libre en passation",
+        "les jours libres ou de repos restent acceptables"
+      ],
+      "barreme_ou_rubrique": "Quatre dimensions 0–2 (organisation réaliste, variété/motivation explicite, flexibilité, sécurité/accessibilité); deux preuves distinctes sans indices; chaque dimension >=1, réalisme et sécurité à 2, ajustement justifié sur chaque preuve; pas de moyenne compensatoire.",
+      "source": "Frame v1.2 qc-pri-eps-010 + dossiers pédagogiques originaux dans contenu/ et evaluation/BANQUE_ITEMS.json; sources/REFERENCES_CONTENU.md",
+      "seed": "EPS010-CORPUS-V1-20261008",
+      "validation_status": "a_revoir",
+      "preuve_ids": [
+        "qc-pri-eps-010-q-011",
+        "qc-pri-eps-010-q-012"
+      ],
+      "variation_regle": "q-007 : sélectionner A ou B parmi deux variantes intégralement documentées, avec clé d’exemple déterministe et aucun tirage libre",
+      "securite_et_accessibilite": "Pas d’exécution physique requise; activités adaptées et surveillées, réponses orales ou écrites équivalentes."
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

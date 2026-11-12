@@ -1,0 +1,74 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-010",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Construire un circuit très simple et distinguer circuit fermé et ouvert.",
+  "concepts": [
+    "composant",
+    "conducteur",
+    "circuit",
+    "sécurité"
+  ],
+  "preuve_attendue": "Dessiner puis vérifier le fonctionnement d’un montage à basse tension.",
+  "prerequis_bloquants": [
+    "qc-pri-st-008"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-010-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Dessiner puis vérifier le fonctionnement d’un montage à basse tension.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Catalogue contrôlé d’états ouvert/fermé, implantations fictives; aucune variation libre de composants, puissance ou tension.",
+        "interdiction": "Aucun court-circuit à réaliser; aucune source secteur, pile bouton ou pile lithium; aucun corrigé génératif non vérifié.",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_revue_humaine_requise",
+      "kristal_id": "qc-pri-st-010",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 : Dessiner puis vérifier le fonctionnement d’un montage à basse tension.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "schéma de boucle légendé",
+        "tableau prédiction-observation-inférence",
+        "manipulation supervisée ou adaptation équivalente"
+      ],
+      "variables": {
+        "scenarios_autorises": [
+          "interrupteur_ferme",
+          "interrupteur_ouvert",
+          "fil_debranche"
+        ],
+        "selection": "index = seed % 3; ordre fixe; sous-ensembles explicités par item; ne modifier ni composant nominal ni résultat attendu",
+        "parametrisation_libre": false
+      },
+      "contraintes": [
+        "Deux piles AA dans un boîtier, posées uniquement par un adulte; 3 V nominal.",
+        "Lampe miniature incandescente nominale 3 V, kit électrique approuvé par l’enseignant.",
+        "Aucune connexion directe des deux bornes; aucun secteur ni pile bouton; supervision systématique.",
+        "Toute simulation est identifiée comme telle."
+      ],
+      "barreme_ou_rubrique": "Cinq critères observables par preuve : schéma du trajet, prédiction, double test, distinction constat/inférence, sécurité; seuils non compensatoires dans GRILLE_MAITRISE.md.",
+      "source": [
+        "workspace v1.2 / authoring/PARCOURS.md",
+        "Science Buddies, Which Materials are the Best Conductors? (consulté 2026-10-08)",
+        "Santé Canada, Battery safety tips (consulté 2026-10-08)"
+      ],
+      "seed": 10010,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_reviser",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

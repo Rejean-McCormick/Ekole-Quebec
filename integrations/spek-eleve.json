@@ -1,0 +1,38 @@
+{
+  "format": "ekole.spek-preview/1",
+  "titre": "Petits défis — 3e année",
+  "statut": "pilote_non_valide",
+  "avertissement": "Fiche expérimentale adaptée aux élèves. Son contenu doit être relu par un enseignant.",
+  "semaines": [
+    {
+      "id": "defi-groupes-3e",
+      "titre": "Le défi des boîtes de jetons",
+      "type": "learning-path",
+      "objectif": [
+        "Je représente des groupes égaux pour trouver combien il y a de jetons."
+      ],
+      "prerequis": [
+        "Je peux compter jusqu’à 20 et faire de petites additions."
+      ],
+      "etapes": [
+        "Dessine trois boîtes.",
+        "Dessine quatre jetons dans chaque boîte.",
+        "Compte les jetons et compare deux façons de trouver le total.",
+        "Explique ta méthode avec tes mots."
+      ],
+      "reflexion": [
+        "Qu’est-ce qui change si j’ajoute une boîte ?"
+      ],
+      "limites": [
+        "Cette fiche est un essai. Elle n’est pas encore validée pour un usage en classe."
+      ],
+      "correspondances": [
+        {
+          "id": "qc-pri-ma-008",
+          "notion": "Groupes égaux",
+          "dans_parcours_3e": true
+        }
+      ]
+    }
+  ]
+}

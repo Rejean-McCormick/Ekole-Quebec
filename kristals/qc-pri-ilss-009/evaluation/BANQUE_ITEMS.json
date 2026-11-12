@@ -1,0 +1,378 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ilss-009",
+  "family_id": "qc-pri-ilss-009-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "type_evaluation": "observation_ou_production",
+  "consigne_generale": "Toutes les situations sont fictives; les règles et soutiens indiqués dans le stimulus sont les seuls attendus. Modalités de réponse équivalentes admises. Aucune expérience personnelle requise.",
+  "items": [
+    {
+      "item_id": "qc-pri-ilss-009-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans ce cas fictif, indique ce qui est une règle et ce qui est une procédure. Explique ton choix.",
+      "stimulus": "Carte de classe : « Pendant une présentation, on laisse la personne terminer sa phrase. Pour ranger une affiche, on lit son étiquette puis on la dépose dans le bac indiqué. »",
+      "reponse_attendue": "Règle : laisser la personne terminer sa phrase pendant une présentation; procédure : lire l’étiquette, puis déposer l’affiche dans le bac indiqué. Justification : attente commune vs étapes ordonnées.",
+      "criteres": [
+        "distingue attente et étapes",
+        "associe chaque énoncé à la bonne notion",
+        "justifie par la fonction de l’énoncé"
+      ],
+      "feedback": "Si tu as classé la suite des deux gestes comme règle, demande-toi : est-ce une attente constante ou une série d’étapes?",
+      "difficulte": "initial",
+      "representation": "texte_plus_carte_locale",
+      "variation_admissible": "Situation fixée; accepter des gestes, pictogrammes ordonnés, oral, écrit ou toute langue accessible si la démarche observable reste équivalente; ne pas changer la règle locale du cas.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Quelle ressource l’élève peut-il utiliser? Montre ou explique un geste de demande d’aide.",
+      "stimulus": "Au cours d’un bricolage fictif, Anou ne comprend pas la deuxième étape. L’enseignante a affiché les étapes et mis une carte « AIDE » sur les tables.",
+      "reponse_attendue": "Regarder/montrer l’affiche des étapes; si elle ne suffit pas, montrer la carte AIDE à l’enseignante ou lui désigner l’étape incomprise. Aucun français élaboré requis.",
+      "criteres": [
+        "nomme ou montre au moins un soutien disponible",
+        "propose une demande observable",
+        "ne transforme pas le manque de vocabulaire en interdiction d’aider"
+      ],
+      "feedback": "Les ressources pertinentes sont dans le cas : affiche, carte AIDE et enseignante. Les montrer suffit à manifester le besoin.",
+      "difficulte": "initial",
+      "representation": "situation_plus_pictogramme_decrit",
+      "variation_admissible": "Situation fixée; accepter des gestes, pictogrammes ordonnés, oral, écrit ou toute langue accessible si la démarche observable reste équivalente; ne pas changer la règle locale du cas.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour chaque situation, indique ce que fait l’élève en premier et pourquoi.",
+      "stimulus": "Règle annoncée : « Pendant une présentation, on attend son tour pour une question courante; danger ou blessure → prévenir l’adulte immédiatement. » a) Jo veut poser une question ordinaire. b) Jo aperçoit une personne blessée.",
+      "reponse_attendue": "a) Respecter le tour annoncé ou signaler une question à poser. b) Prévenir aussitôt l’adulte responsable; une urgence n’attend pas le tour. Priorité à la sécurité.",
+      "criteres": [
+        "distingue demande ordinaire et situation risquée",
+        "alerte immédiatement l’adulte pour la blessure",
+        "explique la priorité de sécurité"
+      ],
+      "feedback": "Une règle d’échange ordinaire a une exception explicite de sécurité. Réessaie avec les deux images contrastées.",
+      "difficulte": "initial",
+      "representation": "deux_vignettes_orales",
+      "variation_admissible": "Situation fixée; accepter des gestes, pictogrammes ordonnés, oral, écrit ou toute langue accessible si la démarche observable reste équivalente; ne pas changer la règle locale du cas.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Propose une coopération respectueuse, puis explique quoi faire si l’équipe ne trouve pas d’accord.",
+      "stimulus": "L’équipe prépare une affiche. La règle locale dit « les rôles se choisissent ensemble ». Une personne veut dessiner et une autre aussi. Un adulte peut aider à discuter des rôles.",
+      "reponse_attendue": "Proposer plusieurs rôles ou un partage du dessin, demander l’accord de chacun; si désaccord persiste, demander l’aide de l’adulte. Ne pas imposer un rôle ni prendre un objet personnel sans permission.",
+      "criteres": [
+        "propose une action utile",
+        "respecte la possibilité de refus ou de négociation",
+        "identifie l’adulte comme soutien en cas de blocage"
+      ],
+      "feedback": "Coopérer consiste à chercher un accord, pas à forcer un partenaire. Essaie une proposition et une question respectueuse.",
+      "difficulte": "initial",
+      "representation": "dialogue_fictif",
+      "variation_admissible": "Situation fixée; accepter des gestes, pictogrammes ordonnés, oral, écrit ou toute langue accessible si la démarche observable reste équivalente; ne pas changer la règle locale du cas.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique les étapes adéquates et distingue une règle de la procédure.",
+      "stimulus": "Atelier fictif : règle « ne pas prendre les ciseaux personnels d’autrui sans accord ». Procédure en cas de manque de ciseaux communs : « vérifier le bac → avertir l’adulte → continuer une autre étape autorisée ». Les ciseaux communs manquent.",
+      "reponse_attendue": "Vérifier le bac, avertir l’adulte, poursuivre une partie autorisée; ne pas prendre les ciseaux personnels sans accord. La règle protège les affaires; la procédure décrit les étapes de dépannage.",
+      "criteres": [
+        "retrouve et applique la règle locale",
+        "respecte l’ordre des étapes",
+        "choisit l’adulte comme soutien",
+        "justifie l’accord nécessaire"
+      ],
+      "feedback": "Vérifie que tu as séparé la règle (attente) des étapes (procédure).",
+      "difficulte": "intermediaire",
+      "representation": "liste_ordonnée_et_situation",
+      "variation_admissible": "Situation fixée; accepter des gestes, pictogrammes ordonnés, oral, écrit ou toute langue accessible si la démarche observable reste équivalente; ne pas changer la règle locale du cas.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Que faut-il faire quand l’information de l’affiche n’est pas comprise? Explique pourquoi tu ne peux pas deviner.",
+      "stimulus": "À la bibliothèque fictive, la consigne de retour est montrée par un pictogramme et expliquée par l’adulte de service. Lou ne comprend pas le pictogramme.",
+      "reponse_attendue": "Montrer le livre et le pictogramme à l’adulte de service, demander l’explication de la procédure et suivre l’indication reçue; le cas ne donne pas la signification du pictogramme, donc une réponse précise sur le bac serait inventée.",
+      "criteres": [
+        "repère l’information manquante",
+        "désigne le soutien disponible",
+        "refuse d’inventer une consigne absente"
+      ],
+      "feedback": "La signification du pictogramme n’est pas donnée. La bonne démarche est de vérifier auprès de la personne responsable.",
+      "difficulte": "intermediaire",
+      "representation": "pictogramme_decrit",
+      "variation_admissible": "Situation fixée; accepter des gestes, pictogrammes ordonnés, oral, écrit ou toute langue accessible si la démarche observable reste équivalente; ne pas changer la règle locale du cas.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne une conduite possible de chacun des élèves et identifie ce qui relève de la coopération.",
+      "stimulus": "Trois enfants préparent une carte collective. L’un lit, le deuxième découpe; le troisième ne sait pas quelle tâche prendre. Le groupe peut décider les rôles avec accord; un adulte est disponible.",
+      "reponse_attendue": "Proposer au troisième de choisir une contribution (mettre les éléments en ordre, dessiner, vérifier), demander son accord et celui du groupe; un adulte peut aider si le groupe ne décide pas. Raison : chacun peut contribuer sans tâche imposée.",
+      "criteres": [
+        "propose une contribution concrète",
+        "recherche l’accord",
+        "identifie une ressource en cas de blocage"
+      ],
+      "feedback": "Répartir n’est pas imposer. Une bonne réponse prévoit une proposition et la possibilité de demander de l’aide.",
+      "difficulte": "intermediaire",
+      "representation": "courte_scenette",
+      "variation_admissible": "Situation fixée; accepter des gestes, pictogrammes ordonnés, oral, écrit ou toute langue accessible si la démarche observable reste équivalente; ne pas changer la règle locale du cas.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique quelle action convient maintenant et qui peut aider, puis quelle procédure ordinaire reprendra ensuite.",
+      "stimulus": "Dans un couloir fictif, Maé voit de l’eau renversée sur le plancher, à un endroit passant. L’école a annoncé « signaler immédiatement une situation dangereuse à l’adulte responsable ». Une affiche ordinaire dit aussi de marcher calmement.",
+      "reponse_attendue": "Éviter la zone et prévenir immédiatement l’adulte responsable, sans tenter de nettoyer seul; reprendre ensuite la marche selon la règle ordinaire seulement quand la situation est sécurisée par l’adulte.",
+      "criteres": [
+        "signale le danger immédiatement à un adulte",
+        "évite une intervention risquée",
+        "distingue sécurité et routine"
+      ],
+      "feedback": "Le danger passe avant la routine; c’est à l’adulte de prendre en charge le risque.",
+      "difficulte": "intermediaire",
+      "representation": "scenario_securite",
+      "variation_admissible": "Situation fixée; accepter des gestes, pictogrammes ordonnés, oral, écrit ou toute langue accessible si la démarche observable reste équivalente; ne pas changer la règle locale du cas.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique comment obtenir de l’aide quand on ne connaît pas les mots français nécessaires.",
+      "stimulus": "Durant un atelier fictif, le tableau indique « besoin d’aide → montrer le pictogramme AIDE ou faire signe à l’adulte ». Zoé ne sait pas comment expliquer sa question en français.",
+      "reponse_attendue": "Montrer le pictogramme AIDE, pointer la tâche ou faire signe à l’adulte; accepter une formulation en autre langue ou un geste. L’objectif est l’accès à une ressource, non la correction linguistique.",
+      "criteres": [
+        "identifie l’outil d’aide prévu",
+        "exécute ou décrit un geste pertinent",
+        "explique que l’accès n’exige pas une phrase française parfaite"
+      ],
+      "feedback": "Une demande d’aide peut se faire autrement qu’avec une phrase complète. Ce qui compte est de choisir un soutien pertinent.",
+      "difficulte": "intermediaire",
+      "representation": "icone_et_geste",
+      "variation_admissible": "Situation fixée; accepter des gestes, pictogrammes ordonnés, oral, écrit ou toute langue accessible si la démarche observable reste équivalente; ne pas changer la règle locale du cas.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare les deux contextes : quelle ressource consulter dans chacun et pour quelle raison?",
+      "stimulus": "a) En atelier, l’étiquette d’un bac collectif est inconnue; l’enseignante peut expliquer les bacs. b) À la bibliothèque, une affiche de retour est floue; l’adulte de bibliothèque peut en expliquer le sens. Aucune étiquette précise n’est fournie.",
+      "reponse_attendue": "a) Montrer le bac/objet à l’enseignante. b) Montrer le livre/affiche à l’adulte de bibliothèque. Dans les deux cas, vérifier la procédure auprès de l’adulte désigné plutôt que prétendre connaître les étiquettes.",
+      "criteres": [
+        "choisit une aide située dans chaque lieu",
+        "adapte sa réponse à la ressource disponible",
+        "justifie le besoin de vérifier une information absente"
+      ],
+      "feedback": "Le bon rôle d’aide dépend du lieu; les étiquettes ne sont pas connues dans le cas.",
+      "difficulte": "transfert",
+      "representation": "comparaison_de_deux_contextes",
+      "variation_admissible": "Situation fixée; accepter des gestes, pictogrammes ordonnés, oral, écrit ou toute langue accessible si la démarche observable reste équivalente; ne pas changer la règle locale du cas.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sans indice de décision, explique ou montre : (1) une règle ou procédure pertinente du cas; (2) ce que tu ferais en premier et ensuite; (3) où et comment obtenir de l’aide; (4) comment tu coopérerais sans imposer un choix. Explique pourquoi. Tu peux utiliser la parole, un geste, des images ordonnées ou une langue dans laquelle tu peux exprimer l’idée.",
+      "stimulus": "Atelier de sciences fictif : la règle locale dit « les outils collectifs restent sur la table ». Si le matériel collectif manque, l’affiche indique « vérifier la boîte → prévenir l’adulte de l’atelier → préparer une autre étape permise ». Le groupe n’a plus de règles graduées.",
+      "reponse_attendue": "Indiquer la règle sur les outils collectifs; vérifier la boîte, prévenir l’adulte, avancer une autre étape permise; proposer une répartition des tâches avec accord. Justifier sans prendre un outil privé ni inventer des étapes.",
+      "criteres": [
+        "repère correctement l’attente et/ou la procédure annoncée dans le cas (R)",
+        "désigne le soutien pertinent et décrit une demande observable (S)",
+        "propose une action faisable et justifiée sans inventer une règle absente (A)",
+        "décrit une coopération avec accord si applicable (C)"
+      ],
+      "feedback": "Si les faits du cas sont oubliés : relire la carte *après* la première observation, puis refaire sur une variante non administrée. Si une règle est inventée : souligner la donnée manquante et faire chercher le soutien annoncé. Ne pas réduire le score pour la modalité ou le français.",
+      "difficulte": "transfert",
+      "representation": "scenario_carte_locale_plus_oral_geste_pictogrammes",
+      "contexte_maitrise": "atelier de production collective",
+      "variation_admissible": "Deux variantes A/B uniquement, fermées et documentées. Aucune substitution externe, aucune génération IA libre. Réponses équivalentes admises si elles respectent les indices locaux, l’accès à l’aide, la sécurité et l’accord.",
+      "seed": 31010,
+      "parametres": {
+        "variables": {
+          "variante": [
+            "A",
+            "B"
+          ]
+        },
+        "domaine": {
+          "seed_min": 0,
+          "seed_max": 999999,
+          "type": "entier_non_negatif"
+        },
+        "algorithme": "variante = A si seed % 2 == 0, sinon B; injecter intégralement texte et corrigé de variantes[variante]; aucune autre permutation autorisée",
+        "contraintes": [
+          "respecter la carte locale de la variante sélectionnée",
+          "informations absentes non inférées",
+          "aucun danger introduit",
+          "une ressource adulte explicitement disponible",
+          "différences de langue non évaluées"
+        ],
+        "variantes": {
+          "A": {
+            "texte": "Atelier de sciences fictif : la règle locale dit « les outils collectifs restent sur la table ». Si le matériel collectif manque, l’affiche indique « vérifier la boîte → prévenir l’adulte de l’atelier → préparer une autre étape permise ». Le groupe n’a plus de règles graduées.",
+            "corrige": "Indiquer la règle sur les outils collectifs; vérifier la boîte, prévenir l’adulte, avancer une autre étape permise; proposer une répartition des tâches avec accord. Justifier sans prendre un outil privé ni inventer des étapes."
+          },
+          "B": {
+            "texte": "Atelier de maquettes fictif : la règle locale dit « demander avant de déplacer le matériel d’une autre équipe ». Si la colle collective manque, la carte indique « consulter le bac commun → prévenir la personne responsable → organiser une autre partie du projet ». Le groupe n’a plus de colle.",
+            "corrige": "Appliquer la règle concernant l’autre équipe; consulter le bac commun, prévenir la personne responsable, proposer une autre partie du projet et un partage des rôles accepté. Ne pas prendre un objet non autorisé."
+          }
+        },
+        "variante_selectionnee": "A",
+        "validation_exemples": [
+          {
+            "seed": 31010,
+            "variante_attendue": "A",
+            "corrige_attendu": "Indiquer la règle sur les outils collectifs; vérifier la boîte, prévenir l’adulte, avancer une autre étape permise; proposer une répartition des tâches avec accord. Justifier sans prendre un outil privé ni inventer des étapes."
+          },
+          {
+            "seed": 31013,
+            "variante_attendue": "B",
+            "corrige_attendu": "Appliquer la règle concernant l’autre équipe; consulter le bac commun, prévenir la personne responsable, proposer une autre partie du projet et un partage des rôles accepté. Ne pas prendre un objet non autorisé."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ilss-009-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ilss-009-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sans indice de décision, explique ou montre : (1) une règle ou procédure pertinente du cas; (2) ce que tu ferais en premier et ensuite; (3) où et comment obtenir de l’aide; (4) comment tu coopérerais sans imposer un choix. Explique pourquoi. Tu peux utiliser la parole, un geste, des images ordonnées ou une langue dans laquelle tu peux exprimer l’idée.",
+      "stimulus": "Bibliothèque mobile fictive : une consigne de prêt est indiquée avec un pictogramme inconnu. La fiche locale annonce « l’animatrice explique la fiche et confirme les étapes ». Une partenaire veut repartir tout de suite avec le livre.",
+      "reponse_attendue": "Montrer le pictogramme à l’animatrice et demander les étapes, les suivre avant de partir avec le livre; proposer à la partenaire de vérifier ensemble; ne pas inventer la procédure.",
+      "criteres": [
+        "repère correctement l’attente et/ou la procédure annoncée dans le cas (R)",
+        "désigne le soutien pertinent et décrit une demande observable (S)",
+        "propose une action faisable et justifiée sans inventer une règle absente (A)",
+        "décrit une coopération avec accord si applicable (C)"
+      ],
+      "feedback": "Si les faits du cas sont oubliés : relire la carte *après* la première observation, puis refaire sur une variante non administrée. Si une règle est inventée : souligner la donnée manquante et faire chercher le soutien annoncé. Ne pas réduire le score pour la modalité ou le français.",
+      "difficulte": "transfert",
+      "representation": "scenario_carte_locale_plus_oral_geste_pictogrammes",
+      "contexte_maitrise": "bibliothèque et emprunt de livres",
+      "variation_admissible": "Deux variantes A/B uniquement, fermées et documentées. Aucune substitution externe, aucune génération IA libre. Réponses équivalentes admises si elles respectent les indices locaux, l’accès à l’aide, la sécurité et l’accord.",
+      "seed": 31013,
+      "parametres": {
+        "variables": {
+          "variante": [
+            "A",
+            "B"
+          ]
+        },
+        "domaine": {
+          "seed_min": 0,
+          "seed_max": 999999,
+          "type": "entier_non_negatif"
+        },
+        "algorithme": "variante = A si seed % 2 == 0, sinon B; injecter intégralement texte et corrigé de variantes[variante]; aucune autre permutation autorisée",
+        "contraintes": [
+          "respecter la carte locale de la variante sélectionnée",
+          "informations absentes non inférées",
+          "aucun danger introduit",
+          "une ressource adulte explicitement disponible",
+          "différences de langue non évaluées"
+        ],
+        "variantes": {
+          "A": {
+            "texte": "Bibliothèque fictive : l’affiche de retour présente un symbole que l’élève ne comprend pas. La carte locale annonce « l’adulte de bibliothèque explique les symboles et indique la zone de dépôt ». Un partenaire propose de poser le livre n’importe où.",
+            "corrige": "Montrer le livre et le symbole à l’adulte de bibliothèque, demander l’explication et déposer selon son indication; proposer au partenaire de vérifier ensemble; ne pas inventer le lieu de dépôt."
+          },
+          "B": {
+            "texte": "Bibliothèque mobile fictive : une consigne de prêt est indiquée avec un pictogramme inconnu. La fiche locale annonce « l’animatrice explique la fiche et confirme les étapes ». Une partenaire veut repartir tout de suite avec le livre.",
+            "corrige": "Montrer le pictogramme à l’animatrice et demander les étapes, les suivre avant de partir avec le livre; proposer à la partenaire de vérifier ensemble; ne pas inventer la procédure."
+          }
+        },
+        "variante_selectionnee": "B",
+        "validation_exemples": [
+          {
+            "seed": 31010,
+            "variante_attendue": "A",
+            "corrige_attendu": "Montrer le livre et le symbole à l’adulte de bibliothèque, demander l’explication et déposer selon son indication; proposer au partenaire de vérifier ensemble; ne pas inventer le lieu de dépôt."
+          },
+          {
+            "seed": 31013,
+            "variante_attendue": "B",
+            "corrige_attendu": "Montrer le pictogramme à l’animatrice et demander les étapes, les suivre avant de partir avec le livre; proposer à la partenaire de vérifier ensemble; ne pas inventer la procédure."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "maitrise": {
+    "preuves_distinctes": [
+      "qc-pri-ilss-009-q-011",
+      "qc-pri-ilss-009-q-012"
+    ],
+    "contextes": [
+      "atelier de production collective",
+      "bibliothèque et emprunt de livres"
+    ],
+    "decision": "deux preuves satisfaisantes avec au moins une sans indices cognitifs, grille humaine; pas de note unique"
+  },
+  "statut_validation": "a_revoir"
+}

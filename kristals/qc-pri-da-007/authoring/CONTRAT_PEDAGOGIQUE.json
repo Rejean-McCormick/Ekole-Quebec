@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-da-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Observer et décrire les choix de mouvement dans une œuvre dansée.",
+  "concepts": [
+    "espace",
+    "temps",
+    "énergie",
+    "relation"
+  ],
+  "preuve_attendue": "Décrire des éléments précis d’un extrait chorégraphique.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-da-007-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Décrire des éléments précis d’un extrait chorégraphique.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_instrumentee_a_revoir",
+      "kristal_id": "qc-pri-da-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "critere_description": "Décrire des éléments précis d’un extrait chorégraphique.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "partition_choregraphique_textuelle_horodatee",
+        "audio_description_fidele",
+        "schema_legende_equivalent",
+        "demonstration_originale_consentie_et_verifiee"
+      ],
+      "variables": {
+        "mode_generation": "fixe_controle",
+        "elements_variables": []
+      },
+      "contraintes": [
+        "Aucun changement de durée, ordre, action, contact ou nombre d’interprètes sans nouvelle révision.",
+        "Aucun extrait d’œuvre tierce sans autorisations vérifiées.",
+        "Aucune inférence sur morphologie, virtuosité, goûts privés ou état psychologique.",
+        "Deux preuves indépendantes q-008 et q-009, sans indice disciplinaire.",
+        "Toutes les formes accessibles doivent conserver les indices vérifiables."
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "exactitude_et_ancrage",
+          "notions_correctement_relies",
+          "justification_prudente",
+          "autonomie_et_transfert"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seuil_par_preuve": {
+          "niveau_minimum_par_dimension": 2,
+          "faits_justes_minimum": 3,
+          "notions_distinctes_minimum": 2,
+          "liens_justifies_minimum": 1,
+          "sans_indice_disciplinaire": true
+        },
+        "preuves_obligatoires": [
+          "qc-pri-da-007-q-008",
+          "qc-pri-da-007-q-009"
+        ],
+        "regle": "atteint aux quatre dimensions dans chaque contexte, sans moyenne compensatoire"
+      },
+      "source": "Partitions et corrigés originaux qc-pri-da-007; principes gouvernance interne v1.2; revue humaine à faire.",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

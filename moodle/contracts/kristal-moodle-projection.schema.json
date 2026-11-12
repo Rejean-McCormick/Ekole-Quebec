@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ekole:kristal-moodle-projection-plan:1.0",
+  "title": "Plan de projection polymorphe Kristal vers Moodle (hors ligne)",
+  "type": "object",
+  "required": ["format", "dry_run", "write_authorized", "kristal_projections", "relations", "summary", "courses"],
+  "properties": {
+    "format": {"const": "ekole.kristal-moodle-projection-plan/1.0"},
+    "dry_run": {"const": true},
+    "write_authorized": {"const": false},
+    "plugin_owner": {"const": "local_uckk"},
+    "summary": {"type": "object"},
+    "kristal_projections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kristal_id", "state_ref", "semantic_state", "authoring", "moodle_projection"],
+        "properties": {
+          "kristal_id": {"type": "string", "minLength": 1},
+          "state_ref": {"type": "string", "minLength": 1},
+          "semantic_state": {
+            "type": "object",
+            "required": ["native_kind", "logical_commitment", "state_commitment", "v9_qualification"],
+            "properties": {
+              "native_kind": {"type": ["string", "null"]},
+              "logical_commitment": {"type": "null"},
+              "state_commitment": {"type": "null"},
+              "v9_qualification": {"const": "not_established"}
+            }
+          },
+          "authoring": {"type": "object"},
+          "moodle_projection": {
+            "type": "object",
+            "required": ["selected_kind", "selected_projections", "mode", "automatic_course_creation", "automatic_grade_import"],
+            "properties": {
+              "selected_kind": {"enum": [null, "none", "course", "resource", "activity", "navigation"]},
+              "selected_projections": {"type": "array", "items": {"type": "object"}},
+              "mode": {"const": "read_only_dry_run"},
+              "automatic_course_creation": {"const": false},
+              "automatic_grade_import": {"const": false}
+            }
+          }
+        }
+      }
+    },
+    "relations": {"type": "array", "items": {"type": "object", "required": ["type", "from", "to", "automatic_restriction"], "properties": {"automatic_restriction": {"const": false}}}},
+    "courses": {"type": "array", "items": {"type": "object", "properties": {"candidate_only": {"const": true}, "write_authorized": {"const": false}}}}
+  },
+  "additionalProperties": true
+}

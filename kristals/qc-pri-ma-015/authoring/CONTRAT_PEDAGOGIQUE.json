@@ -1,0 +1,81 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-015",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Relier les écritures décimales aux décompositions en dixièmes et centièmes.",
+  "concepts": [
+    "décimal",
+    "dixième",
+    "centième",
+    "droite graduée"
+  ],
+  "preuve_attendue": "Représenter un même décimal par un dessin et une décomposition.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-003",
+    "qc-pri-ma-012"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-015-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Représenter un même décimal par un dessin et une décomposition.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ma-015",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "quadrillage de 100 cases",
+        "décomposition en unités/dixièmes/centièmes",
+        "droite graduée en centièmes",
+        "scénarios mosaïque/longueur"
+      ],
+      "variables": {
+        "N_centiemes": "entier choisi dans des domaines finis par item Q004–Q010",
+        "u": "N//100",
+        "d": "(N%100)//10",
+        "c": "N%10",
+        "algorithme_selection": "valeur = liste[seed % len(liste)]"
+      },
+      "contraintes": [
+        "0 <= N <= 299 pour les valeurs proposées",
+        "grille = unité de 100 parts égales",
+        "graines constantes par item",
+        "corrigés exacts en centièmes; pas de variation libre",
+        "maintenir les deux contextes de maîtrise et les critères crit-1"
+      ],
+      "barreme_ou_rubrique": {
+        "axes": [
+          "unité stable",
+          "dessin exact",
+          "décomposition équivalente",
+          "justification du regroupement"
+        ],
+        "niveaux": "0 absent / 1 fragile / 2 autonome correct / 3 correct et justifié avec transfert",
+        "decision": "deux preuves M1 et M2 dans des contextes distincts, sans indice, chacune au moins 2 pour chaque axe essentiel; pas de moyenne compensatoire",
+        "grille_ref": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": "productions originales qc-pri-ma-015 à partir du blueprint v1.2 et des égalités rationnelles exactes; voir sources/REFERENCES_CONTENU.md",
+      "seed": 15015,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

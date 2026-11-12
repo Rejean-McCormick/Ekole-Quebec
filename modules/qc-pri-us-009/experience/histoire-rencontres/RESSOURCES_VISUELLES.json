@@ -1,0 +1,67 @@
+{
+  "format": "ekole.kristal-visuels-conceptuels/2.0",
+  "aucune_generation_dans_ce_lot": true,
+  "politique": "Style libre; concept seulement. Les images absentes laissent voir le prompt complet.",
+  "images": [
+    {
+      "id": "visuel:territoires-presences",
+      "moment": "Découvrir",
+      "titre": "Territoires habités",
+      "concept_prompt": "Représenter plusieurs lieux habités et plusieurs communautés autochtones distinctes sur le territoire de l’actuel Québec avant les établissements coloniaux français. Mettre en évidence l’ancienneté de la présence, la pluralité des nations et leurs relations avec le territoire. Éviter une carte qui prétend délimiter exactement tous les droits territoriaux ou des costumes attribués à une nation sans source. Aucun texte ni réponse.",
+      "expected_path": "assets/territoires-presences.webp",
+      "alt_fr": "Territoires habités",
+      "contraintes": "aucune carte historique factuelle sans données géographiques validées",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:echanges-et-ressources",
+      "moment": "Essayer",
+      "titre": "Échange de ressources",
+      "concept_prompt": "Représenter une situation historique d’échange entre des partenaires autochtones et des commerçants français, où les fourrures et des objets manufacturés sont des ressources présentes. Rendre visibles les acteurs et la circulation des biens sans hiérarchie implicite. Éviter d’affirmer qu’une transaction unique décrit toutes les relations. Aucun mot ni quantité évaluée.",
+      "expected_path": "assets/echanges-et-ressources.webp",
+      "alt_fr": "Échange de ressources",
+      "contraintes": "les quantités et la validation d’échanges appartiennent au MiniLab",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:diplomatie-1701",
+      "moment": "Comparer",
+      "titre": "Négociations entre délégations",
+      "concept_prompt": "Illustrer une réunion diplomatique rassemblant des représentants de plusieurs nations autochtones distinctes et des autorités françaises autour d’une négociation en 1701 à Montréal. Montrer la pluralité des interlocuteurs et le rôle des paroles et des accords. Éviter les reproductions supposées exactes de personnes, objets cérémoniels ou symboles sacrés sans sources. Sans texte et sans réponses visibles.",
+      "expected_path": "assets/diplomatie-1701.webp",
+      "alt_fr": "Négociations entre délégations",
+      "contraintes": "toute image présentée comme document historique doit avoir provenance et révision",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:sources-et-voix",
+      "moment": "Enquêter",
+      "titre": "Des documents et leurs perspectives",
+      "concept_prompt": "Représenter deux documents historiques étudiés côte à côte, avec des repères indiquant qu’ils proviennent d’époques ou d’auteurs différents, et des espaces libres pour questionner ce qu’ils montrent et ce qui manque. Ne pas simuler une citation autochtone ni inventer des mots d’archives. Sans texte dans l’image.",
+      "expected_path": "assets/sources-et-voix.webp",
+      "alt_fr": "Des documents et leurs perspectives",
+      "contraintes": "les deux sources réelles sont consultables séparément",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:aujourdhui-nations",
+      "moment": "Découvrir",
+      "titre": "Les nations aujourd’hui",
+      "concept_prompt": "Représenter la vie contemporaine et la diversité de plusieurs communautés autochtones du Québec, en mettant en évidence qu’elles existent aujourd’hui et évoluent. Ne pas mettre toutes les nations dans une seule représentation culturelle; éviter les traits génériques et les vêtements dits « traditionnels » imposés. Sans texte.",
+      "expected_path": "assets/aujourdhui-nations.webp",
+      "alt_fr": "Les nations aujourd’hui",
+      "contraintes": "à soumettre à des représentantes et représentants des nations avant diffusion",
+      "statut": "description_sans_image"
+    },
+    {
+      "id": "visuel:transitions-droits",
+      "moment": "Explorer",
+      "titre": "Des régimes et des droits",
+      "concept_prompt": "Représenter une continuité de sociétés autochtones à travers des changements d’autorités coloniales et des démarches de défense de leur territoire. Faire comprendre que changer de régime politique ne fait pas disparaître les nations et que leurs représentants prennent des initiatives. Ne pas imposer une carte de propriété, une frontière non documentée ou des vêtements identitaires fictifs. Ne pas représenter la souffrance d’enfants ni des pensionnats. Aucun texte et aucune réponse.",
+      "expected_path": "assets/transitions-droits.webp",
+      "alt_fr": "Sociétés vivantes et changements politiques",
+      "contraintes": "pas de reconstitution historique présentée comme document authentique",
+      "statut": "description_sans_image"
+    }
+  ]
+}

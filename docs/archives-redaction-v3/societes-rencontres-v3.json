@@ -1,0 +1,663 @@
+{
+  "format": "ekole.societes-graphe-v3/3.0",
+  "herite_de": "societes-rencontres-v2.json",
+  "kristal": "qc-pri-us-009",
+  "statut": "candidate_documentaire_sans_approbation_culturelle_ni_pedagogique",
+  "politique": "Une assertion n’est valide que dans son contexte et selon ses sources; jamais de négation à partir d’une absence.",
+  "societes": [
+    {
+      "id": "soc:v3-wendat-vie-historique",
+      "label": "Vie collective wendat historique décrite par la Nation",
+      "type": "dossier_historique_non_universel",
+      "periode_ref": "periode:traditions-historiques"
+    },
+    {
+      "id": "soc:v3-memoire-innue-documentaire",
+      "label": "Mémoire innue transmise dans Nametau innu aujourd’hui",
+      "type": "dossier_documentaire_contemporain",
+      "periode_ref": "periode:actuel"
+    }
+  ],
+  "roles": [
+    {
+      "id": "role:v3-elu-wendat",
+      "label": "Membre élu du Conseil wendat"
+    },
+    {
+      "id": "role:v3-artisans-innu",
+      "label": "Artisane ou artisan innu"
+    },
+    {
+      "id": "role:v3-adulte-transmetteur",
+      "label": "Adulte qui transmet des savoirs"
+    },
+    {
+      "id": "role:v3-diplomate-wendat",
+      "label": "Diplomate wendat dans une négociation historique"
+    },
+    {
+      "id": "role:v3-representant-francais",
+      "label": "Représentant colonial français"
+    },
+    {
+      "id": "role:v3-delegation",
+      "label": "Déléguées et délégués de nations réunies"
+    },
+    {
+      "id": "role:v3-famille-wendat",
+      "label": "Familles et clans wendat (description historique)"
+    }
+  ],
+  "taches": [
+    {
+      "id": "tache:v3-debattre-conseil",
+      "label": "Délibérer et représenter des membres"
+    },
+    {
+      "id": "tache:v3-gerer-education",
+      "label": "Participer aux orientations en éducation"
+    },
+    {
+      "id": "tache:v3-transmettre-savoirs",
+      "label": "Transmettre des connaissances"
+    },
+    {
+      "id": "tache:v3-fabriquer-canoe",
+      "label": "Fabriquer et entretenir des canots"
+    },
+    {
+      "id": "tache:v3-fabriquer-raquettes",
+      "label": "Fabriquer des raquettes"
+    },
+    {
+      "id": "tache:v3-organiser-vie-collective",
+      "label": "Organiser la vie collective"
+    },
+    {
+      "id": "tache:v3-negocier-paix",
+      "label": "Négocier une entente de paix"
+    },
+    {
+      "id": "tache:v3-exprimer-engagement",
+      "label": "Exprimer un engagement dans une négociation"
+    },
+    {
+      "id": "tache:v3-defendre-territoire",
+      "label": "Défendre des liens et intérêts territoriaux"
+    }
+  ],
+  "ressources": [
+    {
+      "id": "ress:v3-conseil",
+      "label": "Conseil et discussions institutionnelles"
+    },
+    {
+      "id": "ress:v3-education",
+      "label": "Éducation et services collectifs"
+    },
+    {
+      "id": "ress:v3-savoirs",
+      "label": "Savoirs transmis"
+    },
+    {
+      "id": "ress:v3-bouleau",
+      "label": "Bois et écorce de bouleau"
+    },
+    {
+      "id": "ress:v3-babiche",
+      "label": "Babiche et bois"
+    },
+    {
+      "id": "ress:v3-maisonlongue",
+      "label": "Maisons longues"
+    },
+    {
+      "id": "ress:v3-negociation",
+      "label": "Paroles et négociations"
+    },
+    {
+      "id": "ress:v3-document",
+      "label": "Document écrit de 1701"
+    },
+    {
+      "id": "ress:v3-territoire",
+      "label": "Territoire ancestral selon la Nation Wendat"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "fait:v3-wendat-gouvernance",
+      "enonce_fr": "La Nation Wendat décrit aujourd’hui un conseil d’élus composé d’un Grand Chef et de Chefs familiaux.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "regime": "autodescription_contemporaine",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Gouvernance",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "gouvernance",
+      "limites": "Cette organisation contemporaine ne décrit pas identiquement les conseils du XVIIe siècle.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-domaines",
+      "enonce_fr": "Selon la Nation Wendat, son conseil travaille notamment sur le territoire, l’éducation, la culture, la santé et le développement économique.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "regime": "autodescription_contemporaine",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Gouvernance",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "responsabilités",
+      "limites": "Des domaines de responsabilité ne sont pas des droits de propriété ou des pouvoirs illimités.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-familles",
+      "enonce_fr": "La Nation Wendat indique que des maisons longues historiques regroupaient plusieurs familles et clans.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:v3-wendat-vie-historique",
+      "regime": "autodescription_histoire_nation",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Yahwatsira’ — la famille",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "habitat et organisation",
+      "limites": "La source ne date pas chaque maison ni toutes les pratiques d’une année précise.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-matrilineaire",
+      "enonce_fr": "La Nation Wendat présente la filiation maternelle comme un aspect important de son organisation sociale traditionnelle.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:v3-wendat-vie-historique",
+      "regime": "autodescription_histoire_nation",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Un héritage matrilinéaire",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "famille et rôles",
+      "limites": "Ne pas attribuer la même structure à toutes les Premières Nations.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-transmission",
+      "enonce_fr": "La Nation Wendat présente la transmission de connaissances et de traditions comme une responsabilité qui relie les générations.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "regime": "autodescription_contemporaine",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Une histoire qui se conjugue à tous les temps",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "transmission",
+      "limites": "La description actuelle n’est pas une preuve du fonctionnement exact de tous les siècles passés.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-langue",
+      "enonce_fr": "La Nation Wendat décrit un travail actuel de revitalisation et d’apprentissage de sa langue.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "regime": "autodescription_contemporaine",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Une renaissance linguistique vivante",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "langue vivante",
+      "limites": "Ne pas réduire une nation à ses pratiques du passé.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-wendat-territoire",
+      "enonce_fr": "La Nation Wendat nomme Onyionhwentsïio’ son territoire ancestral et décrit un lien continu avec celui-ci.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "regime": "revendication_et_identite_autodecrites",
+      "preuves": [
+        {
+          "source_id": "src:v3-wendat-histoire",
+          "ancrage": "Notre rapport à Onyionhwentsïio’",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "territoire et mémoire",
+      "limites": "Présente une relation et une revendication de la Nation; n’établit pas une délimitation judiciaire universelle.",
+      "eligible_exercice": false,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-innu-aine",
+      "enonce_fr": "Nametau innu met en scène et documente la transmission de connaissances entre des aînés et des enfants.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:v3-memoire-innue-documentaire",
+      "regime": "production_culturelle_educative",
+      "preuves": [
+        {
+          "source_id": "src:v3-nametau-visite",
+          "ancrage": "Vos premiers pas dans la culture innue",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "transmission",
+      "limites": "La visite est un parcours documentaire et éducatif; pas un inventaire de toutes les familles innues.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-innu-saisons",
+      "enonce_fr": "Nametau innu raconte un déplacement saisonnier le long de la rivière Moisie vers le Nitassinan, décrit pour des familles innues de cette région.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "regime": "pratique_historique_decrite",
+      "preuves": [
+        {
+          "source_id": "src:v3-nametau-intro",
+          "ancrage": "Accueil — premier paragraphe",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "territoire et mobilité",
+      "limites": "Ne pas étendre ce trajet à toutes les communautés innues.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-innu-outils",
+      "enonce_fr": "Nametau innu décrit la fabrication de canots à partir de bois de bouleau, d’écorce et de racines.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "regime": "description_materielle",
+      "preuves": [
+        {
+          "source_id": "src:v3-nametau-materiel",
+          "ancrage": "La culture matérielle",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "ressources et savoir-faire",
+      "limites": "La source documente un procédé traditionnel, pas une obligation pour chaque personne.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-innu-raquettes",
+      "enonce_fr": "Nametau innu présente des raquettes fabriquées avec des matériaux comme le bouleau et la babiche.",
+      "periode_ref": "periode:traditions-historiques",
+      "sujet_ref": "soc:communautes-innues-traditionnelles",
+      "regime": "description_materielle",
+      "preuves": [
+        {
+          "source_id": "src:v3-nametau-materiel",
+          "ancrage": "La culture matérielle",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "outils et déplacement",
+      "limites": "Ne pas transformer une pratique matérielle en stéréotype intemporel.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-innu-grandmere",
+      "enonce_fr": "Dans sa visite guidée, Nametau innu décrit un enfant qui reçoit des raquettes de son arrière-grand-mère et apprend avec les adultes.",
+      "periode_ref": "periode:actuel",
+      "sujet_ref": "soc:v3-memoire-innue-documentaire",
+      "regime": "recit_documentaire",
+      "preuves": [
+        {
+          "source_id": "src:v3-nametau-visite",
+          "ancrage": "Affiliation : Grand-mère / Chasseur : Raquette",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "transmission familiale",
+      "limites": "Il s’agit d’une situation présentée dans la visite guidée, pas d’une règle universelle.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-rencontre",
+      "enonce_fr": "Pointe-à-Callière présente la Grande Paix de Montréal comme une négociation entre plusieurs nations autochtones et des représentants français en août 1701.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "regime": "interpretation_museale",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-paix",
+          "ancrage": "La Grande Paix de Montréal",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "diplomatie",
+      "limites": "Chaque délégation conserve sa propre identité et ses intérêts.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-kondiaronk",
+      "enonce_fr": "Pointe-à-Callière souligne le rôle diplomatique du dirigeant wendat Kondiaronk dans les négociations de 1701.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "regime": "interpretation_museale",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-paix",
+          "ancrage": "La Grande Paix de Montréal",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "diplomatie et acteur",
+      "limites": "Ne pas attribuer toutes les décisions d’un traité à un seul acteur.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-calliere",
+      "enonce_fr": "Pointe-à-Callière présente Louis-Hector de Callière comme un responsable français des négociations de 1701.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:autorites-francaises-1701",
+      "regime": "interpretation_museale",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-paix",
+          "ancrage": "La Grande Paix de Montréal",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "diplomatie et acteur",
+      "limites": "La source exprime une lecture du rôle d’un représentant colonial.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-texte",
+      "enonce_fr": "Une transcription du traité de 1701 conserve les paroles attribuées à plusieurs délégations.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "regime": "archive_coloniale_transcrite",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-traite",
+          "ancrage": "Ratification de la Paix / Le Chef des Kiskakons",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "archives et perspective",
+      "limites": "La transcription passe par une conservation et une écriture coloniales; ce n’est pas une parole directe enregistrée.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-colliers",
+      "enonce_fr": "La transcription du traité de 1701 mentionne des colliers remis lors de prises de parole diplomatiques.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "regime": "archive_coloniale_transcrite",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-traite",
+          "ancrage": "Les Iroquois / Le Chef des Kiskakons",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "diplomatie matérielle",
+      "limites": "Ne pas générer d’objets cérémoniels supposés exacts à partir de cette seule description.",
+      "eligible_exercice": true,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    },
+    {
+      "id": "fait:v3-paix-38-39",
+      "enonce_fr": "Des publications de Pointe-à-Callière ne donnent pas toutes le même nombre de nations participantes : des pages indiquent 38 et d’autres 39.",
+      "periode_ref": "periode:1701",
+      "sujet_ref": "soc:delegations-1701",
+      "regime": "divergence_de_publications",
+      "preuves": [
+        {
+          "source_id": "src:v3-pac-325",
+          "ancrage": "Communiqué du 17 juin 2026",
+          "perspective": "La source décrit ce cadre précis; elle ne représente pas automatiquement les autres nations.",
+          "statut": "passage repéré sur page publiée, ancrage à revérifier avant homologation"
+        }
+      ],
+      "notion": "critique des sources",
+      "limites": "Il faut examiner les catégories et conventions de dénombrement avant de fixer un chiffre; aucune correction automatique.",
+      "eligible_exercice": false,
+      "statut_revue": "recherche_documentaire_a_reviser_avec_nations"
+    }
+  ],
+  "relations": [
+    {
+      "id": "relation:v3-wendat-representer",
+      "societe_ref": "soc:conseil-wendat-2026",
+      "role_ref": "role:v3-elu-wendat",
+      "tache_ref": "tache:v3-debattre-conseil",
+      "ressource_ref": "ress:v3-conseil",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:v3-wendat-gouvernance"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "mandat contemporain présenté par la Nation"
+    },
+    {
+      "id": "relation:v3-wendat-education",
+      "societe_ref": "soc:conseil-wendat-2026",
+      "role_ref": "role:v3-elu-wendat",
+      "tache_ref": "tache:v3-gerer-education",
+      "ressource_ref": "ress:v3-education",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:v3-wendat-domaines"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "domaine de responsabilité actuel, sans pouvoir exclusif inféré"
+    },
+    {
+      "id": "relation:v3-wendat-transmission",
+      "societe_ref": "soc:conseil-wendat-2026",
+      "role_ref": "role:v3-adulte-transmetteur",
+      "tache_ref": "tache:v3-transmettre-savoirs",
+      "ressource_ref": "ress:v3-savoirs",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:v3-wendat-transmission"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "responsabilité culturelle générale selon l’autodescription, rôle non exclusif"
+    },
+    {
+      "id": "relation:v3-wendat-familles",
+      "societe_ref": "soc:v3-wendat-vie-historique",
+      "role_ref": "role:v3-famille-wendat",
+      "tache_ref": "tache:v3-organiser-vie-collective",
+      "ressource_ref": "ress:v3-maisonlongue",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:v3-wendat-familles"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "vie collective selon une description historique de la Nation"
+    },
+    {
+      "id": "relation:v3-innu-transmission",
+      "societe_ref": "soc:v3-memoire-innue-documentaire",
+      "role_ref": "role:v3-adulte-transmetteur",
+      "tache_ref": "tache:v3-transmettre-savoirs",
+      "ressource_ref": "ress:v3-savoirs",
+      "periode_ref": "periode:actuel",
+      "fact_ids": [
+        "fait:v3-innu-aine"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "parcours de transmission documenté, rôle non exclusif"
+    },
+    {
+      "id": "relation:v3-innu-canoe",
+      "societe_ref": "soc:communautes-innues-traditionnelles",
+      "role_ref": "role:v3-artisans-innu",
+      "tache_ref": "tache:v3-fabriquer-canoe",
+      "ressource_ref": "ress:v3-bouleau",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:v3-innu-outils"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "une pratique matérielle située"
+    },
+    {
+      "id": "relation:v3-innu-raquettes",
+      "societe_ref": "soc:communautes-innues-traditionnelles",
+      "role_ref": "role:v3-artisans-innu",
+      "tache_ref": "tache:v3-fabriquer-raquettes",
+      "ressource_ref": "ress:v3-babiche",
+      "periode_ref": "periode:traditions-historiques",
+      "fact_ids": [
+        "fait:v3-innu-raquettes"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "une pratique matérielle située"
+    },
+    {
+      "id": "relation:v3-wendat-diplomatie",
+      "societe_ref": "soc:delegations-1701",
+      "role_ref": "role:v3-diplomate-wendat",
+      "tache_ref": "tache:v3-negocier-paix",
+      "ressource_ref": "ress:v3-negociation",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:v3-paix-kondiaronk"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "rôle de Kondiaronk dans la négociation"
+    },
+    {
+      "id": "relation:v3-francais-diplomatie",
+      "societe_ref": "soc:autorites-francaises-1701",
+      "role_ref": "role:v3-representant-francais",
+      "tache_ref": "tache:v3-negocier-paix",
+      "ressource_ref": "ress:v3-negociation",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:v3-paix-calliere"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "rôle de Callière selon lecture muséale"
+    },
+    {
+      "id": "relation:v3-delegation-paix",
+      "societe_ref": "soc:delegations-1701",
+      "role_ref": "role:v3-delegation",
+      "tache_ref": "tache:v3-exprimer-engagement",
+      "ressource_ref": "ress:v3-document",
+      "periode_ref": "periode:1701",
+      "fact_ids": [
+        "fait:v3-paix-texte"
+      ],
+      "nature": "relation_positive_documentee",
+      "portee": "le document colonial conserve les paroles attribuées"
+    }
+  ],
+  "normes": [
+    {
+      "id": "norme:v3-wendat-representation",
+      "modalite": "responsabilite_autodecrite",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "periode_ref": "periode:actuel",
+      "action_ref": "tache:v3-debattre-conseil",
+      "fact_ids": [
+        "fait:v3-wendat-gouvernance"
+      ],
+      "portee": "présentation actuelle de la gouvernance wendat",
+      "reconnaissance_par": "Nation Wendat, site de la Nation",
+      "statut": "autodescription_institutionnelle_a_revalider"
+    },
+    {
+      "id": "norme:v3-wendat-education",
+      "modalite": "domaine_de_responsabilite_decrit",
+      "sujet_ref": "soc:conseil-wendat-2026",
+      "periode_ref": "periode:actuel",
+      "action_ref": "tache:v3-gerer-education",
+      "fact_ids": [
+        "fait:v3-wendat-domaines"
+      ],
+      "portee": "domaine éducation mentionné; pas de compétence juridique détaillée",
+      "reconnaissance_par": "Nation Wendat, site de la Nation",
+      "statut": "autodescription_institutionnelle_a_revalider"
+    }
+  ],
+  "divergences": [
+    {
+      "id": "divergence:1701-denombrement",
+      "sources": [
+        "src:v3-pac-paix",
+        "src:v3-pac-325"
+      ],
+      "versions": [
+        {
+          "source_id": "src:v3-pac-paix",
+          "nombre": 39
+        },
+        {
+          "source_id": "src:v3-pac-325",
+          "nombre": 38
+        }
+      ],
+      "regle": "aucun QCM à correction automatique sur ce nombre sans résolution de la divergence",
+      "statut": "question_editoriale_ouverte"
+    }
+  ],
+  "sensibilites": {
+    "pensionnats": "médiation humaine; pas de points ou exercice de gratification",
+    "images_historiques": "ne jamais présenter une représentation IA comme archive",
+    "traditions_orales": "respecter les protocoles communautaires de diffusion"
+  },
+  "scopes_interdits": [
+    "Autochtones comme un seul peuple",
+    "Blancs comme une société homogène",
+    "appliquer des institutions contemporaines au XVIIe siècle",
+    "conclure faux à partir de non-renseigné"
+  ]
+}

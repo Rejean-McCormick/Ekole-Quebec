@@ -1,0 +1,95 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-012",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Ordonner des changements marquants du Québec au XXe siècle.",
+  "concepts": [
+    "institutions",
+    "société",
+    "modernisation",
+    "temps"
+  ],
+  "preuve_attendue": "Concevoir une frise thématique avec sources et liens justifiés.",
+  "prerequis_bloquants": [
+    "qc-pri-us-001"
+  ],
+  "ordre_conseille": [
+    "qc-pri-us-011"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-012-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Concevoir une frise thématique avec sources et liens justifiés.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Corpus historique fermé E36 à E77; modalités d’accès, taille/frise et présentation possibles; aucun événement, date ou cause inventé par IA.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-us-012",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "cartes de sources courtes",
+        "frise chronologique thématique datée",
+        "justification écrite, orale ou dictée"
+      ],
+      "variables": {
+        "mode_generation": "corpus_ferme_fixe",
+        "cartes_autorisees": [
+          "E36",
+          "E40",
+          "E44",
+          "E60",
+          "E63",
+          "E64",
+          "E67",
+          "E75",
+          "E77"
+        ],
+        "selection": "aucun tirage ni substitution factuelle libre",
+        "temporalite": "1901-2000"
+      },
+      "contraintes": [
+        "Respect exact des années et de la provenance",
+        "Ne pas déduire une causalité de la seule chronologie",
+        "Distinguer fait, interprétation, limite de source",
+        "Toute variation future du corpus nécessite validation historique humaine",
+        "Deux frises sur des thèmes différents, autonomes et sourcées",
+        "Aucune généralisation sur les Premiers Peuples"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "ordre_exact",
+          "sources_et_portee",
+          "liens_justifies",
+          "distinction_fait_interpretation",
+          "autonomie_et_transfert"
+        ],
+        "echelle": "0=absent;1=partiel;2=atteint",
+        "decision": "sur 2 preuves séparées, aucun résultat moyen unique"
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/PLAN_EVALUATION.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_items_rediges_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

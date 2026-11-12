@@ -1,0 +1,43 @@
+{
+  "format": "qc.kristal-delta-manifest/1.0",
+  "kristal_id": "qc-pri-da-005",
+  "base_version": "1.2",
+  "archive_root": "kristals/qc-pri-da-005/",
+  "files": [
+    "kristals/qc-pri-da-005/authoring/PARCOURS.md",
+    "kristals/qc-pri-da-005/authoring/CONTRAT_PEDAGOGIQUE.json",
+    "kristals/qc-pri-da-005/contenu/01_NOTIONS_ET_EXEMPLES.md",
+    "kristals/qc-pri-da-005/contenu/02_DIAGNOSTIC.md",
+    "kristals/qc-pri-da-005/contenu/03_ENSEIGNEMENT_GUIDE.md",
+    "kristals/qc-pri-da-005/contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+    "kristals/qc-pri-da-005/contenu/05_PRATIQUE_AUTONOME.md",
+    "kristals/qc-pri-da-005/contenu/06_REMEDIATION_ET_TRANSFERT.md",
+    "kristals/qc-pri-da-005/evaluation/PLAN_EVALUATION.md",
+    "kristals/qc-pri-da-005/evaluation/BANQUE_ITEMS.json",
+    "kristals/qc-pri-da-005/evaluation/GRILLE_MAITRISE.md",
+    "kristals/qc-pri-da-005/sources/REFERENCES_CONTENU.md",
+    "kristals/qc-pri-da-005/livraison/MANIFEST.json",
+    "kristals/qc-pri-da-005/livraison/VALIDATION.md"
+  ],
+  "statut_validation": "controles_techniques_prearchivage_reussis_revue_humaine_requise",
+  "replacements": [
+    "authoring/PARCOURS.md",
+    "authoring/CONTRAT_PEDAGOGIQUE.json"
+  ],
+  "additions": [
+    "contenu/01_NOTIONS_ET_EXEMPLES.md",
+    "contenu/02_DIAGNOSTIC.md",
+    "contenu/03_ENSEIGNEMENT_GUIDE.md",
+    "contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+    "contenu/05_PRATIQUE_AUTONOME.md",
+    "contenu/06_REMEDIATION_ET_TRANSFERT.md",
+    "evaluation/PLAN_EVALUATION.md",
+    "evaluation/BANQUE_ITEMS.json",
+    "evaluation/GRILLE_MAITRISE.md",
+    "sources/REFERENCES_CONTENU.md",
+    "livraison/MANIFEST.json",
+    "livraison/VALIDATION.md"
+  ],
+  "safety_status": "mise_en_pratique_non_validee_avec_enfants",
+  "publication_status": "non_publie_non_homologue"
+}

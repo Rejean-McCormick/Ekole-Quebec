@@ -1,0 +1,398 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-003",
+  "family_id": "qc-pri-us-003-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-us-003-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Lire la fiche, placer le relief et une occupation, puis écrire un lien correctement situé et justifié.",
+      "stimulus": "**Grille :** 3×3 (colonnes A–C d’ouest en est; rangées 1–3 du nord au sud; N↑). **Fiche TA-1, auteur : équipe Kristal, 8 octobre 2026, territoire fictif Tilleuls-aux-Aulnes :** A1 colline; B2 plaine avec sol de jardin et potager d’école observé; C1 logements; C3 bois sans usage humain noté.",
+      "reponse_attendue": "A1 Δ colline; B2 Δ plaine, R sol → H potager scolaire (TA-1); C1 H logements; C3 R bois/usage non établi. La légende et N↑ distinguent Δ, R et H; la seule présence du bois ne prouve aucune exploitation.",
+      "criteres": [
+        "Colline située A1 et plaine B2, sans confondre relief et ressource.",
+        "Potager localisé B2 et relié au sol selon TA-1.",
+        "Légende et N↑, ou repères tactiles équivalents.",
+        "N’invente aucun usage forestier en C3."
+      ],
+      "feedback": "Si tu écris « coupe de bois » en C3, relis TA-1 : un bois présent ne prouve pas une activité de coupe. Refaire le lien B2 avec sa source.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "carte_textuelle",
+      "source": "Dossier fictif original intégré au stimulus; 8 octobre 2026",
+      "variabilite_permise": "Support manuscrit, texte, tactile, dictée fidèle et symboles équivalents; aucune variation des données, des coordonnées, des pratiques attestées ou du corrigé.",
+      "limites_de_variation": "Aucune substitution de lieu, de case, de climat ou d’usage attesté.",
+      "preuve_de_maitrise": false,
+      "rubrique": "Pour les cartes, cote D1–D4 (0–3) selon evaluation/GRILLE_MAITRISE.md et consigne toute aide; ne pas juger l’esthétique."
+    },
+    {
+      "item_id": "qc-pri-us-003-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Choisir les deux descriptions climatiques, expliquer en quoi elles diffèrent d’une météo du jour, sans conclure à une activité humaine.",
+      "stimulus": "**Fiche DE-1, région fictive du Défilé :** (a) samedi 16 h, un orage; (b) synthèse simulée sur 30 ans, hivers généralement froids; (c) hier, du vent; (d) synthèse simulée sur 30 ans, étés généralement humides. Toutes les fiches sont des créations pédagogiques, pas des relevés officiels.",
+      "reponse_attendue": "Les mentions (b) et (d) caractérisent le climat dans ce scénario, car elles résument une période longue. Les mentions (a) et (c) décrivent des épisodes météorologiques. Aucune des quatre ne permet, à elle seule, d’inférer une exploitation de ressource.",
+      "criteres": [
+        "Identifie b et d.",
+        "Justifie par la durée longue plutôt que par la seule température.",
+        "Rejette la confusion météo/climat pour a et c.",
+        "N’invente ni profession ni usage d’un territoire."
+      ],
+      "feedback": "Un orage de samedi est de la météo, même s’il est intense. Pour parler du climat, cherche une longue série et sa période.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "fiche_texte",
+      "source": "Dossier fictif original intégré au stimulus; 8 octobre 2026",
+      "variabilite_permise": "Support manuscrit, texte, tactile, dictée fidèle et symboles équivalents; aucune variation des données, des coordonnées, des pratiques attestées ou du corrigé.",
+      "limites_de_variation": "Formulations équivalentes admises; lettres et sens inchangés.",
+      "preuve_de_maitrise": false,
+      "rubrique": "Vérifier chaque sous-réponse et son appui documentaire; item préparatoire, non suffisante pour décider la maîtrise."
+    },
+    {
+      "item_id": "qc-pri-us-003-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Dire quelles affirmations sont observées et lesquelles dépassent les sources; fournir une annotation valable.",
+      "stimulus": "**Fiche LF-1, Lac-des-Fougères fictif, édition 2026 :** B1 forêt avec panneau de sentier de marche et marcheurs observés; C2 lac sans activité mentionnée; A3 plaine. Propositions : P « Il existe un sentier utilisé en B1 »; Q « Tout le monde pêche en C2 »; R « A3 est une plaine ».",
+      "reponse_attendue": "P et R sont explicitement étayées par LF-1. Q est non étayée et généralise abusivement. Annotation valable : B1 R forêt → H marche/sentier (LF-1); C2 R lac, H inconnu; A3 Δ plaine.",
+      "criteres": [
+        "Classe P/R comme attestées, Q comme inférence non fondée.",
+        "Justifie l’absence de pêche par le silence de LF-1.",
+        "Propose une annotation localisée avec sa source."
+      ],
+      "feedback": "Le lac ne prouve pas la pêche et « tout le monde » ne découle pas d’une source unique. Retire l’affirmation ou cherche une preuve.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "fiche_critique",
+      "source": "Dossier fictif original intégré au stimulus; 8 octobre 2026",
+      "variabilite_permise": "Support manuscrit, texte, tactile, dictée fidèle et symboles équivalents; aucune variation des données, des coordonnées, des pratiques attestées ou du corrigé.",
+      "limites_de_variation": "Aucune nouvelle observation ajoutée par le correcteur.",
+      "preuve_de_maitrise": false,
+      "rubrique": "Vérifier chaque sous-réponse et son appui documentaire; item préparatoire, non suffisante pour décider la maîtrise."
+    },
+    {
+      "item_id": "qc-pri-us-003-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Faire une carte annotée à partir de la fiche et expliquer deux liens ressource–activité, en citant la source et une limite.",
+      "stimulus": "**Fiche BM-1, Bois-des-Mouettes, territoire inventé, 8 octobre 2026.** Carte N↑, A–C/1–3 : A1 petite butte rocheuse; B1 forêt avec sentier utilisé par les marcheurs; C2 rivière avec passerelle utilisée par les cyclistes à pied; B3 habitations; C3 gravière **supposée par un personnage**, sans confirmation de terrain. Aucun renseignement climatique n’est fourni.",
+      "reponse_attendue": "Carte : A1 Δ butte; B1 R forêt → H sentier/marche (BM-1); C2 R rivière → H passerelle/franchissement observé (BM-1); B3 H logements; C3 « gravière non confirmée ». Nord, légende Δ/R/H et au moins deux sources BM-1. Limite : aucune fiche de climat ni exploitation de gravière confirmée.",
+      "criteres": [
+        "Localise A1/B1/C2/B3 sans erreur.",
+        "Dessine ou décrit deux relations appuyées sur BM-1, B1 et C2.",
+        "Inclut N↑, légende et au moins une limite de la fiche.",
+        "Refuse d’enregistrer « gravière » comme fait sans preuve."
+      ],
+      "feedback": "Les activités doivent être décrites par la fiche. En C3, une rumeur ne suffit pas pour cartographier une extraction.",
+      "difficulte": "intermediaire",
+      "seed": 1203003,
+      "parametres": {
+        "scenario_id": "bois-des-mouettes",
+        "methode": "catalogue_fixe_sans_tirage",
+        "variables": {
+          "contexte": "bois-des-mouettes",
+          "carte": "3 colonnes A-C, 3 lignes 1-3, nord en haut",
+          "source": "fiche fictive fixe incluse dans stimulus"
+        },
+        "domaines": {
+          "contexte": [
+            "bois-des-mouettes"
+          ],
+          "coordonnees": "cases A1 à C3, valeurs verrouillées par stimulus",
+          "activites": "liste fermée attestée dans stimulus"
+        },
+        "contraintes": [
+          "ne jamais déplacer les éléments",
+          "ne jamais changer la fiche ni inventer un usage",
+          "deux liens attestés et localisés pour une carte de maîtrise",
+          "les nouvelles variantes exigent une nouvelle validation humaine"
+        ],
+        "algorithme": "Lire le stimulus de scenario_id sans substitution. Tracer la grille N↑. Reporter exactement cases et activités documentées. Formuler les relations ressource→activité et la limite. Comparer les chaînes aux réponses de référence. Aucune randomisation.",
+        "seed_version": 1203003,
+        "exemple_valide": "Le dossier fourni et la solution documentée constituent un exemple de validation manuelle; le statut de revue externe reste a_revoir."
+      },
+      "validation_status": "a_revoir",
+      "representation": "carte_scenario",
+      "source": "Dossier fictif original intégré au stimulus; 8 octobre 2026",
+      "variabilite_permise": "Support manuscrit, texte, tactile, dictée fidèle et symboles équivalents; aucune variation des données, des coordonnées, des pratiques attestées ou du corrigé.",
+      "limites_de_variation": "Fiche BM-1 intangible; pas de tirage de cases ni d’activités.",
+      "preuve_de_maitrise": false,
+      "rubrique": "Pour les cartes, cote D1–D4 (0–3) selon evaluation/GRILLE_MAITRISE.md et consigne toute aide; ne pas juger l’esthétique."
+    },
+    {
+      "item_id": "qc-pri-us-003-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Corriger les trois erreurs de la carte proposée, puis écrire deux annotations correctes.",
+      "stimulus": "**Fiche MS-1, Mont-du-Saule fictif, 2026 :** A1 est une colline; A2 une forêt avec activité de randonnée observée; B2 un cours d’eau sans usage relevé; C3 une ferme cultivant des légumes sur sol de plaine. Carte erronée : « A1 = forêt = relief; B2 = pêche; C3 = désert »; aucune orientation.",
+      "reponse_attendue": "A1 = Δ colline (relief), A2 = R forêt → H randonnée (MS-1), B2 = R eau sans pêche prouvée, C3 = Δ plaine / R sol → H ferme de légumes (MS-1). Replacer le nord en haut; ne pas confondre colline et forêt, rivière et pêche, plaine cultivée et désert.",
+      "criteres": [
+        "Identifie au moins trois erreurs de l’ébauche.",
+        "Corrige les cases selon MS-1, sans changer les faits.",
+        "Écrit deux chaînes sourcées A2 et C3.",
+        "N↑ ou orientation équivalente visible."
+      ],
+      "feedback": "Une activité non mentionnée n’est pas une observation. Reprends la source et écris une annotation par preuve.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "correction_carte",
+      "source": "Dossier fictif original intégré au stimulus; 8 octobre 2026",
+      "variabilite_permise": "Support manuscrit, texte, tactile, dictée fidèle et symboles équivalents; aucune variation des données, des coordonnées, des pratiques attestées ou du corrigé.",
+      "limites_de_variation": "Les erreurs sont celles de la carte énoncée; pas de remplacement par un autre cas.",
+      "preuve_de_maitrise": false,
+      "rubrique": "Vérifier chaque sous-réponse et son appui documentaire; item préparatoire, non suffisante pour décider la maîtrise."
+    },
+    {
+      "item_id": "qc-pri-us-003-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Construire une carte de deux ressources utilisées, placer le relief et une occupation, et expliquer pourquoi une autre activité ne peut pas être déduite.",
+      "stimulus": "**Fiches RL-1, Roc-du-Lac fictif, 8 octobre 2026 :** A1 escarpement; A2 lac avec ponton et traversées en barque constatées; B2 village habité; C1 petit bois avec sentier piéton utilisé; B3 plage sans usage documenté. **RL-2**, simulation de 30 ans : été généralement frais. Carte N↑, A–C/1–3.",
+      "reponse_attendue": "A1 Δ escarpement; A2 R lac → H ponton/traversée en barque (RL-1); B2 H village; C1 R bois → H sentier piéton (RL-1); B3 R plage, usage indéterminé. RL-2 = climat fictif sur une période longue. Légende, orientation et sources. La présence de plage ne suffit pas à affirmer baignade ou accès libre.",
+      "criteres": [
+        "Situe exactement A1/A2/B2/C1/B3.",
+        "Relie lac/barque A2 et bois/sentier C1 avec RL-1.",
+        "Inclut relief, climat, nord/légende et limite sur B3.",
+        "Ne confond pas l’usage du lac avec une activité de pêche inventée."
+      ],
+      "feedback": "Vérifie les verbes « traversées constatées » et « sentier utilisé ». Ni baignade ni pêche ne figurent dans RL-1.",
+      "difficulte": "intermediaire",
+      "seed": 1203003,
+      "parametres": {
+        "scenario_id": "roc-du-lac",
+        "methode": "catalogue_fixe_sans_tirage",
+        "variables": {
+          "contexte": "roc-du-lac",
+          "carte": "3 colonnes A-C, 3 lignes 1-3, nord en haut",
+          "source": "fiche fictive fixe incluse dans stimulus"
+        },
+        "domaines": {
+          "contexte": [
+            "roc-du-lac"
+          ],
+          "coordonnees": "cases A1 à C3, valeurs verrouillées par stimulus",
+          "activites": "liste fermée attestée dans stimulus"
+        },
+        "contraintes": [
+          "ne jamais déplacer les éléments",
+          "ne jamais changer la fiche ni inventer un usage",
+          "deux liens attestés et localisés pour une carte de maîtrise",
+          "les nouvelles variantes exigent une nouvelle validation humaine"
+        ],
+        "algorithme": "Lire le stimulus de scenario_id sans substitution. Tracer la grille N↑. Reporter exactement cases et activités documentées. Formuler les relations ressource→activité et la limite. Comparer les chaînes aux réponses de référence. Aucune randomisation.",
+        "seed_version": 1203003,
+        "exemple_valide": "Le dossier fourni et la solution documentée constituent un exemple de validation manuelle; le statut de revue externe reste a_revoir."
+      },
+      "validation_status": "a_revoir",
+      "representation": "carte_scenario",
+      "source": "Dossier fictif original intégré au stimulus; 8 octobre 2026",
+      "variabilite_permise": "Support manuscrit, texte, tactile, dictée fidèle et symboles équivalents; aucune variation des données, des coordonnées, des pratiques attestées ou du corrigé.",
+      "limites_de_variation": "Relief, météo, activités, localisation fixes; alternative tactile admissible.",
+      "preuve_de_maitrise": false,
+      "rubrique": "Pour les cartes, cote D1–D4 (0–3) selon evaluation/GRILLE_MAITRISE.md et consigne toute aide; ne pas juger l’esthétique."
+    },
+    {
+      "item_id": "qc-pri-us-003-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "**PREUVE AUTONOME 1 — territoire rural.** En utilisant uniquement les fiches VS-1 et VS-2, produire **ta propre carte annotée**, nord, légende et au moins **deux chaînes ressource → activité**, chacune située et justifiée par la source. Ajouter la forme du relief, l’occupation, une mention correcte du climat et une limite de ce que les fiches prouvent. Aucun indice sur le contenu; les adaptations d’accès neutres sont admises.",
+      "stimulus": "**Dossier fictif INÉDIT Val-des-Saules, édition pédagogique du 8 octobre 2026 — auteur : rédaction Kristal, pas une carte officielle.** \nCarte N↑, colonnes A (ouest), B, C (est); lignes 1 (nord), 2, 3 (sud). **VS-1, observations fictionnelles** : A1 = coteau boisé, relief en pente; B1 = forêt traversée par un sentier balisé où des promeneurs ont été observés; C1 = colline rocheuse **sans activité attestée**; A2 = maisons; B2 = plaine à sol cultivable et jardins collectifs observés; C2 = rivière avec base de canot et sorties encadrées observées; A3 = prairie sans activité décrite; B3 = atelier de réparation; C3 = marais protégé, sans activité autorisée indiquée. **VS-2, fiche de climat entièrement simulée :** synthèse imaginaire sur 30 ans décrivant des printemps généralement humides et des étés plutôt doux (aucune donnée chiffrée, aucune conclusion sur la météo du jour). Les fiches ne décrivent ni identité des personnes, ni titres de propriété, ni histoire du territoire.",
+      "reponse_attendue": "**Grille de référence, N↑, légende Δ = relief, R = ressource, H = occupation, ? = usage non établi :** A1 Δ coteau boisé, B1 R forêt / H sentier et promenades, C1 Δ colline sans H attesté; A2 H maisons, B2 Δ plaine / R sol cultivable → H jardins collectifs, C2 R rivière → H base de canot/sorties encadrées; A3 R prairie/H?, B3 H atelier de réparation, C3 R marais protégé/aucune activité connue. **Chaînes possibles (au moins deux exigées)** : B1 forêt → sentier de promenade (VS-1), B2 sol de plaine → jardins (VS-1), C2 rivière → base de canot/sorties (VS-1). **Explication de qualité :** ce sont des associations observées, pas des effets inévitables; VS-2 décrit des tendances climatiques fictives à longue durée; **limite valide :** aucune pêche, mine, exploitation du marais, activité sur C1/A3 ni caractéristiques des personnes ne sont attestées. Les placements textuels/tactiles équivalents sont recevables.",
+      "criteres": [
+        "D1 : situe au moins deux des cases B1/B2/C2 et le relief A1/C1 ou B2, sans erreur de localisation.",
+        "D2 : au moins deux chaînes R→H correctes, géolocalisées, explicitement fondées sur VS-1.",
+        "D3 : distingue VS-2 climat simulé de météo, nomme VS-1 et formule au moins une limite d’inférence.",
+        "D4 : nord, cases et légende compréhensibles, explication accessible à un lecteur indépendant.",
+        "Maîtrise : niveaux D1–D4 ≥2 sur cette preuve, autonomie sans indice, ET seconde preuve q-008 satisfaisante."
+      ],
+      "feedback": "Si un usage a été déduit de la seule présence d’une rivière ou d’une forêt, relève la différence entre « possible » et « observé ». Si la carte manque de nord ou de sources, demander une reconstruction sur une fiche différente après remédiation.",
+      "difficulte": "transfert",
+      "seed": 1203003,
+      "parametres": {
+        "scenario_id": "maitrise-val-des-saules",
+        "methode": "catalogue_fixe_sans_tirage",
+        "variables": {
+          "contexte": "maitrise-val-des-saules",
+          "carte": "3 colonnes A-C, 3 lignes 1-3, nord en haut",
+          "source": "fiche fictive fixe incluse dans stimulus"
+        },
+        "domaines": {
+          "contexte": [
+            "maitrise-val-des-saules"
+          ],
+          "coordonnees": "cases A1 à C3, valeurs verrouillées par stimulus",
+          "activites": "liste fermée attestée dans stimulus"
+        },
+        "contraintes": [
+          "ne jamais déplacer les éléments",
+          "ne jamais changer la fiche ni inventer un usage",
+          "deux liens attestés et localisés pour une carte de maîtrise",
+          "les nouvelles variantes exigent une nouvelle validation humaine"
+        ],
+        "algorithme": "Lire le stimulus de scenario_id sans substitution. Tracer la grille N↑. Reporter exactement cases et activités documentées. Formuler les relations ressource→activité et la limite. Comparer les chaînes aux réponses de référence. Aucune randomisation.",
+        "seed_version": 1203003,
+        "exemple_valide": "Le dossier fourni et la solution documentée constituent un exemple de validation manuelle; le statut de revue externe reste a_revoir."
+      },
+      "validation_status": "a_revoir",
+      "representation": "carte_maitrise",
+      "source": "Dossier fictif original intégré au stimulus; 8 octobre 2026",
+      "variabilite_permise": "Support manuscrit, texte, tactile, dictée fidèle et symboles équivalents; aucune variation des données, des coordonnées, des pratiques attestées ou du corrigé.",
+      "limites_de_variation": "Ne jamais réemployer les cartes d’enseignement ni modifier VS-1/VS-2; aucun choix libre d’un nouveau territoire.",
+      "preuve_de_maitrise": true,
+      "rubrique": "Pour les cartes, cote D1–D4 (0–3) selon evaluation/GRILLE_MAITRISE.md et consigne toute aide; ne pas juger l’esthétique."
+    },
+    {
+      "item_id": "qc-pri-us-003-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "**PREUVE AUTONOME 2 — territoire littoral distinct.** Sans modèle ni aide de contenu, produire une carte annotée du dossier PR-1/PR-2 (nord, légende, cases), avec au moins deux liens ressource → activité, des sources, du relief, une caractéristique climatique correctement attribuée et une limite d’interprétation. Les deux preuves sont recueillies séparément.",
+      "stimulus": "**Dossier fictif INÉDIT Port-aux-Roches, édition pédagogique du 8 octobre 2026 — auteur : rédaction Kristal, aucun lien avec une municipalité réelle.** \nCarte N↑, A–C d’ouest en est, 1–3 du nord au sud. **PRo-1, observations fictionnelles :** A1 = falaise rocheuse escarpée, activité non précisée; B1 = rochers sans aménagement décrit; C1 = petit bois sur plateau avec sentier balisé utilisé par les marcheurs; A2 = anse abritée avec quai et trajets en petits bateaux **observés**; B2 = village avec maisons; C2 = prairie en terrain bas avec troupeau de moutons et enclos **observés**; A3 = dunes protégées, accès non renseigné; B3 = route vers un marché; C3 = crête élevée sans activité notée. **PRo-2, climat simulé sur 30 ans :** des vents sont généralement fréquents à certaines saisons, sans mesure météo ponctuelle ni affirmation sur les causes des occupations. **Aucune donnée sur les droits d’accès, les usages autochtones ou l’histoire locale.**",
+      "reponse_attendue": "**Grille de référence, N↑, Δ/R/H/? :** A1 Δ falaise, B1 R rochers/H?, C1 Δ plateau/R bois → H sentier de marche; A2 R anse → H quai/trajets en petits bateaux; B2 H village, C2 Δ terrain bas/R prairie → H pâturage/enclos et moutons; A3 R dunes/H inconnu, B3 H route et marché, C3 Δ crête/H inconnu. **Deux chaînes au minimum**, parmi C1 bois/sentier, A2 anse/transport, C2 prairie/pâturage (toutes PRo-1). **Climat :** fiche PRo-2 est une description fictive à long terme, non la météo et non cause démontrée de la vie portuaire. **Limite :** on ne sait pas si dunes accessibles, ni si poissons pêchés ou exploitation des rochers; ne rien attribuer aux personnes au-delà des activités observées. Justifier chaque association et produire une légende. Réponse en grille tactile ou orale transcrite équivalente.",
+      "criteres": [
+        "D1 : situe au moins deux des cases C1/A2/C2 et un relief A1/C1/C3, sans inversion nord/sud.",
+        "D2 : deux relations R→H exactes et sourcées PRo-1, parmi bois/sentier, anse/transport, prairie/pâturage.",
+        "D3 : identifie PRo-2 comme climat simulé de longue durée, reconnaît une limite (dunes, pêche, propriété, histoire).",
+        "D4 : nord, quadrillage et légende fonctionnels, explication autonome complète.",
+        "Maîtrise : D1–D4 ≥2 ici ET q-007, sans indices positionnels."
+      ],
+      "feedback": "L’anse n’atteste pas la pêche; PRo-1 atteste seulement les trajets en bateaux. Une dune protégée ne garantit pas l’accès, et la fiche ne décrit pas l’identité des personnes.",
+      "difficulte": "transfert",
+      "seed": 1203003,
+      "parametres": {
+        "scenario_id": "maitrise-port-aux-roches",
+        "methode": "catalogue_fixe_sans_tirage",
+        "variables": {
+          "contexte": "maitrise-port-aux-roches",
+          "carte": "3 colonnes A-C, 3 lignes 1-3, nord en haut",
+          "source": "fiche fictive fixe incluse dans stimulus"
+        },
+        "domaines": {
+          "contexte": [
+            "maitrise-port-aux-roches"
+          ],
+          "coordonnees": "cases A1 à C3, valeurs verrouillées par stimulus",
+          "activites": "liste fermée attestée dans stimulus"
+        },
+        "contraintes": [
+          "ne jamais déplacer les éléments",
+          "ne jamais changer la fiche ni inventer un usage",
+          "deux liens attestés et localisés pour une carte de maîtrise",
+          "les nouvelles variantes exigent une nouvelle validation humaine"
+        ],
+        "algorithme": "Lire le stimulus de scenario_id sans substitution. Tracer la grille N↑. Reporter exactement cases et activités documentées. Formuler les relations ressource→activité et la limite. Comparer les chaînes aux réponses de référence. Aucune randomisation.",
+        "seed_version": 1203003,
+        "exemple_valide": "Le dossier fourni et la solution documentée constituent un exemple de validation manuelle; le statut de revue externe reste a_revoir."
+      },
+      "validation_status": "a_revoir",
+      "representation": "carte_maitrise",
+      "source": "Dossier fictif original intégré au stimulus; 8 octobre 2026",
+      "variabilite_permise": "Support manuscrit, texte, tactile, dictée fidèle et symboles équivalents; aucune variation des données, des coordonnées, des pratiques attestées ou du corrigé.",
+      "limites_de_variation": "Pas de substitution entre le littoral et la vallée; fiches PRo-1/PRo-2, coordonnées et solutions verrouillées.",
+      "preuve_de_maitrise": true,
+      "rubrique": "Pour les cartes, cote D1–D4 (0–3) selon evaluation/GRILLE_MAITRISE.md et consigne toute aide; ne pas juger l’esthétique."
+    },
+    {
+      "item_id": "qc-pri-us-003-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-003-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Comparer deux ressources en construisant une mini-carte de l’île fictive et indiquer ce qui demeure inconnu.",
+      "stimulus": "**Fiche ID-1, Île-des-Dunes inventée, 8 octobre 2026; carte N↑, A–C/1–3 :** A1 pente rocheuse; B1 petit bois avec plateforme d’observation utilisée par les visiteurs; C2 anse avec ponton où la traversée en barque est constatée; B3 dunes côtières sans fréquentation décrite; A3 logements. **ID-2** : aucun relevé de climat transmis.",
+      "reponse_attendue": "A1 Δ pente; B1 R bois → H plateforme d’observation/visites (ID-1); C2 R anse → H ponton/traversées (ID-1); B3 R dunes/H inconnu; A3 H logements. Une limite est l’absence de fiche climatique ID-2 et de droit d’accès aux dunes; on ne doit pas inventer baignade ou pêche. N↑ et légende.",
+      "criteres": [
+        "Deux chaînes B1 et C2 exactes, situées et sources identifiées.",
+        "Relief et logements situés.",
+        "Limite sur dunes et absence de données climatiques.",
+        "Carte accessible orientée et légendée."
+      ],
+      "feedback": "Ne remplace pas « ponton et traversées » par « pêche ». Aucune fiche de climat ne permet d’énoncer une tendance.",
+      "difficulte": "transfert",
+      "seed": 1203003,
+      "parametres": {
+        "scenario_id": "ile-des-dunes",
+        "methode": "catalogue_fixe_sans_tirage",
+        "variables": {
+          "contexte": "ile-des-dunes",
+          "carte": "3 colonnes A-C, 3 lignes 1-3, nord en haut",
+          "source": "fiche fictive fixe incluse dans stimulus"
+        },
+        "domaines": {
+          "contexte": [
+            "ile-des-dunes"
+          ],
+          "coordonnees": "cases A1 à C3, valeurs verrouillées par stimulus",
+          "activites": "liste fermée attestée dans stimulus"
+        },
+        "contraintes": [
+          "ne jamais déplacer les éléments",
+          "ne jamais changer la fiche ni inventer un usage",
+          "deux liens attestés et localisés pour une carte de maîtrise",
+          "les nouvelles variantes exigent une nouvelle validation humaine"
+        ],
+        "algorithme": "Lire le stimulus de scenario_id sans substitution. Tracer la grille N↑. Reporter exactement cases et activités documentées. Formuler les relations ressource→activité et la limite. Comparer les chaînes aux réponses de référence. Aucune randomisation.",
+        "seed_version": 1203003,
+        "exemple_valide": "Le dossier fourni et la solution documentée constituent un exemple de validation manuelle; le statut de revue externe reste a_revoir."
+      },
+      "validation_status": "a_revoir",
+      "representation": "carte_scenario",
+      "source": "Dossier fictif original intégré au stimulus; 8 octobre 2026",
+      "variabilite_permise": "Support manuscrit, texte, tactile, dictée fidèle et symboles équivalents; aucune variation des données, des coordonnées, des pratiques attestées ou du corrigé.",
+      "limites_de_variation": "Fiche ID-1 intangible; aucune autre île tirée au hasard.",
+      "preuve_de_maitrise": false,
+      "rubrique": "Pour les cartes, cote D1–D4 (0–3) selon evaluation/GRILLE_MAITRISE.md et consigne toute aide; ne pas juger l’esthétique."
+    },
+    {
+      "item_id": "qc-pri-us-003-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Distinguer un changement d’occupation documenté et une affirmation qui exigerait un autre document; proposer une annotation spatiale sans récit non fondé.",
+      "stimulus": "**Fiches fictives Canal-du-Moulin, auteurs équipe Kristal :** CM-1 (édition simulée 2010) « B2 = canal et terrain vacant; C2 = colline »; CM-2 (édition simulée 2026) « B2 = canal avec passerelle piétonne aménagée et utilisée; A1 = logements; C2 = colline ». Aucune autre activité ni description culturelle ou démographique n’est fournie. Il s’agit de **deux états construits pour l’exercice**, pas de relevés historiques.",
+      "reponse_attendue": "Observation : B2 possède en 2026 une passerelle piétonne utilisée, absente de CM-1 qui décrit le terrain vacant en 2010; ne pas inférer à elle seule une date précise de chantier ni la cause du changement. Carte 2026 : B2 R eau/canal → H passerelle et marche (CM-2), A1 H logements, C2 Δ colline, N↑ et légende. La fiche ne permet pas de parler d’identité, d’origine des habitants ou d’activité de pêche.",
+      "criteres": [
+        "Compare 2010 et 2026 en citant CM-1/CM-2, sans inventer de causalité.",
+        "Écrit une chaîne ressource–activité localisée B2 pour 2026.",
+        "Reconnaît au moins une limite (date exacte de chantier, pêche, habitants).",
+        "Respecte orientation et légende ou fournit description équivalente."
+      ],
+      "feedback": "Une différence entre deux fiches décrit un changement repéré, mais n’explique pas pourquoi. Évite d’attribuer les aménagements ou des pratiques à un groupe non documenté.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "fiche_comparative",
+      "source": "Dossier fictif original intégré au stimulus; 8 octobre 2026",
+      "variabilite_permise": "Support manuscrit, texte, tactile, dictée fidèle et symboles équivalents; aucune variation des données, des coordonnées, des pratiques attestées ou du corrigé.",
+      "limites_de_variation": "Années fictives fixes; aucune assimilation à l’histoire réelle d’un lieu.",
+      "preuve_de_maitrise": false,
+      "rubrique": "Vérifier chaque sous-réponse et son appui documentaire; item préparatoire, non suffisante pour décider la maîtrise."
+    }
+  ]
+}

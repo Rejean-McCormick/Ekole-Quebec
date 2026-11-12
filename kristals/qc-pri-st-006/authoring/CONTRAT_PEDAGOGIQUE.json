@@ -1,0 +1,89 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier et comparer des changements physiques observables de la matière.",
+  "concepts": [
+    "fusion",
+    "évaporation",
+    "mélange",
+    "réversibilité"
+  ],
+  "preuve_attendue": "Comparer deux transformations et conserver une trace des observations.",
+  "prerequis_bloquants": [
+    "qc-pri-st-005"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-006-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Comparer deux transformations et conserver une trace des observations.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Un corpus de scénarios fixes (009/010) seulement; pas de substitution factuelle non validée, sélection non aléatoire, modalités de restitution adaptées.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_scenarios": "009 puis 010; aucune combinaison automatique ni génération libre; seed sans objet pour les items fixes"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-st-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiche avant-après",
+        "tableau de comparaison",
+        "schéma annoté",
+        "justification orale ou écrite"
+      ],
+      "variables": {
+        "type": "corpus_fixe_ferme",
+        "cas_autorises": [
+          "cycle_eau_local_009",
+          "atelier_materiaux_010"
+        ],
+        "variation": "aucune nouvelle transformation sans revue et nouveau corrigé",
+        "distribution": "non_aleatoire"
+      },
+      "contraintes": [
+        "deux transformations distinctes comparées",
+        "traces explicites",
+        "constat distingué de l’inférence",
+        "réversibilité toujours conditionnelle",
+        "scénarios fictifs décrits comme tels",
+        "pas de chauffage ni substances ingérées",
+        "deux contextes indépendants",
+        "aucune génération IA libre non contrôlée"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "exactitude",
+          "trace_avant_apres",
+          "observation_vs_inference",
+          "comparaison_et_reversibilite",
+          "autonomie"
+        ],
+        "validation": "deux preuves indépendantes avec chaque critère essentiel atteint"
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/PLAN_EVALUATION.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_banque_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

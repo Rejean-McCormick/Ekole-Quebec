@@ -1,0 +1,134 @@
+{
+  "format": "ekole.activity/1",
+  "id": "total-du-marche",
+  "revision": 1,
+  "status": "local_demo",
+  "model": "questions",
+  "course": {
+    "id": "qc-pri-ma-006",
+    "objective": "obj-1",
+    "sha256": "sha256:bda17b3e83f0cdad86679a341b00097b8816f0376e58c5ea77002dcc8cfd629c"
+  },
+  "scenario": {
+    "id": "total-du-marche",
+    "version": "1.0.0",
+    "step": "essai",
+    "sha256": "sha256:2b726a621260b5e8bddac8e65ff0a8f4e5713522331ae44065599f19be6abe9e"
+  },
+  "trame": "budget-marche",
+  "tasks": {
+    "pratique": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "numeric",
+          "expected": "43",
+          "tolerance": "0"
+        }
+      ]
+    },
+    "bilan": {
+      "items": [
+        {
+          "id": "observer",
+          "kind": "numeric",
+          "expected": "62",
+          "tolerance": "0"
+        },
+        {
+          "id": "expliquer",
+          "kind": "rubric",
+          "criteria": {
+            "preuve": 1
+          }
+        }
+      ]
+    }
+  },
+  "realizations": {
+    "fr-CA": {
+      "limits": "Activité de démonstration locale à relire avant un usage en classe.",
+      "pratique": "Je pratique",
+      "bilan": "Je vérifie avec un autre exemple",
+      "submit": "Remettre",
+      "refresh": "Actualiser le résultat",
+      "restart": "Refaire l’entraînement",
+      "pending": "La rétroaction sera disponible après la revue.",
+      "score": "Résultat",
+      "review": "La justification sera lue par une personne.",
+      "title": "Le total du marché fictif",
+      "objective": "Modélise une addition et choisis une stratégie.",
+      "prerequisite": "Décomposer un nombre en dizaines et unités.",
+      "context": "Au marché fictif, une décoration coûte 27 jetons et un panneau coûte 16 jetons.",
+      "group": "Écris ce que représente chaque nombre.",
+      "compare": "Décompose un des nombres pour faciliter l’addition.",
+      "reflection": "Comment vérifier ton résultat d’une autre façon ?",
+      "transfer": "Un autre stand prépare deux achats de 38 et 24 jetons.",
+      "subtitle": "Activité de découverte",
+      "heading": "Le total du marché fictif",
+      "correct": "Ta réponse correspond à la situation.",
+      "incorrect": "Relis les données de la situation et compare les possibilités.",
+      "next": "Décompose un des nombres pour faciliter l’addition.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "Quel est le total ?"
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "Quel est le total des deux nouveaux achats ?"
+          },
+          "expliquer": {
+            "prompt": "Explique comment tu as calculé le total sans recompter chaque jeton.",
+            "criteria": {
+              "preuve": "La réponse décrit une stratégie valide pour additionner 38 et 24."
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "limits": "Local demonstration activity for review before classroom use.",
+      "pratique": "Practice",
+      "bilan": "Try a different example",
+      "submit": "Submit",
+      "refresh": "Refresh the result",
+      "restart": "Try the practice again",
+      "pending": "Feedback will be available after review.",
+      "score": "Result",
+      "review": "Someone will review your explanation.",
+      "title": "The pretend market total",
+      "objective": "Model an addition and choose a strategy.",
+      "prerequisite": "Break a number into tens and ones.",
+      "context": "At the pretend market, a decoration costs 27 tokens and a sign costs 16 tokens.",
+      "group": "Write what each number represents.",
+      "compare": "Break up one number to make the addition easier.",
+      "reflection": "How could you check your result another way?",
+      "transfer": "Another stall plans two purchases for 38 and 24 tokens.",
+      "subtitle": "Discovery activity",
+      "heading": "The pretend market total",
+      "correct": "Your answer fits the situation.",
+      "incorrect": "Read the situation again and compare the options.",
+      "next": "Break up one number to make the addition easier.",
+      "questions": {
+        "pratique": {
+          "observer": {
+            "prompt": "What is the total?"
+          }
+        },
+        "bilan": {
+          "observer": {
+            "prompt": "What is the total for the two new purchases?"
+          },
+          "expliquer": {
+            "prompt": "Explain how you worked out the total without counting every token.",
+            "criteria": {
+              "preuve": "The response describes a valid strategy for adding 38 and 24."
+            }
+          }
+        }
+      }
+    }
+  }
+}

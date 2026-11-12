@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-013",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Construire des fractions équivalentes et comparer des fractions de référence.",
+  "concepts": [
+    "équivalence",
+    "dénominateur",
+    "comparaison"
+  ],
+  "preuve_attendue": "Ordonner des fractions avec justification visuelle ou numérique.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-012"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-013-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Ordonner des fractions avec justification visuelle ou numérique.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Tables bornées et listées dans BANQUE_ITEMS.json; index=seed mod n; aucun choix libre; vérifier chaque cas par fractions exactes.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "selection_deterministe": "index = seed % len(cas) (ordre de tableau inchangé, seed entier fixé)",
+        "controle_solution": "Comparaisons exactes avec fractions.Fraction; équivalences par produits entiers; tous les cas testés"
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ma-013",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "bandes de même unité et parts égales",
+        "droite graduée commune de 0 à 1",
+        "fractions symboliques et calcul exact"
+      ],
+      "variables": {
+        "formulation": "tables finies de quadruplets et paires rationnelles, selon item",
+        "sources": "evaluation/BANQUE_ITEMS.json",
+        "seed_selecteur": "index = seed % nombre_de_cas",
+        "item_ids_parametriques": [
+          "qc-pri-ma-013-q-003",
+          "qc-pri-ma-013-q-004",
+          "qc-pri-ma-013-q-005",
+          "qc-pri-ma-013-q-006"
+        ]
+      },
+      "contraintes": [
+        "dénominateurs entiers strictement positifs",
+        "fractions bornées à [0,1] dans tous les cas générés",
+        "toutes les parts d’une représentation ont la même unité",
+        "un seul corrigé de comparaison selon Fraction et test exact",
+        "scénarios de maîtrise 009 et 010 fixes",
+        "aucune correction par génération IA libre"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "critere_de_maitrise": "ordre correct des trois fractions et justification numérique/visuelle valide sur chacune des deux épreuves indépendantes",
+        "niveaux": [
+          0,
+          1,
+          2
+        ],
+        "regle": "deux preuves suffisantes, aucune moyenne compensatoire"
+      },
+      "source": [
+        "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": {
+        "item_003": 1203,
+        "item_004": 1204,
+        "item_005": 1205,
+        "item_006": 1206
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

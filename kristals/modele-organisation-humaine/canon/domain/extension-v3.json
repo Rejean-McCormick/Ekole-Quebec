@@ -1,0 +1,85 @@
+{
+  "format": "kristal.organisation-humaine-extension/3.0",
+  "herite_de": "canon/domain/extension-v2.json",
+  "principes": [
+    "Société ≠ administration; une culture n’est pas une liste de permissions.",
+    "Organisation n’est pas nécessairement hiérarchique.",
+    "Même territoire peut avoir des noms, liens, revendications et reconnaissances distincts.",
+    "Une absence de relation n’est pas une négation.",
+    "Une date de publication n’est pas forcément une date historique."
+  ],
+  "noeuds": [
+    "Organisation",
+    "Acteur",
+    "Rôle",
+    "Tâche",
+    "Ressource",
+    "RelationSituée",
+    "NormeDéclarée",
+    "PratiqueDocumentée",
+    "Événement",
+    "Source",
+    "Interprétation",
+    "Perspective",
+    "DivergenceDocumentaire",
+    "PréalablePédagogique",
+    "IntentionVisuelle"
+  ],
+  "relation_situee": {
+    "champs_obligatoires": [
+      "societe_ref",
+      "role_ref",
+      "tache_ref",
+      "ressource_ref",
+      "periode_ref",
+      "fact_ids"
+    ],
+    "preuve": "fait référencé et sa source",
+    "temps": "période de l’objet historique, jamais automatiquement date de la source"
+  },
+  "norme": {
+    "distinguer": [
+      "permission",
+      "interdiction",
+      "obligation",
+      "responsabilité décrite",
+      "parole consignée",
+      "pratique observée"
+    ],
+    "reconnaissance": "par quelle institution ou voix, dans quelle période",
+    "ne_jamais": "un texte colonial comme loi universelle autochtone"
+  },
+  "provenance": {
+    "champs": [
+      "source_id",
+      "ancrage",
+      "perspective",
+      "type_source",
+      "limites",
+      "statut_revue"
+    ],
+    "divergence": "pluriversion, aucune réponse unique produite"
+  },
+  "pedagogie": {
+    "types": [
+      "choisir_mot",
+      "associer",
+      "remettre_en_ordre",
+      "comparer_sources",
+      "lire_contextes"
+    ],
+    "score_interdit": [
+      "réévaluer droits autochtones à partir de choix arbitraires",
+      "injustices et pensionnats"
+    ],
+    "evaluation": [
+      "entraînement vérifiable à portée limitée",
+      "observation humaine"
+    ]
+  },
+  "publication": {
+    "approbation_nations": false,
+    "revue_enseignant": false,
+    "preuve_publiable": false
+  }
+}

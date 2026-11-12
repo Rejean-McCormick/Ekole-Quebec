@@ -1,0 +1,314 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-011",
+  "family_id": "qc-pri-us-011-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-us-011-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Ordonne les trois événements historiques. Nomme la date qui indique seulement une commémoration moderne.",
+      "stimulus": "Fiche d’étude: le canal de Lachine ouvre en 1825. Son agrandissement de 1843 à 1848 augmente la capacité d’utiliser l’énergie de l’eau. En 1887, Parcs Canada documente au moins 2 000 ouvriers liés aux établissements utilisant cette énergie. Une page de 2025 rappelle l’histoire du canal (S1 et article commémoratif).",
+      "reponse_attendue": "Ordre : 1825 ouverture, 1843–1848 agrandissement et accès à l’énergie hydraulique, 1887 constat d’emplois. 2025 est la date de la commémoration; ne pas l’insérer comme événement du XIXe siècle.",
+      "criteres": [
+        "Chronologie historique des trois repères correcte.",
+        "Distingue l’année d’une publication/commémoration de la date du fait.",
+        "Ne confond pas ouverture et agrandissement."
+      ],
+      "feedback": "Si 2025 est placé en premier, demander de différencier le moment où on écrit une page du moment où l’événement a eu lieu.",
+      "difficulte": "initial",
+      "representation": "frise à trois repères et explication ; production observable à conserver par écrit, schéma légendé ou réponse orale documentée",
+      "source_ids": [
+        "S0",
+        "S1"
+      ],
+      "variations_permises": "Seulement débit de lecture, taille des caractères, ordre de lecture des paragraphes, réponse orale/dictée ou schéma annoté; tous les faits, dates, groupes et corrigés restent inchangés.",
+      "limites_variation": "Corpus figé aux fiches S1–S4; aucune IA générative libre; ne jamais intervertir les périodes ni les populations; les réponses doivent demeurer vérifiables et différencier fait/inférence.",
+      "accessibilite": "Texte disponible en gros caractères, lecture vocale et format tableau; aucune expérience migratoire ou familiale demandée. Scribe non directif possible.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-011-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Relève une transformation technique et un effet social distinct, en les situant au canal de Lachine. Ajoute un fait que cette fiche ne prouve pas.",
+      "stimulus": "S1 : après la reconstruction du canal de Lachine dans les années 1840, l’eau est utilisée pour actionner roues et turbines d’entreprises. Selon la synthèse de Parcs Canada, de nombreuses manufactures de différents secteurs utilisent cette force et emploient des ouvriers.",
+      "reponse_attendue": "Technique : exploitation d’énergie hydraulique grâce à roues/turbines alimentées par le canal. Effet social : emploi de travailleurs dans des manufactures près du canal (S1). Non démontré : tous les travailleurs ont un salaire élevé, ou toutes les personnes de Montréal y travaillent.",
+      "criteres": [
+        "Technique précise identifiée, avec date et lieu.",
+        "Effet social sur le travail distinct de la technique.",
+        "Limite explicite reconnue et justifiée par l’absence d’indice."
+      ],
+      "feedback": "Si la réponse dit seulement “le canal a changé”, faire préciser quel mécanisme technique a servi aux entreprises.",
+      "difficulte": "initial",
+      "representation": "repérage en texte et phrase argumentée ; production observable à conserver par écrit, schéma légendé ou réponse orale documentée",
+      "source_ids": [
+        "S1"
+      ],
+      "variations_permises": "Seulement débit de lecture, taille des caractères, ordre de lecture des paragraphes, réponse orale/dictée ou schéma annoté; tous les faits, dates, groupes et corrigés restent inchangés.",
+      "limites_variation": "Corpus figé aux fiches S1–S4; aucune IA générative libre; ne jamais intervertir les périodes ni les populations; les réponses doivent demeurer vérifiables et différencier fait/inférence.",
+      "accessibilite": "Texte disponible en gros caractères, lecture vocale et format tableau; aucune expérience migratoire ou familiale demandée. Scribe non directif possible.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-011-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe ces quatre expressions en deux groupes : transformations techniques ou faits sociaux; explique un exemple qui pourrait être confondu.",
+      "stimulus": "Expressions : A = davantage de force hydraulique utilisable dans des turbines; B = métiers industriels dans des manufactures; C = réseau de voies ferrées en expansion; D = concentration résidentielle de certains travailleurs à proximité des gares (S1, S3).",
+      "reponse_attendue": "Transformations techniques : A et C. Faits sociaux : B et D. Les turbines et rails représentent une infrastructure/une source d’énergie; emploi et logement concernent les conditions de vie des personnes.",
+      "criteres": [
+        "A/C correctement distinguées de B/D.",
+        "Au moins un classement justifié par la nature technique ou sociale du changement.",
+        "N’assimile pas machine et travailleur ou gare et logement."
+      ],
+      "feedback": "Si les logements sont rangés parmi les techniques, expliquer que l’emplacement des habitants est un effet d’organisation sociale, pas une invention mécanique.",
+      "difficulte": "initial",
+      "representation": "tri de catégories expliqué ; production observable à conserver par écrit, schéma légendé ou réponse orale documentée",
+      "source_ids": [
+        "S1",
+        "S3"
+      ],
+      "variations_permises": "Seulement débit de lecture, taille des caractères, ordre de lecture des paragraphes, réponse orale/dictée ou schéma annoté; tous les faits, dates, groupes et corrigés restent inchangés.",
+      "limites_variation": "Corpus figé aux fiches S1–S4; aucune IA générative libre; ne jamais intervertir les périodes ni les populations; les réponses doivent demeurer vérifiables et différencier fait/inférence.",
+      "accessibilite": "Texte disponible en gros caractères, lecture vocale et format tableau; aucune expérience migratoire ou familiale demandée. Scribe non directif possible.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-011-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis S1 et S2 puis donne deux effets sociaux DIFFERENTS de la disponibilité accrue de force hydraulique au canal. Associe un fait de chaque source à son effet.",
+      "stimulus": "S1 (Parcs Canada, secteur du canal après 1843–1848) : l’énergie de l’eau est exploitée par plusieurs entreprises; au moins 2 000 personnes travaillent en 1887 dans ces établissements. S2 (Parcs Canada, corridor de l’industrialisation) : les usines attirent des travailleurs vivant près de leurs lieux de travail, ce qui contribue aux quartiers ouvriers du Sud-Ouest montréalais.",
+      "reponse_attendue": "Effet 1, travail : emplois manufacturiers; indice S1 = au moins 2 000 travailleurs dans les établissements visés en 1887. Effet 2, ville/habitat : installation de travailleurs près des usines et développement des quartiers ouvriers; indice S2. Il s’agit de conséquences associées à une transformation parmi d’autres facteurs.",
+      "criteres": [
+        "Identifie l’exploitation de la force hydraulique comme transformation.",
+        "Effet sur le travail validé par S1.",
+        "Effet sur l’habitat urbain validé par S2.",
+        "Les deux effets sont différents; évite la généralisation universelle."
+      ],
+      "feedback": "Si les deux effets portent sur le seul nombre d’emplois, demander un effet spatial ou résidentiel distinct explicitement présent dans S2.",
+      "difficulte": "intermediaire",
+      "representation": "chaîne technique → deux effets → indices ; production observable à conserver par écrit, schéma légendé ou réponse orale documentée",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "variations_permises": "Seulement débit de lecture, taille des caractères, ordre de lecture des paragraphes, réponse orale/dictée ou schéma annoté; tous les faits, dates, groupes et corrigés restent inchangés.",
+      "limites_variation": "Corpus figé aux fiches S1–S4; aucune IA générative libre; ne jamais intervertir les périodes ni les populations; les réponses doivent demeurer vérifiables et différencier fait/inférence.",
+      "accessibilite": "Texte disponible en gros caractères, lecture vocale et format tableau; aucune expérience migratoire ou familiale demandée. Scribe non directif possible.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-011-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère deux réalités de vie liées aux emplois ferroviaires, puis indique une interprétation qui serait abusive.",
+      "stimulus": "S3, Parcs Canada : la croissance ferroviaire s’accompagne d’emplois de porteurs, souvent réservés aux hommes noirs dans un contexte discriminatoire. À Montréal, plusieurs porteurs vivent dans le secteur Saint-Antoine près des gares et jouent des rôles au sein d’organisations communautaires et syndicales.",
+      "reponse_attendue": "Réalité 1, travail (S3) : emplois de porteurs mais barrières discriminatoires et emplois souvent moins rémunérés. Réalité 2, ville : regroupement résidentiel et vie communautaire près des gares. Interprétation abusive : “le train a créé le racisme” ou “tous les cheminots habitaient Saint-Antoine”.",
+      "criteres": [
+        "Développement du service ferroviaire nommé.",
+        "Distingue conditions de travail et vie urbaine/collective.",
+        "Chaque effet est rattaché à un segment de S3.",
+        "Rejette une cause unique ou un quantificateur totalisant."
+      ],
+      "feedback": "Reconnaître qu’un emploi peut apparaître sans être offert dans des conditions égales; éviter d’attribuer au progrès technique la création du racisme.",
+      "difficulte": "intermediaire",
+      "representation": "tableau travail / ville avec critique de généralisation ; production observable à conserver par écrit, schéma légendé ou réponse orale documentée",
+      "source_ids": [
+        "S3"
+      ],
+      "variations_permises": "Seulement débit de lecture, taille des caractères, ordre de lecture des paragraphes, réponse orale/dictée ou schéma annoté; tous les faits, dates, groupes et corrigés restent inchangés.",
+      "limites_variation": "Corpus figé aux fiches S1–S4; aucune IA générative libre; ne jamais intervertir les périodes ni les populations; les réponses doivent demeurer vérifiables et différencier fait/inférence.",
+      "accessibilite": "Texte disponible en gros caractères, lecture vocale et format tableau; aucune expérience migratoire ou familiale demandée. Scribe non directif possible.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-011-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-011-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir de S4, écris deux faits concernant les ouvriers migrants et explique pourquoi le chemin de fer n’est pas une cause exclusive de leur établissement dans les villes.",
+      "stimulus": "S4, Parcs Canada : autour du début du XXe siècle, des hommes italiens viennent temporairement travailler au Canada, notamment dans la construction de chemins de fer, de ponts et dans les mines. Certains demeurent au pays et font venir des proches; des quartiers d’immigration italiens se développent.",
+      "reponse_attendue": "Fait 1 (S4) : des hommes migrants travaillent sur les chantiers ferroviaires parmi d’autres secteurs; fait 2 : une partie s’installe et contribue à des quartiers d’immigration. Réserve : S4 mentionne plusieurs domaines d’emploi et motifs de séjour; il ne prouve ni que tous les migrants restent ni que seule la voie ferrée explique ces quartiers.",
+      "criteres": [
+        "Situe l’époque et indique la construction ferroviaire.",
+        "Décrit à la fois travail et migration/installation sans les confondre.",
+        "Appuie les deux faits sur S4.",
+        "Énonce correctement la pluralité des facteurs et le caractère non universel du séjour."
+      ],
+      "feedback": "Si la réponse généralise “ils se sont tous établis”, surligner le mot “certains” et le rôle des emplois hors rail.",
+      "difficulte": "intermediaire",
+      "representation": "synthèse historique nuancée ; production observable à conserver par écrit, schéma légendé ou réponse orale documentée",
+      "source_ids": [
+        "S4"
+      ],
+      "variations_permises": "Seulement débit de lecture, taille des caractères, ordre de lecture des paragraphes, réponse orale/dictée ou schéma annoté; tous les faits, dates, groupes et corrigés restent inchangés.",
+      "limites_variation": "Corpus figé aux fiches S1–S4; aucune IA générative libre; ne jamais intervertir les périodes ni les populations; les réponses doivent demeurer vérifiables et différencier fait/inférence.",
+      "accessibilite": "Texte disponible en gros caractères, lecture vocale et format tableau; aucune expérience migratoire ou familiale demandée. Scribe non directif possible.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-011-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Corrige ce texte historique en retirant les affirmations non prouvées et en citant une transformation et deux effets réellement documentés.",
+      "stimulus": "Affirmation fictive à analyser : “En 2025, l’invention du canal de Lachine a donné un travail bien payé à tous les Montréalais; tous ont quitté leur maison pour vivre près des roues.” Corpus de vérification : S1, S2 (canal ouvert 1825; énergie après 1843–1848; manufactures et quartiers).",
+      "reponse_attendue": "Correction : le canal ouvre en 1825, non 2025. Son agrandissement de 1843–1848 favorise l’exploitation de la force hydraulique; des ouvriers sont employés dans des manufactures (S1) et des quartiers ouvriers se développent près des usines (S2). Aucune source ne prouve richesse universelle, déménagement de toutes les personnes, ni causalité unique.",
+      "criteres": [
+        "Identifie et corrige l’erreur de date.",
+        "Nomme l’énergie hydraulique exploitée comme transformation.",
+        "Justifie un effet de travail et un effet d’urbanisation par S1/S2.",
+        "Retire les deux affirmations universelles invérifiables."
+      ],
+      "feedback": "Demander “qui ?” “où ?” “quand ?” : ni 2025 comme date des faits ni “tous” ne sont appuyés par les documents.",
+      "difficulte": "intermediaire",
+      "representation": "réécriture critique de source fictive ; production observable à conserver par écrit, schéma légendé ou réponse orale documentée",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "variations_permises": "Seulement débit de lecture, taille des caractères, ordre de lecture des paragraphes, réponse orale/dictée ou schéma annoté; tous les faits, dates, groupes et corrigés restent inchangés.",
+      "limites_variation": "Corpus figé aux fiches S1–S4; aucune IA générative libre; ne jamais intervertir les périodes ni les populations; les réponses doivent demeurer vérifiables et différencier fait/inférence.",
+      "accessibilite": "Texte disponible en gros caractères, lecture vocale et format tableau; aucune expérience migratoire ou familiale demandée. Scribe non directif possible.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-011-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare la causalité dans le cas hydraulique et le cas ferroviaire. Formule une chaîne étayée pour chaque contexte et précise une limite qui les distingue.",
+      "stimulus": "S1/S2 : l’extension de l’énergie hydraulique au canal est associée à des usines, emplois et quartiers ouvriers. S3 : la croissance ferroviaire s’accompagne de métiers de porteur dans un contexte racialisé et de regroupements près des gares. Deux situations historiques de Montréal, mais groupes et périodes en partie différents.",
+      "reponse_attendue": "Canal : disponibilité d’énergie → emplois manufacturiers S1 et quartiers ouvriers S2. Rail : expansion des chemins de fer → métiers de porteur dans des conditions inégales S3 et communauté proche des gares S3. Réserve : la force hydraulique n’est pas cause exclusive de l’urbanisation; le chemin de fer n’a pas créé la discrimination. On ne fusionne pas les groupes en une population uniforme.",
+      "criteres": [
+        "Deux transformations correctement nommées et situées.",
+        "Pour chaque cas, effets sociaux étayés et non confondus.",
+        "Cite S1/S2 pour canal et S3 pour rail.",
+        "Formule au moins une limite de causalité correcte."
+      ],
+      "feedback": "Si les chaînes sont interchangeables, faire associer explicitement hydraulique aux manufactures et chemin de fer au travail de porteur.",
+      "difficulte": "transfert",
+      "representation": "tableau comparatif ou double chaîne de liens ; production observable à conserver par écrit, schéma légendé ou réponse orale documentée",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "variations_permises": "Seulement débit de lecture, taille des caractères, ordre de lecture des paragraphes, réponse orale/dictée ou schéma annoté; tous les faits, dates, groupes et corrigés restent inchangés.",
+      "limites_variation": "Corpus figé aux fiches S1–S4; aucune IA générative libre; ne jamais intervertir les périodes ni les populations; les réponses doivent demeurer vérifiables et différencier fait/inférence.",
+      "accessibilite": "Texte disponible en gros caractères, lecture vocale et format tableau; aucune expérience migratoire ou familiale demandée. Scribe non directif possible.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-011-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME A — Sans recevoir d’indice sur les choix, décris la transformation technique du canal de Lachine et relie-la à DEUX effets sociaux DISTINCTS sur la vie quotidienne, documentés. Indique le lieu, la période, une preuve précise pour chaque effet et une réserve de causalité.",
+      "stimulus": "DOSSIER A, fiches historiques originalement reformulées d’après Parcs Canada : [A1/S1] Durant le premier agrandissement du canal (1843–1848), de l’eau est rendue disponible pour entraîner roues et turbines près des écluses. Des manufactures, notamment des minoteries et ateliers de métal, bénéficient de l’énergie. En 1887, les établissements utilisant cette énergie hydraulique rassemblent au moins 2 000 travailleurs. [A2/S2] De nouvelles entreprises s’implantent dans le corridor; des travailleurs emménagent près de leurs lieux d’emploi, contribuant à la croissance des quartiers ouvriers du Sud-Ouest de Montréal. Ces fiches sont des SYNTHÈSES DIDACTIQUES, pas des témoignages d’époque. Sources : S1, S2.",
+      "reponse_attendue": "Réponse centrale : à Montréal, après l’agrandissement de 1843–1848, les roues/turbines utilisant la force de l’eau favorisent les manufactures. EFFET 1 sur le travail : entreprises et emplois manufacturiers, démontrés par A1/S1 (au moins 2 000 travailleurs observés en 1887 dans l’ensemble indiqué). EFFET 2 sur la ville : habitat près des installations et croissance de quartiers ouvriers, démontrés par A2/S2. Réserve : énergie hydraulique contributive parmi d’autres facteurs, pas de preuve d’enrichissement de tous; 1887 ≠ 1848. Des paraphrases équivalentes sont admises si les preuves et l’attribution demeurent correctes.",
+      "criteres": [
+        "M1 Identifie la transformation hydraulique et situe Montréal/1843–1848 sans confondre 1887.",
+        "M2 Fournit effet social distinct 1 sur le travail lié aux manufactures.",
+        "M3 Fournit effet social distinct 2 sur l’habitat ou le quartier ouvrier.",
+        "M4 Appuie séparément les deux effets sur A1/S1 et A2/S2, avec un détail pertinent de chaque fiche.",
+        "M5 Distingue fait/inférence, exprime au moins une limite, et travaille sans aide de contenu pendant la prestation."
+      ],
+      "feedback": "Si un des deux effets manque, enseigner à nouveau la distinction travail/habitat puis obtenir une NOUVELLE preuve autonome; si la source manque, entraîner le renvoi à A1/A2. Un score global ne compense aucun critère incomplet.",
+      "difficulte": "transfert",
+      "representation": "document A + réponse argumentée écrite/orale ou schéma sourcé ; production observable à conserver par écrit, schéma légendé ou réponse orale documentée",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "variations_permises": "Seulement débit de lecture, taille des caractères, ordre de lecture des paragraphes, réponse orale/dictée ou schéma annoté; tous les faits, dates, groupes et corrigés restent inchangés.",
+      "limites_variation": "Corpus figé aux fiches S1–S4; aucune IA générative libre; ne jamais intervertir les périodes ni les populations; les réponses doivent demeurer vérifiables et différencier fait/inférence.",
+      "accessibilite": "Texte disponible en gros caractères, lecture vocale et format tableau; aucune expérience migratoire ou familiale demandée. Scribe non directif possible.",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "CANAL_HYDRAULIQUE_1843_1887",
+        "corpus_autorise": [
+          "S1",
+          "S2"
+        ],
+        "variation": "aucune_substitution_de_faits_ou_de_corrige",
+        "selection": "fixe_sans_tirage",
+        "cle_correction": "version_1.0"
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A — canal de Lachine, travail et urbanisation",
+      "maitrise_context": "A — canal, énergie hydraulique, emplois et quartiers"
+    },
+    {
+      "item_id": "qc-pri-us-011-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME B — Dans un contexte DISTANT du canal, explique l’expansion ferroviaire et DEUX effets sociaux distincts documentés concernant les porteurs noirs. Donne une preuve précise pour chaque effet, situe période/lieu, distingue inégalités préexistantes et changements liés au réseau; aucun indice directif.",
+      "stimulus": "DOSSIER B, fiche historique originale d’après Parcs Canada : [B1/S3] Depuis la fin des années 1880, des hommes noirs exercent des emplois de porteurs de trains au Canada. Ils rencontrent un accès discriminatoire aux emplois ferroviaires et sont souvent limités à des postes de service mal payés. [B2/S3] À Montréal, plusieurs porteurs résident dans le secteur Saint-Antoine, proche des gares. Des porteurs organisent aussi la défense de leurs droits dans la vie syndicale et communautaire. L’expansion du chemin de fer est le cadre technique de ces emplois; cette infrastructure n’est pas l’origine unique de la discrimination raciale. Cette fiche est une SYNTHÈSE DIDACTIQUE et non un témoignage direct. Source : S3.",
+      "reponse_attendue": "Réponse centrale : l’essor des chemins de fer (fin XIXe–début XXe) transforme les transports et offre des emplois de service à bord. EFFET 1, travail : métiers de porteurs avec des possibilités et conditions d’emploi inégales pour les hommes noirs; indice B1/S3. EFFET 2, habitat et organisation collective : certains porteurs habitent Saint-Antoine près des gares et contribuent à des organisations communautaires/syndicales; indice B2/S3. Réserve : l’infrastructure ferroviaire n’a pas créé à elle seule le racisme ni déterminé le lieu de vie de tous. D’autres formulations prudentes sont recevables; une généralisation « tous les Noirs étaient porteurs » est rejetée.",
+      "criteres": [
+        "M1 Nommer expansion du réseau ferroviaire et situer fin XIXe–début XXe / Montréal-Canada.",
+        "M2 Expliquer un effet sur le travail et ses conditions inégales à l’aide de B1/S3.",
+        "M3 Expliquer un effet DISTINCT sur habitat/organisations proches des gares par B2/S3.",
+        "M4 Donner une preuve située pour CHACUN des deux effets; ne pas utiliser seulement des opinions.",
+        "M5 Exprimer une réserve sur le racisme et la causalité, sans stigmatiser ni recevoir de suggestions sur la réponse."
+      ],
+      "feedback": "Si l’élève affirme “le train a créé la discrimination”, demander de distinguer la présence du métier du contexte social préexistant après la passation; prévoir une nouvelle tâche de transfert. Ne pas convertir une adaptation d’accès en aide sur les preuves.",
+      "difficulte": "transfert",
+      "representation": "document B + réponse argumentée écrite/orale ou schéma sourcé ; production observable à conserver par écrit, schéma légendé ou réponse orale documentée",
+      "source_ids": [
+        "S3"
+      ],
+      "variations_permises": "Seulement débit de lecture, taille des caractères, ordre de lecture des paragraphes, réponse orale/dictée ou schéma annoté; tous les faits, dates, groupes et corrigés restent inchangés.",
+      "limites_variation": "Corpus figé aux fiches S1–S4; aucune IA générative libre; ne jamais intervertir les périodes ni les populations; les réponses doivent demeurer vérifiables et différencier fait/inférence.",
+      "accessibilite": "Texte disponible en gros caractères, lecture vocale et format tableau; aucune expérience migratoire ou familiale demandée. Scribe non directif possible.",
+      "seed": null,
+      "parametres": {
+        "scenario_id": "RAIL_PORTEURS_NOIRS_1880_1941",
+        "corpus_autorise": [
+          "S3"
+        ],
+        "variation": "aucune_substitution_de_faits_ou_de_corrige",
+        "selection": "fixe_sans_tirage",
+        "cle_correction": "version_1.0"
+      },
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B — railway porters, work and urban life",
+      "maitrise_context": "B — chemin de fer, porteurs noirs, travail et vie communautaire"
+    }
+  ]
+}

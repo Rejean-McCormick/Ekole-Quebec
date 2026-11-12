@@ -1,0 +1,73 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-als-011",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Relire et améliorer un texte anglais court à partir de critères ciblés.",
+  "concepts": [
+    "révision",
+    "sens",
+    "mots fréquents",
+    "structure"
+  ],
+  "preuve_attendue": "Réviser un court message et expliquer deux améliorations.",
+  "prerequis_bloquants": [
+    "qc-pri-als-010"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-als-011-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Réviser un court message et expliquer deux améliorations.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-als-011",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Réviser un court message et expliquer deux améliorations.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "message écrit court",
+        "note à un destinataire fictif",
+        "message informatif contextualisé"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Mode fixe uniquement : stimuli, faits et corrections contrôlés; aucune substitution automatique.",
+        "Conserver destinataire, objet, lieu, jour et heure du texte initial lorsqu’ils sont présents.",
+        "Exiger une version finale anglaise et deux modifications distinctes expliquées.",
+        "Accepter les équivalences idiomatiques justifiées après revue humaine; ne pas exiger une chaîne unique.",
+        "Ne pas déduire la maîtrise d’un item isolé; collecter deux contextes et l’autonomie."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "S_conservation_du_sens",
+          "M_T_deux_corrections_cibles",
+          "P_deux_justifications",
+          "A_autonomie"
+        ],
+        "decision": "Deux productions inédites de contextes différents, chacune satisfaisante sur S, M/T et P et réalisée sans indication de solution; jugement qualitatif, jamais note seule."
+      },
+      "source": "production_originale_qc-pri-als-011; sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir",
+      "mode": "fixe"
+    }
+  ],
+  "statut": "items_rediges_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

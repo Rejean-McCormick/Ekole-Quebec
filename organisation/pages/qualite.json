@@ -1,0 +1,39 @@
+{
+  "format": "ekole.portal-page/0.1",
+  "id": "ekole-page-qualite",
+  "slug": "qualite",
+  "titre": "Qualité et revue",
+  "public_cible": "public",
+  "roles_visuels": [
+    "en_tete",
+    "description",
+    "actions",
+    "ressources",
+    "navigation"
+  ],
+  "utterances": [
+    {
+      "id": "qualite-phrase-1",
+      "source": "original_edition_candidat",
+      "fr-CA": "Une livraison vérifiée techniquement ne prouve pas une qualification sémantique v9.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "qualite-phrase-2",
+      "source": "original_edition_candidat",
+      "fr-CA": "Aucun contenu n’est présenté comme homologué par une autorité scolaire.",
+      "status": "a_revoir_semantik"
+    }
+  ],
+  "component_types": [
+    "utterance",
+    "label_value",
+    "list",
+    "card"
+  ],
+  "access": "public",
+  "language_status": {
+    "fr-CA": "candidat",
+    "en": "non_genere"
+  }
+}

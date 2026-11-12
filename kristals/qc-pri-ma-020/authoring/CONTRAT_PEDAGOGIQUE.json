@@ -1,0 +1,130 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-020",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Modéliser une situation multiplicative ou de partage et contrôler la solution.",
+  "concepts": [
+    "groupes",
+    "proportion simple",
+    "quotient",
+    "reste"
+  ],
+  "preuve_attendue": "Construire une représentation et résoudre un problème multiplicatif inédit.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-008"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ma-009"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-020-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Construire une représentation et résoudre un problème multiplicatif inédit.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "solveur": "identités entières multiplication, //, %, bornes et vérification inverse",
+        "modes_items": [
+          "fixe",
+          "parametrique",
+          "scenario_controle"
+        ],
+        "rapport_variantes": "Six gabarits arithmétiques déterministes, seeds fixes documentées dans BANQUE_ITEMS.json; textes des scénarios de maîtrise immuables"
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ma-020",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "matériel ou schéma de groupes",
+        "barres et tableau à rapport constant",
+        "équation avec unités",
+        "division euclidienne et reste contextualisé"
+      ],
+      "variables": {
+        "items_fixes": "verrouillés, sans variabilité",
+        "items_parametriques": {
+          "q-003": {
+            "domaines": "a = 3+(s % 6) ∈ [3,8]; b = 4+((s//7)%8) ∈ [4,11]",
+            "seed": 2003,
+            "algorithme": "a=3+(seed%6); b=4+((seed//7)%8); T=a*b"
+          },
+          "q-004": {
+            "domaines": "n = 3+(s % 7) ∈ [3,9]; k = 2+((s//5)%6) ∈ [2,7]",
+            "seed": 2011,
+            "algorithme": "n=3+(seed%7); k=2+((seed//5)%6); T=n*k"
+          },
+          "q-005": {
+            "domaines": "d = 3+(s % 6) ∈ [3,8]; q = 2+((s//11)%8) ∈ [2,9]; N=d*q",
+            "seed": 2027,
+            "algorithme": "d=3+(seed%6); q=2+((seed//11)%8); N=d*q; contrôle N%d=0"
+          },
+          "q-006": {
+            "domaines": "d = 4+(s%5) ∈ [4,8]; q = 3+((s//7)%6) ∈ [3,8]; r = 1+((s//13)%(d-1)) ∈ [1,d-1]; N=d*q+r",
+            "seed": 2033,
+            "algorithme": "d=4+(seed%5); q=3+((seed//7)%6); r=1+((seed//13)%(d-1)); N=d*q+r; r=N%d"
+          },
+          "q-007": {
+            "domaines": "b = 3+(s%8) ∈ [3,10]; f = 2+((s//9)%5) ∈ [2,6]",
+            "seed": 2041,
+            "algorithme": "b=3+(seed%8); f=2+((seed//9)%5); T=b*f"
+          },
+          "q-008": {
+            "domaines": "g = 4+(s%5) ∈ [4,8]; p = 5+((s//7)%7) ∈ [5,11]; x = 1+((s//11)%(g*p//3)) ∈ [1, floor(g*p/3)]",
+            "seed": 2053,
+            "algorithme": "g=4+(seed%5); p=5+((seed//7)%7); x=1+((seed//11)%(g*p//3)); T=g*p-x; contrôle T+x=g*p"
+          }
+        },
+        "scenarios_maitrise": "deux textes fixes originaux, non interchangeables en l’absence de revue"
+      },
+      "contraintes": [
+        "d>0 pour toute division",
+        "valeurs entières contrôlées",
+        "0≤reste<diviseur",
+        "préserver interprétation des unités",
+        "pas de réponse dérivée d’un générateur IA libre",
+        "au moins deux épreuves inédites indépendantes"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "modèle et unités",
+          "calcul exact",
+          "interprétation",
+          "contrôle inverse"
+        ],
+        "niveaux": [
+          "absent",
+          "en_developpement",
+          "satisfaisant",
+          "solide"
+        ],
+        "decision": "deux preuves sur contextes distincts dont au moins une sans indice; voir evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": "contenu original de la présente livraison; gouvernance interne v1.2 consultée",
+      "seed": {
+        "q-003": 2003,
+        "q-004": 2011,
+        "q-005": 2027,
+        "q-006": 2033,
+        "q-007": 2041,
+        "q-008": 2053
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

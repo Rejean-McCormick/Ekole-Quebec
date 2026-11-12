@@ -1,0 +1,102 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Réguler son effort en fonction d’une activité et des signes corporels usuels.",
+  "concepts": [
+    "intensité",
+    "respiration",
+    "récupération",
+    "adaptation"
+  ],
+  "preuve_attendue": "Planifier puis ajuster une séance d’effort adaptée et sûre.",
+  "prerequis_bloquants": [
+    "qc-pri-eps-008"
+  ],
+  "ordre_conseille": [
+    "qc-pri-eps-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-009-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Planifier puis ajuster une séance d’effort adaptée et sûre.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Seulement variantes accessibles non directives précisées avant séance; scénarios A/B verrouillés et corrigés critériés; pas d’IA libre.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "scenarios_fixes": [
+          "qc-pri-eps-009-q-009",
+          "qc-pri-eps-009-q-010"
+        ]
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-eps-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "plan de séance à trois phases",
+        "cartes de signaux et de choix",
+        "observation d’une activité accessible supervisée",
+        "explication orale, gestuelle ou assistée"
+      ],
+      "variables": {
+        "mode": "situations_fixes_controlees",
+        "generation_aleatoire": false,
+        "situations_autorisees": [
+          "cour_espace_securise",
+          "salle_interieure_accessible"
+        ],
+        "adaptations_non_directives": [
+          "rythme",
+          "amplitude",
+          "position",
+          "durée",
+          "support",
+          "mode de communication"
+        ]
+      },
+      "contraintes": [
+        "plan départ doux/activité/récupération",
+        "indice corporel usuel ou carte de situation",
+        "choix d’ajustement justifié",
+        "danger implique arrêt, aide et pas de reprise forcée",
+        "adulte présent et supervision adaptée",
+        "aucun test d’effort maximal, compétitif, chronométré ou médical",
+        "aucune divulgation de santé demandée",
+        "deux contextes de preuve différents"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "echelle": "0 non_observe / 1 partiel / 2 autonome",
+        "dimensions": [
+          "planification",
+          "perception_et_interpretation",
+          "ajustement_raisonne",
+          "securite",
+          "autonomie_et_transfert"
+        ],
+        "decision": "deux preuves indépendantes A et B; non compensatoire; aucune note physique brute"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

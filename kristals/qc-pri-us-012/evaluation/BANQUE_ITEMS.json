@@ -1,0 +1,456 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-012",
+  "family_id": "qc-pri-us-012-ev-01",
+  "corpus_historique": {
+    "nature": "paraphrases didactiques fixes de pages documentaires identifiées, et non documents primaires",
+    "evenements": {
+      "E36": {
+        "year": 1936,
+        "source": "S1",
+        "theme": "droits",
+        "text": "En 1936, le Québec abolit les exigences électorales provinciales liées à la fortune et à l’instruction pour les hommes adultes; les femmes demeurent exclues à cette date.",
+        "label": "Conditions du vote masculin réformées"
+      },
+      "E40": {
+        "year": 1940,
+        "source": "S2",
+        "theme": "droits",
+        "text": "La loi reconnaissant aux femmes le droit de voter et d’être candidates aux élections provinciales est sanctionnée le 25 avril 1940. Cette étape ne signifie pas la fin de toutes les exclusions ni une égalité réalisée immédiatement.",
+        "label": "Vote et éligibilité des femmes au provincial"
+      },
+      "E44": {
+        "year": 1944,
+        "source": "S3",
+        "theme": "energie",
+        "text": "Le 14 avril 1944, une loi crée la Commission hydroélectrique de Québec, appelée Hydro-Québec. C’est une première étape de l’étatisation de l’électricité.",
+        "label": "Création d’Hydro-Québec"
+      },
+      "E60": {
+        "year": 1960,
+        "source": "S4",
+        "theme": "energie",
+        "text": "Le gouvernement de Jean Lesage, arrivé au pouvoir en juin 1960, confie à Hydro-Québec le mandat d’aménager et d’exploiter des rivières non encore concédées à des intérêts privés.",
+        "label": "Élargissement du mandat d’Hydro-Québec"
+      },
+      "E63": {
+        "year": 1963,
+        "source": "S4",
+        "theme": "energie",
+        "text": "À compter de mai 1963, Hydro-Québec acquiert de grands distributeurs privés d’électricité : il s’agit de la seconde étape de nationalisation.",
+        "label": "Deuxième nationalisation de l’électricité"
+      },
+      "E64": {
+        "year": 1964,
+        "source": "S5",
+        "theme": "institutions",
+        "text": "En 1964, le Québec institue le ministère de l’Éducation, dans le contexte des réformes qui suivent le rapport Parent.",
+        "label": "Création du ministère de l’Éducation"
+      },
+      "E67": {
+        "year": 1967,
+        "source": "S5",
+        "theme": "institutions",
+        "text": "En septembre 1967, les douze premiers collèges d’enseignement général et professionnel (cégeps) ouvrent leurs portes, dans un mouvement de réforme de l’enseignement.",
+        "label": "Ouverture des premiers cégeps"
+      },
+      "E75": {
+        "year": 1975,
+        "source": "S6",
+        "theme": "territoires",
+        "text": "Le 11 novembre 1975, la Convention de la Baie-James et du Nord québécois est signée dans un contexte de projets hydroélectriques, de contestations, de négociations et de défense des droits et territoires cris et inuits.",
+        "label": "Convention de la Baie-James et du Nord québécois"
+      },
+      "E77": {
+        "year": 1977,
+        "source": "S8",
+        "theme": "langue",
+        "text": "La Charte de la langue française, aussi appelée loi 101, est sanctionnée le 26 août 1977. Elle modifie le cadre juridique concernant la langue française au Québec.",
+        "label": "Charte de la langue française"
+      }
+    },
+    "sources": {
+      "S1": {
+        "titre": "Élections Québec, Histoire du droit de vote au Québec",
+        "url": "https://www.electionsquebec.qc.ca/comprendre/comprendre-le-vote/histoire-du-droit-de-vote-au-quebec/"
+      },
+      "S2": {
+        "titre": "Élections Québec, Histoire du droit de vote et d’éligibilité des femmes au Québec",
+        "url": "https://www.electionsquebec.qc.ca/comprendre/comprendre-le-vote/histoire-du-droit-de-vote-et-deligibilite-des-femmes-au-quebec/"
+      },
+      "S3": {
+        "titre": "Hydro-Québec, 1944 — Le début d’une aventure",
+        "url": "https://www.hydroquebec.com/histoire-electricite-au-quebec/grandes-periodes/1944-les-debuts-dune-aventure.html"
+      },
+      "S4": {
+        "titre": "Hydro-Québec, 1960–1979 — La deuxième étape de la nationalisation",
+        "url": "https://www.hydroquebec.com/histoire-electricite-au-quebec/chronologie/2e-etape-de-la-nationalisation.html"
+      },
+      "S5": {
+        "titre": "Bibliothèque de l’Assemblée nationale du Québec, Réformes des années 1960",
+        "url": "https://www.bibliotheque.assnat.qc.ca/guides/fr/l-histoire-de-l-education-au-quebec-les-grands-textes-politiques-et-legislatifs/143-les-reformes-des-annees-1960"
+      },
+      "S6": {
+        "titre": "Gouvernement de la Nation Crie, Ententes et conventions",
+        "url": "https://www.cngov.ca/fr/gouvernance-et-structure/legislation/ententes-et-conventions/"
+      },
+      "S7": {
+        "titre": "Gouvernement du Québec, Événements marquants des relations avec les Premières Nations et les Inuit",
+        "url": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/ententes-revendications-negociations/evenements-marquants"
+      },
+      "S8": {
+        "titre": "Bibliothèque de l’Assemblée nationale du Québec, 1977 — Charte de la langue française",
+        "url": "https://www.bibliotheque.assnat.qc.ca/guides/fr/charte-de-la-langue-francaise/905-charte-de-la-langue-francaise-1977"
+      },
+      "S9": {
+        "titre": "Gouvernement du Québec, À propos de la Charte de la langue française",
+        "url": "https://www.quebec.ca/culture/langue-francaise/portrait-francais-quebec/a-propos-francais/a-propos-charte"
+      }
+    }
+  },
+  "politique_generation": {
+    "mode": "corpus_historique_ferme",
+    "tirage_libre": false,
+    "seed": null,
+    "regle": "Les items sont fixes ou des scénarios contrôlés; seules les aides d’accès ne changeant pas les faits sont permises. Pas de production IA de faits/corrigés."
+  },
+  "items": [
+    {
+      "item_id": "qc-pri-us-012-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe E64, E40 et E77 par dates croissantes, et donne la source de chaque repère.",
+      "stimulus": "Fiches documentaires de synthèse originales (ne sont pas des documents d’époque), dans un ordre volontairement brouillé :\n• E77 — année 1977 ; La Charte de la langue française, aussi appelée loi 101, est sanctionnée le 26 août 1977. Elle modifie le cadre juridique concernant la langue française au Québec. ; source S8 : Bibliothèque de l’Assemblée nationale du Québec, 1977 — Charte de la langue française (https://www.bibliotheque.assnat.qc.ca/guides/fr/charte-de-la-langue-francaise/905-charte-de-la-langue-francaise-1977).\n• E40 — année 1940 ; La loi reconnaissant aux femmes le droit de voter et d’être candidates aux élections provinciales est sanctionnée le 25 avril 1940. Cette étape ne signifie pas la fin de toutes les exclusions ni une égalité réalisée immédiatement. ; source S2 : Élections Québec, Histoire du droit de vote et d’éligibilité des femmes au Québec (https://www.electionsquebec.qc.ca/comprendre/comprendre-le-vote/histoire-du-droit-de-vote-et-deligibilite-des-femmes-au-quebec/).\n• E64 — année 1964 ; En 1964, le Québec institue le ministère de l’Éducation, dans le contexte des réformes qui suivent le rapport Parent. ; source S5 : Bibliothèque de l’Assemblée nationale du Québec, Réformes des années 1960 (https://www.bibliotheque.assnat.qc.ca/guides/fr/l-histoire-de-l-education-au-quebec-les-grands-textes-politiques-et-legislatifs/143-les-reformes-des-annees-1960).",
+      "reponse_attendue": "1940 (E40, S2 : droit de vote et d’éligibilité des femmes au provincial) → 1964 (E64, S5 : création du ministère de l’Éducation) → 1977 (E77, S8 : Charte de la langue française). Les flèches sont temporelles, pas causales.",
+      "criteres": [
+        "Ordre 1940 < 1964 < 1977 exact.",
+        "Trois légendes conformes à la portée de chaque fiche.",
+        "Sources S2, S5, S8 associées correctement."
+      ],
+      "feedback": "Si 1977 est placé en tête parce qu’il apparaît d’abord, rappeler que c’est la valeur des dates, et non l’ordre de lecture, qui gouverne la frise.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "representation": "frise thématique datée, cartes sources + deux justifications; production possible sous forme de tableau chronologique ou oral accessible",
+      "cartes_verrouillees": [
+        "E77",
+        "E40",
+        "E64"
+      ],
+      "sources_fermees": [
+        "S2",
+        "S5",
+        "S8"
+      ],
+      "variations_permises": "Lecture des cartes par un tiers sans apporter de réponse, grosse police, étiquettes manipulables, réponse orale ou écrite; aucun nouveau fait, date, document ou rapport causal autorisé.",
+      "limites_variation": "Aucun ajout de jalon ni modification des trois dates; le correcteur conserve ce corrigé explicite.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-012-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour E44, distingue l’année de l’événement, la nature de cette fiche et l’auteur institutionnel de la page de référence; identifie une affirmation que la fiche ne permet pas.",
+      "stimulus": "Fiches documentaires de synthèse originales (ne sont pas des documents d’époque), dans un ordre volontairement brouillé :\n• E44 — année 1944 ; Le 14 avril 1944, une loi crée la Commission hydroélectrique de Québec, appelée Hydro-Québec. C’est une première étape de l’étatisation de l’électricité. ; source S3 : Hydro-Québec, 1944 — Le début d’une aventure (https://www.hydroquebec.com/histoire-electricite-au-quebec/grandes-periodes/1944-les-debuts-dune-aventure.html).",
+      "reponse_attendue": "Événement : création d’Hydro-Québec en 1944 (14 avril); source secondaire consultée : site historique d’Hydro-Québec, S3; la carte E44 est une paraphrase rédigée pour le cours, non une loi ou photographie de 1944. Impossible d’inférer que chaque habitant appuyait l’étatisation.",
+      "criteres": [
+        "Année 1944 correctement identifiée.",
+        "Nature de paraphrase postérieure et provenance S3 identifiées.",
+        "Une limite de conclusion (unanimité non prouvée) est clairement formulée."
+      ],
+      "feedback": "Une carte didactique résume une source; elle ne devient pas automatiquement un document produit à la date historique.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "representation": "frise thématique datée, cartes sources + deux justifications; production possible sous forme de tableau chronologique ou oral accessible",
+      "cartes_verrouillees": [
+        "E44"
+      ],
+      "sources_fermees": [
+        "S3"
+      ],
+      "variations_permises": "Lecture des cartes par un tiers sans apporter de réponse, grosse police, étiquettes manipulables, réponse orale ou écrite; aucun nouveau fait, date, document ou rapport causal autorisé.",
+      "limites_variation": "Aucune photographie historique ni témoignage inventé; le seul contenu admis est E44/S3.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-012-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Avec E36 et E40, trace deux jalons et formule une différence appuyée sur S1 et S2, sans affirmer la fin de toutes les exclusions.",
+      "stimulus": "Fiches documentaires de synthèse originales (ne sont pas des documents d’époque), dans un ordre volontairement brouillé :\n• E40 — année 1940 ; La loi reconnaissant aux femmes le droit de voter et d’être candidates aux élections provinciales est sanctionnée le 25 avril 1940. Cette étape ne signifie pas la fin de toutes les exclusions ni une égalité réalisée immédiatement. ; source S2 : Élections Québec, Histoire du droit de vote et d’éligibilité des femmes au Québec (https://www.electionsquebec.qc.ca/comprendre/comprendre-le-vote/histoire-du-droit-de-vote-et-deligibilite-des-femmes-au-quebec/).\n• E36 — année 1936 ; En 1936, le Québec abolit les exigences électorales provinciales liées à la fortune et à l’instruction pour les hommes adultes; les femmes demeurent exclues à cette date. ; source S1 : Élections Québec, Histoire du droit de vote au Québec (https://www.electionsquebec.qc.ca/comprendre/comprendre-le-vote/histoire-du-droit-de-vote-au-quebec/).",
+      "reponse_attendue": "1936 (E36/S1) → 1940 (E40/S2); en 1936 les exigences liées à fortune/instruction sont retirées pour le vote des hommes, les femmes restent exclues; en 1940 une loi reconnaît le droit provincial de vote et d’éligibilité des femmes. Cette loi ne prouve pas que toutes les inégalités sociales et politiques cessent.",
+      "criteres": [
+        "Ordre 1936→1940 exact.",
+        "S1 et S2 associés aux bons faits.",
+        "Différence de portée formulée avec prudence.",
+        "Absence de généralisation abusive."
+      ],
+      "feedback": "La comparaison porte sur deux lois ou cadres électoraux distincts; éviter « tout le monde pouvait voter en 1940 ».",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "representation": "frise thématique datée, cartes sources + deux justifications; production possible sous forme de tableau chronologique ou oral accessible",
+      "cartes_verrouillees": [
+        "E40",
+        "E36"
+      ],
+      "sources_fermees": [
+        "S1",
+        "S2"
+      ],
+      "variations_permises": "Lecture des cartes par un tiers sans apporter de réponse, grosse police, étiquettes manipulables, réponse orale ou écrite; aucun nouveau fait, date, document ou rapport causal autorisé.",
+      "limites_variation": "Rester sur l’élection provinciale; pas de transposition automatique aux scrutins fédéraux ni à tous les groupes.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-012-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Conçois une frise E44/E60/E63 et explique deux liens documentés relatifs au rôle d’Hydro-Québec; distingue l’ordre d’une explication causale.",
+      "stimulus": "Fiches documentaires de synthèse originales (ne sont pas des documents d’époque), dans un ordre volontairement brouillé :\n• E63 — année 1963 ; À compter de mai 1963, Hydro-Québec acquiert de grands distributeurs privés d’électricité : il s’agit de la seconde étape de nationalisation. ; source S4 : Hydro-Québec, 1960–1979 — La deuxième étape de la nationalisation (https://www.hydroquebec.com/histoire-electricite-au-quebec/chronologie/2e-etape-de-la-nationalisation.html).\n• E44 — année 1944 ; Le 14 avril 1944, une loi crée la Commission hydroélectrique de Québec, appelée Hydro-Québec. C’est une première étape de l’étatisation de l’électricité. ; source S3 : Hydro-Québec, 1944 — Le début d’une aventure (https://www.hydroquebec.com/histoire-electricite-au-quebec/grandes-periodes/1944-les-debuts-dune-aventure.html).\n• E60 — année 1960 ; Le gouvernement de Jean Lesage, arrivé au pouvoir en juin 1960, confie à Hydro-Québec le mandat d’aménager et d’exploiter des rivières non encore concédées à des intérêts privés. ; source S4 : Hydro-Québec, 1960–1979 — La deuxième étape de la nationalisation (https://www.hydroquebec.com/histoire-electricite-au-quebec/chronologie/2e-etape-de-la-nationalisation.html).",
+      "reponse_attendue": "1944 (E44/S3) → 1960 (E60/S4) → 1963 (E63/S4). Lien 1 : Hydro-Québec est créée en 1944 avant l’élargissement de ses mandats en 1960 (S3 et S4). Lien 2 : le mandat de 1960 précède les acquisitions de distributeurs privés en 1963; S4 décrit les phases successives, pas un effet mécanique de la seule date 1960.",
+      "criteres": [
+        "Dates 1944 < 1960 < 1963 exactes.",
+        "Trois jalons et sources vérifiables.",
+        "Deux liens conformes aux descriptions S3/S4.",
+        "Différence temporel/causal montrée."
+      ],
+      "feedback": "Si « en 1960, Hydro-Québec achète tous les distributeurs » est écrit, corriger à partir de la fiche E63 datée de 1963.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "representation": "frise thématique datée, cartes sources + deux justifications; production possible sous forme de tableau chronologique ou oral accessible",
+      "cartes_verrouillees": [
+        "E63",
+        "E44",
+        "E60"
+      ],
+      "sources_fermees": [
+        "S3",
+        "S4"
+      ],
+      "variations_permises": "Lecture des cartes par un tiers sans apporter de réponse, grosse police, étiquettes manipulables, réponse orale ou écrite; aucun nouveau fait, date, document ou rapport causal autorisé.",
+      "limites_variation": "Les expressions « toute l’électricité devient immédiatement publique » et « partout en un jour » ne sont pas autorisées.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-012-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Relie E64 et E67 sous le thème « réformes scolaires »; situe E77 sans prétendre prouver une causalité directe entre ces trois événements.",
+      "stimulus": "Fiches documentaires de synthèse originales (ne sont pas des documents d’époque), dans un ordre volontairement brouillé :\n• E77 — année 1977 ; La Charte de la langue française, aussi appelée loi 101, est sanctionnée le 26 août 1977. Elle modifie le cadre juridique concernant la langue française au Québec. ; source S8 : Bibliothèque de l’Assemblée nationale du Québec, 1977 — Charte de la langue française (https://www.bibliotheque.assnat.qc.ca/guides/fr/charte-de-la-langue-francaise/905-charte-de-la-langue-francaise-1977).\n• E67 — année 1967 ; En septembre 1967, les douze premiers collèges d’enseignement général et professionnel (cégeps) ouvrent leurs portes, dans un mouvement de réforme de l’enseignement. ; source S5 : Bibliothèque de l’Assemblée nationale du Québec, Réformes des années 1960 (https://www.bibliotheque.assnat.qc.ca/guides/fr/l-histoire-de-l-education-au-quebec-les-grands-textes-politiques-et-legislatifs/143-les-reformes-des-annees-1960).\n• E64 — année 1964 ; En 1964, le Québec institue le ministère de l’Éducation, dans le contexte des réformes qui suivent le rapport Parent. ; source S5 : Bibliothèque de l’Assemblée nationale du Québec, Réformes des années 1960 (https://www.bibliotheque.assnat.qc.ca/guides/fr/l-histoire-de-l-education-au-quebec-les-grands-textes-politiques-et-legislatifs/143-les-reformes-des-annees-1960).",
+      "reponse_attendue": "1964 : création du ministère de l’Éducation (E64/S5) → 1967 : premiers cégeps (E67/S5) → 1977 : Charte de la langue française (E77/S8). E64/E67 sont liés par le contexte documenté des réformes scolaires selon S5; E77 est postérieur et relève de la politique linguistique, la frise seule ne démontre pas qu’E64 cause E77.",
+      "criteres": [
+        "Trois années dans l’ordre.",
+        "Sources S5/S5/S8 exactes.",
+        "Lien 1964–1967 classé comme réforme scolaire documentée.",
+        "Lien à 1977 prudent, sans causalité non sourcée."
+      ],
+      "feedback": "Séparer institutions scolaires et cadre linguistique; même proximité temporelle ne prouve pas le même motif ni la même conséquence.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "representation": "frise thématique datée, cartes sources + deux justifications; production possible sous forme de tableau chronologique ou oral accessible",
+      "cartes_verrouillees": [
+        "E77",
+        "E67",
+        "E64"
+      ],
+      "sources_fermees": [
+        "S5",
+        "S8"
+      ],
+      "variations_permises": "Lecture des cartes par un tiers sans apporter de réponse, grosse police, étiquettes manipulables, réponse orale ou écrite; aucun nouveau fait, date, document ou rapport causal autorisé.",
+      "limites_variation": "Aucune affirmation sur l’effet uniforme de la loi linguistique sur tous les habitants.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-012-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare la portée institutionnelle d’E63 et la perspective territoriale d’E75, puis place-les dans l’ordre et écris une limite à la frise.",
+      "stimulus": "Fiches documentaires de synthèse originales (ne sont pas des documents d’époque), dans un ordre volontairement brouillé :\n• E75 — année 1975 ; Le 11 novembre 1975, la Convention de la Baie-James et du Nord québécois est signée dans un contexte de projets hydroélectriques, de contestations, de négociations et de défense des droits et territoires cris et inuits. ; source S6 : Gouvernement de la Nation Crie, Ententes et conventions (https://www.cngov.ca/fr/gouvernance-et-structure/legislation/ententes-et-conventions/).\n• E63 — année 1963 ; À compter de mai 1963, Hydro-Québec acquiert de grands distributeurs privés d’électricité : il s’agit de la seconde étape de nationalisation. ; source S4 : Hydro-Québec, 1960–1979 — La deuxième étape de la nationalisation (https://www.hydroquebec.com/histoire-electricite-au-quebec/chronologie/2e-etape-de-la-nationalisation.html).",
+      "reponse_attendue": "1963 (E63/S4 : deuxième nationalisation de l’électricité) → 1975 (E75/S6 : Convention de la Baie-James et du Nord québécois). S4 décrit les acquisitions dans le secteur électrique, S6 le contexte de contestations et négociations concernant les droits et territoires cris et inuits liés aux projets hydroélectriques. Leur proximité sur la frise ne prouve pas que la nationalisation de 1963 a directement causé l’accord de 1975.",
+      "criteres": [
+        "Deux dates et sources correctement jumelées.",
+        "Deux thèmes/perspectives distincts explicités.",
+        "Aucun effacement des acteurs cris et inuits.",
+        "Une limite de causalité formulée."
+      ],
+      "feedback": "Pour 1975, nommer les nations crie et inuit comme acteurs des revendications et négociations, et non comme des spectateurs passifs.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "representation": "frise thématique datée, cartes sources + deux justifications; production possible sous forme de tableau chronologique ou oral accessible",
+      "cartes_verrouillees": [
+        "E75",
+        "E63"
+      ],
+      "sources_fermees": [
+        "S4",
+        "S6"
+      ],
+      "variations_permises": "Lecture des cartes par un tiers sans apporter de réponse, grosse police, étiquettes manipulables, réponse orale ou écrite; aucun nouveau fait, date, document ou rapport causal autorisé.",
+      "limites_variation": "Ne pas dire « tous les Premiers Peuples » ou « tous d’accord »; limiter aux parties décrites par S6.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-012-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Répare la frise fautive « 1977 → 1964 → 1940 » et l’assertion « la Charte de 1977 provoque le ministère de 1964 ». Utilise les documents pour justifier la correction.",
+      "stimulus": "Fiches documentaires de synthèse originales (ne sont pas des documents d’époque), dans un ordre volontairement brouillé :\n• E77 — année 1977 ; La Charte de la langue française, aussi appelée loi 101, est sanctionnée le 26 août 1977. Elle modifie le cadre juridique concernant la langue française au Québec. ; source S8 : Bibliothèque de l’Assemblée nationale du Québec, 1977 — Charte de la langue française (https://www.bibliotheque.assnat.qc.ca/guides/fr/charte-de-la-langue-francaise/905-charte-de-la-langue-francaise-1977).\n• E40 — année 1940 ; La loi reconnaissant aux femmes le droit de voter et d’être candidates aux élections provinciales est sanctionnée le 25 avril 1940. Cette étape ne signifie pas la fin de toutes les exclusions ni une égalité réalisée immédiatement. ; source S2 : Élections Québec, Histoire du droit de vote et d’éligibilité des femmes au Québec (https://www.electionsquebec.qc.ca/comprendre/comprendre-le-vote/histoire-du-droit-de-vote-et-deligibilite-des-femmes-au-quebec/).\n• E64 — année 1964 ; En 1964, le Québec institue le ministère de l’Éducation, dans le contexte des réformes qui suivent le rapport Parent. ; source S5 : Bibliothèque de l’Assemblée nationale du Québec, Réformes des années 1960 (https://www.bibliotheque.assnat.qc.ca/guides/fr/l-histoire-de-l-education-au-quebec-les-grands-textes-politiques-et-legislatifs/143-les-reformes-des-annees-1960).",
+      "reponse_attendue": "Frise corrigée : 1940 (E40/S2) → 1964 (E64/S5) → 1977 (E77/S8). L’énoncé causal est impossible tel que formulé puisque 1977 vient après 1964, et aucune source présentée ne décrit une telle causalité. Dire « la Charte est postérieure au ministère » est exact.",
+      "criteres": [
+        "Chronologie inversée réparée intégralement.",
+        "Justification utilise les trois dates.",
+        "Prétention causale rejetée explicitement.",
+        "Au moins une source citée pour chacun des jalons."
+      ],
+      "feedback": "Un événement futur ne peut expliquer directement comme cause antérieure un événement déjà survenu; l’exactitude des dates et des sources prime.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "representation": "frise thématique datée, cartes sources + deux justifications; production possible sous forme de tableau chronologique ou oral accessible",
+      "cartes_verrouillees": [
+        "E77",
+        "E40",
+        "E64"
+      ],
+      "sources_fermees": [
+        "S2",
+        "S5",
+        "S8"
+      ],
+      "variations_permises": "Lecture des cartes par un tiers sans apporter de réponse, grosse police, étiquettes manipulables, réponse orale ou écrite; aucun nouveau fait, date, document ou rapport causal autorisé.",
+      "limites_variation": "Aucune reformulation qui change la date de la Charte de 1977 ou celle du ministère de 1964.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-012-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-012-ev-01",
+      "mode": "fixe",
+      "consigne": "Prépare une frise d’exposition E36/E40/E75/E77, avec une légende sourcée par jalon, deux liens justifiés, et une phrase sur les limites de la comparaison de thèmes très différents.",
+      "stimulus": "Fiches documentaires de synthèse originales (ne sont pas des documents d’époque), dans un ordre volontairement brouillé :\n• E75 — année 1975 ; Le 11 novembre 1975, la Convention de la Baie-James et du Nord québécois est signée dans un contexte de projets hydroélectriques, de contestations, de négociations et de défense des droits et territoires cris et inuits. ; source S6 : Gouvernement de la Nation Crie, Ententes et conventions (https://www.cngov.ca/fr/gouvernance-et-structure/legislation/ententes-et-conventions/).\n• E36 — année 1936 ; En 1936, le Québec abolit les exigences électorales provinciales liées à la fortune et à l’instruction pour les hommes adultes; les femmes demeurent exclues à cette date. ; source S1 : Élections Québec, Histoire du droit de vote au Québec (https://www.electionsquebec.qc.ca/comprendre/comprendre-le-vote/histoire-du-droit-de-vote-au-quebec/).\n• E77 — année 1977 ; La Charte de la langue française, aussi appelée loi 101, est sanctionnée le 26 août 1977. Elle modifie le cadre juridique concernant la langue française au Québec. ; source S8 : Bibliothèque de l’Assemblée nationale du Québec, 1977 — Charte de la langue française (https://www.bibliotheque.assnat.qc.ca/guides/fr/charte-de-la-langue-francaise/905-charte-de-la-langue-francaise-1977).\n• E40 — année 1940 ; La loi reconnaissant aux femmes le droit de voter et d’être candidates aux élections provinciales est sanctionnée le 25 avril 1940. Cette étape ne signifie pas la fin de toutes les exclusions ni une égalité réalisée immédiatement. ; source S2 : Élections Québec, Histoire du droit de vote et d’éligibilité des femmes au Québec (https://www.electionsquebec.qc.ca/comprendre/comprendre-le-vote/histoire-du-droit-de-vote-et-deligibilite-des-femmes-au-quebec/).",
+      "reponse_attendue": "1936 E36/S1 → 1940 E40/S2 → 1975 E75/S6 → 1977 E77/S8. Lien thématique 1 : S1/S2 documentent deux évolutions distinctes de l’accès au vote provincial. Lien temporel 2 : la Convention de 1975 précède la Charte de 1977; ce sont deux cadres juridiques d’objets différents, non une preuve de causalité mutuelle. Limite : cette sélection ne raconte pas toutes les expériences des personnes concernées par l’histoire du Québec.",
+      "criteres": [
+        "Quatre dates exactes et croissantes.",
+        "Quatre références S1/S2/S6/S8 correctes.",
+        "Lien électoral étayé par les sources.",
+        "Second lien temporel formulé sans faux rapport de cause.",
+        "Limite de sélection du corpus."
+      ],
+      "feedback": "Si 1975 et 1977 sont présentés comme « la même loi », revenir à leur objet et à leur source respective.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "representation": "frise thématique datée, cartes sources + deux justifications; production possible sous forme de tableau chronologique ou oral accessible",
+      "cartes_verrouillees": [
+        "E75",
+        "E36",
+        "E77",
+        "E40"
+      ],
+      "sources_fermees": [
+        "S1",
+        "S2",
+        "S6",
+        "S8"
+      ],
+      "variations_permises": "Lecture des cartes par un tiers sans apporter de réponse, grosse police, étiquettes manipulables, réponse orale ou écrite; aucun nouveau fait, date, document ou rapport causal autorisé.",
+      "limites_variation": "Ne pas prétendre qu’une seule frise décrit à elle seule toutes les dimensions sociales et historiques.",
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-012-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-012-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME A — Pour le panneau « institutions et droits publics » d’un musée fictif : à partir des QUATRE fiches ci-dessous, crée une frise thématique de quatre jalons datés avec source pour chacun. Rédige DEUX liens distincts (au moins un thématique/historique étayé au-delà de « avant »), et une limite de perspective. Ne copie pas la frise modèle ni ne reçois d’indice pendant ta production.",
+      "stimulus": "Fiches documentaires de synthèse originales (ne sont pas des documents d’époque), dans un ordre volontairement brouillé :\n• E77 — année 1977 ; La Charte de la langue française, aussi appelée loi 101, est sanctionnée le 26 août 1977. Elle modifie le cadre juridique concernant la langue française au Québec. ; source S8 : Bibliothèque de l’Assemblée nationale du Québec, 1977 — Charte de la langue française (https://www.bibliotheque.assnat.qc.ca/guides/fr/charte-de-la-langue-francaise/905-charte-de-la-langue-francaise-1977).\n• E64 — année 1964 ; En 1964, le Québec institue le ministère de l’Éducation, dans le contexte des réformes qui suivent le rapport Parent. ; source S5 : Bibliothèque de l’Assemblée nationale du Québec, Réformes des années 1960 (https://www.bibliotheque.assnat.qc.ca/guides/fr/l-histoire-de-l-education-au-quebec-les-grands-textes-politiques-et-legislatifs/143-les-reformes-des-annees-1960).\n• E40 — année 1940 ; La loi reconnaissant aux femmes le droit de voter et d’être candidates aux élections provinciales est sanctionnée le 25 avril 1940. Cette étape ne signifie pas la fin de toutes les exclusions ni une égalité réalisée immédiatement. ; source S2 : Élections Québec, Histoire du droit de vote et d’éligibilité des femmes au Québec (https://www.electionsquebec.qc.ca/comprendre/comprendre-le-vote/histoire-du-droit-de-vote-et-deligibilite-des-femmes-au-quebec/).\n• E67 — année 1967 ; En septembre 1967, les douze premiers collèges d’enseignement général et professionnel (cégeps) ouvrent leurs portes, dans un mouvement de réforme de l’enseignement. ; source S5 : Bibliothèque de l’Assemblée nationale du Québec, Réformes des années 1960 (https://www.bibliotheque.assnat.qc.ca/guides/fr/l-histoire-de-l-education-au-quebec-les-grands-textes-politiques-et-legislatifs/143-les-reformes-des-annees-1960).",
+      "reponse_attendue": "Frise attendue : 1940 E40/S2 (droit de vote et d’éligibilité des femmes au provincial) → 1964 E64/S5 (ministère de l’Éducation) → 1967 E67/S5 (premiers cégeps) → 1977 E77/S8 (Charte de la langue française). Justification 1 possible : les jalons 1964 et 1967 appartiennent aux réformes scolaires décrites par S5; justification 2 possible : 1940 puis 1977 sont deux changements juridiques de domaines différents, dont l’ordre est attesté par S2/S8, mais un lien causal direct n’est pas démontré. Limite : sélectionner des lois/institutions n’épuise pas le vécu des groupes ni l’histoire des droits au Québec. D’autres liens de même rigueur et sourcés sont admis.",
+      "criteres": [
+        "A1 Quatre jalons exactement ordonnés 1940, 1964, 1967, 1977.",
+        "A2 Sources correctes S2/S5/S5/S8 et portée factuelle exacte.",
+        "A3 Deux liens explicitement justifiés, dont un historique/thématique au-delà de la seule succession et appuyé sur une source.",
+        "A4 Interprétations prudentes, au moins une limite du choix documentaire identifiée.",
+        "A5 Production autonome sans indices sur les réponses; format accessible autorisé."
+      ],
+      "feedback": "Si l’ordre et les sources sont exacts mais aucun lien argumenté n’est produit, reprendre la distinction entre « avant », « même thème » et « cause démontrée » avant un autre examen. Ne jamais corriger à l’insu de l’élève en passation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "representation": "frise thématique datée, cartes sources + deux justifications; production possible sous forme de tableau chronologique ou oral accessible",
+      "cartes_verrouillees": [
+        "E77",
+        "E64",
+        "E40",
+        "E67"
+      ],
+      "sources_fermees": [
+        "S2",
+        "S5",
+        "S8"
+      ],
+      "variations_permises": "Lecture des cartes par un tiers sans apporter de réponse, grosse police, étiquettes manipulables, réponse orale ou écrite; aucun nouveau fait, date, document ou rapport causal autorisé.",
+      "limites_variation": "Contexte, quatre cartes, années et références verrouillés. Seuls présentation, taille, modalité de lecture et support de réponse peuvent varier.",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "Contexte A (musée des institutions et des droits), preuve autonome complète; ne suffit jamais seul à conclure à la maîtrise."
+    },
+    {
+      "item_id": "qc-pri-us-012-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-012-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME B — Pour une exposition fictive « énergie, territoires et négociations » : crée une NOUVELLE frise avec les QUATRE fiches ci-dessous. Ordonne les jalons, associe chaque source, justifie DEUX liens (un thématique ou historique explicitement sourcé), et précise pourquoi la perspective de la Nation crie est nécessaire dans cette présentation. Sans indices pendant la production.",
+      "stimulus": "Fiches documentaires de synthèse originales (ne sont pas des documents d’époque), dans un ordre volontairement brouillé :\n• E75 — année 1975 ; Le 11 novembre 1975, la Convention de la Baie-James et du Nord québécois est signée dans un contexte de projets hydroélectriques, de contestations, de négociations et de défense des droits et territoires cris et inuits. ; source S6 : Gouvernement de la Nation Crie, Ententes et conventions (https://www.cngov.ca/fr/gouvernance-et-structure/legislation/ententes-et-conventions/).\n• E44 — année 1944 ; Le 14 avril 1944, une loi crée la Commission hydroélectrique de Québec, appelée Hydro-Québec. C’est une première étape de l’étatisation de l’électricité. ; source S3 : Hydro-Québec, 1944 — Le début d’une aventure (https://www.hydroquebec.com/histoire-electricite-au-quebec/grandes-periodes/1944-les-debuts-dune-aventure.html).\n• E63 — année 1963 ; À compter de mai 1963, Hydro-Québec acquiert de grands distributeurs privés d’électricité : il s’agit de la seconde étape de nationalisation. ; source S4 : Hydro-Québec, 1960–1979 — La deuxième étape de la nationalisation (https://www.hydroquebec.com/histoire-electricite-au-quebec/chronologie/2e-etape-de-la-nationalisation.html).\n• E60 — année 1960 ; Le gouvernement de Jean Lesage, arrivé au pouvoir en juin 1960, confie à Hydro-Québec le mandat d’aménager et d’exploiter des rivières non encore concédées à des intérêts privés. ; source S4 : Hydro-Québec, 1960–1979 — La deuxième étape de la nationalisation (https://www.hydroquebec.com/histoire-electricite-au-quebec/chronologie/2e-etape-de-la-nationalisation.html).",
+      "reponse_attendue": "Frise attendue : 1944 E44/S3 (création d’Hydro-Québec) → 1960 E60/S4 (mandat élargi) → 1963 E63/S4 (acquisitions de distributeurs privés/seconde nationalisation) → 1975 E75/S6 (Convention de la Baie-James et du Nord québécois). Justification 1 : étapes institutionnelles de l’électricité de 1944 à 1963, selon S3/S4; justification 2 : le contexte des projets hydroélectriques, des contestations et de la négociation des droits cris et inuits accompagne la convention de 1975 selon S6, sans prouver que la seconde nationalisation cause l’accord. Limite : la vision de la seule société d’État n’est pas le récit de la Nation crie; S6 restitue une perspective directement concernée. Deux liens différents mais également sourcés et prudents sont recevables.",
+      "criteres": [
+        "B1 Quatre jalons exactement ordonnés 1944, 1960, 1963, 1975.",
+        "B2 Sources S3/S4/S4/S6 associées aux bons faits et portée exacte.",
+        "B3 Deux liens justifiés, dont un historique/thématique avec source, sans causalité extrapolée.",
+        "B4 Différence de perspectives nommée, acteurs cris et inuits représentés avec exactitude; limite exprimée.",
+        "B5 Autonomie et production nouvelle distincte de A, avec modalités de réponse équivalentes."
+      ],
+      "feedback": "Si 1975 est décrit comme un simple « grand succès technique » de 1963, revenir à S6, puis examiner les dimensions territoriales, politiques et les acteurs des négociations. Une autre preuve de transfert est nécessaire après remédiation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "representation": "frise thématique datée, cartes sources + deux justifications; production possible sous forme de tableau chronologique ou oral accessible",
+      "cartes_verrouillees": [
+        "E75",
+        "E44",
+        "E63",
+        "E60"
+      ],
+      "sources_fermees": [
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "variations_permises": "Lecture des cartes par un tiers sans apporter de réponse, grosse police, étiquettes manipulables, réponse orale ou écrite; aucun nouveau fait, date, document ou rapport causal autorisé.",
+      "limites_variation": "Cartes et dates verrouillées, aucune affirmation ni document historique substitué automatiquement; accessibilité non directive seulement.",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "Contexte B (énergie, droits territoriaux et pluralité de perspectives), preuve autonome distincte de A."
+    }
+  ]
+}

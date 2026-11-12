@@ -1,0 +1,89 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-da-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Interpréter une danse avec précision relative et intention expressive.",
+  "concepts": [
+    "mémorisation",
+    "rythme",
+    "présence",
+    "sécurité"
+  ],
+  "preuve_attendue": "Exécuter une séquence montrant une progression entre deux essais.",
+  "prerequis_bloquants": [
+    "qc-pri-da-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-da-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-da-006-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Exécuter une séquence montrant une progression entre deux essais.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-da-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "critere": "crit-1 — Exécuter une séquence montrant une progression entre deux essais.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "partition de quatre repères sur huit pulsations",
+        "observation directe des deux essais",
+        "fiche de comparaison critériée"
+      ],
+      "variables": [],
+      "contraintes": {
+        "mode_generation": "fixe",
+        "nombre_items": 8,
+        "nombre_contextes_de_maitrise": 2,
+        "preuves_finales": [
+          "qc-pri-da-006-q-007",
+          "qc-pri-da-006-q-008"
+        ],
+        "sequence_invariante_dans_chaque_paire": true,
+        "variations_admissibles": "Amplitudes, gestuelles et pulsations accessibles choisies avant la paire; les quatre repères, leurs durées et la fonction expressive sont invariants dans la paire.",
+        "interdits": [
+          "notation esthétique ou morphologique",
+          "douleur recherchée",
+          "rappel de gestes pendant l’essai autonome",
+          "musique sous droits non autorisée",
+          "tirage IA libre"
+        ]
+      },
+      "barreme_ou_rubrique": {
+        "memoire": "ordre: 4 repères par essai, deuxième ≥3/4",
+        "rythme": "4 fenêtres par essai, deuxième ≥3/4",
+        "presence": "contraste expressif perceptible, observation documentée",
+        "progression": "entre essai 1 et essai 2 sur même partition, au moins un progrès observable ou raffinement explicite après feedback",
+        "securite": "obligatoire oui à chaque essai, sans mesurer les capacités corporelles",
+        "decision": "deux paires autonomes dans contextes distincts q-007 et q-008; un score unique insuffisant"
+      },
+      "source": [
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "contenu/06_REMEDIATION_ET_TRANSFERT.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "evaluation/GRILLE_MAITRISE.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_evaluation_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

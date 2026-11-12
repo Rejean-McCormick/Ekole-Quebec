@@ -1,0 +1,71 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-012",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Analyser une pratique physique à partir de critères observables et personnels non comparatifs.",
+  "concepts": [
+    "objectif",
+    "effort",
+    "amélioration",
+    "sécurité"
+  ],
+  "preuve_attendue": "Comparer deux essais personnels et identifier une prochaine adaptation.",
+  "prerequis_bloquants": [
+    "qc-pri-eps-009"
+  ],
+  "ordre_conseille": [
+    "qc-pri-eps-010"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-012-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Comparer deux essais personnels et identifier une prochaine adaptation.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-eps-012",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "analyse_orale_ou_ecrite",
+        "scenario_controle",
+        "observation_pratique_personnelle",
+        "fiche_comparaison_deux_essais"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Aucun tirage aléatoire ni génération de scénario non validé; corpus textuel fixé dans BANQUE_ITEMS.json.",
+        "Deux contextes de preuves personnelles distincts A (objet souple) et B (enchaînement de repères), chacun avec deux essais.",
+        "Objectif individuel observable; comparaison des seuls essais personnels; adaptation concrète et sûre.",
+        "Supervision adulte obligatoire pour action physique; arrêt/report si danger ou inconfort.",
+        "Accessibilité du geste et de la réponse, aucune norme de vitesse, force, morphologie, divulgation de santé ou comparaison entre élèves.",
+        "Variations uniquement de gestes/matériels adaptés par adulte; critères cognitifs constants."
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md — 5 dimensions O/C/E/A/S, niveaux 0–3; au moins niveau 2 dans chaque dimension pour A et B; autonomie de l’analyse et sécurité obligatoires; aucune moyenne.",
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_evaluations_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

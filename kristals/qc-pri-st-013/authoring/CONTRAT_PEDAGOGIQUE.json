@@ -1,0 +1,80 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-013",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comparer roches et sols à partir de caractéristiques observables.",
+  "concepts": [
+    "granulométrie",
+    "roche",
+    "sol",
+    "relief"
+  ],
+  "preuve_attendue": "Établir un tableau comparatif d’échantillons sans risque.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-st-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-013-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Établir un tableau comparatif d’échantillons sans risque.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-st-013",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Établir un tableau comparatif d’échantillons sans risque.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiches de spécimens fictifs décrits en texte",
+        "tableau comparatif à critères communs",
+        "paysage décrit sans inférence abusive"
+      ],
+      "variables": [
+        {
+          "nom": "variante_q004",
+          "domaine": [
+            "a",
+            "b"
+          ],
+          "regle": "Pour l’item q-004, index = seed modulo 2; corpus fermé, corrigé explicite par variante."
+        },
+        {
+          "nom": "variante_q008",
+          "domaine": [
+            "a",
+            "b"
+          ],
+          "regle": "Pour l’item q-008, index = seed modulo 2; corpus fermé, corrigé explicite par variante."
+        }
+      ],
+      "contraintes": [
+        "Aucun fait scientifique ou corrigé n’est tiré librement; n’utiliser que des fiches fictives énumérées et corrigées.",
+        "Items q-009 et q-010 indépendants, sans variantes générées et sans indices sur les réponses.",
+        "Toujours distinguer ce qui est observé, inféré, modélisé et non indiqué.",
+        "Ne jamais exiger de manipulation de matière libre ni conclure à une classe texturale mesurée.",
+        "Réponses orales, dictées, en tableau numérique ou sous forme de cartes acceptées selon les mêmes critères."
+      ],
+      "bareme_ou_rubrique": "Grille critériée ../evaluation/GRILLE_MAITRISE.md : critères C1–C5, deux preuves q-009 et q-010, aucun score unique; suivi itemisé ../evaluation/PLAN_EVALUATION.md.",
+      "source": "Sources scientifiques identifiées et extraits conceptuels vérifiés dans ../sources/REFERENCES_CONTENU.md; tâches originales, fictives et non certifiées.",
+      "seed": 13004,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

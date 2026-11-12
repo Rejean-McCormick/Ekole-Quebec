@@ -1,0 +1,84 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-019",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Modéliser et résoudre une situation additive en distinguant les données utiles.",
+  "concepts": [
+    "schéma",
+    "inconnue",
+    "addition",
+    "soustraction"
+  ],
+  "preuve_attendue": "Résoudre deux problèmes verbaux nouveaux et expliquer les opérations.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-006",
+    "qc-pri-ma-007"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-019-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Résoudre deux problèmes verbaux nouveaux et expliquer les opérations.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ma-019",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "materiel",
+        "schema",
+        "egalite",
+        "texte_justifie"
+      ],
+      "variables": {
+        "a": "quantité principale, entier positif",
+        "b": "variation, entier positif",
+        "d": "donnée non pertinente, entier positif",
+        "domaines_autorises": "listes finies de 4 tuples par item, définies en BANQUE_ITEMS.json q-006/007/008"
+      },
+      "contraintes": [
+        "Données utiles même unité; distracteur d’une autre catégorie",
+        "Le résultat reste un entier naturel non négatif; calcul par addition ou soustraction contrôlée",
+        "Choix déterministe dans une table approuvée; aucune variation linguistique incontrôlée",
+        "Deux preuves autonomes dans des contextes distincts q-010 et q-011"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md : 5 dimensions observables, deux preuves distinctes q-010 et q-011, aucune note unique suffisante",
+      "source": "sources/REFERENCES_CONTENU.md : énoncés originaux et calculs dérivés",
+      "seed": {
+        "q-006": 19004,
+        "q-007": 19008,
+        "q-008": 19012
+      },
+      "validation_status": "a_revoir",
+      "items_ref": "evaluation/BANQUE_ITEMS.json",
+      "preuves_matrice": [
+        "q-010: centre de prêt",
+        "q-011: jardin communautaire"
+      ],
+      "controle_variantes": "indice = seed mod 4; tables finies de 4 valeurs admissibles par item; résoudre et vérifier inverse"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2",
+  "livraison_contenu": {
+    "revision": "1.2-redaction",
+    "statut": "items_produits_a_revoir",
+    "note": "Le statut d’architecture initial reste conservé; cette annexe signale la rédaction et les contrôles, sans qualification humaine."
+  }
+}

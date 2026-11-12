@@ -1,0 +1,40 @@
+{
+  "format": "ekole.kristal-cadre-v12/1.0",
+  "kristal_id": "qc-pri-ma-025",
+  "source": {
+    "file": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Mesurer et comparer des longueurs, masses ou capacités avec unités adaptées.",
+    "preuve_attendue": "Choisir l’outil et mesurer un objet réel en justifiant l’unité.",
+    "concepts": [
+      "grandeur",
+      "unité",
+      "instrument",
+      "étalonnage"
+    ],
+    "prerequis_bloquants": []
+  },
+  "etat_revision": "plan_de_conception_non_revu",
+  "famille_candidate": "construction_manipulative",
+  "plan_de_conception": {
+    "situation_de_depart": "Concevoir une situation concrète qui rende observable : Mesurer et comparer des longueurs, masses ou capacités avec unités adaptées.",
+    "action_de_lenfant": "Choisir une manipulation ou une production permettant de travailler grandeur.",
+    "necessite_de_validation": "Comparer les propriétés vérifiables avec le critère : Choisir l’outil et mesurer un objet réel en justifiant l’unité.",
+    "evaluation": "Séparer entraînement automatique partiel et preuves de maîtrise source.",
+    "aide_et_regulation": "Identifier les erreurs de grandeur et préparer des relances graduées.",
+    "transfert": "Préparer une autre représentation ou contexte de la même compétence; à rédiger et faire vérifier."
+  },
+  "visuels_conceptuels": {
+    "usage": "mise_en_situation",
+    "prompt": "Représenter une situation concrète permettant d’observer ou de manipuler « grandeur » dans le cadre de « Mesurer et comparer des longueurs, masses ou capacités avec unités adaptées. ». Faire comprendre le contexte sans inclure la solution d’une tâche évaluée. Ne pas imposer de style graphique.",
+    "fichier_suggere": "experience/images/situation-v12.webp",
+    "affichage_si_absent": "prompt_en_texte"
+  },
+  "revision_humaine": {
+    "exactitude": false,
+    "erreurs_diagnostiques": false,
+    "ergonomie_enfant": false,
+    "accessibilite": false,
+    "preuver_maitrise": false
+  }
+}

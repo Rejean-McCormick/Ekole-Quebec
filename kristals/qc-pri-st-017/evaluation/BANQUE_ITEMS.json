@@ -1,0 +1,701 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-017",
+  "family_id": "qc-pri-st-017-ev-01",
+  "consignes_passation": "Lire les fiches sans ajouter d’indices, surtout en q-011 et q-012. Évaluer la justification selon la grille. Cas simulés; les données factuelles de chaque carte sont verrouillées.",
+  "statut_global": "a_revoir",
+  "items": [
+    {
+      "item_id": "qc-pri-st-017-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "fixe",
+      "consigne": "À partir des seules fiches, forme des groupes de plusieurs organismes selon le caractère « nombre de pattes des adultes ». Nomme chaque groupe, place toutes les cartes, justifie au moins deux placements et une exclusion en citant les fiches; dis ce qu’on ne peut pas conclure au-delà du jeu. Rejette également la proposition « classons les plus jolies ensemble ».",
+      "stimulus": "Situation : Premier tri de petites bêtes. Caractère à documenter : nombre de pattes des adultes.\nFiches fournies :\n- fourmi adulte : six pattes.\n- coccinelle adulte : six pattes.\n- araignée adulte : huit pattes.",
+      "reponse_attendue": "Groupes attendus : Six pattes = fourmi adulte, coccinelle adulte ; Huit pattes = araignée adulte. Raison contrôlée : La fourmi et la coccinelle partagent six pattes; l’araignée en a huit. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « nombre de pattes des adultes » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie. « Jolie » n’est pas un critère biologique.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "fiches_textuelles",
+      "donnees_controlees": [
+        {
+          "organisme": "fourmi adulte",
+          "description": "six pattes",
+          "valeur": "6"
+        },
+        {
+          "organisme": "coccinelle adulte",
+          "description": "six pattes",
+          "valeur": "6"
+        },
+        {
+          "organisme": "araignée adulte",
+          "description": "huit pattes",
+          "valeur": "8"
+        }
+      ],
+      "caractere_classement": "nombre de pattes des adultes",
+      "groupes_reference": {
+        "Six pattes": [
+          "fourmi adulte",
+          "coccinelle adulte"
+        ],
+        "Huit pattes": [
+          "araignée adulte"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": false
+    },
+    {
+      "item_id": "qc-pri-st-017-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir des seules fiches, forme des groupes de plusieurs organismes selon le caractère « forme des feuilles décrites ». Nomme chaque groupe, place toutes les cartes, justifie au moins deux placements et une exclusion en citant les fiches; dis ce qu’on ne peut pas conclure au-delà du jeu.",
+      "stimulus": "Situation : Rameaux au jardin. Caractère à documenter : forme des feuilles décrites.\nFiches fournies :\n- érable : feuilles larges.\n- pin : feuilles en aiguilles.\n- épinette : feuilles en aiguilles.",
+      "reponse_attendue": "Groupes attendus : Feuilles larges = érable ; Aiguilles = pin, épinette. Raison contrôlée : L’érable possède des feuilles larges, tandis que les deux conifères décrits portent des aiguilles. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « forme des feuilles décrites » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "cartes_et_deux_boites",
+      "donnees_controlees": [
+        {
+          "organisme": "érable",
+          "description": "feuilles larges",
+          "valeur": "L"
+        },
+        {
+          "organisme": "pin",
+          "description": "feuilles en aiguilles",
+          "valeur": "A"
+        },
+        {
+          "organisme": "épinette",
+          "description": "feuilles en aiguilles",
+          "valeur": "A"
+        }
+      ],
+      "caractere_classement": "forme des feuilles décrites",
+      "groupes_reference": {
+        "Feuilles larges": [
+          "érable"
+        ],
+        "Aiguilles": [
+          "pin",
+          "épinette"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": false
+    },
+    {
+      "item_id": "qc-pri-st-017-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir des seules fiches, forme des groupes de plusieurs organismes selon le caractère « coquille externe visible ». Nomme chaque groupe, place toutes les cartes, justifie au moins deux placements et une exclusion en citant les fiches; dis ce qu’on ne peut pas conclure au-delà du jeu.",
+      "stimulus": "Situation : Étiquettes près d’un potager. Caractère à documenter : coquille externe visible.\nFiches fournies :\n- escargot de jardin : coquille externe visible.\n- limace : aucune coquille externe visible.\n- ver de terre : aucune coquille externe visible.",
+      "reponse_attendue": "Groupes attendus : Avec coquille externe visible = escargot de jardin ; Sans coquille externe visible = limace, ver de terre. Raison contrôlée : La coquille est indiquée seulement pour l’escargot; l’absence de coquille n’établit pas que limace et ver appartiennent au même groupe biologique. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « coquille externe visible » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "fiches_et_tableau",
+      "donnees_controlees": [
+        {
+          "organisme": "escargot de jardin",
+          "description": "coquille externe visible",
+          "valeur": "O"
+        },
+        {
+          "organisme": "limace",
+          "description": "aucune coquille externe visible",
+          "valeur": "N"
+        },
+        {
+          "organisme": "ver de terre",
+          "description": "aucune coquille externe visible",
+          "valeur": "N"
+        }
+      ],
+      "caractere_classement": "coquille externe visible",
+      "groupes_reference": {
+        "Avec coquille externe visible": [
+          "escargot de jardin"
+        ],
+        "Sans coquille externe visible": [
+          "limace",
+          "ver de terre"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": false
+    },
+    {
+      "item_id": "qc-pri-st-017-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir des seules fiches, forme des groupes de plusieurs organismes selon le caractère « présence de plumes ». Nomme chaque groupe, place toutes les cartes, justifie au moins deux placements et une exclusion en citant les fiches; dis ce qu’on ne peut pas conclure au-delà du jeu. Explique pourquoi « possède des ailes » ne veut pas dire « est un oiseau ».",
+      "stimulus": "Situation : Ailes et revêtements. Caractère à documenter : présence de plumes.\nFiches fournies :\n- moineau : plumes et ailes.\n- pigeon : plumes et ailes.\n- chauve-souris : poils et ailes; aucune plume.\n- papillon adulte : ailes et six pattes; aucune plume.",
+      "reponse_attendue": "Groupes attendus : Avec plumes = moineau, pigeon ; Sans plumes = chauve-souris, papillon adulte. Raison contrôlée : Le moineau et le pigeon ont des plumes; la chauve-souris et le papillon n’en ont pas. Les ailes ne sont pas une preuve suffisante de la parenté. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « présence de plumes » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "tableau_de_caracteres",
+      "donnees_controlees": [
+        {
+          "organisme": "moineau",
+          "description": "plumes et ailes",
+          "valeur": "P"
+        },
+        {
+          "organisme": "pigeon",
+          "description": "plumes et ailes",
+          "valeur": "P"
+        },
+        {
+          "organisme": "chauve-souris",
+          "description": "poils et ailes; aucune plume",
+          "valeur": "N"
+        },
+        {
+          "organisme": "papillon adulte",
+          "description": "ailes et six pattes; aucune plume",
+          "valeur": "N"
+        }
+      ],
+      "caractere_classement": "présence de plumes",
+      "groupes_reference": {
+        "Avec plumes": [
+          "moineau",
+          "pigeon"
+        ],
+        "Sans plumes": [
+          "chauve-souris",
+          "papillon adulte"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": false
+    },
+    {
+      "item_id": "qc-pri-st-017-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir des seules fiches, forme des groupes de plusieurs organismes selon le caractère « nombre de pattes des adultes ». Nomme chaque groupe, place toutes les cartes, justifie au moins deux placements et une exclusion en citant les fiches; dis ce qu’on ne peut pas conclure au-delà du jeu.",
+      "stimulus": "Situation : Explorateur de cour. Caractère à documenter : nombre de pattes des adultes.\nFiches fournies :\n- abeille adulte : six pattes.\n- criquet adulte : six pattes.\n- araignée-loup adulte : huit pattes.\n- araignée sauteuse adulte : huit pattes.",
+      "reponse_attendue": "Groupes attendus : Six pattes = abeille adulte, criquet adulte ; Huit pattes = araignée-loup adulte, araignée sauteuse adulte. Raison contrôlée : Les deux insectes décrits ont six pattes; les deux araignées adultes en ont huit. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « nombre de pattes des adultes » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "tableau_binaire",
+      "donnees_controlees": [
+        {
+          "organisme": "abeille adulte",
+          "description": "six pattes",
+          "valeur": "6"
+        },
+        {
+          "organisme": "criquet adulte",
+          "description": "six pattes",
+          "valeur": "6"
+        },
+        {
+          "organisme": "araignée-loup adulte",
+          "description": "huit pattes",
+          "valeur": "8"
+        },
+        {
+          "organisme": "araignée sauteuse adulte",
+          "description": "huit pattes",
+          "valeur": "8"
+        }
+      ],
+      "caractere_classement": "nombre de pattes des adultes",
+      "groupes_reference": {
+        "Six pattes": [
+          "abeille adulte",
+          "criquet adulte"
+        ],
+        "Huit pattes": [
+          "araignée-loup adulte",
+          "araignée sauteuse adulte"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": false
+    },
+    {
+      "item_id": "qc-pri-st-017-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir des seules fiches, forme des groupes de plusieurs organismes selon le caractère « forme des feuilles décrites ». Nomme chaque groupe, place toutes les cartes, justifie au moins deux placements et une exclusion en citant les fiches; dis ce qu’on ne peut pas conclure au-delà du jeu. Ne prétends pas que les arbres à aiguilles sont nécessairement verts toute l’année.",
+      "stimulus": "Situation : Feuillage de sentier. Caractère à documenter : forme des feuilles décrites.\nFiches fournies :\n- bouleau : feuilles larges.\n- chêne : feuilles larges.\n- sapin : aiguilles.\n- mélèze : aiguilles.",
+      "reponse_attendue": "Groupes attendus : Feuilles larges = bouleau, chêne ; Aiguilles = sapin, mélèze. Raison contrôlée : Bouleau et chêne ont des feuilles larges, sapin et mélèze portent des aiguilles; le mélèze les perd à l’automne. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « forme des feuilles décrites » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie. La forme des feuilles ne garantit pas que toutes restent présentes en hiver.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "fiches_et_schema",
+      "donnees_controlees": [
+        {
+          "organisme": "bouleau",
+          "description": "feuilles larges",
+          "valeur": "L"
+        },
+        {
+          "organisme": "chêne",
+          "description": "feuilles larges",
+          "valeur": "L"
+        },
+        {
+          "organisme": "sapin",
+          "description": "aiguilles",
+          "valeur": "A"
+        },
+        {
+          "organisme": "mélèze",
+          "description": "aiguilles",
+          "valeur": "A"
+        }
+      ],
+      "caractere_classement": "forme des feuilles décrites",
+      "groupes_reference": {
+        "Feuilles larges": [
+          "bouleau",
+          "chêne"
+        ],
+        "Aiguilles": [
+          "sapin",
+          "mélèze"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": false
+    },
+    {
+      "item_id": "qc-pri-st-017-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir des seules fiches, forme des groupes de plusieurs organismes selon le caractère « nombre de pattes articulées indiqué ». Nomme chaque groupe, place toutes les cartes, justifie au moins deux placements et une exclusion en citant les fiches; dis ce qu’on ne peut pas conclure au-delà du jeu. Précise si le groupe « zéro patte articulée » démontre une parenté biologique.",
+      "stimulus": "Situation : Présence de pattes articulées. Caractère à documenter : nombre de pattes articulées indiqué.\nFiches fournies :\n- fourmi adulte : six pattes articulées.\n- coléoptère adulte : six pattes articulées.\n- escargot : zéro patte articulée; avance à l’aide d’un pied musculaire.\n- ver de terre : zéro patte articulée; corps annelé.",
+      "reponse_attendue": "Groupes attendus : Six pattes articulées = fourmi adulte, coléoptère adulte ; Zéro patte articulée = escargot, ver de terre. Raison contrôlée : Les deux insectes adultes ont six pattes articulées; escargot et ver de terre n’en ont pas. Ce dernier groupe n’établit pas qu’ils sont apparentés de près. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « nombre de pattes articulées indiqué » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "tableau_et_justification",
+      "donnees_controlees": [
+        {
+          "organisme": "fourmi adulte",
+          "description": "six pattes articulées",
+          "valeur": "6"
+        },
+        {
+          "organisme": "coléoptère adulte",
+          "description": "six pattes articulées",
+          "valeur": "6"
+        },
+        {
+          "organisme": "escargot",
+          "description": "zéro patte articulée; avance à l’aide d’un pied musculaire",
+          "valeur": "0"
+        },
+        {
+          "organisme": "ver de terre",
+          "description": "zéro patte articulée; corps annelé",
+          "valeur": "0"
+        }
+      ],
+      "caractere_classement": "nombre de pattes articulées indiqué",
+      "groupes_reference": {
+        "Six pattes articulées": [
+          "fourmi adulte",
+          "coléoptère adulte"
+        ],
+        "Zéro patte articulée": [
+          "escargot",
+          "ver de terre"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": false
+    },
+    {
+      "item_id": "qc-pri-st-017-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir des seules fiches, forme des groupes de plusieurs organismes selon le caractère « présence de plumes ». Nomme chaque groupe, place toutes les cartes, justifie au moins deux placements et une exclusion en citant les fiches; dis ce qu’on ne peut pas conclure au-delà du jeu. Explique pourquoi « capable de voler » serait un autre caractère que « possède des plumes ».",
+      "stimulus": "Situation : Plumes même sans vol. Caractère à documenter : présence de plumes.\nFiches fournies :\n- autruche : plumes; ne vole pas.\n- canard : plumes; ailes.\n- chauve-souris : poils; pas de plumes; ailes.\n- libellule adulte : six pattes; ailes; pas de plumes.",
+      "reponse_attendue": "Groupes attendus : Avec plumes = autruche, canard ; Sans plumes = chauve-souris, libellule adulte. Raison contrôlée : L’autruche et le canard ont des plumes; la chauve-souris et la libellule n’en ont pas. Voler ne définit pas un oiseau. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « présence de plumes » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "collection_de_cartes",
+      "donnees_controlees": [
+        {
+          "organisme": "autruche",
+          "description": "plumes; ne vole pas",
+          "valeur": "P"
+        },
+        {
+          "organisme": "canard",
+          "description": "plumes; ailes",
+          "valeur": "P"
+        },
+        {
+          "organisme": "chauve-souris",
+          "description": "poils; pas de plumes; ailes",
+          "valeur": "N"
+        },
+        {
+          "organisme": "libellule adulte",
+          "description": "six pattes; ailes; pas de plumes",
+          "valeur": "N"
+        }
+      ],
+      "caractere_classement": "présence de plumes",
+      "groupes_reference": {
+        "Avec plumes": [
+          "autruche",
+          "canard"
+        ],
+        "Sans plumes": [
+          "chauve-souris",
+          "libellule adulte"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": false
+    },
+    {
+      "item_id": "qc-pri-st-017-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir des seules fiches, forme des groupes de plusieurs organismes selon le caractère « nombre de pattes indiqué ». Nomme chaque groupe, place toutes les cartes, justifie au moins deux placements et une exclusion en citant les fiches; dis ce qu’on ne peut pas conclure au-delà du jeu. Interdiction de deviner la valeur de X; explique l’incertitude.",
+      "stimulus": "Situation : Dossier incomplet. Caractère à documenter : nombre de pattes indiqué.\nFiches fournies :\n- papillon adulte : six pattes.\n- fourmi adulte : six pattes.\n- araignée adulte : huit pattes.\n- animal mystère X : nombre de pattes non renseigné.",
+      "reponse_attendue": "Groupes attendus : Six pattes = papillon adulte, fourmi adulte ; Huit pattes = araignée adulte ; Non déterminable = animal mystère X. Raison contrôlée : Papillon et fourmi ont six pattes; araignée huit; animal X ne peut être attribué à six ou huit faute de renseignement. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « nombre de pattes indiqué » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie. La bonne conduite est de marquer « donnée absente » et non d’inventer un trait.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "fiches_avec_inconnue",
+      "donnees_controlees": [
+        {
+          "organisme": "papillon adulte",
+          "description": "six pattes",
+          "valeur": "6"
+        },
+        {
+          "organisme": "fourmi adulte",
+          "description": "six pattes",
+          "valeur": "6"
+        },
+        {
+          "organisme": "araignée adulte",
+          "description": "huit pattes",
+          "valeur": "8"
+        },
+        {
+          "organisme": "animal mystère X",
+          "description": "nombre de pattes non renseigné",
+          "valeur": "?"
+        }
+      ],
+      "caractere_classement": "nombre de pattes indiqué",
+      "groupes_reference": {
+        "Six pattes": [
+          "papillon adulte",
+          "fourmi adulte"
+        ],
+        "Huit pattes": [
+          "araignée adulte"
+        ],
+        "Non déterminable": [
+          "animal mystère X"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": false
+    },
+    {
+      "item_id": "qc-pri-st-017-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir des seules fiches, forme des groupes de plusieurs organismes selon le caractère « forme des feuilles décrites ». Nomme chaque groupe, place toutes les cartes, justifie au moins deux placements et une exclusion en citant les fiches; dis ce qu’on ne peut pas conclure au-delà du jeu. Corrige la phrase erronée « le tremble et le pin vont ensemble parce qu’ils sont les plus beaux ».",
+      "stimulus": "Situation : Panneau scientifique à corriger. Caractère à documenter : forme des feuilles décrites.\nFiches fournies :\n- tremble : feuilles larges.\n- tilleul : feuilles larges.\n- pin : aiguilles.\n- épinette : aiguilles.",
+      "reponse_attendue": "Groupes attendus : Feuilles larges = tremble, tilleul ; Aiguilles = pin, épinette. Raison contrôlée : Tremble et tilleul ont des feuilles larges; pin et épinette ont des aiguilles. Le jugement « beaux » doit être remplacé par un caractère vérifiable. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « forme des feuilles décrites » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "texte_a_corriger_et_schema",
+      "donnees_controlees": [
+        {
+          "organisme": "tremble",
+          "description": "feuilles larges",
+          "valeur": "L"
+        },
+        {
+          "organisme": "tilleul",
+          "description": "feuilles larges",
+          "valeur": "L"
+        },
+        {
+          "organisme": "pin",
+          "description": "aiguilles",
+          "valeur": "A"
+        },
+        {
+          "organisme": "épinette",
+          "description": "aiguilles",
+          "valeur": "A"
+        }
+      ],
+      "caractere_classement": "forme des feuilles décrites",
+      "groupes_reference": {
+        "Feuilles larges": [
+          "tremble",
+          "tilleul"
+        ],
+        "Aiguilles": [
+          "pin",
+          "épinette"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": false
+    },
+    {
+      "item_id": "qc-pri-st-017-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "Sans indice, à partir des seules fiches, choisis toi-même un caractère observable, définis tes groupes, classe les cinq organismes, justifie deux placements et une exclusion par une donnée écrite; indique au moins une conclusion que les données ne permettent pas.",
+      "stimulus": "Situation : PREUVE AUTONOME A — fiches de petites bêtes du jardin.\nFiches fournies :\n- abeille adulte : six pattes, antennes.\n- sauterelle adulte : six pattes, antennes.\n- araignée-crabe adulte : huit pattes, sans antennes.\n- araignée-loup adulte : huit pattes, sans antennes.\n- coccinelle adulte : six pattes, antennes.",
+      "reponse_attendue": "Groupes attendus : Six pattes = abeille adulte, sauterelle adulte, coccinelle adulte ; Huit pattes = araignée-crabe adulte, araignée-loup adulte. Raison contrôlée : Abeille, sauterelle et coccinelle possèdent six pattes; les deux araignées en ont huit. Une justification correcte cite les fiches sans déduire la dangerosité. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « nombre de pattes des adultes » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie. Une étiquette « j’aime » ne démontre pas la compétence.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "cinq_fiches_nouvelles_justification_individuelle",
+      "donnees_controlees": [
+        {
+          "organisme": "abeille adulte",
+          "description": "six pattes, antennes",
+          "valeur": "6"
+        },
+        {
+          "organisme": "sauterelle adulte",
+          "description": "six pattes, antennes",
+          "valeur": "6"
+        },
+        {
+          "organisme": "araignée-crabe adulte",
+          "description": "huit pattes, sans antennes",
+          "valeur": "8"
+        },
+        {
+          "organisme": "araignée-loup adulte",
+          "description": "huit pattes, sans antennes",
+          "valeur": "8"
+        },
+        {
+          "organisme": "coccinelle adulte",
+          "description": "six pattes, antennes",
+          "valeur": "6"
+        }
+      ],
+      "caractere_classement": "nombre de pattes des adultes",
+      "groupes_reference": {
+        "Six pattes": [
+          "abeille adulte",
+          "sauterelle adulte",
+          "coccinelle adulte"
+        ],
+        "Huit pattes": [
+          "araignée-crabe adulte",
+          "araignée-loup adulte"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": true
+    },
+    {
+      "item_id": "qc-pri-st-017-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "mode": "scenario_controle",
+      "consigne": "Sans indice, à partir des seules fiches, choisis toi-même un caractère observable, définis tes groupes, classe les cinq organismes, justifie deux placements et une exclusion par une donnée écrite; indique au moins une conclusion que les données ne permettent pas.",
+      "stimulus": "Situation : PREUVE AUTONOME B — collection de cinq arbres du parc.\nFiches fournies :\n- chêne : feuilles larges.\n- bouleau : feuilles larges.\n- sapin : feuilles en aiguilles.\n- mélèze : feuilles en aiguilles, perdues à l’automne.\n- érable : feuilles larges.",
+      "reponse_attendue": "Groupes attendus : Feuilles larges = chêne, bouleau, érable ; Aiguilles = sapin, mélèze. Raison contrôlée : Chêne, bouleau et érable portent des feuilles larges; sapin et mélèze portent des aiguilles. La chute des aiguilles du mélèze n’en change pas la forme. Limite : ce tri descriptif local ne suffit pas à inférer parenté évolutive, dangerosité ou préférences.",
+      "criteres": [
+        "A — nommer le caractère documenté « forme des feuilles observées en période de feuillage » sans choisir un goût personnel.",
+        "B — placer chaque organisme conformément à la valeur écrite sur sa carte, sans mélanger les règles.",
+        "C — justifier au moins deux placements et une exclusion par une citation fidèle des cartes.",
+        "D — signaler une limite des données et distinguer groupe descriptif de parenté évolutive non établie."
+      ],
+      "feedback": "Si tu as choisi un critère de goût ou un groupe qui ne correspond pas à une fiche, souligne chaque valeur du caractère, reconstruis les groupes puis justifie. Ne pas confondre type de feuille et persistance hivernale.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-st-017-ev-01",
+      "representation": "cinq_fiches_arborescentes_et_tableau",
+      "donnees_controlees": [
+        {
+          "organisme": "chêne",
+          "description": "feuilles larges",
+          "valeur": "L"
+        },
+        {
+          "organisme": "bouleau",
+          "description": "feuilles larges",
+          "valeur": "L"
+        },
+        {
+          "organisme": "sapin",
+          "description": "feuilles en aiguilles",
+          "valeur": "A"
+        },
+        {
+          "organisme": "mélèze",
+          "description": "feuilles en aiguilles, perdues à l’automne",
+          "valeur": "A"
+        },
+        {
+          "organisme": "érable",
+          "description": "feuilles larges",
+          "valeur": "L"
+        }
+      ],
+      "caractere_classement": "forme des feuilles observées en période de feuillage",
+      "groupes_reference": {
+        "Feuilles larges": [
+          "chêne",
+          "bouleau",
+          "érable"
+        ],
+        "Aiguilles": [
+          "sapin",
+          "mélèze"
+        ]
+      },
+      "variations_autorisees": "Ordre des cartes et modalité de réponse (texte, oral, tableau accessible) seulement; le sens, les traits, les espèces et le corrigé sont figés.",
+      "interdictions_variation": "Ne pas changer de taxon, de caractère, de nombre ou de corrigé sans une nouvelle revue scientifique et pédagogique.",
+      "preuve_maitrise": true
+    }
+  ]
+}

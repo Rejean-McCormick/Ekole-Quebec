@@ -1,0 +1,90 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-da-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comparer deux propositions chorégraphiques à partir de critères explicites.",
+  "concepts": [
+    "contraste",
+    "effet",
+    "mouvement",
+    "argument"
+  ],
+  "preuve_attendue": "Présenter une comparaison avec des observations vérifiables.",
+  "prerequis_bloquants": [
+    "qc-pri-da-007"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-da-008-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Présenter une comparaison avec des observations vérifiables.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "variations_admissibles_specifiques": "Pour cette banque : corpus de paires fixes 001–010; adapter seulement modalité de réception/expression, pas les faits observables.",
+        "selection_scenarios": "Items 009 et 010 verrouillés pour deux contextes de preuve; aucun tirage ni production IA libre."
+      },
+      "review_status": "contenu_redige_revue_humaine_requise",
+      "kristal_id": "qc-pri-da-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "partitions descriptives fictives à temps numérotés",
+        "présentation orale, écrite ou communication assistée",
+        "tableau comparatif de faits A/B"
+      ],
+      "variables": {
+        "variation_type": "aucune_en_banque",
+        "corpus": "dix_stimuli_fixes_et_verrouilles",
+        "adaptations": [
+          "format de lecture",
+          "amplification visuelle",
+          "support de communication",
+          "temps de réponse"
+        ],
+        "valeurs_tirees_au_sort": false
+      },
+      "contraintes": [
+        "deux propositions clairement identifiées A/B",
+        "critères communs explicités avant la comparaison",
+        "indices observables tirés du même stimulus sans invention",
+        "aucun jugement sur goût, corps, handicap ou prouesse",
+        "deux preuves de maîtrise dans des contextes distincts",
+        "aides non directives seulement en épreuve"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "R1_criteres",
+          "R2_faits_localises",
+          "R3_comparaison_et_argument",
+          "R4_effet_distinct_du_fait",
+          "R5_autonomie_et_respect"
+        ],
+        "regle": "deux_preuves_independantes_toutes_dimensions_suffisantes_aucune_moyenne_compensatoire"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

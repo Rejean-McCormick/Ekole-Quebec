@@ -1,0 +1,452 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ccq-001",
+  "family_id": "qc-pri-ccq-001-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ccq-001-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Sépare les faits de la supposition. Donne un indice pour chacun de deux faits et rejette la supposition non fondée.",
+      "stimulus": "« Léonie dessine des cartes pour le club de randonnée et participe à une pièce de théâtre. » Phrases : A. Léonie dessine des cartes. B. Léonie n’aime pas les histoires. C. Léonie participe au théâtre.",
+      "reponse_attendue": "A et C sont dans la fiche. B n’est pas déductible : être dans le théâtre ne précise pas ses goûts pour les histoires.",
+      "criteres": [
+        "A identifié avec preuve",
+        "C identifié avec preuve",
+        "B qualifié de supposition avec motif"
+      ],
+      "feedback": "Si B est présentée comme un fait, demander où le texte précise les goûts de Léonie; reconnaître une limite d’information.",
+      "difficulte": "initial",
+      "representation": "fiche textuelle → analyse justifiée",
+      "rubrique": "Analyse critériée par adulte; aucune note sur identité ou conviction privée.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Ne jamais demander ni inférer convictions, origine, genre, situation familiale ou identité personnelle de l’élève; ne juger que les éléments de la fiche.",
+      "preuve": "formative",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Décris une appartenance mentionnée et explique pourquoi elle ne résume pas le personnage.",
+      "stimulus": "« Élian participe à une troupe de marionnettes et aime aussi assembler des casse-têtes. »",
+      "reponse_attendue": "Élian participe à une troupe de marionnettes (appartenance). Également, Élian aime les casse-têtes; l’appartenance ne résume pas tous ses intérêts.",
+      "criteres": [
+        "Appartenance nommée sans invention",
+        "Intérêt supplémentaire cité",
+        "Lien pluralité justifié"
+      ],
+      "feedback": "Si un seul trait est nommé, inviter à relire la seconde phrase. Éviter la conclusion « tous les membres ... ».",
+      "difficulte": "initial",
+      "representation": "fiche textuelle → analyse justifiée",
+      "rubrique": "Analyse critériée par adulte; aucune note sur identité ou conviction privée.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Ne jamais demander ni inférer convictions, origine, genre, situation familiale ou identité personnelle de l’élève; ne juger que les éléments de la fiche.",
+      "preuve": "formative",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Décris une expérience et son effet visible; distingue cet effet d’un jugement définitif sur la personne.",
+      "stimulus": "« Sasha essaie de montrer un parcours sur une carte. Après un essai confus, Sasha ajoute des repères et les autres suivent mieux le trajet. »",
+      "reponse_attendue": "Essai confus → ajout de repères → trajet mieux compris. Une difficulté initiale ne définit pas la personne pour toujours.",
+      "criteres": [
+        "Faits de la séquence observés",
+        "Lien expérience/changement correctement décrit",
+        "Aucune conclusion de personnalité permanente"
+      ],
+      "feedback": "Si « toujours » ou « jamais » apparaît, revenir aux événements réellement rapportés.",
+      "difficulte": "initial",
+      "representation": "fiche textuelle → analyse justifiée",
+      "rubrique": "Analyse critériée par adulte; aucune note sur identité ou conviction privée.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Ne jamais demander ni inférer convictions, origine, genre, situation familiale ou identité personnelle de l’élève; ne juger que les éléments de la fiche.",
+      "preuve": "formative",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": 42031,
+      "parametres": {
+        "variables": {
+          "variante_index": [
+            0,
+            1
+          ]
+        },
+        "domaines": {
+          "variante_index": "entier dans {0,1}"
+        },
+        "contraintes": [
+          "Corpus fermé pré-écrit et relu localement pour cohérence; aucun tirage IA libre.",
+          "Même objectif, niveau et rubricage pour chaque variante.",
+          "Personnages fictifs, informations suffisantes pour une réponse vérifiable; aucune divulgation personnelle."
+        ],
+        "algorithme": "Choisir l’indice i = seed modulo 2; afficher corpus[i].stimulus; utiliser corpus[i].attendu comme exemple corrigé, puis évaluer avec les critères de l’item. Aucune génération libre.",
+        "corpus": [
+          {
+            "stimulus": "« Iris présente une première affiche difficile à lire. Après avoir reçu des commentaires, Iris agrandit les lettres et la nouvelle affiche est plus claire. »",
+            "attendu": "Première affiche peu lisible → commentaires → lettres agrandies → nouvelle affiche plus claire. Rien ne permet de conclure qu’Iris est toujours bonne ou mauvaise en communication."
+          },
+          {
+            "stimulus": "« Sasha essaie de montrer un parcours sur une carte. Après un essai confus, Sasha ajoute des repères et les autres suivent mieux le trajet. »",
+            "attendu": "Essai confus → ajout de repères → trajet mieux compris. Une difficulté initiale ne définit pas la personne pour toujours."
+          }
+        ],
+        "exemple_instancie": {
+          "seed": 42031,
+          "variante_index": 1,
+          "stimulus": "« Sasha essaie de montrer un parcours sur une carte. Après un essai confus, Sasha ajoute des repères et les autres suivent mieux le trajet. »",
+          "attendu": "Essai confus → ajout de repères → trajet mieux compris. Une difficulté initiale ne définit pas la personne pour toujours."
+        }
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Montre une différence de préférences au sein d’un même groupe et corrige la phrase « Ils doivent tous aimer la même chose ».",
+      "stimulus": "« Dans une équipe de préparation d’exposition, Béa préfère créer des affiches, tandis que Denis aime organiser les objets. Les deux participent à l’exposition. »",
+      "reponse_attendue": "Les deux font partie de la même équipe, mais Béa préfère les affiches et Denis l’organisation des objets. L’appartenance commune n’impose pas des goûts identiques.",
+      "criteres": [
+        "Appartenance commune établie",
+        "Deux choix différents cités",
+        "Généralisation corrigée sans jugement de valeur"
+      ],
+      "feedback": "Demander de nommer le choix concret de chaque personne avant toute conclusion.",
+      "difficulte": "intermediaire",
+      "representation": "fiche textuelle → analyse justifiée",
+      "rubrique": "Analyse critériée par adulte; aucune note sur identité ou conviction privée.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Ne jamais demander ni inférer convictions, origine, genre, situation familiale ou identité personnelle de l’élève; ne juger que les éléments de la fiche.",
+      "preuve": "formative",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Réécris l’affirmation de manière fondée et respectueuse; dis ce qui manque pour aller plus loin.",
+      "stimulus": "« Yan aime participer à des spectacles de danse et lit des romans. » Affirmation à corriger : « Puisque Yan danse, Yan n’est pas une personne qui aime lire. »",
+      "reponse_attendue": "« Yan aime la danse et lit des romans; les deux peuvent faire partie de ses intérêts. Le récit ne précise pas tous ses goûts. »",
+      "criteres": [
+        "Rejette une opposition infondée",
+        "Cite deux éléments présents",
+        "Reconnaît des informations absentes",
+        "Formulation non dévalorisante"
+      ],
+      "feedback": "Si l’élève juge la personne, recentrer sur le caractère non étayé de la phrase, sans lui demander son opinion personnelle.",
+      "difficulte": "intermediaire",
+      "representation": "fiche textuelle → analyse justifiée",
+      "rubrique": "Analyse critériée par adulte; aucune note sur identité ou conviction privée.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Ne jamais demander ni inférer convictions, origine, genre, situation familiale ou identité personnelle de l’élève; ne juger que les éléments de la fiche.",
+      "preuve": "formative",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Sur une fiche fictive, remplis une carte à quatre rubriques : identité (deux faits), appartenance, expérience, diversité. Termine par une limite des données.",
+      "stimulus": "« Robin aide un club de fabrication et joue au badminton. Après avoir suivi une démonstration, Robin réussit à monter une petite maquette qui résistait auparavant. »",
+      "reponse_attendue": "Identité : fabrication et badminton; appartenance : club de fabrication; expérience : démonstration suivie d’un montage réussi; diversité : plusieurs centres d’intérêt; inconnu : opinions et autres habitudes.",
+      "criteres": [
+        "Deux éléments factuels distincts",
+        "Une appartenance correctement située",
+        "Une expérience et son effet précis",
+        "Diversité et limite expliquées"
+      ],
+      "feedback": "Une carte qui invente une émotion ou une origine doit remplacer cette invention par « non précisé ».",
+      "difficulte": "intermediaire",
+      "representation": "fiche → carte à quatre rubriques commentée",
+      "rubrique": "Analyse critériée par adulte; aucune note sur identité ou conviction privée.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Ne jamais demander ni inférer convictions, origine, genre, situation familiale ou identité personnelle de l’élève; ne juger que les éléments de la fiche.",
+      "preuve": "formative",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": 42060,
+      "parametres": {
+        "variables": {
+          "variante_index": [
+            0,
+            1
+          ]
+        },
+        "domaines": {
+          "variante_index": "entier dans {0,1}"
+        },
+        "contraintes": [
+          "Corpus fermé pré-écrit et relu localement pour cohérence; aucun tirage IA libre.",
+          "Même objectif, niveau et rubricage pour chaque variante.",
+          "Personnages fictifs, informations suffisantes pour une réponse vérifiable; aucune divulgation personnelle."
+        ],
+        "algorithme": "Choisir l’indice i = seed modulo 2; afficher corpus[i].stimulus; utiliser corpus[i].attendu comme exemple corrigé, puis évaluer avec les critères de l’item. Aucune génération libre.",
+        "corpus": [
+          {
+            "stimulus": "« Robin aide un club de fabrication et joue au badminton. Après avoir suivi une démonstration, Robin réussit à monter une petite maquette qui résistait auparavant. »",
+            "attendu": "Identité : fabrication et badminton; appartenance : club de fabrication; expérience : démonstration suivie d’un montage réussi; diversité : plusieurs centres d’intérêt; inconnu : opinions et autres habitudes."
+          },
+          {
+            "stimulus": "« Camil participe à un groupe de jardinage et compose de petites mélodies. Après deux essais, Camil parvient à expliquer le semis à une nouvelle personne. »",
+            "attendu": "Identité : jardinage et musique; appartenance : groupe de jardinage; expérience : deux essais puis explication réussie; diversité : intérêts multiples; inconnu : autres groupes ou opinions."
+          }
+        ],
+        "exemple_instancie": {
+          "seed": 42060,
+          "variante_index": 0,
+          "stimulus": "« Robin aide un club de fabrication et joue au badminton. Après avoir suivi une démonstration, Robin réussit à monter une petite maquette qui résistait auparavant. »",
+          "attendu": "Identité : fabrication et badminton; appartenance : club de fabrication; expérience : démonstration suivie d’un montage réussi; diversité : plusieurs centres d’intérêt; inconnu : opinions et autres habitudes."
+        }
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Le récit permet-il de conclure pourquoi le personnage reste silencieux ? Distingue comportement et cause.",
+      "stimulus": "« Durant la première rencontre du club photo, Édith écoute. À la deuxième, Édith pose des questions. »",
+      "reponse_attendue": "On sait qu’Édith écoute d’abord puis pose des questions; on ne sait pas pourquoi Édith avait peu parlé. Affirmer « Édith est timide » ou une cause familiale serait injustifié.",
+      "criteres": [
+        "Observations chronologiques exactes",
+        "Cause reconnue comme inconnue",
+        "Aucun jugement sur identité intime"
+      ],
+      "feedback": "Accepter « plusieurs causes possibles » à condition qu’aucune ne soit présentée comme vraie.",
+      "difficulte": "intermediaire",
+      "representation": "fiche textuelle → analyse justifiée",
+      "rubrique": "Analyse critériée par adulte; aucune note sur identité ou conviction privée.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Ne jamais demander ni inférer convictions, origine, genre, situation familiale ou identité personnelle de l’élève; ne juger que les éléments de la fiche.",
+      "preuve": "formative",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Réponds à une généralisation en parlant des faits et de l’idée, jamais de la valeur de la personne; propose une reformulation constructive.",
+      "stimulus": "« Maïa participe à un club d’échecs et à un atelier musical. Une voix fictive dit : “Les joueurs d’échecs n’aiment jamais la musique.” »",
+      "reponse_attendue": "« Ce n’est pas appuyé par la fiche : Maïa participe aux deux. On ne peut pas généraliser les goûts de tous les joueurs d’échecs. »",
+      "criteres": [
+        "Discute l’idée sans attaque personnelle",
+        "Cite un indice opposant la généralisation",
+        "Reformule sans assigner d’identité"
+      ],
+      "feedback": "Faire remplacer « cette personne est ... » par « cette affirmation ne correspond pas aux informations de la fiche car ... ».",
+      "difficulte": "intermediaire",
+      "representation": "dialogue fictif à réécrire",
+      "rubrique": "Analyse critériée par adulte; aucune note sur identité ou conviction privée.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Ne jamais demander ni inférer convictions, origine, genre, situation familiale ou identité personnelle de l’élève; ne juger que les éléments de la fiche.",
+      "preuve": "formative",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": 42082,
+      "parametres": {
+        "variables": {
+          "variante_index": [
+            0,
+            1
+          ]
+        },
+        "domaines": {
+          "variante_index": "entier dans {0,1}"
+        },
+        "contraintes": [
+          "Corpus fermé pré-écrit et relu localement pour cohérence; aucun tirage IA libre.",
+          "Même objectif, niveau et rubricage pour chaque variante.",
+          "Personnages fictifs, informations suffisantes pour une réponse vérifiable; aucune divulgation personnelle."
+        ],
+        "algorithme": "Choisir l’indice i = seed modulo 2; afficher corpus[i].stimulus; utiliser corpus[i].attendu comme exemple corrigé, puis évaluer avec les critères de l’item. Aucune génération libre.",
+        "corpus": [
+          {
+            "stimulus": "« Maïa participe à un club d’échecs et à un atelier musical. Une voix fictive dit : “Les joueurs d’échecs n’aiment jamais la musique.” »",
+            "attendu": "« Ce n’est pas appuyé par la fiche : Maïa participe aux deux. On ne peut pas généraliser les goûts de tous les joueurs d’échecs. »"
+          },
+          {
+            "stimulus": "« Alba joue dans une équipe de ballon et aime aussi illustrer des histoires. Une voix fictive dit : “Les sportifs n’aiment pas dessiner.” »",
+            "attendu": "« La fiche montre justement que les deux intérêts coexistent chez Alba. Une équipe sportive ne dicte pas tous les goûts de ses membres. »"
+          }
+        ],
+        "exemple_instancie": {
+          "seed": 42082,
+          "variante_index": 0,
+          "stimulus": "« Maïa participe à un club d’échecs et à un atelier musical. Une voix fictive dit : “Les joueurs d’échecs n’aiment jamais la musique.” »",
+          "attendu": "« Ce n’est pas appuyé par la fiche : Maïa participe aux deux. On ne peut pas généraliser les goûts de tous les joueurs d’échecs. »"
+        }
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique comment deux interprétations différentes d’un fait peuvent rester possibles, sans en choisir une comme vérité.",
+      "stimulus": "« Mina regarde les activités affichées à la porte du centre de loisirs, puis s’inscrit à un atelier de poterie. » Une personne dit : « Mina veut se faire des amis. » Une autre : « Mina veut essayer l’argile. »",
+      "reponse_attendue": "La seule information certaine est l’inscription en poterie. Les deux motivations sont possibles mais aucune n’est affirmée; demander à Mina dans ce scénario fictif serait nécessaire pour connaître sa raison.",
+      "criteres": [
+        "Fait connu identifié",
+        "Motivations présentées comme hypothèses",
+        "Aucune supposition imposée ni jugement"
+      ],
+      "feedback": "La réponse « cela pourrait être vrai, mais on ne sait pas » est recevable si justifiée.",
+      "difficulte": "intermediaire",
+      "representation": "fiche textuelle → analyse justifiée",
+      "rubrique": "Analyse critériée par adulte; aucune note sur identité ou conviction privée.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Ne jamais demander ni inférer convictions, origine, genre, situation familiale ou identité personnelle de l’élève; ne juger que les éléments de la fiche.",
+      "preuve": "formative",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Rédige une courte analyse de trois ou quatre phrases : faits identitaires, appartenance, expérience et limite de ce que l’on peut conclure.",
+      "stimulus": "« Eli participe à un atelier de dessin, aime aussi les jeux de stratégie et a révisé une affiche après un commentaire du groupe. »",
+      "reponse_attendue": "Eli participe au dessin et aime les jeux de stratégie. Après des commentaires, Eli a modifié une affiche. Le récit décrit plusieurs dimensions sans préciser le reste de son identité.",
+      "criteres": [
+        "Deux indices reliés au personnage",
+        "Appartenance explicitée",
+        "Expérience et évolution décrites",
+        "Diversité ou prudence face aux inconnues"
+      ],
+      "feedback": "Pour corriger, pointer une phrase trop générale et demander la référence à un segment précis.",
+      "difficulte": "intermediaire",
+      "representation": "fiche textuelle → analyse justifiée",
+      "rubrique": "Analyse critériée par adulte; aucune note sur identité ou conviction privée.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Ne jamais demander ni inférer convictions, origine, genre, situation familiale ou identité personnelle de l’élève; ne juger que les éléments de la fiche.",
+      "preuve": "formative",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": 42101,
+      "parametres": {
+        "variables": {
+          "variante_index": [
+            0,
+            1
+          ]
+        },
+        "domaines": {
+          "variante_index": "entier dans {0,1}"
+        },
+        "contraintes": [
+          "Corpus fermé pré-écrit et relu localement pour cohérence; aucun tirage IA libre.",
+          "Même objectif, niveau et rubricage pour chaque variante.",
+          "Personnages fictifs, informations suffisantes pour une réponse vérifiable; aucune divulgation personnelle."
+        ],
+        "algorithme": "Choisir l’indice i = seed modulo 2; afficher corpus[i].stimulus; utiliser corpus[i].attendu comme exemple corrigé, puis évaluer avec les critères de l’item. Aucune génération libre.",
+        "corpus": [
+          {
+            "stimulus": "« Kim participe à un club de construction en papier, aime écouter des histoires et a appris à améliorer un modèle après les suggestions de camarades. »",
+            "attendu": "Kim participe à un club de construction et aime les histoires. Les suggestions reçues ont aidé à améliorer un modèle. Ces dimensions coexistent; on ne sait pas quels autres centres d’intérêt Kim possède."
+          },
+          {
+            "stimulus": "« Eli participe à un atelier de dessin, aime aussi les jeux de stratégie et a révisé une affiche après un commentaire du groupe. »",
+            "attendu": "Eli participe au dessin et aime les jeux de stratégie. Après des commentaires, Eli a modifié une affiche. Le récit décrit plusieurs dimensions sans préciser le reste de son identité."
+          }
+        ],
+        "exemple_instancie": {
+          "seed": 42101,
+          "variante_index": 1,
+          "stimulus": "« Eli participe à un atelier de dessin, aime aussi les jeux de stratégie et a révisé une affiche après un commentaire du groupe. »",
+          "attendu": "Eli participe au dessin et aime les jeux de stratégie. Après des commentaires, Eli a modifié une affiche. Le récit décrit plusieurs dimensions sans préciser le reste de son identité."
+        }
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A — Analyse Noa : fais une fiche structurée ou quatre à six phrases. Cite deux faits identitaires, une appartenance, une expérience, une idée montrant la pluralité, puis corrige la généralisation et nomme une information inconnue. Aucun indice de contenu fourni.",
+      "stimulus": "Contexte inédit A — radio scolaire fictive. « Noa participe à la radio de l’école. Noa aime préparer les entrevues et construit aussi des petites maquettes durant les moments libres. Lors d’une première émission, Noa avait oublié une question; après avoir préparé une liste, Noa a conduit une entrevue plus clairement. Une personne affirme : “Si Noa est à la radio, Noa ne peut pas aimer construire des objets.” »",
+      "reponse_attendue": "Analyse modèle, autres formulations justifiées admises : « Noa participe à la radio scolaire (appartenance), prépare des entrevues et construit des maquettes (deux aspects). Après l’oubli d’une question, la liste a aidé à mieux conduire l’entrevue (expérience et changement observé). La radio et la construction peuvent coexister, donc la généralisation est infondée. On ignore les autres activités et croyances de Noa. »",
+      "criteres": [
+        "Deux dimensions appuyées par la fiche",
+        "Appartenance et expérience mises en relation sans cause imaginée",
+        "Pluralité reconnue, généralisation rejetée respectueusement",
+        "Une inconnue signalée; aucune assignation personnelle"
+      ],
+      "feedback": "Si une dimension manque, montrer après l’évaluation l’endroit du récit associé; demander un nouvel essai sur un AUTRE personnage, sans entraîner sur Noa pendant l’épreuve.",
+      "difficulte": "transfert",
+      "representation": "preuve autonome A : radio scolaire → schéma ou commentaire argumenté",
+      "rubrique": "Grille analytique D1–D4 de 0 à 3; niveau 2 minimum dans les quatre dimensions pour cette preuve, sans contenu guidé. Décision finale sur deux contextes, pas sur une moyenne.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Épreuve fixe : aucun changement de personnage, de faits ou de critères avant revue humaine; présentation lue ou transcrite possible. Aucun jugement de croyance ou de vie privée.",
+      "preuve": "maitrise_A_radio_scolaire",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ccq-001-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B — Analyse Ari : produis, sans aide de contenu, un diagramme commenté ou un paragraphe montrant deux faits identitaires, une appartenance et un apprentissage; corrige une généralisation puis indique une information que la fiche ne permet pas de savoir.",
+      "stimulus": "Contexte inédit B — jardin collectif fictif. « Ari participe à un jardin collectif de quartier avec plusieurs voisins. Ari aime réparer les petites étiquettes qui identifient les plantes et joue aussi dans une troupe de marionnettes. Après un premier semis qui n’a pas levé, Ari écoute une explication et réussit un second semis. Un participant conclut : “Toutes les personnes qui jardinent ont les mêmes goûts et font les mêmes activités.” »",
+      "reponse_attendue": "Analyse modèle, variantes fondées acceptées : « Ari participe au jardin collectif (appartenance), aime réparer les étiquettes et joue dans une troupe (dimensions distinctes). Le premier semis échoue, puis Ari apprend et le second réussit (expérience). La présence au jardin ne signifie pas des goûts identiques pour tous; la généralisation est injustifiée. On ignore les autres activités de ses voisins et les convictions d’Ari. »",
+      "criteres": [
+        "Deux dimensions appuyées par la fiche",
+        "Appartenance et expérience mises en relation sans cause imaginée",
+        "Diversité des membres reconnue, généralisation rejetée sans dévaloriser",
+        "Une limite formulée; aucune divulgation réelle"
+      ],
+      "feedback": "Après correction, identifier la dimension non satisfaite et choisir une micro-remédiation suivie d’une troisième vignette distincte; ne pas demander l’histoire personnelle de l’élève.",
+      "difficulte": "transfert",
+      "representation": "preuve autonome B : jardin collectif → carte de liens ou commentaire argumenté",
+      "rubrique": "Grille analytique D1–D4 de 0 à 3; niveau 2 minimum dans les quatre dimensions pour cette preuve, sans contenu guidé. Requiert aussi réussite autonome de q-011.",
+      "variabilite_admise": "Langage naturel, oral confidentiel, schéma annoté ou texte; plusieurs formulations fondées sur la fiche acceptées.",
+      "limites_variation": "Épreuve fixe : faits et exigences verrouillés jusqu’à revue humaine; aucun changement de personnage, de croyance ou de contexte implicite.",
+      "preuve": "maitrise_B_jardin_collectif",
+      "source": "production_originale_a_partir_du_contrat_v1.2",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

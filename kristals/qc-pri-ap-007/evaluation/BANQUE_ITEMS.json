@@ -1,0 +1,367 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ap-007",
+  "family_id": "qc-pri-ap-007-ev-01",
+  "corpus_scenarios_fixes": {
+    "M0": {
+      "titre": "Le point phare",
+      "lignes": [
+        "..C..",
+        "..C..",
+        "CCOCC",
+        "..C..",
+        "..C.."
+      ],
+      "legende": "C=case cyan; O=case orange; .=fond non coloré.",
+      "contexte": "Étude abstraite de repère, maquette numérique fictive réalisée pour ce module.",
+      "commentaire_de_controle": "Une colonne cyan (colonne 3), une rangée cyan en 3 séparée par le centre orange (ligne 3, colonnes 1, 2, 4 et 5), centre orange (3,3) : organisation centrée et rayonnante; aucune matière ou texture physique vérifiable."
+    },
+    "M1": {
+      "titre": "Les volets",
+      "lignes": [
+        "R...R",
+        "RR.RR",
+        "R...R",
+        "RR.RR",
+        "R...R"
+      ],
+      "legende": "R=case rouge; .=fond non coloré.",
+      "contexte": "Affiche géométrique fictive créée pour un atelier de composition.",
+      "commentaire_de_controle": "Deux colonnes latérales rouges (1 et 5) et deux rangées où elles s’élargissent vers le centre (lignes 2 et 4); axe de symétrie vertical en colonne 3; fond vide au milieu."
+    },
+    "M2": {
+      "titre": "L’escalier vert",
+      "lignes": [
+        "G....",
+        "GG...",
+        "GGG..",
+        "GGGG.",
+        "GGGGG"
+      ],
+      "legende": "G=case verte; .=fond non coloré.",
+      "contexte": "Maquette numérique géométrique fictive de parcours visuel.",
+      "commentaire_de_controle": "Le nombre de cases vertes augmente de 1 à 5 de haut en bas; le bord droit forme une progression oblique en escalier; bande verte entière à la ligne 5."
+    },
+    "M3": {
+      "titre": "Les gouttes de pluie",
+      "lignes": [
+        "..B..",
+        ".B.B.",
+        "B...B",
+        ".B.B.",
+        "..B.."
+      ],
+      "legende": "B=case bleue; .=fond non coloré.",
+      "contexte": "Motif abstrait fictif conçu pour une carte de souhaits.",
+      "commentaire_de_controle": "Huit cases bleues forment le contour anguleux d’un losange, le centre (3,3) reste vide et la disposition est symétrique de haut en bas et de gauche à droite."
+    },
+    "M4": {
+      "titre": "Les bandes lumineuses",
+      "lignes": [
+        "YYYYY",
+        ".....",
+        "YYYYY",
+        ".....",
+        "YYYYY"
+      ],
+      "legende": "Y=case jaune; .=fond non coloré.",
+      "contexte": "Bandeau graphique fictif conçu pour un corridor d’exposition imaginaire.",
+      "commentaire_de_controle": "Trois bandes jaunes horizontales séparées par deux lignes vides; répétition et alternance, aucune variation de texture vérifiable."
+    },
+    "M5": {
+      "titre": "Les deux directions",
+      "lignes": [
+        "P...P",
+        ".P.P.",
+        "..P..",
+        "...P.",
+        "....P"
+      ],
+      "legende": "P=case pourpre; .=fond non coloré.",
+      "contexte": "Motif abstrait fictif pour la page de garde d’un cahier.",
+      "commentaire_de_controle": "Une diagonale de cases pourpres va du coin supérieur gauche au coin inférieur droit, complétée par trois cases dans le coin supérieur droit vers le centre; disposition asymétrique dans sa moitié basse."
+    },
+    "A": {
+      "titre": "Signal sur la place",
+      "lignes": [
+        "..B..",
+        ".BBB.",
+        "OOBOO",
+        ".BBB.",
+        "..B.."
+      ],
+      "legende": "B=case bleue; O=case orange; .=fond non coloré.",
+      "contexte": "Maquette d’affiche pour une place publique imaginaire. Le cartel fictif dit seulement « composition numérique sur une grille de 5 × 5 », sans déclarer l’intention de l’auteur.",
+      "commentaire_de_controle": "Bleu vertical en colonne 3 et élargissement sur les lignes 2 et 4; orange aux extrémités de la rangée centrale, colonnes 1–2 et 4–5; centre (3,3) bleu; symétrie gauche/droite."
+    },
+    "B": {
+      "titre": "Passage du jardin",
+      "lignes": [
+        "V...V",
+        ".V.V.",
+        "..J..",
+        ".VJV.",
+        "V.J.V"
+      ],
+      "legende": "V=case verte; J=case jaune; .=fond non coloré.",
+      "contexte": "Maquette d’un marque-page pour un jardin imaginaire. Le cartel fictif dit « composition numérique sur une grille de 5 × 5 », sans déclarer l’intention de l’auteur.",
+      "commentaire_de_controle": "Les cases vertes se placent en paires symétriques sur les colonnes 1/5 ou 2/4; trois cases jaunes (3,3), (4,3), (5,3) créent une colonne centrale vers le bas; contraste entre diagonales vertes et chemin jaune."
+    }
+  },
+  "items": [
+    {
+      "item_id": "qc-pri-ap-007-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère l’élément isolé au centre, puis deux éléments proches. Décris leur organisation en une phrase vérifiable.",
+      "stimulus": "Œuvre M0 — Le point phare : Étude abstraite de repère, maquette numérique fictive réalisée pour ce module. Grille 5×5 (lignes de haut en bas : ..C.. / ..C.. / CCOCC / ..C.. / ..C..). C=case cyan; O=case orange; .=fond non coloré. Les coordonnées (ligne,colonne) commencent à (1,1) en haut à gauche.",
+      "reponse_attendue": "O est au centre (3,3); C figure en (2,3) et (4,3), ainsi qu’en (3,2) et (3,4). Le contraste orange/cyan et les directions croisées créent une organisation centrée; une hypothèse d’accent visuel est acceptable.",
+      "criteres": [
+        "Deux détails effectivement présents dans la grille sont situés précisément (coordonnées ou positions équivalentes).",
+        "La relation de composition est démontrée à l’aide des détails observés.",
+        "La lecture proposée distingue fait observable et hypothèse, sans noter la beauté.",
+        "Le procédé physique n’est pas affirmé sans preuve, et le contexte fictif est reconnu."
+      ],
+      "feedback": "Si le centre est mal situé, lire les indices ligne/colonne et refaire une localisation sans jugement de goût.",
+      "difficulte": "initial",
+      "representation": "œuvre originale codée sur grille 5×5, légende et coordonnées (visuelle, texte ou tactile); analyse argumentée observable",
+      "variations_permises": "Agrandissement, toucher de cases avec légende, description en français courant; motif fixe.",
+      "limites_variation": "Interdit de modifier lignes, colonnes, légendes, cases, contexte de l’œuvre, faits vérifiables ou rubriques; pas de génération libre par IA ni de correction fondée sur un goût.",
+      "conditions_passation": "Support visuel/texte/tactile complet et réponse orale/écrite/assistée; adulte transmet la consigne et garantit l’accès, sans choisir les indices ni l’hypothèse.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ap-007-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Repère les côtés du motif et établis si la disposition est symétrique sur un axe vertical. Cite deux positions.",
+      "stimulus": "Œuvre M1 — Les volets : Affiche géométrique fictive créée pour un atelier de composition. Grille 5×5 (lignes de haut en bas : R...R / RR.RR / R...R / RR.RR / R...R). R=case rouge; .=fond non coloré. Les coordonnées (ligne,colonne) commencent à (1,1) en haut à gauche.",
+      "reponse_attendue": "R est présent en (1,1) et (1,5), comme en (3,1) et (3,5); les colonnes 1 et 5 correspondent et les extensions des lignes 2 et 4 sont en miroir. Axe central en colonne 3, laissée vide.",
+      "criteres": [
+        "Deux détails effectivement présents dans la grille sont situés précisément (coordonnées ou positions équivalentes).",
+        "La relation de composition est démontrée à l’aide des détails observés.",
+        "La lecture proposée distingue fait observable et hypothèse, sans noter la beauté.",
+        "Le procédé physique n’est pas affirmé sans preuve, et le contexte fictif est reconnu."
+      ],
+      "feedback": "Si l’élève déclare simplement « symétrique », demander ensuite quelles paires de cases le montrent; éviter de déduire un pinceau.",
+      "difficulte": "initial",
+      "representation": "œuvre originale codée sur grille 5×5, légende et coordonnées (visuelle, texte ou tactile); analyse argumentée observable",
+      "variations_permises": "Lecture des symboles, repères de lignes/colonnes sans mise en évidence préalable des réponses.",
+      "limites_variation": "Interdit de modifier lignes, colonnes, légendes, cases, contexte de l’œuvre, faits vérifiables ou rubriques; pas de génération libre par IA ni de correction fondée sur un goût.",
+      "conditions_passation": "Support visuel/texte/tactile complet et réponse orale/écrite/assistée; adulte transmet la consigne et garantit l’accès, sans choisir les indices ni l’hypothèse.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ap-007-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-007-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir des cases vertes, explique la progression de la composition de la ligne du haut à celle du bas, avec des positions.",
+      "stimulus": "Œuvre M2 — L’escalier vert : Maquette numérique géométrique fictive de parcours visuel. Grille 5×5 (lignes de haut en bas : G.... / GG... / GGG.. / GGGG. / GGGGG). G=case verte; .=fond non coloré. Les coordonnées (ligne,colonne) commencent à (1,1) en haut à gauche.",
+      "reponse_attendue": "La ligne 1 ne contient G qu’en (1,1); la ligne 5 contient G de (5,1) à (5,5); chaque rangée gagne un G vers la droite. L’effet en escalier est descriptible et une impression de chemin n’est qu’une lecture possible.",
+      "criteres": [
+        "Deux détails effectivement présents dans la grille sont situés précisément (coordonnées ou positions équivalentes).",
+        "La relation de composition est démontrée à l’aide des détails observés.",
+        "La lecture proposée distingue fait observable et hypothèse, sans noter la beauté.",
+        "Le procédé physique n’est pas affirmé sans preuve, et le contexte fictif est reconnu."
+      ],
+      "feedback": "Si les rangées sont dites identiques, comparer la première et la cinquième; toute lecture expressivement justifiée reste ouverte.",
+      "difficulte": "initial",
+      "representation": "œuvre originale codée sur grille 5×5, légende et coordonnées (visuelle, texte ou tactile); analyse argumentée observable",
+      "variations_permises": "Format de grille ou représentation tactile au choix; jamais de permutation de rangées.",
+      "limites_variation": "Interdit de modifier lignes, colonnes, légendes, cases, contexte de l’œuvre, faits vérifiables ou rubriques; pas de génération libre par IA ni de correction fondée sur un goût.",
+      "conditions_passation": "Support visuel/texte/tactile complet et réponse orale/écrite/assistée; adulte transmet la consigne et garantit l’accès, sans choisir les indices ni l’hypothèse.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ap-007-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Montre comment le motif encadre un vide : cite deux cases bleues et un emplacement vide. Propose une interprétation prudente.",
+      "stimulus": "Œuvre M3 — Les gouttes de pluie : Motif abstrait fictif conçu pour une carte de souhaits. Grille 5×5 (lignes de haut en bas : ..B.. / .B.B. / B...B / .B.B. / ..B..). B=case bleue; .=fond non coloré. Les coordonnées (ligne,colonne) commencent à (1,1) en haut à gauche.",
+      "reponse_attendue": "B en (1,3), (3,1), (3,5) et (5,3) donne des sommets d’un losange; (3,3) est vide. Ce vide est entouré et peut évoquer une ouverture. La maquette ne prouve aucune matière réelle.",
+      "criteres": [
+        "Deux détails effectivement présents dans la grille sont situés précisément (coordonnées ou positions équivalentes).",
+        "La relation de composition est démontrée à l’aide des détails observés.",
+        "La lecture proposée distingue fait observable et hypothèse, sans noter la beauté.",
+        "Le procédé physique n’est pas affirmé sans preuve, et le contexte fictif est reconnu."
+      ],
+      "feedback": "En cas de confusion plein/vide, rappeler après l’essai que « . » désigne une case vide, puis réobserver sans donner les positions.",
+      "difficulte": "intermediaire",
+      "representation": "œuvre originale codée sur grille 5×5, légende et coordonnées (visuelle, texte ou tactile); analyse argumentée observable",
+      "variations_permises": "Possibilité de pointer trois positions au lieu de les écrire; conserver l’analyse relationnelle.",
+      "limites_variation": "Interdit de modifier lignes, colonnes, légendes, cases, contexte de l’œuvre, faits vérifiables ou rubriques; pas de génération libre par IA ni de correction fondée sur un goût.",
+      "conditions_passation": "Support visuel/texte/tactile complet et réponse orale/écrite/assistée; adulte transmet la consigne et garantit l’accès, sans choisir les indices ni l’hypothèse.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ap-007-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique le rythme du motif avec les numéros des lignes pleines et vides, puis formule un effet possible sans certitude d’intention.",
+      "stimulus": "Œuvre M4 — Les bandes lumineuses : Bandeau graphique fictif conçu pour un corridor d’exposition imaginaire. Grille 5×5 (lignes de haut en bas : YYYYY / ..... / YYYYY / ..... / YYYYY). Y=case jaune; .=fond non coloré. Les coordonnées (ligne,colonne) commencent à (1,1) en haut à gauche.",
+      "reponse_attendue": "Y remplit les cinq colonnes des lignes 1, 3 et 5; les lignes 2 et 4 sont vides. Il y a alternance/répétition horizontale; un effet de signal lumineux ou de régularité peut être suggéré sans attribuer un état d’âme au créateur.",
+      "criteres": [
+        "Deux détails effectivement présents dans la grille sont situés précisément (coordonnées ou positions équivalentes).",
+        "La relation de composition est démontrée à l’aide des détails observés.",
+        "La lecture proposée distingue fait observable et hypothèse, sans noter la beauté.",
+        "Le procédé physique n’est pas affirmé sans preuve, et le contexte fictif est reconnu."
+      ],
+      "feedback": "Si l’on n’entend que « jaune », rediriger après l’essai vers la place des lignes puis vers la relation de répétition.",
+      "difficulte": "intermediaire",
+      "representation": "œuvre originale codée sur grille 5×5, légende et coordonnées (visuelle, texte ou tactile); analyse argumentée observable",
+      "variations_permises": "Rendu des symboles en jaune ou lettres Y en relief; pas de bruit ou luminosité imposés.",
+      "limites_variation": "Interdit de modifier lignes, colonnes, légendes, cases, contexte de l’œuvre, faits vérifiables ou rubriques; pas de génération libre par IA ni de correction fondée sur un goût.",
+      "conditions_passation": "Support visuel/texte/tactile complet et réponse orale/écrite/assistée; adulte transmet la consigne et garantit l’accès, sans choisir les indices ni l’hypothèse.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ap-007-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Trouve une diagonale de cases pourpres, puis vérifie par une case miroir si la composition est entièrement symétrique gauche/droite.",
+      "stimulus": "Œuvre M5 — Les deux directions : Motif abstrait fictif pour la page de garde d’un cahier. Grille 5×5 (lignes de haut en bas : P...P / .P.P. / ..P.. / ...P. / ....P). P=case pourpre; .=fond non coloré. Les coordonnées (ligne,colonne) commencent à (1,1) en haut à gauche.",
+      "reponse_attendue": "P en (1,1), (2,2), (3,3), (4,4), (5,5) forme une diagonale. Pour tester la symétrie gauche/droite, (4,4) contient P, mais sa case miroir (4,2) est vide. L’ensemble n’a donc pas de symétrie verticale.",
+      "criteres": [
+        "Deux détails effectivement présents dans la grille sont situés précisément (coordonnées ou positions équivalentes).",
+        "La relation de composition est démontrée à l’aide des détails observés.",
+        "La lecture proposée distingue fait observable et hypothèse, sans noter la beauté.",
+        "Le procédé physique n’est pas affirmé sans preuve, et le contexte fictif est reconnu."
+      ],
+      "feedback": "Si l’élève confond axes, confronter (4,4) et (4,2), puis contrôler une autre paire en miroir.",
+      "difficulte": "intermediaire",
+      "representation": "œuvre originale codée sur grille 5×5, légende et coordonnées (visuelle, texte ou tactile); analyse argumentée observable",
+      "variations_permises": "Tableau de coordonnées et surlignage d’accès non orientant; pas de réponse suggérée.",
+      "limites_variation": "Interdit de modifier lignes, colonnes, légendes, cases, contexte de l’œuvre, faits vérifiables ou rubriques; pas de génération libre par IA ni de correction fondée sur un goût.",
+      "conditions_passation": "Support visuel/texte/tactile complet et réponse orale/écrite/assistée; adulte transmet la consigne et garantit l’accès, sans choisir les indices ni l’hypothèse.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ap-007-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Une personne dit « c’est de la peinture au pinceau, et l’artiste voulait représenter une étoile ». Distingue ce qui peut être vérifié, ce qui est une hypothèse et ce qui est impossible à prouver.",
+      "stimulus": "Œuvre M0 — Le point phare : Étude abstraite de repère, maquette numérique fictive réalisée pour ce module. Grille 5×5 (lignes de haut en bas : ..C.. / ..C.. / CCOCC / ..C.. / ..C..). C=case cyan; O=case orange; .=fond non coloré. Les coordonnées (ligne,colonne) commencent à (1,1) en haut à gauche.",
+      "reponse_attendue": "On peut vérifier O orange en (3,3) et C cyan sur l’axe (1,3)–(5,3) hors centre. « Cela peut évoquer une étoile/signal » reste hypothétique. Le pinceau et la volonté précise ne sont pas attestés; le contexte connu est celui d’une maquette numérique fictive.",
+      "criteres": [
+        "Deux détails effectivement présents dans la grille sont situés précisément (coordonnées ou positions équivalentes).",
+        "La relation de composition est démontrée à l’aide des détails observés.",
+        "La lecture proposée distingue fait observable et hypothèse, sans noter la beauté.",
+        "Le procédé physique n’est pas affirmé sans preuve, et le contexte fictif est reconnu."
+      ],
+      "feedback": "Si le procédé est proclamé, demander quelle source indépendante le démontrerait; si seule une opinion est donnée, exiger deux positions.",
+      "difficulte": "intermediaire",
+      "representation": "œuvre originale codée sur grille 5×5, légende et coordonnées (visuelle, texte ou tactile); analyse argumentée observable",
+      "variations_permises": "Explication écrite/orale/assistée; pas de copie de l’exemple modelé pendant la prestation.",
+      "limites_variation": "Interdit de modifier lignes, colonnes, légendes, cases, contexte de l’œuvre, faits vérifiables ou rubriques; pas de génération libre par IA ni de correction fondée sur un goût.",
+      "conditions_passation": "Support visuel/texte/tactile complet et réponse orale/écrite/assistée; adulte transmet la consigne et garantit l’accès, sans choisir les indices ni l’hypothèse.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ap-007-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Tu rédiges la notice d’une galerie imaginaire sur Les gouttes de pluie : indique composition, preuve, effet possible, contexte et une inconnue.",
+      "stimulus": "Œuvre M3 — Les gouttes de pluie : Motif abstrait fictif conçu pour une carte de souhaits. Grille 5×5 (lignes de haut en bas : ..B.. / .B.B. / B...B / .B.B. / ..B..). B=case bleue; .=fond non coloré. Les coordonnées (ligne,colonne) commencent à (1,1) en haut à gauche.",
+      "reponse_attendue": "Notice possible : cases B aux quatre sommets (1,3), (3,1), (3,5), (5,3), disposées autour d’un centre vide (3,3); l’ensemble peut évoquer un contour protecteur. Le contexte est une carte de souhaits fictive; l’outil matériel éventuel est inconnu.",
+      "criteres": [
+        "Deux détails effectivement présents dans la grille sont situés précisément (coordonnées ou positions équivalentes).",
+        "La relation de composition est démontrée à l’aide des détails observés.",
+        "La lecture proposée distingue fait observable et hypothèse, sans noter la beauté.",
+        "Le procédé physique n’est pas affirmé sans preuve, et le contexte fictif est reconnu."
+      ],
+      "feedback": "Si l’intention est donnée comme certaine, reformuler en hypothèse; si le contexte est inventé comme événement historique, rappeler sa fiction.",
+      "difficulte": "transfert",
+      "representation": "œuvre originale codée sur grille 5×5, légende et coordonnées (visuelle, texte ou tactile); analyse argumentée observable",
+      "variations_permises": "Notice dictée à un scribe non directif, symbole tactile ou texte agrandi; même grille fixe.",
+      "limites_variation": "Interdit de modifier lignes, colonnes, légendes, cases, contexte de l’œuvre, faits vérifiables ou rubriques; pas de génération libre par IA ni de correction fondée sur un goût.",
+      "conditions_passation": "Support visuel/texte/tactile complet et réponse orale/écrite/assistée; adulte transmet la consigne et garantit l’accès, sans choisir les indices ni l’hypothèse.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ap-007-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-007-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A — Affiche pour une place publique imaginaire. Analyse la composition de « Signal sur la place » : cite au moins deux indices localisés, montre leur relation, propose un effet visuel plausible étayé, indique le contexte connu et une information sur le procédé ou l’intention qui demeure inconnue. Aucune démonstration du correcteur pendant ta réponse.",
+      "stimulus": "Œuvre A — Signal sur la place : Maquette d’affiche pour une place publique imaginaire. Le cartel fictif dit seulement « composition numérique sur une grille de 5 × 5 », sans déclarer l’intention de l’auteur. Grille 5×5 (lignes de haut en bas : ..B.. / .BBB. / OOBOO / .BBB. / ..B..). B=case bleue; O=case orange; .=fond non coloré. Les coordonnées (ligne,colonne) commencent à (1,1) en haut à gauche.",
+      "reponse_attendue": "Corrigé critérié ouvert : B en (1,3), (2,2), (2,3), (2,4), (3,3), (4,2), (4,3), (4,4), (5,3); O en (3,1), (3,2), (3,4), (3,5). Axes et bleu central flanqué d’orange sur la rangée médiane, symétrie gauche/droite. Une lecture possible : le motif attire vers le centre en raison des contrastes et de l’axe. Contexte documenté : affiche fictive et maquette numérique; intention réelle et fabrication physique sont inconnues. Toute hypothèse cohérente fondée sur des indices exacts est recevable.",
+      "criteres": [
+        "V1 Au moins deux éléments visuels corrects, distincts et localisés dans A.",
+        "V2 Une relation de composition vérifiable (axe, symétrie, contraste organisé) est reliée à ces positions.",
+        "V3 Un effet ou une intention plausible est proposé au conditionnel et étayé par une preuve observable.",
+        "V4 La fiction du cartel, les données de procédé numérique et les inconnues sur auteur/intention ou matériaux physiques sont distinguées.",
+        "V5 Analyse produite sans exemple, réponse ni repère directif de l’adulte pendant la prestation; outil d’accès non directif autorisé."
+      ],
+      "feedback": "Si les deux indices manquent, reprendre le repérage; si la relation manque, comparer axes ou disposition des couleurs; si une intention est inventée, pratiquer la formulation conditionnelle. Un nouvel essai doit utiliser un scénario équivalent validé, pas une correction pendant l’épreuve.",
+      "difficulte": "transfert",
+      "representation": "œuvre originale codée sur grille 5×5, légende et coordonnées (visuelle, texte ou tactile); analyse argumentée observable",
+      "variations_permises": "Variations exclusivement d’accès (grille agrandie, relief, lecteur, communication assistée, temps). Le cartel et la grille A demeurent identiques.",
+      "limites_variation": "Interdit de modifier lignes, colonnes, légendes, cases, contexte de l’œuvre, faits vérifiables ou rubriques; pas de génération libre par IA ni de correction fondée sur un goût.",
+      "conditions_passation": "Support visuel/texte/tactile complet et réponse orale/écrite/assistée; adulte transmet la consigne et garantit l’accès, sans choisir les indices ni l’hypothèse.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "Manifestation A : affiche/communication publique fictive; grille bleue et orange, distincte de B."
+    },
+    {
+      "item_id": "qc-pri-ap-007-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-007-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B — Marque-page pour un jardin imaginaire. Sans reprendre les indices de l’affiche A, analyse la composition de « Passage du jardin » : cite au moins deux indices localisés, explique la relation de composition, propose un effet possible fondé sur une preuve, indique le contexte connu et une information inconnue du procédé ou de l’intention.",
+      "stimulus": "Œuvre B — Passage du jardin : Maquette d’un marque-page pour un jardin imaginaire. Le cartel fictif dit « composition numérique sur une grille de 5 × 5 », sans déclarer l’intention de l’auteur. Grille 5×5 (lignes de haut en bas : V...V / .V.V. / ..J.. / .VJV. / V.J.V). V=case verte; J=case jaune; .=fond non coloré. Les coordonnées (ligne,colonne) commencent à (1,1) en haut à gauche.",
+      "reponse_attendue": "Corrigé critérié ouvert : V verts en (1,1), (1,5), (2,2), (2,4), (4,2), (4,4), (5,1), (5,5), formant deux flancs symétriques; J jaunes en (3,3), (4,3), (5,3), formant une suite centrale vers le bas. Une interprétation possible : les V encadrent un passage symbolisé par les J. Contexte attesté uniquement dans la fiction : maquette numérique de marque-page de jardin; aucune intention personnelle documentée ni technique physique démontrée. D’autres effets argumentés par ces cases sont recevables.",
+      "criteres": [
+        "V1 Au moins deux éléments visuels corrects, distincts et localisés dans B.",
+        "V2 Une relation justifiée entre flancs verts, symétrie, trajet jaune ou autre organisation exactement visible est exprimée.",
+        "V3 Une interprétation plausible est explicitement hypothétique et appuyée sur une propriété observée.",
+        "V4 Le contexte fictif du marque-page, le médium numérique du support et l’incertitude sur intention ou matériaux sont correctement distingués.",
+        "V5 Analyse autonome sans indice de contenu pendant l’épreuve; aides d’accès préautorisées possibles."
+      ],
+      "feedback": "Si la réponse transfère les cases bleues d’A, revenir après épreuve aux preuves propres à B; si les V sont décrits comme matière végétale réelle, distinguer symbole coloré et matériau. Remédier puis solliciter une troisième œuvre après validation.",
+      "difficulte": "transfert",
+      "representation": "œuvre originale codée sur grille 5×5, légende et coordonnées (visuelle, texte ou tactile); analyse argumentée observable",
+      "variations_permises": "Seuls modes d’accès et de communication modifiables; conserver exactement les 25 cases et le contexte marque-page.",
+      "limites_variation": "Interdit de modifier lignes, colonnes, légendes, cases, contexte de l’œuvre, faits vérifiables ou rubriques; pas de génération libre par IA ni de correction fondée sur un goût.",
+      "conditions_passation": "Support visuel/texte/tactile complet et réponse orale/écrite/assistée; adulte transmet la consigne et garantit l’accès, sans choisir les indices ni l’hypothèse.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "Manifestation B : livre/jardin imaginaire; nouvelle œuvre verte/jaune distincte de l’affiche A."
+    }
+  ]
+}

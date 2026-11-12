@@ -1,0 +1,108 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-011",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier la fonction d’éléments d’un objet technique usuel.",
+  "concepts": [
+    "besoin",
+    "fonction",
+    "mécanisme",
+    "contrainte"
+  ],
+  "preuve_attendue": "Annoter un objet démontable ou documenté et expliquer ses fonctions.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-st-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-011-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Annoter un objet démontable ou documenté et expliquer ses fonctions.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "corpus_ferme": [
+          "boite_articulee_A",
+          "chariot_manuel_B"
+        ],
+        "regle_de_selection": "pas_de_tirage_automatique; scenario fixe par item_id q-007 ou q-008; seed de traçabilité seulement",
+        "solution": "rubrique avec faits ancrés dans les documents; aucun calcul paramétrique",
+        "controle_requis": "revue_humaine_des_faits_de_la_fiche_et_de_la_grille_avant_usage"
+      },
+      "review_status": "items_rediges_a_reviser",
+      "kristal_id": "qc-pri-st-011",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiche_texte_annotee",
+        "tableau_partie_fonction",
+        "explication_orale_ou_ecrite"
+      ],
+      "variables": {
+        "mode": "corpus_ferme_scenarios_controles",
+        "catalogue": {
+          "boite_articulee_A": "contenu/05_PRATIQUE_AUTONOME.md",
+          "chariot_manuel_B": "contenu/05_PRATIQUE_AUTONOME.md"
+        },
+        "choix_dynamique": false,
+        "modulations_permises": [
+          "mise_en_page",
+          "modalite_reponse_orale_ecrite_dictee",
+          "ordre_des_questions_sans_changer_le_document"
+        ],
+        "modulations_interdites": [
+          "nouvelle_fiche_generee_par_IA",
+          "changement_d_objet_pour_preuves_A_B",
+          "nouvelle_presentation_masquant_une_information",
+          "alteration_du_corrige_sans_revision"
+        ]
+      },
+      "contraintes": {
+        "reponses_soutenues_par_fiche": true,
+        "aucun_demontage": true,
+        "aucun_danger": true,
+        "trois_fonctions_par_preuve": true,
+        "deux_contextes_distincts": [
+          "boite_articulee_A",
+          "chariot_manuel_B"
+        ],
+        "pas_de_moteur_deduit_d_une_roue": true,
+        "pas_d_etancheite_sans_preuve": true,
+        "autonomie_cognitive_requise": true
+      },
+      "barreme_ou_rubrique": {
+        "source": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "attribution_de_fonctions",
+          "relation_mecanique",
+          "justification_par_trace",
+          "contrainte_et_limites"
+        ],
+        "seuil": "deux_preuves_autonomes_distinctes_satisfaisantes_pas_une_note_unique"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "contenu/05_PRATIQUE_AUTONOME.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": 11011,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "items_rediges_validation_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

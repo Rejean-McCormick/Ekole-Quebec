@@ -1,0 +1,563 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-mu-003",
+  "family_id": "qc-pri-mu-003-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-mu-003-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Entends do4 puis mi4. Indique si le second son est plus aigu, plus grave ou identique, en montrant un signe ou en parlant.",
+      "stimulus": "Deux notes originales au même volume. Motif A=do4–mi4. Les notes sont successives, à une pulsation chacune, au volume modéré. Jouer les motifs une fois, refaire si nécessaire pour l’accès, sans donner les flèches.",
+      "reponse_attendue": "Motif A : do4–mi4; mouvements ↑ ; écarts chromatiques successifs [4] demi-tons. Réponse minimale : plus aigu / ↑.",
+      "criteres": [
+        "La relation mi4 plus aigu que do4 est identifiée (↑).",
+        "La justification se réfère à la hauteur et non au volume.",
+        "La communication est accessible, orale, visuelle ou gestuelle."
+      ],
+      "feedback": "Si « plus fort » est répondu, faire distinguer la hauteur des changements de volume; le stimulus ne demande pas de classer les intensités.",
+      "difficulte": "initial",
+      "representation": "écoute comparée + notes do4–sol4 + performance vocale ou instrumentale + description accessible",
+      "variations_permises": "Transposition intégrale de toutes les notes avec conservation exacte des écarts et du contour, tessiture confortable, instrument ou voix, tempo lent, interface accessible, consignes agrandies; les tâches et comparaisons restent fixes.",
+      "limites_variation": "Ne pas remplacer les notes isolément, inventer un enregistrement, modifier les contours, demander la voix obligatoire ou interpréter la prestation selon le goût. Aucune génération IA libre ni correction automatique d’une performance non observée.",
+      "conditions_evaluation": "Même timbre et intensité confortable pour les deux motifs de chaque comparaison. Un adulte vérifie la disponibilité de quatre événements de hauteur; l’élève choisit la modalité de production. Support d’accès décidé en amont, non directif. Aucune captation vocale requise.",
+      "motif_a": {
+        "notes": [
+          "do4",
+          "mi4"
+        ],
+        "midi": [
+          60,
+          64
+        ],
+        "contour": "↑",
+        "intervalles_demi_tons": [
+          4
+        ]
+      },
+      "motif_b": null,
+      "validation_status": "a_revoir",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-mu-003-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Écoute deux sons de la même hauteur (ré4 puis ré4) à intensité confortable. Quelle flèche correspond à leur rapport de hauteur et pourquoi ?",
+      "stimulus": "La seconde note peut durer plus longtemps mais sa hauteur écrite ne change pas. Motif A=ré4–ré4. Les notes sont successives, à une pulsation chacune, au volume modéré. Jouer les motifs une fois, refaire si nécessaire pour l’accès, sans donner les flèches.",
+      "reponse_attendue": "Motif A : ré4–ré4; mouvements → ; écarts chromatiques successifs [0] demi-tons. ",
+      "criteres": [
+        "Réponse → : même hauteur.",
+        "Ne confond pas une différence de durée ou d’intensité avec une variation de hauteur.",
+        "Fournit une justification montrable : même touche ou deux cases à même niveau."
+      ],
+      "feedback": "Si une montée est indiquée, comparer la touche ré4 à elle-même; laisser l’intensité et la durée hors du jugement sur la hauteur.",
+      "difficulte": "initial",
+      "representation": "écoute comparée + notes do4–sol4 + performance vocale ou instrumentale + description accessible",
+      "variations_permises": "Transposition intégrale de toutes les notes avec conservation exacte des écarts et du contour, tessiture confortable, instrument ou voix, tempo lent, interface accessible, consignes agrandies; les tâches et comparaisons restent fixes.",
+      "limites_variation": "Ne pas remplacer les notes isolément, inventer un enregistrement, modifier les contours, demander la voix obligatoire ou interpréter la prestation selon le goût. Aucune génération IA libre ni correction automatique d’une performance non observée.",
+      "conditions_evaluation": "Même timbre et intensité confortable pour les deux motifs de chaque comparaison. Un adulte vérifie la disponibilité de quatre événements de hauteur; l’élève choisit la modalité de production. Support d’accès décidé en amont, non directif. Aucune captation vocale requise.",
+      "motif_a": {
+        "notes": [
+          "ré4",
+          "ré4"
+        ],
+        "midi": [
+          62,
+          62
+        ],
+        "contour": "→",
+        "intervalles_demi_tons": [
+          0
+        ]
+      },
+      "motif_b": null,
+      "validation_status": "a_revoir",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-mu-003-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Joue ou chante une phrase de quatre notes, puis décris les trois changements de hauteur un à un.",
+      "stimulus": "Phrase de quatre notes à interpréter, sans accord. Motif A=mi4–ré4–ré4–do4. Les notes sont successives, à une pulsation chacune, au volume modéré. Jouer les motifs une fois, refaire si nécessaire pour l’accès, sans donner les flèches.",
+      "reponse_attendue": "Motif A : mi4–ré4–ré4–do4; mouvements ↓→↓ ; écarts chromatiques successifs [-2, 0, -2] demi-tons. ",
+      "criteres": [
+        "Quatre événements mélodiques successifs observables.",
+        "Les trois flèches ↓ → ↓ sont exactes.",
+        "L’élève explique le palier entre les deux ré4."
+      ],
+      "feedback": "Si deux notes ré4 répétées donnent une descente, rappeler « même touche = → » sur une autre paire en remédiation.",
+      "difficulte": "initial",
+      "representation": "écoute comparée + notes do4–sol4 + performance vocale ou instrumentale + description accessible",
+      "variations_permises": "Transposition intégrale de toutes les notes avec conservation exacte des écarts et du contour, tessiture confortable, instrument ou voix, tempo lent, interface accessible, consignes agrandies; les tâches et comparaisons restent fixes.",
+      "limites_variation": "Ne pas remplacer les notes isolément, inventer un enregistrement, modifier les contours, demander la voix obligatoire ou interpréter la prestation selon le goût. Aucune génération IA libre ni correction automatique d’une performance non observée.",
+      "conditions_evaluation": "Même timbre et intensité confortable pour les deux motifs de chaque comparaison. Un adulte vérifie la disponibilité de quatre événements de hauteur; l’élève choisit la modalité de production. Support d’accès décidé en amont, non directif. Aucune captation vocale requise.",
+      "motif_a": {
+        "notes": [
+          "mi4",
+          "ré4",
+          "ré4",
+          "do4"
+        ],
+        "midi": [
+          64,
+          62,
+          62,
+          60
+        ],
+        "contour": "↓→↓",
+        "intervalles_demi_tons": [
+          -2,
+          0,
+          -2
+        ]
+      },
+      "motif_b": null,
+      "validation_status": "a_revoir",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-mu-003-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Compare deux phrases : fais-les entendre ou lis le repère puis interprète un motif. Indique une différence exacte de direction entre les deux.",
+      "stimulus": "Deux phrases de quatre événements, destinées à une comparaison contrôlée. Motif A=do4–ré4–mi4–ré4; motif B=do4–mi4–ré4–do4. Les notes sont successives, à une pulsation chacune, au volume modéré. Jouer les motifs une fois, refaire si nécessaire pour l’accès, sans donner les flèches.",
+      "reponse_attendue": "Motif A : do4–ré4–mi4–ré4; mouvements ↑↑↓ ; écarts chromatiques successifs [2, 2, -2] demi-tons. Motif B : do4–mi4–ré4–do4; mouvements ↑↓↓; écarts [4, -2, -2] demi-tons. Les contours sont différents; citer au moins une transition précise. ",
+      "criteres": [
+        "Le premier motif est ↑ ↑ ↓ et le second ↑ ↓ ↓.",
+        "Une transition divergente précise est citée, comme la deuxième.",
+        "Le motif choisi est interprété dans le bon ordre."
+      ],
+      "feedback": "Si les deux contours sont dits identiques, faire relire la deuxième transition ré4→mi4 et mi4→ré4.",
+      "difficulte": "intermediaire",
+      "representation": "écoute comparée + notes do4–sol4 + performance vocale ou instrumentale + description accessible",
+      "variations_permises": "Transposition intégrale de toutes les notes avec conservation exacte des écarts et du contour, tessiture confortable, instrument ou voix, tempo lent, interface accessible, consignes agrandies; les tâches et comparaisons restent fixes.",
+      "limites_variation": "Ne pas remplacer les notes isolément, inventer un enregistrement, modifier les contours, demander la voix obligatoire ou interpréter la prestation selon le goût. Aucune génération IA libre ni correction automatique d’une performance non observée.",
+      "conditions_evaluation": "Même timbre et intensité confortable pour les deux motifs de chaque comparaison. Un adulte vérifie la disponibilité de quatre événements de hauteur; l’élève choisit la modalité de production. Support d’accès décidé en amont, non directif. Aucune captation vocale requise.",
+      "motif_a": {
+        "notes": [
+          "do4",
+          "ré4",
+          "mi4",
+          "ré4"
+        ],
+        "midi": [
+          60,
+          62,
+          64,
+          62
+        ],
+        "contour": "↑↑↓",
+        "intervalles_demi_tons": [
+          2,
+          2,
+          -2
+        ]
+      },
+      "motif_b": {
+        "notes": [
+          "do4",
+          "mi4",
+          "ré4",
+          "do4"
+        ],
+        "midi": [
+          60,
+          64,
+          62,
+          60
+        ],
+        "contour": "↑↓↓",
+        "intervalles_demi_tons": [
+          4,
+          -2,
+          -2
+        ]
+      },
+      "validation_status": "a_revoir",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-mu-003-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Les deux premières notes de chaque paire montent-elles de la même quantité ? Compare do4→ré4 et do4→mi4 à l’aide d’un instrument tempéré.",
+      "stimulus": "Les deux paires partagent do4, ne forment pas un accord. Motif A=do4–ré4; motif B=do4–mi4. Les notes sont successives, à une pulsation chacune, au volume modéré. Jouer les motifs une fois, refaire si nécessaire pour l’accès, sans donner les flèches.",
+      "reponse_attendue": "Motif A : do4–ré4; mouvements ↑ ; écarts chromatiques successifs [2] demi-tons. Motif B : do4–mi4; mouvements ↑; écarts [4] demi-tons. Les contours sont identiques, même si certains intervalles ou notes diffèrent. ",
+      "criteres": [
+        "Reconnaît deux montées.",
+        "Différencie l’écart de 2 demi-tons de l’écart de 4 demi-tons.",
+        "Explique que même direction n’implique pas même intervalle."
+      ],
+      "feedback": "Si les deux écarts sont considérés identiques parce que tous montent, compter les pas chromatiques sur le clavier ou les notes MIDI.",
+      "difficulte": "intermediaire",
+      "representation": "écoute comparée + notes do4–sol4 + performance vocale ou instrumentale + description accessible",
+      "variations_permises": "Transposition intégrale de toutes les notes avec conservation exacte des écarts et du contour, tessiture confortable, instrument ou voix, tempo lent, interface accessible, consignes agrandies; les tâches et comparaisons restent fixes.",
+      "limites_variation": "Ne pas remplacer les notes isolément, inventer un enregistrement, modifier les contours, demander la voix obligatoire ou interpréter la prestation selon le goût. Aucune génération IA libre ni correction automatique d’une performance non observée.",
+      "conditions_evaluation": "Même timbre et intensité confortable pour les deux motifs de chaque comparaison. Un adulte vérifie la disponibilité de quatre événements de hauteur; l’élève choisit la modalité de production. Support d’accès décidé en amont, non directif. Aucune captation vocale requise.",
+      "motif_a": {
+        "notes": [
+          "do4",
+          "ré4"
+        ],
+        "midi": [
+          60,
+          62
+        ],
+        "contour": "↑",
+        "intervalles_demi_tons": [
+          2
+        ]
+      },
+      "motif_b": {
+        "notes": [
+          "do4",
+          "mi4"
+        ],
+        "midi": [
+          60,
+          64
+        ],
+        "contour": "↑",
+        "intervalles_demi_tons": [
+          4
+        ]
+      },
+      "validation_status": "a_revoir",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-mu-003-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Interprète la phrase puis place trois flèches, sans aide sur les touches à jouer.",
+      "stimulus": "Instrument jouable, quatre événements. Motif A=fa4–sol4–mi4–mi4. Les notes sont successives, à une pulsation chacune, au volume modéré. Jouer les motifs une fois, refaire si nécessaire pour l’accès, sans donner les flèches.",
+      "reponse_attendue": "Motif A : fa4–sol4–mi4–mi4; mouvements ↑↓→ ; écarts chromatiques successifs [2, -3, 0] demi-tons. ",
+      "criteres": [
+        "La phrase est exécutée fa4, sol4, mi4, mi4 dans l’ordre.",
+        "Les transitions exactes sont ↑ ↓ →.",
+        "L’élève repère la répétition finale sans juger l’esthétique."
+      ],
+      "feedback": "Si la dernière note est décrite comme une nouvelle descente, rejouer mi4 deux fois en entraînement et contrôler la touche identique.",
+      "difficulte": "intermediaire",
+      "representation": "écoute comparée + notes do4–sol4 + performance vocale ou instrumentale + description accessible",
+      "variations_permises": "Transposition intégrale de toutes les notes avec conservation exacte des écarts et du contour, tessiture confortable, instrument ou voix, tempo lent, interface accessible, consignes agrandies; les tâches et comparaisons restent fixes.",
+      "limites_variation": "Ne pas remplacer les notes isolément, inventer un enregistrement, modifier les contours, demander la voix obligatoire ou interpréter la prestation selon le goût. Aucune génération IA libre ni correction automatique d’une performance non observée.",
+      "conditions_evaluation": "Même timbre et intensité confortable pour les deux motifs de chaque comparaison. Un adulte vérifie la disponibilité de quatre événements de hauteur; l’élève choisit la modalité de production. Support d’accès décidé en amont, non directif. Aucune captation vocale requise.",
+      "motif_a": {
+        "notes": [
+          "fa4",
+          "sol4",
+          "mi4",
+          "mi4"
+        ],
+        "midi": [
+          65,
+          67,
+          64,
+          64
+        ],
+        "contour": "↑↓→",
+        "intervalles_demi_tons": [
+          2,
+          -3,
+          0
+        ]
+      },
+      "motif_b": null,
+      "validation_status": "a_revoir",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-mu-003-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Les deux motifs ont-ils la même suite de flèches ? Joue-en un, puis justifie si les intervalles sont identiques ou non.",
+      "stimulus": "Paires de quatre événements à comparer, aucune bande sonore existante utilisée. Motif A=do4–ré4–do4–ré4; motif B=ré4–mi4–ré4–mi4. Les notes sont successives, à une pulsation chacune, au volume modéré. Jouer les motifs une fois, refaire si nécessaire pour l’accès, sans donner les flèches.",
+      "reponse_attendue": "Motif A : do4–ré4–do4–ré4; mouvements ↑↓↑ ; écarts chromatiques successifs [2, -2, 2] demi-tons. Motif B : ré4–mi4–ré4–mi4; mouvements ↑↓↑; écarts [2, -2, 2] demi-tons. Les contours sont identiques, même si certains intervalles ou notes diffèrent. ",
+      "criteres": [
+        "Les deux contours ↑ ↓ ↑ sont reconnus.",
+        "Les intervalles +2, −2, +2 sont égaux.",
+        "La seconde suite est reconnue comme transposition intégrale de la première de +2 demi-tons.",
+        "Production d’au moins un motif observable."
+      ],
+      "feedback": "Si le deuxième motif est dit différent seulement parce qu’il démarre plus haut, distinguer hauteur absolue et rapports conservés.",
+      "difficulte": "intermediaire",
+      "representation": "écoute comparée + notes do4–sol4 + performance vocale ou instrumentale + description accessible",
+      "variations_permises": "Transposition intégrale de toutes les notes avec conservation exacte des écarts et du contour, tessiture confortable, instrument ou voix, tempo lent, interface accessible, consignes agrandies; les tâches et comparaisons restent fixes.",
+      "limites_variation": "Ne pas remplacer les notes isolément, inventer un enregistrement, modifier les contours, demander la voix obligatoire ou interpréter la prestation selon le goût. Aucune génération IA libre ni correction automatique d’une performance non observée.",
+      "conditions_evaluation": "Même timbre et intensité confortable pour les deux motifs de chaque comparaison. Un adulte vérifie la disponibilité de quatre événements de hauteur; l’élève choisit la modalité de production. Support d’accès décidé en amont, non directif. Aucune captation vocale requise.",
+      "motif_a": {
+        "notes": [
+          "do4",
+          "ré4",
+          "do4",
+          "ré4"
+        ],
+        "midi": [
+          60,
+          62,
+          60,
+          62
+        ],
+        "contour": "↑↓↑",
+        "intervalles_demi_tons": [
+          2,
+          -2,
+          2
+        ]
+      },
+      "motif_b": {
+        "notes": [
+          "ré4",
+          "mi4",
+          "ré4",
+          "mi4"
+        ],
+        "midi": [
+          62,
+          64,
+          62,
+          64
+        ],
+        "contour": "↑↓↑",
+        "intervalles_demi_tons": [
+          2,
+          -2,
+          2
+        ]
+      },
+      "validation_status": "a_revoir",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-mu-003-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-003-ev-01",
+      "mode": "fixe",
+      "consigne": "Joue un motif de quatre événements, puis décris-le et explique en quoi sa deuxième transition se distingue de celle du motif B.",
+      "stimulus": "Étape de transfert avant les preuves finales. Motif A=mi4–fa4–ré4–mi4; motif B=mi4–ré4–ré4–sol4. Les notes sont successives, à une pulsation chacune, au volume modéré. Jouer les motifs une fois, refaire si nécessaire pour l’accès, sans donner les flèches.",
+      "reponse_attendue": "Motif A : mi4–fa4–ré4–mi4; mouvements ↑↓↑ ; écarts chromatiques successifs [1, -3, 2] demi-tons. Motif B : mi4–ré4–ré4–sol4; mouvements ↓→↑; écarts [-2, 0, 5] demi-tons. Les contours sont différents; citer au moins une transition précise. ",
+      "criteres": [
+        "Motif A exécuté et décrit par ↑ ↓ ↑.",
+        "Motif B identifié comme ↓ → ↑.",
+        "La comparaison précise que transition 2 descend dans A, reste au même niveau dans B.",
+        "Une explication non esthétique est formulée."
+      ],
+      "feedback": "Si le retour de A vers ré4 est qualifié de « palier », vérifier que fa4 et ré4 ne sont pas la même hauteur.",
+      "difficulte": "transfert",
+      "representation": "écoute comparée + notes do4–sol4 + performance vocale ou instrumentale + description accessible",
+      "variations_permises": "Transposition intégrale de toutes les notes avec conservation exacte des écarts et du contour, tessiture confortable, instrument ou voix, tempo lent, interface accessible, consignes agrandies; les tâches et comparaisons restent fixes.",
+      "limites_variation": "Ne pas remplacer les notes isolément, inventer un enregistrement, modifier les contours, demander la voix obligatoire ou interpréter la prestation selon le goût. Aucune génération IA libre ni correction automatique d’une performance non observée.",
+      "conditions_evaluation": "Même timbre et intensité confortable pour les deux motifs de chaque comparaison. Un adulte vérifie la disponibilité de quatre événements de hauteur; l’élève choisit la modalité de production. Support d’accès décidé en amont, non directif. Aucune captation vocale requise.",
+      "motif_a": {
+        "notes": [
+          "mi4",
+          "fa4",
+          "ré4",
+          "mi4"
+        ],
+        "midi": [
+          64,
+          65,
+          62,
+          64
+        ],
+        "contour": "↑↓↑",
+        "intervalles_demi_tons": [
+          1,
+          -3,
+          2
+        ]
+      },
+      "motif_b": {
+        "notes": [
+          "mi4",
+          "ré4",
+          "ré4",
+          "sol4"
+        ],
+        "midi": [
+          64,
+          62,
+          62,
+          67
+        ],
+        "contour": "↓→↑",
+        "intervalles_demi_tons": [
+          -2,
+          0,
+          5
+        ]
+      },
+      "validation_status": "a_revoir",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-mu-003-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-003-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME A — Balise du sentier fictif. Écoute ou consulte les deux séquences originales du signal. Chante OU joue les quatre notes du motif A sans imitation simultanée; donne ses trois flèches. Compare-le à B en citant au moins une différence exacte d’intervalle malgré leur contour global commun.",
+      "stimulus": "Contexte indépendant 1 : balise pour des marcheurs fictifs; signal joué à volume modéré ou représenté sur instrument accessible; 4 sons successifs et aucun extrait protégé. Motif A=do4–mi4–fa4–ré4; motif B=do4–ré4–fa4–mi4. Les notes sont successives, à une pulsation chacune, au volume modéré. Jouer les motifs une fois, refaire si nécessaire pour l’accès, sans donner les flèches.",
+      "reponse_attendue": "Motif A : do4–mi4–fa4–ré4; mouvements ↑↑↓ ; écarts chromatiques successifs [4, 1, -3] demi-tons. Motif B : do4–ré4–fa4–mi4; mouvements ↑↑↓; écarts [2, 3, -1] demi-tons. Les contours sont identiques, même si certains intervalles ou notes diffèrent. Justification type : A monte plus fort en hauteur (au sens de plus grand écart, non plus grand volume) sur le premier intervalle que B; les deux motifs montent, montent, descendent.",
+      "criteres": [
+        "P1 : comparaison exacte : les deux contours sont ↑ ↑ ↓, mais le premier saut vaut +4 pour A contre +2 demi-tons pour B.",
+        "P2 : motif A produit dans l’ordre avec hauteurs relatives et intervalles conservés, avec transposition intégrale accessible permise.",
+        "P3 : les trois variations du motif A sont décrites sans inversion : ↑ ↑ ↓.",
+        "P4 : interprétation et justification autonomes, volume confortable, aucun indice directif pendant la prestation."
+      ],
+      "feedback": "Après l’épreuve, si la différence d’écart manque, entraîner « même contour, saut différent » sur de nouvelles paires; ne pas dévoiler le corrigé au cours de la preuve.",
+      "difficulte": "transfert",
+      "representation": "écoute comparée + notes do4–sol4 + performance vocale ou instrumentale + description accessible",
+      "variations_permises": "Transposition intégrale de toutes les notes avec conservation exacte des écarts et du contour, tessiture confortable, instrument ou voix, tempo lent, interface accessible, consignes agrandies; les tâches et comparaisons restent fixes.",
+      "limites_variation": "Ne pas remplacer les notes isolément, inventer un enregistrement, modifier les contours, demander la voix obligatoire ou interpréter la prestation selon le goût. Aucune génération IA libre ni correction automatique d’une performance non observée.",
+      "conditions_evaluation": "Même timbre et intensité confortable pour les deux motifs de chaque comparaison. Un adulte vérifie la disponibilité de quatre événements de hauteur; l’élève choisit la modalité de production. Support d’accès décidé en amont, non directif. Aucune captation vocale requise.",
+      "motif_a": {
+        "notes": [
+          "do4",
+          "mi4",
+          "fa4",
+          "ré4"
+        ],
+        "midi": [
+          60,
+          64,
+          65,
+          62
+        ],
+        "contour": "↑↑↓",
+        "intervalles_demi_tons": [
+          4,
+          1,
+          -3
+        ]
+      },
+      "motif_b": {
+        "notes": [
+          "do4",
+          "ré4",
+          "fa4",
+          "mi4"
+        ],
+        "midi": [
+          60,
+          62,
+          65,
+          64
+        ],
+        "contour": "↑↑↓",
+        "intervalles_demi_tons": [
+          2,
+          3,
+          -1
+        ]
+      },
+      "validation_status": "a_revoir",
+      "seed": null,
+      "parametres": null,
+      "preuve_maitrise": {
+        "preuve": "A",
+        "contexte": "balise_du_sentier",
+        "independant_de": "q-010",
+        "maitrise_essentielle": true
+      }
+    },
+    {
+      "item_id": "qc-pri-mu-003-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-mu-003-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME B — Signal du jardin imaginaire. Dans ce nouveau contexte, chante OU joue les quatre notes du motif A en respectant l’ordre et les rapports de hauteur; décris ses trois transitions et compare avec B en indiquant une direction qui change. Il faut une nouvelle production, sans reprendre le signal de la balise.",
+      "stimulus": "Contexte indépendant 2 : jardin fictif et messages sonores; ni la même phrase ni le même objectif d’usage que le sentier. Sons joués live ou notes accessibles, sans indices directifs. Motif A=fa4–mi4–ré4–sol4; motif B=fa4–sol4–mi4–ré4. Les notes sont successives, à une pulsation chacune, au volume modéré. Jouer les motifs une fois, refaire si nécessaire pour l’accès, sans donner les flèches.",
+      "reponse_attendue": "Motif A : fa4–mi4–ré4–sol4; mouvements ↓↓↑ ; écarts chromatiques successifs [-1, -2, 5] demi-tons. Motif B : fa4–sol4–mi4–ré4; mouvements ↑↓↓; écarts [2, -3, -2] demi-tons. Les contours sont différents; citer au moins une transition précise. Le premier intervalle descend dans A, monte dans B. Une autre différence exacte peut suffire si elle s’appuie sur les notes contrôlées.",
+      "criteres": [
+        "P1 : différences pertinentes de contour : A = ↓ ↓ ↑ et B = ↑ ↓ ↓, notamment première transition descend dans A et monte dans B.",
+        "P2 : motif A produit en quatre sons successifs, rapports −1, −2, +5 demi-tons reconnaissables, transposition globale permise.",
+        "P3 : les trois mouvements sont décrits ↓ ↓ ↑, en se référant à chaque couple de notes.",
+        "P4 : prestation et commentaire sans modèle simultané ni correction directive, confort acoustique et choix instrument ou voix respectés."
+      ],
+      "feedback": "Après la preuve, en cas d’inversion, reprendre deux notes au clavier puis comparer avec une paire différente; ne pas considérer une préférence ou une tessiture comme une erreur.",
+      "difficulte": "transfert",
+      "representation": "écoute comparée + notes do4–sol4 + performance vocale ou instrumentale + description accessible",
+      "variations_permises": "Transposition intégrale de toutes les notes avec conservation exacte des écarts et du contour, tessiture confortable, instrument ou voix, tempo lent, interface accessible, consignes agrandies; les tâches et comparaisons restent fixes.",
+      "limites_variation": "Ne pas remplacer les notes isolément, inventer un enregistrement, modifier les contours, demander la voix obligatoire ou interpréter la prestation selon le goût. Aucune génération IA libre ni correction automatique d’une performance non observée.",
+      "conditions_evaluation": "Même timbre et intensité confortable pour les deux motifs de chaque comparaison. Un adulte vérifie la disponibilité de quatre événements de hauteur; l’élève choisit la modalité de production. Support d’accès décidé en amont, non directif. Aucune captation vocale requise.",
+      "motif_a": {
+        "notes": [
+          "fa4",
+          "mi4",
+          "ré4",
+          "sol4"
+        ],
+        "midi": [
+          65,
+          64,
+          62,
+          67
+        ],
+        "contour": "↓↓↑",
+        "intervalles_demi_tons": [
+          -1,
+          -2,
+          5
+        ]
+      },
+      "motif_b": {
+        "notes": [
+          "fa4",
+          "sol4",
+          "mi4",
+          "ré4"
+        ],
+        "midi": [
+          65,
+          67,
+          64,
+          62
+        ],
+        "contour": "↑↓↓",
+        "intervalles_demi_tons": [
+          2,
+          -3,
+          -2
+        ]
+      },
+      "validation_status": "a_revoir",
+      "seed": null,
+      "parametres": null,
+      "preuve_maitrise": {
+        "preuve": "B",
+        "contexte": "signal_du_jardin",
+        "independant_de": "q-009",
+        "maitrise_essentielle": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-019",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Utiliser majuscules et signes de ponctuation pour segmenter et clarifier un écrit.",
+  "concepts": [
+    "phrase",
+    "ponctuation forte",
+    "virgule",
+    "dialogue"
+  ],
+  "preuve_attendue": "Ponctuer un passage dépourvu de signes et motiver les choix.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-015"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-019-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Ponctuer un passage dépourvu de signes et motiver les choix.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "items fixes verrouillés; variantes pédagogiques d’entraînement uniquement, après revue de corrigés",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-fr-019",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Ponctuer un passage dépourvu de signes et motiver les choix.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "passage sans ponctuation",
+        "passage repunctué et majusculé",
+        "justifications argumentées de choix précis"
+      ],
+      "variables": {
+        "mode": "items_fixes_uniquement",
+        "banque": "evaluation/BANQUE_ITEMS.json",
+        "variation": "aucune dans les items; variantes didactiques hors évaluation revues humainement"
+      },
+      "contraintes": [
+        "préserver intégralement tous les mots et leur ordre",
+        "ajouter seulement ponctuation, majuscules et marque de réplique sans reformuler",
+        "conserver les sauts de ligne imposés au dialogue",
+        "question directe vs interrogation indirecte distinguées",
+        "liste simple de trois éléments : virgule entre les premiers, et avant le dernier",
+        "aucun item généré librement par IA comme corrigé fiable"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "frontieres_et_majuscules",
+          "ponctuation_forte",
+          "virgule_ou_dialogue",
+          "justification_et_autonomie"
+        ],
+        "echelle": "0=non_demontré;1=partiel;2=solide",
+        "decision": "deux preuves autonomes contextuellement distinctes, avec dimensions essentielles satisfaites séparément; aucune note unique"
+      },
+      "source": [
+        "archive maîtresse v1.2 et métadonnées authoring originales",
+        "sources/REFERENCES_CONTENU.md",
+        "corpus et grilles originaux rédigés pour qc-pri-fr-019"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

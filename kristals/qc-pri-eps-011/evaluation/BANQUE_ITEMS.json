@@ -1,0 +1,370 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-eps-011",
+  "family_id": "qc-pri-eps-011-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-eps-011-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "fixe",
+      "type_tache": "observation_ou_production",
+      "consigne": "Choisis une action et explique le lien entre la scène et l’hygiène.",
+      "stimulus": "Élodie a utilisé des craies, ses mains sont poussiéreuses et elle va prendre une collation. Eau et savon sont disponibles. Choix : A manger immédiatement; B frotter sa manche; C laver les mains à l’eau et au savon puis rincer et sécher.",
+      "reponse_attendue": "C. Lavage adapté avant de manger : contribue à enlever les saletés et réduire la transmission de microorganismes.",
+      "criteres": [
+        "Choix adapté à un indice de la situation fictive",
+        "Justification reliée à une notion plutôt qu’aux habitudes personnelles",
+        "Aucune décision dangereuse ni jugement sur la personne"
+      ],
+      "feedback": "Si A/B : regarde l’indice « mains poussiéreuses » et reviens à la procédure de lavage, puis essaie un autre cas.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "notions_cibles": [
+        "hygiène",
+        "prévention"
+      ],
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "fixe",
+      "type_tache": "observation_ou_production",
+      "consigne": "Propose deux gestes et justifie chacun.",
+      "stimulus": "Amir revient d’un jeu actif. Il dit avoir soif et vouloir ralentir. Eau potable disponible, adulte à proximité.",
+      "reponse_attendue": "Donner accès à de l’eau potable et faire une pause adaptée. Deux raisons distinctes : hydratation et récupération. Demander de l’aide si besoin est aussi acceptable.",
+      "criteres": [
+        "Choix adapté à un indice de la situation fictive",
+        "Justification reliée à une notion plutôt qu’aux habitudes personnelles",
+        "Aucune décision dangereuse ni jugement sur la personne",
+        "Distingue repos et hydratation"
+      ],
+      "feedback": "Si une seule action : demande quel besoin de la scène demeure sans réponse.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "notions_cibles": [
+        "repos",
+        "hydratation"
+      ],
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "fixe",
+      "type_tache": "observation_ou_production",
+      "consigne": "Corrige la phrase d’un personnage fictif et explique.",
+      "stimulus": "« J’ai pris une courte pause; je n’ai donc pas besoin de dormir cette nuit », déclare un personnage de dessin animé.",
+      "reponse_attendue": "La phrase est inexacte. Une pause est un temps de récupération ponctuel, elle ne remplace pas le sommeil.",
+      "criteres": [
+        "Choix adapté à un indice de la situation fictive",
+        "Justification reliée à une notion plutôt qu’aux habitudes personnelles",
+        "Aucune décision dangereuse ni jugement sur la personne"
+      ],
+      "feedback": "Une pause et le sommeil soutiennent tous deux le repos, mais ne sont pas interchangeables.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "notions_cibles": [
+        "repos"
+      ],
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "fixe",
+      "type_tache": "observation_ou_production",
+      "consigne": "Explique une action de prévention et une limite de son efficacité.",
+      "stimulus": "Dans un récit, Rosalie doit tousser pendant une activité de groupe. Choix possibles : tousser vers le groupe; dans le coude ou mouchoir puis appliquer l’hygiène adaptée; affirmer que cela garantit zéro risque.",
+      "reponse_attendue": "Utiliser le coude ou un mouchoir et pratiquer l’hygiène adaptée; cela réduit la dispersion mais ne garantit pas l’absence de transmission.",
+      "criteres": [
+        "Choix adapté à un indice de la situation fictive",
+        "Justification reliée à une notion plutôt qu’aux habitudes personnelles",
+        "Aucune décision dangereuse ni jugement sur la personne",
+        "Exprime la réduction du risque sans garantie absolue"
+      ],
+      "feedback": "Remplacer « élimine tous les risques » par « contribue à réduire le risque ».",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "notions_cibles": [
+        "prévention",
+        "hygiène"
+      ],
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "fixe",
+      "type_tache": "observation_ou_production",
+      "consigne": "Ordonne les étapes de lavage et explique pourquoi un rinçage éclair ne suffit pas.",
+      "stimulus": "Cartes mélangées : sécher / frotter au savon / rincer / mouiller. Lavabo, eau propre et savon disponibles. Friction demandée : au moins 20 secondes.",
+      "reponse_attendue": "Mouiller → appliquer savon et frotter les surfaces au moins 20 secondes → rincer → sécher; un rinçage rapide n’assure pas la même action de lavage.",
+      "criteres": [
+        "Choix adapté à un indice de la situation fictive",
+        "Justification reliée à une notion plutôt qu’aux habitudes personnelles",
+        "Aucune décision dangereuse ni jugement sur la personne",
+        "Ordonne correctement les quatre phases"
+      ],
+      "feedback": "Revoir le modèle de friction des paumes, du dos, entre les doigts et des pouces.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "notions_cibles": [
+        "hygiène"
+      ],
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "fixe",
+      "type_tache": "observation_ou_production",
+      "consigne": "Choisis la meilleure démarche si une ressource manque et justifie.",
+      "stimulus": "Avant une collation, une classe fictive trouve le lavabo fermé. Un adulte est présent; personne n’a demandé de solution. Les élèves veulent se nettoyer les mains.",
+      "reponse_attendue": "Signaler le besoin d’hygiène à l’adulte afin d’obtenir une installation ou une solution adaptée; ne pas improviser avec un produit non autorisé.",
+      "criteres": [
+        "Choix adapté à un indice de la situation fictive",
+        "Justification reliée à une notion plutôt qu’aux habitudes personnelles",
+        "Aucune décision dangereuse ni jugement sur la personne",
+        "Tient compte de la contrainte d’accès"
+      ],
+      "feedback": "Une recommandation doit rester réalisable et sûre lorsque le matériel est inaccessible.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "notions_cibles": [
+        "hygiène",
+        "prévention"
+      ],
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "fixe",
+      "type_tache": "observation_ou_production",
+      "consigne": "Décide quelle boisson proposer habituellement et pourquoi; propose un plan B.",
+      "stimulus": "Au retour d’une activité en salle, une élève fictive a soif. Le point d’eau est potable et accessible. Des boissons très sucrées sont aussi proposées.",
+      "reponse_attendue": "Proposer de l’eau potable comme choix habituel pour s’hydrater; si le point d’eau est fermé, demander à un adulte une source potable. Aucune quantité universelle imposée.",
+      "criteres": [
+        "Choix adapté à un indice de la situation fictive",
+        "Justification reliée à une notion plutôt qu’aux habitudes personnelles",
+        "Aucune décision dangereuse ni jugement sur la personne",
+        "Ne dénigre ni aliment ni personne et évite quantité imposée"
+      ],
+      "feedback": "La notion évaluée est la disponibilité d’une eau potable, pas la moralisation d’une boisson.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "notions_cibles": [
+        "hydratation"
+      ],
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "fixe",
+      "type_tache": "observation_ou_production",
+      "consigne": "Analyse l’erreur et propose une conduite plus sûre.",
+      "stimulus": "Un personnage veut finir le premier un circuit de jeux. Il demande une pause, mais son camarade affirme : « Continue, la vitesse est plus importante que le repos. »",
+      "reponse_attendue": "Respecter la demande de pause et les consignes de sécurité; au besoin informer l’adulte. La vitesse n’est pas un critère de santé ni l’objet de l’évaluation.",
+      "criteres": [
+        "Choix adapté à un indice de la situation fictive",
+        "Justification reliée à une notion plutôt qu’aux habitudes personnelles",
+        "Aucune décision dangereuse ni jugement sur la personne",
+        "Corrige explicitement priorité vitesse/sécurité"
+      ],
+      "feedback": "On juge la décision adaptée, pas la performance physique.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "notions_cibles": [
+        "repos",
+        "prévention"
+      ],
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "fixe",
+      "type_tache": "observation_ou_production",
+      "consigne": "Choisis une démarche saine et justifie le refus d’une autre.",
+      "stimulus": "Une affiche fictive indique « Eau du robinet non potable » près d’un lavabo; l’élève fictif a soif. Un adulte est dans le corridor. Option A : boire au robinet malgré l’avis; B : demander une source d’eau potable; C : ne rien dire même si l’accès manque.",
+      "reponse_attendue": "B. Respecter l’avis et demander à l’adulte une source d’eau potable. L’option A crée un risque, l’option C ne règle pas le besoin.",
+      "criteres": [
+        "Choix adapté à un indice de la situation fictive",
+        "Justification reliée à une notion plutôt qu’aux habitudes personnelles",
+        "Aucune décision dangereuse ni jugement sur la personne",
+        "Respecte une alerte explicite de non-potabilité"
+      ],
+      "feedback": "Une action de santé dépend aussi des conditions réelles d’accès et de sécurité.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "notions_cibles": [
+        "hydratation",
+        "prévention"
+      ],
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "fixe",
+      "type_tache": "observation_ou_production",
+      "consigne": "Construis un mini-plan de deux actions et explique à quoi elles servent.",
+      "stimulus": "Après un atelier de théâtre scolaire imaginaire, un personnage a soif et veut souffler un peu. Eau potable disponible, salle calme ouverte. Un autre personnage lui dit de continuer immédiatement.",
+      "reponse_attendue": "Proposer accès à de l’eau potable (hydratation) et pause dans un lieu adapté (repos); ne pas forcer la poursuite. S’adresser à l’adulte si une difficulté importante apparaît.",
+      "criteres": [
+        "Choix adapté à un indice de la situation fictive",
+        "Justification reliée à une notion plutôt qu’aux habitudes personnelles",
+        "Aucune décision dangereuse ni jugement sur la personne",
+        "Deux actions reliées à deux besoins distincts"
+      ],
+      "feedback": "Repérer deux indices signifie répondre à deux besoins; la santé n’est pas un concours.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "notions_cibles": [
+        "repos",
+        "hydratation"
+      ],
+      "preuve_maitrise": false,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "scenario_controle",
+      "type_tache": "observation_ou_production",
+      "consigne": "À partir de cette scène, nomme trois décisions concrètes utiles, justifie-en au moins deux avec des notions et propose une adaptation si une ressource est inaccessible. Réponse autonome, par écrit/oral/cartes commentées; ne parle pas de ta vie.",
+      "stimulus": "Atelier bibliothèque (fiction) : pendant le bricolage, Léna se salit les mains. La collation arrive. Le lavabo proche est fermé; une adulte peut accompagner les élèves vers un autre point d’eau. Après l’atelier, une camarade dit avoir soif et vouloir une pause; de l’eau potable et un espace calme sont accessibles.",
+      "reponse_attendue": "Choisir : demander l’aide de l’adulte pour une hygiène correcte avant de manger; rendre accessible l’eau potable à la personne assoiffée; respecter sa demande de pause. Expliquer au moins deux notions (hygiène/prévention, hydratation, repos) et l’adaptation liée au lavabo fermé. Ne pas utiliser de produit inconnu ni attribuer de faute à un élève.",
+      "criteres": [
+        "Sélectionne au moins trois actions justes sur les indices explicites",
+        "Justifie au moins deux choix en utilisant les notions enseignées",
+        "Propose une adaptation réaliste si une ressource est inaccessible",
+        "Aucune conduite dangereuse ou jugement d’une personne",
+        "Répond sans indice sur le fond; grille D/E/S/A (0–3)"
+      ],
+      "feedback": "Si l’hygiène est oubliée : revoir « mains sales avant collation ». Si eau ou pause omise : identifier séparément la soif et le besoin de récupération. Si plan B absent : chercher l’adulte disponible.",
+      "difficulte": "transfert",
+      "seed": 11010,
+      "parametres": {
+        "algorithme": "variante = A si seed modulo 2 = 0, sinon B; aucun texte IA libre",
+        "domaine_seed": "entier positif stable, exemples 11010 et 11011",
+        "variante_active": "A",
+        "variantes": {
+          "A": {
+            "stimulus": "Atelier bibliothèque (fiction) : pendant le bricolage, Léna se salit les mains. La collation arrive. Le lavabo proche est fermé; une adulte peut accompagner les élèves vers un autre point d’eau. Après l’atelier, une camarade dit avoir soif et vouloir une pause; de l’eau potable et un espace calme sont accessibles.",
+            "reponse_attendue": "Choisir : demander l’aide de l’adulte pour une hygiène correcte avant de manger; rendre accessible l’eau potable à la personne assoiffée; respecter sa demande de pause. Expliquer au moins deux notions (hygiène/prévention, hydratation, repos) et l’adaptation liée au lavabo fermé. Ne pas utiliser de produit inconnu ni attribuer de faute à un élève."
+          },
+          "B": {
+            "stimulus": "Atelier de classe (fiction) : dans une activité d’argile, Hugo a les mains couvertes d’argile. Le goûter arrive. Le lavabo de classe est indisponible; le personnel peut indiquer une autre installation. Un camarade demande de l’eau potable et un temps calme après l’activité; ces ressources existent dans l’école.",
+            "reponse_attendue": "Choisir : demander l’aide de l’adulte pour une hygiène correcte avant de manger; rendre accessible l’eau potable à la personne assoiffée; respecter sa demande de pause. Expliquer au moins deux notions (hygiène/prévention, hydratation, repos) et l’adaptation liée au lavabo fermé. Ne pas utiliser de produit inconnu ni attribuer de faute à un élève."
+          }
+        },
+        "exemples_valides": {
+          "11010": "A",
+          "11011": "B"
+        },
+        "variations_autorisees": "uniquement substituer A/B tels quels; conserver les ressources et le barème"
+      },
+      "notions_cibles": [
+        "repos",
+        "hygiène",
+        "hydratation",
+        "prévention"
+      ],
+      "preuve_maitrise": true,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-eps-011-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-011-ev-01",
+      "mode": "scenario_controle",
+      "type_tache": "observation_ou_production",
+      "consigne": "Pour la situation fictive, sélectionne trois choix utiles, donne au moins deux raisons et explique à quel moment l’aide d’un adulte serait pertinente. Réponse indépendante en modalité accessible.",
+      "stimulus": "Fête sportive de l’école (fiction) : après plusieurs jeux, Sam veut s’arrêter et dit avoir soif. Une fontaine avec eau potable est disponible. Près du groupe, Chloé tousse dans une direction où se trouvent des camarades. Un adulte supervise l’activité. Aucune participation physique ne t’est demandée.",
+      "reponse_attendue": "Choisir : respecter la pause, proposer l’accès à l’eau potable sans quantité imposée, recommander de tousser/éternuer dans son coude ou mouchoir et suivre l’hygiène adaptée. Justifier repos, hydratation, prévention/hygiène; l’adulte aide au besoin. Formuler « réduit le risque » et non « supprime tous les risques ».",
+      "criteres": [
+        "Sélectionne au moins trois actions justes sur les indices explicites",
+        "Justifie au moins deux choix en utilisant les notions enseignées",
+        "Propose une adaptation réaliste si une ressource est inaccessible",
+        "Aucune conduite dangereuse ou jugement d’une personne",
+        "Répond sans indice sur le fond; grille D/E/S/A (0–3)"
+      ],
+      "feedback": "Si l’élève minimise la soif ou la pause : revenir aux indices déclarés. Si une mesure garantit un risque nul : corriger vers réduction de risque.",
+      "difficulte": "transfert",
+      "seed": 12010,
+      "parametres": {
+        "algorithme": "variante = A si seed modulo 2 = 0, sinon B; aucune génération ouverte",
+        "domaine_seed": "entier positif stable, exemples 12010 et 12011",
+        "variante_active": "A",
+        "variantes": {
+          "A": {
+            "stimulus": "Fête sportive de l’école (fiction) : après plusieurs jeux, Sam veut s’arrêter et dit avoir soif. Une fontaine avec eau potable est disponible. Près du groupe, Chloé tousse dans une direction où se trouvent des camarades. Un adulte supervise l’activité. Aucune participation physique ne t’est demandée.",
+            "reponse_attendue": "Choisir : respecter la pause, proposer l’accès à l’eau potable sans quantité imposée, recommander de tousser/éternuer dans son coude ou mouchoir et suivre l’hygiène adaptée. Justifier repos, hydratation, prévention/hygiène; l’adulte aide au besoin. Formuler « réduit le risque » et non « supprime tous les risques »."
+          },
+          "B": {
+            "stimulus": "Journée d’activités de la cour (fiction) : après le parcours, Aïcha demande une pause et de l’eau potable; une station d’eau sûre est disponible. Tout près, Tom éternue vers ses camarades sans se couvrir. Le personnel surveille le groupe. Aucune activité physique n’est évaluée.",
+            "reponse_attendue": "Choisir : respecter la pause, proposer l’accès à l’eau potable sans quantité imposée, recommander de tousser/éternuer dans son coude ou mouchoir et suivre l’hygiène adaptée. Justifier repos, hydratation, prévention/hygiène; l’adulte aide au besoin. Formuler « réduit le risque » et non « supprime tous les risques »."
+          }
+        },
+        "exemples_valides": {
+          "12010": "A",
+          "12011": "B"
+        },
+        "variations_autorisees": "uniquement les textes A/B fournis; conserver les indices, notions et rubriques"
+      },
+      "notions_cibles": [
+        "repos",
+        "hygiène",
+        "hydratation",
+        "prévention"
+      ],
+      "preuve_maitrise": true,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

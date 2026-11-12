@@ -1,0 +1,93 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire comment une société organise ses activités et son territoire.",
+  "concepts": [
+    "population",
+    "rôle",
+    "lieu",
+    "organisation"
+  ],
+  "preuve_attendue": "Présenter une société avec une grille commune de comparaison.",
+  "prerequis_bloquants": [
+    "qc-pri-us-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-us-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-004-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Présenter une société avec une grille commune de comparaison.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-us-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiches textuelles datées",
+        "plan descriptif orienté",
+        "grille commune de comparaison",
+        "présentation argumentée orale ou écrite"
+      ],
+      "variables": {
+        "mode_actuel": "sélection de cas fixes fermés",
+        "corpus_autorise": [
+          "M1-M2 Val-des-Cèdres",
+          "A1-A2 Rivemoulin",
+          "B1-B2 Plateau-des-Pins"
+        ],
+        "generateur_actif": false,
+        "libre_generation_ia": false
+      },
+      "contraintes": [
+        "source, date interne à la fiction et type explicites",
+        "aucun fait historique revendiqué à partir de ces fictions",
+        "une même grille de six rubriques",
+        "source A1+A2 pour preuve 009",
+        "source B1+B2 pour preuve 010",
+        "au moins une limite documentaire dans chaque preuve",
+        "réponses argumentées par indices",
+        "aucune généralisation sur les Premiers Peuples"
+      ],
+      "barreme_ou_rubrique": {
+        "grille": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "exactitude_sourcee",
+          "relations_population_role_lieu_organisation",
+          "analyse_provenance",
+          "nuance_et_limites",
+          "autonomie_et_transfert"
+        ],
+        "niveaux": "0_absent;1_partiel;2_satisfaisant",
+        "decision": "deux preuves distinctes chacune satisfaisante sur les cinq dimensions critiques"
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_rediges_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

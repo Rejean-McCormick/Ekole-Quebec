@@ -1,0 +1,609 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ap-001",
+  "family_id": "qc-pri-ap-001-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ap-001-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Affiche du marché ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Trois annotations au minimum. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 1 — Affiche du marché. Contexte : affiche. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : zigzag noir central — son tracé brisé change plusieurs fois de direction | forme : triangle bleu à droite — la région possède trois côtés | couleur : cercle rouge en haut à gauche — cette surface est rouge | texture : bande grise à points en bas — les points noirs sont répétés. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "Si tu écris seulement « c’est joli », remplace l’opinion par la localisation du triangle ou des points. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "entrainement_ou_evaluation_formative",
+      "description_alternative": "Un cercle rouge est en haut à gauche. Un triangle bleu est à droite. Une ligne noire en zigzag traverse le centre. Une bande grise pointillée est en bas.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Un cercle rouge est en haut à gauche. Un triangle bleu est à droite. Une ligne noire en zigzag traverse le centre. Une bande grise pointillée est en bas.\"><title>Affiche du marché</title><desc>Un cercle rouge est en haut à gauche. Un triangle bleu est à droite. Une ligne noire en zigzag traverse le centre. Une bande grise pointillée est en bas.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"76\" r=\"33\" fill=\"#d62b35\"/><polygon points=\"265,41 307,122 224,122\" fill=\"#2667c7\"/><polyline points=\"50,160 92,136 134,160 176,136 218,160 260,136 308,160\" fill=\"none\" stroke=\"#202020\" stroke-width=\"6\"/><rect x=\"42\" y=\"179\" width=\"275\" height=\"24\" fill=\"#c3c3c3\"/><rect x=\"42\" y=\"179\" width=\"275\" height=\"24\" fill=\"url(#dots)\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "zigzag noir central",
+          "justification": "son tracé brisé change plusieurs fois de direction"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "triangle bleu à droite",
+          "justification": "la région possède trois côtés"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "cercle rouge en haut à gauche",
+          "justification": "cette surface est rouge"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "bande grise à points en bas",
+          "justification": "les points noirs sont répétés"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Fenêtre et rideau ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Trois annotations au minimum. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 2 — Fenêtre et rideau. Contexte : interieur. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : rebord horizontal noir en bas — le trait continu suit une direction horizontale | forme : grand rectangle orangé à gauche — la région a quatre angles droits | couleur : soleil jaune en haut à droite — son disque est jaune | texture : rideau violet rayé à droite de la fenêtre — les fines rayures verticales se répètent. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "Une rayure isolée peut être une ligne; les rayures répétées du rideau donnent ici la texture visuelle. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "entrainement_ou_evaluation_formative",
+      "description_alternative": "Une fenêtre rectangulaire orangée occupe la gauche. Un soleil rond jaune est en haut à droite. Un rideau violet à rayures verticales couvre une partie de la fenêtre. Une ligne horizontale noire forme le rebord.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Une fenêtre rectangulaire orangée occupe la gauche. Un soleil rond jaune est en haut à droite. Un rideau violet à rayures verticales couvre une partie de la fenêtre. Une ligne horizontale noire forme le rebord.\"><title>Fenêtre et rideau</title><desc>Une fenêtre rectangulaire orangée occupe la gauche. Un soleil rond jaune est en haut à droite. Un rideau violet à rayures verticales couvre une partie de la fenêtre. Une ligne horizontale noire forme le rebord.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><rect x=\"40\" y=\"37\" width=\"205\" height=\"141\" fill=\"#eda35c\" stroke=\"#784423\" stroke-width=\"4\"/><rect x=\"168\" y=\"40\" width=\"74\" height=\"136\" fill=\"#a07bc3\"/><rect x=\"168\" y=\"40\" width=\"74\" height=\"136\" fill=\"url(#stripes)\"/><circle cx=\"292\" cy=\"65\" r=\"25\" fill=\"#f4ca20\"/><line x1=\"34\" y1=\"179\" x2=\"314\" y2=\"179\" stroke=\"#1b1b1b\" stroke-width=\"6\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "rebord horizontal noir en bas",
+          "justification": "le trait continu suit une direction horizontale"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "grand rectangle orangé à gauche",
+          "justification": "la région a quatre angles droits"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "soleil jaune en haut à droite",
+          "justification": "son disque est jaune"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "rideau violet rayé à droite de la fenêtre",
+          "justification": "les fines rayures verticales se répètent"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Cerf-volant ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Trois annotations au minimum. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 3 — Cerf-volant. Contexte : plein_air. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : ficelle noire ondulée sous le losange — son tracé fait des courbes | forme : losange vert au centre — sa région est délimitée par quatre côtés | couleur : disque jaune en haut à droite — la surface est jaune | texture : bandes sur le losange — les rayures diagonales se répètent. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "Le losange entier est une forme; la ficelle qui le prolonge est une ligne. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "entrainement_ou_evaluation_formative",
+      "description_alternative": "Un cerf-volant en losange vert est au centre. Sa ficelle noire est ondulée. Il porte de fines bandes diagonales. Un disque jaune apparaît en haut à droite.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Un cerf-volant en losange vert est au centre. Sa ficelle noire est ondulée. Il porte de fines bandes diagonales. Un disque jaune apparaît en haut à droite.\"><title>Cerf-volant</title><desc>Un cerf-volant en losange vert est au centre. Sa ficelle noire est ondulée. Il porte de fines bandes diagonales. Un disque jaune apparaît en haut à droite.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><polygon points=\"178,33 247,94 178,154 109,94\" fill=\"#55a65f\" stroke=\"#17612b\" stroke-width=\"3\"/><polygon points=\"178,33 247,94 178,154 109,94\" fill=\"url(#stripes)\"/><path d=\"M178,154 Q110,183 175,198 T230,210\" stroke=\"#242424\" stroke-width=\"4\" fill=\"none\"/><circle cx=\"289\" cy=\"49\" r=\"25\" fill=\"#ffd047\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "ficelle noire ondulée sous le losange",
+          "justification": "son tracé fait des courbes"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "losange vert au centre",
+          "justification": "sa région est délimitée par quatre côtés"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "disque jaune en haut à droite",
+          "justification": "la surface est jaune"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "bandes sur le losange",
+          "justification": "les rayures diagonales se répètent"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-004",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Pot de plantes ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Trois annotations au minimum. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 4 — Pot de plantes. Contexte : objet. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : tiges vertes courbes au centre — leurs traces se courbent vers les feuilles | forme : pot brun en bas — le contour forme un trapèze | couleur : surface du pot brun en bas — son intérieur montre une couleur brune distincte des tiges vertes | texture : bande au sommet du pot — les points noirs se répètent comme un motif de terre. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "Le pot entier est une forme; les points suggèrent une texture visuelle, pas un toucher forcément rugueux. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "entrainement_ou_evaluation_formative",
+      "description_alternative": "Un pot brun en trapèze est en bas. Deux tiges vertes montent en courbes. Trois feuilles ovales vertes s’y attachent. De petits points noirs suggèrent la terre à la surface.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Un pot brun en trapèze est en bas. Deux tiges vertes montent en courbes. Trois feuilles ovales vertes s’y attachent. De petits points noirs suggèrent la terre à la surface.\"><title>Pot de plantes</title><desc>Un pot brun en trapèze est en bas. Deux tiges vertes montent en courbes. Trois feuilles ovales vertes s’y attachent. De petits points noirs suggèrent la terre à la surface.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><polygon points=\"115,129 243,129 221,207 137,207\" fill=\"#ad6e41\"/><path d=\"M180,129 Q136,96 156,60 M180,129 Q217,87 205,51\" fill=\"none\" stroke=\"#287d39\" stroke-width=\"5\"/><ellipse cx=\"148\" cy=\"66\" rx=\"28\" ry=\"13\" fill=\"#4aab5d\" transform=\"rotate(-28 148 66)\"/><ellipse cx=\"215\" cy=\"70\" rx=\"26\" ry=\"12\" fill=\"#4aab5d\" transform=\"rotate(25 215 70)\"/><ellipse cx=\"177\" cy=\"49\" rx=\"22\" ry=\"12\" fill=\"#4aab5d\"/><rect x=\"122\" y=\"126\" width=\"115\" height=\"13\" fill=\"url(#dots)\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "tiges vertes courbes au centre",
+          "justification": "leurs traces se courbent vers les feuilles"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "pot brun en bas",
+          "justification": "le contour forme un trapèze"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "surface du pot brun en bas",
+          "justification": "son intérieur montre une couleur brune distincte des tiges vertes"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "bande au sommet du pot",
+          "justification": "les points noirs se répètent comme un motif de terre"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-005",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Sac de classe ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Trois annotations au minimum. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 5 — Sac de classe. Contexte : objet. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : arc noir de fermeture sur le sac — un seul trait suit une courbe | forme : poche orange au bas du sac — la poche est une surface carrée | couleur : grand panneau bleu du sac — sa surface principale est bleue | texture : surface bleue du sac — les petits traits blancs parallèles se répètent. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "Indique la position de la poche carrée et la répétition des petits traits, sans juger le sac comme beau ou laid. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "entrainement_ou_evaluation_formative",
+      "description_alternative": "Un grand sac bleu de forme rectangulaire aux coins arrondis est au centre. Une poche carrée orange apparaît en bas. Une fermeture noire forme un arc. Des petits traits parallèles suggèrent une toile striée.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Un grand sac bleu de forme rectangulaire aux coins arrondis est au centre. Une poche carrée orange apparaît en bas. Une fermeture noire forme un arc. Des petits traits parallèles suggèrent une toile striée.\"><title>Sac de classe</title><desc>Un grand sac bleu de forme rectangulaire aux coins arrondis est au centre. Une poche carrée orange apparaît en bas. Une fermeture noire forme un arc. Des petits traits parallèles suggèrent une toile striée.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><rect x=\"83\" y=\"37\" rx=\"25\" width=\"195\" height=\"169\" fill=\"#296ac3\"/><rect x=\"83\" y=\"37\" rx=\"25\" width=\"195\" height=\"169\" fill=\"url(#stripes)\" opacity=\"0.6\"/><rect x=\"147\" y=\"126\" width=\"66\" height=\"63\" fill=\"#f19a3f\" stroke=\"#9d4c15\" stroke-width=\"3\"/><path d=\"M126,88 Q181,36 235,88\" stroke=\"#191919\" fill=\"none\" stroke-width=\"5\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "arc noir de fermeture sur le sac",
+          "justification": "un seul trait suit une courbe"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "poche orange au bas du sac",
+          "justification": "la poche est une surface carrée"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "grand panneau bleu du sac",
+          "justification": "sa surface principale est bleue"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "surface bleue du sac",
+          "justification": "les petits traits blancs parallèles se répètent"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-006",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Affiche de randonnée ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Trois annotations au minimum. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 6 — Affiche de randonnée. Contexte : paysage. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : sentier brun qui serpente vers le bas — son tracé est courbe | forme : deux montagnes grises — leurs silhouettes sont triangulaires | couleur : soleil jaune en haut à droite — son disque est jaune | texture : montagne de droite — des hachures claires obliques se répètent. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "Une montagne triangulaire est une forme; une hachure isolée est une ligne, leur répétition évoque une texture. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "entrainement_ou_evaluation_formative",
+      "description_alternative": "Deux montagnes triangulaires grises occupent le fond. Le soleil est un cercle jaune. Un sentier brun serpente du bas vers le centre. Des hachures obliques figurent la roche sur un triangle.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Deux montagnes triangulaires grises occupent le fond. Le soleil est un cercle jaune. Un sentier brun serpente du bas vers le centre. Des hachures obliques figurent la roche sur un triangle.\"><title>Affiche de randonnée</title><desc>Deux montagnes triangulaires grises occupent le fond. Le soleil est un cercle jaune. Un sentier brun serpente du bas vers le centre. Des hachures obliques figurent la roche sur un triangle.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><polygon points=\"30,149 128,35 208,149\" fill=\"#939ba5\"/><polygon points=\"155,151 242,49 327,151\" fill=\"#aeb4bd\"/><polygon points=\"155,151 242,49 327,151\" fill=\"url(#stripes)\"/><circle cx=\"283\" cy=\"41\" r=\"22\" fill=\"#f9cb26\"/><path d=\"M148,217 Q107,186 191,157 T187,120\" fill=\"none\" stroke=\"#a37138\" stroke-width=\"13\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "sentier brun qui serpente vers le bas",
+          "justification": "son tracé est courbe"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "deux montagnes grises",
+          "justification": "leurs silhouettes sont triangulaires"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "soleil jaune en haut à droite",
+          "justification": "son disque est jaune"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "montagne de droite",
+          "justification": "des hachures claires obliques se répètent"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-007",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Motif de tapis ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Trois annotations au minimum. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 7 — Motif de tapis. Contexte : motif. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : bande rose en zigzag en haut — le trait change plusieurs fois de direction | forme : deux carrés verts au centre — chacun montre une région carrée | couleur : grande bordure violette — elle est violette | texture : coin inférieur droit — des lignes entrecroisées forment un motif. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "La bande zigzag est une ligne; le coin à croisements répétés est une texture visuelle. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "entrainement_ou_evaluation_formative",
+      "description_alternative": "Un grand rectangle violet encadre deux carrés verts. Une bande rose en zigzag traverse le haut. Le coin inférieur droit porte des lignes croisées qui donnent un effet tissé.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Un grand rectangle violet encadre deux carrés verts. Une bande rose en zigzag traverse le haut. Le coin inférieur droit porte des lignes croisées qui donnent un effet tissé.\"><title>Motif de tapis</title><desc>Un grand rectangle violet encadre deux carrés verts. Une bande rose en zigzag traverse le haut. Le coin inférieur droit porte des lignes croisées qui donnent un effet tissé.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><rect x=\"38\" y=\"31\" width=\"285\" height=\"179\" fill=\"#8053ac\" stroke=\"#4d3264\" stroke-width=\"7\"/><rect x=\"73\" y=\"95\" width=\"65\" height=\"65\" fill=\"#49ac6b\"/><rect x=\"187\" y=\"95\" width=\"65\" height=\"65\" fill=\"#49ac6b\"/><polyline points=\"58,76 97,49 136,76 175,49 214,76 253,49 299,76\" fill=\"none\" stroke=\"#f4a6ce\" stroke-width=\"11\"/><rect x=\"258\" y=\"158\" width=\"47\" height=\"43\" fill=\"url(#cross)\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "bande rose en zigzag en haut",
+          "justification": "le trait change plusieurs fois de direction"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "deux carrés verts au centre",
+          "justification": "chacun montre une région carrée"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "grande bordure violette",
+          "justification": "elle est violette"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "coin inférieur droit",
+          "justification": "des lignes entrecroisées forment un motif"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-008",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Étagère de livres ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Trois annotations au minimum. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 8 — Étagère de livres. Contexte : interieur. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : poignée noire courbe à droite — elle est tracée comme une courbe | forme : livres debout — ce sont de longs rectangles verticaux | couleur : livre orange au centre — sa surface est orange | texture : livre orange au centre — ses pois blancs se répètent. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "Localise la courbe de la poignée et les pois sur le livre orange pour que ton annotation soit vérifiable. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "entrainement_ou_evaluation_formative",
+      "description_alternative": "Une étagère brune horizontale traverse l’image. Trois livres vert, orange et bleu sont de longs rectangles verticaux. Le livre orange comporte des pois blancs. Une courbe noire figure une poignée.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Une étagère brune horizontale traverse l’image. Trois livres vert, orange et bleu sont de longs rectangles verticaux. Le livre orange comporte des pois blancs. Une courbe noire figure une poignée.\"><title>Étagère de livres</title><desc>Une étagère brune horizontale traverse l’image. Trois livres vert, orange et bleu sont de longs rectangles verticaux. Le livre orange comporte des pois blancs. Une courbe noire figure une poignée.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><rect x=\"42\" y=\"185\" width=\"284\" height=\"18\" fill=\"#98693f\"/><rect x=\"68\" y=\"65\" width=\"55\" height=\"119\" fill=\"#49a472\"/><rect x=\"136\" y=\"52\" width=\"57\" height=\"132\" fill=\"#e08f34\"/><rect x=\"136\" y=\"52\" width=\"57\" height=\"132\" fill=\"url(#whiteDots)\"/><rect x=\"207\" y=\"70\" width=\"59\" height=\"114\" fill=\"#457ac2\"/><path d=\"M288,98 Q318,75 318,116\" fill=\"none\" stroke=\"#171717\" stroke-width=\"6\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "poignée noire courbe à droite",
+          "justification": "elle est tracée comme une courbe"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "livres debout",
+          "justification": "ce sont de longs rectangles verticaux"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "livre orange au centre",
+          "justification": "sa surface est orange"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "livre orange au centre",
+          "justification": "ses pois blancs se répètent"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-009",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Nappe de pique-nique ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Trois annotations au minimum. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 9 — Nappe de pique-nique. Contexte : motif. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : lignes droites rouges de la nappe — elles suivent les axes horizontaux ou verticaux | forme : assiette bleue à gauche — sa région est circulaire | couleur : serviette triangulaire jaune à droite — la surface du triangle est jaune, et non bleue comme l’assiette | texture : nappe rouge pâle — des lignes rouges croisées forment un quadrillage. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "La grille de la nappe est une texture faite de lignes; préciser la répétition distingue les deux catégories. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "entrainement_ou_evaluation_formative",
+      "description_alternative": "Une nappe est un grand rectangle rouge pâle. Des lignes rouges verticales et horizontales forment des carreaux. Une assiette circulaire bleue est à gauche. Une serviette en triangle jaune est à droite.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Une nappe est un grand rectangle rouge pâle. Des lignes rouges verticales et horizontales forment des carreaux. Une assiette circulaire bleue est à gauche. Une serviette en triangle jaune est à droite.\"><title>Nappe de pique-nique</title><desc>Une nappe est un grand rectangle rouge pâle. Des lignes rouges verticales et horizontales forment des carreaux. Une assiette circulaire bleue est à gauche. Une serviette en triangle jaune est à droite.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><rect x=\"30\" y=\"40\" width=\"300\" height=\"169\" fill=\"#edb4b6\"/><rect x=\"30\" y=\"40\" width=\"300\" height=\"169\" fill=\"url(#gridRed)\"/><circle cx=\"120\" cy=\"118\" r=\"53\" fill=\"#3e8ed1\"/><polygon points=\"232,69 304,169 201,157\" fill=\"#ecc943\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "lignes droites rouges de la nappe",
+          "justification": "elles suivent les axes horizontaux ou verticaux"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "assiette bleue à gauche",
+          "justification": "sa région est circulaire"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "serviette triangulaire jaune à droite",
+          "justification": "la surface du triangle est jaune, et non bleue comme l’assiette"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "nappe rouge pâle",
+          "justification": "des lignes rouges croisées forment un quadrillage"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-010",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Murale de pluie ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Trois annotations au minimum. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 10 — Murale de pluie. Contexte : paysage. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : traits bleus verticaux sous les nuages — ils représentent des lignes droites | forme : deux nuages gris en haut — ils sont figurés par des régions ovales | couleur : spirale jaune à gauche — son trait visible est jaune alors que ceux de pluie sont bleus | texture : bande du bas — les petits tirets bleus sont répétés. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "Les lignes de pluie, les petits tirets de la bande et la spirale n’ont pas la même fonction graphique : pointe la zone avant de classer. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "entrainement_ou_evaluation_formative",
+      "description_alternative": "Deux nuages ovales gris occupent le haut. Des lignes bleues verticales montrent la pluie. Une spirale jaune est à gauche. Une bande basse de petits tirets bleus crée une texture de flaques.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Deux nuages ovales gris occupent le haut. Des lignes bleues verticales montrent la pluie. Une spirale jaune est à gauche. Une bande basse de petits tirets bleus crée une texture de flaques.\"><title>Murale de pluie</title><desc>Deux nuages ovales gris occupent le haut. Des lignes bleues verticales montrent la pluie. Une spirale jaune est à gauche. Une bande basse de petits tirets bleus crée une texture de flaques.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><ellipse cx=\"114\" cy=\"75\" rx=\"63\" ry=\"29\" fill=\"#9ea8b1\"/><ellipse cx=\"252\" cy=\"60\" rx=\"60\" ry=\"30\" fill=\"#9ea8b1\"/><path d=\"M66,110V160 M106,118V179 M154,108V166 M221,99V157 M267,105V182 M296,100V166\" stroke=\"#368cd4\" stroke-width=\"6\"/><path d=\"M30,76 C48,34 78,105 57,116 C27,121 32,61 65,58\" stroke=\"#edcd24\" stroke-width=\"6\" fill=\"none\"/><rect x=\"37\" y=\"190\" width=\"285\" height=\"16\" fill=\"url(#blueDash)\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "traits bleus verticaux sous les nuages",
+          "justification": "ils représentent des lignes droites"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "deux nuages gris en haut",
+          "justification": "ils sont figurés par des régions ovales"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "spirale jaune à gauche",
+          "justification": "son trait visible est jaune alors que ceux de pluie sont bleus"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "bande du bas",
+          "justification": "les petits tirets bleus sont répétés"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-011",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Affiche du jardin partagé ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Quatre annotations indépendantes. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 11 — Affiche du jardin partagé. Contexte : affiche. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : allée bleue à gauche de la serre — son tracé serpentant suit une courbe | forme : toit triangulaire vert de la serre — le contour a trois côtés | couleur : soleil jaune en haut à gauche — son disque est jaune | texture : carré de terre brun en bas à droite — des points sombres se répètent sur la surface. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "Pour chaque étiquette, cite un indice du jardin dessiné : trajet courbe, contour triangulaire, jaune du soleil ou points du carré de terre. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "preuve_maitrise_A",
+      "description_alternative": "Un soleil rond jaune est en haut à gauche. Une serre a un toit triangulaire vert et une base rectangulaire verte. Une allée bleue serpente vers le bas. Le carré de terre brun porte une multitude de points.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Un soleil rond jaune est en haut à gauche. Une serre a un toit triangulaire vert et une base rectangulaire verte. Une allée bleue serpente vers le bas. Le carré de terre brun porte une multitude de points.\"><title>Affiche du jardin partagé</title><desc>Un soleil rond jaune est en haut à gauche. Une serre a un toit triangulaire vert et une base rectangulaire verte. Une allée bleue serpente vers le bas. Le carré de terre brun porte une multitude de points.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><circle cx=\"74\" cy=\"47\" r=\"24\" fill=\"#f9c83a\"/><rect x=\"137\" y=\"108\" width=\"133\" height=\"78\" fill=\"#91d1a4\" stroke=\"#326e3e\" stroke-width=\"4\"/><polygon points=\"125,108 204,43 281,108\" fill=\"#3f965c\"/><path d=\"M82,216 Q119,180 106,151 T115,110\" stroke=\"#3d8bc9\" stroke-width=\"15\" fill=\"none\"/><rect x=\"276\" y=\"150\" width=\"65\" height=\"54\" fill=\"#b38255\"/><rect x=\"276\" y=\"150\" width=\"65\" height=\"54\" fill=\"url(#dots)\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "allée bleue à gauche de la serre",
+          "justification": "son tracé serpentant suit une courbe"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "toit triangulaire vert de la serre",
+          "justification": "le contour a trois côtés"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "soleil jaune en haut à gauche",
+          "justification": "son disque est jaune"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "carré de terre brun en bas à droite",
+          "justification": "des points sombres se répètent sur la surface"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice.",
+      "conditions_preuve": "Support à conserver inédit jusqu’à l’évaluation; sans exemple commenté ni rétroaction durant la tentative; adulte transcrit seulement au besoin sans fournir de catégories ou de repères."
+    },
+    {
+      "item_id": "qc-pri-ap-001-q-012",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Observe l’image « Étiquette du sac réutilisable ». Sans suggestion sur les zones ou les bonnes réponses, annote au moins trois éléments visuels distincts en plaçant un repère et une légende. Pour chacun, écris ou dicte « je vois [ligne / forme / couleur / texture] à [endroit], parce que [indice visible] ». Cherche au moins trois catégories différentes. Quatre annotations indépendantes. Ni ta préférence artistique ni ta rapidité ne seront notées.",
+      "stimulus": "Support original fixe n° 12 — Étiquette du sac réutilisable. Contexte : objet. Dessin vectoriel à afficher ou imprimer dans le champ visuel_svg; description textuelle indépendante fournie. Aucune photographie externe ni œuvre protégée.",
+      "reponse_attendue": "Grille ouverte mais contrôlable : accepter au moins trois associations exactes, chaque fois catégorie + endroit dans la scène + indice observable. Réponses de référence : ligne : zigzag violet à droite sur l’étiquette — le trait change brusquement de direction | forme : étiquette turquoise centrale — le contour est rectangulaire aux coins arrondis | couleur : cercle orange à gauche — cette région est orange | texture : bande inférieure de l’étiquette — des lignes noires entrecroisées se répètent. Autres observations factuellement justes acceptées si la zone est repérable; aucun jugement du goût ni de la virtuosité graphique.",
+      "criteres": [
+        "C1 : repérer au moins trois endroits réellement présents dans le support, par flèches, légende ou pointage documenté.",
+        "C2 : employer correctement au moins trois catégories visuelles distinctes (ligne, forme, couleur, texture).",
+        "C3 : donner au moins trois justifications appuyées sur un indice présent; sans confondre texture dessinée et sensation tactile prouvée.",
+        "C4 : produire sans indice de réponse; consigne, agrandissement, modalité de réponse équivalente ou dictée neutre autorisés et documentés."
+      ],
+      "feedback": "Montre un endroit précis sur l’étiquette : zigzag, rectangle, cercle orange ou bande au motif croisé; justifie le mot choisi. Rétroaction différée après tentative : montre la zone et compare à un autre motif; ne donne pas de score esthétique.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "family_id": "qc-pri-ap-001-ev-01",
+      "critere_id": "crit-1",
+      "representation": "image_svg_et_description_textuelle",
+      "fonction": "preuve_maitrise_B",
+      "description_alternative": "Une étiquette rectangulaire turquoise est au centre. Un grand cercle orange est à gauche. Une ligne violette en zigzag est à droite. Une bande inférieure montre de fines lignes entrecroisées noires.",
+      "visuel_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"330\" viewBox=\"0 0 360 232\" role=\"img\" aria-label=\"Une étiquette rectangulaire turquoise est au centre. Un grand cercle orange est à gauche. Une ligne violette en zigzag est à droite. Une bande inférieure montre de fines lignes entrecroisées noires.\"><title>Étiquette du sac réutilisable</title><desc>Une étiquette rectangulaire turquoise est au centre. Un grand cercle orange est à gauche. Une ligne violette en zigzag est à droite. Une bande inférieure montre de fines lignes entrecroisées noires.</desc><defs><pattern id=\"dots\" width=\"13\" height=\"13\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.2\" fill=\"#2e2929\"/></pattern><pattern id=\"stripes\" width=\"15\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 0V15 M10 0V15\" stroke=\"#eeeeee\" stroke-width=\"2.5\"/></pattern><pattern id=\"cross\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#eeeeee\" stroke-width=\"1.7\"/></pattern><pattern id=\"crossBlack\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0L14 14 M14 0L0 14\" stroke=\"#171717\" stroke-width=\"1.7\"/></pattern><pattern id=\"whiteDots\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"5\" cy=\"5\" r=\"2.5\" fill=\"white\"/></pattern><pattern id=\"gridRed\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 0H20 M0 0V20\" fill=\"none\" stroke=\"#bd4549\" stroke-width=\"2.5\"/></pattern><pattern id=\"blueDash\" width=\"17\" height=\"15\" patternUnits=\"userSpaceOnUse\"><path d=\"M3 7H13\" stroke=\"#368cd4\" stroke-width=\"4\"/></pattern><pattern id=\"yellowDots\" width=\"19\" height=\"19\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"8\" r=\"3.5\" fill=\"#ffdb56\"/></pattern></defs><rect x=\"1\" y=\"1\" width=\"358\" height=\"230\" rx=\"6\" fill=\"#faf9f2\" stroke=\"#464646\" stroke-width=\"2\"/><rect x=\"43\" y=\"37\" width=\"277\" height=\"167\" rx=\"7\" fill=\"#60b8b3\" stroke=\"#287a74\" stroke-width=\"4\"/><circle cx=\"113\" cy=\"111\" r=\"43\" fill=\"#f6a13f\"/><polyline points=\"188,73 218,96 188,119 218,142 188,164 222,182\" stroke=\"#693fad\" fill=\"none\" stroke-width=\"9\"/><rect x=\"47\" y=\"174\" width=\"270\" height=\"27\" fill=\"url(#crossBlack)\"/></svg>",
+      "annotations_attendues": [
+        {
+          "categorie": "ligne",
+          "emplacement": "zigzag violet à droite sur l’étiquette",
+          "justification": "le trait change brusquement de direction"
+        },
+        {
+          "categorie": "forme",
+          "emplacement": "étiquette turquoise centrale",
+          "justification": "le contour est rectangulaire aux coins arrondis"
+        },
+        {
+          "categorie": "couleur",
+          "emplacement": "cercle orange à gauche",
+          "justification": "cette région est orange"
+        },
+        {
+          "categorie": "texture",
+          "emplacement": "bande inférieure de l’étiquette",
+          "justification": "des lignes noires entrecroisées se répètent"
+        }
+      ],
+      "variabilite_permise": "Production et choix des indices libres dans la scène fixe. Aucun changement automatique de la scène, des couleurs, des emplacements ou du corrigé avant révision humaine.",
+      "rubrique_reference": "evaluation/GRILLE_MAITRISE.md",
+      "accessibilite_et_securite": "Agrandissement, pointage, annotation vocale, alternative tactile ou description adaptée documentée; éviter de donner directement les réponses sous forme d’indice; matériel non dangereux; jamais de jugement sur le goût ou l’habileté motrice.",
+      "conditions_preuve": "Support à conserver inédit jusqu’à l’évaluation; sans exemple commenté ni rétroaction durant la tentative; adulte transcrit seulement au besoin sans fournir de catégories ou de repères."
+    }
+  ]
+}

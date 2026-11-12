@@ -1,0 +1,91 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ilss-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Échanger des informations nécessaires à la vie de classe.",
+  "concepts": [
+    "demande",
+    "reformulation",
+    "prise de parole"
+  ],
+  "preuve_attendue": "Participer à un échange scolaire de plusieurs tours.",
+  "prerequis_bloquants": [
+    "qc-pri-ilss-001"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ilss-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ilss-002-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Participer à un échange scolaire de plusieurs tours.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ilss-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Participer à un échange scolaire de plusieurs tours.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "dialogue de classe en dyade",
+        "objets et étiquettes fictifs",
+        "pictogrammes accessibles",
+        "aides de communication augmentée"
+      ],
+      "variables": {
+        "mode": "corpus_fixe_sans_tirage",
+        "scenarios": [
+          "materiel_classe",
+          "horaires_activite",
+          "rangement",
+          "organisation_affiche",
+          "changement_local"
+        ],
+        "details": "les valeurs et répliques autorisées sont figées dans la banque; aucune variable numérique libre"
+      },
+      "contraintes": [
+        "Un seul Kristal, un seul objectif obj-1 et critère crit-1.",
+        "Deux preuves de maîtrise distinctes q-009/q-010 sans indices de contenu.",
+        "Au moins trois interventions pertinentes de l’élève, alternées avec le partenaire.",
+        "Ne jamais noter accent, pays, identité ou situation personnelle.",
+        "Aucune génération libre non revue ni variation sans scénario prévalidé.",
+        "Supports de communication accessibles sans soufflage."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "I_informations_et_action",
+          "D_demande",
+          "R_reformulation",
+          "T_tours_et_autonomie"
+        ],
+        "echelle": "0–3, niveaux ancrés en comportements observables",
+        "seuil_preuve": "4 dimensions >=2, au moins 3 tours élève, sans soufflage",
+        "seuil_maitrise": "2 preuves satisfaisantes en contextes distincts; jamais une seule note"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

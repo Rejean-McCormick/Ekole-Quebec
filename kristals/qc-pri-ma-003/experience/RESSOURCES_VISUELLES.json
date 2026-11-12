@@ -1,0 +1,85 @@
+{
+  "format": "ekole.kristal-visual-layer/1.0",
+  "kristal_id": "qc-pri-ma-003",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "parcours": "authoring/PARCOURS.md",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Décomposer et recomposer des nombres grâce aux valeurs de position.",
+    "concepts": [
+      "unités",
+      "dizaines",
+      "centaines",
+      "base dix"
+    ]
+  },
+  "titre_source": "Valeur de position et regroupements",
+  "politique": "Concept uniquement. Aucun style, palette, rendu, outil d’IA ou modèle graphique imposé.",
+  "regle_image_manquante": "Afficher le prompt_conceptuel intégral à la place de l’image.",
+  "regle_image_existante": "Afficher l’image locale si elle est valide et disponible; sinon revenir au prompt.",
+  "liens_bibliotheque": {
+    "composants_envisages": [
+      {
+        "type": "jetons",
+        "statut": "suggestion_de_composant_a_verifier",
+        "validation": "aucune"
+      }
+    ],
+    "scenarios_existants": []
+  },
+  "statut": "proposition_a_valider",
+  "visuels": [
+    {
+      "slot": "concept",
+      "placement": "decouvrir",
+      "role": "illustration_de_notion",
+      "concept": "unités, dizaines, centaines",
+      "prompt_conceptuel": "Concept d'image pour le cours « Valeur de position et regroupements ». Représenter des objets et supports manipulables permettant de raisonner sur la notion mathématique. Mettre en évidence les notions : unités, dizaines, centaines, base dix. L'image doit aider à comprendre l'objectif « Décomposer et recomposer des nombres grâce aux valeurs de position. » en montrant les éléments pertinents et leurs relations. Ne pas intégrer de question, de solution ni de texte de correction.",
+      "texte_alternatif": "Illustration conceptuelle de Valeur de position et regroupements : unités, dizaines, centaines.",
+      "fichier_preferentiel": "experience/images/concept.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    },
+    {
+      "slot": "situation",
+      "placement": "explorer",
+      "role": "situation_de_transfert",
+      "concept": "unités, dizaines, centaines",
+      "prompt_conceptuel": "Concept d'image d'exploration pour « Valeur de position et regroupements » : montrer une situation quotidienne où les objets peuvent être comparés, groupés ou organisés. Faire apparaître une situation ouverte où l'apprenant peut observer, comparer, décrire ou discuter unités, dizaines, centaines, base dix. Cette image sert de point de départ à une activité liée à l'objectif « Décomposer et recomposer des nombres grâce aux valeurs de position. ». Ne pas représenter une réponse évaluée comme déjà résolue.",
+      "texte_alternatif": "Situation d’exploration pour Valeur de position et regroupements.",
+      "fichier_preferentiel": "experience/images/situation.webp",
+      "formats_acceptes": [
+        "webp",
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "dimensions": {
+        "reglage": "manuel_ulterieur",
+        "minimum_publication_px": [
+          120,
+          120
+        ]
+      },
+      "statut": "prompt_en_attente_image",
+      "outils_associes": [],
+      "verification_pedagogique": "requise",
+      "note_exactitude": "Les objets ou rapports exacts sont générés par les composants déterministes."
+    }
+  ]
+}

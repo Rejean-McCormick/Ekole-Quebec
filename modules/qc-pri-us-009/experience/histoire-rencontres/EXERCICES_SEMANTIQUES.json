@@ -1,0 +1,586 @@
+{
+  "format": "ekole.exercices-semantiques/1.0",
+  "statut": "entrainement_candidat_revue_pedagogique_necessaire",
+  "principe": "Les réponses automatiques suivent des références positives et une liste de distracteurs relue. Une relation absente du graphe n’est pas considérée comme fausse.",
+  "exercices": [
+    {
+      "id": "e01",
+      "mode": "choix",
+      "titre": "Un territoire déjà habité",
+      "periode_ref": "periode:avant-contact",
+      "question": "Avant l’établissement français de 1608, qui habitait déjà le territoire de l’actuel Québec ?",
+      "fact_id": "fait:peuples-avant",
+      "reponse_ref": "soc:peuples-autochtones-anterieurs",
+      "options": [
+        {
+          "ref": "soc:peuples-autochtones-anterieurs",
+          "label": "Des peuples autochtones de plusieurs nations"
+        },
+        {
+          "ref": "soc:etablissement-quebec",
+          "label": "L’établissement français fondé en 1608"
+        }
+      ],
+      "explication_courte": "Les peuples autochtones vivaient déjà sur ce territoire avant l’établissement colonial français.",
+      "explication_longue": "Plusieurs nations distinctes ont une histoire bien plus ancienne que l’arrivée des colons européens. La fondation d’un établissement français ne signifie pas que le territoire était vide. Il ne faut pas transposer les frontières du Québec actuel aux sociétés anciennes.",
+      "prerequis": [
+        "qc-pri-us-006"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e02",
+      "mode": "choix",
+      "titre": "Établissement colonial",
+      "periode_ref": "periode:1600-1650",
+      "question": "Quel événement se produit à Québec en 1608 ?",
+      "fact_id": "fait:champlain-1608",
+      "reponse_ref": "evenement:fondation-1608",
+      "options": [
+        {
+          "ref": "evenement:fondation-1608",
+          "label": "L’établissement français associé à Champlain"
+        },
+        {
+          "ref": "evenement:grande-paix",
+          "label": "La Grande Paix de Montréal"
+        }
+      ],
+      "explication_courte": "L’établissement français de Québec est associé à Champlain en 1608.",
+      "explication_longue": "La source de Parcs Canada situe cet établissement en 1608. La Grande Paix de Montréal est un événement beaucoup plus tardif, en 1701. Les Autochtones étaient déjà présents sur le territoire bien avant ces événements.",
+      "prerequis": [
+        "qc-pri-us-001"
+      ],
+      "review": "illustration_pedagogique_a_valider",
+      "pedagogical_bridge": "L’établissement français de Québec est un événement attesté de 1608."
+    },
+    {
+      "id": "e03",
+      "mode": "cloze",
+      "titre": "Un objet échangé",
+      "periode_ref": "periode:1600-1650",
+      "question": "Au début du XVIIe siècle, des partenaires ont échangé des objets manufacturés contre des _____.",
+      "fact_id": "fait:commerce-fourrures",
+      "reponse_ref": "ress:fourrures",
+      "options": [
+        {
+          "ref": "ress:fourrures",
+          "label": "fourrures"
+        },
+        {
+          "ref": "ress:accord",
+          "label": "accords de paix"
+        }
+      ],
+      "explication_courte": "La traite des fourrures faisait partie des échanges commerciaux.",
+      "explication_longue": "Dans ce contexte documenté, des partenaires autochtones et des marchands français échangeaient des fourrures et différents objets manufacturés. Cela ne représente pas toutes les relations ni toutes les nations.",
+      "prerequis": [
+        "qc-pri-us-003"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e04",
+      "mode": "choix",
+      "titre": "Qui commerçait ?",
+      "periode_ref": "periode:1600-1650",
+      "question": "Dans ce contexte de commerce des fourrures, les partenaires autochtones étaient-ils présents dans les échanges ?",
+      "fact_id": "fait:commerce-participation",
+      "reponse_ref": "reponse:oui",
+      "options": [
+        {
+          "ref": "reponse:oui",
+          "label": "Oui, ils avaient un rôle dans les échanges"
+        },
+        {
+          "ref": "reponse:non",
+          "label": "Non, les échanges étaient uniquement européens"
+        }
+      ],
+      "explication_courte": "Les partenaires autochtones avaient un rôle essentiel dans les réseaux de traite.",
+      "explication_longue": "Selon Parcs Canada, les Français dépendaient de partenaires et d’intermédiaires autochtones pour la traite. Décrire ce rôle ne signifie pas que toutes les nations vivaient de la même manière.",
+      "prerequis": [
+        "qc-pri-us-006"
+      ],
+      "review": "illustration_pedagogique_a_valider",
+      "distracteurs_revu": true
+    },
+    {
+      "id": "e05",
+      "mode": "choix",
+      "titre": "Une grande rencontre",
+      "periode_ref": "periode:1701",
+      "question": "Quel événement est associé à Montréal en 1701 ?",
+      "fact_id": "fait:paix-date",
+      "reponse_ref": "evenement:grande-paix",
+      "options": [
+        {
+          "ref": "evenement:fondation-1608",
+          "label": "L’établissement français de Québec en 1608"
+        },
+        {
+          "ref": "evenement:grande-paix",
+          "label": "La Grande Paix de Montréal"
+        }
+      ],
+      "explication_courte": "La Grande Paix de Montréal date de 1701.",
+      "explication_longue": "Le 4 août 1701, des représentants français et des délégués de nombreuses nations autochtones concluent un traité après des négociations.",
+      "prerequis": [
+        "qc-pri-us-001"
+      ],
+      "review": "illustration_pedagogique_a_valider",
+      "pedagogical_bridge": "La question relie la date du traité à son événement source explicite."
+    },
+    {
+      "id": "e06",
+      "mode": "cloze",
+      "titre": "Parler pour la paix",
+      "periode_ref": "periode:1701",
+      "question": "Pour préparer un accord de paix, les délégations doivent _____.",
+      "fact_id": "fait:paix-participants",
+      "reponse_ref": "tache:negocier",
+      "options": [
+        {
+          "ref": "tache:negocier",
+          "label": "négocier"
+        },
+        {
+          "ref": "tache:construire",
+          "label": "fonder un établissement"
+        }
+      ],
+      "explication_courte": "Négocier, c’est chercher une entente avec d’autres parties.",
+      "explication_longue": "Des délégués de plusieurs nations autochtones et des représentants français ont discuté et négocié. Chacune de ces nations avait ses propres intérêts; elles ne formaient pas un groupe uniforme.",
+      "prerequis": [
+        "qc-pri-us-004"
+      ],
+      "review": "illustration_pedagogique_a_valider",
+      "pedagogical_bridge": "choix basé sur relation attestée entre délégations et diplomatie; verbe prévalidé manuellement"
+    },
+    {
+      "id": "e07",
+      "mode": "choix",
+      "titre": "Un dirigeant wendat",
+      "periode_ref": "periode:1701",
+      "question": "Quel rôle est associé à Kondiaronk dans les négociations de 1701 ?",
+      "fact_id": "fait:kondiaronk",
+      "reponse_ref": "role:dirigeant-wendat",
+      "options": [
+        {
+          "ref": "role:gouverneur",
+          "label": "Gouverneur de la Nouvelle-France"
+        },
+        {
+          "ref": "role:dirigeant-wendat",
+          "label": "Dirigeant diplomatique wendat"
+        }
+      ],
+      "explication_courte": "Kondiaronk est un dirigeant wendat associé aux négociations.",
+      "explication_longue": "Kondiaronk a joué un rôle majeur dans les démarches qui ont conduit à la Grande Paix. Il ne représente pas automatiquement toutes les nations autochtones.",
+      "prerequis": [
+        "qc-pri-us-004"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e08",
+      "mode": "choix",
+      "titre": "Un gouverneur français",
+      "periode_ref": "periode:1701",
+      "question": "Quel rôle est associé à Louis-Hector de Callière pendant les négociations ?",
+      "fact_id": "fait:calliere",
+      "reponse_ref": "role:gouverneur",
+      "options": [
+        {
+          "ref": "role:gouverneur",
+          "label": "Gouverneur colonial français"
+        },
+        {
+          "ref": "role:dirigeant-wendat",
+          "label": "Dirigeant wendat"
+        }
+      ],
+      "explication_courte": "Callière était un gouverneur colonial français.",
+      "explication_longue": "En 1701, Callière a joué un rôle politique et diplomatique important au nom des autorités de la Nouvelle-France; cela ne lui donnait pas un rôle de dirigeant des nations autochtones.",
+      "prerequis": [
+        "qc-pri-us-004"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e09",
+      "mode": "choix",
+      "titre": "Plusieurs nations",
+      "periode_ref": "periode:1701",
+      "question": "Qui participe à la Grande Paix de Montréal de 1701 ?",
+      "fact_id": "fait:paix-participants",
+      "reponse_ref": "soc:delegations-1701",
+      "options": [
+        {
+          "ref": "soc:delegations-1701",
+          "label": "Des délégués de plusieurs nations autochtones, avec les représentants français"
+        },
+        {
+          "ref": "soc:autorites-francaises-1701",
+          "label": "Uniquement des autorités françaises"
+        }
+      ],
+      "explication_courte": "Des représentants autochtones de nombreuses nations participent aux négociations.",
+      "explication_longue": "Le traité résulte d’un processus de discussion entre plusieurs parties. Une délégation ne représente pas toutes les nations autochtones; les positions et alliances ont varié.",
+      "prerequis": [
+        "qc-pri-us-006"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e10",
+      "mode": "choix",
+      "titre": "Les nations existent aujourd’hui",
+      "periode_ref": "periode:actuel",
+      "question": "Aujourd’hui, les nations autochtones du Québec…",
+      "fact_id": "fait:vie-aujourdhui",
+      "reponse_ref": "concept:continuite",
+      "options": [
+        {
+          "ref": "concept:continuite",
+          "label": "continuent de vivre, de créer et de faire évoluer leurs cultures"
+        },
+        {
+          "ref": "concept:seulement-passe",
+          "label": "appartiennent seulement au passé"
+        }
+      ],
+      "explication_courte": "Les nations autochtones sont des peuples vivants d’aujourd’hui.",
+      "explication_longue": "Le Québec reconnaît onze nations autochtones distinctes. Leurs membres vivent dans leurs communautés ou ailleurs, et leurs langues, institutions et cultures continuent d’évoluer.",
+      "prerequis": [
+        "qc-pri-us-006"
+      ],
+      "review": "illustration_pedagogique_a_valider",
+      "distracteurs_revu": true
+    },
+    {
+      "id": "e11",
+      "mode": "associer",
+      "titre": "Rôles et responsabilités",
+      "periode_ref": "periode:1701",
+      "question": "Relie chaque personne à son rôle documenté en 1701.",
+      "fact_ids": [
+        "fait:kondiaronk",
+        "fait:calliere"
+      ],
+      "pairs": [
+        {
+          "left": "Kondiaronk",
+          "right": "Dirigeant diplomatique wendat",
+          "fact_id": "fait:kondiaronk"
+        },
+        {
+          "left": "Louis-Hector de Callière",
+          "right": "Gouverneur colonial français",
+          "fact_id": "fait:calliere"
+        }
+      ],
+      "explication_courte": "Chaque rôle appartient à une personne et à un contexte précis.",
+      "explication_longue": "Kondiaronk est identifié comme un dirigeant diplomatique wendat. Callière est gouverneur colonial français. Ils participent au même processus diplomatique sans exercer la même autorité.",
+      "prerequis": [
+        "qc-pri-us-004"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e12",
+      "mode": "ordonner",
+      "titre": "Repères de l’histoire",
+      "periode_ref": "periode:1701",
+      "question": "Place ces événements dans l’ordre, du plus ancien au plus récent.",
+      "fact_ids": [
+        "fait:alliance-1603",
+        "fait:champlain-1608",
+        "fait:paix-date"
+      ],
+      "elements": [
+        {
+          "label": "Alliances documentées à Tadoussac, 1603",
+          "year": 1603,
+          "fact_id": "fait:alliance-1603"
+        },
+        {
+          "label": "Établissement français de Québec, 1608",
+          "year": 1608,
+          "fact_id": "fait:champlain-1608"
+        },
+        {
+          "label": "Grande Paix de Montréal, 1701",
+          "year": 1701,
+          "fact_id": "fait:paix-date"
+        }
+      ],
+      "explication_courte": "1603 précède 1608, qui précède 1701.",
+      "explication_longue": "La chronologie permet de distinguer les contacts, l’établissement colonial et les grandes rencontres diplomatiques. Elle ne résume pas toutes les histoires des différentes nations.",
+      "prerequis": [
+        "qc-pri-us-001"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e13",
+      "mode": "choix",
+      "titre": "Que peut-on conclure ?",
+      "periode_ref": "periode:actuel",
+      "question": "Une source décrit le rôle de Kondiaronk. Peut-on en déduire que toutes les nations autochtones ont toujours le même système de gouvernance ?",
+      "fact_id": "fait:diversite-actuelle",
+      "reponse_ref": "methode:non-generaliser",
+      "options": [
+        {
+          "ref": "methode:non-generaliser",
+          "label": "Non. Chaque nation et chaque époque doivent être étudiées."
+        },
+        {
+          "ref": "methode:toutes-identiques",
+          "label": "Oui. Une personne représente tous les systèmes de gouvernance."
+        }
+      ],
+      "explication_courte": "Un exemple ne suffit pas pour décrire toutes les nations.",
+      "explication_longue": "Le modèle des sociétés permet de comparer des rôles et des tâches, mais il faut des sources propres à chaque nation et époque. Une société ne doit pas être résumée par une seule personne.",
+      "prerequis": [
+        "qc-pri-us-005",
+        "qc-pri-us-006"
+      ],
+      "review": "illustration_pedagogique_a_valider",
+      "distracteurs_revu": true
+    },
+    {
+      "id": "e14",
+      "mode": "humain",
+      "titre": "Comparer deux sources",
+      "periode_ref": "periode:1701",
+      "question": "Avec un adulte, compare la transcription historique du traité et le récit du musée. Que montre chacune ? Quelles voix et informations manquent ?",
+      "fact_ids": [
+        "fait:traitement-sources",
+        "fait:paix-participants"
+      ],
+      "sources_affichees": [
+        "src:pac-traite",
+        "src:pac-grande-paix"
+      ],
+      "criteres_observables": [
+        "Identifie le type de chaque document et sa provenance.",
+        "Repère au moins un fait commun sourcé.",
+        "Distingue la transcription coloniale des perspectives des nations participantes.",
+        "Explique ce que les documents ne permettent pas d’affirmer."
+      ],
+      "explication_courte": "Les documents ont des auteurs et des limites différents.",
+      "explication_longue": "La transcription est un document colonial de son époque; le texte muséal est une interprétation actuelle. Ni l’un ni l’autre ne remplace les points de vue directement exprimés par les nations concernées.",
+      "prerequis": [
+        "qc-pri-us-005"
+      ],
+      "review": "observation_humaine_obligatoire"
+    },
+    {
+      "id": "e15",
+      "mode": "choix",
+      "titre": "Les maisons longues wendat",
+      "periode_ref": "periode:traditions-historiques",
+      "question": "Selon le Conseil de la Nation Wendat, quels lieux regroupaient plusieurs familles dans des villages historiques ?",
+      "fact_id": "fait:wendat-maisons",
+      "reponse_ref": "ress:maison-longue",
+      "options": [
+        {
+          "ref": "ress:maison-longue",
+          "label": "Des maisons longues"
+        },
+        {
+          "ref": "ress:accord",
+          "label": "Des documents de traité"
+        }
+      ],
+      "explication_courte": "Les maisons longues regroupaient des familles dans des villages historiques wendat.",
+      "explication_longue": "La Nation Wendat décrit le rôle des maisons longues et des liens de clan dans son histoire. Cela ne veut pas dire que toutes les nations autochtones avaient la même architecture.",
+      "prerequis": [
+        "qc-pri-us-006"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e16",
+      "mode": "cloze",
+      "titre": "La famille dans la société wendat",
+      "periode_ref": "periode:traditions-historiques",
+      "question": "Dans l’organisation traditionnelle wendat décrite par la Nation, les _____ avaient un rôle central dans les clans et la transmission familiale.",
+      "fact_id": "fait:wendat-meres-clan",
+      "reponse_ref": "role:mere-clan-wendat",
+      "options": [
+        {
+          "ref": "role:mere-clan-wendat",
+          "label": "mères de clan"
+        },
+        {
+          "ref": "role:gouverneur",
+          "label": "gouverneurs de la Nouvelle-France"
+        }
+      ],
+      "explication_courte": "La Nation Wendat décrit le rôle central des mères de clan.",
+      "explication_longue": "Une organisation familiale matrilinéaire signifie que l’appartenance familiale se transmet par la lignée maternelle. Il s’agit d’une caractéristique documentée de la société wendat, pas d’une règle pour tous les peuples.",
+      "prerequis": [
+        "qc-pri-us-004",
+        "qc-pri-us-006"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e17",
+      "mode": "cloze",
+      "titre": "Le territoire innu",
+      "periode_ref": "periode:traditions-historiques",
+      "question": "Comment les Innus nomment-ils leur territoire dans la ressource Nametau innu ? _____",
+      "fact_id": "fait:innus-saisons",
+      "reponse_ref": "ress:nitassinan",
+      "options": [
+        {
+          "ref": "ress:nitassinan",
+          "label": "Nitassinan"
+        },
+        {
+          "ref": "ress:accord",
+          "label": "Grande Paix de Montréal"
+        }
+      ],
+      "explication_courte": "Le Nitassinan est un nom innu lié à leur territoire.",
+      "explication_longue": "Nametau innu présente les parcours des familles sur ce territoire selon des saisons et des ressources. Cela ne permet pas de représenter leurs droits territoriaux par une carte coloniale simplifiée.",
+      "prerequis": [
+        "qc-pri-us-003"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e18",
+      "mode": "choix",
+      "titre": "Gouvernance wendat aujourd’hui",
+      "periode_ref": "periode:actuel",
+      "question": "Selon la Nation Wendat, qui exerce aujourd’hui des responsabilités collectives de représentation et de services ?",
+      "fact_id": "fait:wendat-conseil-actuel",
+      "reponse_ref": "role:conseil-wendat-actuel",
+      "options": [
+        {
+          "ref": "role:conseil-wendat-actuel",
+          "label": "Le Conseil des élus de la Nation Wendat"
+        },
+        {
+          "ref": "role:gouverneur",
+          "label": "Le gouverneur colonial français de 1701"
+        }
+      ],
+      "explication_courte": "La Nation Wendat a ses propres institutions contemporaines.",
+      "explication_longue": "Le conseil wendat est décrit par la Nation elle-même comme chargé de représenter ses membres et de fournir certains services. Il ne faut pas projeter cette structure actuelle sur toutes les époques ou sur d’autres nations.",
+      "prerequis": [
+        "qc-pri-us-004"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e19",
+      "mode": "choix",
+      "titre": "Transmettre une langue vivante",
+      "periode_ref": "periode:actuel",
+      "question": "Dans un témoignage publié par Nametau innu, quelle transmission entre générations est importante ?",
+      "fact_id": "fait:innu-transmission",
+      "reponse_ref": "ress:langue-innue",
+      "options": [
+        {
+          "ref": "ress:langue-innue",
+          "label": "La langue innue"
+        },
+        {
+          "ref": "ress:fourrures",
+          "label": "La traite des fourrures de 1603"
+        }
+      ],
+      "explication_courte": "Des personnes innues parlent de l’importance de transmettre leur langue.",
+      "explication_longue": "Cette ressource contient des paroles de personnes innues sur les générations et leur langue. Un témoignage situe une expérience; il ne représente jamais la voix unique de tout un peuple.",
+      "prerequis": [
+        "qc-pri-us-006"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e20",
+      "mode": "choix",
+      "titre": "Après 1760",
+      "periode_ref": "periode:1760-1830",
+      "question": "Quel pouvoir colonial remplace celui de la Nouvelle-France après 1760 ?",
+      "fact_id": "fait:pouvoir-apres1760",
+      "reponse_ref": "soc:autorites-britanniques-apres1760",
+      "options": [
+        {
+          "ref": "soc:autorites-britanniques-apres1760",
+          "label": "Les autorités britanniques"
+        },
+        {
+          "ref": "soc:autorites-francaises-1701",
+          "label": "Les autorités coloniales françaises de 1701"
+        }
+      ],
+      "explication_courte": "Le régime colonial passe sous autorité britannique après 1760.",
+      "explication_longue": "Le changement de régime transforme l’administration et le commerce, mais les nations autochtones continuent d’exister avec leurs propres histoires et institutions.",
+      "prerequis": [
+        "qc-pri-us-008",
+        "qc-pri-us-010"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e21",
+      "mode": "cloze",
+      "titre": "Défendre son territoire",
+      "periode_ref": "periode:1760-1830",
+      "question": "En 1825, des représentants wendat se rendent en Grande-Bretagne pour présenter des revendications sur leur _____.",
+      "fact_id": "fait:wendat-1825",
+      "reponse_ref": "ress:territoire",
+      "options": [
+        {
+          "ref": "ress:territoire",
+          "label": "territoire"
+        },
+        {
+          "ref": "ress:fourrures",
+          "label": "commerce des fourrures"
+        }
+      ],
+      "explication_courte": "Des chefs wendat ont présenté des revendications territoriales.",
+      "explication_longue": "Le centre d’archives du Conseil de la Nation Wendat documente ce voyage. Des nations autochtones continuent de défendre leurs droits et leur territoire pendant et après les changements de régime colonial.",
+      "prerequis": [
+        "qc-pri-us-004",
+        "qc-pri-us-005"
+      ],
+      "review": "illustration_pedagogique_a_valider"
+    },
+    {
+      "id": "e22",
+      "mode": "humain",
+      "titre": "Les politiques coloniales et les enfants",
+      "periode_ref": "periode:19e-20e",
+      "question": "Avec un enseignant, discutons de pourquoi la séparation forcée d’enfants de leur famille et de leur langue a causé des injustices, et des moyens actuels de respecter les peuples et leurs langues.",
+      "fact_ids": [
+        "fait:pensionnats",
+        "fait:innu-transmission"
+      ],
+      "sources_affichees": [
+        "src:pc-pensionnats",
+        "src:nametau-temoignage"
+      ],
+      "criteres_observables": [
+        "Reconnaît la séparation forcée comme une injustice, avec langage adapté à l’âge.",
+        "Respecte les personnes qui ont vécu ces événements et leurs familles.",
+        "Observe que les nations autochtones restent vivantes et ont des initiatives culturelles et linguistiques.",
+        "N’attribue pas à tous les peuples une même expérience ni un même passé."
+      ],
+      "explication_courte": "Des politiques coloniales ont causé des injustices durables à des enfants et à leurs familles.",
+      "explication_longue": "Les gouvernements et institutions ont imposé des pensionnats où des enfants ont été séparés de leurs familles, de leurs langues et de leurs cultures. Le sujet est sensible : un adulte accompagne la discussion, sans montrer d’images choquantes ni transformer la souffrance en jeu.",
+      "prerequis": [
+        "qc-pri-us-005",
+        "qc-pri-ccq-011"
+      ],
+      "review": "observation_humaine_et_accompagnement_obligatoires"
+    }
+  ]
+}

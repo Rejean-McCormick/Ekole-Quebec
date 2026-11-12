@@ -1,0 +1,88 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-eps-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Adapter marche, course, saut ou déplacement à un espace et une consigne.",
+  "concepts": [
+    "locomotion",
+    "trajectoire",
+    "vitesse",
+    "sécurité"
+  ],
+  "preuve_attendue": "Réaliser un parcours varié avec contrôle des déplacements.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-eps-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-eps-002-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Réaliser un parcours varié avec contrôle des déplacements.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-eps-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Réaliser un parcours varié avec contrôle des déplacements.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "plan_simple",
+        "consigne_orale",
+        "repères_visuels_au_sol",
+        "observation_de_performance",
+        "reponse_gestuelle_ou_orale"
+      ],
+      "variables": {
+        "scenario_controle": "choix parmi deux situations rédigées par item, et non génération libre",
+        "voie": "tracé plat validé, virage droit ou gauche selon le cas, sans confrontation temporelle",
+        "modalite": "marche, propulsion avec aide ou autre locomotion sûre selon accès individuel"
+      },
+      "contraintes": [
+        "surveillance et autorisation adultes; sol accessible et dégagé; un seul passage par voie ou voies séparées",
+        "aucun chrono, classement, obstacle en hauteur, saut obligatoire ou essai risqué",
+        "consignes explicites avant départ, annonce assez tôt pour arrêt sûr; droit d’arrêt",
+        "conditions d’accès ajustables sans modifier les dimensions trajectoire/allure/sécurité/choix",
+        "deux preuves dans des contextes différents, dont une sans indices; interventions de sécurité annulent l’essai autonomement évalué",
+        "scénarios à corpus fermé dans BANQUE_ITEMS.json; aucune IA libre pour valider la performance"
+      ],
+      "barreme_ou_rubrique": {
+        "modalite": "grille descriptive sans score de vitesse",
+        "dimensions": {
+          "trajectoire": "suit un chemin intentionnel et effectue ses changements de direction",
+          "adaptation_allure": "ralentit/varie à propos sans vitesse cible",
+          "securite": "vérifie la voie, s’arrête volontairement et évite le risque",
+          "choix": "explique ou montre un choix relié à la situation"
+        },
+        "niveaux": [
+          "autonome_et_sûr",
+          "avec_indice",
+          "non_observe",
+          "non_evaluable_securite"
+        ],
+        "regle_decision": "deux preuves autonomes sûres sur deux contextes distincts; voir GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "source locale: authoring/PARCOURS.md et CONTRAT_PEDAGOGIQUE.json de l’archive maîtresse v1.2",
+        "scénarios, grilles et exemples rédigés originalement; non homologués"
+      ],
+      "seed": 2026002,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

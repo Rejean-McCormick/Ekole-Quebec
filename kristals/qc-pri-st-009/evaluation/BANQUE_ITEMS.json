@@ -1,0 +1,402 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-009",
+  "family_id": "qc-pri-st-009-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-009-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris (ou dis) une observation et une explication différentes du changement sur la feuille.",
+      "stimulus": "A : une DEL sur piles éclaire une feuille blanche. B : sans déplacer la DEL ni la feuille, on insère un carton opaque entre les deux; une zone du papier devient moins éclairée.",
+      "reponse_attendue": "Observation : « Une zone de la feuille est moins éclairée en B qu’en A. » Explication : « Le carton opaque intercepte une partie de la lumière de la DEL avant qu’elle atteigne cette zone. »",
+      "criteres": [
+        "Décrit fidèlement la différence A/B sans l’expliquer dans la phrase d’observation.",
+        "Nomme le carton comme obstacle interceptant une partie de la lumière et la DEL comme source."
+      ],
+      "feedback": "Si tu as écrit « le carton bloque la lumière » comme observation, c’est plutôt une explication. D’abord décris ce qui est visible, ensuite pourquoi.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte ou description A/B",
+      "source_interne": "observation_ombre",
+      "securite": "Pas d’orientation lumineuse vers les yeux, de laser, flamme ou secteur; volume bas et adulte responsable.",
+      "accessibilite": "Accepter oral, dessin annoté, texte ou dictée pour le même raisonnement; ne pas noter une modalité sensorielle étrangère à l’objectif.",
+      "preuve_maitrise": false,
+      "limites_de_variation": "Aucune : stimulus et corrigé fixés."
+    },
+    {
+      "item_id": "qc-pri-st-009-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans ce contexte, quel objet émet lui-même la lumière? Quel est le rôle du miroir? Explique pourquoi une zone de lumière apparaît sur le papier.",
+      "stimulus": "Une DEL allumée éclaire un miroir ordinaire immobile. Le miroir renvoie la lumière vers un papier placé sur le côté. Aucun autre appareil lumineux n’est dans la scène.",
+      "reponse_attendue": "La DEL allumée est la source qui émet; le miroir ne crée pas la lumière : il réfléchit une partie de la lumière reçue vers le papier.",
+      "criteres": [
+        "Identifie la DEL comme source émettrice.",
+        "Distingue réflexion et émission.",
+        "Relie le trajet à l’éclairement du papier."
+      ],
+      "feedback": "Regarde l’origine du rayon : le miroir redirige une lumière reçue, il n’est pas nécessairement une lampe.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "description de trajet lumineux",
+      "source_interne": "source_et_reflexion",
+      "securite": "Pas d’orientation lumineuse vers les yeux, de laser, flamme ou secteur; volume bas et adulte responsable.",
+      "accessibilite": "Accepter oral, dessin annoté, texte ou dictée pour le même raisonnement; ne pas noter une modalité sensorielle étrangère à l’objectif.",
+      "preuve_maitrise": false,
+      "limites_de_variation": "Aucune : stimulus et corrigé fixés."
+    },
+    {
+      "item_id": "qc-pri-st-009-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Prévois laquelle de deux feuilles perturbe davantage la lumière et justifie sans dire que le film transparent ne change absolument rien.",
+      "stimulus": "On place alternativement, dans les mêmes positions entre une DEL et un écran blanc, (A) du carton opaque et (B) un film plastique transparent incolore propre.",
+      "reponse_attendue": "Le carton opaque intercepte nettement la lumière et peut créer une région fortement moins éclairée. Le film transparent transmet généralement une grande partie du visible; des reflets ou une faible atténuation restent possibles.",
+      "criteres": [
+        "Prédit une ombre plus marquée derrière le carton dans ce montage.",
+        "Reconnait une transmission majoritaire possible dans le film transparent.",
+        "Évite le mot « aucune interaction » pour le film."
+      ],
+      "feedback": "Opaque et transparent ne signifient pas seulement « noir » et « blanc »; demande-toi quelle proportion de lumière passe réellement.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "tableau comparatif des matériaux",
+      "source_interne": "opaque_transparent",
+      "securite": "Pas d’orientation lumineuse vers les yeux, de laser, flamme ou secteur; volume bas et adulte responsable.",
+      "accessibilite": "Accepter oral, dessin annoté, texte ou dictée pour le même raisonnement; ne pas noter une modalité sensorielle étrangère à l’objectif.",
+      "preuve_maitrise": false,
+      "limites_de_variation": "Aucune : stimulus et corrigé fixés."
+    },
+    {
+      "item_id": "qc-pri-st-009-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète la chaîne et indique si le son pourrait se propager pareillement dans le vide.",
+      "stimulus": "Une petite bande sans latex vibre doucement; une personne l’entend dans une pièce. Compléter : bande vibrante → ______ → ______.",
+      "reponse_attendue": "bande vibrante → air (milieu matériel transmettant l’onde sonore) → oreille (récepteur). Non, le son ne se transmet pas dans le vide.",
+      "criteres": [
+        "Identifie le corps vibrant comme source du son.",
+        "Nomme l’air comme milieu de propagation et l’oreille comme récepteur.",
+        "Affirme que le son nécessite un milieu matériel."
+      ],
+      "feedback": "Le son ne saute pas directement de l’objet à l’oreille sans milieu; l’air transmet les perturbations.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "chaîne source–milieu–récepteur",
+      "source_interne": "propagation_sonore",
+      "securite": "Pas d’orientation lumineuse vers les yeux, de laser, flamme ou secteur; volume bas et adulte responsable.",
+      "accessibilite": "Accepter oral, dessin annoté, texte ou dictée pour le même raisonnement; ne pas noter une modalité sensorielle étrangère à l’objectif.",
+      "preuve_maitrise": false,
+      "limites_de_variation": "Aucune : stimulus et corrigé fixés."
+    },
+    {
+      "item_id": "qc-pri-st-009-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Sépare les faits et l’explication de la baisse du son; mentionne une limite possible.",
+      "stimulus": "Dans la même pièce calme, une règle souple solidement tenue à un bout est mise doucement en vibration. Après avoir légèrement touché la partie mobile, on remarque que le mouvement faiblit rapidement et que le son perçu s’atténue.",
+      "reponse_attendue": "Faits : la règle oscillait puis ses oscillations ont diminué; le son perçu s’est atténué. Inférence : freiner la vibration de la source diminue la production du son transmis par l’air. Limite : un son non entendu peut encore être très faible, sans vibration forcément nulle.",
+      "criteres": [
+        "Distingue mouvement et son comme observations.",
+        "Relie amortissement de vibration et atténuation sonore.",
+        "Énonce au moins une limite de perception ou de montage."
+      ],
+      "feedback": "Le son entendu est une observation; « la vibration cause le son » est une explication soutenue, pas la même phrase.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "observations et modèle",
+      "source_interne": "amortissement_vibration",
+      "securite": "Pas d’orientation lumineuse vers les yeux, de laser, flamme ou secteur; volume bas et adulte responsable.",
+      "accessibilite": "Accepter oral, dessin annoté, texte ou dictée pour le même raisonnement; ne pas noter une modalité sensorielle étrangère à l’objectif.",
+      "preuve_maitrise": false,
+      "limites_de_variation": "Aucune : stimulus et corrigé fixés."
+    },
+    {
+      "item_id": "qc-pri-st-009-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Corrige cette expérience pour n’avoir qu’une seule variable modifiée et nomme une observation valable.",
+      "stimulus": "Sam change en même temps sa lampe, son carton et la distance de la feuille; il prétend que seule la distance change la taille de l’ombre.",
+      "reponse_attendue": "Expérience corrigée possible : garder la même lampe, feuille, intensité ambiante et carton; comparer A carton hors du faisceau, B carton dans le faisceau; observer l’apparition d’une zone moins éclairée. Il serait aussi possible de comparer deux positions du même carton, mais il faut conserver les autres paramètres.",
+      "criteres": [
+        "Repère qu’on ne peut isoler la cause quand plusieurs variables changent.",
+        "Conçoit A/B avec une seule variable volontairement modifiée.",
+        "Définit une observation visible testable."
+      ],
+      "feedback": "Quand lampe, cache et distance changent ensemble, plusieurs explications restent possibles; refais en ne changeant qu’une condition.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "plan expérimental A/B",
+      "source_interne": "controle_de_variables",
+      "securite": "Pas d’orientation lumineuse vers les yeux, de laser, flamme ou secteur; volume bas et adulte responsable.",
+      "accessibilite": "Accepter oral, dessin annoté, texte ou dictée pour le même raisonnement; ne pas noter une modalité sensorielle étrangère à l’objectif.",
+      "preuve_maitrise": false,
+      "limites_de_variation": "Aucune : stimulus et corrigé fixés."
+    },
+    {
+      "item_id": "qc-pri-st-009-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-009-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Interprète la différence entre les deux états et précise ce qui peut rendre le contraste faible en classe.",
+      "stimulus": "Variante A active — Source et feuille fixes : A, un petit disque opaque est hors du faisceau d’une DEL à piles; B, le disque se trouve dans le faisceau. Les autres lampes de la pièce restent dans le même état.",
+      "reponse_attendue": "Le disque intercepte une partie de la lumière de la DEL en B, donnant une zone moins éclairée sur l’écran; d’autres sources ou la diffusion ambiante peuvent rendre l’ombre moins contrastée.",
+      "criteres": [
+        "Identifie source, obstacle et écran.",
+        "Prédit/constate une ombre dans l’état bloqué et relie à l’interception.",
+        "Relève que l’éclairage ambiant peut réduire le contraste."
+      ],
+      "feedback": "Repère d’abord le faisceau bloqué. Tu ne dois pas prédire un noir absolu si la pièce contient d’autres sources.",
+      "difficulte": "intermediaire",
+      "seed": "st009-q007-catalogue-v1-A",
+      "parametres": {
+        "selection": "Sans hasard : utiliser variante_id=A. Pour B : approbation humaine explicite; l’algorithme se limite à rechercher la clé (item_id, variante_id) dans ce dictionnaire, sans génération.",
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "constantes": [
+          "DEL à piles fixe",
+          "écran de papier blanc fixe",
+          "une seule carte opaque",
+          "autre éclairage stable",
+          "adulte présent"
+        ],
+        "variantes": {
+          "A": {
+            "stimulus": "A : petit disque de carton hors du faisceau. B : disque dans le faisceau.",
+            "observation_cible": "Zone moins éclairée lorsque le disque est dans le faisceau.",
+            "explication": "Obstruction partielle des rayons de la DEL."
+          },
+          "B": {
+            "stimulus": "A : triangle de carton hors du faisceau. B : triangle dans le faisceau.",
+            "observation_cible": "Zone moins éclairée lorsque le triangle est dans le faisceau.",
+            "explication": "Obstruction partielle des rayons de la DEL."
+          }
+        },
+        "validation_variantes": {
+          "A": "coherence_logique_revue_technique",
+          "B": "a_revoir_avant_utilisation"
+        },
+        "seed_algorithme": "clé littérale stable : qc-pri-st-009-q-007 + \":\" + variante_id; aucun tirage aléatoire"
+      },
+      "validation_status": "a_revoir",
+      "representation": "scénario A/B à corpus fermé",
+      "source_interne": "scenario_lumiere_corpus_S-L",
+      "securite": "Pas d’orientation lumineuse vers les yeux, de laser, flamme ou secteur; volume bas et adulte responsable.",
+      "accessibilite": "Accepter oral, dessin annoté, texte ou dictée pour le même raisonnement; ne pas noter une modalité sensorielle étrangère à l’objectif.",
+      "preuve_maitrise": false,
+      "limites_de_variation": "Exclusivement les variantes A et B énumérées, variante A active; B sous réserve de revue humaine."
+    },
+    {
+      "item_id": "qc-pri-st-009-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-009-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Dans ce contexte, sépare le fait et le modèle; explique pourquoi « je n’entends plus rien » ne prouve pas une vibration absolument nulle.",
+      "stimulus": "Variante A active — Un adulte frappe très doucement une petite membrane souple de tambour de table : on la voit osciller brièvement. Quand il la touche doucement, le mouvement s’amortit et le son perçu diminue dans une pièce calme.",
+      "reponse_attendue": "Observation : oscillation de la membrane puis amortissement; son audible qui diminue s’il était perceptible. Modèle : membrane vibrante → air en vibration → oreille. Un son peut devenir trop faible pour être perçu sans que toute vibration cesse immédiatement.",
+      "criteres": [
+        "Distingue constat de l’explication.",
+        "Relie la source vibrante et la propagation par l’air.",
+        "Ne traite pas la limite d’audibilité comme preuve absolue."
+      ],
+      "feedback": "Ton oreille renseigne sur ce que tu perçois; observe aussi la membrane et parle de degré de certitude.",
+      "difficulte": "transfert",
+      "seed": "st009-q008-catalogue-v1-A",
+      "parametres": {
+        "selection": "Clé variante_id=A imposée; B seulement après relecture humaine et contrôle de montage. Aucun texte ajouté.",
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "constantes": [
+          "source sonore douce",
+          "pas de volume imposé",
+          "milieu air présent",
+          "observation visuelle possible",
+          "pas de manipulation dangereuse"
+        ],
+        "variantes": {
+          "A": {
+            "stimulus": "Peau souple d’un tambour de table frappée très doucement, puis freinée avec la main.",
+            "observation_cible": "La peau bouge puis s’immobilise; le son s’atténue (si audible).",
+            "explication": "La membrane vibrante met l’air en vibration, puis cesse progressivement."
+          },
+          "B": {
+            "stimulus": "Feuille de plastique souple tenue par adulte, mise en vibration très doucement puis immobilisée.",
+            "observation_cible": "Le plastique bouge puis s’immobilise; son éventuel s’atténue.",
+            "explication": "Le plastique vibrant met l’air en vibration; audibilité non garantie."
+          }
+        },
+        "validation_variantes": {
+          "A": "coherence_logique_revue_technique",
+          "B": "a_revoir_avant_utilisation"
+        },
+        "seed_algorithme": "clé littérale stable : qc-pri-st-009-q-008 + \":\" + variante_id; aucun tirage aléatoire"
+      },
+      "validation_status": "a_revoir",
+      "representation": "scénario sonore contrôlé",
+      "source_interne": "scenario_son_corpus_S-S",
+      "securite": "Pas d’orientation lumineuse vers les yeux, de laser, flamme ou secteur; volume bas et adulte responsable.",
+      "accessibilite": "Accepter oral, dessin annoté, texte ou dictée pour le même raisonnement; ne pas noter une modalité sensorielle étrangère à l’objectif.",
+      "preuve_maitrise": false,
+      "limites_de_variation": "Exclusivement les variantes A et B énumérées, variante A active; B sous réserve de revue humaine."
+    },
+    {
+      "item_id": "qc-pri-st-009-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-009-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Démontre par toi-même une variation de lumière dans ce petit théâtre : réalise deux états comparables, consigne les faits et explique pourquoi la silhouette devient visible ou non en ombre. Fais un schéma ou explique oralement et signale toute limite.",
+      "stimulus": "PREUVE 1 — Atelier théâtre d’ombres, variante A : l’adulte a fixé une DEL à piles et un écran blanc de papier mat; une silhouette opaque de petit château en carton est disponible sur un socle sécurisé. Sans déplacer la lampe ou l’écran, compare A : château hors du trajet lumineux; B : château dans le trajet. Tu décides et pilotes le placement; l’adulte n’explique pas.",
+      "reponse_attendue": "Preuve observable : (1) consignes de sécurité respectées; (2) même lampe, même écran, même environnement, seul placement du château change; (3) observation A : écran davantage éclairé à l’endroit visé, B : région moins éclairée, qui n’est pas nécessairement noire; (4) source = DEL, obstacle = château opaque, propagation lumineuse partiellement interceptée; (5) interprétation personnelle distincte des faits et éventuellement limite d’éclairage ambiant. Si aucun contraste n’est perceptible, l’élève le rapporte honnêtement et l’adulte ajuste le dispositif pour un nouvel essai, sans attribuer un résultat inexistant.",
+      "criteres": [
+        "P1 sécurité : aucune action dangereuse, matériel vérifié par adulte.",
+        "P2 protocole : une seule variable modifiée; états A/B comparables.",
+        "P3 observations : trace réellement observée des deux états, sans inventer le contraste.",
+        "P4 explication : source lumineuse et interception de lumière par la silhouette; ombre comprise comme région moins éclairée.",
+        "P5 autonomie : choix, manipulation/direction et justification sans indice scientifique; limites identifiées si nécessaire."
+      ],
+      "feedback": "Si la zone sombre n’est pas observable, ce n’est pas une faute scientifique d’en faire état : vérifie avec l’adulte la stabilité du faisceau et l’éclairage, puis refais. Si tu as changé la lampe aussi, reprends avec une seule variable.",
+      "difficulte": "transfert",
+      "seed": "st009-q009-catalogue-v1-A",
+      "parametres": {
+        "selection": "Variante A fixée pour utilisation initiale; variante B non activable sans revue du montage et de la grille.",
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "constantes": [
+          "lampe DEL à piles immobile",
+          "écran blanc fixé",
+          "classe avec éclairage stable",
+          "carton opaque déjà préparé par adulte",
+          "aucun faisceau vers les yeux"
+        ],
+        "variantes": {
+          "A": {
+            "materiel": "Lampe à DEL, écran blanc, silhouette opaque de petit château en carton, socle stable.",
+            "action": "Comparer silhouette hors du faisceau / dans le faisceau.",
+            "constat_cible": "Apparition d’une zone moins éclairée correspondant approximativement à la silhouette.",
+            "modele": "Un cache opaque intercepte une partie de la lumière."
+          },
+          "B": {
+            "materiel": "Même lampe/écran; silhouette opaque de petit arbre en carton préparée.",
+            "action": "Comparer silhouette hors du faisceau / dans le faisceau.",
+            "constat_cible": "Apparition d’une zone moins éclairée correspondant approximativement à l’arbre.",
+            "modele": "Un cache opaque intercepte une partie de la lumière."
+          }
+        },
+        "validation_variantes": {
+          "A": "redaction_revue_technique",
+          "B": "necessite_essai_et_validation_humaine"
+        },
+        "seed_algorithme": "aucun hasard; la concaténation (item_id, \":\", variante_id) identifie le seul protocole permis"
+      },
+      "validation_status": "a_revoir",
+      "representation": "manipulation réelle théâtre et fiche A/B",
+      "source_interne": "preuve_maitrise_ombre",
+      "securite": "Pas d’orientation lumineuse vers les yeux, de laser, flamme ou secteur; volume bas et adulte responsable.",
+      "accessibilite": "Accepter oral, dessin annoté, texte ou dictée pour le même raisonnement; ne pas noter une modalité sensorielle étrangère à l’objectif.",
+      "preuve_maitrise": true,
+      "limites_de_variation": "Exclusivement les variantes A et B énumérées, variante A active; B sous réserve de revue humaine."
+    },
+    {
+      "item_id": "qc-pri-st-009-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-009-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Démontre une variation de son par une manipulation douce et sûre de la source. Comparer deux états, distinguer ce que tu as vu et entendu de ton interprétation; explique comment le son atteint quelqu’un et indique toute difficulté d’audibilité.",
+      "stimulus": "PREUVE 2 — Coin « mini-instrument », variante A : un adulte a fixé une bande sans latex faiblement tendue à une boîte rigide de carton stable. A : tu la pinces doucement puis relâches et observes la vibration (et écoutes si possible à distance normale). B : tu refais avec un mouvement comparable et l’amortis aussitôt doucement avec un doigt. L’adulte ne fournit aucun indice scientifique.",
+      "reponse_attendue": "Preuve observable : (1) matériel stable, petite amplitude, visage éloigné, pas de son fort; (2) même montage, même pièce, vibration libre puis amortie; (3) oscillations présentes puis freinées; perception sonore éventuellement plus brève en B, sans observation inventée; (4) bande est la source vibrante, air le milieu de transmission, oreille le récepteur; (5) explication autonome et limite d’audibilité reconnue. Si la source ne vibre pas ou qu’aucune variation vérifiable n’est possible, le montage est corrigé par l’adulte et la preuve est recommencée dans des conditions sûres.",
+      "criteres": [
+        "P1 sécurité : manipulation calme d’un dispositif vérifié; aucune mise en tension dangereuse.",
+        "P2 protocole : deux essais aussi semblables que possible, sauf amortissement.",
+        "P3 observations : vibration et amortissement effectivement décrits, son rapporté seulement s’il est perceptible.",
+        "P4 explication : source vibrante → milieu air → récepteur; vibration et atténuation du son reliées avec prudence.",
+        "P5 autonomie : geste ou direction, comparaison et explication sans indice; limite sensorielle correctement prise en compte."
+      ],
+      "feedback": "Observe la bande : elle peut vibrer même si le bruit ambiant empêche de l’entendre. N’écris pas que tu as entendu un son si ce n’est pas le cas; rapporte-le et cherche une autre trace sûre.",
+      "difficulte": "transfert",
+      "seed": "st009-q010-catalogue-v1-A",
+      "parametres": {
+        "selection": "Variante A active. Variante B réservée à nouvelle expérimentation encadrée et validation pédagogique.",
+        "variables": {
+          "variante_id": [
+            "A",
+            "B"
+          ]
+        },
+        "constantes": [
+          "son doux et bref",
+          "source mécaniquement fixée et vérifiée par adulte",
+          "même salle",
+          "aucun tir ou fil dirigé vers les visages",
+          "audibilité non obligatoire si traces de vibration vérifiables"
+        ],
+        "variantes": {
+          "A": {
+            "materiel": "Bande élastique sans latex peu tendue, attachée par l’adulte sur boîte rigide de carton stable.",
+            "action": "Pincer très doucement, observer mouvement et son éventuel; répéter puis effleurer pour amortir vite.",
+            "constat_cible": "Oscillations de la bande, puis ralentissement accéléré par amortissement; son plus bref si audible.",
+            "modele": "Bande vibrante → air → oreille."
+          },
+          "B": {
+            "materiel": "Règle plastique souple sans bord coupant fixée par adulte à 3 cm du bord d’une table; hors des visages.",
+            "action": "Défléchir très légèrement et relâcher, puis amortir; comparer vibrations sans imposer audibilité.",
+            "constat_cible": "Oscillations puis amortissement; son éventuel plus bref.",
+            "modele": "Règle vibrante → air → oreille."
+          }
+        },
+        "validation_variantes": {
+          "A": "redaction_revue_technique",
+          "B": "necessite_essai_et_validation_humaine"
+        },
+        "seed_algorithme": "aucun hasard; (item_id, \":\", variante_id) pointe un seul protocole dans le catalogue"
+      },
+      "validation_status": "a_revoir",
+      "representation": "manipulation sonore et fiche A/B",
+      "source_interne": "preuve_maitrise_son",
+      "securite": "Pas d’orientation lumineuse vers les yeux, de laser, flamme ou secteur; volume bas et adulte responsable.",
+      "accessibilite": "Accepter oral, dessin annoté, texte ou dictée pour le même raisonnement; ne pas noter une modalité sensorielle étrangère à l’objectif.",
+      "preuve_maitrise": true,
+      "limites_de_variation": "Exclusivement les variantes A et B énumérées, variante A active; B sous réserve de revue humaine."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-mu-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Discriminer sons et silences selon des propriétés audibles.",
+  "concepts": [
+    "durée",
+    "intensité",
+    "hauteur",
+    "timbre",
+    "silence"
+  ],
+  "preuve_attendue": "Classer des extraits sonores selon deux critères expliqués.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-mu-001-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Classer des extraits sonores selon deux critères expliqués.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_autorise": "fixe",
+        "controle_solution": "table de vérité des recettes; vérification algorithmique des durées/frequences/silences; écoute humaine encore requise",
+        "interdiction_ajoutee": "aucune synthèse ou substitution audio non contrôlée et aucun tirage IA libre"
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-mu-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "ecoute_comparative",
+        "matrice_2x2",
+        "partition_evenementielle",
+        "production_observee"
+      ],
+      "variables": {
+        "catalogue_fixe": "01_NOTIONS_ET_EXEMPLES.md : identifiants D,E,G,P,Q,U,S,A,B,X,R ; voir protocole de synthèse",
+        "mode": "fixe; ordre des diffusions préannoncé, sans tirage libre"
+      },
+      "contraintes": [
+        "stimuli fixes et originales",
+        "validation auditive humaine locale avant emploi",
+        "volume confortable sans signal soudain",
+        "même appareil, même réglage général pour chaque comparaison",
+        "deux critères justifiés et deux contextes distincts",
+        "pas de question sur les préférences ou capacités physiologiques",
+        "aucun son sous droit tiers inclus"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "preuves": [
+          "qc-pri-mu-001-q-009",
+          "qc-pri-mu-001-q-010"
+        ],
+        "classement_par_preuve": "3 sur 4 sons classés correctement sur les deux axes",
+        "explications_par_preuve": "2 sur 2, une par critère, adossées à un indice observable",
+        "regle": "deux preuves indépendantes dans deux contextes différents; pas de moyenne globale"
+      },
+      "source": [
+        "frame v1.2 du workspace",
+        "catalogue original de sons créé pour ce Kristal",
+        "NIH/NIDCD : principes acoustiques et sécurité (voir sources/REFERENCES_CONTENU.md)"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_attente_revue_humaine",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

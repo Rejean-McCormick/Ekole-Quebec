@@ -1,0 +1,113 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-023",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Classer des figures planes à partir de propriétés observables.",
+  "concepts": [
+    "côtés",
+    "sommets",
+    "parallélisme",
+    "figure"
+  ],
+  "preuve_attendue": "Trier de nouvelles figures et expliquer un cas de non-appartenance.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-ma-021"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-023-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Trier de nouvelles figures et expliquer un cas de non-appartenance.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ma-023",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Trier de nouvelles figures et expliquer un cas de non-appartenance.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "tiges/manipulation",
+        "coordonnées sur quadrillage",
+        "description textuelle des sommets",
+        "justification orale ou écrite"
+      ],
+      "variables": {
+        "seed": {
+          "min": 0,
+          "max": 1023,
+          "type": "entier"
+        },
+        "t": "seed%4",
+        "k": "1+(seed//4)%2",
+        "a": "14+(seed//8)%5",
+        "b": "14+(seed//40)%5",
+        "corpus": [
+          "T",
+          "R",
+          "L",
+          "TR",
+          "TR2",
+          "I",
+          "P",
+          "K"
+        ]
+      },
+      "contraintes": [
+        "figures dans un corpus de polygones simples convexes à sommets entiers",
+        "sommets en ordre, dernier joint au premier",
+        "rotation par multiples de 90°, échelle entière 1 ou 2, translation bornée",
+        "solution exacte par produits croisés et second validateur de directions normalisées",
+        "aucune création IA non contrôlée",
+        "correspondance identique objectif/critère/famille"
+      ],
+      "barreme_ou_rubrique": {
+        "classement": "toutes les appartenances correctes",
+        "proprietes": "nombre de côtés et paires parallèles correctement relevés",
+        "non_appartenance": "un rejet dûment justifié par une propriété exacte",
+        "maitrise": "deux tâches autonomes q-011 et q-012 dans contextes différents, aucune compensation par score unique"
+      },
+      "source": [
+        "kristals/qc-pri-ma-023/authoring/PARCOURS.md",
+        "kristals/qc-pri-ma-023/evaluation/BANQUE_ITEMS.json",
+        "kristals/qc-pri-ma-023/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": {
+        "plage": [
+          0,
+          1023
+        ],
+        "exemples": [
+          245,
+          306,
+          415,
+          729
+        ],
+        "calcul": "t = seed mod 4; k = 1 + (floor(seed/4) mod 2); a = 14 + (floor(seed/8) mod 5); b = 14 + (floor(seed/40) mod 5); R0(x,y)=(x,y), R1(x,y)=(-y,x), R2(x,y)=(-x,-y), R3(x,y)=(y,-x); nouveau sommet = (a,b)+k*Rt(ancien sommet)."
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2",
+  "critere_id": "crit-1",
+  "production_notes": {
+    "revision_delta": "1.2-contenu-prepare",
+    "items_instancies": 12,
+    "manifeste": "kristals/qc-pri-ma-023/livraison/MANIFEST.json",
+    "qualite": "revue humaine requise; aucun statut de certification"
+  }
+}

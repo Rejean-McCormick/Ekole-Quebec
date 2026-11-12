@@ -1,0 +1,331 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-eps-010",
+  "family_id": "qc-pri-eps-010-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "mode_privilegie": "observation_ou_production",
+  "modalites_valides": [
+    "calendrier écrit",
+    "calendrier dicté mot à mot",
+    "cartes sur calendrier avec justification orale transcrite"
+  ],
+  "certification": "aucune — banque à réviser par personne compétente",
+  "items": [
+    {
+      "item_id": "qc-pri-eps-010-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Repère deux propositions possibles et justifie deux exclusions. Aucune activité à exécuter.",
+      "stimulus": "Lina aime les danses douces et les jeux de gestes. La salle scolaire est ouverte lundi et jeudi à 15 h sous surveillance; fermée mardi. La sortie au parc n’est autorisée qu’en présence d’un adulte, absent samedi. Propositions : A lundi danse en salle; B mardi danse en salle; C jeudi jeu de gestes en salle; D samedi parc seule.",
+      "reponse_attendue": "A et C possibles. B impossible car salle fermée mardi. D impossible car sortie sans l’adulte exigé. Exemple de mini-plan : lundi danse douce, jeudi gestes en salle surveillée. Deux activités adaptées aux préférences.",
+      "criteres": [
+        "Identifie A et C",
+        "Rejette B avec fermeture du mardi",
+        "Rejette D avec absence de surveillance",
+        "Formule deux occasions distinctes, sans épreuve motrice"
+      ],
+      "feedback": "Si B est retenu, relire les jours d’ouverture. Si D est retenu, vérifier l’adulte requis. Réessayer avec une autre fiche d’horaires.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Corrige l’occasion non réalisable et ajoute un plan B précis.",
+      "stimulus": "Plan de Jérémy : jeudi 16 h, jeu de ballon mousse dans le gymnase. La fiche du centre précise : gymnase fermé jeudi, ouvert vendredi 16 h sous surveillance, ballons mousse disponibles vendredi. Jérémy aime les jeux de coopération; vendredi, si le matériel manque, aucun autre objet n’est fourni.",
+      "reponse_attendue": "Corriger par vendredi 16 h, jeu de passes au ballon mousse, gymnase surveillé; plan B si ballons manquants : mime ou gestes de coopération sans matériel au même endroit et moment. Raisons : jeudi fermé, vendredi ouvert, alternative ne supposant pas de matériel.",
+      "criteres": [
+        "Respecte vendredi et la fermeture de jeudi",
+        "Décrit activité sûre avec surveillance",
+        "Énonce un plan B sans matériel absent",
+        "Explique la correction par une contrainte du dossier"
+      ],
+      "feedback": "Un simple « jeudi reporté » sans nouveau moment reste incomplet. Demander « où, quand, avec quoi? » et proposer un autre cas.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Propose deux occasions différentes et nomme pour chacune la raison de plaisir indiquée dans le dossier.",
+      "stimulus": "Zoé aime la musique et la précision. Mardi 15 h : salle surveillée avec musique, sans ballon. Jeudi 15 h : même salle sous surveillance, avec cibles et sacs de tissu. Aucune autre disponibilité n’est annoncée.",
+      "reponse_attendue": "Mardi danse/gestes rythmés avec musique en salle; raison : Zoé aime la musique. Jeudi lancer doux de sacs de tissu vers cibles en salle; raison : elle aime la précision. Aucune exigence de vitesse, durée ou lancer fort.",
+      "criteres": [
+        "Moments et matériel compatibles",
+        "Deux catégories de mouvement",
+        "Deux raisons reliées explicitement aux goûts documentés",
+        "Réponse non fondée sur la performance corporelle"
+      ],
+      "feedback": "Si la réponse exige des ballons mardi, reprendre la ligne « sans ballon ». Rejouer sur un contexte musical différent.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-004",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Compare les deux brouillons et réécris celui qui manque de souplesse.",
+      "stimulus": "Brouillon A : mercredi au jardin surveillé si le sol est sec; sinon jeudi à 15 h jeux de gestes dans la salle surveillée, déclarée ouverte jeudi. Brouillon B : mercredi au jardin même si la cour est glacée et fermée; aucune alternative. Les deux élèves fictifs aiment les jeux de gestes.",
+      "reponse_attendue": "A est réaliste et flexible. B est dangereux et rigide : ne pas utiliser la cour fermée/glacée; proposer jeudi 15 h jeu de gestes dans la salle surveillée. La solution est une activité différente mais plaisante et sûre.",
+      "criteres": [
+        "Choisit A comme plus flexible",
+        "Identifie cour fermée/glacée comme obstacle",
+        "Reformule B en plan sûr dans lieu réellement ouvert",
+        "Rend l’alternative explicite"
+      ],
+      "feedback": "Le plan B n’est pas « faire pareil malgré la glace ». Faire relire la contrainte et reformuler une adaptation, puis changer la météo sur une fiche neuve.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-005",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Transforme un plan dangereux en deux occasions possibles sans juger la capacité physique du personnage.",
+      "stimulus": "Camille aime les mouvements sur musique et le ballon souple. Brouillon : « tous les matins, course très rapide seule dans le stationnement ». Fiche : salle surveillée ouverte mardi et vendredi à 15 h; ballon mousse disponible vendredi; musique mardi; stationnement interdit aux jeux.",
+      "reponse_attendue": "Mardi 15 h danse douce/gestes rythmés en salle surveillée avec musique; vendredi 15 h jeu de passes douces au ballon mousse en salle surveillée. Enlever la course dans le stationnement. Motifs : goûts donnés, jours autorisés et sécurité.",
+      "criteres": [
+        "Élimine explicitement la proposition dangereuse",
+        "Choisit deux jours et lieux disponibles",
+        "Varie activité et relie aux goûts",
+        "N’exige pas une capacité physique brute"
+      ],
+      "feedback": "Un remplacement dans le stationnement reste dangereux. Vérifier l’autorisation du lieu avant l’activité et recommencer sur un autre lieu.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-006",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Remplis un mini-calendrier de trois jours et explique ce que tu ferais si l’option extérieure est annulée.",
+      "stimulus": "Fiche de Noémie : aime mimer et se déplacer calmement. Lundi 15 h salle surveillée ouverte; mercredi 15 h préau surveillé si la météo permet; vendredi 15 h salle surveillée ouverte. En cas d’orage mercredi, le préau ferme et aucun local n’est déclaré ouvert ce jour-là.",
+      "reponse_attendue": "Exemple : lundi mime en salle; mercredi jeu de déplacements doux au préau si météo favorable; vendredi jeu de gestes en salle. Si orage mercredi : annuler le préau, privilégier vendredi une variante de mouvements en remplacement du jeu prévu et ne pas inventer une salle ouverte mercredi. Les autres moments restent cohérents.",
+      "criteres": [
+        "Calendrier aux jours autorisés",
+        "Varie les gestes proposés",
+        "N’utilise pas le préau en cas d’orage",
+        "Adapte au vendredi sans double réservation simultanée"
+      ],
+      "feedback": "Le jour de rechange doit être réellement ouvert. Demander d’indiquer quel créneau est disponible, puis réessayer.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-007",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "À partir de la fiche active, corrige la fermeture, inscris deux occasions variées et justifie pourquoi ce choix est possible. La variante est imposée par la seed; aucun texte libre généré.",
+      "stimulus": "Variante A (seed EPS010-007-08). Le centre est ouvert mardi 16 h et samedi 10 h, sous surveillance. Fatou aime les jeux de précision et les gestes musicaux; mardi les sacs de tissu sont disponibles, samedi la musique est disponible. Samedi, une fermeture exceptionnelle de la salle est annoncée; le centre ouvre plutôt jeudi 16 h avec musique sous surveillance.",
+      "reponse_attendue": "Variante A : Mardi 16 h jeu de précision avec sacs en salle; jeudi 16 h gestes musicaux en salle surveillée, en remplacement de samedi fermé. Deux catégories, raison de plaisir; aucun samedi en salle. Variante B si seed EPS010-007-09 : Mercredi 15 h jeux coopératifs avec ballon mousse en salle en remplacement de lundi fermé; vendredi 15 h mimes sans matériel dans la salle surveillée. Deux catégories de mouvement, raisons compatibles.",
+      "criteres": [
+        "Retient les deux créneaux encore autorisés de la variante active",
+        "Identifie correctement la fermeture et la replanification",
+        "Varie les activités selon les préférences données",
+        "Énonce au moins une justification de faisabilité et de sécurité"
+      ],
+      "feedback": "Si le jour fermé subsiste, reprendre l’avis d’annulation. Le corrigé se lit dans la variante choisie, non dans un texte généré automatiquement.",
+      "difficulte": "intermediaire",
+      "seed": "EPS010-007-08",
+      "parametres": {
+        "variables": {
+          "variant_id": [
+            "A",
+            "B"
+          ]
+        },
+        "domaines": {
+          "variant_id": [
+            "A",
+            "B"
+          ]
+        },
+        "contraintes": [
+          "Choisir une seule fiche de corpus entièrement rédigée",
+          "Une fermeture et un nouveau créneau explicitement disponible",
+          "Ne pas inventer d’équipement ou de temps libre",
+          "Correction intégralement définie par la variante"
+        ],
+        "algorithme": "Lire le dernier entier de 2 chiffres de seed EPS010-007-NN; si NN modulo 2=0, sélectionner A; sinon B. Substituer exclusivement fiche et solution depuis variantes ci-dessous.",
+        "seed_format": "EPS010-007-NN",
+        "seed_exemple_actif": "EPS010-007-08",
+        "variante_active": "A",
+        "exemples_valides": {
+          "EPS010-007-08": "A",
+          "EPS010-007-09": "B"
+        },
+        "variantes": {
+          "A": {
+            "fiche": "Le centre est ouvert mardi 16 h et samedi 10 h, sous surveillance. Fatou aime les jeux de précision et les gestes musicaux; mardi les sacs de tissu sont disponibles, samedi la musique est disponible. Samedi, une fermeture exceptionnelle de la salle est annoncée; le centre ouvre plutôt jeudi 16 h avec musique sous surveillance.",
+            "solution": "Mardi 16 h jeu de précision avec sacs en salle; jeudi 16 h gestes musicaux en salle surveillée, en remplacement de samedi fermé. Deux catégories, raison de plaisir; aucun samedi en salle."
+          },
+          "B": {
+            "fiche": "La salle est ouverte lundi 15 h et vendredi 15 h, sous surveillance. Eliot aime les jeux de coopération et les mimes; lundi ballons mousse disponibles, vendredi espace sans matériel. Lundi, la salle ferme exceptionnellement; le centre offre mercredi 15 h sous surveillance avec ballons mousse.",
+            "solution": "Mercredi 15 h jeux coopératifs avec ballon mousse en salle en remplacement de lundi fermé; vendredi 15 h mimes sans matériel dans la salle surveillée. Deux catégories de mouvement, raisons compatibles."
+          }
+        }
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-008",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Élabore deux options accessibles et une substitution en cas d’absence de matériel.",
+      "stimulus": "Une équipe fictive inclut des enfants se déplaçant à pied ou en fauteuil. Les membres apprécient les gestes rythmés et les jeux de passes. Salle accessible lundi et mercredi à 15 h sous surveillance; ballon mousse disponible lundi seulement. Les jeux peuvent se faire assis ou debout, sans course imposée.",
+      "reponse_attendue": "Lundi 15 h passes adaptées au ballon mousse dans la salle; mercredi 15 h danse des bras/gestes rythmés en salle. Si le ballon manque lundi : mime coopératif de passes sans ballon. Les choix ne supposent ni marche ni performance imposée.",
+      "criteres": [
+        "Deux jours réellement possibles",
+        "Alternative sans équipement manquant",
+        "Au moins une adaptation assise explicitée",
+        "Choix respectueux, sans hiérarchiser les corps"
+      ],
+      "feedback": "Une activité excluant automatiquement les participants assis doit être adaptée. Faire rechercher une forme gestuelle équivalente.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-009",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Planifie une activité extérieure conditionnelle et une alternative réaliste en cas de météo défavorable.",
+      "stimulus": "Aya aime les promenades en groupe et les mimes. Samedi à 10 h, un adulte peut accompagner un groupe sur une piste accessible, seulement si le sol est sûr. Si le temps est mauvais, une salle surveillée est ouverte dimanche à 11 h. Aucun matériel n’est requis.",
+      "reponse_attendue": "Samedi 10 h promenade/déplacement roulant sur piste accessible avec adulte si sol sûr; si la piste est impraticable, dimanche 11 h jeu de mimes en salle surveillée. Indiquer qu’il s’agit d’un remplacement, pas d’une obligation de sortie par mauvais temps.",
+      "criteres": [
+        "L’activité extérieure est conditionnelle",
+        "Supervision incluse",
+        "Plan B intérieur dimanche, horaire correct",
+        "Justifie continuité et plaisir avec les intérêts donnés"
+      ],
+      "feedback": "Attention : samedi mauvais temps n’autorise pas la piste. Reprendre les mots « seulement si », puis corriger.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-010",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Lis un planning de deux occasions et justifie un ajustement sans ajouter de ressources inexistantes.",
+      "stimulus": "Plan d’Inès : mardi 16 h danse en salle communautaire, jeudi 16 h jeu de cible dans la même salle. Fiche : Inès aime la danse et les jeux d’adresse; salle surveillée mardi et jeudi, mais jeudi le local est prêté à un autre groupe; vendredi 16 h préau surveillé ouvert, avec cibles en tissu et sol sec.",
+      "reponse_attendue": "Mardi 16 h danse en salle communautaire surveillée; vendredi 16 h jeu de cible en tissu sous préau surveillé (si conditions sûres), en remplacement du jeudi indisponible. Ne pas supposer qu’un local fermé est accessible.",
+      "criteres": [
+        "Conserve mardi correct",
+        "Remplace jeudi par vendredi explicitement disponible",
+        "Associe le matériel au vendredi",
+        "Explique le transfert par l’occupation du local"
+      ],
+      "feedback": "La mention « jeudi » persiste? Vérifier la réservation avant de compléter le plan et refaire un dossier avec fermeture différente.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-011",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 1. Construis un calendrier de lundi à dimanche avec au moins quatre occasions réalistes, au moins deux formes de mouvement plaisantes, une justification de choix, et un plan B pour la fermeture possible jeudi. Pour chaque occasion : jour, moment, lieu autorisé, activité. Tu peux écrire « libre » pour d’autres jours. Explique la sécurité, la participation adaptée et l’imprévu. Ne réalise pas les activités; aucun indice n’est fourni.",
+      "stimulus": "DOSSIER D’ÉVALUATION A — École des Amandiers, semaine fictive (aucune donnée sur l’élève). Nora aime les jeux de ballon mousse, la musique et les mimes. Lundi, le gymnase est libre de 15 h 15 à 16 h sous surveillance avec ballons mousse. Mardi, la salle polyvalente est ouverte à 15 h 15 avec musique et adulte. Mercredi, aucun espace scolaire n’est disponible. Jeudi, gymnase libre à 15 h 15 sous surveillance avec ballons mousse; il peut fermer exceptionnellement. Vendredi, salle polyvalente libre à 15 h 15 sous surveillance sans matériel. Samedi, sortie au parc interdite sans adulte; aucun adulte disponible. Dimanche, cour d’école fermée et aucune sortie autorisée par le dossier. Un plan peut avoir des jours libres; il ne nécessite ni matériel payant ni activité physique exécutée. Activités possibles : jeux de ballon doux, danse/gestes musicaux, mimes, coordination sans matériel, adaptations assises. Pas d’exigence d’intensité/durée.",
+      "reponse_attendue": "Tableau modèle de 7 jours : lundi 15 h 15, passes douces au ballon mousse dans le gymnase surveillé (plaisir : ballons); mardi 15 h 15, danse ou gestes sur musique dans la salle polyvalente surveillée (plaisir : musique); mercredi libre (aucun lieu annoncé); jeudi 15 h 15, jeux coopératifs de ballon mousse au gymnase surveillé si ouvert; vendredi 15 h 15, mimes en salle polyvalente surveillée (plaisir : imaginer des scènes); samedi libre (aucun adulte pour la sortie); dimanche libre (cour fermée). **Plan B concret :** si le gymnase ferme jeudi, supprimer jeudi et utiliser vendredi 15 h 15 pour un mime coopératif **à la place** des mimes initialement prévus; ne pas présenter deux créneaux simultanés. Une autre variante conserve vendredi et indique simplement jeudi libre en expliquant qu'aucun autre créneau n'est offert; elle reste souple si la gestion de l'imprévu est explicite. Variété : ballons, musique, mime. Sécurité : uniquement des locaux ouverts et supervisés; possibilité de participer assis ou autrement. Plusieurs calendriers différents peuvent être acceptés selon la grille.",
+      "criteres": [
+        "R : au moins quatre occasions réalisables en créneaux et lieux du dossier, sans invention",
+        "V : deux familles de mouvements et au moins une raison liée aux préférences connues",
+        "F : alternative explicite pour jeudi, sans double réservation ni usage d’espace fermé",
+        "S : surveillance, météo/accessibilité et absence de sortie non autorisée respectées",
+        "Autonomie : calendrier et justification sans indice de l’enseignant"
+      ],
+      "feedback": "Un lieu fermé ou une sortie sans adulte? Revoir R/S. Une seule forme d’activité? Introduire un deuxième choix autorisé. Absence de plan B? Reprendre l’annonce de jeudi puis résoudre un nouveau dossier avant seconde observation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    },
+    {
+      "item_id": "qc-pri-eps-010-q-012",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME 2, contexte indépendant du premier. Construis un calendrier de lundi à dimanche pour ce centre, avec au moins quatre occasions réalistes, au moins deux catégories d’activités, une explication de plaisir, des options de participation accessibles et un plan B si la cour ferme mercredi. Tu peux laisser des jours libres. Explique ton choix sans aide et sans exercice physique réalisé.",
+      "stimulus": "DOSSIER D’ÉVALUATION B — Centre des Rives, semaine fictive (différent de l’école). Un groupe apprécie les jeux de précision, les mimes et les mouvements rythmiques; certaines participations se font assises ou avec déplacements roulants. Lundi : salle accessible ouverte 16 h avec adulte, sans matériel. Mardi : salle fermée. Mercredi : cour couverte accessible ouverte 16 h avec adulte et sacs de tissu légers; si fortes pluies avec vent, la cour ferme. Jeudi : salle accessible ouverte 16 h sous surveillance avec musique. Vendredi : salle accessible ouverte 16 h avec adulte, sans équipement. Samedi : jardin de quartier accessible mais ouvert au groupe uniquement avec accompagnement; aucun adulte n’est disponible. Dimanche : aucune installation réservée. Aucune sortie personnelle n’est attendue; des jours libres sont permis; toute activité peut être proposée en version assise ou autrement adaptée.",
+      "reponse_attendue": "Tableau modèle de 7 jours : lundi 16 h, jeux de mimes et de gestes sans équipement en salle accessible et surveillée; mardi libre (salle fermée); mercredi 16 h, jeu de précision avec sacs de tissu légers dans la cour couverte avec adulte si météo sûre; jeudi 16 h, mouvements rythmés assis/debout sur musique dans la salle surveillée; vendredi 16 h, jeu coopératif de gestes ou mimes en salle accessible, sans matériel; samedi libre (jardin sans accompagnement interdit); dimanche libre (aucune installation réservée). **Plan B concret :** si la cour ferme mercredi par vent/pluie, remplacer l'occasion de mercredi par une autre activité de mime **vendredi en salle, à la place** de l'activité initialement prévue vendredi, ou indiquer mercredi libre avec explication qu'aucun lieu n'est offert ce jour-là; ne pas prétendre ouvrir la salle mercredi. Variété : précision, mimes, mouvements sur musique; motivation : conforme aux goûts déclarés. Accessibilité : participation assise/roulante équivalente; toute personne choisit une modalité sûre. Autres calendriers admissibles s’ils satisfont aux contraintes et à la grille.",
+      "criteres": [
+        "R : au moins quatre occasions compatibles avec le calendrier du centre",
+        "V : deux familles au moins, plaisir fondé sur les préférences du groupe",
+        "F : remplace mercredi fermé sans inventer de disponibilité et sans double réservation",
+        "S : accessibilité assise/roulante, surveillance, samedi sans sortie",
+        "Autonomie : justifications et plan sans indices, contexte distinct de q-011"
+      ],
+      "feedback": "Si la cour est conservée malgré sa fermeture, remplacer par une date ouverte (vendredi peut substituer une activité), sans doubler une réservation. Si participation inaccessible, proposer une modalité assise adaptée.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-010-ev-01",
+      "representation": "fiche de contexte fictive + réponse orale/dictée/tableau",
+      "preuve_type": "planification observable, sans performance motrice"
+    }
+  ]
+}

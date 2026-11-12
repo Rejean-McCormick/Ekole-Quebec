@@ -1,0 +1,80 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ad-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Apprécier une représentation à partir de critères observables.",
+  "concepts": [
+    "intention",
+    "interprétation",
+    "effet",
+    "justification"
+  ],
+  "preuve_attendue": "Exprimer une appréciation appuyée sur deux moments précis.",
+  "prerequis_bloquants": [
+    "qc-pri-ad-007"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ad-008-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Exprimer une appréciation appuyée sur deux moments précis.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_effectif": "fixe_controle",
+        "corpus_valide_automatiquement": false,
+        "controle_requis": "comparaison_humaine_entre_scene_effective_et_script_fixe"
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ad-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Exprimer une appréciation appuyée sur deux moments précis.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "mini-scene_jouee_avec_script",
+        "description_auditive_accessible",
+        "sequence_de_moments_M1_M2_M3"
+      ],
+      "variables": {
+        "mode": "fixe_controle",
+        "corpus": "dix_scenes_originales_verrouillees_dans_BANQUE_ITEMS.json",
+        "modifications_autorisees": [
+          "voix_ou_texte_accessible_a_equivalence_verifiee",
+          "support_de_reponse_oral_ecrit_CAA"
+        ],
+        "modifications_interdites": [
+          "inverser_des_indices_ou_des_moments",
+          "changer_la_nature_du_jeu_sans_reviser_le_corrige",
+          "randomisation_non_validee"
+        ]
+      },
+      "contraintes": [
+        "Ne noter que des indices effectivement observables dans la prestation ou dans sa restitution accessible fidèle.",
+        "Deux moments distincts; pas de jugement sur une personnalité, une identité, un goût ou une aisance scénique.",
+        "Deux scènes de maîtrise indépendantes; aucune divulgation personnelle.",
+        "Jeu supervisé et sans contact physique forcé."
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md : 4 dimensions ancrées, niveaux 0-3; preuve requise sur q-009 et q-010, sans compensation par moyenne.",
+      "source": [
+        "kristals/qc-pri-ad-008/authoring/PARCOURS.md",
+        "kristals/qc-pri-ad-008/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

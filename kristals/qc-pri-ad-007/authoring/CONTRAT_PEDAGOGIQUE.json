@@ -1,0 +1,70 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ad-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire ce qui se passe dans une représentation théâtrale.",
+  "concepts": [
+    "jeu",
+    "espace",
+    "action",
+    "observation"
+  ],
+  "preuve_attendue": "Noter des éléments observables d’une scène sans juger les personnes.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ad-007-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Noter des éléments observables d’une scène sans juger les personnes.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ad-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Noter des éléments observables d’une scène sans juger les personnes.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "vignette textuelle de scène",
+        "plan spatial décrit",
+        "observation de gestes et voix",
+        "théâtre d’ombres fictif"
+      ],
+      "variables": {
+        "mode": "catalogue_ferme",
+        "choix": "(seed + index_version) modulo 2",
+        "domaines": [
+          "A",
+          "B"
+        ],
+        "aucune_generation_libre": true
+      },
+      "contraintes": [
+        "respecter le texte de chaque vignette",
+        "ne pas inventer émotions, intentions ou personnalités",
+        "couvrir jeu, espace et action",
+        "réponse par observation ou description accessible",
+        "deux contextes distincts sans indices"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md — quatre dimensions, 2 preuves distinctes et autonomes",
+      "source": "sources/REFERENCES_CONTENU.md — scènes et grilles originales, gouvernance v1.2",
+      "seed": 716,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

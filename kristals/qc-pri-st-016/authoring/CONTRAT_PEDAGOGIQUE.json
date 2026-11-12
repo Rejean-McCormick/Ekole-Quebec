@@ -1,0 +1,90 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-016",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Expliquer par un modèle simple des phénomènes Terre-Soleil-Lune.",
+  "concepts": [
+    "jour et nuit",
+    "rotation",
+    "phase",
+    "orbite"
+  ],
+  "preuve_attendue": "Utiliser un modèle pour expliquer un phénomène astronomique simple.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-st-001"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-016-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Utiliser un modèle pour expliquer un phénomène astronomique simple.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-st-016",
+      "objectif_id": "obj-1",
+      "critere": {
+        "critere_id": "crit-1",
+        "preuve_attendue": "Utiliser un modèle pour expliquer un phénomène astronomique simple."
+      },
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "description textuelle",
+        "schéma annoté accessible",
+        "maquette statique ou animée sécuritaire",
+        "explication écrite ou orale transcrite"
+      ],
+      "variables": {
+        "corpus_ferme": [
+          "rotation_terrestre",
+          "phase_lunaire",
+          "orbites_terre_lune"
+        ],
+        "substitutions": "scenarios_controles_explicitement_listes_dans_la_banque",
+        "variable_libre_ia": false
+      },
+      "contraintes": [
+        "conserver la physique Soleil-Terre-Lune",
+        "ne pas assimiler phases et eclipses",
+        "conserver l orientation de la source lumineuse",
+        "pas de mesures solaires directes",
+        "aucun tirage libre",
+        "deux contextes et phenomènes distincts pour la maîtrise"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "critères": [
+          "modele_identifiable",
+          "lumiere_et_mouvement",
+          "relation_causale",
+          "observation_inference_conclusion",
+          "limite_du_modele"
+        ],
+        "maitrise": "deux preuves distinctes satisfaisantes sans indices"
+      },
+      "source": {
+        "workspace": "authoring/PARCOURS.md",
+        "references": "sources/REFERENCES_CONTENU.md",
+        "items": "evaluation/BANQUE_ITEMS.json"
+      },
+      "seed": "st016-corpus-v1.2-seed-1607",
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "cours_redige_a_revoir_non_qualifie",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

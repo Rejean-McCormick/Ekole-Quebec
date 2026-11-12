@@ -1,0 +1,522 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-015",
+  "family_id": "qc-pri-st-015-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-015-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "fixe",
+      "consigne": "Compare la température à 9 h et 11 h et indique le sens et l’ampleur du changement.",
+      "stimulus": "Même cour, 9 h : 7 °C; 11 h : 10 °C.",
+      "reponse_attendue": "Hausse de 3 °C entre 9 h et 11 h : 10 − 7 = 3 °C.",
+      "criteres": [
+        "Compare la même grandeur aux deux heures.",
+        "Donne hausse et différence exacte, en °C."
+      ],
+      "feedback": "Si tu dis « 3 degrés de pluie », relis le titre et l’unité °C.",
+      "difficulte": "initial",
+      "representation": "notation_et_texte",
+      "variations_admissibles": "Aucune substitution de donnée; autoriser reformulation sans changement de sens.",
+      "limites_de_variation": "Valeurs, unités, dates et fenêtres temporelles verrouillées.",
+      "source": "Production originale, données fictives.",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-st-015-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "fixe",
+      "consigne": "Indique la mesure de vent la plus rapide, avec valeur, unité et heure.",
+      "stimulus": "Même lieu : 8 h, vent 5 km/h; 10 h, vent 16 km/h; 12 h, vent 8 km/h.",
+      "reponse_attendue": "À 10 h : 16 km/h, supérieur à 5 et à 8 km/h. Aucune direction n’est fournie.",
+      "criteres": [
+        "Repère le maximum numérique du vent.",
+        "Précise 10 h et km/h."
+      ],
+      "feedback": "« 16 mm » est une unité de pluie : retourne à la colonne km/h.",
+      "difficulte": "initial",
+      "representation": "tableau_textuel",
+      "variations_admissibles": "Aucune substitution de donnée; autoriser reformulation sans changement de sens.",
+      "limites_de_variation": "Valeurs, unités, dates et fenêtres temporelles verrouillées.",
+      "source": "Production originale, données fictives.",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-st-015-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "fixe",
+      "consigne": "Trouve à quelle période on a mesuré la plus grande quantité de pluie et explique ce que signifie 0 mm.",
+      "stimulus": "Pluie : lundi 8–9 h : 0 mm; mardi 8–9 h : 4 mm; mercredi 8–9 h : 2 mm.",
+      "reponse_attendue": "Mardi 8–9 h, 4 mm. Lundi 8–9 h : aucune pluie mesurée sur ce créneau, pas preuve qu’il n’a pas plu tout lundi.",
+      "criteres": [
+        "Choisit le plus grand relevé de pluie.",
+        "Interprète 0 mm et l’intervalle sans extrapoler."
+      ],
+      "feedback": "Un zéro concerne la période indiquée, pas nécessairement toute la journée.",
+      "difficulte": "initial",
+      "representation": "tableau_textuel",
+      "variations_admissibles": "Aucune substitution de donnée; autoriser reformulation sans changement de sens.",
+      "limites_de_variation": "Valeurs, unités, dates et fenêtres temporelles verrouillées.",
+      "source": "Production originale, données fictives.",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-st-015-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "fixe",
+      "consigne": "Donne un contre-exemple à « ciel nuageux = pluie obligatoire ».",
+      "stimulus": "Lundi 14 h : ciel 9/10; pluie 13–14 h : 0 mm. Mardi 14 h : ciel 8/10; pluie 13–14 h : 3 mm.",
+      "reponse_attendue": "Lundi : ciel 9/10 (très nuageux), mais 0 mm de pluie mesurée entre 13 et 14 h : l’affirmation est fausse.",
+      "criteres": [
+        "Cite lundi, les deux observations et l’intervalle.",
+        "Refuse l’implication obligatoire nuages → pluie."
+      ],
+      "feedback": "On ne peut pas déduire la pluie d’une seule observation des nuages.",
+      "difficulte": "initial",
+      "representation": "tableau_textuel",
+      "variations_admissibles": "Aucune substitution de donnée; autoriser reformulation sans changement de sens.",
+      "limites_de_variation": "Valeurs, unités, dates et fenêtres temporelles verrouillées.",
+      "source": "Production originale, données fictives.",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-st-015-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "fixe",
+      "consigne": "Classe les trois phrases : mesure/observation, inférence justifiée ou prévision non établie.",
+      "stimulus": "Données : 8 h 5 °C, 11 h 9 °C; ciel couvert à 11 h. Phrases A : « Il fait 9 °C à 11 h. » B : « La température a augmenté de 4 °C. » C : « Il fera 13 °C demain. »",
+      "reponse_attendue": "A = mesure relevée; B = inférence/comparaison fondée (9 − 5 = 4 °C); C = prévision non démontrée par les données. « Ciel couvert » serait observation visuelle.",
+      "criteres": [
+        "Classe A, B, C correctement.",
+        "Justifie B par 5 et 9 °C; refuse C comme preuve."
+      ],
+      "feedback": "Appuie chaque constat sur une valeur; l’avenir exige une prévision indépendante.",
+      "difficulte": "intermediaire",
+      "representation": "texte_et_deux_mesures",
+      "variations_admissibles": "Aucune substitution de donnée; autoriser reformulation sans changement de sens.",
+      "limites_de_variation": "Valeurs, unités, dates et fenêtres temporelles verrouillées.",
+      "source": "Production originale, données fictives.",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-st-015-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "fixe",
+      "consigne": "Décris deux évolutions mesurées et donne une limite de conclusion.",
+      "stimulus": "Site fictif, 9 h : 6 °C, vent 7 km/h, ciel 2/10; 12 h : 11 °C, vent 13 km/h, ciel 8/10.",
+      "reponse_attendue": "Température : hausse de 5 °C (6→11); vent : hausse de 6 km/h (7→13); nuages 2/10→8/10. Aucune donnée de pluie ni de prévision; on ne peut pas affirmer qu’il a plu ou pleuvra.",
+      "criteres": [
+        "Énonce deux évolutions avec nombres et unités.",
+        "Identifie au moins une limite justifiée."
+      ],
+      "feedback": "Décris la série sans transformer la couverture nuageuse en pluie mesurée.",
+      "difficulte": "intermediaire",
+      "representation": "tableau_et_interpretation",
+      "variations_admissibles": "Aucune substitution de donnée; autoriser reformulation sans changement de sens.",
+      "limites_de_variation": "Valeurs, unités, dates et fenêtres temporelles verrouillées.",
+      "source": "Production originale, données fictives.",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-st-015-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "fixe",
+      "consigne": "Calcule le cumul de pluie des trois périodes consécutives sans chevauchement.",
+      "stimulus": "Même lieu : pluie 8–9 h = 1 mm; 9–10 h = 0 mm; 10–11 h = 3 mm.",
+      "reponse_attendue": "De 8 à 11 h : 1 + 0 + 3 = 4 mm; les périodes sont disjointes et couvrent toute la durée.",
+      "criteres": [
+        "Additionne 1, 0 et 3 exactement.",
+        "Nomme la période 8–11 h et l’unité mm."
+      ],
+      "feedback": "La somme est permise parce que les trois créneaux ne se chevauchent pas.",
+      "difficulte": "intermediaire",
+      "representation": "liste_de_releves",
+      "variations_admissibles": "Aucune substitution de donnée; autoriser reformulation sans changement de sens.",
+      "limites_de_variation": "Valeurs, unités, dates et fenêtres temporelles verrouillées.",
+      "source": "Production originale, données fictives.",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-st-015-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "fixe",
+      "consigne": "Dis ce que l’on sait et ce qu’on ne sait pas au sujet des pluies de vendredi.",
+      "stimulus": "Site identique, jeudi 8–9 h : 2 mm; vendredi 8–9 h : — (mesure manquante).",
+      "reponse_attendue": "Jeudi, 2 mm de pluie ont été relevés de 8 à 9 h. La pluie de vendredi est inconnue, donc impossible d’affirmer qu’elle est de 0 mm ou de calculer sa variation.",
+      "criteres": [
+        "Interprète correctement « — » comme absent.",
+        "Ne remplace pas une inconnue par zéro."
+      ],
+      "feedback": "« — » n’est pas une quantité; demander un nouveau relevé.",
+      "difficulte": "intermediaire",
+      "representation": "tableau_textuel",
+      "variations_admissibles": "Aucune substitution de donnée; autoriser reformulation sans changement de sens.",
+      "limites_de_variation": "Valeurs, unités, dates et fenêtres temporelles verrouillées.",
+      "source": "Production originale, données fictives.",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-st-015-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "fixe",
+      "consigne": "Explique pourquoi les deux chiffres ne peuvent pas être additionnés pour trouver la pluie de 8 à 11 h.",
+      "stimulus": "Même site : pluie cumulée 8–10 h : 3 mm; pluie cumulée 9–11 h : 4 mm.",
+      "reponse_attendue": "On ne peut pas conclure à 7 mm sur 8–11 h : les intervalles se chevauchent entre 9 et 10 h; on risque un double comptage. Le cumul total exact sur 8–11 h est indéterminé avec ces deux seules sommes.",
+      "criteres": [
+        "Reconnaît le chevauchement 9–10 h.",
+        "Refuse 7 mm comme total certain et explicite l’incertitude."
+      ],
+      "feedback": "Trace les périodes sur une ligne : leur chevauchement interdit de sommer leurs cumuls.",
+      "difficulte": "intermediaire",
+      "representation": "intervalles_texte",
+      "variations_admissibles": "Aucune substitution de donnée; autoriser reformulation sans changement de sens.",
+      "limites_de_variation": "Valeurs, unités, dates et fenêtres temporelles verrouillées.",
+      "source": "Production originale, données fictives.",
+      "seed": null,
+      "parametres": null
+    },
+    {
+      "item_id": "qc-pri-st-015-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "parametrique",
+      "consigne": "Repère la température maximale, les changements 8→11 h et 11→14 h, le vent maximal; cite une limite de prévision.",
+      "stimulus": "Tableau fictif, même point de lecture : heure | température °C | vent km/h | couverture nuageuse /10\n8 h | 4 | 7 | 4/10\n11 h | 7 | 11 | 8/10\n14 h | 5 | 10 | 8/10",
+      "reponse_attendue": "Maximum 7 °C à 11 h ; hausse de 3 °C entre 8 h et 11 h (4→7 °C), puis baisse de 2 °C entre 11 h et 14 h (7→5 °C). Le vent le plus rapide est 11 km/h à 11 h. Impossible de connaître la température de demain avec cette seule série.",
+      "criteres": [
+        "Maximum avec heure et °C.",
+        "Hausse puis baisse chiffrées en °C.",
+        "Vent maximum avec km/h et heure.",
+        "Pas d’affirmation démontrée sur demain."
+      ],
+      "feedback": "Vérifie la colonne, l’unité, puis deux soustractions; un relevé passé ne garantit pas demain.",
+      "difficulte": "intermediaire",
+      "representation": "tableau_genere_controle",
+      "variations_admissibles": "Seulement une autre graine s entière dans [0,4095] exécutée par l’algorithme déterministe et soumise à un nouveau contrôle de solution; lieu, unités et signification des périodes restent fixes.",
+      "limites_de_variation": "Le premier maximum thermique est strict à 11 h; vent à 11 h strictement maximal. Pas de cumul de pluie dans cet item.",
+      "source": "Production originale; séries météorologiques simulées (pas de mesures réelles).",
+      "seed": 1010,
+      "parametres": {
+        "domaine_seed": "s entier compris entre 0 et 4095 inclus; aucune génération par IA libre",
+        "variables": "T (°C), V (km/h), pluie (mm), ciel (dixièmes) selon colonnes utilisées",
+        "algorithme": "s entier 0..4095; t0=2+s%8; t1=t0+2+(s//8)%5; t2=t1-1-(s//40)%3; v=[5+s%4,11+(s//7)%6,7+(s//11)%4]; ciel=[2+s%3,8+s%2,6+s%3]. Heures [8 h,11 h,14 h]. Toutes les divisions // entières, % reste euclidien. Générer stimulus par concaténation de la légende et des 3 lignes; solution max(T), delta=T1−T0, baisse=T1−T2, max(vent).",
+        "contraintes": "Entiers, températures dans des plages scolaires plausibles, vent >= 0, pluie >= 0, nuages entre 0 et 10/10, fenêtres explicitement indiquées, même lieu; aucune extrapolation à un climat.",
+        "instance_courante": {
+          "temperature_c": [
+            4,
+            7,
+            5
+          ],
+          "vent_kmh": [
+            7,
+            11,
+            10
+          ],
+          "ciel_dixiemes": [
+            4,
+            8,
+            8
+          ]
+        },
+        "exemples_calcules": [
+          {
+            "seed": 1010,
+            "donnees": {
+              "temperature_c": [
+                4,
+                7,
+                5
+              ],
+              "vent_kmh": [
+                7,
+                11,
+                10
+              ],
+              "ciel_dixiemes": [
+                4,
+                8,
+                8
+              ]
+            },
+            "reponse": "Maximum 7 °C à 11 h ; hausse de 3 °C entre 8 h et 11 h (4→7 °C), puis baisse de 2 °C entre 11 h et 14 h (7→5 °C). Le vent le plus rapide est 11 km/h à 11 h. Impossible de connaître la température de demain avec cette seule série."
+          },
+          {
+            "seed": 1011,
+            "donnees": {
+              "temperature_c": [
+                5,
+                8,
+                6
+              ],
+              "vent_kmh": [
+                8,
+                11,
+                10
+              ],
+              "ciel_dixiemes": [
+                2,
+                9,
+                6
+              ]
+            },
+            "reponse": "Maximum 8 °C à 11 h ; hausse de 3 °C entre 8 h et 11 h (5→8 °C), puis baisse de 2 °C entre 11 h et 14 h (8→6 °C). Le vent le plus rapide est 11 km/h à 11 h. Impossible de connaître la température de demain avec cette seule série."
+          }
+        ],
+        "controle": "Solutions calculées par programme local et vérifiées avec assertions indépendantes sur 4096 graines; aucune génération non contrôlée."
+      }
+    },
+    {
+      "item_id": "qc-pri-st-015-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "parametrique",
+      "consigne": "PREUVE AUTONOME A, cour d’école : interprète la série. Donne (1) une hausse de température avec calcul, (2) l’heure du vent maximal, (3) une mesure de pluie avec son intervalle, (4) un cas nuageux sans pluie mesurée, (5) une conclusion qu’on ne peut pas tirer. Justifie avec les données. Aucune aide de contenu.",
+      "stimulus": "Carnet fictif de la COUR D’ÉCOLE. La pluie est relevée pour les heures 8–9 h, 10–11 h, 12–13 h (fenêtres disjointes et non contiguës).\nHeure | T °C | Vent km/h | Pluie de l’heure indiquée (mm) | Ciel /10\n9 h | 8 | 6 | 0 (8–9 h) | 2/10\n11 h | 10 | 12 | 2 (10–11 h) | 8/10\n13 h | 9 | 9 | 0 (12–13 h) | 9/10",
+      "reponse_attendue": "Cour d'école : la température passe de 8 °C (9 h) à 10 °C (11 h), hausse 2 °C. Vent maximum observé 12 km/h à 11 h (contre 6 et 9 km/h). La pluie mesurée de 10 à 11 h est 2 mm. À 13 h, le ciel est couvert à 9/10, mais pluie 12–13 h = 0 mm : nuages n'impliquent pas pluie. Ni la météo du lendemain ni la cause de la pluie ne sont prouvées. Ne pas additionner ces fenêtres discontinues comme un cumul de 8 à 13 h.",
+      "criteres": [
+        "Deux températures, sens, écart exact en °C.",
+        "Vent maximal, heure, valeur et km/h.",
+        "Précipitation avec mm et créneau précis.",
+        "Constat ciel 9/10 et pluie 0 mm pour 12–13 h.",
+        "Une limite scientifiquement justifiée (pas de prévision/cause), autonomie."
+      ],
+      "feedback": "Si les fenêtres ne sont pas contiguës, ne les convertis pas en un cumul de 8 h à 13 h. Chaque affirmation requiert une preuve du tableau.",
+      "difficulte": "transfert",
+      "representation": "serie_horaire_ecole",
+      "variations_admissibles": "Seulement une autre graine s entière dans [0,4095] exécutée par l’algorithme déterministe et soumise à un nouveau contrôle de solution; lieu, unités et signification des périodes restent fixes.",
+      "limites_de_variation": "Preuve de maîtrise contexte A; aucune variation du type de lieu ni des tâches, seulement des valeurs par seed; interdiction d’inférer une causalité.",
+      "source": "Production originale; séries météorologiques simulées (pas de mesures réelles).",
+      "seed": 1011,
+      "parametres": {
+        "domaine_seed": "s entier compris entre 0 et 4095 inclus; aucune génération par IA libre",
+        "variables": "T (°C), V (km/h), pluie (mm), ciel (dixièmes) selon colonnes utilisées",
+        "algorithme": "s entier 0..4095; T=[5+s%7, T0+2+(s//7)%4, T1−1−(s//28)%3]; V=[5+s%5, V0+4+(s//13)%5,V0+1+(s//17)%3]; pluie=[0,1+(s//19)%4,0] pour 8–9,10–11,12–13 h; ciel=[2,8,9] dixièmes; heures [9 h,11 h,13 h]. Les divisions // sont entières. Réponse: hausse T1−T0, vent maximal V1, pluie période 10–11 h R1, 13 h ciel 9/10 avec 0 mm en 12–13 h, pas de causalité ou prévision. Fenêtres de pluie NON contiguës: ne pas sommer comme total de matinée.",
+        "contraintes": "Entiers, températures dans des plages scolaires plausibles, vent >= 0, pluie >= 0, nuages entre 0 et 10/10, fenêtres explicitement indiquées, même lieu; aucune extrapolation à un climat.",
+        "instance_courante": {
+          "temperature_c": [
+            8,
+            10,
+            9
+          ],
+          "vent_kmh": [
+            6,
+            12,
+            9
+          ],
+          "pluie_mm": [
+            0,
+            2,
+            0
+          ],
+          "ciel_dixiemes": [
+            2,
+            8,
+            9
+          ]
+        },
+        "exemples_calcules": [
+          {
+            "seed": 1011,
+            "donnees": {
+              "temperature_c": [
+                8,
+                10,
+                9
+              ],
+              "vent_kmh": [
+                6,
+                12,
+                9
+              ],
+              "pluie_mm": [
+                0,
+                2,
+                0
+              ],
+              "ciel_dixiemes": [
+                2,
+                8,
+                9
+              ]
+            },
+            "reponse": "Cour d'école : la température passe de 8 °C (9 h) à 10 °C (11 h), hausse 2 °C. Vent maximum observé 12 km/h à 11 h (contre 6 et 9 km/h). La pluie mesurée de 10 à 11 h est 2 mm. À 13 h, le ciel est couvert à 9/10, mais pluie 12–13 h = 0 mm : nuages n'impliquent pas pluie. Ni la météo du lendemain ni la cause de la pluie ne sont prouvées. Ne pas additionner ces fenêtres discontinues comme un cumul de 8 à 13 h."
+          },
+          {
+            "seed": 1012,
+            "donnees": {
+              "temperature_c": [
+                9,
+                11,
+                10
+              ],
+              "vent_kmh": [
+                7,
+                13,
+                10
+              ],
+              "pluie_mm": [
+                0,
+                2,
+                0
+              ],
+              "ciel_dixiemes": [
+                2,
+                8,
+                9
+              ]
+            },
+            "reponse": "Cour d'école : la température passe de 9 °C (9 h) à 11 °C (11 h), hausse 2 °C. Vent maximum observé 13 km/h à 11 h (contre 7 et 10 km/h). La pluie mesurée de 10 à 11 h est 2 mm. À 13 h, le ciel est couvert à 9/10, mais pluie 12–13 h = 0 mm : nuages n'impliquent pas pluie. Ni la météo du lendemain ni la cause de la pluie ne sont prouvées. Ne pas additionner ces fenêtres discontinues comme un cumul de 8 à 13 h."
+          }
+        ],
+        "controle": "Solutions calculées par programme local et vérifiées avec assertions indépendantes sur 4096 graines; aucune génération non contrôlée."
+      }
+    },
+    {
+      "item_id": "qc-pri-st-015-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-015-ev-01",
+      "validation_status": "a_revoir",
+      "mode": "parametrique",
+      "consigne": "PREUVE AUTONOME B, jardin communautaire : compare les trois matinées. Donne (1) le maximum thermique et une variation chiffrée, (2) le total de pluie uniquement sur les trois créneaux 8–9 h (précise ce que ce total n’est pas), (3) le maximum de vent, (4) un contre-exemple nuageux sans pluie mesurée, (5) une limite d’inférence. Justifie chaque affirmation. Sans indice de contenu.",
+      "stimulus": "Carnet fictif du JARDIN COMMUNAUTAIRE; relevés des trois jours à 9 h, quantités de pluie pour 8–9 h de chaque jour seulement.\nJour | T °C (9 h) | Vent km/h (9 h) | Pluie mm (8–9 h) | Ciel /10\nlundi | 12 | 8 | 4 | 8/10\nmardi | 14 | 13 | 0 | 9/10\nmercredi | 11 | 4 | 2 | 4/10",
+      "reponse_attendue": "Jardin communautaire : la température à 9 h est 12 °C lundi, 14 °C mardi, 11 °C mercredi : maximum mardi à 14 °C et hausse lundi→mardi de 2 °C. Pluie relevée uniquement sur les trois créneaux 8–9 h : 4 + 0 + 2 = 6 mm ; ceci n'est pas le cumul de trois journées. Vent maximum mardi : 13 km/h. Mardi ciel 9/10 et 0 mm de 8 à 9 h : nuages sans pluie mesurée. Impossible d'affirmer qu'il pleuvra jeudi ni pourquoi il a plu lundi.",
+      "criteres": [
+        "Maximum thermique avec jour/°C et écart lundi–mardi exact.",
+        "Somme des trois fenêtres 8–9 h, unité mm, et distinction d’un cumul de jours entiers.",
+        "Maximum de vent en km/h et jour.",
+        "Mardi 9/10 et 0 mm, contredit la généralisation.",
+        "Limite de prévision ou de cause explicitée, autonomie."
+      ],
+      "feedback": "Évite de présenter trois heures distinctes comme une pluie cumulée sur 72 heures. Justifie chacune de tes conclusions par les nombres.",
+      "difficulte": "transfert",
+      "representation": "serie_quotidienne_jardin",
+      "variations_admissibles": "Seulement une autre graine s entière dans [0,4095] exécutée par l’algorithme déterministe et soumise à un nouveau contrôle de solution; lieu, unités et signification des périodes restent fixes.",
+      "limites_de_variation": "Preuve de maîtrise contexte B, lieu et temporalité distincts de q-011. Variations sous algorithme seulement.",
+      "source": "Production originale; séries météorologiques simulées (pas de mesures réelles).",
+      "seed": 1012,
+      "parametres": {
+        "domaine_seed": "s entier compris entre 0 et 4095 inclus; aucune génération par IA libre",
+        "variables": "T (°C), V (km/h), pluie (mm), ciel (dixièmes) selon colonnes utilisées",
+        "algorithme": "s entier 0..4095; a=10+s%5; T=[a,a+1+(s//5)%3,a−1]; V=[6+(s//11)%3,10+(s//17)%4,4+(s//23)%2]; pluie=[2+(s//13)%3,0,1+(s//19)%2]; ciel=[8,9,3+s%3]. Ordre lundi/mardi/mercredi à 9 h, pluie pour 8–9 h chaque jour. Corrigé: maximum température mardi, hausse mardi−lundi, maximum vent mardi, somme 3 *fenêtres de 1 h* distinctes (ni cumul du lundi au mercredi ni quantité de toute une journée), nuages mardi 9/10 avec 0 mm. Toute division // entière.",
+        "contraintes": "Entiers, températures dans des plages scolaires plausibles, vent >= 0, pluie >= 0, nuages entre 0 et 10/10, fenêtres explicitement indiquées, même lieu; aucune extrapolation à un climat.",
+        "instance_courante": {
+          "temperature_c": [
+            12,
+            14,
+            11
+          ],
+          "vent_kmh": [
+            8,
+            13,
+            4
+          ],
+          "pluie_mm": [
+            4,
+            0,
+            2
+          ],
+          "ciel_dixiemes": [
+            8,
+            9,
+            4
+          ]
+        },
+        "exemples_calcules": [
+          {
+            "seed": 1012,
+            "donnees": {
+              "temperature_c": [
+                12,
+                14,
+                11
+              ],
+              "vent_kmh": [
+                8,
+                13,
+                4
+              ],
+              "pluie_mm": [
+                4,
+                0,
+                2
+              ],
+              "ciel_dixiemes": [
+                8,
+                9,
+                4
+              ]
+            },
+            "reponse": "Jardin communautaire : la température à 9 h est 12 °C lundi, 14 °C mardi, 11 °C mercredi : maximum mardi à 14 °C et hausse lundi→mardi de 2 °C. Pluie relevée uniquement sur les trois créneaux 8–9 h : 4 + 0 + 2 = 6 mm ; ceci n'est pas le cumul de trois journées. Vent maximum mardi : 13 km/h. Mardi ciel 9/10 et 0 mm de 8 à 9 h : nuages sans pluie mesurée. Impossible d'affirmer qu'il pleuvra jeudi ni pourquoi il a plu lundi."
+          },
+          {
+            "seed": 1013,
+            "donnees": {
+              "temperature_c": [
+                13,
+                15,
+                12
+              ],
+              "vent_kmh": [
+                8,
+                13,
+                4
+              ],
+              "pluie_mm": [
+                4,
+                0,
+                2
+              ],
+              "ciel_dixiemes": [
+                8,
+                9,
+                5
+              ]
+            },
+            "reponse": "Jardin communautaire : la température à 9 h est 13 °C lundi, 15 °C mardi, 12 °C mercredi : maximum mardi à 15 °C et hausse lundi→mardi de 2 °C. Pluie relevée uniquement sur les trois créneaux 8–9 h : 4 + 0 + 2 = 6 mm ; ceci n'est pas le cumul de trois journées. Vent maximum mardi : 13 km/h. Mardi ciel 9/10 et 0 mm de 8 à 9 h : nuages sans pluie mesurée. Impossible d'affirmer qu'il pleuvra jeudi ni pourquoi il a plu lundi."
+          }
+        ],
+        "controle": "Solutions calculées par programme local et vérifiées avec assertions indépendantes sur 4096 graines; aucune génération non contrôlée."
+      }
+    }
+  ]
+}

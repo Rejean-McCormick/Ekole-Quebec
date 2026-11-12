@@ -1,0 +1,467 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ad-007",
+  "family_id": "qc-pri-ad-007-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ad-007-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Sur cette scène, note deux actions et un lieu, puis reformule la phrase « Cette personne est ridicule » en note d’observation neutre.",
+      "stimulus": "Vu du public : une chaise à gauche, un tapis au centre. Léo entre de droite, dépose un livre sur le tapis, se dirige vers la chaise et s’assoit. Il marque une pause avant de s’asseoir.",
+      "reponse_attendue": "Notes attendues, par exemple : « Léo dépose un livre sur le tapis au centre », « il va vers la chaise à gauche et s’assoit », « il marque une pause avant de s’asseoir ». Remplacement neutre : « Il s’arrête brièvement devant la chaise ». Rien ne prouve qu’il est ridicule.",
+      "criteres": [
+        "Deux actions exactes et non inventées",
+        "Un repère spatial correctement relié au public",
+        "Un indice de jeu (pause) mentionné ou correctement montré",
+        "Reformulation sans jugement de personne"
+      ],
+      "feedback": "Si tu écris un avis sur Léo, cherche un verbe ou une position effectivement mentionné.",
+      "difficulte": "initial",
+      "representation": "vignette de spectacle fictif à interprétation descriptive",
+      "variabilite_permises": [
+        "orthographe non évaluée",
+        "paraphrases équivalentes appuyées par le stimulus",
+        "réponse orale dictée ou visuelle annotée"
+      ],
+      "limites_variation": "stimulus fixe; aucune invention de faits, jugement esthétique ou attribution psychologique",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ad-007-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les propositions A, B, C et explique le mot qui prouve ton observation. A : « Il fait trois pas à gauche ». B : « Il veut partir loin ». C : « Cet interprète est nul ».",
+      "stimulus": "Un personnage se tient au centre, fait trois pas vers la gauche et murmure « Je reste ». Aucune autre action n’est décrite.",
+      "reponse_attendue": "A = observation (la scène dit « trois pas vers la gauche »); B = hypothèse non prouvée; C = jugement sur l’interprète, à exclure. Autre observation possible : « le personnage murmure ».",
+      "criteres": [
+        "A classé comme fait descriptif",
+        "B classé comme interprétation non attestée",
+        "C reconnu comme jugement à exclure",
+        "Indice textuel explicite cité"
+      ],
+      "feedback": "Une intention imaginée peut être discutée comme hypothèse, mais n’est pas une action notée.",
+      "difficulte": "initial",
+      "representation": "vignette de spectacle fictif à interprétation descriptive",
+      "variabilite_permises": [
+        "orthographe non évaluée",
+        "paraphrases équivalentes appuyées par le stimulus",
+        "réponse orale dictée ou visuelle annotée"
+      ],
+      "limites_variation": "stimulus fixe; aucune invention de faits, jugement esthétique ou attribution psychologique",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ad-007-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Identifier l’espace et le déplacement d’un personnage. Rédige quatre notes vérifiables couvrant jeu, espace, action et ordre. Donne un indice qui en justifie une; aucun jugement de personne.",
+      "stimulus": "Vu du public, une table se trouve à gauche. Jo entre à droite, avance vers la table en petits pas et y pose une carte avant de reculer.",
+      "reponse_attendue": "La table est à gauche; Jo entre à droite et va vers la table; Jo pose la carte puis recule; ses pas sont petits.",
+      "criteres": [
+        "Citer ou paraphraser les indices disponibles sans ajouter d’actions",
+        "Identifier correctement un élément d’espace avec perspective",
+        "Décrire une action et un indice de jeu réellement présents",
+        "Établir la chronologie et bannir les jugements de personnes"
+      ],
+      "feedback": "Reviens aux déplacements, au son ou à la vitesse expressément décrits. Une hypothèse sur la personne ne suffit pas; une reformulation exacte est valable.",
+      "difficulte": "intermediaire",
+      "representation": "scène de plateau, geste/voix ou théâtre d’objets/ombres décrits",
+      "variabilite_permises": [
+        "catalogue fermé A/B; mêmes exigences pour toutes les variantes",
+        "paraphrases factuellement justes",
+        "texte, oral transcrit ou tableau"
+      ],
+      "limites_variation": "interdiction de recomposer les répliques, orientations ou objets; aucune génération libre pour correction",
+      "seed": 716,
+      "parametres": {
+        "type": "catalogue_ferme",
+        "seed": 716,
+        "variable": "variante_id",
+        "domaine": [
+          "A",
+          "B"
+        ],
+        "contraintes": [
+          "n’utiliser que la paire de stimuli fournie",
+          "pas de détails ajoutés ou retirés",
+          "quatre composantes exigées : jeu, espace, action, ordre",
+          "perspective du public explicitée si pertinente",
+          "les réponses de chaque variante sont verrouillées dans le catalogue"
+        ],
+        "algorithme_selection": "index=(seed + index_version) modulo 2; index 0→A, 1→B; index_version entier >=0 fourni par l’enseignant; pas de tirage IA",
+        "algorithme_correction": "L’évaluateur compare chaque note aux indices_admis et à la reponse_attendue de la variante choisie; accorde crédit aux paraphrases exactes. Aucune note psychologique ou jugement de personne ne constitue une observation.",
+        "exemples_valides": [
+          {
+            "index_version": 0,
+            "variante_id": "A"
+          },
+          {
+            "index_version": 1,
+            "variante_id": "B"
+          },
+          {
+            "index_version": 2,
+            "variante_id": "A"
+          }
+        ],
+        "variantes": [
+          {
+            "variante_id": "A",
+            "stimulus": "Vu du public, une table se trouve à gauche. Jo entre à droite, avance vers la table en petits pas et y pose une carte avant de reculer.",
+            "reponse_attendue": "La table est à gauche; Jo entre à droite et va vers la table; Jo pose la carte puis recule; ses pas sont petits.",
+            "indices_admis": "Table gauche (public); entrée droite; dépôt de carte; recul; petits pas."
+          },
+          {
+            "variante_id": "B",
+            "stimulus": "Vu du public, une chaise est au fond. Kim entre depuis le centre, marche lentement vers la chaise, y dépose un chapeau et revient au centre.",
+            "reponse_attendue": "La chaise est au fond; Kim avance lentement du centre au fond; Kim dépose un chapeau; Kim revient au centre après le dépôt.",
+            "indices_admis": "Chaise au fond; centre → fond → centre; dépôt du chapeau; marche lente."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ad-007-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Décrire le jeu observable et neutraliser un jugement de personnalité. Rédige quatre notes vérifiables couvrant jeu, espace, action et ordre. Donne un indice qui en justifie une; aucun jugement de personne.",
+      "stimulus": "Un personnage immobile au centre parle doucement : « Voilà la lettre. » Ensuite, il lève une feuille et fait trois pas vers la droite.",
+      "reponse_attendue": "Le personnage parle doucement, lève une feuille, puis marche vers la droite depuis le centre. « Il est timide » serait une inférence non prouvée.",
+      "criteres": [
+        "Citer ou paraphraser les indices disponibles sans ajouter d’actions",
+        "Identifier correctement un élément d’espace avec perspective",
+        "Décrire une action et un indice de jeu réellement présents",
+        "Établir la chronologie et bannir les jugements de personnes"
+      ],
+      "feedback": "Reviens aux déplacements, au son ou à la vitesse expressément décrits. Une hypothèse sur la personne ne suffit pas; une reformulation exacte est valable.",
+      "difficulte": "intermediaire",
+      "representation": "scène de plateau, geste/voix ou théâtre d’objets/ombres décrits",
+      "variabilite_permises": [
+        "catalogue fermé A/B; mêmes exigences pour toutes les variantes",
+        "paraphrases factuellement justes",
+        "texte, oral transcrit ou tableau"
+      ],
+      "limites_variation": "interdiction de recomposer les répliques, orientations ou objets; aucune génération libre pour correction",
+      "seed": 718,
+      "parametres": {
+        "type": "catalogue_ferme",
+        "seed": 718,
+        "variable": "variante_id",
+        "domaine": [
+          "A",
+          "B"
+        ],
+        "contraintes": [
+          "n’utiliser que la paire de stimuli fournie",
+          "pas de détails ajoutés ou retirés",
+          "quatre composantes exigées : jeu, espace, action, ordre",
+          "perspective du public explicitée si pertinente",
+          "les réponses de chaque variante sont verrouillées dans le catalogue"
+        ],
+        "algorithme_selection": "index=(seed + index_version) modulo 2; index 0→A, 1→B; index_version entier >=0 fourni par l’enseignant; pas de tirage IA",
+        "algorithme_correction": "L’évaluateur compare chaque note aux indices_admis et à la reponse_attendue de la variante choisie; accorde crédit aux paraphrases exactes. Aucune note psychologique ou jugement de personne ne constitue une observation.",
+        "exemples_valides": [
+          {
+            "index_version": 0,
+            "variante_id": "A"
+          },
+          {
+            "index_version": 1,
+            "variante_id": "B"
+          },
+          {
+            "index_version": 2,
+            "variante_id": "A"
+          }
+        ],
+        "variantes": [
+          {
+            "variante_id": "A",
+            "stimulus": "Un personnage immobile au centre parle doucement : « Voilà la lettre. » Ensuite, il lève une feuille et fait trois pas vers la droite.",
+            "reponse_attendue": "Le personnage parle doucement, lève une feuille, puis marche vers la droite depuis le centre. « Il est timide » serait une inférence non prouvée.",
+            "indices_admis": "Voix douce; geste lever la feuille; centre vers droite; ordre parole/levée/pas."
+          },
+          {
+            "variante_id": "B",
+            "stimulus": "Un personnage se tient à droite; il frappe deux fois des mains, dit d’une voix forte « Entrez! », puis s’assoit sur le banc au fond.",
+            "reponse_attendue": "Il frappe deux fois des mains, parle d’une voix forte puis s’assoit sur le banc au fond. « Il est agressif » n’est pas un constat prouvé.",
+            "indices_admis": "Deux frappes; voix forte; banc au fond; ordre gestes/parole/assise."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ad-007-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Remettre les actions d’une scène en ordre avec repères. Rédige quatre notes vérifiables couvrant jeu, espace, action et ordre. Donne un indice qui en justifie une; aucun jugement de personne.",
+      "stimulus": "Au centre se trouve un tapis. Lina entre à gauche, pose son sac sur le tapis, avance vers une porte dessinée au fond, s’arrête et revient au tapis.",
+      "reponse_attendue": "D’abord Lina entre par la gauche et pose le sac sur le tapis au centre; ensuite elle va vers le fond et s’arrête; enfin elle revient au tapis.",
+      "criteres": [
+        "Citer ou paraphraser les indices disponibles sans ajouter d’actions",
+        "Identifier correctement un élément d’espace avec perspective",
+        "Décrire une action et un indice de jeu réellement présents",
+        "Établir la chronologie et bannir les jugements de personnes"
+      ],
+      "feedback": "Reviens aux déplacements, au son ou à la vitesse expressément décrits. Une hypothèse sur la personne ne suffit pas; une reformulation exacte est valable.",
+      "difficulte": "intermediaire",
+      "representation": "scène de plateau, geste/voix ou théâtre d’objets/ombres décrits",
+      "variabilite_permises": [
+        "catalogue fermé A/B; mêmes exigences pour toutes les variantes",
+        "paraphrases factuellement justes",
+        "texte, oral transcrit ou tableau"
+      ],
+      "limites_variation": "interdiction de recomposer les répliques, orientations ou objets; aucune génération libre pour correction",
+      "seed": 720,
+      "parametres": {
+        "type": "catalogue_ferme",
+        "seed": 720,
+        "variable": "variante_id",
+        "domaine": [
+          "A",
+          "B"
+        ],
+        "contraintes": [
+          "n’utiliser que la paire de stimuli fournie",
+          "pas de détails ajoutés ou retirés",
+          "quatre composantes exigées : jeu, espace, action, ordre",
+          "perspective du public explicitée si pertinente",
+          "les réponses de chaque variante sont verrouillées dans le catalogue"
+        ],
+        "algorithme_selection": "index=(seed + index_version) modulo 2; index 0→A, 1→B; index_version entier >=0 fourni par l’enseignant; pas de tirage IA",
+        "algorithme_correction": "L’évaluateur compare chaque note aux indices_admis et à la reponse_attendue de la variante choisie; accorde crédit aux paraphrases exactes. Aucune note psychologique ou jugement de personne ne constitue une observation.",
+        "exemples_valides": [
+          {
+            "index_version": 0,
+            "variante_id": "A"
+          },
+          {
+            "index_version": 1,
+            "variante_id": "B"
+          },
+          {
+            "index_version": 2,
+            "variante_id": "A"
+          }
+        ],
+        "variantes": [
+          {
+            "variante_id": "A",
+            "stimulus": "Au centre se trouve un tapis. Lina entre à gauche, pose son sac sur le tapis, avance vers une porte dessinée au fond, s’arrête et revient au tapis.",
+            "reponse_attendue": "D’abord Lina entre par la gauche et pose le sac sur le tapis au centre; ensuite elle va vers le fond et s’arrête; enfin elle revient au tapis.",
+            "indices_admis": "Sac centre avant déplacement vers fond; arrêt; retour; porte fond."
+          },
+          {
+            "variante_id": "B",
+            "stimulus": "Une boîte est à droite. Sam traverse la scène depuis le centre vers la boîte, frappe une fois dessus, recule lentement puis s’immobilise au centre.",
+            "reponse_attendue": "D’abord Sam va du centre vers la droite; ensuite il frappe une fois sur la boîte; enfin il recule lentement et s’arrête au centre.",
+            "indices_admis": "Centre→droite; frappe unique; recul lent; arrêt centre."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ad-007-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-007-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Décrire une action dans une forme dramatique différente. Rédige quatre notes vérifiables couvrant jeu, espace, action et ordre. Donne un indice qui en justifie une; aucun jugement de personne.",
+      "stimulus": "Dans un théâtre d’objets, un cube bleu est au centre. Une main le pousse lentement à gauche, dépose une étoile de carton à droite, puis s’arrête.",
+      "reponse_attendue": "Le cube commence au centre; une main le pousse lentement à gauche; elle dépose ensuite une étoile à droite; le geste s’arrête à la fin.",
+      "criteres": [
+        "Citer ou paraphraser les indices disponibles sans ajouter d’actions",
+        "Identifier correctement un élément d’espace avec perspective",
+        "Décrire une action et un indice de jeu réellement présents",
+        "Établir la chronologie et bannir les jugements de personnes"
+      ],
+      "feedback": "Reviens aux déplacements, au son ou à la vitesse expressément décrits. Une hypothèse sur la personne ne suffit pas; une reformulation exacte est valable.",
+      "difficulte": "transfert",
+      "representation": "scène de plateau, geste/voix ou théâtre d’objets/ombres décrits",
+      "variabilite_permises": [
+        "catalogue fermé A/B; mêmes exigences pour toutes les variantes",
+        "paraphrases factuellement justes",
+        "texte, oral transcrit ou tableau"
+      ],
+      "limites_variation": "interdiction de recomposer les répliques, orientations ou objets; aucune génération libre pour correction",
+      "seed": 722,
+      "parametres": {
+        "type": "catalogue_ferme",
+        "seed": 722,
+        "variable": "variante_id",
+        "domaine": [
+          "A",
+          "B"
+        ],
+        "contraintes": [
+          "n’utiliser que la paire de stimuli fournie",
+          "pas de détails ajoutés ou retirés",
+          "quatre composantes exigées : jeu, espace, action, ordre",
+          "perspective du public explicitée si pertinente",
+          "les réponses de chaque variante sont verrouillées dans le catalogue"
+        ],
+        "algorithme_selection": "index=(seed + index_version) modulo 2; index 0→A, 1→B; index_version entier >=0 fourni par l’enseignant; pas de tirage IA",
+        "algorithme_correction": "L’évaluateur compare chaque note aux indices_admis et à la reponse_attendue de la variante choisie; accorde crédit aux paraphrases exactes. Aucune note psychologique ou jugement de personne ne constitue une observation.",
+        "exemples_valides": [
+          {
+            "index_version": 0,
+            "variante_id": "A"
+          },
+          {
+            "index_version": 1,
+            "variante_id": "B"
+          },
+          {
+            "index_version": 2,
+            "variante_id": "A"
+          }
+        ],
+        "variantes": [
+          {
+            "variante_id": "A",
+            "stimulus": "Dans un théâtre d’objets, un cube bleu est au centre. Une main le pousse lentement à gauche, dépose une étoile de carton à droite, puis s’arrête.",
+            "reponse_attendue": "Le cube commence au centre; une main le pousse lentement à gauche; elle dépose ensuite une étoile à droite; le geste s’arrête à la fin.",
+            "indices_admis": "Cube centre→gauche lentement; étoile placée droite; pause finale."
+          },
+          {
+            "variante_id": "B",
+            "stimulus": "Dans un théâtre d’ombres, une silhouette de nuage apparaît à gauche, avance rapidement vers la droite, s’arrête à mi-chemin et recule. Une cloche sonne à la fin.",
+            "reponse_attendue": "Une silhouette de nuage part de la gauche, avance rapidement vers la droite, s’arrête à mi-chemin puis recule; une cloche retentit à la fin.",
+            "indices_admis": "Silhouette gauche, mouvement rapide, arrêt milieu, recul, cloche finale."
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ad-007-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Rédige quatre observations couvrant au moins une action, un emplacement, un indice de jeu et l’ordre. Barre ensuite la phrase « L’actrice est peureuse » et remplace-la par une note exacte.",
+      "stimulus": "Vue du public : une caisse au fond, une craie au centre. Eva marche lentement depuis la droite vers le centre, ramasse la craie, dessine un cercle sur le sol puis dépose la craie près de la caisse au fond. Elle s’arrête entre le dessin et la caisse.",
+      "reponse_attendue": "Exemple : « La caisse est au fond »; « Eva ramasse la craie au centre »; « elle marche lentement et s’arrête entre le dessin et la caisse »; « elle trace un cercle avant de déposer la craie au fond ». Remplacement neutre : « Eva marche lentement et marque un arrêt »; aucun indice ne prouve une peur.",
+      "criteres": [
+        "Quatre notes liées aux indices de la scène",
+        "Action et objet fidèles",
+        "Espace et ordre correctement rapportés",
+        "Jeu constaté sans jugement ni état psychologique présenté comme fait"
+      ],
+      "feedback": "Les adverbes « lentement » et « s’arrête » sont observables; « peureuse » ne l’est pas.",
+      "difficulte": "intermediaire",
+      "representation": "vignette de spectacle fictif à interprétation descriptive",
+      "variabilite_permises": [
+        "orthographe non évaluée",
+        "paraphrases équivalentes appuyées par le stimulus",
+        "réponse orale dictée ou visuelle annotée"
+      ],
+      "limites_variation": "stimulus fixe; aucune invention de faits, jugement esthétique ou attribution psychologique",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ad-007-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-007-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans ce théâtre d’objets, note quatre éléments observables; explique pourquoi « l’animateur est distrait » ne convient pas.",
+      "stimulus": "Une petite scène est représentée par une étagère au fond et un tapis à gauche. Une main déplace lentement une figurine du tapis vers l’étagère, la dépose puis frappe une fois une clochette sur le côté droit. Aucune personne n’est visible.",
+      "reponse_attendue": "Exemple : « Le tapis est à gauche », « la figurine va lentement du tapis vers l’étagère au fond », « elle est déposée sur l’étagère », « une clochette sonne à droite après le déplacement ». « Distrait » qualifie une personne invisible et n’est appuyé par aucun fait.",
+      "criteres": [
+        "Repère gauche/fond exact",
+        "Déplacement et dépôt correctement décrits",
+        "Rythme lent ou son final relevé",
+        "Aucun jugement sur l’animateur invisible"
+      ],
+      "feedback": "Le texte décrit le mouvement et le son, pas les qualités ni le caractère de l’animateur.",
+      "difficulte": "transfert",
+      "representation": "vignette de spectacle fictif à interprétation descriptive",
+      "variabilite_permises": [
+        "orthographe non évaluée",
+        "paraphrases équivalentes appuyées par le stimulus",
+        "réponse orale dictée ou visuelle annotée"
+      ],
+      "limites_variation": "stimulus fixe; aucune invention de faits, jugement esthétique ou attribution psychologique",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ad-007-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-007-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE P1 — Sans indice individuel, prends quatre notes sur la scène jouée : une sur le jeu, une sur l’espace, une sur l’action et une sur l’ordre. Justifie deux notes par le stimulus, sans qualifier la personne.",
+      "stimulus": "CONTEXTE 1 — PETITE SCÈNE JOUÉE « Le chapeau sur la caisse ». Vu du public : une caisse est au centre et une chaise à droite. Nora entre de la gauche, s’arrête derrière la caisse, pose un chapeau dessus et dit à voix basse « Le voici ». Elle contourne ensuite la caisse par la droite et s’assoit sur la chaise. Elle ne touche plus au chapeau.",
+      "reponse_attendue": "Quatre notes exemplaires : « La caisse est au centre et la chaise à droite » (espace); « Nora entre de la gauche puis s’arrête derrière la caisse » (jeu/action); « Elle dépose un chapeau sur la caisse et dit « Le voici » à voix basse » (action/jeu); « Après avoir déposé le chapeau, elle contourne la caisse et s’assoit à droite » (ordre). Deux justifications : « à voix basse » est dans la scène; « chaise à droite » est dans la disposition initiale. Aucune inférence de caractère.",
+      "criteres": [
+        "Au moins 3 notes exactes parmi 4, sans faits ajoutés",
+        "Indices jeu, espace et action présents (au moins 1 de chaque)",
+        "Relation temporelle correcte et deux justifications par indices",
+        "Aucun jugement de la personne; production sans indice de réponse"
+      ],
+      "feedback": "Si un repère spatial ou une action a été inventé, retourne aux éléments explicitement fournis. Une seule épreuve ne suffit pas à la maîtrise.",
+      "difficulte": "transfert",
+      "representation": "vignette de spectacle fictif à interprétation descriptive",
+      "variabilite_permises": [
+        "orthographe non évaluée",
+        "paraphrases équivalentes appuyées par le stimulus",
+        "réponse orale dictée ou visuelle annotée"
+      ],
+      "limites_variation": "stimulus fixe; aucune invention de faits, jugement esthétique ou attribution psychologique",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ad-007-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ad-007-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE P2 — Sans indice individuel, observe la scène de théâtre d’ombres décrite. Fournis quatre notes (jeu, espace, action, ordre), justifie deux notes et évite tout jugement sur la personne qui anime.",
+      "stimulus": "CONTEXTE 2 — THÉÂTRE D’OMBRES « Le bateau et le phare ». Sur un écran au centre, un phare dessiné est à droite. Une silhouette de bateau apparaît à gauche, traverse rapidement l’écran vers la droite, ralentit près du phare, revient au centre et s’immobilise. Une clochette retentit deux fois pendant l’immobilité. L’animateur n’est pas visible.",
+      "reponse_attendue": "Quatre notes exemplaires : « L’écran est au centre et le phare à droite » (espace); « Le bateau entre par la gauche et va vers la droite » (action); « Le mouvement est rapide au début puis ralentit près du phare » (jeu); « Le bateau revient au centre et s’arrête, puis la clochette sonne deux fois » (ordre/son). Justifications : « rapidement » et « ralentit » sont écrits; « retentit deux fois » est explicite. Aucune appréciation de l’animateur.",
+      "criteres": [
+        "Au moins 3 notes exactes sur 4, sans invention",
+        "Indices jeu, espace et action présents (au moins 1 de chaque)",
+        "Chronologie et deux justifications appuyées sur la scène",
+        "Neutralité et autonomie maintenues dans ce second contexte"
+      ],
+      "feedback": "Décris la trajectoire et le rythme de la silhouette, non les compétences ou la personnalité de la personne invisible.",
+      "difficulte": "transfert",
+      "representation": "vignette de spectacle fictif à interprétation descriptive",
+      "variabilite_permises": [
+        "orthographe non évaluée",
+        "paraphrases équivalentes appuyées par le stimulus",
+        "réponse orale dictée ou visuelle annotée"
+      ],
+      "limites_variation": "stimulus fixe; aucune invention de faits, jugement esthétique ou attribution psychologique",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

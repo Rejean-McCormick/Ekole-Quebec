@@ -1,0 +1,88 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Positionner et ordonner des événements selon une échelle temporelle cohérente.",
+  "concepts": [
+    "chronologie",
+    "durée",
+    "succession",
+    "époque"
+  ],
+  "preuve_attendue": "Construire une ligne du temps et expliquer l’ordre retenu.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-001-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Construire une ligne du temps et expliquer l’ordre retenu.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_revision_humaine_requise",
+      "kristal_id": "qc-pri-us-001",
+      "objectif_id": "obj-1",
+      "critere": {
+        "id": "crit-1",
+        "texte": "Construire une ligne du temps et expliquer l’ordre retenu."
+      },
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "cartes_de_sources_datees",
+        "tableau_date_evenement",
+        "ligne_du_temps_graduee",
+        "description_textuelle_equivalente"
+      ],
+      "variables": {
+        "corpus": "variantes A/B verrouillées par item dans BANQUE_ITEMS.json",
+        "selection": "scenario_index = seed % 2, indices 0=A et 1=B; seed entier stable propre à chaque item",
+        "unite_temporelle": "année civile; événements affichés à précision annuelle, sans déduire la date exacte dans une année",
+        "echelle": "1 intervalle = 1 an, sauf exercice fixe précisant 2 ans"
+      },
+      "contraintes": [
+        "dates vérifiées pour le corpus historique; situations fictives explicitement identifiées",
+        "dates conservées telles que le corpus approuvé; ordre strict seulement si années différentes",
+        "graduation uniforme; origine et unité annoncées",
+        "correction déterministe par tri croissant des années et position=(année-origine)/pas",
+        "aucune inférence historique hors des fiches; auteurs/dates des sources distingués",
+        "variantes verrouillées; aucune génération libre d’événements par IA"
+      ],
+      "barreme_ou_rubrique": {
+        "points_max": 8,
+        "dimensions": {
+          "exactitude_dates_sources": 2,
+          "ordre_et_succession": 2,
+          "echelle_et_positions": 2,
+          "explication_et_limites": 2
+        },
+        "decision": "ne jamais déduire la maîtrise d’un seul total; deux preuves indépendantes et autonomie"
+      },
+      "source": [
+        "gouvernance v1.2 (documents cités dans REFERENCES_CONTENU.md)",
+        "BAnQ Expo67, trois pages web vérifiées",
+        "corpus pédagogique original fictif, non historique"
+      ],
+      "seed": {
+        "type": "entier_stable",
+        "selection": "modulo 2",
+        "instances": "seed explicite dans chacun des 8 items scenario_controle; items fixes seed=null"
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "items_et_contenus_produits_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,114 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ad-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Utiliser corps, voix et espace pour exprimer une intention théâtrale.",
+  "concepts": [
+    "geste",
+    "posture",
+    "voix",
+    "espace"
+  ],
+  "preuve_attendue": "Interpréter une consigne d’expression par deux moyens différents.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ad-001-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Interpréter une consigne d’expression par deux moyens différents.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ad-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Interpréter une consigne d’expression par deux moyens différents.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "jeu corporel adapté",
+        "jeu d’objet ou de figurine",
+        "voix naturelle, assistée ou synthétique contrôlée",
+        "plan de scène et repères spatiaux",
+        "observation par grille et commentaire"
+      ],
+      "variables": {
+        "mode_variation": "corpus_ferme_de_scenarios_fixes",
+        "scenarios_autorises": [
+          "q-001",
+          "q-002",
+          "q-003",
+          "q-004",
+          "q-005",
+          "q-006",
+          "q-007",
+          "q-008",
+          "q-009",
+          "q-010",
+          "q-011",
+          "q-012"
+        ],
+        "variations_non_substantielles": [
+          "medium_de_jeu: figurine|jeu_assis|jeu_debout|objet_telecommande_selon_accessibilite",
+          "support_consigne: texte|oral|pictogramme",
+          "trace: grille_écrite|description_orale_transcrite|pointage_sur_carte"
+        ],
+        "tirage_aleatoire": false
+      },
+      "contraintes": [
+        "Conserver l’intention de chaque scénario et ses deux familles de moyens observables.",
+        "Aucune variation générative libre de situation, d’enjeu, de correction ou de critères.",
+        "Aucun contact, cri, course, émotion ou expérience intime imposés; possibilité de pause.",
+        "Adaptations choisies avant la preuve, contrôlées par l’élève, journalisées, sujettes à une revue humaine d’équivalence.",
+        "Deux contextes de preuves distincts q-010 et q-011, réalisés sans indice expressif pendant la prestation."
+      ],
+      "barreme_ou_rubrique": {
+        "schema": "quatre_dimensions_0_3",
+        "dimensions": {
+          "I_intention_lisible": "0 aucune intention lisible; 1 interprétation incertaine; 2 intention vérifiable par indice(s); 3 intention lisible et ajustée au contexte",
+          "M_deux_moyens_distincts": "0 aucun; 1 une seule famille identifiable; 2 deux familles pertinentes et distinctes; 3 deux familles pertinentes avec coordination/adaptation",
+          "C_choix_explicites": "0 aucun indice nommé; 1 commentaire vague; 2 deux choix montrés/nommés et reliés à la consigne; 3 justification précise avec ajustement",
+          "A_autonomie_securite": "0 danger ou arrêt requis; 1 indices expressifs donnés pendant essai ou sécurité à réguler; 2 choix autonome et conditions de sécurité respectées; 3 autonomie et adaptation assurées sur initiative"
+        },
+        "seuil_par_preuve": "I>=2, M>=2, C>=2, A>=2 sans guidage expressif pendant la prestation",
+        "decision_globale": "q-010 et q-011 réussis indépendamment, deux contextes distincts; pas de compensation par moyenne ni note unique; couverture corps/voix/espace documentée à travers le parcours"
+      },
+      "source": [
+        "authoring/PARCOURS.md (frame v1.2 préservée)",
+        "governance/Norme_Pedagogique_Autonome_v1.2/CONTRAT_PEDAGOGIQUE_V1.2.md",
+        "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "sources/REFERENCES_CONTENU.md (conception originale)"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir",
+      "items_refs": [
+        "qc-pri-ad-001-q-001",
+        "qc-pri-ad-001-q-002",
+        "qc-pri-ad-001-q-003",
+        "qc-pri-ad-001-q-004",
+        "qc-pri-ad-001-q-005",
+        "qc-pri-ad-001-q-006",
+        "qc-pri-ad-001-q-007",
+        "qc-pri-ad-001-q-008",
+        "qc-pri-ad-001-q-009",
+        "qc-pri-ad-001-q-010",
+        "qc-pri-ad-001-q-011",
+        "qc-pri-ad-001-q-012"
+      ]
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_reviser",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

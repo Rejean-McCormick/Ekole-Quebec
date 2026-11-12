@@ -1,0 +1,520 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-018",
+  "family_id": "qc-pri-fr-018-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-018-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Présent : un sujet singulier",
+      "consigne": "Complète le verbe au présent de l'indicatif et justifie la personne.",
+      "stimulus": "En ce moment, la troupe (chanter) dans la salle.",
+      "reponse_attendue": "La troupe chante dans la salle. « La troupe » équivaut à « elle » (3e personne du singulier) : chant- + -e.",
+      "criteres": [
+        "chante, graphie exacte",
+        "la troupe = 3e personne du singulier",
+        "présent explicitement demandé"
+      ],
+      "feedback": "Si tu as écrit chantent, « troupe » est un nom collectif singulier ici : remplace-le par « elle ».",
+      "difficulte": "initial",
+      "representation": "phrase lacunaire + justification",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "chanter",
+          "temps": "present",
+          "personne_index": 2,
+          "forme": "chante"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Présent : deuxième personne",
+      "consigne": "Complète au présent, puis indique la personne et la finale.",
+      "stimulus": "Aujourd’hui, tu (jouer) avec les blocs.",
+      "reponse_attendue": "Aujourd’hui, tu joues avec les blocs. Tu = 2e personne du singulier; jou- + -es.",
+      "criteres": [
+        "joues, finale -es",
+        "tu identifié 2e personne du singulier",
+        "présent cohérent"
+      ],
+      "feedback": "La forme joue correspond à je/il/elle/on; avec tu, il faut -es.",
+      "difficulte": "initial",
+      "representation": "phrase lacunaire + identification de terminaison",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "jouer",
+          "temps": "present",
+          "personne_index": 1,
+          "forme": "joues"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Présent : groupe nominal pluriel",
+      "consigne": "Complète au présent et remplace le sujet par un pronom approprié pour justifier.",
+      "stimulus": "Chaque matin, les élèves (regarder) le tableau.",
+      "reponse_attendue": "Chaque matin, les élèves regardent le tableau. « Les élèves » se remplace par « ils/elles » : 3e pluriel, regard- + -ent.",
+      "criteres": [
+        "regardent, finale -ent",
+        "substitution ils/elles correctement expliquée",
+        "présent habituel"
+      ],
+      "feedback": "Un groupe nominal pluriel demande ici la 3e personne du pluriel, même si -ent n’est pas prononcé.",
+      "difficulte": "initial",
+      "representation": "substitution pronominale + phrase",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "regarder",
+          "temps": "present",
+          "personne_index": 5,
+          "forme": "regardent"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Imparfait : première personne",
+      "consigne": "Complète à l’imparfait de l’indicatif et explique la valeur du temps.",
+      "stimulus": "Quand j’étais petit, je (parler) chaque soir avec mon voisin.",
+      "reponse_attendue": "Quand j’étais petit, je parlais chaque soir avec mon voisin. Habitude passée; je = 1re singulier, parl- + -ais.",
+      "criteres": [
+        "parlais, finale -ais",
+        "reconnaissance du passé habituel",
+        "sujet je correctement identifié"
+      ],
+      "feedback": "Je parle est au présent; le contexte décrit une habitude passée et appelle parlais.",
+      "difficulte": "initial",
+      "representation": "phrase lacunaire + valeur temporelle",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "parler",
+          "temps": "imparfait",
+          "personne_index": 0,
+          "forme": "parlais"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Imparfait : vous",
+      "consigne": "Complète, souligne l’indice temporel, et justifie la terminaison.",
+      "stimulus": "L’hiver dernier, vous (aider) souvent à ranger la salle.",
+      "reponse_attendue": "L’hiver dernier, vous aidiez souvent à ranger la salle. Habitude passée; vous = 2e pluriel, aid- + -iez.",
+      "criteres": [
+        "aidiez, finale -iez",
+        "l’hiver dernier / souvent identifié comme contexte passé",
+        "vous = 2e pluriel"
+      ],
+      "feedback": "Aidez est la forme du présent; à l’imparfait vous prend -iez.",
+      "difficulte": "intermediaire",
+      "representation": "phrase contextualisée + justification",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "aider",
+          "temps": "imparfait",
+          "personne_index": 4,
+          "forme": "aidiez"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Imparfait : elles",
+      "consigne": "Complète au temps qui convient à l’habitude passée, puis donne sa personne.",
+      "stimulus": "Autrefois, elles (marcher) chaque soir le long de la rivière.",
+      "reponse_attendue": "Autrefois, elles marchaient chaque soir le long de la rivière. Imparfait 3e pluriel : march- + -aient.",
+      "criteres": [
+        "marchaient, finale -aient",
+        "reconnaissance de l’imparfait",
+        "elles = 3e pluriel"
+      ],
+      "feedback": "Marcheront place l’action dans le futur; « autrefois » et « chaque soir » indiquent ici une habitude passée.",
+      "difficulte": "intermediaire",
+      "representation": "choix du temps + phrase",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "marcher",
+          "temps": "imparfait",
+          "personne_index": 5,
+          "forme": "marchaient"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Futur : nous",
+      "consigne": "Complète au futur simple et explique comment tu construis la forme.",
+      "stimulus": "Le mois prochain, nous (dessiner) une murale.",
+      "reponse_attendue": "Le mois prochain, nous dessinerons une murale. Futur simple 1re pluriel : dessiner + -ons.",
+      "criteres": [
+        "dessinerons, graphie exacte",
+        "nous identifié comme 1re pluriel",
+        "infinitif dessiner + -ons au futur simple"
+      ],
+      "feedback": "Dessinons est le présent; le futur simple conserve -er- dans dessinerons.",
+      "difficulte": "intermediaire",
+      "representation": "construction morphologique explicitée",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "dessiner",
+          "temps": "futur",
+          "personne_index": 3,
+          "forme": "dessinerons"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Futur : tu",
+      "consigne": "Complète au futur simple; justifie ta réponse par le sujet et le temps.",
+      "stimulus": "Demain, tu (écouter) un balado sur la nature.",
+      "reponse_attendue": "Demain, tu écouteras un balado sur la nature. Tu = 2e singulier; futur simple écouter + -as.",
+      "criteres": [
+        "écouteras, accent et finale exacts",
+        "tu = 2e singulier",
+        "futur simple explicité"
+      ],
+      "feedback": "Écoutais est l’imparfait; « demain » appelle ici le futur simple.",
+      "difficulte": "intermediaire",
+      "representation": "phrase lacunaire + justification",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "écouter",
+          "temps": "futur",
+          "personne_index": 1,
+          "forme": "écouteras"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Comparer deux temps avec nous",
+      "consigne": "Complète les deux formes, puis justifie la différence de temps.",
+      "stimulus": "A. Chaque semaine maintenant, nous (préparer) le matériel. B. Quand nous étions au petit groupe l’an dernier, nous (préparer) le matériel chaque semaine.",
+      "reponse_attendue": "A. nous préparons (présent, -ons). B. nous préparions (imparfait, -ions). Même sujet nous, mais valeurs temporelles distinctes.",
+      "criteres": [
+        "préparons pour A",
+        "préparions pour B",
+        "justification du contraste présent habituel / imparfait habituel"
+      ],
+      "feedback": "Les deux formes se ressemblent : la présence de -i- distingue ici préparions (imparfait) de préparons (présent).",
+      "difficulte": "intermediaire",
+      "representation": "paire contrastive écrite",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "préparer",
+          "temps": "present",
+          "personne_index": 3,
+          "forme": "préparons"
+        },
+        {
+          "infinitif": "préparer",
+          "temps": "imparfait",
+          "personne_index": 3,
+          "forme": "préparions"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Produire deux phrases avec je",
+      "consigne": "Rédige deux phrases complètes : A « aujourd’hui », sujet je, verbe planter, présent; B « demain », sujet je, verbe planter, futur simple. Explique la différence.",
+      "stimulus": "Contexte fictif : une personne parle de son activité au jardin. Les deux phrases doivent conserver « je » et le verbe planter.",
+      "reponse_attendue": "A. Aujourd’hui, je plante des fleurs. B. Demain, je planterai des fleurs. A = plant- + -e; B = planter + -ai. Les compléments peuvent varier tant que l’activité est cohérente.",
+      "criteres": [
+        "deux phrases complètes et plausibles",
+        "je plante au présent",
+        "je planterai au futur simple",
+        "explication de la différence de temps et de base"
+      ],
+      "feedback": "Si tu écris « demain, je plantais », tu utilises un temps de passé au lieu du futur demandé.",
+      "difficulte": "intermediaire",
+      "representation": "deux phrases originales avec critères",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "planter",
+          "temps": "present",
+          "personne_index": 0,
+          "forme": "plante"
+        },
+        {
+          "infinitif": "planter",
+          "temps": "futur",
+          "personne_index": 0,
+          "forme": "planterai"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Preuve A : journal du club de quartier",
+      "consigne": "Sans aide sur les terminaisons : (1) complète trois phrases; (2) écris deux phrases courtes avec les sujets, verbes et temps imposés, en inventant un complément naturel; (3) explique le sujet et le temps choisis pour les phrases 2 et 3.",
+      "stimulus": "CLUB DE QUARTIER (fiction) — Complète : 1. Chaque mercredi, Léa (regarder, présent) les affiches. 2. L’an dernier, nous (chanter, imparfait) pendant les rencontres. 3. Le mois prochain, ils (préparer, futur simple) les invitations. Produis : 4. Aujourd’hui, je / dessiner / présent / une chose utile au club. 5. Le mois prochain, vous / parler / futur simple / devant des voisins.",
+      "reponse_attendue": "1. Léa regarde les affiches. 2. Nous chantions pendant les rencontres. 3. Ils prépareront les invitations. 4. Exemple : « Aujourd’hui, je dessine une pancarte pour le club. » 5. Exemple : « Le mois prochain, vous parlerez devant les voisins. » Explications : 2 nous = 1re pluriel, habitude passée → -ions; 3 ils = 3e pluriel, futur → préparer + -ont. Les compléments libres sont acceptés s’ils sont plausibles et que les sujets/temps imposés sont respectés.",
+      "criteres": [
+        "complétions 1, 2 et 3 orthographiquement exactes",
+        "phrase 4 complète : je dessine, présent, complément cohérent",
+        "phrase 5 complète : vous parlerez, futur, complément cohérent",
+        "justifications exactes de la personne et du temps pour 2 et 3",
+        "production sans indice portant sur la forme verbale"
+      ],
+      "feedback": "Repère l’erreur exacte : sujet (accord), temps (passé/présent/futur) ou forme écrite; réentraîne-toi sur un autre verbe avant une nouvelle épreuve.",
+      "difficulte": "transfert",
+      "representation": "journal fictif : 3 complétions + 2 productions + 2 justifications",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "regarder",
+          "temps": "present",
+          "personne_index": 2,
+          "forme": "regarde"
+        },
+        {
+          "infinitif": "chanter",
+          "temps": "imparfait",
+          "personne_index": 3,
+          "forme": "chantions"
+        },
+        {
+          "infinitif": "préparer",
+          "temps": "futur",
+          "personne_index": 5,
+          "forme": "prépareront"
+        },
+        {
+          "infinitif": "dessiner",
+          "temps": "present",
+          "personne_index": 0,
+          "forme": "dessine"
+        },
+        {
+          "infinitif": "parler",
+          "temps": "futur",
+          "personne_index": 4,
+          "forme": "parlerez"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A",
+      "conditions_administration": "Indépendant, sans tableau de conjugaison ni indice sur la forme; seulement lecture de consignes, clavier ou scripteur fidèle; deux phrases originales obligatoires."
+    },
+    {
+      "item_id": "qc-pri-fr-018-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-018-ev-01",
+      "mode": "fixe",
+      "titre": "Preuve B : carnet du jardin scolaire",
+      "consigne": "Sans aide sur les terminaisons : (1) complète trois phrases; (2) écris deux phrases courtes avec les sujets, verbes et temps imposés, et un complément libre; (3) explique le sujet et le temps des phrases 2 et 3.",
+      "stimulus": "JARDIN SCOLAIRE (fiction) — Complète : 1. En ce moment, les élèves (observer, présent) les graines. 2. Autrefois, tu (planter, imparfait) des herbes chaque printemps. 3. L’an prochain, nous (travailler, futur simple) dans de nouveaux bacs. Produis : 4. Autrefois, elles / aider / imparfait / une activité au jardin. 5. Demain, il / regarder / futur simple / une plante.",
+      "reponse_attendue": "1. Les élèves observent les graines. 2. Tu plantais des herbes chaque printemps. 3. Nous travaillerons dans de nouveaux bacs. 4. Exemple : « Autrefois, elles aidaient les jardiniers. » 5. Exemple : « Demain, il regardera une plante. » Explications : 2 tu = 2e singulier, habitude passée → -ais; 3 nous = 1re pluriel, futur simple → travailler + -ons. Les compléments libres cohérents sont acceptés sans imposer le modèle.",
+      "criteres": [
+        "complétions 1, 2 et 3 orthographiquement exactes",
+        "phrase 4 complète : elles aidaient, imparfait, complément cohérent",
+        "phrase 5 complète : il regardera, futur, complément cohérent",
+        "justifications exactes de la personne et du temps pour 2 et 3",
+        "production sans indice portant sur la forme verbale"
+      ],
+      "feedback": "Analyse séparément sujet, temps et graphie, puis applique la correction sur une autre phrase avant nouvelle preuve.",
+      "difficulte": "transfert",
+      "representation": "carnet du jardin : 3 complétions + 2 productions + 2 justifications",
+      "variabilite_permise": "Aucune substitution de stimulus ou de forme pour cette version. Seuls des compléments libres naturels sont acceptés dans les phrases à produire, selon la grille; toute nouvelle variante requiert un corrigé contrôlé et une revue.",
+      "limites_variation": [
+        "Verbes réguliers en -er du corpus enseigné",
+        "Présent, imparfait ou futur simple explicitement ciblé",
+        "Pas de changement de personne/temps pour les réponses attendues"
+      ],
+      "controle_formes": [
+        {
+          "infinitif": "observer",
+          "temps": "present",
+          "personne_index": 5,
+          "forme": "observent"
+        },
+        {
+          "infinitif": "planter",
+          "temps": "imparfait",
+          "personne_index": 1,
+          "forme": "plantais"
+        },
+        {
+          "infinitif": "travailler",
+          "temps": "futur",
+          "personne_index": 3,
+          "forme": "travaillerons"
+        },
+        {
+          "infinitif": "aider",
+          "temps": "imparfait",
+          "personne_index": 5,
+          "forme": "aidaient"
+        },
+        {
+          "infinitif": "regarder",
+          "temps": "futur",
+          "personne_index": 2,
+          "forme": "regardera"
+        }
+      ],
+      "justification_corrige": "Les formes attendues proviennent de la conjugaison régulière contrôlée : présent radical+finale, imparfait radical+finale, futur infinitif+finale; les réponses écrites ont été contrôlées par script.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B",
+      "conditions_administration": "Indépendant, sans tableau de conjugaison ni indice sur la forme; seulement lecture de consignes, clavier ou scripteur fidèle; deux phrases originales obligatoires."
+    }
+  ]
+}

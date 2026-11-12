@@ -1,0 +1,116 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ap-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Créer une image destinée à communiquer à un public précis.",
+  "concepts": [
+    "destinataire",
+    "image",
+    "message",
+    "lisibilité"
+  ],
+  "preuve_attendue": "Réaliser une affiche et vérifier sa compréhension auprès d’un pair.",
+  "prerequis_bloquants": [
+    "qc-pri-ap-003"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ap-004"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ap-006-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Réaliser une affiche et vérifier sa compréhension auprès d’un pair.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "mode_controle": "fixe_ou_scenario_controle_sans_tirage",
+        "corpus_variantes": "BANQUE_ITEMS.json q-001 a q-010; variations limitées aux supports/modalites autorisés et consignes explicites"
+      },
+      "review_status": "banque_redigee_a_reviser",
+      "kristal_id": "qc-pri-ap-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "affiche_dessinee",
+        "composition_materielle",
+        "affiche_numerique_simple",
+        "explication_orale_ou_ecrite",
+        "verification_par_pair"
+      ],
+      "variables": {
+        "mode_variation": "scenario_controle_ou_fixe_uniquement",
+        "publics_admissibles": [
+          "jeunes_eleves_au_coin_lecture",
+          "usagers_atelier_partage",
+          "familles_et_invites_exposition_fictive"
+        ],
+        "supports": [
+          "papier",
+          "collage_personnel",
+          "composition_numerique_hors_ligne",
+          "elements_tactiles"
+        ],
+        "corpus_autorise": [
+          "q-001",
+          "q-002",
+          "q-003",
+          "q-004",
+          "q-005",
+          "q-006",
+          "q-007",
+          "q-008",
+          "q-009",
+          "q-010"
+        ],
+        "substitution_non_autorisee": "aucun_scenario_ou_corrige_genere_librement"
+      },
+      "contraintes": [
+        "Chaque item lié à obj-1 et crit-1; tâche observable et rubrique explicite.",
+        "Les deux preuves q-009 et q-010 ont publics et intentions distincts et exigent un test avec pair non informé.",
+        "Respecter objectif, preuve, prerequis et graphe immuables; qc-pri-ap-004 non bloquant.",
+        "Matériaux sûrs; aucun droit de tiers supposé; ne pas recueillir identité des pairs.",
+        "Aucune note pour le goût, le style, la maîtrise du dessin réaliste ou l’adhésion à une valeur.",
+        "Aides d’accès admises; choix de composition et justification demeurent à l’élève.",
+        "Aucune variation aléatoire, aucune génération IA libre; modifications du corpus soumises à revue humaine."
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "D1_public_identifie",
+          "D2_message_compris",
+          "D3_lisibilite_et_organisation",
+          "D4_test_pair_et_decision_de_revision"
+        ],
+        "niveaux": {
+          "0": "non_observe",
+          "1": "en_developpement",
+          "2": "atteint",
+          "3": "consolide"
+        },
+        "regle_maitrise": "deux_preuves_distinctes_q-009_et_q-010; chaque_dimension_au_moins_2_dans_chacune; composition_autonome; test_pair_reel_et_trace_anonyme",
+        "exclusions": [
+          "gout_personnel",
+          "style_impose",
+          "habilete_graphique_non_essentielle"
+        ]
+      },
+      "source": "contenus originaux qc-pri-ap-006; base v1.2 PARCOURS.md, ALIGNEMENT.md, BRIEF_REDACTION.md et gouvernance active; voir sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_reviser",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

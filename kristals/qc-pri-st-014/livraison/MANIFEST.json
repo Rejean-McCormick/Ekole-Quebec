@@ -1,0 +1,24 @@
+{
+  "format": "qc.kristal-delta-manifest/1.0",
+  "kristal_id": "qc-pri-st-014",
+  "base_version": "1.2",
+  "archive_root": "kristals/qc-pri-st-014/",
+  "files": [
+    "kristals/qc-pri-st-014/authoring/PARCOURS.md",
+    "kristals/qc-pri-st-014/authoring/CONTRAT_PEDAGOGIQUE.json",
+    "kristals/qc-pri-st-014/contenu/01_NOTIONS_ET_EXEMPLES.md",
+    "kristals/qc-pri-st-014/contenu/02_DIAGNOSTIC.md",
+    "kristals/qc-pri-st-014/contenu/03_ENSEIGNEMENT_GUIDE.md",
+    "kristals/qc-pri-st-014/contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+    "kristals/qc-pri-st-014/contenu/05_PRATIQUE_AUTONOME.md",
+    "kristals/qc-pri-st-014/contenu/06_REMEDIATION_ET_TRANSFERT.md",
+    "kristals/qc-pri-st-014/evaluation/PLAN_EVALUATION.md",
+    "kristals/qc-pri-st-014/evaluation/BANQUE_ITEMS.json",
+    "kristals/qc-pri-st-014/evaluation/GRILLE_MAITRISE.md",
+    "kristals/qc-pri-st-014/sources/REFERENCES_CONTENU.md",
+    "kristals/qc-pri-st-014/livraison/MANIFEST.json",
+    "kristals/qc-pri-st-014/livraison/VALIDATION.md"
+  ],
+  "statut_validation": "controles_techniques_reussis; revue_humaine_requise; items_a_revoir",
+  "contexte": "delta local non publié; seuls authoring/PARCOURS.md et authoring/CONTRAT_PEDAGOGIQUE.json existent dans source, 12 nouveaux fichiers"
+}

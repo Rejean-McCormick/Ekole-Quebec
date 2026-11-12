@@ -1,0 +1,632 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-001",
+  "family_id": "qc-pri-st-001-ev-01",
+  "objective_id": "obj-1",
+  "critere_id": "crit-1",
+  "generation_controlee": {
+    "type_famille_native": "generee_sous_contraintes",
+    "strategie": "corpus fermé de 12 scénarios originaux; sélection de l’index uniquement, sans variation des chiffres ni des questions",
+    "seed_base": 24001,
+    "algorithme_selection": "Pour une seed entière s >= 0, choisir l’item à index zéro (s % 12) dans la banque ordonnée. Pour le suivant, choisir (s + 1) % 12. Pour les preuves de maîtrise, présenter systématiquement q-011 et q-012 sans substitution.",
+    "exemples_verifiables": [
+      {
+        "seed": 24001,
+        "index_zero": 1,
+        "item_id": "qc-pri-st-001-q-002"
+      },
+      {
+        "seed": 24002,
+        "index_zero": 2,
+        "item_id": "qc-pri-st-001-q-003"
+      }
+    ],
+    "contraintes": [
+      "Tous les stimuli et nombres sont entièrement fictifs et doivent être annoncés comme tels.",
+      "Toute addition de scénario ou modification de données exige une validation humaine préalable.",
+      "Ne jamais utiliser une réponse IA libre comme arbitre de la réussite.",
+      "Les deux épreuves de maîtrise M-A et M-B sont toutes deux exigées, sans indices de contenu."
+    ]
+  },
+  "rubrique_commune_ref": "evaluation/GRILLE_MAITRISE.md",
+  "items": [
+    {
+      "item_id": "qc-pri-st-001-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "fixe",
+      "titre": "Observation ou interprétation — tache sur une serviette",
+      "consigne": "Décris deux constats établis par cette carte, identifie l’affirmation qui dépasse les observations, puis transforme la curiosité en une question mesurable; donne une donnée à recueillir.",
+      "stimulus": "Carte pédagogique fictive : sur une serviette dessinée, une tache couvre 2 cases à l’image 1 et 5 cases à l’image 2. Aucune durée n’est précisée. Un personnage dit : « La serviette a soif et attire l’eau. »",
+      "reponse_attendue": "La fiche montre 2 cases humides dans l’image 1 et 5 dans l’image 2; la durée est inconnue. « A soif/attire » est une inférence non étayée. Exemple de question : « Pour une même serviette, le nombre de cases humides varie-t-il en fonction du temps écoulé après une même goutte d’eau? » Trace : nombre de cases; mêmes quantité d’eau, grille et support.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "Si tu as écrit « a soif » comme fait, reviens à la carte : seuls les deux nombres de cases sont donnés. Précise la durée avant de conclure au changement dans le temps.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": null,
+      "aide_contenu_autorisee": "feedback formatif après remise; aucune réponse suggérée pendant la production"
+    },
+    {
+      "item_id": "qc-pri-st-001-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "fixe",
+      "titre": "Longueurs de feuilles représentées",
+      "consigne": "Présente deux observations de la fiche; indique pourquoi « B est plus vieille » est incertain; écris une question investigable sur une caractéristique des feuilles.",
+      "stimulus": "Fiche fictive : une règle dessinée à la même échelle indique pour la feuille A 4 cm et la feuille B 7 cm. Leur âge et leur espèce ne sont pas indiqués.",
+      "reponse_attendue": "A = 4 cm et B = 7 cm sur cette représentation. L’âge ne figure pas dans les données. Exemple : « Sur des feuilles du même type, la longueur change-t-elle selon leur position sur une même plante? » Facteur = position; trace = longueur; conditions = espèce, instrument et méthode de mesure comparables.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "Les longueurs illustrées ne donnent pas automatiquement l’âge. Nomme une propriété qu’on pourrait comparer objectivement.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": null,
+      "aide_contenu_autorisee": "feedback formatif après remise; aucune réponse suggérée pendant la production"
+    },
+    {
+      "item_id": "qc-pri-st-001-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Question de goût à convertir",
+      "consigne": "Nomme deux informations observables, explique pourquoi cette question n’est pas scientifique, et propose une question testable en précisant la façon de compter.",
+      "stimulus": "Deux dessins fictifs présentent des pierres avec respectivement 3 et 6 taches foncées visibles. Un élève demande : « Quelle pierre est la plus belle? »",
+      "reponse_attendue": "Pierre 1 : 3 taches foncées; pierre 2 : 6 sur la fiche. « Belle » relève du jugement de goût. « Pour deux zones de même aire, le nombre de taches foncées visibles diffère-t-il selon la pierre? » Facteur = pierre/zone; trace = nombre de taches; conditions = aire, éclairage et définition de tache identiques.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "Une préférence est recevable personnellement, mais ne constitue pas une mesure; remplace-la par un comptage défini.",
+      "difficulte": "initial",
+      "seed": 24003,
+      "parametres": {
+        "scenario_id": "st001-s03",
+        "corpus": "st001-closed/1.0",
+        "statut_donnees": "illustrations et chiffres fictifs, originaux; non résultats d’expérience",
+        "variable_comparaison": "zone ou pierre",
+        "trace_observable": "nombre de taches",
+        "conditions_a_considerer": "même aire, lumière, définition",
+        "variations_permises": [
+          "lecture accessible fidèle du stimulus",
+          "réponse orale ou dictée transcrite",
+          "aménagement de temps et de présentation sans changement de données"
+        ],
+        "variations_interdites": [
+          "changement libre des données ou conditions du stimulus",
+          "inférence de causalité présentée comme un fait",
+          "création de variante non révisée par IA",
+          "suppression des exigences de question mesurable"
+        ],
+        "algorithme": "Aucun tirage de variables physiques : sélectionner exactement ce scénario figé par son ID; les données, la consigne et la grille ne changent pas. La banque permet uniquement une sélection reproductible de scénario, pas une simulation expérimentale."
+      },
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": null,
+      "aide_contenu_autorisee": "feedback formatif après remise; aucune réponse suggérée pendant la production"
+    },
+    {
+      "item_id": "qc-pri-st-001-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Jeunes plants dans deux dessins",
+      "consigne": "Note deux faits de la fiche, sépare une cause supposée, puis écris une question comparant un facteur et une hauteur à mesurer; indique ce qu’il faudrait garder semblable.",
+      "stimulus": "Carte fictive : deux plants A et B, photographiés en dessin à l’échelle : hauteur indiquée 8 cm pour A et 11 cm pour B. Les conditions de croissance sont inconnues.",
+      "reponse_attendue": "8 cm et 11 cm sont les seules hauteurs fournies. « B a reçu plus d’eau » est inférence non prouvée. Question : « Pour une même espèce de jeunes plants, la hauteur après le même nombre de jours varie-t-elle avec la quantité d’eau reçue? » Facteur = quantité d’eau; trace = hauteur; mêmes espèces, durée, type de pot/terre et lumière pour envisager un test.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "La cause « plus d’eau » est une piste de recherche, pas un résultat de la fiche. Énonce-la sous forme de question sans présumer la réponse.",
+      "difficulte": "intermediaire",
+      "seed": 24004,
+      "parametres": {
+        "scenario_id": "st001-s04",
+        "corpus": "st001-closed/1.0",
+        "statut_donnees": "illustrations et chiffres fictifs, originaux; non résultats d’expérience",
+        "variable_comparaison": "quantité d’eau",
+        "trace_observable": "hauteur des plants",
+        "conditions_a_considerer": "espèce, durée, pots, lumière",
+        "variations_permises": [
+          "lecture accessible fidèle du stimulus",
+          "réponse orale ou dictée transcrite",
+          "aménagement de temps et de présentation sans changement de données"
+        ],
+        "variations_interdites": [
+          "changement libre des données ou conditions du stimulus",
+          "inférence de causalité présentée comme un fait",
+          "création de variante non révisée par IA",
+          "suppression des exigences de question mesurable"
+        ],
+        "algorithme": "Aucun tirage de variables physiques : sélectionner exactement ce scénario figé par son ID; les données, la consigne et la grille ne changent pas. La banque permet uniquement une sélection reproductible de scénario, pas une simulation expérimentale."
+      },
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": null,
+      "aide_contenu_autorisee": "feedback formatif après remise; aucune réponse suggérée pendant la production"
+    },
+    {
+      "item_id": "qc-pri-st-001-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Bandes de tissu",
+      "consigne": "Décris précisément les deux traces, corrige « N boit mieux parce que c’est un tissu spécial », puis formule une question investigable et un contrôle important.",
+      "stimulus": "Sur une carte fictive à 15 secondes, deux bandes de tissu M et N de même taille dessinée portent des marques humides de 2 et de 4 carreaux. La quantité d’eau appliquée est inconnue.",
+      "reponse_attendue": "Marque de M = 2 carreaux; celle de N = 4 à 15 secondes. « Boit mieux/tissu spécial » est une interprétation. Question : « À volume d’eau et temps égaux, la taille de la zone humide diffère-t-elle selon le type de tissu? » Facteur = tissu; trace = carreaux mouillés; contrôler volume, taille, délai et manière de mesurer.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "Une cause doit être évaluée avec une comparaison équitable; la fiche seule montre deux zones dessinées.",
+      "difficulte": "intermediaire",
+      "seed": 24005,
+      "parametres": {
+        "scenario_id": "st001-s05",
+        "corpus": "st001-closed/1.0",
+        "statut_donnees": "illustrations et chiffres fictifs, originaux; non résultats d’expérience",
+        "variable_comparaison": "type de tissu",
+        "trace_observable": "carreaux humides",
+        "conditions_a_considerer": "eau, dimensions, délai",
+        "variations_permises": [
+          "lecture accessible fidèle du stimulus",
+          "réponse orale ou dictée transcrite",
+          "aménagement de temps et de présentation sans changement de données"
+        ],
+        "variations_interdites": [
+          "changement libre des données ou conditions du stimulus",
+          "inférence de causalité présentée comme un fait",
+          "création de variante non révisée par IA",
+          "suppression des exigences de question mesurable"
+        ],
+        "algorithme": "Aucun tirage de variables physiques : sélectionner exactement ce scénario figé par son ID; les données, la consigne et la grille ne changent pas. La banque permet uniquement une sélection reproductible de scénario, pas une simulation expérimentale."
+      },
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": null,
+      "aide_contenu_autorisee": "feedback formatif après remise; aucune réponse suggérée pendant la production"
+    },
+    {
+      "item_id": "qc-pri-st-001-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Ombres à deux moments",
+      "consigne": "Fais deux observations avec unité, nomme une explication qui ne serait pas encore prouvée et formule une question qui pourrait se vérifier sans regarder le Soleil.",
+      "stimulus": "Carte fictive : même objet vertical et même lieu; longueur d’ombre indiquée 10 cm à 9 h et 6 cm à 12 h. La météo n’est pas donnée.",
+      "reponse_attendue": "9 h : 10 cm; 12 h : 6 cm sur la carte, soit un écart de 4 cm. L’attribution de la différence à une cause unique n’est pas établie. « Pour ce même objet, la longueur de l’ombre change-t-elle entre 9 h et 12 h? » Facteur = moment; trace = longueur; conditions = même lieu, objet et mesure. Observer l’ombre au sol ou une fiche; jamais le Soleil directement.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "Décris une ombre mesurée, pas la cause de son changement. La sécurité interdit de regarder directement le Soleil.",
+      "difficulte": "intermediaire",
+      "seed": 24006,
+      "parametres": {
+        "scenario_id": "st001-s06",
+        "corpus": "st001-closed/1.0",
+        "statut_donnees": "illustrations et chiffres fictifs, originaux; non résultats d’expérience",
+        "variable_comparaison": "heure",
+        "trace_observable": "longueur de l’ombre",
+        "conditions_a_considerer": "objet, lieu, méthode",
+        "variations_permises": [
+          "lecture accessible fidèle du stimulus",
+          "réponse orale ou dictée transcrite",
+          "aménagement de temps et de présentation sans changement de données"
+        ],
+        "variations_interdites": [
+          "changement libre des données ou conditions du stimulus",
+          "inférence de causalité présentée comme un fait",
+          "création de variante non révisée par IA",
+          "suppression des exigences de question mesurable"
+        ],
+        "algorithme": "Aucun tirage de variables physiques : sélectionner exactement ce scénario figé par son ID; les données, la consigne et la grille ne changent pas. La banque permet uniquement une sélection reproductible de scénario, pas une simulation expérimentale."
+      },
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": null,
+      "aide_contenu_autorisee": "feedback formatif après remise; aucune réponse suggérée pendant la production"
+    },
+    {
+      "item_id": "qc-pri-st-001-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Rangement de cubes illustrés",
+      "consigne": "Décris deux observations sans affirmer que la pile D tombe forcément, puis rédige une question sur l’effet du nombre de blocs sur une trace de stabilité qu’on peut observer avec des blocs larges sans danger.",
+      "stimulus": "Sur deux cartes fictives, des blocs de même taille sont empilés : pile C contient 4 blocs et pile D 6 blocs. Aucune information de stabilité n’est fournie.",
+      "reponse_attendue": "C présente 4 blocs, D en présente 6. « D va tomber » serait une prédiction. « Pour de grands blocs identiques sur une même surface, la fréquence de basculement change-t-elle selon le nombre de blocs empilés, lors de tests surveillés à faible hauteur? » Facteur = nombre; trace = bascule ou non; conditions = taille, base, placement; on peut travailler sur vidéos à la place.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "Un futur possible n’est pas déjà observé. Si une pile est risquée, utiliser uniquement des images de piles ou des blocs souples et larges.",
+      "difficulte": "intermediaire",
+      "seed": 24007,
+      "parametres": {
+        "scenario_id": "st001-s07",
+        "corpus": "st001-closed/1.0",
+        "statut_donnees": "illustrations et chiffres fictifs, originaux; non résultats d’expérience",
+        "variable_comparaison": "nombre de blocs",
+        "trace_observable": "basculement observé",
+        "conditions_a_considerer": "taille, base, surface, hauteur sécuritaire",
+        "variations_permises": [
+          "lecture accessible fidèle du stimulus",
+          "réponse orale ou dictée transcrite",
+          "aménagement de temps et de présentation sans changement de données"
+        ],
+        "variations_interdites": [
+          "changement libre des données ou conditions du stimulus",
+          "inférence de causalité présentée comme un fait",
+          "création de variante non révisée par IA",
+          "suppression des exigences de question mesurable"
+        ],
+        "algorithme": "Aucun tirage de variables physiques : sélectionner exactement ce scénario figé par son ID; les données, la consigne et la grille ne changent pas. La banque permet uniquement une sélection reproductible de scénario, pas une simulation expérimentale."
+      },
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": null,
+      "aide_contenu_autorisee": "feedback formatif après remise; aucune réponse suggérée pendant la production"
+    },
+    {
+      "item_id": "qc-pri-st-001-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Glaçon représenté dans un gobelet",
+      "consigne": "Donne deux constats, évite une cause affirmée avec certitude et formule une question mesurable sur la taille de la partie solide selon le temps; propose une unité à relever.",
+      "stimulus": "Série d’images pédagogiques fictives d’un glaçon à température ambiante supposée : la zone solide est notée « grande » à 0 min et « petite » à 8 min. Aucun thermomètre ni volume n’est indiqué.",
+      "reponse_attendue": "La fiche indique « grande » à 0 minute et « petite » à 8 minutes; elle ne chiffre pas les volumes. L’origine exacte du changement n’est pas démontrée. Question : « Dans le même gobelet, la dimension mesurée de la partie solide d’un glaçon varie-t-elle au fil des minutes? » Facteur = temps; trace = largeur de la partie solide en mm (définir mesure) ou surface sur photo à échelle; conditions = gobelet, lieu et méthode. Pas de chauffe ni ingestion nécessaire.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "Il manque une échelle pour quantifier une vitesse. Propose une mesure accessible plutôt qu’un nombre inventé.",
+      "difficulte": "intermediaire",
+      "seed": 24008,
+      "parametres": {
+        "scenario_id": "st001-s08",
+        "corpus": "st001-closed/1.0",
+        "statut_donnees": "illustrations et chiffres fictifs, originaux; non résultats d’expérience",
+        "variable_comparaison": "minutes écoulées",
+        "trace_observable": "largeur du solide en millimètres",
+        "conditions_a_considerer": "récipient, échelle et méthode",
+        "variations_permises": [
+          "lecture accessible fidèle du stimulus",
+          "réponse orale ou dictée transcrite",
+          "aménagement de temps et de présentation sans changement de données"
+        ],
+        "variations_interdites": [
+          "changement libre des données ou conditions du stimulus",
+          "inférence de causalité présentée comme un fait",
+          "création de variante non révisée par IA",
+          "suppression des exigences de question mesurable"
+        ],
+        "algorithme": "Aucun tirage de variables physiques : sélectionner exactement ce scénario figé par son ID; les données, la consigne et la grille ne changent pas. La banque permet uniquement une sélection reproductible de scénario, pas une simulation expérimentale."
+      },
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": null,
+      "aide_contenu_autorisee": "feedback formatif après remise; aucune réponse suggérée pendant la production"
+    },
+    {
+      "item_id": "qc-pri-st-001-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Flaque dessinée sur une cour",
+      "consigne": "Décris la représentation, signale la limite d’une explication causale, et écris une question testable avec méthode d’observation sûre et une condition contrôlée.",
+      "stimulus": "Deux schémas fictifs pris au même cadrage : à 8 h, la flaque couvre 12 cases d’une grille; à 11 h, 5 cases. Les conditions météo ne sont pas représentées.",
+      "reponse_attendue": "À 8 h la carte montre 12 cases humides; à 11 h 5 cases. La cause du changement n’est pas donnée. Question : « Sur le même emplacement et la même grille, le nombre de cases humides varie-t-il avec le temps? » Facteur = moment; trace = cases humides; même emplacement, aire des cases et cadrage. Utiliser images; ne pas marcher sur un sol glissant.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "L’écart des cases est observé sur les croquis, mais le rôle du Soleil ou du vent reste une hypothèse distincte.",
+      "difficulte": "transfert",
+      "seed": 24009,
+      "parametres": {
+        "scenario_id": "st001-s09",
+        "corpus": "st001-closed/1.0",
+        "statut_donnees": "illustrations et chiffres fictifs, originaux; non résultats d’expérience",
+        "variable_comparaison": "heure",
+        "trace_observable": "cases de flaque",
+        "conditions_a_considerer": "grille, zone, cadrage",
+        "variations_permises": [
+          "lecture accessible fidèle du stimulus",
+          "réponse orale ou dictée transcrite",
+          "aménagement de temps et de présentation sans changement de données"
+        ],
+        "variations_interdites": [
+          "changement libre des données ou conditions du stimulus",
+          "inférence de causalité présentée comme un fait",
+          "création de variante non révisée par IA",
+          "suppression des exigences de question mesurable"
+        ],
+        "algorithme": "Aucun tirage de variables physiques : sélectionner exactement ce scénario figé par son ID; les données, la consigne et la grille ne changent pas. La banque permet uniquement une sélection reproductible de scénario, pas une simulation expérimentale."
+      },
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": null,
+      "aide_contenu_autorisee": "feedback formatif après remise; aucune réponse suggérée pendant la production"
+    },
+    {
+      "item_id": "qc-pri-st-001-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Ponts de papier illustrés",
+      "consigne": "Distingue les observations de « P est toujours le meilleur », puis élabore une question investigable sur le pliage et le fléchissement; nomme les contrôles nécessaires.",
+      "stimulus": "Deux dessins fictifs de ponts en papier sous une même charge légère indiquée : P se courbe de 2 mm, Q de 6 mm. Les dessins représentent des pliages différents; la méthode de mesure n’est pas précisée.",
+      "reponse_attendue": "P montre 2 mm de flèche, Q 6 mm sous la charge indiquée. « Toujours meilleur » est un jugement excessif. « Pour la même feuille, la même portée et une même charge légère, le fléchissement mesuré dépend-il du type de pliage? » Facteur = pliage; trace = flèche en mm; conditions = charge, papier, portée, délai, mesure. Présentation sur schéma suffit; aucun poids lourd.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "La question doit mesurer le fléchissement et garder la charge constante, sans garantir que les valeurs fictives se reproduiront.",
+      "difficulte": "transfert",
+      "seed": 24010,
+      "parametres": {
+        "scenario_id": "st001-s10",
+        "corpus": "st001-closed/1.0",
+        "statut_donnees": "illustrations et chiffres fictifs, originaux; non résultats d’expérience",
+        "variable_comparaison": "type de pliage",
+        "trace_observable": "fléchissement en millimètres",
+        "conditions_a_considerer": "papier, portée, charge légère",
+        "variations_permises": [
+          "lecture accessible fidèle du stimulus",
+          "réponse orale ou dictée transcrite",
+          "aménagement de temps et de présentation sans changement de données"
+        ],
+        "variations_interdites": [
+          "changement libre des données ou conditions du stimulus",
+          "inférence de causalité présentée comme un fait",
+          "création de variante non révisée par IA",
+          "suppression des exigences de question mesurable"
+        ],
+        "algorithme": "Aucun tirage de variables physiques : sélectionner exactement ce scénario figé par son ID; les données, la consigne et la grille ne changent pas. La banque permet uniquement une sélection reproductible de scénario, pas une simulation expérimentale."
+      },
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": null,
+      "aide_contenu_autorisee": "feedback formatif après remise; aucune réponse suggérée pendant la production"
+    },
+    {
+      "item_id": "qc-pri-st-001-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "scenario_controle",
+      "titre": "PREUVE M-A — Papier absorbant, sans indice",
+      "consigne": "SANS INDICE DE CONTENU : (1) formule deux observations exactes avec délai; (2) distingue une inférence plausible mais non établie; (3) transforme ta curiosité en question précise et investigable; (4) indique le facteur comparé, une trace à recueillir, deux conditions à maîtriser et une manière sûre de chercher la réponse. Produis une trace orale ou écrite autonome.",
+      "stimulus": "NOUVELLE FICHE fictive réservée à l’évaluation : deux carrés de papier, U et V, photographiés dans la carte exactement 25 s après une goutte. Le nombre de petits carreaux marqués est U=4, V=7. On ignore si les gouttes ont exactement le même volume et si le papier a la même épaisseur. Aucune cause n’est indiquée.",
+      "reponse_attendue": "Observations : sur la carte, à 25 s U montre 4 carreaux marqués et V en montre 7. Inférence non certaine : V serait intrinsèquement plus absorbant; les volumes et épaisseurs sont inconnus. Exemple de question : « Avec un même volume d’eau et des carrés de dimensions/épaisseur comparables, le nombre de carreaux humides après 25 s diffère-t-il selon le type de papier? » Facteur : type de papier; trace : nombre de carreaux humides après 25 s; conditions : volume, durée, surface, méthode de lecture; procédure sûre facultative : plateau et eau à température ambiante sous supervision, ou comparaison de fiches contrôlées. Accepter une autre question **aussi mesurable et sûre** issue de ces observations.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "Tu as besoin de deux observations exactes **sur la fiche**, puis d’une question qui ne suppose pas que V est meilleur. Un test doit garder le volume, le délai et la lecture comparables.",
+      "difficulte": "transfert",
+      "seed": 24011,
+      "parametres": {
+        "scenario_id": "st001-s11",
+        "corpus": "st001-closed/1.0",
+        "statut_donnees": "illustrations et chiffres fictifs, originaux; non résultats d’expérience",
+        "variable_comparaison": "type de papier",
+        "trace_observable": "carreaux humides à 25 secondes",
+        "conditions_a_considerer": "volume, format, délai, méthode",
+        "variations_permises": [
+          "lecture accessible fidèle du stimulus",
+          "réponse orale ou dictée transcrite",
+          "aménagement de temps et de présentation sans changement de données"
+        ],
+        "variations_interdites": [
+          "changement libre des données ou conditions du stimulus",
+          "inférence de causalité présentée comme un fait",
+          "création de variante non révisée par IA",
+          "suppression des exigences de question mesurable"
+        ],
+        "algorithme": "Aucun tirage de variables physiques : sélectionner exactement ce scénario figé par son ID; les données, la consigne et la grille ne changent pas. La banque permet uniquement une sélection reproductible de scénario, pas une simulation expérimentale."
+      },
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": "M-A",
+      "aide_contenu_autorisee": false
+    },
+    {
+      "item_id": "qc-pri-st-001-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-001-ev-01",
+      "mode": "scenario_controle",
+      "titre": "PREUVE M-B — Déplacement d’une voiture-jouet, sans indice",
+      "consigne": "SANS INDICE DE CONTENU : (1) rapporte deux observations vérifiables; (2) distingue une interprétation de causalité non établie; (3) formule une question investigable et précise; (4) nomme facteur, trace, deux conditions pertinentes et une méthode sûre pour obtenir des données. Réponds de façon autonome dans une modalité accessible.",
+      "stimulus": "NOUVELLE FICHE fictive réservée à l’évaluation : sur deux tracés d’un même gros jouet à roues, une bande lisse W affiche une distance de 52 cm et une bande texturée X affiche 34 cm. Le point de départ paraît identique sur les dessins; aucune information ne précise si la poussée a été la même, ni la pente du support. Les chiffres ne proviennent pas d’une expérience réelle.",
+      "reponse_attendue": "Observations : la carte annonce 52 cm pour W et 34 cm pour X; l’écart représenté est de 18 cm. Inférence non prouvée : la texture cause tout l’écart, car poussée/pente ne sont pas connues. Question recevable : « Pour le même gros jouet lâché sans poussée du même repère sur des supports de même pente, la distance parcourue varie-t-elle selon une surface lisse ou texturée? » Facteur : texture; trace : distance en cm; conditions : jouet, déclenchement, pente, distance initiale et méthode; sécurité : faible hauteur, grande voiture non démontable, espace dégagé, ou vidéo/fiche. Accepter toute question équivalente mesurable sans annoncer le résultat.",
+      "criteres": [
+        "Deux observations distinctes et fidèles à la fiche, sans inventer de mesure ou de cause.",
+        "Distinction explicite entre observation de la fiche et inférence/prédiction/conclusion non démontrée.",
+        "Question investigable circonscrite qui nomme un facteur et une trace observable; ne présuppose pas la réponse.",
+        "Condition(s) pertinente(s) ou méthode sûre pour rendre la recherche faisable; accepter des formulations équivalentes avec preuves."
+      ],
+      "feedback": "Le dessin donne des distances, pas une cause. Ta question doit pouvoir être départagée en gardant les conditions de départ comparables; ne généralise pas à tous les véhicules.",
+      "difficulte": "transfert",
+      "seed": 24012,
+      "parametres": {
+        "scenario_id": "st001-s12",
+        "corpus": "st001-closed/1.0",
+        "statut_donnees": "illustrations et chiffres fictifs, originaux; non résultats d’expérience",
+        "variable_comparaison": "texture de surface",
+        "trace_observable": "distance parcourue en cm",
+        "conditions_a_considerer": "même grosse voiture, départ, pente, méthode",
+        "variations_permises": [
+          "lecture accessible fidèle du stimulus",
+          "réponse orale ou dictée transcrite",
+          "aménagement de temps et de présentation sans changement de données"
+        ],
+        "variations_interdites": [
+          "changement libre des données ou conditions du stimulus",
+          "inférence de causalité présentée comme un fait",
+          "création de variante non révisée par IA",
+          "suppression des exigences de question mesurable"
+        ],
+        "algorithme": "Aucun tirage de variables physiques : sélectionner exactement ce scénario figé par son ID; les données, la consigne et la grille ne changent pas. La banque permet uniquement une sélection reproductible de scénario, pas une simulation expérimentale."
+      },
+      "validation_status": "a_revoir",
+      "sources": [
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "bareme_dimensions": {
+        "observations_fideles": 2,
+        "inference_distinguee": 2,
+        "question_investigable": 2,
+        "variables_conditions_securite": 2
+      },
+      "variabilite_reponse": "La rédaction exacte varie; évaluer les quatre dimensions de la rubrique et la cohérence avec le stimulus, pas une comparaison mot à mot.",
+      "preuve_maitrise": "M-B",
+      "aide_contenu_autorisee": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ap-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Créer une image personnelle cohérente avec un projet expressif.",
+  "concepts": [
+    "intention",
+    "imaginaire",
+    "choix plastiques"
+  ],
+  "preuve_attendue": "Réaliser une production et présenter ses choix de création.",
+  "prerequis_bloquants": [
+    "qc-pri-ap-003"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ap-004"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ap-005-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Réaliser une production et présenter ses choix de création.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "strategie_instances": "banque_fixe_verrouillee_sans_hasard; seed_non_applicable"
+      },
+      "review_status": "items_rediges_revue_humaine_requise",
+      "kristal_id": "qc-pri-ap-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Réaliser une production et présenter ses choix de création.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "description_textuelle_accessible",
+        "vignette_sur_papier_ou_surface_numerique",
+        "composition_de_formes_manipulables",
+        "presentation_orale_ecrite_dictee_ou_pointee"
+      ],
+      "variables": [],
+      "contraintes": {
+        "mode_instances": "fixe_controle_sans_tirage",
+        "variations_autorisees": [
+          "support_papier_ou_numerique_equivalent",
+          "materiel_accessible_non_toxique",
+          "modalite_de_presentation_orale_ecrite_dictee_pointee",
+          "duree_ajustee_sans_indice_sur_solution"
+        ],
+        "variations_interdites": [
+          "modifier_intention_cible_en_cours_de_correction",
+          "substituer_un_exemple_modele_a_une_production",
+          "repondre_ou_choisir_les_effets_a_la_place_de_l_eleve",
+          "juger_beaute_couleur_preferee_identite_ou_dexterite",
+          "generer_librement_un_scenario_ou_rubrique_par_IA"
+        ],
+        "nombre_manifestations_maitrise": 2,
+        "contextes_maitrise": [
+          "jardin_sonore_paysage_narratif",
+          "fete_des_nuages_affiche_publique"
+        ],
+        "securite": "materiel_non_toxique_sans_solvants_ni_lames_ou_alternative_sans_decoupage",
+        "autonomie": "aucun_indice_de_choix_ou_de_justification_pour_les_deux_preuves"
+      },
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          {
+            "code": "D1",
+            "nom": "intention_et_coherence",
+            "atteint": "Intention explicite et au moins un indice visible pertinent que l élève explique."
+          },
+          {
+            "code": "D2",
+            "nom": "choix_plastiques",
+            "atteint": "Au moins deux décisions plastiques perceptibles, chacune justifiée par un lien plausible à l intention."
+          },
+          {
+            "code": "D3",
+            "nom": "processus_reflexif",
+            "atteint": "Essai, comparaison ou maintien/ajustement raisonné documenté sans imposer un style."
+          },
+          {
+            "code": "D4",
+            "nom": "presentation_autonome",
+            "atteint": "Production achevée à l échelle de la tâche; deux détails sont pointés et expliqués sans aide de contenu."
+          }
+        ],
+        "niveaux": [
+          "non_observe",
+          "en_developpement",
+          "atteint",
+          "transfert_solide"
+        ],
+        "decision": "Deux productions de contextes distincts avec D1, D2 et D4 >= atteint sur chacune; D3 >= atteint au moins une fois et réflexion sur seconde; aucune aide de contenu. Pas de moyenne unique; remédiation ciblée autrement.",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "governance/Norme_Pedagogique_Autonome_v1.2/CONTRAT_PEDAGOGIQUE_V1.2.md",
+        "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "kristals/qc-pri-ap-005/authoring/BRIEF_REDACTION.md",
+        "kristals/qc-pri-ap-005/sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "items_rediges_a_revoir_non_qualifie",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

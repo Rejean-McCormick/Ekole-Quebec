@@ -1,0 +1,133 @@
+{
+  "format": "kristal.source-catalog/2.0.0",
+  "sources": [
+    {
+      "id": "src:quebec-nations",
+      "title": "Gouvernement du Québec — Les 11 nations autochtones du Québec",
+      "kind": "institutional_web",
+      "locator": "https://www.quebec.ca/gouvernement/portrait-quebec/premieres-nations-inuits/profil-des-nations/a-propos-nations",
+      "authority_scope": "diversité et existence contemporaine des nations; source institutionnelle provinciale",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:quebec-pfeq-us",
+      "title": "Gouvernement du Québec — Géographie, histoire et éducation à la citoyenneté au primaire",
+      "kind": "institutional_web",
+      "locator": "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/programmes-formations-evaluation/programme-formation-ecole-quebecoise/primaire/geographie-histoire-education-citoyennete",
+      "authority_scope": "cadre disciplinaire, sans valider ce Kristal",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:quebec-ccq",
+      "title": "Gouvernement du Québec — Culture et citoyenneté québécoise au primaire",
+      "kind": "institutional_web",
+      "locator": "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/programmes-formations-evaluation/programme-formation-ecole-quebecoise/primaire/culture-citoyennete-quebecoise",
+      "authority_scope": "réalités culturelles, dialogue, perspective",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pc-champlain",
+      "title": "Parcs Canada — Samuel de Champlain, premier Français à Chambly",
+      "kind": "institutional_web",
+      "locator": "https://parcs.canada.ca/lhn-nhs/qc/fortchambly/culture/histoire-history/site/samuel-de-champlain",
+      "authority_scope": "1608, commerces et relations avec des interlocuteurs autochtones; récit institutionnel",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:dnd-rencontres",
+      "title": "Gouvernement du Canada — L’arrivée des Européens : guerres du XVIIe siècle",
+      "kind": "institutional_web",
+      "locator": "https://www.canada.ca/fr/ministere-defense-nationale/services/histoire-militaire/histoire-patrimoine/ouvrages-grand-public/autochtones-militaire-canadienne/arrivee-europeens-guerres-XVIIe-siecle.html",
+      "authority_scope": "1603 alliances, échanges et conflits; contexte d’histoire militaire à recouper",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pac-grande-paix",
+      "title": "Pointe-à-Callière — La Grande Paix de Montréal",
+      "kind": "institutional_web",
+      "locator": "https://pacmusee.qc.ca/fr/histoires-de-montreal/article/la-grande-paix-de-montreal/",
+      "authority_scope": "événement 1701 et protagonistes; synthèse muséale",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pac-traite",
+      "title": "Pointe-à-Callière — Le traité de la Grande Paix de Montréal (transcription)",
+      "kind": "historical_document_transcription",
+      "locator": "https://pacmusee.qc.ca/fr/traite-grande-paix-montreal/",
+      "authority_scope": "archive écrite coloniale, vocabulaire daté et point de vue situés",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pc-kondiaronk",
+      "title": "Parcs Canada — Kondiaronk",
+      "kind": "institutional_web",
+      "locator": "https://www.pc.gc.ca/apps/dfhd/page_nhs_fra.aspx?i=69214&id=1938",
+      "authority_scope": "importance diplomatique de Kondiaronk; commémoration institutionnelle",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:pc-mikmaq",
+      "title": "Parcs Canada — L’alliance entre les Mi’kmaq et les Français au XVIIIe siècle",
+      "kind": "institutional_web",
+      "locator": "https://www.canada.ca/fr/parcs-canada/nouvelles/2019/08/lalliance-entre-les-mikmaq-et-les-francais-au-xviiiesiecle.html",
+      "authority_scope": "illustration d’alliances variables, commerce, territoire",
+      "limitations": "Ce site n’exprime pas automatiquement la voix d’une nation autochtone. À compléter avec sources directement produites ou approuvées par les nations concernées."
+    },
+    {
+      "id": "src:wendat-histoire",
+      "title": "Conseil de la Nation Wendat — Histoire et culture",
+      "kind": "nation_authored_web",
+      "locator": "https://www.wendake.ca/histoire-et-culture",
+      "authority_scope": "autoprésentation de la Nation Wendat : traditions, maisons longues, clans, liens de parenté, présence aujourd’hui",
+      "limitations": "Présentation contemporaine par la Nation : ne pas extrapoler sans nuance une organisation unique à toutes les époques."
+    },
+    {
+      "id": "src:wendat-gouvernance",
+      "title": "Conseil de la Nation Wendat — Grand Chef et Chefs familiaux",
+      "kind": "nation_authored_web",
+      "locator": "https://www.wendake.ca/grand-chef-et-chefs-familiaux",
+      "authority_scope": "gouvernance contemporaine documentée et rôles des représentants",
+      "limitations": "Gouvernance actuelle, non celle de 1701 ou de toutes les nations."
+    },
+    {
+      "id": "src:nametau-territoire",
+      "title": "Nametau innu — Territoire et cycle de vie traditionnels (point de vue scientifique)",
+      "kind": "indigenous_heritage_resource",
+      "locator": "https://www.nametauinnu.ca/fr/accueil/science/outil/cycle.html",
+      "authority_scope": "exemple contextualisé de cycles saisonniers et ressources innues",
+      "limitations": "Source de vulgarisation historique, non norme identique à toutes les communautés et époques."
+    },
+    {
+      "id": "src:nametau-temoignage",
+      "title": "Nametau innu — Grand-mère : contexte social (paroles et témoignages)",
+      "kind": "indigenous_voices_transcript",
+      "locator": "https://www.nametauinnu.ca/fr/culture/ouverture/detail/58/152.html",
+      "authority_scope": "témoignage situé sur la transmission de la langue et la vie culturelle aujourd’hui",
+      "limitations": "Ce témoignage individuel ne remplace pas l’ensemble des perspectives innues. Les mots ne sont pas reproduits dans ce Kristal."
+    },
+    {
+      "id": "src:pc-apres1760",
+      "title": "Parcs Canada — Une histoire tapissée de fourrures (Lachine)",
+      "kind": "institutional_history_web",
+      "locator": "https://parcs.canada.ca/lhn-nhs/qc/lachine/culture/histoire-history/site/trappe-trapping",
+      "authority_scope": "changement de pouvoir après 1760 et économie de la traite",
+      "limitations": "Résumé institutionnel; ne résume pas les positions des nations."
+    },
+    {
+      "id": "src:wendat-archives",
+      "title": "Conseil de la Nation Wendat — Centre d’archives",
+      "kind": "nation_authored_web",
+      "locator": "https://www.wendake.ca/etablissements/centre-darchives",
+      "authority_scope": "démarches diplomatiques territoriales wendat de 1825",
+      "limitations": "Le site documente l’histoire de la Nation Wendat, pas toutes les revendications territoriales."
+    },
+    {
+      "id": "src:pc-pensionnats",
+      "title": "Parcs Canada — Le système de pensionnats autochtones",
+      "kind": "institutional_history_web",
+      "locator": "https://www.canada.ca/fr/parcs-canada/nouvelles/2020/09/le-systeme-de-pensionnats-autochtones.html",
+      "authority_scope": "politiques de séparation forcée d’enfants et effets durables du système colonial",
+      "limitations": "Sujet sensible. À présenter selon l’âge, avec un enseignant et sans visuels traumatisants ni gamification des souffrances."
+    }
+  ]
+}

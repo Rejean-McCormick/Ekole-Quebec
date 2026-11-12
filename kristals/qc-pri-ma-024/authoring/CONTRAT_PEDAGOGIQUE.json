@@ -1,0 +1,88 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-024",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier et construire des angles, des droites et des symétries simples.",
+  "concepts": [
+    "angle",
+    "parallélisme",
+    "perpendicularité",
+    "symétrie"
+  ],
+  "preuve_attendue": "Compléter une figure symétrique puis justifier la transformation.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-023"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-024-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Compléter une figure symétrique puis justifier la transformation.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Axes x=6 ou y=6, coordonnées entières dans domaines clos documentés, motifs déterministes définis dans les 6 items, seed entier immuable, filtre géométrique et deux contrôles indépendants.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme": "Générer points par formules fermées et modulo sur seed (sans hasard externe); image: V(x,y)=(12-x,y) ou H(x,y)=(x,12-y); vérifier milieu sur axe, orthogonalité et distances."
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ma-024",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "quadrillage (coordonnées entières)",
+        "schémas tracés",
+        "règle/pliage manipulable",
+        "justification écrite, orale ou dictée"
+      ],
+      "variables": {
+        "axes_autorises": [
+          "x=6",
+          "y=6"
+        ],
+        "coordonnees": "entiers 0..12",
+        "generation": "déterministe, d’après seed entier; toutes les instances approuvées sont calculées et vérifiées",
+        "nombre_items_parametriques": 6
+      },
+      "contraintes": [
+        "une seule réflexion axiale par tâche",
+        "points strictement dans le quadrillage 0..12",
+        "points originaux hors axe pour tous les items paramétriques",
+        "figure image construite par réflexion et ordre de connexion préservé",
+        "pas de cas ambigus, points superposés ou nouveau contenu non validé",
+        "aucune génération libre IA dans le correcteur"
+      ],
+      "barreme_ou_rubrique": {
+        "lien": "evaluation/GRILLE_MAITRISE.md",
+        "composantes": [
+          "repérage axe et points",
+          "image géométriquement exacte",
+          "connexion correcte",
+          "preuve par distance égale et perpendicularité",
+          "autonomie et transfert"
+        ],
+        "decision": "preuves q-009 ET q-010 séparément suffisantes"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "sources/REFERENCES_CONTENU.md",
+        "evaluation/BANQUE_ITEMS.json"
+      ],
+      "seed": "fixe par item; voir banque JSON",
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

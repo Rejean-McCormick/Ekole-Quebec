@@ -1,0 +1,90 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-012",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Réviser un texte anglais selon un ordre de contrôle du sens puis de la forme.",
+  "concepts": [
+    "revision",
+    "cohesion",
+    "conventions"
+  ],
+  "preuve_attendue": "Remettre une version annotée montrant des améliorations justifiées.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-011"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-012-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Remettre une version annotée montrant des améliorations justifiées.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_produits_a_revoir",
+      "kristal_id": "qc-pri-ale-012",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "brouillon_et_annotation_textuelle",
+        "version_revisee",
+        "justification_des_modifications"
+      ],
+      "variables": null,
+      "contraintes": [
+        "Stimuli fixes originaux; pas de génération libre.",
+        "Réviser le sens avant la forme.",
+        "Respecter les informations explicitement données; signaler les données ambiguës sans les inventer.",
+        "Admettre plusieurs formulations correctes selon une grille.",
+        "Deux preuves autonomes en contextes différents : q-011 (récit) et q-012 (message informatif)."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "fidelite_et_sens",
+          "cohesion_et_organisation",
+          "conventions",
+          "annotations_et_justifications",
+          "autonomie"
+        ],
+        "decision": "Deux contextes chacun suffisants et une preuve sans indices; aucune note unique."
+      },
+      "source": "sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir",
+      "items_lies": [
+        "qc-pri-ale-012-q-001",
+        "qc-pri-ale-012-q-002",
+        "qc-pri-ale-012-q-003",
+        "qc-pri-ale-012-q-004",
+        "qc-pri-ale-012-q-005",
+        "qc-pri-ale-012-q-006",
+        "qc-pri-ale-012-q-007",
+        "qc-pri-ale-012-q-008",
+        "qc-pri-ale-012-q-009",
+        "qc-pri-ale-012-q-010",
+        "qc-pri-ale-012-q-011",
+        "qc-pri-ale-012-q-012"
+      ],
+      "preuves_maitrise": [
+        "qc-pri-ale-012-q-011",
+        "qc-pri-ale-012-q-012"
+      ]
+    }
+  ],
+  "statut": "contenu_redige_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,100 @@
+{
+  "format": "ekole.kristal-experience/2.0-proposition",
+  "kristal_id": "qc-pri-ma-012",
+  "statut": "prototype_revue_pedagogique_requise",
+  "alias_enfant": "Des parts égales, plusieurs représentations",
+  "source": {
+    "contrat": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Représenter une fraction comme partie d’un tout ou d’une collection.",
+    "preuve_attendue": "Produire trois représentations correctes d’une même fraction simple.",
+    "concepts": [
+      "tout",
+      "parts égales",
+      "numérateur",
+      "dénominateur"
+    ],
+    "modules": [
+      "contenu/01_NOTIONS_ET_EXEMPLES.md",
+      "contenu/03_ENSEIGNEMENT_GUIDE.md",
+      "contenu/04_PRATIQUE_ACCOMPAGNEE.md",
+      "contenu/05_PRATIQUE_AUTONOME.md",
+      "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    ]
+  },
+  "modalite_evaluation": "exactitude_mathematique",
+  "progression_enfant": {
+    "decouvrir": {
+      "titre_enfant": "Quel est le tout ?",
+      "consigne_enfant": "Repère le rectangle entier, la bande entière ou toute la collection avant de compter les parts.",
+      "statut_validation": "Observation guidée, sans score",
+      "source_pedagogique": "contenu/03_ENSEIGNEMENT_GUIDE.md"
+    },
+    "essayer": {
+      "titre_enfant": "Construis une fraction",
+      "consigne_enfant": "Colorie des parts égales. Essaie deux dispositions différentes, puis change de support.",
+      "statut_validation": "Vérification automatique partielle sur une bande",
+      "source_pedagogique": "contenu/03_ENSEIGNEMENT_GUIDE.md"
+    },
+    "expliquer": {
+      "titre_enfant": "Le même sens sur trois supports",
+      "consigne_enfant": "Montre la même fraction sur une surface, une bande et une collection; dis en quoi elles expriment la même part.",
+      "statut_validation": "Raisonnement et transfert à observer par un adulte",
+      "source_pedagogique": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    },
+    "explorer": {
+      "titre_enfant": "Essaie une nouvelle situation",
+      "consigne_enfant": "Imagine un partage d’un objet ou d’une collection; détermine précisément ce qui forme le tout.",
+      "statut_validation": "Transfert sans certifier la maîtrise",
+      "source_pedagogique": "contenu/06_REMEDIATION_ET_TRANSFERT.md"
+    }
+  },
+  "outils_interactifs": [
+    {
+      "id": "fractions-2-5",
+      "statut": "entrainement_candidat_non_certifie",
+      "usage": "pratique_non_notée"
+    },
+    {
+      "id": "fractions-3-8",
+      "statut": "entrainement_candidat_non_certifie",
+      "usage": "pratique_non_notée"
+    }
+  ],
+  "preuves_de_maitrise": {
+    "source": "evaluation/BANQUE_ITEMS.json",
+    "remplacee_par_atelier": false,
+    "decision": "revue_humaine_requise",
+    "commentaire": "Les mini-environnements ne remplacent pas les preuves source."
+  },
+  "difficultes_a_observer": [
+    "Confond le tout et les seules parties colorées",
+    "Assimile une collection de jetons à des parts sans groupes égaux",
+    "Inverse numérateur et dénominateur"
+  ],
+  "consignes_enseignant": [
+    "Exiger le tout clairement annoncé et des parts de même grandeur avant toute fraction.",
+    "Comparer deux représentations qui changent de support mais pas de rapport.",
+    "Consigner si une explication a été fournie spontanément ou après un indice."
+  ],
+  "erreurs_et_relances": [
+    {
+      "observation": "Tout oublié",
+      "relance": "Encadrer toute la surface ou tous les objets, puis demander « quel est le tout ? »"
+    },
+    {
+      "observation": "Parts inégales",
+      "relance": "Confronter deux divisions du même support dont une est irrégulière"
+    },
+    {
+      "observation": "Inversion",
+      "relance": "Faire dire « parts choisies sur parts totales » en pointant les deux quantités"
+    }
+  ],
+  "limitations": [
+    "Ne jamais prendre une seule sélection de cases pour preuve de trois représentations correctes.",
+    "Ne pas faire produire à une image IA les parts numériquement exactes."
+  ],
+  "politique_visuelle": "Description de concept seulement; aucun style imposé; un fichier absent affiche son prompt.",
+  "provenance": "Projet de refonte fondé sur les modules source du Kristal; pas une approbation institutionnelle."
+}

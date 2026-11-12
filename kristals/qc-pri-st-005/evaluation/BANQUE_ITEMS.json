@@ -1,0 +1,691 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-005",
+  "family_id": "qc-pri-st-005-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-005-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les échantillons et écris deux observations distinctes pour chacun, dont celle qui justifie l’état.",
+      "stimulus": "Contexte fictif : cabinet de découverte de trois échantillons. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- A : Garde la forme d’une petite tablette une fois posée hors de sa boîte. Sa surface apparaît mate sous la même lampe.\n- B : S’écoule entre deux récipients et épouse le fond du second. Une inscription reste visible à travers une couche mince.\n- C : Se répand dans tout le volume libéré d’une enceinte fermée. Le rapport du dispositif clos indique que son volume diminue sous compression contrôlée.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| A | solide | Garde la forme d’une petite tablette une fois posée hors de sa boîte. | mat : Sa surface apparaît mate sous la même lampe. |\n| B | liquide | S’écoule entre deux récipients et épouse le fond du second. | transparent : Une inscription reste visible à travers une couche mince. |\n| C | gaz | Se répand dans tout le volume libéré d’une enceinte fermée. | compressible : Le rapport du dispositif clos indique que son volume diminue sous compression contrôlée. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 3 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "initial",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "codes": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-005-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Complète un tableau de classement sans attribuer de nom chimique aux échantillons.",
+      "stimulus": "Contexte fictif : atelier de comparaison de matières. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- D : Garde les contours d’un petit rectangle lorsqu’on le pose. Sa surface se sent rugueuse au moyen d’une sonde décrite.\n- E : Coule lentement dans un canal et prend la forme du fond. Son écoulement est plus lent que celui du liquide témoin dans la même expérience fictive.\n- F : Se répartit dans les deux compartiments reliés d’une cellule hermétique. Un appareil spécialisé mesure une diminution de volume lors d’une compression.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| D | solide | Garde les contours d’un petit rectangle lorsqu’on le pose. | rugueux : Sa surface se sent rugueuse au moyen d’une sonde décrite. |\n| E | liquide | Coule lentement dans un canal et prend la forme du fond. | plus visqueux que le témoin : Son écoulement est plus lent que celui du liquide témoin dans la même expérience fictive. |\n| F | gaz | Se répartit dans les deux compartiments reliés d’une cellule hermétique. | compressible : Un appareil spécialisé mesure une diminution de volume lors d’une compression. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 3 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "initial",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "codes": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-005-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe les deux fiches et distingue leur indice d’état de leur propriété optique.",
+      "stimulus": "Contexte fictif : dossier sur la translucidité et la transparence. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- G : Reste en forme de feuille lorsqu’on la dépose. Une lampe derrière est visible, mais ses contours sont brouillés.\n- H : S’écoule et épouse la forme d’une coupelle. Une ligne noire est visible nettement au travers de la couche testée.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| G | solide | Reste en forme de feuille lorsqu’on la dépose. | translucide : Une lampe derrière est visible, mais ses contours sont brouillés. |\n| H | liquide | S’écoule et épouse la forme d’une coupelle. | transparent : Une ligne noire est visible nettement au travers de la couche testée. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 2 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "G conserve la forme de feuille malgré sa translucidité; H coule malgré sa transparence. L’aspect optique ne définit pas l’état.",
+      "difficulte": "initial",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "codes": [
+        "G",
+        "H"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-005-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Pour les trois codes, donne l’état, une observation d’état et une propriété différente.",
+      "stimulus": "Contexte fictif : carnet de laboratoire fictif. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- I : Conserve la forme d’un cylindre lorsqu’il est posé. Le test décrit une surface lisse.\n- J : Coule et se rassemble au fond de sa fiole. La couche observée masque le dessin placé derrière.\n- K : Se répand dans toute la partie libre d’une enceinte scellée. La mesure du laboratoire indique un changement de pression lorsque le volume clos varie.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| I | solide | Conserve la forme d’un cylindre lorsqu’il est posé. | lisse : Le test décrit une surface lisse. |\n| J | liquide | Coule et se rassemble au fond de sa fiole. | opaque : La couche observée masque le dessin placé derrière. |\n| K | gaz | Se répand dans toute la partie libre d’une enceinte scellée. | compressible selon relevé de pression-volume : La mesure du laboratoire indique un changement de pression lorsque le volume clos varie. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 3 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "intermediaire",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "codes": [
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-005-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Rédige une classification de ces trois échantillons anonymes en citant les observations.",
+      "stimulus": "Contexte fictif : vitrine de fiches techniques. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- M : S’étale en s’écoulant lorsque le récipient est incliné. Sa couche apparaît jaune à la lumière blanche.\n- N : Quand une cloison interne est retirée, remplit le compartiment supplémentaire d’une boîte hermétique. Le dispositif du rapport constate sa compressibilité.\n- L : Reste sous forme de ruban sur une surface plane. Se courbe sans se briser sous un essai décrit par un adulte.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| M | liquide | S’étale en s’écoulant lorsque le récipient est incliné. | jaune : Sa couche apparaît jaune à la lumière blanche. |\n| N | gaz | Quand une cloison interne est retirée, remplit le compartiment supplémentaire d’une boîte hermétique. | compressible : Le dispositif du rapport constate sa compressibilité. |\n| L | solide | Reste sous forme de ruban sur une surface plane. | souple : Se courbe sans se briser sous un essai décrit par un adulte. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 3 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "intermediaire",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": 5005,
+      "parametres": {
+        "generateur_id": "SC-ST-005-1",
+        "variables": {
+          "seed": {
+            "type": "entier_stable",
+            "domaine": [
+              5005,
+              5035
+            ]
+          },
+          "ordre": {
+            "type": "permutation_circulaire_des_codes",
+            "domaine": "0..n-1"
+          }
+        },
+        "contraintes": [
+          "Corpus de fiches verrouillé dans cet item; ni attribut, ni classe, ni code modifiable.",
+          "Aucun énoncé libre, aucune permutation entre contextes ou items; seulement ordre de présentation des fiches.",
+          "Le corrigé est remis dans le même ordre que les codes du stimulus, sans modifier ses lignes.",
+          "Les deux épreuves de maîtrise restent des contextes et des corpus disjoints."
+        ],
+        "algorithme": "Soit n le nombre de cartes de l’item. shift=seed % n. Les cartes sont présentées dans l’ordre keys[shift:]+keys[:shift]. Pour chaque carte, rendre inchangées ses deux observations originales. Corriger en reliant chaque code à son état et à ses deux observations verrouillées, indépendamment de l’ordre. Conserver comme seed la valeur de cet item; toute autre graine du domaine ne modifie que l’ordre.",
+        "seed_stable": 5005,
+        "exemples_valides": [
+          {
+            "seed": 5005,
+            "codes_dans_ordre": [
+              "M",
+              "N",
+              "L"
+            ]
+          },
+          {
+            "seed": 5006,
+            "codes_dans_ordre": [
+              "N",
+              "L",
+              "M"
+            ]
+          },
+          {
+            "seed": 5007,
+            "codes_dans_ordre": [
+              "L",
+              "M",
+              "N"
+            ]
+          }
+        ],
+        "validation_status": "a_revoir"
+      },
+      "validation_status": "a_revoir",
+      "codes": [
+        "M",
+        "N",
+        "L"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-005-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Range les fiches dans une grille solide/liquide/gaz et justifie deux critères par fiche.",
+      "stimulus": "Contexte fictif : inventaire de matériaux destinés à un kiosque scientifique. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- Q : Se répand dans l’espace disponible d’un réservoir rigide clos. Un appareil indique une réduction de volume sous pression lors d’un essai professionnel.\n- O : Conserve ses contours au repos en dehors de sa boîte. La lumière ne traverse pas le morceau lors du test fourni.\n- P : La portion descend en s’écoulant le long d’un bac incliné et prend la forme du bac. Un symbole est visible à travers cette portion.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| Q | gaz | Se répand dans l’espace disponible d’un réservoir rigide clos. | compressible : Un appareil indique une réduction de volume sous pression lors d’un essai professionnel. |\n| O | solide | Conserve ses contours au repos en dehors de sa boîte. | opaque : La lumière ne traverse pas le morceau lors du test fourni. |\n| P | liquide | La portion descend en s’écoulant le long d’un bac incliné et prend la forme du bac. | transparent : Un symbole est visible à travers cette portion. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 3 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "intermediaire",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": 5006,
+      "parametres": {
+        "generateur_id": "SC-ST-005-1",
+        "variables": {
+          "seed": {
+            "type": "entier_stable",
+            "domaine": [
+              5006,
+              5036
+            ]
+          },
+          "ordre": {
+            "type": "permutation_circulaire_des_codes",
+            "domaine": "0..n-1"
+          }
+        },
+        "contraintes": [
+          "Corpus de fiches verrouillé dans cet item; ni attribut, ni classe, ni code modifiable.",
+          "Aucun énoncé libre, aucune permutation entre contextes ou items; seulement ordre de présentation des fiches.",
+          "Le corrigé est remis dans le même ordre que les codes du stimulus, sans modifier ses lignes.",
+          "Les deux épreuves de maîtrise restent des contextes et des corpus disjoints."
+        ],
+        "algorithme": "Soit n le nombre de cartes de l’item. shift=seed % n. Les cartes sont présentées dans l’ordre keys[shift:]+keys[:shift]. Pour chaque carte, rendre inchangées ses deux observations originales. Corriger en reliant chaque code à son état et à ses deux observations verrouillées, indépendamment de l’ordre. Conserver comme seed la valeur de cet item; toute autre graine du domaine ne modifie que l’ordre.",
+        "seed_stable": 5006,
+        "exemples_valides": [
+          {
+            "seed": 5006,
+            "codes_dans_ordre": [
+              "Q",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "seed": 5007,
+            "codes_dans_ordre": [
+              "O",
+              "P",
+              "Q"
+            ]
+          },
+          {
+            "seed": 5008,
+            "codes_dans_ordre": [
+              "P",
+              "Q",
+              "O"
+            ]
+          }
+        ],
+        "validation_status": "a_revoir"
+      },
+      "validation_status": "a_revoir",
+      "codes": [
+        "Q",
+        "O",
+        "P"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-005-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Classe les trois codes et distingue les conclusions appuyées des suppositions sur la composition.",
+      "stimulus": "Contexte fictif : catalogue de descriptions documentées. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- R : Reste en plaque après retrait de sa boîte. Se replie légèrement sans fissure, selon une observation décrite.\n- S : Se rassemble dans le fond d’un nouveau récipient après avoir coulé. Les lettres sous le récipient ne sont pas visibles dans l’échantillon testé.\n- T : Occupe l’espace libre entier d’une enceinte étanche après ouverture d’une cloison interne. Un test automatique consigné signale une compressibilité.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| R | solide | Reste en plaque après retrait de sa boîte. | flexible : Se replie légèrement sans fissure, selon une observation décrite. |\n| S | liquide | Se rassemble dans le fond d’un nouveau récipient après avoir coulé. | opaque : Les lettres sous le récipient ne sont pas visibles dans l’échantillon testé. |\n| T | gaz | Occupe l’espace libre entier d’une enceinte étanche après ouverture d’une cloison interne. | compressible : Un test automatique consigné signale une compressibilité. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 3 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "transfert",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": 5007,
+      "parametres": {
+        "generateur_id": "SC-ST-005-1",
+        "variables": {
+          "seed": {
+            "type": "entier_stable",
+            "domaine": [
+              5007,
+              5037
+            ]
+          },
+          "ordre": {
+            "type": "permutation_circulaire_des_codes",
+            "domaine": "0..n-1"
+          }
+        },
+        "contraintes": [
+          "Corpus de fiches verrouillé dans cet item; ni attribut, ni classe, ni code modifiable.",
+          "Aucun énoncé libre, aucune permutation entre contextes ou items; seulement ordre de présentation des fiches.",
+          "Le corrigé est remis dans le même ordre que les codes du stimulus, sans modifier ses lignes.",
+          "Les deux épreuves de maîtrise restent des contextes et des corpus disjoints."
+        ],
+        "algorithme": "Soit n le nombre de cartes de l’item. shift=seed % n. Les cartes sont présentées dans l’ordre keys[shift:]+keys[:shift]. Pour chaque carte, rendre inchangées ses deux observations originales. Corriger en reliant chaque code à son état et à ses deux observations verrouillées, indépendamment de l’ordre. Conserver comme seed la valeur de cet item; toute autre graine du domaine ne modifie que l’ordre.",
+        "seed_stable": 5007,
+        "exemples_valides": [
+          {
+            "seed": 5007,
+            "codes_dans_ordre": [
+              "R",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "seed": 5008,
+            "codes_dans_ordre": [
+              "S",
+              "T",
+              "R"
+            ]
+          },
+          {
+            "seed": 5009,
+            "codes_dans_ordre": [
+              "T",
+              "R",
+              "S"
+            ]
+          }
+        ],
+        "validation_status": "a_revoir"
+      },
+      "validation_status": "a_revoir",
+      "codes": [
+        "R",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-005-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Classe ces quatre échantillons; cite le comportement et une seconde propriété observable pour chacun.",
+      "stimulus": "Contexte fictif : classement par état et propriété de surface. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- A : Garde la forme d’une petite tablette une fois posée hors de sa boîte. Sa surface apparaît mate sous la même lampe.\n- E : Coule lentement dans un canal et prend la forme du fond. Son écoulement est plus lent que celui du liquide témoin dans la même expérience fictive.\n- F : Se répartit dans les deux compartiments reliés d’une cellule hermétique. Un appareil spécialisé mesure une diminution de volume lors d’une compression.\n- L : Reste sous forme de ruban sur une surface plane. Se courbe sans se briser sous un essai décrit par un adulte.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| A | solide | Garde la forme d’une petite tablette une fois posée hors de sa boîte. | mat : Sa surface apparaît mate sous la même lampe. |\n| E | liquide | Coule lentement dans un canal et prend la forme du fond. | plus visqueux que le témoin : Son écoulement est plus lent que celui du liquide témoin dans la même expérience fictive. |\n| F | gaz | Se répartit dans les deux compartiments reliés d’une cellule hermétique. | compressible : Un appareil spécialisé mesure une diminution de volume lors d’une compression. |\n| L | solide | Reste sous forme de ruban sur une surface plane. | souple : Se courbe sans se briser sous un essai décrit par un adulte. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 4 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "intermediaire",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": 5008,
+      "parametres": {
+        "generateur_id": "SC-ST-005-1",
+        "variables": {
+          "seed": {
+            "type": "entier_stable",
+            "domaine": [
+              5008,
+              5038
+            ]
+          },
+          "ordre": {
+            "type": "permutation_circulaire_des_codes",
+            "domaine": "0..n-1"
+          }
+        },
+        "contraintes": [
+          "Corpus de fiches verrouillé dans cet item; ni attribut, ni classe, ni code modifiable.",
+          "Aucun énoncé libre, aucune permutation entre contextes ou items; seulement ordre de présentation des fiches.",
+          "Le corrigé est remis dans le même ordre que les codes du stimulus, sans modifier ses lignes.",
+          "Les deux épreuves de maîtrise restent des contextes et des corpus disjoints."
+        ],
+        "algorithme": "Soit n le nombre de cartes de l’item. shift=seed % n. Les cartes sont présentées dans l’ordre keys[shift:]+keys[:shift]. Pour chaque carte, rendre inchangées ses deux observations originales. Corriger en reliant chaque code à son état et à ses deux observations verrouillées, indépendamment de l’ordre. Conserver comme seed la valeur de cet item; toute autre graine du domaine ne modifie que l’ordre.",
+        "seed_stable": 5008,
+        "exemples_valides": [
+          {
+            "seed": 5008,
+            "codes_dans_ordre": [
+              "A",
+              "E",
+              "F",
+              "L"
+            ]
+          },
+          {
+            "seed": 5009,
+            "codes_dans_ordre": [
+              "E",
+              "F",
+              "L",
+              "A"
+            ]
+          },
+          {
+            "seed": 5010,
+            "codes_dans_ordre": [
+              "F",
+              "L",
+              "A",
+              "E"
+            ]
+          }
+        ],
+        "validation_status": "a_revoir"
+      },
+      "validation_status": "a_revoir",
+      "codes": [
+        "A",
+        "E",
+        "F",
+        "L"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-005-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Trois notes sont incomplètes : propose une conclusion exacte appuyée sur les deux indices de chaque fiche.",
+      "stimulus": "Contexte fictif : relecture critique de trois notes. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- G : Reste en forme de feuille lorsqu’on la dépose. Une lampe derrière est visible, mais ses contours sont brouillés.\n- J : Coule et se rassemble au fond de sa fiole. La couche observée masque le dessin placé derrière.\n- C : Se répand dans tout le volume libéré d’une enceinte fermée. Le rapport du dispositif clos indique que son volume diminue sous compression contrôlée.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| G | solide | Reste en forme de feuille lorsqu’on la dépose. | translucide : Une lampe derrière est visible, mais ses contours sont brouillés. |\n| J | liquide | Coule et se rassemble au fond de sa fiole. | opaque : La couche observée masque le dessin placé derrière. |\n| C | gaz | Se répand dans tout le volume libéré d’une enceinte fermée. | compressible : Le rapport du dispositif clos indique que son volume diminue sous compression contrôlée. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 3 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "intermediaire",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "codes": [
+        "G",
+        "J",
+        "C"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-005-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "fixe",
+      "consigne": "Construis un tableau avec les quatre codes, une classe et deux critères distincts justifiés par les observations disponibles.",
+      "stimulus": "Contexte fictif : préparation d’un tableau de démonstration. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- H : S’écoule et épouse la forme d’une coupelle. Une ligne noire est visible nettement au travers de la couche testée.\n- I : Conserve la forme d’un cylindre lorsqu’il est posé. Le test décrit une surface lisse.\n- N : Quand une cloison interne est retirée, remplit le compartiment supplémentaire d’une boîte hermétique. Le dispositif du rapport constate sa compressibilité.\n- S : Se rassemble dans le fond d’un nouveau récipient après avoir coulé. Les lettres sous le récipient ne sont pas visibles dans l’échantillon testé.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| H | liquide | S’écoule et épouse la forme d’une coupelle. | transparent : Une ligne noire est visible nettement au travers de la couche testée. |\n| I | solide | Conserve la forme d’un cylindre lorsqu’il est posé. | lisse : Le test décrit une surface lisse. |\n| N | gaz | Quand une cloison interne est retirée, remplit le compartiment supplémentaire d’une boîte hermétique. | compressible : Le dispositif du rapport constate sa compressibilité. |\n| S | liquide | Se rassemble dans le fond d’un nouveau récipient après avoir coulé. | opaque : Les lettres sous le récipient ne sont pas visibles dans l’échantillon testé. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 4 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "transfert",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "codes": [
+        "H",
+        "I",
+        "N",
+        "S"
+      ]
+    },
+    {
+      "item_id": "qc-pri-st-005-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "ÉPREUVE AUTONOME A. Sans indice de classement, produis un tableau pour les cinq échantillons inconnus MC-1 à MC-5 : état de chacun, observation justifiant l’état et seconde propriété indépendante observée; explique la différence donnée/conclusion.",
+      "stimulus": "Contexte fictif : station fictive de conservation de collections de musée. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- MC-2 : La portion passe par écoulement d’un récipient étroit à un bac large et épouse le bac. Un motif placé derrière la couche observée apparaît distinctement.\n- MC-3 : Une substance dans une enceinte hermétique occupe également un volume rendu accessible après retrait d’une cloison interne. La courbe obtenue par équipement professionnel indique qu’elle est compressible.\n- MC-4 : Une feuille garde sa forme lorsqu’elle repose à plat. Une lumière au travers laisse voir la silhouette mais pas les détails d’une carte.\n- MC-5 : Une portion descend en s’écoulant et épouse le récipient d’arrivée. Le rapport indique une plus grande viscosité qu’un liquide témoin.\n- MC-1 : Une pièce garde sa silhouette en forme de disque après retrait d’un moule. Sa face est granuleuse au test mécanique décrit.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| MC-2 | liquide | La portion passe par écoulement d’un récipient étroit à un bac large et épouse le bac. | transparent : Un motif placé derrière la couche observée apparaît distinctement. |\n| MC-3 | gaz | Une substance dans une enceinte hermétique occupe également un volume rendu accessible après retrait d’une cloison interne. | compressible : La courbe obtenue par équipement professionnel indique qu’elle est compressible. |\n| MC-4 | solide | Une feuille garde sa forme lorsqu’elle repose à plat. | translucide : Une lumière au travers laisse voir la silhouette mais pas les détails d’une carte. |\n| MC-5 | liquide | Une portion descend en s’écoulant et épouse le récipient d’arrivée. | plus visqueux que témoin : Le rapport indique une plus grande viscosité qu’un liquide témoin. |\n| MC-1 | solide | Une pièce garde sa silhouette en forme de disque après retrait d’un moule. | granuleux : Sa face est granuleuse au test mécanique décrit. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 5 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "transfert",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": 5011,
+      "parametres": {
+        "generateur_id": "SC-ST-005-1",
+        "variables": {
+          "seed": {
+            "type": "entier_stable",
+            "domaine": [
+              5011,
+              5041
+            ]
+          },
+          "ordre": {
+            "type": "permutation_circulaire_des_codes",
+            "domaine": "0..n-1"
+          }
+        },
+        "contraintes": [
+          "Corpus de fiches verrouillé dans cet item; ni attribut, ni classe, ni code modifiable.",
+          "Aucun énoncé libre, aucune permutation entre contextes ou items; seulement ordre de présentation des fiches.",
+          "Le corrigé est remis dans le même ordre que les codes du stimulus, sans modifier ses lignes.",
+          "Les deux épreuves de maîtrise restent des contextes et des corpus disjoints."
+        ],
+        "algorithme": "Soit n le nombre de cartes de l’item. shift=seed % n. Les cartes sont présentées dans l’ordre keys[shift:]+keys[:shift]. Pour chaque carte, rendre inchangées ses deux observations originales. Corriger en reliant chaque code à son état et à ses deux observations verrouillées, indépendamment de l’ordre. Conserver comme seed la valeur de cet item; toute autre graine du domaine ne modifie que l’ordre.",
+        "seed_stable": 5011,
+        "exemples_valides": [
+          {
+            "seed": 5011,
+            "codes_dans_ordre": [
+              "MC-2",
+              "MC-3",
+              "MC-4",
+              "MC-5",
+              "MC-1"
+            ]
+          },
+          {
+            "seed": 5012,
+            "codes_dans_ordre": [
+              "MC-3",
+              "MC-4",
+              "MC-5",
+              "MC-1",
+              "MC-2"
+            ]
+          },
+          {
+            "seed": 5013,
+            "codes_dans_ordre": [
+              "MC-4",
+              "MC-5",
+              "MC-1",
+              "MC-2",
+              "MC-3"
+            ]
+          }
+        ],
+        "validation_status": "a_revoir"
+      },
+      "validation_status": "a_revoir",
+      "codes": [
+        "MC-2",
+        "MC-3",
+        "MC-4",
+        "MC-5",
+        "MC-1"
+      ],
+      "preuve_maitrise": {
+        "objectif_id": "obj-1",
+        "critere_id": "crit-1",
+        "contexte": "station fictive de conservation de collections de musée",
+        "conditions": "Présentation inédite, sans aide sur la classe ou le choix des critères; lecture et dictée neutres possibles; production complète de la classification et de deux indices non redondants par matériau.",
+        "observation_attendue": "Chaque matériau est correctement classé, justifié par comportement d’état plus une propriété distincte attestée par la fiche. Aucun test réel ni invention de substance.",
+        "decision": "Doit être corroborée par une seconde épreuve indépendante et par le raisonnement autonome selon la grille, jamais par une note unique."
+      }
+    },
+    {
+      "item_id": "qc-pri-st-005-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-005-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "ÉPREUVE AUTONOME B. Dans ce nouveau contexte, classe les cinq échantillons anonymes MD-1 à MD-5 et justifie chaque décision par deux critères distincts tirés des fiches; signale ce qu’on ne peut pas savoir.",
+      "stimulus": "Contexte fictif : centre fictif de documentation scientifique. Chaque fiche décrit des observations déjà réalisées par des spécialistes; aucun test matériel n’est demandé.\n- MD-3 : Après retrait interne d’une séparation dans un réservoir fermé, la substance occupe le volume supplémentaire. Un relevé technique indique qu’elle subit une compression mesurable.\n- MD-4 : Un objet en bande garde des contours définis après dépôt sur une table. Lors d’un essai décrit il se plie légèrement sans rupture.\n- MD-5 : Une portion coule d’un contenant à un autre, puis épouse le fond du second. Une marque sombre apparaît nettement à travers la portion mince.\n- MD-1 : Un morceau garde sa forme de prisme lorsqu’on l’enlève d’un étui. Sa surface est polie et lisse selon l’observation transcrite.\n- MD-2 : Une portion se déplace par écoulement et prend la forme du fond d’une éprouvette. Le motif placé derrière n’est pas visible à travers cette portion.",
+      "reponse_attendue": "| Code | État (conclusion) | Indice d’état (observation) | Autre propriété (observation indépendante) |\n|---|---|---|---|\n| MD-3 | gaz | Après retrait interne d’une séparation dans un réservoir fermé, la substance occupe le volume supplémentaire. | compressible : Un relevé technique indique qu’elle subit une compression mesurable. |\n| MD-4 | solide | Un objet en bande garde des contours définis après dépôt sur une table. | souple : Lors d’un essai décrit il se plie légèrement sans rupture. |\n| MD-5 | liquide | Une portion coule d’un contenant à un autre, puis épouse le fond du second. | transparent : Une marque sombre apparaît nettement à travers la portion mince. |\n| MD-1 | solide | Un morceau garde sa forme de prisme lorsqu’on l’enlève d’un étui. | lisse : Sa surface est polie et lisse selon l’observation transcrite. |\n| MD-2 | liquide | Une portion se déplace par écoulement et prend la forme du fond d’une éprouvette. | opaque : Le motif placé derrière n’est pas visible à travers cette portion. |\nAucun nom de substance ni innocuité ne peut être inféré de ces seuls indices.",
+      "criteres": [
+        "Classer les 5 échantillons d’après leur comportement décrit : forme propre, écoulement ou occupation du volume libre.",
+        "Pour chaque code, citer une observation qui justifie l’état et ne pas la remplacer par la couleur ou une supposition.",
+        "Pour chaque code, relever une seconde propriété distincte, explicitement attestée par une autre observation de la fiche.",
+        "Distinguer les observations écrites des inférences; ne jamais inventer la composition, l’innocuité ou une mesure.",
+        "Travailler sans manipuler les échantillons, en rendant la classification et ses deux critères compréhensibles."
+      ],
+      "feedback": "Si une réponse est fragile, retrouve le verbe décrivant le comportement d’état (garde la forme, coule ou occupe l’espace libre), puis une seconde observation non redondante. La composition ne peut pas être devinée.",
+      "difficulte": "transfert",
+      "representation": "fiches textuelles factuelles et tableau de classification; réponse écrite, orale ou par tableau dicté",
+      "limites_variation": "Les observations et conclusions de chaque code sont fixes; seules la mise en page, la modalité de réponse et, pour scenario_controle, la permutation documentée de l’ordre sont admises. Aucune substance, donnée ou réponse inventée par IA.",
+      "seed": 5012,
+      "parametres": {
+        "generateur_id": "SC-ST-005-1",
+        "variables": {
+          "seed": {
+            "type": "entier_stable",
+            "domaine": [
+              5012,
+              5042
+            ]
+          },
+          "ordre": {
+            "type": "permutation_circulaire_des_codes",
+            "domaine": "0..n-1"
+          }
+        },
+        "contraintes": [
+          "Corpus de fiches verrouillé dans cet item; ni attribut, ni classe, ni code modifiable.",
+          "Aucun énoncé libre, aucune permutation entre contextes ou items; seulement ordre de présentation des fiches.",
+          "Le corrigé est remis dans le même ordre que les codes du stimulus, sans modifier ses lignes.",
+          "Les deux épreuves de maîtrise restent des contextes et des corpus disjoints."
+        ],
+        "algorithme": "Soit n le nombre de cartes de l’item. shift=seed % n. Les cartes sont présentées dans l’ordre keys[shift:]+keys[:shift]. Pour chaque carte, rendre inchangées ses deux observations originales. Corriger en reliant chaque code à son état et à ses deux observations verrouillées, indépendamment de l’ordre. Conserver comme seed la valeur de cet item; toute autre graine du domaine ne modifie que l’ordre.",
+        "seed_stable": 5012,
+        "exemples_valides": [
+          {
+            "seed": 5012,
+            "codes_dans_ordre": [
+              "MD-3",
+              "MD-4",
+              "MD-5",
+              "MD-1",
+              "MD-2"
+            ]
+          },
+          {
+            "seed": 5013,
+            "codes_dans_ordre": [
+              "MD-4",
+              "MD-5",
+              "MD-1",
+              "MD-2",
+              "MD-3"
+            ]
+          },
+          {
+            "seed": 5014,
+            "codes_dans_ordre": [
+              "MD-5",
+              "MD-1",
+              "MD-2",
+              "MD-3",
+              "MD-4"
+            ]
+          }
+        ],
+        "validation_status": "a_revoir"
+      },
+      "validation_status": "a_revoir",
+      "codes": [
+        "MD-3",
+        "MD-4",
+        "MD-5",
+        "MD-1",
+        "MD-2"
+      ],
+      "preuve_maitrise": {
+        "objectif_id": "obj-1",
+        "critere_id": "crit-1",
+        "contexte": "centre fictif de documentation scientifique",
+        "conditions": "Présentation inédite, sans aide sur la classe ou le choix des critères; lecture et dictée neutres possibles; production complète de la classification et de deux indices non redondants par matériau.",
+        "observation_attendue": "Chaque matériau est correctement classé, justifié par comportement d’état plus une propriété distincte attestée par la fiche. Aucun test réel ni invention de substance.",
+        "decision": "Doit être corroborée par une seconde épreuve indépendante et par le raisonnement autonome selon la grille, jamais par une note unique."
+      }
+    }
+  ]
+}

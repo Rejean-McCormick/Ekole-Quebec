@@ -1,0 +1,85 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-mu-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Composer une courte pièce sonore selon une intention donnée.",
+  "concepts": [
+    "motif",
+    "variation",
+    "contraste",
+    "composition"
+  ],
+  "preuve_attendue": "Créer et documenter une pièce courte avec structure reconnaissable.",
+  "prerequis_bloquants": [
+    "qc-pri-mu-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-mu-003",
+    "qc-pri-mu-004"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-mu-006-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Créer et documenter une pièce courte avec structure reconnaissable.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-mu-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "production_sonore_observee",
+        "plan_temporel_4_temps",
+        "explication_orale_ecrite_ou_symbolique"
+      ],
+      "variables": [],
+      "contraintes": [
+        "Items fixes : situation, intention et tâche verrouillées; aucune génération libre de corrigé.",
+        "Chaque production de maîtrise : trois segments de quatre pulsations, motif identifiable et transformation ou contraste audible.",
+        "Choix du médium libres sous sécurité et accessibilité; ne noter ni esthétique, timbre naturel, tessiture, ni agilité motrice.",
+        "Deux situations distinctes q-009 et q-010; décision humaine contextualisée, aucun score unique."
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "rythme_continuite",
+          "structure_reconnaissable",
+          "motif_variation_contraste",
+          "intention_ecoute_ajustement",
+          "documentation_correspondante"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2
+        ],
+        "regle_maitrise": "Deux preuves autonomes dans deux contextes : structure et motif niveau 2; trois autres dimensions au moins niveau 1 à chaque preuve; aucune moyenne compensatoire."
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,114 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-st-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Observer un phénomène et poser une question investigable et précise.",
+  "concepts": [
+    "observation",
+    "description",
+    "variable",
+    "question"
+  ],
+  "preuve_attendue": "Décrire un phénomène puis transformer une curiosité en question testable.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-st-001-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Décrire un phénomène puis transformer une curiosité en question testable.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "methode": "sélection déterministe dans 12 scénarios verrouillés; variation uniquement de la modalité de réponse; pas de génération textuelle libre",
+        "algorithme": "Soit s un entier >= 0 : selectionner la position (s % 12) du corpus ordonné q-001 à q-012. En cas de deuxième tirage, prendre ((s+1) % 12). Les deux preuves désignées q-011 et q-012 sont obligatoires et ne sont pas remplacées par ce tirage.",
+        "exemples_calcules": {
+          "seed_24001": 1,
+          "item_pour_24001": "qc-pri-st-001-q-002",
+          "seed_24002": 2,
+          "item_pour_24002": "qc-pri-st-001-q-003"
+        }
+      },
+      "review_status": "instrumentee_a_revoir",
+      "kristal_id": "qc-pri-st-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "description textuelle accessible",
+        "tableau de mesures fictives",
+        "comparaison de deux traces documentées",
+        "réponse orale/dictée/écrite"
+      ],
+      "variables": {
+        "scenario_id": {
+          "domaine": [
+            "st001-s01",
+            "st001-s02",
+            "st001-s03",
+            "st001-s04",
+            "st001-s05",
+            "st001-s06",
+            "st001-s07",
+            "st001-s08",
+            "st001-s09",
+            "st001-s10",
+            "st001-s11",
+            "st001-s12"
+          ],
+          "choix": "aucune création libre; correspondance 1:1 aux 12 items figés de BANQUE_ITEMS.json"
+        },
+        "modalite_rendu": [
+          "texte",
+          "dictée",
+          "oral consigné"
+        ],
+        "selection": "index = seed % 12, parmi les items du corpus, puis rotation circulaire; l’item choisi reste intégralement inchangé"
+      },
+      "contraintes": [
+        "Une situation autorisée doit posséder une trace vérifiable explicitement fournie et marquée fictive lorsqu’inventée.",
+        "Ne pas attribuer de cause sans preuve, ni masquer les inconnues.",
+        "Question investigable à une échelle scolaire et avec une comparaison/mesure sûre; pas de manipulation dangereuse.",
+        "Le facteur, la trace et les conditions pertinentes doivent pouvoir être identifiés.",
+        "Ne pas varier le fond des données par une génération IA libre; revue humaine requise pour tout nouveau scénario."
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "fidelite_observations",
+          "separation_observation_inference",
+          "question_investigable_et_precise",
+          "variables_traces_et_faisabilite"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2
+        ],
+        "seuil_critere": "Chaque dimension au niveau 2 dans deux contextes indépendants, dont au moins une passation sans aide; pas de note unique.",
+        "ref": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": {
+        "type": "corpus_ferme_original",
+        "references": [
+          "sources/REFERENCES_CONTENU.md",
+          "evaluation/BANQUE_ITEMS.json"
+        ]
+      },
+      "seed": 24001,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

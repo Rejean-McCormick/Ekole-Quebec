@@ -1,0 +1,99 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ccq-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire des éléments de l’identité et expliquer leur diversité dans la société.",
+  "concepts": [
+    "identité",
+    "appartenance",
+    "expérience",
+    "diversité"
+  ],
+  "preuve_attendue": "Analyser un personnage fictif en respectant la pluralité des identités.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ccq-001-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Analyser un personnage fictif en respectant la pluralité des identités.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme_controle": "Pour q-003, q-006, q-008, q-010 seulement : i=seed modulo 2; sélectionner stimulus et corrigé de corpus[i], présent dans BANQUE_ITEMS.json; aucune création libre.",
+        "corpus_reference": "evaluation/BANQUE_ITEMS.json",
+        "indicateur_sous_contraintes": "Les 8 autres items sont fixes, dont les 2 preuves autonomes; correction humaine par rubriques."
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ccq-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Analyser un personnage fictif en respectant la pluralité des identités.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiche textuelle",
+        "carte conceptuelle commentée",
+        "dialogue reformulé",
+        "analyse orale confidentielle"
+      ],
+      "variables": {
+        "scenario_controle": [
+          "variante_index=0",
+          "variante_index=1"
+        ],
+        "source_de_variation": "corpus local fermé de 2 fiches par item q-003, q-006, q-008, q-010"
+      },
+      "contraintes": [
+        "Cas fictifs seulement, non caricaturaux",
+        "Aucun dévoilement de croyance, d’identité ou d’expérience réelle",
+        "Deux preuves distinctes q-011 et q-012, sans indices et sans compensation",
+        "Faits contrôlables dans les fiches, autres interprétations prudentes acceptées",
+        "Génération IA libre interdite pour la correction et la variation"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "D1 faits vérifiables",
+          "D2 appartenance/expérience",
+          "D3 pluralité/respect",
+          "D4 prudence/inconnues"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "condition_de_maitrise": "D1–D4 >=2 sur q-011 ET q-012, chacun autonome; aucune moyenne compensatoire",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "workspace_v1.2",
+        "productions_originales",
+        "UNICEF_CDE_articles_8_12_16",
+        "UNESCO_dialogue_interculturel"
+      ],
+      "seed": {
+        "methode": "indice = seed modulo 2 dans corpus figé",
+        "items": {
+          "qc-pri-ccq-001-q-003": 42031,
+          "qc-pri-ccq-001-q-006": 42060,
+          "qc-pri-ccq-001-q-008": 42082,
+          "qc-pri-ccq-001-q-010": 42101
+        }
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

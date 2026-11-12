@@ -1,0 +1,101 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-da-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Faire varier espace, temps et énergie dans un même motif dansé.",
+  "concepts": [
+    "direction",
+    "niveau",
+    "durée",
+    "intensité"
+  ],
+  "preuve_attendue": "Transformer un même mouvement selon trois paramètres annoncés.",
+  "prerequis_bloquants": [
+    "qc-pri-da-001"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-da-002-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Transformer un même mouvement selon trois paramètres annoncés.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Scénarios fixes approuvés: variation accessible de partie corporelle, posture, amplitude, tempo et communication; conserver E/T/É, le motif M0→M1 et deux contextes distincts.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": false,
+        "selection_scenarios": "Fixe, items 009 et 010; pas de génération paramétrique ni de seed nécessaire."
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-da-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "performance corporelle volontaire M0 et M1",
+        "fiche à trois contrastes E/T/É",
+        "verbalisation, pointage ou communication assistée des paramètres"
+      ],
+      "variables": {
+        "mode_generation": "fixe_controle",
+        "scenarios_autorises": [
+          "boussole_silencieuse",
+          "jardin_imaginaire"
+        ],
+        "parametres_cognitifs": [
+          "direction_ou_niveau",
+          "duree",
+          "intensite"
+        ],
+        "tirage_aleatoire": false,
+        "variations_adaptatives": [
+          "partie_corporelle",
+          "posture",
+          "amplitude_confortable",
+          "tempo",
+          "support_communication"
+        ]
+      },
+      "contraintes": [
+        "un motif conserve entre M0 et M1",
+        "exactement trois paramètres annoncés: un spatial, un temporel, un énergétique",
+        "contrastes observables et sûrs",
+        "deux preuves autonomes dans deux univers distincts",
+        "aucune comparaison morphologique/virtuosité",
+        "aucun modèle simultané en preuve",
+        "aucune génération libre par IA"
+      ],
+      "barreme_ou_rubrique": {
+        "document": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "invariance_du_motif",
+          "contraste_spatial",
+          "contraste_temporel",
+          "contraste_energetique",
+          "annonce_et_intention",
+          "securite_et_autonomie"
+        ],
+        "echelle": "0/1/2 observation critériée",
+        "decision": "deux contextes chacun satisfaisant; aucune moyenne compensatoire"
+      },
+      "source": [
+        "sources/REFERENCES_CONTENU.md",
+        "authoring/PARCOURS.md",
+        "evaluation/PLAN_EVALUATION.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_items_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

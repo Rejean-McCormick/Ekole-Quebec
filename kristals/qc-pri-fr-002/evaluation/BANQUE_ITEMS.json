@@ -1,0 +1,373 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-002",
+  "family_id": "qc-pri-fr-002-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-002-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis chaque syllabe écrite, sans épeler les noms des lettres.",
+      "stimulus": "À montrer : « ma  |  li  |  lou ».",
+      "reponse_attendue": "ma /ma/ ; li /li/ ; lou /lu/. Segmentations m|a, l|i, l|ou ; ou est un seul graphème.",
+      "criteres": [
+        "Conforme aux unités graphémiques explicitement enseignées dans le corpus de la tâche.",
+        "Distingue lecture (production orale d’un écrit) et encodage (écriture d’un entendu), selon le cas.",
+        "Explique ou pointe les graphèmes déterminants sans modèle de réponse pendant l’essai.",
+        "Répond indépendamment; une variante d’accent non distinctive n’est pas pénalisée."
+      ],
+      "feedback": "Si lou est lu /ly/, contraster u /y/ et ou /u/ avec deux syllabes nouvelles.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte écrit pour lecture / script oral réservé à l’adulte pour dictée; réponse orale et écrite critériée",
+      "variabilite_permise": "Aucune substitution libre d’items ni sortie IA corrective; réécoute neutre autorisée, lexique fermé pour dictée.",
+      "securite_accessibilite": "Aucun enregistrement sonore obligatoire; écriture au clavier ou aux lettres mobiles possible, selon autonomie; oral transcrit par adulte; articulation québécoise acceptée. Ne pas afficher le script-corrigé au dicté."
+    },
+    {
+      "item_id": "qc-pri-fr-002-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris les deux syllabes dictées. N’utilise que les graphèmes proposés; relis-les.",
+      "stimulus": "À l’adulte, oral SEULEMENT : dire /pa/ puis /vy/. Graphèmes autorisés visibles : p, a, v, u. Ne pas montrer les réponses.",
+      "reponse_attendue": "Écrit attendu : pa ; vu. pa=/pa/, vu=/vy/. L’élève pointe u pour /y/.",
+      "criteres": [
+        "Conforme aux unités graphémiques explicitement enseignées dans le corpus de la tâche.",
+        "Distingue lecture (production orale d’un écrit) et encodage (écriture d’un entendu), selon le cas.",
+        "Explique ou pointe les graphèmes déterminants sans modèle de réponse pendant l’essai.",
+        "Répond indépendamment; une variante d’accent non distinctive n’est pas pénalisée."
+      ],
+      "feedback": "Si vou est écrit au lieu de vu, expliciter que /vy/ exige u dans ce répertoire.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte écrit pour lecture / script oral réservé à l’adulte pour dictée; réponse orale et écrite critériée",
+      "variabilite_permise": "Aucune substitution libre d’items ni sortie IA corrective; réécoute neutre autorisée, lexique fermé pour dictée.",
+      "securite_accessibilite": "Aucun enregistrement sonore obligatoire; écriture au clavier ou aux lettres mobiles possible, selon autonomie; oral transcrit par adulte; articulation québécoise acceptée. Ne pas afficher le script-corrigé au dicté."
+    },
+    {
+      "item_id": "qc-pri-fr-002-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis les mots et montre où commencent les graphèmes.",
+      "stimulus": "Carton imprimé à lire : « fil », « mal », « loto ».",
+      "reponse_attendue": "fil /fil/, mal /mal/, loto /loto/. Segmentation : f|i|l ; m|a|l ; l|o|t|o.",
+      "criteres": [
+        "Conforme aux unités graphémiques explicitement enseignées dans le corpus de la tâche.",
+        "Distingue lecture (production orale d’un écrit) et encodage (écriture d’un entendu), selon le cas.",
+        "Explique ou pointe les graphèmes déterminants sans modèle de réponse pendant l’essai.",
+        "Répond indépendamment; une variante d’accent non distinctive n’est pas pénalisée."
+      ],
+      "feedback": "Si l’enfant dit les noms des lettres et ne fusionne pas, faire une courte reprise de fusion sur d’autres formes.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte écrit pour lecture / script oral réservé à l’adulte pour dictée; réponse orale et écrite critériée",
+      "variabilite_permise": "Aucune substitution libre d’items ni sortie IA corrective; réécoute neutre autorisée, lexique fermé pour dictée.",
+      "securite_accessibilite": "Aucun enregistrement sonore obligatoire; écriture au clavier ou aux lettres mobiles possible, selon autonomie; oral transcrit par adulte; articulation québécoise acceptée. Ne pas afficher le script-corrigé au dicté."
+    },
+    {
+      "item_id": "qc-pri-fr-002-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Dicte puis écris les mots du petit lexique annoncé; donne le graphème du premier son.",
+      "stimulus": "Instruction réservée à l’adulte : lexique affiché sans graphies cibles, objets « un fil à coudre » puis « une partie de loto »; dire les mots /fil/ et /loto/, les graphèmes possibles étant f,i,l,o,t. Aucun mot écrit montré.",
+      "reponse_attendue": "Réponses : fil ; loto. Premier graphème f pour /f/ ; l pour /l/. Les deux mots appartiennent au lexique annoncé, sans graphies muettes.",
+      "criteres": [
+        "Conforme aux unités graphémiques explicitement enseignées dans le corpus de la tâche.",
+        "Distingue lecture (production orale d’un écrit) et encodage (écriture d’un entendu), selon le cas.",
+        "Explique ou pointe les graphèmes déterminants sans modèle de réponse pendant l’essai.",
+        "Répond indépendamment; une variante d’accent non distinctive n’est pas pénalisée."
+      ],
+      "feedback": "Si des lettres sont perdues, demander de relire chaque phonème sans dicter la solution.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte écrit pour lecture / script oral réservé à l’adulte pour dictée; réponse orale et écrite critériée",
+      "variabilite_permise": "Aucune substitution libre d’items ni sortie IA corrective; réécoute neutre autorisée, lexique fermé pour dictée.",
+      "securite_accessibilite": "Aucun enregistrement sonore obligatoire; écriture au clavier ou aux lettres mobiles possible, selon autonomie; oral transcrit par adulte; articulation québécoise acceptée. Ne pas afficher le script-corrigé au dicté."
+    },
+    {
+      "item_id": "qc-pri-fr-002-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans les deux formes écrites, encercle les graphèmes puis lis à voix haute.",
+      "stimulus": "Cartons « chou » et « tou » (tou est ici une syllabe d’exercice, pas un mot lexical).",
+      "reponse_attendue": "ch|ou → /ʃu/; t|ou → /tu/. Deux graphèmes par carton; ch et ou sont chacun un bloc sonore.",
+      "criteres": [
+        "Conforme aux unités graphémiques explicitement enseignées dans le corpus de la tâche.",
+        "Distingue lecture (production orale d’un écrit) et encodage (écriture d’un entendu), selon le cas.",
+        "Explique ou pointe les graphèmes déterminants sans modèle de réponse pendant l’essai.",
+        "Répond indépendamment; une variante d’accent non distinctive n’est pas pénalisée."
+      ],
+      "feedback": "Si l’élève dit que chou a quatre sons, lui faire manipuler deux tuiles ch / ou, puis réessayer un autre item.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte écrit pour lecture / script oral réservé à l’adulte pour dictée; réponse orale et écrite critériée",
+      "variabilite_permise": "Aucune substitution libre d’items ni sortie IA corrective; réécoute neutre autorisée, lexique fermé pour dictée.",
+      "securite_accessibilite": "Aucun enregistrement sonore obligatoire; écriture au clavier ou aux lettres mobiles possible, selon autonomie; oral transcrit par adulte; articulation québécoise acceptée. Ne pas afficher le script-corrigé au dicté."
+    },
+    {
+      "item_id": "qc-pri-fr-002-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis la syllabe contenant le son /y/, puis écris celle dictée qui contient /u/.",
+      "stimulus": "À montrer : « tu » et « tou »; après avoir caché ces cartons, dicter la syllabe /nu/ avec banque n, u, ou.",
+      "reponse_attendue": "Lecture /ty/ pour tu et /tu/ pour tou; identification tu comme syllabe à /y/. Dictée /nu/ → nou.",
+      "criteres": [
+        "Conforme aux unités graphémiques explicitement enseignées dans le corpus de la tâche.",
+        "Distingue lecture (production orale d’un écrit) et encodage (écriture d’un entendu), selon le cas.",
+        "Explique ou pointe les graphèmes déterminants sans modèle de réponse pendant l’essai.",
+        "Répond indépendamment; une variante d’accent non distinctive n’est pas pénalisée."
+      ],
+      "feedback": "Si l’élève confond ou avec u, demander quel graphème représente /u/ dans l’inventaire, après la tentative.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte écrit pour lecture / script oral réservé à l’adulte pour dictée; réponse orale et écrite critériée",
+      "variabilite_permise": "Aucune substitution libre d’items ni sortie IA corrective; réécoute neutre autorisée, lexique fermé pour dictée.",
+      "securite_accessibilite": "Aucun enregistrement sonore obligatoire; écriture au clavier ou aux lettres mobiles possible, selon autonomie; oral transcrit par adulte; articulation québécoise acceptée. Ne pas afficher le script-corrigé au dicté."
+    },
+    {
+      "item_id": "qc-pri-fr-002-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis le pseudo-mot annoncé, indique les graphèmes et justifie brièvement comment tu l’assembles.",
+      "stimulus": "Carton nouveau : « falo », chaîne construite à partir des seules correspondances étudiées; ce n’est pas un mot du lexique.",
+      "reponse_attendue": "f|a|l|o → /falo/. La réponse doit assembler quatre phonèmes et identifier les graphèmes; aucun sens lexical attendu.",
+      "criteres": [
+        "Conforme aux unités graphémiques explicitement enseignées dans le corpus de la tâche.",
+        "Distingue lecture (production orale d’un écrit) et encodage (écriture d’un entendu), selon le cas.",
+        "Explique ou pointe les graphèmes déterminants sans modèle de réponse pendant l’essai.",
+        "Répond indépendamment; une variante d’accent non distinctive n’est pas pénalisée."
+      ],
+      "feedback": "Ne pas rejeter une lecture correcte faute de définition : il s’agit explicitement d’un pseudo-mot.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte écrit pour lecture / script oral réservé à l’adulte pour dictée; réponse orale et écrite critériée",
+      "variabilite_permise": "Aucune substitution libre d’items ni sortie IA corrective; réécoute neutre autorisée, lexique fermé pour dictée.",
+      "securite_accessibilite": "Aucun enregistrement sonore obligatoire; écriture au clavier ou aux lettres mobiles possible, selon autonomie; oral transcrit par adulte; articulation québécoise acceptée. Ne pas afficher le script-corrigé au dicté."
+    },
+    {
+      "item_id": "qc-pri-fr-002-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-002-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris les deux syllabes dictées et lis les deux syllabes écrites; montre au moins un digramme.",
+      "stimulus": "Lecture : « cha », « nou ». Script oral séparé pour l’adulte : /ʃo/ puis /fy/ ; banque autorisée ch,o,f,u.",
+      "reponse_attendue": "Lecture cha /ʃa/, nou /nu/ ; encodage /ʃu/ → chou, /fy/ → fu. Expliquer que ch représente /ʃ/.",
+      "criteres": [
+        "Conforme aux unités graphémiques explicitement enseignées dans le corpus de la tâche.",
+        "Distingue lecture (production orale d’un écrit) et encodage (écriture d’un entendu), selon le cas.",
+        "Explique ou pointe les graphèmes déterminants sans modèle de réponse pendant l’essai.",
+        "Répond indépendamment; une variante d’accent non distinctive n’est pas pénalisée."
+      ],
+      "feedback": "Si cha devient /ʃə/, vérifier la voyelle /a/ plutôt que la fluidité ou l’accent.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte écrit pour lecture / script oral réservé à l’adulte pour dictée; réponse orale et écrite critériée",
+      "variabilite_permise": "Aucune substitution libre d’items ni sortie IA corrective; réécoute neutre autorisée, lexique fermé pour dictée.",
+      "securite_accessibilite": "Aucun enregistrement sonore obligatoire; écriture au clavier ou aux lettres mobiles possible, selon autonomie; oral transcrit par adulte; articulation québécoise acceptée. Ne pas afficher le script-corrigé au dicté."
+    },
+    {
+      "item_id": "qc-pri-fr-002-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-002-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME : dans cet atelier fictif, lis 3 syllabes puis 3 mots écrits à la personne responsable; après retrait des cartons, écris 3 syllabes et 3 mots entendus, sans voir leurs graphies. Indique ou pointe, après les réponses, au moins deux correspondances utilisées et explique un regroupement ch/ou lorsqu’il apparaît. Le correcteur consigne lecture et encodage séparément; aucune aide de contenu.",
+      "stimulus": "CONTEXTE A — Atelier des étiquettes. Fiches fictives d’un atelier qui classe des cartes écrites et reçoit des commandes vocales.\nPARTIE LECTURE — Montrer uniquement : syllabes « po, fi, vou » ; mots « moto, silo, mari ».\nPARTIE DICTÉE — Garder cachées les graphies suivantes (réservées au correcteur) : ba, ru, cho, papa, salami, fou. L’adulte prononce les unités en français québécois courant, avec réécoute neutre possible. Inventaire de graphèmes appris affichable avant la dictée : ch, ou, é, a, i, o, u, m, l, p, t, s, f, v, n, r, b, d. Indiquer oralement que les mots proviennent du lexique fermé des six mots ciblés; au besoin donner seulement leur signification, jamais leur écrit. Aucune image donnant le mot et aucun affichage du corrigé.",
+      "reponse_attendue": "CORRIGÉ (strictement réservé à l’adulte ; ne pas afficher aux élèves) : lecture_syllabes = po /po/, fi /fi/, vou /vu/; lecture_mots = moto /moto/, silo /silo/, mari /maʁi/; dictee_syllabes = ba /ba/, ru /ʁy/, cho /ʃo/; dictee_mots = papa /papa/, salami /salami/, fou /fu/. Lecture : accepter toutes réalisations québécoises maintenant les oppositions phonémiques. Écriture : comparer la graphie exactement à la cible dans le répertoire et au lexique fermé; analyser les erreurs phonémiques séparément des écarts de graphie. Dans la dictée, seul le mot annoncé et connu de l’adulte désigne la cible ; l’écrit n’est jamais montré au participant.",
+      "criteres": [
+        "Lecture autonome des 3 syllabes : phonèmes et fusion correctement établis.",
+        "Lecture autonome des 3 mots réguliers nouveaux : décodage et non devinette d’image.",
+        "Écriture autonome des 3 syllabes dictées : phonèmes vers graphèmes correctement sélectionnés.",
+        "Écriture autonome des 3 mots du lexique annoncé : graphies ciblées sans copie ni indice.",
+        "Justification/pointage de deux relations phonèmes-graphèmes et maîtrise des digrammes présents; l’accent n’est pas noté.",
+        "Autonomie et fiabilité : lecture et dictée isolées; support d’accès neutre et réécoute non explicative permis."
+      ],
+      "feedback": "Si la syllabe est correcte mais le mot échoue, reprendre les mots réguliers et la fusion. Si la lecture réussit mais la dictée échoue, remédier la segmentation et la sélection du graphème; nouvelle épreuve non entraînée après remédiation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte écrit pour lecture / script oral réservé à l’adulte pour dictée; réponse orale et écrite critériée",
+      "variabilite_permise": "Aucune substitution libre d’items ni sortie IA corrective; réécoute neutre autorisée, lexique fermé pour dictée.",
+      "securite_accessibilite": "Aucun enregistrement sonore obligatoire; écriture au clavier ou aux lettres mobiles possible, selon autonomie; oral transcrit par adulte; articulation québécoise acceptée. Ne pas afficher le script-corrigé au dicté.",
+      "preuve_maitrise": "preuve_A",
+      "elements": {
+        "lecture_syllabes": [
+          [
+            "po",
+            "/po/"
+          ],
+          [
+            "fi",
+            "/fi/"
+          ],
+          [
+            "vou",
+            "/vu/"
+          ]
+        ],
+        "lecture_mots": [
+          [
+            "moto",
+            "/moto/"
+          ],
+          [
+            "silo",
+            "/silo/"
+          ],
+          [
+            "mari",
+            "/maʁi/"
+          ]
+        ],
+        "dictee_syllabes": [
+          [
+            "ba",
+            "/ba/"
+          ],
+          [
+            "ru",
+            "/ʁy/"
+          ],
+          [
+            "cho",
+            "/ʃo/"
+          ]
+        ],
+        "dictee_mots": [
+          [
+            "papa",
+            "/papa/"
+          ],
+          [
+            "salami",
+            "/salami/"
+          ],
+          [
+            "fou",
+            "/fu/"
+          ]
+        ]
+      },
+      "contexte": "A — Atelier des étiquettes",
+      "administration": "L’adulte doit masquer les graphies dictées, lire le script avec le lexique connu; aucun support audio généré ni validation acoustique automatisée."
+    },
+    {
+      "item_id": "qc-pri-fr-002-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-002-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE AUTONOME : dans cet atelier fictif, lis 3 syllabes puis 3 mots écrits à la personne responsable; après retrait des cartons, écris 3 syllabes et 3 mots entendus, sans voir leurs graphies. Indique ou pointe, après les réponses, au moins deux correspondances utilisées et explique un regroupement ch/ou lorsqu’il apparaît. Le correcteur consigne lecture et encodage séparément; aucune aide de contenu.",
+      "stimulus": "CONTEXTE B — Station des messages. Autre contexte fictif : une station reçoit des messages écrits et doit noter des annonces orales.\nPARTIE LECTURE — Montrer uniquement : syllabes « no, chi, rou » ; mots « vélo, puma, safari ».\nPARTIE DICTÉE — Garder cachées les graphies suivantes (réservées au correcteur) : da, pu, sou, papi, lavabo, chouchou. L’adulte prononce les unités en français québécois courant, avec réécoute neutre possible. Inventaire de graphèmes appris affichable avant la dictée : ch, ou, é, a, i, o, u, m, l, p, t, s, f, v, n, r, b, d. Indiquer oralement que les mots proviennent du lexique fermé des six mots ciblés; au besoin donner seulement leur signification, jamais leur écrit. Aucune image donnant le mot et aucun affichage du corrigé.",
+      "reponse_attendue": "CORRIGÉ (strictement réservé à l’adulte ; ne pas afficher aux élèves) : lecture_syllabes = no /no/, chi /ʃi/, rou /ʁu/; lecture_mots = vélo /velo/, puma /pyma/, safari /safaʁi/; dictee_syllabes = da /da/, pu /py/, sou /su/; dictee_mots = papi /papi/, lavabo /lavabo/, chouchou /ʃuʃu/. Lecture : accepter toutes réalisations québécoises maintenant les oppositions phonémiques. Écriture : comparer la graphie exactement à la cible dans le répertoire et au lexique fermé; analyser les erreurs phonémiques séparément des écarts de graphie. Dans la dictée, seul le mot annoncé et connu de l’adulte désigne la cible ; l’écrit n’est jamais montré au participant.",
+      "criteres": [
+        "Lecture autonome des 3 syllabes : phonèmes et fusion correctement établis.",
+        "Lecture autonome des 3 mots réguliers nouveaux : décodage et non devinette d’image.",
+        "Écriture autonome des 3 syllabes dictées : phonèmes vers graphèmes correctement sélectionnés.",
+        "Écriture autonome des 3 mots du lexique annoncé : graphies ciblées sans copie ni indice.",
+        "Justification/pointage de deux relations phonèmes-graphèmes et maîtrise des digrammes présents; l’accent n’est pas noté.",
+        "Autonomie et fiabilité : lecture et dictée isolées; support d’accès neutre et réécoute non explicative permis."
+      ],
+      "feedback": "Si la syllabe est correcte mais le mot échoue, reprendre les mots réguliers et la fusion. Si la lecture réussit mais la dictée échoue, remédier la segmentation et la sélection du graphème; nouvelle épreuve non entraînée après remédiation.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "representation": "texte écrit pour lecture / script oral réservé à l’adulte pour dictée; réponse orale et écrite critériée",
+      "variabilite_permise": "Aucune substitution libre d’items ni sortie IA corrective; réécoute neutre autorisée, lexique fermé pour dictée.",
+      "securite_accessibilite": "Aucun enregistrement sonore obligatoire; écriture au clavier ou aux lettres mobiles possible, selon autonomie; oral transcrit par adulte; articulation québécoise acceptée. Ne pas afficher le script-corrigé au dicté.",
+      "preuve_maitrise": "preuve_B",
+      "elements": {
+        "lecture_syllabes": [
+          [
+            "no",
+            "/no/"
+          ],
+          [
+            "chi",
+            "/ʃi/"
+          ],
+          [
+            "rou",
+            "/ʁu/"
+          ]
+        ],
+        "lecture_mots": [
+          [
+            "vélo",
+            "/velo/"
+          ],
+          [
+            "puma",
+            "/pyma/"
+          ],
+          [
+            "safari",
+            "/safaʁi/"
+          ]
+        ],
+        "dictee_syllabes": [
+          [
+            "da",
+            "/da/"
+          ],
+          [
+            "pu",
+            "/py/"
+          ],
+          [
+            "sou",
+            "/su/"
+          ]
+        ],
+        "dictee_mots": [
+          [
+            "papi",
+            "/papi/"
+          ],
+          [
+            "lavabo",
+            "/lavabo/"
+          ],
+          [
+            "chouchou",
+            "/ʃuʃu/"
+          ]
+        ]
+      },
+      "contexte": "B — Station des messages",
+      "administration": "L’adulte doit masquer les graphies dictées, lire le script avec le lexique connu; aucun support audio généré ni validation acoustique automatisée."
+    }
+  ]
+}

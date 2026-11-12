@@ -1,0 +1,92 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Identifier, poursuivre et décrire une régularité numérique.",
+  "concepts": [
+    "motif",
+    "pas",
+    "règle",
+    "terme manquant"
+  ],
+  "preuve_attendue": "Compléter une suite et expliciter une règle qui permet d’en prévoir la suite.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-ma-002"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-004-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Compléter une suite et expliciter une règle qui permet d’en prévoir la suite.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme_deterministe": "Dans chaque item paramétrique, N=a_max−a_min+1, a=a_min+(seed mod N), |d|=d_min+(floor(seed/N) mod (d_max−d_min+1)), d=signe×|d|. Au rang n, t(n)=a+(n−1)d; correction indépendante par u(n+1)=u(n)+d. Les limites sont dans les items.",
+        "contre_verification": "Deux seeds par item plus parcours exhaustifs des petits domaines soumis à tests de calcul; détails dans livraison/VALIDATION.md.",
+        "corpus_fixe": "Quatre items fixes sans génération de solution IA libre."
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-ma-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "critere_texte": "Compléter une suite et expliciter une règle qui permet d’en prévoir la suite.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "notation_numérique",
+        "matériel_et_tableau",
+        "notation_et_cases",
+        "tableau_des_rangs",
+        "situations_de_longueurs_et_de_dénombrement",
+        "motif_cyclique_fixe"
+      ],
+      "variables": {
+        "a": "premier terme entier",
+        "d": "pas constant entier non nul; valeurs absolues et signes bornés par item",
+        "n": "rang entier 1..6; positions masquées figées selon gabarit",
+        "seed": "entier non négatif fixé dans chaque item"
+      },
+      "contraintes": [
+        "Aucun préalable requires",
+        "Pour chaque instance paramétrique, toutes les valeurs affichées sont entières et les rangs 1 à 5 sont non négatifs",
+        "Pas constant explicite pour les variantes arithmétiques",
+        "Conserver les contextes, unités, signes, rangs à compléter et critères; pas de randomisation du texte libre",
+        "Une courte liste finie ne prouve pas l’unicité d’une règle; items fixes de motifs cycliques séparés",
+        "Deux preuves autonomes en contextes distincts obligatoires pour la décision de maîtrise"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "valeurs_et_rangs",
+          "règle_complète_et_cohérente",
+          "justification_et_vérification",
+          "autonomie_et_transfert"
+        ],
+        "niveaux": [
+          "0_non_demontré",
+          "1_fragile",
+          "2_partiel",
+          "3_satisfaisant",
+          "4_solide"
+        ],
+        "regle_decision": "Deux preuves distinctes de niveau 3 ou 4 dans les dimensions essentielles, sans aide de méthode; aucune maîtrise déduite d’un score unique."
+      },
+      "source": "sources/REFERENCES_CONTENU.md — énoncés, paramètres, corrigés et rubriques originaux; bases vérifiées dans le bundle source v1.2",
+      "seed": 1401,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenu_et_items_rediges_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

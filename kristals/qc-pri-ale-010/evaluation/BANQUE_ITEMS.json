@@ -1,0 +1,327 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ale-010",
+  "family_id": "qc-pri-ale-010-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ale-010-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-010-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Read the sentence; label the subject (S), verb (V), and complement (C). Then explain whether all English sentences need a complement.",
+      "stimulus": "The young artists draw posters.",
+      "reponse_attendue": "S: The young artists; V: draw; C (direct object): posters. No: Birds sing. is a complete sentence without a complement.",
+      "criteres": [
+        "Les groupes « The young artists », « draw » et « posters » sont repérés dans leurs fonctions attendues.",
+        "L’explication accepte qu’un complément soit facultatif dans certaines phrases; l’exemple Birds sing. est complet."
+      ],
+      "feedback": "Si « posters » est pris pour le verbe, poser « What do the artists do? »; ne pas imposer de complément à « Birds sing. ».",
+      "difficulte": "initial",
+      "representation": "phrase_annotee",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Stimulus, sujet, verbes et réponses fixes; aucune substitution automatique. Accès par lecture neutre, saisie au clavier et temps ajusté sans correction grammaticale. Corriger selon la grille pour une variante linguistique admissible.",
+      "validation_status": "a_revoir",
+      "corrige_structure": {
+        "subject": "The young artists",
+        "verb": "draw",
+        "complement": "posters",
+        "complement_obligatoire": false
+      }
+    },
+    {
+      "item_id": "qc-pri-ale-010-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-010-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Put the words in order to write a complete statement. Label subject and verb; explain the verb ending.",
+      "stimulus": "cards: a model / builds / Kai",
+      "reponse_attendue": "Kai builds a model. Subject: Kai; verb: builds; complement: a model. The third-person singular subject Kai requires builds in the present simple affirmative.",
+      "criteres": [
+        "Phrase complète avec ordre S–V–objet : Kai builds a model.",
+        "Justification exacte du -s sur builds avec Kai."
+      ],
+      "feedback": "Si « Kai build » apparaît, comparer « Kai builds » et « They build ».",
+      "difficulte": "initial",
+      "representation": "cartes_textuelles",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Stimulus, sujet, verbes et réponses fixes; aucune substitution automatique. Accès par lecture neutre, saisie au clavier et temps ajusté sans correction grammaticale. Corriger selon la grille pour une variante linguistique admissible.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "Kai builds a model."
+      ]
+    },
+    {
+      "item_id": "qc-pri-ale-010-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-010-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Change the subject of each sentence as requested, keeping the action and object. Explain the verb changes.",
+      "stimulus": "A. Mia paints a sign. → subject They. B. The children watch birds. → subject Leo.",
+      "reponse_attendue": "A. They paint a sign. B. Leo watches birds. For they use paint without -s; for Leo add -es to watch → watches.",
+      "criteres": [
+        "A : They paint a sign.",
+        "B : Leo watches birds.",
+        "Explication de l’accord sujet-verbe au présent simple et du suffixe -es pour watches."
+      ],
+      "feedback": "Si « Leo watch » est produit, comparer watch / watches; si « They paints », comparer they / Mia.",
+      "difficulte": "intermediaire",
+      "representation": "transformation_sujet",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Stimulus, sujet, verbes et réponses fixes; aucune substitution automatique. Accès par lecture neutre, saisie au clavier et temps ajusté sans correction grammaticale. Corriger selon la grille pour une variante linguistique admissible.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "They paint a sign.",
+        "Leo watches birds."
+      ]
+    },
+    {
+      "item_id": "qc-pri-ale-010-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-010-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Turn the two statements into yes/no questions. Explain where the subject and base verb go.",
+      "stimulus": "A. Noor reads maps. B. The hikers carry bags.",
+      "reponse_attendue": "A. Does Noor read maps? B. Do the hikers carry bags? In a yes/no question with an ordinary action verb, put Does/Do before the subject and keep the base verb (read/carry).",
+      "criteres": [
+        "A : Does Noor read maps?",
+        "B : Do the hikers carry bags?",
+        "Explication correcte de l’auxiliaire avant le sujet et de la base verbale après does/do."
+      ],
+      "feedback": "« Does Noor reads ...? » : enlever le -s de reads car does marque déjà la personne.",
+      "difficulte": "intermediaire",
+      "representation": "transformation_interrogative",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Stimulus, sujet, verbes et réponses fixes; aucune substitution automatique. Accès par lecture neutre, saisie au clavier et temps ajusté sans correction grammaticale. Corriger selon la grille pour une variante linguistique admissible.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "Does Noor read maps?",
+        "Do the hikers carry bags?"
+      ]
+    },
+    {
+      "item_id": "qc-pri-ale-010-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-010-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Write a negative statement for each affirmative sentence. Explain one auxiliary choice.",
+      "stimulus": "A. Eva collects shells. B. They visit the museum.",
+      "reponse_attendue": "A. Eva does not collect shells. / Eva doesn't collect shells. B. They do not visit the museum. / They don't visit the museum. Eva → doesn't/does not + collect; they → don't/do not + visit.",
+      "criteres": [
+        "Négation de Eva avec does not/doesn’t suivi de collect.",
+        "Négation de they avec do not/don’t suivi de visit.",
+        "Une justification précise du choix does/do et de la base verbale."
+      ],
+      "feedback": "Si « Eva doesn't collects » apparaît, supprimer le -s après doesn't; pour they, préférer don't à doesn't.",
+      "difficulte": "intermediaire",
+      "representation": "transformation_negative",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Stimulus, sujet, verbes et réponses fixes; aucune substitution automatique. Accès par lecture neutre, saisie au clavier et temps ajusté sans correction grammaticale. Corriger selon la grille pour une variante linguistique admissible.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        [
+          "Eva does not collect shells.",
+          "Eva doesn't collect shells."
+        ],
+        [
+          "They do not visit the museum.",
+          "They don't visit the museum."
+        ]
+      ]
+    },
+    {
+      "item_id": "qc-pri-ale-010-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-010-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Write two simple instructions for a new helper at a science table, using each supplied verb. Explain the unspoken subject.",
+      "stimulus": "verbs + complements: place / the notebook / on the table; close / the box",
+      "reponse_attendue": "Place the notebook on the table. Close the box. In each imperative, the subject you is understood and need not be written.",
+      "criteres": [
+        "Deux impératifs complets : Place the notebook on the table. et Close the box.",
+        "Verbes à la forme de base en tête; compléments cohérents.",
+        "Explique que le sujet implicite est you."
+      ],
+      "feedback": "Si un sujet obligatoire est exigé dans chaque ordre, rappeler que you est normalement sous-entendu dans l’impératif.",
+      "difficulte": "intermediaire",
+      "representation": "consignes_ecrites",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Stimulus, sujet, verbes et réponses fixes; aucune substitution automatique. Accès par lecture neutre, saisie au clavier et temps ajusté sans correction grammaticale. Corriger selon la grille pour une variante linguistique admissible.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "Place the notebook on the table.",
+        "Close the box."
+      ]
+    },
+    {
+      "item_id": "qc-pri-ale-010-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-010-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Correct all three lines in the pretend art-club message. Explain at least two grammar changes; give a new related statement.",
+      "stimulus": "The painter draw stars. / Does the painter draws stars? / Draw you a star.",
+      "reponse_attendue": "The painter draws stars. / Does the painter draw stars? / Draw a star. Example added line: The children draw circles. Explanation: painter is a singular third-person subject in an affirmative; after does use base draw; imperative has implicit you.",
+      "criteres": [
+        "Toutes les trois phrases sont corrigées en conservant le thème des dessins.",
+        "Au moins deux explications grammaticales distinctes et exactes.",
+        "La phrase ajoutée est une nouvelle phrase anglaise complète sur le dessin."
+      ],
+      "feedback": "Cibler chaque erreur séparément : accord -s, question avec does + base, puis impératif à sujet implicite.",
+      "difficulte": "intermediaire",
+      "representation": "message_a_corriger",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Stimulus, sujet, verbes et réponses fixes; aucune substitution automatique. Accès par lecture neutre, saisie au clavier et temps ajusté sans correction grammaticale. Corriger selon la grille pour une variante linguistique admissible.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "The painter draws stars.",
+        "Does the painter draw stars?",
+        "Draw a star."
+      ]
+    },
+    {
+      "item_id": "qc-pri-ale-010-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-010-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "Write a connected four-sentence set about a music rehearsal: a statement, a yes/no question based on it, a negative statement based on it, and a direction. Explain one change.",
+      "stimulus": "Theme: rehearsal. starting fact: Target lexical set: The band / rehearse / a song; listen / to the music.",
+      "reponse_attendue": "The band rehearses a song. / Does the band rehearse a song? / The band does not rehearse a song. / Listen to the music. Explain: does carries third-person singular marking; rehearse remains base in question/negative; listen is imperative.",
+      "criteres": [
+        "Quatre phrases liées au thème musical avec intentions statement/question/negative/instruction.",
+        "La question et la négation transforment explicitement la même proposition avec la base rehearse.",
+        "Justification correcte du placement de does et de la base verbale."
+      ],
+      "feedback": "Si « does rehearses » apparaît, faire contraster rehearses / does rehearse; si l’ordre est une déclaration, déplacer la base au début.",
+      "difficulte": "intermediaire",
+      "representation": "serie_theme_unique",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Stimulus, sujet, verbes et réponses fixes; aucune substitution automatique. Accès par lecture neutre, saisie au clavier et temps ajusté sans correction grammaticale. Corriger selon la grille pour une variante linguistique admissible.",
+      "validation_status": "a_revoir",
+      "corrige_structure": [
+        "The band rehearses a song.",
+        "Does the band rehearse a song?",
+        "The band does not rehearse a song.",
+        "Listen to the music."
+      ]
+    },
+    {
+      "item_id": "qc-pri-ale-010-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-010-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "PREUVE A — Theme: community garden. Write five linked sentences: (1) statement with Mira / water / plants; (2) statement with The helpers / carry / soil; (3) negative transformation of sentence 1; (4) yes/no question transforming sentence 1; (5) an instruction to a visitor using look / at the plants. Explain why water changes or does not change when you form the question. Work without a grammar model.",
+      "stimulus": "Fictional garden event. Word bank (meaning help, not full phrases): Mira / water / plants; The helpers / carry / soil; look / at the plants. The same garden theme must connect all five utterances. Do not show corrected versions, examples, or rubric while the learner responds.",
+      "reponse_attendue": "Model: (1) Mira waters plants. (2) The helpers carry soil. (3) Mira does not water plants. (4) Does Mira water plants? (5) Look at the plants. Explanation: Mira is third-person singular so affirmative waters has -s; with does/does not, use base water. Contractions such as Mira doesn’t water plants. are admissible. Variants must retain the grammatical intentions, given actors/actions and garden theme.",
+      "criteres": [
+        "Gram. 0–4 : (1) sujet singulier/verbe waters, (2) sujet pluriel/verbe carry, (3) does not + water, (4) Does + Mira + water?, (5) base Look imperative sont contrôlés; la composante exactitude compte sur 4 dimensions de la grille, non 5 points bruts.",
+        "Variété 0–3 : déclaration(s), question yes/no et consigne; présence d’une négation déclarative distincte.",
+        "Transformation 0–3 : dériver question et négation de la même déclaration (1), justifier does + base, préserver le jardin comme thème.",
+        "Autonomie et absence de modèle/corrigé consignées; aucune réponse de vie privée demandée."
+      ],
+      "feedback": "Si « Does Mira waters » : retirer -s après does; si « The helpers carries » : pluriel ⇒ carry; si « Look you at » : sujet you implicite; demander ensuite une autre transformation indépendante.",
+      "difficulte": "transfert",
+      "representation": "serie_ecrite_jardin",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Stimulus, sujet, verbes et réponses fixes; aucune substitution automatique. Accès par lecture neutre, saisie au clavier et temps ajusté sans correction grammaticale. Corriger selon la grille pour une variante linguistique admissible.",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A",
+      "sequence_attendue": [
+        "Mira waters plants.",
+        "The helpers carry soil.",
+        "Mira does not water plants.",
+        "Does Mira water plants?",
+        "Look at the plants."
+      ],
+      "formes_admissibles": {
+        "negative": [
+          "Mira does not water plants.",
+          "Mira doesn't water plants."
+        ]
+      },
+      "protocole_phase": "Phase unique de production écrite sans modèle ni correction; recueillir les 5 lignes et la justification avant toute rétroaction.",
+      "rubrique_locale": {
+        "exactitude_min": 3,
+        "exactitude_total": 4,
+        "diversite_min": 3,
+        "diversite_total": 3,
+        "transformation_min": 2,
+        "transformation_total": 3,
+        "autonomie_requise": true
+      }
+    },
+    {
+      "item_id": "qc-pri-ale-010-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-010-ev-01",
+      "mode": "fixe",
+      "type_evaluation": "réponse_argumentée",
+      "consigne": "PREUVE B — Theme: library event. Write five linked sentences: (1) statement with Owen / sort / books; (2) statement with The volunteers / read / stories; (3) negative transformation of sentence 1; (4) yes/no question transforming sentence 1; (5) an instruction to a visitor using choose / a book. Explain why sort changes or does not change when you form the question. No grammar model.",
+      "stimulus": "Fictional library activity. Word bank: Owen / sort / books; The volunteers / read / stories; choose / a book. Connect all five sentences to the library theme. The teacher records the work in a new session/context; model answers stay concealed.",
+      "reponse_attendue": "Model: (1) Owen sorts books. (2) The volunteers read stories. (3) Owen does not sort books. (4) Does Owen sort books? (5) Choose a book. Explanation: Owen is third-person singular so affirmative sorts ends with -s; with does/does not use base sort. Alternative Owen doesn't sort books. is accepted.",
+      "criteres": [
+        "Gram. 0–4 : accordance entre Owen/sorts, volunteers/read, does not/sort, Does Owen sort?, impératif Choose a book.; juger sur 4 dimensions de grille, pas additionner mécaniquement 5 phrases.",
+        "Variété 0–3 : affirmation, négation, question yes/no et impératif liés à la bibliothèque.",
+        "Transformation 0–3 : même idée au départ pour les variantes de (1), justification correcte de does + sort.",
+        "Autonomie documentée, contexte bibliothèque distinct du jardin, pas de soutien grammatical fourni."
+      ],
+      "feedback": "Si « Owen sort » : ajoute -s en affirmation; si « Does Owen sorts » : garder sort après does; si « volunteers reads » : sujet pluriel => read.",
+      "difficulte": "transfert",
+      "representation": "serie_ecrite_bibliotheque",
+      "seed": null,
+      "parametres": null,
+      "variation_autorisee": "Stimulus, sujet, verbes et réponses fixes; aucune substitution automatique. Accès par lecture neutre, saisie au clavier et temps ajusté sans correction grammaticale. Corriger selon la grille pour une variante linguistique admissible.",
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B",
+      "sequence_attendue": [
+        "Owen sorts books.",
+        "The volunteers read stories.",
+        "Owen does not sort books.",
+        "Does Owen sort books?",
+        "Choose a book."
+      ],
+      "formes_admissibles": {
+        "negative": [
+          "Owen does not sort books.",
+          "Owen doesn't sort books."
+        ]
+      },
+      "protocole_phase": "Administrer dans un contexte différent de A, sans exposition aux modèles; recueillir les 5 phrases et une justification; rétroaction après collecte.",
+      "rubrique_locale": {
+        "exactitude_min": 3,
+        "exactitude_total": 4,
+        "diversite_min": 3,
+        "diversite_total": 3,
+        "transformation_min": 2,
+        "transformation_total": 3,
+        "autonomie_requise": true
+      }
+    }
+  ]
+}

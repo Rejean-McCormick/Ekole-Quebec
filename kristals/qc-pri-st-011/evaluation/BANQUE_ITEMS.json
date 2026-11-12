@@ -1,0 +1,239 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-st-011",
+  "family_id": "qc-pri-st-011-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-st-011-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris le besoin en commençant par « Je veux… », puis indique la fonction des mâchoires. Pourquoi « une pince » n’est-il pas le besoin?",
+      "stimulus": "Fiche E1 : deux bras et un ressort composent une pince destinée à maintenir du tissu sur une corde.",
+      "reponse_attendue": "Besoin : maintenir temporairement un tissu sur la corde. Mâchoires : serrer le tissu. « Une pince » désigne une solution déjà choisie.",
+      "criteres": [
+        "Besoin exprimé comme résultat pratique, non comme objet",
+        "Fonction des mâchoires formulée comme action pertinente",
+        "Différence besoin/solution explicitée"
+      ],
+      "feedback": "Si tu écris « besoin = pince », demande-toi ce que l’usager souhaite accomplir même sans ce dispositif. Un verbe rend la fonction vérifiable.",
+      "difficulte": "initial",
+      "representation": "phrase_et_etiquette",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-011-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Associe couvercle et filets à une fonction; indique si « les filets prouvent que le bocal est étanche » est justifié.",
+      "stimulus": "Fiche E2 : corps de bocal, couvercle et filets hélicoïdaux correspondants; la fiche ne mentionne aucun joint.",
+      "reponse_attendue": "Couvercle : recouvrir/fermer l’ouverture; filets : guider et maintenir le couvercle lors du vissage. Étanchéité non démontrée sans information sur un joint ou un contrôle approprié.",
+      "criteres": [
+        "Deux fonctions exactes et distinctes",
+        "Refus motivé de déduire l’étanchéité",
+        "Réponse fondée sur la fiche fournie"
+      ],
+      "feedback": "Le vissage atteste une fermeture mécanique, pas à lui seul une imperméabilité. Repère ce qui manque dans la source.",
+      "difficulte": "initial",
+      "representation": "tableau_partie_fonction",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-011-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Classe « le ressort est illustré » et « le ressort participe au retour des mâchoires » comme observation de fiche ou explication fondée sur le modèle. Fournis ta justification.",
+      "stimulus": "La fiche de pince illustre un ressort entre deux bras et décrit le retour des mâchoires vers leur fermeture après relâchement.",
+      "reponse_attendue": "Présence illustrée = observation documentaire; contribution du ressort = explication fonctionnelle appuyée par le texte décrivant le retour. Ce n’est pas une mesure personnelle de force.",
+      "criteres": [
+        "Observation correctement identifiée",
+        "Interprétation fonctionnelle explicitée",
+        "Limite de la preuve reconnue"
+      ],
+      "feedback": "Sépare ce qui est montré ou écrit de ce que tu interprètes. Une notice peut soutenir une inférence sans être un essai expérimental.",
+      "difficulte": "initial",
+      "representation": "deux_colonnes",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-011-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Décris le mécanisme avec au moins deux éléments et un mouvement, puis formule une contrainte d’usage sans inventer une caractéristique du produit.",
+      "stimulus": "Le couvercle de la fiche E2 porte un filet compatible avec celui du bocal; lors du serrage, sa rotation l’approche du bord.",
+      "reponse_attendue": "Filets couvercle/bocal engagés + rotation du couvercle → rapprochement du couvercle et maintien en position. Contrainte proposée : ne pas forcer en cas de filet mal engagé, pour éviter un dommage. Ne pas prétendre à l’étanchéité.",
+      "criteres": [
+        "Au moins deux éléments reliés par leur interaction",
+        "Mouvement et effet pertinents",
+        "Contrainte distincte de la fonction et sans affirmation non sourcée"
+      ],
+      "feedback": "Un mécanisme ne se limite pas à un nom de pièce : précise qui agit sur quoi. Une contrainte concerne ce qu’on respecte/évite.",
+      "difficulte": "intermediaire",
+      "representation": "explication_cause_effet",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-011-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Associe aux quatre éléments tiroir, glissières, poignée et butée une fonction; explique pourquoi le mouvement est une translation plutôt qu’une rotation du tiroir.",
+      "stimulus": "G1 : tiroir qui glisse sur deux glissières dans un caisson; poignée pour tirer; butée qui limite la course.",
+      "reponse_attendue": "Tiroir : contenir; glissières : guider la translation; poignée : permettre de saisir/tirer; butée : limiter la course. Le tiroir avance/recul le long d’une trajectoire, il ne tourne pas autour d’un axe dans ce modèle.",
+      "criteres": [
+        "Quatre fonctions cohérentes",
+        "Translation correctement distinguée de rotation",
+        "Raisonnement cohérent avec la fiche"
+      ],
+      "feedback": "Repère le verbe de déplacement « glisse ». La glissière guide le mouvement; elle ne sert pas de moteur.",
+      "difficulte": "intermediaire",
+      "representation": "tableau_partie_fonction",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-011-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Étiquette les quatre pièces, puis décris le lien entre appui sur la languette, pivotement et retour de la pince.",
+      "stimulus": "G2 : le porte-documents comprend un plateau, une pince à axe, un ressort de rappel et une languette d’ouverture.",
+      "reponse_attendue": "Plateau : supporter les feuilles; pince : serrer; axe : guider/permettre le pivotement; ressort : ramener la pince vers fermeture. Appui sur languette → pince pivote et s’ouvre; relâchement → rappel du ressort vers fermeture.",
+      "criteres": [
+        "Quatre parties correctement reliées à leur action",
+        "Suite cause-effet du mouvement correcte",
+        "Aucun effet non décrit ajouté"
+      ],
+      "feedback": "Axe = élément de guidage; ressort = rappel; pince = serrage. N’inverse pas ce que la main fait et ce que le ressort fait.",
+      "difficulte": "intermediaire",
+      "representation": "annotation_et_sequence",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-011-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME 1 — Sans aide de contenu, annote au moins trois éléments de la boîte et explique leur fonction. Formule le besoin, le mécanisme attesté, une phrase de preuve et une contrainte. Note une propriété non prouvée.",
+      "stimulus": "DOCUMENT A VERROUILLÉ (05_PRATIQUE_AUTONOME) : boîte de rangement avec corps creux A, couvercle B, charnière à axe C, loquet D. La charnière guide la rotation et le loquet retient fermé. Aucun ressort ni joint étanche indiqué.",
+      "reponse_attendue": "Besoin : ranger de petits objets. A : contenir; B : recouvrir; C : guider/permettre rotation du couvercle; D : retenir fermé. Mécanisme : rotation autour de la charnière puis maintien par loquet. Preuve : énoncés explicites de la fiche. Contrainte : attention au pincement des doigts. Non prouvé : étanchéité ou ressort automatique. Variantes lexicales exactes admises selon la grille; besoin de trois attributions au minimum.",
+      "criteres": [
+        "Au moins trois fonctions correctes, référées à A/B/C/D",
+        "Relation charnière–couvercle–loquet exacte",
+        "Trace documentaire distinguée des inférences",
+        "Contrainte pertinente et limite de preuve",
+        "Autonomie cognitive sans indice de solution"
+      ],
+      "feedback": "Si tu qualifies la boîte d’étanche, souligne la phrase qui le prouve : il n’y en a pas. Si « charnière » remplace une action, reformule en « permet la rotation ». Reprise sur une autre fiche après remédiation.",
+      "difficulte": "transfert",
+      "representation": "schema_ou_tableau_et_explication",
+      "seed": 11007,
+      "parametres": {
+        "scenario_id": "boite_articulee_A",
+        "corpus_version": "1.0",
+        "variables": {},
+        "domaine": "document_A_uniquement",
+        "selection": "identique_pour_q_007_aucun_tirage",
+        "variante_autorisee": "mise_en_page_ou_reponse_orale_texte_sans_changement_des_faits",
+        "corrige": "rubrique_verrouillee_GRILLE_MAITRISE.md"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-011-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-011-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "PREUVE AUTONOME 2 — À un autre moment, sans aide de contenu, annote au moins trois éléments du chariot et explique leur fonction. Formule le besoin, le mouvement des pièces, une preuve de la fiche, une contrainte et ce qu’on ne peut pas conclure.",
+      "stimulus": "DOCUMENT B VERROUILLÉ (05_PRATIQUE_AUTONOME) : chariot manuel avec plateau A, quatre roues B tournant autour d’axes C, poignée D. Les roues roulent quand une personne pousse; moteur non indiqué. Contrainte documentée : surface stable et charge non excessive.",
+      "reponse_attendue": "Besoin : transporter des livres. A : supporter; B : rouler pour permettre déplacement; C : permettre/soutenir rotation des roues; D : permettre pousser/diriger. Mécanisme : poussée humaine fait avancer l’ensemble et les roues tournent autour des axes. Preuve : fiche indique tournent et roulent quand poussé. Contrainte : stabilité/charge limitée. Non établi : motorisation. Variantes lexicales exactes admises selon la grille.",
+      "criteres": [
+        "Au moins trois fonctions correctes référées à A/B/C/D",
+        "Interaction roue–axe et poussée correctement expliquée",
+        "Une observation documentaire explicitement citée",
+        "Contrainte fournie reconnue; pas de moteur inventé",
+        "Autonomie cognitive sans indice de solution"
+      ],
+      "feedback": "Roue ne signifie pas moteur. Décris d’abord comment la personne pousse et comment chaque roue tourne autour de son axe, puis justifie sur le document.",
+      "difficulte": "transfert",
+      "representation": "schema_ou_tableau_et_explication",
+      "seed": 11008,
+      "parametres": {
+        "scenario_id": "chariot_manuel_B",
+        "corpus_version": "1.0",
+        "variables": {},
+        "domaine": "document_B_uniquement",
+        "selection": "identique_pour_q_008_aucun_tirage",
+        "variante_autorisee": "mise_en_page_ou_reponse_orale_texte_sans_changement_des_faits",
+        "corrige": "rubrique_verrouillee_GRILLE_MAITRISE.md"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-011-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Annote trois ou quatre parties et explique le mécanisme de fermeture, le besoin, une trace du texte et une précaution d’usage.",
+      "stimulus": "Document C : trousse avec enveloppe, deux bandes de dents, un curseur et une tirette. Faire glisser le curseur engage ou sépare les dents.",
+      "reponse_attendue": "Besoin ranger objets; enveloppe contient; bandes dentées se joignent pour retenir les bords; curseur guide engagement/séparation des dents; tirette sert de prise. Mécanisme : déplacement du curseur et interverrouillage/séparation des dents. Trace : la phrase décrivant leur engagement. Précaution : ne pas forcer lorsque coincée (proposition).",
+      "criteres": [
+        "Au moins trois fonctions pertinentes",
+        "Relation curseur–dents correcte",
+        "Besoin distinct de solution",
+        "Précaution présentée comme conseil, non résultat mesuré"
+      ],
+      "feedback": "Ne dis pas que la tirette ferme seule : elle permet de déplacer le curseur, qui agit sur les dents.",
+      "difficulte": "transfert",
+      "representation": "annotation_et_argument",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-st-011-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-st-011-ev-01",
+      "mode": "fixe",
+      "consigne": "Annote bobine, axe et socle; indique mécanisme, besoin, indice textuel et une fonction à ne pas attribuer à l’objet.",
+      "stimulus": "Document D : dévidoir sans lame avec bobine de ruban, axe et socle. Quand l’usager tire le ruban, la bobine tourne autour de l’axe. La coupe n’a pas lieu sur ce dispositif.",
+      "reponse_attendue": "Besoin : obtenir une longueur de ruban. Bobine : conserver et libérer le ruban en tournant; axe : soutenir et guider la rotation; socle : stabiliser l’ensemble. Mécanisme : traction du ruban entraîne rotation de la bobine autour de son axe. L’appareil décrit ne coupe pas le ruban : pas de lame. Contrainte : garder le socle stable.",
+      "criteres": [
+        "Trois fonctions justes",
+        "Interaction traction–rotation soutenue par le texte",
+        "Refus d’inventer une fonction de coupe",
+        "Contrainte plausible formulée"
+      ],
+      "feedback": "Sépare les dispositifs décrits de ceux que tu connais : « dévidoir » ne garantit pas la présence d’une lame. Cherche la phrase du document.",
+      "difficulte": "transfert",
+      "representation": "tableau_et_explication",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

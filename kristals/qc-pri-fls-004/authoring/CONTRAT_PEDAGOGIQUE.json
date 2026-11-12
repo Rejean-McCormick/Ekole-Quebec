@@ -1,0 +1,89 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-004",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Échanger en français dans une situation quotidienne préparée.",
+  "concepts": [
+    "salutations",
+    "question",
+    "demande",
+    "réponse"
+  ],
+  "preuve_attendue": "Jouer un dialogue de quatre tours avec choix de formules adaptées.",
+  "prerequis_bloquants": [
+    "qc-pri-fls-001",
+    "qc-pri-fls-002"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-004-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Jouer un dialogue de quatre tours avec choix de formules adaptées.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Scénarios fixes approuvés; choix de mots et politesse par l’apprenant; adaptation d’accès sans générateur libre ni changement du nombre de tours.",
+        "interdiction": "Ne pas dicter une réplique pendant l’épreuve, inventer une obligation d’accent natif ou certifier les items sans revue humaine.",
+        "seed_reproductible": true
+      },
+      "review_status": "items_rediges_a_revoir",
+      "kristal_id": "qc-pri-fls-004",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "dialogue à quatre tours en interaction",
+        "carte de rôles sans script durant la preuve",
+        "observation des répliques et choix de formule"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "corpus_approuve": [
+          "ecole_bibliotheque",
+          "accueil_atelier_dessin"
+        ],
+        "generateur_parametrique": false,
+        "variation_autorisee": "formules sémantiquement équivalentes choisies par apprenant; aménagements de communication non directifs"
+      },
+      "contraintes": [
+        "quatre tours A–B–A–B ou B–A–B–A, 1 prise de parole = 1 tour",
+        "au moins deux tours de l’apprenant",
+        "salutation ou prise de contact adéquate",
+        "demande/question compréhensible et réponse contingente",
+        "deux contextes indépendants",
+        "aucun accent natif exigé",
+        "partenaire sans soufflage; pas de données personnelles"
+      ],
+      "barreme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "criteres": [
+          "quatre_tours_alternes",
+          "pertinence_demande_question_reponse",
+          "choix_de_formules",
+          "intelligibilite_sans_biais_accent",
+          "autonomie_et_adaptation"
+        ],
+        "niveaux": "0 non observé, 1 en développement, 2 observable",
+        "seuil": "chaque critère essentiel coté 2 dans chacune des deux prestations"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_evaluations_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,60 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-009",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Rédiger un court texte en français répondant à une consigne précise.",
+  "concepts": [
+    "organisation",
+    "cohérence",
+    "phrases"
+  ],
+  "preuve_attendue": "Produire un texte bref avec début, information et clôture.",
+  "prerequis_bloquants": [
+    "qc-pri-fls-008"
+  ],
+  "ordre_conseille": [
+    "qc-pri-fls-006"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-009-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Produire un texte bref avec début, information et clôture.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-fls-009",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": "productions écrites courtes en français, consignes et fiches factuelles de situations fictives; lecture humaine sur grille",
+      "variables": [],
+      "contraintes": [
+        "Banque de dix items fixes sans tirage automatique de contexte ou de réponse",
+        "Toute tâche comporte un destinataire ou public, une intention et des faits verrouillés; aucune donnée personnelle réelle",
+        "Le texte attendu peut varier : début, information et clôture fonctionnels; faits exacts; cohérence; phrases compréhensibles",
+        "Deux preuves finales q-009 et q-010 dans des contextes distincts; aide de contenu interdite lors de la passation autonome",
+        "Évaluation humaine; ne pas utiliser une sortie d’IA comme correcteur unique et ne pas imposer la reproduction du modèle"
+      ],
+      "barreme_ou_rubrique": "evaluation/GRILLE_MAITRISE.md : C1 pertinence et faits, C2 organisation début/information/clôture, C3 cohérence, C4 intelligibilité des phrases, chacun 0–2; réussite de chaque preuve C1=2, C2=2, C3>=1, C4>=1; deux preuves autonomes requises",
+      "source": "scénarios, consignes et modèles originaux de cette livraison; règles de gouvernance internes v1.2 lues; voir sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

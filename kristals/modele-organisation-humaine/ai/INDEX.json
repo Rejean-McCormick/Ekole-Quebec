@@ -1,0 +1,136 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:modele-organisation-humaine",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:7baa06d44e7da63ffdc104322a709bb5e4e953ec4fb8894fcfe205dfb196d40a"
+  },
+  "files": [
+    {
+      "path": "canon/domain/extension-v2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2269,
+      "sha256": "sha256:efa98fb5fcbfa37ecbde102cce8e04124a87751bd220cd1be53dc37157fe3128",
+      "artifact_id": "urn:kristal:modele-organisation-humaine:extension-v2",
+      "logical_contract": {
+        "id": "ekole.modele-organisation-humaine-extension",
+        "version": "2.0"
+      }
+    },
+    {
+      "path": "canon/domain/extension-v3.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2255,
+      "sha256": "sha256:7e85ad11e038adb615e1e9a3b54221c1fdc08fb9dccbb3390e387dd21f6f1e7d",
+      "artifact_id": "urn:kristal:modele-organisation-humaine:extension-v3",
+      "logical_contract": {
+        "id": "ekole.modele-organisation-humaine-extension",
+        "version": "3.0"
+      }
+    },
+    {
+      "path": "canon/domain/modele.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 4262,
+      "sha256": "sha256:aaa71030118c039da5d467b734fd4909e7ef9ee7eed70ef2fda02fca74fcf7ed",
+      "artifact_id": "urn:kristal:modele-organisation-humaine:modele",
+      "logical_contract": {
+        "id": "ekole.modele-organisation-humaine",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 1595,
+      "sha256": "sha256:b77caa475dbe8a02b83cabd42f64d8c1e312d981aab9282af3f3ded43ae74c89"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 181,
+      "sha256": "sha256:67416deab4f797f37a03df28ef6b240fbaa77800f72a0264ffd09e714a79ceea"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 222,
+      "sha256": "sha256:0c7a3b265b45e95f2d16f6260b1fc865649adea3238544f46b2a69ff94893a92"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 193,
+      "sha256": "sha256:7b42d2db87e357e0f208f4379c62839ad41641476b2b81fad067be4272b22c6d"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 196,
+      "sha256": "sha256:4569089da2825df3dc054cebc1c5410c90b7c20690c5778ed09b25b0c3add2b4"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 223,
+      "sha256": "sha256:eb85631905ee1e96bb003c6cc6384a1e09335730bbba9dc0febabc61730f9d96"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 219,
+      "sha256": "sha256:652c2967312805395c1fa4e4f17850e76d8f1cd1e11cbfdbe5415d5d4fe4dc9e"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 213,
+      "sha256": "sha256:f94298c1f2842867622fa5de05668033452c7185205e95e697a55a0f51842150"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 202,
+      "sha256": "sha256:700786d86f88a4eea3db37317dde020a065ced00a95d385bb4b2342f9a9acc71"
+    },
+    {
+      "path": "docs/08_GLOSSAIRE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 300,
+      "sha256": "sha256:ca44f87ef4fc074729f4688f013a74b5f5368dec8ea47210ea42dfd5c834edeb"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 371,
+      "sha256": "sha256:091254899ef46cb84834857132756eb07a5f029a4411acde8d9083440a77f36a"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 1635,
+      "sha256": "sha256:61c4684ec1ed7bf22bde53f5a75c4421a5d7f057ac8f2d0d6a9f020ac6085ee0",
+      "state_ref": "urn:kristal:state:modele-organisation-humaine",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:7baa06d44e7da63ffdc104322a709bb5e4e953ec4fb8894fcfe205dfb196d40a"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

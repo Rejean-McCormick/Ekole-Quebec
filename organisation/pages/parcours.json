@@ -1,0 +1,39 @@
+{
+  "format": "ekole.portal-page/0.1",
+  "id": "ekole-page-parcours",
+  "slug": "parcours",
+  "titre": "Parcours et préalables",
+  "public_cible": "public",
+  "roles_visuels": [
+    "en_tete",
+    "description",
+    "actions",
+    "ressources",
+    "navigation"
+  ],
+  "utterances": [
+    {
+      "id": "parcours-phrase-1",
+      "source": "original_edition_candidat",
+      "fr-CA": "Parcours et préalables donne accès à des ressources de l’école.",
+      "status": "a_revoir_semantik"
+    },
+    {
+      "id": "parcours-phrase-2",
+      "source": "original_edition_candidat",
+      "fr-CA": "Les éléments affichés proviennent des références du catalogue et de leurs états vérifiables.",
+      "status": "a_revoir_semantik"
+    }
+  ],
+  "component_types": [
+    "utterance",
+    "label_value",
+    "list",
+    "card"
+  ],
+  "access": "public",
+  "language_status": {
+    "fr-CA": "candidat",
+    "en": "non_genere"
+  }
+}

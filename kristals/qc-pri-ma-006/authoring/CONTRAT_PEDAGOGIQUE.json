@@ -1,0 +1,105 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-006",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Modéliser l’addition et choisir une stratégie efficace pour calculer.",
+  "concepts": [
+    "réunion",
+    "augmentation",
+    "décomposition",
+    "somme"
+  ],
+  "preuve_attendue": "Résoudre deux additions distinctes et expliquer la stratégie adoptée.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ma-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-006-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Résoudre deux additions distinctes et expliquer la stratégie adoptée.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "algorithme": "enumeration_lexicographique_et_index_seed_modulo_N",
+        "controle_reponse": "calcul entier direct et vérification indépendante par conservation des termes et regroupement",
+        "filtres": [
+          "operandes entiers naturels",
+          "somme <= 100",
+          "résultats et énoncés déterminés par seed"
+        ]
+      },
+      "review_status": "items_produits_a_revoir",
+      "kristal_id": "qc-pri-ma-006",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "matériel tangible équivalent",
+        "schéma textuel ou graphique décrit",
+        "notation a + b = somme",
+        "justification orale ou écrite"
+      ],
+      "variables": {
+        "a": {
+          "nature": "entier naturel",
+          "domaine_general": [
+            0,
+            99
+          ]
+        },
+        "b": {
+          "nature": "entier naturel",
+          "domaine_general": [
+            0,
+            99
+          ]
+        }
+      },
+      "contraintes": [
+        "a+b <= 100",
+        "addition de quantités sans retrait et sans double compte",
+        "deux contextes distincts et deux additions distinctes pour preuve de maîtrise",
+        "tirage reproductible seulement sur domaines bornés et filtrés",
+        "solutions vérifiées indépendamment avant utilisation"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "sens_et_representation",
+          "exactitude",
+          "strategie_et_explication",
+          "transfert_et_autonomie"
+        ],
+        "decision": "deux preuves exactes et justifiées, autonomes, sur contextes distincts; aucune décision sur score isolé",
+        "grille": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": "sources/REFERENCES_CONTENU.md",
+      "seed": {
+        "politique": "stable, entier positif par item; voir BANQUE_ITEMS.json",
+        "exemples": [
+          6006,
+          9006
+        ]
+      },
+      "validation_status": "a_revoir",
+      "banque_items": "evaluation/BANQUE_ITEMS.json",
+      "plan_evaluation": "evaluation/PLAN_EVALUATION.md"
+    }
+  ],
+  "statut": "contenu_et_items_produits_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

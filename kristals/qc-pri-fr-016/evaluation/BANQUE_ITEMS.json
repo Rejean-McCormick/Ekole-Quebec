@@ -1,0 +1,231 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-fr-016",
+  "family_id": "qc-pri-fr-016-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-fr-016-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans la situation indiquée, corrige le groupe nominal. Indique le nom donneur, son genre et son nombre, les receveurs, puis explique leurs marques (y compris un mot qui reste inchangé).",
+      "stimulus": "Étiquette d’une seule maison; texte à corriger : « une petit maison bleu ».",
+      "reponse_attendue": "« une petite maison bleue ». Nom donneur : maison (féminin singulier). une : déterminant déjà correct; petit → petite : -e féminin; bleu → bleue : -e féminin.",
+      "criteres": [
+        "Réécrire tous les GN de la tâche sans contredire le contexte imposé, sans omission ni ajout de mot.",
+        "Identifier pour chaque GN le nom noyau (donneur), son genre et son nombre.",
+        "Identifier les déterminants et adjectifs receveurs et expliquer les marques requises ou leur absence de changement."
+      ],
+      "feedback": "Vérifie le noyau « maison » (féminin singulier). une : déterminant déjà correct; petit → petite : -e féminin; bleu → bleue : -e féminin. Une forme finale correcte sans justification ne suffit pas.",
+      "difficulte": "initial",
+      "representation": "groupe_nominal_texte_ecrit",
+      "variabilite_permises": "Aucune : stimulus, contexte et corrigé fixés; adaptations d’accès sans aide sur les marques seulement.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-016-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans la situation indiquée, corrige le groupe nominal. Indique le nom donneur, son genre et son nombre, les receveurs, puis explique leurs marques (y compris un mot qui reste inchangé).",
+      "stimulus": "Panneau décrivant plusieurs tables; texte à corriger : « les ronde tables vert ».",
+      "reponse_attendue": "« les rondes tables vertes ». Nom donneur : tables (féminin pluriel). les : déterminant pluriel correct; ronde → rondes : -s pluriel; vert → vertes : -e féminin et -s pluriel.",
+      "criteres": [
+        "Réécrire tous les GN de la tâche sans contredire le contexte imposé, sans omission ni ajout de mot.",
+        "Identifier pour chaque GN le nom noyau (donneur), son genre et son nombre.",
+        "Identifier les déterminants et adjectifs receveurs et expliquer les marques requises ou leur absence de changement."
+      ],
+      "feedback": "Vérifie le noyau « tables » (féminin pluriel). les : déterminant pluriel correct; ronde → rondes : -s pluriel; vert → vertes : -e féminin et -s pluriel. Une forme finale correcte sans justification ne suffit pas.",
+      "difficulte": "initial",
+      "representation": "groupe_nominal_texte_ecrit",
+      "variabilite_permises": "Aucune : stimulus, contexte et corrigé fixés; adaptations d’accès sans aide sur les marques seulement.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-016-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans la situation indiquée, corrige le groupe nominal. Indique le nom donneur, son genre et son nombre, les receveurs, puis explique leurs marques (y compris un mot qui reste inchangé).",
+      "stimulus": "Description d’un seul jardin; texte à corriger : « un grandes jardin vertes ».",
+      "reponse_attendue": "« un grand jardin vert ». Nom donneur : jardin (masculin singulier). un : déjà correct; grandes → grand : forme masculine singulière; vertes → vert : forme masculine singulière.",
+      "criteres": [
+        "Réécrire tous les GN de la tâche sans contredire le contexte imposé, sans omission ni ajout de mot.",
+        "Identifier pour chaque GN le nom noyau (donneur), son genre et son nombre.",
+        "Identifier les déterminants et adjectifs receveurs et expliquer les marques requises ou leur absence de changement."
+      ],
+      "feedback": "Vérifie le noyau « jardin » (masculin singulier). un : déjà correct; grandes → grand : forme masculine singulière; vertes → vert : forme masculine singulière. Une forme finale correcte sans justification ne suffit pas.",
+      "difficulte": "initial",
+      "representation": "groupe_nominal_texte_ecrit",
+      "variabilite_permises": "Aucune : stimulus, contexte et corrigé fixés; adaptations d’accès sans aide sur les marques seulement.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-016-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans la situation indiquée, corrige le groupe nominal. Indique le nom donneur, son genre et son nombre, les receveurs, puis explique leurs marques (y compris un mot qui reste inchangé).",
+      "stimulus": "Inventaire de plusieurs crayons; texte à corriger : « ces petite crayons jaunes ».",
+      "reponse_attendue": "« ces petits crayons jaunes ». Nom donneur : crayons (masculin pluriel). ces : pluriel correct; petite → petits : forme masculine plurielle; jaunes : déjà pluriel et compatible avec les deux genres.",
+      "criteres": [
+        "Réécrire tous les GN de la tâche sans contredire le contexte imposé, sans omission ni ajout de mot.",
+        "Identifier pour chaque GN le nom noyau (donneur), son genre et son nombre.",
+        "Identifier les déterminants et adjectifs receveurs et expliquer les marques requises ou leur absence de changement."
+      ],
+      "feedback": "Vérifie le noyau « crayons » (masculin pluriel). ces : pluriel correct; petite → petits : forme masculine plurielle; jaunes : déjà pluriel et compatible avec les deux genres. Une forme finale correcte sans justification ne suffit pas.",
+      "difficulte": "intermediaire",
+      "representation": "groupe_nominal_texte_ecrit",
+      "variabilite_permises": "Aucune : stimulus, contexte et corrigé fixés; adaptations d’accès sans aide sur les marques seulement.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-016-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans la situation indiquée, corrige le groupe nominal. Indique le nom donneur, son genre et son nombre, les receveurs, puis explique leurs marques (y compris un mot qui reste inchangé).",
+      "stimulus": "Photo d’un seul ballon; texte à corriger : « la ballon rond ».",
+      "reponse_attendue": "« le ballon rond ». Nom donneur : ballon (masculin singulier). la → le : déterminant masculin singulier; rond : adjectif masculin singulier déjà correct.",
+      "criteres": [
+        "Réécrire tous les GN de la tâche sans contredire le contexte imposé, sans omission ni ajout de mot.",
+        "Identifier pour chaque GN le nom noyau (donneur), son genre et son nombre.",
+        "Identifier les déterminants et adjectifs receveurs et expliquer les marques requises ou leur absence de changement."
+      ],
+      "feedback": "Vérifie le noyau « ballon » (masculin singulier). la → le : déterminant masculin singulier; rond : adjectif masculin singulier déjà correct. Une forme finale correcte sans justification ne suffit pas.",
+      "difficulte": "intermediaire",
+      "representation": "groupe_nominal_texte_ecrit",
+      "variabilite_permises": "Aucune : stimulus, contexte et corrigé fixés; adaptations d’accès sans aide sur les marques seulement.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-016-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans la situation indiquée, corrige le groupe nominal. Indique le nom donneur, son genre et son nombre, les receveurs, puis explique leurs marques (y compris un mot qui reste inchangé).",
+      "stimulus": "Étiquette d’une seule boîte ouverte; texte à corriger : « une boîtes ouverte ».",
+      "reponse_attendue": "« une boîte ouverte ». Nom donneur : boîte (féminin singulier). une et ouverte : féminin singulier déjà corrects; boîtes → boîte : retrait du -s pluralisant incompatible avec une seule boîte.",
+      "criteres": [
+        "Réécrire tous les GN de la tâche sans contredire le contexte imposé, sans omission ni ajout de mot.",
+        "Identifier pour chaque GN le nom noyau (donneur), son genre et son nombre.",
+        "Identifier les déterminants et adjectifs receveurs et expliquer les marques requises ou leur absence de changement."
+      ],
+      "feedback": "Vérifie le noyau « boîte » (féminin singulier). une et ouverte : féminin singulier déjà corrects; boîtes → boîte : retrait du -s pluralisant incompatible avec une seule boîte. Une forme finale correcte sans justification ne suffit pas.",
+      "difficulte": "intermediaire",
+      "representation": "groupe_nominal_texte_ecrit",
+      "variabilite_permises": "Aucune : stimulus, contexte et corrigé fixés; adaptations d’accès sans aide sur les marques seulement.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-016-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans la situation indiquée, corrige le groupe nominal. Indique le nom donneur, son genre et son nombre, les receveurs, puis explique leurs marques (y compris un mot qui reste inchangé).",
+      "stimulus": "Description de plusieurs voitures; texte à corriger : « ces belle voitures rapide ».",
+      "reponse_attendue": "« ces belles voitures rapides ». Nom donneur : voitures (féminin pluriel). ces : pluriel déjà correct; belle → belles et rapide → rapides : ajout du -s pluriel.",
+      "criteres": [
+        "Réécrire tous les GN de la tâche sans contredire le contexte imposé, sans omission ni ajout de mot.",
+        "Identifier pour chaque GN le nom noyau (donneur), son genre et son nombre.",
+        "Identifier les déterminants et adjectifs receveurs et expliquer les marques requises ou leur absence de changement."
+      ],
+      "feedback": "Vérifie le noyau « voitures » (féminin pluriel). ces : pluriel déjà correct; belle → belles et rapide → rapides : ajout du -s pluriel. Une forme finale correcte sans justification ne suffit pas.",
+      "difficulte": "intermediaire",
+      "representation": "groupe_nominal_texte_ecrit",
+      "variabilite_permises": "Aucune : stimulus, contexte et corrigé fixés; adaptations d’accès sans aide sur les marques seulement.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-016-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Dans la situation indiquée, corrige le groupe nominal. Indique le nom donneur, son genre et son nombre, les receveurs, puis explique leurs marques (y compris un mot qui reste inchangé).",
+      "stimulus": "Description de trois chaises blanches; texte à corriger : « les petit chaises blanche ».",
+      "reponse_attendue": "« les petites chaises blanches ». Nom donneur : chaises (féminin pluriel). les : pluriel déjà correct; petit → petites : -e féminin et -s pluriel; blanche → blanches : -s pluriel.",
+      "criteres": [
+        "Réécrire tous les GN de la tâche sans contredire le contexte imposé, sans omission ni ajout de mot.",
+        "Identifier pour chaque GN le nom noyau (donneur), son genre et son nombre.",
+        "Identifier les déterminants et adjectifs receveurs et expliquer les marques requises ou leur absence de changement."
+      ],
+      "feedback": "Vérifie le noyau « chaises » (féminin pluriel). les : pluriel déjà correct; petit → petites : -e féminin et -s pluriel; blanche → blanches : -s pluriel. Une forme finale correcte sans justification ne suffit pas.",
+      "difficulte": "intermediaire",
+      "representation": "groupe_nominal_texte_ecrit",
+      "variabilite_permises": "Aucune : stimulus, contexte et corrigé fixés; adaptations d’accès sans aide sur les marques seulement.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-016-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Preuve autonome A — Sans modèle ni indice grammatical, corrige les DEUX étiquettes du jardin. Pour CHACUNE, identifie le nom donneur, son genre et son nombre, les receveurs et les marques. Explique au moins une marque de genre et une de nombre.",
+      "stimulus": "Au jardin de l’école, une photo montre plusieurs tomates, l’autre une seule fleur. Étiquettes : 1) « les petit tomates rouge »; 2) « une jolie fleurs jaune ».",
+      "reponse_attendue": "1) « les petites tomates rouges » : tomates, N féminin pluriel; les = D pluriel correct; petites = adjectif féminin pluriel (-e + -s), rouges = adjectif pluriel (-s). 2) « une jolie fleur jaune » : fleur, N féminin singulier; une = D féminin singulier; jolie et jaune = adjectifs féminins singuliers déjà corrects; fleurs → fleur enlève -s pour le singulier. Les traits du nom sont transmis aux receveurs. Une explication de la non-modification de jaune est acceptée comme justification pertinente additionnelle.",
+      "criteres": [
+        "Réécrire tous les GN de la tâche sans contredire le contexte imposé, sans omission ni ajout de mot.",
+        "Identifier pour chaque GN le nom noyau (donneur), son genre et son nombre.",
+        "Identifier les déterminants et adjectifs receveurs et expliquer les marques requises ou leur absence de changement.",
+        "Pour les deux GN : aucune erreur résiduelle de genre ou de nombre; expliquer clairement les marques de genre et de nombre et au moins une forme déjà correcte."
+      ],
+      "feedback": "Regarde d’abord les référents : plusieurs tomates et une seule fleur. Sépare donneur et receveurs pour chaque GN. Si tu as écrit « fleurS », reviens à l’indice « une seule ». Si « petit » est resté inchangé, réexamine féminin et pluriel de « tomates ».",
+      "difficulte": "transfert",
+      "representation": "etiquette_contextualisee",
+      "contexte_maitrise": "A_jardin_ecole",
+      "variabilite_permises": "Aucune : deux étiquettes fixes, plusieurs tomates et une seule fleur. Pas de substitution par un modèle IA. Adaptations de saisie uniquement.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-fr-016-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-fr-016-ev-01",
+      "mode": "fixe",
+      "consigne": "Preuve autonome B — Sans modèle ni indice grammatical, corrige les DEUX lignes d’un inventaire. Pour CHACUNE, nomme le donneur et ses traits, relève les receveurs et justifie les marques (ou les formes restées correctes).",
+      "stimulus": "Au club de bricolage, il y a plusieurs boîtes et un seul marteau. Inventaire : 1) « ces grands boîte solide »; 2) « un petite marteau noir ».",
+      "reponse_attendue": "1) « ces grandes boîtes solides » : boîtes, N féminin pluriel; ces = D pluriel correct; grands → grandes (féminin -e, pluriel -s déjà présent), boîte → boîtes (-s du nom), solide → solides (-s). 2) « un petit marteau noir » : marteau, N masculin singulier; un = D masculin singulier correct; petite → petit (retirer -e); noir = adjectif masculin singulier déjà correct. Identifier ces et un comme receveurs même lorsque leurs graphies ne changent pas.",
+      "criteres": [
+        "Réécrire tous les GN de la tâche sans contredire le contexte imposé, sans omission ni ajout de mot.",
+        "Identifier pour chaque GN le nom noyau (donneur), son genre et son nombre.",
+        "Identifier les déterminants et adjectifs receveurs et expliquer les marques requises ou leur absence de changement.",
+        "Pour les deux GN : aucune erreur résiduelle de genre ou de nombre; identifier l’accord de ces/grandes/solides et celui de un/petit/noir sans justifier par la simple ressemblance sonore."
+      ],
+      "feedback": "Dans l’inventaire, « boîtes » renvoie à plusieurs éléments féminins, « marteau » à un seul élément masculin. Vérifie « grandes » et « petit » à partir des noms, puis les marques du pluriel visibles mais pas toujours audibles.",
+      "difficulte": "transfert",
+      "representation": "inventaire_contextualise",
+      "contexte_maitrise": "B_atelier_bricolage",
+      "variabilite_permises": "Aucune : deux lignes fixes, plusieurs boîtes et un seul marteau. Adaptations d’accès sans indice de correction.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

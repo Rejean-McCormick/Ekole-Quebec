@@ -1,0 +1,83 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ma-016",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comparer et calculer avec des décimaux en utilisant les valeurs de position.",
+  "concepts": [
+    "alignement des rangs",
+    "décimaux",
+    "opérations"
+  ],
+  "preuve_attendue": "Résoudre deux calculs décimaux et justifier la plausibilité des réponses.",
+  "prerequis_bloquants": [
+    "qc-pri-ma-015"
+  ],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ma-016-ev-01",
+      "type": "paramétrique_controle",
+      "tache_cible": "Résoudre deux calculs décimaux et justifier la plausibilité des réponses.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ma-016",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Résoudre deux calculs décimaux et justifier la plausibilité des réponses.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "tableau de rangs",
+        "centièmes entiers",
+        "droite graduée",
+        "calcul posé",
+        "situation à deux opérations"
+      ],
+      "variables": {
+        "unite_de_calcul": "centiemes_entiers_exactement; affichage fr-CA avec virgule et 2 decimales",
+        "regles_generation": {
+          "add": "a=110+seed%540; b=125+(seed//7)%375; somme=a+b",
+          "sub": "b=125+seed%345; ecart=90+(seed//5)%325; a=b+ecart; resultat=ecart",
+          "compare": "a=215+seed%475; b=a+1+(seed//11)%60; relation=a<b",
+          "market": "p=120+seed%370; q=135+(seed//7)%360; payer=1000; total=p+q; monnaie=payer-total",
+          "walk": "d1=125+seed%220; d2=105+(seed//7)%190; distance_max=800; parcouru=d1+d2; reste=distance_max-parcouru",
+          "decision": "m1=230+seed%460; m2=130+(seed//9)%230; plafond=500; total=m1+m2; comparer total au plafond"
+        }
+      },
+      "contraintes": [
+        "seed entier positif stable; aucune variation libre ni donnée obtenue par génération IA",
+        "représenter chaque centième par entier positif; au plus deux chiffres après la virgule",
+        "soustraction à résultat non négatif; prix fictifs; distances fictives; unités conservées",
+        "pour q-009 et q-010: deux opérations exactes et deux vérifications de plausibilité par preuve",
+        "tous les domaines bornés et toutes les instances recalculables; exemples alternatifs documentés"
+      ],
+      "barreme_ou_rubrique": {
+        "rubrique_standard": [
+          "sens des rangs et bonne opération",
+          "résultats exacts et unités",
+          "estimation chiffrée ou inverse convaincant",
+          "autonomie sans indice"
+        ],
+        "decision": "deux preuves autonomes q-009 et q-010 dans deux contextes distincts; aucune décision fondée sur note unique",
+        "niveau_requis": "chaque dimension essentielle atteinte sur chacune des deux preuves"
+      },
+      "source": "Développement original du présent delta à partir de la frame v1.2; propriétés décimales déduites de la numération base dix; contrôles locaux exacts",
+      "seed": 16016,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,95 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-008",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Écrire des phrases simples en français adaptées à une intention.",
+  "concepts": [
+    "ordre des mots",
+    "sujet-verbe",
+    "lexique"
+  ],
+  "preuve_attendue": "Rédiger un message de plusieurs phrases intelligibles.",
+  "prerequis_bloquants": [
+    "qc-pri-fls-002"
+  ],
+  "ordre_conseille": [
+    "qc-pri-fls-003"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-008-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Rédiger un message de plusieurs phrases intelligibles.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Aucune variation automatique. Modalités d’accès non directives (taille d’affichage, support d’écriture, durée) et contexte de reprise décidé et validé humainement.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true,
+        "strategie": "fixe_controle; scénarios et faits sources clos; évaluation sur rubriques; seed sans objet pour les items fixes"
+      },
+      "review_status": "banque_redigee_a_revoir",
+      "kristal_id": "qc-pri-fls-008",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "message écrit lisible sur papier ou par clavier",
+        "manipulation préparatoire de cartes de mots",
+        "plan d’idées en trois cases",
+        "justification orale, écrite ou assistée d’une décision"
+      ],
+      "variables": {
+        "generation": "aucune : dix scénarios fixes et corrigés critériés",
+        "contexte_autorise": [
+          "salle de classe fictive",
+          "bibliothèque fictive",
+          "atelier fictif",
+          "jardin fictif"
+        ],
+        "nombre_phrases_preuves": "3 à 4 phrases déclaratives complètes, hors formule d’adresse"
+      },
+      "contraintes": [
+        "français écrit intelligible",
+        "intention explicite ou inférable",
+        "destinataire identifiable",
+        "faits du stimulus uniquement; ne pas demander de divulgation personnelle",
+        "structure sujet–groupe verbal dans les déclarations visées",
+        "absence d’aide rédactionnelle pendant les deux preuves",
+        "contextes A/B différents",
+        "évaluation de la communication et non de l’accent",
+        "aucune génération IA non validée"
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "echelle": "0 non attesté; 1 partiel; 2 attesté",
+        "dimensions": [
+          "intention_destinataire",
+          "faits_lexique",
+          "structures_sujet_verbe",
+          "organisation_message",
+          "autonomie"
+        ],
+        "decision": "deux preuves indépendantes satisfaisant chacune les critères essentiels"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "evaluation/PLAN_EVALUATION.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "redaction_complete_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

@@ -1,0 +1,94 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-005",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Distinguer source, affirmation et interprétation dans un document historique.",
+  "concepts": [
+    "document",
+    "auteur",
+    "date",
+    "point de vue"
+  ],
+  "preuve_attendue": "Comparer deux sources et relever ce qu’elles établissent réellement.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-005-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Comparer deux sources et relever ce qu’elles établissent réellement.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "Substitution exclusivement entre les 12 scénarios textuels figés du corpus; toute nouvelle paire exige auteur, date, extrait, limites et corrigé revus humainement.",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "contenus_rediges_revision_humaine_requise",
+      "kristal_id": "qc-pri-us-005",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "avis et carnet",
+        "affiche et registre",
+        "note et lettre",
+        "avis et carte",
+        "souvenir et invitation",
+        "rapport et carnet",
+        "horaire et carte",
+        "registre et journal",
+        "programme et reçu",
+        "avis et distribution",
+        "avis de gare et lettre",
+        "plan textuel et mémoire transcrite"
+      ],
+      "variables": {
+        "mode": "substitution_d_un_scenario_entier_revu",
+        "domaine": "q-001 à q-012 du corpus figé",
+        "tirage_libre_interdit": true,
+        "parametres_numeriques": null
+      },
+      "contraintes": [
+        "Deux sources contextualisées avec nature, auteur et date de création explicites ou manque signalé.",
+        "Au moins une affirmation vérifiable textuellement par source.",
+        "Distinguer explicitement énoncé de source et vérité historique indépendante.",
+        "Aucune reformulation automatique des documents sans approbation humaine.",
+        "Deux contextes indépendants de maîtrise: q-010 et q-011.",
+        "Vérifier toute variation par relecture humaine."
+      ],
+      "bareme_ou_rubrique": {
+        "dimensions": [
+          "R1_identification_et_dates",
+          "R2_attribution_des_affirmations",
+          "R3_distinction_et_limites",
+          "R4_comparaison_perspectives_verification"
+        ],
+        "echelle": {
+          "0": "non démontré",
+          "1": "partiellement démontré",
+          "2": "démontré de façon étayée"
+        },
+        "total_indicatif": 8,
+        "seuil_double_preuve": "Deux contextes autonomes; R1-R4 >= 1 chacun et R2, R3 = 2 dans chacune des deux productions."
+      },
+      "source": {
+        "materiel_items": "corpus didactique original fictif, rédigé pour qc-pri-us-005",
+        "methodologie": "Historical Thinking Project; Musée canadien de l’histoire; gouvernance v1.2",
+        "verification": "Voir sources/REFERENCES_CONTENU.md"
+      },
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "contenus_et_items_rediges_a_reviser",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

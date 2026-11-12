@@ -1,0 +1,115 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-us-007",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Décrire des aspects des sociétés inuites et leurs relations aux milieux nordiques.",
+  "concepts": [
+    "territoire nordique",
+    "pratiques",
+    "adaptations",
+    "continuité"
+  ],
+  "preuve_attendue": "Expliquer deux relations entre environnement et activités, avec sources.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [
+    "qc-pri-us-001",
+    "qc-pri-us-002",
+    "qc-pri-us-005"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-us-007-ev-01",
+      "type": "generee_sous_contraintes",
+      "tache_cible": "Expliquer deux relations entre environnement et activités, avec sources.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-us-007",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Expliquer deux relations entre environnement et activités, avec sources.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "fiches documentaires originales paraphrasées",
+        "carte verbale",
+        "tableau argumenté",
+        "production orale ou écrite"
+      ],
+      "variables": {
+        "scenario_ids": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "preuves": [
+          "littoral_et_activites",
+          "hopedale_nunatsiavut"
+        ],
+        "variantes_autorisees": [
+          "A",
+          "B"
+        ],
+        "algorithme_selection": "variant_index = seed modulo 2; 0=A, 1=B; tables fermées, choix sans génération de nouveaux faits"
+      },
+      "contraintes": [
+        "aucune modification des faits des fiches S1-S5",
+        "deux relations environnement-activité, identifiables dans les sources",
+        "source et portée temporelle et spatiale explicites",
+        "rubrique humaine, refus des généralisations essentialisantes",
+        "deux contextes de maîtrise distincts et autonomes",
+        "nouvelles variantes uniquement après vérification de la source et revue humaine"
+      ],
+      "bareme_ou_rubrique": {
+        "dimensions": [
+          "validite_des_deux_relations",
+          "preuve_et_attribution",
+          "contextualisation_et_limites",
+          "respect_et_nuance"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "decision": "deux preuves autonomes distinctes; chaque dimension >=2 dans chacune, sans manquement grave de généralisation non corrigé",
+        "reference": "evaluation/GRILLE_MAITRISE.md"
+      },
+      "source": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "seed": {
+        "q-011": 20010,
+        "q-012": 20021,
+        "principe": "index déterministe seed % 2 sur deux variantes A/B publiées en banque"
+      },
+      "validation_status": "a_revoir",
+      "revue_humaine_requise": [
+        "spécialiste des perspectives inuites",
+        "pédagogue univers social",
+        "droits et licences",
+        "essai élèves"
+      ]
+    }
+  ],
+  "statut": "contenu_developpe_a_reviser",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

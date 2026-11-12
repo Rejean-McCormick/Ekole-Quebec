@@ -1,0 +1,382 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-us-006",
+  "family_id": "qc-pri-us-006-ev-01",
+  "objectif_id": "obj-1",
+  "critere_id": "crit-1",
+  "corpus_nature": "syntheses_pedagogiques_originales_fondees_sur_sources_verifiees",
+  "consignes_generales": "Réponses orales, écrites, dictées ou audio admises; évaluation des arguments, non de la fluidité orale. Aucun document n’est une citation d’époque inventée.",
+  "items": [
+    {
+      "item_id": "qc-pri-us-006-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Nomme le territoire documenté et une activité pour chacun des deux ensembles; dis si « mobilité » veut dire « pas de territoire ».",
+      "stimulus": "Fiche W (synthèse créée pour le cours; Nation Wendat, Grands Lacs, sources W) : villages de maisons longues, agriculture, chasse, pêche et réseaux d’échanges documentés pour certains contextes précontacts et du XVIe siècle.\nFiche I (synthèse de mémoires/savoirs innus; Nitassinan, Côte-Nord et arrière-pays) : groupes familiaux avec parcours saisonniers, rassemblements à certaines périodes, chasse, pêche et cueillette. Ce n’est pas un témoignage rédigé en 1500.",
+      "reponse_attendue": "W : région des Grands Lacs; agriculture (ou chasse ou pêche). I : Nitassinan, Côte-Nord et arrière-pays; chasse ou pêche ou cueillette. Non, les déplacements innus s’inscrivent dans un territoire connu.",
+      "criteres": [
+        "Deux groupes nommés et situés",
+        "Activité correctement prélevée dans chaque fiche",
+        "Refus justifié de l’absence de territoire"
+      ],
+      "feedback": "Le déplacement saisonnier suppose la connaissance des lieux : consulte Nitassinan.",
+      "difficulte": "initial",
+      "representation": "fiches_et_carte_textuelle",
+      "source_refs": [
+        "S1",
+        "S3"
+      ],
+      "limites_variation": "Aucune substitution de fait, nom, date ni réponse sans nouvelle revue de source.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Donne une ressemblance et une différence étayées entre W et I. Évite les mots « toujours », « jamais » et « tous ».",
+      "stimulus": "Fiche W (synthèse créée pour le cours; Nation Wendat, Grands Lacs, sources W) : villages de maisons longues, agriculture, chasse, pêche et réseaux d’échanges documentés pour certains contextes précontacts et du XVIe siècle.\nFiche I (synthèse de mémoires/savoirs innus; Nitassinan, Côte-Nord et arrière-pays) : groupes familiaux avec parcours saisonniers, rassemblements à certaines périodes, chasse, pêche et cueillette. Ce n’est pas un témoignage rédigé en 1500.",
+      "reponse_attendue": "Ressemblance : chasse et pêche dans les deux fiches. Différence : W documente villages/maisons longues et agriculture, I des parcours saisonniers et des regroupements; pas d’opposition absolue pour tous les membres.",
+      "criteres": [
+        "Une ressemblance exacte avec indices",
+        "Une différence exacte avec indices",
+        "Absence de généralisation à tous les membres"
+      ],
+      "feedback": "Une activité commune n’efface pas les différences; une fiche partielle n’établit pas des exceptions universelles.",
+      "difficulte": "intermediaire",
+      "representation": "fiche_synthetique",
+      "source_refs": [
+        "S1",
+        "S3"
+      ],
+      "limites_variation": "Aucune substitution de fait, nom, date ni réponse sans nouvelle revue de source.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique si ces fiches sont des paroles enregistrées en 1500 et ce que change cette information.",
+      "stimulus": "Fiche W (synthèse créée pour le cours; Nation Wendat, Grands Lacs, sources W) : villages de maisons longues, agriculture, chasse, pêche et réseaux d’échanges documentés pour certains contextes précontacts et du XVIe siècle.\nFiche I (synthèse de mémoires/savoirs innus; Nitassinan, Côte-Nord et arrière-pays) : groupes familiaux avec parcours saisonniers, rassemblements à certaines périodes, chasse, pêche et cueillette. Ce n’est pas un témoignage rédigé en 1500.",
+      "reponse_attendue": "Non. W et I sont des synthèses pédagogiques fondées sur des sources d’époques et de natures différentes; elles renseignent sur des contextes mais ne représentent pas un relevé exhaustif de l’année 1500.",
+      "criteres": [
+        "Distingue synthèse et source directe",
+        "Nommer la période approximative",
+        "Énonce une limite de généralisation"
+      ],
+      "feedback": "La date de consultation n’est pas la date de l’événement; une synthèse n’est pas une citation d’une personne du passé.",
+      "difficulte": "initial",
+      "representation": "fiche_synthetique",
+      "source_refs": [
+        "S1",
+        "S3"
+      ],
+      "limites_variation": "Aucune substitution de fait, nom, date ni réponse sans nouvelle revue de source.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "fixe",
+      "consigne": "À partir des deux fiches, cite deux ressemblances; peux-tu conclure que L et W désignent une seule et même société ?",
+      "stimulus": "Fiche W (synthèse créée pour le cours; Nation Wendat, Grands Lacs, sources W) : villages de maisons longues, agriculture, chasse, pêche et réseaux d’échanges documentés pour certains contextes précontacts et du XVIe siècle.\nFiche L (synthèse du Musée canadien de l’histoire; Iroquoiens du Saint-Laurent, fin XVe–XVIe siècle) : villages de maisons longues, horticulture, pêche; des villages pouvaient changer de lieu. Ne pas assimiler automatiquement ces populations à la Nation Wendat.",
+      "reponse_attendue": "Deux ressemblances : maisons longues/villages et culture des plantes. Conclusion : non; W et L désignent des ensembles historiques distincts dans ces fiches et un point commun n’autorise pas une assimilation.",
+      "criteres": [
+        "Deux similitudes attestées",
+        "Noms d’ensembles conservés",
+        "Rejet argumenté de l’équivalence identitaire"
+      ],
+      "feedback": "Une maison de forme semblable ne suffit pas à établir une identité ou une filiation.",
+      "difficulte": "intermediaire",
+      "representation": "fiche_synthetique",
+      "source_refs": [
+        "S1",
+        "S5"
+      ],
+      "limites_variation": "Aucune substitution de fait, nom, date ni réponse sans nouvelle revue de source.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Explique pourquoi la phrase « les Mi’gmaq ont commencé à échanger en 1534 » n’est pas démontrée.",
+      "stimulus": "Fiche M (synthèse du Musée canadien de l’histoire; Mi’gmaq, baie des Chaleurs) : une rencontre et des échanges avec une expédition européenne sont signalés en 1534. La fiche ne décrit pas tous les modes d’habitat mi’gmaq et ne date pas le début de leurs réseaux d’échange.",
+      "reponse_attendue": "Le document atteste une rencontre et des échanges en 1534; il ne décrit pas le premier échange de l’histoire des Mi’gmaq. La date d’un événement documenté n’est pas la date de début d’une pratique.",
+      "criteres": [
+        "Distingue attestation et origine",
+        "Précise 1534",
+        "Évite une affirmation non sourcée"
+      ],
+      "feedback": "Une première mention dans la source n’est pas nécessairement un premier événement historique.",
+      "difficulte": "intermediaire",
+      "representation": "fiche_synthetique",
+      "source_refs": [
+        "S6"
+      ],
+      "limites_variation": "Aucune substitution de fait, nom, date ni réponse sans nouvelle revue de source.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Remplis un mini-tableau « lieu / description des activités / limite » pour L et M. Ne complète pas les blancs par des suppositions.",
+      "stimulus": "Fiche L (synthèse du Musée canadien de l’histoire; Iroquoiens du Saint-Laurent, fin XVe–XVIe siècle) : villages de maisons longues, horticulture, pêche; des villages pouvaient changer de lieu. Ne pas assimiler automatiquement ces populations à la Nation Wendat.\nFiche M (synthèse du Musée canadien de l’histoire; Mi’gmaq, baie des Chaleurs) : une rencontre et des échanges avec une expédition européenne sont signalés en 1534. La fiche ne décrit pas tous les modes d’habitat mi’gmaq et ne date pas le début de leurs réseaux d’échange.",
+      "reponse_attendue": "L : vallée du Saint-Laurent / villages, horticulture, pêche / faits non universels. M : baie des Chaleurs / rencontre et échanges de 1534 / habitat et économie globale non indiqués.",
+      "criteres": [
+        "Trois axes communs utilisés",
+        "Aucune attribution indue de l’habitat mi’gmaq",
+        "Limite de source par ensemble"
+      ],
+      "feedback": "« Non indiqué » est une vraie donnée pour un tableau comparatif de sources inégales.",
+      "difficulte": "intermediaire",
+      "representation": "tableau_comparatif",
+      "source_refs": [
+        "S5",
+        "S6"
+      ],
+      "limites_variation": "Aucune substitution de fait, nom, date ni réponse sans nouvelle revue de source.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Pourquoi « village iroquoien » ne veut-il pas dire que le village ne change jamais de lieu? Réponds avec un indice.",
+      "stimulus": "Fiche L (synthèse du Musée canadien de l’histoire; Iroquoiens du Saint-Laurent, fin XVe–XVIe siècle) : villages de maisons longues, horticulture, pêche; des villages pouvaient changer de lieu. Ne pas assimiler automatiquement ces populations à la Nation Wendat.",
+      "reponse_attendue": "La fiche L précise que des villages pouvaient changer de lieu; existence de villages et déplacements/relocalisations ne s’excluent pas.",
+      "criteres": [
+        "Relève la possibilité de relocalisation",
+        "Évite « toujours immobile »"
+      ],
+      "feedback": "Les catégories « mobile » et « village » ne sont pas des cases absolues et opposées.",
+      "difficulte": "intermediaire",
+      "representation": "fiche_synthetique",
+      "source_refs": [
+        "S5"
+      ],
+      "limites_variation": "Aucune substitution de fait, nom, date ni réponse sans nouvelle revue de source.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Analyse la variante fournie : réponds à la consigne correspondante en citant les fiches.",
+      "stimulus": "Fiche W (synthèse créée pour le cours; Nation Wendat, Grands Lacs, sources W) : villages de maisons longues, agriculture, chasse, pêche et réseaux d’échanges documentés pour certains contextes précontacts et du XVIe siècle.\nFiche I (synthèse de mémoires/savoirs innus; Nitassinan, Côte-Nord et arrière-pays) : groupes familiaux avec parcours saisonniers, rassemblements à certaines périodes, chasse, pêche et cueillette. Ce n’est pas un témoignage rédigé en 1500.\nVARIANTE WI — Écris une ressemblance, une différence territoriale et une limite.",
+      "reponse_attendue": "W/I : chasse et pêche mentionnées dans les deux fiches; Grands Lacs et Nitassinan distincts; synthèses ne décrivent pas chaque famille à la date exacte 1500.",
+      "criteres": [
+        "Comparaison cohérente avec la variante sélectionnée",
+        "Deux éléments documentés identifiés",
+        "Limite historique ou documentaire explicite"
+      ],
+      "feedback": "Reviens aux seules informations du corpus fermé; ne transpose pas les réponses d’une autre paire.",
+      "difficulte": "transfert",
+      "representation": "cartes_documentaires",
+      "source_refs": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "limites_variation": "Seulement WI (index 0) ou LM (index 1) avec texte/réponse verrouillés.",
+      "seed": 2406,
+      "parametres": {
+        "algorithme": "index = seed % 2; choisir exactement la variante à cet index dans la liste ordonnée; utiliser son stimulus, sa consigne et sa réponse attendue sans régénération libre",
+        "domaine": "2 variantes WI et LM seulement",
+        "contraintes": [
+          "Corpus W/I/L/M non altéré",
+          "Réponse propre à chaque variante, revue humaine requise"
+        ],
+        "variantes": [
+          {
+            "code": "WI",
+            "stimulus": "Fiche W (synthèse créée pour le cours; Nation Wendat, Grands Lacs, sources W) : villages de maisons longues, agriculture, chasse, pêche et réseaux d’échanges documentés pour certains contextes précontacts et du XVIe siècle.\nFiche I (synthèse de mémoires/savoirs innus; Nitassinan, Côte-Nord et arrière-pays) : groupes familiaux avec parcours saisonniers, rassemblements à certaines périodes, chasse, pêche et cueillette. Ce n’est pas un témoignage rédigé en 1500.",
+            "consigne": "Écris une ressemblance, une différence territoriale et une limite.",
+            "reponse_attendue": "W/I : chasse et pêche mentionnées dans les deux fiches; Grands Lacs et Nitassinan distincts; synthèses ne décrivent pas chaque famille à la date exacte 1500."
+          },
+          {
+            "code": "LM",
+            "stimulus": "Fiche L (synthèse du Musée canadien de l’histoire; Iroquoiens du Saint-Laurent, fin XVe–XVIe siècle) : villages de maisons longues, horticulture, pêche; des villages pouvaient changer de lieu. Ne pas assimiler automatiquement ces populations à la Nation Wendat.\nFiche M (synthèse du Musée canadien de l’histoire; Mi’gmaq, baie des Chaleurs) : une rencontre et des échanges avec une expédition européenne sont signalés en 1534. La fiche ne décrit pas tous les modes d’habitat mi’gmaq et ne date pas le début de leurs réseaux d’échange.",
+            "consigne": "Écris une différence de type d’information et une limite qui empêche de généraliser.",
+            "reponse_attendue": "L : villages, horticulture et pêche; M : contact/échanges en 1534; M ne permet aucune conclusion générale sur l’habitat des Mi’gmaq en 1500."
+          }
+        ],
+        "exemple_valide": {
+          "seed": 2406,
+          "index": 0,
+          "code": "WI"
+        },
+        "statut_verification": "appariement déterministe vérifié localement"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Replace les expressions « vers 1500 », « rencontre en 1534 » et « site consulté aujourd’hui » dans une phrase qui distingue les trois temporalités.",
+      "stimulus": "Fiche M (synthèse du Musée canadien de l’histoire; Mi’gmaq, baie des Chaleurs) : une rencontre et des échanges avec une expédition européenne sont signalés en 1534. La fiche ne décrit pas tous les modes d’habitat mi’gmaq et ne date pas le début de leurs réseaux d’échange.\nPériode du Kristal : « vers 1500 ». Date de l’événement M : 1534. Texte pédagogique créé aujourd’hui.",
+      "reponse_attendue": "« Vers 1500 » situe approximativement le thème; M rapporte un événement daté de 1534; la fiche rédigée aujourd’hui relate des données plus anciennes. Aucune date ne prouve à elle seule tous les faits relatifs à 1500.",
+      "criteres": [
+        "Trois temps correctement distingués",
+        "1534 non confondu avec 1500",
+        "Refus d’extrapolation non sourcée"
+      ],
+      "feedback": "Les dates peuvent désigner la période examinée, un événement observé ou la publication d’un document.",
+      "difficulte": "intermediaire",
+      "representation": "chronologie_textuelle",
+      "source_refs": [
+        "S6"
+      ],
+      "limites_variation": "Aucune substitution de fait, nom, date ni réponse sans nouvelle revue de source.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Révise une affiche de musée scolaire : reformule l’affirmation non fondée avec un indice et une limite.",
+      "stimulus": "Affiche fictive : « Tous les peuples autochtones vivaient dans des maisons longues en 1500. »\nFiche L (synthèse du Musée canadien de l’histoire; Iroquoiens du Saint-Laurent, fin XVe–XVIe siècle) : villages de maisons longues, horticulture, pêche; des villages pouvaient changer de lieu. Ne pas assimiler automatiquement ces populations à la Nation Wendat.\nFiche I (synthèse de mémoires/savoirs innus; Nitassinan, Côte-Nord et arrière-pays) : groupes familiaux avec parcours saisonniers, rassemblements à certaines périodes, chasse, pêche et cueillette. Ce n’est pas un témoignage rédigé en 1500.\nVARIANTE GENERALISATION — Réécris l’affiche avec une preuve et une limite.",
+      "reponse_attendue": "Les maisons longues sont attestées par L pour des villages iroquoiens du Saint-Laurent. I décrit plutôt des parcours saisonniers innus; aucune de ces deux fiches ne permet de parler de « tous les peuples » ni d’une date unique pour tous.",
+      "criteres": [
+        "Repère l’extrapolation fautive",
+        "Fournit une alternative positive sourcée",
+        "Ajoute une limite des fiches"
+      ],
+      "feedback": "Ne remplace pas un absolu par un autre; précise qui, où et quand.",
+      "difficulte": "transfert",
+      "representation": "revision_editoriale",
+      "source_refs": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "limites_variation": "Le seul changement permis est l’une des deux variantes rédigées et corrigées.",
+      "seed": 2410,
+      "parametres": {
+        "algorithme": "index=seed%2, puis reprendre strictement le stimulus, la consigne et la réponse de la variante correspondante",
+        "domaine": "2 variantes GENERALISATION/TERRITOIRE",
+        "contraintes": [
+          "Aucune citation inventée",
+          "Sources et assertions fixes"
+        ],
+        "variantes": [
+          {
+            "code": "GENERALISATION",
+            "stimulus": "Affiche fictive : « Tous les peuples autochtones vivaient dans des maisons longues en 1500. »\nFiche L (synthèse du Musée canadien de l’histoire; Iroquoiens du Saint-Laurent, fin XVe–XVIe siècle) : villages de maisons longues, horticulture, pêche; des villages pouvaient changer de lieu. Ne pas assimiler automatiquement ces populations à la Nation Wendat.\nFiche I (synthèse de mémoires/savoirs innus; Nitassinan, Côte-Nord et arrière-pays) : groupes familiaux avec parcours saisonniers, rassemblements à certaines périodes, chasse, pêche et cueillette. Ce n’est pas un témoignage rédigé en 1500.",
+            "consigne": "Réécris l’affiche avec une preuve et une limite.",
+            "reponse_attendue": "Les maisons longues sont attestées par L pour des villages iroquoiens du Saint-Laurent. I décrit plutôt des parcours saisonniers innus; aucune de ces deux fiches ne permet de parler de « tous les peuples » ni d’une date unique pour tous."
+          },
+          {
+            "code": "TERRITOIRE",
+            "stimulus": "Affiche fictive : « Les Innus se déplaçaient donc ils n’avaient aucun territoire. »\nFiche I (synthèse de mémoires/savoirs innus; Nitassinan, Côte-Nord et arrière-pays) : groupes familiaux avec parcours saisonniers, rassemblements à certaines périodes, chasse, pêche et cueillette. Ce n’est pas un témoignage rédigé en 1500.\nFiche W (synthèse créée pour le cours; Nation Wendat, Grands Lacs, sources W) : villages de maisons longues, agriculture, chasse, pêche et réseaux d’échanges documentés pour certains contextes précontacts et du XVIe siècle.",
+            "consigne": "Réécris l’affiche avec une preuve et une limite.",
+            "reponse_attendue": "I situe les parcours familiaux sur le Nitassinan et précise des ressources et routes saisonnières. Le mouvement n’efface pas les liens au territoire. Le document ne décrit pas chaque famille en l’an 1500."
+          }
+        ],
+        "exemple_valide": {
+          "seed": 2410,
+          "index": 0,
+          "code": "GENERALISATION"
+        },
+        "statut_verification": "appariement déterministe vérifié localement"
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE 1, sans aide de fond : prépare pour une exposition deux notices W et I et un tableau de comparaison. Nomme chaque société, situe son territoire, compare au moins une activité et les déplacements/habitats, puis donne une ressemblance, une différence et une limite temporelle. Ne parle pas au nom des Nations.",
+      "stimulus": "Contexte indépendant A — Exposition « Habiter des territoires »; dossiers pédagogiques documentés :\nFiche W (synthèse créée pour le cours; Nation Wendat, Grands Lacs, sources W) : villages de maisons longues, agriculture, chasse, pêche et réseaux d’échanges documentés pour certains contextes précontacts et du XVIe siècle.\nFiche I (synthèse de mémoires/savoirs innus; Nitassinan, Côte-Nord et arrière-pays) : groupes familiaux avec parcours saisonniers, rassemblements à certaines périodes, chasse, pêche et cueillette. Ce n’est pas un témoignage rédigé en 1500.\nLes deux dossiers sont des synthèses postérieures et non des instantanés de 1500.",
+      "reponse_attendue": "Production modèle : « W situe des réalités wendat de la région des Grands Lacs : villages de maisons longues, agriculture, chasse et pêche. I décrit des parcours familiaux saisonniers dans le Nitassinan : chasse, pêche, cueillette et rassemblements. Les deux dossiers mentionnent chasse et pêche; les formes d’habitat ou de déplacements précisées diffèrent. Les documents synthétisent plusieurs époques, donc je ne généralise pas à chaque personne vivant en 1500. » Un tableau équivalent sourcé est recevable.",
+      "criteres": [
+        "D1 — Wendat et Innu correctement nommés/situés sans substitution",
+        "D2 — Comparaison selon au moins 2 axes identiques avec ressemblance et différence documentées",
+        "D3 — Une limite de datation/portée, sans jugement ni homogénéisation",
+        "D4 — Réponse autonome sans guidage de contenu, appui explicite sur W et I"
+      ],
+      "feedback": "Si une dimension manque, revenir à la fiche citée puis recommencer dans un nouveau contexte; ne pas récompenser un texte copié comme preuve autonome.",
+      "difficulte": "transfert",
+      "representation": "cartels_et_tableau",
+      "source_refs": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "limites_variation": "Aucune variante sur les Nations, sources, dates, activités ou rubriques. Adapter la forme de réponse seulement.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte_maitrise": "exposition_territoriale_W_I"
+    },
+    {
+      "item_id": "qc-pri-us-006-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-us-006-ev-01",
+      "mode": "fixe",
+      "consigne": "PREUVE 2, sans aide de fond : rédige une note pour vérifier deux cartels d’une exposition (« vallée du Saint-Laurent » et « baie des Chaleurs »). Compare ce que les dossiers L et M révèlent des territoires et des activités ou échanges; nomme une ressemblance défendable ou un point de comparaison documenté, une différence et une information qu’il serait injustifié d’inventer. Explique pourquoi 1534 ne décrit pas toute l’année 1500.",
+      "stimulus": "Contexte indépendant B — Révision des cartels d’un musée scolaire; dossiers pédagogiques documentés :\nFiche L (synthèse du Musée canadien de l’histoire; Iroquoiens du Saint-Laurent, fin XVe–XVIe siècle) : villages de maisons longues, horticulture, pêche; des villages pouvaient changer de lieu. Ne pas assimiler automatiquement ces populations à la Nation Wendat.\nFiche M (synthèse du Musée canadien de l’histoire; Mi’gmaq, baie des Chaleurs) : une rencontre et des échanges avec une expédition européenne sont signalés en 1534. La fiche ne décrit pas tous les modes d’habitat mi’gmaq et ne date pas le début de leurs réseaux d’échange.\nLes deux dossiers n’ont pas la même profondeur descriptive et ne doivent pas être complétés par imagination.",
+      "reponse_attendue": "Production modèle : « La fiche L concerne les Iroquoiens du Saint-Laurent et décrit des villages, l’horticulture et la pêche dans la vallée du fleuve. La fiche M rapporte une rencontre et des échanges avec les Mi’gmaq dans la baie des Chaleurs en 1534. Les deux situent des réalités autochtones dans des territoires du nord-est, mais les faits documentés sont de nature différente. On ne peut conclure de M que les Mi’gmaq n’avaient pas de villages, ni que leurs échanges ont commencé en 1534. Cette date ne décrit pas toutes les sociétés en 1500. » Sont acceptés comme points communs des faits effectivement documentés, sans prétendre à une ressemblance d’habitat non attestée.",
+      "criteres": [
+        "D1 — Iroquoiens du Saint-Laurent et Mi’gmaq distincts et correctement situés",
+        "D2 — Comparaison de 2 axes communs : lieu et type d’activité/échange, y compris dissymétrie des sources",
+        "D3 — Respect de 1534 versus vers 1500, information manquante identifiée",
+        "D4 — Réponse autonome, appui sur L et M, aucune confusion avec Wendat"
+      ],
+      "feedback": "La bonne réponse peut dire que les sources ne permettent pas une ressemblance de mode d’habitat; ne comble pas les blancs. La note ne doit pas prendre la rencontre de 1534 pour l’origine du commerce.",
+      "difficulte": "transfert",
+      "representation": "note_critique_sourcée",
+      "source_refs": [
+        "S5",
+        "S6"
+      ],
+      "limites_variation": "Fiches L/M fixes et indépendantes de W/I. Adaptation de modalité, jamais ajout d’un fait historique sans revue.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "contexte_maitrise": "verification_museale_L_M"
+    }
+  ]
+}

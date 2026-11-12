@@ -1,0 +1,421 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-eps-002",
+  "family_id": "qc-pri-eps-002-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-eps-002-q-001",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Effectue un court trajet droit avec arrêt volontaire.",
+      "stimulus": "Salle : couloir dégagé au sol, départ D et zone STOP au bout; l’adulte autorise la modalité de locomotion.",
+      "reponse_attendue": "Observation documentée : se déplace dans son couloir à allure contrôlée; ralentit puis s’arrête dans la zone ou avant en cas de danger; indique le rôle de la zone d’arrêt.",
+      "criteres": [
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Indique comment reconnaître le départ et la zone d’arrêt."
+      ],
+      "feedback": "Décrire exactement ce qui a été observé; si le virage ou l’arrêt manque de contrôle, réduire le trajet, marquer le point de ralentissement, reprendre sans course ni comparaison.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-002",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Suis une trajectoire courbe sans en couper le virage.",
+      "stimulus": "Salle : flèches au sol D → courbe à gauche → A; voie assez large et libre.",
+      "reponse_attendue": "Observation documentée : regarde les repères, anticipe la courbe, ralentit si nécessaire, suit la courbe, atteint A et explique le choix de direction.",
+      "criteres": [
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Peut indiquer par parole, geste ou pictogrammes la raison d’un choix de trajectoire ou d’allure."
+      ],
+      "feedback": "Décrire exactement ce qui a été observé; si le virage ou l’arrêt manque de contrôle, réduire le trajet, marquer le point de ralentissement, reprendre sans course ni comparaison.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-003",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Change d’allure quand tu rejoins un repère visible.",
+      "stimulus": "Une zone de départ, un repère jaune de ralentissement et une zone d’arrêt sont installés sur une voie dégagée.",
+      "reponse_attendue": "Observation : déplacement à allure choisie, ralentissement intentionnel dès la zone jaune, maintien du contrôle jusqu’à l’arrêt, justification de la variation.",
+      "criteres": [
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Ralentissement observable au repère indiqué, sans vitesse minimale.",
+        "Peut indiquer par parole, geste ou pictogrammes la raison d’un choix de trajectoire ou d’allure."
+      ],
+      "feedback": "Décrire exactement ce qui a été observé; si le virage ou l’arrêt manque de contrôle, réduire le trajet, marquer le point de ralentissement, reprendre sans course ni comparaison.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-004",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Effectue deux changements de direction avec vigilance.",
+      "stimulus": "Salle : trajet D → A (tourner à droite) → B (tourner à gauche) → STOP; marqueurs souples plats.",
+      "reponse_attendue": "Observation : passe près de A et B dans l’ordre, prépare chaque changement de direction, conserve une marge dans sa voie, s’arrête sans collision et indique un choix de sécurité.",
+      "criteres": [
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Peut indiquer par parole, geste ou pictogrammes la raison d’un choix de trajectoire ou d’allure."
+      ],
+      "feedback": "Décrire exactement ce qui a été observé; si le virage ou l’arrêt manque de contrôle, réduire le trajet, marquer le point de ralentissement, reprendre sans course ni comparaison.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-005",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Adapte-toi au parcours en L décrit par le plan.",
+      "stimulus": "Salle : D → A tout droit, puis virage droit vers STOP; ligne jaune placée AVANT A; voie dégagée.",
+      "reponse_attendue": "Observation : reste en voie jusqu’à A, ralentit à la ligne jaune, tourne à droite avec contrôle, rejoint STOP et explique que le ralentissement prépare le virage.",
+      "criteres": [
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Peut indiquer par parole, geste ou pictogrammes la raison d’un choix de trajectoire ou d’allure."
+      ],
+      "feedback": "Si la consigne change et que le déplacement se désorganise : arrêter l’essai, refaire le plan et annoncer les repères plus tôt; observer une nouvelle tentative sûre. Ne pas noter la vitesse absolue.",
+      "difficulte": "intermediaire",
+      "seed": 205,
+      "parametres": {
+        "strategie": "indice = seed modulo nombre_de_variantes; aucune génération libre",
+        "variables": {
+          "variante": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "corpus de deux situations rédigées et vérifiables seulement",
+          "repères souples plats, sol accessible validé, adulte présent",
+          "aucune vitesse chronométrée; tout danger entraîne l’arrêt et une reprise non comptabilisée"
+        ],
+        "algorithme": "index = 205 % 2 = 1; afficher stimulus et reponse_attendue de corpus_variantes[index]; grille constante",
+        "corpus_variantes": [
+          {
+            "stimulus": "Salle : D → A tout droit, puis virage gauche vers STOP; ligne jaune placée AVANT A; voie dégagée.",
+            "reponse_attendue": "Observation : reste en voie jusqu’à A, ralentit à la ligne jaune, tourne à gauche avec contrôle, rejoint STOP et explique que le ralentissement prépare le virage."
+          },
+          {
+            "stimulus": "Salle : D → A tout droit, puis virage droit vers STOP; ligne jaune placée AVANT A; voie dégagée.",
+            "reponse_attendue": "Observation : reste en voie jusqu’à A, ralentit à la ligne jaune, tourne à droite avec contrôle, rejoint STOP et explique que le ralentissement prépare le virage."
+          }
+        ],
+        "index_retenu": 1,
+        "validation_exemples": [
+          {
+            "seed": 205,
+            "index": 1,
+            "resultat": "instance affichée de corpus_variantes[index]"
+          },
+          {
+            "seed": 206,
+            "index": 0,
+            "resultat": "autre variante fermée; même grille de sécurité"
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-006",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Choisis entre deux chemins sûrs et réalise celui qui convient à ton déplacement.",
+      "stimulus": "Dans une salle, chemin A = large courbe à gauche; chemin B = large courbe à droite; les deux sont dégagés et accessibles, même arrivée.",
+      "reponse_attendue": "Accepter A ou B : l’élève annonce/indique sa voie, suit la courbe choisie sans couper vers l’autre voie, ajuste l’allure et justifie son choix par l’espace disponible ou son contrôle.",
+      "criteres": [
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Peut indiquer par parole, geste ou pictogrammes la raison d’un choix de trajectoire ou d’allure."
+      ],
+      "feedback": "Si la consigne change et que le déplacement se désorganise : arrêter l’essai, refaire le plan et annoncer les repères plus tôt; observer une nouvelle tentative sûre. Ne pas noter la vitesse absolue.",
+      "difficulte": "intermediaire",
+      "seed": 206,
+      "parametres": {
+        "strategie": "indice = seed modulo nombre_de_variantes; aucune génération libre",
+        "variables": {
+          "variante": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "corpus de deux situations rédigées et vérifiables seulement",
+          "repères souples plats, sol accessible validé, adulte présent",
+          "aucune vitesse chronométrée; tout danger entraîne l’arrêt et une reprise non comptabilisée"
+        ],
+        "algorithme": "index = 206 % 2 = 0; afficher stimulus et reponse_attendue de corpus_variantes[index]; grille constante",
+        "corpus_variantes": [
+          {
+            "stimulus": "Dans une salle, chemin A = large courbe à gauche; chemin B = large courbe à droite; les deux sont dégagés et accessibles, même arrivée.",
+            "reponse_attendue": "Accepter A ou B : l’élève annonce/indique sa voie, suit la courbe choisie sans couper vers l’autre voie, ajuste l’allure et justifie son choix par l’espace disponible ou son contrôle."
+          },
+          {
+            "stimulus": "Dans une salle, chemin A = segment droit puis large courbe; chemin B = large courbe puis segment droit; les deux sont dégagés et accessibles, même arrivée.",
+            "reponse_attendue": "Accepter A ou B : l’élève annonce/indique sa voie, suit les deux segments dans l’ordre choisi, ralentit pour le virage, s’arrête et justifie son choix par la configuration et sa sécurité."
+          }
+        ],
+        "index_retenu": 0,
+        "validation_exemples": [
+          {
+            "seed": 206,
+            "index": 0,
+            "resultat": "instance affichée de corpus_variantes[index]"
+          },
+          {
+            "seed": 207,
+            "index": 1,
+            "resultat": "autre variante fermée; même grille de sécurité"
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-007",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Réalise un parcours en changeant volontairement d’allure.",
+      "stimulus": "Salle : D → segment droit → virage large vers STOP. Le repère bleu signale « allure confortable » et le jaune « ralentir avant le virage ».",
+      "reponse_attendue": "Observation : avance à son allure confortable sur le premier segment, ralentit avant le virage, adapte sa direction sans quitter la voie, puis s’arrête avec contrôle.",
+      "criteres": [
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Peut indiquer par parole, geste ou pictogrammes la raison d’un choix de trajectoire ou d’allure."
+      ],
+      "feedback": "Si la consigne change et que le déplacement se désorganise : arrêter l’essai, refaire le plan et annoncer les repères plus tôt; observer une nouvelle tentative sûre. Ne pas noter la vitesse absolue.",
+      "difficulte": "intermediaire",
+      "seed": 207,
+      "parametres": {
+        "strategie": "indice = seed modulo nombre_de_variantes; aucune génération libre",
+        "variables": {
+          "variante": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "corpus de deux situations rédigées et vérifiables seulement",
+          "repères souples plats, sol accessible validé, adulte présent",
+          "aucune vitesse chronométrée; tout danger entraîne l’arrêt et une reprise non comptabilisée"
+        ],
+        "algorithme": "index = 207 % 2 = 1; afficher stimulus et reponse_attendue de corpus_variantes[index]; grille constante",
+        "corpus_variantes": [
+          {
+            "stimulus": "Salle : D → segment droit → courbe douce → STOP. Le repère bleu signale « allure confortable » et le jaune « ralentir avant la courbe ».",
+            "reponse_attendue": "Observation : avance à son allure confortable sur le premier segment, change volontairement pour une allure plus lente avant la courbe, suit la voie et s’arrête de manière maîtrisée."
+          },
+          {
+            "stimulus": "Salle : D → segment droit → virage large vers STOP. Le repère bleu signale « allure confortable » et le jaune « ralentir avant le virage ».",
+            "reponse_attendue": "Observation : avance à son allure confortable sur le premier segment, ralentit avant le virage, adapte sa direction sans quitter la voie, puis s’arrête avec contrôle."
+          }
+        ],
+        "index_retenu": 1,
+        "validation_exemples": [
+          {
+            "seed": 207,
+            "index": 1,
+            "resultat": "instance affichée de corpus_variantes[index]"
+          },
+          {
+            "seed": 208,
+            "index": 0,
+            "resultat": "autre variante fermée; même grille de sécurité"
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-008",
+      "objectif_id": "obj-1",
+      "mode": "scenario_controle",
+      "consigne": "Réagis correctement à un changement de consigne annoncé avant le départ.",
+      "stimulus": "Avant l’essai, l’adulte annonce : « Si j’affiche ROUGE, arrête-toi dans l’aire prévue après le prochain repère. » Signal donné à une distance permettant un arrêt sûr.",
+      "reponse_attendue": "Observation : l’élève anticipe le signal prévisible, réduit son allure à temps, s’arrête dans l’aire ou avant si sécurité nécessaire et explique la priorité donnée à l’arrêt.",
+      "criteres": [
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Peut indiquer par parole, geste ou pictogrammes la raison d’un choix de trajectoire ou d’allure."
+      ],
+      "feedback": "Si la consigne change et que le déplacement se désorganise : arrêter l’essai, refaire le plan et annoncer les repères plus tôt; observer une nouvelle tentative sûre. Ne pas noter la vitesse absolue.",
+      "difficulte": "transfert",
+      "seed": 208,
+      "parametres": {
+        "strategie": "indice = seed modulo nombre_de_variantes; aucune génération libre",
+        "variables": {
+          "variante": [
+            0,
+            1
+          ]
+        },
+        "contraintes": [
+          "corpus de deux situations rédigées et vérifiables seulement",
+          "repères souples plats, sol accessible validé, adulte présent",
+          "aucune vitesse chronométrée; tout danger entraîne l’arrêt et une reprise non comptabilisée"
+        ],
+        "algorithme": "index = 208 % 2 = 0; afficher stimulus et reponse_attendue de corpus_variantes[index]; grille constante",
+        "corpus_variantes": [
+          {
+            "stimulus": "Avant l’essai, l’adulte annonce : « Si j’affiche ROUGE, arrête-toi dans l’aire prévue après le prochain repère. » Signal donné à une distance permettant un arrêt sûr.",
+            "reponse_attendue": "Observation : l’élève anticipe le signal prévisible, réduit son allure à temps, s’arrête dans l’aire ou avant si sécurité nécessaire et explique la priorité donnée à l’arrêt."
+          },
+          {
+            "stimulus": "Avant l’essai, l’adulte annonce : « Si je dis PAUSE, arrête-toi dans l’aire prévue après le prochain repère. » Signal donné à une distance permettant un arrêt sûr.",
+            "reponse_attendue": "Observation : l’élève réagit au mot convenu, adapte son allure, s’arrête dans l’aire ou avant si sécurité nécessaire et explique pourquoi il n’a pas accéléré."
+          }
+        ],
+        "index_retenu": 0,
+        "validation_exemples": [
+          {
+            "seed": 208,
+            "index": 0,
+            "resultat": "instance affichée de corpus_variantes[index]"
+          },
+          {
+            "seed": 209,
+            "index": 1,
+            "resultat": "autre variante fermée; même grille de sécurité"
+          }
+        ]
+      },
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-009",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Choisis une solution sûre lorsque la voie prévue n’est plus libre, puis réalise un parcours réaménagé.",
+      "stimulus": "Sur un plan fictif, un repère est tombé dans le couloir de départ. L’adulte retire l’objet et ouvre une voie libre avant tout mouvement; l’élève peut indiquer à l’arrêt ce qu’il faudrait faire.",
+      "reponse_attendue": "Réponse initiale : arrêter et prévenir l’adulte; ne pas franchir l’objet. Après dégagement réel, observation d’un parcours adapté avec trajectoire correcte, allure maîtrisée, arrêt et justification de la décision.",
+      "criteres": [
+        "Désigne la mise à l’arrêt et l’avertissement à l’adulte comme réponses sûres.",
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande."
+      ],
+      "feedback": "Faire jouer la décision à l’arrêt; retirer réellement l’obstacle; recommencer seulement dans une voie sûre.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-010",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "Relie un plan en U à une réalisation motrice.",
+      "stimulus": "Salle : plan imprimé D → virage courbe vers A → retour parallèle → STOP; zone tracée, aucun croisement.",
+      "reponse_attendue": "Observation : pointe ou nomme les deux portions, réalise le demi-tour à allure choisie et contrôlée, suit le retour, s’arrête et explique où il a ralenti.",
+      "criteres": [
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Peut indiquer par parole, geste ou pictogrammes la raison d’un choix de trajectoire ou d’allure."
+      ],
+      "feedback": "Si le plan est compris mais le demi-tour non maîtrisé, élargir la courbe et reprendre; le plan ne remplace pas l’action.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "plan_et_action"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-011",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "PREUVE A (autonome) — Réalise le parcours salle polyvalente sans indice moteur.",
+      "stimulus": "Contexte A, salle polyvalente : départ D, couloir droit, large courbe à droite, segment jusqu’à A, courbe douce à gauche, arrêt à STOP. Repères souples et voie dégagée. Consigne et plan disponibles AVANT départ; l’adulte assure seulement la sécurité.",
+      "reponse_attendue": "Preuve observée et datée : suit une trajectoire avec deux virages dans l’ordre (ou ajuste la voie de façon sûre et justifiée), ralentit à un endroit approprié, s’arrête volontairement, explique ou montre son choix. Pas d’indice moteur pendant l’essai; intervention de sécurité ⇒ essai non compté, reprise ultérieure.",
+      "criteres": [
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Peut indiquer par parole, geste ou pictogrammes la raison d’un choix de trajectoire ou d’allure."
+      ],
+      "feedback": "Si le critère manque, fournir rétroaction après l’essai et répéter dans une nouvelle configuration; cette tentative ne devient pas une preuve autonome rétrospectivement.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan",
+      "preuve_maitrise": "A"
+    },
+    {
+      "item_id": "qc-pri-eps-002-q-012",
+      "objectif_id": "obj-1",
+      "mode": "fixe",
+      "consigne": "PREUVE B (autonome) — Réalise le parcours en U dans un espace extérieur autorisé.",
+      "stimulus": "Contexte B, cour d’école plane : U marqué par trois repères souples plats, retour dans une voie distincte; l’adulte a validé la météo, le revêtement et l’espace. Prévoir une transposition dans une aire intérieure différente si le site extérieur n’est pas sûr.",
+      "reponse_attendue": "Preuve distincte observée et datée : suit l’aller et le retour du U, prépare le demi-tour en adaptant l’allure, respecte la zone autorisée, s’arrête en contrôle et justifie par geste ou parole une décision de sécurité. Aucun indice de solution pendant l’essai; adaptation d’accès admise et documentée.",
+      "criteres": [
+        "Suit volontairement la trajectoire annoncée ou une variante approuvée pour la sécurité; noter départ, virage et arrivée.",
+        "Ajuste sa vitesse avant un changement de direction ou un arrêt, à son allure individuelle.",
+        "Respecte sa voie, vérifie l’espace et s’arrête lorsqu’une condition de sécurité le demande.",
+        "Peut indiquer par parole, geste ou pictogrammes la raison d’un choix de trajectoire ou d’allure."
+      ],
+      "feedback": "En cas de sol ou météo dangereux, reporter/transposer sans pénalité. En cas de difficulté de contrôle, réduire le parcours avec guidage puis prévoir une nouvelle preuve autonome en contexte B.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-eps-002-ev-01",
+      "representation": "pratique_avec_plan",
+      "preuve_maitrise": "B"
+    }
+  ]
+}

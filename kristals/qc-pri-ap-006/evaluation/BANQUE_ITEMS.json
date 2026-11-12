@@ -1,0 +1,333 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ap-006",
+  "family_id": "qc-pri-ap-006-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ap-006-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Après lecture de deux affiches décrites, indique le public visé, la demande visible et une correction de composition; explique ton choix, oralement ou en croquis.",
+      "stimulus": "Deux affiches fictives pour les usagers d’un atelier. A : grand titre « RANGE LES CRAYONS », crayon dirigé vers un pot marqué CRAYONS, ensemble aéré. B : dix étoiles, petit texte « range les crayons » tout en bas, pot non nommé sur le côté.",
+      "reponse_attendue": "Production/explication identifiable : destinataire = usagers de l’atelier; action = ranger les crayons dans le pot; B est moins interprétable à cause de titre minuscule, surcharge, pot ambigu. Correction acceptable : agrandir l’action et relier clairement les crayons au pot étiqueté; toute autre correction causale justifiée admise.",
+      "criteres": [
+        "Nomme un destinataire plausible correspondant au brief",
+        "Décrit correctement l’action centrale",
+        "Signale au moins un obstacle vérifiable de B",
+        "Dessine ou décrit une modification susceptible de corriger cet obstacle"
+      ],
+      "feedback": "Si seule la préférence esthétique est évoquée, demander ce qu’un usager ferait en voyant l’image; ne pas dire « la première est plus belle ».",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "role": "diagnostic",
+      "representation": "analyse_commentee_de_composition",
+      "variations_autorisees": [
+        "support_papier_ou_numerique_simple",
+        "taille_adaptee",
+        "modalite_orale_ecrite_ou_tactile_accessible",
+        "signes_visuels_originaux_et_palette_libre_contraste"
+      ],
+      "limites_variation": "Scénario, public, action, niveau et critères fixes; ne jamais transformer en QCM, modifier le brief ni générer un contexte non révisé.",
+      "securite_et_droits": "matériel scolaire sûr, signes originaux, pas de marque/logos/photos identifiantes, essai pair anonyme",
+      "justification_rubrique": "La correction juge l’intelligibilité pour le public et la démarche vérifiable; la diversité de compositions est licite et le goût personnel ne constitue pas un critère."
+    },
+    {
+      "item_id": "qc-pri-ap-006-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Dispose librement sur une petite feuille trois éléments pour que l’action soit lue avant le lieu; explique ce que le lecteur voit d’abord.",
+      "stimulus": "Trois cartes textuellement définies : « PRÊTE UN LIVRE », un livre dessiné de manière originale et « COIN LECTURE ». Tu peux redessiner ou agrandir chacune, sans ajouter de nouvelles informations.",
+      "reponse_attendue": "Composition observable où le titre de l’action est distingué de l’indication de lieu, dessin non masquant et ordre de lecture expliqué; par exemple un titre haut, un livre au centre, un emplacement en bas. Le placement exact n’est pas une réponse unique.",
+      "criteres": [
+        "Organise volontairement les trois éléments sur un support",
+        "Place sans chevauchement nuisant au sens",
+        "Distingue action et lieu",
+        "Justifie un ordre de lecture; capacité de composition équivalente au préalable observable"
+      ],
+      "feedback": "Si les cartes se superposent par défaut, reprendre avec trois zones manipulables puis retirer le gabarit. Ne pas exiger d’avoir suivi le préalable si la compétence est démontrée.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "role": "diagnostic",
+      "representation": "production_plastique_et_commentaire",
+      "variations_autorisees": [
+        "support_et_taille_adaptes",
+        "modalite_orale_ou_tactile"
+      ],
+      "limites_variation": "Scénario, public, action, niveau et critères fixes; ne jamais transformer en QCM, modifier le brief ni générer un contexte non révisé.",
+      "securite_et_droits": "matériel scolaire sûr, signes originaux, pas de marque/logos/photos identifiantes, essai pair anonyme",
+      "justification_rubrique": "La correction juge l’intelligibilité pour le public et la démarche vérifiable; la diversité de compositions est licite et le goût personnel ne constitue pas un critère."
+    },
+    {
+      "item_id": "qc-pri-ap-006-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Identifie trois raisons concrètes pour lesquelles le public pourrait ne pas comprendre cette invitation; propose trois retouches reliées une à une aux obstacles.",
+      "stimulus": "Pour de jeunes enfants, une affiche fictive « Le coin lecture ouvre » comporte 4 slogans de même taille, 7 étoiles couvrant un livre minuscule, texte « Viens choisir un livre » écrit en pâle sur fond clair, aucun lieu indiqué.",
+      "reponse_attendue": "Analyse possible : contraste insuffisant → foncer lettres ou fond; messages concurrents → agrandir « VIENS CHOISIR UN LIVRE » et supprimer slogans secondaires; lieu manquant → ajouter « COIN LECTURE » clairement; image masquée → agrandir le livre / simplifier la surface. Toute triade justifiée est recevable.",
+      "criteres": [
+        "Repère au moins trois obstacles réellement présents",
+        "Relie chaque obstacle à une difficulté de compréhension",
+        "Propose pour chacun une retouche visualisable",
+        "Évite un jugement de goût comme unique justification"
+      ],
+      "feedback": "Une critique « pas beau » n’est pas informative : demander quel élément précis bloque la lecture, puis quelle retouche changerait cet effet.",
+      "difficulte": "initial",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "role": "formatif",
+      "representation": "analyse_commentee_de_composition",
+      "variations_autorisees": [
+        "support_papier_ou_numerique_simple",
+        "taille_adaptee",
+        "modalite_orale_ecrite_ou_tactile_accessible",
+        "signes_visuels_originaux_et_palette_libre_contraste"
+      ],
+      "limites_variation": "Scénario, public, action, niveau et critères fixes; ne jamais transformer en QCM, modifier le brief ni générer un contexte non révisé.",
+      "securite_et_droits": "matériel scolaire sûr, signes originaux, pas de marque/logos/photos identifiantes, essai pair anonyme",
+      "justification_rubrique": "La correction juge l’intelligibilité pour le public et la démarche vérifiable; la diversité de compositions est licite et le goût personnel ne constitue pas un critère."
+    },
+    {
+      "item_id": "qc-pri-ap-006-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Réalise deux mini-croquis originaux pour le MÊME message, adaptés aux deux publics définis; justifie deux différences.",
+      "stimulus": "Action stable : « Dépose les livres ici ». Public A : enfants qui découvrent la bibliothèque de classe. Public B : adultes qui s’occupent de ranger les livres dans une salle commune fictive. Support libre mais deux petits rectangles à comparer.",
+      "reponse_attendue": "Deux versions compréhensibles du rangement des livres : pour A, geste imagé lisible et peu de texte; pour B, titre et indications de repérage adaptées au lieu; les deux évitent un code couleur seul et conservent la même action. Les styles exacts sont libres; deux adaptations reliées aux publics sont attendues.",
+      "criteres": [
+        "Deux compositions distinctes présentées",
+        "Même message de rangement conservé",
+        "Deux choix visuels reliés à des publics précis",
+        "Lisibilité justifiée sans noter style ni palette"
+      ],
+      "feedback": "Si les deux versions sont identiques, demander quel obstacle concret rencontre un débutant et quelle précision est utile à un adulte, puis refaire une seule zone.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "role": "formatif",
+      "representation": "production_plastique_et_commentaire",
+      "variations_autorisees": [
+        "support_papier_ou_numerique_simple",
+        "taille_adaptee",
+        "modalite_orale_ecrite_ou_tactile_accessible",
+        "signes_visuels_originaux_et_palette_libre_contraste"
+      ],
+      "limites_variation": "Scénario, public, action, niveau et critères fixes; ne jamais transformer en QCM, modifier le brief ni générer un contexte non révisé.",
+      "securite_et_droits": "matériel scolaire sûr, signes originaux, pas de marque/logos/photos identifiantes, essai pair anonyme",
+      "justification_rubrique": "La correction juge l’intelligibilité pour le public et la démarche vérifiable; la diversité de compositions est licite et le goût personnel ne constitue pas un critère."
+    },
+    {
+      "item_id": "qc-pri-ap-006-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Compose une affiche près d’un lavabo fictif; prévois la lecture dans son lieu d’usage et décris comment tu la testerais sans imposer une couleur.",
+      "stimulus": "Public : participants d’un atelier de peinture à l’eau. Message requis : « LAVE TES MAINS AVANT LA PEINTURE ». Situation : affiche visible près d’un lavabo de classe; pas de photo du lieu ni d’élève.",
+      "reponse_attendue": "Affiche ou croquis avec « LAVE TES MAINS » prioritaire, dessin personnel de mains sous eau ou symbole intelligible, précision temporelle repérable; espacement et contraste suffisants dans la modalité de présentation choisie; protocole de lecture non suggestif. Pas de distance universelle obligatoire.",
+      "criteres": [
+        "Action et moment conservés",
+        "Titre ou geste central repérable",
+        "Contraste ou équivalent accessible et zones lisibles",
+        "Propose un essai adapté à la distance et aux capacités du public"
+      ],
+      "feedback": "Si des mots pâles se perdent sur le fond, expérimenter deux valeurs contrastées et refaire la lecture au point d’usage accessible.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "role": "formatif",
+      "representation": "production_plastique_et_commentaire",
+      "variations_autorisees": [
+        "support_papier_ou_numerique_simple",
+        "taille_adaptee",
+        "modalite_orale_ecrite_ou_tactile_accessible",
+        "signes_visuels_originaux_et_palette_libre_contraste"
+      ],
+      "limites_variation": "Scénario, public, action, niveau et critères fixes; ne jamais transformer en QCM, modifier le brief ni générer un contexte non révisé.",
+      "securite_et_droits": "matériel scolaire sûr, signes originaux, pas de marque/logos/photos identifiantes, essai pair anonyme",
+      "justification_rubrique": "La correction juge l’intelligibilité pour le public et la démarche vérifiable; la diversité de compositions est licite et le goût personnel ne constitue pas un critère."
+    },
+    {
+      "item_id": "qc-pri-ap-006-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Prépare une affiche miniature, montre-la sans brief à un pair disponible et consigne exactement sa réponse; décide d’une révision ou d’un maintien motivé.",
+      "stimulus": "Situation fictive : signaler « LE MATÉRIEL DE DESSIN SE RANGE ICI » aux usagers d’un atelier. Question ouverte imposée au pair : « Que comprends-tu? Que ferais-tu? »; le pair n’est pas prévenu du message.",
+      "reponse_attendue": "Trace attendue : image ou croquis, questions ouvertes formulées sans indice, réponse du pair anonyme consignée fidèlement, décision « je modifie … parce que … » ou « je conserve … parce que le pair a compris … »; re-test conseillé après changement. Aucune réponse du pair n’est inventée par l’évaluateur.",
+      "criteres": [
+        "Affiche adressée au public du scénario",
+        "Question ouverte sans réponse soufflée",
+        "Relevé anonyme et fidèle d’une réponse effectivement obtenue",
+        "Décision de révision/maintien appuyée sur ce relevé"
+      ],
+      "feedback": "Si le créateur explique l’affiche avant la question, renouveler l’essai avec un pair non informé; n’accepter aucune réaction imaginaire comme résultat.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "role": "formatif",
+      "representation": "production_plastique_et_commentaire",
+      "variations_autorisees": [
+        "support_papier_ou_numerique_simple",
+        "taille_adaptee",
+        "modalite_orale_ecrite_ou_tactile_accessible",
+        "signes_visuels_originaux_et_palette_libre_contraste"
+      ],
+      "limites_variation": "Scénario, public, action, niveau et critères fixes; ne jamais transformer en QCM, modifier le brief ni générer un contexte non révisé.",
+      "securite_et_droits": "matériel scolaire sûr, signes originaux, pas de marque/logos/photos identifiantes, essai pair anonyme",
+      "justification_rubrique": "La correction juge l’intelligibilité pour le public et la démarche vérifiable; la diversité de compositions est licite et le goût personnel ne constitue pas un critère."
+    },
+    {
+      "item_id": "qc-pri-ap-006-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Réalise seul une affiche de rangement des cubes, puis explique comment tu as rendu le message facile à repérer.",
+      "stimulus": "Coin de manipulation fictif, jeunes utilisateurs. Message à communiquer : « RANGE LES CUBES ICI ». Destinataire et but fixés; dessin original, collage et format libre.",
+      "reponse_attendue": "Affiche observable comportant une demande de ranger les cubes, un indice visuel lié aux cubes et une zone « ici » repérable; phrase de justification sur la taille, la proximité ou l’ordre de lecture. Plusieurs solutions plastiques acceptées.",
+      "criteres": [
+        "Public et action clairement identifiés",
+        "Symbole ou mise en page en lien avec cubes et lieu",
+        "Hiérarchie et contraste utilisables",
+        "Justification d’au moins un choix pour le public"
+      ],
+      "feedback": "Si le « ici » n’a aucun référent, nommer ou montrer le lieu, puis demander à un observateur où il rangerait les cubes.",
+      "difficulte": "intermediaire",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "role": "entrainement_autonome",
+      "representation": "production_plastique_et_commentaire",
+      "variations_autorisees": [
+        "support_papier_ou_numerique_simple",
+        "taille_adaptee",
+        "modalite_orale_ecrite_ou_tactile_accessible",
+        "signes_visuels_originaux_et_palette_libre_contraste"
+      ],
+      "limites_variation": "Scénario, public, action, niveau et critères fixes; ne jamais transformer en QCM, modifier le brief ni générer un contexte non révisé.",
+      "securite_et_droits": "matériel scolaire sûr, signes originaux, pas de marque/logos/photos identifiantes, essai pair anonyme",
+      "justification_rubrique": "La correction juge l’intelligibilité pour le public et la démarche vérifiable; la diversité de compositions est licite et le goût personnel ne constitue pas un critère."
+    },
+    {
+      "item_id": "qc-pri-ap-006-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-006-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Conçois, sans gabarit, une affiche à deux gestes dans un petit format; garde visibles le bon ordre et le public.",
+      "stimulus": "Étagère fictive d’un atelier, élèves plus âgés. Séquence immuable : « REFERME LES FEUTRES, PUIS RANGE-LES ». Support possible : bande étroite ou petite affiche. Aucune marque de commerce et aucun personnage emprunté.",
+      "reponse_attendue": "Deux étapes ordonnées, visuellement distinguables (numérotation facultative, deux gestes dessinés ou flèches), compréhensibles sans ajout oral; taille et espace adaptés au support; justification du parcours de lecture. Dessin libre.",
+      "criteres": [
+        "Conserve refermer AVANT ranger",
+        "Les deux gestes sont visibles et reconnaissables",
+        "Le format limité reste organisé sans surcharge",
+        "L’élève justifie le cheminement visuel sans guidage"
+      ],
+      "feedback": "Si seul le rangement est représenté, demander quelle action doit précéder celle-ci, puis retravailler l’ordre des deux signes.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "role": "entrainement_autonome",
+      "representation": "production_plastique_et_commentaire",
+      "variations_autorisees": [
+        "support_papier_ou_numerique_simple",
+        "taille_adaptee",
+        "modalite_orale_ecrite_ou_tactile_accessible",
+        "signes_visuels_originaux_et_palette_libre_contraste"
+      ],
+      "limites_variation": "Scénario, public, action, niveau et critères fixes; ne jamais transformer en QCM, modifier le brief ni générer un contexte non révisé.",
+      "securite_et_droits": "matériel scolaire sûr, signes originaux, pas de marque/logos/photos identifiantes, essai pair anonyme",
+      "justification_rubrique": "La correction juge l’intelligibilité pour le public et la démarche vérifiable; la diversité de compositions est licite et le goût personnel ne constitue pas un critère."
+    },
+    {
+      "item_id": "qc-pri-ap-006-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Sans modèle ni aide sur les choix visuels, réalise une affiche d’invitation au coin lecture. Fais vérifier par un pair non informé; relève anonymement son interprétation et révise si nécessaire.",
+      "stimulus": "Scénario fictif A : destinataires = jeunes enfants découvrant le coin lecture de la classe. Message indispensable : « VIENS CHOISIR UN LIVRE AU COIN LECTURE ». Supports sûrs accessibles au choix. Avant de présenter l’affiche, ne pas expliquer le brief au pair. Questions ouvertes : « Que comprends-tu? Que ferais-tu? Où? ».",
+      "reponse_attendue": "Preuve matérielle/numérique avec action CHOISIR UN LIVRE et lieu COIN LECTURE perceptibles, choix de composition liés au jeune public, vérification réelle par pair non informé consignée sans identité, révision justifiée ou maintien motivé. Le pair doit pouvoir reformuler le sens après le processus; une ébauche seulement décorative ne suffit pas. D1–D4 >=2 requis.",
+      "criteres": [
+        "D1 >=2 : public enfant identifié et adaptation motivée",
+        "D2 >=2 : action et lieu compris après éventuelle correction",
+        "D3 >=2 : composition et lisibilité adaptées à l’accès",
+        "D4 >=2 : pair non informé, question ouverte, réponse anonyme, décision motivée",
+        "Choix plastiques autonomes; aides techniques non directives possibles"
+      ],
+      "feedback": "Si le pair lit « regarde un livre » au lieu de « choisis un livre », suggérer à l’évaluateur de demander une nouvelle tentative de communication sans dicter la solution; recueillir une interprétation non soufflée après la révision.",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "role": "preuve_maitrise_A",
+      "representation": "production_plastique_et_commentaire",
+      "variations_autorisees": [
+        "support_papier_ou_numerique_simple",
+        "taille_adaptee",
+        "modalite_orale_ecrite_ou_tactile_accessible",
+        "signes_visuels_originaux_et_palette_libre_contraste"
+      ],
+      "limites_variation": "Scénario, public, action, niveau et critères fixes; ne jamais transformer en QCM, modifier le brief ni générer un contexte non révisé.",
+      "securite_et_droits": "matériel scolaire sûr, signes originaux, pas de marque/logos/photos identifiantes, essai pair anonyme",
+      "justification_rubrique": "La correction juge l’intelligibilité pour le public et la démarche vérifiable; la diversité de compositions est licite et le goût personnel ne constitue pas un critère.",
+      "preuve_maitrise": true,
+      "conditions_autonomie": "Sans indice de composition; test de compréhension réel avec pair non informé et traçabilité anonyme. Aides d’accès non directives autorisées.",
+      "decision_maitrise": "Quatre dimensions D1-D4 de GRILLE_MAITRISE.md >=2 pour cette preuve ET pour l’autre preuve; jamais une note isolée."
+    },
+    {
+      "item_id": "qc-pri-ap-006-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ap-006-ev-01",
+      "mode": "fixe",
+      "consigne": "Crée indépendamment une seconde affiche, dans un AUTRE contexte, pour des utilisateurs d’atelier; montre-la sans brief à un pair et décide d’une correction fondée sur sa compréhension.",
+      "stimulus": "Scénario fictif B : destinataires = personnes empruntant des crayons de couleur dans un atelier partagé. Message indispensable : « APRÈS UTILISATION, RANGE LES CRAYONS DANS LE POT CRAYONS ». Le pot est identifié par le mot CRAYONS et non seulement par une couleur. Questions ouvertes : « Que fais-tu des crayons? Où? Quand? »; ne pas souffler le brief au pair.",
+      "reponse_attendue": "Nouvelle affiche conçue sans copier celle du coin lecture; gestes et destination compréhensibles, texte ou pictogramme utile accessible, représentation du pot identifiable, composition organisée; réponse réellement relevée d’un pair non informé, révision ou maintien motivé, autonomie documentée. D1–D4 >=2 requis séparément de la preuve A.",
+      "criteres": [
+        "D1 >=2 : destinataire de l’atelier nommé et choix adaptés",
+        "D2 >=2 : rangement après usage dans le pot CRAYONS compris",
+        "D3 >=2 : pot, geste et indications lisibles selon le support",
+        "D4 >=2 : pair non informé, réponse fidèle anonyme et ajustement/maintien justifié",
+        "Nouvelle production indépendante du contexte A; aide d’accès sans solution imposée"
+      ],
+      "feedback": "Si le pair comprend « jeter les crayons », l’évaluateur constate l’ambiguïté et fait réviser la destination visuelle; un re-test ouvert doit vérifier le sens sans souffler « pot ».",
+      "difficulte": "transfert",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "role": "preuve_maitrise_B",
+      "representation": "production_plastique_et_commentaire",
+      "variations_autorisees": [
+        "support_papier_ou_numerique_simple",
+        "taille_adaptee",
+        "modalite_orale_ecrite_ou_tactile_accessible",
+        "signes_visuels_originaux_et_palette_libre_contraste"
+      ],
+      "limites_variation": "Scénario, public, action, niveau et critères fixes; ne jamais transformer en QCM, modifier le brief ni générer un contexte non révisé.",
+      "securite_et_droits": "matériel scolaire sûr, signes originaux, pas de marque/logos/photos identifiantes, essai pair anonyme",
+      "justification_rubrique": "La correction juge l’intelligibilité pour le public et la démarche vérifiable; la diversité de compositions est licite et le goût personnel ne constitue pas un critère.",
+      "preuve_maitrise": true,
+      "conditions_autonomie": "Sans indice de composition; test de compréhension réel avec pair non informé et traçabilité anonyme. Aides d’accès non directives autorisées.",
+      "decision_maitrise": "Quatre dimensions D1-D4 de GRILLE_MAITRISE.md >=2 pour cette preuve ET pour l’autre preuve; jamais une note isolée."
+    }
+  ]
+}

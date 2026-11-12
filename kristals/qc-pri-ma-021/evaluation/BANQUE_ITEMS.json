@@ -1,0 +1,1152 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-021",
+  "family_id": "qc-pri-ma-021-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-021-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "fixe",
+      "consigne": "Lis le point indiqué et compare-le à l’autre point. Quelle paire désigne A, quelle paire désigne B et sont-ils au même endroit ?",
+      "stimulus": "Grille orientée N↑. A est colonne 2, rangée 5; B est colonne 5, rangée 2. Convention (colonne ; rangée).",
+      "reponse_attendue": "A=(2 ; 5), B=(5 ; 2); ces deux points sont distincts (coordonnées inversées).",
+      "criteres": [
+        "A correctement situé et noté",
+        "B correctement situé et noté",
+        "distinction claire entre colonne x et rangée y"
+      ],
+      "feedback": "Si tu inverses les deux nombres, place séparément les doigts sur la colonne puis sur la rangée.",
+      "difficulte": "initial",
+      "representation": "point et notation (x ; y)",
+      "variations_permises": "Seules les adaptations de présentation (taille des caractères, oral, tactile, écriture assistée neutre) sont permises; valeurs, repère et exigences restent fixes.",
+      "limites_variation": "Grille de points 6×6, N en haut, x est à droite, y vers le haut, 1 ≤ x,y ≤ 6; sans diagonales, tous les pas doivent être explicites et légaux. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-021-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "fixe",
+      "consigne": "Depuis le point indiqué, suis E1 puis N2. Écris les positions successives; explique quel axe change à l’est et au nord.",
+      "stimulus": "Grille 6×6, N↑; départ (3 ; 2); E1 puis N2.",
+      "reponse_attendue": "Trace (3 ; 2) → (4 ; 2) → (4 ; 3) → (4 ; 4). E augmente x; N augmente y.",
+      "criteres": [
+        "axe changé exact",
+        "trois positions intermédiaires/arrivée correctes",
+        "repère cardinal maintenu"
+      ],
+      "feedback": "L’est ne modifie que la colonne; le nord ne modifie que la rangée. Recommence en notant chaque pas.",
+      "difficulte": "initial",
+      "representation": "pion et trace symbolique",
+      "variations_permises": "Seules les adaptations de présentation (taille des caractères, oral, tactile, écriture assistée neutre) sont permises; valeurs, repère et exigences restent fixes.",
+      "limites_variation": "Grille de points 6×6, N en haut, x est à droite, y vers le haut, 1 ≤ x,y ≤ 6; sans diagonales, tous les pas doivent être explicites et légaux. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-021-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "parametrique",
+      "consigne": "Effectue les commandes dans leur ordre. Indique toutes les positions traversées, l’arrivée et le rôle des axes.",
+      "stimulus": "Départ (5 ; 2), nord en haut, commandes S1, O3.",
+      "reponse_attendue": "Trajet légal ; trace (5 ; 2) → (5 ; 1) → (4 ; 1) → (3 ; 1) → (2 ; 1) ; arrivée (2 ; 1)",
+      "criteres": [
+        "ordre des deux segments respecté",
+        "chaque point intermédiaire noté",
+        "arrivée exacte et pas tous légaux"
+      ],
+      "feedback": "Si seule l’arrivée est notée, découpe chaque commande en pas unitaires et complète la trace.",
+      "difficulte": "initial",
+      "representation": "pion + notation",
+      "variations_permises": "Quatre variantes exactement, parametres.cas[0..3]; index=seed%4. Chaque variante contient son stimulus et sa réponse calculée, sans substitution libre.",
+      "limites_variation": "Aucune commande ne peut franchir le bord. Même repère de points, mêmes critères; une nouvelle seed sélectionne seulement une autre entrée vérifiée de la table.",
+      "seed": 21003,
+      "parametres": {
+        "type": "ensemble_fini_parametrique_deterministe",
+        "seed": 21003,
+        "algorithme_selection": "index = seed % 4 ; choisir parametres.cas[index] ; aucun tirage ni reformulation IA libre",
+        "index_selectionne": 3,
+        "variables": {
+          "x0": "entier 1..6",
+          "y0": "entier 1..6",
+          "directions": "E, O, N, S",
+          "longueurs": "entiers 1..3",
+          "passage": "point entier dans 1..6 si item q-009"
+        },
+        "contraintes": "Décomposer chaque segment en pas unitaires. x et y des points légaux doivent rester entre 1 et 6; q-006 peut inclure une première sortie à signaler et à arrêter. Aucune diagonale. Point de passage obligatoire lorsque spécifié.",
+        "algorithme_solution": "Initialiser trace=[depart], incrémenter x ou y de ±1 à chacun des pas dans l’ordre; ajouter chaque nouveau point; arrêter et signaler le premier pas hors grille; si tous légaux, point final=dernier point. Dans q-009, vérifier passage imposé et nombre de pas = distance Manhattan via le passage.",
+        "controle_independant": "Recalculer l’arrivée par bilan des pas orientés; contrôler trace, bornes et longueur; pour q-009 calculer la borne de Manhattan via le passage et vérifier une route réalisable minimale; comparer aussi avec un parcours en largeur (BFS) sur la grille lors des tests de production.",
+        "cas": [
+          {
+            "depart": [
+              1,
+              1
+            ],
+            "commandes": [
+              [
+                "E",
+                2
+              ],
+              [
+                "N",
+                1
+              ]
+            ],
+            "case_id": "003-1",
+            "trace_attendue": [
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "arrivee_attendue": [
+              3,
+              2
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (1 ; 1), nord en haut, commandes E2, N1.",
+            "reponse_attendue": "Trajet légal ; trace (1 ; 1) → (2 ; 1) → (3 ; 1) → (3 ; 2) ; arrivée (3 ; 2)"
+          },
+          {
+            "depart": [
+              4,
+              4
+            ],
+            "commandes": [
+              [
+                "O",
+                1
+              ],
+              [
+                "S",
+                2
+              ]
+            ],
+            "case_id": "003-2",
+            "trace_attendue": [
+              [
+                4,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "arrivee_attendue": [
+              3,
+              2
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (4 ; 4), nord en haut, commandes O1, S2.",
+            "reponse_attendue": "Trajet légal ; trace (4 ; 4) → (3 ; 4) → (3 ; 3) → (3 ; 2) ; arrivée (3 ; 2)"
+          },
+          {
+            "depart": [
+              2,
+              5
+            ],
+            "commandes": [
+              [
+                "N",
+                1
+              ],
+              [
+                "E",
+                3
+              ]
+            ],
+            "case_id": "003-3",
+            "trace_attendue": [
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                6
+              ],
+              [
+                5,
+                6
+              ]
+            ],
+            "arrivee_attendue": [
+              5,
+              6
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (2 ; 5), nord en haut, commandes N1, E3.",
+            "reponse_attendue": "Trajet légal ; trace (2 ; 5) → (2 ; 6) → (3 ; 6) → (4 ; 6) → (5 ; 6) ; arrivée (5 ; 6)"
+          },
+          {
+            "depart": [
+              5,
+              2
+            ],
+            "commandes": [
+              [
+                "S",
+                1
+              ],
+              [
+                "O",
+                3
+              ]
+            ],
+            "case_id": "003-4",
+            "trace_attendue": [
+              [
+                5,
+                2
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            "arrivee_attendue": [
+              2,
+              1
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (5 ; 2), nord en haut, commandes S1, O3.",
+            "reponse_attendue": "Trajet légal ; trace (5 ; 2) → (5 ; 1) → (4 ; 1) → (3 ; 1) → (2 ; 1) ; arrivée (2 ; 1)"
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-021-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "parametrique",
+      "consigne": "Suis la route comportant plusieurs changements de direction; restitue la trace et l’arrivée.",
+      "stimulus": "Départ (2 ; 3), nord en haut, commandes N2, E2, S1.",
+      "reponse_attendue": "Trajet légal ; trace (2 ; 3) → (2 ; 4) → (2 ; 5) → (3 ; 5) → (4 ; 5) → (4 ; 4) ; arrivée (4 ; 4)",
+      "criteres": [
+        "chaque changement de direction pris dans l’ordre",
+        "positions intermédiaires exactes",
+        "aucune diagonale ou sortie de la grille"
+      ],
+      "feedback": "Un changement de direction ne fait pas tourner les axes : reprends le dernier point correct et le prochain pas.",
+      "difficulte": "intermediaire",
+      "representation": "tracé et séquence de commandes",
+      "variations_permises": "Quatre variantes exactement, parametres.cas[0..3]; index=seed%4. Chaque variante contient son stimulus et sa réponse calculée, sans substitution libre.",
+      "limites_variation": "Toutes les routes approuvées demeurent dans la grille. Même repère de points, mêmes critères; une nouvelle seed sélectionne seulement une autre entrée vérifiée de la table.",
+      "seed": 21004,
+      "parametres": {
+        "type": "ensemble_fini_parametrique_deterministe",
+        "seed": 21004,
+        "algorithme_selection": "index = seed % 4 ; choisir parametres.cas[index] ; aucun tirage ni reformulation IA libre",
+        "index_selectionne": 0,
+        "variables": {
+          "x0": "entier 1..6",
+          "y0": "entier 1..6",
+          "directions": "E, O, N, S",
+          "longueurs": "entiers 1..3",
+          "passage": "point entier dans 1..6 si item q-009"
+        },
+        "contraintes": "Décomposer chaque segment en pas unitaires. x et y des points légaux doivent rester entre 1 et 6; q-006 peut inclure une première sortie à signaler et à arrêter. Aucune diagonale. Point de passage obligatoire lorsque spécifié.",
+        "algorithme_solution": "Initialiser trace=[depart], incrémenter x ou y de ±1 à chacun des pas dans l’ordre; ajouter chaque nouveau point; arrêter et signaler le premier pas hors grille; si tous légaux, point final=dernier point. Dans q-009, vérifier passage imposé et nombre de pas = distance Manhattan via le passage.",
+        "controle_independant": "Recalculer l’arrivée par bilan des pas orientés; contrôler trace, bornes et longueur; pour q-009 calculer la borne de Manhattan via le passage et vérifier une route réalisable minimale; comparer aussi avec un parcours en largeur (BFS) sur la grille lors des tests de production.",
+        "cas": [
+          {
+            "depart": [
+              2,
+              3
+            ],
+            "commandes": [
+              [
+                "N",
+                2
+              ],
+              [
+                "E",
+                2
+              ],
+              [
+                "S",
+                1
+              ]
+            ],
+            "case_id": "004-1",
+            "trace_attendue": [
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            "arrivee_attendue": [
+              4,
+              4
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (2 ; 3), nord en haut, commandes N2, E2, S1.",
+            "reponse_attendue": "Trajet légal ; trace (2 ; 3) → (2 ; 4) → (2 ; 5) → (3 ; 5) → (4 ; 5) → (4 ; 4) ; arrivée (4 ; 4)"
+          },
+          {
+            "depart": [
+              5,
+              5
+            ],
+            "commandes": [
+              [
+                "O",
+                2
+              ],
+              [
+                "S",
+                2
+              ],
+              [
+                "E",
+                1
+              ]
+            ],
+            "case_id": "004-2",
+            "trace_attendue": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                3
+              ]
+            ],
+            "arrivee_attendue": [
+              4,
+              3
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (5 ; 5), nord en haut, commandes O2, S2, E1.",
+            "reponse_attendue": "Trajet légal ; trace (5 ; 5) → (4 ; 5) → (3 ; 5) → (3 ; 4) → (3 ; 3) → (4 ; 3) ; arrivée (4 ; 3)"
+          },
+          {
+            "depart": [
+              2,
+              2
+            ],
+            "commandes": [
+              [
+                "E",
+                3
+              ],
+              [
+                "N",
+                2
+              ],
+              [
+                "O",
+                1
+              ]
+            ],
+            "case_id": "004-3",
+            "trace_attendue": [
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            "arrivee_attendue": [
+              4,
+              4
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (2 ; 2), nord en haut, commandes E3, N2, O1.",
+            "reponse_attendue": "Trajet légal ; trace (2 ; 2) → (3 ; 2) → (4 ; 2) → (5 ; 2) → (5 ; 3) → (5 ; 4) → (4 ; 4) ; arrivée (4 ; 4)"
+          },
+          {
+            "depart": [
+              4,
+              1
+            ],
+            "commandes": [
+              [
+                "N",
+                3
+              ],
+              [
+                "O",
+                2
+              ],
+              [
+                "S",
+                1
+              ]
+            ],
+            "case_id": "004-4",
+            "trace_attendue": [
+              [
+                4,
+                1
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "arrivee_attendue": [
+              2,
+              3
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (4 ; 1), nord en haut, commandes N3, O2, S1.",
+            "reponse_attendue": "Trajet légal ; trace (4 ; 1) → (4 ; 2) → (4 ; 3) → (4 ; 4) → (3 ; 4) → (2 ; 4) → (2 ; 3) ; arrivée (2 ; 3)"
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-021-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "fixe",
+      "consigne": "Distingue ces deux parcours. Donne les points visités et indique lequel traverse le point obligatoire (4 ; 2).",
+      "stimulus": "Départ (2 ; 2), nord en haut; route R : E2 puis N1; route T : N1 puis E2.",
+      "reponse_attendue": "R: (2 ; 2),(3 ; 2),(4 ; 2),(4 ; 3); T: (2 ; 2),(2 ; 3),(3 ; 3),(4 ; 3). Seule R passe par (4 ; 2). Même arrivée ne signifie pas même parcours.",
+      "criteres": [
+        "traces R et T exactes",
+        "point obligatoire identifié pour R uniquement",
+        "distinction explicite entre arrivée et chemin"
+      ],
+      "feedback": "Comparer les points visités dans l’ordre, pas seulement les dernières coordonnées.",
+      "difficulte": "intermediaire",
+      "representation": "deux routes et contrôle d’étape",
+      "variations_permises": "Seules les adaptations de présentation (taille des caractères, oral, tactile, écriture assistée neutre) sont permises; valeurs, repère et exigences restent fixes.",
+      "limites_variation": "Grille de points 6×6, N en haut, x est à droite, y vers le haut, 1 ≤ x,y ≤ 6; sans diagonales, tous les pas doivent être explicites et légaux. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-021-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "parametrique",
+      "consigne": "Décide si le trajet est autorisé sur la grille 6×6; suis les pas et signale le premier point interdit, ou donne la trace complète si elle est légale.",
+      "stimulus": "Départ (1 ; 1), nord en haut, commandes E2, N2.",
+      "reponse_attendue": "Trajet légal ; trace (1 ; 1) → (2 ; 1) → (3 ; 1) → (3 ; 2) → (3 ; 3) ; arrivée (3 ; 3)",
+      "criteres": [
+        "statut légal/illégal correct",
+        "premier pas illégal nommé ou trace complète",
+        "contrôle de tous les points, non du seul bilan"
+      ],
+      "feedback": "Une étape hors 1…6 invalide le parcours immédiatement, même si une commande suivante ramènerait dans la grille.",
+      "difficulte": "intermediaire",
+      "representation": "grille et validation de limites",
+      "variations_permises": "Quatre variantes exactement, parametres.cas[0..3]; index=seed%4. Chaque variante contient son stimulus et sa réponse calculée, sans substitution libre.",
+      "limites_variation": "Deux cas légaux et deux illégaux; signaler le premier pas hors grille. Même repère de points, mêmes critères; une nouvelle seed sélectionne seulement une autre entrée vérifiée de la table.",
+      "seed": 21006,
+      "parametres": {
+        "type": "ensemble_fini_parametrique_deterministe",
+        "seed": 21006,
+        "algorithme_selection": "index = seed % 4 ; choisir parametres.cas[index] ; aucun tirage ni reformulation IA libre",
+        "index_selectionne": 2,
+        "variables": {
+          "x0": "entier 1..6",
+          "y0": "entier 1..6",
+          "directions": "E, O, N, S",
+          "longueurs": "entiers 1..3",
+          "passage": "point entier dans 1..6 si item q-009"
+        },
+        "contraintes": "Décomposer chaque segment en pas unitaires. x et y des points légaux doivent rester entre 1 et 6; q-006 peut inclure une première sortie à signaler et à arrêter. Aucune diagonale. Point de passage obligatoire lorsque spécifié.",
+        "algorithme_solution": "Initialiser trace=[depart], incrémenter x ou y de ±1 à chacun des pas dans l’ordre; ajouter chaque nouveau point; arrêter et signaler le premier pas hors grille; si tous légaux, point final=dernier point. Dans q-009, vérifier passage imposé et nombre de pas = distance Manhattan via le passage.",
+        "controle_independant": "Recalculer l’arrivée par bilan des pas orientés; contrôler trace, bornes et longueur; pour q-009 calculer la borne de Manhattan via le passage et vérifier une route réalisable minimale; comparer aussi avec un parcours en largeur (BFS) sur la grille lors des tests de production.",
+        "cas": [
+          {
+            "depart": [
+              6,
+              2
+            ],
+            "commandes": [
+              [
+                "E",
+                1
+              ]
+            ],
+            "case_id": "006-1",
+            "trace_attendue": [
+              [
+                6,
+                2
+              ],
+              [
+                7,
+                2
+              ]
+            ],
+            "arrivee_attendue": null,
+            "trajet_legal": false,
+            "premiere_erreur": {
+              "point": [
+                7,
+                2
+              ],
+              "raison": "hors_grille"
+            },
+            "stimulus": "Départ (6 ; 2), nord en haut, commandes E1.",
+            "reponse_attendue": "Trajet illégal ; trace (6 ; 2) → (7 ; 2) ; premier point interdit (7 ; 2) (hors grille); la commande doit être arrêtée avant ce pas"
+          },
+          {
+            "depart": [
+              1,
+              6
+            ],
+            "commandes": [
+              [
+                "O",
+                1
+              ]
+            ],
+            "case_id": "006-2",
+            "trace_attendue": [
+              [
+                1,
+                6
+              ],
+              [
+                0,
+                6
+              ]
+            ],
+            "arrivee_attendue": null,
+            "trajet_legal": false,
+            "premiere_erreur": {
+              "point": [
+                0,
+                6
+              ],
+              "raison": "hors_grille"
+            },
+            "stimulus": "Départ (1 ; 6), nord en haut, commandes O1.",
+            "reponse_attendue": "Trajet illégal ; trace (1 ; 6) → (0 ; 6) ; premier point interdit (0 ; 6) (hors grille); la commande doit être arrêtée avant ce pas"
+          },
+          {
+            "depart": [
+              1,
+              1
+            ],
+            "commandes": [
+              [
+                "E",
+                2
+              ],
+              [
+                "N",
+                2
+              ]
+            ],
+            "case_id": "006-3",
+            "trace_attendue": [
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "arrivee_attendue": [
+              3,
+              3
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (1 ; 1), nord en haut, commandes E2, N2.",
+            "reponse_attendue": "Trajet légal ; trace (1 ; 1) → (2 ; 1) → (3 ; 1) → (3 ; 2) → (3 ; 3) ; arrivée (3 ; 3)"
+          },
+          {
+            "depart": [
+              5,
+              5
+            ],
+            "commandes": [
+              [
+                "O",
+                1
+              ],
+              [
+                "S",
+                2
+              ]
+            ],
+            "case_id": "006-4",
+            "trace_attendue": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                3
+              ]
+            ],
+            "arrivee_attendue": [
+              4,
+              3
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (5 ; 5), nord en haut, commandes O1, S2.",
+            "reponse_attendue": "Trajet légal ; trace (5 ; 5) → (4 ; 5) → (4 ; 4) → (4 ; 3) ; arrivée (4 ; 3)"
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-021-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "fixe",
+      "consigne": "Écris et suis la route la plus courte de (1 ; 2) à (4 ; 5) en passant d’abord par (4 ; 2). Donne la trace complète et justifie le minimum.",
+      "stimulus": "Grille 6×6, N↑. Départ (1 ; 2), arrêt obligatoire (4 ; 2), arrivée (4 ; 5).",
+      "reponse_attendue": "E3, N3; trace (1 ; 2),(2 ; 2),(3 ; 2),(4 ; 2),(4 ; 3),(4 ; 4),(4 ; 5). Longueur minimale 3+3=6 pas.",
+      "criteres": [
+        "route reproductible avec ordre d’arrêt correct",
+        "six pas et trace sans erreur",
+        "justification de minimalité par écarts de coordonnées"
+      ],
+      "feedback": "Atteins l’arrêt obligatoire avant le point final; compte les changements de colonne et de rangée.",
+      "difficulte": "intermediaire",
+      "representation": "itinéraire par une étape obligatoire",
+      "variations_permises": "Seules les adaptations de présentation (taille des caractères, oral, tactile, écriture assistée neutre) sont permises; valeurs, repère et exigences restent fixes.",
+      "limites_variation": "Grille de points 6×6, N en haut, x est à droite, y vers le haut, 1 ≤ x,y ≤ 6; sans diagonales, tous les pas doivent être explicites et légaux. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-021-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Une consigne dit « pars de (4 ; 3) et avance de deux points vers la gauche ». Explique pourquoi elle peut être ambiguë; remplace-la par une instruction sans ambiguïté, puis suis-la.",
+      "stimulus": "Deux exécutants peuvent se tenir face à des directions différentes; la grille est N↑, E à droite, O à gauche, et comporte 6×6 points.",
+      "reponse_attendue": "Correction : « Dans la grille dont le nord est en haut, depuis (4 ; 3), fais O2 ». Trace (4 ; 3),(3 ; 3),(2 ; 3); arrivée (2 ; 3).",
+      "criteres": [
+        "ambiguïté de la gauche relative reconnue",
+        "instruction cardinale et repère explicités",
+        "trace exacte et arrivée (2 ; 3)"
+      ],
+      "feedback": "« Gauche » dépend d’où tu regardes. Réfère-toi à Ouest dans la grille à N↑.",
+      "difficulte": "transfert",
+      "representation": "révision de consigne et trace",
+      "variations_permises": "Le scribe peut transcrire la reformulation; consigne, valeurs et convention restent figées; aucune substitution de décor ou d’axes.",
+      "limites_variation": "Grille de points 6×6, N en haut, x est à droite, y vers le haut, 1 ≤ x,y ≤ 6; sans diagonales, tous les pas doivent être explicites et légaux. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-021-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "parametrique",
+      "consigne": "Donne puis suis une route de longueur minimale qui visite le point de passage indiqué **avant** la destination; écris toutes les positions et justifie le minimum.",
+      "stimulus": "Départ (5 ; 5), passage obligatoire (2 ; 5), destination (2 ; 3); nord en haut. Donne et suis un trajet de longueur minimale.",
+      "reponse_attendue": "Commandes O3, S2 ; Trajet légal ; trace (5 ; 5) → (4 ; 5) → (3 ; 5) → (2 ; 5) → (2 ; 4) → (2 ; 3) ; arrivée (2 ; 3) ; point de passage (2 ; 5) visité",
+      "criteres": [
+        "point de passage visité dans l’ordre",
+        "suite et trace complètes reproductibles",
+        "longueur égale à la somme des distances entre les étapes"
+      ],
+      "feedback": "Vérifie séparément départ→passage et passage→arrivée, puis déplie chaque segment en pas unitaires.",
+      "difficulte": "transfert",
+      "representation": "route en deux tronçons avec passage obligatoire",
+      "variations_permises": "Quatre variantes exactement, parametres.cas[0..3]; index=seed%4. Chaque variante contient son stimulus et sa réponse calculée, sans substitution libre.",
+      "limites_variation": "Étape obligatoire et cible fixes par variante; trajet minimal et légal. Même repère de points, mêmes critères; une nouvelle seed sélectionne seulement une autre entrée vérifiée de la table.",
+      "seed": 21009,
+      "parametres": {
+        "type": "ensemble_fini_parametrique_deterministe",
+        "seed": 21009,
+        "algorithme_selection": "index = seed % 4 ; choisir parametres.cas[index] ; aucun tirage ni reformulation IA libre",
+        "index_selectionne": 1,
+        "variables": {
+          "x0": "entier 1..6",
+          "y0": "entier 1..6",
+          "directions": "E, O, N, S",
+          "longueurs": "entiers 1..3",
+          "passage": "point entier dans 1..6 si item q-009"
+        },
+        "contraintes": "Décomposer chaque segment en pas unitaires. x et y des points légaux doivent rester entre 1 et 6; q-006 peut inclure une première sortie à signaler et à arrêter. Aucune diagonale. Point de passage obligatoire lorsque spécifié.",
+        "algorithme_solution": "Initialiser trace=[depart], incrémenter x ou y de ±1 à chacun des pas dans l’ordre; ajouter chaque nouveau point; arrêter et signaler le premier pas hors grille; si tous légaux, point final=dernier point. Dans q-009, vérifier passage imposé et nombre de pas = distance Manhattan via le passage.",
+        "controle_independant": "Recalculer l’arrivée par bilan des pas orientés; contrôler trace, bornes et longueur; pour q-009 calculer la borne de Manhattan via le passage et vérifier une route réalisable minimale; comparer aussi avec un parcours en largeur (BFS) sur la grille lors des tests de production.",
+        "cas": [
+          {
+            "depart": [
+              2,
+              2
+            ],
+            "passage": [
+              5,
+              2
+            ],
+            "arrivee_cible": [
+              5,
+              4
+            ],
+            "commandes": [
+              [
+                "E",
+                3
+              ],
+              [
+                "N",
+                2
+              ]
+            ],
+            "case_id": "009-1",
+            "trace_attendue": [
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "arrivee_attendue": [
+              5,
+              4
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (2 ; 2), passage obligatoire (5 ; 2), destination (5 ; 4); nord en haut. Donne et suis un trajet de longueur minimale.",
+            "reponse_attendue": "Commandes E3, N2 ; Trajet légal ; trace (2 ; 2) → (3 ; 2) → (4 ; 2) → (5 ; 2) → (5 ; 3) → (5 ; 4) ; arrivée (5 ; 4) ; point de passage (5 ; 2) visité",
+            "distance_minimale": 5,
+            "nombre_de_pas": 5
+          },
+          {
+            "depart": [
+              5,
+              5
+            ],
+            "passage": [
+              2,
+              5
+            ],
+            "arrivee_cible": [
+              2,
+              3
+            ],
+            "commandes": [
+              [
+                "O",
+                3
+              ],
+              [
+                "S",
+                2
+              ]
+            ],
+            "case_id": "009-2",
+            "trace_attendue": [
+              [
+                5,
+                5
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "arrivee_attendue": [
+              2,
+              3
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (5 ; 5), passage obligatoire (2 ; 5), destination (2 ; 3); nord en haut. Donne et suis un trajet de longueur minimale.",
+            "reponse_attendue": "Commandes O3, S2 ; Trajet légal ; trace (5 ; 5) → (4 ; 5) → (3 ; 5) → (2 ; 5) → (2 ; 4) → (2 ; 3) ; arrivée (2 ; 3) ; point de passage (2 ; 5) visité",
+            "distance_minimale": 5,
+            "nombre_de_pas": 5
+          },
+          {
+            "depart": [
+              1,
+              5
+            ],
+            "passage": [
+              1,
+              2
+            ],
+            "arrivee_cible": [
+              4,
+              2
+            ],
+            "commandes": [
+              [
+                "S",
+                3
+              ],
+              [
+                "E",
+                3
+              ]
+            ],
+            "case_id": "009-3",
+            "trace_attendue": [
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            "arrivee_attendue": [
+              4,
+              2
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (1 ; 5), passage obligatoire (1 ; 2), destination (4 ; 2); nord en haut. Donne et suis un trajet de longueur minimale.",
+            "reponse_attendue": "Commandes S3, E3 ; Trajet légal ; trace (1 ; 5) → (1 ; 4) → (1 ; 3) → (1 ; 2) → (2 ; 2) → (3 ; 2) → (4 ; 2) ; arrivée (4 ; 2) ; point de passage (1 ; 2) visité",
+            "distance_minimale": 6,
+            "nombre_de_pas": 6
+          },
+          {
+            "depart": [
+              4,
+              1
+            ],
+            "passage": [
+              4,
+              4
+            ],
+            "arrivee_cible": [
+              2,
+              4
+            ],
+            "commandes": [
+              [
+                "N",
+                3
+              ],
+              [
+                "O",
+                2
+              ]
+            ],
+            "case_id": "009-4",
+            "trace_attendue": [
+              [
+                4,
+                1
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "arrivee_attendue": [
+              2,
+              4
+            ],
+            "trajet_legal": true,
+            "premiere_erreur": null,
+            "stimulus": "Départ (4 ; 1), passage obligatoire (4 ; 4), destination (2 ; 4); nord en haut. Donne et suis un trajet de longueur minimale.",
+            "reponse_attendue": "Commandes N3, O2 ; Trajet légal ; trace (4 ; 1) → (4 ; 2) → (4 ; 3) → (4 ; 4) → (3 ; 4) → (2 ; 4) ; arrivée (2 ; 4) ; point de passage (4 ; 4) visité",
+            "distance_minimale": 5,
+            "nombre_de_pas": 5
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-021-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "**Preuve autonome A.** Tu guides une personne dans une bibliothèque fictive. Sans indice, donne une route de **5 pas exactement** du départ au rayon en passant par le comptoir. Exécute ensuite tes propres consignes point par point; note chaque point et explique comment tu sais que le comptoir est visité avant l’arrivée.",
+      "stimulus": "Carte textuelle de points 6×6, nord en haut, x colonnes est, y rangées nord. Départ (1 ; 2); comptoir obligatoire (4 ; 2); rayon final (4 ; 4). Aucun autre obstacle.",
+      "reponse_attendue": "Référence : départ (1 ; 2), E3 puis N2, trace (1 ; 2) → (2 ; 2) → (3 ; 2) → (4 ; 2) [comptoir] → (4 ; 3) → (4 ; 4) [rayon]. 5 pas; arrivée exacte. Les 3 pas E et 2 pas N sont nécessaires; la visite du comptoir est dans l’ordre. Donner puis suivre sans aide.",
+      "criteres": [
+        "R1 repère + départ explicites et stables",
+        "R2 cinq pas légaux, ordre, comptoir obligatoire",
+        "R3 trace complète et arrivée correcte",
+        "R4 une autre personne peut reproduire la même suite sans deviner",
+        "R5 vérification exprimée + autonomie sans indice"
+      ],
+      "feedback": "Si un point est sauté ou l’escale manquée, utiliser ensuite une grille concrète pour remédier, mais ne pas créditer cette tentative assistée; reprendre sur une preuve nouvelle validée.",
+      "difficulte": "transfert",
+      "representation": "carte fictive de bibliothèque et consignes exécutées",
+      "variations_permises": "Présentation neutre uniquement : taille/contraste, oral, tactile, scribe exact; contexte, lieux, nombres, parcours minimum et étape restent fixes.",
+      "limites_variation": "Grille de points 6×6, N en haut, x est à droite, y vers le haut, 1 ≤ x,y ≤ 6; sans diagonales, tous les pas doivent être explicites et légaux. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A",
+      "conditions_passation": "Occasion 1, consigne non corrigée, sans aide cognitive; oral, tactile ou papier permis à critère identique.",
+      "barreme_ou_rubrique": "R1–R5 au niveau 2, chacune nécessaire; aucune seule note ou arrivée correcte suffisante."
+    },
+    {
+      "item_id": "qc-pri-ma-021-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-021-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "**Preuve autonome B.** Tu programmes un robot fictif sur une grille de jardin. Sans indice, donne une route de **7 pas exactement** de départ à destination sans toucher les points interdits; suis tes commandes en montrant chaque position et explique ton détour.",
+      "stimulus": "Plan textuel 6×6 de points, N↑; départ (2 ; 5), arrivée (5 ; 5). Points interdits (3 ; 5),(4 ; 5),(3 ; 4),(4 ; 4),(3 ; 6),(4 ; 6). Un pas horizontal/vertical rejoint un point voisin; interdiction de franchir un point bloqué.",
+      "reponse_attendue": "Référence : S2, E3, N2; trace (2 ; 5) → (2 ; 4) → (2 ; 3) → (3 ; 3) → (4 ; 3) → (5 ; 3) → (5 ; 4) → (5 ; 5). 7 pas, aucun obstacle touché. Pour passer de x=2 à x=5, les points x=3,4 sur y=4,5,6 sont bloqués : descendre au plus à y=3 impose au moins 2 pas S et 2 N, plus 3 E : au moins 7.",
+      "criteres": [
+        "R1 repère + départ explicites et stables",
+        "R2 sept pas légaux, sans diagonale ni obstacle",
+        "R3 trace de tous les points et arrivée exacte",
+        "R4 commandes reproductibles par un autre exécutant",
+        "R5 justification du détour + autonomie sans indice"
+      ],
+      "feedback": "Si le robot traverse un point bloqué, identifier après passation le premier point interdit et faire reconstruire un nouveau parcours; ne pas considérer l’ancienne exécution comme autonome et correcte.",
+      "difficulte": "transfert",
+      "representation": "plan de robot fictif avec points interdits",
+      "variations_permises": "Présentation neutre uniquement : verbal, tactile, impression ou scribe exact; départ, arrivée, obstacles et sept pas restent fixes.",
+      "limites_variation": "Grille de points 6×6, N en haut, x est à droite, y vers le haut, 1 ≤ x,y ≤ 6; sans diagonales, tous les pas doivent être explicites et légaux. Pas de génération libre.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B",
+      "conditions_passation": "Occasion distincte de A, sans aide cognitive; simulation sur plan uniquement.",
+      "barreme_ou_rubrique": "R1–R5 au niveau 2 dans ce contexte distinct ET la preuve A au niveau 2."
+    }
+  ]
+}

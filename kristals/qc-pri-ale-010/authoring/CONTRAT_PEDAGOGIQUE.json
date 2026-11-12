@@ -1,0 +1,86 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ale-010",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Construire des phrases anglaises variées et grammaticalement compréhensibles.",
+  "concepts": [
+    "subject",
+    "verb",
+    "complement",
+    "sentence type"
+  ],
+  "preuve_attendue": "Produire et transformer plusieurs phrases sur le même thème.",
+  "prerequis_bloquants": [
+    "qc-pri-ale-008"
+  ],
+  "ordre_conseille": [
+    "qc-pri-ale-009"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-ale-010-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Produire et transformer plusieurs phrases sur le même thème.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-ale-010",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "texte_annote",
+        "assemblage_phrase",
+        "transformation_ecrite",
+        "production_theme_unique",
+        "argumentation_metalinguistique"
+      ],
+      "variables": {
+        "mode": "fixe",
+        "elements_variables": [],
+        "règle": "Les dix stimuli, leurs transformations et leurs corrigés sont figés; aucune substitution générée automatiquement."
+      },
+      "contraintes": [
+        "Présent simple de verbes d’action ordinaires pour les transformations do/does.",
+        "Conserver le thème à travers toutes les phrases d’un item.",
+        "Question yes/no : do/does + sujet + base verbale.",
+        "Négation : do/does not + base verbale.",
+        "Impératif : base verbale initiale, sujet you sous-entendu.",
+        "Accepter des réalisations grammaticalement équivalentes explicitement documentées par la rubrique, sans génération IA non contrôlée.",
+        "Deux épreuves A/B aux thèmes distincts et sans modèle visible."
+      ],
+      "bareme_ou_rubrique": {
+        "reference": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "exactitude_grammaticale_0_a_4",
+          "diversite_0_a_3",
+          "transformation_et_justification_0_a_3",
+          "autonomie_documentee"
+        ],
+        "maitrise": "deux_contextes_distincts_chacun_avec_3sur4_3sur3_2sur3_et_autonomie"
+      },
+      "source": [
+        "authoring/PARCOURS.md",
+        "contenu/01_NOTIONS_ET_EXEMPLES.md",
+        "sources/REFERENCES_CONTENU.md"
+      ],
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "cours_redige_a_revoir",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

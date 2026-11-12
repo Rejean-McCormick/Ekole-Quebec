@@ -1,0 +1,319 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-da-004",
+  "family_id": "qc-pri-da-004-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-da-004-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-004-ev-01",
+      "mode": "fixe",
+      "titre": "Séparer trois phrases",
+      "consigne": "Compose trois phrases dansées à partir de « point, ligne, cercle ». Donne deux actions liées à chaque phrase, montre leur ordre et termine par une pause. Dis ce que tu considères comme le début et la fin.",
+      "stimulus": "Trois cartes POINT, LIGNE, CERCLE, chacune à transformer en phrase; déplacements et musique facultatifs.",
+      "reponse_attendue": "Réponse ouverte. Exemple acceptable : A = tracer un point puis reculer légèrement le regard; B = tracer une ligne puis la poursuivre du regard; C = commencer un cercle puis revenir à une immobilité. Les trois parties sont chacune des phrases, non trois gestes isolés.",
+      "criteres": [
+        "Trois phrases reconnaissables comportant chacune au moins deux actions.",
+        "Début et fin identifiés; aucune exigence de virtuosité."
+      ],
+      "feedback": "Si l’élève montre un seul geste par carte, demander deux actions consécutives qui forment une phrase; si trois phrases sont visibles, demander de rendre la fin repérable.",
+      "difficulte": "initial",
+      "representation": "mouvement observable + verbalisation ou carte-schéma accessible",
+      "contexte": "formation",
+      "preuve_maitrise": false,
+      "variations_admissibles": "Gestes, amplitude et modalité d’expression libres dans une plage sûre; scénario, objectif et contraintes fixés.",
+      "limites_variation": "Ni changement de l’objectif, ni suppression de trois phrases, deux liaisons, un contraste ou de la justification de l’ordre; pas de danger, de musique sous droits ou de captation imposée.",
+      "rubrique": {
+        "dimensions_visees": "observer les critères énumérés; verdict descriptif, non certification de maîtrise",
+        "échelle": "observé de façon autonome / observé avec indice / non observé"
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-004-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-004-ev-01",
+      "mode": "fixe",
+      "titre": "Faire percevoir un contraste",
+      "consigne": "Fabrique les phrases A, B et C de mouvements confortables. Garde A et C plutôt fluides, fais B avec une qualité plus découpée et explique où le contraste apparaît. Relie-les pour obtenir une courte composition.",
+      "stimulus": "Qualités de mouvement fixées : CONTINU, DÉCOUPÉ, CONTINU. Pas de tempo imposé.",
+      "reponse_attendue": "Réponse ouverte. On observe un B avec au moins une interruption ou direction tranchée par rapport à A/C; l’élève désigne le paramètre choisi. La composition comporte des liaisons et non des fragments disjoints.",
+      "criteres": [
+        "Contraste de qualité lisible entre B et A ou C.",
+        "Trois phrases et liaisons visibles.",
+        "Une raison lie ce contraste à l’organisation."
+      ],
+      "feedback": "Quand la différence annoncée n’est pas visible, reprendre le même trajet avec ou sans deux pauses, puis tester une nouvelle phrase B.",
+      "difficulte": "initial",
+      "representation": "mouvement observable + verbalisation ou carte-schéma accessible",
+      "contexte": "formation",
+      "preuve_maitrise": false,
+      "variations_admissibles": "Gestes, amplitude et modalité d’expression libres dans une plage sûre; scénario, objectif et contraintes fixés.",
+      "limites_variation": "Ni changement de l’objectif, ni suppression de trois phrases, deux liaisons, un contraste ou de la justification de l’ordre; pas de danger, de musique sous droits ou de captation imposée.",
+      "rubrique": {
+        "dimensions_visees": "observer les critères énumérés; verdict descriptif, non certification de maîtrise",
+        "échelle": "observé de façon autonome / observé avec indice / non observé"
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-004-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-004-ev-01",
+      "mode": "fixe",
+      "titre": "Créer deux transitions",
+      "consigne": "Invente trois phrases A, B et C. Relie A à B par un geste qui se prolonge, puis B à C par une pause choisie. Explique à quoi servent ces passages.",
+      "stimulus": "Cartes-transition « prolongement » puis « suspension »; gestes internes aux phrases libres.",
+      "reponse_attendue": "Réponse ouverte. Un mouvement commencé à la fin de A se poursuit au début de B; une suspension perceptible annonce C. L’élève peut choisir une autre réalisation fonctionnellement équivalente.",
+      "criteres": [
+        "Deux types de transition intentionnels sont démontrés.",
+        "L’élève distingue le passage du geste d’une simple coupure non réfléchie."
+      ],
+      "feedback": "Si le mouvement s’interrompt involontairement, demander « quel geste prépare la partie suivante? » et tester un petit geste-pont.",
+      "difficulte": "initial",
+      "representation": "mouvement observable + verbalisation ou carte-schéma accessible",
+      "contexte": "formation",
+      "preuve_maitrise": false,
+      "variations_admissibles": "Gestes, amplitude et modalité d’expression libres dans une plage sûre; scénario, objectif et contraintes fixés.",
+      "limites_variation": "Ni changement de l’objectif, ni suppression de trois phrases, deux liaisons, un contraste ou de la justification de l’ordre; pas de danger, de musique sous droits ou de captation imposée.",
+      "rubrique": {
+        "dimensions_visees": "observer les critères énumérés; verdict descriptif, non certification de maîtrise",
+        "échelle": "observé de façon autonome / observé avec indice / non observé"
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-004-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-004-ev-01",
+      "mode": "fixe",
+      "titre": "Ordonner pour une intention",
+      "consigne": "Choisis l’intention « apparaître, grandir, se refermer » ou « surprendre puis apaiser ». Crée trois phrases, choisis leur ordre, fais deux transitions et justifie pourquoi cet ordre raconte ton idée.",
+      "stimulus": "Cartes d’intentions fictives, sans récit personnel; aucune séquence de geste préétablie.",
+      "reponse_attendue": "Plusieurs réponses recevables. Exemple : A = signe discret qui apparaît; B = geste continu qui se développe; C = gestes de plus en plus courts puis pause. Raison explicite : A prépare B et C clôt l’idée.",
+      "criteres": [
+        "Trois phrases et début/développement/fin.",
+        "Deux transitions perceptibles.",
+        "Ordre justifié par une intention, pas « parce que c’est joli »."
+      ],
+      "feedback": "Si l’intention est annoncée sans lien aux parties, demander ce qui changerait si C débutait la composition.",
+      "difficulte": "intermediaire",
+      "representation": "mouvement observable + verbalisation ou carte-schéma accessible",
+      "contexte": "formation",
+      "preuve_maitrise": false,
+      "variations_admissibles": "Gestes, amplitude et modalité d’expression libres dans une plage sûre; scénario, objectif et contraintes fixés.",
+      "limites_variation": "Ni changement de l’objectif, ni suppression de trois phrases, deux liaisons, un contraste ou de la justification de l’ordre; pas de danger, de musique sous droits ou de captation imposée.",
+      "rubrique": {
+        "dimensions_visees": "observer les critères énumérés; verdict descriptif, non certification de maîtrise",
+        "échelle": "observé de façon autonome / observé avec indice / non observé"
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-004-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-004-ev-01",
+      "mode": "fixe",
+      "titre": "Comparer deux ordres",
+      "consigne": "Compose trois phrases courtes A, B, C, puis interprète A–B–C et A–C–B. Choisis une version pour ton intention et explique comment la permutation change le sens.",
+      "stimulus": "Même corpus de trois phrases créé par l’élève; seule la position de B et C change.",
+      "reponse_attendue": "Réponse ouverte. Le critère est une comparaison fondée sur les effets réels des phrases, par exemple « dans A–B–C, B agite le milieu et C apaise; dans A–C–B, on finit dans l’agitation ». Aucune permutation unique n’est correcte.",
+      "criteres": [
+        "Deux versions réellement présentées ou dirigées.",
+        "L’élève nomme une différence d’effet due à l’ordre.",
+        "Le choix final correspond à son intention déclarée."
+      ],
+      "feedback": "Une préférence sans raison ne suffit pas : poser la question « qu’est-ce qu’on voit d’autre dans le final? » puis faire recommencer avec des motifs différents.",
+      "difficulte": "intermediaire",
+      "representation": "mouvement observable + verbalisation ou carte-schéma accessible",
+      "contexte": "formation",
+      "preuve_maitrise": false,
+      "variations_admissibles": "Gestes, amplitude et modalité d’expression libres dans une plage sûre; scénario, objectif et contraintes fixés.",
+      "limites_variation": "Ni changement de l’objectif, ni suppression de trois phrases, deux liaisons, un contraste ou de la justification de l’ordre; pas de danger, de musique sous droits ou de captation imposée.",
+      "rubrique": {
+        "dimensions_visees": "observer les critères énumérés; verdict descriptif, non certification de maîtrise",
+        "échelle": "observé de façon autonome / observé avec indice / non observé"
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-004-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-004-ev-01",
+      "mode": "fixe",
+      "titre": "Réparer les passages",
+      "consigne": "Voici une composition imaginée en trois phrases : A « tracer deux lignes », B « faire deux arrêts », C « dessiner un cercle ». Elle est montrée avec des coupures non intentionnelles. Reconstruis des liaisons et explique ton choix.",
+      "stimulus": "A, B et C définissent des actions, mais les transitions n’ont pas été créées; pas de vidéo externe requise.",
+      "reponse_attendue": "Exemple acceptable : prolonger la dernière ligne de A pour préparer le premier arrêt de B; reprendre depuis le point d’arrêt de B en cercle pour entrer dans C. D’autres transitions intentionnelles sont recevables.",
+      "criteres": [
+        "Les deux passages sont maintenant perceptibles.",
+        "L’élève conserve trois phrases et justifie au moins un passage."
+      ],
+      "feedback": "Si seul A/B est réparé, signaler précisément le passage B/C restant et laisser l’élève proposer la liaison.",
+      "difficulte": "intermediaire",
+      "representation": "mouvement observable + verbalisation ou carte-schéma accessible",
+      "contexte": "formation",
+      "preuve_maitrise": false,
+      "variations_admissibles": "Gestes, amplitude et modalité d’expression libres dans une plage sûre; scénario, objectif et contraintes fixés.",
+      "limites_variation": "Ni changement de l’objectif, ni suppression de trois phrases, deux liaisons, un contraste ou de la justification de l’ordre; pas de danger, de musique sous droits ou de captation imposée.",
+      "rubrique": {
+        "dimensions_visees": "observer les critères énumérés; verdict descriptif, non certification de maîtrise",
+        "échelle": "observé de façon autonome / observé avec indice / non observé"
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-004-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-004-ev-01",
+      "mode": "fixe",
+      "titre": "Composer avec une contrainte de retour",
+      "consigne": "Invente trois phrases sous l’intention fictive « les formes se croisent et reviennent ». Un petit motif de la phrase A doit réapparaître, modifié, en C. Insère un contraste et explique l’ordre.",
+      "stimulus": "Cartes libres « rencontre », « changement de direction », « retour » sans gestes modèles.",
+      "reponse_attendue": "Réponse ouverte. Un motif tel qu’un demi-cercle d’A est reconnu dans un cercle modifié en C; la rencontre ou variation se situe dans B; les transitions soutiennent l’enchainement et l’élève décrit le retour.",
+      "criteres": [
+        "Réapparition reconnaissable d’un motif avec variation.",
+        "Organisation lisible et deux transitions.",
+        "Contraste et justification de l’ordre."
+      ],
+      "feedback": "Si A et C ne se relient pas, inviter à conserver un détail de trajet ou de qualité et à le modifier légèrement, non à augmenter l’amplitude.",
+      "difficulte": "intermediaire",
+      "representation": "mouvement observable + verbalisation ou carte-schéma accessible",
+      "contexte": "formation",
+      "preuve_maitrise": false,
+      "variations_admissibles": "Gestes, amplitude et modalité d’expression libres dans une plage sûre; scénario, objectif et contraintes fixés.",
+      "limites_variation": "Ni changement de l’objectif, ni suppression de trois phrases, deux liaisons, un contraste ou de la justification de l’ordre; pas de danger, de musique sous droits ou de captation imposée.",
+      "rubrique": {
+        "dimensions_visees": "observer les critères énumérés; verdict descriptif, non certification de maîtrise",
+        "échelle": "observé de façon autonome / observé avec indice / non observé"
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-004-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-004-ev-01",
+      "mode": "fixe",
+      "titre": "Autonomie préparatoire : espace petit",
+      "consigne": "Dans un espace très réduit (table, siège ou fauteuil), crée une composition sur « aller vers, tourner autour, revenir ». Trois phrases au minimum, un contraste accessible, deux liaisons, fin et justification; aucun indice de geste ne sera donné.",
+      "stimulus": "Contexte non narratif : points fictifs d’un espace de travail; gestes réduits autorisés.",
+      "reponse_attendue": "Toute composition dont l’observateur peut distinguer les trois phrases, les transitions, le contraste et une raison reliant ordre et intention est recevable; la direction peut être indiquée au regard, aux doigts ou par commande à un interprète.",
+      "criteres": [
+        "A — Trois phrases de 2 actions au moins, regroupées en début, développement et fin lisibles.",
+        "B — Deux passages intentionnels entre les phrases, par pause, prolongement ou direction.",
+        "C — Contraste perceptible et choisi sur au moins un paramètre sans forcer les capacités motrices.",
+        "D — Explication spécifique de l’ordre des motifs reliée à une intention et à ce qui changerait par permutation."
+      ],
+      "feedback": "Après la production seulement, identifier la dimension A, B, C ou D à retravailler et faire une nouvelle mini-composition avec d’autres cartes.",
+      "difficulte": "intermediaire",
+      "representation": "mouvement observable + verbalisation ou carte-schéma accessible",
+      "contexte": "formation",
+      "preuve_maitrise": false,
+      "variations_admissibles": "Gestes, amplitude et modalité d’expression libres dans une plage sûre; scénario, objectif et contraintes fixés.",
+      "limites_variation": "Ni changement de l’objectif, ni suppression de trois phrases, deux liaisons, un contraste ou de la justification de l’ordre; pas de danger, de musique sous droits ou de captation imposée.",
+      "rubrique": {
+        "dimensions_visees": "observer les critères énumérés; verdict descriptif, non certification de maîtrise",
+        "échelle": "observé de façon autonome / observé avec indice / non observé"
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-004-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-004-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Preuve 1 — Horloge imaginaire",
+      "consigne": "Sans exemple ni aide sur le contenu, compose trois phrases de deux actions au moins sur le thème fictif « une horloge qui attend, se met en marche, puis décide de s’arrêter ». Présente ou dirige la composition, montre deux transitions et un contraste de temps/qualité sans accélération dangereuse. Justifie l’ordre des trois motifs et explique ce qui changerait si les deux dernières phrases étaient inversées.",
+      "stimulus": "Cartes de thème fixes : ATTENTE — MARCHE — ARRÊT. Accent sur le **temps/rythme**; aucune horloge réelle, partition musicale ou donnée personnelle.",
+      "reponse_attendue": "Preuve ouverte observée : trois phrases distinctes comportant au moins deux actions; un enchainement A–B–C (ou autre ordre motivé), deux passages perceptibles, un contraste temporel ou qualitatif, une fin et une justification spécifique de l’ordre; la comparaison d’une permutation donne un indice supplémentaire de maîtrise. Exemple de solution possible (non imposable) : A = deux pauses courtes, B = gestes réguliers, C = ralentissement puis immobilité; les gestes et l’ordre peuvent différer si la justification reste cohérente.",
+      "criteres": [
+        "A — Trois phrases de 2 actions au moins, regroupées en début, développement et fin lisibles.",
+        "B — Deux passages intentionnels entre les phrases, par pause, prolongement ou direction.",
+        "C — Contraste perceptible et choisi sur au moins un paramètre sans forcer les capacités motrices.",
+        "D — Explication spécifique de l’ordre des motifs reliée à une intention et à ce qui changerait par permutation."
+      ],
+      "feedback": "Après la preuve, cocher les quatre dimensions et écrire une observation concrète (ex. « le passage B/C est une pause visible »); si une dimension vaut moins de 2, entraîner cette dimension dans un scénario NON horloge avant une nouvelle preuve.",
+      "difficulte": "transfert",
+      "representation": "production dansée ou direction précise d’un interprète volontaire + justification orale/écrite/pictographique",
+      "contexte": "preuve_1_temps_horloge",
+      "preuve_maitrise": true,
+      "variations_admissibles": "Les gestes, le médium corporel, la vitesse confortable et l’ordre peuvent varier; le scénario HORLOGE, le paramètre temporel, la structure trois phrases et les critères A–D restent invariants; aucune substitution automatique du scénario.",
+      "limites_variation": "Passation individuelle sans aide de contenu; supports d’accès stables permis. Ne pas faire courir, sauter ni accélérer au-delà d’un rythme choisi comme sûr; ni musique, ni vidéo, ni performance publique imposées.",
+      "rubrique": {
+        "dimensions": {
+          "A_organisation": "0 aucune phrase; 1 éléments présents mais moins de trois phrases ou ordre non maîtrisé; 2 trois phrases identifiables, début/développement/fin; 3 idem avec organisation particulièrement lisible et retour/variation assumé",
+          "B_enchainement": "0 passages absents; 1 un passage ou liens non intentionnels; 2 deux transitions perceptibles et choisies; 3 deux transitions adaptées et reliées explicitement aux phrases",
+          "C_contraste": "0 aucun contraste; 1 différence annoncée mais peu perceptible; 2 au moins une différence perceptible choisie; 3 contraste lisible à un moment utile à la progression",
+          "D_justification": "0 aucune raison; 1 ordre nommé sans lien à une intention; 2 explication reliant l’ordre et l’intention; 3 explication comprenant aussi une comparaison argumentée avec une permutation"
+        },
+        "seuil_interne": "au moins 2/3 à chacune des quatre dimensions sur les DEUX preuves q-009 et q-010, sans indices de contenu; une moyenne ne compense pas une dimension manquante",
+        "limites": "ne pas noter force, morphologie, souplesse, vitesse, qualité de voix, préférences artistiques ou aptitudes motrices non pertinentes; observer l’organisation même lorsque l’élève dirige un interprète volontaire"
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-da-004-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-da-004-ev-01",
+      "mode": "scenario_controle",
+      "titre": "Preuve 2 — Archipel de trois îles imaginaires",
+      "consigne": "Lors d’une autre séance, sans exemple ni aide sur le contenu, compose trois phrases de deux actions au moins pour représenter un « archipel de trois îles » avec des trajets/directions imaginaires. Fais une composition cohérente avec deux transitions et un contraste spatial ou de qualité. Justifie l’ordre des motifs et dis comment une permutation changerait le parcours.",
+      "stimulus": "Trois îles fictives représentées par trois points A, B, C sur une feuille accessible ou dans l’espace de regard; accent sur le **chemin/direction** et non sur le temps. Aucun déplacement du corps requis.",
+      "reponse_attendue": "Preuve ouverte observée : trois phrases identifiables d’au moins deux actions, deux transitions, différence perceptible de direction/qualité, point final repérable et raison liant ordre à une intention « explorer → découvrir → revenir » ou une autre intention cohérente. Exemple possible (non modèle obligatoire) : A = tracer une ligne puis regarder le point suivant; B = arc et changement de direction; C = retrouver un motif du début puis suspendre; l’ordre, l’amplitude et les gestes restent libres.",
+      "criteres": [
+        "A — Trois phrases de 2 actions au moins, regroupées en début, développement et fin lisibles.",
+        "B — Deux passages intentionnels entre les phrases, par pause, prolongement ou direction.",
+        "C — Contraste perceptible et choisi sur au moins un paramètre sans forcer les capacités motrices.",
+        "D — Explication spécifique de l’ordre des motifs reliée à une intention et à ce qui changerait par permutation."
+      ],
+      "feedback": "Après la preuve seulement, relier les observations aux quatre dimensions. Si q-009 réussit et q-010 non, ne pas conclure à la maîtrise; remédier au transfert spatial puis recueillir une nouvelle preuve contrôlée, après revue humaine.",
+      "difficulte": "transfert",
+      "representation": "production dansée ou direction précise d’un interprète volontaire + justification orale/écrite/pictographique et carte de trajet facultative",
+      "contexte": "preuve_2_espace_archipel",
+      "preuve_maitrise": true,
+      "variations_admissibles": "Choix des trajectoires, directions réalisables, échelle, médium de participation et ordre libres; scénario ARCHIPEL, accent spatial, trois phrases, deux transitions, contraste et justification A–D invariants; aucune substitution automatique.",
+      "limites_variation": "Passation différée et distincte de q-009, sans indices de contenu ni reprise des mêmes motifs; parcours dans le regard ou à la main permis; pas de déplacements, gestes rapides ou contact obligatoires.",
+      "rubrique": {
+        "dimensions": {
+          "A_organisation": "0 aucune phrase; 1 éléments présents mais moins de trois phrases ou ordre non maîtrisé; 2 trois phrases identifiables, début/développement/fin; 3 idem avec organisation particulièrement lisible et retour/variation assumé",
+          "B_enchainement": "0 passages absents; 1 un passage ou liens non intentionnels; 2 deux transitions perceptibles et choisies; 3 deux transitions adaptées et reliées explicitement aux phrases",
+          "C_contraste": "0 aucun contraste; 1 différence annoncée mais peu perceptible; 2 au moins une différence perceptible choisie; 3 contraste lisible à un moment utile à la progression",
+          "D_justification": "0 aucune raison; 1 ordre nommé sans lien à une intention; 2 explication reliant l’ordre et l’intention; 3 explication comprenant aussi une comparaison argumentée avec une permutation"
+        },
+        "seuil_interne": "au moins 2/3 à chacune des quatre dimensions sur les DEUX preuves q-009 et q-010, sans indices de contenu; une moyenne ne compense pas une dimension manquante",
+        "limites": "ne pas noter force, morphologie, souplesse, vitesse, qualité de voix, préférences artistiques ou aptitudes motrices non pertinentes; observer l’organisation même lorsque l’élève dirige un interprète volontaire"
+      },
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

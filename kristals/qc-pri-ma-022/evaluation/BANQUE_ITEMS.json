@@ -1,0 +1,513 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ma-022",
+  "family_id": "qc-pri-ma-022-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ma-022-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Nomme le solide, indique le nombre de faces, arêtes et sommets et donne deux propriétés qui soutiennent ton choix.",
+      "stimulus": "Six faces carrées identiques forment une boîte; trois carrés se rencontrent à chaque coin.",
+      "reponse_attendue": "Cube; F=6, A=12, S=8. Justifications possibles : six faces carrées égales et rencontre de trois arêtes à chacun de huit sommets.",
+      "criteres": [
+        "Nom cube exact",
+        "valeurs 6/12/8 exactes",
+        "deux propriétés justifiées, pas « ressemble à une boîte »."
+      ],
+      "feedback": "Si 12 arêtes devient 24, tu les as probablement comptées deux fois, une fois sur chaque face. Suis chaque segment distinct une seule fois.",
+      "difficulte": "initial",
+      "representation": "description_textuelle",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Trouve le solide et les nombres F, A et S. Explique pourquoi ce n’est pas un prisme triangulaire.",
+      "stimulus": "Une seule base carrée porte quatre triangles qui se rejoignent au même sommet.",
+      "reponse_attendue": "Pyramide à base carrée; F=1+4=5; A=4+4=8; S=4+1=5. Un prisme triangulaire possède deux bases triangulaires opposées et 3 rectangles, A9/S6.",
+      "criteres": [
+        "Identifie la pyramide à base carrée",
+        "Compte 5 faces, 8 arêtes et 5 sommets",
+        "Distingue par la base et la pointe plutôt que par F=5 seul"
+      ],
+      "feedback": "Deux solides ont cinq faces; vérifie les formes des faces et le nombre de sommets au lieu de te fier au seul 5.",
+      "difficulte": "initial",
+      "representation": "description_avec_comptage",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Identifie le solide, calcule F/A/S, puis indique une caractéristique qui exclut la pyramide à base carrée.",
+      "stimulus": "Deux triangles congruents parallèles sont reliés par trois rectangles.",
+      "reponse_attendue": "Prisme droit à base triangulaire; F=5, A=9 (3+3+3), S=6 (3+3). Il possède deux bases triangulaires opposées, non une base carrée unique.",
+      "criteres": [
+        "Nom précis prisme droit triangulaire",
+        "Valeurs F5/A9/S6",
+        "Justification par 2 bases triangulaires et 3 faces latérales"
+      ],
+      "feedback": "Pour trouver les neuf arêtes, compte les trois autour de chaque triangle et les trois qui relient les bases.",
+      "difficulte": "initial",
+      "representation": "description_avec_decomposition",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Associe la description à un solide, indique F/A/S et justifie pourquoi ce n’est pas une pyramide à base carrée.",
+      "stimulus": "La surface est constituée exactement de quatre faces triangulaires. Il y a quatre coins, chacun relié aux trois autres par une arête.",
+      "reponse_attendue": "Tétraèdre (pyramide triangulaire); F=4, A=6, S=4. Absence de base carrée; la pyramide carrée a F5/A8/S5.",
+      "criteres": [
+        "Tétraèdre identifié",
+        "Valeurs F4/A6/S4",
+        "Exclusion justifiée de la pyramide carrée"
+      ],
+      "feedback": "Quatre triangles ne sont pas la même chose qu’un carré entouré de quatre triangles.",
+      "difficulte": "intermediaire",
+      "representation": "description_et_adjacence",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Dis si le segment tracé est une arête du solide et justifie. Donne ensuite le nombre d’arêtes du solide sans compter ce segment.",
+      "stimulus": "Un cube a six faces carrées; sur l’une d’elles un trait joint deux coins opposés du même carré, à l’intérieur de la face.",
+      "reponse_attendue": "Non, le trait est une diagonale de face, pas une arête du polyèdre : il ne constitue pas la frontière commune de deux faces. Le cube possède 12 arêtes.",
+      "criteres": [
+        "Refuse de compter la diagonale parmi les arêtes",
+        "Motif : segment intérieur à une face",
+        "Total du cube A=12"
+      ],
+      "feedback": "Une arête sépare deux faces. Le trait ici traverse une seule face : garde 12, pas 13.",
+      "difficulte": "intermediaire",
+      "representation": "description_segment",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Choisis le nom le plus précis entre cube et pavé droit non cubique; explique pourquoi les nombres ne suffisent pas.",
+      "stimulus": "Une boîte de type pavé droit a F=6, A=12, S=8. Les côtés d’une de ses faces mesurent 3 unités et 5 unités.",
+      "reponse_attendue": "Pavé droit non cubique; cette face est un rectangle non carré (3≠5). Le cube et le pavé droit non cubique ont chacun F6/A12/S8; la forme de la face les distingue.",
+      "criteres": [
+        "Choix pavé droit non cubique",
+        "Explique 3≠5 et face non carrée",
+        "Dit que F/A/S sont identiques pour les deux types"
+      ],
+      "feedback": "Les nombres F/A/S ne distinguent pas toujours les solides : compare la longueur et la largeur d’une face.",
+      "difficulte": "intermediaire",
+      "representation": "mesures_et_description",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "parametrique",
+      "consigne": "Associe cette description au bon solide, compte F/A/S, puis donne deux propriétés dont une permettant de le distinguer des autres. Choisis parmi prisme droit triangulaire, pyramide à base carrée et tétraèdre.",
+      "stimulus": "Quatre faces triangulaires et quatre sommets.",
+      "reponse_attendue": "Pour seed=22007 : tétraèdre; F=4, A=6, S=4; quatre triangles, aucun carré. Pour toute autre seed autorisée, utiliser sans exception la table cas_catalogue et l’algorithme.",
+      "criteres": [
+        "Identification juste pour la seed générée",
+        "F/A/S exacts par table et décompte",
+        "Deux indices géométriques dont un discriminant"
+      ],
+      "feedback": "Compare les formes et les relations entre faces; ne confonds pas une base carrée avec deux triangles opposés.",
+      "difficulte": "intermediaire",
+      "representation": "scenarios_textuels_catalogue",
+      "seed": 22007,
+      "parametres": {
+        "variables": {
+          "cas": {
+            "domaine": [
+              "T",
+              "P",
+              "H"
+            ],
+            "definition": "catalogue fermé de descriptions non ambiguës"
+          }
+        },
+        "domaines": {
+          "seed": "entier non négatif"
+        },
+        "contraintes": [
+          "Un seul cas par item",
+          "Chaque description est compatible avec un polyèdre référencé et discrimine les deux autres",
+          "Aucune modification libre des faces ni des comptes"
+        ],
+        "algorithme": "index = seed modulo 3; cas = catalogue[index] dans l’ordre T,P,H; afficher exactement cas.description; attendu = (cas.nom, cas.F, cas.A, cas.S, cas.raison). Pas de tirage d’IA.",
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "cas": "T",
+            "description": "Deux triangles congruents parallèles et trois rectangles; aucun carré exigé.",
+            "reponse": "prisme droit à base triangulaire; F5/A9/S6; deux bases triangulaires opposées et trois rectangles"
+          },
+          {
+            "seed": 1,
+            "cas": "P",
+            "description": "Une base carrée et quatre triangles se rejoignant en une pointe.",
+            "reponse": "pyramide à base carrée; F5/A8/S5; base carrée unique et quatre faces latérales triangulaires"
+          },
+          {
+            "seed": 2,
+            "cas": "H",
+            "description": "Quatre faces triangulaires et quatre sommets.",
+            "reponse": "tétraèdre; F4/A6/S4; quatre triangles, aucun carré"
+          }
+        ],
+        "cas_catalogue": [
+          {
+            "code": "T",
+            "description": "Deux triangles congruents parallèles et trois rectangles; aucun carré exigé.",
+            "nom": "prisme droit à base triangulaire",
+            "F": 5,
+            "A": 9,
+            "S": 6,
+            "raison": "deux bases triangulaires opposées et trois rectangles"
+          },
+          {
+            "code": "P",
+            "description": "Une base carrée et quatre triangles se rejoignant en une pointe.",
+            "nom": "pyramide à base carrée",
+            "F": 5,
+            "A": 8,
+            "S": 5,
+            "raison": "base carrée unique et quatre faces latérales triangulaires"
+          },
+          {
+            "code": "H",
+            "description": "Quatre faces triangulaires et quatre sommets.",
+            "nom": "tétraèdre",
+            "F": 4,
+            "A": 6,
+            "S": 4,
+            "raison": "quatre triangles, aucun carré"
+          }
+        ],
+        "interdictions": [
+          "ne pas modifier la composition des faces",
+          "ne pas accepter F=5 comme justification suffisante"
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "parametrique",
+      "consigne": "Entre A et B, lequel est un patron du cube? Justifie en expliquant pourquoi l’autre ne peut pas former six faces distinctes sans superposition.",
+      "stimulus": "A : V : quatre carrés égaux alignés, un carré ajouté au-dessus et un au-dessous du deuxième carré de la bande.\nB : I1 : six carrés égaux remplissent un rectangle de deux lignes et trois colonnes.",
+      "reponse_attendue": "Pour seed=22008, choisir A (disposition V). V se replie en cube; l’autre disposition ne permet pas six faces distinctes sans superposition. Les autres seeds utilisent la règle r=seed modulo 4.",
+      "criteres": [
+        "Repère V et donne la bonne lettre",
+        "Explique pourquoi compter six carrés est insuffisant",
+        "Évoque repliement ou chevauchement de l’autre disposition"
+      ],
+      "feedback": "Le patron n’est pas une simple liste de six carrés; leur voisinage doit permettre à chaque carré de devenir une face différente.",
+      "difficulte": "intermediaire",
+      "representation": "patrons_textuels_reproductibles",
+      "seed": 22008,
+      "parametres": {
+        "variables": {
+          "cas": {
+            "domaine": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "definition": "index de 2 patrons invalides × 2 ordres de présentation"
+          }
+        },
+        "domaines": {
+          "seed": "entier non négatif"
+        },
+        "contraintes": [
+          "Carrés tous de même dimension",
+          "V conserve 4 en bande avec deux rabats sur côtés opposés du deuxième",
+          "I1 est un rectangle plein 2 × 3 et I2 une bande droite 1 × 6",
+          "Pas de remplacement libre du schéma"
+        ],
+        "algorithme": "r = seed modulo 4; j = r divisé par 2 avec partie entière; si r est pair, A=V et B=I[j], sinon A=I[j] et B=V; la réponse est la lettre contenant V. La vérification du pliage peut être réalisée par propagation des normales de faces (six orientations distinctes).",
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "r": 0,
+            "choix_correct": "A",
+            "autre_patron": "I1"
+          },
+          {
+            "seed": 1,
+            "r": 1,
+            "choix_correct": "B",
+            "autre_patron": "I1"
+          },
+          {
+            "seed": 2,
+            "r": 2,
+            "choix_correct": "A",
+            "autre_patron": "I2"
+          },
+          {
+            "seed": 3,
+            "r": 3,
+            "choix_correct": "B",
+            "autre_patron": "I2"
+          }
+        ],
+        "catalogue": {
+          "valide": "V : quatre carrés égaux alignés, un carré ajouté au-dessus et un au-dessous du deuxième carré de la bande.",
+          "invalides": [
+            "I1 : six carrés égaux remplissent un rectangle de deux lignes et trois colonnes.",
+            "I2 : six carrés égaux forment une seule bande droite de longueur six."
+          ]
+        }
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "parametrique",
+      "consigne": "Trouve le nom du solide, son nombre de faces F et son nombre d’arêtes A en comptant chaque côté des faces, puis le nombre de sommets S. Justifie avec les formes des faces.",
+      "stimulus": "Le polyèdre convexe fermé présente : 2 triangles et 3 rectangles.",
+      "reponse_attendue": "Pour seed=22009 : prisme droit à base triangulaire; I=18 côtés comptés sur les faces, F=5, A=I/2=9, S=A+2−F=6; deux triangles opposés et trois rectangles. Les autres seeds suivent la table documentée.",
+      "criteres": [
+        "Identifie avec la composition des faces",
+        "Calcule I puis A=I/2 correctement",
+        "Trouve F et S corrects et justifie le solide"
+      ],
+      "feedback": "Tu dois diviser la somme des côtés des faces par deux : chaque arête est bordée par deux faces. Confirme le solide par les formes des faces.",
+      "difficulte": "transfert",
+      "representation": "formes_des_faces_et_calcul",
+      "seed": 22009,
+      "parametres": {
+        "variables": {
+          "index_cas": {
+            "domaine": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "definition": "catalogue dans l’ordre cube, prisme triangulaire, pyramide carrée, tétraèdre"
+          }
+        },
+        "domaines": {
+          "seed": "entier non négatif"
+        },
+        "contraintes": [
+          "Polyèdres convexes fermés du catalogue",
+          "Chaque arête appartient exactement à 2 faces",
+          "Compter chaque côté de face à chaque incidence; la somme est toujours paire",
+          "Les descriptions ne peuvent être remplacées librement"
+        ],
+        "algorithme": "index = seed modulo 4; obtenir liste cotes_par_face; I = somme de ces entiers; A = I / 2; F = longueur de la liste; S = A+2−F (vérification secondaire par F+S=A+2, limitée ici aux polyèdres convexes de ce catalogue). Le solide est identifié par la composition des faces documentée dans faces et raison.",
+        "exemples_valides": [
+          {
+            "seed": 0,
+            "forme": "cube",
+            "I": 24,
+            "F": 6,
+            "A": 12,
+            "S": 8
+          },
+          {
+            "seed": 1,
+            "forme": "prisme droit à base triangulaire",
+            "I": 18,
+            "F": 5,
+            "A": 9,
+            "S": 6
+          },
+          {
+            "seed": 2,
+            "forme": "pyramide à base carrée",
+            "I": 16,
+            "F": 5,
+            "A": 8,
+            "S": 5
+          },
+          {
+            "seed": 3,
+            "forme": "tétraèdre",
+            "I": 12,
+            "F": 4,
+            "A": 6,
+            "S": 4
+          }
+        ],
+        "cas_catalogue": [
+          {
+            "nom": "cube",
+            "faces": "6 carrés",
+            "cotes_par_face": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "F": 6,
+            "A": 12,
+            "S": 8,
+            "raison": "six carrés égaux"
+          },
+          {
+            "nom": "prisme droit à base triangulaire",
+            "faces": "2 triangles et 3 rectangles",
+            "cotes_par_face": [
+              3,
+              3,
+              4,
+              4,
+              4
+            ],
+            "F": 5,
+            "A": 9,
+            "S": 6,
+            "raison": "deux triangles opposés et trois rectangles"
+          },
+          {
+            "nom": "pyramide à base carrée",
+            "faces": "1 carré et 4 triangles",
+            "cotes_par_face": [
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            "F": 5,
+            "A": 8,
+            "S": 5,
+            "raison": "un carré et quatre triangles qui rejoignent une pointe"
+          },
+          {
+            "nom": "tétraèdre",
+            "faces": "4 triangles",
+            "cotes_par_face": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "F": 4,
+            "A": 6,
+            "S": 4,
+            "raison": "quatre faces triangulaires"
+          }
+        ]
+      },
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "fixe",
+      "consigne": "Parmi deux descriptions de découpage pour une pyramide à base carrée, laquelle peut former un patron? Explique ce qui manque à l’autre.",
+      "stimulus": "A : un carré et quatre triangles équilatéraux de côté égal à celui du carré, chaque triangle étant attaché au côté distinct du carré. B : le même carré et seulement trois de ces triangles.",
+      "reponse_attendue": "A : patron possible d’une pyramide à base carrée (base carrée + 4 triangles qui se rejoignent); B : impossible pour ce modèle car il manque une face triangulaire, donc la surface n’est pas fermée.",
+      "criteres": [
+        "Désigne A comme possible",
+        "Explique pourquoi 4 triangles sont nécessaires",
+        "Dit qu’un patron doit fermer la surface sans trou"
+      ],
+      "feedback": "Vérifie le nombre ET l’emplacement des faces : un patron doit représenter toute la surface du solide.",
+      "difficulte": "intermediaire",
+      "representation": "description_patron_pyramide",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-011",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Preuve autonome A. Pour préparer un présentoir au musée, choisis le bon solide parmi [prisme droit triangulaire, pyramide à base carrée, cube]; donne F/A/S et justifie avec DEUX propriétés, dont au moins une exclut les deux autres. Décris aussi un patron possible sans dessin.",
+      "stimulus": "La commande d’exposition précise : une sculpture présente deux panneaux d’extrémité triangulaires congruents et parallèles, trois panneaux latéraux rectangulaires, et six coins au total. Le patron doit pouvoir se fermer aux deux extrémités.",
+      "reponse_attendue": "Prisme droit à base triangulaire. F=5, A=9, S=6. Deux triangles parallèles sont les deux bases; les trois rectangles latéraux les relient (pas de base carrée ni six faces carrées). Patron possible : trois rectangles en bande, avec deux triangles congruents attachés sur des bords libres opposés, qui ferment chaque extrémité après pliage.",
+      "criteres": [
+        "Choix exact sans aide : prisme droit triangulaire",
+        "F=5, A=9 et S=6 exacts",
+        "Deux propriétés pertinentes dont deux bases triangulaires opposées ou trois rectangles, excluant les concurrents",
+        "Description d’un patron compatible avec la fermeture sans chevauchement"
+      ],
+      "feedback": "Si tu as choisi une pyramide, vérifie les deux extrémités triangulaires distinctes et les six sommets : une pyramide à base carrée a une seule pointe et cinq sommets.",
+      "difficulte": "transfert",
+      "representation": "scenario_musee_description_et_patron",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "A",
+      "contexte": "musée — scénographie",
+      "conditions": "seul, sans indices et sans corrigé; description lue neutrement au besoin"
+    },
+    {
+      "item_id": "qc-pri-ma-022-q-012",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ma-022-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Preuve autonome B lors d’une autre séance. Parmi [tétraèdre, pyramide à base carrée, prisme droit triangulaire], nomme le solide à fabriquer; calcule F/A/S et justifie avec DEUX propriétés, dont une écarte au moins un concurrent. Propose un patron réalisable.",
+      "stimulus": "Un atelier conçoit une lanterne géométrique : son fond est un carré, et quatre panneaux triangulaires identiques rejoignent une seule pointe. Chaque panneau est un triangle équilatéral dont le côté a même longueur que celui du carré; les panneaux sont opaques, l’objet est une maquette sans source chaude.",
+      "reponse_attendue": "Pyramide à base carrée. F=5, A=8, S=5 : 1 face carrée, 4 triangulaires, 4 coins de base et une pointe, 4 arêtes de base et 4 latérales. Patron valide : carré central avec un triangle équilatéral attaché à chacun de ses quatre côtés. Le tétraèdre n’a pas de carré; le prisme triangulaire a deux triangles de base et trois rectangles.",
+      "criteres": [
+        "Choix exact sans aide : pyramide à base carrée",
+        "F=5, A=8 et S=5 exacts",
+        "Deux propriétés pertinentes dont base carrée et quatre triangles aboutissant à une pointe",
+        "Patron : carré et 4 triangles de même côté correctement attachés"
+      ],
+      "feedback": "Si tu as proposé un prisme triangulaire, demande-toi où seraient les deux faces triangulaires parallèles : ici les quatre triangles rencontrent la même pointe.",
+      "difficulte": "transfert",
+      "representation": "scenario_lanterne_description_et_patron",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir",
+      "preuve_maitrise": "B",
+      "contexte": "atelier de fabrication — lanterne froide",
+      "conditions": "séance/contextes séparés, seul, sans aides identifiantes"
+    }
+  ]
+}

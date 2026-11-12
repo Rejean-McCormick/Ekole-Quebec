@@ -1,0 +1,95 @@
+{
+  "format": "ekole.kristal-atelier-v12/1.0",
+  "kristal_id": "qc-pri-st-001",
+  "source_immutable": {
+    "file": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Observer un phénomène et poser une question investigable et précise.",
+    "preuve_attendue": "Décrire un phénomène puis transformer une curiosité en question testable."
+  },
+  "statut": "prototype_revue_pedagogique_requise",
+  "micro_mondes": [
+    {
+      "id": "sciences-observer-interpreter",
+      "kristal_id": "qc-pri-st-001",
+      "type": "preuves",
+      "title": "Je vois ou je suppose ?",
+      "instruction": "Dans une situation d’observation de deux plantes, distingue ce qu’on constate de ce qu’on en déduit.",
+      "parameters": {
+        "statements": [
+          {
+            "id": "s1",
+            "text": "La première plante a trois feuilles visibles.",
+            "kind": "observation"
+          },
+          {
+            "id": "s2",
+            "text": "La deuxième plante a une tige plus courte.",
+            "kind": "observation"
+          },
+          {
+            "id": "s3",
+            "text": "La première plante pousse mieux à cause de la lumière.",
+            "kind": "interpretation"
+          },
+          {
+            "id": "s4",
+            "text": "Le pot de la deuxième plante contient de la terre humide.",
+            "kind": "observation"
+          },
+          {
+            "id": "s5",
+            "text": "Cette plante ne pousse pas parce qu’elle est malade.",
+            "kind": "interpretation"
+          }
+        ]
+      },
+      "objective_id": "obj-1",
+      "representation": "observation_inference",
+      "diagnostics": [
+        "interpretation_comme_fait",
+        "observation_incomplete"
+      ],
+      "visual_slot": "essayer",
+      "format": "ekole.micro-monde/1.0",
+      "evaluation": "entrainement_non_certifiant",
+      "source_review": "revue_requise",
+      "premisse": "Scénario d’entraînement original aligné sur un objectif source; ne constitue pas une évaluation officielle.",
+      "prompt_visuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Je vois ou je suppose ? ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif.",
+      "image_path": "experience/images/sciences-observer-interpreter.webp"
+    }
+  ],
+  "evaluation_et_decision": {
+    "entrainement_ne_certifie_jamais": true,
+    "preuver_source_requise": true,
+    "validation_ouverte": "revue_humaine",
+    "aide_consigne_apres_erreur": "indices_degressifs"
+  },
+  "teacher_review": {
+    "puiser_dans_modules": [
+      "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "experience/SCENARIO_APPRENTISSAGE.json"
+    ],
+    "axes": [
+      "exactitude_du_concept",
+      "qualite_des_erreurs",
+      "pertinence_de_la_retroaction",
+      "accessibilite_des_actions",
+      "transfert_de_contexte"
+    ],
+    "etat": "non_effectue",
+    "observations": ""
+  },
+  "visuels": {
+    "regle": "Concept sans style. Prompt toujours visible si fichier absent.",
+    "etats_evalues": "dessin_deterministe",
+    "assets": [
+      {
+        "scenario_id": "sciences-observer-interpreter",
+        "fichier_attendu": "experience/images/sciences-observer-interpreter.webp",
+        "prompt_conceptuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Je vois ou je suppose ? ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif."
+      }
+    ]
+  },
+  "source_curation": "Atelier nouveau; aucune réécriture non validée des items et preuves d’origine."
+}

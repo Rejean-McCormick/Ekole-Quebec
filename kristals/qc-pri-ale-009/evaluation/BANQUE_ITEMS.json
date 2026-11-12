@@ -1,0 +1,526 @@
+{
+  "format": "qc.learning-item-bank/1.0",
+  "kristal_id": "qc-pri-ale-009",
+  "family_id": "qc-pri-ale-009-ev-01",
+  "items": [
+    {
+      "item_id": "qc-pri-ale-009-q-001",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Rewrite the text with correct English spelling, capital letters, and sentence punctuation. Mark the changes and explain why you made them.",
+      "stimulus": "i can play on friday.",
+      "reponse_attendue": "I can play on Friday.",
+      "corrections_ciblees": [
+        {
+          "categorie": "C",
+          "avant": "i",
+          "apres": "I"
+        },
+        {
+          "categorie": "C",
+          "avant": "friday",
+          "apres": "Friday"
+        }
+      ],
+      "justifications_attendues": [
+        "I is the first-person pronoun and must be capitalized.",
+        "Friday is a day of the week and takes a capital letter."
+      ],
+      "criteres": [
+        "Corriger les 2 changements ciblés sans altérer le sens ni ajouter des changements injustifiés.",
+        "Repérer les changements dans le texte original et dans la réécriture.",
+        "Relier la justification à une graphie contrôlée, à une règle de capitalisation ou à la forme interrogative/déclarative concernée.",
+        "Indiquer une justification spécifique plutôt qu’une réponse devinée."
+      ],
+      "feedback": "Capitalization: I and Friday. Feedback correctif : identify the exact word or ending, use the relevant model rule, and try a new sentence without a hint.",
+      "difficulte": "initial",
+      "representation": "phrase_ecrite",
+      "contexte": "weekly plan",
+      "preuve_maitrise": null,
+      "limites_variation": "Énoncé fixe, aucune variation autorisée dans cette banque.",
+      "barreme_ou_rubrique": "Une modification correcte par changement ciblé, explication liée au bon indice, et zéro surcorrection altérant le sens; usage formatif, pas de décision isolée.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-009-q-002",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Rewrite the text with correct English spelling, capital letters, and sentence punctuation. Mark the changes and explain why you made them.",
+      "stimulus": "Can we plaay today.",
+      "reponse_attendue": "Can we play today?",
+      "corrections_ciblees": [
+        {
+          "categorie": "S",
+          "avant": "plaay",
+          "apres": "play"
+        },
+        {
+          "categorie": "P",
+          "avant": "today.",
+          "apres": "today?"
+        }
+      ],
+      "justifications_attendues": [
+        "The target word play ends in ay, not aay.",
+        "Can we ...? is a direct question."
+      ],
+      "criteres": [
+        "Corriger les 2 changements ciblés sans altérer le sens ni ajouter des changements injustifiés.",
+        "Repérer les changements dans le texte original et dans la réécriture.",
+        "Relier la justification à une graphie contrôlée, à une règle de capitalisation ou à la forme interrogative/déclarative concernée.",
+        "Indiquer une justification spécifique plutôt qu’une réponse devinée."
+      ],
+      "feedback": "The target word is play; this direct question ends with ?. Feedback correctif : identify the exact word or ending, use the relevant model rule, and try a new sentence without a hint.",
+      "difficulte": "initial",
+      "representation": "phrase_ecrite",
+      "contexte": "invitation",
+      "preuve_maitrise": null,
+      "limites_variation": "Énoncé fixe, aucune variation autorisée dans cette banque.",
+      "barreme_ou_rubrique": "Une modification correcte par changement ciblé, explication liée au bon indice, et zéro surcorrection altérant le sens; usage formatif, pas de décision isolée.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-009-q-003",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Rewrite the text with correct English spelling, capital letters, and sentence punctuation. Mark the changes and explain why you made them.",
+      "stimulus": "the trane is late.",
+      "reponse_attendue": "The train is late.",
+      "corrections_ciblees": [
+        {
+          "categorie": "C",
+          "avant": "the",
+          "apres": "The"
+        },
+        {
+          "categorie": "S",
+          "avant": "trane",
+          "apres": "train"
+        }
+      ],
+      "justifications_attendues": [
+        "The opens a sentence.",
+        "Train is spelled with ai in the target word bank."
+      ],
+      "criteres": [
+        "Corriger les 2 changements ciblés sans altérer le sens ni ajouter des changements injustifiés.",
+        "Repérer les changements dans le texte original et dans la réécriture.",
+        "Relier la justification à une graphie contrôlée, à une règle de capitalisation ou à la forme interrogative/déclarative concernée.",
+        "Indiquer une justification spécifique plutôt qu’une réponse devinée."
+      ],
+      "feedback": "Start with The; the word train contains ai. Feedback correctif : identify the exact word or ending, use the relevant model rule, and try a new sentence without a hint.",
+      "difficulte": "initial",
+      "representation": "phrase_ecrite",
+      "contexte": "travel note",
+      "preuve_maitrise": null,
+      "limites_variation": "Énoncé fixe, aucune variation autorisée dans cette banque.",
+      "barreme_ou_rubrique": "Une modification correcte par changement ciblé, explication liée au bon indice, et zéro surcorrection altérant le sens; usage formatif, pas de décision isolée.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-009-q-004",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Rewrite the text with correct English spelling, capital letters, and sentence punctuation. Mark the changes and explain why you made them.",
+      "stimulus": "mia is makeing a card",
+      "reponse_attendue": "Mia is making a card.",
+      "corrections_ciblees": [
+        {
+          "categorie": "C",
+          "avant": "mia",
+          "apres": "Mia"
+        },
+        {
+          "categorie": "S",
+          "avant": "makeing",
+          "apres": "making"
+        },
+        {
+          "categorie": "P",
+          "avant": "card",
+          "apres": "card."
+        }
+      ],
+      "justifications_attendues": [
+        "Mia is a person’s name.",
+        "Make drops the silent final e in making.",
+        "A declarative sentence ends with a period."
+      ],
+      "criteres": [
+        "Corriger les 3 changements ciblés sans altérer le sens ni ajouter des changements injustifiés.",
+        "Repérer les changements dans le texte original et dans la réécriture.",
+        "Relier la justification à une graphie contrôlée, à une règle de capitalisation ou à la forme interrogative/déclarative concernée.",
+        "Indiquer une justification spécifique plutôt qu’une réponse devinée."
+      ],
+      "feedback": "Mia is a name; make loses final e before ing; the statement ends with a period. Feedback correctif : identify the exact word or ending, use the relevant model rule, and try a new sentence without a hint.",
+      "difficulte": "intermediaire",
+      "representation": "phrase_ecrite",
+      "contexte": "art task",
+      "preuve_maitrise": null,
+      "limites_variation": "Énoncé fixe, aucune variation autorisée dans cette banque.",
+      "barreme_ou_rubrique": "Une modification correcte par changement ciblé, explication liée au bon indice, et zéro surcorrection altérant le sens; usage formatif, pas de décision isolée.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-009-q-005",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Rewrite the text with correct English spelling, capital letters, and sentence punctuation. Mark the changes and explain why you made them.",
+      "stimulus": "we will paint on monday.",
+      "reponse_attendue": "We will paint on Monday.",
+      "corrections_ciblees": [
+        {
+          "categorie": "C",
+          "avant": "we",
+          "apres": "We"
+        },
+        {
+          "categorie": "C",
+          "avant": "monday",
+          "apres": "Monday"
+        }
+      ],
+      "justifications_attendues": [
+        "We starts a sentence.",
+        "Monday is a day of the week."
+      ],
+      "criteres": [
+        "Corriger les 2 changements ciblés sans altérer le sens ni ajouter des changements injustifiés.",
+        "Repérer les changements dans le texte original et dans la réécriture.",
+        "Relier la justification à une graphie contrôlée, à une règle de capitalisation ou à la forme interrogative/déclarative concernée.",
+        "Indiquer une justification spécifique plutôt qu’une réponse devinée."
+      ],
+      "feedback": "Capitalize We at the start and Monday as a day. Feedback correctif : identify the exact word or ending, use the relevant model rule, and try a new sentence without a hint.",
+      "difficulte": "intermediaire",
+      "representation": "phrase_ecrite",
+      "contexte": "calendar",
+      "preuve_maitrise": null,
+      "limites_variation": "Énoncé fixe, aucune variation autorisée dans cette banque.",
+      "barreme_ou_rubrique": "Une modification correcte par changement ciblé, explication liée au bon indice, et zéro surcorrection altérant le sens; usage formatif, pas de décision isolée.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-009-q-006",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Rewrite the text with correct English spelling, capital letters, and sentence punctuation. Mark the changes and explain why you made them.",
+      "stimulus": "can i stay and play.",
+      "reponse_attendue": "Can I stay and play?",
+      "corrections_ciblees": [
+        {
+          "categorie": "C",
+          "avant": "can",
+          "apres": "Can"
+        },
+        {
+          "categorie": "C",
+          "avant": "i",
+          "apres": "I"
+        },
+        {
+          "categorie": "P",
+          "avant": "play.",
+          "apres": "play?"
+        }
+      ],
+      "justifications_attendues": [
+        "Can starts a sentence and I is a capital pronoun.",
+        "This is a direct question, so the ending is ?."
+      ],
+      "criteres": [
+        "Corriger les 3 changements ciblés sans altérer le sens ni ajouter des changements injustifiés.",
+        "Repérer les changements dans le texte original et dans la réécriture.",
+        "Relier la justification à une graphie contrôlée, à une règle de capitalisation ou à la forme interrogative/déclarative concernée.",
+        "Indiquer une justification spécifique plutôt qu’une réponse devinée."
+      ],
+      "feedback": "A question needs ?; capitalize sentence start and I. Feedback correctif : identify the exact word or ending, use the relevant model rule, and try a new sentence without a hint.",
+      "difficulte": "intermediaire",
+      "representation": "phrase_ecrite",
+      "contexte": "play invitation",
+      "preuve_maitrise": null,
+      "limites_variation": "Énoncé fixe, aucune variation autorisée dans cette banque.",
+      "barreme_ou_rubrique": "Une modification correcte par changement ciblé, explication liée au bon indice, et zéro surcorrection altérant le sens; usage formatif, pas de décision isolée.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-009-q-007",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Rewrite the text with correct English spelling, capital letters, and sentence punctuation. Mark the changes and explain why you made them.",
+      "stimulus": "on tuesday, noah is smileing.",
+      "reponse_attendue": "On Tuesday, Noah is smiling.",
+      "corrections_ciblees": [
+        {
+          "categorie": "C",
+          "avant": "on",
+          "apres": "On"
+        },
+        {
+          "categorie": "C",
+          "avant": "tuesday",
+          "apres": "Tuesday"
+        },
+        {
+          "categorie": "C",
+          "avant": "noah",
+          "apres": "Noah"
+        },
+        {
+          "categorie": "S",
+          "avant": "smileing",
+          "apres": "smiling"
+        }
+      ],
+      "justifications_attendues": [
+        "On starts the sentence; Tuesday is a day; Noah is a person’s name.",
+        "Smile drops its final silent e in smiling."
+      ],
+      "criteres": [
+        "Corriger les 4 changements ciblés sans altérer le sens ni ajouter des changements injustifiés.",
+        "Repérer les changements dans le texte original et dans la réécriture.",
+        "Relier la justification à une graphie contrôlée, à une règle de capitalisation ou à la forme interrogative/déclarative concernée.",
+        "Indiquer une justification spécifique plutôt qu’une réponse devinée."
+      ],
+      "feedback": "Capitalize sentence start, day and person; smile loses final e in smiling. Feedback correctif : identify the exact word or ending, use the relevant model rule, and try a new sentence without a hint.",
+      "difficulte": "intermediaire",
+      "representation": "phrase_ecrite",
+      "contexte": "class update",
+      "preuve_maitrise": null,
+      "limites_variation": "Énoncé fixe, aucune variation autorisée dans cette banque.",
+      "barreme_ou_rubrique": "Une modification correcte par changement ciblé, explication liée au bon indice, et zéro surcorrection altérant le sens; usage formatif, pas de décision isolée.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-009-q-008",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-009-ev-01",
+      "mode": "fixe",
+      "consigne": "Rewrite the text with correct English spelling, capital letters, and sentence punctuation. Mark the changes and explain why you made them.",
+      "stimulus": "I see the trane. can we paint today.",
+      "reponse_attendue": "I see the train. Can we paint today?",
+      "corrections_ciblees": [
+        {
+          "categorie": "S",
+          "avant": "trane",
+          "apres": "train"
+        },
+        {
+          "categorie": "C",
+          "avant": "can",
+          "apres": "Can"
+        },
+        {
+          "categorie": "P",
+          "avant": "today.",
+          "apres": "today?"
+        }
+      ],
+      "justifications_attendues": [
+        "Train uses ai.",
+        "Can begins the second sentence.",
+        "Only the second sentence is a question, so it takes ?."
+      ],
+      "criteres": [
+        "Corriger les 3 changements ciblés sans altérer le sens ni ajouter des changements injustifiés.",
+        "Repérer les changements dans le texte original et dans la réécriture.",
+        "Relier la justification à une graphie contrôlée, à une règle de capitalisation ou à la forme interrogative/déclarative concernée.",
+        "Indiquer une justification spécifique plutôt qu’une réponse devinée."
+      ],
+      "feedback": "Correct train; capitalize Can; use a question mark only at the end of the question. Feedback correctif : identify the exact word or ending, use the relevant model rule, and try a new sentence without a hint.",
+      "difficulte": "intermediaire",
+      "representation": "message_ecrit_deux_phrases",
+      "contexte": "two-sentence request",
+      "preuve_maitrise": null,
+      "limites_variation": "Énoncé fixe, aucune variation autorisée dans cette banque.",
+      "barreme_ou_rubrique": "Une modification correcte par changement ciblé, explication liée au bon indice, et zéro surcorrection altérant le sens; usage formatif, pas de décision isolée.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-009-q-009",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-009-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Read the full message. Correct it without hints. Mark every change. Explain at least one spelling change, one capital-letter change, and the question ending.",
+      "stimulus": "hi ava,\ni am makeing a sign for our library on monday. can you bring the trane book.",
+      "reponse_attendue": "Hi Ava,\nI am making a sign for our library on Monday. Can you bring the train book?",
+      "corrections_ciblees": [
+        {
+          "categorie": "C",
+          "avant": "hi",
+          "apres": "Hi"
+        },
+        {
+          "categorie": "C",
+          "avant": "ava",
+          "apres": "Ava"
+        },
+        {
+          "categorie": "C",
+          "avant": "i",
+          "apres": "I"
+        },
+        {
+          "categorie": "S",
+          "avant": "makeing",
+          "apres": "making"
+        },
+        {
+          "categorie": "C",
+          "avant": "monday",
+          "apres": "Monday"
+        },
+        {
+          "categorie": "C",
+          "avant": "can",
+          "apres": "Can"
+        },
+        {
+          "categorie": "S",
+          "avant": "trane",
+          "apres": "train"
+        },
+        {
+          "categorie": "P",
+          "avant": "book.",
+          "apres": "book?"
+        }
+      ],
+      "justifications_attendues": [
+        "Making drops the final e in make; train uses ai.",
+        "Ava is a person’s name, Monday is a day and I is capitalized.",
+        "Can you bring ...? is a direct question."
+      ],
+      "criteres": [
+        "Corriger les 8 changements ciblés sans altérer le sens ni ajouter des changements injustifiés.",
+        "Repérer les changements dans le texte original et dans la réécriture.",
+        "Relier la justification à une graphie contrôlée, à une règle de capitalisation ou à la forme interrogative/déclarative concernée.",
+        "Fournir sa propre révision sans autocorrection ni indice révélant la solution pour une preuve autonome."
+      ],
+      "feedback": "Library message: 8 targeted changes; preserve its meaning and line break. Feedback correctif : identify the exact word or ending, use the relevant model rule, and try a new sentence without a hint.",
+      "difficulte": "transfert",
+      "representation": "message_ecrit_multiligne",
+      "contexte": "library",
+      "preuve_maitrise": "preuve-bibliotheque",
+      "limites_variation": "Version figée de ce scénario : aucune substitution, faute ajoutée, reformulation ou sortie d’une IA sans nouvel examen humain de la liste des erreurs et des solutions.",
+      "barreme_ou_rubrique": "Pour ce message : 1 point de correction par changement ciblé (max 8); justification distincte de S, C et P; décider selon GRILLE_MAITRISE.md sur deux preuves, jamais sur cette note seule.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    },
+    {
+      "item_id": "qc-pri-ale-009-q-010",
+      "objectif_id": "obj-1",
+      "critere_id": "crit-1",
+      "family_id": "qc-pri-ale-009-ev-01",
+      "mode": "scenario_controle",
+      "consigne": "Read the full message. Correct it without hints. Mark every change. Explain at least one spelling change, one capital-letter change, and the question ending.",
+      "stimulus": "dear leo,\non friday i am writeing a note about the rain. will you plaay outside with mia.",
+      "reponse_attendue": "Dear Leo,\nOn Friday I am writing a note about the rain. Will you play outside with Mia?",
+      "corrections_ciblees": [
+        {
+          "categorie": "C",
+          "avant": "dear",
+          "apres": "Dear"
+        },
+        {
+          "categorie": "C",
+          "avant": "leo",
+          "apres": "Leo"
+        },
+        {
+          "categorie": "C",
+          "avant": "on",
+          "apres": "On"
+        },
+        {
+          "categorie": "C",
+          "avant": "friday",
+          "apres": "Friday"
+        },
+        {
+          "categorie": "C",
+          "avant": "i",
+          "apres": "I"
+        },
+        {
+          "categorie": "S",
+          "avant": "writeing",
+          "apres": "writing"
+        },
+        {
+          "categorie": "C",
+          "avant": "will",
+          "apres": "Will"
+        },
+        {
+          "categorie": "S",
+          "avant": "plaay",
+          "apres": "play"
+        },
+        {
+          "categorie": "C",
+          "avant": "mia",
+          "apres": "Mia"
+        },
+        {
+          "categorie": "P",
+          "avant": "mia.",
+          "apres": "Mia?"
+        }
+      ],
+      "justifications_attendues": [
+        "Writing drops the final e in write; play uses ay.",
+        "Leo and Mia are names, Friday is a day and I is capitalized.",
+        "Will you play ...? is a direct question."
+      ],
+      "criteres": [
+        "Corriger les 10 changements ciblés sans altérer le sens ni ajouter des changements injustifiés.",
+        "Repérer les changements dans le texte original et dans la réécriture.",
+        "Relier la justification à une graphie contrôlée, à une règle de capitalisation ou à la forme interrogative/déclarative concernée.",
+        "Fournir sa propre révision sans autocorrection ni indice révélant la solution pour une preuve autonome."
+      ],
+      "feedback": "Garden project message: 10 targeted changes; preserve meaning and line break. Feedback correctif : identify the exact word or ending, use the relevant model rule, and try a new sentence without a hint.",
+      "difficulte": "transfert",
+      "representation": "message_ecrit_multiligne",
+      "contexte": "garden project",
+      "preuve_maitrise": "preuve-jardin",
+      "limites_variation": "Version figée de ce scénario : aucune substitution, faute ajoutée, reformulation ou sortie d’une IA sans nouvel examen humain de la liste des erreurs et des solutions.",
+      "barreme_ou_rubrique": "Pour ce message : 1 point de correction par changement ciblé (max 10); justification distincte de S, C et P; décider selon GRILLE_MAITRISE.md sur deux preuves, jamais sur cette note seule.",
+      "seed": null,
+      "parametres": null,
+      "validation_status": "a_revoir"
+    }
+  ]
+}

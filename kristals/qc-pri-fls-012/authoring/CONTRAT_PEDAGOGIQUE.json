@@ -1,0 +1,99 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fls-012",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Mener un projet de communication orale et écrite simple en français.",
+  "concepts": [
+    "intention",
+    "audience",
+    "choix du support"
+  ],
+  "preuve_attendue": "Produire et présenter un message cohérent pour une situation réelle.",
+  "prerequis_bloquants": [
+    "qc-pri-fls-005"
+  ],
+  "ordre_conseille": [
+    "qc-pri-fls-009"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fls-012-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Produire et présenter un message cohérent pour une situation réelle.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-fls-012",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Produire et présenter un message cohérent pour une situation réelle.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "note_ecrite",
+        "billet",
+        "affiche_textuelle",
+        "production_orale_observee",
+        "communication_orale_assistee"
+      ],
+      "variables": {
+        "mode": "corpus_de_scenarios_fixes_ou_validation_locale",
+        "description": "Q001–Q010 : faits constants. Q011 : lieu, accès, destinataires confirmés par adulte. Q012 : matériel, quantité, besoin, délai, adulte responsable confirmés.",
+        "scenarios_controles": [
+          "FLS012-A-informer",
+          "FLS012-B-demander"
+        ]
+      },
+      "contraintes": [
+        "conserver obj-1, crit-1, famille et liens",
+        "chaque preuve est écrite et présentée oralement",
+        "deux contextes réels distincts, information et demande",
+        "faits scolaires authentifiés avant diffusion",
+        "aucune divulgation de données privées",
+        "ne pas pénaliser accent ou variété linguistique légitime",
+        "pas de phrase ou contenu soufflés durant la preuve",
+        "variantes locales validées par adulte; aucun tirage IA libre"
+      ],
+      "barreme_ou_rubrique": {
+        "type": "rubrique_analytique_non_compensatoire",
+        "fichier": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "C1_intention_audience",
+          "C2_faits_exactitude_securite",
+          "C3_ecrit_coherent",
+          "C4_support",
+          "C5_oral_intelligible",
+          "C6_autonomie_justification"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seuil": "C1–C6 >= 2 dans chacune des deux preuves autonomes, sans moyenne unique"
+      },
+      "source": {
+        "architecture": "authoring/PARCOURS.md (frame v1.2 conservée)",
+        "norme": "governance/Norme_Pedagogique_Autonome_v1.2/GENERATEUR_ET_EXAMENS.md",
+        "banque": "evaluation/BANQUE_ITEMS.json",
+        "provenance": "sources/REFERENCES_CONTENU.md"
+      },
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

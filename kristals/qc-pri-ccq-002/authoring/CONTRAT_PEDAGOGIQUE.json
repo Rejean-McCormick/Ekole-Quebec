@@ -1,0 +1,109 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ccq-002",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comparer des façons de vivre les relations et les responsabilités partagées.",
+  "concepts": [
+    "relation",
+    "entraide",
+    "règle",
+    "respect"
+  ],
+  "preuve_attendue": "Proposer des réponses argumentées à une situation relationnelle fictive.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ccq-002-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Proposer des réponses argumentées à une situation relationnelle fictive.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ccq-002",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Proposer des réponses argumentées à une situation relationnelle fictive.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "vignette fictive textuelle",
+        "lecture orale de la vignette",
+        "schéma annoté équivalent",
+        "tableau comparatif des responsabilités"
+      ],
+      "variables": {
+        "type": "choix_dans_corpus_ferme",
+        "domaines": {
+          "scenario_index": [
+            0,
+            1
+          ]
+        },
+        "items_concernes": [
+          "qc-pri-ccq-002-q-007",
+          "qc-pri-ccq-002-q-008",
+          "qc-pri-ccq-002-q-010",
+          "qc-pri-ccq-002-q-012"
+        ],
+        "instances_fixes": 8
+      },
+      "contraintes": [
+        "Scénarios exclusivement fictifs et âge approprié.",
+        "Aucun témoignage, croyance, identité ou vécu personnel demandé/évalué.",
+        "Comparaison de deux options, responsabilités et argument fondé sur faits du scénario.",
+        "Variations uniquement parmi A/B documentées pour les quatre items contrôlés.",
+        "Aucun générateur IA libre pour stimuli ni contrôle de corrigé."
+      ],
+      "barreme_ou_rubrique": {
+        "ref": "evaluation/GRILLE_MAITRISE.md",
+        "dimensions": [
+          "faits_et_concepts",
+          "comparaison_perspectives",
+          "reponse_responsabilites_respectueuses",
+          "justification_adaptation"
+        ],
+        "niveaux": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seuil_qualitatif": "Deux productions autonomes en contextes distincts, chaque dimension ≥ 2 dans chacune; pas de simple somme ni score d’opinion.",
+        "items_preuves": [
+          "qc-pri-ccq-002-q-011",
+          "qc-pri-ccq-002-q-012"
+        ]
+      },
+      "source": {
+        "type": "production_originale_corpus_fictif",
+        "fichier": "evaluation/BANQUE_ITEMS.json",
+        "provenance": "sources/REFERENCES_CONTENU.md"
+      },
+      "seed": {
+        "mode": "fixe_ou_selection_deterministe",
+        "algorithme": "scenario_index = seed % 2 (ordre A,B); les huit items fixes ont seed=null",
+        "seeds": [
+          3307,
+          3308,
+          3310,
+          3312
+        ]
+      },
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

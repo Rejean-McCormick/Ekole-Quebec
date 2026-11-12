@@ -1,0 +1,93 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-ilss-001",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Comprendre les règles et consignes scolaires indispensables.",
+  "concepts": [
+    "routine",
+    "horaire",
+    "aide",
+    "repère"
+  ],
+  "preuve_attendue": "Suivre une routine nouvelle et demander une clarification adaptée.",
+  "prerequis_bloquants": [],
+  "ordre_conseille": [],
+  "familles": [
+    {
+      "family_id": "qc-pri-ilss-001-ev-01",
+      "type": "observation_ou_production",
+      "tache_cible": "Suivre une routine nouvelle et demander une clarification adaptée.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "gabarit_a_instrumenter",
+      "kristal_id": "qc-pri-ilss-001",
+      "objectif_id": "obj-1",
+      "critere": "crit-1 — Suivre une routine nouvelle et demander une clarification adaptée.",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "horaire_texte",
+        "cartes_sequences",
+        "pictogrammes_decrits",
+        "consignes_orales_lues",
+        "manipulation_simulee"
+      ],
+      "variables": {
+        "mode": "fixe_scenarios_verrouilles",
+        "contextes": [
+          "accueil",
+          "atelier",
+          "mediatheque_fictive",
+          "creation_fictive"
+        ],
+        "modalites_reponse": [
+          "oral",
+          "carte",
+          "geste",
+          "CAA",
+          "ecrit"
+        ]
+      },
+      "contraintes": [
+        "conserver les actions et indices de chaque scénario",
+        "une information essentielle manquante pour chaque preuve finale",
+        "demande de clarification initiée par l’apprenant",
+        "aucune donnée personnelle ni situation dangereuse",
+        "aucun jugement sur accent ni origine",
+        "supports d’accès sans indice de solution"
+      ],
+      "barreme_ou_rubrique": {
+        "dimensions": [
+          "sequence_et_reperes",
+          "detection_information_absente",
+          "clarification_ciblee",
+          "reprise_et_autonomie"
+        ],
+        "echelle": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seuil": "Chaque dimension ≥2 pour chacune des deux preuves autonomes distinctes q-011 et q-012; une seule note globale ne suffit pas."
+      },
+      "source": "contenus et scénarios originaux, ancrés dans PARCOURS.md et gouvernance v1.2; voir sources/REFERENCES_CONTENU.md",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "architecture_complete_items_a_produire",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

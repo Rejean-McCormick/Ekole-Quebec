@@ -1,0 +1,63 @@
+{
+  "format": "qc.education-assessment-blueprint/1.2",
+  "kristal_id": "qc-pri-fr-016",
+  "objectif_id": "obj-1",
+  "objectif_observable": "Réaliser les accords à l’intérieur d’un groupe nominal et expliquer les marques utilisées.",
+  "concepts": [
+    "genre",
+    "nombre",
+    "donneur et receveur"
+  ],
+  "preuve_attendue": "Corriger des groupes nominaux en indiquant les indices d’accord.",
+  "prerequis_bloquants": [
+    "qc-pri-fr-014"
+  ],
+  "ordre_conseille": [
+    "qc-pri-fr-013"
+  ],
+  "familles": [
+    {
+      "family_id": "qc-pri-fr-016-ev-01",
+      "type": "réponse_argumentée",
+      "tache_cible": "Corriger des groupes nominaux en indiquant les indices d’accord.",
+      "rubric_dimensions": [
+        "exactitude_ou_conformite_aux_faits",
+        "demonstration_du_processus",
+        "transfert_a_un_autre_contexte"
+      ],
+      "generation": {
+        "validite_contenu": "necessite_controle_du_correcteur",
+        "variations_admissibles": "données/contexte/situation selon objectifs, difficulté et contraintes d’accessibilité",
+        "interdiction": "ne pas créer d’affirmations factuelles ou de corrigés non vérifiés",
+        "seed_reproductible": true
+      },
+      "review_status": "banque_redigee_revue_humaine_requise",
+      "kristal_id": "qc-pri-fr-016",
+      "objectif_id": "obj-1",
+      "critere": "crit-1",
+      "niveau_complexite": [
+        "initial",
+        "intermediaire",
+        "transfert"
+      ],
+      "representation": [
+        "groupe_nominal_texte_ecrit",
+        "etiquette_contextualisee",
+        "inventaire_contextualise"
+      ],
+      "variables": [],
+      "contraintes": [
+        "items fixes exclusivement : aucune variation automatique de lexèmes ou de nombre",
+        "conserver les indices de contexte et les formes lexicales contrôlées",
+        "deux preuves autonomes sur des contextes distincts",
+        "aucune génération IA libre acceptée comme corrigé"
+      ],
+      "barreme_ou_rubrique": "GRILLE_MAITRISE.md (exactitude de chaque GN, donneurs, traits, receveurs, marques et justification; deux preuves autonomes non compensables)",
+      "source": "contenu/01_NOTIONS_ET_EXEMPLES.md + evaluation/BANQUE_ITEMS.json; conception originale, contrôle linguistique humain requis",
+      "seed": null,
+      "validation_status": "a_revoir"
+    }
+  ],
+  "statut": "banque_redigee_revue_humaine_requise",
+  "referentiel_technique": "gouvernance/Norme_Pedagogique_Autonome_v1.2"
+}

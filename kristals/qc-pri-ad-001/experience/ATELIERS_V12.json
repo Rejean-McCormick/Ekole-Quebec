@@ -1,0 +1,75 @@
+{
+  "format": "ekole.kristal-atelier-v12/1.0",
+  "kristal_id": "qc-pri-ad-001",
+  "source_immutable": {
+    "file": "authoring/CONTRAT_PEDAGOGIQUE.json",
+    "objectif_id": "obj-1",
+    "objectif_observable": "Utiliser corps, voix et espace pour exprimer une intention théâtrale.",
+    "preuve_attendue": "Interpréter une consigne d’expression par deux moyens différents."
+  },
+  "statut": "prototype_revue_pedagogique_requise",
+  "micro_mondes": [
+    {
+      "id": "theatre-deux-moyens",
+      "kristal_id": "qc-pri-ad-001",
+      "type": "expression",
+      "title": "Exprime la surprise",
+      "instruction": "Prépare une courte scène qui exprime la surprise avec deux moyens différents. Présente-la à une personne qui pourra observer ta prestation.",
+      "parameters": {
+        "intention": "surprise",
+        "gestures": [
+          "Utiliser une posture",
+          "Faire varier la voix",
+          "Changer le rythme du geste",
+          "Utiliser l’espace scénique"
+        ]
+      },
+      "objective_id": "obj-1",
+      "representation": "expression_observation_humaine",
+      "diagnostics": [
+        "intention_peu_lisible",
+        "un_seul_moyen"
+      ],
+      "visual_slot": "decouvrir",
+      "format": "ekole.micro-monde/1.0",
+      "evaluation": "entrainement_non_certifiant",
+      "source_review": "revue_requise",
+      "premisse": "Scénario d’entraînement original aligné sur un objectif source; ne constitue pas une évaluation officielle.",
+      "prompt_visuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Exprime la surprise ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif.",
+      "image_path": "experience/images/theatre-deux-moyens.webp"
+    }
+  ],
+  "evaluation_et_decision": {
+    "entrainement_ne_certifie_jamais": true,
+    "preuver_source_requise": true,
+    "validation_ouverte": "revue_humaine",
+    "aide_consigne_apres_erreur": "indices_degressifs"
+  },
+  "teacher_review": {
+    "puiser_dans_modules": [
+      "authoring/CONTRAT_PEDAGOGIQUE.json",
+      "experience/SCENARIO_APPRENTISSAGE.json"
+    ],
+    "axes": [
+      "exactitude_du_concept",
+      "qualite_des_erreurs",
+      "pertinence_de_la_retroaction",
+      "accessibilite_des_actions",
+      "transfert_de_contexte"
+    ],
+    "etat": "non_effectue",
+    "observations": ""
+  },
+  "visuels": {
+    "regle": "Concept sans style. Prompt toujours visible si fichier absent.",
+    "etats_evalues": "dessin_deterministe",
+    "assets": [
+      {
+        "scenario_id": "theatre-deux-moyens",
+        "fichier_attendu": "experience/images/theatre-deux-moyens.webp",
+        "prompt_conceptuel": "Représenter la situation matérielle ou sociale utile pour comprendre l’activité « Exprime la surprise ». Montrer les objets et relations pertinents sans indiquer la solution et sans imposer de style graphique. Laisser toutes les quantités et propriétés évaluées au moteur interactif."
+      }
+    ]
+  },
+  "source_curation": "Atelier nouveau; aucune réécriture non validée des items et preuves d’origine."
+}
