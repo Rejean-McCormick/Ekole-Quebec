@@ -1,0 +1,3709 @@
+{
+  "format": "ekole.personnages/2",
+  "version": 2,
+  "description": "Une identité par rôle, huit poses par compagnon ; aucune variante scolaire obligatoire.",
+  "poses": [
+    "neutre",
+    "saluer",
+    "expliquer",
+    "aider",
+    "celebrer",
+    "reflechir",
+    "ecouter",
+    "presenter"
+  ],
+  "compagnons": [
+    {
+      "id": "architecte",
+      "role_id": "architecte",
+      "nom": "Architecte",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "A",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "astronaute",
+      "role_id": "astronaute",
+      "nom": "Astronaute",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "A",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "boulanger",
+      "role_id": "boulanger",
+      "nom": "Boulanger",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "B",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "bucheron",
+      "role_id": "bucheron",
+      "nom": "Bucheron",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "B",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "chevalier",
+      "role_id": "chevalier",
+      "nom": "Chevalier",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "C",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "clown",
+      "role_id": "clown",
+      "nom": "Clown",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "C",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "coiffeuse",
+      "role_id": "coiffeuse",
+      "nom": "Coiffeuse",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "C",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "comptable",
+      "role_id": "comptable",
+      "nom": "Comptable",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "C",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "createur-jeux",
+      "role_id": "createur-jeux",
+      "nom": "Créateur de jeux",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "C",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "cuisinier",
+      "role_id": "cuisinier",
+      "nom": "Cuisinier",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "C",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "danseur",
+      "role_id": "danseur",
+      "nom": "Danseur",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "D",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "dresseur-animaux",
+      "role_id": "dresseur-animaux",
+      "nom": "Dresseur d’animaux",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "D",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "ecrivain",
+      "role_id": "ecrivain",
+      "nom": "Ecrivain",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "E",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "explorateur",
+      "role_id": "explorateur",
+      "nom": "Explorateur",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "E",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "extraterrestre",
+      "role_id": "extraterrestre",
+      "nom": "Extraterrestre",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "E",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "fermier",
+      "role_id": "fermier",
+      "nom": "Fermier",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "F",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "forgeron",
+      "role_id": "forgeron",
+      "nom": "Forgeron",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "F",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "inventeur",
+      "role_id": "inventeur",
+      "nom": "Inventeur",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "I",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "jardinier",
+      "role_id": "jardinier",
+      "nom": "Jardinier",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "J",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "lecteur",
+      "role_id": "lecteur",
+      "nom": "Lecteur",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "L",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "mecanicien",
+      "role_id": "mecanicien",
+      "nom": "Mecanicien",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "M",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "menuisier",
+      "role_id": "menuisier",
+      "nom": "Menuisier",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "M",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "messager",
+      "role_id": "messager",
+      "nom": "Messager",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "M",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "metteur-en-scene",
+      "role_id": "metteur-en-scene",
+      "nom": "Metteur en scène",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "M",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "mineur",
+      "role_id": "mineur",
+      "nom": "Mineur",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "M",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "musicien",
+      "role_id": "musicien",
+      "nom": "Musicien",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "M",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "mystique",
+      "role_id": "mystique",
+      "nom": "Mystique",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "M",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "origamiste",
+      "role_id": "origamiste",
+      "nom": "Origamiste",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "O",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "pecheur",
+      "role_id": "pecheur",
+      "nom": "Pecheur",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "P",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "peintre",
+      "role_id": "peintre",
+      "nom": "Peintre",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "P",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "photographe",
+      "role_id": "photographe",
+      "nom": "Photographe",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "P",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "politicien",
+      "role_id": "politicien",
+      "nom": "Politicien",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "P",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "redacteur",
+      "role_id": "redacteur",
+      "nom": "Redacteur",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "R",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "regisseur",
+      "role_id": "regisseur",
+      "nom": "Regisseur",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "R",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "scientifique",
+      "role_id": "scientifique",
+      "nom": "Scientifique",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "S",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "sorciere",
+      "role_id": "sorciere",
+      "nom": "Sorciere",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "S",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "traducteur",
+      "role_id": "traducteur",
+      "nom": "Traducteur",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "T",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    },
+    {
+      "id": "veterinaire",
+      "role_id": "veterinaire",
+      "nom": "Veterinaire",
+      "univers_id": "roles",
+      "univers": "Les rôles Ékole Québec",
+      "sigle": "V",
+      "poses": [
+        "neutre",
+        "saluer",
+        "expliquer",
+        "aider",
+        "celebrer",
+        "reflechir",
+        "ecouter",
+        "presenter"
+      ]
+    }
+  ],
+  "anciens_choix": {
+    "ferme": "fermier",
+    "cosmos": "extraterrestre"
+  },
+  "assets": [
+    {
+      "id": "role-architecte",
+      "type": "role",
+      "role_id": "architecte",
+      "fichier": "images/roles/architecte.png",
+      "alt": "Architecte, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-architecte-pose-saluer",
+      "type": "compagnon",
+      "personnage": "architecte",
+      "role_id": "architecte",
+      "pose": "saluer",
+      "fichier": "images/compagnons/architecte/pose-saluer.png",
+      "alt": "Architecte, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-architecte-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "architecte",
+      "role_id": "architecte",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/architecte/pose-expliquer.png",
+      "alt": "Architecte, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-architecte-pose-aider",
+      "type": "compagnon",
+      "personnage": "architecte",
+      "role_id": "architecte",
+      "pose": "aider",
+      "fichier": "images/compagnons/architecte/pose-aider.png",
+      "alt": "Architecte, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-architecte-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "architecte",
+      "role_id": "architecte",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/architecte/pose-celebrer.png",
+      "alt": "Architecte, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-architecte-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "architecte",
+      "role_id": "architecte",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/architecte/pose-reflechir.png",
+      "alt": "Architecte, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-architecte-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "architecte",
+      "role_id": "architecte",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/architecte/pose-ecouter.png",
+      "alt": "Architecte, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-architecte-pose-presenter",
+      "type": "compagnon",
+      "personnage": "architecte",
+      "role_id": "architecte",
+      "pose": "presenter",
+      "fichier": "images/compagnons/architecte/pose-presenter.png",
+      "alt": "Architecte, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-astronaute",
+      "type": "role",
+      "role_id": "astronaute",
+      "fichier": "images/roles/astronaute.png",
+      "alt": "Astronaute, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-astronaute-pose-saluer",
+      "type": "compagnon",
+      "personnage": "astronaute",
+      "role_id": "astronaute",
+      "pose": "saluer",
+      "fichier": "images/compagnons/astronaute/pose-saluer.png",
+      "alt": "Astronaute, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-astronaute-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "astronaute",
+      "role_id": "astronaute",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/astronaute/pose-expliquer.png",
+      "alt": "Astronaute, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-astronaute-pose-aider",
+      "type": "compagnon",
+      "personnage": "astronaute",
+      "role_id": "astronaute",
+      "pose": "aider",
+      "fichier": "images/compagnons/astronaute/pose-aider.png",
+      "alt": "Astronaute, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-astronaute-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "astronaute",
+      "role_id": "astronaute",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/astronaute/pose-celebrer.png",
+      "alt": "Astronaute, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-astronaute-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "astronaute",
+      "role_id": "astronaute",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/astronaute/pose-reflechir.png",
+      "alt": "Astronaute, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-astronaute-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "astronaute",
+      "role_id": "astronaute",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/astronaute/pose-ecouter.png",
+      "alt": "Astronaute, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-astronaute-pose-presenter",
+      "type": "compagnon",
+      "personnage": "astronaute",
+      "role_id": "astronaute",
+      "pose": "presenter",
+      "fichier": "images/compagnons/astronaute/pose-presenter.png",
+      "alt": "Astronaute, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-boulanger",
+      "type": "role",
+      "role_id": "boulanger",
+      "fichier": "images/roles/boulanger.png",
+      "alt": "Boulanger, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-boulanger-pose-saluer",
+      "type": "compagnon",
+      "personnage": "boulanger",
+      "role_id": "boulanger",
+      "pose": "saluer",
+      "fichier": "images/compagnons/boulanger/pose-saluer.png",
+      "alt": "Boulanger, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-boulanger-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "boulanger",
+      "role_id": "boulanger",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/boulanger/pose-expliquer.png",
+      "alt": "Boulanger, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-boulanger-pose-aider",
+      "type": "compagnon",
+      "personnage": "boulanger",
+      "role_id": "boulanger",
+      "pose": "aider",
+      "fichier": "images/compagnons/boulanger/pose-aider.png",
+      "alt": "Boulanger, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-boulanger-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "boulanger",
+      "role_id": "boulanger",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/boulanger/pose-celebrer.png",
+      "alt": "Boulanger, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-boulanger-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "boulanger",
+      "role_id": "boulanger",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/boulanger/pose-reflechir.png",
+      "alt": "Boulanger, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-boulanger-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "boulanger",
+      "role_id": "boulanger",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/boulanger/pose-ecouter.png",
+      "alt": "Boulanger, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-boulanger-pose-presenter",
+      "type": "compagnon",
+      "personnage": "boulanger",
+      "role_id": "boulanger",
+      "pose": "presenter",
+      "fichier": "images/compagnons/boulanger/pose-presenter.png",
+      "alt": "Boulanger, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-bucheron",
+      "type": "role",
+      "role_id": "bucheron",
+      "fichier": "images/roles/bucheron.png",
+      "alt": "Bucheron, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-bucheron-pose-saluer",
+      "type": "compagnon",
+      "personnage": "bucheron",
+      "role_id": "bucheron",
+      "pose": "saluer",
+      "fichier": "images/compagnons/bucheron/pose-saluer.png",
+      "alt": "Bucheron, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-bucheron-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "bucheron",
+      "role_id": "bucheron",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/bucheron/pose-expliquer.png",
+      "alt": "Bucheron, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-bucheron-pose-aider",
+      "type": "compagnon",
+      "personnage": "bucheron",
+      "role_id": "bucheron",
+      "pose": "aider",
+      "fichier": "images/compagnons/bucheron/pose-aider.png",
+      "alt": "Bucheron, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-bucheron-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "bucheron",
+      "role_id": "bucheron",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/bucheron/pose-celebrer.png",
+      "alt": "Bucheron, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-bucheron-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "bucheron",
+      "role_id": "bucheron",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/bucheron/pose-reflechir.png",
+      "alt": "Bucheron, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-bucheron-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "bucheron",
+      "role_id": "bucheron",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/bucheron/pose-ecouter.png",
+      "alt": "Bucheron, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-bucheron-pose-presenter",
+      "type": "compagnon",
+      "personnage": "bucheron",
+      "role_id": "bucheron",
+      "pose": "presenter",
+      "fichier": "images/compagnons/bucheron/pose-presenter.png",
+      "alt": "Bucheron, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-chevalier",
+      "type": "role",
+      "role_id": "chevalier",
+      "fichier": "images/roles/chevalier.png",
+      "alt": "Chevalier, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-chevalier-pose-saluer",
+      "type": "compagnon",
+      "personnage": "chevalier",
+      "role_id": "chevalier",
+      "pose": "saluer",
+      "fichier": "images/compagnons/chevalier/pose-saluer.png",
+      "alt": "Chevalier, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-chevalier-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "chevalier",
+      "role_id": "chevalier",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/chevalier/pose-expliquer.png",
+      "alt": "Chevalier, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-chevalier-pose-aider",
+      "type": "compagnon",
+      "personnage": "chevalier",
+      "role_id": "chevalier",
+      "pose": "aider",
+      "fichier": "images/compagnons/chevalier/pose-aider.png",
+      "alt": "Chevalier, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-chevalier-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "chevalier",
+      "role_id": "chevalier",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/chevalier/pose-celebrer.png",
+      "alt": "Chevalier, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-chevalier-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "chevalier",
+      "role_id": "chevalier",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/chevalier/pose-reflechir.png",
+      "alt": "Chevalier, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-chevalier-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "chevalier",
+      "role_id": "chevalier",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/chevalier/pose-ecouter.png",
+      "alt": "Chevalier, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-chevalier-pose-presenter",
+      "type": "compagnon",
+      "personnage": "chevalier",
+      "role_id": "chevalier",
+      "pose": "presenter",
+      "fichier": "images/compagnons/chevalier/pose-presenter.png",
+      "alt": "Chevalier, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-clown",
+      "type": "role",
+      "role_id": "clown",
+      "fichier": "images/roles/clown.png",
+      "alt": "Clown, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-clown-pose-saluer",
+      "type": "compagnon",
+      "personnage": "clown",
+      "role_id": "clown",
+      "pose": "saluer",
+      "fichier": "images/compagnons/clown/pose-saluer.png",
+      "alt": "Clown, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-clown-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "clown",
+      "role_id": "clown",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/clown/pose-expliquer.png",
+      "alt": "Clown, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-clown-pose-aider",
+      "type": "compagnon",
+      "personnage": "clown",
+      "role_id": "clown",
+      "pose": "aider",
+      "fichier": "images/compagnons/clown/pose-aider.png",
+      "alt": "Clown, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-clown-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "clown",
+      "role_id": "clown",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/clown/pose-celebrer.png",
+      "alt": "Clown, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-clown-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "clown",
+      "role_id": "clown",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/clown/pose-reflechir.png",
+      "alt": "Clown, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-clown-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "clown",
+      "role_id": "clown",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/clown/pose-ecouter.png",
+      "alt": "Clown, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-clown-pose-presenter",
+      "type": "compagnon",
+      "personnage": "clown",
+      "role_id": "clown",
+      "pose": "presenter",
+      "fichier": "images/compagnons/clown/pose-presenter.png",
+      "alt": "Clown, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-coiffeuse",
+      "type": "role",
+      "role_id": "coiffeuse",
+      "fichier": "images/roles/coiffeuse.png",
+      "alt": "Coiffeuse, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-coiffeuse-pose-saluer",
+      "type": "compagnon",
+      "personnage": "coiffeuse",
+      "role_id": "coiffeuse",
+      "pose": "saluer",
+      "fichier": "images/compagnons/coiffeuse/pose-saluer.png",
+      "alt": "Coiffeuse, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-coiffeuse-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "coiffeuse",
+      "role_id": "coiffeuse",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/coiffeuse/pose-expliquer.png",
+      "alt": "Coiffeuse, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-coiffeuse-pose-aider",
+      "type": "compagnon",
+      "personnage": "coiffeuse",
+      "role_id": "coiffeuse",
+      "pose": "aider",
+      "fichier": "images/compagnons/coiffeuse/pose-aider.png",
+      "alt": "Coiffeuse, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-coiffeuse-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "coiffeuse",
+      "role_id": "coiffeuse",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/coiffeuse/pose-celebrer.png",
+      "alt": "Coiffeuse, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-coiffeuse-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "coiffeuse",
+      "role_id": "coiffeuse",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/coiffeuse/pose-reflechir.png",
+      "alt": "Coiffeuse, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-coiffeuse-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "coiffeuse",
+      "role_id": "coiffeuse",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/coiffeuse/pose-ecouter.png",
+      "alt": "Coiffeuse, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-coiffeuse-pose-presenter",
+      "type": "compagnon",
+      "personnage": "coiffeuse",
+      "role_id": "coiffeuse",
+      "pose": "presenter",
+      "fichier": "images/compagnons/coiffeuse/pose-presenter.png",
+      "alt": "Coiffeuse, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-comptable",
+      "type": "role",
+      "role_id": "comptable",
+      "fichier": "images/roles/comptable.png",
+      "alt": "Comptable, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-comptable-pose-saluer",
+      "type": "compagnon",
+      "personnage": "comptable",
+      "role_id": "comptable",
+      "pose": "saluer",
+      "fichier": "images/compagnons/comptable/pose-saluer.png",
+      "alt": "Comptable, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-comptable-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "comptable",
+      "role_id": "comptable",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/comptable/pose-expliquer.png",
+      "alt": "Comptable, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-comptable-pose-aider",
+      "type": "compagnon",
+      "personnage": "comptable",
+      "role_id": "comptable",
+      "pose": "aider",
+      "fichier": "images/compagnons/comptable/pose-aider.png",
+      "alt": "Comptable, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-comptable-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "comptable",
+      "role_id": "comptable",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/comptable/pose-celebrer.png",
+      "alt": "Comptable, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-comptable-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "comptable",
+      "role_id": "comptable",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/comptable/pose-reflechir.png",
+      "alt": "Comptable, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-comptable-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "comptable",
+      "role_id": "comptable",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/comptable/pose-ecouter.png",
+      "alt": "Comptable, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-comptable-pose-presenter",
+      "type": "compagnon",
+      "personnage": "comptable",
+      "role_id": "comptable",
+      "pose": "presenter",
+      "fichier": "images/compagnons/comptable/pose-presenter.png",
+      "alt": "Comptable, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-createur-jeux",
+      "type": "role",
+      "role_id": "createur-jeux",
+      "fichier": "images/roles/createur-jeux.png",
+      "alt": "Créateur de jeux, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-createur-jeux-pose-saluer",
+      "type": "compagnon",
+      "personnage": "createur-jeux",
+      "role_id": "createur-jeux",
+      "pose": "saluer",
+      "fichier": "images/compagnons/createur-jeux/pose-saluer.png",
+      "alt": "Créateur de jeux, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-createur-jeux-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "createur-jeux",
+      "role_id": "createur-jeux",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/createur-jeux/pose-expliquer.png",
+      "alt": "Créateur de jeux, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-createur-jeux-pose-aider",
+      "type": "compagnon",
+      "personnage": "createur-jeux",
+      "role_id": "createur-jeux",
+      "pose": "aider",
+      "fichier": "images/compagnons/createur-jeux/pose-aider.png",
+      "alt": "Créateur de jeux, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-createur-jeux-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "createur-jeux",
+      "role_id": "createur-jeux",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/createur-jeux/pose-celebrer.png",
+      "alt": "Créateur de jeux, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-createur-jeux-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "createur-jeux",
+      "role_id": "createur-jeux",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/createur-jeux/pose-reflechir.png",
+      "alt": "Créateur de jeux, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-createur-jeux-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "createur-jeux",
+      "role_id": "createur-jeux",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/createur-jeux/pose-ecouter.png",
+      "alt": "Créateur de jeux, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-createur-jeux-pose-presenter",
+      "type": "compagnon",
+      "personnage": "createur-jeux",
+      "role_id": "createur-jeux",
+      "pose": "presenter",
+      "fichier": "images/compagnons/createur-jeux/pose-presenter.png",
+      "alt": "Créateur de jeux, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-cuisinier",
+      "type": "role",
+      "role_id": "cuisinier",
+      "fichier": "images/roles/cuisinier.png",
+      "alt": "Cuisinier, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-cuisinier-pose-saluer",
+      "type": "compagnon",
+      "personnage": "cuisinier",
+      "role_id": "cuisinier",
+      "pose": "saluer",
+      "fichier": "images/compagnons/cuisinier/pose-saluer.png",
+      "alt": "Cuisinier, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-cuisinier-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "cuisinier",
+      "role_id": "cuisinier",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/cuisinier/pose-expliquer.png",
+      "alt": "Cuisinier, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-cuisinier-pose-aider",
+      "type": "compagnon",
+      "personnage": "cuisinier",
+      "role_id": "cuisinier",
+      "pose": "aider",
+      "fichier": "images/compagnons/cuisinier/pose-aider.png",
+      "alt": "Cuisinier, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-cuisinier-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "cuisinier",
+      "role_id": "cuisinier",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/cuisinier/pose-celebrer.png",
+      "alt": "Cuisinier, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-cuisinier-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "cuisinier",
+      "role_id": "cuisinier",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/cuisinier/pose-reflechir.png",
+      "alt": "Cuisinier, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-cuisinier-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "cuisinier",
+      "role_id": "cuisinier",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/cuisinier/pose-ecouter.png",
+      "alt": "Cuisinier, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-cuisinier-pose-presenter",
+      "type": "compagnon",
+      "personnage": "cuisinier",
+      "role_id": "cuisinier",
+      "pose": "presenter",
+      "fichier": "images/compagnons/cuisinier/pose-presenter.png",
+      "alt": "Cuisinier, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-danseur",
+      "type": "role",
+      "role_id": "danseur",
+      "fichier": "images/roles/danseur.png",
+      "alt": "Danseur, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-danseur-pose-saluer",
+      "type": "compagnon",
+      "personnage": "danseur",
+      "role_id": "danseur",
+      "pose": "saluer",
+      "fichier": "images/compagnons/danseur/pose-saluer.png",
+      "alt": "Danseur, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-danseur-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "danseur",
+      "role_id": "danseur",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/danseur/pose-expliquer.png",
+      "alt": "Danseur, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-danseur-pose-aider",
+      "type": "compagnon",
+      "personnage": "danseur",
+      "role_id": "danseur",
+      "pose": "aider",
+      "fichier": "images/compagnons/danseur/pose-aider.png",
+      "alt": "Danseur, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-danseur-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "danseur",
+      "role_id": "danseur",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/danseur/pose-celebrer.png",
+      "alt": "Danseur, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-danseur-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "danseur",
+      "role_id": "danseur",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/danseur/pose-reflechir.png",
+      "alt": "Danseur, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-danseur-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "danseur",
+      "role_id": "danseur",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/danseur/pose-ecouter.png",
+      "alt": "Danseur, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-danseur-pose-presenter",
+      "type": "compagnon",
+      "personnage": "danseur",
+      "role_id": "danseur",
+      "pose": "presenter",
+      "fichier": "images/compagnons/danseur/pose-presenter.png",
+      "alt": "Danseur, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-dresseur-animaux",
+      "type": "role",
+      "role_id": "dresseur-animaux",
+      "fichier": "images/roles/dresseur-animaux.png",
+      "alt": "Dresseur d’animaux, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-dresseur-animaux-pose-saluer",
+      "type": "compagnon",
+      "personnage": "dresseur-animaux",
+      "role_id": "dresseur-animaux",
+      "pose": "saluer",
+      "fichier": "images/compagnons/dresseur-animaux/pose-saluer.png",
+      "alt": "Dresseur d’animaux, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-dresseur-animaux-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "dresseur-animaux",
+      "role_id": "dresseur-animaux",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/dresseur-animaux/pose-expliquer.png",
+      "alt": "Dresseur d’animaux, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-dresseur-animaux-pose-aider",
+      "type": "compagnon",
+      "personnage": "dresseur-animaux",
+      "role_id": "dresseur-animaux",
+      "pose": "aider",
+      "fichier": "images/compagnons/dresseur-animaux/pose-aider.png",
+      "alt": "Dresseur d’animaux, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-dresseur-animaux-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "dresseur-animaux",
+      "role_id": "dresseur-animaux",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/dresseur-animaux/pose-celebrer.png",
+      "alt": "Dresseur d’animaux, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-dresseur-animaux-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "dresseur-animaux",
+      "role_id": "dresseur-animaux",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/dresseur-animaux/pose-reflechir.png",
+      "alt": "Dresseur d’animaux, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-dresseur-animaux-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "dresseur-animaux",
+      "role_id": "dresseur-animaux",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/dresseur-animaux/pose-ecouter.png",
+      "alt": "Dresseur d’animaux, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-dresseur-animaux-pose-presenter",
+      "type": "compagnon",
+      "personnage": "dresseur-animaux",
+      "role_id": "dresseur-animaux",
+      "pose": "presenter",
+      "fichier": "images/compagnons/dresseur-animaux/pose-presenter.png",
+      "alt": "Dresseur d’animaux, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-ecrivain",
+      "type": "role",
+      "role_id": "ecrivain",
+      "fichier": "images/roles/ecrivain.png",
+      "alt": "Ecrivain, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-ecrivain-pose-saluer",
+      "type": "compagnon",
+      "personnage": "ecrivain",
+      "role_id": "ecrivain",
+      "pose": "saluer",
+      "fichier": "images/compagnons/ecrivain/pose-saluer.png",
+      "alt": "Ecrivain, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-ecrivain-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "ecrivain",
+      "role_id": "ecrivain",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/ecrivain/pose-expliquer.png",
+      "alt": "Ecrivain, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-ecrivain-pose-aider",
+      "type": "compagnon",
+      "personnage": "ecrivain",
+      "role_id": "ecrivain",
+      "pose": "aider",
+      "fichier": "images/compagnons/ecrivain/pose-aider.png",
+      "alt": "Ecrivain, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-ecrivain-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "ecrivain",
+      "role_id": "ecrivain",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/ecrivain/pose-celebrer.png",
+      "alt": "Ecrivain, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-ecrivain-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "ecrivain",
+      "role_id": "ecrivain",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/ecrivain/pose-reflechir.png",
+      "alt": "Ecrivain, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-ecrivain-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "ecrivain",
+      "role_id": "ecrivain",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/ecrivain/pose-ecouter.png",
+      "alt": "Ecrivain, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-ecrivain-pose-presenter",
+      "type": "compagnon",
+      "personnage": "ecrivain",
+      "role_id": "ecrivain",
+      "pose": "presenter",
+      "fichier": "images/compagnons/ecrivain/pose-presenter.png",
+      "alt": "Ecrivain, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-explorateur",
+      "type": "role",
+      "role_id": "explorateur",
+      "fichier": "images/roles/explorateur.png",
+      "alt": "Explorateur, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-explorateur-pose-saluer",
+      "type": "compagnon",
+      "personnage": "explorateur",
+      "role_id": "explorateur",
+      "pose": "saluer",
+      "fichier": "images/compagnons/explorateur/pose-saluer.png",
+      "alt": "Explorateur, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-explorateur-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "explorateur",
+      "role_id": "explorateur",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/explorateur/pose-expliquer.png",
+      "alt": "Explorateur, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-explorateur-pose-aider",
+      "type": "compagnon",
+      "personnage": "explorateur",
+      "role_id": "explorateur",
+      "pose": "aider",
+      "fichier": "images/compagnons/explorateur/pose-aider.png",
+      "alt": "Explorateur, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-explorateur-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "explorateur",
+      "role_id": "explorateur",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/explorateur/pose-celebrer.png",
+      "alt": "Explorateur, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-explorateur-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "explorateur",
+      "role_id": "explorateur",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/explorateur/pose-reflechir.png",
+      "alt": "Explorateur, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-explorateur-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "explorateur",
+      "role_id": "explorateur",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/explorateur/pose-ecouter.png",
+      "alt": "Explorateur, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-explorateur-pose-presenter",
+      "type": "compagnon",
+      "personnage": "explorateur",
+      "role_id": "explorateur",
+      "pose": "presenter",
+      "fichier": "images/compagnons/explorateur/pose-presenter.png",
+      "alt": "Explorateur, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-extraterrestre",
+      "type": "role",
+      "role_id": "extraterrestre",
+      "fichier": "images/roles/extraterrestre.png",
+      "alt": "Extraterrestre, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-extraterrestre-pose-saluer",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "role_id": "extraterrestre",
+      "pose": "saluer",
+      "fichier": "images/compagnons/extraterrestre/pose-saluer.png",
+      "alt": "Extraterrestre, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "role_id": "extraterrestre",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/extraterrestre/pose-expliquer.png",
+      "alt": "Extraterrestre, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-pose-aider",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "role_id": "extraterrestre",
+      "pose": "aider",
+      "fichier": "images/compagnons/extraterrestre/pose-aider.png",
+      "alt": "Extraterrestre, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "role_id": "extraterrestre",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/extraterrestre/pose-celebrer.png",
+      "alt": "Extraterrestre, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "role_id": "extraterrestre",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/extraterrestre/pose-reflechir.png",
+      "alt": "Extraterrestre, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "role_id": "extraterrestre",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/extraterrestre/pose-ecouter.png",
+      "alt": "Extraterrestre, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-extraterrestre-pose-presenter",
+      "type": "compagnon",
+      "personnage": "extraterrestre",
+      "role_id": "extraterrestre",
+      "pose": "presenter",
+      "fichier": "images/compagnons/extraterrestre/pose-presenter.png",
+      "alt": "Extraterrestre, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-fermier",
+      "type": "role",
+      "role_id": "fermier",
+      "fichier": "images/roles/fermier.png",
+      "alt": "Fermier, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-fermier-pose-saluer",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "role_id": "fermier",
+      "pose": "saluer",
+      "fichier": "images/compagnons/fermier/pose-saluer.png",
+      "alt": "Fermier, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "role_id": "fermier",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/fermier/pose-expliquer.png",
+      "alt": "Fermier, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-pose-aider",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "role_id": "fermier",
+      "pose": "aider",
+      "fichier": "images/compagnons/fermier/pose-aider.png",
+      "alt": "Fermier, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "role_id": "fermier",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/fermier/pose-celebrer.png",
+      "alt": "Fermier, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "role_id": "fermier",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/fermier/pose-reflechir.png",
+      "alt": "Fermier, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "role_id": "fermier",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/fermier/pose-ecouter.png",
+      "alt": "Fermier, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-fermier-pose-presenter",
+      "type": "compagnon",
+      "personnage": "fermier",
+      "role_id": "fermier",
+      "pose": "presenter",
+      "fichier": "images/compagnons/fermier/pose-presenter.png",
+      "alt": "Fermier, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-forgeron",
+      "type": "role",
+      "role_id": "forgeron",
+      "fichier": "images/roles/forgeron.png",
+      "alt": "Forgeron, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-forgeron-pose-saluer",
+      "type": "compagnon",
+      "personnage": "forgeron",
+      "role_id": "forgeron",
+      "pose": "saluer",
+      "fichier": "images/compagnons/forgeron/pose-saluer.png",
+      "alt": "Forgeron, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-forgeron-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "forgeron",
+      "role_id": "forgeron",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/forgeron/pose-expliquer.png",
+      "alt": "Forgeron, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-forgeron-pose-aider",
+      "type": "compagnon",
+      "personnage": "forgeron",
+      "role_id": "forgeron",
+      "pose": "aider",
+      "fichier": "images/compagnons/forgeron/pose-aider.png",
+      "alt": "Forgeron, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-forgeron-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "forgeron",
+      "role_id": "forgeron",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/forgeron/pose-celebrer.png",
+      "alt": "Forgeron, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-forgeron-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "forgeron",
+      "role_id": "forgeron",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/forgeron/pose-reflechir.png",
+      "alt": "Forgeron, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-forgeron-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "forgeron",
+      "role_id": "forgeron",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/forgeron/pose-ecouter.png",
+      "alt": "Forgeron, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-forgeron-pose-presenter",
+      "type": "compagnon",
+      "personnage": "forgeron",
+      "role_id": "forgeron",
+      "pose": "presenter",
+      "fichier": "images/compagnons/forgeron/pose-presenter.png",
+      "alt": "Forgeron, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-inventeur",
+      "type": "role",
+      "role_id": "inventeur",
+      "fichier": "images/roles/inventeur.png",
+      "alt": "Inventeur, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-inventeur-pose-saluer",
+      "type": "compagnon",
+      "personnage": "inventeur",
+      "role_id": "inventeur",
+      "pose": "saluer",
+      "fichier": "images/compagnons/inventeur/pose-saluer.png",
+      "alt": "Inventeur, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-inventeur-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "inventeur",
+      "role_id": "inventeur",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/inventeur/pose-expliquer.png",
+      "alt": "Inventeur, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-inventeur-pose-aider",
+      "type": "compagnon",
+      "personnage": "inventeur",
+      "role_id": "inventeur",
+      "pose": "aider",
+      "fichier": "images/compagnons/inventeur/pose-aider.png",
+      "alt": "Inventeur, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-inventeur-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "inventeur",
+      "role_id": "inventeur",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/inventeur/pose-celebrer.png",
+      "alt": "Inventeur, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-inventeur-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "inventeur",
+      "role_id": "inventeur",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/inventeur/pose-reflechir.png",
+      "alt": "Inventeur, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-inventeur-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "inventeur",
+      "role_id": "inventeur",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/inventeur/pose-ecouter.png",
+      "alt": "Inventeur, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-inventeur-pose-presenter",
+      "type": "compagnon",
+      "personnage": "inventeur",
+      "role_id": "inventeur",
+      "pose": "presenter",
+      "fichier": "images/compagnons/inventeur/pose-presenter.png",
+      "alt": "Inventeur, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-jardinier",
+      "type": "role",
+      "role_id": "jardinier",
+      "fichier": "images/roles/jardinier.png",
+      "alt": "Jardinier, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-jardinier-pose-saluer",
+      "type": "compagnon",
+      "personnage": "jardinier",
+      "role_id": "jardinier",
+      "pose": "saluer",
+      "fichier": "images/compagnons/jardinier/pose-saluer.png",
+      "alt": "Jardinier, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-jardinier-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "jardinier",
+      "role_id": "jardinier",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/jardinier/pose-expliquer.png",
+      "alt": "Jardinier, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-jardinier-pose-aider",
+      "type": "compagnon",
+      "personnage": "jardinier",
+      "role_id": "jardinier",
+      "pose": "aider",
+      "fichier": "images/compagnons/jardinier/pose-aider.png",
+      "alt": "Jardinier, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-jardinier-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "jardinier",
+      "role_id": "jardinier",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/jardinier/pose-celebrer.png",
+      "alt": "Jardinier, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-jardinier-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "jardinier",
+      "role_id": "jardinier",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/jardinier/pose-reflechir.png",
+      "alt": "Jardinier, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-jardinier-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "jardinier",
+      "role_id": "jardinier",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/jardinier/pose-ecouter.png",
+      "alt": "Jardinier, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-jardinier-pose-presenter",
+      "type": "compagnon",
+      "personnage": "jardinier",
+      "role_id": "jardinier",
+      "pose": "presenter",
+      "fichier": "images/compagnons/jardinier/pose-presenter.png",
+      "alt": "Jardinier, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-lecteur",
+      "type": "role",
+      "role_id": "lecteur",
+      "fichier": "images/roles/lecteur.png",
+      "alt": "Lecteur, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-lecteur-pose-saluer",
+      "type": "compagnon",
+      "personnage": "lecteur",
+      "role_id": "lecteur",
+      "pose": "saluer",
+      "fichier": "images/compagnons/lecteur/pose-saluer.png",
+      "alt": "Lecteur, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-lecteur-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "lecteur",
+      "role_id": "lecteur",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/lecteur/pose-expliquer.png",
+      "alt": "Lecteur, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-lecteur-pose-aider",
+      "type": "compagnon",
+      "personnage": "lecteur",
+      "role_id": "lecteur",
+      "pose": "aider",
+      "fichier": "images/compagnons/lecteur/pose-aider.png",
+      "alt": "Lecteur, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-lecteur-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "lecteur",
+      "role_id": "lecteur",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/lecteur/pose-celebrer.png",
+      "alt": "Lecteur, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-lecteur-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "lecteur",
+      "role_id": "lecteur",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/lecteur/pose-reflechir.png",
+      "alt": "Lecteur, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-lecteur-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "lecteur",
+      "role_id": "lecteur",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/lecteur/pose-ecouter.png",
+      "alt": "Lecteur, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-lecteur-pose-presenter",
+      "type": "compagnon",
+      "personnage": "lecteur",
+      "role_id": "lecteur",
+      "pose": "presenter",
+      "fichier": "images/compagnons/lecteur/pose-presenter.png",
+      "alt": "Lecteur, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-mecanicien",
+      "type": "role",
+      "role_id": "mecanicien",
+      "fichier": "images/roles/mecanicien.png",
+      "alt": "Mecanicien, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-mecanicien-pose-saluer",
+      "type": "compagnon",
+      "personnage": "mecanicien",
+      "role_id": "mecanicien",
+      "pose": "saluer",
+      "fichier": "images/compagnons/mecanicien/pose-saluer.png",
+      "alt": "Mecanicien, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mecanicien-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "mecanicien",
+      "role_id": "mecanicien",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/mecanicien/pose-expliquer.png",
+      "alt": "Mecanicien, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mecanicien-pose-aider",
+      "type": "compagnon",
+      "personnage": "mecanicien",
+      "role_id": "mecanicien",
+      "pose": "aider",
+      "fichier": "images/compagnons/mecanicien/pose-aider.png",
+      "alt": "Mecanicien, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mecanicien-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "mecanicien",
+      "role_id": "mecanicien",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/mecanicien/pose-celebrer.png",
+      "alt": "Mecanicien, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mecanicien-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "mecanicien",
+      "role_id": "mecanicien",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/mecanicien/pose-reflechir.png",
+      "alt": "Mecanicien, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mecanicien-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "mecanicien",
+      "role_id": "mecanicien",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/mecanicien/pose-ecouter.png",
+      "alt": "Mecanicien, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mecanicien-pose-presenter",
+      "type": "compagnon",
+      "personnage": "mecanicien",
+      "role_id": "mecanicien",
+      "pose": "presenter",
+      "fichier": "images/compagnons/mecanicien/pose-presenter.png",
+      "alt": "Mecanicien, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-menuisier",
+      "type": "role",
+      "role_id": "menuisier",
+      "fichier": "images/roles/menuisier.png",
+      "alt": "Menuisier, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-menuisier-pose-saluer",
+      "type": "compagnon",
+      "personnage": "menuisier",
+      "role_id": "menuisier",
+      "pose": "saluer",
+      "fichier": "images/compagnons/menuisier/pose-saluer.png",
+      "alt": "Menuisier, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-menuisier-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "menuisier",
+      "role_id": "menuisier",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/menuisier/pose-expliquer.png",
+      "alt": "Menuisier, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-menuisier-pose-aider",
+      "type": "compagnon",
+      "personnage": "menuisier",
+      "role_id": "menuisier",
+      "pose": "aider",
+      "fichier": "images/compagnons/menuisier/pose-aider.png",
+      "alt": "Menuisier, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-menuisier-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "menuisier",
+      "role_id": "menuisier",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/menuisier/pose-celebrer.png",
+      "alt": "Menuisier, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-menuisier-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "menuisier",
+      "role_id": "menuisier",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/menuisier/pose-reflechir.png",
+      "alt": "Menuisier, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-menuisier-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "menuisier",
+      "role_id": "menuisier",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/menuisier/pose-ecouter.png",
+      "alt": "Menuisier, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-menuisier-pose-presenter",
+      "type": "compagnon",
+      "personnage": "menuisier",
+      "role_id": "menuisier",
+      "pose": "presenter",
+      "fichier": "images/compagnons/menuisier/pose-presenter.png",
+      "alt": "Menuisier, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-messager",
+      "type": "role",
+      "role_id": "messager",
+      "fichier": "images/roles/messager.png",
+      "alt": "Messager, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-messager-pose-saluer",
+      "type": "compagnon",
+      "personnage": "messager",
+      "role_id": "messager",
+      "pose": "saluer",
+      "fichier": "images/compagnons/messager/pose-saluer.png",
+      "alt": "Messager, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-messager-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "messager",
+      "role_id": "messager",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/messager/pose-expliquer.png",
+      "alt": "Messager, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-messager-pose-aider",
+      "type": "compagnon",
+      "personnage": "messager",
+      "role_id": "messager",
+      "pose": "aider",
+      "fichier": "images/compagnons/messager/pose-aider.png",
+      "alt": "Messager, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-messager-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "messager",
+      "role_id": "messager",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/messager/pose-celebrer.png",
+      "alt": "Messager, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-messager-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "messager",
+      "role_id": "messager",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/messager/pose-reflechir.png",
+      "alt": "Messager, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-messager-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "messager",
+      "role_id": "messager",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/messager/pose-ecouter.png",
+      "alt": "Messager, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-messager-pose-presenter",
+      "type": "compagnon",
+      "personnage": "messager",
+      "role_id": "messager",
+      "pose": "presenter",
+      "fichier": "images/compagnons/messager/pose-presenter.png",
+      "alt": "Messager, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-metteur-en-scene",
+      "type": "role",
+      "role_id": "metteur-en-scene",
+      "fichier": "images/roles/metteur-en-scene.png",
+      "alt": "Metteur en scène, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-metteur-en-scene-pose-saluer",
+      "type": "compagnon",
+      "personnage": "metteur-en-scene",
+      "role_id": "metteur-en-scene",
+      "pose": "saluer",
+      "fichier": "images/compagnons/metteur-en-scene/pose-saluer.png",
+      "alt": "Metteur en scène, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-metteur-en-scene-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "metteur-en-scene",
+      "role_id": "metteur-en-scene",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/metteur-en-scene/pose-expliquer.png",
+      "alt": "Metteur en scène, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-metteur-en-scene-pose-aider",
+      "type": "compagnon",
+      "personnage": "metteur-en-scene",
+      "role_id": "metteur-en-scene",
+      "pose": "aider",
+      "fichier": "images/compagnons/metteur-en-scene/pose-aider.png",
+      "alt": "Metteur en scène, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-metteur-en-scene-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "metteur-en-scene",
+      "role_id": "metteur-en-scene",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/metteur-en-scene/pose-celebrer.png",
+      "alt": "Metteur en scène, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-metteur-en-scene-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "metteur-en-scene",
+      "role_id": "metteur-en-scene",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/metteur-en-scene/pose-reflechir.png",
+      "alt": "Metteur en scène, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-metteur-en-scene-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "metteur-en-scene",
+      "role_id": "metteur-en-scene",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/metteur-en-scene/pose-ecouter.png",
+      "alt": "Metteur en scène, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-metteur-en-scene-pose-presenter",
+      "type": "compagnon",
+      "personnage": "metteur-en-scene",
+      "role_id": "metteur-en-scene",
+      "pose": "presenter",
+      "fichier": "images/compagnons/metteur-en-scene/pose-presenter.png",
+      "alt": "Metteur en scène, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-mineur",
+      "type": "role",
+      "role_id": "mineur",
+      "fichier": "images/roles/mineur.png",
+      "alt": "Mineur, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-mineur-pose-saluer",
+      "type": "compagnon",
+      "personnage": "mineur",
+      "role_id": "mineur",
+      "pose": "saluer",
+      "fichier": "images/compagnons/mineur/pose-saluer.png",
+      "alt": "Mineur, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mineur-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "mineur",
+      "role_id": "mineur",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/mineur/pose-expliquer.png",
+      "alt": "Mineur, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mineur-pose-aider",
+      "type": "compagnon",
+      "personnage": "mineur",
+      "role_id": "mineur",
+      "pose": "aider",
+      "fichier": "images/compagnons/mineur/pose-aider.png",
+      "alt": "Mineur, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mineur-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "mineur",
+      "role_id": "mineur",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/mineur/pose-celebrer.png",
+      "alt": "Mineur, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mineur-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "mineur",
+      "role_id": "mineur",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/mineur/pose-reflechir.png",
+      "alt": "Mineur, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mineur-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "mineur",
+      "role_id": "mineur",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/mineur/pose-ecouter.png",
+      "alt": "Mineur, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mineur-pose-presenter",
+      "type": "compagnon",
+      "personnage": "mineur",
+      "role_id": "mineur",
+      "pose": "presenter",
+      "fichier": "images/compagnons/mineur/pose-presenter.png",
+      "alt": "Mineur, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-musicien",
+      "type": "role",
+      "role_id": "musicien",
+      "fichier": "images/roles/musicien.png",
+      "alt": "Musicien, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-musicien-pose-saluer",
+      "type": "compagnon",
+      "personnage": "musicien",
+      "role_id": "musicien",
+      "pose": "saluer",
+      "fichier": "images/compagnons/musicien/pose-saluer.png",
+      "alt": "Musicien, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-musicien-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "musicien",
+      "role_id": "musicien",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/musicien/pose-expliquer.png",
+      "alt": "Musicien, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-musicien-pose-aider",
+      "type": "compagnon",
+      "personnage": "musicien",
+      "role_id": "musicien",
+      "pose": "aider",
+      "fichier": "images/compagnons/musicien/pose-aider.png",
+      "alt": "Musicien, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-musicien-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "musicien",
+      "role_id": "musicien",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/musicien/pose-celebrer.png",
+      "alt": "Musicien, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-musicien-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "musicien",
+      "role_id": "musicien",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/musicien/pose-reflechir.png",
+      "alt": "Musicien, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-musicien-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "musicien",
+      "role_id": "musicien",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/musicien/pose-ecouter.png",
+      "alt": "Musicien, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-musicien-pose-presenter",
+      "type": "compagnon",
+      "personnage": "musicien",
+      "role_id": "musicien",
+      "pose": "presenter",
+      "fichier": "images/compagnons/musicien/pose-presenter.png",
+      "alt": "Musicien, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-mystique",
+      "type": "role",
+      "role_id": "mystique",
+      "fichier": "images/roles/mystique.png",
+      "alt": "Mystique, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-mystique-pose-saluer",
+      "type": "compagnon",
+      "personnage": "mystique",
+      "role_id": "mystique",
+      "pose": "saluer",
+      "fichier": "images/compagnons/mystique/pose-saluer.png",
+      "alt": "Mystique, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mystique-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "mystique",
+      "role_id": "mystique",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/mystique/pose-expliquer.png",
+      "alt": "Mystique, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mystique-pose-aider",
+      "type": "compagnon",
+      "personnage": "mystique",
+      "role_id": "mystique",
+      "pose": "aider",
+      "fichier": "images/compagnons/mystique/pose-aider.png",
+      "alt": "Mystique, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mystique-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "mystique",
+      "role_id": "mystique",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/mystique/pose-celebrer.png",
+      "alt": "Mystique, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mystique-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "mystique",
+      "role_id": "mystique",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/mystique/pose-reflechir.png",
+      "alt": "Mystique, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mystique-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "mystique",
+      "role_id": "mystique",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/mystique/pose-ecouter.png",
+      "alt": "Mystique, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-mystique-pose-presenter",
+      "type": "compagnon",
+      "personnage": "mystique",
+      "role_id": "mystique",
+      "pose": "presenter",
+      "fichier": "images/compagnons/mystique/pose-presenter.png",
+      "alt": "Mystique, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-origamiste",
+      "type": "role",
+      "role_id": "origamiste",
+      "fichier": "images/roles/origamiste.png",
+      "alt": "Origamiste, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-origamiste-pose-saluer",
+      "type": "compagnon",
+      "personnage": "origamiste",
+      "role_id": "origamiste",
+      "pose": "saluer",
+      "fichier": "images/compagnons/origamiste/pose-saluer.png",
+      "alt": "Origamiste, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-origamiste-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "origamiste",
+      "role_id": "origamiste",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/origamiste/pose-expliquer.png",
+      "alt": "Origamiste, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-origamiste-pose-aider",
+      "type": "compagnon",
+      "personnage": "origamiste",
+      "role_id": "origamiste",
+      "pose": "aider",
+      "fichier": "images/compagnons/origamiste/pose-aider.png",
+      "alt": "Origamiste, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-origamiste-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "origamiste",
+      "role_id": "origamiste",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/origamiste/pose-celebrer.png",
+      "alt": "Origamiste, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-origamiste-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "origamiste",
+      "role_id": "origamiste",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/origamiste/pose-reflechir.png",
+      "alt": "Origamiste, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-origamiste-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "origamiste",
+      "role_id": "origamiste",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/origamiste/pose-ecouter.png",
+      "alt": "Origamiste, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-origamiste-pose-presenter",
+      "type": "compagnon",
+      "personnage": "origamiste",
+      "role_id": "origamiste",
+      "pose": "presenter",
+      "fichier": "images/compagnons/origamiste/pose-presenter.png",
+      "alt": "Origamiste, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-pecheur",
+      "type": "role",
+      "role_id": "pecheur",
+      "fichier": "images/roles/pecheur.png",
+      "alt": "Pecheur, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-pecheur-pose-saluer",
+      "type": "compagnon",
+      "personnage": "pecheur",
+      "role_id": "pecheur",
+      "pose": "saluer",
+      "fichier": "images/compagnons/pecheur/pose-saluer.png",
+      "alt": "Pecheur, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-pecheur-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "pecheur",
+      "role_id": "pecheur",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/pecheur/pose-expliquer.png",
+      "alt": "Pecheur, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-pecheur-pose-aider",
+      "type": "compagnon",
+      "personnage": "pecheur",
+      "role_id": "pecheur",
+      "pose": "aider",
+      "fichier": "images/compagnons/pecheur/pose-aider.png",
+      "alt": "Pecheur, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-pecheur-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "pecheur",
+      "role_id": "pecheur",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/pecheur/pose-celebrer.png",
+      "alt": "Pecheur, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-pecheur-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "pecheur",
+      "role_id": "pecheur",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/pecheur/pose-reflechir.png",
+      "alt": "Pecheur, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-pecheur-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "pecheur",
+      "role_id": "pecheur",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/pecheur/pose-ecouter.png",
+      "alt": "Pecheur, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-pecheur-pose-presenter",
+      "type": "compagnon",
+      "personnage": "pecheur",
+      "role_id": "pecheur",
+      "pose": "presenter",
+      "fichier": "images/compagnons/pecheur/pose-presenter.png",
+      "alt": "Pecheur, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-peintre",
+      "type": "role",
+      "role_id": "peintre",
+      "fichier": "images/roles/peintre.png",
+      "alt": "Peintre, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-peintre-pose-saluer",
+      "type": "compagnon",
+      "personnage": "peintre",
+      "role_id": "peintre",
+      "pose": "saluer",
+      "fichier": "images/compagnons/peintre/pose-saluer.png",
+      "alt": "Peintre, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-peintre-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "peintre",
+      "role_id": "peintre",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/peintre/pose-expliquer.png",
+      "alt": "Peintre, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-peintre-pose-aider",
+      "type": "compagnon",
+      "personnage": "peintre",
+      "role_id": "peintre",
+      "pose": "aider",
+      "fichier": "images/compagnons/peintre/pose-aider.png",
+      "alt": "Peintre, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-peintre-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "peintre",
+      "role_id": "peintre",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/peintre/pose-celebrer.png",
+      "alt": "Peintre, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-peintre-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "peintre",
+      "role_id": "peintre",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/peintre/pose-reflechir.png",
+      "alt": "Peintre, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-peintre-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "peintre",
+      "role_id": "peintre",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/peintre/pose-ecouter.png",
+      "alt": "Peintre, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-peintre-pose-presenter",
+      "type": "compagnon",
+      "personnage": "peintre",
+      "role_id": "peintre",
+      "pose": "presenter",
+      "fichier": "images/compagnons/peintre/pose-presenter.png",
+      "alt": "Peintre, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-photographe",
+      "type": "role",
+      "role_id": "photographe",
+      "fichier": "images/roles/photographe.png",
+      "alt": "Photographe, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-photographe-pose-saluer",
+      "type": "compagnon",
+      "personnage": "photographe",
+      "role_id": "photographe",
+      "pose": "saluer",
+      "fichier": "images/compagnons/photographe/pose-saluer.png",
+      "alt": "Photographe, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-photographe-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "photographe",
+      "role_id": "photographe",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/photographe/pose-expliquer.png",
+      "alt": "Photographe, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-photographe-pose-aider",
+      "type": "compagnon",
+      "personnage": "photographe",
+      "role_id": "photographe",
+      "pose": "aider",
+      "fichier": "images/compagnons/photographe/pose-aider.png",
+      "alt": "Photographe, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-photographe-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "photographe",
+      "role_id": "photographe",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/photographe/pose-celebrer.png",
+      "alt": "Photographe, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-photographe-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "photographe",
+      "role_id": "photographe",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/photographe/pose-reflechir.png",
+      "alt": "Photographe, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-photographe-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "photographe",
+      "role_id": "photographe",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/photographe/pose-ecouter.png",
+      "alt": "Photographe, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-photographe-pose-presenter",
+      "type": "compagnon",
+      "personnage": "photographe",
+      "role_id": "photographe",
+      "pose": "presenter",
+      "fichier": "images/compagnons/photographe/pose-presenter.png",
+      "alt": "Photographe, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-politicien",
+      "type": "role",
+      "role_id": "politicien",
+      "fichier": "images/roles/politicien.png",
+      "alt": "Politicien, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-politicien-pose-saluer",
+      "type": "compagnon",
+      "personnage": "politicien",
+      "role_id": "politicien",
+      "pose": "saluer",
+      "fichier": "images/compagnons/politicien/pose-saluer.png",
+      "alt": "Politicien, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-politicien-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "politicien",
+      "role_id": "politicien",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/politicien/pose-expliquer.png",
+      "alt": "Politicien, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-politicien-pose-aider",
+      "type": "compagnon",
+      "personnage": "politicien",
+      "role_id": "politicien",
+      "pose": "aider",
+      "fichier": "images/compagnons/politicien/pose-aider.png",
+      "alt": "Politicien, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-politicien-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "politicien",
+      "role_id": "politicien",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/politicien/pose-celebrer.png",
+      "alt": "Politicien, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-politicien-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "politicien",
+      "role_id": "politicien",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/politicien/pose-reflechir.png",
+      "alt": "Politicien, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-politicien-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "politicien",
+      "role_id": "politicien",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/politicien/pose-ecouter.png",
+      "alt": "Politicien, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-politicien-pose-presenter",
+      "type": "compagnon",
+      "personnage": "politicien",
+      "role_id": "politicien",
+      "pose": "presenter",
+      "fichier": "images/compagnons/politicien/pose-presenter.png",
+      "alt": "Politicien, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-redacteur",
+      "type": "role",
+      "role_id": "redacteur",
+      "fichier": "images/roles/redacteur.png",
+      "alt": "Redacteur, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-redacteur-pose-saluer",
+      "type": "compagnon",
+      "personnage": "redacteur",
+      "role_id": "redacteur",
+      "pose": "saluer",
+      "fichier": "images/compagnons/redacteur/pose-saluer.png",
+      "alt": "Redacteur, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-redacteur-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "redacteur",
+      "role_id": "redacteur",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/redacteur/pose-expliquer.png",
+      "alt": "Redacteur, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-redacteur-pose-aider",
+      "type": "compagnon",
+      "personnage": "redacteur",
+      "role_id": "redacteur",
+      "pose": "aider",
+      "fichier": "images/compagnons/redacteur/pose-aider.png",
+      "alt": "Redacteur, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-redacteur-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "redacteur",
+      "role_id": "redacteur",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/redacteur/pose-celebrer.png",
+      "alt": "Redacteur, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-redacteur-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "redacteur",
+      "role_id": "redacteur",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/redacteur/pose-reflechir.png",
+      "alt": "Redacteur, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-redacteur-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "redacteur",
+      "role_id": "redacteur",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/redacteur/pose-ecouter.png",
+      "alt": "Redacteur, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-redacteur-pose-presenter",
+      "type": "compagnon",
+      "personnage": "redacteur",
+      "role_id": "redacteur",
+      "pose": "presenter",
+      "fichier": "images/compagnons/redacteur/pose-presenter.png",
+      "alt": "Redacteur, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-regisseur",
+      "type": "role",
+      "role_id": "regisseur",
+      "fichier": "images/roles/regisseur.png",
+      "alt": "Regisseur, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-regisseur-pose-saluer",
+      "type": "compagnon",
+      "personnage": "regisseur",
+      "role_id": "regisseur",
+      "pose": "saluer",
+      "fichier": "images/compagnons/regisseur/pose-saluer.png",
+      "alt": "Regisseur, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-regisseur-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "regisseur",
+      "role_id": "regisseur",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/regisseur/pose-expliquer.png",
+      "alt": "Regisseur, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-regisseur-pose-aider",
+      "type": "compagnon",
+      "personnage": "regisseur",
+      "role_id": "regisseur",
+      "pose": "aider",
+      "fichier": "images/compagnons/regisseur/pose-aider.png",
+      "alt": "Regisseur, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-regisseur-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "regisseur",
+      "role_id": "regisseur",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/regisseur/pose-celebrer.png",
+      "alt": "Regisseur, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-regisseur-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "regisseur",
+      "role_id": "regisseur",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/regisseur/pose-reflechir.png",
+      "alt": "Regisseur, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-regisseur-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "regisseur",
+      "role_id": "regisseur",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/regisseur/pose-ecouter.png",
+      "alt": "Regisseur, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-regisseur-pose-presenter",
+      "type": "compagnon",
+      "personnage": "regisseur",
+      "role_id": "regisseur",
+      "pose": "presenter",
+      "fichier": "images/compagnons/regisseur/pose-presenter.png",
+      "alt": "Regisseur, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-scientifique",
+      "type": "role",
+      "role_id": "scientifique",
+      "fichier": "images/roles/scientifique.png",
+      "alt": "Scientifique, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-scientifique-pose-saluer",
+      "type": "compagnon",
+      "personnage": "scientifique",
+      "role_id": "scientifique",
+      "pose": "saluer",
+      "fichier": "images/compagnons/scientifique/pose-saluer.png",
+      "alt": "Scientifique, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-scientifique-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "scientifique",
+      "role_id": "scientifique",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/scientifique/pose-expliquer.png",
+      "alt": "Scientifique, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-scientifique-pose-aider",
+      "type": "compagnon",
+      "personnage": "scientifique",
+      "role_id": "scientifique",
+      "pose": "aider",
+      "fichier": "images/compagnons/scientifique/pose-aider.png",
+      "alt": "Scientifique, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-scientifique-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "scientifique",
+      "role_id": "scientifique",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/scientifique/pose-celebrer.png",
+      "alt": "Scientifique, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-scientifique-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "scientifique",
+      "role_id": "scientifique",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/scientifique/pose-reflechir.png",
+      "alt": "Scientifique, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-scientifique-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "scientifique",
+      "role_id": "scientifique",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/scientifique/pose-ecouter.png",
+      "alt": "Scientifique, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-scientifique-pose-presenter",
+      "type": "compagnon",
+      "personnage": "scientifique",
+      "role_id": "scientifique",
+      "pose": "presenter",
+      "fichier": "images/compagnons/scientifique/pose-presenter.png",
+      "alt": "Scientifique, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-sorciere",
+      "type": "role",
+      "role_id": "sorciere",
+      "fichier": "images/roles/sorciere.png",
+      "alt": "Sorciere, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-sorciere-pose-saluer",
+      "type": "compagnon",
+      "personnage": "sorciere",
+      "role_id": "sorciere",
+      "pose": "saluer",
+      "fichier": "images/compagnons/sorciere/pose-saluer.png",
+      "alt": "Sorciere, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-sorciere-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "sorciere",
+      "role_id": "sorciere",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/sorciere/pose-expliquer.png",
+      "alt": "Sorciere, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-sorciere-pose-aider",
+      "type": "compagnon",
+      "personnage": "sorciere",
+      "role_id": "sorciere",
+      "pose": "aider",
+      "fichier": "images/compagnons/sorciere/pose-aider.png",
+      "alt": "Sorciere, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-sorciere-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "sorciere",
+      "role_id": "sorciere",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/sorciere/pose-celebrer.png",
+      "alt": "Sorciere, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-sorciere-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "sorciere",
+      "role_id": "sorciere",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/sorciere/pose-reflechir.png",
+      "alt": "Sorciere, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-sorciere-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "sorciere",
+      "role_id": "sorciere",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/sorciere/pose-ecouter.png",
+      "alt": "Sorciere, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-sorciere-pose-presenter",
+      "type": "compagnon",
+      "personnage": "sorciere",
+      "role_id": "sorciere",
+      "pose": "presenter",
+      "fichier": "images/compagnons/sorciere/pose-presenter.png",
+      "alt": "Sorciere, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-traducteur",
+      "type": "role",
+      "role_id": "traducteur",
+      "fichier": "images/roles/traducteur.png",
+      "alt": "Traducteur, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-traducteur-pose-saluer",
+      "type": "compagnon",
+      "personnage": "traducteur",
+      "role_id": "traducteur",
+      "pose": "saluer",
+      "fichier": "images/compagnons/traducteur/pose-saluer.png",
+      "alt": "Traducteur, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-traducteur-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "traducteur",
+      "role_id": "traducteur",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/traducteur/pose-expliquer.png",
+      "alt": "Traducteur, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-traducteur-pose-aider",
+      "type": "compagnon",
+      "personnage": "traducteur",
+      "role_id": "traducteur",
+      "pose": "aider",
+      "fichier": "images/compagnons/traducteur/pose-aider.png",
+      "alt": "Traducteur, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-traducteur-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "traducteur",
+      "role_id": "traducteur",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/traducteur/pose-celebrer.png",
+      "alt": "Traducteur, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-traducteur-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "traducteur",
+      "role_id": "traducteur",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/traducteur/pose-reflechir.png",
+      "alt": "Traducteur, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-traducteur-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "traducteur",
+      "role_id": "traducteur",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/traducteur/pose-ecouter.png",
+      "alt": "Traducteur, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-traducteur-pose-presenter",
+      "type": "compagnon",
+      "personnage": "traducteur",
+      "role_id": "traducteur",
+      "pose": "presenter",
+      "fichier": "images/compagnons/traducteur/pose-presenter.png",
+      "alt": "Traducteur, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "role-veterinaire",
+      "type": "role",
+      "role_id": "veterinaire",
+      "fichier": "images/roles/veterinaire.png",
+      "alt": "Veterinaire, compagnon-rôle, posture neutre",
+      "statut": "a_generer",
+      "pose": "neutre"
+    },
+    {
+      "id": "compagnon-veterinaire-pose-saluer",
+      "type": "compagnon",
+      "personnage": "veterinaire",
+      "role_id": "veterinaire",
+      "pose": "saluer",
+      "fichier": "images/compagnons/veterinaire/pose-saluer.png",
+      "alt": "Veterinaire, compagnon-rôle, pose saluer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-veterinaire-pose-expliquer",
+      "type": "compagnon",
+      "personnage": "veterinaire",
+      "role_id": "veterinaire",
+      "pose": "expliquer",
+      "fichier": "images/compagnons/veterinaire/pose-expliquer.png",
+      "alt": "Veterinaire, compagnon-rôle, pose expliquer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-veterinaire-pose-aider",
+      "type": "compagnon",
+      "personnage": "veterinaire",
+      "role_id": "veterinaire",
+      "pose": "aider",
+      "fichier": "images/compagnons/veterinaire/pose-aider.png",
+      "alt": "Veterinaire, compagnon-rôle, pose aider",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-veterinaire-pose-celebrer",
+      "type": "compagnon",
+      "personnage": "veterinaire",
+      "role_id": "veterinaire",
+      "pose": "celebrer",
+      "fichier": "images/compagnons/veterinaire/pose-celebrer.png",
+      "alt": "Veterinaire, compagnon-rôle, pose celebrer",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-veterinaire-pose-reflechir",
+      "type": "compagnon",
+      "personnage": "veterinaire",
+      "role_id": "veterinaire",
+      "pose": "reflechir",
+      "fichier": "images/compagnons/veterinaire/pose-reflechir.png",
+      "alt": "Veterinaire, compagnon-rôle, pose reflechir",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-veterinaire-pose-ecouter",
+      "type": "compagnon",
+      "personnage": "veterinaire",
+      "role_id": "veterinaire",
+      "pose": "ecouter",
+      "fichier": "images/compagnons/veterinaire/pose-ecouter.png",
+      "alt": "Veterinaire, compagnon-rôle, pose ecouter",
+      "statut": "a_generer"
+    },
+    {
+      "id": "compagnon-veterinaire-pose-presenter",
+      "type": "compagnon",
+      "personnage": "veterinaire",
+      "role_id": "veterinaire",
+      "pose": "presenter",
+      "fichier": "images/compagnons/veterinaire/pose-presenter.png",
+      "alt": "Veterinaire, compagnon-rôle, pose presenter",
+      "statut": "a_generer"
+    }
+  ]
+}

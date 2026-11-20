@@ -1,47 +1,56 @@
-# Catalogue visuel Québec
+# Personnages Ékole Québec — Collection v3
 
-Référence : `catalogue.json`, format `ekole.personnages/1`, déclaré dans `pack.json`.
+**38 rôles × 2 versions (garçon et fille) × 8 poses = 608 images.**
 
-## Périmètre arrêté
+Le rôle pédagogique reste le même, mais chaque version est une identité visuelle distincte : portrait neutre maître + sept poses. Les portraits sont générés et détourés dans Atelier Images, puis publiés seulement après approbation.
 
-| Compagnon | Univers | Variantes scolaires | Poses supplémentaires | Rôle associé |
-|---|---|---:|---|---|
-| Mila | quotidien | 1 à 6 | saluer, apprendre, aider, célébrer | — |
-| Léo | quotidien | 1 à 6 | saluer, apprendre, aider, célébrer | — |
-| Alex | quotidien | 1 à 6 | saluer, apprendre, aider, célébrer | — |
-| Fermier | ferme | 1 à 6 | — | fermier |
-| Extraterrestre | cosmos | 1 à 6 | — | extraterrestre |
+- Garçon : `role-photographe`, `compagnon-photographe-pose-saluer`. IDs v2 préservés.
+- Fille : `role-photographe-fille`, `compagnon-photographe-fille-pose-saluer`.
+- Les deux versions d'un rôle peuvent être choisies comme compagnon.
+- Les cartes de rôle affichent côte à côte les deux versions disponibles.
+- Les contenus pédagogiques et les identifiants Kontexte ne sont pas dupliqués.
 
-Les années représentent des variantes illustrées du parcours scolaire, pas des âges réels. Les quatre poses sont communes aux années pour chacun des trois personnages humains; il n’y a pas de produit « six années × quatre poses ».
+Le coût estimé est affiché dans Atelier Images pour FLUX.2 Pro avant de démarrer un lot. Le tarif réel dépend des mégapixels, références et reprises. Les 608 entrées ne représentent pas 608 images déjà créées.
 
-Le rôle `explorateur` est distinct du rôle `extraterrestre`. L’ancien choix de compagnon `cosmos` pointe explicitement vers l’extraterrestre. Un univers peut contenir plusieurs personnages : Mila, Léo et Alex ne sont pas trois univers différents.
+## Historique du catalogue v2
 
-## Une image par rôle
+# Ékole Québec — 38 compagnons-rôles, 8 poses (V2)
 
-Les 38 rôles Kontexte ont chacun un seul portrait partagé entre toutes les activités, sans variante d’année ni de pose. Cela comprend 23 rôles utilisés dans les 11 missions actuelles et 15 rôles de réserve. La liste canonique vient de `Kontexte/data/roles/`. Une image de rôle fermier reste une ressource distincte de ses six variantes de compagnon.
+**Un rôle = une identité = un compagnon.** Le catalogue `catalogue.json` est la source canonique des 38 identités visuelles et des 304 ressources attendues (38 portraits neutres + 266 poses).
 
-Total prévu : **42 variantes de compagnons + 38 illustrations de rôles = 80 images**. Aucune image nouvelle n’est générée pendant cette passe. Le snapshot ne contient pas les quatre planches historiques ni leurs PNG découpés; ils ne sont pas remplacés par des fichiers factices.
+## Poses disponibles maintenant
 
-## Contrat de fichier et intégration ultérieure
+- `neutre` — carte de rôle, sélection, miniature
+- `saluer` — accueil
+- `expliquer` — introduction de consignes
+- `aider` — encouragement et nouvelle tentative
+- `celebrer` — valoriser un effort ou une étape explorée, pas une note
+- `reflechir` — chercher, comparer, réfléchir
+- `ecouter` — écoute attentive et activités d'échange
+- `presenter` — pointer/montrer une zone libre ou une ressource
 
-Chaque entrée `assets` possède un identifiant, un type, un chemin PNG relatif à ce dossier, un texte alternatif et un statut :
+## Contrat visuel
 
-- `a_generer` : image attendue, aucun affichage public;
-- `a_verifier` : sortie de découpe à contrôler, aucun affichage public;
-- `pret` : illustration vérifiée, affichable seulement si le fichier existe et son en-tête PNG passe le contrôle du moteur.
+Le portrait neutre reste `role-<id>` et garde **l'ancien chemin** `images/roles/<id>.png`. Les poses utilisent `compagnon-<id>-pose-<pose>` et `images/compagnons/<id>/pose-<pose>.png`. Cela évite de dédoubler l'identité d'un rôle dans les missions et le compagnon.
 
-Conserver les identifiants et chemins pendant la génération. Les PNG standardisés font 512 × 512 pixels RGBA, personnage entier et centré. La marge de sécurité de 32 pixels appartient au contenu de chaque case; la découpe conserve toute la case. Le texte et les noms sont affichés par l’interface, hors image. Fond transparent souhaité; le découpeur conserve l’alpha et ne fabrique pas un détourage parfait.
+Chaque fichier public est un PNG transparent 512 × 512, sans texte intégré, servi **uniquement** après validation et statut `pret`. Le fichier `catalogue.v1.archive.json` conserve le brouillon précédent (Mila, Léo, Alex, variantes par année, etc.). Ce brouillon ne fait pas partie du nouveau catalogue actif.
 
-Les plans se trouvent dans le dépôt voisin `Ekole_Avatars_Decoupes/plans/`. Leur ordre de lecture est gauche à droite, puis haut en bas. Les cellules restantes de la dernière planche de rôles restent vides.
+## Production / publication
 
-Après génération : découper, contrôler la planche de vérification, copier le sous-dossier `exports/images/` vers `personnages/images/`, puis passer les seules entrées vérifiées à `pret`. Ne pas copier `manifest_standard.json` sur `catalogue.json`. Redémarrer Ekole pour relire le catalogue. Aucun passage automatique à `pret`.
+1. Dans `Atelier-Images`, choisir **les 38 portraits neutres**, en générer d'abord 2–3 pour vérifier le style.
+2. Contrôler et sélectionner chaque candidat neutre, puis cliquer **Approuver comme maître** : cela fournit la référence d’identité pour les sept poses dérivées.
+3. Générer les 266 poses (par sous-lots si possible), vérifier les fonds transparents et la fidélité du visage/costume.
+4. Publier explicitement les candidats acceptés dans Ékole Québec (sauvegardes des destinations et du catalogue).
+5. Redémarrer le serveur Ékole pour relire le catalogue, puis lancer `python ekole-quebec/tools/verifier_personnages.py` depuis le dossier parent.
 
-Depuis le dossier parent des quatre dépôts :
+Une référence de style globale est conseillée. **Il n'est pas prévu de multiplier systématiquement les images par thème ni par année scolaire.** Des variantes contextuelles pourront être ajoutées ultérieurement de façon ciblée.
 
-```sh
-python ekole-quebec/tools/verifier_personnages.py
-# Plus tard, une fois toutes les images intégrées :
-python ekole-quebec/tools/verifier_personnages.py --exiger-images
-```
+## Intégration
 
-Le moteur Ekole et les règles de découpe restent génériques; cette sélection de personnages appartient au paquet Québec. Les images pédagogiques des Kristals et leur système de prompts restent séparés.
+La page élève affiche maintenant un **choix facultatif de 38 compagnons-rôles** avec recherche. Les cartes de rôles et les missions utilisent le même portrait neutre; le parcours pédagogique peut demander une pose particulière. Les portraits absents ont un sigle de repli. Les choix sont conservés seulement pendant la session de l'onglet, sans suivi individuel. L'activation dépend de `personnages_compagnons_actifs` dans `pack.json`.
+
+**Aucune image payante n'est générée dans ce pack.** Les 304 emplacements sont `a_generer` jusqu'à la publication humaine. Les ancien(ne)s scripts/plans de découpe 80 images sont historiques, non applicables au nouveau contrat.
+
+
+### Catalogue v3 : 38 rôles × garçon/fille × 8 poses
+Les IDs historiques `role-{role}` et `compagnon-{role}-pose-{pose}` restent rattachés aux variantes garçon. Les variantes fille sont `role-{role}-fille` et `compagnon-{role}-fille-pose-{pose}`. Les deux versions apparaissent ensemble dans les cartes de rôles; chaque version peut être choisie individuellement comme compagnon. Les images existantes ne sont pas écrasées lors de la migration.

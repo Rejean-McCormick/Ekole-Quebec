@@ -40,3 +40,7 @@ python -m unittest discover -s tests
 ```
 
 Le second contrôle exige les dépôts alignés voisins. Le premier contrôle et les tests d’optimisation fonctionnent sans moteur frère.
+
+## Compagnons-rôles visuels V2 (novembre 2026)
+
+`personnages/catalogue.json` définit désormais **38 compagnons-rôles × 8 poses = 304 ressources**. Les portraits neutres sont partagés avec les cartes de rôle; les autres poses se génèrent dans **Atelier Images** après approbation du maître. Détails : `personnages/README.md`. Le catalogue précédent de 80 ressources est archivé dans `personnages/catalogue.v1.archive.json`. Aucune image nouvelle n’est incluse par défaut.
